@@ -1,31 +1,31 @@
 Text_PictureBookShelf:
-	.string "There's a set of Pokémon picture books.$"
+	.string "Hi ha una col·lecció de llibres de Pokémon.$"
 
 Text_BookShelf:
-	.string "It's filled with all sorts of books.$"
+	.string "Està ple de tot tipus de llibres.$"
 
 Text_PokemonCenterBookShelf:
-	.string "Pokémon magazines!\n"
-	.string "Pokémon Pal…\p"
-	.string "Pokémon Handbook…\n"
-	.string "Adorable Pokémon…$"
+	.string "Revistes de Pokémon!\n"
+	.string "Amic Pokémon…\p"
+	.string "Manual Pokémon…\n"
+	.string "Pokémon Adorables…$"
 
 Text_Vase:
-	.string "This vase looks expensive…\n"
-	.string "Peered inside…\p"
-	.string "But, it was empty.$"
+	.string "Aquest gerro sembla car…\n"
+	.string "Has mirat a dins…\p"
+	.string "Però estava buit.$"
 
 Text_EmptyTrashCan:
-	.string "It's empty.$"
+	.string "Està buit.$"
 
 Text_ShopShelf:
-	.string "The shelves brim with all sorts of\n"
-	.string "Pokémon merchandise.$"
+	.string "Les prestatgeries estan plenes de\n"
+	.string "tota mena de productes Pokémon.$"
 
 Text_Blueprint:
-	.string "A blueprint of some sort?\n"
-	.string "It's too complicated!$"
+	.string "Un tipus de plànol?\n"
+	.string "És massa complicat!$"
 
 Text_Painting:
-	.string "It's a painting of a\n"
-	.string "legendary Pokémon.$"
+	.string "És un quadre d'un\n"
+	.string "Pokémon llegendari.$"

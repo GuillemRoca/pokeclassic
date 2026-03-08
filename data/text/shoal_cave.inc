@@ -1,53 +1,53 @@
 ShoalCave_LowTideEntranceRoom_Text_AreYouPlanningOnGoingInThere:
-	.string "Are you planning on going deep\n"
-	.string "in there?\p"
-	.string "How about bringing me back some\n"
-	.string "Shoal Salt and Shoal Shells?\p"
-	.string "I can make you something good if\n"
-	.string "you bring me the ingredients.$"
+	.string "Tens pensat endinsar-te\n"
+	.string "aquí a dins?\p"
+	.string "I si em portes Sal Shoal i\n"
+	.string "Closques Shoal quan tornis?\p"
+	.string "Puc fer-te alguna cosa bona si\n"
+	.string "em portes els ingredients.$"
 
 ShoalCave_LowTideEntranceRoom_Text_BringMe4ShoalSaltAndShells:
-	.string "If you bring me four each of the\n"
-	.string "Shoal Salt and Shoal Shells,\l"
-	.string "I can make you a Shell Bell…\p"
-	.string "You can get those ingredients\n"
-	.string "every day.$"
+	.string "Si em portes quatre de cada,\n"
+	.string "Sal Shoal i Closques Shoal,\l"
+	.string "puc fer-te un Campanet Closca…\p"
+	.string "Pots obtenir aquests ingredients\n"
+	.string "cada dia.$"
 
 ShoalCave_LowTideEntranceRoom_Text_WouldYouLikeShellBell:
-	.string "Oh, hey! Shoal Salt and Shoal Shells!\n"
-	.string "And enough of them, too!\p"
-	.string "Would you like me to make you\n"
-	.string "a Shell Bell with them?$"
+	.string "Oh, ei! Sal Shoal i Closques Shoal!\n"
+	.string "I prou, a més!\p"
+	.string "Vols que et faci\n"
+	.string "un Campanet Closca?$"
 
 ShoalCave_LowTideEntranceRoom_Text_MakeShellBellRightAway:
-	.string "All righty, then! I'll make you\n"
-	.string "a Shell Bell right away.\p"
+	.string "Molt bé, doncs! Et faré\n"
+	.string "un Campanet Closca ara mateix.\p"
 	.string "… … … … … … … …\n"
 	.string "… … … … … … … …\p"
-	.string "There! Done!$"
+	.string "Llest! Fet!$"
 
 ShoalCave_LowTideEntranceRoom_Text_ExplainShellBell:
-	.string "Have a Pokémon hold on to that.\n"
-	.string "It'll love it, that's for certain.\p"
-	.string "Why, the Shell Bell's chime…\n"
-	.string "It's simply sublime!\p"
-	.string "You can get its ingredients every day,\n"
-	.string "so I can make you more.$"
+	.string "Fes que un Pokémon el dugui.\n"
+	.string "Li encantarà, segur.\p"
+	.string "El tintineig del Campanet Closca…\n"
+	.string "És simplement sublim!\p"
+	.string "Pots obtenir els ingredients cada dia,\n"
+	.string "així que puc fer-ne més.$"
 
 ShoalCave_LowTideEntranceRoom_Text_WantedToMakeShellBell:
-	.string "Oh… Is that so…\n"
-	.string "I wanted to make a Shell Bell…$"
+	.string "Oh… Ah sí…\n"
+	.string "Volia fer un Campanet Closca…$"
 
 ShoalCave_LowTideEntranceRoom_Text_NoSpaceInYourBag:
-	.string "You don't have space in your Bag\n"
-	.string "if I were to make it for you.\p"
-	.string "You should make room and come back\n"
-	.string "for a Shell Bell.$"
+	.string "No tens espai a la Motxilla\n"
+	.string "si te'l faig ara.\p"
+	.string "Hauries de fer espai i tornar\n"
+	.string "per un Campanet Closca.$"
 
 ShoalCave_Text_WasShoalSaltNowNothing:
-	.string "There was some Shoal Salt here.\n"
-	.string "But, there's nothing here now.$"
+	.string "Aquí hi havia Sal Shoal.\n"
+	.string "Però ara no hi ha res.$"
 
 ShoalCave_Text_WasShoallShellNowNothing:
-	.string "There was a Shoal Shell here.\n"
-	.string "But, there's nothing here now.$"
+	.string "Aquí hi havia una Closca Shoal.\n"
+	.string "Però ara no hi ha res.$"

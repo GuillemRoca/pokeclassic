@@ -4,93 +4,93 @@ gContestHallPaintingCaption::
 
 @ Unused
 gContestPaintingContest::
-	.string "Contest$"
+	.string "Concurs$"
 
 gContestRankNormal::
-	.string "Normal Rank$"
+	.string "Rang Normal$"
 
 gContestRankSuper::
-	.string "Super Rank$"
+	.string "Rang Súper$"
 
 gContestRankHyper::
-	.string "Hyper Rank$"
+	.string "Rang Hiper$"
 
 gContestRankMaster::
-	.string "Master Rank$"
+	.string "Rang Màster$"
 
 gContestLink::
-	.string "Link$"
+	.string "Enllaç$"
 
 gContestCoolness::
-	.string "Coolness$"
+	.string "Gràcia$"
 
 gContestBeauty::
-	.string "Beauty$"
+	.string "Bellesa$"
 
 gContestCuteness::
-	.string "Cuteness$"
+	.string "Tendresa$"
 
 gContestSmartness::
-	.string "Smartness$"
+	.string "Saviesa$"
 
 gContestToughness::
-	.string "Toughness$"
+	.string "Potència$"
 
 gContestPaintingCool1::
-	.string "Nonstop supercool--\n"
-	.string "the inestimable {STR_VAR_1}$"
+	.string "Sense parar, supercool--\n"
+	.string "l'inestimable {STR_VAR_1}$"
 
 gContestPaintingCool2::
-	.string "Hey, there!\n"
-	.string "The good-looking Pokémon {STR_VAR_1}$"
+	.string "Ei, hola!\n"
+	.string "El guapíssim Pokémon {STR_VAR_1}$"
 
 gContestPaintingCool3::
-	.string "The marvelous, wonderful, and\n"
-	.string "very great {STR_VAR_1}$"
+	.string "El meravellós, fantàstic i\n"
+	.string "magnífic {STR_VAR_1}$"
 
 gContestPaintingBeauty1::
-	.string "This century's last Venus--\n"
-	.string "the beautiful {STR_VAR_1}$"
+	.string "L'última Venus d'aquest segle--\n"
+	.string "el bellíssim {STR_VAR_1}$"
 
 gContestPaintingBeauty2::
-	.string "{STR_VAR_1}'s dazzling,\n"
-	.string "glittering smile$"
+	.string "El somriure enlluernador\n"
+	.string "i escintil·lant de {STR_VAR_1}$"
 
 gContestPaintingBeauty3::
-	.string "Pokémon Center's super idol--\n"
-	.string "the incomparable {STR_VAR_1}$"
+	.string "El super ídol del Centre Pokémon--\n"
+	.string "l'incomparable {STR_VAR_1}$"
 
 gContestPaintingCute1::
-	.string "The lovely and sweet {STR_VAR_1}$"
+	.string "El bonic i dolç {STR_VAR_1}$"
 
 gContestPaintingCute2::
-	.string "The pretty {STR_VAR_1}'s\n"
-	.string "winning portrait$"
+	.string "El retrat guanyador\n"
+	.string "del preciós {STR_VAR_1}$"
 
 gContestPaintingCute3::
-	.string "Give us a wink!\n"
-	.string "The cutie Pokémon {STR_VAR_1}$"
+	.string "Fes-nos un guiño!\n"
+	.string "El Pokémon maquet {STR_VAR_1}$"
 
 gContestPaintingSmart1::
-	.string "The smartness maestro--\n"
-	.string "the wise Pokémon {STR_VAR_1}$"
+	.string "El mestre de la saviesa--\n"
+	.string "el savi Pokémon {STR_VAR_1}$"
 
 gContestPaintingSmart2::
-	.string "{STR_VAR_1}--the one chosen\n"
-	.string "above all Pokémon$"
+	.string "{STR_VAR_1}--l'elegit\n"
+	.string "per sobre de tots els Pokémon$"
 
 gContestPaintingSmart3::
-	.string "The excellent {STR_VAR_1}'s\n"
-	.string "moment of elegance$"
+	.string "El moment d'elegància\n"
+	.string "de l'excel·lent {STR_VAR_1}$"
 
 gContestPaintingTough1::
-	.string "The powerfully muscular\n"
-	.string "speedster {STR_VAR_1}$"
+	.string "El poderós i musculós\n"
+	.string "velocista {STR_VAR_1}$"
 
 gContestPaintingTough2::
-	.string "The strong, stronger, and\n"
-	.string "strongest {STR_VAR_1}$"
+	.string "El fort, més fort i\n"
+	.string "fortíssim {STR_VAR_1}$"
 
 gContestPaintingTough3::
-	.string "The mighty tough\n"
-	.string "hyper Pokémon {STR_VAR_1}$"
+	.string "L'increïblement dur\n"
+	.string "hiper Pokémon {STR_VAR_1}$"
