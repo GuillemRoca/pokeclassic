@@ -58,12 +58,12 @@ PewterCity_Museum_1F_EventScript_EntranceTrigger::
 	end
 
 PewterCity_Museum_1F_Text_Its50YForChildsTicket::
-    .string "Welcome to our museum!\n"
-    .string "It's ¥50 for a child's ticket.\p"
-    .string "Would you like to come in?$"
+    .string "Benvingut al nostre museu!\n"
+    .string "Són ¥50 per a l'entrada infantil.\p"
+    .string "Vols entrar?$"
 
 PewterCity_Museum_1F_Text_ComeAgain::
-    .string "Come again!$"
+    .string "Torna-hi un altre dia!$"
 
 PewterCity_Museum_1F_Movement_ForcePlayerExit::
 	walk_down
@@ -84,8 +84,8 @@ PewterCity_Museum_1F_EventScript_TryPayForTicket::
 	end
 
 PewterCity_Museum_1F_Text_Right50YThankYou::
-    .string "Right, ¥50!\n"
-    .string "Thank you!$"
+    .string "Molt bé, ¥50!\n"
+    .string "Gràcies!$"
 
 PewterCity_Museum_1F_EventScript_NotEnoughMoney::
 	msgbox PewterCity_Museum_1F_Text_DontHaveEnoughMoney, MSGBOX_DEFAULT
@@ -96,7 +96,7 @@ PewterCity_Museum_1F_EventScript_NotEnoughMoney::
 	end
 
 PewterCity_Museum_1F_Text_DontHaveEnoughMoney::
-    .string "You don't have enough money.$"
+    .string "No tens prou diners.$"
 
 PewterCity_Museum_1F_EventScript_Scientist1::
 	lock
@@ -107,7 +107,7 @@ PewterCity_Museum_1F_EventScript_Scientist1::
 	end
 
 PewterCity_Museum_1F_Text_PleaseEnjoyYourself::
-    .string "Please enjoy yourself.$"
+    .string "Gaudeix de la visita.$"
 
 PewterCity_Museum_1F_EventScript_Scientist1BehindCounter::
 	msgbox PewterCity_Museum_1F_Text_DoYouKnowWhatAmberIs, MSGBOX_YESNO
@@ -119,16 +119,16 @@ PewterCity_Museum_1F_EventScript_Scientist1BehindCounter::
 	end
 
 PewterCity_Museum_1F_Text_DoYouKnowWhatAmberIs::
-    .string "You can't sneak in the back way!\n"
-    .string "Nice try, kid, but no.\p"
-    .string "Oh, whatever!\n"
-    .string "Do you know what Amber is?$"
+    .string "No pots colar-te per darrere!\n"
+    .string "Bon intent, nen, però no.\p"
+    .string "Bah, tant se val!\n"
+    .string "Saps què és l'ambre?$"
 
 PewterCity_Museum_1F_Text_AmberIsFossilizedSap::
-    .string "Amber is actually sap, that gooey\n"
-    .string "stuff that oozes from trees.\p"
-    .string "The ancient sap fossilized over\n"
-    .string "time to become rock-hard Amber.$"
+    .string "L'ambre és en realitat saba,\n"
+    .string "la cosa enganxosa dels arbres.\p"
+    .string "La saba antiga es va fossilitzar\n"
+    .string "amb el temps fins a ser ambre.$"
 
 PewterCity_Museum_1F_EventScript_AmberHasGeneticMatter::
 	msgbox PewterCity_Museum_1F_Text_AmberContainsGeneticMatter, MSGBOX_DEFAULT
@@ -138,18 +138,18 @@ PewterCity_Museum_1F_EventScript_AmberHasGeneticMatter::
 	end
 
 PewterCity_Museum_1F_Text_AmberContainsGeneticMatter::
-    .string "Amber contains the genetic matter\n"
-    .string "of ancient Pokémon.\p"
-    .string "There's a Lab somewhere trying to\n"
-    .string "resurrect Pokémon from amber.$"
+    .string "L'ambre conté material genètic\n"
+    .string "de Pokémon antics.\p"
+    .string "Hi ha un laboratori que intenta\n"
+    .string "ressuscitar Pokémon de l'ambre.$"
 
 PewterCity_Museum_1F_EventScript_Scientist2::
 	msgbox PewterCity_Museum_1F_Text_WeHaveTwoFossilsOnExhibit, MSGBOX_NPC
 	end
 
 PewterCity_Museum_1F_Text_WeHaveTwoFossilsOnExhibit::
-    .string "We have two fossils of rare,\n"
-    .string "prehistoric Pokémon on exhibit.$"
+    .string "Tenim dos fòssils de Pokémon\n"
+    .string "prehistòrics rars en exhibició.$"
 
 PewterCity_Museum_1F_EventScript_OldAmberScientist::
 	lock
@@ -175,8 +175,8 @@ PewterCity_Museum_1F_EventScript_AlreadyGotOldAmber::
 	end
 
 PewterCity_Museum_1F_Text_GetOldAmberChecked::
-    .string "Ssh!\n"
-    .string "Get the Old Amber checked!$"
+    .string "Xst!\n"
+    .string "Fes examinar l'Ambre Antic!$"
 
 PewterCity_Museum_1F_EventScript_WowThatsAerodactyl::
 	msgbox PewterCity_Museum_1F_Text_WowThatsAerodactyl, MSGBOX_DEFAULT
@@ -194,7 +194,7 @@ PewterCity_Museum_1F_EventScript_GiveHelixFossil::
 	end
 
 PewterCity_Museum_1F_Text_ObtainedHelixFossil::
-    .string "Obtained the Helix Fossil!$"
+    .string "Has obtingut el Fòssil Hèlix!$"
 
 PewterCity_Museum_1F_EventScript_GiveDomeFossil::
 	playfanfare MUS_RG_OBTAIN_KEY_ITEM
@@ -206,7 +206,7 @@ PewterCity_Museum_1F_EventScript_GiveDomeFossil::
 	end
 
 PewterCity_Museum_1F_Text_ObtainedDomeFossil::
-    .string "Obtained the Dome Fossil!$"
+    .string "Has obtingut el Fòssil Domo!$"
 
 PewterCity_Museum_1F_EventScript_GaveReward::
 	setflag FLAG_GOT_AERODACTYL_REWARD
@@ -214,11 +214,11 @@ PewterCity_Museum_1F_EventScript_GaveReward::
 	end
 
 PewterCity_Museum_1F_Text_WowThatsAerodactyl::
-    .string "Wow!\n"
-    .string "You ressurected the Pokémon?\p"
-    .string "I knew it contained DNA!\p"
-    .string "Thank you for letting me know.\n"
-    .string "Please take this as a reward!$"
+    .string "Uau!\n"
+    .string "Has ressuscitat el Pokémon?\p"
+    .string "Sabia que contenia ADN!\p"
+    .string "Gràcies per fer-m'ho saber.\n"
+    .string "Pren això com a recompensa!$"
 
 PewterCity_Museum_1F_EventScript_AlreadyGotReward::
 	msgbox PewterCity_Museum_1F_Text_PowerOfScience, MSGBOX_DEFAULT
@@ -226,26 +226,27 @@ PewterCity_Museum_1F_EventScript_AlreadyGotReward::
 	end
 
 PewterCity_Museum_1F_Text_PowerOfScience::
-    .string "It's incredible what we can do\n"
-    .string "with the power of science!$"
+    .string "És increïble el que podem fer\n"
+    .string "amb el poder de la ciència!$"
 
 PewterCity_Museum_1F_Text_WantYouToGetAmberExamined::
-    .string "Ssh! Listen, I need to share a\n"
-    .string "secret with someone.\p"
-    .string "I think that this chunk of Amber\n"
-    .string "contains Pokémon DNA!\p"
-    .string "It would be a shattering scientific\n"
-    .string "breakthrough if Pokémon could be\l"
-    .string "resurrected from it.\p"
-    .string "But, my colleagues just ignore\n"
-    .string "what I have to say.\p"
-    .string "So, I have a favor to ask!\p"
-    .string "I want you to get this examined at\n"
-    .string "a Pokémon Lab somewhere.$"
+    .string "Xst! Escolta, necessito compartir\n"
+    .string "un secret amb algú.\p"
+    .string "Crec que aquest tros d'ambre\n"
+    .string "conté ADN de Pokémon!\p"
+    .string "Seria un descobriment científic\n"
+    .string "revolucionari si es poguessin\l"
+    .string "ressuscitar Pokémon a partir\l"
+    .string "d'això.\p"
+    .string "Però els meus col·legues ignoren\n"
+    .string "el que dic.\p"
+    .string "Així que tinc un favor a demanar!\p"
+    .string "Vull que facis examinar això en\n"
+    .string "un laboratori Pokémon.$"
 
 PewterCity_Museum_1F_Text_ReceivedOldAmber::
-    .string "{PLAYER} received the Old Amber\n"
-    .string "from the scientist.$"
+    .string "{PLAYER} ha rebut l'Ambre Antic\n"
+    .string "del científic.$"
 
 PewterCity_Museum_1F_EventScript_NoRoomForOldAmber::
 	msgbox PewterCity_Museum_1F_Text_DontHaveSpaceForThis, MSGBOX_DEFAULT
@@ -253,25 +254,25 @@ PewterCity_Museum_1F_EventScript_NoRoomForOldAmber::
 	end
 
 PewterCity_Museum_1F_Text_DontHaveSpaceForThis::
-    .string "You don't have space for this.$"
+    .string "No tens espai per a això.$"
 
 PewterCity_Museum_1F_EventScript_OldAmber::
 	msgbox PewterCity_Museum_1F_Text_BeautifulPieceOfAmber, MSGBOX_NPC
 	end
 
 PewterCity_Museum_1F_Text_BeautifulPieceOfAmber::
-    .string "There is a beautiful piece of\n"
-    .string "amber in a clear gold color.$"
+    .string "Hi ha un bonic tros d'ambre\n"
+    .string "d'un clar color daurat.$"
 
 PewterCity_Museum_1F_EventScript_OldMan::
 	msgbox PewterCity_Museum_1F_Text_ShouldBeGratefulForLongLife, MSGBOX_NPC
 	end
 
 PewterCity_Museum_1F_Text_ShouldBeGratefulForLongLife::
-    .string "I should be grateful for my long\n"
-    .string "life.\p"
-    .string "Never did I think I would get to\n"
-    .string "see the bones of a dragon!$"
+    .string "Hauria d'estar agraït per la meva\n"
+    .string "llarga vida.\p"
+    .string "Mai no hauria pensat que veuria\n"
+    .string "els ossos d'un drac!$"
 
 PewterCity_Museum_1F_EventScript_PokemonJournalBrock::
 	msgbox PokemonJournal_Text_SpecialFeatureBrock, MSGBOX_SIGN
@@ -279,11 +280,11 @@ PewterCity_Museum_1F_EventScript_PokemonJournalBrock::
 	end
 
 PokemonJournal_Text_SpecialFeatureBrock::
-	.string "Pokémon Journal\p"
-	.string "Special Feature: Pewter Gym\n"
-	.string "Leader Brock!\p"
-	.string "Brock rarely laughs, but is said to\n"
-	.string "be unable to stop if he starts.$"
+	.string "Diari Pokémon\p"
+	.string "Especial: Brock, Líder del\n"
+	.string "Gimnàs de Pewter!\p"
+	.string "Brock rarament riu, però diuen\n"
+	.string "que si comença no pot parar.$"
 
 
 PewterCity_Museum_1F_EventScript_AerodactylFossil::
@@ -298,8 +299,8 @@ PewterCity_Museum_1F_EventScript_AerodactylFossil::
     end
 
 PewterCity_Museum_1F_Text_AerodactylFossil::
-    .string "Aerodactyl Fossil\n"
-    .string "A primitive and rare Pokémon.$"
+    .string "Fòssil d'Aerodactyl\n"
+    .string "Un Pokémon primitiu i rar.$"
 
 PewterCity_Museum_1F_EventScript_KabutopsFossil::
     lockall
@@ -313,5 +314,5 @@ PewterCity_Museum_1F_EventScript_KabutopsFossil::
     end
 
 PewterCity_Museum_1F_Text_KabutopsFossil::
-    .string "Kabutops Fossil\n"
-    .string "A primitive and rare Pokémon.$"
+    .string "Fòssil de Kabutops\n"
+    .string "Un Pokémon primitiu i rar.$"

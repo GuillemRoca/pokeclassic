@@ -105,30 +105,29 @@ PalletTown_EventScript_PokenavScene::
 	end
 
 PalletTown_Text_DidYouMeetOak:
-	.string "Mom: {PLAYER}!\p"
-	.string "Did you meet with Professor Oak?$"
+	.string "Mare: {PLAYER}!\p"
+	.string "Has anat a veure el Professor Oak?$"
 
 PalletTown_Text_WhatACutePokemon:
-	.string "Oh! What an adorable Pokémon!\n"
-	.string "You got it from Prof. Oak? How nice!\p"
-	.string "And now you're on your way up to \n"
-	.string "Viridian City?\p"
-	.string "Well, I guess everyone dreams of\n"
-	.string "traveling. At least it said so on TV.\p"
-	.string "In that case, you wouldn't want to leave\n"
-	.string "without your PokéGear, would you?$"
+	.string "Oh! Quin Pokémon més adorable!\n"
+	.string "Te l'ha donat el Prof. Oak? Genial!\p"
+	.string "I ara vas cap a Viridian City?\p"
+	.string "Bé, suposo que tothom somia\n"
+	.string "amb viatjar. Almenys ho deien a la TV.\p"
+	.string "En aquest cas, no voldràs marxar\n"
+	.string "sense el teu PokéGear, oi?$"
 
 PalletTown_Text_CallMeSometime:
-	.string "Your PokéGear has a map app, so\n"
-	.string "you should never get lost.\p"
-	.string "I already registered my number\n"
-	.string "in your Cell Phone, too.\p"
-	.string "Don't forget about your mom during\n"
-	.string "your adventures. Call me sometime!$"
+	.string "El teu PokéGear té una app de mapa,\n"
+	.string "així que no t'hauríes de perdre mai.\p"
+	.string "Ja he registrat el meu número\n"
+	.string "al teu Mòbil, també.\p"
+	.string "No t'oblidis de la teva mare durant\n"
+	.string "les aventures. Truca'm de tant en tant!$"
 
 PalletTown_Text_ReceivedPokeGear:
-	.string "{PLAYER} received the PokéGear\n"
-    .string "from Mom!$"
+	.string "{PLAYER} ha rebut el PokéGear\n"
+    .string "de la Mare!$"
 
 PalletTown_EventScript_PokenavSceneExitDoor::
 	applymovement LOCALID_MOM, Movement_MomExitDoor
@@ -311,7 +310,7 @@ PalletTown_EventScript_TownSign::
 
 PalletTown_Text_TownSign::
     .string "Pallet Town\n"
-    .string "Shades of your journey await!$"
+    .string "Tons d'aventura t'esperen!$"
 
 PalletTown_EventScript_TrainerTips::
 	lockall
@@ -320,8 +319,8 @@ PalletTown_EventScript_TrainerTips::
 	end
 
 PalletTown_Text_PressStartToOpenMenu::
-	.string "Trainer Tips:\p"
-	.string "Press Start to open the Menu!$"
+	.string "Consells d'Entrenador:\p"
+	.string "Prem Start per obrir el Menú!$"
 
 PalletTown_EventScript_OaksLabSign::
 	lockall
@@ -330,7 +329,7 @@ PalletTown_EventScript_OaksLabSign::
 	end
 
 PalletTown_Text_OakPokemonResearchLab::
-    .string "Oak Pokémon Research Lab$"
+    .string "Laboratori d'Estudis Pokémon d'Oak$"
 
 PalletTown_EventScript_Lady::
 	lock
@@ -341,9 +340,9 @@ PalletTown_EventScript_Lady::
 	end
 
 PalletTown_Text_RaisingMonsToo::
-    .string "I'm raising Pokémon, too.\p"
-    .string "When they get strong, they can\n"
-    .string "protect me.$"
+    .string "Jo també estic criant Pokémon.\p"
+    .string "Quan es facin forts, em podran\n"
+    .string "protegir.$"
 
 PalletTown_EventScript_SignLady::
 	msgbox PalletTown_Text_SignsAreUsefulArentThey, MSGBOX_DEFAULT
@@ -351,29 +350,29 @@ PalletTown_EventScript_SignLady::
 	end
 
 PalletTown_Text_SignsAreUsefulArentThey::
-	.string "Signs are useful, aren't they?$"
-	.string "You can learn quite a lot from\n"
-	.string "those Trainer Tips signs!$"
+	.string "Els cartells són útils, oi?$"
+	.string "Pots aprendre molt dels cartells\n"
+	.string "de Consells d'Entrenador!$"
 
 PalletTown_EventScript_FatMan::
 	msgbox PalletTown_Text_CanStoreItemsAndMonsInPC, MSGBOX_NPC
 	end
 
 PalletTown_Text_CanStoreItemsAndMonsInPC::
-    .string "Technology is incredible!\p"
-    .string "You can now store and recall items\n"
-    .string "and Pokémon as data via PC.$"
+    .string "La tecnologia és increïble!\p"
+    .string "Ara pots emmagatzemar i recuperar\n"
+    .string "objectes i Pokémon via PC.$"
 
 PalletTown_EventScript_PlayersHouseSign::
 	msgbox PalletTown_Text_PlayersHouse, MSGBOX_SIGN
 	end
 
 PalletTown_Text_PlayersHouse::
-    .string "{PLAYER}'s house$"
+    .string "Casa de {PLAYER}$"
 
 PalletTown_EventScript_RivalsHouseSign::
 	msgbox PalletTown_Text_RivalsHouse, MSGBOX_SIGN
 	end
 
 PalletTown_Text_RivalsHouse::
-    .string "{RIVAL}'s house$"
+    .string "Casa de {RIVAL}$"

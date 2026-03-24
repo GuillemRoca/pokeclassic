@@ -22,15 +22,15 @@ Route6_EventScript_Keigo::
 	end
 
 Route6_Text_KeigoIntro::
-    .string "There aren't many bugs out here.$"
+    .string "Aquí no hi ha gaires insectes.$"
 
 Route6_Text_KeigoDefeat::
     .string "No!\n"
-    .string "You're kidding!$"
+    .string "No pot ser!$"
 
 Route6_Text_KeigoPostBattle::
-    .string "I like bugs, so I'm going back to\n"
-    .string "Viridian Forest.$"
+    .string "M'agraden els insectes, així que\n"
+    .string "tornaré al Bosc Viridian.$"
 
 Route6_EventScript_RegisterKeigoAfterBattle::
 	special PlayerFaceTrainerAfterBattle
@@ -41,9 +41,9 @@ Route6_EventScript_RegisterKeigoAfterBattle::
 	end
 
 Route6_Text_KeigoRegister:
-	.string "I'll prove that Bug Pokémon are\n"
-	.string "the strongest. Let's have a rematch\l"
-	.string "sometime!$"
+	.string "Demostrar que els Pokémon Insecte\n"
+	.string "són els més forts. Fem la\l"
+	.string "revenja algun dia!$"
 
 Route6_EventScript_KeigoRematch::
 	trainerbattle_rematch REMATCHABLE_TRAINER_BUG_CATCHER_KEIGO_1, Route6_Text_KeigoRematchIntro, Route6_Text_KeigoDefeat
@@ -51,12 +51,12 @@ Route6_EventScript_KeigoRematch::
 	end
 
 Route6_Text_KeigoRematchIntro::
-	.string "I'm trying to find something good\n"
-	.string "that's not a Bug Pokémon, but…$"
+	.string "Intento trobar alguna cosa bona\n"
+	.string "que no sigui un Pokémon Insecte…$"
 
 Route6_Text_KeigoRematchPostBattle::
-	.string "I thought I should branch out,\n"
-	.string "but I'll always love Bug Pokémon!$"
+	.string "Pensava que havia de diversificar,\n"
+	.string "però sempre estimaré els Insecte!$"
 
 Route6_EventScript_Ricky::
 	trainerbattle_single TRAINER_CAMPER_RICKY, Route6_Text_RickyIntro, Route6_Text_RickyDefeat
@@ -64,15 +64,15 @@ Route6_EventScript_Ricky::
 	end
 
 Route6_Text_RickyIntro::
-    .string "Who's there?\n"
-    .string "Quit listening in on us!$"
+    .string "Qui hi ha?\n"
+    .string "Deixa d'escoltar-nos!$"
 
 Route6_Text_RickyDefeat::
-    .string "I just can't win!$"
+    .string "No puc guanyar!$"
 
 Route6_Text_RickyPostBattle::
-    .string "Whisper…\n"
-    .string "Whisper…$"
+    .string "Xiu-xiu…\n"
+    .string "Xiu-xiu…$"
 
 Route6_EventScript_Nancy::
 	trainerbattle_single TRAINER_PICNICKER_NANCY, Route6_Text_NancyIntro, Route6_Text_NancyDefeat
@@ -80,16 +80,16 @@ Route6_EventScript_Nancy::
 	end
 
 Route6_Text_NancyIntro::
-    .string "Excuse me!\n"
-    .string "This is a private conversation!$"
+    .string "Perdona!\n"
+    .string "Això és una conversa privada!$"
 
 Route6_Text_NancyDefeat::
-    .string "Ugh!\n"
-    .string "I hate losing.$"
+    .string "Uf!\n"
+    .string "Odio perdre.$"
 
 Route6_Text_NancyPostBattle::
-    .string "Whisper…\n"
-    .string "Whisper…$"
+    .string "Xiu-xiu…\n"
+    .string "Xiu-xiu…$"
 
 Route6_EventScript_Elijah::
 	trainerbattle_single TRAINER_BUG_CATCHER_ELIJAH, Route6_Text_ElijahIntro, Route6_Text_ElijahDefeat
@@ -97,16 +97,16 @@ Route6_EventScript_Elijah::
 	end
 
 Route6_Text_ElijahIntro::
-    .string "I've never seen you around.\n"
-    .string "Are you good?$"
+    .string "No t'havia vist mai per aquí.\n"
+    .string "Ets bo?$"
 
 Route6_Text_ElijahDefeat::
-    .string "You're too good!$"
+    .string "Ets massa bo!$"
 
 Route6_Text_ElijahPostBattle::
-    .string "Are my Pokémon weak?\n"
-    .string "Or, am I just bad?\l"
-    .string "Which do you think?$"
+    .string "Els meus Pokémon són febles?\n"
+    .string "O sóc jo que sóc dolent?\l"
+    .string "Tu què creus?$"
 
 Route6_EventScript_Isabelle::
 	trainerbattle_single TRAINER_PICNICKER_ISABELLE, Route6_Text_IsabelleIntro, Route6_Text_IsabelleDefeat
@@ -114,15 +114,15 @@ Route6_EventScript_Isabelle::
 	end
 
 Route6_Text_IsabelleIntro::
-    .string "Me?\n"
-    .string "Well, okay. I'll play!$"
+    .string "Jo?\n"
+    .string "Bé, d'acord. Juguem!$"
 
 Route6_Text_IsabelleDefeat::
-    .string "Things just didn't work…$"
+    .string "Les coses no han funcionat…$"
 
 Route6_Text_IsabellePostBattle::
-    .string "I want to get stronger.\n"
-    .string "What's your secret?$"
+    .string "Vull ser més forta.\n"
+    .string "Quin és el teu secret?$"
 
 Route6_EventScript_Jeff::
 	trainerbattle_single TRAINER_CAMPER_JEFF, Route6_Text_JeffIntro, Route6_Text_JeffDefeat
@@ -130,16 +130,16 @@ Route6_EventScript_Jeff::
 	end
 
 Route6_Text_JeffIntro::
-    .string "Huh?\n"
-    .string "You want to talk to me?$"
+    .string "Eh?\n"
+    .string "Vols parlar amb mi?$"
 
 Route6_Text_JeffDefeat::
-    .string "This stinks…\n"
-    .string "I couldn't beat your challenge…$"
+    .string "Quin fàstic…\n"
+    .string "No he pogut superar el repte…$"
 
 Route6_Text_JeffPostBattle::
-    .string "I should bring more Pokémon with\n"
-    .string "me. I'll feel safer that way.$"
+    .string "Hauria de portar més Pokémon.\n"
+    .string "Així em sentiré més segur.$"
 
 Route6_EventScript_UndergroundPathSign::
 	msgbox Route6_Text_UndergroundPathSign, MSGBOX_SIGN
@@ -147,7 +147,7 @@ Route6_EventScript_UndergroundPathSign::
 	end
 
 Route6_Text_UndergroundPathSign::
-    .string "Underground Path\n"
+    .string "Pas Subterrani\n"
     .string "Cerulean City - Vermilion City$"
 
 Route6_RocketFugitive::

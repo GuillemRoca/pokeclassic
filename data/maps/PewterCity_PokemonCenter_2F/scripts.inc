@@ -9,7 +9,7 @@ PewterCity_PokemonCenter_2F_Trainer::
 	end
 
 PewterCity_PokemonCenter_2F_Brock::
-	.string "Brock is really tough!\p"
-	.string "I need to find his weakness if\n"
-	.string "I want to take him down and earn\l"
-	.string "that badge!$"
+	.string "Brock és molt dur!\p"
+	.string "He de trobar el seu punt feble\n"
+	.string "si vull derrotar-lo i guanyar\l"
+	.string "la medalla!$"
