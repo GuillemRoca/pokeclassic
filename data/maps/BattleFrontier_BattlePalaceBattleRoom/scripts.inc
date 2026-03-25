@@ -448,134 +448,137 @@ BattleFrontier_BattlePalaceBattleRoom_Movement_SpenserEnter:
 	step_end
 
 BattleFrontier_BattlePalaceBattleRoom_Text_LetMeRestoreYourMons:
-	.string "Excellent…\n"
-	.string "Let me restore your Pokémon.$"
+	.string "Excel·lent…\n"
+	.string "Deixa'm restaurar els Pokémon.$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor2ndOpponent:
-	.string "The 2nd opponent is next.\n"
-	.string "Are you prepared?$"
+	.string "El 2n rival és el següent.\n"
+	.string "Estàs preparat?$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor3rdOpponent:
-	.string "The 3rd opponent is next.\n"
-	.string "Are you prepared?$"
+	.string "El 3r rival és el següent.\n"
+	.string "Estàs preparat?$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor4thOpponent:
-	.string "The 4th opponent is next.\n"
-	.string "Are you prepared?$"
+	.string "El 4t rival és el següent.\n"
+	.string "Estàs preparat?$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor5thOpponent:
-	.string "The 5th opponent is next.\n"
-	.string "Are you prepared?$"
+	.string "El 5è rival és el següent.\n"
+	.string "Estàs preparat?$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor6thOpponent:
-	.string "The 6th opponent is next.\n"
-	.string "Are you prepared?$"
+	.string "El 6è rival és el següent.\n"
+	.string "Estàs preparat?$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_PreparedFor7thOpponent:
-	.string "The 7th opponent is next.\n"
-	.string "Are you prepared?$"
+	.string "El 7è rival és el següent.\n"
+	.string "Estàs preparat?$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SaveAndQuitGame:
-	.string "Would you like to save and quit\n"
-	.string "the game?$"
+	.string "Vols desar i sortir del joc?$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_WishToQuitChallenge:
-	.string "Do you wish to quit your challenge?$"
+	.string "Vols abandonar el desafiament?$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SavingData:
-	.string "Saving the data.\n"
-	.string "Have patience…$"
+	.string "Desant les dades.\n"
+	.string "Tingues paciència…$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_RecordLastMatch:
-	.string "Do you wish to record your latest\n"
-	.string "match on your Frontier Pass?$"
+	.string "Vols enregistrar l'últim combat\n"
+	.string "al Passi Frontera?$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ChallengingPalaceMaven:
-	.string "And now…\p"
-	.string "By winning consistently, you have\n"
-	.string "earned the privilege of challenging\l"
-	.string "our master, the Palace Maven…$"
+	.string "I ara…\p"
+	.string "En guanyar consistentment, has\n"
+	.string "guanyat el privilegi de desafiar\l"
+	.string "el nostre mestre, el Mestre\l"
+	.string "del Palau…$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ReadyForPalaceMaven:
-	.string "I shall send for the Palace Maven.\n"
-	.string "Are you ready?$"
+	.string "Faré venir el Mestre del Palau.\n"
+	.string "Estàs preparat?$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_AnnounceArrivalOfSpenser:
-	.string "Let great fanfare announce the arrival\n"
-	.string "of the Palace Maven, Spenser!$"
+	.string "Que una gran fanfàrria anunciï\n"
+	.string "l'arribada del Mestre del Palau,\l"
+	.string "Spenser!$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserFirstIntro:
-	.string "Spenser: My physical being is with\n"
-	.string "Pokémon always!\p"
-	.string "My heart beats as one with\n"
-	.string "Pokémon always!\p"
-	.string "Young one of a Trainer!\n"
-	.string "Do you believe in your Pokémon?\p"
-	.string "Can you believe them through\n"
-	.string "and through?\p"
-	.string "If your bonds of trust are frail,\n"
-	.string "you will never beat my brethren!$"
+	.string "Spenser: El meu ésser físic és\n"
+	.string "amb els Pokémon sempre!\p"
+	.string "El meu cor batega com un amb\n"
+	.string "els Pokémon sempre!\p"
+	.string "Jove Entrenador!\n"
+	.string "Creus en els teus Pokémon?\p"
+	.string "Hi pots creure de tot cor?\p"
+	.string "Si els llaços de confiança són\n"
+	.string "fràgils, mai no guanyaràs\l"
+	.string "els meus germans!$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ProveYourBondWithMons:
-	.string "The bond you share with your Pokémon!\n"
-	.string "Prove it to me here!$"
+	.string "El vincle que comparteixes amb\n"
+	.string "els Pokémon! Demostra-m'ho aquí!$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserPostSilverBattle:
 	.string "Spenser: Gwahahah!\p"
-	.string "Hah, you never fell for my bluster!\n"
-	.string "Sorry for trying that stunt!\p"
-	.string "Here!\n"
-	.string "Bring me the thing!$"
+	.string "Hah, no has caigut al parany!\n"
+	.string "Perdona per intentar-ho!\p"
+	.string "Vinga!\n"
+	.string "Porteu-me allò!$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_LetsSeeFrontierPass:
-	.string "My, my, if only you could maintain that\n"
-	.string "facade of distinguished authority…\p"
-	.string "Here!\n"
-	.string "Let's see your Frontier Pass!$"
+	.string "Si almenys poguessis mantenir\n"
+	.string "aquesta façana d'autoritat…\p"
+	.string "Vinga!\n"
+	.string "A veure el Passi Frontera!$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ReceivedSpiritsSymbol:
-	.string "The Spirits Symbol was embossed on\n"
-	.string "the Frontier Pass!$"
+	.string "El Símbol dels Esperits ha estat\n"
+	.string "gravat al Passi Frontera!$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserAwaitNextTime:
-	.string "Spenser: Your Pokémon's eyes are \n"
-	.string "truly clear and unclouded.\p"
-	.string "I will eagerly await the next\n"
-	.string "opportunity to see you.$"
+	.string "Spenser: Els ulls dels teus\n"
+	.string "Pokémon són clars i nets.\p"
+	.string "Esperaré amb candeletes la\n"
+	.string "propera oportunitat de veure't.$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserThisTimeWontHoldBack:
 	.string "Spenser: Gwahahah!\n"
-	.string "You've battled your way up again?\p"
-	.string "You must have developed a truly\n"
-	.string "formidable bond with your Pokémon.\p"
-	.string "So be it!\p"
-	.string "This time, I won't bluster or hold back.\n"
-	.string "This time, there's no fooling around.\p"
-	.string "Ready now?\n"
-	.string "Prepare to lose!$"
+	.string "Has tornat a arribar fins aquí?\p"
+	.string "Deus haver desenvolupat un vincle\n"
+	.string "formidable amb els teus Pokémon.\p"
+	.string "Doncs d'acord!\p"
+	.string "Aquest cop no contindré res.\n"
+	.string "No hi haurà bromes.\p"
+	.string "Preparat?\n"
+	.string "Prepara't per perdre!$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_Kaaah:
 	.string "… … …Kaaah!$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserYourTeamIsAdmirable:
-	.string "Spenser: Well, that was some display!\n"
-	.string "Even fully unleashed, my brethren\l"
-	.string "could not overpower you.\p"
-	.string "Your team spirit is truly admirable!\p"
-	.string "Here!\n"
-	.string "Bring me that thing, will you?$"
+	.string "Spenser: Vaja exhibició!\n"
+	.string "Fins i tot a tota potència,\l"
+	.string "els meus germans no han pogut\l"
+	.string "superar-te.\p"
+	.string "El teu esperit d'equip és\n"
+	.string "realment admirable!\p"
+	.string "Vinga!\n"
+	.string "Porteu-me allò!$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_HurryWithFrontierPass:
-	.string "My, my, if only you could maintain\n"
-	.string "a certain level of decorum…\p"
-	.string "Gaaah, here!\n"
-	.string "Hurry with that Frontier Pass, you!$"
+	.string "Si almenys poguessis mantenir\n"
+	.string "un cert decòrum…\p"
+	.string "Gaaah, aquí!\n"
+	.string "De pressa amb el Passi Frontera!$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpiritsSymbolTookGoldenShine:
-	.string "The Spirits Symbol took on\n"
-	.string "a golden shine!$"
+	.string "El Símbol dels Esperits ha pres\n"
+	.string "una brillantor daurada!$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserComeSeeMeAgain:
 	.string "Spenser: Gwahahah!\p"
-	.string "Come see me time and again!\n"
-	.string "My brethren and I will be waiting!$"
+	.string "Vine a veure'm un cop i un altre!\n"
+	.string "Els meus germans i jo t'esperarem!$"

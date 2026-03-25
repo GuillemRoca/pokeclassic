@@ -113,13 +113,13 @@ BattleFactory_Movement_PlayerFaceTowerKiosk::
 	step_end
 
 BattleFactoryLobby_Text_Welcome:
-	.string "Welcome to the Battle Factory,\n"
-	.string "where the intelligence of Trainers\l"
-	.string "is put to the test!\p"
-	.string "I am your guide to the Battle Swap\n"
-	.string "Tournament.\p"
-	.string "Which type of tournament will\n"
-	.string "you be participating in today?$"
+	.string "Benvingut a la Fàbrica de Combat,\n"
+	.string "on la intel·ligència dels\l"
+	.string "Entrenadors és posada a prova!\p"
+	.string "Sóc la teva guia del Torneig\n"
+	.string "d'Intercanvi de Combat.\p"
+	.string "En quin tipus de torneig\n"
+	.string "participaràs avui?$"
 
 BattleTower_Basement_EventScript_SinglesAttendant::
 	setvar VAR_FRONTIER_FACILITY, FRONTIER_FACILITY_FACTORY
@@ -205,16 +205,16 @@ BattleTower_Basement_EventScript_TakeSinglesChallenge::
 	return
 
 BattleTower_Basement_Text_TakeSinglesChallenge:
-	.string "So you'll be taking the Battle\n"
-	.string "Swap Single challenge?$"
+	.string "Faràs el desafiament\n"
+	.string "d'Intercanvi Individual?$"
 
 BattleTower_Basement_EventScript_TakeDoublesChallenge::
 	message BattleTower_Basement_Text_TakeDoublesChallenge
 	return
 
 BattleTower_Basement_Text_TakeDoublesChallenge:
-	.string "So you'll be taking the Battle\n"
-	.string "Swap Double challenge?$"
+	.string "Faràs el desafiament\n"
+	.string "d'Intercanvi Doble?$"
 
 BattleTower_Basement_EventScript_ExplainChallenge::
 	msgbox BattleTower_Basement_Text_ExplainChallenge, MSGBOX_DEFAULT
@@ -223,22 +223,22 @@ BattleTower_Basement_EventScript_ExplainChallenge::
 	end
 
 BattleTower_Basement_Text_ExplainChallenge:
-	.string "The Battle Swap Tournament is a \n"
-	.string "competition using only rental Pokémon.\p"
-	.string "First, you will be loaned three\n"
-	.string "Pokémon specifically for this event.\p"
-	.string "Using the supplied rental Pokémon,\n"
-	.string "you must conduct either Single or \l"
-	.string "Double battles, depending on the mode.\p"
-	.string "If you win, you are permitted to trade\n"
-	.string "one of your rental Pokémon.\p"
-	.string "Repeat this cycle of battling and\n"
-	.string "trading--if you win seven times in\l"
-	.string "a row, you will earn Battle Points.\p"
-	.string "If you want to interrupt your\n"
-	.string "challenge, please save the game.\p"
-	.string "If you don't save, you will be\n"
-	.string "disqualified from your challenge.$"
+	.string "El Torneig d'Intercanvi és una\n"
+	.string "competició amb Pokémon de lloguer.\p"
+	.string "Primer, se't prestaran tres\n"
+	.string "Pokémon per a aquest event.\p"
+	.string "Amb els Pokémon de lloguer,\n"
+	.string "hauràs de fer Combats Individuals\l"
+	.string "o Dobles, segons el mode.\p"
+	.string "Si guanyes, pots intercanviar\n"
+	.string "un dels teus Pokémon de lloguer.\p"
+	.string "Repeteix el cicle de combatre i\n"
+	.string "intercanviar: si guanyes set cops\l"
+	.string "seguits, guanyaràs Punts de Combat.\p"
+	.string "Si vols interrompre el teu\n"
+	.string "desafiament, desa la partida.\p"
+	.string "Si no deses, seràs desqualificat\n"
+	.string "del desafiament.$"
 
 BattleTower_Basement_EventScript_CancelChallengeSaveFailed::
 	frontier_set FRONTIER_DATA_CHALLENGE_STATUS, 0
@@ -252,56 +252,56 @@ BattleTower_Basement_EventScript_CancelChallenge::
 	end
 
 BattleTower_Basement_Text_LookForwardToNextVisit:
-	.string "We look forward to your next visit.$"
+	.string "Esperem la teva propera visita.$"
 
 BattleTower_Basement_Text_WhichLevelMode:
-	.string "Which level do you wish to challenge?\n"
-	.string "Level 50 or Open Level?$"
+	.string "Quin nivell vols desafiar?\n"
+	.string "Nivell 50 o Nivell Obert?$"
 
 BattleTower_Basement_Text_OkayToSaveBeforeChallenge:
-	.string "Before you begin your challenge,\n"
-	.string "I need to save the game. Is that okay?$"
+	.string "Abans de començar el desafiament,\n"
+	.string "he de desar la partida. D'acord?$"
 
 BattleTower_Basement_Text_StepThisWay:
-	.string "Please step this way.$"
+	.string "Si us plau, vine per aquí.$"
 
 BattleTower_Basement_Text_ReturnMonsSaveResults:
-	.string "Thank you for participating!\p"
-	.string "I will return your Pokémon in exchange\n"
-	.string "for our rental Pokémon.\p"
-	.string "I must also save the event results.\n"
-	.string "Please wait.$"
+	.string "Gràcies per participar!\p"
+	.string "Et tornaré els Pokémon a canvi\n"
+	.string "dels Pokémon de lloguer.\p"
+	.string "He de desar els resultats.\n"
+	.string "Espera, si us plau.$"
 
 BattleTower_Basement_Text_CongratsSevenWins:
-	.string "Congratulations! You've won seven\n"
-	.string "straight Battle Swap matches!$"
+	.string "Felicitats! Has guanyat set\n"
+	.string "combats d'Intercanvi seguits!$"
 
 BattleTower_Basement_Text_WaitingForYouToResume:
-	.string "We've been waiting for you!\p"
-	.string "Before we resume your challenge,\n"
-	.string "I must save the game.$"
+	.string "T'estàvem esperant!\p"
+	.string "Abans de reprendre el desafiament,\n"
+	.string "he de desar la partida.$"
 
 BattleTower_Basement_Text_DidntSaveBeforeQuitting:
-	.string "I'm sorry to say this, but you didn't\n"
-	.string "save before you quit playing last time.\p"
-	.string "As a result, you have been disqualified\n"
-	.string "from your challenge.$"
+	.string "Em sap greu, però no vas desar\n"
+	.string "abans de sortir l'última vegada.\p"
+	.string "Com a resultat, has estat\n"
+	.string "desqualificat del desafiament.$"
 
 BattleTower_Basement_Text_CongratsForDefeatingHead:
-	.string "Congratulations for defeating\n"
-	.string "the Factory Head and winning\l"
-	.string "seven matches in a row!$"
+	.string "Felicitats per derrotar el Cap\n"
+	.string "de la Fàbrica i guanyar set\l"
+	.string "combats seguits!$"
 
 BattleTower_Basement_Text_AwardBattlePoints:
-	.string "In recognition of your wealth of\n"
-	.string "knowledge and keen intelligence,\l"
-	.string "we award you these Battle Point(s).$"
+	.string "En reconeixement de la teva riquesa\n"
+	.string "de coneixement i gran intel·ligència,\l"
+	.string "t'atorguem aquests Punt(s) de Combat.$"
 
 BattleTower_Basement_Text_ExchangeMonsAndSave:
-	.string "Let me exchange your Pokémon\n"
-	.string "for our rental Pokémon.\p"
-	.string "I need to save the battle data,\n"
-	.string "so please wait.$"
+	.string "Deixa'm intercanviar els Pokémon\n"
+	.string "pels de lloguer.\p"
+	.string "He de desar les dades del combat,\n"
+	.string "espera si us plau.$"
 
 BattleTower_Basement_EventScript_RulesBoard::
 	lockall
@@ -310,7 +310,8 @@ BattleTower_Basement_EventScript_RulesBoard::
 	end
 
 BattleTower_Basement_Text_RulesAreListed:
-	.string "The Battle Swap rules are listed.$"
+	.string "Les regles d'Intercanvi de Combat\n"
+	.string "estan exposades.$"
 
 BattleTower_Basement_EventScript_ReadRulesBoard::
 	message BattleTower_Basement_Text_ReadWhichHeading
@@ -327,7 +328,7 @@ BattleTower_Basement_EventScript_ReadRulesBoard::
 	end
 
 BattleTower_Basement_Text_ReadWhichHeading:
-	.string "Which heading do you want to read?$"
+	.string "Quina secció vols llegir?$"
 
 BattleTower_Basement_EventScript_RulesBasics::
 	msgbox BattleTower_Basement_Text_ExplainBasicRules, MSGBOX_DEFAULT
@@ -335,11 +336,11 @@ BattleTower_Basement_EventScript_RulesBasics::
 	end
 
 BattleTower_Basement_Text_ExplainBasicRules:
-	.string "In a Battle Swap event, you may use\n"
-	.string "only three Pokémon.\p"
-	.string "Whether you are renting or swapping,\n"
-	.string "your team may not have two or more\l"
-	.string "of the same Pokémon.$"
+	.string "A l'Intercanvi de Combat, només\n"
+	.string "pots usar tres Pokémon.\p"
+	.string "Tant si llogues com intercanvies,\n"
+	.string "el teu equip no pot tenir dos o\l"
+	.string "més Pokémon iguals.$"
 
 BattleTower_Basement_EventScript_RulesSwapPartner::
 	msgbox BattleTower_Basement_Text_ExplainSwapPartnerRules, MSGBOX_DEFAULT
@@ -347,10 +348,11 @@ BattleTower_Basement_EventScript_RulesSwapPartner::
 	end
 
 BattleTower_Basement_Text_ExplainSwapPartnerRules:
-	.string "You may swap Pokémon only with\n"
-	.string "the Trainer you have just defeated.\p"
-	.string "You may swap for only those Pokémon\n"
-	.string "used by the beaten Trainer.$"
+	.string "Només pots intercanviar Pokémon\n"
+	.string "amb l'Entrenador que acabes de\l"
+	.string "derrotar.\p"
+	.string "Només pots triar dels Pokémon\n"
+	.string "de l'Entrenador vençut.$"
 
 BattleTower_Basement_EventScript_RulesSwapNumber::
 	msgbox BattleTower_Basement_Text_ExplainSwapNumberRules, MSGBOX_DEFAULT
@@ -358,11 +360,11 @@ BattleTower_Basement_EventScript_RulesSwapNumber::
 	end
 
 BattleTower_Basement_Text_ExplainSwapNumberRules:
-	.string "After every battle you win, you may\n"
-	.string "swap for one of your defeated\l"
-	.string "opponent's Pokémon.\p"
-	.string "You will not be able to swap Pokémon\n"
-	.string "with the seventh Trainer in the event.$"
+	.string "Després de cada victòria, pots\n"
+	.string "intercanviar per un dels Pokémon\l"
+	.string "del rival vençut.\p"
+	.string "No podràs intercanviar Pokémon\n"
+	.string "amb el 7è Entrenador de l'event.$"
 
 BattleTower_Basement_EventScript_RulesSwapNotes::
 	msgbox BattleTower_Basement_Text_ExplainSwapNotesRules, MSGBOX_DEFAULT
@@ -370,16 +372,15 @@ BattleTower_Basement_EventScript_RulesSwapNotes::
 	end
 
 BattleTower_Basement_Text_ExplainSwapNotesRules:
-	.string "There are two key points to be aware\n"
-	.string "of when swapping Pokémon.\p"
-	.string "First, when swapping, you can't check\n"
-	.string "the stats of the Pokémon you are\l"
-	.string "about to receive.\p"
-	.string "Second, the Pokémon on your team\n"
-	.string "are lined up in sequence, depending on\l"
-	.string "the order in which you rented them.\p"
-	.string "This sequence remains unchanged\n"
-	.string "even when swaps are made.$"
+	.string "Hi ha dos punts clau a l'hora\n"
+	.string "d'intercanviar Pokémon.\p"
+	.string "Primer, no pots veure les stats\n"
+	.string "del Pokémon que rebràs.\p"
+	.string "Segon, els Pokémon del teu equip\n"
+	.string "estan en seqüència, segons l'ordre\l"
+	.string "en què els vas llogar.\p"
+	.string "Aquesta seqüència no canvia\n"
+	.string "ni amb intercanvis.$"
 
 BattleTower_Basement_EventScript_RulesOpenLv::
 	msgbox BattleTower_Basement_Text_ExplainOpenLvRules, MSGBOX_DEFAULT
@@ -387,9 +388,9 @@ BattleTower_Basement_EventScript_RulesOpenLv::
 	end
 
 BattleTower_Basement_Text_ExplainOpenLvRules:
-	.string "In the Open Level, the rental Pokémon\n"
-	.string "and the opposing Trainers' Pokémon\l"
-	.string "are all Level 100.$"
+	.string "Al Nivell Obert, els Pokémon de\n"
+	.string "lloguer i els dels rivals són\l"
+	.string "tots de Nivell 100.$"
 
 BattleTower_Basement_EventScript_ExitRules::
 	releaseall
@@ -408,10 +409,11 @@ BattleTower_Basement_EventScript_Blocker::
 	end
 
 BattleTower_Basement_Text_Blocker::
-	.string "Oh! Only participants in the Battle\n"
-	.string "Swap Tournament can go that way.\p"
-	.string "Please come speak to me if you\n"
-	.string "are interested in entering!$"
+	.string "Oh! Només els participants del\n"
+	.string "Torneig d'Intercanvi poden\l"
+	.string "passar per aquí.\p"
+	.string "Si t'interessa participar,\n"
+	.string "vine a parlar amb mi!$"
 
 BattleTower_Basement_EventScript_Attendant::
 	lock
@@ -423,35 +425,35 @@ BattleTower_Basement_EventScript_Attendant::
 	end
 
 BattleTower_Basement_Text_JoinBattleSwap::
-	.string "This is where we conduct the Battle Swap\n"
-	.string "tournaments.\p"
-	.string "Please come around to the front if you\n"
-	.string "are interested in joining.$"
+	.string "Aquí celebrem els Torneigs\n"
+	.string "d'Intercanvi de Combat.\p"
+	.string "Vine per davant si t'interessa\n"
+	.string "participar.$"
 
 BattleTower_Basement_EventScript_Woman::
 	msgbox BattleTower_Basement_Text_NeedKnowledgeOfMonsMoves, MSGBOX_NPC
 	end
 
 BattleTower_Basement_Text_NeedKnowledgeOfMonsMoves:
-	.string "Hi!\n"
-	.string "You, there!\p"
-	.string "Are you thinking that the events here\n"
-	.string "are easy since you don't need to have\l"
-	.string "a raised team of Pokémon?\p"
-	.string "I wouldn't be too sure about winning\n"
-	.string "that easily.\p"
-	.string "If you don't have thorough knowledge\n"
-	.string "about Pokémon and their moves,\l"
-	.string "it will be tough to keep winning.$"
+	.string "Ei!\n"
+	.string "Tu!\p"
+	.string "Penses que els events d'aquí\n"
+	.string "són fàcils perquè no necessites\l"
+	.string "un equip entrenat?\p"
+	.string "Jo no estaria tan segura\n"
+	.string "de guanyar fàcilment.\p"
+	.string "Si no tens un bon coneixement\n"
+	.string "dels Pokémon i els seus moviments,\l"
+	.string "serà difícil seguir guanyant.$"
 
 BattleTower_Basement_EventScript_Camper::
 	msgbox BattleTower_Basement_Text_SwappedForWeakMon, MSGBOX_NPC
 	end
 
 BattleTower_Basement_Text_SwappedForWeakMon:
-	.string "I swapped for a weak Pokémon…\n"
-	.string "I thought it was a good kind to have…\p"
-	.string "They wiped the floor with us…$"
+	.string "Vaig intercanviar per un Pokémon\n"
+	.string "feble… Pensava que era bo…\p"
+	.string "Ens han escombrat…$"
 
 BattleTower_Basement_EventScript_Picnicker::
 	lock
@@ -461,19 +463,17 @@ BattleTower_Basement_EventScript_Picnicker::
 	end
 
 BattleTower_Basement_Text_NeedToCheckOpponentsMons:
-	.string "Things haven't been going my way\n"
-	.string "at all.\p"
-	.string "You need to check your opponent's\n"
-	.string "Pokémon during battle to see if\l"
-	.string "they're any good.$"
+	.string "Les coses no m'han anat gens bé.\p"
+	.string "Has de revisar els Pokémon del\n"
+	.string "rival durant el combat per veure\l"
+	.string "si són bons.$"
 
 BattleTower_Basement_EventScript_FatMan::
 	msgbox BattleTower_Basement_Text_CantFigureOutStaffHints, MSGBOX_NPC
 	end
 
 BattleTower_Basement_Text_CantFigureOutStaffHints:
-	.string "You know how the staff here give you\n"
-	.string "a few hints about your next opponent?\p"
-	.string "Well, I'm a full-grown man, but I have\n"
-	.string "trouble figuring out their hints.$"
-
+	.string "Saps que el personal d'aquí et\n"
+	.string "dóna pistes sobre el pròxim rival?\p"
+	.string "Doncs, sóc un home fet i dret,\n"
+	.string "però em costa entendre les pistes.$"
