@@ -16,34 +16,35 @@ Route17_EventScript_ItemsNotice::
 	end
 
 Route17_Text_WatchOutForDiscardedItems::
-    .string "It's a notice.\p"
-    .string "Watch out for discarded items.$"
+    .string "És un avís.\p"
+    .string "Vigileu amb objectes abandonats.$"
 
 Route17_EventScript_TrainerTips1::
 	msgbox Route17_Text_SameSpeciesGrowDifferentRates, MSGBOX_SIGN
 	end
 
 Route17_Text_SameSpeciesGrowDifferentRates::
-    .string "Trainer Tips:\p"
-    .string "All Pokémon are unique.\p"
-    .string "Even Pokémon of the same species\n"
-    .string "and level grow at different rates.$"
+    .string "Consells d'Entrenador:\p"
+    .string "Tots els Pokémon són únics.\p"
+    .string "Fins i tot Pokémon de la mateixa\n"
+    .string "espècie i nivell creixen a\l"
+    .string "ritmes diferents.$"
 
 Route17_EventScript_TrainerTips2::
 	msgbox Route17_Text_PressBToStayInPlace, MSGBOX_SIGN
 	end
 
 Route17_Text_PressBToStayInPlace::
-    .string "Trainer Tips:\p"
-    .string "Press the B Button to stay in place\n"
-    .string "while on a slope.$"
+    .string "Consells d'Entrenador:\p"
+    .string "Prem el botó B per quedar-te\n"
+    .string "quiet en un pendent.$"
 
 Route17_EventScript_RouteSign::
 	msgbox Route17_Text_RouteSign, MSGBOX_SIGN
 	end
 
 Route17_Text_RouteSign::
-    .string "Route 17\n"
+    .string "Ruta 17\n"
     .string "Celadon City - Fuchsia City$"
 
 Route17_EventScript_BallsNotice::
@@ -51,17 +52,17 @@ Route17_EventScript_BallsNotice::
 	end
 
 Route17_Text_DontThrowGameThrowBalls::
-    .string "It's a notice!\p"
-    .string "Don't throw the game, throw\n"
-    .string "Poké Balls instead!$"
+    .string "És un avís!\p"
+    .string "No llencis la partida, llança\n"
+    .string "Poké Balls!$"
 
 Route17_EventScript_CyclingRoadSign::
 	msgbox Route17_Text_CyclingRoadSign, MSGBOX_SIGN
 	end
 
 Route17_Text_CyclingRoadSign::
-    .string "Cycling Road\n"
-    .string "Slope ends here!$"
+    .string "Carril Bici\n"
+    .string "El pendent acaba aquí!$"
 
 Route17_EventScript_Billy::
 	trainerbattle_single TRAINER_BIKER_BILLY, Route17_Text_BillyIntro, Route17_Text_BillyDefeat
@@ -69,14 +70,14 @@ Route17_EventScript_Billy::
 	end
 
 Route17_Text_BillyIntro::
-    .string "We're Bikers!\n"
-    .string "We rule the roads, man!$"
+    .string "Som Motoristes!\n"
+    .string "Manem a les carreteres, tio!$"
 
 Route17_Text_BillyDefeat::
-    .string "Smoked!$"
+    .string "Fumat!$"
 
 Route17_Text_BillyPostBattle::
-    .string "Are you looking for adventure?$"
+    .string "Busques aventura?$"
 
 Route17_EventScript_Nikolas::
 	trainerbattle_single TRAINER_BIKER_NIKOLAS, Route17_Text_NikolasIntro, Route17_Text_NikolasDefeat
@@ -84,14 +85,14 @@ Route17_EventScript_Nikolas::
 	end
 
 Route17_Text_NikolasIntro::
-    .string "Let Voltorb electrify you!$"
+    .string "Deixa que Voltorb t'electrifiqui!$"
 
 Route17_Text_NikolasDefeat::
-    .string "Grounded out!$"
+    .string "Curtcircuit!$"
 
 Route17_Text_NikolasPostBattle::
-    .string "I got my Voltorb at the abandoned\n"
-    .string "Power Plant.$"
+    .string "Vaig aconseguir el meu Voltorb\n"
+    .string "a la Central Elèctrica abandonada.$"
 
 Route17_EventScript_Jaxon::
 	trainerbattle_single TRAINER_BIKER_JAXON, Route17_Text_JaxonIntro, Route17_Text_JaxonDefeat
@@ -99,14 +100,14 @@ Route17_EventScript_Jaxon::
 	end
 
 Route17_Text_JaxonIntro::
-    .string "Nice BIKE!\n"
-    .string "How's it handle?$"
+    .string "Bona BICI!\n"
+    .string "Com funciona?$"
 
 Route17_Text_JaxonDefeat::
-    .string "Shoot!$"
+    .string "Renoi!$"
 
 Route17_Text_JaxonPostBattle::
-    .string "The slope makes it hard to steer.$"
+    .string "El pendent fa difícil girar.$"
 
 Route17_EventScript_William::
 	trainerbattle_single TRAINER_BIKER_WILLIAM, Route17_Text_WilliamIntro, Route17_Text_WilliamDefeat
@@ -114,14 +115,14 @@ Route17_EventScript_William::
 	end
 
 Route17_Text_WilliamIntro::
-    .string "Get lost, kid!\n"
-    .string "I'm bushed!$"
+    .string "Fes-te perdedís, nano!\n"
+    .string "Estic rebentat!$"
 
 Route17_Text_WilliamDefeat::
-    .string "Are you satisfied?$"
+    .string "Estàs content?$"
 
 Route17_Text_WilliamPostBattle::
-    .string "I need to catch a few z's!$"
+    .string "Necessito fer una becaina!$"
 
 Route17_EventScript_Raul::
 	trainerbattle_single TRAINER_CUE_BALL_RAUL, Route17_Text_RaulIntro, Route17_Text_RaulDefeat
@@ -129,17 +130,17 @@ Route17_EventScript_Raul::
 	end
 
 Route17_Text_RaulIntro::
-    .string "There's no getting rich quick in\n"
-    .string "battling kids.$"
+    .string "No et fas ric ràpid combatent\n"
+    .string "nanos.$"
 
 Route17_Text_RaulDefeat::
-    .string "Burned out!$"
+    .string "Cremat!$"
 
 Route17_Text_RaulPostBattle::
-    .string "You can find good stuff lying\n"
-    .string "around on Cycling Road.\p"
-    .string "There's good money in picking them\n"
-    .string "up and selling them.$"
+    .string "Pots trobar coses bones pel\n"
+    .string "Carril Bici.\p"
+    .string "Hi ha bons diners en recollir-les\n"
+    .string "i vendre-les.$"
 
 Route17_EventScript_Isaiah::
 	trainerbattle_single TRAINER_CUE_BALL_ISAIAH, Route17_Text_IsaiahIntro, Route17_Text_IsaiahDefeat
@@ -147,15 +148,15 @@ Route17_EventScript_Isaiah::
 	end
 
 Route17_Text_IsaiahIntro::
-    .string "I'm mighty proud of my bod, kiddo.\n"
-    .string "Come on!$"
+    .string "Estic molt orgullós del meu cos.\n"
+    .string "Vine, nano!$"
 
 Route17_Text_IsaiahDefeat::
-    .string "Whoo!$"
+    .string "Uixi!$"
 
 Route17_Text_IsaiahPostBattle::
-    .string "I could belly-bump you outta\n"
-    .string "here!$"
+    .string "Et podria treure d'aquí a\n"
+    .string "panxades!$"
 
 Route17_EventScript_Zeek::
 	trainerbattle_single TRAINER_CUE_BALL_ZEEK, Route17_Text_ZeekIntro, Route17_Text_ZeekDefeat
@@ -163,15 +164,15 @@ Route17_EventScript_Zeek::
 	end
 
 Route17_Text_ZeekIntro::
-    .string "I leveled up my Pokémon, but it\n"
-    .string "won't evolve. Why?$"
+    .string "He pujat de nivell el Pokémon,\n"
+    .string "però no evoluciona. Per què?$"
 
 Route17_Text_ZeekDefeat::
-    .string "Why, you!$"
+    .string "Eh, tu!$"
 
 Route17_Text_ZeekPostBattle::
-    .string "Maybe some Pokémon need element\n"
-    .string "stones to evolve.$"
+    .string "Potser alguns Pokémon necessiten\n"
+    .string "pedres elementals per evolucionar.$"
 
 Route17_EventScript_Jamal::
 	trainerbattle_single TRAINER_CUE_BALL_JAMAL, Route17_Text_JamalIntro, Route17_Text_JamalDefeat
@@ -179,14 +180,14 @@ Route17_EventScript_Jamal::
 	end
 
 Route17_Text_JamalIntro::
-    .string "I need a little exercise!$"
+    .string "Necessito una mica d'exercici!$"
 
 Route17_Text_JamalDefeat::
-    .string "Whew!\n"
-    .string "Good workout!$"
+    .string "Buf!\n"
+    .string "Bon entrenament!$"
 
 Route17_Text_JamalPostBattle::
-    .string "I'm sure I lost weight there!$"
+    .string "Segur que he perdut pes!$"
 
 Route17_EventScript_Corey::
 	trainerbattle_single TRAINER_CUE_BALL_COREY, Route17_Text_CoreyIntro, Route17_Text_CoreyDefeat
@@ -194,13 +195,14 @@ Route17_EventScript_Corey::
 	end
 
 Route17_Text_CoreyIntro::
-    .string "Be a rebel!$"
+    .string "Sigues un rebel!$"
 
 Route17_Text_CoreyDefeat::
     .string "Aaaargh!$"
 
 Route17_Text_CoreyPostBattle::
-    .string "Be ready to fight for your beliefs!$"
+    .string "Estigues preparat per lluitar\n"
+    .string "per les teves idees!$"
 
 Route17_EventScript_Virgil::
 	trainerbattle_single TRAINER_BIKER_VIRGIL, Route17_Text_VirgilIntro, Route17_Text_VirgilDefeat
@@ -208,11 +210,11 @@ Route17_EventScript_Virgil::
 	end
 
 Route17_Text_VirgilIntro::
-    .string "You heading to FUCHSIA?$"
+    .string "Vas cap a FUCHSIA?$"
 
 Route17_Text_VirgilDefeat::
-    .string "Crash and burn!$"
+    .string "Patacada!$"
 
 Route17_Text_VirgilPostBattle::
-    .string "I love racing downhill!$"
+    .string "M'encanta baixar a tota velocitat!$"
 
