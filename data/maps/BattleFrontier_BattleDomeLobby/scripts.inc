@@ -433,249 +433,250 @@ BattleFrontier_BattleDomeLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattleDomeLobby_Text_WelcomeSingleBattle:
-	.string "Where the strategies of Trainers\n"
-	.string "are put to the test!\p"
-	.string "Welcome to the Battle Dome!\p"
-	.string "I am your guide to the Single Battle\n"
-	.string "Tournament.$"
+	.string "On les estratègies dels\n"
+	.string "Entrenadors són posades a prova!\p"
+	.string "Benvingut al Domo de Combat!\p"
+	.string "Sóc la teva guia del Torneig\n"
+	.string "de Combat Individual.$"
 
 BattleFrontier_BattleDomeLobby_Text_TakeSinglesChallenge:
-	.string "Would you like to challenge\n"
-	.string "the Single Battle Tournament?$"
+	.string "Vols desafiar el Torneig\n"
+	.string "de Combat Individual?$"
 
 BattleFrontier_BattleDomeLobby_Text_HopeToSeeYouAgain:
-	.string "We hope to see you again.$"
+	.string "Esperem tornar-te a veure.$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainSinglesChallenge:
-	.string "The Single Battle Tournament\n"
-	.string "is exactly as the name suggests--\l"
-	.string "a tournament of Single Battles.\p"
-	.string "All participating Trainers must\n"
-	.string "enter three Pokémon each.\p"
-	.string "In each battle, one of the three\n"
-	.string "Pokémon must be held in reserve.\p"
-	.string "The other two Pokémon can battle\n"
-	.string "one at a time.\p"
-	.string "Choose the two battling Pokémon after\n"
-	.string "examining the opponent's trio.\p"
-	.string "You win the tournament by defeating\n"
-	.string "four Trainers.\p"
-	.string "Battle Points are awarded to\n"
-	.string "the tournament winner.\p"
-	.string "If you want to interrupt your\n"
-	.string "tournament, please save the game.\p"
-	.string "If you don't save before interrupting,\n"
-	.string "you will be disqualified.$"
+	.string "El Torneig de Combat Individual\n"
+	.string "és exactament el que diu el nom:\l"
+	.string "un torneig de Combats Individuals.\p"
+	.string "Tots els Entrenadors han d'inscriure\n"
+	.string "tres Pokémon cadascun.\p"
+	.string "A cada combat, un dels tres\n"
+	.string "Pokémon ha de quedar en reserva.\p"
+	.string "Els altres dos poden combatre\n"
+	.string "d'un en un.\p"
+	.string "Tria els dos Pokémon combatents\n"
+	.string "després d'examinar el trio rival.\p"
+	.string "Guanyes el torneig derrotant\n"
+	.string "quatre Entrenadors.\p"
+	.string "S'atorguen Punts de Combat\n"
+	.string "al guanyador del torneig.\p"
+	.string "Si vols interrompre el torneig,\n"
+	.string "desa la partida.\p"
+	.string "Si no deses, seràs\n"
+	.string "desqualificat.$"
 
 BattleFrontier_BattleDomeLobby_Text_OkayToSaveBeforeChallenge:
-	.string "Before I show you to the Battle Dome,\n"
-	.string "I must save the data. Is that okay?$"
+	.string "Abans d'acompanyar-te al Domo,\n"
+	.string "he de desar les dades. D'acord?$"
 
 BattleFrontier_BattleDomeLobby_Text_WhichLevelMode:
-	.string "The tournament offers two levels\n"
-	.string "of challenge, Level 50 and Open Level.\l"
-	.string "Which is your choice?$"
+	.string "El torneig ofereix dos nivells,\n"
+	.string "Nivell 50 i Nivell Obert.\l"
+	.string "Quin tries?$"
 
 BattleFrontier_BattleDomeLobby_Text_SelectThreeMons:
-	.string "Now select the three Pokémon that\n"
-	.string "you wish to enter, please.$"
+	.string "Ara selecciona els tres Pokémon\n"
+	.string "que vols inscriure, si us plau.$"
 
 BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLvOpen:
-	.string "Excuse me!\p"
-	.string "You don't have three eligible Pokémon.\p"
-	.string "Also, the Pokémon must be holding\n"
-	.string "different kinds of items.\p"
-	.string "Eggs{STR_VAR_1} ineligible.\p"
-	.string "Please come see me when you are ready.$"
+	.string "Disculpa!\p"
+	.string "No tens tres Pokémon vàlids.\p"
+	.string "A més, han de portar objectes\n"
+	.string "de tipus diferent.\p"
+	.string "Els Ous{STR_VAR_1} no són vàlids.\p"
+	.string "Vine quan estiguis preparat.$"
 
 BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLv50:
-	.string "Excuse me!\p"
-	.string "You don't have three eligible Pokémon.\p"
-	.string "You must have three different Pokémon\n"
-	.string "of Level 50 or less to enter.\p"
-	.string "They also must be holding different\n"
-	.string "kinds of items.\p"
-	.string "Eggs{STR_VAR_1} ineligible.\p"
-	.string "Please come see me when you are ready.$"
+	.string "Disculpa!\p"
+	.string "No tens tres Pokémon vàlids.\p"
+	.string "Necessites tres Pokémon diferents\n"
+	.string "de Nivell 50 o inferior.\p"
+	.string "També han de portar objectes\n"
+	.string "de tipus diferent.\p"
+	.string "Els Ous{STR_VAR_1} no són vàlids.\p"
+	.string "Vine quan estiguis preparat.$"
 
 BattleFrontier_BattleDomeLobby_Text_ShowYouToBattleDome:
-	.string "I will now show you to\n"
-	.string "the Battle Dome.$"
+	.string "Ara t'acompanyaré al\n"
+	.string "Domo de Combat.$"
 
 BattleFrontier_BattleDomeLobby_Text_DidntSaveBeforeQuitting:
-	.string "Excuse me!\p"
-	.string "You didn't save before you quit your\n"
-	.string "challenge last time.\p"
-	.string "Because of that, your challenge so far\n"
-	.string "has been disqualified. Sorry!$"
+	.string "Disculpa!\p"
+	.string "No vas desar abans de sortir\n"
+	.string "del desafiament l'última vegada.\p"
+	.string "Per això, el teu desafiament ha\n"
+	.string "estat desqualificat. Ho sento!$"
 
 BattleFrontier_BattleDomeLobby_Text_CongratsForWinningTourney:
-	.string "Congratulations for winning\n"
-	.string "your Battle Tournament!$"
+	.string "Felicitats per guanyar\n"
+	.string "el Torneig de Combat!$"
 
 @ Unused
 BattleFrontier_BattleDomeLobby_Text_HereIsYourPrize:
-	.string "Here is your prize for your Battle\n"
-	.string "Tournament victory.$"
+	.string "Aquí tens el premi per la teva\n"
+	.string "victòria al Torneig.$"
 
 @ Used by Verdanturf Tent
 BattleFrontier_BattleDomeLobby_Text_ReceivedPrize:
-	.string "{PLAYER} received the prize\n"
+	.string "{PLAYER} ha rebut el premi\n"
 	.string "{STR_VAR_1}.$"
 
 @ Unused
 BattleFrontier_BattleDomeLobby_Text_BagFullMakeRoom:
-	.string "Oh, your Bag appears to be full.\p"
-	.string "Please make room in your Bag, then come\n"
-	.string "see me.$"
+	.string "Oh, sembla que la Motxilla és\n"
+	.string "plena.\p"
+	.string "Fes espai a la Motxilla i torna\n"
+	.string "a parlar amb mi.$"
 
 BattleFrontier_BattleDomeLobby_Text_ThankYouForPlaying:
-	.string "Thank you for playing!$"
+	.string "Gràcies per participar!$"
 
 BattleFrontier_BattleDomeLobby_Text_RecordWillBeSaved:
-	.string "Your record will be saved.\n"
-	.string "Please wait.$"
+	.string "El teu rècord serà desat.\n"
+	.string "Espera, si us plau.$"
 
 BattleFrontier_BattleDomeLobby_Text_WeveBeenWaitingForYou:
-	.string "We've been waiting for you!$"
+	.string "T'estàvem esperant!$"
 
 BattleFrontier_BattleDomeLobby_Text_OkayToSaveBeforeChallenge2:
-	.string "Before I show you to the Battle Dome,\n"
-	.string "I must save the data. Is that okay?$"
+	.string "Abans d'acompanyar-te al Domo,\n"
+	.string "he de desar les dades. D'acord?$"
 
 BattleFrontier_BattleDomeLobby_Text_WelcomeDoubleBattle:
-	.string "Where the strategies of Trainers\n"
-	.string "are put to the test!\p"
-	.string "Welcome to the Battle Dome!\p"
-	.string "I am your guide to the Double Battle\n"
-	.string "Tournament.$"
+	.string "On les estratègies dels\n"
+	.string "Entrenadors són posades a prova!\p"
+	.string "Benvingut al Domo de Combat!\p"
+	.string "Sóc la teva guia del Torneig\n"
+	.string "de Combat Doble.$"
 
 BattleFrontier_BattleDomeLobby_Text_TakeDoublesChallenge:
-	.string "Would you like to challenge\n"
-	.string "the Double Battle Tournament?$"
+	.string "Vols desafiar el Torneig\n"
+	.string "de Combat Doble?$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainDoublesChallenge:
-	.string "The Double Battle Tournament\n"
-	.string "is exactly as the name suggests--\l"
-	.string "a tournament of Double Battles.\p"
-	.string "All participating Trainers must\n"
-	.string "enter three Pokémon each.\p"
-	.string "In each battle, one of the three\n"
-	.string "Pokémon must be held in reserve.\p"
-	.string "The remaining two Pokémon must take\n"
-	.string "part in a Double Battle.\p"
-	.string "Choose the two battling Pokémon after\n"
-	.string "examining the opponent's trio.\p"
-	.string "You win the tournament by defeating\n"
-	.string "four Trainers.\p"
-	.string "Battle Points are awarded to\n"
-	.string "the tournament winner.\p"
-	.string "If you want to interrupt your\n"
-	.string "tournament, please save the game.\p"
-	.string "If you don't save before interrupting,\n"
-	.string "you will be disqualified.$"
+	.string "El Torneig de Combat Doble\n"
+	.string "és exactament el que diu el nom:\l"
+	.string "un torneig de Combats Dobles.\p"
+	.string "Tots els Entrenadors han d'inscriure\n"
+	.string "tres Pokémon cadascun.\p"
+	.string "A cada combat, un dels tres\n"
+	.string "Pokémon ha de quedar en reserva.\p"
+	.string "Els dos Pokémon restants han de\n"
+	.string "participar en un Combat Doble.\p"
+	.string "Tria els dos Pokémon combatents\n"
+	.string "després d'examinar el trio rival.\p"
+	.string "Guanyes el torneig derrotant\n"
+	.string "quatre Entrenadors.\p"
+	.string "S'atorguen Punts de Combat\n"
+	.string "al guanyador del torneig.\p"
+	.string "Si vols interrompre el torneig,\n"
+	.string "desa la partida.\p"
+	.string "Si no deses, seràs\n"
+	.string "desqualificat.$"
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsSinglesLv50:
-	.string "They're the results of the last\n"
-	.string "Level 50 Single Battle Tournament.$"
+	.string "Són els resultats de l'últim\n"
+	.string "Torneig Individual de Nivell 50.$"
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsDoublesLv50:
-	.string "They're the results of the last\n"
-	.string "Level 50 Double Battle Tournament.$"
+	.string "Són els resultats de l'últim\n"
+	.string "Torneig Doble de Nivell 50.$"
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsSinglesLvOpen:
-	.string "They're the results of the last\n"
-	.string "Open Level Single Battle Tournament.$"
+	.string "Són els resultats de l'últim\n"
+	.string "Torneig Individual de Nivell Obert.$"
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsDoublesLvOpen:
-	.string "They're the results of the last\n"
-	.string "Open Level Double Battle Tournament.$"
+	.string "Són els resultats de l'últim\n"
+	.string "Torneig Doble de Nivell Obert.$"
 
 BattleFrontier_BattleDomeLobby_Text_LastWinnerWasTough:
-	.string "Did you see it?\n"
-	.string "The last Battle Tournament?\p"
-	.string "The winner, {STR_VAR_1}, was seriously\n"
-	.string "tough.\p"
-	.string "You should check out the results\n"
-	.string "on the monitor beside the PC.$"
+	.string "L'has vist?\n"
+	.string "L'últim Torneig de Combat?\p"
+	.string "El guanyador, {STR_VAR_1}, era molt\n"
+	.string "dur.\p"
+	.string "Hauries de mirar els resultats\n"
+	.string "al monitor al costat del PC.$"
 
 BattleFrontier_OutsideWest_Text_LongDreamedAboutBattleFrontier:
-	.string "The Battle Frontier…\n"
-	.string "I've long dreamed about a place like it.$"
+	.string "La Frontera de Combat…\n"
+	.string "Sempre havia somiat un lloc així.$"
 
 @ Functionally unused
 BattleFrontier_OutsideWest_Text_BattleDomeSign2:
-	.string "The Battle Dome\n"
-	.string "Become the Unbeatable Superstar!$"
+	.string "El Domo de Combat\n"
+	.string "Converteix-te en la Superestrella\l"
+	.string "Invencible!$"
 
 @ Functionally unused
 BattleFrontier_OutsideWest_Text_QuestionMarkUnderConstruction:
-	.string "The ??????\n"
-	.string "Under Construction!$"
+	.string "El ??????\n"
+	.string "En Construcció!$"
 
 BattleFrontier_BattleDomeLobby_Text_WinnersGainReputation:
-	.string "When a Trainer chains tournament\n"
-	.string "wins at the Battle Dome, he or she\l"
-	.string "gains a reputation as a star.\p"
-	.string "Tough Trainers are drawn by that\n"
-	.string "reputation to the Battle Dome.\p"
-	.string "A true superstar is a Trainer who\n"
-	.string "can keep winning tournaments.$"
+	.string "Quan un Entrenador encadena\n"
+	.string "victòries al Domo de Combat,\l"
+	.string "guanya reputació d'estrella.\p"
+	.string "Entrenadors durs són atrets\n"
+	.string "per aquesta reputació al Domo.\p"
+	.string "Una superestrella de veritat és\n"
+	.string "qui segueix guanyant torneigs.$"
 
 BattleFrontier_BattleDomeLobby_Text_TrashedInFirstRound:
-	.string "I ran into one of the tournament\n"
-	.string "favorites in the very first round.\p"
-	.string "Of course I got trashed…$"
+	.string "Em vaig trobar un dels favorits\n"
+	.string "del torneig a la primera ronda.\p"
+	.string "És clar que em van escombrar…$"
 
 BattleFrontier_BattleDomeLobby_Text_NeedToCheckOpponentCarefully:
-	.string "I would've won if I'd kept this Pokémon\n"
-	.string "held in reserve.\p"
-	.string "You need to check your opponent's\n"
-	.string "Pokémon carefully before choosing\l"
-	.string "your battling Pokémon.$"
+	.string "Hauria guanyat si hagués guardat\n"
+	.string "aquest Pokémon en reserva.\p"
+	.string "Has de revisar bé els Pokémon\n"
+	.string "del rival abans de triar els\l"
+	.string "teus Pokémon combatents.$"
 
 BattleFrontier_BattleDomeLobby_Text_CongratsDefeatedTucker:
-	.string "Congratulations!\p"
-	.string "You defeated the Dome Ace and won\n"
-	.string "the Battle Tournament!$"
+	.string "Felicitats!\p"
+	.string "Has derrotat l'As del Domo i\n"
+	.string "has guanyat el Torneig!$"
 
 BattleFrontier_BattleDomeLobby_Text_AwardTheseBattlePoints:
-	.string "In recognition of your strategy--\n"
-	.string "a thing of beauty it was, too--\l"
-	.string "we award you these Battle Point(s)!$"
+	.string "En reconeixement de la teva\n"
+	.string "estratègia, una obra d'art,\l"
+	.string "t'atorguem Punt(s) de Combat!$"
 
 BattleFrontier_BattleDomeLobby_Text_RecordLastMatch:
-	.string "Would you like to record your\n"
-	.string "last Battle Dome match on your\l"
-	.string "Frontier Pass?$"
+	.string "Vols enregistrar l'últim combat\n"
+	.string "del Domo al Passi Frontera?$"
 
 BattleFrontier_BattleDomeLobby_Text_RulesAreListed:
-	.string "The Battle Tournament rules\n"
-	.string "are listed.$"
+	.string "Les regles del Torneig de Combat\n"
+	.string "estan exposades.$"
 
 BattleFrontier_BattleDomeLobby_Text_ReadWhichHeading:
-	.string "Which heading do you want to read?$"
+	.string "Quina secció vols llegir?$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainMatchupRules:
-	.string "The tournament matchups are drawn up\n"
-	.string "based on the toughness of Pokémon\l"
-	.string "held by Trainers.\p"
-	.string "The matchups avoid having tough\n"
-	.string "Trainers face each other right away.$"
+	.string "Els enfrontaments del torneig es\n"
+	.string "fan segons la força dels Pokémon\l"
+	.string "dels Entrenadors.\p"
+	.string "S'evita que Entrenadors forts\n"
+	.string "s'enfrontin d'entrada.$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainTourneyTree:
-	.string "The tournament chart, or as we call it,\n"
-	.string "the “Tree,” is available for viewing\l"
-	.string "in the Waiting Room from any guide.\p"
-	.string "The Tournament Tree will provide\n"
-	.string "several kinds of data.\p"
-	.string "The data on view includes the previous\n"
-	.string "tournament's results, the Pokémon held\l"
-	.string "by Trainers, and the battle styles of\l"
-	.string "Trainers.$"
+	.string "El quadre del torneig, o com\n"
+	.string "l'anomenem, l'"Arbre," es pot\l"
+	.string "veure a la Sala d'Espera.\p"
+	.string "L'Arbre del Torneig ofereix\n"
+	.string "diversos tipus de dades.\p"
+	.string "Les dades inclouen resultats\n"
+	.string "del torneig anterior, Pokémon\l"
+	.string "dels Entrenadors i estils de\l"
+	.string "combat.$"
 
 BattleFrontier_BattleDomeLobby_Text_ExplainDoubleKORules:
-	.string "If battling Pokémon faint at the same\n"
-	.string "time--a double KO--in a tournament\l"
-	.string "match, the Referees will review\l"
-	.string "the match and declare the winner.$"
+	.string "Si els Pokémon combatents cauen\n"
+	.string "alhora, un doble KO, els Àrbitres\l"
+	.string "revisaran el combat i declararan\l"
+	.string "el guanyador.$"
