@@ -57,7 +57,7 @@ BattleFrontier_BattleTowerBattleRoom2_EventScript_248F4D:: @ 8248F4D
 	frontier_set FRONTIER_DATA_6, 1
 	goto BattleFrontier_BattleTowerBattleRoom2_EventScript_249143
 
-BattleFrontier_BattleTowerBattleRoom2_EventScript_248FB4:: @ 8248FB4
+BattleFrontier_BattleTowerBattleRoom2_EventScript_248FB4:: @ 824904A
 	tower_setopponent
 	addobject 1
 	addobject 4
@@ -451,57 +451,57 @@ BattleFrontier_BattleTowerBattleRoom2_Movement_249545: @ 8249545
 	step_end
 
 BattleFrontier_BattleTowerBattleRoom2_Text_249547: @ 8249547
-	.string "The 2nd set of opponents is next.\n"
-	.string "Are you ready?$"
+	.string "El 2n grup d'oponents és el\n"
+	.string "següent. Estàs a punt?$"
 
 BattleFrontier_BattleTowerBattleRoom2_Text_249578: @ 8249578
-	.string "The 3rd set of opponents is next.\n"
-	.string "Are you ready?$"
+	.string "El 3r grup d'oponents és el\n"
+	.string "següent. Estàs a punt?$"
 
 BattleFrontier_BattleTowerBattleRoom2_Text_2495A9: @ 82495A9
-	.string "The 4th set of opponents is next.\n"
-	.string "Are you ready?$"
+	.string "El 4t grup d'oponents és el\n"
+	.string "següent. Estàs a punt?$"
 
 BattleFrontier_BattleTowerBattleRoom2_Text_2495DA: @ 82495DA
-	.string "The 5th set of opponents is next.\n"
-	.string "Are you ready?$"
+	.string "El 5è grup d'oponents és el\n"
+	.string "següent. Estàs a punt?$"
 
 BattleFrontier_BattleTowerBattleRoom2_Text_24960B: @ 824960B
-	.string "The 6th set of opponents is next.\n"
-	.string "Are you ready?$"
+	.string "El 6è grup d'oponents és el\n"
+	.string "següent. Estàs a punt?$"
 
 BattleFrontier_BattleTowerBattleRoom2_Text_24963C: @ 824963C
-	.string "The 7th set of opponents is next.\n"
-	.string "Are you ready?$"
+	.string "El 7è grup d'oponents és el\n"
+	.string "següent. Estàs a punt?$"
 
 BattleFrontier_BattleTowerBattleRoom2_Text_24966D: @ 824966D
-	.string "The 2nd set of opponents is next.\n"
-	.string "Do your best!$"
+	.string "El 2n grup d'oponents és el\n"
+	.string "següent. Fes-ho bé!$"
 
 BattleFrontier_BattleTowerBattleRoom2_Text_24969D: @ 824969D
-	.string "The 3rd set of opponents is next.\n"
-	.string "Do your best!$"
+	.string "El 3r grup d'oponents és el\n"
+	.string "següent. Fes-ho bé!$"
 
 BattleFrontier_BattleTowerBattleRoom2_Text_2496CD: @ 82496CD
-	.string "The 4th set of opponents is next.\n"
-	.string "Do your best!$"
+	.string "El 4t grup d'oponents és el\n"
+	.string "següent. Fes-ho bé!$"
 
 BattleFrontier_BattleTowerBattleRoom2_Text_2496FD: @ 82496FD
-	.string "The 5th set of opponents is next.\n"
-	.string "Do your best!$"
+	.string "El 5è grup d'oponents és el\n"
+	.string "següent. Fes-ho bé!$"
 
 BattleFrontier_BattleTowerBattleRoom2_Text_24972D: @ 824972D
-	.string "The 6th set of opponents is next.\n"
-	.string "Do your best!$"
+	.string "El 6è grup d'oponents és el\n"
+	.string "següent. Fes-ho bé!$"
 
 BattleFrontier_BattleTowerBattleRoom2_Text_24975D: @ 824975D
-	.string "The 7th set of opponents is next.\n"
-	.string "Do your best!$"
+	.string "El 7è grup d'oponents és el\n"
+	.string "següent. Fes-ho bé!$"
 
 gText_LinkStandby3:: @ 824978D
-	.string "Link standby…$"
+	.string "Esperant connexió…$"
 
 gText_YourPartnerHasRetired:: @ 824979B
-	.string "Your partner has retired.\p"
-	.string "Your Battle Room challenge\n"
-	.string "will be canceled.$"
+	.string "El teu company s'ha retirat.\p"
+	.string "El teu desafiament a la Sala\n"
+	.string "de Combat es cancel·larà.$"

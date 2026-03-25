@@ -438,130 +438,131 @@ BattleFrontier_BattleTowerBattleRoom_EventScript_RetireChallenge::
 	end
 
 BattleFrontier_BattleTowerBattleRoom_Text_RestoreMonsToFullHealth:
-	.string "We will restore your Pokémon to\n"
-	.string "full health.$"
+	.string "Restaurarem els teus Pokémon\n"
+	.string "a plena salut.$"
 
 @ Unused
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyForOpponent:
-	.string "You will be facing opponent no. {STR_VAR_1}.\n"
-	.string "Are you ready?$"
+	.string "T'enfrontaràs a l'oponent núm. {STR_VAR_1}.\n"
+	.string "Estàs a punt?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor2ndOpponent:
-	.string "You will be facing opponent no. 2.\n"
-	.string "Are you ready?$"
+	.string "T'enfrontaràs a l'oponent núm. 2.\n"
+	.string "Estàs a punt?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor3rdOpponent:
-	.string "You will be facing opponent no. 3.\n"
-	.string "Are you ready?$"
+	.string "T'enfrontaràs a l'oponent núm. 3.\n"
+	.string "Estàs a punt?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor4thOpponent:
-	.string "You will be facing opponent no. 4.\n"
-	.string "Are you ready?$"
+	.string "T'enfrontaràs a l'oponent núm. 4.\n"
+	.string "Estàs a punt?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor5thOpponent:
-	.string "You will be facing opponent no. 5.\n"
-	.string "Are you ready?$"
+	.string "T'enfrontaràs a l'oponent núm. 5.\n"
+	.string "Estàs a punt?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor6thOpponent:
-	.string "You will be facing opponent no. 6.\n"
-	.string "Are you ready?$"
+	.string "T'enfrontaràs a l'oponent núm. 6.\n"
+	.string "Estàs a punt?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor7thOpponent:
-	.string "You will be facing opponent no. 7.\n"
-	.string "Are you ready?$"
+	.string "T'enfrontaràs a l'oponent núm. 7.\n"
+	.string "Estàs a punt?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_RecordYourBattle:
-	.string "Record your battle on your\n"
-	.string "Frontier Pass?$"
+	.string "Vols gravar el combat al teu\n"
+	.string "Passi de Frontera?$"
 
 BattleFrontier_BattleTowerLobby_Text_BattleRecordedOnPass:
-	.string "{PLAYER}'s battle was recorded\n"
-	.string "on the Frontier Pass.$"
+	.string "El combat de {PLAYER} s'ha gravat\n"
+	.string "al Passi de Frontera.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_SaveAndQuitGame:
-	.string "Would you like to save and\n"
-	.string "quit the game?$"
+	.string "Vols desar la partida\n"
+	.string "i sortir del joc?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_SavingPleaseWait:
-	.string "Saving your battle data.\n"
-	.string "Please wait.$"
+	.string "S'estan desant les dades del combat.\n"
+	.string "Si us plau, espera.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_CancelYourChallenge:
-	.string "Would you like to cancel your Battle\n"
-	.string "Room challenge?$"
+	.string "Vols cancel·lar el teu desafiament\n"
+	.string "a la Sala de Combat?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_RecordCouldntBeSaved::
-	.string "There was an error of some sort.\n"
-	.string "Your record could not be saved.$"
+	.string "Hi ha hagut un error.\n"
+	.string "No s'ha pogut desar el registre.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_SalonMaidenOnHerWay:
-	.string "Excuse me, but…\p"
-	.string "Our leader, the Salon Maiden, is on\n"
-	.string "her way here in hopes of battling you.\p"
-	.string "She should be arriving very shortly.$"
+	.string "Disculpa, però…\p"
+	.string "La nostra líder, la Dama del Saló,\n"
+	.string "ve cap aquí amb ganes de lluitar.\p"
+	.string "Hauria d'arribar molt aviat.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyForSalonMaiden:
-	.string "You will be facing the Salon Maiden.\n"
-	.string "Are you prepared?$"
+	.string "T'enfrontaràs a la Dama del Saló.\n"
+	.string "Estàs preparat?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_GreetingsImAnabel:
-	.string "Greetings…\n"
-	.string "My name is Anabel.\p"
-	.string "I am the Salon Maiden, and I am in\n"
-	.string "charge of running the Battle Tower…\p"
-	.string "I have heard several rumors\n"
-	.string "about you…\p"
-	.string "In all honesty, what I have heard does\n"
-	.string "not seem attractive in any way…\p"
-	.string "The reason I've come to see you…\n"
-	.string "Well, there is but one reason…$"
+	.string "Salutacions…\n"
+	.string "Em dic Anabel.\p"
+	.string "Sóc la Dama del Saló i estic\n"
+	.string "a càrrec de la Torre de Combat…\p"
+	.string "He sentit diversos rumors\n"
+	.string "sobre tu…\p"
+	.string "Sent sincera, el que he sentit no\n"
+	.string "sembla atractiu de cap manera…\p"
+	.string "La raó per la qual he vingut\n"
+	.string "a veure't…\l"
+	.string "Bé, només hi ha una raó…$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_LetMeSeeYourTalent:
-	.string "Let me see your talent in\n"
-	.string "its entirety…$"
+	.string "Deixa'm veure el teu talent\n"
+	.string "en la seva totalitat…$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelTalentShallBeRecognized:
-	.string "Anabel: Fufufu, nicely done…\p"
-	.string "Your Frontier Pass, please…\n"
-	.string "Your talent shall be recognized.$"
+	.string "Anabel: Fufufu, ben fet…\p"
+	.string "El teu Passi de Frontera, si us plau…\n"
+	.string "El teu talent serà reconegut.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReceivedAbilitySymbol:
-	.string "The Ability Symbol was embossed on\n"
-	.string "the Frontier Pass!$"
+	.string "El Símbol d'Habilitat s'ha gravat\n"
+	.string "al Passi de Frontera!$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_UntilNextTime:
 	.string "… … … … … …\p"
-	.string "You have confidence in your Pokémon\n"
-	.string "battling talent, don't you?\p"
-	.string "I urge you to keep battling and\n"
-	.string "keep on winning.\p"
-	.string "I will be waiting for you.\n"
-	.string "Until the next time we meet…$"
+	.string "Tens confiança en el teu talent\n"
+	.string "per als combats Pokémon, oi?\p"
+	.string "Et demano que segueixis lluitant\n"
+	.string "i segueixis guanyant.\p"
+	.string "T'esperaré.\n"
+	.string "Fins la propera vegada…$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelYouCameBack:
-	.string "Anabel: You really did come back to\n"
-	.string "see me…\p"
+	.string "Anabel: Realment has tornat\n"
+	.string "a veure'm…\p"
 	.string "… … … … … …\p"
-	.string "You've won straight matches to see me…\n"
-	.string "I won't have to hold back against you…\p"
-	.string "It's been too long now…\p"
-	.string "Too long since I've been able to battle\n"
-	.string "without thinking about anything…$"
+	.string "Has guanyat combats seguits per\n"
+	.string "veure'm… No m'hauré de contenir…\p"
+	.string "Fa massa temps…\p"
+	.string "Massa temps des que vaig poder\n"
+	.string "lluitar sense pensar en res…$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_LetsBeginShallWe:
-	.string "Let's begin, shall we?$"
+	.string "Comencem, d'acord?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelCongratsYourPassPlease:
-	.string "Anabel: Fufu, congratulations…\n"
-	.string "Your Frontier Pass, please…$"
+	.string "Anabel: Fufu, felicitats…\n"
+	.string "El teu Passi de Frontera, si us plau…$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AbilitySymbolTookGoldenShine:
-	.string "The Ability Symbol took on\n"
-	.string "a golden shine!$"
+	.string "El Símbol d'Habilitat ha adquirit\n"
+	.string "una brillantor daurada!$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_WishICouldBattleYouAgain:
-	.string "That was fun…\p"
-	.string "I have never had a Pokémon battle\n"
-	.string "so enjoyable before…\p"
-	.string "I wish I could battle with you again…$"
-
+	.string "Ha estat divertit…\p"
+	.string "Mai no havia tingut un combat\n"
+	.string "Pokémon tan agradable…\p"
+	.string "M'agradaria poder lluitar amb tu\n"
+	.string "un altre cop…$"
