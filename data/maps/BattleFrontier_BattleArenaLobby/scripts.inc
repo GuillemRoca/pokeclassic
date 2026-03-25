@@ -530,39 +530,39 @@ BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules:
 	.string "fins que es decideixi el resultat.$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainMindRules:
-	.string “El primer factor és “Ment.”\n”
-	.string “Avalua com d'agressius\l”
-	.string “han estat els combatents.\p”
-	.string “Es basa en la freqüència amb què\n”
-	.string “els Entrenadors han ordenat\l”
-	.string “moviments ofensius.$”
+	.string "El primer factor és “Ment.”\n"
+	.string "Avalua com d'agressius\l"
+	.string "han estat els combatents.\p"
+	.string "Es basa en la freqüència amb què\n"
+	.string "els Entrenadors han ordenat\l"
+	.string "moviments ofensius.$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules:
-	.string “El segon factor és “Habilitat.”\n”
-	.string “Avalua com d'eficaçment s'han\l”
-	.string “usat els moviments Pokémon.\p”
-	.string “Si un moviment ha funcionat bé,\n”
-	.string “la puntuació d'Habilitat puja.\p”
-	.string “Si un moviment ha fallat, la puntuació\n”
-	.string “d'Habilitat baixa.\p”
-	.string “Si era un moviment ofensiu, la\n”
-	.string “puntuació puja si era “super\l”
-	.string “eficaç” i baixa si era\l”
-	.string “”poc eficaç.”\p”
-	.string “La puntuació no pujarà per moviments\n”
-	.string “com Protecció i Detecció.\p”
-	.string “Si l'oponent ha usat Protecció o\n”
-	.string “Detecció, i el teu Pokémon no ha\l”
-	.string “impactat, la seva puntuació\l”
-	.string “no baixarà.$”
+	.string "El segon factor és “Habilitat.”\n"
+	.string "Avalua com d'eficaçment s'han\l"
+	.string "usat els moviments Pokémon.\p"
+	.string "Si un moviment ha funcionat bé,\n"
+	.string "la puntuació d'Habilitat puja.\p"
+	.string "Si un moviment ha fallat, la puntuació\n"
+	.string "d'Habilitat baixa.\p"
+	.string "Si era un moviment ofensiu, la\n"
+	.string "puntuació puja si era “super\l"
+	.string "eficaç” i baixa si era\l"
+	.string "”poc eficaç.”\p"
+	.string "La puntuació no pujarà per moviments\n"
+	.string "com Protecció i Detecció.\p"
+	.string "Si l'oponent ha usat Protecció o\n"
+	.string "Detecció, i el teu Pokémon no ha\l"
+	.string "impactat, la seva puntuació\l"
+	.string "no baixarà.$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
-	.string “El tercer factor és “Cos.”\n”
-	.string “Es basa en quants PS quedaven\l”
-	.string “al final del combat.\p”
-	.string “La puntuació té en compte quants\n”
-	.string “PS tenia el Pokémon a l'inici del\l”
-	.string “combat i quants li quedaven al final.$”
+	.string "El tercer factor és “Cos.”\n"
+	.string "Es basa en quants PS quedaven\l"
+	.string "al final del combat.\p"
+	.string "La puntuació té en compte quants\n"
+	.string "PS tenia el Pokémon a l'inici del\l"
+	.string "combat i quants li quedaven al final.$"
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnDefeatingTycoon:
 	.string "Una victòria arrancada al Magnat de\n"

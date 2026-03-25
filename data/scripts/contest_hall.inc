@@ -1700,10 +1700,10 @@ LilycoveCity_ContestLobby_Text_EnterWhichPokemon3:
 	.string "Quin Pokémon vols inscriure?$"
 
 LilycoveCity_ContestLobby_Text_PleaseDecideLinkLeader:
-	.string “Decidiu qui de vosaltres serà\n”
-	.string “el Líder del Grup.\p”
-	.string “Els altres jugadors hauran de\n”
-	.string “triar “Unir-se al Grup”.$”
+	.string "Decidiu qui de vosaltres serà\n"
+	.string "el Líder del Grup.\p"
+	.string "Els altres jugadors hauran de\n"
+	.string "triar “Unir-se al Grup”.$"
 
 LilycoveCity_ContestLobby_Text_PlayerAt4PCounterUseGMode:
 	.string "Almenys un jugador s'ha inscrit\n"

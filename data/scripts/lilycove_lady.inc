@@ -532,259 +532,413 @@ LilycoveCity_PokemonCenter_1F_EventScript_Pikachu::
 LilycoveCity_PokemonCenter_1F_Text_ImTheFavorLady:
 	.string "Sóc la Senyora dels Favors…$"
 
+
 LilycoveCity_PokemonCenter_1F_Text_ObsessedWithThing:
 	.string "Últimament estic obsessionada\n"
+
 	.string "amb les coses {STR_VAR_1}…$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_ThankYouForLastTime:
 	.string "Oh…\n"
+
 	.string "Gràcies per l'últim cop…$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_PlayerGaveMeBadThing:
 	.string "Abans, crec que era {STR_VAR_3}…\p"
+
 	.string "{STR_VAR_3} em va donar un {STR_VAR_2},\n"
+
 	.string "dient que era {STR_VAR_1}.\p"
+
 	.string "Però no era {STR_VAR_1}.\n"
+
 	.string "Ni de bon tros.$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_PlayerGaveMeGreatThing:
 	.string "Abans, {STR_VAR_3} em va donar un\n"
+
 	.string "{STR_VAR_2} molt {STR_VAR_1}.\p"
+
 	.string "Ara el guardo amb molt d'afecte.$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_WillYouShareThing:
 	.string "Escolta, si tens alguna cosa\n"
+
 	.string "que sigui {STR_VAR_1}, me la\l"
+
 	.string "podries donar?$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_WhatWillYouGiveMe:
 	.string "…De debò?\n"
+
 	.string "Què em donaràs?$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_IsThatSoGoodbye:
 	.string "Ah, sí?\n"
+
 	.string "Doncs, adéu…$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_NotWillingToShare:
 	.string "Oh…\n"
+
 	.string "No vols compartir res?$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_IllTryToCherishIt:
 	.string "Oh?\n"
+
 	.string "Aquest {STR_VAR_2} és {STR_VAR_1}?\p"
+
 	.string "…Ah, de veritat?\p"
+
 	.string "Bé, igualment t'ho agraeixo.\n"
+
 	.string "Intentaré estimar-lo…$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_IWillCherishThis:
 	.string "Oh…\p"
+
 	.string "Això és un {STR_VAR_2}\n"
+
 	.string "força {STR_VAR_1}…\p"
+
 	.string "No és bonic?\n"
+
 	.string "És tan ideal…\p"
+
 	.string "Gràcies…\n"
+
 	.string "Ho guardaré amb molt d'afecte…$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_IWillTreasureThis:
 	.string "…Oh, oh, oh…\p"
+
 	.string "Això és increïble!\n"
+
 	.string "Això sí que és {STR_VAR_1}!\p"
+
 	.string "No sabia que un {STR_VAR_2}\n"
+
 	.string "pogués ser tan {STR_VAR_1}!\p"
+
 	.string "Gràcies!\p"
+
 	.string "Ho guardaré com un tresor\n"
+
 	.string "tota la vida!$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_IllGiveYouThisInReturn:
 	.string "Et donaré aquest objecte meravellós\n"
+
 	.string "a canvi del teu regal fabulós.\p"
+
 	.string "Espero que el guardis amb afecte…$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_YouDontHaveSpaceForIt:
 	.string "Oh, no el pots tenir si no tens\n"
+
 	.string "espai per guardar-lo.\p"
+
 	.string "Vine a veure'm quan tinguis\n"
+
 	.string "la Motxilla ordenada…$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_ImTheQuizLady:
 	.string "Sóc la Senyora dels Qüestionaris!\n"
+
 	.string "M'encanten els qüestionaris!$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_WaitingToTakeYourQuiz:
 	.string "Oh?\p"
+
 	.string "Estic esperant que algú respongui\n"
+
 	.string "el qüestionari que has creat.\p"
+
 	.string "Podem parlar un altre cop, d'acord?$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_WaitingForChallenger:
 	.string "Estic esperant que algú accepti\n"
+
 	.string "el qüestionari de {STR_VAR_1}!$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_TakeQuizChallenge:
 	.string "Si respons correctament, pots\n"
+
 	.string "guanyar premis fabulosos!\p"
+
 	.string "Vols acceptar el repte del\n"
+
 	.string "qüestionari?$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_WaitForAnswer:
 	.string "… … … … … …\n"
+
 	.string "… … … … … …$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_HowBoringBye:
 	.string "Oh, que avorrit!\n"
+
 	.string "Adéu!$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_YoureGoingToQuit:
 	.string "Ohhh!\n"
+
 	.string "Deixaràs el qüestionari?$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_TakeTheQuizAnotherTime:
 	.string "Accepta el repte del qüestionari\n"
+
 	.string "un altre dia!$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_YouGotItRight:
 	.string "Ets increïble! Has encertat!\n"
+
 	.string "Ets molt llest/a!$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_YouGotItRightYouveWonPersonsPrize:
 	.string "Felicitats!\n"
+
 	.string "Has encertat el qüestionari!\p"
+
 	.string "Has guanyat un premi ofert per\n"
+
 	.string "{STR_VAR_1}!$"
+
 
 @ Unused
 LilycoveCity_PokemonCenter_1F_Text_XReceivedOneY:
 	.string "{STR_VAR_1} ha rebut\n"
+
 	.string "un/a {STR_VAR_2}!$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_YourBagIsFilledUp:
 	.string "Oh? La Motxilla és plena!\n"
+
 	.string "Vine quan tinguis espai.$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_WrongTheCorrectAnswerIs:
 	.string "Hmm… Incorrecte!\n"
-	.string "La resposta correcta és "{STR_VAR_3}"!$"
+
+	.string "La resposta correcta és “{STR_VAR_3}”!$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_IGetToKeepPrize:
 	.string "Quina llàstima!\p"
+
 	.string "Em quedo el premi del qüestionari\n"
+
 	.string "{STR_VAR_1}!$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_MakeYourOwnQuiz:
 	.string "Escolta, escolta!\n"
+
 	.string "Vols crear el teu propi qüestionari?$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_MaybeNextTime:
 	.string "Oh, ja veig…\n"
+
 	.string "Bé, potser un altre cop!$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_PickYourPrize:
 	.string "D'acord, primer has de triar el\n"
+
 	.string "premi per a qui respongui bé\l"
+
 	.string "el teu qüestionari.\p"
+
 	.string "Però compte, si qui el fa no\n"
+
 	.string "encerta, em quedo jo\l"
+
 	.string "el premi!$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_QuitChoosingPrize:
 	.string "Si no tries un premi,\n"
+
 	.string "no es pot crear el qüestionari.\p"
+
 	.string "Vols deixar de crear\n"
+
 	.string "el teu qüestionari?$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_WriteYourQuiz:
 	.string "Oh, que bé!\n"
+
 	.string "Quin premi tan fantàstic!\p"
+
 	.string "Ara, has d'escriure la pregunta\n"
+
 	.string "del qüestionari i la resposta.$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_QuitWritingQuizQuestion:
 	.string "Vols deixar d'escriure\n"
+
 	.string "la pregunta del qüestionari?$"
+
 
 @ Unused
 LilycoveCity_PokemonCenter_1F_Text_QuitWritingQuizAnswer:
 	.string "Vols deixar de triar\n"
+
 	.string "la resposta del qüestionari?$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_IllLookForAChallenger:
 	.string "Gràcies!\n"
+
 	.string "Has creat un bon qüestionari.\p"
+
 	.string "Buscaré algú que accepti el repte\n"
+
 	.string "del teu qüestionari ara mateix.$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_ImTheContestLady:
 	.string "Sóc la Senyora dels Concursos!\n"
+
 	.string "M'encanten els Concursos!$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_ThankForPokeblock:
 	.string "Gràcies pel {POKEBLOCK} d'abans!$"
 
+
 LilycoveCity_PokemonCenter_1F_Text_MyFriendDisplaysQuality:
 	.string "Aquest és el meu amic {STR_VAR_1}!\n"
+
 	.string "És l'epítom de {STR_VAR_2}!\p"
+
 	.string "Però crec que pot mostrar\n"
+
 	.string "encara més {STR_VAR_2}!$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_DontHaveAPokeblockCase:
 	.string "Per tant, necessito la teva ajuda!\p"
+
 	.string "Si us plau, em dones un {POKEBLOCK}?\n"
+
 	.string "Només en demano un!\p"
+
 	.string "…Oh, però…\n"
+
 	.string "No tens un Estoig de {POKEBLOCK}?\l"
+
 	.string "Això no va bé. Un altre cop, doncs!$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_AskingForOnePokeblock:
 	.string "Per tant, necessito la teva ajuda!\p"
+
 	.string "Si us plau, em dones un {POKEBLOCK}?\n"
+
 	.string "Només en demano un!$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_ICantHaveOnePokeblock:
 	.string "Ohhh!\n"
+
 	.string "No em pots donar un {POKEBLOCK}?!$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_WhatACheapskate:
 	.string "Bah!\n"
+
 	.string "Quin garrepa!$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_IllUseYourPokeblock:
 	.string "Bé!\n"
+
 	.string "Gràcies!\p"
+
 	.string "Alimentaré el meu Pokémon amb\n"
+
 	.string "el teu {POKEBLOCK} ara mateix.$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_NoChangeThanks:
 	.string "…No sembla que hagi canviat\n"
+
 	.string "gens ni mica…\p"
+
 	.string "Hmm…\p"
+
 	.string "Bé, tant se val!\n"
+
 	.string "Moltes gràcies!$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_ReallyImprovedThanks:
 	.string "Oh, bé!\n"
+
 	.string "Està molt content!\p"
+
 	.string "Crec que ha millorat molt la\n"
+
 	.string "qualitat de {STR_VAR_2} de {STR_VAR_1}.\p"
+
 	.string "Moltes gràcies!$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_ReadyToEnterContests:
 	.string "Hmm…\p"
+
 	.string "Crec que estem preparats per\n"
+
 	.string "participar en Concursos.\p"
+
 	.string "Si ens veus en algun,\n"
+
 	.string "espero que ens animis!$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_Zigzagoon:
 	.string "{STR_VAR_1}: Guguuh!$"
 
+
 LilycoveCity_PokemonCenter_1F_Text_Kecleon:
 	.string "{STR_VAR_1}: Igigigiiih!$"
+
 
 LilycoveCity_PokemonCenter_1F_Text_Poochyena:
 	.string "{STR_VAR_1}: Baaarun…$"
 
+
 LilycoveCity_PokemonCenter_1F_Text_Pikachu:
 	.string "{STR_VAR_1}: Pikka!$"
 
+
 LilycoveCity_PokemonCenter_1F_Text_Skitty:
 	.string "{STR_VAR_1}: Umyaaaan!$"
+

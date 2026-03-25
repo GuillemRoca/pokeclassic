@@ -23,10 +23,15 @@ VermilionCity_PokemonFanClub_EventScript_AlreadyHeardStory::
 
 VermilionCity_PokemonFanClub_Text_DidntComeToSeeAboutMonsAgain::
     .string "Hola, {PLAYER}!\p"
+
     .string "Has vingut a veure'm pels meus\n"
+
     .string "Pokémon, una altra vegada?\p"
+
     .string "No?\n"
+
     .string "Quina llàstima!$"
+
 
 VermilionCity_PokemonFanClub_DailyReward::
 	specialvar VAR_RESULT, GetLeadMonFriendshipScore
@@ -45,24 +50,39 @@ VermilionCity_PokemonFanClub_DailyReward::
 
 VermilionCity_PokemonFanClub_Text_TruePokeFan::
 	.string "Puc veure que tens molta cura\n"
+
 	.string "dels teus Pokémon!\p"
+
 	.string "Ets un autèntic PokéFan!\p"
+
 	.string "Si us plau, pren això i\n"
+
 	.string "comparteix-ho amb els teus\l"
+
 	.string "Pokémon!$"
+
 
 VermilionCity_PokemonFanClub_Text_DidYouComeToHearAboutMyMons::
     .string "Presideixo el Club de Fans Pokémon!\p"
+
     .string "Crio més de cent Pokémon!\p"
+
     .string "Sóc molt exigent quan es tracta\n"
+
     .string "de Pokémon! De debò que sí!\p"
+
     .string "Així que…\p"
+
     .string "Has vingut a escoltar coses sobre\n"
+
     .string "els meus Pokémon?$"
+
 
 VermilionCity_PokemonFanClub_Text_ComeBackToHearStory::
     .string "Oh. Torna quan vulguis escoltar\n"
+
     .string "la meva història!$"
+
 
 VermilionCity_PokemonFanClub_EventScript_ChairmanStory::
 	msgbox VermilionCity_PokemonFanClub_Text_ChairmansStory
@@ -79,19 +99,33 @@ VermilionCity_PokemonFanClub_EventScript_ChairmanStory::
 
 VermilionCity_PokemonFanClub_Text_ChairmansStory::
     .string "Bé!\n"
+
     .string "Doncs escolta!\p"
+
     .string "El meu Rapidash favorit…\p"
+
     .string "És…bufó…adorable…llest…\n"
+
     .string "a més…increïble…no creus?…\l"
+
     .string "oh sí…és…impressionant…\l"
+
     .string "amable…l'estimo!\p"
+
     .string "Abraçar-lo…quan dorm…calent\n"
+
     .string "i tendre…espectacular…\l"
+
     .string "fascinant…\l"
+
     .string "…Vaja! Mira quina hora és!\l"
+
     .string "T'he entretingut massa!\p"
+
     .string "Gràcies per escoltar-me!\n"
+
     .string "Vull que tinguis això!$"
+
 
 VermilionCity_PokemonFanClub_EventScript_NoRoomForBikeVoucher::
 	msgbox VermilionCity_PokemonFanClub_Text_MakeRoomForThis
@@ -101,20 +135,32 @@ VermilionCity_PokemonFanClub_EventScript_NoRoomForBikeVoucher::
 VermilionCity_PokemonFanClub_Text_MakeRoomForThis::
     .string "Fes espai per a això!$"
 
+
 VermilionCity_PokemonFanClub_Text_ReceivedBikeVoucherFromChairman::
     .string "{PLAYER} ha rebut un Val de Bici\n"
+
     .string "del President.$"
+
 
 VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher::
     .string "Porta el Val de Bici a la\n"
+
     .string "Botiga de Bicis de Cerulean.\p"
+
     .string "Canvia'l per una Bicicleta\n"
+
     .string "totalment gratis!\p"
+
     .string "No et preocupis, el meu Fearow\n"
+
     .string "favorit em porta volant on calgui.\p"
+
     .string "Així que no necessito cap\n"
+
     .string "Bicicleta.\p"
+
     .string "Espero que t'agradi anar en bici!$"
+
 
 VermilionCity_PokemonFanClub_EventScript_WorkerF::
 	lock
@@ -131,13 +177,19 @@ VermilionCity_PokemonFanClub_EventScript_WorkerFGameClear::
 
 VermilionCity_PokemonFanClub_Text_ChairmanReallyAdoresHisMons::
     .string "El nostre President de debò que\n"
+
     .string "adora els seus Pokémon.\p"
+
     .string "Però la persona que més agrada\n"
+
     .string "als Pokémon és la Daisy, crec.$"
+
 
 VermilionCity_PokemonFanClub_Text_ChairmanVeryVocalAboutPokemon::
     .string "El nostre President és molt\n"
+
     .string "entusiasta amb els Pokémon.$"
+
 
 VermilionCity_PokemonFanClub_EventScript_Woman::
 	lock
@@ -153,9 +205,13 @@ VermilionCity_PokemonFanClub_EventScript_Woman::
 
 VermilionCity_PokemonFanClub_Text_AdoreMySeel::
     .string "Adoro el meu Seel!\n"
+
     .string "És tan adorable!\p"
-    .string "Fa "Kyuuuh" quan\n"
+
+    .string "Fa “Kyuuuh” quan\n"
+
     .string "l'abraço!$"
+
 
 VermilionCity_PokemonFanClub_EventScript_WomanSpokeToFatMan::
 	msgbox VermilionCity_PokemonFanClub_Text_SeelFarMoreAttractive
@@ -168,8 +224,11 @@ VermilionCity_PokemonFanClub_EventScript_WomanSpokeToFatMan::
 
 VermilionCity_PokemonFanClub_Text_SeelFarMoreAttractive::
     .string "Oh, mare!\p"
+
     .string "El meu Seel és molt més atractiu.\n"
+
     .string "El doble, diria jo.$"
+
 
 VermilionCity_PokemonFanClub_EventScript_FatMan::
 	lock
@@ -185,7 +244,9 @@ VermilionCity_PokemonFanClub_EventScript_FatMan::
 
 VermilionCity_PokemonFanClub_Text_AdmirePikachusTail::
     .string "No vols admirar l'adorable cua\n"
+
     .string "del meu Pikachu?$"
+
 
 VermilionCity_PokemonFanClub_EventScript_FatManSpokeToWoman::
 	msgbox VermilionCity_PokemonFanClub_Text_PikachuTwiceAsCute
@@ -198,8 +259,11 @@ VermilionCity_PokemonFanClub_EventScript_FatManSpokeToWoman::
 
 VermilionCity_PokemonFanClub_Text_PikachuTwiceAsCute::
     .string "Bah!\p"
+
     .string "El meu Pikachu és el doble de\n"
+
     .string "bufó que aquell!$"
+
 
 VermilionCity_PokemonFanClub_EventScript_Pikachu::
 	lock
@@ -214,6 +278,7 @@ VermilionCity_PokemonFanClub_EventScript_Pikachu::
 VermilionCity_PokemonFanClub_Text_Pikachu::
     .string "Pikachu: Chu! Pikachu!$"
 
+
 VermilionCity_PokemonFanClub_EventScript_Seel::
 	lock
 	faceplayer
@@ -227,13 +292,16 @@ VermilionCity_PokemonFanClub_EventScript_Seel::
 VermilionCity_PokemonFanClub_Text_Seel::
     .string "Seel: Kyuoo!$"
 
+
 VermilionCity_PokemonFanClub_EventScript_RulesSign1::
 	msgbox VermilionCity_PokemonFanClub_Text_ListenPolitelyToOtherTrainers, MSGBOX_SIGN
 	end
 
 VermilionCity_PokemonFanClub_Text_ListenPolitelyToOtherTrainers::
     .string "Escoltem educadament els altres\n"
+
     .string "entrenadors!$"
+
 
 VermilionCity_PokemonFanClub_EventScript_RulesSign2::
 	msgbox VermilionCity_PokemonFanClub_Text_SomeoneBragsBragBack, MSGBOX_SIGN
@@ -241,4 +309,6 @@ VermilionCity_PokemonFanClub_EventScript_RulesSign2::
 
 VermilionCity_PokemonFanClub_Text_SomeoneBragsBragBack::
     .string "Si algú presumeix, presumeix tu\n"
+
     .string "també!$"
+

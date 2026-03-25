@@ -37,7 +37,9 @@ Route5_EventScript_UndergroundPathSign::
 
 Route5_Text_UndergroundPathSign::
     .string "Pas Subterrani\n"
+
     .string "Cerulean City - Vermilion City$"
+
 
 Route5_EventScript_DayCareSign::
 	msgbox Route5_Text_DayCareSign, MSGBOX_SIGN
@@ -45,7 +47,9 @@ Route5_EventScript_DayCareSign::
 
 Route5_Text_DayCareSign::
 	.string "Guarderia Pokémon\n"
-	.string ""Cuidem els teus Pokémon."$"
+
+	.string "“Cuidem els teus Pokémon.”$"
+
 
 
 @Daycare Woman
@@ -64,11 +68,17 @@ Route5_EventScript_DaycareWoman::
 
 Route5_Text_GoInsideIfYoudLikeMeToRaiseMon:
 	.string "Sóc voluntària a la Guarderia.\p"
+
 	.string "Entrenadors de tot Kanto ens\n"
+
 	.string "demanen que cuidem els seus\l"
+
 	.string "Pokémon.\p"
+
 	.string "Si vols que cuidem els teus\n"
+
 	.string "Pokémon, entra a dins.$"
+
 
 Route5_EventScript_DaycareEggWaiting::
 	msgbox Route5_Text_DoYouWantEgg, MSGBOX_YESNO
@@ -84,20 +94,31 @@ Route5_EventScript_DaycareEggWaiting::
 
 Route5_Text_DoYouWantEgg:
 	.string "Oh, ets tu!\p"
+
 	.string "Estàvem cuidant els teus Pokémon,\n"
+
 	.string "i quina sorpresa ens hem endut!\p"
+
 	.string "El teu Pokémon tenia un Ou!\p"
+
 	.string "No sabem com ha arribat aquí,\n"
+
 	.string "però el teu Pokémon el tenia.\p"
+
 	.string "Te'l vols endur?$"
+
 
 Route5_Text_IWillKeepDoYouWantIt:
 	.string "No te'l vols endur?\n"
+
 	.string "Vols que el doni?$"
+
 
 Route5_Text_IllKeepIt:
 	.string "D'acord! Li trobarem una bona\n"
+
 	.string "llar a aquest Ou.$"
+
 
 Route5_EventScript_DaycareAcceptEgg::
 	specialvar VAR_RESULT, CalculatePlayerPartyCount
@@ -108,7 +129,9 @@ Route5_EventScript_DaycareAcceptEgg::
 
 Route5_Text_YouHaveNoRoomForIt:
 	.string "No tens espai…\n"
+
 	.string "Torna quan en tinguis.$"
+
 
 Route5_EventScript_DaycareReceiveEgg::
 	message Route5_Text_ReceivedEgg
@@ -125,10 +148,13 @@ Route5_EventScript_DaycareReceiveEgg::
 
 Route5_Text_ReceivedEgg:
 	.string "{PLAYER} ha rebut l'Ou de\n"
+
 	.string "la Guarderia.$"
+
 
 Route5_Text_TakeGoodCareOfIt:
 	.string "Cuida'l bé!$"
+
 
 Route5_EventScript_CheckOnOneMon::
 	special GetDaycareMonNicknames
@@ -139,7 +165,9 @@ Route5_EventScript_CheckOnOneMon::
 
 Route5_Text_YourMonIsDoingFine:
 	.string "Oh, ets tu! M'alegro de veure't.\n"
+
 	.string "El teu {STR_VAR_1} va bé.$"
+
 
 Route5_EventScript_CheckOnTwoMons::
 	special GetDaycareMonNicknames
@@ -154,7 +182,9 @@ Route5_EventScript_CheckOnTwoMons::
 
 Route5_Text_YourMonsAreDoingFine:
 	.string "Oh, ets tu! El teu {STR_VAR_1} i\n"
+
 	.string "{STR_VAR_2} van bé.$"
+
 
 Route5_EventScript_BerryGuy::
 	lock
@@ -165,7 +195,9 @@ Route5_EventScript_BerryGuy::
 
 Route5_Text_FriendshipBerries:
 	.string "He sentit que hi ha baies que\n"
+
 	.string "fan un Pokémon més amistós.$"
+
 
 Route5_RocketFugitive::
 	trainerbattle_single TRAINER_FUGITIVE_M, RocketFugitive_Text_Intro, RocketFugitive_Text_Defeat

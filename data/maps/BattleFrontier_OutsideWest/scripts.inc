@@ -309,222 +309,518 @@ BattleFrontier_OutsideWest_EventScript_PokefanF::
 
 BattleFrontier_OutsideWest_Text_BattleDomeSign:
 	.string "Aquest és el Domo de Combat!\n"
+
+
 	.string "El teu camí cap a la superestrella\l"
+
+
 	.string "invencible!$"
+
+
 
 BattleFrontier_OutsideWest_Text_BattleFactorySign:
 	.string "Aquesta és la Fàbrica de Combat!\n"
+
+
 	.string "Busca els Pokémon més forts!$"
+
+
 
 BattleFrontier_OutsideWest_Text_BattlePikeSign:
 	.string "Aquesta és la Llança de Combat!\n"
+
+
 	.string "Tria un dels tres camins!$"
+
+
 
 BattleFrontier_OutsideWest_Text_ThisIsBattleTower:
 	.string "Aquesta és la Torre de Combat.\p"
+
+
 	.string "Els Entrenadors porten els seus\n"
+
+
 	.string "millors Pokémon per a combats\l"
+
+
 	.string "d'eliminació.$"
+
+
 
 BattleFrontier_OutsideWest_Text_MayISeeYourTicket:
 	.string "Hola, véns pel ferri?\n"
+
+
 	.string "Puc veure el teu Tiquet?$"
+
+
 
 BattleFrontier_OutsideWest_Text_MustHaveTicketToBoard:
 	.string "{PLAYER} no té el Tiquet…\p"
+
+
 	.string "Ho sento molt.\p"
+
+
 	.string "Necessites un Tiquet per pujar\n"
+
+
 	.string "al ferri.$"
+
+
 
 BattleFrontier_OutsideWest_Text_WhereWouldYouLikeToGo:
 	.string "{PLAYER} ha ensenyat el Tiquet.\p"
+
+
 	.string "Perfecte! Això és tot!\p"
+
+
 	.string "On voldries anar?$"
+
+
 
 BattleFrontier_OutsideWest_Text_SlateportItIs:
 	.string "Ciutat Portual, doncs!$"
 
+
+
 BattleFrontier_OutsideWest_Text_LilycoveItIs:
 	.string "Ciutat Llirimàs, doncs!$"
+
+
 
 BattleFrontier_OutsideWest_Text_SailWithUsAnotherTime:
 	.string "Navega amb nosaltres un altre cop!$"
 
+
+
 BattleFrontier_OutsideWest_Text_PleaseBoardFerry:
 	.string "Si us plau, pugeu al ferri\n"
+
+
 	.string "i espereu la sortida.$"
+
+
 
 BattleFrontier_OutsideWest_Text_ThenWhereWouldYouLikeToGo:
 	.string "Llavors, on voldries anar?$"
 
+
+
 BattleFrontier_OutsideWest_Text_BestOutOfAllMyFriends:
 	.string "Sóc el millor de tots els meus amics.\n"
+
+
 	.string "Però aquí…\l"
+
+
 	.string "No he servit de res!$"
+
+
 
 BattleFrontier_OutsideWest_Text_CantFindBattleTower:
 	.string "Vull anar a la Torre de Combat,\n"
+
+
 	.string "però no la trobo tot i que tinc\l"
+
+
 	.string "un mapa de la Frontera.\p"
+
+
 	.string "Aquest lloc és massa gran!$"
+
+
 
 BattleFrontier_OutsideWest_Text_GotSeasickOnWayHere:
 	.string "Volia fer un desafiament tan bon\n"
+
+
 	.string "punt arribés.\p"
+
+
 	.string "Però pel camí, em vaig marejar…\n"
+
+
 	.string "Buurp…$"
+
+
 
 BattleFrontier_OutsideWest_Text_OnlyToughTrainersBroughtHere:
 	.string "No és que qualsevol pugui venir\n"
+
+
 	.string "aquí, ho saps?\p"
+
+
 	.string "Només els Entrenadors reconeguts\n"
+
+
 	.string "com a durs són portats aquí.\p"
+
+
 	.string "Per això molts Entrenadors ni\n"
+
+
 	.string "coneixen la Frontera de Combat.$"
+
+
 
 BattleFrontier_OutsideWest_Text_SureWeCanChallengeWithNoMons:
 	.string "Ei, tio…\p"
+
+
 	.string "Estàs segur que podem competir\n"
+
+
 	.string "encara que no tinguem Pokémon?$"
+
+
 
 BattleFrontier_OutsideWest_Text_BigGuySaidIllLendYouMons:
 	.string "Eh…\n"
+
+
 	.string "Segur que anirà bé.\p"
+
+
 	.string "Crec…\p"
+
+
 	.string "Però recordes aquell home gran?\n"
-	.string "Va dir: "Us deixaré Pokémon!"$"
+
+
+	.string "Va dir: “Us deixaré Pokémon!”$"
+
+
 
 BattleFrontier_OutsideWest_Text_WhosRaisingThoseRentalMons:
 	.string "Això és la Fàbrica de Combat.\n"
+
+
 	.string "Pots llogar Pokémon forts allà.\p"
+
+
 	.string "Però em fa pensar.\n"
+
+
 	.string "Qui cria els Pokémon de lloguer?$"
+
+
 
 BattleFrontier_OutsideWest_Text_ScaredOfPikeBecauseSeviper:
 	.string "Tinc por d'entrar a la Llança\n"
+
+
 	.string "de Combat per culpa de Seviper…\p"
+
+
 	.string "P-però he vingut fins aquí, així\n"
+
+
 	.string "que intentaré conquerir-ho tot!\l"
+
+
 	.string "…Tremolor…$"
+
+
 
 BattleFrontier_OutsideWest_Text_LetsPlayRockPaperScissors:
 	.string "Juguem a pedra, paper, tisores!\n"
+
+
 	.string "Un, dos, tres!\p"
+
+
 	.string "… … … … … …$"
+
+
 
 BattleFrontier_OutsideWest_Text_WonIllTakePikeChallenge:
 	.string "Bé! He guanyat!\n"
+
+
 	.string "Faré el desafiament de la Llança!$"
+
+
 
 BattleFrontier_OutsideWest_Text_LostIllPutOffPikeChallenge:
 	.string "Oh, no…\n"
+
+
 	.string "He perdut.\p"
+
+
 	.string "Avui no tinc sort.\n"
+
+
 	.string "Deixaré el desafiament de la\l"
+
+
 	.string "Llança per demà.$"
+
+
 
 BattleFrontier_OutsideWest_Text_ChooseFishingOverBattling:
 	.string "Crec que sóc l'única persona aquí\n"
+
+
 	.string "que, per alguna raó, prefereix\l"
+
+
 	.string "pescar abans que combatre.\p"
+
+
 	.string "Eh? No es pot pescar res aquí?\n"
+
+
 	.string "Quina decepció…$"
+
+
 
 BattleFrontier_OutsideWest_Text_KeepBattlingUntilIGetSymbol:
 	.string "Avui continuaré combatent, passi\n"
+
+
 	.string "el que passi, fins a aconseguir\l"
+
+
 	.string "un Símbol.$"
+
+
 
 BattleFrontier_OutsideWest_Text_YoureOffToChallengeDome:
 	.string "Oh? Vas a desafiar\n"
+
+
 	.string "el Domo de Combat?\p"
+
+
 	.string "Et desitjo molta sort.\n"
+
+
 	.string "Que tots dos guanyem i ens\l"
+
+
 	.string "trobem als desafiaments.$"
+
+
 
 BattleFrontier_OutsideWest_Text_DomeIsHereGrandpa:
 	.string "Avi, per aquí!\n"
+
+
 	.string "El Domo de Combat és aquí!\l"
+
+
 	.string "Endavant, avi!$"
+
+
 
 BattleFrontier_OutsideWest_Text_WontLetGentlemenBeatMe:
 	.string "Ah, aquest és el Domo de Combat?\n"
+
+
 	.string "No deixaré que cap Gentlemen\l"
+
+
 	.string "em guanyi!\p"
+
+
 	.string "Però on és l'entrada?$"
+
+
 
 BattleFrontier_OutsideWest_Text_NothingHereNotLongAgo:
 	.string "Aquí no hi havia res fa no gaire\n"
+
+
 	.string "temps.\p"
+
+
 	.string "Però mira-ho ara! Increïble!\n"
+
+
 	.string "Portaré la meva mare a veure-ho.$"
+
+
 
 BattleFrontier_OutsideWest_Text_FinallyArrivedAtFrontier:
 	.string "Per fi he arribat a la Frontera\n"
+
+
 	.string "de Combat!\p"
+
+
 	.string "Segur que crido l'atenció amb\n"
+
+
 	.string "el meu aspecte i habilitat!$"
+
+
 
 BattleFrontier_OutsideWest_Text_SquareFilledWithToughPeople:
 	.string "Nyam, nyam…\p"
+
+
 	.string "Sembla que aquesta plaça està\n"
+
+
 	.string "plena de gent dura.\p"
+
+
 	.string "Nyam, nyam…$"
+
+
 
 BattleFrontier_OutsideWest_Text_MetOlderGirlAtPike:
 	.string "Crec, crec…\p"
+
+
 	.string "Fa un temps, vaig conèixer una\n"
+
+
 	.string "noia gran a la Llança de Combat.\p"
+
+
 	.string "Tenia uns ulls que feien por\n"
+
+
 	.string "d'una manera molt bèstia.\p"
+
+
 	.string "Crec, crec…\p"
-	.string "Es va enfadar molt: "Vols parar\n"
-	.string "de menjar!" I em va etzibar.\p"
+
+
+	.string "Es va enfadar molt: “Vols parar\n"
+
+
+	.string "de menjar!” I em va etzibar.\p"
+
+
 	.string "Va ser una experiència\n"
+
+
 	.string "esgarrifosa, sí senyor.\p"
+
+
 	.string "Crec, crec…$"
+
+
 
 BattleFrontier_OutsideWest_Text_LastTimeOurEyesMet:
 	.string "Eh? Escolta't!\n"
+
+
 	.string "Això no és res!\p"
+
+
 	.string "L'última vegada que vaig animar-lo,\n"
+
+
 	.string "les nostres mirades es van creuar!$"
+
+
 
 BattleFrontier_OutsideWest_Text_DomeAceLookedBecauseOfMyCheering:
 	.string "Quèèèè?!\n"
+
+
 	.string "Pfft!\p"
+
+
 	.string "Això només va passar perquè\n"
+
+
 	.string "jo seia al teu costat!\p"
+
+
 	.string "L'As del Domo va mirar cap aquí\n"
+
+
 	.string "perquè els meus crits eren\l"
+
+
 	.string "molt forts!$"
+
+
 
 BattleFrontier_OutsideWest_Text_DomeAceIsMine:
 	.string "Oh, silenci!\n"
+
+
 	.string "Baixeu la veu!\p"
+
+
 	.string "Fans com vosaltres hauríeu\n"
+
+
 	.string "d'animar algun Líder de Gimnàs!\p"
+
+
 	.string "L'As del Domo és meu!\n"
+
+
 	.string "L'únic ídol per a mi!$"
+
+
 
 BattleFrontier_OutsideWest_Text_FansOverThereUsedToBeTrainers:
 	.string "Aquesta gent discutint allà…\p"
+
+
 	.string "Costa de creure, però abans\n"
+
+
 	.string "eren Entrenadors, i dels bons.\p"
+
+
 	.string "Eren increïblement forts\n"
+
+
 	.string "i famosos.\p"
+
+
 	.string "Però van ser aniquilats per un\n"
+
+
 	.string "cert Entrenador en un torneig.\p"
+
+
 	.string "Van quedar tan impressionats,\n"
+
+
 	.string "que es van enamorar d'ell.\p"
+
+
 	.string "Ara són fans d'aquell Entrenador.\n"
+
+
 	.string "Van a animar el seu ídol al\l"
+
+
 	.string "Domo de Combat cada dia.$"
+
+
 
 BattleFrontier_OutsideWest_Text_MonWithLongTailInFrontier:
 	.string "He sentit un rumor que algú va\n"
+
+
 	.string "veure un Pokémon amb una cua\l"
+
+
 	.string "molt llarga a la Frontera.\p"
+
+
 	.string "Deu ser adorable. N'estic segura…\p"
+
+
 	.string "Oh, els desafiaments poden esperar.\n"
+
+
 	.string "He de trobar la criatura!$"
+
+

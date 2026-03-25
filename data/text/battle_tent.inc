@@ -239,7 +239,7 @@ SlateportCity_BattleTentLobby_Text_ExplainSlateportTent:
 	.string "Si guanyeu, podeu intercanviar\n"
 	.string "un dels vostres Pokémon de lloguer.\p"
 	.string "Repetiu aquest cicle de batallar\n"
-	.string "i intercanviar — si guanyeu tres\l"
+	.string "i intercanviar - si guanyeu tres\l"
 	.string "vegades seguides, guanyareu\l"
 	.string "un gran premi.\p"
 	.string "Si voleu interrompre el repte,\n"
