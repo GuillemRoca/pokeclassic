@@ -1,26 +1,26 @@
 SecretBase_Text_TreeCanBeClimbed:
-	.string "If some vines drop down, this tree can\n"
-	.string "be climbed.$"
+	.string "Si cauen unes lianes, es pot pujar\n"
+	.string "a aquest arbre.$"
 
 SecretBase_Text_TreeUseSecretPower:
-	.string "If some vines drop down, this tree can\n"
-	.string "be climbed.\p"
-	.string "Use the Secret Power?$"
+	.string "Si cauen unes lianes, es pot pujar\n"
+	.string "a aquest arbre.\p"
+	.string "Usar el Poder Secret?$"
 
 SecretBase_Text_VineDroppedDown:
-	.string "A thick vine dropped down!$"
+	.string "Ha caigut una liana gruixuda!$"
 
 SecretBase_Text_ClumpOfGrass:
-	.string "If this clump of grass can be moved,\n"
-	.string "it might be possible to go inside.$"
+	.string "Si es pogués moure aquest matollar,\n"
+	.string "potser es podria entrar a dins.$"
 
 SecretBase_Text_ClumpUseSecretPower:
-	.string "If this clump of grass can be moved,\n"
-	.string "it might be possible to go inside.\p"
-	.string "Use the Secret Power?$"
+	.string "Si es pogués moure aquest matollar,\n"
+	.string "potser es podria entrar a dins.\p"
+	.string "Usar el Poder Secret?$"
 
 SecretBase_Text_DiscoveredSmallEntrance:
-	.string "Discovered a small entrance!$"
+	.string "Has descobert una petita entrada!$"
 
 	.include "data/text/secret_base_trainers.inc"
 
@@ -672,66 +672,66 @@ SecretBase_EventScript_CushionInteract::
 	end
 
 SecretBase_Text_AllDecorationsWillBeReturned:
-	.string "All decorations and furniture in your\n"
-	.string "Secret Base will be returned to your PC.\p"
-	.string "Is that okay?$"
+	.string "Totes les decoracions i mobles de la\n"
+	.string "teva Base Secreta tornaran al PC.\p"
+	.string "Estàs d'acord?$"
 
 SecretBase_Text_WantToRegisterSecretBase:
-	.string "Do you want to register\n"
-	.string "{STR_VAR_1}'s Secret Base?$"
+	.string "Vols registrar\n"
+	.string "la Base Secreta de {STR_VAR_1}?$"
 
 SecretBase_Text_AlreadyRegisteredDelete:
-	.string "This data is already registered.\n"
-	.string "Would you like to delete it?$"
+	.string "Aquestes dades ja estan registrades.\n"
+	.string "Vols esborrar-les?$"
 
 SecretBase_Text_TooManyBasesDeleteSome:
-	.string "Up to 10 locations can be registered.\p"
-	.string "Delete a location if you want to\n"
-	.string "register another location.$"
+	.string "Es poden registrar fins a 10 llocs.\p"
+	.string "Esborra'n un si en vols\n"
+	.string "registrar un altre.$"
 
 SecretBase_Text_RegistrationCompleted:
-	.string "Registration completed.$"
+	.string "Registre completat.$"
 
 SecretBase_Text_DataUnregistered:
-	.string "Data has been unregistered.$"
+	.string "Les dades s'han eliminat.$"
 
 SecretBase_Text_BootUpPC:
-	.string "{PLAYER} booted up the PC.$"
+	.string "{PLAYER} ha engegat el PC.$"
 
 SecretBase_Text_WhatWouldYouLikeToDo:
-	.string "What would you like to do?$"
+	.string "Què vols fer?$"
 
 SecretBase_Text_RegistryInfo:
-	.string "Once registered, a Secret Base will not\n"
-	.string "disappear unless the other Trainer\l"
-	.string "moves it to a different location.\p"
-	.string "If a Secret Base is deleted from the\n"
-	.string "registered list, another one may take\l"
-	.string "its place.\p"
-	.string "Up to ten Secret Base locations\n"
-	.string "may be registered.$"
+	.string "Un cop registrada, una Base Secreta no\n"
+	.string "desapareixerà tret que l'Entrenador\l"
+	.string "la mogui a un altre lloc.\p"
+	.string "Si una Base Secreta s'elimina de la\n"
+	.string "llista, una altra pot ocupar\l"
+	.string "el seu lloc.\p"
+	.string "Es poden registrar fins a deu\n"
+	.string "ubicacions de Base Secreta.$"
 
 SecretBase_Text_BattleTowerShield:
-	.string "A shield of {STR_VAR_2} that marks winning\n"
-	.string "{STR_VAR_1} times in a row at the Battle Tower.$"
+	.string "Un escut de {STR_VAR_2} que marca haver\n"
+	.string "guanyat {STR_VAR_1} cops seguits a la Torre.$"
 
 SecretBase_Text_ToyTV:
-	.string "A realistic toy TV. It could be easily\n"
-	.string "mistaken for the real thing.$"
+	.string "Una TV de joguina realista. Es podria\n"
+	.string "confondre fàcilment amb una de real.$"
 
 SecretBase_Text_SeedotTV:
-	.string "A toy TV shaped like a Seedot.\n"
-	.string "It looks ready to roll away on its own…$"
+	.string "Una TV de joguina amb forma de Seedot.\n"
+	.string "Sembla que rodarà sola…$"
 
 SecretBase_Text_SkittyTV:
-	.string "A toy TV shaped like a Skitty.\n"
-	.string "It looks ready to stroll away…$"
+	.string "Una TV de joguina amb forma de Skitty.\n"
+	.string "Sembla que caminarà sola…$"
 
 SecretBase_Text_WouldYouLikeToMoveBases:
-	.string "You may only make one Secret Base.\p"
-	.string "Would you like to move from the Secret\n"
-	.string "Base near {STR_VAR_1}?$"
+	.string "Només pots tenir una Base Secreta.\p"
+	.string "Vols mudar-te de la Base Secreta\n"
+	.string "prop de {STR_VAR_1}?$"
 
 SecretBase_Text_MovingCompletedUseSecretPower:
-	.string "Moving completed.\p"
-	.string "Would you like to use the Secret Power?$"
+	.string "Mudança completada.\p"
+	.string "Vols usar el Poder Secret?$"

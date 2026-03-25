@@ -13,35 +13,35 @@ EventScript_NotFoundNearby::
     msgbox sText_NotFoundNearby, MSGBOX_SIGN
     end
 sText_NotFoundNearby:
-    .string "It couldn't be found nearby.\n"
-    .string "Try looking in a different area!$"
+    .string "No s'ha pogut trobar a prop.\n"
+    .string "Prova de buscar en una altra zona!$"
 
 
 EventScript_MovedTooFast::
     msgbox sText_TryMovingSlower, MSGBOX_SIGN
     end
 sText_TryMovingSlower:
-    .string "The Pokémon got away!\n"
-    .string "Try moving more slowly.$"
+    .string "El Pokémon ha fugit!\n"
+    .string "Prova de moure't més a poc a poc.$"
 
 
 EventScript_PokemonGotAway::
     msgbox sText_PokemonGotAway, MSGBOX_SIGN
     end
 sText_PokemonGotAway:
-    .string "The Pokémon got away!$"
+    .string "El Pokémon ha fugit!$"
 
 
 EventScript_LostSignal::
     msgbox sText_LostSignal, MSGBOX_SIGN
     end
 sText_LostSignal:
-    .string "There is no reaction.\n"
-    .string "The signal was lost!$"
+    .string "No hi ha reacció.\n"
+    .string "S'ha perdut el senyal!$"
 
 
 EventScript_TooDark::
     msgbox sText_TooDark, MSGBOX_SIGN
     end
 sText_TooDark:
-    .string "It's too dark to search\nfor a Pokémon!$"
+    .string "És massa fosc per buscar\nun Pokémon!$"

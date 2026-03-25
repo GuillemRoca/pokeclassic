@@ -13,13 +13,13 @@ MoveTutor_DoubleEdge::
 	end
 
 MoveTutor_Text_DoubleEdgeTeach::
-    .string "You should be proud of yourself,\n"
-    .string "having battled your way through\l"
-    .string "Victory Road so courageously.\p"
-    .string "In recognition of your feat,\n"
-    .string "I'll teach you Double-Edge.\p"
-    .string "Would you like me to teach that\n"
-    .string "technique?$"
+    .string "Hauries d'estar orgullós de tu\n"
+    .string "mateix, havent lluitat pel Camí\l"
+    .string "de la Victòria tan valentament.\p"
+    .string "En reconeixement de la teva gesta,\n"
+    .string "t'ensenyaré Doble Tall.\p"
+    .string "Vols que t'ensenyi aquesta\n"
+    .string "tècnica?$"
 
 MoveTutor_EventScript_DoubleEdgeDeclined::
 	msgbox MoveTutor_Text_DoubleEdgeDeclined, MSGBOX_DEFAULT
@@ -27,12 +27,12 @@ MoveTutor_EventScript_DoubleEdgeDeclined::
 	end
 
 MoveTutor_Text_DoubleEdgeDeclined::
-    .string "I'll teach you the technique\n"
-    .string "anytime.$"
+    .string "T'ensenyaré la tècnica\n"
+    .string "quan vulguis.$"
 
 MoveTutor_Text_DoubleEdgeWhichMon::
-    .string "Which Pokémon should I teach\n"
-    .string "Double-Edge?$"
+    .string "A quin Pokémon he d'ensenyar\n"
+    .string "Doble Tall?$"
 
 MoveTutor_EventScript_DoubleEdgeTaught::
 	msgbox MoveTutor_Text_DoubleEdgeTaught, MSGBOX_DEFAULT
@@ -40,10 +40,10 @@ MoveTutor_EventScript_DoubleEdgeTaught::
 	end
 
 MoveTutor_Text_DoubleEdgeTaught::
-    .string "Keep that drive going for the\n"
-    .string "Pokémon League!\p"
-    .string "Take a run at them and knock 'em\n"
-    .string "out!$"
+    .string "Mantingues aquest impuls cap a\n"
+    .string "la Lliga Pokémon!\p"
+    .string "Llança't contra ells i\n"
+    .string "deixa'ls KO!$"
 
 MoveTutor_Metronome::
 	lock
@@ -58,12 +58,12 @@ MoveTutor_Metronome::
 	end
 
 MoveTutor_Text_MetronomeTeach::
-    .string "Tch-tch-tch!\n"
-    .string "I'll teach you a nifty move.\p"
-    .string "Teach it to a Pokémon, and watch\n"
-    .string "the fun unfold!\p"
-    .string "It's a move called Metronome.\n"
-    .string "Does it strike your fancy?$"
+    .string "Tic-tic-tic!\n"
+    .string "T'ensenyaré un moviment genial.\p"
+    .string "Ensenya-li'l a un Pokémon i mira\n"
+    .string "com la diversió es desplega!\p"
+    .string "Es diu Metrònome.\n"
+    .string "T'interessa?$"
 
 MoveTutor_EventScript_MetronomeDeclined::
 	msgbox MoveTutor_Text_MetronomeDeclined, MSGBOX_DEFAULT
@@ -71,11 +71,11 @@ MoveTutor_EventScript_MetronomeDeclined::
 	end
 
 MoveTutor_Text_MetronomeDeclined::
-    .string "I tell you, it's a lot of fun!$"
+    .string "T'ho dic, és molt divertit!$"
 
 MoveTutor_Text_MetronomeWhichMon::
-    .string "Okay!\n"
-    .string "Which Pokémon should I teach?$"
+    .string "D'acord!\n"
+    .string "A quin Pokémon he d'ensenyar?$"
 
 MoveTutor_EventScript_MetronomeTaught::
 	msgbox MoveTutor_Text_MetronomeTaught, MSGBOX_DEFAULT
@@ -83,10 +83,10 @@ MoveTutor_EventScript_MetronomeTaught::
 	end
 
 MoveTutor_Text_MetronomeTaught::
-    .string "Tch-tch-tch!\n"
-    .string "That's the sound of a Metronome.\p"
-    .string "It tweaks your Pokémon's brain into\n"
-    .string "using moves it doesn't even know.$"
+    .string "Tic-tic-tic!\n"
+    .string "Això és el so d'un Metrònome.\p"
+    .string "Enganya el cervell del teu Pokémon\n"
+    .string "perquè usi moviments que no sap.$"
 
 MoveTutor_ThunderWave::
 	lock
@@ -101,12 +101,12 @@ MoveTutor_ThunderWave::
 	end
 
 MoveTutor_Text_ThunderWaveTeach::
-    .string "Eeek!\n"
-    .string "No! Stop! Help!\p"
-    .string "Oh, you're not with Team Rocket.\n"
-    .string "I'm sorry, I thought…\p"
-    .string "Will you forgive me if I teach\n"
-    .string "you the Thunder Wave technique?$"
+    .string "Iiik!\n"
+    .string "No! Para! Ajuda!\p"
+    .string "Oh, no ets de l'Equip Rocket.\n"
+    .string "Ho sento, pensava que…\p"
+    .string "Em perdonaràs si t'ensenyo\n"
+    .string "la tècnica Ona de Tro?$"
 
 MoveTutor_EventScript_ThunderWaveDeclined::
 	msgbox MoveTutor_Text_ThunderWaveDeclined, MSGBOX_DEFAULT
@@ -115,11 +115,11 @@ MoveTutor_EventScript_ThunderWaveDeclined::
 
 MoveTutor_Text_ThunderWaveDeclined::
     .string "Oh…\n"
-    .string "But Thunder Wave is convenient…$"
+    .string "Però Ona de Tro és molt útil…$"
 
 MoveTutor_Text_ThunderWaveWhichMon::
-    .string "I really love Thunder Wave!\n"
-    .string "Who's going to learn it?$"
+    .string "M'encanta Ona de Tro!\n"
+    .string "Qui l'aprendrà?$"
 
 MoveTutor_EventScript_ThunderWaveTaught::
 	msgbox MoveTutor_Text_ThunderWaveTaught, MSGBOX_DEFAULT
@@ -127,12 +127,12 @@ MoveTutor_EventScript_ThunderWaveTaught::
 	end
 
 MoveTutor_Text_ThunderWaveTaught::
-    .string "Thunder Wave causes paralysis in\n"
-    .string "the target Pokémon.\p"
-    .string "A paralyzed Pokémon may be unable\n"
-    .string "to move in battle.\p"
-    .string "It's an Electric type move, so it\n"
-    .string "won't work on some Pokémon.$"
+    .string "Ona de Tro causa paràlisi al\n"
+    .string "Pokémon objectiu.\p"
+    .string "Un Pokémon paralitzat pot no\n"
+    .string "poder-se moure en combat.\p"
+    .string "És un moviment de tipus Elèctric,\n"
+    .string "així que no funciona en tots.$"
 
 MoveTutor_Mimic::
 	lock
@@ -147,12 +147,12 @@ MoveTutor_Mimic::
 	end
 
 MoveTutor_Text_MimicTeach::
-    .string "Oh wow!\n"
-    .string "A Poké Doll!\p"
-    .string "For me?\n"
-    .string "Thank you!\p"
-    .string "You know what?\n"
-    .string "I can teach the move Mimic.$"
+    .string "Oh!\n"
+    .string "Una Poké Doll!\p"
+    .string "Per a mi?\n"
+    .string "Gràcies!\p"
+    .string "Saps què?\n"
+    .string "Puc ensenyar el moviment Mímica.$"
 
 MoveTutor_EventScript_MimicDeclined::
 	msgbox MoveTutor_Text_MimicDeclined, MSGBOX_DEFAULT
@@ -160,11 +160,11 @@ MoveTutor_EventScript_MimicDeclined::
 	end
 
 MoveTutor_Text_MimicDeclined::
-    .string "Don't you like Mimic?$"
+    .string "No t'agrada Mímica?$"
 
 MoveTutor_Text_MimicWhichMon::
-    .string "I really love Mimic!\n"
-    .string "Who's going to learn it?$"
+    .string "M'encanta Mímica!\n"
+    .string "Qui l'aprendrà?$"
 
 MoveTutor_EventScript_MimicTaught::
 	msgbox MoveTutor_Text_MimicTaught, MSGBOX_DEFAULT
@@ -172,13 +172,13 @@ MoveTutor_EventScript_MimicTaught::
 	end
 
 MoveTutor_Text_MimicTaught::
-    .string "{PLAYER}: Hi!\n"
-    .string "Thanks for earlier!\p"
-    .string "{PLAYER}: Pardon?\p"
-    .string "{PLAYER}: Is it that fun to mimic my\n"
-    .string "every move?\p"
-    .string "COPYCAT: You bet!\n"
-    .string "It's a scream!$"
+    .string "{PLAYER}: Hola!\n"
+    .string "Gràcies pel d'abans!\p"
+    .string "{PLAYER}: Perdona?\p"
+    .string "{PLAYER}: És tan divertit imitar\n"
+    .string "cada moviment meu?\p"
+    .string "IMITADORA: I tant!\n"
+    .string "És genial!$"
 
 MoveTutor_Substitute::
 	lock
@@ -193,16 +193,16 @@ MoveTutor_Substitute::
 	end
 
 MoveTutor_Text_SubstituteTeach::
-    .string "Aww, I wish I was a Kangaskhan\n"
-    .string "baby.\p"
-    .string "I'd love to be a substitute for the\n"
-    .string "baby…\p"
-    .string "And snuggle in the mother\n"
-    .string "Kangaskhan's belly pouch.\p"
-    .string "But only Pokémon can use the\n"
-    .string "technique Substitute…\p"
-    .string "Want me to teach Substitute to\n"
-    .string "one of your Pokémon?$"
+    .string "Ai, m'agradaria ser un nadó\n"
+    .string "Kangaskhan.\p"
+    .string "M'encantaria ser un substitut\n"
+    .string "del nadó…\p"
+    .string "I acotxar-me a la bossa de la panxa\n"
+    .string "de la mare Kangaskhan.\p"
+    .string "Però només els Pokémon poden usar\n"
+    .string "la tècnica Substitut…\p"
+    .string "Vols que ensenyi Substitut a\n"
+    .string "un dels teus Pokémon?$"
 
 MoveTutor_EventScript_SubstituteDeclined::
 	msgbox MoveTutor_Text_SubstituteDeclined, MSGBOX_DEFAULT
@@ -210,12 +210,12 @@ MoveTutor_EventScript_SubstituteDeclined::
 	end
 
 MoveTutor_Text_SubstituteDeclined::
-    .string "Oh, really?\n"
-    .string "Substitute seems so fun…$"
+    .string "Oh, de veritat?\n"
+    .string "Substitut sembla tan divertit…$"
 
 MoveTutor_Text_SubstituteWhichMon::
-    .string "Which Pokémon wants to learn\n"
-    .string "Substitute$"
+    .string "Quin Pokémon vol aprendre\n"
+    .string "Substitut?$"
 
 MoveTutor_EventScript_SubstituteTaught::
 	msgbox MoveTutor_Text_SubstituteTaught, MSGBOX_DEFAULT
@@ -223,8 +223,8 @@ MoveTutor_EventScript_SubstituteTaught::
 	end
 
 MoveTutor_Text_SubstituteTaught::
-    .string "Boy, what I'd give to crawl inside\n"
-    .string "a Kangaskhan belly pouch…$"
+    .string "Noi, què no donaria per ficar-me\n"
+    .string "dins la bossa de Kangaskhan…$"
 
 MoveTutor_DreamEater::
 	lock
@@ -239,15 +239,15 @@ MoveTutor_DreamEater::
 	end
 
 MoveTutor_Text_DreamEaterTeach::
-    .string "Yawn!\n"
-    .string "I must have dozed off in the sun.\p"
-    .string "I had this weird dream about\n"
-    .string "a Drowzee eating my dream.\p"
-    .string "And…\n"
-    .string "I learned how to eat dreams…\p"
-    .string "Oogh, this is too spooky!\p"
-    .string "Let me teach it to a Pokémon so\n"
-    .string "I can forget about it!$"
+    .string "Badall!\n"
+    .string "Dec haver-me adormit al sol.\p"
+    .string "He tingut un somni estrany sobre\n"
+    .string "un Drowzee que em menjava el somni.\p"
+    .string "I…\n"
+    .string "He après a menjar somnis…\p"
+    .string "Ugh, això fa massa por!\p"
+    .string "Deixa que ho ensenyi a un Pokémon\n"
+    .string "per poder oblidar-ho!$"
 
 MoveTutor_EventScript_DreamEaterDeclined::
 	msgbox MoveTutor_Text_DreamEaterDeclined, MSGBOX_DEFAULT
@@ -255,11 +255,11 @@ MoveTutor_EventScript_DreamEaterDeclined::
 	end
 
 MoveTutor_Text_DreamEaterDeclined::
-    .string "…Snore…$"
+    .string "…Zzz…$"
 
 MoveTutor_Text_DreamEaterWhichMon::
-    .string "Which Pokémon wants to learn\n"
-    .string "Dream Eater?$"
+    .string "Quin Pokémon vol aprendre\n"
+    .string "Menjasomnis?$"
 
 MoveTutor_EventScript_DreamEaterTaught::
 	msgbox MoveTutor_Text_DreamEaterTaught, MSGBOX_DEFAULT
@@ -268,7 +268,7 @@ MoveTutor_EventScript_DreamEaterTaught::
 
 MoveTutor_Text_DreamEaterTaught::
     .string "…ZZZ…\n"
-    .string "I…can't eat…anymore…$"
+    .string "No…puc menjar…més…$"
 
 MoveTutor_SeismicToss::
 	lock
@@ -283,15 +283,15 @@ MoveTutor_SeismicToss::
 	end
 
 MoveTutor_Text_SeismicTossTeach::
-    .string "The secrets of space…\n"
-    .string "The mysteries of earth…\p"
-    .string "There are so many things about\n"
-    .string "which we know so little.\p"
-    .string "But that should spur us to study\n"
-    .string "harder, not toss in the towel.\p"
-    .string "The only thing you should toss…\p"
-    .string "Well, how about Seismic Toss?\n"
-    .string "Should I teach that to a Pokémon?$"
+    .string "Els secrets de l'espai…\n"
+    .string "Els misteris de la terra…\p"
+    .string "Hi ha tantes coses de les quals\n"
+    .string "sabem tan poc.\p"
+    .string "Però això ens hauria d'esperonar\n"
+    .string "a estudiar més, no a rendir-nos.\p"
+    .string "L'única cosa que hauries de llançar…\p"
+    .string "Què tal Llançament Sísmic?\n"
+    .string "L'he d'ensenyar a un Pokémon?$"
 
 MoveTutor_EventScript_SeismicTossDeclined::
 	msgbox MoveTutor_Text_SeismicTossDeclined, MSGBOX_DEFAULT
@@ -299,12 +299,12 @@ MoveTutor_EventScript_SeismicTossDeclined::
 	end
 
 MoveTutor_Text_SeismicTossDeclined::
-    .string "Is that so?\n"
-    .string "I'm sure you'll be back for it.$"
+    .string "Ah, sí?\n"
+    .string "Segur que tornaràs a buscar-lo.$"
 
 MoveTutor_Text_SeismicTossWhichMon::
-    .string "Which Pokémon wants to learn\n"
-    .string "Seismic Toss?$"
+    .string "Quin Pokémon vol aprendre\n"
+    .string "Llançament Sísmic?$"
 
 MoveTutor_EventScript_SeismicTossTaught::
 	msgbox MoveTutor_Text_SeismicTossTaught, MSGBOX_DEFAULT
@@ -312,8 +312,8 @@ MoveTutor_EventScript_SeismicTossTaught::
 	end
 
 MoveTutor_Text_SeismicTossTaught::
-    .string "I hope you won't toss in the towel.\n"
-    .string "Keep it up.$"
+    .string "Espero que no et rendeixis.\n"
+    .string "Segueix endavant!$"
 
 MoveTutor_MegaPunch::
 	lock
@@ -328,13 +328,13 @@ MoveTutor_MegaPunch::
 	end
 
 MoveTutor_Text_MegaPunchTeach::
-    .string "A punch of roaring ferocity!\p"
-    .string "Packed with destructive power!\p"
-    .string "When the chips are down,\n"
-    .string "Mega Punch is the ultimate attack!\l"
-    .string "You agree, yes?\p"
-    .string "Now!\n"
-    .string "Let me teach it to your Pokémon!$"
+    .string "Un cop d'una ferocitat rugent!\p"
+    .string "Ple de poder destructiu!\p"
+    .string "Quan la cosa es posa difícil,\n"
+    .string "Megacop és l'atac definitiu!\l"
+    .string "No hi estàs d'acord?\p"
+    .string "Ara!\n"
+    .string "Deixa que l'ensenyi al teu Pokémon!$"
 
 MoveTutor_EventScript_MegaPunchDeclined::
 	msgbox MoveTutor_Text_MegaPunchDeclined, MSGBOX_DEFAULT
@@ -342,12 +342,12 @@ MoveTutor_EventScript_MegaPunchDeclined::
 	end
 
 MoveTutor_Text_MegaPunchDeclined::
-    .string "You'll be back when you understand\n"
-    .string "the worth of Mega Punch.$"
+    .string "Tornaràs quan entenguis\n"
+    .string "el valor de Megacop.$"
 
 MoveTutor_Text_MegaPunchWhichMon::
-    .string "Fine!\n"
-    .string "Which Pokémon will learn it?$"
+    .string "Molt bé!\n"
+    .string "Quin Pokémon l'aprendrà?$"
 
 MoveTutor_EventScript_MegaPunchTaught::
 	msgbox MoveTutor_Text_MegaPunchTaught, MSGBOX_DEFAULT
@@ -355,11 +355,11 @@ MoveTutor_EventScript_MegaPunchTaught::
 	end
 
 MoveTutor_Text_MegaPunchTaught::
-    .string "Now, we are comrades in the way of\n"
-    .string "punching!\p"
-    .string "You should go before you're seen\n"
-    .string "by the misguided fool who trains\l"
-    .string "only his silly kicking over there.$"
+    .string "Ara som companys en l'art del\n"
+    .string "cop de puny!\p"
+    .string "Hauries de marxar abans que et\n"
+    .string "vegi el desorientat que només\l"
+    .string "entrena la seva boja puntada.$"
 
 MoveTutor_MegaKick::
 	lock
@@ -374,13 +374,13 @@ MoveTutor_MegaKick::
 	end
 
 MoveTutor_Text_MegaKickTeach::
-    .string "A kick of brutal ferocity!\p"
-    .string "Packed with destructive power!\p"
-    .string "When you get right down to it,\n"
-    .string "Mega Kick is the ultimate attack!\l"
-    .string "Don't you agree?\p"
-    .string "Okay!\n"
-    .string "I'll teach it to your Pokémon!$"
+    .string "Una puntada d'una ferocitat brutal!\p"
+    .string "Plena de poder destructiu!\p"
+    .string "Si ho mires bé,\n"
+    .string "Megapuntada és l'atac definitiu!\l"
+    .string "No hi estàs d'acord?\p"
+    .string "D'acord!\n"
+    .string "L'ensenyaré al teu Pokémon!$"
 
 MoveTutor_EventScript_MegaKickDeclined::
 	msgbox MoveTutor_Text_MegaKickDeclined, MSGBOX_DEFAULT
@@ -388,12 +388,12 @@ MoveTutor_EventScript_MegaKickDeclined::
 	end
 
 MoveTutor_Text_MegaKickDeclined::
-    .string "You'll come crawling back when you\n"
-    .string "realize the value of Mega Kick.$"
+    .string "Tornaràs arrossegant-te quan\n"
+    .string "entenguis el valor de Megapuntada.$"
 
 MoveTutor_Text_MegaKickWhichMon::
-    .string "All right!\n"
-    .string "Which Pokémon wants to learn it?$"
+    .string "Molt bé!\n"
+    .string "Quin Pokémon vol aprendre'l?$"
 
 MoveTutor_EventScript_MegaKickTaught::
 	msgbox MoveTutor_Text_MegaKickTaught, MSGBOX_DEFAULT
@@ -401,11 +401,11 @@ MoveTutor_EventScript_MegaKickTaught::
 	end
 
 MoveTutor_Text_MegaKickTaught::
-    .string "Now, we are soul mates in the way\n"
-    .string "of kicking!\p"
-    .string "You should run before you're seen\n"
-    .string "by the deluded nitwit who trains\l"
-    .string "only simple punching over there.$"
+    .string "Ara som ànimes bessones en l'art\n"
+    .string "de la puntada!\p"
+    .string "Hauries de fugir abans que et vegi\n"
+    .string "l'il·lús que només entrena\l"
+    .string "el seu simple cop de puny.$"
 
 MoveTutor_RockSlide::
 	lock
@@ -420,14 +420,15 @@ MoveTutor_RockSlide::
 	end
 
 MoveTutor_Text_RockSlideTeach::
-    .string "When you're up on a rocky mountain\n"
-    .string "like this, rockslides are a threat.\p"
-    .string "Can you imagine?\n"
-    .string "Boulders tumbling down on you?\p"
-    .string "That'd be, like, waaaaaaaaaaah!\n"
-    .string "Total terror!\p"
-    .string "You don't seem to be scared.\n"
-    .string "Want to try using Rock Slide?$"
+    .string "Quan ets en una muntanya rocosa\n"
+    .string "com aquesta, els esllavissaments\l"
+    .string "són una amenaça.\p"
+    .string "T'ho pots imaginar?\n"
+    .string "Roques caient-te a sobre?\p"
+    .string "Seria com, uaaaaaah!\n"
+    .string "Terror total!\p"
+    .string "No sembles espantat.\n"
+    .string "Vols provar Allau de Roques?$"
 
 MoveTutor_EventScript_RockSlideDeclined::
 	msgbox MoveTutor_Text_RockSlideDeclined, MSGBOX_DEFAULT
@@ -435,11 +436,11 @@ MoveTutor_EventScript_RockSlideDeclined::
 	end
 
 MoveTutor_Text_RockSlideDeclined::
-    .string "Oh, so you are scared after all.$"
+    .string "Oh, al final sí que tens por.$"
 
 MoveTutor_Text_RockSlideWhichMon::
-    .string "Which Pokémon should I teach\n"
-    .string "Rock Slide?$"
+    .string "A quin Pokémon he d'ensenyar\n"
+    .string "Allau de Roques?$"
 
 MoveTutor_EventScript_RockSlideTaught::
 	msgbox MoveTutor_Text_RockSlideTaught, MSGBOX_DEFAULT
@@ -447,8 +448,8 @@ MoveTutor_EventScript_RockSlideTaught::
 	end
 
 MoveTutor_Text_RockSlideTaught::
-    .string "It might be scary to use it in this\n"
-    .string "tunnel…$"
+    .string "Pot fer por fer-lo servir en\n"
+    .string "aquest túnel…$"
 
 MoveTutor_SoftBoiled::
 	lock
@@ -463,13 +464,13 @@ MoveTutor_SoftBoiled::
 	end
 
 MoveTutor_Text_SoftBoiledTeach::
-    .string "Hello, there!\p"
-    .string "I've seen you about, but I never\n"
-    .string "had a chance to chat.\p"
-    .string "It must be good luck that brought\n"
-    .string "us together finally.\p"
-    .string "I'd like to celebrate by teaching\n"
-    .string "you the move Soft Boiled.$"
+    .string "Hola!\p"
+    .string "T'he vist per aquí, però mai\n"
+    .string "he tingut l'oportunitat de parlar.\p"
+    .string "Deu ser bona sort que ens hagi\n"
+    .string "reunit finalment.\p"
+    .string "M'agradaria celebrar-ho ensenyant-te\n"
+    .string "el moviment Ou Passat per Aigua.$"
 
 MoveTutor_EventScript_SoftBoiledDeclined::
 	msgbox MoveTutor_Text_SoftBoiledDeclined, MSGBOX_DEFAULT
@@ -477,13 +478,12 @@ MoveTutor_EventScript_SoftBoiledDeclined::
 	end
 
 MoveTutor_Text_SoftBoiledDeclined::
-    .string "I'll always be keeping an eye out\n"
-    .string "for you.\p"
-    .string "I hope we can chat again.$"
+    .string "Sempre estaré atenta a tu.\p"
+    .string "Espero que puguem parlar de nou.$"
 
 MoveTutor_Text_SoftBoiledWhichMon::
-    .string "So, who's the Pokémon that gets\n"
-    .string "the chance to learn Soft Boiled?$"
+    .string "I qui és el Pokémon que tindrà\n"
+    .string "l'oportunitat d'aprendre'l?$"
 
 MoveTutor_EventScript_SoftBoiledTaught::
 	msgbox MoveTutor_Text_SoftBoiledTaught, MSGBOX_DEFAULT
@@ -491,7 +491,7 @@ MoveTutor_EventScript_SoftBoiledTaught::
 	end
 
 MoveTutor_Text_SoftBoiledTaught::
-    .string "I wish you the best of luck!$"
+    .string "Et desitjo la millor de les sorts!$"
 
 
 
@@ -508,14 +508,14 @@ MoveTutor_Counter::
     end
 
 MoveTutor_Text_CounterTeach::
-    .string "Oh, hi!\n"
-    .string "I finally finished that RomHack!\p"
-    .string "Not done yet? How about I teach\n"
-    .string "you a good move?\p"
-    .string "The move I have in mind is\n"
-    .string "Counter.\p"
-    .string "Not like the one I'm leaning on,\n"
-    .string "mind you!$"
+    .string "Oh, hola!\n"
+    .string "Per fi he acabat aquell RomHack!\p"
+    .string "Encara no? Què et sembla si\n"
+    .string "t'ensenyo un bon moviment?\p"
+    .string "El moviment que tinc en ment és\n"
+    .string "Contraatac.\p"
+    .string "No com el taulell on m'estic\n"
+    .string "recolzant, eh!$"
 
 MoveTutor_EventScript_CounterDeclined::
     msgbox MoveTutor_Text_CounterDeclined, MSGBOX_DEFAULT
@@ -523,12 +523,12 @@ MoveTutor_EventScript_CounterDeclined::
     end
 
 MoveTutor_Text_CounterDeclined::
-    .string "You're not interested? Come see\n"
-    .string "me if you change your mind.$"
+    .string "No t'interessa? Vine a veure'm\n"
+    .string "si canvies d'opinió.$"
 
 MoveTutor_Text_CounterWhichMon::
-    .string "Which Pokémon should I teach\n"
-    .string "Counter to?$"
+    .string "A quin Pokémon he d'ensenyar\n"
+    .string "Contraatac?$"
 
 MoveTutor_EventScript_CounterTaught::
     msgbox MoveTutor_Text_CounterTaught, MSGBOX_DEFAULT
@@ -536,8 +536,8 @@ MoveTutor_EventScript_CounterTaught::
     end
 
 MoveTutor_Text_CounterTaught::
-   .string "Are you using that Counter move\n"
-    .string "I taught your Pokémon?$"
+   .string "Estàs fent servir el Contraatac\n"
+    .string "que li vaig ensenyar?$"
 
 
 
