@@ -225,220 +225,224 @@ TitleMatch_EventScript_Exit::
 
 
 TitleMatch_Text_TitleMatchVictory::
-	.string "The Title Match has concluded!\n"
-	.string "{PLAYER} has won the match!$"
+	.string "El Combat pel Títol ha acabat!\n"
+	.string "{PLAYER} ha guanyat el combat!$"
 
 TitleMatch_Text_TitleMatchDefeated::
-	.string "The Title Match has concluded!\n"
-	.string "{PLAYER} has been defeated!\p"
-	.string "Kanto has a new champion!$"
+	.string "El Combat pel Títol ha acabat!\n"
+	.string "{PLAYER} ha estat derrotat!\p"
+	.string "Kanto té un nou campió!$"
 
 TitleMatch_Steph::
 	trainerbattle_no_whiteout_continue_script TITLE_MATCH_STEPH, TitleMatch_Text_StephIntro, TitleMatch_Text_StephDefeated, TitleMatch_BattleOutcome
 	end
 
 TitleMatch_Text_StephIntro::
-	.string "I'm ready!$"
+	.string "Estic preparada!$"
 
 TitleMatch_Text_StephDefeated::
-	.string "Alright, I'm gonna head out.$"
+	.string "Bé, me'n vaig.$"
 
 TitleMatch_Liz::
 	trainerbattle_no_whiteout_continue_script TITLE_MATCH_LIZ, TitleMatch_Text_LizIntro, TitleMatch_Text_LizDefeated, TitleMatch_BattleOutcome
 	end
 
 TitleMatch_Text_LizIntro::
-	.string "I'm a genius.$"
+	.string "Soc un geni.$"
 
 TitleMatch_Text_LizDefeated::
-	.string "Oh no!$"
+	.string "Oh, no!$"
 
 TitleMatch_Mike::
 	trainerbattle_no_whiteout_continue_script TITLE_MATCH_MIKE, TitleMatch_Text_MikeIntro, TitleMatch_Text_MikeDefeated, TitleMatch_BattleOutcome
 	end
 
 TitleMatch_Text_MikeIntro::
-	.string "My rival is Chris.$"
+	.string "El meu rival és en Chris.$"
 
 TitleMatch_Text_MikeDefeated::
-	.string "I don't care if you win, as long\n"
-	.string "as he loses.$"
+	.string "M'és igual si guanyes, mentre\n"
+	.string "ell perdi.$"
 
 TitleMatch_Chris::
 	trainerbattle_no_whiteout_continue_script TITLE_MATCH_CHRIS, TitleMatch_Text_ChrisIntro, TitleMatch_Text_ChrisDefeated, TitleMatch_BattleOutcome
 	end
 
 TitleMatch_Text_ChrisIntro::
-	.string "It's not time for games!$"
+	.string "No és hora de jugar!$"
 
 TitleMatch_Text_ChrisDefeated::
-	.string "Too scared!"
+	.string "Massa por!"
 
 TitleMatch_Kev::
 	trainerbattle_no_whiteout_continue_script TITLE_MATCH_KEV, TitleMatch_Text_KevIntro, TitleMatch_Text_KevDefeated, TitleMatch_BattleOutcome
 	end
 
 TitleMatch_Text_KevIntro::
-	.string "I have the power of Pokémon\n"
-	.string "on my side!$"
+	.string "Tinc el poder dels Pokémon\n"
+	.string "al meu costat!$"
 
 TitleMatch_Text_KevDefeated::
-	.string "No! I should have used my full power!$"
+	.string "No! Hauria d'haver usat tota\n"
+	.string "la meva força!$"
 
 TitleMatch_Meghan::
 	trainerbattle_no_whiteout_continue_script TITLE_MATCH_MEGHAN, TitleMatch_Text_MeghanIntro, TitleMatch_Text_MeghanDefeated, TitleMatch_BattleOutcome
 	end
 
 TitleMatch_Text_MeghanIntro::
-	.string "It is no longer possible to log off.$"
+	.string "Ja no és possible desconnectar-se.$"
 
 TitleMatch_Text_MeghanDefeated::
-	.string "Hit the bricks!$"
+	.string "Fes el camp!$"
 
 TitleMatch_Steve::
 	trainerbattle_no_whiteout_continue_script TITLE_MATCH_STEVE, TitleMatch_Text_SteveIntro, TitleMatch_Text_SteveDefeated, TitleMatch_BattleOutcome
 	end
 
 TitleMatch_Text_SteveIntro::
-	.string "Pokémon is all about power.$"
+	.string "Pokémon va de poder.$"
 
 TitleMatch_Text_SteveDefeated::
-	.string "Today was not my day.$"
+	.string "Avui no era el meu dia.$"
 
 TitleMatch_M::
 	trainerbattle_no_whiteout_continue_script TITLE_MATCH_M, TitleMatch_Text_MIntro, TitleMatch_Text_MDefeated, TitleMatch_BattleOutcome
 	end
 
 TitleMatch_Text_MIntro::
-	.string "This is my swamp!$"
+	.string "Aquest és el meu territori!$"
 
 TitleMatch_Text_MDefeated::
-	.string "Leave me alone!$"
+	.string "Deixa'm en pau!$"
 
 TitleMatch_Bean::
 	trainerbattle_no_whiteout_continue_script TITLE_MATCH_BEAN, TitleMatch_Text_BeanIntro, TitleMatch_Text_BeanDefeated, TitleMatch_BattleOutcome
 	end
 
 TitleMatch_Text_BeanIntro::
-	.string "I won't tolerate bullies.$"
+	.string "No toleraré els maleducats.$"
 
 TitleMatch_Text_BeanDefeated::
-	.string "You're tough! I like that!$"
+	.string "Ets dur! M'agrada!$"
 
 TitleMatch_Annie::
 	trainerbattle_no_whiteout_continue_script TITLE_MATCH_ANNIE, TitleMatch_Text_AnnieIntro, TitleMatch_Text_AnnieDefeated, TitleMatch_BattleOutcome
 	end
 
 TitleMatch_Text_AnnieIntro::
-	.string "I borrowed my mom's Pokémon.$"
+	.string "He agafat els Pokémon de la\n"
+	.string "meva mare.$"
 
 TitleMatch_Text_AnnieDefeated::
-	.string "Wahhhhhhh! I want my mommy!$"
+	.string "Buaaaa! Vull la meva mare!$"
 
 TitleMatch_Brock::
 	trainerbattle_no_whiteout_continue_script TITLE_MATCH_BROCK, TitleMatch_Text_BrockIntro, TitleMatch_Text_BrockDefeated, TitleMatch_BattleOutcome
 	end
 
 TitleMatch_Text_BrockIntro::
-	.string "Brock: I'm on a roll!$"
+	.string "Brock: Estic en ratxa!$"
 
 TitleMatch_Text_BrockDefeated::
-	.string "You've come a long way, {PLAYER}.$"
+	.string "Has avançat molt, {PLAYER}.$"
 
 TitleMatch_Misty::
 	trainerbattle_no_whiteout_continue_script TITLE_MATCH_MISTY, TitleMatch_Text_MistyIntro, TitleMatch_Text_MistyDefeated, TitleMatch_BattleOutcome
 	end
 
 TitleMatch_Text_MistyIntro::
-	.string "Misty: Hey, it's you!\p"
-	.string "This champion thing should be\n"
-	.string "easy, then.$"
+	.string "Misty: Ei, ets tu!\p"
+	.string "Això de ser campió hauria de\n"
+	.string "ser fàcil, doncs.$"
 
 TitleMatch_Text_MistyDefeated::
-	.string "Ew! I can't believe I lost\n"
-	.string "to you again!$"
+	.string "Ecs! No puc creure que hagi\n"
+	.string "perdut contra tu un altre cop!$"
 
 TitleMatch_Surge::
 	trainerbattle_no_whiteout_continue_script TITLE_MATCH_SURGE, TitleMatch_Text_SurgeIntro, TitleMatch_Text_SurgeDefeated, TitleMatch_BattleOutcome
 	end
 
 TitleMatch_Text_SurgeIntro::
-	.string "Surge: Life's a war, kid.\p"
-	.string "This is just another battlefield.$"
+	.string "Surge: La vida és una guerra, nen.\p"
+	.string "Això és un camp de batalla més.$"
 
 TitleMatch_Text_SurgeDefeated::
-	.string "Back to basic training!$"
+	.string "Tornem a l'entrenament bàsic!$"
 
 TitleMatch_Erika::
 	trainerbattle_no_whiteout_continue_script TITLE_MATCH_ERIKA, TitleMatch_Text_ErikaIntro, TitleMatch_Text_ErikaDefeated, TitleMatch_BattleOutcome
 	end
 
 TitleMatch_Text_ErikaIntro::
-	.string "Erika: Hello, {PLAYER}.\p"
-	.string "Shall we battle again?$"
+	.string "Erika: Hola, {PLAYER}.\p"
+	.string "Fem un altre combat?$"
 
 TitleMatch_Text_ErikaDefeated::
-	.string "Looks like I lost again...$"
+	.string "Sembla que he tornat a perdre...$"
 
 TitleMatch_Sabrina::
 	trainerbattle_no_whiteout_continue_script TITLE_MATCH_SABRINA, TitleMatch_Text_SabrinaIntro, TitleMatch_Text_SabrinaDefeated, TitleMatch_BattleOutcome
 	end
 
 TitleMatch_Text_SabrinaIntro::
-	.string "Sabrina: I have forseen this battle.$"
+	.string "Sabrina: Havia previst aquest combat.$"
 
 TitleMatch_Text_SabrinaDefeated::
-	.string "I knew it would end this way...$"
+	.string "Sabia que acabaria així...$"
 
 TitleMatch_Koga::
 	trainerbattle_no_whiteout_continue_script TITLE_MATCH_KOGA, TitleMatch_Text_KogaIntro, TitleMatch_Text_KogaDefeated, TitleMatch_BattleOutcome
 	end
 
 TitleMatch_Text_KogaIntro::
-	.string "Koga: I've decided to make my move\n"
-	.string "and become one of the Elite Four.\p"
-	.string "You are my only obstacle!$"
+	.string "Koga: He decidit fer el pas\n"
+	.string "i unir-me a l'Alt Comandament.\p"
+	.string "Tu ets el meu únic obstacle!$"
 
 TitleMatch_Text_KogaDefeated::
-	.string "I am still unworthy$"
+	.string "Encara no en soc digne.$"
 
 TitleMatch_Blaine::
 	trainerbattle_no_whiteout_continue_script TITLE_MATCH_BLAINE, TitleMatch_Text_BlaineIntro, TitleMatch_Text_BlaineDefeated, TitleMatch_BattleOutcome
 	end
 
 TitleMatch_Text_BlaineIntro::
-	.string "Blaine: You got me all fired up!$"
+	.string "Blaine: M'has encès la flama!$"
 
 TitleMatch_Text_BlaineDefeated::
-	.string "Not hot enough!$"
+	.string "No prou calent!$"
 
 TitleMatch_Rocket::
 	trainerbattle_no_whiteout_continue_script TITLE_MATCH_ROCKET, TitleMatch_Text_RocketIntro, TitleMatch_Text_RocketDefeated, TitleMatch_BattleOutcome
 	end
 
 TitleMatch_Text_RocketIntro::
-	.string "We fought back at Silph Co.\p"
-	.string "I'm trying to go straight.\n"
-	.string "You inspired me to try and be\l"
-	.string "a real trainer.$"
+	.string "Vam lluitar a Silph SA.\p"
+	.string "Intento anar pel bon camí.\n"
+	.string "Tu em vas inspirar a intentar\l"
+	.string "ser un entrenador de debò.$"
 
 TitleMatch_Text_RocketDefeated::
-	.string "I didn't deserve to win after\n"
-	.string "all the terrible things I've done.$"
+	.string "No mereixia guanyar després de\n"
+	.string "totes les coses horribles que\l"
+	.string "he fet.$"
 
 TitleMatch_Daisy::
 	trainerbattle_no_whiteout_continue_script TITLE_MATCH_DAISY, TitleMatch_Text_DaisyIntro, TitleMatch_Text_DaisyDefeated, TitleMatch_BattleOutcome
 	end
 
 TitleMatch_Text_DaisyIntro::
-	.string "Daisy: Hi, {PLAYER}!\p"
-	.string "You and my brother were always\n"
-	.string "talking about battling, so I\l"
-	.string "decided to give a try.\p"
-	.string "I guess I'm pretty good, too!$"
+	.string "Daisy: Hola, {PLAYER}!\p"
+	.string "Tu i el meu germà sempre\n"
+	.string "parlàveu de combatre, així que\l"
+	.string "vaig decidir provar-ho.\p"
+	.string "Sembla que jo també soc força\n"
+	.string "bona!$"
 
 TitleMatch_Text_DaisyDefeated::
-	.string "That was fun!$"
+	.string "Ha estat divertit!$"
 
 TitleMatch_Rival::
 	goto_if_eq VAR_RIVAL_WINRATE, 2, TitleMatch_Rival_Jolteon
@@ -458,9 +462,10 @@ TitleMatch_Rival_Vaporeon::
 	end
 
 TitleMatch_Text_RivalIntro::
-	.string "{RIVAL}: Alright, we meet again!\p"
-	.string "Now's my chance to prove I'm the\n"
-	.string "true champion!$"
+	.string "{RIVAL}: Bé, ens retrobem!\p"
+	.string "Ara és la meva oportunitat de\n"
+	.string "demostrar que soc el veritable\l"
+	.string "campió!$"
 
 TitleMatch_Text_RivalDefeated::
-	.string "Heh, still can't hack it.$"
+	.string "Heh, encara no en saps prou.$"

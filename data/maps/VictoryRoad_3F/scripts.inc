@@ -35,14 +35,14 @@ VictoryRoad_3F_EventScript_George::
 	end
 
 VictoryRoad_3F_Text_GeorgeIntro::
-    .string "I heard rumors of a child prodigy.$"
+    .string "He sentit rumors d'un nen prodigi.$"
 
 VictoryRoad_3F_Text_GeorgeDefeat::
-    .string "The rumors were true!$"
+    .string "Els rumors eren certs!$"
 
 VictoryRoad_3F_Text_GeorgePostBattle::
-    .string "So, it was you who beat Giovanni\n"
-    .string "of Team Rocket?$"
+    .string "Així que ets tu qui va derrotar\n"
+    .string "en Giovanni del Team Rocket?$"
 
 VictoryRoad_3F_EventScript_Colby::
 	trainerbattle_single TRAINER_COOLTRAINER_COLBY, VictoryRoad_3F_Text_ColbyIntro, VictoryRoad_3F_Text_ColbyDefeat
@@ -50,15 +50,15 @@ VictoryRoad_3F_EventScript_Colby::
 	end
 
 VictoryRoad_3F_Text_ColbyIntro::
-    .string "Only the chosen can pass here!$"
+    .string "Només els escollits poden passar!$"
 
 VictoryRoad_3F_Text_ColbyDefeat::
-    .string "I don't believe it!$"
+    .string "No m'ho puc creure!$"
 
 VictoryRoad_3F_Text_ColbyPostBattle::
-    .string "All Trainers here are headed to\n"
-    .string "the Pokémon League.\p"
-    .string "Don't let down your guard.$"
+    .string "Tots els Entrenadors d'aquí van\n"
+    .string "cap a la Lliga Pokémon.\p"
+    .string "No baixis la guàrdia.$"
 
 VictoryRoad_3F_EventScript_Caroline::
 	trainerbattle_single TRAINER_COOLTRAINER_CAROLINE, VictoryRoad_3F_Text_CarolineIntro, VictoryRoad_3F_Text_CarolineDefeat
@@ -66,15 +66,15 @@ VictoryRoad_3F_EventScript_Caroline::
 	end
 
 VictoryRoad_3F_Text_CarolineIntro::
-    .string "I'll show you just how good you\n"
-    .string "are. Not!$"
+    .string "Et mostraré com de bo ets.\n"
+    .string "O no!$"
 
 VictoryRoad_3F_Text_CarolineDefeat::
-    .string "I'm furious!$"
+    .string "Estic furiosa!$"
 
 VictoryRoad_3F_Text_CarolinePostBattle::
-    .string "You showed me just how good\n"
-    .string "I was…$"
+    .string "M'has mostrat com de bona\n"
+    .string "era jo…$"
 
 VictoryRoad_3F_EventScript_Alexa::
 	trainerbattle_single TRAINER_COOLTRAINER_ALEXA, VictoryRoad_3F_Text_AlexaIntro, VictoryRoad_3F_Text_AlexaDefeat
@@ -82,16 +82,16 @@ VictoryRoad_3F_EventScript_Alexa::
 	end
 
 VictoryRoad_3F_Text_AlexaIntro::
-    .string "Trainers live to seek stronger\n"
-    .string "opponents.$"
+    .string "Els Entrenadors viuen per buscar\n"
+    .string "oponents més forts.$"
 
 VictoryRoad_3F_Text_AlexaDefeat::
     .string "Oh!\n"
-    .string "So strong!$"
+    .string "Que fort!$"
 
 VictoryRoad_3F_Text_AlexaPostBattle::
-    .string "By fighting tough battles, you get\n"
-    .string "stronger.$"
+    .string "Lluitant combats durs, et fas\n"
+    .string "més fort.$"
 
 VictoryRoad_3F_EventScript_Ray::
 	trainerbattle_double TRAINER_COOL_COUPLE_RAY_TYRA, VictoryRoad_3F_Text_RayIntro, VictoryRoad_3F_Text_RayDefeat, VictoryRoad_3F_Text_RayNotEnoughMons
@@ -99,22 +99,22 @@ VictoryRoad_3F_EventScript_Ray::
 	end
 
 VictoryRoad_3F_Text_RayIntro::
-    .string "Ray: Together, the two of us are\n"
-    .string "destined for greatness!$"
+    .string "Ray: Junts, nosaltres dos estem\n"
+    .string "destinats a la grandesa!$"
 
 VictoryRoad_3F_Text_RayDefeat::
-    .string "Ray: Ludicrous!\n"
-    .string "This can't be!$"
+    .string "Ray: Ridícul!\n"
+    .string "Això no pot ser!$"
 
 VictoryRoad_3F_Text_RayPostBattle::
-    .string "Ray: You've beaten us.\n"
-    .string "Greatness remains elusive…$"
+    .string "Ray: Ens has derrotat.\n"
+    .string "La grandesa segueix sent esquiva…$"
 
 VictoryRoad_3F_Text_RayNotEnoughMons::
-    .string "Ray: Together, the two of us are\n"
-    .string "striving for the pinnacle.\p"
-    .string "We need you to bring two Pokémon\n"
-    .string "into battle with us.$"
+    .string "Ray: Junts, nosaltres dos aspirem\n"
+    .string "al cim.\p"
+    .string "Necessitem que portis dos Pokémon\n"
+    .string "al combat amb nosaltres.$"
 
 VictoryRoad_3F_EventScript_Tyra::
 	trainerbattle_double TRAINER_COOL_COUPLE_RAY_TYRA, VictoryRoad_3F_Text_TyraIntro, VictoryRoad_3F_Text_TyraDefeat, VictoryRoad_3F_Text_TyraNotEnoughMons
@@ -122,19 +122,20 @@ VictoryRoad_3F_EventScript_Tyra::
 	end
 
 VictoryRoad_3F_Text_TyraIntro::
-    .string "Tyra: We're trying to become\n"
-    .string "champions together.$"
+    .string "Tyra: Estem intentant ser\n"
+    .string "campions junts.$"
 
 VictoryRoad_3F_Text_TyraDefeat::
-    .string "Tyra: Oh, but…$"
+    .string "Tyra: Oh, però…$"
 
 VictoryRoad_3F_Text_TyraPostBattle::
-    .string "Tyra: You've taught me that power\n"
-    .string "can be infinite in shape and form.$"
+    .string "Tyra: M'has ensenyat que el poder\n"
+    .string "pot ser infinit en forma.$"
 
 VictoryRoad_3F_Text_TyraNotEnoughMons::
-    .string "Tyra: You can't battle with us if\n"
-    .string "you have only one Pokémon.$"
+    .string "Tyra: No pots combatre amb\n"
+    .string "nosaltres si només tens un\l"
+    .string "Pokémon.$"
 
 VictoryRoad_3F_EventScript_ItemMaxRevive::
 	finditem ITEM_MAX_REVIVE, 1

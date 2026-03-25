@@ -6,24 +6,24 @@ SafariZone_East_EventScript_RestHouseSign::
 	end
 
 SafariZone_East_Text_RestHouse::
-    .string "Rest House$"
+    .string "Casa de Descans$"
 
 SafariZone_East_EventScript_TrainerTips::
 	msgbox SafariZone_East_Text_TimeDeclinesOnlyWhileYouWalk, MSGBOX_SIGN
 	end
 
 SafariZone_East_Text_TimeDeclinesOnlyWhileYouWalk::
-    .string "Trainer Tips:\p"
-    .string "The remaining time declines only\n"
-    .string "while you walk.$"
+    .string "Consells d'Entrenador:\p"
+    .string "El temps restant només disminueix\n"
+    .string "mentre camines.$"
 
 SafariZone_East_EventScript_AreaSign::
 	msgbox SafariZone_East_Text_AreaSign, MSGBOX_SIGN
 	end
 
 SafariZone_East_Text_AreaSign::
-    .string "Area 1\n"
-    .string "West: Center Area$"
+    .string "Àrea 1\n"
+    .string "Oest: Àrea Central$"
 
 SafariZone_East_EventScript_ItemMaxPotion::
 	finditem ITEM_MAX_POTION, 1

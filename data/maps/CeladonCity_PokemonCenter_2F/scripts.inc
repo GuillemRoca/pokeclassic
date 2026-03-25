@@ -9,6 +9,6 @@ CeladonCity_PokemonCenter_2F_Shopper::
 	end
 
 CeladonCity_PokemonCenter_2F_Shopping::
-	.string "The League Services here have some\n"
-	.string "interesting options, but I prefer to\l"
-	.string "do my shopping at the Department Store.$"
+	.string "Els Serveis de la Lliga aquí tenen\n"
+	.string "opcions interessants, però prefereixo\l"
+	.string "comprar als Grans Magatzems.$"

@@ -19,7 +19,7 @@ Route2_EventScript_RouteSign::
 	end
 
 Route2_Text_RouteSign::
-    .string "Route 2\n"
+    .string "Ruta 2\n"
     .string "Viridian City - Pewter City$"
 
 Route2_EventScript_DiglettsCaveSign::
@@ -27,7 +27,7 @@ Route2_EventScript_DiglettsCaveSign::
 	end
 
 Route2_Text_DiglettsCave::
-    .string "Diglett'S Cave$"
+    .string "Cova Diglett$"
 
 Route2_FindItem_Ether::
 	finditem ITEM_ETHER, 1

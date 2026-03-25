@@ -9,15 +9,15 @@ CeladonCity_Condominiums_RoofRoom_EventScript_Maniac::
 	end
 
 CeladonCity_Condominiums_RoofRoom_Text_CreatedMyOwnPokemon::
-	.string "If Pokémon can be turned into\n"
-	.string "data and stored in a PC, then\l"
-	.string "we should be able to artifically\l"
-	.string "create Pokémon, right?\p"
-	.string "That was my hypothesis - and I\n"
-	.string "proved it by creating Porygon!\p"
-	.string "Don't believe me?\p"
-	.string "Take the Poké Ball over there,\n"
-	.string "you can have my Porygon!$"
+	.string "Si els Pokémon es poden convertir\n"
+	.string "en dades i guardar en un PC,\l"
+	.string "hauríem de poder crear Pokémon\l"
+	.string "artificialment, no?\p"
+	.string "Aquesta era la meva hipòtesi - i\n"
+	.string "la vaig demostrar creant Porygon!\p"
+	.string "No em creus?\p"
+	.string "Agafa la Poké Ball d'allà,\n"
+	.string "pots quedar-te el meu Porygon!$"
 
 CeladonCity_Condominiums_RoofRoom_EventScript_AlreadyGotPorygon::
 	msgbox CeladonCity_Condominiums_RoofRoom_Text_CanAPokemonBeHacked, MSGBOX_NPC
@@ -25,20 +25,20 @@ CeladonCity_Condominiums_RoofRoom_EventScript_AlreadyGotPorygon::
 	end
 
 CeladonCity_Condominiums_RoofRoom_Text_CanAPokemonBeHacked::
-	.string "If we can turn Pokémon into\n"
-	.string "data, does that mean a Pokémon  \l"
-	.string "can be hacked?$"
+	.string "Si podem convertir Pokémon en\n"
+	.string "dades, vol dir que un Pokémon\l"
+	.string "pot ser hackejat?$"
 
 CeladonCity_Condominiums_RoofRoom_EventScript_TMsPamphlet::
 	msgbox CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs, MSGBOX_SIGN
 	end
 
 CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs::
-    .string "It's an email about TMs.\p"
+    .string "És un correu sobre les MT.\p"
     .string "… …\p"
-    .string "There are fifty TMs in all.\p"
-    .string "There are also eight HMs that\n"
-    .string "can be used in the field!\p"
+    .string "Hi ha cinquanta MT en total.\p"
+    .string "També hi ha vuit MO que es\n"
+    .string "poden usar al camp!\p"
     .string "SILPH CO.$"
 
 CeladonCity_Condominiums_RoofRoom_EventScript_PorygonBall::
@@ -67,8 +67,8 @@ CeladonCity_Condominiums_RoofRoom_EventScript_GetPorygon::
     return
 
 CeladonCity_Condominiums_RoofRoom_EventScript_Text_FoundPorygon::
-    .string "{PLAYER} found a Poké Ball.\n"
-    .string "It contained a Porygon!$"
+    .string "{PLAYER} ha trobat una Poké Ball.\n"
+    .string "Contenia un Porygon!$"
 
 CeladonCity_Condominiums_RoofRoom_EventScript_GotPorygon::
     setflag FLAG_GOT_PORYGON
@@ -95,5 +95,5 @@ CeladonCity_Condominiums_RoofRoom_EventScript_NoRoomForPorygon::
     end
 
 CeladonCity_Condominiums_RoofRoom_Text_NoRoomForMorePokemon::
-    .string "Oh! You don't have room\n"
-    .string "for any more Pokémon!$"
+    .string "Oh! No tens espai per a\n"
+    .string "més Pokémon!$"

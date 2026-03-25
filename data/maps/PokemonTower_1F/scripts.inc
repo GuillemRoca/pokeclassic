@@ -6,9 +6,9 @@ PokemonTower_1F_EventScript_Channeler::
 	end
 
 PokemonTower_1F_Text_SenseSpiritsUpToMischief::
-    .string "I am a Channeler.\p"
-    .string "There are spirits up to mischief.\n"
-    .string "I sense them high in the tower.$"
+    .string "Soc una Canalitzadora.\p"
+    .string "Hi ha esperits fent entremaliadures.\n"
+    .string "Els sento a dalt de la torre.$"
 
 PokemonTower_1F_EventScript_Woman1::
 	msgbox PokemonTower_1F_Text_GrowlitheWhyDidYouDie, MSGBOX_NPC
@@ -24,9 +24,9 @@ PokemonTower_1F_EventScript_CueBall::
 	end
 
 PokemonTower_1F_Text_IDontNeedThis::
-	.string "Oh...sniff...\n"
-	.string "Nuffle...I miss you!\p"
-	.string "Here...I don't need this...$"
+	.string "Oh...snif...\n"
+	.string "Nuffle...et trobo a faltar!\p"
+	.string "Aquí tens...no ho necessito...$"
 
 PokemonTower_1F_EventScript_CueBall2::
 	msgbox PokemonTower_1F_Text_BraveFace, MSGBOX_NPC
@@ -34,15 +34,15 @@ PokemonTower_1F_EventScript_CueBall2::
 	end
 
 PokemonTower_1F_Text_BraveFace::
-	.string "Whenever we battled, I was\n"
-	.string "always able to put on a brave\l"
-	.string "face for my Pokémon.\p"
-	.string "But now, I can't keep up the\n"
-	.string "the facade...$"
+	.string "Sempre que combatíem, jo era\n"
+	.string "capaç de posar bona cara\l"
+	.string "pels meus Pokémon.\p"
+	.string "Però ara, no puc mantenir\n"
+	.string "la façana...$"
 
 PokemonTower_1F_Text_GrowlitheWhyDidYouDie::
-    .string "My Growlithe…\n"
-    .string "Why did you die?$"
+    .string "El meu Growlithe…\n"
+    .string "Per què vas morir?$"
 
 
 PokemonTower_1F_EventScript_BaldingMan::
@@ -55,19 +55,20 @@ PokemonTower_1F_EventScript_Woman2::
 	end
 
 PokemonTower_1F_Text_CameToPrayForDepartedClefairy::
-    .string "I came to pray for my dearly\n"
-    .string "departed Clefairy.\p"
-    .string "Sniff!\n"
-    .string "I'm awash in tears…$"
+    .string "He vingut a pregar pel meu\n"
+    .string "estimat Clefairy.\p"
+    .string "Snif!\n"
+    .string "Estic ple de llàgrimes…$"
 
 PokemonTower_1F_Text_ComeToPayRespects::
-    .string "Did you come to pay respects?\p"
-    .string "Bless your Pokémon-loving heart.$"
+    .string "Has vingut a retre homenatge?\p"
+    .string "Beneït sigui el teu cor\n"
+    .string "amant dels Pokémon.$"
 
 PokemonTower_1F_EventScript_WorkerF::
 	msgbox PokemonTower_1F_Text_ErectedInMemoryOfDeadMons, MSGBOX_NPC
 	end
 
 PokemonTower_1F_Text_ErectedInMemoryOfDeadMons::
-    .string "Pokémon Tower was erected in the\n"
-    .string "memory of Pokémon that died.$"
+    .string "La Torre Pokémon es va erigir\n"
+    .string "en memòria dels Pokémon morts.$"

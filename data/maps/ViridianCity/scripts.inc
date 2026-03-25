@@ -83,11 +83,11 @@ ViridianCity_EventScripts_TeamRocketRumor::
 	end
 
 ViridianCity_Text_InvestigatingTeamRocket:
-	.string "Officer: We're investigating a\n"
-	.string "rumor that Team Rocket was seen\l"
-	.string "in this area.\p"
-	.string "We can't let anyone through until\n"
-	.string "we've completed our search.$"
+	.string "Agent: Estem investigant un rumor\n"
+	.string "que el Team Rocket ha estat vist\l"
+	.string "en aquesta zona.\p"
+	.string "No podem deixar passar ningú fins\n"
+	.string "que completem la nostra cerca.$"
 
 ViridianCity_EventScripts_ReturnJennyToPosition1::
 	applymovement LOCALID_OFFICER, Movement_JennyStepsRight
@@ -120,37 +120,39 @@ ViridianCity_EventScript_CitySign::
 	end
 
 ViridianCity_Text_CitySign::
-    .string "Viridian City \n"
-    .string "The Eternally Green Paradise$"
+    .string "Ciutat Viridian\n"
+    .string "El Paradís Eternament Verd$"
 
 ViridianCity_EventScript_GymSign::
 	msgbox ViridianCity_Text_GymSign, MSGBOX_SIGN
 	end
 
 ViridianCity_Text_GymSign::
-    .string "Viridian City Pokémon Gym$"
+    .string "Gimnàs Pokémon de Viridian$"
 
 ViridianCity_EventScript_TrainerTips1::
 	msgbox ViridianCity_Text_CatchMonsForEasierBattles, MSGBOX_SIGN
 	end
 
 ViridianCity_Text_CatchMonsForEasierBattles::
-    .string "Trainer Tips:\p"
-    .string "Catch Pokémon and expand your\n"
-    .string "collection.\p"
-    .string "The more you have, the easier it\n"
-    .string "is to battle.$"
+    .string "Consells d'Entrenador:\p"
+    .string "Atrapa Pokémon i amplia la teva\n"
+    .string "col·lecció.\p"
+    .string "Com més en tinguis, més fàcil\n"
+    .string "serà combatre.$"
 
 ViridianCity_EventScript_TrainerTips2::
 	msgbox ViridianCity_Text_MovesLimitedByPP, MSGBOX_SIGN
 	end
 
 ViridianCity_Text_MovesLimitedByPP::
-    .string "Trainer Tips:\p"
-    .string "The battle moves of Pokémon are\n"
-    .string "limited by their Power Points (PP).\p"
-    .string "To replenish PP, rest your tired\n"
-    .string "Pokémon at a Pokémon Center.$"
+    .string "Consells d'Entrenador:\p"
+    .string "Els moviments de combat dels\n"
+    .string "Pokémon estan limitats pels\l"
+    .string "Punts de Poder (PP).\p"
+    .string "Per recuperar PP, fes descansar\n"
+    .string "els teus Pokémon a un Centre\l"
+    .string "Pokémon.$"
 
 ViridianCity_EventScript_GymDoorLocked::
 	lockall
@@ -166,7 +168,8 @@ ViridianCity_EventScript_GymDoorLocked::
 	end
 
 ViridianCity_Text_GymDoorsAreLocked::
-    .string "Viridian Gym's doors are locked…$"
+    .string "Les portes del Gimnàs de Viridian\n"
+    .string "estan tancades…$"
 
 ViridianCity_Movement_StepAside::
 	walk_right
@@ -183,8 +186,9 @@ ViridianCity_EventScript_OldMan::
 	end
 
 ViridianCity_Text_GymClosedWonderWhoLeaderIs::
-    .string "This Pokémon Gym is always closed.\p"
-    .string "I wonder who the leader is?$"
+    .string "Aquest Gimnàs Pokémon sempre\n"
+    .string "està tancat.\p"
+    .string "Em pregunto qui és el líder?$"
 
 ViridianCity_EventScript_OldManGymLeaderReturned::
 	msgbox ViridianCity_Text_ViridiansGymLeaderReturned, MSGBOX_DEFAULT
@@ -192,7 +196,8 @@ ViridianCity_EventScript_OldManGymLeaderReturned::
 	end
 
 ViridianCity_Text_ViridiansGymLeaderReturned::
-    .string "Virdian Gym's leader returned!$"
+    .string "El Líder del Gimnàs de Viridian\n"
+    .string "ha tornat!$"
 
 ViridianCity_EventScript_Boy::
 	lock
@@ -202,10 +207,10 @@ ViridianCity_EventScript_Boy::
 	end
 
 ViridianCity_Text_CanCarryMonsAnywhere::
-    .string "Those Poké Balls at your waist!\n"
-    .string "You have Pokémon, don't you?\p"
-    .string "It's great that you can carry and\n"
-    .string "use Pokémon anytime, anywhere.$"
+    .string "Aquestes Poké Balls a la cintura!\n"
+    .string "Tens Pokémon, oi?\p"
+    .string "És genial que puguis portar i\n"
+    .string "usar Pokémon en qualsevol moment.$"
 
 ViridianCity_EventScript_Woman::
 	lock
@@ -215,10 +220,10 @@ ViridianCity_EventScript_Woman::
 	end
 
 ViridianCity_Text_GoShoppingInPewterOccasionally::
-    .string "I go shopping in Pewter City\n"
-    .string "occasionally.\p"
-    .string "I have to take the winding trail in\n"
-    .string "Viridian Forest when I go.$"
+    .string "Vaig a comprar a Ciutat Pewter\n"
+    .string "de tant en tant.\p"
+    .string "Haig d'agafar el camí sinuós del\n"
+    .string "Bosc Viridian quan hi vaig.$"
 
 ViridianCity_EventScript_OldMan2::
 	lock
@@ -228,13 +233,13 @@ ViridianCity_EventScript_OldMan2::
 	end
 
 ViridianCity_Text_UsedToGetGrumpy:
-	.string "I used to get very grumpy when\n"
-	.string "I didn't my coffee.\p"
-	.string "I'd block the road and everything!\p"
-	.string "It was a whole thing...\p"
-	.string "So my granddaughter made me give up\n"
-	.string "the stuff.\p"
-	.string "Now I get refreshed by talking walks!$"
+	.string "Abans em posava molt rondinaire\n"
+	.string "quan no prenia el meu cafè.\p"
+	.string "Bloquejava el camí i tot!\p"
+	.string "Va ser tot un espectacle...\p"
+	.string "Així que la meva néta em va fer\n"
+	.string "deixar el cafè.\p"
+	.string "Ara em refresco fent passejades!$"
 
 ViridianCity_EventScript_Youngster::
 	lock
@@ -247,8 +252,8 @@ ViridianCity_EventScript_Youngster::
 	end
 
 ViridianCity_Text_WantToKnowAboutCaterpillarMons::
-    .string "You want to know about the two\n"
-    .string "kinds of caterpillar Pokémon?$"
+    .string "Vols saber sobre els dos tipus\n"
+    .string "de Pokémon eruga?$"
 
 ViridianCity_EventScript_YoungsterExplainCaterpillars::
 	lock
@@ -258,10 +263,11 @@ ViridianCity_EventScript_YoungsterExplainCaterpillars::
 	end
 
 ViridianCity_Text_ExplainCaterpieWeedle::
-    .string "Caterpie has no poison,\n"
-    .string "but Weedle does.\p"
-    .string "Watch that your Pokémon aren't\n"
-    .string "stabbed by Weedle's Poison Sting.$"
+    .string "Caterpie no té verí,\n"
+    .string "però Weedle sí.\p"
+    .string "Vigila que els teus Pokémon no\n"
+    .string "siguin punxats pel Fibló Verinós\l"
+    .string "de Weedle.$"
 
 ViridianCity_EventScript_YoungsterDeclineExplanation::
 	msgbox ViridianCity_Text_OhOkayThen, MSGBOX_DEFAULT
@@ -269,7 +275,7 @@ ViridianCity_EventScript_YoungsterDeclineExplanation::
 	end
 
 ViridianCity_Text_OhOkayThen::
-    .string "Oh, okay then!$"
+    .string "Oh, d'acord!$"
 
 ViridianCity_FindItem_Potion::
 	finditem ITEM_POTION, 1
@@ -283,8 +289,8 @@ ViridianCity_EventScript_BerryTreeGuy::
 	end
 
 ViridianCity_Text_PlantingBerries::
-	.string "It looks like a Pokémon was digging\n"
-	.string "in the ground over here.\p"
-	.string "The soil is nice and soft...\n"
-	.string "I should plant something there!$"
+	.string "Sembla que un Pokémon ha estat\n"
+	.string "excavant al terra per aquí.\p"
+	.string "La terra és bona i tova...\n"
+	.string "Hauria de plantar-hi alguna cosa!$"
 

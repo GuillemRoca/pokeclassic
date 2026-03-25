@@ -11,10 +11,10 @@ LavenderTown_House1_EventScript_CooltrainerF::
 	end
 
 LavenderTown_House1_Text_RocketsKilledCubonesMother::
-    .string "Those horrible Rockets!\n"
-    .string "They deserve no mercy!\p"
-    .string "They kidnapped that Cubone and\n"
-    .string "killed its poor mother…$"
+    .string "Aquells Rockets horribles!\n"
+    .string "No mereixen cap pietat!\p"
+    .string "Van segrestar aquell Cubone i\n"
+    .string "van matar la seva pobra mare…$"
 
 LavenderTown_House1_EventScript_CooltrainerSawCuboneReturn::
 	msgbox LavenderTown_House1_Text_CuboneReturnedToTower
@@ -22,9 +22,9 @@ LavenderTown_House1_EventScript_CooltrainerSawCuboneReturn::
 	end
 
 LavenderTown_House1_Text_CuboneReturnedToTower::
-	.string "I saw the Cubone return to Pokémon\n"
-	.string "Tower!\p"
-	.string "It looked very determined!$"
+	.string "Vaig veure el Cubone tornar a la\n"
+	.string "Torre Pokémon!\p"
+	.string "Semblava molt decidit!$"
 
 LavenderTown_House1_EventScript_CooltrainerFGhostGone::
 	msgbox LavenderTown_House1_Text_GhostOfPokemonTowerIsGone
@@ -32,10 +32,10 @@ LavenderTown_House1_EventScript_CooltrainerFGhostGone::
 	end
 
 LavenderTown_House1_Text_GhostOfPokemonTowerIsGone::
-    .string "So the ghost of Pokémon Tower was\n"
-    .string "Cubone's mother?\p"
-    .string "I'm glad this Cubone was able to\n"
-    .string "soothe her restless spirit!$"
+    .string "Així que el fantasma de la Torre\n"
+    .string "Pokémon era la mare del Cubone?\p"
+    .string "M'alegro que aquest Cubone hagi\n"
+    .string "pogut calmar el seu esperit!$"
 
 LavenderTown_House1_EventScript_Cubone::
 	lock

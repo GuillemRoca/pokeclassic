@@ -296,164 +296,168 @@ TrainerHill_Entrance_Pokemart_Expanded:
 	end
 
 TrainerHill_Entrance_Text_StillGettingReady:
-	.string "This is the Trainer Hill where\n"
-	.string "you may enjoy tag battles with many\l"
-	.string "Trainers.\p"
-	.string "Unfortunately, we're still getting\n"
-	.string "things ready. Please come back later!$"
+	.string "Aquest és el Turó dels Entrenadors,\n"
+	.string "on pots gaudir de combats per\l"
+	.string "parelles amb molts Entrenadors.\p"
+	.string "Malauradament, encara estem\n"
+	.string "preparant-ho tot.\l"
+	.string "Torna més tard, si us plau!$"
 
 TrainerHill_Entrance_Text_WelcomeToTrainerHill:
-	.string "Welcome!\p"
-	.string "This is the Trainer Hill where\n"
-	.string "you may enjoy tag battles with many\l"
-	.string "Trainers!$"
+	.string "Benvingut!\p"
+	.string "Aquest és el Turó dels Entrenadors,\n"
+	.string "on pots gaudir de combats per\l"
+	.string "parelles amb molts Entrenadors!$"
 
 TrainerHill_Entrance_Text_SaveGameBeforeEnter:
-	.string "Is this your first visit here?\p"
-	.string "Before you enter, please save\n"
-	.string "your game.$"
+	.string "És la teva primera visita aquí?\p"
+	.string "Abans d'entrar, si us plau,\n"
+	.string "desa la partida.$"
 
 TrainerHill_Entrance_Text_TrainersUpToFloorX:
-	.string "Let's see…\n"
-	.string "The Trainers here now are…\p"
-	.string "Up to floor no. {STR_VAR_1}.$"
+	.string "A veure…\n"
+	.string "Els Entrenadors d'aquí ara són…\p"
+	.string "Fins al pis núm. {STR_VAR_1}.$"
 
 TrainerHill_Entrance_Text_TrainersInEveryRoom:
-	.string "Let's see…\n"
-	.string "The Trainers here now are…\p"
-	.string "There appear to be Trainers gathered\n"
-	.string "in every room.$"
+	.string "A veure…\n"
+	.string "Els Entrenadors d'aquí ara són…\p"
+	.string "Sembla que hi ha Entrenadors\n"
+	.string "reunits a totes les sales.$"
 
 TrainerHill_Entrance_Text_LikeToChallengeTrainers:
-	.string "Would you like to challenge the\n"
-	.string "waiting Trainers?$"
+	.string "Vols desafiar els Entrenadors\n"
+	.string "que estan esperant?$"
 
 TrainerHill_Entrance_Text_TimeProgessGetSetGo:
-	.string "I will time your progress.\n"
-	.string "Best of luck!\p"
-	.string "On your marks…\p"
-	.string "Get set…\p"
-	.string "Go!$"
+	.string "Cronometraré el teu progrés.\n"
+	.string "Molta sort!\p"
+	.string "Preparats…\p"
+	.string "Llestos…\p"
+	.string "Ja!$"
 
 TrainerHill_Entrance_Text_PleaseVisitUsAgain:
-	.string "Please do visit us again!$"
+	.string "Torna a visitar-nos!$"
 
 TrainerHill_Entrance_Text_TooBadTremendousEffort:
-	.string "That was too bad.\p"
-	.string "I think you put in a tremendous\n"
-	.string "effort in your battling.\p"
-	.string "Please come back and try again!$"
+	.string "Quina llàstima.\p"
+	.string "Crec que has fet un esforç\n"
+	.string "tremend en els teus combats.\p"
+	.string "Torna i prova-ho de nou!$"
 
 TrainerHill_Entrance_Text_HopeYouGiveItYourBest:
-	.string "I hope you give it your best.$"
+	.string "Espero que donis el millor de tu.$"
 
 TrainerHill_Entrance_Text_MovedReceptionHereForSwitch:
-	.string "When the Trainers switch places,\n"
-	.string "the movement can be hectic.\p"
-	.string "To avoid the stampede, we moved\n"
-	.string "the reception counter here.\p"
-	.string "I'm sorry for the inconvenience.$"
+	.string "Quan els Entrenadors canvien de\n"
+	.string "lloc, el moviment pot ser caòtic.\p"
+	.string "Per evitar l'allau, hem mogut\n"
+	.string "el taulell de recepció aquí.\p"
+	.string "Disculpa les molèsties.$"
 
 TrainerHill_Entrance_Text_ThankYouForPlaying:
-	.string "Thank you for playing!$"
+	.string "Gràcies per participar!$"
 
 TrainerHill_Entrance_Text_ExplainTrainerHill:
-	.string "Here at the Trainer Hill, we conduct\n"
-	.string "an event called the Time Attack.\p"
-	.string "It is a race that measures how long\n"
-	.string "you take to reach our owner on\l"
-	.string "the rooftop from this counter.\p"
-	.string "The fastest times are posted on\n"
-	.string "the Time Board--try competing with\l"
-	.string "your friends.\p"
-	.string "In Trainer battles along the way,\n"
-	.string "neither Exp. Points nor money will\l"
-	.string "be awarded.$"
+	.string "Aquí, al Turó dels Entrenadors,\n"
+	.string "organitzem un event anomenat\l"
+	.string "Atac Contrarellotge.\p"
+	.string "És una cursa que mesura quant\n"
+	.string "trigues a arribar al propietari\l"
+	.string "al terrat des d'aquest taulell.\p"
+	.string "Els millors temps es publiquen al\n"
+	.string "Tauler de Temps. Prova a competir\l"
+	.string "amb els teus amics.\p"
+	.string "En els combats pel camí, no es\n"
+	.string "donaran ni Punts d'Exp. ni diners.$"
 
 @ Unused
 TrainerHill_Entrance_Text_NeedAtLeastTwoPokemon:
-	.string "Oh, I'm sorry, but you appear to have\n"
-	.string "only one Pokémon with you.\p"
-	.string "You will need at least two Pokémon\n"
-	.string "to enter this event.$"
+	.string "Oh, ho sento, però sembla que\n"
+	.string "només tens un Pokémon amb tu.\p"
+	.string "Necessitaràs almenys dos Pokémon\n"
+	.string "per participar en aquest event.$"
 
 TrainerHill_Roof_Text_YouFinallyCameBravo:
 	.string "Hm! Hm!\p"
-	.string "You finally came!\n"
-	.string "Yes, you have arrived!\p"
-	.string "Wait! Don't say it!\n"
-	.string "I know why you came all the way\l"
-	.string "here by yourself!\p"
-	.string "You wanted to see me, the owner\n"
-	.string "of the Trainer Hill, because…\p"
-	.string "You want to form a tag team with me!\n"
-	.string "Wa-hoo!\p"
-	.string "…Uh?\n"
-	.string "That's not it?\p"
-	.string "Anyway, I watched you on your way up.\n"
-	.string "Marvelous battling! Bravo, indeed!$"
+	.string "Per fi has vingut!\n"
+	.string "Sí, has arribat!\p"
+	.string "Espera! No ho diguis!\n"
+	.string "Sé per què has vingut fins aquí\l"
+	.string "tu sol!\p"
+	.string "Volies veure'm a mi, el propietari\n"
+	.string "del Turó dels Entrenadors,\l"
+	.string "perquè…\p"
+	.string "Vols formar un equip amb mi!\n"
+	.string "Visca!\p"
+	.string "…Eh?\n"
+	.string "No és això?\p"
+	.string "En tot cas, t'he observat pujant.\n"
+	.string "Combats meravellosos! Bravo!$"
 
 TrainerHill_Roof_Text_HaveTheMostMarvelousGift:
-	.string "For a marvelous someone like you,\n"
-	.string "I have the most marvelous gift!$"
+	.string "Per a algú tan meravellós com tu,\n"
+	.string "tinc el regal més meravellós!$"
 
 TrainerHill_Roof_Text_FullUpBeBackLaterForThis:
-	.string "Oh, no, full up with things!\n"
-	.string "You'll be back later for this!$"
+	.string "Oh, no, tot ple de coses!\n"
+	.string "Tornaràs més tard a buscar-ho!$"
 
 TrainerHill_Roof_Text_GotHereMarvelouslyQuickly:
-	.string "Oh, hold on here! Did you possibly get\n"
-	.string "here marvelously quickly?\p"
-	.string "How splendid! You needn't have\n"
-	.string "hurried so to see me!\p"
-	.string "That is so delightful. I'll have the Time\n"
-	.string "Board at the reception updated!$"
+	.string "Oh, espera! Has arribat aquí\n"
+	.string "meravellosament ràpid?\p"
+	.string "Que esplèndid! No calia que\n"
+	.string "t'afanyessis tant per veure'm!\p"
+	.string "Que encantador! Faré que\n"
+	.string "actualitzin el Tauler de Temps\l"
+	.string "a la recepció!$"
 
 TrainerHill_Roof_Text_YouWerentVeryQuick:
-	.string "But, oh…\n"
-	.string "You weren't very quick getting here.$"
+	.string "Però, oh…\n"
+	.string "No has estat gaire ràpid.$"
 
 TrainerHill_Roof_Text_ArriveZippierNextTime:
-	.string "Perhaps it would please me more if you\n"
-	.string "arrived zippier next time.\p"
-	.string "Then, I should be pleased to form\n"
-	.string "a tag team with you!\p"
-	.string "Until we meet again, amigo!$"
+	.string "Potser m'agradaria més si\n"
+	.string "arribessis més ràpid el pròxim\l"
+	.string "cop.\p"
+	.string "Aleshores, estaré encantat de\n"
+	.string "formar equip amb tu!\p"
+	.string "Fins que ens retrobem, amic!$"
 
 @ Unused
 TrainerHill_Roof_Text_BuiltTrainerHillToFindPartner:
-	.string "I had the Trainer Hill built for but\n"
-	.string "one reason and one only!\p"
-	.string "To find the most suitable partner\n"
-	.string "with whom I may form a tag team!$"
+	.string "Vaig fer construir el Turó dels\n"
+	.string "Entrenadors per una sola raó!\p"
+	.string "Per trobar el company més adequat\n"
+	.string "amb qui formar un equip!$"
 
 TrainerHill_Entrance_Text_ChallengeTime:
-	.string "{STR_VAR_1} min. {STR_VAR_2}.{STR_VAR_3} sec.$"
+	.string "{STR_VAR_1} min. {STR_VAR_2}.{STR_VAR_3} seg.$"
 
 TrainerHill_Entrance_Text_WhatSortOfTrainersAreAhead:
-	.string "Who knows what sort of Trainers\n"
-	.string "and Pokémon combos are ahead?\p"
-	.string "All I know is that I'll knock aside\n"
-	.string "anyone that stands in my way!$"
+	.string "Qui sap quina mena d'Entrenadors\n"
+	.string "i combinacions de Pokémon hi ha?\p"
+	.string "L'únic que sé és que atuiré\n"
+	.string "qualsevol que se'm posi al davant!$"
 
 TrainerHill_Entrance_Text_CantWaitToTestTheWaters:
-	.string "I heard tough Trainers come to this\n"
-	.string "Trainer Hill from all over.\p"
-	.string "I can't wait to test the waters!\p"
-	.string "I'll knock aside anyone that stands\n"
-	.string "in my way!$"
+	.string "He sentit que Entrenadors forts\n"
+	.string "vénen a aquest Turó d'arreu.\p"
+	.string "No puc esperar per provar sort!\p"
+	.string "Atuiré qualsevol que se'm posi\n"
+	.string "al davant!$"
 
 TrainerHill_Entrance_Text_FriendsTryingToReachTimeBoardTop:
-	.string "Do you see the Time Board over there?\p"
-	.string "My friends and I are trying to see who\n"
-	.string "can reach the top in the least time.$"
+	.string "Veus el Tauler de Temps d'allà?\p"
+	.string "Els meus amics i jo estem intentant\n"
+	.string "veure qui arriba al cim en menys\l"
+	.string "temps.$"
 
 TrainerHill_Entrance_Text_DoYouKnowWhenTheyOpen:
-	.string "Do you know when they're opening\n"
-	.string "this place up?\p"
-	.string "I'm waiting here to be the first\n"
-	.string "challenger ever!$"
+	.string "Saps quan obriran aquest lloc?\p"
+	.string "Estic esperant per ser el primer\n"
+	.string "aspirant de la història!$"
 
 TrainerHill_Elevator_Text_ReturnToReception:
-	.string "Would you like to return to\n"
-	.string "the reception counter?$"
+	.string "Vols tornar al taulell\n"
+	.string "de recepció?$"

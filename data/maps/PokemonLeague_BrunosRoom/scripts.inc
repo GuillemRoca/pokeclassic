@@ -113,41 +113,42 @@ PokemonLeague_BrunosRoom_EventScript_BrunoLookAwayDown::
 	return
 
 PokemonLeague_BrunosRoom_Text_Intro::
-    .string "I am Bruno of the Elite Four!\p"
-    .string "Through rigorous training, people\n"
-    .string "and Pokémon can become stronger\l"
-    .string "without limit.\p"
-    .string "I've lived and trained with my\n"
-    .string "fighting Pokémon!\l"
-    .string "And that will never change!\p"
+    .string "Soc en Bruno de l'Alt Comandament!\p"
+    .string "Amb un entrenament rigorós,\n"
+    .string "les persones i els Pokémon poden\l"
+    .string "fer-se més forts sense límit.\p"
+    .string "He viscut i entrenat amb els meus\n"
+    .string "Pokémon de lluita!\l"
+    .string "I això mai canviarà!\p"
     .string "{PLAYER}!\p"
-    .string "We will grind you down with our\n"
-    .string "superior power!\p"
-    .string "Hoo hah!$"
+    .string "T'aixafarem amb el nostre\n"
+    .string "poder superior!\p"
+    .string "Hu ha!$"
 
 PokemonLeague_BrunosRoom_Text_Intro2::
-    .string "I could feel the intensity of your\n"
-    .string "battle with Lorelei, even from here!\p" 
-    .string "Now it's time to show you the power\n" 
-    .string "of my Fighting-type Pokémon, who I've\l" 
-    .string "been training just as hard as you've\l" 
-    .string "trained your team, surely!\p" 
-    .string "Hoo hah! Hoo! HAH!!!$"
+    .string "He pogut sentir la intensitat del\n"
+    .string "teu combat amb la Lorelei des\l"
+    .string "d'aquí!\p"
+    .string "Ara és el moment de mostrar-te\n"
+    .string "el poder dels meus Pokémon de\l"
+    .string "tipus Lluita, que he entrenat\l"
+    .string "tan dur com tu el teu equip!\p"
+    .string "Hu ha! Hu! HA!!!$"
 
 PokemonLeague_BrunosRoom_Text_Defeat::
-    .string "Why?\n"
-    .string "How could I lose?$"
+    .string "Per què?\n"
+    .string "Com he pogut perdre?$"
 
 PokemonLeague_BrunosRoom_Text_Defeat2::
-    .string "I have regrets!$"
+    .string "Me'n penedeixo!$"
 
 PokemonLeague_BrunosRoom_Text_PostBattle::
-    .string "My job is done.\n"
-    .string "Go face your next challenge.$"
+    .string "La meva feina s'ha acabat.\n"
+    .string "Vés a afrontar el proper repte.$"
 
 PokemonLeague_BrunosRoom_Text_PostBattle2::
-    .string "Ugh! No! So my training is still\n" 
-    .string "lacking, is that it?\p"
-    .string "...Go.\p"
-    .string "Do not trouble yourself on my behalf.\n" 
-    .string "Continue to move forward!$"
+    .string "Ugh! No! Així que el meu\n"
+    .string "entrenament encara no és prou?\p"
+    .string "...Vés.\p"
+    .string "No et preocupis per mi.\n"
+    .string "Continua endavant!$"

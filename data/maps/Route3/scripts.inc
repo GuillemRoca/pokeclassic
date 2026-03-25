@@ -16,18 +16,18 @@ Route3_EventScript_Youngster::
 	end
 
 Route3_Text_TunnelFromCeruleanTiring::
-    .string "Whew… I better take a rest…\n"
-    .string "Groan…\p"
-    .string "That tunnel from Cerulean takes a\n"
-    .string "lot out of you!$"
+    .string "Buf… Millor que descansi…\n"
+    .string "Ai…\p"
+    .string "Aquell túnel des de Cerulean\n"
+    .string "et deixa fet pols!$"
 
 Route3_EventScript_RouteSign::
 	msgbox Route3_Text_RouteSign, MSGBOX_SIGN
 	end
 
 Route3_Text_RouteSign::
-    .string "Route 3\n"
-    .string "Mt. Moon Ahead$"
+    .string "Ruta 3\n"
+    .string "Mt. Moon al davant$"
 
 Route3_EventScript_Janice::
 	trainerbattle_single REMATCHABLE_TRAINER_LASS_JANICE_1, Route3_Text_JaniceIntro, Route3_Text_JaniceDefeat, Route3_EventScript_RegisterJaniceAfterBattle
@@ -38,15 +38,15 @@ Route3_EventScript_Janice::
 	end
 
 Route3_Text_JaniceIntro::
-    .string "Excuse me!\n"
-    .string "You looked at me, didn't you?$"
+    .string "Perdona!\n"
+    .string "M'has mirat, oi?$"
 
 Route3_Text_JaniceDefeat::
-    .string "You're mean!$"
+    .string "Ets dolent!$"
 
 Route3_Text_JanicePostBattle::
-    .string "You shouldn't be staring if you\n"
-    .string "don't want to battle!$"
+    .string "No hauríes de mirar si no vols\n"
+    .string "combatre!$"
 
 Route3_EventScript_RegisterJaniceAfterBattle::
 	special PlayerFaceTrainerAfterBattle
@@ -57,8 +57,8 @@ Route3_EventScript_RegisterJaniceAfterBattle::
 	end
 
 Route3_Text_JaniceRegister:
-	.string "I hate losing!\n"
-	.string "Let's have a rematch sometime.$"
+	.string "Odio perdre!\n"
+	.string "Fem la revenja algun dia.$"
 
 Route3_EventScript_JaniceRematch::
 	trainerbattle_rematch REMATCHABLE_TRAINER_LASS_JANICE_1, Route3_Text_JaniceRematchIntro, Route3_Text_JaniceDefeat
@@ -66,12 +66,12 @@ Route3_EventScript_JaniceRematch::
 	end
 
 Route3_Text_JaniceRematchIntro::
-	.string "Excuse me!\n"
-	.string "You keep looking at me, don't you?$"
+	.string "Perdona!\n"
+	.string "No pares de mirar-me, oi?$"
 
 Route3_Text_JaniceRematchPostBattle::
-	.string "I hate mean trainers like you!\n"
-	.string "I'll teach you a lesson one day!$"
+	.string "Odio els entrenadors dolents com tu!\n"
+	.string "Algun dia t'ensenyaré!$"
 
 
 Route3_EventScript_Colton::
@@ -80,15 +80,15 @@ Route3_EventScript_Colton::
 	end
 
 Route3_Text_ColtonIntro::
-    .string "Hey! You battled my friend back\n"
-    .string "in Viridian Forest!$"
+    .string "Ei! Has combatut el meu amic al\n"
+    .string "Bosc Viridian!$"
 
 Route3_Text_ColtonDefeat::
-    .string "You beat me, too!$"
+    .string "A mi també m'has guanyat!$"
 
 Route3_Text_ColtonPostBattle::
-    .string "There are other kinds of Pokémon\n"
-    .string "than the ones you find in forests.$"
+    .string "Hi ha altres tipus de Pokémon\n"
+    .string "a part dels que trobes als boscos.$"
 
 Route3_EventScript_Ben::
 	trainerbattle_single REMATCHABLE_TRAINER_YOUNGSTER_BEN_1, Route3_Text_BenIntro, Route3_Text_BenDefeat, Route3_EventScript_RegisterBenAfterBattle
@@ -99,18 +99,18 @@ Route3_EventScript_Ben::
 	end
 
 Route3_Text_BenIntro::
-    .string "Hi!\n"
-    .string "I like shorts!\p"
-    .string "They're delightfully comfy and\n"
-    .string "easy to wear!$"
+    .string "Hola!\n"
+    .string "M'agraden els pantalons curts!\p"
+    .string "Són deliciosament còmodes i\n"
+    .string "fàcils de portar!$"
 
 Route3_Text_BenDefeat::
-    .string "I don't believe it!$"
+    .string "No m'ho puc creure!$"
 
 Route3_Text_BenPostBattle::
-    .string "Are you using a Pokémon Center's\n"
-    .string "PC for storing your Pokémon?\p"
-    .string "Each Box can hold up to\n"
+    .string "Fas servir el PC del Centre\n"
+    .string "Pokémon per guardar Pokémon?\p"
+    .string "Cada Caixa pot contenir fins a\n"
     .string "30 Pokémon.$"
 
 Route3_EventScript_RegisterBenAfterBattle::
@@ -122,8 +122,8 @@ Route3_EventScript_RegisterBenAfterBattle::
 	end
 
 Route3_Text_BenRegister:
-	.string "You seem like a trainer that\n"
-	.string "gets me. Let's be friends!$"
+	.string "Sembles un entrenador que\n"
+	.string "m'entén. Siguem amics!$"
 
 Route3_EventScript_BenRematch::
 	trainerbattle_rematch REMATCHABLE_TRAINER_YOUNGSTER_BEN_1, Route3_Text_BenRematchIntro, Route3_Text_BenDefeat
@@ -131,12 +131,12 @@ Route3_EventScript_BenRematch::
 	end
 
 Route3_Text_BenRematchIntro::
-	.string "Yo!\n"
-	.string "Have tried wearing shorts yet?$"
+	.string "Ei!\n"
+	.string "Has provat de portar pantalons curts?$"
 
 Route3_Text_BenRematchPostBattle::
-	.string "You gotta try it!\n"
-	.string "It'll change your life!$"
+	.string "Has de provar-ho!\n"
+	.string "Et canviarà la vida!$"
 
 Route3_EventScript_Greg::
 	trainerbattle_single TRAINER_BUG_CATCHER_GREG, Route3_Text_GregIntro, Route3_Text_GregDefeat
@@ -144,16 +144,16 @@ Route3_EventScript_Greg::
 	end
 
 Route3_Text_GregIntro::
-    .string "Are you a trainer?\n"
-    .string "Let's get with it right away!$"
+    .string "Ets entrenador?\n"
+    .string "Comencem de seguida!$"
 
 Route3_Text_GregDefeat::
-    .string "If I had new Pokémon, I would've\n"
-    .string "won!$"
+    .string "Si tingués Pokémon nous, hauria\n"
+    .string "guanyat!$"
 
 Route3_Text_GregPostBattle::
-    .string "If a Pokémon BOX on the PC gets\n"
-    .string "full, just switch to another box.$"
+    .string "Si una Caixa al PC s'omple,\n"
+    .string "simplement canvia a una altra.$"
 
 Route3_EventScript_Calvin::
 	trainerbattle_single TRAINER_YOUNGSTER_CALVIN, Route3_Text_CalvinIntro, Route3_Text_CalvinDefeat
@@ -161,16 +161,17 @@ Route3_EventScript_Calvin::
 	end
 
 Route3_Text_CalvinIntro::
-    .string "Hey! You're not wearing shorts!\n"
-    .string "What's wrong with you?$"
+    .string "Ei! No portes pantalons curts!\n"
+    .string "Què et passa?$"
 
 Route3_Text_CalvinDefeat::
-    .string "Lost!\n"
-    .string "Lost! Lost!$"
+    .string "He perdut!\n"
+    .string "Perdut! Perdut!$"
 
 Route3_Text_CalvinPostBattle::
-    .string "I always wear shorts, even in\n"
-    .string "winter. That's my policy.$"
+    .string "Sempre porto pantalons curts,\n"
+    .string "fins i tot a l'hivern. És la\l"
+    .string "meva filosofia.$"
 
 Route3_EventScript_Sally::
 	trainerbattle_single TRAINER_LASS_SALLY, Route3_Text_SallyIntro, Route3_Text_SallyDefeat
@@ -178,15 +179,15 @@ Route3_EventScript_Sally::
 	end
 
 Route3_Text_SallyIntro::
-    .string "That look you gave me…\n"
-    .string "It's so intriguing!$"
+    .string "Aquella mirada que m'has fet…\n"
+    .string "Què intrigant!$"
 
 Route3_Text_SallyDefeat::
-    .string "Be nice!$"
+    .string "Sigues amable!$"
 
 Route3_Text_SallyPostBattle::
-    .string "You can avoid battles by not\n"
-    .string "letting trainers see you.$"
+    .string "Pots evitar combats si no deixes\n"
+    .string "que els entrenadors et vegin.$"
 
 Route3_EventScript_James::
 	trainerbattle_single TRAINER_BUG_CATCHER_JAMES, Route3_Text_JamesIntro, Route3_Text_JamesDefeat
@@ -194,15 +195,15 @@ Route3_EventScript_James::
 	end
 
 Route3_Text_JamesIntro::
-    .string "I'll battle you with the Pokémon\n"
-    .string "I just caught.$"
+    .string "Combatré amb els Pokémon que\n"
+    .string "acabo d'atrapar.$"
 
 Route3_Text_JamesDefeat::
-    .string "Done like dinner!$"
+    .string "Destrossat!$"
 
 Route3_Text_JamesPostBattle::
-    .string "Trained Pokémon are stronger than\n"
-    .string "the wild ones.$"
+    .string "Els Pokémon entrenats són més\n"
+    .string "forts que els salvatges.$"
 
 Route3_EventScript_Robin::
 	trainerbattle_single TRAINER_LASS_ROBIN, Route3_Text_RobinIntro, Route3_Text_RobinDefeat
@@ -210,12 +211,12 @@ Route3_EventScript_Robin::
 	end
 
 Route3_Text_RobinIntro::
-    .string "Eek!\n"
-    .string "Did you touch me?$"
+    .string "Iii!\n"
+    .string "M'has tocat?$"
 
 Route3_Text_RobinDefeat::
-    .string "That's it?$"
+    .string "Ja està?$"
 
 Route3_Text_RobinPostBattle::
-    .string "Route 4 is at the foot of\n"
+    .string "La Ruta 4 és al peu de\n"
     .string "Mt. Moon.$"

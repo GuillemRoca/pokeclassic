@@ -14,20 +14,20 @@ CinnabarIsland_PokemonLab_ResearchRoom_EventScript_AmberPipe::
 	end
 
 CinnabarIsland_PokemonLab_ResearchRoom_Text_EeveeCanEvolveIntroThreeMons::
-    .string "Eevee can evolve into one of three\n"
-    .string "kinds of Pokémon.$"
+    .string "Eevee pot evolucionar en un de\n"
+    .string "tres tipus de Pokémon.$"
 
 CinnabarIsland_PokemonLab_ResearchRoom_Text_LegendaryBirdEmail::
-    .string "There's an e-mail message.\p"
+    .string "Hi ha un missatge de correu.\p"
     .string "… … …\p"
-    .string "There are three legendary bird\n"
-    .string "Pokémon.\p"
-    .string "They are Articuno, Zapdos, and\n"
+    .string "Hi ha tres Pokémon ocells\n"
+    .string "llegendaris.\p"
+    .string "Són Articuno, Zapdos i\n"
     .string "Moltres.\p"
-    .string "Their whereabouts are unknown.\p"
-    .string "We plan to explore the cavern\n"
-    .string "close to Cerulean.\p"
-    .string "From: Pokémon Research Team…$"
+    .string "El seu parador és desconegut.\p"
+    .string "Planem explorar la caverna\n"
+    .string "prop de Cerulean.\p"
+    .string "De: Equip de Recerca Pokémon…$"
 
 CinnabarIsland_PokemonLab_ResearchRoom_Text_AnAmberPipe::
-    .string "An amber pipe!$"
+    .string "Una pipa d'ambre!$"

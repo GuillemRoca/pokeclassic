@@ -8,10 +8,10 @@ SSAnne_2F_Corridor_EventScript_Sailor::
 	end
 
 SSAnne_2F_Corridor_Text_ThisShipIsLuxuryLiner::
-    .string "This ship, she is a luxury liner for\n"
-    .string "trainers of the world!\p"
-    .string "At every port, we hold parties with\n"
-    .string "invited trainers.$"
+    .string "Aquest vaixell és un transatlàntic\n"
+    .string "de luxe per a entrenadors!\p"
+    .string "A cada port, fem festes amb\n"
+    .string "entrenadors convidats.$"
 
 SSAnne_2F_Corridor_EventScript_RivalTriggerLeft::
 	lockall
@@ -64,27 +64,27 @@ SSAnne_2F_Corridor_EventScript_RivalTrigger::
 SSAnne_2F_Corridor_Text_RivalIntro::
     .string "{RIVAL}: Bonjour!\n"
     .string "{PLAYER}!\p"
-    .string "Imagine seeing you here!\n"
-    .string "{PLAYER}, were you really invited?\p"
-    .string "So how's your Pokédex coming?\p"
-    .string "I already caught 40 kinds, pal.\n"
-    .string "Different kinds are everywhere.\p"
-    .string "Crawl around in grassy areas, and\n"
-    .string "look hard for them.$"
+    .string "No m'esperava trobar-te aquí!\n"
+    .string "{PLAYER}, t'han convidat de veritat?\p"
+    .string "Com va la teva Pokédex?\p"
+    .string "Jo ja n'he capturat 40 tipus, amic.\n"
+    .string "N'hi ha de diferents a tot arreu.\p"
+    .string "Arrossega't per zones d'herba\n"
+    .string "i busca'ls bé.$"
 
 SSAnne_2F_Corridor_Text_RivalDefeat::
-    .string "Humph!\p"
-    .string "At least you're raising your\n"
-    .string "Pokémon!$"
+    .string "Bah!\p"
+    .string "Almenys estàs criant bé els\n"
+    .string "teus Pokémon!$"
 
 SSAnne_2F_Corridor_Text_RivalPostBattle::
-    .string "{RIVAL}: I heard there was a cut\n"
-    .string "master on board.\p"
-    .string "But he was just a seasick old man!\p"
-    .string "Cut itself is really useful.\n"
-    .string "Yup, it'll be handy.\p"
-    .string "You should go see him, too.\n"
-    .string "Smell ya!$"
+    .string "{RIVAL}: He sentit que hi ha un\n"
+    .string "mestre del tall a bord.\p"
+    .string "Però només era un vell marejat!\p"
+    .string "Tall en si és molt útil.\n"
+    .string "Sí, serà molt pràctic.\p"
+    .string "Hauries d'anar a veure'l també.\n"
+    .string "Ens veiem!$"
 
 SSAnne_2F_Corridor_EventScript_RivalApproachLeft::
 	applymovement LOCALID_RIVAL, SSAnne_2F_Corridor_Movement_RivalApproachLeft

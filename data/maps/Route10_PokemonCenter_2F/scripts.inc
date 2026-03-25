@@ -9,4 +9,5 @@ Route10_PokemonCenter_2F_Hiker::
 	end
 
 Route10_PokemonCenter_2F_Darkness::
-	.string "Rock Tunnel is too dark to get through!$"
+	.string "El Túnel Roca és massa fosc per\n"
+	.string "travessar-lo!$"

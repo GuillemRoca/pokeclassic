@@ -71,7 +71,7 @@ SSAnne_Exterior_EventScript_Sailor::
 	end
 
 SSAnne_Exterior_Text_MissedTheBoat::
-	.string "Oh no! I missed the boat!$"
+	.string "Oh no! He perdut el vaixell!$"
 
 SSAnne_Exterior_EventScript_MewUnderTruck::
 	goto_if_set FLAG_CHECKED_UNDER_TRUCK, SSAnne_Exterior_EventScript_MewNotUnderTruck
@@ -121,7 +121,7 @@ SSAnne_Exterior_EventScript_MewNotUnderTruck::
 	end
 
 SSAnne_Exterior_Text_MewNotUnderTruck::
-	.string "There's nothing there...$"
+	.string "No hi ha res aquí...$"
 
 SSAnneExterior_RocketFugitive::
     trainerbattle_single TRAINER_FUGITIVE_F, RocketFugitive_Text_Intro, RocketFugitive_Text_Defeat

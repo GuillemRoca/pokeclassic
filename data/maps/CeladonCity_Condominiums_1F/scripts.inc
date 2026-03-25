@@ -16,14 +16,14 @@ CeladonCity_Condominiums_1F_EventScript_TeaWoman::
 	end
 
 CeladonCity_Condominiums_1F_Text_TryThisDrinkInstead::
-    .string "You shouldn't spend all your money\n"
-    .string "on drinks.\p"
-    .string "Try this instead.$"
+    .string "No t'hauries de gastar tots els\n"
+    .string "diners en begudes.\p"
+    .string "Prova això.$"
 
 CeladonCity_Condominiums_1F_Text_NothingBeatsThirstLikeTea::
-    .string "Nothing beats thirst like some hot\n"
-    .string "Tea.\p"
-    .string "It really is the best.$"
+    .string "Res no mata la set com un bon\n"
+    .string "Te calent.\p"
+    .string "Realment és el millor.$"
 
 CeladonCity_Condominiums_1F_EventScript_TeaWomanAfterTea::
 	msgbox CeladonCity_Condominiums_1F_Text_MyDearMonsKeepMeCompany
@@ -31,8 +31,9 @@ CeladonCity_Condominiums_1F_EventScript_TeaWomanAfterTea::
 	end
 
 CeladonCity_Condominiums_1F_Text_MyDearMonsKeepMeCompany::
-    .string "My dear Pokémon keep me company.\n"
-    .string "Meowth even brings money home!$"
+    .string "Els meus estimats Pokémon em fan\n"
+    .string "companyia. Meowth fins i tot\l"
+    .string "porta diners a casa!$"
 
 CeladonCity_Condominiums_1F_EventScript_TeaWomanMentionDaisy::
 	setflag FLAG_TALKED_TO_TEA_LADY_POSTGAME
@@ -56,17 +57,17 @@ CeladonCity_Condominiums_1F_EventScript_GetDailyTea::
 	return
 
 CeladonCity_Condominiums_1F_Text_TakeThisDear::
-	.string "Come for some Tea, dear?"
+	.string "Vols una mica de Te, bonica?"
 
 CeladonCity_Condominiums_1F_Text_DaisyComesToBuyTea::
-    .string "Oh, hello, dearie.\n"
-    .string "Did you enjoy my Tea?\p"
-    .string "By the way, dear. Are you, by any\n"
-    .string "chance, from Pallet Town?\p"
-    .string "A girl from Pallet Town, Daisy,\n"
-    .string "she enjoys my Tea every day.\p"
-    .string "If you ever want some tea,\n"
-    .string "just come visit me.$"
+    .string "Oh, hola, bonica.\n"
+    .string "T'ha agradat el meu Te?\p"
+    .string "Per cert, bonica. Ets, per\n"
+    .string "casualitat, de Poble Paleta?\p"
+    .string "Una noia de Poble Paleta, Daisy,\n"
+    .string "gaudeix del meu Te cada dia.\p"
+    .string "Si mai vols una mica de te,\n"
+    .string "vine a visitar-me.$"
 
 CeladonCity_Condominiums_1F_EventScript_Meowth::
 	lock
@@ -79,7 +80,7 @@ CeladonCity_Condominiums_1F_EventScript_Meowth::
 	end
 
 CeladonCity_Condominiums_1F_Text_Meowth::
-    .string "Meowth: Meow!$"
+    .string "Meowth: Miau!$"
 
 CeladonCity_Condominiums_1F_EventScript_Clefairy::
 	lock
@@ -112,5 +113,5 @@ CeladonCity_Condominiums_1F_EventScript_SuiteSign::
 	end
 
 CeladonCity_Condominiums_1F_Text_ManagersSuite::
-    .string "Celadon Mansion\n"
-    .string "Manager's Suite$"
+    .string "Mansió Celadon\n"
+    .string "Suite del Director$"

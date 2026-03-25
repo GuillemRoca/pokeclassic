@@ -7,18 +7,18 @@ SSAnne_B1F_Room1_EventScript_Barny::
 	end
 
 SSAnne_B1F_Room1_Text_BarnyIntro::
-    .string "Hello, stranger!\p"
-    .string "I can't tell if you're from the seas\n"
-    .string "or mountains, but stop and chat.\p"
-    .string "All my Pokémon are from the sea.$"
+    .string "Hola, foraster!\p"
+    .string "No sé si ets de mar o de\n"
+    .string "muntanya, però para i xerra.\p"
+    .string "Tots els meus Pokémon són del mar.$"
 
 SSAnne_B1F_Room1_Text_BarnyDefeat::
-    .string "Darn!\n"
-    .string "I let that one get away!$"
+    .string "Llamp!\n"
+    .string "Se m'ha escapat!$"
 
 SSAnne_B1F_Room1_Text_BarnyPostBattle::
-    .string "I was going to make you my\n"
-    .string "assistant, too!$"
+    .string "Anava a fer-te el meu\n"
+    .string "ajudant, també!$"
 
 SSAnne_B1F_Room1_EventScript_Phillip::
 	trainerbattle_single TRAINER_SAILOR_PHILLIP, SSAnne_B1F_Room1_Text_PhillipIntro, SSAnne_B1F_Room1_Text_PhillipDefeat
@@ -26,13 +26,13 @@ SSAnne_B1F_Room1_EventScript_Phillip::
 	end
 
 SSAnne_B1F_Room1_Text_PhillipIntro::
-    .string "Matey, you're walking the plank if\n"
-    .string "you lose!$"
+    .string "Mariner, caminaràs pel tauló\n"
+    .string "si perds!$"
 
 SSAnne_B1F_Room1_Text_PhillipDefeat::
     .string "Argh!\n"
-    .string "Beaten by a kid!$"
+    .string "Derrotat per un nen!$"
 
 SSAnne_B1F_Room1_Text_PhillipPostBattle::
-    .string "When we're out at sea, jellyfish\n"
-    .string "Pokémon sometimes drift by.$"
+    .string "Quan som a alta mar, de vegades\n"
+    .string "passen meduses Pokémon.$"

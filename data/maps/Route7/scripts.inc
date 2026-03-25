@@ -18,7 +18,7 @@ Route7_EventScript_UndergroundPathSign::
 	end
 
 Route7_Text_UndergroundPathSign::
-    .string "Underground Path\n"
+    .string "Camí Subterrani\n"
     .string "Celadon City - Lavender Town$"
 
 Route7_RocketFugitive::

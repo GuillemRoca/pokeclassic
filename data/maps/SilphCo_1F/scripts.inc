@@ -10,13 +10,13 @@ SilphCo_1F_EventScript_FloorSign::
 	end
 
 SilphCo_1F_Text_WelcomePresidentInBoardroom::
-    .string "Welcome.\p"
-    .string "The President is in the boardroom\n"
-    .string "on 11F.$"
+    .string "Benvingut.\p"
+    .string "El President és a la sala de\n"
+    .string "juntes al pis 11.$"
 
 SilphCo_1F_Text_FloorSign::
-    .string "Silph Co. Head Office\n"
-    .string "1F$"
+    .string "Seu Central de Silph S.A.\n"
+    .string "1r pis$"
 
 
 SilphCo_1F_EventScript_PostgameGrunt1::
@@ -25,14 +25,14 @@ SilphCo_1F_EventScript_PostgameGrunt1::
 	end
 
 SilphCo_1F_Text_PostgameGrunt1Intro::
-    .string "Team Rocket is back, baby!$"
+    .string "L'Equip Rocket ha tornat, nen!$"
 
 SilphCo_1F_Text_PostgameGrunt1Defeat::
-    .string "Cut down in my prime!$"
+    .string "Abatut en plena joventut!$"
 
 SilphCo_1F_Text_PostgameGrunt1PostBattle::
-    .string "We're here to finish what\n"
-    .string "Giovanni started.$"
+    .string "Som aquí per acabar el que\n"
+    .string "Giovanni va començar.$"
 
 SilphCo_1F_EventScript_PostgameGrunt2::
 	trainerbattle_single TRAINER_POSTGAME_ROCKET_2, SilphCo_1F_Text_PostgameGrunt2Intro, SilphCo_1F_Text_PostgameGrunt2Defeat
@@ -40,16 +40,16 @@ SilphCo_1F_EventScript_PostgameGrunt2::
 	end
 
 SilphCo_1F_Text_PostgameGrunt2Intro::
-    .string "Unlike some of us, we didn't\n"
-    .string "cut and run when Giovanni\l"
-    .string "was defeatd in Viridian.$"
+    .string "A diferència d'alguns, nosaltres\n"
+    .string "no vam fugir quan Giovanni va\l"
+    .string "ser derrotat a Viridian.$"
 
 SilphCo_1F_Text_PostgameGrunt2Defeat::
-    .string "Maybe I shoudl quit...$"
+    .string "Potser hauria de plegar...$"
 
 SilphCo_1F_Text_PostgameGrunt2PostBattle::
-    .string "I'll never give up!\n"
-    .string "Team Rocket forever!$"
+    .string "Mai em rendiré!\n"
+    .string "Equip Rocket per sempre!$"
 
 SilphCo_1F_EventScript_PostgameGrunt3::
 	trainerbattle_single TRAINER_POSTGAME_ROCKET_3, SilphCo_1F_Text_PostgameGrunt3Intro, SilphCo_1F_Text_PostgameGrunt3Defeat
@@ -57,13 +57,14 @@ SilphCo_1F_EventScript_PostgameGrunt3::
 	end
 
 SilphCo_1F_Text_PostgameGrunt3Intro::
-    .string "Gimme all your money!$"
+    .string "Dona'm tots els diners!$"
 
 SilphCo_1F_Text_PostgameGrunt3Defeat::
-    .string "We're broke!$"
+    .string "Estem pelats!$"
 
 SilphCo_1F_Text_PostgameGrunt3PostBattle::
-    .string "The new boss doesn't want to\n"
-    .string "admit it, but Team Rocket is\l"
-    .string "running on fumes.\p"
-    .string "We need this job to succeed!$"
+    .string "El nou cap no ho vol admetre,\n"
+    .string "però l'Equip Rocket funciona\l"
+    .string "amb les últimes reserves.\p"
+    .string "Necessitem que aquest cop surti\n"
+    .string "bé!$"
