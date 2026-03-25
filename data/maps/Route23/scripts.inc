@@ -22,8 +22,8 @@ Route23_EventScript_VictoryRoadGateSign::
 	end
 
 Route23_Text_VictoryRoadGateSign::
-    .string "Victory Road Gate -\n"
-    .string "Pokémon League$"
+    .string "Porta del Camí de la Victòria -\n"
+    .string "Lliga Pokémon$"
 
 Route23_EventScript_ItemTM10::
 	finditem ITEM_TM10, 1

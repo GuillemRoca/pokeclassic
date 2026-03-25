@@ -56,30 +56,31 @@ RocketHideout_B4F_EventScript_Giovanni::
 	end
 
 RocketHideout_B4F_Text_GiovanniIntro::
-    .string "???: Vaja! He de dir que estic\n"
-    .string "impressionat que hagis arribat.\p"
+    .string "???: Bé! He de dir que estic\n"
+    .string "impressionat que hagis arribat\l"
+    .string "aquí.\p"
     .string "L'Equip Rocket captura Pokémon\n"
     .string "d'arreu del món.\p"
     .string "Són eines importants per mantenir\n"
     .string "la nostra empresa criminal.\p"
-    .string "Sóc el líder, Giovanni!\p"
-    .string "Per la teva insolència, patiràs\n"
+    .string "Soc el líder, Giovanni!\p"
+    .string "Per la teva insolència, sentiràs\n"
     .string "un món de dolor!$"
 
 RocketHideout_B4F_Text_GiovanniDefeat::
     .string "Què!\n"
-    .string "No pot ser!$"
+    .string "Això no pot ser!$"
 
 RocketHideout_B4F_Text_GiovanniPostBattle::
     .string "Giovanni: Veig que cries els teus\n"
     .string "Pokémon amb molta cura.\p"
-    .string "Un nen com tu mai entendria\n"
-    .string "el que espero aconseguir.\p"
-    .string "Em faré a un costat aquest cop,\n"
-    .string "i alliberaré aquest Cubone.$"
+    .string "Un nen com tu mai entendria el\n"
+    .string "que espero aconseguir.\p"
+    .string "Em faré enrere aquest cop, i\n"
+    .string "alliberaré aquest Cubone.$"
 
 RocketHideout_B4F_Text_MeetAgain::
-    .string "Espero que ens tornem a veure…$"
+    .string "Espero que ens tornem a trobar…$"
 
 RocketHideout_B4F_EventScript_Grunt1::
 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_18, RocketHideout_B4F_Text_Grunt1Intro, RocketHideout_B4F_Text_Grunt1Defeat, RocketHideout_B4F_EventScript_DefeatedGrunt1
@@ -103,7 +104,8 @@ RocketHideout_B4F_EventScript_DefeatedGrunt1::
 
 RocketHideout_B4F_Text_Grunt1PostBattle::
     .string "Oh, no!\n"
-    .string "He deixat caure la Clau!$"
+    .string "Se m'ha caigut la Clau de\l"
+    .string "l'Ascensor!$"
 
 RocketHideout_B4F_EventScript_LiftKey::
 	lock
@@ -123,11 +125,10 @@ RocketHideout_B4F_EventScript_Grunt2::
 
 RocketHideout_B4F_Text_Grunt2Intro::
     .string "Et conec!\n"
-    .string "Vas arruïnar els nostres plans\l"
-    .string "al Mt. Moon!$"
+    .string "Vas arruïnar els plans al Mt. Moon!$"
 
 RocketHideout_B4F_Text_Grunt2Defeat::
-    .string "Cremat un altre cop!$"
+    .string "Un altre cop cremat!$"
 
 RocketHideout_B4F_Text_Grunt2PostBattle::
     .string "Tens alguna cosa contra l'Equip\n"
@@ -157,10 +158,10 @@ RocketHideout_B4F_Text_Grunt3Intro::
 
 RocketHideout_B4F_Text_Grunt3Defeat::
     .string "Cap!\n"
-    .string "Perdona per haver fallat!$"
+    .string "Perdoni, t'he fallat!$"
 
 RocketHideout_B4F_Text_Grunt3PostBattle::
-    .string "Potser m'has vençut, però\n"
+    .string "Potser m'has derrotat, però\n"
     .string "en vindran més!$"
 
 RocketHideout_B4F_EventScript_DefeatedGrunt3::
@@ -180,9 +181,8 @@ RocketHideout_B4F_EventScript_Jessie::
 	end
 
 RocketHideout_B4F_Text_JessieIntro::
-	.string "Jessie: Ets aquell marrec que\n"
-	.string "no para d'interrompre els\l"
-	.string "nostres plans!$"
+	.string "Jessie: Ets aquell marrec que no\n"
+	.string "para d'interrompre els plans!$"
 
 RocketHideout_B4F_Text_JessieDefeat::
 	.string "Jessie: No! No! No!$"
@@ -190,7 +190,7 @@ RocketHideout_B4F_Text_JessieDefeat::
 RocketHideout_B4F_Text_JessiePostBattle::
 	.string "Jessie: Potser m'has derrotat\n"
 	.string "un altre cop, però el Cap\l"
-	.string "t'acabarà d'una vegada.$"
+	.string "s'encarregarà de tu per sempre.$"
 
 RocketHideout_B4F_EventScript_James::
 	trainerbattle_single TRAINER_ROCKET_HIDEOUT_JAMES, RocketHideout_B4F_Text_JamesIntro, RocketHideout_B4F_Text_JamesDefeat
@@ -198,17 +198,17 @@ RocketHideout_B4F_EventScript_James::
 	end
 
 RocketHideout_B4F_Text_JamesIntro::
-	.string "James: Estàs començant a treure\n"
-	.string "la gràcia de tot això.$"
+	.string "James: Comences a treure la gràcia\n"
+	.string "a tot això.$"
 
 RocketHideout_B4F_Text_JamesDefeat::
 	.string "James: Això realment comença\n"
 	.string "a afectar-me!$"
 
 RocketHideout_B4F_Text_JamesPostBattle::
-	.string "James: Per si val de res, ho\n"
-	.string "sento pel que va passar amb\l"
-	.string "la mare d'aquell Cubone...$"
+	.string "James: Per cert, sento molt\n"
+	.string "el que li va passar a la mare\l"
+	.string "d'aquell Cubone...$"
 
 RocketHideout_B4F_EventScript_DrawMapForBarrierRemoval::
 	playse SE_UNLOCK

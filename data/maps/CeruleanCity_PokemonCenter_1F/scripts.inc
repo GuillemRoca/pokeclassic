@@ -22,8 +22,8 @@ CeruleanCity_PokemonCenter_1F_EventScript_Gentleman::
 
 CeruleanCity_PokemonCenter_1F_Text_EveryoneCallsBillPokemaniac::
     .string "Has sentit parlar d'en Bill?\p"
-    .string "Tothom l'anomena PokéManíac!\p"
-    .string "Crec que la gent està gelosa\n"
+    .string "Tothom li diu PokèManíac!\p"
+    .string "Crec que la gent té enveja\n"
     .string "d'en Bill, però.\p"
     .string "Qui no voldria presumir dels\n"
     .string "seus Pokémon?$"
@@ -34,7 +34,7 @@ CeruleanCity_PokemonCenter_1F_EventScript_MetBill:
 	end
 
 CeruleanCity_PokemonCenter_1F_Text_BillNumber::
-	.string "Oh, has conegut en Bill?\n"
+	.string "Oh, has conegut en Bill!\n"
 	.string "I fins i tot t'ha donat el\l"
 	.string "seu número de mòbil!\p"
 	.string "Uau, és molt accessible!$"
@@ -45,11 +45,11 @@ CeruleanCity_PokemonCenter_1F_EventScript_Rocker::
 	end
 
 CeruleanCity_PokemonCenter_1F_Text_BillDoesWhateverForRareMons::
-    .string "Aquest Bill!\p"
+    .string "En Bill!\p"
     .string "He sentit que fa el que sigui\n"
     .string "per aconseguir Pokémon rars.\p"
-    .string "No es talla de fer tota mena\n"
-    .string "de coses, m'han dit.$"
+    .string "Diuen que és capaç de fer\n"
+    .string "de tot.$"
 
 CeruleanCity_PokemonCenter_1F_EventScript_IsItTrueAboutBill::
 	msgbox CeruleanCity_PokemonCenter_1F_Text_IsItTrue, MSGBOX_NPC
@@ -59,7 +59,7 @@ CeruleanCity_PokemonCenter_1F_EventScript_IsItTrueAboutBill::
 CeruleanCity_PokemonCenter_1F_Text_IsItTrue::
 	.string "Oh, has conegut en Bill?\p"
 	.string "És veritat el que diuen?\n"
-	.string "Farà qualsevol cosa per\l"
+	.string "Faria qualsevol cosa per\l"
 	.string "aconseguir Pokémon rars?$"
 
 
@@ -77,13 +77,13 @@ CeruleanCity_PokemonCenter_1F_EventScript_Lass::
 	end
 
 CeruleanCity_PokemonCenter_1F_Text_TryTradingUpstairs::
-    .string "Abans, pujàvem al pis de dalt\n"
-    .string "i intercanviàvem Pokémon amb\l"
+    .string "Abans pujàvem al pis de dalt\n"
+    .string "per intercanviar Pokémon amb\l"
     .string "els amics.\p"
     .string "Podies aconseguir molta més\n"
     .string "varietat intercanviant.\p"
-    .string "Però sembla que ja ningú\n"
-    .string "intercanvia POKéMON avui dia.$"
+    .string "Però avui dia ningú sembla\n"
+    .string "intercanviar Pokémon.$"
 
 CeruleanCity_PokemonCenter_1F_EventScript_PokemonJournalMisty::
 	msgbox PokemonJournal_Text_SpecialFeatureMisty, MSGBOX_SIGN
@@ -92,7 +92,7 @@ CeruleanCity_PokemonCenter_1F_EventScript_PokemonJournalMisty::
 
 PokemonJournal_Text_SpecialFeatureMisty::
 	.string "Diari Pokémon:\p"
-	.string "Reportatge: Líder del Gimnàs\n"
-	.string "de Cerulean, Misty!\p"
-	.string "Es diu que la Misty venera la\n"
-	.string "Lorelei de l'Alt Comandament.$"
+	.string "Reportatge: Misty, Líder del\n"
+	.string "Gimnàs de Cerulean!\p"
+	.string "Diuen que la Misty idolatra\n"
+	.string "la Lorelei de l'Alt Comandament.$"

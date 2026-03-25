@@ -1519,54 +1519,57 @@ ContestHall_Text_GettingStartedParticipantsAsFollowsLink:
 	.string "seus Pokémon són els següents:$"
 
 ContestHall_Text_EntryXTrainersMon:
-	.string "MC: Entry No. {STR_VAR_2}!\n"
-	.string "{STR_VAR_1}'s {STR_VAR_3}!$"
+	.string "Presentador: Inscripció Núm.\n"
+	.string "{STR_VAR_2}! {STR_VAR_3} de\l"
+	.string "{STR_VAR_1}!$"
 
 ContestHall_Text_SeenContestantsAudienceWillVote:
-	.string "MC: We've just seen the four Pokémon\n"
-	.string "contestants.\p"
-	.string "Now it's time for primary judging!\p"
-	.string "The audience will vote on their\n"
-	.string "favorite Pokémon contestants.\p"
-	.string "Without any further ado, let the\n"
-	.string "voting begin!$"
+	.string "Presentador: Acabem de veure els\n"
+	.string "quatre concursants Pokémon.\p"
+	.string "Ara és l'hora del judici primari!\p"
+	.string "El públic votarà els seus\n"
+	.string "concursants Pokémon preferits.\p"
+	.string "Sense més preàmbuls, que comenci\n"
+	.string "la votació!$"
 
 ContestHall_Text_VotingUnderWay:
-	.string "Voting under way…$"
+	.string "Votació en curs…$"
 
 ContestHall_Text_VotingCompleteLetsAppeal:
-	.string "Voting is now complete!\p"
-	.string "While the votes are being tallied,\n"
-	.string "let's move on to secondary judging!\p"
-	.string "The second stage of judging is the\n"
-	.string "much anticipated appeal time!\p"
-	.string "May the contestants amaze us with\n"
-	.string "superb appeals of dazzling moves!\p"
-	.string "Let's see a little enthusiasm!\n"
-	.string "Let's appeal!$"
+	.string "La votació ha acabat!\p"
+	.string "Mentre es compten els vots,\n"
+	.string "passem al judici secundari!\p"
+	.string "La segona fase del judici és el\n"
+	.string "tan esperat moment d'exhibició!\p"
+	.string "Que els concursants ens sorprenguin\n"
+	.string "amb exhibicions de moviments\l"
+	.string "enlluernadors!\p"
+	.string "Anem a veure una mica d'entusiasme!\n"
+	.string "Comencen les exhibicions!$"
 
 ContestHall_Text_ThatsItForJudging:
-	.string "MC: That's it for judging!$"
+	.string "Presentador: Això és tot pel judici!$"
 
 ContestHall_Text_ThankYouForAppeals:
-	.string "Thank you all for a most wonderful\n"
-	.string "display of quality appeals!\p"
-	.string "This concludes all judging!\n"
-	.string "Thank you for your fine efforts!$"
+	.string "Gràcies a tots per una meravellosa\n"
+	.string "exhibició d'exhibicions de qualitat!\p"
+	.string "Això conclou tot el judici!\n"
+	.string "Gràcies pels vostres esforços!$"
 
 ContestHall_Text_JudgeLooksReady:
-	.string "Now, all that remains is the pulse-\n"
-	.string "pounding proclamation of the winner.\p"
-	.string "The Judge looks ready to make\n"
-	.string "the announcement!$"
+	.string "Ara, només queda la trepidant\n"
+	.string "proclamació del guanyador.\p"
+	.string "El Jurat sembla a punt de fer\n"
+	.string "l'anunci!$"
 
 ContestHall_Text_WeWillNowDeclareWinner:
-	.string "Judge: We will now declare the winner!$"
+	.string "Jurat: Ara declararem el guanyador!$"
 
 ContestHall_Text_CongratsTrainerXandMon:
-	.string "MC: Entry No. {STR_VAR_2}!\p"
-	.string "{STR_VAR_3} and {STR_VAR_1},\n"
-	.string "congratulations!$"
+	.string "Presentador: Inscripció Núm.\n"
+	.string "{STR_VAR_2}!\p"
+	.string "{STR_VAR_3} i {STR_VAR_1},\n"
+	.string "felicitats!$"
 
 ContestHall_Text_CongratsPleaseCompeteAgain:
 	.string "MC: Congratulations!\n"

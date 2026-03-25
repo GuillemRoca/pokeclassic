@@ -8,16 +8,15 @@ RocketHideout_B2F_EventScript_Grunt::
 
 RocketHideout_B2F_Text_GruntIntro::
     .string "Sí, vam matar la mare d'aquell\n"
-    .string "Cubone. Què et fa, nen?$"
+    .string "Cubone. Què et sembla, nen?$"
 
 RocketHideout_B2F_Text_GruntDefeat::
     .string "Em rendeixo!$"
 
 RocketHideout_B2F_Text_GruntPostBattle::
-    .string "El QG de l'Equip Rocket té\n"
+    .string "La base de l'Equip Rocket té\n"
     .string "quatre pisos subterranis.\p"
-    .string "Creus que podràs arribar\n"
-    .string "fins al Cap?$"
+    .string "Creus que pots arribar al Cap?$"
 
 RocketHideout_B2F_EventScript_ItemXSpeed::
     finditem ITEM_X_SPEED, 1

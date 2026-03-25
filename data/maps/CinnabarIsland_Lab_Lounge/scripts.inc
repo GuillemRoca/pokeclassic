@@ -6,8 +6,8 @@ CinnabarIsland_PokemonLab_Lounge_EventScript_Scientist::
 	end
 
 CinnabarIsland_PokemonLab_Lounge_Text_FoundFossilInMtMoon::
-    .string "He trobat un fòssil molt notable\n"
-    .string "dins del Mt. Moon.\p"
+    .string "He trobat un fòssil increïble\n"
+    .string "dins del Mont Moon.\p"
     .string "Crec que és d'un Pokémon\n"
     .string "prehistòric rar.$"
 
@@ -72,7 +72,7 @@ CinnabarIsland_PokemonLab_Lounge_EventScript_AlreadyTraded::
 	end
 
 CinnabarIsland_PokemonLab_Lounge_Text_IsntMyOldMonGreat::
-	.string "Com està el meu antic {STR_VAR_2}?\n"
+	.string "Com està el meu {STR_VAR_2}?\n"
 	.string "El meu {STR_VAR_1} va genial!$"
 
 CinnabarIsland_PokemonLab_Lounge_EventScript_Norma::

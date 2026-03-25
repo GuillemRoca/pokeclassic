@@ -31,15 +31,13 @@ CeruleanCity_House1_EventScript_GetDailyBerry::
 	goto CeruleanCity_House1_EventScript_GrowAVariety
 	end
 
-
 CeruleanCity_House1_Text_PokemonLoveBerries::
-	.string "Als Pokémon els encanten les\n"
-	.string "baies!\p"
-	.string "Alimentar els teus Pokémon és\n"
-	.string "una bona manera d'enfortir\l"
-	.string "el vostre vincle.\p"
-	.string "Tingues, comprova-ho tu\n"
-	.string "mateix!$"
+	.string "Als Pokémon els encanten les baies!\p"
+	.string "Alimentar els teus Pokémon és una\n"
+	.string "bona manera d'enfortir el vostre\l"
+	.string "vincle.\p"
+	.string "Té, per què no ho comproves\n"
+	.string "tu mateix!$"
 
 CeruleanCity_House1_EventScript_GiveGrepaBerry::
 	giveitem ITEM_GREPA_BERRY, 1
@@ -71,11 +69,10 @@ CeruleanCity_House1_EventScript_GrowAVariety::
 	end
 
 CeruleanCity_House1_Text_GrowAVariety::
-	.string "Hi ha tota mena de baies.\p"
+	.string "Hi ha tot tipus de baies.\p"
 	.string "I no totes tenen els mateixos\n"
 	.string "efectes!\p"
-	.string "Prova de cultivar-ne de\n"
-	.string "diferents!$"
+	.string "Prova de cultivar-ne de vàries!$"
 
 CeruleanCity_House1_EventScript_GetWailmerPail::
 	msgbox CeruleanCity_House1_Text_WifeAndIGrowBerries, MSGBOX_DEFAULT
@@ -91,27 +88,25 @@ CeruleanCity_House1_EventScript_GetWailmerPail::
 
 CeruleanCity_House1_Text_GetWailmerPail::
 	.string "{PLAYER} ha rebut la Regadora\n"
-	.string "del Senyor de les Baies!\p"
-	.string "{PLAYER} ha posat la Regadora\n"
+	.string "del Noi de les Baies!\p"
+	.string "{PLAYER} ha guardat la Regadora\n"
 	.string "a la butxaca d'Obj. Clau.$"
 
 CeruleanCity_House1_Text_WifeAndIGrowBerries::
-	.string "Potser no ho saps, però a Kanto\n"
-	.string "no sempre hi havia Baies!\p"
-	.string "Són difícils de cultivar i la\n"
-	.string "gent no en sabia gaire,\l"
-	.string "d'aquestes coses.\p"
+	.string "Potser no ho saps, però Kanto\n"
+	.string "no sempre ha tingut Baies!\p"
+	.string "Poden ser molt difícils de\n"
+	.string "cultivar i la gent no en sabia\l"
+	.string "gaire llavors.\p"
 	.string "Així que la meva dona i jo vam\n"
 	.string "viatjar per Kanto plantant\l"
 	.string "Arbres de Baies!\p"
-	.string "Si en veus algun, serveix-te\n"
-	.string "tu mateix.\p"
-	.string "Volem que tothom cuidi millor\n"
-	.string "la terra, tant per a la gent\l"
-	.string "com per als Pokémon!\p"
-	.string "Si culls una baia, planta'n\n"
-	.string "una altra! I si tens un moment,\l"
-	.string "les pots regar amb això!$"
+	.string "Si en veus algun, serveix-te.\p"
+	.string "Volem que tothom cuidi millor la\n"
+	.string "terra, per a gent i Pokémon!\p"
+	.string "Si culls una baia, planta'n una\n"
+	.string "altra! I si tens un moment,\l"
+	.string "pots regar-les amb això!$"
 
 CeruleanCity_House1_EventScript_BagFull::
 	msgbox CeruleanCity_House1_Text_MaybeLater, MSGBOX_DEFAULT
@@ -119,6 +114,5 @@ CeruleanCity_House1_EventScript_BagFull::
 	end
 
 CeruleanCity_House1_Text_MaybeLater::
- .string "Vaja, la bossa és plena.\p"
+ .string "Vaja - la motxilla és plena.\p"
  .string "Potser torna més tard?$"
-
