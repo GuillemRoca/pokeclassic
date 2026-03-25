@@ -6,35 +6,36 @@ Route16_NorthEntrance_2F_EventScript_LittleBoy::
 	end
 
 Route16_NorthEntrance_2F_Text_OnBikeRideWithGirlfriend::
-    .string "I'm on a relaxing ride on my new\n"
-    .string "bike with my girlfriend.$"
+    .string "Faig un passeig relaxat amb la\n"
+    .string "meva bici nova amb la meva nòvia.$"
 
 Route16_NorthEntrance_2F_EventScript_LittleGirl::
 	msgbox Route16_NorthEntrance_2F_Text_RidingTogetherOnNewBikes, MSGBOX_NPC
 	end
 
 Route16_NorthEntrance_2F_Text_RidingTogetherOnNewBikes::
-    .string "We're going riding together on our\n"
-    .string "new bikes.$"
+    .string "Anem a passejar junts amb les\n"
+    .string "nostres bicis noves.$"
 
 Route16_NorthEntrance_2F_EventScript_LeftBinoculars::
 	msgbox Route16_NorthEntrance_2F_Text_ItsCeladonDeptStore, MSGBOX_SIGN
 	end
 
 Route16_NorthEntrance_2F_Text_ItsCeladonDeptStore::
-    .string "Let's see what the binoculars have\n"
-    .string "to show…\p"
-    .string "It's the Celadon Department Store!$"
+    .string "A veure què mostren els\n"
+    .string "prismàtics…\p"
+    .string "Són els Grans Magatzems\n"
+    .string "de Celadon!$"
 
 Route16_NorthEntrance_2F_EventScript_RightBinoculars::
 	msgbox Route16_NorthEntrance_2F_Text_LongPathOverWater, MSGBOX_SIGN
 	end
 
 Route16_NorthEntrance_2F_Text_LongPathOverWater::
-    .string "Let's see what the binoculars have\n"
-    .string "to show…\p"
-    .string "There's a long path over water far\n"
-    .string "away.$"
+    .string "A veure què mostren els\n"
+    .string "prismàtics…\p"
+    .string "Hi ha un camí llarg sobre l'aigua\n"
+    .string "molt lluny.$"
 
 
 @Aide Gift 4
@@ -59,14 +60,14 @@ Route16_NorthEntrance_2F_EventScript_Aide::
 
 Route16_NorthEntrance_2F_Text_GiveReward::
     .string "Oh… {PLAYER}!\p"
-    .string "I'm glad you were able to find\n"
-    .string "me!\p"
-    .string "Between the sleeping Snorlax and\n"
-    .string "the scary Bikers, I wasn't sure\l"
-    .string "if we'd be able to meet up!\p"
-    .string "Life as a Trainer must be hard,\n"
-    .string "so hopefully this helps ease some\l"
-    .string "of the struggles.$"
+    .string "M'alegro que m'hagis pogut\n"
+    .string "trobar!\p"
+    .string "Entre el Snorlax adormit i\n"
+    .string "els Motoristes que fan por, no\l"
+    .string "sabia si ens trobaríem!\p"
+    .string "La vida d'Entrenador deu ser\n"
+    .string "dura, espero que això t'ajudi\l"
+    .string "una mica.$"
 
 Route16_NorthEntrance_2F_EventScript_AlreadyGotReward::
     msgbox Route16_NorthEntrance_2F_Text_ExplainReward, MSGBOX_DEFAULT
@@ -74,11 +75,12 @@ Route16_NorthEntrance_2F_EventScript_AlreadyGotReward::
     end
 
 Route16_NorthEntrance_2F_Text_ExplainReward::
-	.string "Did you know Pokémon can hold items?\p"
-    .string "An Amulet Coin is an item to be\n"
-    .string "held by a Pokémon.\p"
-    .string "If the Pokémon appears in a winning\n"
-    .string "battle, you will earn more money.$"
+	.string "Sabies que els Pokémon poden\n"
+	.string "portar objectes?\p"
+    .string "La Moneda Amuleto és un objecte\n"
+    .string "per portar un Pokémon.\p"
+    .string "Si el Pokémon surt en un combat\n"
+    .string "guanyat, guanyaràs més diners.$"
 
 Route16_NorthEntrance_2F_EventScript_AideNextLocation::
     setflag FLAG_QUEUE_AIDE_CALL

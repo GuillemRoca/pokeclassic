@@ -1372,38 +1372,37 @@ LilycoveCity_ContestLobby_EventScript_DelayForRSPlayer::
 	return
 
 LilycoveCity_ContestLobby_Text_ReceptionDontHavePokeblockCase:
-	.string "Hello!\p"
-	.string "This is the reception counter for\n"
-	.string "Pokémon Contests.\p"
-	.string "Oh? It appears that you don't have\n"
-	.string "a {POKEBLOCK} Case yet.\p"
-	.string "In that case, we need to provide you\n"
-	.string "with this!$"
+	.string "Hola!\p"
+	.string "Aquesta és la recepció dels\n"
+	.string "Concursos Pokémon.\p"
+	.string "Oh? Sembla que encara no tens\n"
+	.string "un Estoig de {POKEBLOCK}.\p"
+	.string "En aquest cas, cal que et donem\n"
+	.string "això!$"
 
 LilycoveCity_ContestLobby_Text_NowThatWeveClearedThatUp:
-	.string "Okay, now that we've cleared that\n"
-	.string "up…\p"
-	.string "Hello!\p"
-	.string "This is the reception counter for\n"
-	.string "Pokémon Contests.$"
+	.string "Bé, ara que ho hem resolt…\p"
+	.string "Hola!\p"
+	.string "Aquesta és la recepció dels\n"
+	.string "Concursos Pokémon.$"
 
 LilycoveCity_ContestLobby_Text_ContestReception:
-	.string "Hello!\p"
-	.string "This is the reception counter for\n"
-	.string "Pokémon Contests.$"
+	.string "Hola!\p"
+	.string "Aquesta és la recepció dels\n"
+	.string "Concursos Pokémon.$"
 
 @ Unused
 LilycoveCity_ContestLobby_Text_CounterOnlyFor4PlayerContests:
-	.string "Hello!\p"
-	.string "This reception counter is only\n"
-	.string "for 4-player Pokémon Contests.$"
+	.string "Hola!\p"
+	.string "Aquesta recepció és només per\n"
+	.string "als Concursos Pokémon de 4.$"
 
 LilycoveCity_ContestLobby_Text_EnterContest1:
-	.string "Would you like to enter your Pokémon\n"
-	.string "in our Contests?$"
+	.string "Vols inscriure el teu Pokémon\n"
+	.string "als nostres Concursos?$"
 
 LilycoveCity_ContestLobby_Text_WhichTopic1:
-	.string "Which topic would you like?$"
+	.string "Quin tema t'interessa?$"
 
 LilycoveCity_ContestLobby_Text_ExplainContests:
 	.string "A Pokémon Contest involves four\n"

@@ -13,7 +13,7 @@ FuchsiaCity_WardensHouse_EventScript_Warden::
 	end
 
 FuchsiaCity_WardensHouse_Text_HifFuffHefifoo::
-    .string "Warden: Hif fuff hefifoo!\p"
+    .string "Guardià: Hif fuff hefifoo!\p"
     .string "Ha lof ha feef ee hafahi ho.\n"
     .string "Heff hee fwee!$"
 
@@ -35,14 +35,14 @@ FuchsiaCity_WardensHouse_EventScript_GiveGoldTeeth::
 	end
 
 FuchsiaCity_WardensHouse_Text_ThanksGiveYouSomething::
-    .string "Warden: Thanks! \n"
-    .string "You're a real lifesaver!\p"
-    .string "No one could understand a word\n"
-    .string "that I said, not a one!\p"
-    .string "I was too ashamed to show my face\n"
-    .string "around the Office, even.\p"
-    .string "Let me give you something for your\n"
-    .string "trouble.$"
+    .string "Guardià: Gràcies!\n"
+    .string "M'has salvat la vida!\p"
+    .string "Ningú no entenia ni una paraula\n"
+    .string "del que deia, ni una!\p"
+    .string "Em feia massa vergonya per\n"
+    .string "ensenyar la cara per l'Oficina.\p"
+    .string "Deixa'm donar-te alguna cosa\n"
+    .string "per les molèsties.$"
 
 FuchsiaCity_WardensHouse_EventScript_WardenYes::
 	msgbox FuchsiaCity_WardensHouse_Text_AhHowheeHoHoo
@@ -66,12 +66,12 @@ FuchsiaCity_WardensHouse_EventScript_ExplainStrength::
 	end
 
 FuchsiaCity_WardensHouse_Text_ExplainStrength::
-    .string "Warden: Inside HM04 you'll find\n"
-    .string "Strength.\p"
-    .string "It lets Pokémon move boulders when\n"
-    .string "you're outside of battle.\p"
-    .string "Oh yes, did you find the Secret\n"
-    .string "House in the Safari Zone?$"
+    .string "Guardià: Dins la MO04 trobaràs\n"
+    .string "Força.\p"
+    .string "Permet als Pokémon moure roques\n"
+    .string "quan ets fora de combat.\p"
+    .string "Ah sí, has trobat la Casa\n"
+    .string "Secreta a la Zona Safari?$"
 
 FuchsiaCity_WardensHouse_EventScript_DisplaySign1::
 	msgbox FuchsiaCity_WardensHouse_Text_MonPhotosFossilsOnDisplay, MSGBOX_SIGN
@@ -82,23 +82,23 @@ FuchsiaCity_WardensHouse_EventScript_DisplaySign2::
 	end
 
 FuchsiaCity_WardensHouse_Text_GaveGoldTeethToWarden::
-    .string "{PLAYER} gave the Gold Teeth\n"
-    .string "to the Warden.$"
+    .string "{PLAYER} ha donat les Dents\n"
+    .string "d'Or al Guardià.$"
 
 FuchsiaCity_WardensHouse_Text_WardenPoppedInHisTeeth::
-    .string "The Warden popped in his teeth!$"
+    .string "El Guardià s'ha posat les dents!$"
 
 FuchsiaCity_WardensHouse_Text_ReceivedHM04FromWarden::
-    .string "{PLAYER} received HM04\n"
-    .string "from the Warden.$"
+    .string "{PLAYER} ha rebut la MO04\n"
+    .string "del Guardià.$"
 
 FuchsiaCity_WardensHouse_Text_MonPhotosFossilsOnDisplay::
-    .string "Pokémon photos and fossils are on\n"
-    .string "display.$"
+    .string "Fotos de Pokémon i fòssils\n"
+    .string "estan exposats.$"
 
 FuchsiaCity_WardensHouse_Text_OldMonMerchandiseOnDisplay::
-    .string "Old Pokémon merchandise is on\n"
-    .string "display.$"
+    .string "Merchandise antiga de Pokémon\n"
+    .string "està exposada.$"
 
 FuchsiaCity_WardensHouse_EventScript_PokemonJournalKoga::
 	msgbox PokemonJournal_Text_SpecialFeatureKoga, MSGBOX_SIGN
@@ -106,13 +106,13 @@ FuchsiaCity_WardensHouse_EventScript_PokemonJournalKoga::
 	end
 
 PokemonJournal_Text_SpecialFeatureKoga::
-	.string "Pokémon Journal:\p"
-	.string "Special Feature: Fuchsia Gym\n"
-	.string "Leader Koga!\p"
-	.string "Koga is said to have a thorough\n"
-	.string "knowledge of medicine.\p"
-	.string "He even concocts medicine to nurse\n"
-	.string "his Pokémon to health.$"
+	.string "Diari Pokémon:\p"
+	.string "Reportatge: Líder del Gimnàs\n"
+	.string "de Fuchsia, Koga!\p"
+	.string "Es diu que Koga té un coneixement\n"
+	.string "profund de la medicina.\p"
+	.string "Fins i tot prepara medicines per\n"
+	.string "curar els seus Pokémon.$"
 
 FuchsiaCity_WardensHouse_EventScript_ItemRareCandy::
 	finditem ITEM_RARE_CANDY, 1

@@ -289,191 +289,191 @@ BattleFrontier_Lounge7_EventScript_Gentleman::
 
 BattleFrontier_Lounge7_Text_LeftTutorIntro:
 	.string "Buhahaha!\p"
-	.string "You couldn't tell it from looking now,\n"
-	.string "but I used to be one tough Trainer.\p"
-	.string "I had a reputation as the toughest\n"
-	.string "Beauty around, I tell you!\p"
+	.string "No ho diries veient-me ara,\n"
+	.string "però era una Entrenadora molt forta.\p"
+	.string "Tenia reputació de ser la Bellesa\n"
+	.string "més dura de totes!\p"
 	.string "… … … … … …\p"
-	.string "What is it now?\n"
-	.string "You don't believe me.\p"
-	.string "I'm not like that blowhard woman over\n"
-	.string "there. I'm actually talented!\p"
-	.string "Let me prove it to you.\n"
-	.string "I can teach your Pokémon special and\l"
-	.string "yet cute moves.\p"
-	.string "But my lessons don't come free.\n"
-	.string "How about paying for the moves I teach\l"
-	.string "with a wee bit of Battle Points?$"
+	.string "Què passa?\n"
+	.string "No em creus.\p"
+	.string "No sóc com la fatxenda aquella de\n"
+	.string "allà. Jo tinc talent de debò!\p"
+	.string "Deixa que t'ho demostri.\n"
+	.string "Puc ensenyar als teus Pokémon\l"
+	.string "moviments especials i bonics.\p"
+	.string "Però les meves lliçons no són gratis.\n"
+	.string "Què et sembla pagar amb una mica\l"
+	.string "de Punts de Combat?$"
 
 BattleFrontier_Lounge7_Text_LeftTutorWelcomeBack:
 	.string "Buhahaha!\p"
-	.string "Are you back to learn special and\n"
-	.string "yet cute Pokémon moves?$"
+	.string "Has tornat per aprendre moviments\n"
+	.string "especials i bonics de Pokémon?$"
 
 BattleFrontier_Lounge7_Text_TeachWhichMove:
-	.string "Fine, fine, look here!\n"
-	.string "Which move should I teach?$"
+	.string "Molt bé, mira aquí!\n"
+	.string "Quin moviment t'ensenyo?$"
 
 BattleFrontier_Lounge7_Text_MoveWillBeXBattlePoints:
-	.string "The move {STR_VAR_1}, is it?\n"
-	.string "That will be {STR_VAR_2} Battle Points, okay?$"
+	.string "El moviment {STR_VAR_1}, oi?\n"
+	.string "Seran {STR_VAR_2} Punts de Combat, d'acord?$"
 
 BattleFrontier_Lounge7_Text_TeachMoveToWhichMon:
-	.string "Fine, fine, now pick the Pokémon\n"
-	.string "I should teach the move to.$"
+	.string "Molt bé, ara tria el Pokémon\n"
+	.string "a qui li he d'ensenyar el moviment.$"
 
 BattleFrontier_Lounge7_Text_HaventGotEnoughPoints:
-	.string "What the…\n"
-	.string "You haven't got enough Battle Points!$"
+	.string "Què…\n"
+	.string "No tens prou Punts de Combat!$"
 
 BattleFrontier_Lounge7_Text_IllTakeBattlePoints:
-	.string "Do you see how skilled I am now?\n"
-	.string "I'll take your Battle Points, thanks!$"
+	.string "Ja veus com sóc d'hàbil?\n"
+	.string "M'emporto els teus Punts de Combat!$"
 
 BattleFrontier_Lounge7_Text_YouDontWantTo:
-	.string "What's that?\n"
-	.string "You don't want to…\p"
-	.string "If you want to see how skilled I am,\n"
-	.string "you come see me anytime!$"
+	.string "Què dius?\n"
+	.string "No vols…\p"
+	.string "Si vols veure com sóc d'hàbil,\n"
+	.string "vine a veure'm quan vulguis!$"
 
 BattleFrontier_Lounge7_Text_RightTutorIntro:
 	.string "Ihihihi!\p"
-	.string "I know it's hard to see now, but I used\n"
-	.string "to be one fantastic Trainer.\p"
-	.string "I had a reputation as the most\n"
-	.string "invincible Swimmer around, I tell you!\p"
+	.string "Sé que costa veure-ho ara, però\n"
+	.string "era una Entrenadora fantàstica.\p"
+	.string "Tenia reputació de ser la Nedadora\n"
+	.string "més invencible de totes!\p"
 	.string "… … … … … …\p"
-	.string "What's wrong?\n"
-	.string "You don't believe me.\p"
-	.string "I'm not like that buffoonish woman over\n"
-	.string "there. I'm actually experienced!\p"
-	.string "I can prove it to you.\n"
-	.string "I can teach your Pokémon hard and\l"
-	.string "yet pretty moves.\p"
-	.string "But my lessons don't come free.\n"
-	.string "How about paying for the moves I teach\l"
-	.string "with a wee bit of Battle Points?$"
+	.string "Què passa?\n"
+	.string "No em creus.\p"
+	.string "No sóc com la pallassa aquella de\n"
+	.string "allà. Jo tinc experiència de debò!\p"
+	.string "Puc demostrar-t'ho.\n"
+	.string "Puc ensenyar als teus Pokémon\l"
+	.string "moviments durs i bonics.\p"
+	.string "Però les meves lliçons no són gratis.\n"
+	.string "Què et sembla pagar amb una mica\l"
+	.string "de Punts de Combat?$"
 
 BattleFrontier_Lounge7_Text_RightTutorWelcomeBack:
 	.string "Ihihihi!\p"
-	.string "Have you come to learn hard and\n"
-	.string "yet pretty Pokémon moves?$"
+	.string "Has vingut a aprendre moviments\n"
+	.string "durs i bonics de Pokémon?$"
 
 BattleFrontier_Lounge7_Text_ThinkLadiesDontGetAlong:
-	.string "Those ladies, the way they bad-mouth\n"
-	.string "each other, you probably think that\l"
-	.string "they don't get along.\p"
-	.string "But if that were true, they wouldn't\n"
-	.string "stay out here together, would they?$"
+	.string "Aquestes senyores, com es critiquen\n"
+	.string "l'una a l'altra, deus pensar que\l"
+	.string "no s'avenen.\p"
+	.string "Però si fos cert, no estarien\n"
+	.string "aquí juntes, oi?$"
 
 BattleFrontier_Lounge7_Text_LadiesWereStrongAndBeautiful:
-	.string "When I was just a wee Youngster,\n"
-	.string "those ladies were strong and beautiful.\p"
-	.string "They were idols among us Trainers.\p"
-	.string "Even now, age hasn't dulled their\n"
-	.string "abilities.\p"
-	.string "In fact, their Pokémon moves have\n"
-	.string "grown even more polished.\p"
-	.string "But… For some reason, I can't help\n"
-	.string "but feel this…\p"
-	.string "Time is so cruel…$"
+	.string "Quan era un jovenet,\n"
+	.string "aquelles senyores eren fortes i belles.\p"
+	.string "Eren ídols entre els Entrenadors.\p"
+	.string "Fins i tot ara, l'edat no ha apagat\n"
+	.string "les seves habilitats.\p"
+	.string "De fet, els seus moviments Pokémon\n"
+	.string "s'han polit encara més.\p"
+	.string "Però… Per alguna raó, no puc evitar\n"
+	.string "sentir això…\p"
+	.string "El temps és tan cruel…$"
 
 BattleFrontier_Lounge7_Text_SoftboiledDesc::
-	.string "Recovers up to\n"
-	.string "half the user's\n"
-	.string "maximum HP.$"
+	.string "Recupera fins a\n"
+	.string "la meitat dels PS\n"
+	.string "màxims de l'usuari.$"
 
 BattleFrontier_Lounge7_Text_SeismicTossDesc::
-	.string "Inflicts damage\n"
-	.string "identical to the\n"
-	.string "user's level.$"
+	.string "Infligeix dany\n"
+	.string "igual al nivell\n"
+	.string "de l'usuari.$"
 
 BattleFrontier_Lounge7_Text_DreamEaterDesc::
-	.string "Recovers half the\n"
-	.string "damage inflicted\n"
-	.string "on a sleeping foe.$"
+	.string "Recupera la meitat\n"
+	.string "del dany infligit a\n"
+	.string "un enemic dormit.$"
 
 BattleFrontier_Lounge7_Text_MegaPunchDesc::
-	.string "A strong punch\n"
-	.string "thrown with\n"
-	.string "incredible power.$"
+	.string "Un cop de puny\n"
+	.string "fort amb un poder\n"
+	.string "increïble.$"
 
 BattleFrontier_Lounge7_Text_MegaKickDesc::
-	.string "An extremely\n"
-	.string "powerful kick with\n"
-	.string "intense force.$"
+	.string "Una puntada de peu\n"
+	.string "extremadament\n"
+	.string "poderosa.$"
 
 BattleFrontier_Lounge7_Text_BodySlamDesc::
-	.string "A full-body slam\n"
-	.string "that may cause\n"
-	.string "paralysis.$"
+	.string "Un cop de cos\n"
+	.string "que pot causar\n"
+	.string "paràlisi.$"
 
 BattleFrontier_Lounge7_Text_RockSlideDesc::
-	.string "Large boulders\n"
-	.string "are hurled. May\n"
-	.string "cause flinching.$"
+	.string "Grans roques\n"
+	.string "són llançades. Pot\n"
+	.string "fer retrocedir.$"
 
 BattleFrontier_Lounge7_Text_CounterDesc::
-	.string "Retaliates any\n"
-	.string "physical hit with\n"
-	.string "double the power.$"
+	.string "Retorna qualsevol\n"
+	.string "cop físic amb el\n"
+	.string "doble de poder.$"
 
 BattleFrontier_Lounge7_Text_ThunderWaveDesc::
-	.string "A weak jolt of\n"
-	.string "electricity that\n"
-	.string "paralyzes the foe.$"
+	.string "Una descàrrega\n"
+	.string "feble que\n"
+	.string "paralitza l'enemic.$"
 
 BattleFrontier_Lounge7_Text_SwordsDanceDesc::
-	.string "A fighting dance\n"
-	.string "that sharply\n"
-	.string "raises Attack.$"
+	.string "Una dansa de\n"
+	.string "combat que puja\n"
+	.string "molt l'Atac.$"
 
 BattleFrontier_Lounge7_Text_DefenseCurlDesc::
-	.string "Curls up to con-\n"
-	.string "ceal weak spots\n"
-	.string "and raise Defense.$"
+	.string "S'enrotlla per\n"
+	.string "amagar punts dèbils\n"
+	.string "i pujar Defensa.$"
 
 BattleFrontier_Lounge7_Text_SnoreDesc::
-	.string "A loud attack\n"
-	.string "that can be used\n"
-	.string "only while asleep.$"
+	.string "Un atac sorollós\n"
+	.string "que només s'usa\n"
+	.string "estant dormit.$"
 
 BattleFrontier_Lounge7_Text_MudSlapDesc::
-	.string "Hurls mud in the\n"
-	.string "foe's face to re-\n"
-	.string "duce its accuracy.$"
+	.string "Llança fang a la\n"
+	.string "cara de l'enemic\n"
+	.string "per baixar precisió.$"
 
 BattleFrontier_Lounge7_Text_SwiftDesc::
-	.string "Sprays star-\n"
-	.string "shaped rays\n"
-	.string "that never miss.$"
+	.string "Raigs en forma\n"
+	.string "d'estrella que\n"
+	.string "mai fallen.$"
 
 BattleFrontier_Lounge7_Text_IcyWindDesc::
-	.string "A chilling attack\n"
-	.string "that lowers the\n"
-	.string "foe's Speed.$"
+	.string "Un atac gelat\n"
+	.string "que baixa la\n"
+	.string "Velocitat enemiga.$"
 
 BattleFrontier_Lounge7_Text_EndureDesc::
-	.string "Endures any at-\n"
-	.string "tack for 1 turn,\n"
-	.string "leaving 1HP.$"
+	.string "Resisteix un atac\n"
+	.string "1 torn, quedant\n"
+	.string "amb 1 PS.$"
 
 BattleFrontier_Lounge7_Text_PsychUpDesc::
-	.string "Copies the foe's\n"
-	.string "effect(s) and\n"
-	.string "gives to the user.$"
+	.string "Copia els efectes\n"
+	.string "de l'enemic i\n"
+	.string "els dóna a l'usuari.$"
 
 BattleFrontier_Lounge7_Text_IcePunchDesc::
-	.string "An icy punch\n"
-	.string "that may\n"
-	.string "freeze the foe.$"
+	.string "Un cop gelat\n"
+	.string "que pot\n"
+	.string "congelar l'enemic.$"
 
 BattleFrontier_Lounge7_Text_ThunderPunchDesc::
-	.string "An electrified\n"
-	.string "punch that may\n"
-	.string "paralyze the foe.$"
+	.string "Un cop electrificat\n"
+	.string "que pot paralitzar\n"
+	.string "l'enemic.$"
 
 BattleFrontier_Lounge7_Text_FirePunchDesc::
-	.string "A fiery punch\n"
-	.string "that may burn\n"
-	.string "the foe.$"
+	.string "Un cop de foc\n"
+	.string "que pot cremar\n"
+	.string "l'enemic.$"

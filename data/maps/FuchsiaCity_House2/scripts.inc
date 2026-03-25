@@ -36,38 +36,38 @@ FuchsiaCity_House2_EventScript_NoRoomForGoodRod::
 	end
 
 FuchsiaCity_House2_Text_DoYouLikeToFish::
-    .string "I'm the Fishing Guru's older\n"
-    .string "brother.\p"
-    .string "I simply looove fishing!\n"
-    .string "I can't bear to go without.\p"
-    .string "Tell me, do you like to fish?$"
+    .string "Sóc el germà gran del Guru\n"
+    .string "de la Pesca.\p"
+    .string "M'encanta pescar!\n"
+    .string "No puc viure sense!\p"
+    .string "Digue'm, t'agrada pescar?$"
 
 FuchsiaCity_House2_Text_LikeYourStyleTakeThis::
-    .string "Grand! I like your style.\n"
-    .string "I think we can be friends.\p"
-    .string "Take this and fish, young friend!$"
+    .string "Genial! M'agrada el teu estil.\n"
+    .string "Crec que podem ser amics.\p"
+    .string "Pren això i pesca, jove amic!$"
 
 FuchsiaCity_House2_Text_ReceivedGoodRod::
-    .string "{PLAYER} received a Good Rod from\n"
-    .string "the Fishing Guru's brother.$"
+    .string "{PLAYER} ha rebut una Bona Canya\n"
+    .string "del germà del Guru de la Pesca.$"
 
 FuchsiaCity_House2_Text_GoodRodCanCatchBetterMons::
-    .string "Fishing is a way of life!\n"
-    .string "It is like the finest poetry.\p"
-    .string "A crummy Old Rod could only catch\n"
-    .string "Magikarp, yes?\p"
-    .string "But with a Good Rod, you can\n"
-    .string "catch much better Pokémon.$"
+    .string "La pesca és una forma de vida!\n"
+    .string "És com la poesia més fina.\p"
+    .string "Una Old Rod pobre només podia\n"
+    .string "atrapar Magikarp, oi?\p"
+    .string "Però amb una Good Rod, pots\n"
+    .string "atrapar Pokémon molt millors.$"
 
 FuchsiaCity_House2_Text_OhThatsDisappointing::
     .string "Oh…\n"
-    .string "That's so disappointing…$"
+    .string "Quina decepció…$"
 
 FuchsiaCity_House2_Text_HowAreTheFishBiting::
-    .string "Hello there, {PLAYER}!\p"
-    .string "How are the fish biting?$"
+    .string "Hola, {PLAYER}!\p"
+    .string "Com va la pesca?$"
 
 FuchsiaCity_House2_Text_YouHaveNoRoomForGift::
     .string "Oh, no!\p"
-    .string "I had a gift for you, but you have\n"
-    .string "no room for it!$"
+    .string "Tenia un regal per a tu, però\n"
+    .string "no tens espai!$"

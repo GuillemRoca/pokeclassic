@@ -272,122 +272,122 @@ BattleFrontier_BattleDomePreBattleRoom_Movement_PlayerEnterDoor:
 	step_end
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForRound1:
-	.string "Your 1st-round match is next.\n"
-	.string "Are you ready?$"
+	.string "El teu combat de 1a ronda és el\n"
+	.string "següent. Estàs a punt?$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForRound2:
-	.string "Your 2nd-round match is next.\n"
-	.string "Are you ready?$"
+	.string "El teu combat de 2a ronda és el\n"
+	.string "següent. Estàs a punt?$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForSemifinals:
-	.string "Your semifinal match is next.\n"
-	.string "Are you ready?$"
+	.string "El teu combat de semifinal és el\n"
+	.string "següent. Estàs a punt?$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForFinals:
-	.string "Your final match is next.\n"
-	.string "Are you ready?$"
+	.string "El teu combat de la final és el\n"
+	.string "següent. Estàs a punt?$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ChooseTwoMons:
-	.string "Please choose the two Pokémon\n"
-	.string "that are to appear in battle.$"
+	.string "Si us plau, tria els dos Pokémon\n"
+	.string "que apareixeran al combat.$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RightThisWay:
-	.string "Right this way, please.$"
+	.string "Per aquí, si us plau.$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RestoreMonsToFullHealth:
-	.string "Thank you for competing!\p"
-	.string "I'll restore your Pokémon to\n"
-	.string "full health.$"
+	.string "Gràcies per competir!\p"
+	.string "Restauraré els teus Pokémon\n"
+	.string "completament.$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_Round1Complete:
-	.string "All 1st-round matches have been\n"
-	.string "completed.\p"
-	.string "These are the teams that advanced!$"
+	.string "Tots els combats de 1a ronda s'han\n"
+	.string "completat.\p"
+	.string "Aquests són els equips que avancen!$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_Round2Complete:
-	.string "All 2nd-round matches have been\n"
-	.string "completed.\p"
-	.string "These are the teams that advanced!$"
+	.string "Tots els combats de 2a ronda s'han\n"
+	.string "completat.\p"
+	.string "Aquests són els equips que avancen!$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_SemifinalsComplete:
-	.string "All semifinal matches have been\n"
-	.string "completed.\p"
-	.string "These are the teams that advanced!$"
+	.string "Tots els combats de semifinal s'han\n"
+	.string "completat.\p"
+	.string "Aquests són els equips que avancen!$"
 
 @ Unused
 BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForRound2:
-	.string "Congratulations for getting through\n"
-	.string "the 1st round.\p"
-	.string "The 2nd round is next.\n"
-	.string "Are you ready?$"
+	.string "Felicitats per superar\n"
+	.string "la 1a ronda.\p"
+	.string "La 2a ronda és la següent.\n"
+	.string "Estàs a punt?$"
 
 @ Unused
 BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForSemifinals:
-	.string "Congratulations for advancing\n"
-	.string "to the semifinals.\p"
-	.string "The best four teams meet in this round.\n"
-	.string "Are you ready?$"
+	.string "Felicitats per avançar\n"
+	.string "a les semifinals.\p"
+	.string "Els quatre millors equips es troben.\n"
+	.string "Estàs a punt?$"
 
 @ Unused
 BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForFinals:
-	.string "Congratulations for advancing\n"
-	.string "to the final match.\p"
-	.string "You're one win from the championship.\n"
-	.string "Are you ready?$"
+	.string "Felicitats per avançar\n"
+	.string "a la final.\p"
+	.string "Estàs a una victòria del campionat.\n"
+	.string "Estàs a punt?$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_PlayersNextOpponentIsTrainer:
-	.string "{PLAYER}'s next opponent\n"
-	.string "is this Trainer.$"
+	.string "El proper oponent de {PLAYER}\n"
+	.string "és aquest Entrenador.$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInRound1:
-	.string "The tournament is in the 1st round.$"
+	.string "El torneig està a la 1a ronda.$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInRound2:
-	.string "The tournament is in the 2nd round.$"
+	.string "El torneig està a la 2a ronda.$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInSemifinals:
-	.string "The tournament is in the semifinals.$"
+	.string "El torneig està a les semifinals.$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_TourneyInFinals:
-	.string "The tournament is up to the final.$"
+	.string "El torneig ha arribat a la final.$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_SaveAndQuitGame:
-	.string "Would you like to save and\n"
-	.string "quit the game?$"
+	.string "Vols desar i\n"
+	.string "sortir del joc?$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RetireYourChallenge:
-	.string "Would you like to retire from your\n"
-	.string "Battle Tournament challenge?$"
+	.string "Vols retirar-te del teu repte\n"
+	.string "al Torneig de Combat?$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_SavingDataPleaseWait:
-	.string "I am saving your data.\n"
-	.string "Please wait.$"
+	.string "Estic desant les dades.\n"
+	.string "Si us plau, espera.$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RecordLastMatch:
-	.string "Should I record your last match\n"
-	.string "on your Frontier Pass?$"
+	.string "Vols que gravi el teu últim combat\n"
+	.string "al teu Passi Frontera?$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilver:
-	.string "Congratulations for advancing\n"
-	.string "to the final match.\p"
-	.string "For the final match, you will challenge\n"
-	.string "the Dome Ace Tucker.\p"
-	.string "Are you ready?$"
+	.string "Felicitats per avançar\n"
+	.string "a la final.\p"
+	.string "A la final, desafiaràs\n"
+	.string "l'As del Domo, en Tucker.\p"
+	.string "Estàs a punt?$"
 
 @ Identical to ReadyForTuckerSilver
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerGold:
-	.string "Congratulations for advancing\n"
-	.string "to the final match.\p"
-	.string "For the final match, you will challenge\n"
-	.string "the Dome Ace Tucker.\p"
-	.string "Are you ready?$"
+	.string "Felicitats per avançar\n"
+	.string "a la final.\p"
+	.string "A la final, desafiaràs\n"
+	.string "l'As del Domo, en Tucker.\p"
+	.string "Estàs a punt?$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilverShort:
-	.string "Your final battle against Tucker is\n"
-	.string "next. Are you ready?$"
+	.string "El teu combat final contra en Tucker\n"
+	.string "és el següent. Estàs a punt?$"
 
 @ Identical again
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerGoldShort:
-	.string "Your final battle against Tucker is\n"
-	.string "next. Are you ready?$"
+	.string "El teu combat final contra en Tucker\n"
+	.string "és el següent. Estàs a punt?$"
 

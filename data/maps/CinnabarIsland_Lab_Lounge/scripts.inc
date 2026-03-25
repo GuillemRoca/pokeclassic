@@ -6,10 +6,10 @@ CinnabarIsland_PokemonLab_Lounge_EventScript_Scientist::
 	end
 
 CinnabarIsland_PokemonLab_Lounge_Text_FoundFossilInMtMoon::
-    .string "I found this most remarkable fossil\n"
-    .string "inside Mt. Moon.\p"
-    .string "I think it's of a rare, prehistoric\n"
-    .string "Pokémon.$"
+    .string "He trobat un fòssil molt notable\n"
+    .string "dins del Mt. Moon.\p"
+    .string "Crec que és d'un Pokémon\n"
+    .string "prehistòric rar.$"
 
 CinnabarIsland_PokemonLab_Lounge_EventScript_Clifton::
 	lock
@@ -40,12 +40,12 @@ CinnabarIsland_PokemonLab_Lounge_EventScript_Clifton::
 	end
 
 CinnabarIsland_PokemonLab_Lounge_Text_HeyThanks::
-	.string "Hey, thanks!$"
+	.string "Ei, gràcies!$"
 
 CinnabarIsland_PokemonLab_Lounge_Text_LookingForMonWannaTradeForMon::
-	.string "Hi!\n"
-	.string "Do you have a {STR_VAR_1}?\p"
-	.string "Want to trade it for my\n"
+	.string "Hola!\n"
+	.string "Tens un {STR_VAR_1}?\p"
+	.string "Vols intercanviar-lo pel meu\n"
 	.string "{STR_VAR_2}?$"
 
 CinnabarIsland_PokemonLab_Lounge_EventScript_DeclineTrade::
@@ -54,7 +54,7 @@ CinnabarIsland_PokemonLab_Lounge_EventScript_DeclineTrade::
 	end
 
 CinnabarIsland_PokemonLab_Lounge_Text_DeclinedTrade::
-	.string "That's too bad.$"
+	.string "Quina llàstima.$"
 
 CinnabarIsland_PokemonLab_Lounge_EventScript_NotRequestedMon::
 	bufferspeciesname STR_VAR_1, VAR_0x8009
@@ -63,8 +63,8 @@ CinnabarIsland_PokemonLab_Lounge_EventScript_NotRequestedMon::
 	end
 
 CinnabarIsland_PokemonLab_Lounge_Text_WhatThatsNotMon::
-	.string "What?\n"
-	.string "That's no {STR_VAR_1}!$"
+	.string "Què?\n"
+	.string "Això no és un {STR_VAR_1}!$"
 
 CinnabarIsland_PokemonLab_Lounge_EventScript_AlreadyTraded::
 	msgbox CinnabarIsland_PokemonLab_Lounge_Text_IsntMyOldMonGreat
@@ -72,8 +72,8 @@ CinnabarIsland_PokemonLab_Lounge_EventScript_AlreadyTraded::
 	end
 
 CinnabarIsland_PokemonLab_Lounge_Text_IsntMyOldMonGreat::
-	.string "How is my old {STR_VAR_2}?\n"
-	.string "My {STR_VAR_1} is doing great!$"
+	.string "Com està el meu antic {STR_VAR_2}?\n"
+	.string "El meu {STR_VAR_1} va genial!$"
 
 CinnabarIsland_PokemonLab_Lounge_EventScript_Norma::
 	lock
