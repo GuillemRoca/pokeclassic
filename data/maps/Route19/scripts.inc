@@ -18,8 +18,8 @@ Route19_EventScript_RouteSign::
 	end
 
 Route19_Text_RouteSign::
-    .string "Sea Route 19\n"
-    .string "Fuchsia City - Seafoam Islands$"
+    .string "Ruta Marítima 19\n"
+    .string "Fuchsia City - Illes Seafoam$"
 
 Route19_EventScript_Richie::
 	trainerbattle_single REMATCHABLE_TRAINER_TUBER_RICHIE_1, Route19_Text_RichieIntro, Route19_Text_RichieDefeat, Route19_EventScript_RegisterRichieAfterBattle
@@ -30,15 +30,15 @@ Route19_EventScript_Richie::
 	end
 
 Route19_Text_RichieIntro::
-    .string "I have to exercise and warm up\n"
-    .string "before going out for a swim.$"
+    .string "He d'escalfar abans de sortir\n"
+    .string "a nedar.$"
 
 Route19_Text_RichieDefeat::
-    .string "All warmed up!$"
+    .string "Ja estic escalfat!$"
 
 Route19_Text_RichiePostBattle::
-    .string "Thanks!\n"
-    .string "I'm ready for a swim.$"
+    .string "Gràcies!\n"
+    .string "Ja estic a punt per nedar.$"
 
 Route19_EventScript_RegisterRichieAfterBattle::
 	special PlayerFaceTrainerAfterBattle
@@ -49,8 +49,8 @@ Route19_EventScript_RegisterRichieAfterBattle::
 	end
 
 Route19_Text_RichieRegister:
-	.string "I love going to the beach!\n"
-	.string "I'll call you whenever I'm here!$"
+	.string "M'encanta anar a la platja!\n"
+	.string "Et trucaré sempre que hi sigui!$"
 
 Route19_EventScript_RichieRematch::
 	trainerbattle_rematch REMATCHABLE_TRAINER_TUBER_RICHIE_1, Route19_Text_RichieRematchIntro, Route19_Text_RichieDefeat
@@ -58,12 +58,12 @@ Route19_EventScript_RichieRematch::
 	end
 
 Route19_Text_RichieRematchIntro::
-	.string "Yeah! Beach day!\n"
-	.string "Let's warm up for a swim!$"
+	.string "Sí! Dia de platja!\n"
+	.string "Escalfem per nedar!$"
 
 Route19_Text_RichieRematchPostBattle::
-	.string "I ate a big lunch before coming\n"
-	.string "here, so I can't go in the water yet.$"
+	.string "He dinat molt abans de venir,\n"
+	.string "així que encara no puc banyar-me.$"
 
 Route19_EventScript_Lizzie::
 	trainerbattle_single TRAINER_TUBER_LIZZIE, Route19_Text_LizzieIntro, Route19_Text_LizzieDefeat
@@ -71,16 +71,16 @@ Route19_EventScript_Lizzie::
 	end
 
 Route19_Text_LizzieIntro::
-    .string "Wait! Slow down!\n"
-    .string "You'll have a heart attack!$"
+    .string "Espera! Vés a poc a poc!\n"
+    .string "Et donarà un infart!$"
 
 Route19_Text_LizzieDefeat::
-    .string "Ooh!\n"
-    .string "That's chilly!$"
+    .string "Uuh!\n"
+    .string "Quina fredor!$"
 
 Route19_Text_LizziePostBattle::
-    .string "Watch out for Tentacool.\n"
-    .string "They sting so painfully.$"
+    .string "Vigila amb els Tentacool.\n"
+    .string "Piquen molt!$"
 
 Route19_EventScript_Matthew::
 	trainerbattle_single TRAINER_SWIMMER_MALE_MATTHEW, Route19_Text_MatthewIntro, Route19_Text_MatthewDefeat
@@ -88,15 +88,15 @@ Route19_EventScript_Matthew::
 	end
 
 Route19_Text_MatthewIntro::
-    .string "I love swimming!\n"
-    .string "What about you?$"
+    .string "M'encanta nedar!\n"
+    .string "I a tu?$"
 
 Route19_Text_MatthewDefeat::
-    .string "Belly flop!$"
+    .string "Panxada!$"
 
 Route19_Text_MatthewPostBattle::
-    .string "I can beat even marine Pokémon\n"
-    .string "at swimming.$"
+    .string "Puc guanyar fins i tot Pokémon\n"
+    .string "marins nedant.$"
 
 Route19_EventScript_Douglas::
 	trainerbattle_single TRAINER_SWIMMER_MALE_DOUGLAS, Route19_Text_DouglasIntro, Route19_Text_DouglasDefeat
@@ -104,14 +104,14 @@ Route19_EventScript_Douglas::
 	end
 
 Route19_Text_DouglasIntro::
-    .string "What's beyond the horizon?$"
+    .string "Què hi ha més enllà de l'horitzó?$"
 
 Route19_Text_DouglasDefeat::
     .string "Glub!$"
 
 Route19_Text_DouglasPostBattle::
-    .string "I see a couple of islands over\n"
-    .string "yonder!$"
+    .string "Veig un parell d'illes\n"
+    .string "allà lluny!$"
 
 Route19_EventScript_David::
 	trainerbattle_single TRAINER_SWIMMER_MALE_DAVID, Route19_Text_DavidIntro, Route19_Text_DavidDefeat
@@ -119,15 +119,15 @@ Route19_EventScript_David::
 	end
 
 Route19_Text_DavidIntro::
-    .string "I tried diving for Pokémon, but it\n"
-    .string "was a no-go.$"
+    .string "He provat de bussejar per trobar\n"
+    .string "Pokémon, però no ha pogut ser.$"
 
 Route19_Text_DavidDefeat::
-    .string "Help!$"
+    .string "Socors!$"
 
 Route19_Text_DavidPostBattle::
-    .string "I guess you have to fish for sea\n"
-    .string "Pokémon.$"
+    .string "Suposo que has de pescar per\n"
+    .string "trobar Pokémon de mar.$"
 
 Route19_EventScript_Tony::
 	trainerbattle_single TRAINER_SWIMMER_MALE_TONY, Route19_Text_TonyIntro, Route19_Text_TonyDefeat
@@ -135,16 +135,16 @@ Route19_EventScript_Tony::
 	end
 
 Route19_Text_TonyIntro::
-    .string "I look at the sea to forget all\n"
-    .string "the bad things that happened.$"
+    .string "Miro el mar per oblidar totes\n"
+    .string "les coses dolentes.$"
 
 Route19_Text_TonyDefeat::
-    .string "Ooh!\n"
-    .string "Traumatic!$"
+    .string "Uuh!\n"
+    .string "Traumàtic!$"
 
 Route19_Text_TonyPostBattle::
-    .string "I'm looking at the sea to forget\n"
-    .string "the bad thing that happened!$"
+    .string "Estic mirant el mar per oblidar\n"
+    .string "la cosa dolenta que ha passat!$"
 
 Route19_EventScript_Axle::
 	trainerbattle_single TRAINER_SWIMMER_MALE_AXLE, Route19_Text_AxleIntro, Route19_Text_AxleDefeat
@@ -152,16 +152,16 @@ Route19_EventScript_Axle::
 	end
 
 Route19_Text_AxleIntro::
-    .string "Ahoy, there!\n"
-    .string "These waters are treacherous!$"
+    .string "Ei!\n"
+    .string "Aquestes aigües són perilloses!$"
 
 Route19_Text_AxleDefeat::
-    .string "Ooh!\n"
-    .string "Dangerous!$"
+    .string "Uuh!\n"
+    .string "Perillós!$"
 
 Route19_Text_AxlePostBattle::
-    .string "M-my legs! They cramped up!\n"
-    .string "Glub, glub…$"
+    .string "L-les cames! Se m'han\n"
+    .string "enrampar! Glub, glub…$"
 
 Route19_EventScript_Anya::
 	trainerbattle_single TRAINER_SWIMMER_FEMALE_ANYA, Route19_Text_AnyaIntro, Route19_Text_AnyaDefeat
@@ -169,16 +169,16 @@ Route19_EventScript_Anya::
 	end
 
 Route19_Text_AnyaIntro::
-    .string "Oh, I just love your ride!\n"
-    .string "Can I have it if I win?$"
+    .string "Oh, m'encanta el teu vehicle!\n"
+    .string "Me'l puc quedar si guanyo?$"
 
 Route19_Text_AnyaDefeat::
-    .string "Oh! I lost!$"
+    .string "Oh! He perdut!$"
 
 Route19_Text_AnyaPostBattle::
-    .string "It's still a long way to go to\n"
-    .string "Seafoam Iskands…\p"
-    .string "I want to go back to Fuchsia…$"
+    .string "Encara queda molt per arribar\n"
+    .string "a les Illes Seafoam…\p"
+    .string "Vull tornar a Fuchsia…$"
 
 Route19_EventScript_Alice::
 	trainerbattle_single TRAINER_SWIMMER_FEMALE_ALICE, Route19_Text_AliceIntro, Route19_Text_AliceDefeat
@@ -186,15 +186,15 @@ Route19_EventScript_Alice::
 	end
 
 Route19_Text_AliceIntro::
-    .string "Swimming's great!\n"
-    .string "Sunburns aren't!$"
+    .string "Nedar és genial!\n"
+    .string "Les cremades de sol no!$"
 
 Route19_Text_AliceDefeat::
-    .string "Shocker!$"
+    .string "Quina sorpresa!$"
 
 Route19_Text_AlicePostBattle::
-    .string "My boyfriend wanted to swim to\n"
-    .string "Seafoam Islands.$"
+    .string "El meu xicot volia nedar fins\n"
+    .string "a les Illes Seafoam.$"
 
 Route19_EventScript_Connie::
 	trainerbattle_single TRAINER_SWIMMER_FEMALE_CONNIE, Route19_Text_ConnieIntro, Route19_Text_ConnieDefeat
@@ -202,17 +202,17 @@ Route19_EventScript_Connie::
 	end
 
 Route19_Text_ConnieIntro::
-    .string "I swam here with my friends…\n"
-    .string "I'm tired…$"
+    .string "He vingut nedant amb les amigues…\n"
+    .string "Estic cansada…$"
 
 Route19_Text_ConnieDefeat::
-    .string "I'm exhausted…$"
+    .string "Estic esgotada…$"
 
 Route19_Text_ConniePostBattle::
-    .string "If I were to ride a Pokémon on\n"
-    .string "the sea, I'd like a Lapras.\p"
-    .string "Lapras is so big, I bet it\n"
-    .string "would keep me dry on water.$"
+    .string "Si pogués anar sobre un Pokémon\n"
+    .string "al mar, voldria un Lapras.\p"
+    .string "Lapras és tan gran que segur\n"
+    .string "que em mantindria seca.$"
 
 Route19_EventScript_Lia::
 	trainerbattle_double TRAINER_SIS_AND_BRO_LIA_LUC, Route19_Text_LiaIntro, Route19_Text_LiaDefeat, Route19_Text_LiaNotEnoughMons
@@ -220,23 +220,22 @@ Route19_EventScript_Lia::
 	end
 
 Route19_Text_LiaIntro::
-    .string "Lia: I'm looking after my brother.\n"
-    .string "He just became a Trainer.$"
+    .string "Lia: Vigilo el meu germà.\n"
+    .string "Acaba de ser Entrenador.$"
 
 Route19_Text_LiaDefeat::
-    .string "Lia: That's no way to treat my\n"
-    .string "little brother!$"
+    .string "Lia: Així no es tracta el meu\n"
+    .string "germanet!$"
 
 Route19_Text_LiaPostBattle::
-    .string "Lia: Do you have a younger\n"
-    .string "brother?\p"
-    .string "I hope you're teaching him all\n"
-    .string "sorts of things.$"
+    .string "Lia: Tens un germà petit?\p"
+    .string "Espero que li ensenyis\n"
+    .string "moltes coses.$"
 
 Route19_Text_LiaNotEnoughMons::
-    .string "Lia: I want to battle together\n"
-    .string "with my little brother.\p"
-    .string "Don't you have two Pokémon?$"
+    .string "Lia: Vull combatre junt amb\n"
+    .string "el meu germanet.\p"
+    .string "No tens dos Pokémon?$"
 
 Route19_EventScript_Luc::
 	trainerbattle_double TRAINER_SIS_AND_BRO_LIA_LUC, Route19_Text_LucIntro, Route19_Text_LucDefeat, Route19_Text_LucNotEnoughMons
@@ -244,21 +243,22 @@ Route19_EventScript_Luc::
 	end
 
 Route19_Text_LucIntro::
-    .string "Luc: My big sis taught me how\n"
-    .string "to swim and train Pokémon.$"
+    .string "Luc: La meva germana gran\n"
+    .string "m'ha ensenyat a nedar i a\l"
+    .string "entrenar Pokémon.$"
 
 Route19_Text_LucDefeat::
-    .string "Luc: Oh, wow!\n"
-    .string "Someone tougher than my big sis!$"
+    .string "Luc: Uau!\n"
+    .string "Algú més fort que la germana!$"
 
 Route19_Text_LucPostBattle::
-    .string "Luc: My big sis is strong and nice.\n"
-    .string "I think she's awesome!$"
+    .string "Luc: La meva germana és forta\n"
+    .string "i amable. És genial!$"
 
 Route19_Text_LucNotEnoughMons::
-    .string "Luc: I don't want to if I can't\n"
-    .string "battle you with my big sis.\p"
-    .string "Don't you have two Pokémon?$"
+    .string "Luc: No vull si no puc combatre\n"
+    .string "amb la meva germana.\p"
+    .string "No tens dos Pokémon?$"
 
 Route19_RocketFugitive::
     trainerbattle_single TRAINER_FUGITIVE_M, RocketFugitive_Text_Intro, RocketFugitive_Text_Defeat

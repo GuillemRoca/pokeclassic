@@ -1470,52 +1470,53 @@ LilycoveCity_ContestLobby_Text_EggCannotTakePart:
 	.string "participar en un Concurs Pokémon.$"
 
 LilycoveCity_ContestLobby_Text_MonInNoConditionForContest:
-	.string "Your Pokémon appears to be in no\n"
-	.string "condition to take part in a Contest…$"
+	.string "El teu Pokémon no sembla estar\n"
+	.string "en condicions de participar en\l"
+	.string "un Concurs…$"
 
 LilycoveCity_ContestLobby_Text_AlreadyWonEnterAnyway:
-	.string "Oh, but that Ribbon…\p"
-	.string "Your Pokémon has won this Contest\n"
-	.string "before, hasn't it?\p"
-	.string "Would you like to enter it in this\n"
-	.string "Contest anyway?$"
+	.string "Oh, però aquesta Cinta…\p"
+	.string "El teu Pokémon ja ha guanyat aquest\n"
+	.string "Concurs abans, oi?\p"
+	.string "Vols inscriure'l en aquest\n"
+	.string "Concurs igualment?$"
 
 LilycoveCity_ContestLobby_Text_ConfirmContestMon:
-	.string "Is that your Contest Pokémon?$"
+	.string "Aquest és el teu Pokémon de Concurs?$"
 
 LilycoveCity_ContestLobby_Text_YourMonIsEntryNum4:
-	.string "Okay, your Pokémon will be entered\n"
-	.string "in this Contest.\p"
-	.string "Your Pokémon is Entry No. 4.\n"
-	.string "The Contest will begin shortly.$"
+	.string "D'acord, el teu Pokémon serà\n"
+	.string "inscrit en aquest Concurs.\p"
+	.string "El teu Pokémon és el Núm. 4.\n"
+	.string "El Concurs començarà aviat.$"
 
 LilycoveCity_ContestLobby_Text_ComeThroughHere:
-	.string "Please come in through here.\n"
-	.string "Good luck!$"
+	.string "Si us plau, entra per aquí.\n"
+	.string "Bona sort!$"
 
 LilycoveCity_ContestLobby_Text_PokemonWonWeHavePrize:
-	.string "Congratulations! Your Pokémon is the\n"
-	.string "Contest winner!\p"
-	.string "We have your prize right here.\n"
-	.string "Please, right this way!$"
+	.string "Felicitats! El teu Pokémon ha\n"
+	.string "guanyat el Concurs!\p"
+	.string "Tenim el teu premi aquí.\n"
+	.string "Si us plau, per aquí!$"
 
 LilycoveCity_ContestLobby_Text_ComeBackForPrizeLater:
-	.string "Please come back for your prize\n"
-	.string "later on.$"
+	.string "Torna a buscar el teu premi\n"
+	.string "més tard.$"
 
 ContestHall_Text_GettingStartedParticipantsAsFollows:
-	.string "MC: Hello! We're just getting started\n"
-	.string "with a {STR_VAR_3} Rank Pokémon\l"
-	.string "{STR_VAR_2}!\p"
-	.string "The participating Trainers and their\n"
-	.string "Pokémon are as follows:$"
+	.string "Presentador: Hola! Estem a punt de\n"
+	.string "començar un Concurs Pokémon de\l"
+	.string "{STR_VAR_2} de Rang {STR_VAR_3}!\p"
+	.string "Els Entrenadors participants i els\n"
+	.string "seus Pokémon són els següents:$"
 
 ContestHall_Text_GettingStartedParticipantsAsFollowsLink:
-	.string "MC: Hello! We're just getting started\n"
-	.string "with a 4-player linked Pokémon\l"
-	.string "{STR_VAR_2}!\p"
-	.string "The participating Trainers and their\n"
-	.string "Pokémon are as follows:$"
+	.string "Presentador: Hola! Estem a punt de\n"
+	.string "començar un Concurs Pokémon de\l"
+	.string "{STR_VAR_2} connectat de 4!\p"
+	.string "Els Entrenadors participants i els\n"
+	.string "seus Pokémon són els següents:$"
 
 ContestHall_Text_EntryXTrainersMon:
 	.string "MC: Entry No. {STR_VAR_2}!\n"

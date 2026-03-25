@@ -21,12 +21,12 @@ CeruleanCity_PokemonCenter_1F_EventScript_Gentleman::
 	end
 
 CeruleanCity_PokemonCenter_1F_Text_EveryoneCallsBillPokemaniac::
-    .string "Have you heard about Bill?\p"
-    .string "Everyone calls him a PokéManiac!\p"
-    .string "I think people are just jealous of\n"
-    .string "Bill, though.\p"
-    .string "Who wouldn't want to boast about\n"
-    .string "their Pokémon?$"
+    .string "Has sentit parlar d'en Bill?\p"
+    .string "Tothom l'anomena PokéManíac!\p"
+    .string "Crec que la gent està gelosa\n"
+    .string "d'en Bill, però.\p"
+    .string "Qui no voldria presumir dels\n"
+    .string "seus Pokémon?$"
 
 CeruleanCity_PokemonCenter_1F_EventScript_MetBill:
 	msgbox CeruleanCity_PokemonCenter_1F_Text_BillNumber, MSGBOX_NPC
@@ -34,10 +34,10 @@ CeruleanCity_PokemonCenter_1F_EventScript_MetBill:
 	end
 
 CeruleanCity_PokemonCenter_1F_Text_BillNumber::
-	.string "Oh, so you've met Bill\n"
-	.string "And he even gave you his\l"
-	.string "Cell Phone number!\p"
-	.string "Wow, he's so approachable!$"
+	.string "Oh, has conegut en Bill?\n"
+	.string "I fins i tot t'ha donat el\l"
+	.string "seu número de mòbil!\p"
+	.string "Uau, és molt accessible!$"
 
 CeruleanCity_PokemonCenter_1F_EventScript_Rocker::
 	goto_if_set FLAG_REGISTERED_BILL, CeruleanCity_PokemonCenter_1F_EventScript_IsItTrueAboutBill
@@ -45,11 +45,11 @@ CeruleanCity_PokemonCenter_1F_EventScript_Rocker::
 	end
 
 CeruleanCity_PokemonCenter_1F_Text_BillDoesWhateverForRareMons::
-    .string "That Bill!\p"
-    .string "I heard that he'll do whatever it\n"
-    .string "takes to get rare Pokémon.\p"
-    .string "He's not above doing all sorts\n"
-    .string "of things, I've heard.$"
+    .string "Aquest Bill!\p"
+    .string "He sentit que fa el que sigui\n"
+    .string "per aconseguir Pokémon rars.\p"
+    .string "No es talla de fer tota mena\n"
+    .string "de coses, m'han dit.$"
 
 CeruleanCity_PokemonCenter_1F_EventScript_IsItTrueAboutBill::
 	msgbox CeruleanCity_PokemonCenter_1F_Text_IsItTrue, MSGBOX_NPC
@@ -57,10 +57,10 @@ CeruleanCity_PokemonCenter_1F_EventScript_IsItTrueAboutBill::
 	end
 
 CeruleanCity_PokemonCenter_1F_Text_IsItTrue::
-	.string "Oh, you've met Bill?\p"
-	.string "Is it true what they say?\n"
-	.string "Will he do anything to get\l"
-	.string "rare Pokémon?$"
+	.string "Oh, has conegut en Bill?\p"
+	.string "És veritat el que diuen?\n"
+	.string "Farà qualsevol cosa per\l"
+	.string "aconseguir Pokémon rars?$"
 
 
 CeruleanCity_PokemonCenter_1F_EventScript_Youngster::
@@ -69,20 +69,21 @@ CeruleanCity_PokemonCenter_1F_EventScript_Youngster::
 	end
 
 CeruleanCity_PokemonCenter_1F_Text_BillCollectsRareMons::
-    .string "Bill has lots of Pokémon!\n"
-    .string "He collects rare ones, too!$"
+    .string "En Bill té molts Pokémon!\n"
+    .string "Col·lecciona els rars, també!$"
 
 CeruleanCity_PokemonCenter_1F_EventScript_Lass::
 	msgbox CeruleanCity_PokemonCenter_1F_Text_TryTradingUpstairs, MSGBOX_NPC
 	end
 
 CeruleanCity_PokemonCenter_1F_Text_TryTradingUpstairs::
-    .string "Back in my day, we would go upstairs\n"
-    .string "and trade Pokémon with our friends.\p"
-    .string "You could get a lot more variety\n"
-    .string "by trading.\p"
-    .string "But nobody seems to trade POKéMON\n"
-    .string "these days.$"
+    .string "Abans, pujàvem al pis de dalt\n"
+    .string "i intercanviàvem Pokémon amb\l"
+    .string "els amics.\p"
+    .string "Podies aconseguir molta més\n"
+    .string "varietat intercanviant.\p"
+    .string "Però sembla que ja ningú\n"
+    .string "intercanvia POKéMON avui dia.$"
 
 CeruleanCity_PokemonCenter_1F_EventScript_PokemonJournalMisty::
 	msgbox PokemonJournal_Text_SpecialFeatureMisty, MSGBOX_SIGN
@@ -90,8 +91,8 @@ CeruleanCity_PokemonCenter_1F_EventScript_PokemonJournalMisty::
 	end
 
 PokemonJournal_Text_SpecialFeatureMisty::
-	.string "Pokémon Journal:\p"
-	.string "Special Feature: Cerulean Gym\n"
-	.string "Leader Misty!\p"
-	.string "Misty is said to worship Lorelei\n"
-	.string "of the Elite Four.$"
+	.string "Diari Pokémon:\p"
+	.string "Reportatge: Líder del Gimnàs\n"
+	.string "de Cerulean, Misty!\p"
+	.string "Es diu que la Misty venera la\n"
+	.string "Lorelei de l'Alt Comandament.$"
