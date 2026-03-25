@@ -73,24 +73,24 @@ PalletTown_ProfessorOaksLab_Text_RivalFedUpWithWaiting:
 PalletTown_ProfessorOaksLab_Text_TakeStarter::
     .string "Oak: {RIVAL}?\n"
     .string "Deixa'm pensar…\p"
-    .string "Oh, és veritat, et vaig dir que\n"
+    .string "Ah, és veritat, et vaig dir que\n"
     .string "vinguessis! Espera't!\p"
-    .string "Aquí, {PLAYER}.\p"
-    .string "Hi ha una Poké Ball a la taula.\p"
+    .string "Mira, {PLAYER}.\p"
+    .string "Hi ha una Pokéball a la taula.\p"
     .string "Quan era jove, era un Entrenador\n"
-    .string "Pokémon molt seriós.\p"
-    .string "Però ara, de gran, estudio\n"
+    .string "de Pokémon de debò.\p"
+    .string "Però ara, de gran, estudio els\n"
     .string "Pokémon més que no pas lluito.\p"
-    .string "M'agradaria que criessis\n"
-    .string "aquest Pokémon per mi!$"
+    .string "M'agradaria que cries aquest\n"
+    .string "Pokémon per mi!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalNoFairWhatAboutMe::
-    .string "{RIVAL}: Ei! Avi! No és just!\n"
-    .string "I jo què?$"
+    .string "{RIVAL}: Ep! Avi! No és just!\n"
+    .string "I jo, què?$"
 
 PalletTown_ProfessorOaksLab_Text_OakBePatientRival::
     .string "Oak: Paciència, {RIVAL}.\p"
-    .string "Et portaré a atrapar\n"
+    .string "Ja et portaré a atrapar \n"
     .string "el teu propi Pokémon més tard.$"
 
 PalletTown_ProfessorOaksLab_EventScript_ApproachPokeBallBehindDesk::
@@ -135,8 +135,8 @@ Movement_StealEeveeTooSlow::
 
 PalletTown_ProfessorOaksLab_Text_TooSlow::
 	.string "{RIVAL}: Massa lent, {PLAYER}!\p"
-	.string "Això et passa per fer\n"
-	.string "el camí llarg.$"
+	.string "Això et passa per anar\n"
+	.string "pel camí llarg.$"
 
 Movement_PlayerReturnToOakFar::
 	walk_left
@@ -291,31 +291,31 @@ Movement_PikachuJoinsParty::
 PalletTown_ProfessorOaksLab_Text_PikachuFromEarlier:
 	.string "Oak: Tècnicament, aquell no era\n"
 	.string "el meu últim Pokémon.\p"
-	.string "Encara tinc el Pikachu\n"
-	.string "que vaig atrapar abans...\p"
+	.string "Encara tinc el Pikachu que\n"
+	.string "he atrapat abans...\p"
 	.string "Anava a tornar-lo al seu\n"
-	.string "hàbitat natural, però potser\l"
-	.string "hauries d'agafar-lo tu.$"
+	.string "hàbitat natural, però\l"
+	.string "potser te l'hauries d'endur.$"
 
 PalletTown_ProfessorOaksLab_Text_PikachuBrokeFree:
 	.string "Oak: Increïble!\p"
-	.string "Ha sortit de la seva Poké Ball!$"
+	.string "Ha sortit de la Pokéball!$"
 
 PalletTown_ProfessorOaksLab_Text_PikachuWantsToFollow:
 	.string "Oak: Sembla que li has despertat\n"
 	.string "molt d'interès, {PLAYER}.\p"
-	.string "Sembla que Pikachu ja ha pres\n"
-	.string "la seva decisió!\p"
-	.string "Hauries d'agafar aquest\n"
-	.string "Pokémon, sens dubte.$"
+	.string "Sembla que Pikachu ja ha\n"
+	.string "pres la seva decisió!\p"
+	.string "Hauries d'endur-te aquest\n"
+	.string "Pokémon sens dubte.$"
 
 PalletTown_ProfessorOaksLab_Text_PikachuJoinedTeam:
 	.string "Pikachu ha decidit quedar-se\n"
 	.string "al costat de {PLAYER}!$"
 
 PalletTown_ProfessorOaksLab_Text_WhyNotGiveNicknameToMon:
-	.string "Oak: Ei, per què no li poses\n"
-	.string "un malnom al teu nou company?$"
+	.string "Oak: Per què no li poses un\n"
+	.string "malnom al teu nou company?$"
 
 PalletTown_ProfessorOaksLab_EventScript_NicknameStarter::
 	setvar VAR_0x8004, 0
@@ -363,12 +363,12 @@ PalletTown_ProfessorOaksLab_Text_RivalLetsCheckOutMons::
     .string "{RIVAL}: Espera, {PLAYER}!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalBattleIntro::
-    .string "Comprovem els nostres Pokémon!\p"
-    .string "Vinga, m'hi enfronto!$"
+    .string "Mirem-nos els Pokémon!\p"
+    .string "Va, t'hi desafio!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalDefeated::
     .string "{RIVAL}: QUÈ?\n"
-    .string "Increïble!\l"
+    .string "No m'ho puc creure!\l"
     .string "He triat el Pokémon equivocat!$"
 
 PalletTown_ProfessorOaksLab_EventScript_RivalBattleOutcome::
@@ -384,7 +384,7 @@ PalletTown_ProfessorOaksLab_EventScript_RivalBattleLost::
 
 PalletTown_ProfessorOaksLab_Text_RivalVictory::
     .string "{RIVAL}: Sí!\n"
-    .string "Sóc genial o què?$"
+    .string "Soc el millor o què?$"
 
 PalletTown_ProfessorOaksLab_EventScript_RivalBattleWon::
 	addvar VAR_RIVAL_WINRATE, 1
@@ -393,10 +393,10 @@ PalletTown_ProfessorOaksLab_EventScript_RivalBattleWon::
 	end
 
 PalletTown_ProfessorOaksLab_Text_RivalGoToughenMyMon::
-    .string "{RIVAL}: D'acord! Faré lluitar\n"
-    .string "el meu Pokémon per endurir-lo!\p"
+    .string "{RIVAL}: D'acord! Faré lluitar el\n"
+    .string "meu Pokémon per enfortir-lo!\p"
     .string "{PLAYER}! Avi!\n"
-    .string "Ens veiem!$"
+    .string "Ja ens veurem!$"
 
 PalletTown_ProfessorOaksLab_EventScript_PostRivalBattle::
 	closemessage
@@ -628,57 +628,56 @@ Movement_RivalLeavesWithPokedex:
 PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe::
     .string "Oak: Oh, {PLAYER}!\n"
     .string "Com va el teu nou Pokémon?\p"
-    .string "Bé, sembla que s'ha encariñat\n"
-    .string "amb tu.\p"
+    .string "Bé, sembla que s'encarinya\n"
+    .string "cada cop més amb tu.\p"
     .string "Deus tenir talent com a\n"
-    .string "Entrenador Pokémon.\p"
+    .string "Entrenador de Pokémon.\p"
     .string "Què és això?\n"
     .string "Tens alguna cosa per a mi?$"
 
 PalletTown_ProfessorOaksLab_Text_DeliveredOaksParcel::
     .string "{PLAYER} ha lliurat el Paquet\n"
-    .string "d'Oak.$"
+    .string "del Prof. Oak.$"
 
 PalletTown_ProfessorOaksLab_Text_OakCustomBallIOrdered::
     .string "Ah! \n"
     .string "La Poké Ball personalitzada!\p"
-    .string "La tenia encarregada.\n"
+    .string "L'havia encarregat.\n"
     .string "Gràcies!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalGramps::
     .string "{RIVAL}: Avi!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalWhatDidYouCallMeFor::
-    .string "{RIVAL}: Quasi ho oblido!\n"
-    .string "Per a què em vas trucar?$"
+    .string "{RIVAL}: Gairebé me n'oblido!\n"
+    .string "Per què m'has cridat?$"
 
 PalletTown_ProfessorOaksLab_Text_OakHaveRequestForYouTwo::
-    .string "Oak: Oh, és veritat!\n"
-    .string "Tinc una petició per a vosaltres.$"
+    .string "Oak: Ah, és veritat!\n"
+    .string "Tinc un encàrrec per a vosaltres.$"
 
 PalletTown_ProfessorOaksLab_Text_OakPokedexOnDesk::
     .string "A la taula hi ha la meva invenció,\n"
     .string "la Pokédex!\p"
     .string "Registra automàticament dades\n"
-    .string "dels Pokémon que has vist\l"
-    .string "o atrapat.\p"
+    .string "dels Pokémon vistos o atrapats.\p"
     .string "És una enciclopèdia d'alta\n"
     .string "tecnologia!$"
 
 PalletTown_ProfessorOaksLab_Text_OakTakeTheseWithYou::
     .string "Oak: {PLAYER} i {RIVAL}.\n"
-    .string "Endus-vos-les.$"
+    .string "Endur-vos-les.$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedPokedexFromOak::
     .string "{PLAYER} ha rebut la Pokédex\n"
     .string "del Professor Oak!$"
 
 PalletTown_ProfessorOaksLab_Text_OakCatchMonsForDataTakeThese::
-    .string "Oak: No pots obtenir dades\n"
-    .string "detallades només veient Pokémon.\p"
-    .string "Has d'atrapar-los per obtenir\n"
-    .string "dades completes.\p"
-    .string "Així que aquí tens eines per\n"
+    .string "Oak: No podeu obtenir dades\n"
+    .string "detallades només veient-los.\p"
+    .string "Heu d'atrapar els Pokémon per\n"
+    .string "tenir dades completes.\p"
+    .string "Així que aquí teniu eines per\n"
     .string "atrapar Pokémon salvatges.$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls::
@@ -686,7 +685,7 @@ PalletTown_ProfessorOaksLab_Text_ReceivedFivePokeBalls::
 
 PalletTown_ProfessorOaksLab_Text_OakExplainCatching::
     .string "Quan apareix un Pokémon salvatge,\n"
-    .string "és objectiu legítim.\p"
+    .string "és una presa legítima.\p"
     .string "Llança-li una Poké Ball i\n"
     .string "intenta atrapar-lo!\p"
     .string "Però no sempre funciona.\p"
@@ -696,26 +695,26 @@ PalletTown_ProfessorOaksLab_Text_OakExplainCatching::
 PalletTown_ProfessorOaksLab_Text_OakCompleteMonGuideWasMyDream::
     .string "Fer una guia completa de tots\n"
     .string "els Pokémon del món…\p"
-    .string "Això era el meu somni!\p"
-    .string "Però sóc massa gran.\n"
-    .string "No puc fer-ho.\p"
+    .string "Aquest era el meu somni!\p"
+    .string "Però soc massa gran.\n"
+    .string "No puc fer-ho jo sol.\p"
     .string "Així que vull que vosaltres dos\n"
     .string "compliu el meu somni.\p"
-    .string "Poseu-vos en marxa.\p"
+    .string "Poseu-vos en marxa, tots dos.\p"
     .string "Aquesta és una gran empresa\n"
     .string "en la història Pokémon!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalLeaveItToMeGramps::
-    .string "{RIVAL}: D'acord, avi!\n"
+    .string "{RIVAL}: Molt bé, Avi!\n"
     .string "Deixa-m'ho tot a mi!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalTellSisNotToGiveYouNumber::
-    .string "{PLAYER}, no m'agrada dir-ho,\n"
-    .string "però no et necessitaré.\p"
-    .string "A partir d'ara vas pel teu\n"
-    .string "compte, no em truquis!\p"
+    .string "{PLAYER}, em sap greu dir-t'ho,\n"
+    .string "però no et necessito per a res.\p"
+    .string "A partir d'aquí vas pel teu\n"
+    .string "compte, així que no em truquis!\p"
     .string "I no intentis aconseguir el meu\n"
-    .string "número de la meva germana.\p"
+    .string "número a través de la meva germana.\p"
     .string "Li diré que no te'l doni,\n"
     .string "{PLAYER}! Hahaha!$"
 
@@ -733,8 +732,8 @@ PalletTown_ProfessorOaksLab_EventScript_RivalWaiting::
 	end
 
 PalletTown_ProfessorOaksLab_Text_RivalGrampsIsntAround::
-    .string "{RIVAL}: Què, només ets {PLAYER}?\n"
-    .string "L'avi no hi és.$"
+    .string "{RIVAL}: Què, només ets tu,\n"
+    .string "{PLAYER}? L'Avi no hi és.$"
 
 PalletTown_ProfessorOaksLab_EventScript_RivalNotGreedy::
 	lock
@@ -744,8 +743,8 @@ PalletTown_ProfessorOaksLab_EventScript_RivalNotGreedy::
 	end
 
 PalletTown_ProfessorOaksLab_Text_RivalGoChoosePlayer:
-    .string "{RIVAL}: Heh, no necessito ser\n"
-    .string "avariciós com tu. Sóc madur!\p"
+    .string "{RIVAL}: Bah, no necessito ser\n"
+    .string "cobdiciós com tu. Soc madur!\p"
     .string "Endavant, agafa'l, {PLAYER}!$"
 
 PalletTown_ProfessorOaksLab_EventScript_RivalMyMonLooksTough::
@@ -757,24 +756,26 @@ PalletTown_ProfessorOaksLab_EventScript_RivalMyMonLooksTough::
 
 PalletTown_ProfessorOaksLab_Text_RivalMyMonLooksTougher::
     .string "{RIVAL}: El meu Pokémon sembla\n"
-    .string "molt més dur que el teu, {PLAYER}.$"
+    .string "molt més fort que el teu,\l"
+    .string "{PLAYER}.$"
 
 PalletTown_ProfessorOaksLab_EventScript_Computer::
 	msgbox PalletTown_ProfessorOaksLab_Text_EmailMessage, MSGBOX_SIGN
 	end
 
 PalletTown_ProfessorOaksLab_Text_EmailMessage::
-    .string "Hi ha un missatge de correu.\p"
+    .string "Hi ha un missatge de correu aquí.\p"
     .string "…\p"
     .string "Per fi!\n"
-    .string "Els entrenadors definitius de\l"
-    .string "la Lliga Pokémon estan\l"
-    .string "preparats per a tots!\p"
+    .string "Els entrenadors definitius de la\l"
+    .string "Lliga Pokémon estan preparats\l"
+    .string "per a tots els aspirants!\p"
     .string "Porta els teus millors Pokémon\n"
-    .string "i mira com ets d'entrenador!\p"
+    .string "i descobreix la teva vàlua com\l"
+    .string "a Entrenador!\p"
     .string "Seu de la Lliga Pokémon\n"
     .string "Altiplà Índigo\p"
-    .string "Prof. Oak, visiti'ns!\n"
+    .string "Prof. Oak, visiteu-nos!\n"
     .string "…$"
 
 PalletTown_ProfessorOaksLab_EventScript_LeftSign::
@@ -803,8 +804,8 @@ PalletTown_ProfessorOaksLab_EventScript_Aide1::
 	end
 
 PalletTown_ProfessorOaksLab_Text_StudyAsOaksAide::
-    .string "Estudio Pokémon com a ajudant\n"
-    .string "del Prof. Oak.$"
+    .string "Estudio els Pokémon com a\n"
+    .string "ajudant del Prof. Oak.$"
 
 PalletTown_ProfessorOaksLab_EventScript_Aide2::
 	lock
@@ -815,8 +816,9 @@ PalletTown_ProfessorOaksLab_EventScript_Aide2::
 	end
 
 PalletTown_ProfessorOaksLab_Text_CedarRunsErrands::
-    .string "La Cedar és l'ajudant més nova\n"
-    .string "del lab, sempre fent encàrrecs.$"
+    .string "La Cedar és l'ajudant més nova del\n"
+    .string "laboratori, així que sempre fa\l"
+    .string "encàrrecs.$"
 
 PalletTown_ProfessorOaksLab_EventScript_JealousAide::
 	msgbox PalletTown_ProfessorOaksLab_Text_Jealous
@@ -824,10 +826,10 @@ PalletTown_ProfessorOaksLab_EventScript_JealousAide::
 	end
 
 PalletTown_ProfessorOaksLab_Text_Jealous::
-    .string "Si sóc sincer, la feina de lab\n"
-    .string "pot ser una mica avorrida.\p"
-    .string "Al principi em burlava d'ella,\n"
-    .string "però ara tinc enveja que la\l"
+    .string "Si soc sincer, treballar al lab\n"
+    .string "pot ser una mica avorrit.\p"
+    .string "Al principi me'n reia, però ara\n"
+    .string "tinc una mica d'enveja que la\l"
     .string "Cedar hagi pogut viatjar tant!$"
 
 PalletTown_ProfessorOaksLab_EventScript_Cedar::
@@ -842,8 +844,8 @@ PalletTown_ProfessorOaksLab_EventScript_Cedar::
 
 PalletTown_ProfessorOaksLab_Text_JustJoined::
     .string "Cedar: Hola. Encantada!\n"
-    .string "Acabo d'unir-me a l'equip del\l"
-    .string "Professor Oak.\p"
+    .string "Fa poc que m'he unit a l'equip\l"
+    .string "del Professor Oak.\p"
     .string "Estic il·lusionada de treballar\n"
     .string "amb tothom.$"
 
@@ -851,9 +853,9 @@ PalletTown_ProfessorOaksLab_EventScript_CedarPostgame::
 	msgbox PalletTown_ProfessorOaksLab_Text_CedarHiPlayer, MSGBOX_DEFAULT
 	goto_if_unset FLAG_RECEIVED_CATCHING_CHARM, PalletTown_ProfessorOaksLab_EventScript_GetCatchingCharm
 	goto_if_unset FLAG_RECEIVED_OVAL_CHARM, PalletTown_ProfessorOaksLab_EventScript_GetOvalCharm
-PalletTown_ProfessorOaksLab_EventScript_CedarCheckNext::
+PalletTown_ProfessorOaksLab_EventScript_CedarCheckNext:
 	goto_if_unset FLAG_RECEIVED_SHINY_CHARM, PalletTown_ProfessorOaksLab_EventScript_GetShinyCharm
-PalletTown_ProfessorOaksLab_EventScript_CedarMaybeMoreItems::
+PalletTown_ProfessorOaksLab_EventScript_CedarMaybeMoreItems:
 	msgbox PalletTown_ProfessorOaksLab_Text_MaybeMoreItems, MSGBOX_DEFAULT
 	release
 	end
@@ -872,16 +874,16 @@ PalletTown_ProfessorOaksLab_EventScript_GetCatchingCharm::
 	end
 
 PalletTown_ProfessorOaksLab_Text_CatchingCharmReward::
-	.string "Uau! Has derrotat l'Alt\n"
-	.string "Comandament? Quina fita!\p"
-	.string "Encara queden Pokémon\n"
+	.string "Uau! Has derrotat l'Alt Comandament?\n"
+	.string "Quina fita!\p"
+	.string "Saps, encara hi ha més Pokémon\n"
 	.string "per veure allà fora.\p"
 	.string "Això t'ajudarà a completar\n"
 	.string "la Pokédex!$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedCatchingCharm::
-	.string "{PLAYER} ha guanyat l'Amulet\n"
-	.string "Captura!"
+	.string "{PLAYER} ha obtingut el\n"
+	.string "Talismà de Captura!"
 
 PalletTown_ProfessorOaksLab_EventScript_GetOvalCharm::
 	goto_if_unset FLAG_CLEARED_SECRET_BATTLE, PalletTown_ProfessorOaksLab_EventScript_CedarCheckNext
@@ -897,15 +899,16 @@ PalletTown_ProfessorOaksLab_EventScript_GetOvalCharm::
 	end
 
 PalletTown_ProfessorOaksLab_Text_OvalCharmReward::
-	.string "Uau! Has derrotat el Professor\n"
-	.string "Oak? Quina fita!\p"
+	.string "Uau! Has derrotat el Professor Oak?\n"
+	.string "Quina fita!\p"
 	.string "Criar Pokémon és tan important\n"
-	.string "com lluitar.\p"
+	.string "com lluitar, ho saps.\p"
 	.string "Això t'ajudarà a criar nous\n"
 	.string "Pokémon!$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedOvalCharm::
-	.string "{PLAYER} ha guanyat l'Amulet Oval!"
+	.string "{PLAYER} ha obtingut el\n"
+	.string "Talismà Oval!"
 
 PalletTown_ProfessorOaksLab_EventScript_GetShinyCharm::
 	specialvar VAR_RESULT, HasAllHoennMons
@@ -923,15 +926,16 @@ PalletTown_ProfessorOaksLab_EventScript_GetShinyCharm::
 
 PalletTown_ProfessorOaksLab_Text_ShinyCharmReward::
 	.string "Increïble! Els has atrapat tots?\n"
-	.string "Quina fita impressionant!\p"
-	.string "He sentit que els Pokémon\n"
-	.string "tenen variacions rares.\p"
-	.string "Mai no n'he vist cap...\p"
-	.string "Potser això t'ajudi a trobar-los!$"
+	.string "Quina fita tan impressionant!\p"
+	.string "He sentit que els Pokémon tenen\n"
+	.string "variacions rares.\p"
+	.string "Jo no n'he vist mai cap, però...\p"
+	.string "Això et podria ajudar a\n"
+	.string "trobar-los!$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedShinyCharm::
-	.string "{PLAYER} ha guanyat l'Amulet\n"
-	.string "Lluent!"
+	.string "{PLAYER} ha obtingut el\n"
+	.string "Talismà Cromat!"
 
 Cedar_CheckCharms::
 	goto_if_unset FLAG_RECEIVED_CATCHING_CHARM, Common_EventScript_Return
@@ -947,34 +951,34 @@ PalletTown_ProfessorOaksLab_EventScript_CedarAllItems::
 
 PalletTown_ProfessorOaksLab_Text_CedarHiPlayer:
 	.string "Cedar: Hola, {PLAYER}!\n"
-	.string "Véns a veure el Prof?\p"
+	.string "Véns a veure el Prof.?\p"
 	.string "Oh? Has vingut a veure'm?$"
 
 PalletTown_ProfessorOaksLab_Text_MaybeMoreItems::
 	.string "Hmm, ara mateix no tinc cap\n"
 	.string "objecte nou per donar-te.\p"
 	.string "M'encantaria seguir sentint\n"
-	.string "les teves aventures!\p"
-	.string "Si tens alguna fita per\n"
-	.string "explicar-me, podria convèncer\l"
-	.string "el Prof. Oak de donar-te\l"
-	.string "alguna cosa bona!$"
+	.string "les teves aventures, però!\p"
+	.string "Si tens alguna fita important\n"
+	.string "per explicar-me, podria convèncer\l"
+	.string "el Prof. Oak de donar-te alguna\l"
+	.string "cosa bona!$"
 
 PalletTown_ProfessorOaksLab_Text_WhatAJourney::
 	.string "Cedar: Oh, {PLAYER}!\n"
-	.string "Que bonic veure't.\p"
-	.string "Ara no tinc cap objecte nou\n"
-	.string "per a tu. Ha!\p"
-	.string "Quan vaig entrar al lab del\n"
-	.string "Prof. Oak, no esperava viatjar\l"
-	.string "tant!\p"
+	.string "Que bé veure't.\p"
+	.string "Aquesta vegada no tinc objectes\n"
+	.string "nous per a tu, però. Ha!\p"
+	.string "Saps, quan vaig entrar al Lab del\n"
+	.string "Prof. Oak, no estava contenta de\l"
+	.string "passar tant de temps viatjant!\p"
 	.string "Però seguir el teu viatge va ser\n"
-	.string "una aventura per a mi!\p"
-	.string "Vaig veure tant de Kanto, i vaig\n"
-	.string "entendre la vida d'Entrenador.\p"
+	.string "també una aventura per a mi!\p"
+	.string "Vaig veure molt de Kanto, i vaig\n"
+	.string "saber com és la vida d'Entrenador.\p"
 	.string "Ara entenc per què el Prof. Oak\n"
-	.string "em va donar aquella feina.\p"
-	.string "Gràcies per l'aventura!$"
+	.string "em va donar aquella tasca.\p"
+	.string "Així que gràcies per l'aventura!$"
 
 PalletTown_ProfessorOaksLab_EventScript_Pokedex::
 	msgbox PalletTown_ProfessorOaksLab_Text_BlankEncyclopedia, MSGBOX_NPC
@@ -990,8 +994,8 @@ PalletTown_ProfessorOaksLab_EventScript_LastPokeBall::
 	end
 
 PalletTown_ProfessorOaksLab_Text_OaksLastMon::
-    .string "Aquell és l'últim Pokémon\n"
-    .string "del Prof. Oak.$"
+    .string "És l'últim Pokémon del\n"
+    .string "Prof. Oak.$"
 
 PalletTown_ProfessorOaksLab_EventScript_ProfOak::
 	lock
@@ -1012,7 +1016,7 @@ PalletTown_ProfessorOaksLab_EventScript_GoTakePokeball::
 
 PalletTown_ProfessorOaksLab_Text_TakeMyPokemon::
     .string "Oak: Ara, {PLAYER}.\p"
-    .string "Dins d'aquella Poké Ball hi ha\n"
+    .string "Dins d'aquella Pokéball hi ha\n"
     .string "un dels meus Pokémon.\p"
     .string "Si us plau, cuida'l bé!$"
 
@@ -1046,7 +1050,7 @@ PalletTown_ProfessorOaksLab_EventScript_OakMonsAroundWorldWait::
 	end
 
 PalletTown_ProfessorOaksLab_Text_OakMonsAroundWorldWait::
-    .string "Els Pokémon de tot el món\n"
+    .string "Els Pokémon d'arreu del món\n"
     .string "t'esperen, {PLAYER}!$"
 
 EventScript_RegisterProfOak::
@@ -1093,4 +1097,3 @@ ProfOak_EventScript_RatePokedex::
 	msgbox gOakDexRatingText_SoYouveSeenAndCaught, MSGBOX_DEFAULT
 	call ProfOak_EventScript_ShowRatingMessage
 	return
-
