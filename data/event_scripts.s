@@ -666,8 +666,8 @@ EventScript_RegionMap::
 	end
 
 Common_Text_LookCloserAtMap:
-	.string "{PLAYER} took a closer look at the\n"
-	.string "map.$"
+	.string "{PLAYER} va mirar més de prop\n"
+	.string "el mapa.$"
 
 .include "data/scripts/prof_birch.inc"
 
@@ -725,8 +725,8 @@ Common_EventScript_NameReceivedPartyMon::
 	return
 
 Text_GiveNicknameToThisMon::
-	.string "Do you want to give a nickname to\n"
-	.string "this {STR_VAR_1}?$"
+	.string "Vols posar un sobrenom\n"
+	.string "a aquest {STR_VAR_1}?$"
 
 Common_EventScript_PlayerHandedOverTheItem::
 	bufferitemname STR_VAR_1, VAR_0x8004
@@ -774,7 +774,7 @@ Event_EndDemo::
 	end
 
 Text_EndofDemo::
-	.string "THIS IS THE END OF THE DEMO.$"
+	.string "AQUEST ÉS EL FINAL DE LA DEMO.$"
 
 EventScript_SetExitingCyclingRoad::
 	lockall
@@ -792,123 +792,125 @@ EventScript_SetEnteringCyclingRoad::
 
 @ The below and surf.inc could be split into some text/notices.inc
 gText_PokemartSign::
-	.string "“Selected items for your convenience!”\n"
-	.string "Pokémon Mart$"
+	.string "“Objectes triats per a tu!”\n"
+	.string "Botiga Pokémon$"
 
 gText_PokemonCenterSign::
-	.string "“Rejuvenate your tired partners!”\n"
-	.string "Pokémon Center$"
+	.string "“Revifa els teus companys cansats!”\n"
+	.string "Centre Pokémon$"
 
 gText_MomOrDadMightLikeThisProgram::
-	.string "{STR_VAR_1} might like this program.\n"
+	.string "A {STR_VAR_1} li agradaria\n"
+	.string "aquest programa.\p"
 	.string "… … … … … … … … … … … … … … … …\p"
-	.string "Better get going!$"
+	.string "Millor que me'n vagi!$"
 
 gText_WhichFloorWouldYouLike::
-	.string "Which floor would you like?$"
+	.string "A quina planta vols anar?$"
 
 gText_SandstormIsVicious::
-	.string "The sandstorm is vicious.\n"
-	.string "It's impossible to keep going.$"
+	.string "La tempesta de sorra és feroz.\n"
+	.string "És impossible continuar.$"
 
 gText_SelectWithoutRegisteredItem::
-	.string "An item in the Bag can be\n"
-	.string "registered to Select for easy use.$"
+	.string "Un objecte de la Motxilla es\n"
+	.string "pot assignar a Select.$"
 
 gText_LWithoutRegisteredItem::
-	.string "An item in the Bag can be\n"
-	.string "registered to L for easy use.$"
+	.string "Un objecte de la Motxilla es\n"
+	.string "pot assignar a L.$"
 
 gText_RWithoutRegisteredItem::
-	.string "An item in the Bag can be\n"
-	.string "registered to R for easy use.$"
+	.string "Un objecte de la Motxilla es\n"
+	.string "pot assignar a R.$"
 
 gText_PokemonTrainerSchoolEmail::
-	.string "There's an e-mail from Pokémon Trainer\n"
-	.string "School.\p"
+	.string "Hi ha un e-mail de l'Escola\n"
+	.string "d'Entrenadors Pokémon.\p"
 	.string "… … … … … …\p"
-	.string "A Pokémon may learn up to four moves.\p"
-	.string "A Trainer's expertise is tested on the\n"
-	.string "move sets chosen for Pokémon.\p"
+	.string "Un Pokémon pot aprendre fins a\n"
+	.string "quatre moviments.\p"
+	.string "L'habilitat d'un Entrenador es\n"
+	.string "demostra pels moviments triats.\p"
 	.string "… … … … … …$"
 
 gText_PlayerHouseBootPC::
-	.string "{PLAYER} booted up the PC.$"
+	.string "{PLAYER} va encendre el PC.$"
 
 gText_PokeblockLinkCanceled::
-	.string "The link was canceled.$"
+	.string "La connexió s'ha cancel·lat.$"
 
 gText_UnusedNicknameReceivedPokemon::
-	.string "Want to give a nickname to\n"
-	.string "the {STR_VAR_2} you received?$"
+	.string "Vols posar un sobrenom al\n"
+	.string "{STR_VAR_2} que has rebut?$"
 
 gText_PlayerWhitedOut::
-	.string "{PLAYER} is out of usable\n"
-	.string "Pokémon!\p{PLAYER} whited out!$"
+	.string "{PLAYER} no té cap Pokémon\n"
+	.string "disponible!\p{PLAYER} va ser derrotat!$"
 
 gText_RegisteredTrainerinPokeNav::
-	.string "{STR_VAR_1} {STR_VAR_2} gave you\n"
-	.string "their Cell Phone number.$"
+	.string "{STR_VAR_1} {STR_VAR_2} t'ha donat\n"
+	.string "el seu número de telèfon.$"
 
 gText_ComeBackWithSecretPower::
-	.string "Do you know the TM Secret Power?\p"
-	.string "Our group, we love the TM Secret\n"
-	.string "Power.\p"
-	.string "One of our members will give it to you.\n"
-	.string "Come back and show me if you get it.\p"
-	.string "We'll accept you as a member and sell\n"
-	.string "you good stuff in secrecy.$"
+	.string "Coneixes la MT Poder Secret?\p"
+	.string "Al nostre grup, ens encanta la\n"
+	.string "MT Poder Secret.\p"
+	.string "Un dels nostres membres te la donarà.\n"
+	.string "Torna i ensenya-me-la si l'aconsegueixes.\p"
+	.string "T'acceptarem com a membre i et\n"
+	.string "vendrem coses bones en secret.$"
 
 	.include "data/text/surf.inc"
 
 gText_DoorOpenedFarAway::
-	.string "It sounded as if a door opened\n"
-	.string "somewhere far away.$"
+	.string "Ha semblat que una porta s'ha\n"
+	.string "obert en algun lloc llunyà.$"
 
 Text_TheDoorIsOpen::
-	.string "The door is open…$"
+	.string "La porta és oberta…$"
 
 gText_BigHoleInTheWall::
-	.string "There is a big hole in the wall.$"
+	.string "Hi ha un gran forat a la paret.$"
 
 gText_SorryWirelessClubAdjustments::
-	.string "I'm terribly sorry.\n"
-	.string "The Pokémon Wireless Club is\l"
-	.string "undergoing adjustments now.$"
+	.string "Ho sento molt.\n"
+	.string "El Club Sense Fils Pokémon\l"
+	.string "està en manteniment ara.$"
 
 gText_UndergoingAdjustments::
-	.string "It appears to be undergoing\n"
-	.string "adjustments…$"
+	.string "Sembla que està en\n"
+	.string "manteniment…$"
 
 @ Unused
 gText_SorryTradeCenterInspections::
-	.string "I'm terribly sorry. The Trade Center\n"
-	.string "is undergoing inspections.$"
+	.string "Ho sento molt. El Centre\n"
+	.string "d'Intercanvi està en revisió.$"
 
 @ Unused
 gText_SorryRecordCornerPreparation::
-	.string "I'm terribly sorry. The Record Corner\n"
-	.string "is under preparation.$"
+	.string "Ho sento molt. El Racó de\n"
+	.string "Registres s'està preparant.$"
 
 gText_PlayerHandedOverTheItem::
-	.string "{PLAYER} handed over the\n"
+	.string "{PLAYER} va lliurar\n"
 	.string "{STR_VAR_1}.$"
 
 gText_ThankYouForAccessingMysteryGift::
-	.string "Thank you for accessing the\n"
-	.string "Mystery Gift System.$"
+	.string "Gràcies per accedir al Sistema\n"
+	.string "de Regal Misteriós.$"
 
 gText_PlayerFoundOneTMHM::
-	.string "{PLAYER} found one {STR_VAR_1}\n"
-	.string "{STR_VAR_2}!$"
+	.string "{PLAYER} ha trobat un/a\n"
+	.string "{STR_VAR_1} {STR_VAR_2}!$"
 
 gText_Sudowoodo_Attacked::
-	.string "The weird tree doesn't like the\n"
-	.string "Watering Can!\p"
-	.string "The weird tree attacked!$"
+	.string "A l'arbre estrany no li agrada\n"
+	.string "la Regadora!\p"
+	.string "L'arbre estrany va atacar!$"
 
 gText_LegendaryFlewAway::
-	.string "The {STR_VAR_1} flew away!$"
+	.string "{STR_VAR_1} ha fugit volant!$"
 
 	.include "data/text/pc_transfer.inc"
 	.include "data/text/questionnaire.inc"
@@ -946,7 +948,7 @@ Follower_Show::
 	end
 
 Text_NeedTwoMons::
-	.string "PLACEHOLDER TEXT"
+	.string "TEXT PROVISIONAL"
 
 @ Unused
 EventScript_CableClub_SetVarResult1::
@@ -995,16 +997,16 @@ Common_EventScript_AwakenSnorlax::
     return
 
 Text_SnorlaxWokeUp::
-    .string "Snorlax woke up!\p"
-    .string "It attacked in a grumpy rage!$"
+    .string "Snorlax es va despertar!\p"
+    .string "Va atacar enfurismat!$"
 
 Text_SnorlaxReturnedToMountains::
-    .string "Snorlax calmed down.\n"
-    .string "It gave a huge yawn…\l"
-    .string "And returned to the mountains.$"
+    .string "Snorlax es va calmar.\n"
+    .string "Va fer un gran badall…\l"
+    .string "I va tornar a les muntanyes.$"
 
 Text_WantToUsePokeFlute::
-    .string "Want to use the Poké Flute?$"
+    .string "Vols usar la Poké Flauta?$"
 
 Common_EventScript_LegendaryFlewAway::
 	fadescreenswapbuffers FADE_TO_BLACK
@@ -1016,8 +1018,8 @@ Common_EventScript_LegendaryFlewAway::
 	end
 
 Text_VoiceRangOutDontRunAway::
-	.string "Someone's voice rang out,\n"
-	.string "“Don't run away!”$"
+	.string "Una veu va ressonar,\n"
+	.string "“No fugis!”$"
 
 	.include "data/scripts/pc_transfer.inc"
 	.include "data/scripts/questionnaire.inc"
