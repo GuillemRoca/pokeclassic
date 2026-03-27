@@ -252,7 +252,7 @@ VermilionCity_Gym_Text_LeaderSpeech::
     .string "em van salvar durant la guerra!$"
 
 VermilionCity_Gym_Text_LeaderIntro::
- 	.string "Van fullejar els meus enemics\n"
+ 	.string "Van fulminar els meus enemics\n"
     .string "fins a la paràlisi!\p"
     .string "I et faré el mateix a tu!$"
 
@@ -313,11 +313,11 @@ VermilionCity_Gym_Text_TakeThisWithYou::
     .string "Pren això!$"
 
 VermilionCity_Gym_Text_ReceivedTM::
-    .string "{PLAYER} ha rebut el MT34\n"
+    .string "{PLAYER} ha rebut la MT34\n"
     .string "del Lt. Surge.$"
 
 VermilionCity_Gym_Text_ExplainTM::
-    .string "El MT34 conté Ona de Xoc!\p"
+    .string "La MT34 conté Ona de Xoc!\p"
     .string "Ensenya-la a un Pokémon Elèctric!$"
 
 VermilionCity_Gym_EventScript_NoRoomForTM::
@@ -350,7 +350,7 @@ VermilionCity_Gym_EventScript_LeaderPostBattleGameClear::
 VermilionCity_Gym_Text_PostBattleGameClear::
 	.string "Sembla que encara hi ha un desnivell\n"
 	.string "entre les nostres habilitats que\l"
-	.string "haig de tancar, nano!\p"
+	.string "he de tancar, nano!\p"
 	.string "És el primer cop que em sento\n"
 	.string "així des que vaig començar com\l"
 	.string "a Líder de Gimnàs de Vermilion.$"

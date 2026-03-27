@@ -192,7 +192,7 @@ Route9_EventScript_RouteSign::
 
 Route9_Text_RouteSign::
     .string "Ruta 9\n"
-    .string "Cerulean City - Túnel Roca$"
+    .string "Ciutat Cerúlia - Túnel Roca$"
 
 Route9_EventScript_ItemBurnHeal::
 	finditem ITEM_BURN_HEAL, 1

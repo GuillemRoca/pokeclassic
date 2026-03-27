@@ -111,7 +111,7 @@ PalletTown_Text_DidYouMeetOak:
 PalletTown_Text_WhatACutePokemon:
 	.string "Oh! Quin Pokémon més adorable!\n"
 	.string "Te l'ha donat el Prof. Oak? Genial!\p"
-	.string "I ara vas cap a Viridian City?\p"
+	.string "I ara vas cap a Ciutat Viridiana?\p"
 	.string "Bé, suposo que tothom somia\n"
 	.string "amb viatjar. Almenys ho deien a la TV.\p"
 	.string "En aquest cas, no voldràs marxar\n"

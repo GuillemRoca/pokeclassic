@@ -20,7 +20,7 @@ Route2_EventScript_RouteSign::
 
 Route2_Text_RouteSign::
     .string "Ruta 2\n"
-    .string "Viridian City - Pewter City$"
+    .string "Ciutat Viridiana - Ciutat Plateada$"
 
 Route2_EventScript_DiglettsCaveSign::
 	msgbox Route2_Text_DiglettsCave, MSGBOX_SIGN

@@ -38,7 +38,7 @@ Route5_EventScript_UndergroundPathSign::
 Route5_Text_UndergroundPathSign::
     .string "Pas Subterrani\n"
 
-    .string "Cerulean City - Vermilion City$"
+    .string "Ciutat Cerúlia - Ciutat Vermella$"
 
 
 Route5_EventScript_DayCareSign::

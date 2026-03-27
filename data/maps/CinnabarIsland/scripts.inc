@@ -71,7 +71,7 @@ CinnabarIsland_EventScript_PokemonMansionSign::
 
 CinnabarIsland_Text_PokemonMansion::
     .string "Mansió Pokémon\n"
-    .string "AVÍS: CONDEMNAT$"
+    .string "AVÍS: CLAUSURAT$"
 
 CinnabarIsland_EventScript_GymSign::
 	lockall

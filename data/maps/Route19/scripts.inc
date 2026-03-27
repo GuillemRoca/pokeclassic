@@ -19,7 +19,7 @@ Route19_EventScript_RouteSign::
 
 Route19_Text_RouteSign::
     .string "Ruta Marítima 19\n"
-    .string "Fuchsia City - Illes Seafoam$"
+    .string "Ciutat Fúcsia - Illes Seafoam$"
 
 Route19_EventScript_Richie::
 	trainerbattle_single REMATCHABLE_TRAINER_TUBER_RICHIE_1, Route19_Text_RichieIntro, Route19_Text_RichieDefeat, Route19_EventScript_RegisterRichieAfterBattle

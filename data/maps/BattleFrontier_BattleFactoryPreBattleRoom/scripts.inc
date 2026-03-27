@@ -811,7 +811,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_SavingDataPleaseWait:
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RecordLatestBattle:
-	.string "Vols gravar l'últim combat\n"
+	.string "Vols enregistrar l'últim combat\n"
 
 
 	.string "al teu Passi de Frontera?$"

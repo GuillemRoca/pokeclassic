@@ -6390,7 +6390,7 @@ void IsLastMonThatKnowsSurf(void)
 #define tOldFunc        4
 #define tNewNature      data[6]
 
-static const u8 sText_AskMint[] = _("Donar a {STR_VAR_1} la MENTA {STR_VAR_2}?");
+static const u8 sText_AskMint[] = _("Vols donar a {STR_VAR_1} la MENTA {STR_VAR_2}?");
 static const u8 sText_MintDone[] = _("{STR_VAR_1} ha començat a sentir-se\nmés {STR_VAR_2}!{PAUSE_UNTIL_PRESS}");
 static void Task_Mints(u8 taskId)
 {

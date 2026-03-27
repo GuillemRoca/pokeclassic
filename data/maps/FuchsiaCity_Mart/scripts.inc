@@ -34,9 +34,9 @@ FuchsiaCity_Mart_EventScript_Gentleman::
 FuchsiaCity_Mart_Text_DontTheyHaveSafariZonePennants::
     .string "No tenen banderins promovent\n"
     .string "la Zona Safari?\p"
-    .string "Que tal uns llums de paper?\n"
+    .string "Què tal uns llums de paper?\n"
     .string "Ni tan sols tenen calendaris?$"
 
 FuchsiaCity_Mart_Text_DidYouTryXSpeed::
-    .string "Has provat l'X Speed?\n"
+    .string "Has provat l'X Velocitat?\n"
     .string "Accelera un Pokémon en combat.$"

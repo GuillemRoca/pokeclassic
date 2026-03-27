@@ -90,7 +90,7 @@ Route15_Text_ErnestDefeat::
 Route15_Text_ErnestPostBattle::
     .string "La vida és curta.\n"
     .string "Mola viure com un fora de la llei.\l"
-    .string "Visca el Team Rocket!$"
+    .string "Visca l'Equip Rocket!$"
 
 Route15_EventScript_Alex::
 	trainerbattle_single TRAINER_BIKER_ALEX, Route15_Text_AlexIntro, Route15_Text_AlexDefeat
@@ -259,7 +259,7 @@ Route15_EventScript_RouteSign::
 
 Route15_Text_RouteSign::
     .string "Ruta 15\n"
-    .string "Oest cap a Fuchsia City$"
+    .string "Oest cap a Ciutat Fúcsia$"
 
 Route15_EventScript_ItemTM18::
 	finditem ITEM_TM18, 1

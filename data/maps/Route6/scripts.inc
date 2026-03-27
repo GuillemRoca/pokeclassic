@@ -148,7 +148,7 @@ Route6_EventScript_UndergroundPathSign::
 
 Route6_Text_UndergroundPathSign::
     .string "Pas Subterrani\n"
-    .string "Cerulean City - Vermilion City$"
+    .string "Ciutat Cerúlia - Ciutat Vermella$"
 
 Route6_RocketFugitive::
     trainerbattle_single TRAINER_FUGITIVE_F, RocketFugitive_Text_Intro, RocketFugitive_Text_Defeat

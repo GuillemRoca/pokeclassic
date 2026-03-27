@@ -84,7 +84,7 @@ ViridianCity_EventScripts_TeamRocketRumor::
 
 ViridianCity_Text_InvestigatingTeamRocket:
 	.string "Agent: Estem investigant un rumor\n"
-	.string "que el Team Rocket ha estat vist\l"
+	.string "que l'Equip Rocket ha estat vist\l"
 	.string "en aquesta zona.\p"
 	.string "No podem deixar passar ningú fins\n"
 	.string "que completem la nostra cerca.$"

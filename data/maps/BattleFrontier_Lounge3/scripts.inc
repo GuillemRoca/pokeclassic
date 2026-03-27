@@ -309,7 +309,7 @@ BattleFrontier_Lounge3_Text_ChallengeBattlePyramid::
 BattleFrontier_Lounge3_Text_HowAboutEnteringEventForMe::
 	.string "Et compensaré, ja ho veuràs.\n"
 	.string "Què me'n dius?\l"
-	.string "Vols participar en l'event per mi?$"
+	.string "Vols participar en l'esdeveniment per mi?$"
 
 BattleFrontier_Lounge3_Text_SpotMeSomeBattlePoints::
 	.string "Perfecte.\n"

@@ -73,7 +73,7 @@ LavenderTown_House2_EventScript_ChoseNewNickname::
 
 LavenderTown_House2_Text_WantMeToRateNicknames::
     .string "Hola, hola!\n"
-    .string "Soc el Valorador de Noms oficial!\p"
+    .string "Sóc el Valorador de Noms oficial!\p"
     .string "Vols que valori els malnoms\n"
     .string "dels teus Pokémon?$"
 

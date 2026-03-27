@@ -119,7 +119,7 @@ CeladonCity_Condominiums_Roof_EventScript_RocketPlans::
 CeladonCity_Condominiums_Roof_Text_RocketPlans::
 	.string "És una bossa sospitosa...\p"
 	.string "Està plena de missatges del\n"
-	.string "Team Rocket!$"
+	.string "Equip Rocket!$"
 
 CeladonCity_Condominiums_Roof_Text_ObtainRocketPlans::
 	.string "{PLAYER} ha trobat els Plans\n"

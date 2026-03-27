@@ -352,7 +352,7 @@ CeruleanCity_Text_RivalPostBattle::
     .string "M'ajudarà molt a omplir\n"
     .string "la meva Pokédex!\p"
     .string "Al cap i a la fi, en Bill és\n"
-    .string "famós com a PokèManíac.\p"
+    .string "famós com a PokéManíac.\p"
     .string "Va inventar el Sistema\n"
     .string "d'Emmagatzematge Pokémon al PC.\p"
     .string "Com que fas servir el seu sistema,\n"
@@ -378,7 +378,7 @@ CeruleanCity_Text_ObtainedPokeblockCase::
 	.string "PokéBloc als Obj. Clau.$"
 
 CeruleanCity_Text_ExplainPokeblockSmellYa::
-    .string "Un debilucho com tu…\n"
+    .string "Un poca-cosa com tu…\n"
     .string "Això et va perfecte.\p"
     .string "Jo no el necessito perquè\n"
     .string "m'importen un rave els Concursos.\p"

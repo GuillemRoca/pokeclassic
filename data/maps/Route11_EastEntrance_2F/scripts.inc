@@ -30,8 +30,8 @@ Route11_EastEntrance_2F_EventScript_RightBinoculars::
 Route11_EastEntrance_2F_Text_RockTunnelGoodRouteToLavender::
     .string "A veure què mostren els\n"
     .string "prismàtics…\p"
-    .string "Per arribar a Lavender Town des\n"
-    .string "de Cerulean City…\p"
+    .string "Per arribar a Poble Lavanda des\n"
+    .string "de Ciutat Cerúlia…\p"
     .string "El Túnel Roca sembla una bona\n"
     .string "ruta.$"
 

@@ -538,8 +538,8 @@ BattleFrontier_BattleArenaBattleRoom_Text_SavingPleaseWait:
 	.string "Si us plau, espera.$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_RecordLastBattle:
-	.string "Vols gravar el teu últim combat\n"
-	.string "al teu Passi Frontera?$"
+	.string "Vols enregistrar el teu últim combat\n"
+	.string "al teu Passi de Frontera?$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_NowFaceTycoon:
 	.string "Estimat/da aspirant!\p"
@@ -580,11 +580,11 @@ BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureToughAfterAll:
 	.string "Greta: Au, espera un moment!\n"
 	.string "Al final sí que ets dur/a!\p"
 	.string "M'agrades!\n"
-	.string "Deixa'm veure el teu Passi Frontera.$"
+	.string "Deixa'm veure el teu Passi de Frontera.$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReceivedGutsSymbol:
 	.string "El Símbol de Valor s'ha gravat\n"
-	.string "al Passi Frontera!$"
+	.string "al Passi de Frontera!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_GoingToBeFunNextTime:
 	.string "Hmm…\p"
@@ -612,7 +612,7 @@ BattleFrontier_BattleArenaBattleRoom_Text_LetsGetThisStarted:
 
 BattleFrontier_BattleArenaBattleRoom_Text_GretaBlownAway:
 	.string "Greta: Gaaah! Arrasat!\n"
-	.string "Deixa'm veure el teu Passi Frontera!$"
+	.string "Deixa'm veure el teu Passi de Frontera!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_GutsSymbolTookGoldenShine:
 	.string "El Símbol de Valor ha adquirit\n"

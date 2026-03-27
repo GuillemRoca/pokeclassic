@@ -309,18 +309,18 @@ BattleFrontier_ReceptionGate_Text_WelcomeToBattleFrontier:
 
 BattleFrontier_ReceptionGate_Text_IssueFrontierPass:
 	.string "Als visitants nous els donem\n"
-	.string "el Passi Frontera.\p"
+	.string "el Passi de Frontera.\p"
 	.string "Serveix per a totes les\n"
 	.string "instal·lacions de la Frontera.\p"
 	.string "Aquí el tens!$"
 
 BattleFrontier_ReceptionGate_Text_ObtainedFrontierPass:
 	.string "{PLAYER} ha obtingut\n"
-	.string "el Passi Frontera.$"
+	.string "el Passi de Frontera.$"
 
 BattleFrontier_ReceptionGate_Text_PlacedTrainerCardInFrontierPass:
 	.string "{PLAYER} ha col·locat la Targeta\n"
-	.string "d'Entrenador al Passi Frontera.$"
+	.string "d'Entrenador al Passi de Frontera.$"
 
 BattleFrontier_ReceptionGate_Text_EnjoyBattleFrontier:
 	.string "Esperem que gaudeixis de tot el que\n"
@@ -472,7 +472,7 @@ BattleFrontier_ReceptionGate_Text_HoldItemsInfo:
 	.string "portin objectes diferents.$"
 
 BattleFrontier_ReceptionGate_Text_YourGuideToFrontierPass:
-	.string "Sóc la teva guia del Passi Frontera.$"
+	.string "Sóc la teva guia del Passi de Frontera.$"
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhich1:
 	.string "De què vols saber-ne més?$"
@@ -485,13 +485,13 @@ BattleFrontier_ReceptionGate_Text_SymbolsInfo:
 	.string "símbols de cada instal·lació.\p"
 	.string "Per guanyar un símbol, potser\n"
 	.string "hauràs de derrotar Entrenadors\l"
-	.string "seguits i guanyar events repetits.\p"
+	.string "seguits i guanyar esdeveniments repetits.\p"
 	.string "No és fàcil guanyar símbols.\n"
 	.string "Et desitjo molta sort!$"
 
 BattleFrontier_ReceptionGate_Text_RecordedBattleInfo:
 	.string "Es pot enregistrar un combat\n"
-	.string "al Passi Frontera.\p"
+	.string "al Passi de Frontera.\p"
 	.string "Pots enregistrar un combat\n"
 	.string "amb un amic o amics.\p"
 	.string "O pots enregistrar un combat\n"
@@ -499,7 +499,7 @@ BattleFrontier_ReceptionGate_Text_RecordedBattleInfo:
 	.string "la Llança de Combat o\l"
 	.string "la Piràmide de Combat.\p"
 	.string "Pots triar enregistrar el combat\n"
-	.string "al final d'una batalla.$"
+	.string "al final d'un combat.$"
 
 BattleFrontier_ReceptionGate_Text_BattlePointsInfo:
 	.string "Els Punts de Combat són premis\n"

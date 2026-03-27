@@ -6,7 +6,7 @@ PokemonTower_1F_EventScript_Channeler::
 	end
 
 PokemonTower_1F_Text_SenseSpiritsUpToMischief::
-    .string "Soc una Canalitzadora.\p"
+    .string "Sóc una Canalitzadora.\p"
     .string "Hi ha esperits fent entremaliadures.\n"
     .string "Els sento a dalt de la torre.$"
 

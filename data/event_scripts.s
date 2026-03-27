@@ -809,7 +809,7 @@ gText_WhichFloorWouldYouLike::
 	.string "A quina planta vols anar?$"
 
 gText_SandstormIsVicious::
-	.string "La tempesta de sorra és feroz.\n"
+	.string "La tempesta de sorra és ferotge.\n"
 	.string "És impossible continuar.$"
 
 gText_SelectWithoutRegisteredItem::
@@ -846,7 +846,7 @@ gText_UnusedNicknameReceivedPokemon::
 
 gText_PlayerWhitedOut::
 	.string "{PLAYER} no té cap Pokémon\n"
-	.string "disponible!\p{PLAYER} va ser derrotat!$"
+	.string "disponible!\p{PLAYER} ha perdut el combat!$"
 
 gText_RegisteredTrainerinPokeNav::
 	.string "{STR_VAR_1} {STR_VAR_2} t'ha donat\n"
@@ -901,7 +901,7 @@ gText_ThankYouForAccessingMysteryGift::
 	.string "de Regal Misteriós.$"
 
 gText_PlayerFoundOneTMHM::
-	.string "{PLAYER} ha trobat un/a\n"
+	.string "{PLAYER} ha trobat una\n"
 	.string "{STR_VAR_1} {STR_VAR_2}!$"
 
 gText_Sudowoodo_Attacked::

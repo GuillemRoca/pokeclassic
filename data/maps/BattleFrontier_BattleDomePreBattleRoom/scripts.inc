@@ -365,7 +365,7 @@ BattleFrontier_BattleDomePreBattleRoom_Text_SavingDataPleaseWait:
 
 BattleFrontier_BattleDomePreBattleRoom_Text_RecordLastMatch:
 	.string "Vols que gravi el teu últim combat\n"
-	.string "al teu Passi Frontera?$"
+	.string "al teu Passi de Frontera?$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_ReadyForTuckerSilver:
 	.string "Felicitats per avançar\n"

@@ -360,7 +360,7 @@ TrainerHill_Entrance_Text_ThankYouForPlaying:
 
 TrainerHill_Entrance_Text_ExplainTrainerHill:
 	.string "Aquí, al Turó dels Entrenadors,\n"
-	.string "organitzem un event anomenat\l"
+	.string "organitzem un esdeveniment anomenat\l"
 	.string "Atac Contrarellotge.\p"
 	.string "És una cursa que mesura quant\n"
 	.string "trigues a arribar al propietari\l"

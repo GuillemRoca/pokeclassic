@@ -1150,7 +1150,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_LookForwardToNextEncounter:
 	.string "En tu, veig un potencial clar per a\n"
 	.string "ser una superestrella com jo.\p"
 	.string "Espero amb moltes ganes\n"
-	.string "el nostre pròxim encontre!$"
+	.string "la nostra pròxima trobada!$"
 
 @ Unused
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerIsLv50Champ2:

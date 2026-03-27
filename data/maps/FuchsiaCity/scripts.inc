@@ -164,7 +164,7 @@ FuchsiaCity_EventScript_WardensHomeSign::
 
 FuchsiaCity_Text_WardensHomeSign::
     .string "Zona Safari\n"
-    .string "Casa del Vigilant$"
+    .string "Casa del Guardià$"
 
 FuchsiaCity_EventScript_LittleBoy::
 	msgbox FuchsiaCity_Text_DidYouTrySafariGame, MSGBOX_NPC

@@ -19,7 +19,7 @@ Route14_EventScript_RouteSign::
 
 Route14_Text_RouteSign::
     .string "Ruta 14\n"
-    .string "Oest cap a Fuchsia City$"
+    .string "Oest cap a Ciutat Fúcsia$"
 
 Route14_EventScript_Malik::
 	trainerbattle_single TRAINER_BIKER_MALIK, Route14_Text_MalikIntro, Route14_Text_MalikDefeat

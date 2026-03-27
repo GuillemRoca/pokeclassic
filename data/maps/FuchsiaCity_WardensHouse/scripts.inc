@@ -97,8 +97,8 @@ FuchsiaCity_WardensHouse_Text_MonPhotosFossilsOnDisplay::
     .string "estan exposats.$"
 
 FuchsiaCity_WardensHouse_Text_OldMonMerchandiseOnDisplay::
-    .string "Merchandise antiga de Pokémon\n"
-    .string "està exposada.$"
+    .string "Marxandatge antic de Pokémon\n"
+    .string "està exposat.$"
 
 FuchsiaCity_WardensHouse_EventScript_PokemonJournalKoga::
 	msgbox PokemonJournal_Text_SpecialFeatureKoga, MSGBOX_SIGN

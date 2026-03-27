@@ -35,7 +35,7 @@ CeruleanCity_House2_EventScript_Lass::
 	end
 
 CeruleanCity_House2_Text_TeamRocketTryingToDigIntoNoGood::
-    .string "El Team Rocket deu estar intentant\n"
+    .string "L'Equip Rocket deu estar intentant\n"
     .string "Cavar per fer de les seves!$"
 
 CeruleanCity_House2_EventScript_WallHole::
@@ -43,6 +43,6 @@ CeruleanCity_House2_EventScript_WallHole::
 	end
 
 CeruleanCity_House2_Text_TeamRocketLeftWayOut::
-    .string "El Team Rocket ha deixat una\n"
+    .string "L'Equip Rocket ha deixat una\n"
     .string "sortida!$"
 

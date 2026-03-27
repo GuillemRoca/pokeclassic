@@ -259,8 +259,8 @@ BattleFrontier_BattlePyramidTop_Text_ExplorationsAreGrandestAdventure:
 BattleFrontier_BattlePyramidTop_Text_ImPyramidKingBrandon:
 	.string "Aah, sí, aquesta vida és grandiosa!\n"
 	.string "Grandiosa, sí! Eh?\p"
-	.string "Soc en Brandon!\p"
-	.string "Soc el Rei de la Piràmide, cosa\n"
+	.string "Sóc en Brandon!\p"
+	.string "Sóc el Rei de la Piràmide, cosa\n"
 	.string "que vol dir que mano aquí.\p"
 	.string "La majoria em diuen el cap!\p"
 	.string "Que hagis vingut aquí vol dir que\n"
@@ -277,11 +277,11 @@ BattleFrontier_BattlePyramidTop_Text_BrandonFrontierPassPlease:
 	.string "Brandon: Hahahah! Ha estat grandiós!\n"
 	.string "Grandiós, sí!\p"
 	.string "Ben fet! T'has guanyat el mèrit!\n"
-	.string "El teu Passi Frontera, si us plau!$"
+	.string "El teu Passi de Frontera, si us plau!$"
 
 BattleFrontier_BattlePyramidTop_Text_ReceivedBraveSymbol:
 	.string "El Símbol del Valor s'ha gravat\n"
-	.string "al Passi Frontera!$"
+	.string "al Passi de Frontera!$"
 
 BattleFrontier_BattlePyramidTop_Text_LookForwardToNextMeeting:
 	.string "Jove explorador!\n"

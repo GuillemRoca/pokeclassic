@@ -19,7 +19,7 @@ Route8_EventScript_UndergroundPathSign::
 
 Route8_Text_UndergroundPathSign::
     .string "Camí Subterrani\n"
-    .string "Celadon City - Lavender Town$"
+    .string "Ciutat Celadó - Poble Lavanda$"
 
 Route8_EventScript_Aidan::
 	trainerbattle_single REMATCHABLE_TRAINER_SUPER_NERD_AIDAN_1, Route8_Text_AidanIntro, Route8_Text_AidanDefeat, Route8_EventScript_RegisterAidanAfterBattle

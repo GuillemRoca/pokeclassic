@@ -40,8 +40,8 @@ VermilionCity_Text_SnorlaxBlockingRoute12::
     .string "AVÍS!\p"
     .string "La Ruta 12 pot estar bloquejada\n"
     .string "per un Pokémon adormit.\p"
-    .string "Desvia pel Túnel Roca cap a\n"
-    .string "Poble Lavender.\p"
+    .string "Desvia't pel Túnel Roca cap a\n"
+    .string "Poble Lavanda.\p"
     .string "Policia de Vermilion$"
 
 VermilionCity_EventScript_PokemonFanClubSign::
@@ -582,7 +582,7 @@ VermilionCity_EventScript_JennyGaveSquirtle::
 
 VermilionCity_Text_JennyGaveSquirtle::
 	.string "Primer van ser Motards i Lladres,\n"
-	.string "i després el Team Rocket.\p"
+	.string "i després l'Equip Rocket.\p"
 	.string "Aquesta feina ja és prou difícil\n"
 	.string "sense que els Pokémon també\l"
 	.string "es dediquin al crim!$"

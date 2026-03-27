@@ -200,11 +200,11 @@ PokemonLeague_ChampionsRoom_Text_Intro::
     .string "A més, vaig muntar equips\n"
     .string "per guanyar qualsevol tipus.\p"
     .string "I ara…\p"
-    .string "Soc el Campió de la Lliga Pokémon!\p"
+    .string "Sóc el Campió de la Lliga Pokémon!\p"
     .string "{PLAYER}!\n"
     .string "Saps què vol dir això?\p"
     .string "T'ho diré.\p"
-    .string "Soc l'entrenador més poderós\n"
+    .string "Sóc l'entrenador més poderós\n"
     .string "del món!$"
 
 PokemonLeague_ChampionsRoom_Text_Defeat::

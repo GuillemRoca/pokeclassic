@@ -81,7 +81,7 @@ CeladonCity_EventScript_RocketGrunt1::
 	end
 
 CeladonCity_Text_KeepOutOfTeamRocketsWay::
-    .string "No et fiquis amb el Team Rocket!$"
+    .string "No et fiquis amb l'Equip Rocket!$"
 
 CeladonCity_EventScript_RocketGrunt2::
 	msgbox CeladonCity_Text_GetLostOrIllPunchYou, MSGBOX_NPC
@@ -89,7 +89,7 @@ CeladonCity_EventScript_RocketGrunt2::
 
 CeladonCity_Text_GetLostOrIllPunchYou::
     .string "Què mires?\n"
-    .string "Fes el camp o et fotre un cop!$"
+    .string "Fes el camp o te'n penediràs!$"
 
 CeladonCity_EventScript_Breeder::
 	goto_if_set FLAG_RESCUED_CUBONE, CeladonCity_EventScript_BreederRescuedCubone
@@ -98,9 +98,9 @@ CeladonCity_EventScript_Breeder::
 
 CeladonCity_Text_KidnappedPokemon::
     .string "Oh, què puc fer…\p"
-    .string "El Team Rocket ha estat segrestant\n"
+    .string "L'Equip Rocket ha estat segrestant\n"
     .string "Pokémon.\p"
-    .string "He perseguit un Grunt Rocket amb\n"
+    .string "He perseguit un Reclu Rocket amb\n"
     .string "un Cubone des de Lavender!\p"
     .string "Van venir corrents cap aquí,\n"
     .string "n'estic segur.\p"
@@ -113,7 +113,7 @@ CeladonCity_EventScript_BreederRescuedCubone::
 
 CeladonCity_Text_RescuedCubone::
     .string "Oh! Has rescatat el Cubone del\n"
-    .string "Team Rocket?\p"
+    .string "l'Equip Rocket?\p"
     .string "Això és meravellós!$"
 
 CeladonCity_EventScript_OldMan::
@@ -169,7 +169,7 @@ CeladonCity_EventScript_CitySign::
 
 CeladonCity_Text_CitySign::
     .string "Ciutat Celadon\n"
-    .string "La Ciutat dels Somnis de l'Arc$"
+    .string "La Ciutat dels Somnis Irisats$"
 
 CeladonCity_EventScript_DeptStoreSign::
 	msgbox CeladonCity_Text_DeptStoreSign, MSGBOX_SIGN

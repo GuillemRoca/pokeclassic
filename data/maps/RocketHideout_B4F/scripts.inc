@@ -63,7 +63,7 @@ RocketHideout_B4F_Text_GiovanniIntro::
     .string "d'arreu del món.\p"
     .string "Són eines importants per mantenir\n"
     .string "la nostra empresa criminal.\p"
-    .string "Soc el líder, Giovanni!\p"
+    .string "Sóc el líder, Giovanni!\p"
     .string "Per la teva insolència, sentiràs\n"
     .string "un món de dolor!$"
 

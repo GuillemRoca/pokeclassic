@@ -52,7 +52,7 @@ Route4_EventScript_RouteSign::
 
 Route4_Text_RouteSign::
     .string "Ruta 4\n"
-    .string "Mt. Moon - Cerulean City$"
+    .string "Mt. Moon - Ciutat Cerúlia$"
 
 Route4_EventScript_Crissy::
     trainerbattle_single TRAINER_LASS_ROBIN, Route4_Text_CrissyIntro, Route4_Text_CrissyDefeat
@@ -187,14 +187,14 @@ Route4_Text_StopRightThere::
 	.string "Pensàveu que podríeu escapar\n"
 	.string "de la Policia Internacional?\p"
 	.string "Sempre aniré un pas per davant\n"
-	.string "dels vostres plans, Team Rocket!$"
+	.string "dels vostres plans, Equip Rocket!$"
 
 Route4_Text_TeamRocketFossils::
 	.string "Ha! Dius que no ets del\n"
-	.string "Team Rocket?\p"
+	.string "Equip Rocket?\p"
 	.string "I com expliques aquest fòssil\n"
 	.string "que portes?\p"
-	.string "Sabem que el Team Rocket busca\n"
+	.string "Sabem que l'Equip Rocket busca\n"
 	.string "fòssils rars per vendre'ls al\l"
 	.string "mercat negre!\p"
 	.string "...\n"
@@ -205,10 +205,10 @@ Route4_Text_TeamRocketFossils::
 	.string "Llamps! Com se'ns han escapat!\p"
 	.string "Perdona pel malentès.\p"
 	.string "Em dic Looker - ja que has aturat\n"
-	.string "el Team Rocket un cop, potser podem\l"
+	.string "l'Equip Rocket un cop, potser podem\l"
 	.string "ajudar-nos mútuament.\p"
 	.string "Aquí tens el meu número de mòbil -\n"
-	.string "truca'm si saps res del Team Rocket!$"
+	.string "truca'm si saps res de l'Equip Rocket!$"
 
 Route4_EventScript_PixieDust::
 	finditem ITEM_PIXIE_DUST, 1

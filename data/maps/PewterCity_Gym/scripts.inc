@@ -44,7 +44,7 @@ PewterCity_Gym_Text_BrockSpeech::
 
 PewterCity_Gym_Text_BrockIntro::
     .string "Molt bé, doncs!\n"
-    .string "Dóna'm el teu millor!$"
+    .string "Demostra'm el que vals!$"
 
 PewterCity_Gym_Text_BrockDefeat::
     .string "Et vaig subestimar, i per això\n"
@@ -280,7 +280,7 @@ PewterCity_Gym_EventScript_Scott::
 
 PewterCity_Gym_Text_LetMeTakeYouToTheTop::
     .string "Hola!\n"
-    .string "Vols somiar a ho gran?\p"
+    .string "Vols somiar en gran?\p"
     .string "Gosaries somiar en ser\n"
     .string "el Campió Pokémon?\p"
     .string "Jo no sóc Entrenador, però et\n"

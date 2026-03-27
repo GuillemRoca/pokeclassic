@@ -163,13 +163,13 @@ Route25_EventScript_Nob::
 
 Route25_Text_NobIntro::
     .string "Vaig a veure la col·lecció d'un\n"
-    .string "PokèManíac al cap.$"
+    .string "PokéManíac al cap.$"
 
 Route25_Text_NobDefeat::
     .string "M'has enxampat bé!$"
 
 Route25_Text_NobPostBattle::
-    .string "El PokèManíac fa honor al\n"
+    .string "El PokéManíac fa honor al\n"
     .string "seu nom.\p"
     .string "La seva col·lecció inclou moltes\n"
     .string "espècies rares de Pokémon.$"

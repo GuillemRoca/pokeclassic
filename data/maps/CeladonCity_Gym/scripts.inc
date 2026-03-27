@@ -159,7 +159,7 @@ CeladonCity_Gym_Text_RematchLeader::
 	.string "Oh, si no és qui està intentant\n"
 	.string "completar la Pokédex.\p"
 	.string "Espero que les coses t'hagin anat bé\n"
-	.string "des del nostre últim encontre.\p"
+	.string "des de la nostra última trobada.\p"
 	.string "...Ja veig. Has estat molt ocupat.\p"
 	.string "No m'agraden gaire les coses\n"
 	.string "públiques...\p"

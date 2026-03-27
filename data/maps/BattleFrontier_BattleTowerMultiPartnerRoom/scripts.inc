@@ -668,7 +668,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Mon2Ask::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Accept::
 	.string "Sííí! La sort m'acompanya!\n"
 	.string "Estic molt content!\p"
-	.string "Abans d'anar a la batalla,\n"
+	.string "Abans d'anar al combat,\n"
 	.string "vaig a registrar-me ara mateix!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Reject::

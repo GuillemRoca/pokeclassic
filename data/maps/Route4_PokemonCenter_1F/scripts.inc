@@ -35,10 +35,10 @@ Route4_PokemonCenter_1F_EventScript_Gentleman::
 	end
 
 Route4_PokemonCenter_1F_Text_TeamRocketAttacksCerulean::
-    .string "El Team Rocket ataca ciutadans\n"
+    .string "L'Equip Rocket ataca ciutadans\n"
     .string "de Cerulean…\p"
     .string "No passa un dia sense que el\n"
-    .string "Team Rocket surti a les notícies.$"
+    .string "Equip Rocket surti a les notícies.$"
 
 Route4_PokemonCenter_1F_EventScript_Youngster::
 	msgbox Route4_PokemonCenter_1F_Text_ShouldStoreMonsUsingPC, MSGBOX_NPC

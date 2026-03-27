@@ -471,7 +471,7 @@ BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor7thOpponent:
 	.string "Estàs a punt?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_RecordYourBattle:
-	.string "Vols gravar el combat al teu\n"
+	.string "Vols enregistrar el combat al teu\n"
 	.string "Passi de Frontera?$"
 
 BattleFrontier_BattleTowerLobby_Text_BattleRecordedOnPass:
@@ -537,7 +537,7 @@ BattleFrontier_BattleTowerBattleRoom_Text_UntilNextTime:
 	.string "Et demano que segueixis lluitant\n"
 	.string "i segueixis guanyant.\p"
 	.string "T'esperaré.\n"
-	.string "Fins la propera vegada…$"
+	.string "Fins a la propera vegada…$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelYouCameBack:
 	.string "Anabel: Realment has tornat\n"

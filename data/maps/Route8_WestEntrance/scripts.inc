@@ -22,7 +22,7 @@ Route8_WestEntrance_EventScript_RoadsClosed::
 Route8_WestEntrance_Text_RoadsClosed::
     .string "Ah, per cert, el camí és tancat.\p"
     .string "La Policia Internacional està\n"
-    .string "buscant el Team Rocket!$"
+    .string "buscant l'Equip Rocket!$"
 
 Route8_WestEntrance_EventScript_GuardThirsty::
 	msgbox Route8_WestEntrance_Text_ThirstyOnGuardDuty, MSGBOX_NPC
@@ -71,7 +71,7 @@ GateGuard_Text_SnorlaxLavender:
 	.string "Oh, ho has sentit?\p"
 	.string "Han vist un Pokémon enorme\n"
 	.string "dormint al camí prop de\l"
-	.string "Lavender Town!\p"
+	.string "Poble Lavanda!\p"
 	.string "M'agradaria fer migdiades\n"
 	.string "així.$"
 
@@ -86,7 +86,7 @@ GateGuard_Text_SnorlaxCyclingRoad::
 	.string "Oh, ho has sentit?\p"
 	.string "Han vist un Pokémon enorme\n"
 	.string "dormint al camí prop de\l"
-	.string "Celadon City!\p"
+	.string "Ciutat Celadó!\p"
 	.string "M'agradaria fer migdiades\n"
 	.string "així.$"
 
@@ -154,7 +154,7 @@ Route8_WestEntrance_EventScript_DeliverRocketPlans::
 
 Route8_WestEntrance_Text_DeliverRocketPlans::
 	.string "Què? Has trobat plans del\n"
-	.string "Team Rocket?\p"
+	.string "Equip Rocket?\p"
 	.string "Més val que no sigui una broma.\p"
 	.string "Els hauré de veure...\n"
 	.string "... ... ...\p"

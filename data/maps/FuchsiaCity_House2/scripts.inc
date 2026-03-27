@@ -40,7 +40,7 @@ FuchsiaCity_House2_Text_DoYouLikeToFish::
     .string "de la Pesca.\p"
     .string "M'encanta pescar!\n"
     .string "No puc viure sense!\p"
-    .string "Digue'm, t'agrada pescar?$"
+    .string "Digues, t'agrada pescar?$"
 
 FuchsiaCity_House2_Text_LikeYourStyleTakeThis::
     .string "Genial! M'agrada el teu estil.\n"
@@ -54,9 +54,9 @@ FuchsiaCity_House2_Text_ReceivedGoodRod::
 FuchsiaCity_House2_Text_GoodRodCanCatchBetterMons::
     .string "La pesca és una forma de vida!\n"
     .string "És com la poesia més fina.\p"
-    .string "Una Old Rod pobre només podia\n"
+    .string "Una Canya Vella només podia\n"
     .string "atrapar Magikarp, oi?\p"
-    .string "Però amb una Good Rod, pots\n"
+    .string "Però amb una Bona Canya, pots\n"
     .string "atrapar Pokémon molt millors.$"
 
 FuchsiaCity_House2_Text_OhThatsDisappointing::

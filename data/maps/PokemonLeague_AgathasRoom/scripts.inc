@@ -85,7 +85,7 @@ PokemonLeague_AgathasRoom_EventScript_PostBattle2::
 	end
 
 PokemonLeague_AgathasRoom_Text_Intro::
-    .string "Soc l'Agatha de l'Alt Comandament.\p"
+    .string "Sóc l'Agatha de l'Alt Comandament.\p"
     .string "He sentit que l'Oak s'ha interessat\n"
     .string "molt per tu, nen.\p"
     .string "Aquell vell tòtil va ser dur i\n"

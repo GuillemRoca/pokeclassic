@@ -74,7 +74,7 @@ LavenderTown_VolunteerPokemonHouse_EventScript_LittleBoy::
 	end
 
 LavenderTown_VolunteerPokemonHouse_Text_MonsNiceToHug::
-    .string "Fa tanta calor!\n"
+    .string "Són tan càlids!\n"
     .string "Els Pokémon són genials d'abraçar.$"
 
 LavenderTown_VolunteerPokemonHouse_EventScript_Youngster::

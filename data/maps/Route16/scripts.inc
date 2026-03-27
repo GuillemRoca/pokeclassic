@@ -89,7 +89,7 @@ Route16_Text_CyclingRoadSign::
 
 Route16_Text_RouteSign::
     .string "Ruta 16\n"
-    .string "Celadon City - Fuchsia City$"
+    .string "Ciutat Celadó - Ciutat Fúcsia$"
 
 Route16_EventScript_Hideo::
 	trainerbattle_single REMATCHABLE_TRAINER_BIKER_HIDEO_1, Route16_Text_HideoIntro, Route16_Text_HideoDefeat, Route16_EventScript_RegisterHideoAfterBattle

@@ -226,7 +226,7 @@ BattleTower_Basement_Text_ExplainChallenge:
 	.string "El Torneig d'Intercanvi és una\n"
 	.string "competició amb Pokémon de lloguer.\p"
 	.string "Primer, se't prestaran tres\n"
-	.string "Pokémon per a aquest event.\p"
+	.string "Pokémon per a aquest esdeveniment.\p"
 	.string "Amb els Pokémon de lloguer,\n"
 	.string "hauràs de fer Combats Individuals\l"
 	.string "o Dobles, segons el mode.\p"
@@ -364,7 +364,7 @@ BattleTower_Basement_Text_ExplainSwapNumberRules:
 	.string "intercanviar per un dels Pokémon\l"
 	.string "del rival vençut.\p"
 	.string "No podràs intercanviar Pokémon\n"
-	.string "amb el 7è Entrenador de l'event.$"
+	.string "amb el 7è Entrenador de l'esdeveniment.$"
 
 BattleTower_Basement_EventScript_RulesSwapNotes::
 	msgbox BattleTower_Basement_Text_ExplainSwapNotesRules, MSGBOX_DEFAULT
@@ -437,7 +437,7 @@ BattleTower_Basement_EventScript_Woman::
 BattleTower_Basement_Text_NeedKnowledgeOfMonsMoves:
 	.string "Ei!\n"
 	.string "Tu!\p"
-	.string "Penses que els events d'aquí\n"
+	.string "Penses que els esdeveniments d'aquí\n"
 	.string "són fàcils perquè no necessites\l"
 	.string "un equip entrenat?\p"
 	.string "Jo no estaria tan segura\n"

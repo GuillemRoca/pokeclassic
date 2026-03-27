@@ -22,7 +22,7 @@ CeruleanCity_PokemonCenter_1F_EventScript_Gentleman::
 
 CeruleanCity_PokemonCenter_1F_Text_EveryoneCallsBillPokemaniac::
     .string "Has sentit parlar d'en Bill?\p"
-    .string "Tothom li diu PokèManíac!\p"
+    .string "Tothom li diu PokéManíac!\p"
     .string "Crec que la gent té enveja\n"
     .string "d'en Bill, però.\p"
     .string "Qui no voldria presumir dels\n"

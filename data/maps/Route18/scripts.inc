@@ -70,7 +70,7 @@ Route18_Text_JacobPostBattle::
 
 Route18_Text_RouteSign::
     .string "Ruta 18\n"
-    .string "Celadon City - Fuchsia City $"
+    .string "Ciutat Celadó - Ciutat Fúcsia $"
 
 Route18_Text_CyclingRoadSign::
     .string "Carril Bici\n"

@@ -42,7 +42,7 @@ VictoryRoad_3F_Text_GeorgeDefeat::
 
 VictoryRoad_3F_Text_GeorgePostBattle::
     .string "Així que ets tu qui va derrotar\n"
-    .string "en Giovanni del Team Rocket?$"
+    .string "en Giovanni de l'Equip Rocket?$"
 
 VictoryRoad_3F_EventScript_Colby::
 	trainerbattle_single TRAINER_COOLTRAINER_COLBY, VictoryRoad_3F_Text_ColbyIntro, VictoryRoad_3F_Text_ColbyDefeat

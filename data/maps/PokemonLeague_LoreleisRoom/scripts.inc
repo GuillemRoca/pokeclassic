@@ -62,7 +62,7 @@ PokemonLeague_LoreleisRoom_EventScript_Lorelei::
 
 PokemonLeague_LoreleisRoom_Text_Intro::
     .string "Benvingut a la Lliga Pokémon.\p"
-    .string "Soc la Lorelei de l'Alt\n"
+    .string "Sóc la Lorelei de l'Alt\n"
     .string "Comandament.\p"
     .string "Ningú no em supera quan es\n"
     .string "tracta de Pokémon de gel.\p"

@@ -248,7 +248,7 @@ TitleMatch_Liz::
 	end
 
 TitleMatch_Text_LizIntro::
-	.string "Soc un geni.$"
+	.string "Sóc un geni.$"
 
 TitleMatch_Text_LizDefeated::
 	.string "Oh, no!$"
@@ -366,7 +366,7 @@ TitleMatch_Surge::
 
 TitleMatch_Text_SurgeIntro::
 	.string "Surge: La vida és una guerra, nen.\p"
-	.string "Això és un camp de batalla més.$"
+	.string "Això és un camp de combat més.$"
 
 TitleMatch_Text_SurgeDefeated::
 	.string "Tornem a l'entrenament bàsic!$"

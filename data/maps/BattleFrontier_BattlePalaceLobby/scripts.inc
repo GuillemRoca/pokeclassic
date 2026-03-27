@@ -595,7 +595,7 @@ BattleFrontier_BattlePalaceLobby_Text_PresentYouWithBattlePoints:
 BattleFrontier_BattlePalaceLobby_Text_LikeToRecordMatch:
 	.string "Vols enregistrar el teu últim\n"
 	.string "combat del Palau al\l"
-	.string "Passi Frontera?$"
+	.string "Passi de Frontera?$"
 
 BattleFrontier_BattlePalaceLobby_Text_RulesAreListed:
 	.string "Les regles de la Sala de Combat\n"

@@ -153,7 +153,7 @@ RockTunnel_B1F_Text_WinstonDefeat::
     .string "Estic esgotat…$"
 
 RockTunnel_B1F_Text_WinstonPostBattle::
-    .string "Soc artista, no lluitador.\n"
+    .string "Sóc artista, no lluitador.\n"
     .string "Me'n vaig a casa a dibuixar.$"
 
 RockTunnel_B1F_EventScript_HelmetGuy::

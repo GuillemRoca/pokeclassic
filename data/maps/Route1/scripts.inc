@@ -148,7 +148,7 @@ Route1_Text_WorkAtPokeMartTakeSample::
     .string "Treballo a una Botiga Pokémon.\p"
     .string "Som una cadena que ven tota mena\n"
     .string "d'objectes.\p"
-    .string "Vine a visitar-nos a Viridian City.\p"
+    .string "Vine a visitar-nos a Ciutat Viridiana.\p"
     .string "Mira, et donaré una mostra.\n"
     .string "Aquí tens!$"
 
@@ -178,7 +178,7 @@ Route1_EventScript_RouteSign::
 
 Route1_Text_RouteSign::
     .string "Ruta 1\n"
-    .string "Poble Paleta - Viridian City$"
+    .string "Poble Paleta - Ciutat Viridiana$"
 
 Route1_RocketFugitive::
 	trainerbattle_single TRAINER_FUGITIVE_F, RocketFugitive_Text_Intro, RocketFugitive_Text_Defeat

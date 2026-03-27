@@ -116,7 +116,7 @@ SaffronCity_Gym_Text_StacyDefeat::
     .string "Ho sabia!$"
 
 SaffronCity_Gym_Text_StacyPostBattle::
-    .string "Encara tinc molt a aprendre…\p"
+    .string "Encara tinc molt per aprendre…\p"
     .string "He de dominar Psíquic i\n"
     .string "ensenyar-lo als meus Pokémon…$"
 

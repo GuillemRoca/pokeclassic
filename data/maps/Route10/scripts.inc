@@ -20,7 +20,7 @@ Route10_EventScript_NorthRockTunnelSign::
 
 Route10_Text_RockTunnelDetourToLavender::
     .string "Túnel Roca\n"
-    .string "Drecera a Lavender Town$"
+    .string "Drecera a Poble Lavanda$"
 
 Route10_EventScript_SouthRockTunnelSign::
 	msgbox Route10_Text_RockTunnel, MSGBOX_SIGN

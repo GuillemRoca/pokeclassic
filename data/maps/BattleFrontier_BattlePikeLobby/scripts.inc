@@ -278,7 +278,7 @@ BattleFrontier_BattlePikeLobby_Text_TakeChallenge:
 	.string "d'Elecció de Combat?$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainBattlePike:
-	.string "Aquí celebrem un event que es diu\n"
+	.string "Aquí celebrem un esdeveniment que es diu\n"
 	.string "l'Elecció de Combat.\p"
 	.string "Les regles són molt simples…\p"
 	.string "Tria un dels tres camins i arriba\n"
@@ -378,7 +378,7 @@ BattleFrontier_BattlePikeLobby_Text_SnatchedVictoryFromQueen:
 	.string "Felicitats…\p"
 	.string "Has arrabassat la victòria a la\n"
 	.string "Reina de la Llança i has superat\l"
-	.string "l'event…$"
+	.string "l'esdeveniment…$"
 
 BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints:
 	.string "En reconeixement de la teva sort\n"

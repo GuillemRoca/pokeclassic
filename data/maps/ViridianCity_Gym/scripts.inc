@@ -31,7 +31,7 @@ ViridianCity_Gym_Text_GiovanniSpeech::
     .string "Fwahahaha!\n"
     .string "Benvingut al meu amagatall!\p"
     .string "Així serà fins que pugui restaurar\n"
-    .string "el Team Rocket a la seva antiga\l"
+    .string "l'Equip Rocket a la seva antiga\l"
     .string "glòria.\p"
     .string "Però m'has trobat de nou.\n"
     .string "Que així sigui.$"
@@ -46,7 +46,7 @@ ViridianCity_Gym_Text_GiovanniPostBattle::
     .string "no puc mirar els meus seguidors\l"
     .string "a la cara.\l"
     .string "He traït la seva confiança.\p"
-    .string "A partir d'avui, el Team Rocket\n"
+    .string "A partir d'avui, l'Equip Rocket\n"
     .string "s'ha acabat per sempre!\p"
     .string "Quant a mi, em dedicaré\n"
     .string "a entrenar de nou.\p"
@@ -108,12 +108,12 @@ ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis::
     .string "a Entrenador Pokémon.\p"
     .string "Amb ella, pots desafiar la\n"
     .string "Lliga Pokémon.\p"
-    .string "A més, pren aquest MT.\p"
-    .string "Considera-ho un regal pel teu\n"
+    .string "A més, pren aquesta MT.\p"
+    .string "Considera-ho un regal per al teu\n"
     .string "desafiament a la Lliga Pokémon.$"
 
 ViridianCity_Gym_Text_ReceivedTM26FromGiovanni::
-    .string "{PLAYER} ha rebut el MT26\n"
+    .string "{PLAYER} ha rebut la MT26\n"
     .string "de Giovanni.$"
 
 ViridianCity_Gym_EventScript_NoRoomForTM26::
@@ -122,7 +122,7 @@ ViridianCity_Gym_EventScript_NoRoomForTM26::
 	end
 
 ViridianCity_Gym_Text_ExplainTM26::
-    .string "El MT26 conté Terratrèmol.\p"
+    .string "La MT26 conté Terratrèmol.\p"
     .string "És un atac poderós que causa\n"
     .string "un tremolor massiu.\p"
     .string "El vaig crear quan dirigia el\n"
@@ -417,11 +417,11 @@ ViridianCity_Gym_Text_FoundThis::
 	.string "He trobat això quan estava\n"
 	.string "explorant aquest lloc.\p"
 	.string "Tant com odio recompensar-te,\n"
-	.string "ja tinc aquest MT.\p"
+	.string "ja tinc aquesta MT.\p"
 	.string "Hauries d'agafar-lo.$"
 
 ViridianCity_Gym_Text_ReceivedTM26FromRival::
-    .string "{PLAYER} ha rebut el MT26\n"
+    .string "{PLAYER} ha rebut la MT26\n"
     .string "de {RIVAL}.$"
 
 ViridianCity_Gym_EventScript_NoRoomForTM262::
@@ -430,7 +430,7 @@ ViridianCity_Gym_EventScript_NoRoomForTM262::
 	end
 
 ViridianCity_Gym_Text_RivalExplainTM26::
-    .string "El MT26 conté Terratrèmol.\p"
+    .string "La MT26 conté Terratrèmol.\p"
     .string "És un atac poderós que causa\n"
     .string "un tremolor massiu.$"
 

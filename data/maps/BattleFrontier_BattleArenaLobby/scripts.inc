@@ -482,7 +482,7 @@ BattleFrontier_BattleArenaLobby_Text_LookingForwardToArrivalSaveGame:
 
 BattleFrontier_BattleArenaLobby_Text_RecordLastMatch:
 	.string "Vols que gravi el teu últim combat\n"
-	.string "de l'Arena al teu Passi Frontera?$"
+	.string "de l'Arena al teu Passi de Frontera?$"
 
 BattleFrontier_BattleArenaLobby_Text_BadIdeaToNotAttack:
 	.string "Vaig perdre per decisió de l'Àrbitre…\p"

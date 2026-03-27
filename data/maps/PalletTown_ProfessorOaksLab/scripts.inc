@@ -384,7 +384,7 @@ PalletTown_ProfessorOaksLab_EventScript_RivalBattleLost::
 
 PalletTown_ProfessorOaksLab_Text_RivalVictory::
     .string "{RIVAL}: Sí!\n"
-    .string "Soc el millor o què?$"
+    .string "Sóc el millor o què?$"
 
 PalletTown_ProfessorOaksLab_EventScript_RivalBattleWon::
 	addvar VAR_RIVAL_WINRATE, 1
@@ -960,7 +960,7 @@ PalletTown_ProfessorOaksLab_Text_MaybeMoreItems::
 	.string "M'encantaria seguir sentint\n"
 	.string "les teves aventures, però!\p"
 	.string "Si tens alguna fita important\n"
-	.string "per explicar-me, podria convèncer\l"
+	.string "per explicar-me, podria convencer\l"
 	.string "el Prof. Oak de donar-te alguna\l"
 	.string "cosa bona!$"
 

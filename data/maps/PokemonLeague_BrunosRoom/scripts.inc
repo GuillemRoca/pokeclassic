@@ -113,7 +113,7 @@ PokemonLeague_BrunosRoom_EventScript_BrunoLookAwayDown::
 	return
 
 PokemonLeague_BrunosRoom_Text_Intro::
-    .string "Soc en Bruno de l'Alt Comandament!\p"
+    .string "Sóc en Bruno de l'Alt Comandament!\p"
     .string "Amb un entrenament rigorós,\n"
     .string "les persones i els Pokémon poden\l"
     .string "fer-se més forts sense límit.\p"

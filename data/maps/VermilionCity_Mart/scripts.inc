@@ -17,12 +17,12 @@ VermilionCity_Mart_EventScript_BaldingMan::
 VermilionCity_Mart_Text_TeamRocketAreWickedPeople::
     .string "Hi ha gent malvada que farà\n"
     .string "servir Pokémon per actes criminals.\p"
-    .string "El Team Rocket trafica amb\n"
+    .string "L'Equip Rocket trafica amb\n"
     .string "Pokémon rars, per exemple.\p"
     .string "També abandonen els Pokémon que\n"
     .string "consideren impopulars o inútils.\p"
     .string "Aquesta és la mena de gent\n"
-    .string "horrible que són, el Team Rocket.$"
+    .string "horrible que són, l'Equip Rocket.$"
 
 VermilionCity_Mart_EventScript_Clerk::
 	lock

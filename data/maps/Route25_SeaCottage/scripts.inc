@@ -136,8 +136,8 @@ Route25_SeaCottage_EventScript_BillAskForHelp::
 Route25_SeaCottage_Text_ImBillHelpMeOutPal::
     .string "Hola! Sóc un Pokémon…\n"
     .string "…No, no ho sóc!\p"
-    .string "Digue'm Bill!\n"
-    .string "Sóc un autèntic PokèManíac!\p"
+    .string "Digues-me Bill!\n"
+    .string "Sóc un autèntic PokéManíac!\p"
     .string "Ei!\n"
     .string "Per què aquesta cara escèptica?\p"
     .string "No t'estic enganyant.\p"

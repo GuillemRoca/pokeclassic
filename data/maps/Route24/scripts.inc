@@ -276,7 +276,7 @@ Route24_Text_RocketGruntIntro:
     .string "reclutar-te!\p"
     .string "Aquest és el premi secret:\n"
     .string "unir-te a l'Equip Rocket!\p"
-    .string "…Bé, necessites convèncer-te!\p"
+    .string "…Bé, necessites convencer-te!\p"
     .string "Et faré una oferta que no\n"
     .string "podràs rebutjar!$"
 
@@ -364,7 +364,7 @@ Route24_Text_ThisIsTheKid::
 Route24_Text_OhWowThatsGreat::
 	.string "Uau! De debò?\p"
 	.string "Normalment costa més\n"
-	.string "convèncer la gent...\p"
+	.string "convencer la gent...\p"
 	.string "Genial! Deixa'm anar a buscar\n"
 	.string "els meus caps, i preparem\l"
 	.string "el teu Premi Secret!$"

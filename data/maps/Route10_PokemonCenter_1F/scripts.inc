@@ -39,7 +39,7 @@ Route10_PokemonCenter_1F_EventScript_Youngster::
 
 Route10_PokemonCenter_1F_Text_HeardGhostsHauntLavender::
     .string "He sentit que hi ha fantasmes\n"
-    .string "a Lavender Town.$"
+    .string "a Poble Lavanda.$"
 
 @Aide Gift 2
 Route10_PokemonCenter_1F_EventScript_Aide::

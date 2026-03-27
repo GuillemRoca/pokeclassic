@@ -41,5 +41,5 @@ VermilionCity_House3_Text_DearPippiLetter::
     .string "Benvolguda Pippi,\n"
     .string "espero veure't aviat.\p"
     .string "He sentit un rumor que el Team\n"
-    .string "Rocket es dirigia a Saffron City.\p"
+    .string "Rocket es dirigia a Ciutat Safrà.\p"
     .string "Vermilion sembla segura.$"

@@ -267,11 +267,11 @@ BattleFrontier_BattleFactoryBattleRoom_Text_ShakeOutKnowledgeBringItOn:
 
 BattleFrontier_BattleFactoryBattleRoom_Text_NolandLetsSeeFrontierPass:
 	.string "Noland: Ben jugat!\n"
-	.string "Deixa'm veure el teu Passi Frontera.$"
+	.string "Deixa'm veure el teu Passi de Frontera.$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_ReceivedKnowledgeSymbol:
 	.string "El Símbol de Coneixement s'ha gravat\n"
-	.string "al Passi Frontera!$"
+	.string "al Passi de Frontera!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_NextTimeNoHoldsBarred:
 	.string "Heh…\n"
@@ -297,14 +297,14 @@ BattleFrontier_BattleFactoryBattleRoom_Text_OutOfMyLeagueLetsSeePass:
 	.string "Noland: Què…\n"
 	.string "Em superes!\p"
 	.string "Caram!\n"
-	.string "Deixa'm veure el Passi Frontera!$"
+	.string "Deixa'm veure el Passi de Frontera!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_KnowledgeSymbolTookGoldenShine:
 	.string "El Símbol de Coneixement ha adquirit\n"
 	.string "una brillantor daurada!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_LastTimeILoseToYou:
-	.string "Buf, tio!\p"
+	.string "Buf, home!\p"
 	.string "Aquesta és absolutament l'última\n"
 	.string "vegada que perdo contra tu!\p"
 	.string "Ho hem de tornar a fer, eh?$"

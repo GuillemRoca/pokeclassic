@@ -243,7 +243,7 @@ BattleFrontier_ScottsHouse_Text_ObtainedXBattlePoints:
 
 BattleFrontier_ScottsHouse_Text_ExplainBattlePoints:
 	.string "Scott: Pots comprovar els teus Punts\n"
-	.string "de Combat al Passi Frontera.\p"
+	.string "de Combat al Passi de Frontera.\p"
 	.string "Com més èxit tinguis aquí a la\n"
 	.string "Frontera de Combat, més Punts\l"
 	.string "de Combat acumularàs.\p"
@@ -291,7 +291,7 @@ BattleFrontier_ScottsHouse_Text_YouveCollectedAllSilverSymbols:
 	.string "a la Frontera de Combat?\p"
 	.string "…Espera un moment…\n"
 	.string "Oh!\p"
-	.string "El teu Passi Frontera!\n"
+	.string "El teu Passi de Frontera!\n"
 	.string "Has recollit la col·lecció completa\l"
 	.string "de símbols de plata!\p"
 	.string "Això és més que impressionant!\n"
@@ -306,7 +306,7 @@ BattleFrontier_ScottsHouse_Text_YouveCollectedAllGoldSymbols:
 	.string "de tot a la Frontera de Combat.\p"
 	.string "…Espera un moment…\n"
 	.string "Oh, no m'ho puc creure!\p"
-	.string "El teu Passi Frontera!\n"
+	.string "El teu Passi de Frontera!\n"
 	.string "Has reunit la col·lecció completa\l"
 	.string "de símbols d'or!\p"
 	.string "Això és més que estupend!\n"

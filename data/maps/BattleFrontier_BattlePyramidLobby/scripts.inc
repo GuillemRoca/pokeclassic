@@ -547,7 +547,7 @@ BattleFrontier_BattlePyramidLobby_Text_AwaitFutureChallenge:
 
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainBattlePyramid:
-	.string "La Cerca de Combat és un event\n"
+	.string "La Cerca de Combat és un esdeveniment\n"
 
 	.string "on has d'explorar la Piràmide\l"
 
@@ -601,7 +601,7 @@ BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLvOpen:
 
 	.string "Sembla que no tens els tres\n"
 
-	.string "Pokémon qualificats pel desafiament.\p"
+	.string "Pokémon qualificats per al desafiament.\p"
 
 	.string "Recorda també treure tots els\n"
 
@@ -619,7 +619,7 @@ BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLv50:
 
 	.string "Sembla que no tens els tres\n"
 
-	.string "Pokémon qualificats pel desafiament.\p"
+	.string "Pokémon qualificats per al desafiament.\p"
 
 	.string "Els tres Pokémon han de ser\n"
 

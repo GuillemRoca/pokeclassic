@@ -487,7 +487,7 @@ BattleFrontier_BattlePalaceBattleRoom_Text_SavingData:
 
 BattleFrontier_BattlePalaceBattleRoom_Text_RecordLastMatch:
 	.string "Vols enregistrar l'últim combat\n"
-	.string "al Passi Frontera?$"
+	.string "al Passi de Frontera?$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ChallengingPalaceMaven:
 	.string "I ara…\p"
@@ -532,11 +532,11 @@ BattleFrontier_BattlePalaceBattleRoom_Text_LetsSeeFrontierPass:
 	.string "Si almenys poguessis mantenir\n"
 	.string "aquesta façana d'autoritat…\p"
 	.string "Vinga!\n"
-	.string "A veure el Passi Frontera!$"
+	.string "A veure el Passi de Frontera!$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_ReceivedSpiritsSymbol:
 	.string "El Símbol dels Esperits ha estat\n"
-	.string "gravat al Passi Frontera!$"
+	.string "gravat al Passi de Frontera!$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpenserAwaitNextTime:
 	.string "Spenser: Els ulls dels teus\n"
@@ -572,7 +572,7 @@ BattleFrontier_BattlePalaceBattleRoom_Text_HurryWithFrontierPass:
 	.string "Si almenys poguessis mantenir\n"
 	.string "un cert decòrum…\p"
 	.string "Gaaah, aquí!\n"
-	.string "De pressa amb el Passi Frontera!$"
+	.string "De pressa amb el Passi de Frontera!$"
 
 BattleFrontier_BattlePalaceBattleRoom_Text_SpiritsSymbolTookGoldenShine:
 	.string "El Símbol dels Esperits ha pres\n"

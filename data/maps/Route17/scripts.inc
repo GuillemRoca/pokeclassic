@@ -45,7 +45,7 @@ Route17_EventScript_RouteSign::
 
 Route17_Text_RouteSign::
     .string "Ruta 17\n"
-    .string "Celadon City - Fuchsia City$"
+    .string "Ciutat Celadó - Ciutat Fúcsia$"
 
 Route17_EventScript_BallsNotice::
 	msgbox Route17_Text_DontThrowGameThrowBalls, MSGBOX_SIGN
