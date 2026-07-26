@@ -10,7 +10,11 @@ Terminologia acordada per a la localització al català del joc PokeClassic (rec
 - Gènere per defecte dels Pokémon: masculí, excepte espècies exclusivament femenines (Chansey, Blissey, Nidoqueen, Nidorina, etc.).
 - Ela geminada: usar `·` (ja disponible al charmap com a byte AF): col·legi, intel·ligent, etc.
 - Majúscules accentuades: usar-les (À, È, É, Í, Ï, Ò, Ó, Ú, Ü, Ç).
-- Longitud màxima per línia de text: ~35 caràcters (amplada de la caixa de text GBA).
+- Longitud màxima per línia de text: **no es mesura en caràcters.** La font del GBA
+  és d'amplada variable, així que comptar caràcters no diu si el text hi cap. Mesura
+  l'amplada real en píxels amb `python3 translation/audit_box_widths.py` (vegeu
+  [TOOLING.md](TOOLING.md)). Límits: 109 px les descripcions de motxilla,
+  144 px les d'habilitat, 208 px els missatges de combat i les caixes de text.
 
 ---
 
