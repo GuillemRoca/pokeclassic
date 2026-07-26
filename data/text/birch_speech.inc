@@ -1,59 +1,59 @@
 gText_Birch_Welcome::
-    .string "Hello, there!\n"
-    .string "Glad to meet you!\p"
-    .string "Welcome to the world of Pokémon!\p"
-    .string "My name is Oak.\p"
-    .string "People affectionately refer to me\n"
-    .string "as the Pokémon Professor.\p"
+    .string "Hola!\n"
+    .string "Encantat de conèixer-te!\p"
+    .string "Benvingut al món dels Pokémon!\p"
+    .string "Em dic Oak.\p"
+    .string "La gent m'anomena afectuosament\n"
+    .string "el Professor Pokémon.\p"
     .string "$"
 
 gText_Birch_Pokemon::
-	.string "This world…\p"
+	.string "Aquest món…\p"
 	.string "$"
 
 gText_Birch_MainSpeech::
-    .string "…is inhabited far and wide by\n"
-    .string "creatures called Pokémon.\p"
-    .string "For some people, Pokémon are pets.\n"
-    .string "Others use them for battling.\p"
-    .string "As for myself…\p"
-    .string "I study Pokémon as a profession.\p"
+    .string "…està habitat arreu per\n"
+    .string "criatures anomenades Pokémon.\p"
+    .string "Per a alguns, els Pokémon són mascotes.\n"
+    .string "Altres els fan servir per combatre.\p"
+    .string "Pel que fa a mi…\p"
+    .string "Jo estudio els Pokémon de professió.\p"
     .string "$"
 
 gText_Birch_AndYouAre::
-    .string "But first, tell me a little about\n"
-    .string "yourself.\p$"
+    .string "Però primer, explica'm una mica sobre\n"
+    .string "tu mateix.\p$"
 
 gText_Birch_BoyOrGirl::
-	.string "Are you a boy?\n"
-	.string "Or are you a girl?$"
+	.string "Ets un noi?\n"
+	.string "O ets una noia?$"
 
 gText_Birch_WhatsYourName::
-    .string "Let's begin with your name.\n"
-    .string "What is it?$"
+    .string "Comencem pel teu nom.\n"
+    .string "Com et dius?$"
 
 gText_Birch_SoItsPlayer::
-    .string "Right…\n"
-    .string "So your name is {PLAYER}.$"
+    .string "D'acord…\n"
+    .string "Així que et dius {PLAYER}.$"
 
 gText_Birch_ThisIsYourRival::
-    .string "This is my grandson.\p"
-    .string "He's been your rival since you both\n"
-    .string "were babies.\p"
-    .string "…Erm, what was his name now?$"
+    .string "Aquest és el meu nét.\p"
+    .string "És el teu rival des que tots dos\n"
+    .string "éreu nadons.\p"
+    .string "…Ehm, com es deia?$"
 
 gText_Birch_ConfirmRivalName::
-    .string "…Er, was it {RIVAL}?$"
+    .string "…Ehm, era {RIVAL}?$"
 
 gText_Birch_YourePlayer::
-    .string "That's right! I remember now!\n"
-    .string "His name is {RIVAL}!\p$"
+    .string "Això mateix! Ara me'n recordo!\n"
+    .string "Es diu {RIVAL}!\p$"
 
 gText_Birch_AreYouReady::
     .string "{PLAYER}!\p"
-    .string "Your very own Pokémon legend is\n"
-    .string "about to unfold!\p"
-    .string "A world of dreams and adventures\n"
-    .string "with Pokémon awaits! Let's go!\p"
+    .string "La teva pròpia llegenda Pokémon\n"
+    .string "està a punt de començar!\p"
+    .string "Un món de somnis i aventures\n"
+    .string "amb Pokémon t'espera! Endavant!\p"
     .string "$"
 

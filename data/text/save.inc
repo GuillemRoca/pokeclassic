@@ -1,33 +1,33 @@
 	.align 2
 gText_ConfirmSave::
-	.string "Would you like to save the game?$"
+	.string "Vols desar la partida?$"
 
 gText_AlreadySavedFile::
-	.string "There is already a saved file.\n"
-	.string "Is it okay to overwrite it?$"
+	.string "Ja hi ha una partida desada.\n"
+	.string "La vols sobreescriure?$"
 
 gText_SavingDontTurnOff::
-	.string "Saving…\n"
-	.string "Don't turn off the power.$"
+	.string "S'està desant…\n"
+	.string "No apaguis la consola.$"
 
 gText_PlayerSavedGame::
-	.string "{PLAYER} saved the game.$"
+	.string "{PLAYER} ha desat la partida.$"
 
 gText_DifferentSaveFile::
-	.string "WARNING!\p"
-	.string "There is a different game file that\n"
-	.string "is already saved.\p"
-	.string "If you save now, the other file's\n"
-	.string "adventure, including items and\l"
-	.string "Pokémon, will be entirely lost.\p"
-	.string "Are you sure you want to save now\n"
-	.string "and overwrite the other save file?$"
+	.string "ATENCIÓ!\p"
+	.string "Hi ha una altra partida diferent\n"
+	.string "que ja està desada.\p"
+	.string "Si deses ara, l'aventura de l'altra\n"
+	.string "partida, amb els objectes i els\l"
+	.string "Pokémon, es perdrà del tot.\p"
+	.string "Segur que vols desar ara i\n"
+	.string "sobreescriure l'altra partida?$"
 
 gText_SaveError::
-	.string "Save error.\p"
-	.string "Please exchange the\n"
-	.string "backup memory.$"
+	.string "Error en desar.\p"
+	.string "Cal canviar la\n"
+	.string "memòria de reserva.$"
 
 gText_SavingDontTurnOffPower::
-	.string "Saving…\n"
-	.string "Don't turn off the power.$"
+	.string "S'està desant…\n"
+	.string "No apaguis la consola.$"
