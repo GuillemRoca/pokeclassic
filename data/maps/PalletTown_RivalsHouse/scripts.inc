@@ -224,7 +224,7 @@ PalletTown_RivalsHouse_EventScript_MonFriendshipMid::
 
 PalletTown_RivalsHouse_Text_ItsWarmingUpToYou::
     .string "S'està acostumant a tu.\n"
-    .string "La confiança va creixent entre vosaltres.$"
+    .string "La confiança creix entre vosaltres.$"
 
 PalletTown_RivalsHouse_EventScript_MonFriendshipHigh::
 	msgbox PalletTown_RivalsHouse_Text_ItsQuiteFriendly, MSGBOX_DEFAULT

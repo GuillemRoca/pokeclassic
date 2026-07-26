@@ -841,7 +841,7 @@ PalletTown_ProfessorOaksLab_Text_JustJoined::
     .string "Cedar: Hola. Encantada de conèixer-te!\n"
     .string "Fa poc que m'he incorporat a l'equip\l"
     .string "del Professor Oak.\p"
-    .string "Estic il·lusionada de treballar amb tots.$"
+    .string "Estic contenta de treballar amb tots.$"
 
 PalletTown_ProfessorOaksLab_EventScript_CedarPostgame::
 	msgbox PalletTown_ProfessorOaksLab_Text_CedarHiPlayer, MSGBOX_DEFAULT
@@ -949,7 +949,7 @@ PalletTown_ProfessorOaksLab_Text_MaybeMoreItems::
 	.string "les teves aventures!\p"
 	.string "Si tens algun bon èxit per\n"
 	.string "explicar-me, podria convèncer\l"
-	.string "el Prof. Oak que et doni alguna cosa bona!$"
+	.string "el Prof. Oak que et doni algun premi!$"
 
 PalletTown_ProfessorOaksLab_Text_WhatAJourney::
 	.string "Cedar: Oh, {PLAYER}!\n"

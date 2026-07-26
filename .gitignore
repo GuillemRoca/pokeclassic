@@ -54,3 +54,7 @@ README.md
 
 # local toolchain copy (installed by build_tools/agbcc install.sh)
 tools/agbcc/
+
+# python bytecode
+__pycache__/
+*.pyc

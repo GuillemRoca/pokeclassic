@@ -82,7 +82,7 @@ Movement_OakApproaches2:
 
 Route1_Text_OakGrassUnsafe::
     .string "OAK: És perillós!\n"
-    .string "A l'herba alta hi viuen Pokémon salvatges!\p"
+    .string "A l'herba alta hi ha Pokémon salvatges!\p"
     .string "Necessites el teu propi Pokémon per\n"
     .string "protegir-te.$"
 

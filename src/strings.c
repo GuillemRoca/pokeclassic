@@ -657,7 +657,7 @@ const u8 gText_PkmnFriendlyCoreVar2Fell[] = _(
     "El {STR_VAR_2} intern ha baixat!{PAUSE_UNTIL_PRESS}");
 const u8 gText_PkmnFriendlyCoreNeutralized[] = _(
     "{STR_VAR_1} s'ha fet més amistós.\n"
-    "Les estadístiques internes han caigut!{PAUSE_UNTIL_PRESS}");
+    "Les estad. internes han caigut!{PAUSE_UNTIL_PRESS}");
 const u8 gText_PkmnAdoresBaseVar2Fell[] = _(
     "{STR_VAR_1} t'adora!\n"
     "El {STR_VAR_2} base ha baixat!{PAUSE_UNTIL_PRESS}");
@@ -1028,10 +1028,10 @@ const u8 gText_50CoinsAndPrice[] = _("  50 fitxes    ¥1.000");
 const u8 gText_500CoinsAndPrice[] = _("500 fitxes  ¥10.000");
 const u8 gText_Excellent2[] = _("Excel·lent");
 const u8 gText_NotSoGood[] = _("No gaire bo");
-const u8 gText_RedShard[] = _("Fragment Vermell");
-const u8 gText_YellowShard[] = _("Fragment Groc");
-const u8 gText_BlueShard[] = _("Fragment Blau");
-const u8 gText_GreenShard[] = _("Fragment Verd");
+const u8 gText_RedShard[] = _("Frag. Vermell");
+const u8 gText_YellowShard[] = _("Frag. Groc");
+const u8 gText_BlueShard[] = _("Frag. Blau");
+const u8 gText_GreenShard[] = _("Frag. Verd");
 const u8 gText_BattleFrontier[] = _("Frontera de Combat");
 const u8 gText_Right[] = _("Dreta");
 const u8 gText_Left[] = _("Esquerra");

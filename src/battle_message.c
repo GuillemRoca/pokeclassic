@@ -1263,15 +1263,15 @@ static const u8 sText_SharedItsPower[] =_(
     "{B_ATK_NAME_WITH_PREFIX} ha compartit el\n"
     "seu poder amb l'objectiu!");
 static const u8 sText_SwapsDefAndSpDefOfAllPkmn[] =_(
-    "S'ha creat una zona estranya on la Defensa\n"
-    "i la Def. Esp. estan intercanviades!");
+    "S'ha creat una zona on la Defensa\n"
+    "i la Def. Esp. es canvien!");
 static const u8 sText_BecameNimble[] =_("{B_ATK_NAME_WITH_PREFIX} s'ha tornat àgil!");
 static const u8 sText_HurledIntoTheAir[] =_(
     "{B_DEF_NAME_WITH_PREFIX} ha sortit\n"
     "disparat enlaire!");
 static const u8 sText_HeldItemsLoseEffects[] =_(
-    "S'ha creat una zona estranya on els objectes\n"
-    "dels Pokémon perden els seus efectes!");
+    "S'ha creat una zona on els\n"
+    "objectes perden els efectes!");
 static const u8 sText_FellStraightDown[] =_(
     "{B_DEF_NAME_WITH_PREFIX} ha caigut\n"
     "de ple!");
@@ -1332,10 +1332,14 @@ static const u8 sText_WonderRoomEnds[] = _(
     "Sala Prodigi s'ha esgotat i la Defensa\n"
     "i la Def. Esp. han tornat a la normalitat!");
 static const u8 sText_MagicRoomEnds[] = _(
-    "Sala Màgica s'ha esgotat i els efectes\n"
-    "dels objectes han tornat a la normalitat!");
-static const u8 sText_MudSportEnds[] = _("Els efectes de Bany de Fang s'han esvaït.");
-static const u8 sText_WaterSportEnds[] = _("Els efectes de Bany d'Aigua s'han esvaït.");
+    "Sala Màgica s'ha esgotat i els\n"
+    "objectes tornen a la normalitat!");
+static const u8 sText_MudSportEnds[] = _(
+    "L'efecte de Bany de Fang\n"
+    "s'ha esvaït.");
+static const u8 sText_WaterSportEnds[] = _(
+    "L'efecte de Bany d'Aigua\n"
+    "s'ha esvaït.");
 static const u8 sText_GravityEnds[] = _("La gravetat ha tornat a la normalitat!");
 static const u8 sText_AquaRingHeal[] = _(
     "Anell Aigua ha recuperat els PS\n"
@@ -1678,7 +1682,7 @@ static const u8 sText_ZMoveRestoreHp[] = _(
     "PS amb el seu Poder Z!");
 static const u8 sText_ZMoveStatUp[] = _(
     "{B_SCR_ACTIVE_NAME_WITH_PREFIX} ha pujat les\n"
-    "seves estadístiques amb el seu Poder Z!");
+    "estadístiques amb el Poder Z!");
 static const u8 sText_ZMoveHpSwitchInTrap[] = _("El Poder Z ha recuperat els PS de {B_SCR_ACTIVE_NAME_WITH_PREFIX}!");
 static const u8 sText_TerrainReturnedToNormal[] = _(
     "El camp ha tornat a la\n"
@@ -3006,7 +3010,9 @@ const u8 *const gRoundsStringTable[DOME_ROUNDS_COUNT] =
 };
 
 const u8 gText_TheGreatNewHope[] = _("La gran nova esperança!\p");
-const u8 gText_WillChampinshipDreamComeTrue[] = _("Es farà realitat el somni del campionat?!\p");
+const u8 gText_WillChampinshipDreamComeTrue[] = _(
+    "Es complirà el somni\n"
+    "del campionat?!\p");
 const u8 gText_AFormerChampion[] = _("Un antic campió!\p");
 const u8 gText_ThePreviousChampion[] = _("L'anterior campió!\p");
 const u8 gText_TheUnbeatenChampion[] = _("El campió invicte!\p");

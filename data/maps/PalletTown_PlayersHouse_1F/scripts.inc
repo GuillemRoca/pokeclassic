@@ -140,7 +140,7 @@ PlayersHouse_1F_Text_SomethingAmazing::
 	.string "He descobert una cosa increïble!\p"
 	.string "Estava investigant per a la meva\n"
 	.string "col·lecció Pokémon quan un dels meus\l"
-	.string "escàners ha detectat una lectura estranya.\p"
+	.string "escàners ha detectat un senyal rar.\p"
 	.string "Sembla que alguns Pokémon poden tenir\n"
 	.string "un potencial ocult que encara no\l"
 	.string "hem vist.\p"
@@ -212,7 +212,7 @@ PlayersHouse_1F_Text_Gameclear::
 	.string "pensava que necessitaries més descans.\p"
 	.string "...\p"
 	.string "Has crescut molt, {PLAYER}.\p"
-	.string "Crec que els teus Pokémon també ho veuen.\p"
+	.string "Crec que els teus Pokémon ho veuen.\p"
 	.string "Et seguiran a tot arreu!$"
 
 PlayersHouse_1F_Text_FollowerOptions::
