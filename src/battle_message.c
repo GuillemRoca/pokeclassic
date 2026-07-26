@@ -311,10 +311,13 @@ static const u8 sText_PkmnsXPreventsFlinching[] = _("{B_EFF_ABILITY} de\n{B_EFF_
 static const u8 sText_PkmnsXPreventsYsZ[] = _("{B_ATK_ABILITY} de\n{B_ATK_NAME_WITH_PREFIX} impedeix\l{B_DEF_ABILITY} de\l{B_DEF_NAME_WITH_PREFIX}!");
 static const u8 sText_PkmnsXCuredItsYProblem[] = _("{B_SCR_ACTIVE_ABILITY} de\n{B_SCR_ACTIVE_NAME_WITH_PREFIX}\lha curat el problema de {B_BUFF1}!");
 static const u8 sText_PkmnsXHadNoEffectOnY[] = _("{B_SCR_ACTIVE_ABILITY} de\n{B_SCR_ACTIVE_NAME_WITH_PREFIX}\nno ha afectat {B_EFF_NAME_WITH_PREFIX}!");
+// The engine assembles B_BUFF2 as [intensifier] + [direction] (see pokemon.c and
+// battle_script_commands.c), so the direction has to be adverbial for the pair to
+// read as Catalan: "molt " + "amunt!" -> "molt amunt!", not "molt va pujar!".
 const u8 gText_StatSharply[] = _("molt ");
-const u8 gText_StatRose[] = _("va pujar!");
+const u8 gText_StatRose[] = _("amunt!");
 static const u8 sText_StatHarshly[] = _("molt ");
-static const u8 sText_StatFell[] = _("va baixar!");
+static const u8 sText_StatFell[] = _("avall!");
 static const u8 sText_AttackersStatRose[] = _("{B_BUFF1} de\n{B_ATK_NAME_WITH_PREFIX} {B_BUFF2}");
 const u8 gText_DefendersStatRose[] = _("{B_BUFF1} de\n{B_DEF_NAME_WITH_PREFIX} {B_BUFF2}");
 static const u8 sText_UsingItemTheStatOfPkmnRose[] = _("Amb {B_LAST_ITEM}, {B_BUFF1}\nde {B_SCR_ACTIVE_NAME_WITH_PREFIX} {B_BUFF2}");
