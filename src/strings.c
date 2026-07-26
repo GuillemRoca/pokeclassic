@@ -1604,10 +1604,10 @@ const u8 gText_Floor6[] = _("Pis 6");
 const u8 gText_Floor7[] = _("Pis 7");
 const u8 gText_Peak[] = _("Cim");
 const u8 gText_LinkStandby2[] = _("En espera de link…\n… … Botó B: Cancel·lar");
-const u8 gText_PressAToLoadEvent[] = _("Prem el Botó A per carregar esdeveniment.\n… … Botó B: Cancel·lar");
+const u8 gText_PressAToLoadEvent[] = _("Botó A: carregar esdeveniment\n… … Botó B: Cancel·lar");
 const u8 gText_LoadingEvent[] = _("Carregant esdeveniment…");
 const u8 gText_DontRemoveCableTurnOff[] = _("No desconnectis el cable.\nNo apaguis la consola.");
-const u8 gText_EventSafelyLoaded[] = _("L'esdeveniment s'ha carregat correctament.");
+const u8 gText_EventSafelyLoaded[] = _("L'esdeveniment s'ha\ncarregat correctament.");
 const u8 gText_LoadErrorEndingSession[] = _("Error de càrrega.\nFinalitzant sessió.");
 const u8 gJPText_Player[] = _("プレイヤー"); // Unused
 const u8 gJPText_Sama[] = _("さま"); // Unused
@@ -1976,7 +1976,7 @@ const u8 gText_SeriousMintBP[] = _("Menta Seriosa{CLEAR_TO 0x64}50BP");
 const u8 gText_TimidMintBP[] = _("Menta Tímida{CLEAR_TO 0x64}50BP");
 
 //Infinite TMs
-const u8 gText_SoldOut[] = _("Ho sento, però aquell article s'ha esgotat.\p");
+const u8 gText_SoldOut[] = _("Ho sento, però aquell\narticle s'ha esgotat.\p");
 const u8 gText_SoldOut2[] = _("ESGOTAT");
 
 //Exp
@@ -1984,5 +1984,5 @@ const u8 gOtherText_ExpShareOn[] = _("Repartidor d'Exp. activat.\pL'equip guanya
 const u8 gOtherText_ExpShareOff[] = _("Repartidor d'Exp. desactivat.\pL'equip ja no guanyarà\ncap part dels punts d'Exp.{PAUSE_UNTIL_PRESS}");
 
 //LGPE Premier Balls
-const u8 gText_ThrowInPremierBalls[] = _("Et donaré unes quantes Premier Balls també.{PAUSE_UNTIL_PRESS}");
+const u8 gText_ThrowInPremierBalls[] = _("Et donaré unes quantes\nPremier Balls també.{PAUSE_UNTIL_PRESS}");
 
