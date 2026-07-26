@@ -29,8 +29,8 @@ static const u8 sSafariBallDesc[] = _(
 
 static const u8 sNetBallDesc[] = _(
     "Una Ball que va bé\n"
-    "amb Pokémon de\n"
-    "tipus Aigua i Insecte.");
+    "amb Pokémon de tipus\n"
+    "Aigua i Insecte.");
 
 static const u8 sDiveBallDesc[] = _(
     "Una Ball que va\n"
@@ -58,9 +58,9 @@ static const u8 sLuxuryBallDesc[] = _(
     "més amistosos.");
 
 static const u8 sPremierBallDesc[] = _(
-    "Una Ball rara feta\n"
-    "en commemoració\n"
-    "d'algun esdeveniment.");
+    "Una Ball rara feta en\n"
+    "commemoració d'algun\n"
+    "esdeveniment.");
 
 // Medicine
 static const u8 sPotionDesc[] = _(
@@ -169,17 +169,18 @@ static const u8 sEtherDesc[] = _(
 
 static const u8 sMaxEtherDesc[] = _(
     "Restaura totalment\n"
-    "els PP d'un\n"
-    "moviment seleccionat.");
+    "els PP d'un moviment\n"
+    "seleccionat.");
 
 static const u8 sElixirDesc[] = _(
-    "Restaura els PP\n"
-    "de tots els moviments en 10.");
+    "Restaura els\n"
+    "PP de tots els\n"
+    "moviments en 10.");
 
 static const u8 sMaxElixirDesc[] = _(
-    "Restaura totalment\n"
-    "els PP de tots els\n"
-    "moviments d'un Pokémon.");
+    "Restaura\n"
+    "tots els PP\n"
+    "d'un Pokémon.");
 
 static const u8 sLavaCookieDesc[] = _(
     "Especialitat local\n"
@@ -207,8 +208,9 @@ static const u8 sBlackFluteDesc[] = _(
     "Pokémon salvatges.");
 
 static const u8 sWhiteFluteDesc[] = _(
-    "Una flauta de vidre\n"
-    "que atrau Pokémon salvatges.");
+    "Una flauta\n"
+    "de vidre que atrau\n"
+    "Pokémon salvatges.");
 
 static const u8 sBerryJuiceDesc[] = _(
     "Un suc 100% pur\n"
@@ -257,22 +259,22 @@ static const u8 sHPUpDesc[] = _(
     "base d'un Pokémon.");
 
 static const u8 sProteinDesc[] = _(
-    "Augmenta l'estadística\n"
-    "base d'Atac d'un\n"
-    "Pokémon.");
+    "Puja l'estad.\n"
+    "base d'Atac\n"
+    "d'un Pokémon.");
 
 static const u8 sIronDesc[] = _(
-    "Augmenta l'estadística\n"
+    "Puja l'estad.\n"
     "base de Defensa\n"
     "d'un Pokémon.");
 
 static const u8 sCarbosDesc[] = _(
-    "Augmenta l'estadística\n"
-    "base de Velocitat\n"
+    "Puja l'estad. base\n"
+    "de Velocitat\n"
     "d'un Pokémon.");
 
 static const u8 sCalciumDesc[] = _(
-    "Augmenta l'estadística\n"
+    "Puja l'estad.\n"
     "base d'Atac Esp.\n"
     "d'un Pokémon.");
 
@@ -283,11 +285,11 @@ static const u8 sRareCandyDesc[] = _(
 
 static const u8 sPPUpDesc[] = _(
     "Augmenta els PP\n"
-    "màxims d'un\n"
-    "moviment seleccionat.");
+    "màxims d'un moviment\n"
+    "seleccionat.");
 
 static const u8 sZincDesc[] = _(
-    "Augmenta l'estadística\n"
+    "Puja l'estad.\n"
     "base de Def. Esp.\n"
     "d'un Pokémon.");
 
@@ -308,19 +310,19 @@ static const u8 sDireHitDesc[] = _(
     "durant un combat.");
 
 static const u8 sXAttackDesc[] = _(
-    "Augmenta l'estadística\n"
-    "d'Atac durant\n"
-    "un combat.");
+    "Puja Atac\n"
+    "durant un\n"
+    "combat.");
 
 static const u8 sXDefendDesc[] = _(
-    "Augmenta l'estadística\n"
-    "de Defensa durant\n"
-    "un combat.");
+    "Puja Defensa\n"
+    "durant un\n"
+    "combat.");
 
 static const u8 sXSpeedDesc[] = _(
-    "Augmenta l'estadística\n"
-    "de Velocitat durant\n"
-    "un combat.");
+    "Puja Velocitat\n"
+    "durant un\n"
+    "combat.");
 
 static const u8 sXAccuracyDesc[] = _(
     "Augmenta la Precisió\n"
@@ -328,19 +330,19 @@ static const u8 sXAccuracyDesc[] = _(
     "durant un combat.");
 
 static const u8 sXSpecialDesc[] = _(
-    "Augmenta l'estadística\n"
-    "d'Atac Esp. durant\n"
+    "Puja Atac\n"
+    "Esp. durant\n"
     "un combat.");
 
 static const u8 sPokeDollDesc[] = _(
     "Usa-la per fugir\n"
-    "de qualsevol combat\n"
-    "amb un Pokémon salvatge.");
+    "d'un combat amb un\n"
+    "Pokémon salvatge.");
 
 static const u8 sFluffyTailDesc[] = _(
     "Usa-la per fugir\n"
-    "de qualsevol combat\n"
-    "amb un Pokémon salvatge.");
+    "d'un combat amb un\n"
+    "Pokémon salvatge.");
 
 // Field items
 static const u8 sSuperRepelDesc[] = _(
@@ -354,8 +356,8 @@ static const u8 sMaxRepelDesc[] = _(
     "durant 250 passos.");
 
 static const u8 sEscapeRopeDesc[] = _(
-    "Usa-la per escapar\n"
-    "instantàniament d'una\n"
+    "Usa-la per sortir\n"
+    "a l'instant d'una\n"
     "cova o masmorra.");
 
 static const u8 sRepelDesc[] = _(
@@ -421,12 +423,12 @@ static const u8 sBigPearlDesc[] = _(
     "vendre a preu alt.");
 
 static const u8 sStardustDesc[] = _(
-    "Sorra vermella bonica.\n"
-    "Es pot vendre a\n"
-    "preu alt.");
+    "Sorra vermella\n"
+    "bonica. Es pot\n"
+    "vendre a preu alt.");
 
 static const u8 sStarPieceDesc[] = _(
-    "Un fragment de gemma\n"
+    "Fragment de gemma\n"
     "vermella. Es podria\n"
     "vendre molt car.");
 
@@ -503,103 +505,103 @@ static const u8 sRetroMailDesc[] = _(
 
 // Berries
 static const u8 sCheriBerryDesc[] = _(
-    "Objecte retingut\n"
-    "que cura la paràlisi\n"
+    "Objecte retingut:\n"
+    "cura la paràlisi\n"
     "en combat.");
 
 static const u8 sChestoBerryDesc[] = _(
-    "Objecte retingut\n"
-    "que desperta Pokémon\n"
+    "Objecte retingut:\n"
+    "desperta Pokémon\n"
     "en combat.");
 
 static const u8 sPechaBerryDesc[] = _(
-    "Objecte retingut\n"
-    "que cura el verí\n"
-    "en combat.");
+    "Objecte\n"
+    "retingut: cura el\n"
+    "verí en combat.");
 
 static const u8 sRawstBerryDesc[] = _(
-    "Objecte retingut\n"
-    "que cura la cremada\n"
+    "Objecte retingut:\n"
+    "cura la cremada\n"
     "en combat.");
 
 static const u8 sAspearBerryDesc[] = _(
-    "Objecte retingut\n"
-    "que descongela\n"
+    "Objecte retingut:\n"
+    "descongela\n"
     "Pokémon en combat.");
 
 static const u8 sLeppaBerryDesc[] = _(
-    "Objecte retingut\n"
-    "que restaura 10 PP\n"
-    "en combat.");
+    "Objecte retingut:\n"
+    "restaura 10\n"
+    "PP en combat.");
 
 static const u8 sOranBerryDesc[] = _(
-    "Objecte retingut\n"
-    "que restaura 10 PS\n"
-    "en combat.");
+    "Objecte retingut:\n"
+    "restaura 10\n"
+    "PS en combat.");
 
 static const u8 sPersimBerryDesc[] = _(
-    "Objecte retingut\n"
-    "que cura la confusió\n"
+    "Objecte retingut:\n"
+    "cura la confusió\n"
     "en combat.");
 
 static const u8 sLumBerryDesc[] = _(
-    "Objecte retingut\n"
-    "que cura qualsevol\n"
+    "Objecte retingut:\n"
+    "cura qualsevol\n"
     "problema d'estat.");
 
 static const u8 sSitrusBerryDesc[] = _(
-    "Objecte retingut\n"
-    "que restaura 30 PS\n"
-    "en combat.");
+    "Objecte retingut:\n"
+    "restaura 30\n"
+    "PS en combat.");
 
 static const u8 sFigyBerryDesc[] = _(
-    "Objecte retingut\n"
-    "que restaura PS\n"
-    "però pot confondre.");
+    "Objecte retingut:\n"
+    "restaura PS però\n"
+    "pot confondre.");
 
 static const u8 sWikiBerryDesc[] = _(
-    "Objecte retingut\n"
-    "que restaura PS\n"
-    "però pot confondre.");
+    "Objecte retingut:\n"
+    "restaura PS però\n"
+    "pot confondre.");
 
 static const u8 sMagoBerryDesc[] = _(
-    "Objecte retingut\n"
-    "que restaura PS\n"
-    "però pot confondre.");
+    "Objecte retingut:\n"
+    "restaura PS però\n"
+    "pot confondre.");
 
 static const u8 sAguavBerryDesc[] = _(
-    "Objecte retingut\n"
-    "que restaura PS\n"
-    "però pot confondre.");
+    "Objecte retingut:\n"
+    "restaura PS però\n"
+    "pot confondre.");
 
 static const u8 sIapapaBerryDesc[] = _(
-    "Objecte retingut\n"
-    "que restaura PS\n"
-    "però pot confondre.");
+    "Objecte retingut:\n"
+    "restaura PS però\n"
+    "pot confondre.");
 
 static const u8 sRazzBerryDesc[] = _(
-    "Ingredient de {POKEBLOCK}.\n"
-    "Planta en terra\n"
+    "Ingredient de\n"
+    "{POKEBLOCK}. Planta-la\n"
     "per cultivar Razz.");
 
 static const u8 sBlukBerryDesc[] = _(
-    "Ingredient de {POKEBLOCK}.\n"
-    "Planta en terra\n"
+    "Ingredient de\n"
+    "{POKEBLOCK}. Planta-la\n"
     "per cultivar Bluk.");
 
 static const u8 sNanabBerryDesc[] = _(
-    "Ingredient de {POKEBLOCK}.\n"
-    "Planta en terra\n"
+    "Ingredient de\n"
+    "{POKEBLOCK}. Planta-la\n"
     "per cultivar Nanab.");
 
 static const u8 sWepearBerryDesc[] = _(
-    "Ingredient de {POKEBLOCK}.\n"
-    "Planta en terra\n"
+    "Ingredient de\n"
+    "{POKEBLOCK}. Planta-la\n"
     "per cultivar Wepear.");
 
 static const u8 sPinapBerryDesc[] = _(
-    "Ingredient de {POKEBLOCK}.\n"
-    "Planta en terra\n"
+    "Ingredient de\n"
+    "{POKEBLOCK}. Planta-la\n"
     "per cultivar Pinap.");
 
 static const u8 sPomegBerryDesc[] = _(
@@ -633,170 +635,170 @@ static const u8 sTamatoBerryDesc[] = _(
     "la Velocitat base.");
 
 static const u8 sCornnBerryDesc[] = _(
-    "Ingredient de {POKEBLOCK}.\n"
-    "Planta en terra\n"
+    "Ingredient de\n"
+    "{POKEBLOCK}. Planta-la\n"
     "per cultivar Cornn.");
 
 static const u8 sMagostBerryDesc[] = _(
-    "Ingredient de {POKEBLOCK}.\n"
-    "Planta en terra\n"
+    "Ingredient de\n"
+    "{POKEBLOCK}. Planta-la\n"
     "per cultivar Magost.");
 
 static const u8 sRabutaBerryDesc[] = _(
-    "Ingredient de {POKEBLOCK}.\n"
-    "Planta en terra\n"
+    "Ingredient de\n"
+    "{POKEBLOCK}. Planta-la\n"
     "per cultivar Rabuta.");
 
 static const u8 sNomelBerryDesc[] = _(
-    "Ingredient de {POKEBLOCK}.\n"
-    "Planta en terra\n"
+    "Ingredient de\n"
+    "{POKEBLOCK}. Planta-la\n"
     "per cultivar Nomel.");
 
 static const u8 sSpelonBerryDesc[] = _(
-    "Ingredient de {POKEBLOCK}.\n"
-    "Planta en terra\n"
+    "Ingredient de\n"
+    "{POKEBLOCK}. Planta-la\n"
     "per cultivar Spelon.");
 
 static const u8 sPamtreBerryDesc[] = _(
-    "Ingredient de {POKEBLOCK}.\n"
-    "Planta en terra\n"
+    "Ingredient de\n"
+    "{POKEBLOCK}. Planta-la\n"
     "per cultivar Pamtre.");
 
 static const u8 sWatmelBerryDesc[] = _(
-    "Ingredient de {POKEBLOCK}.\n"
-    "Planta en terra\n"
+    "Ingredient de\n"
+    "{POKEBLOCK}. Planta-la\n"
     "per cultivar Watmel.");
 
 static const u8 sDurinBerryDesc[] = _(
-    "Ingredient de {POKEBLOCK}.\n"
-    "Planta en terra\n"
+    "Ingredient de\n"
+    "{POKEBLOCK}. Planta-la\n"
     "per cultivar Durin.");
 
 static const u8 sBelueBerryDesc[] = _(
-    "Ingredient de {POKEBLOCK}.\n"
-    "Planta en terra\n"
+    "Ingredient de\n"
+    "{POKEBLOCK}. Planta-la\n"
     "per cultivar Belue.");
 
 static const u8 sLiechiBerryDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta l'Atac\n"
-    "en un moment crític.");
+    "Objecte\n"
+    "retingut: puja\n"
+    "l'Atac en perill.");
 
 static const u8 sGanlonBerryDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta la Defensa\n"
-    "en un moment crític.");
+    "Objecte\n"
+    "retingut: puja la\n"
+    "Defensa en perill.");
 
 static const u8 sSalacBerryDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta la Velocitat\n"
-    "en un moment crític.");
+    "Objecte retingut:\n"
+    "puja la Velocitat\n"
+    "en perill.");
 
 static const u8 sPetayaBerryDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta l'Atac Esp.\n"
-    "en un moment crític.");
+    "Objecte retingut:\n"
+    "puja l'Atac\n"
+    "Esp. en perill.");
 
 static const u8 sApicotBerryDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta la Def. Esp.\n"
-    "en un moment crític.");
+    "Objecte retingut:\n"
+    "puja la Def.\n"
+    "Esp. en perill.");
 
 static const u8 sLansatBerryDesc[] = _(
-    "Objecte retingut\n"
-    "que puja el ratio\n"
+    "Objecte retingut:\n"
+    "puja el ratio\n"
     "de cop crític.");
 
 static const u8 sStarfBerryDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta molt\n"
-    "una estadística.");
+    "Objecte retingut:\n"
+    "puja molt una\n"
+    "estadística.");
 
 static const u8 sEnigmaBerryDesc[] = _(
-    "Ingredient de {POKEBLOCK}.\n"
-    "Planta en terra\n"
-    "per cultivar un misteri.");
+    "Ingredient de\n"
+    "{POKEBLOCK}. Planta-la\n"
+    "per un misteri.");
 
 // Hold items
 static const u8 sBrightPowderDesc[] = _(
-    "Objecte retingut\n"
-    "que emet resplendor\n"
-    "per reduir la Precisió.");
+    "Objecte retingut:\n"
+    "emet resplendor per\n"
+    "reduir la Precisió.");
 
 static const u8 sWhiteHerbDesc[] = _(
-    "Objecte retingut\n"
-    "que restaura\n"
-    "qualsevol estadística reduïda.");
+    "Objecte retingut:\n"
+    "restaura les\n"
+    "estad. baixades.");
 
 static const u8 sMachoBraceDesc[] = _(
-    "Objecte retingut\n"
-    "que potencia el creixement\n"
-    "però redueix la Velocitat.");
+    "Objecte retingut:\n"
+    "potencia creixement\n"
+    "i baixa Vel.");
 
 static const u8 sExpShareDesc[] = _(
-    "Reparteix Exp.\n"
-    "a tots els teus Pokémon\n"
+    "Dona Exp. a tots\n"
+    "els teus Pokémon\n"
     "quan s'activa.");
 
 static const u8 sQuickClawDesc[] = _(
-    "Objecte retingut\n"
-    "que de vegades permet\n"
+    "Objecte retingut:\n"
+    "de vegades permet\n"
     "atacar primer.");
 
 static const u8 sSootheBellDesc[] = _(
-    "Objecte retingut\n"
-    "que calma l'esperit\n"
-    "i fomenta l'amistat.");
+    "Objecte retingut:\n"
+    "calma l'esperit i\n"
+    "fomenta l'amistat.");
 
 static const u8 sMentalHerbDesc[] = _(
-    "Objecte retingut\n"
-    "que treu els Pokémon\n"
+    "Objecte retingut:\n"
+    "treu els Pokémon\n"
     "de l'enamorament.");
 
 static const u8 sChoiceBandDesc[] = _(
-    "Augmenta la potència\n"
-    "d'un moviment, però\n"
-    "només permet usar-lo.");
+    "Puja la potència\n"
+    "d'un moviment;\n"
+    "només pots usar-lo.");
 
 static const u8 sKingsRockDesc[] = _(
-    "Objecte retingut\n"
-    "que pot fer retrocedir\n"
-    "el rival en ser colpejat.");
+    "Objecte retingut:\n"
+    "pot fer retrocedir\n"
+    "en colpejar.");
 
 static const u8 sSilverPowderDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta la potència\n"
-    "dels moviments Insecte.");
+    "Objecte retingut:\n"
+    "potencia els\n"
+    "moviments Insecte.");
 
 static const u8 sAmuletCoinDesc[] = _(
-    "Dobla els diners en\n"
-    "combat si el portador\n"
-    "hi participa.");
+    "Dobla els diners\n"
+    "si el portador\n"
+    "entra en combat.");
 
 static const u8 sCleanseTagDesc[] = _(
-    "Objecte retingut\n"
-    "que ajuda a repel·lir\n"
+    "Objecte retingut:\n"
+    "ajuda a repel·lir\n"
     "Pokémon salvatges.");
 
 static const u8 sSoulDewDesc[] = _(
     "Objecte retingut:\n"
-    "puja Atac Esp. i Def. Esp.\n"
+    "puja At. i Def. Esp.\n"
     "de Latios i Latias.");
 
 static const u8 sDeepSeaToothDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta l'Atac Esp.\n"
+    "Objecte retingut:\n"
+    "puja l'Atac Esp.\n"
     "de Clamperl.");
 
 static const u8 sDeepSeaScaleDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta la Def. Esp.\n"
+    "Objecte retingut:\n"
+    "puja la Def. Esp.\n"
     "de Clamperl.");
 
 static const u8 sSmokeBallDesc[] = _(
-    "Objecte retingut\n"
-    "que assegura la fuita\n"
-    "de Pokémon salvatges.");
+    "Objecte retingut:\n"
+    "assegura la fuita de\n"
+    "Pokémon salvatges.");
 
 static const u8 sEverstoneDesc[] = _(
     "Objecte retingut\n"
@@ -804,29 +806,29 @@ static const u8 sEverstoneDesc[] = _(
     "evita l'evolució.");
 
 static const u8 sFocusBandDesc[] = _(
-    "Objecte retingut\n"
-    "que de vegades\n"
+    "Objecte retingut:\n"
+    "de vegades\n"
     "evita el desmai.");
 
 static const u8 sLuckyEggDesc[] = _(
-    "Objecte retingut\n"
-    "que incrementa\n"
-    "l'Exp. guanyada en combat.");
+    "Objecte retingut:\n"
+    "incrementa l'Exp.\n"
+    "guanyada en combat.");
 
 static const u8 sScopeLensDesc[] = _(
-    "Objecte retingut\n"
-    "que millora el\n"
-    "ratio de cop crític.");
+    "Objecte retingut:\n"
+    "millora el ratio\n"
+    "de cop crític.");
 
 static const u8 sMetalCoatDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta la potència\n"
-    "dels moviments Acer.");
+    "Objecte retingut:\n"
+    "potencia els\n"
+    "moviments Acer.");
 
 static const u8 sLeftoversDesc[] = _(
-    "Objecte retingut\n"
-    "que restaura els PS\n"
-    "a poc a poc en combat.");
+    "Objecte retingut:\n"
+    "restaura els PS a\n"
+    "poc a poc en combat.");
 
 static const u8 sDragonScaleDesc[] = _(
     "Una escata estranya\n"
@@ -834,84 +836,84 @@ static const u8 sDragonScaleDesc[] = _(
     "de tipus Drac.");
 
 static const u8 sLightBallDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta l'Atac Esp.\n"
+    "Objecte retingut:\n"
+    "puja l'Atac Esp.\n"
     "de Pikachu.");
 
 static const u8 sSoftSandDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta la potència\n"
-    "dels moviments Terra.");
+    "Objecte retingut:\n"
+    "potencia els\n"
+    "moviments Terra.");
 
 static const u8 sHardStoneDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta la potència\n"
-    "dels moviments Roca.");
+    "Objecte retingut:\n"
+    "potencia els\n"
+    "moviments Roca.");
 
 static const u8 sMiracleSeedDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta la potència\n"
-    "dels moviments Planta.");
+    "Objecte retingut:\n"
+    "potencia els\n"
+    "moviments Planta.");
 
 static const u8 sBlackGlassesDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta la potència\n"
-    "dels moviments Fosc.");
+    "Objecte retingut:\n"
+    "potencia els\n"
+    "moviments Fosc.");
 
 static const u8 sBlackBeltDesc[] = _(
-    "Objecte retingut\n"
-    "que potencia els\n"
+    "Objecte retingut:\n"
+    "potencia els\n"
     "moviments Lluita.");
 
 static const u8 sMagnetDesc[] = _(
-    "Objecte retingut\n"
-    "que potencia els\n"
+    "Objecte retingut:\n"
+    "potencia els\n"
     "moviments Elèctric.");
 
 static const u8 sMysticWaterDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta la potència\n"
-    "dels moviments Aigua.");
+    "Objecte retingut:\n"
+    "potencia els\n"
+    "moviments Aigua.");
 
 static const u8 sSharpBeakDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta la potència\n"
-    "dels moviments Vol.");
+    "Objecte retingut:\n"
+    "potencia els\n"
+    "moviments Vol.");
 
 static const u8 sPoisonBarbDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta la potència\n"
-    "dels moviments Verí.");
+    "Objecte retingut:\n"
+    "potencia els\n"
+    "moviments Verí.");
 
 static const u8 sNeverMeltIceDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta la potència\n"
-    "dels moviments Gel.");
+    "Objecte retingut:\n"
+    "potencia els\n"
+    "moviments Gel.");
 
 static const u8 sSpellTagDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta la potència\n"
-    "dels moviments Fantasma.");
+    "Objecte retingut:\n"
+    "potencia els\n"
+    "moviments Fantasma.");
 
 static const u8 sTwistedSpoonDesc[] = _(
-    "Objecte retingut\n"
-    "que potencia els\n"
+    "Objecte retingut:\n"
+    "potencia els\n"
     "moviments Psíquic.");
 
 static const u8 sCharcoalDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta la potència\n"
-    "dels moviments Foc.");
+    "Objecte retingut:\n"
+    "potencia els\n"
+    "moviments Foc.");
 
 static const u8 sDragonFangDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta la potència\n"
-    "dels moviments Drac.");
+    "Objecte retingut:\n"
+    "potencia els\n"
+    "moviments Drac.");
 
 static const u8 sSilkScarfDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta la potència\n"
-    "dels moviments Normal.");
+    "Objecte retingut:\n"
+    "potencia els\n"
+    "moviments Normal.");
 
 static const u8 sUpGradeDesc[] = _(
     "Una caixa peculiar\n"
@@ -919,70 +921,70 @@ static const u8 sUpGradeDesc[] = _(
     "Silph Co.");
 
 static const u8 sShellBellDesc[] = _(
-    "Objecte retingut\n"
-    "que restaura PS\n"
-    "en colpejar el rival.");
+    "Objecte retingut:\n"
+    "restaura PS en\n"
+    "colpejar el rival.");
 
 static const u8 sSeaIncenseDesc[] = _(
-    "Objecte retingut\n"
-    "que potencia lleugerament\n"
-    "els moviments Aigua.");
+    "Objecte retingut:\n"
+    "potencia poc els\n"
+    "moviments Aigua.");
 
 static const u8 sLaxIncenseDesc[] = _(
-    "Objecte retingut\n"
-    "que redueix lleugerament\n"
+    "Objecte retingut:\n"
+    "redueix lleugerament\n"
     "la Precisió del rival.");
 
 static const u8 sLuckyPunchDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta el ratio\n"
-    "de cop crític de Chansey.");
+    "Objecte retingut:\n"
+    "puja el cop crític\n"
+    "de Chansey.");
 
 static const u8 sMetalPowderDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta la\n"
+    "Objecte\n"
+    "retingut: puja la\n"
     "Defensa de Ditto.");
 
 static const u8 sThickClubDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta l'Atac\n"
-    "de Cubone o Marowak.");
+    "Objecte retingut:\n"
+    "puja l'Atac de\n"
+    "Cubone o Marowak.");
 
 static const u8 sStickDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta el ratio\n"
-    "de cop crític de Farfetch'd.");
+    "Objecte retingut:\n"
+    "puja el cop crític\n"
+    "de Farfetch'd.");
 
 static const u8 sRedScarfDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta la Gràcia\n"
-    "als Concursos.");
+    "Objecte retingut:\n"
+    "puja Gràcia\n"
+    "al Concurs.");
 
 static const u8 sBlueScarfDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta la Bellesa\n"
-    "als Concursos.");
+    "Objecte retingut:\n"
+    "puja Bellesa\n"
+    "al Concurs.");
 
 static const u8 sPinkScarfDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta la Tendresa\n"
-    "als Concursos.");
+    "Objecte retingut:\n"
+    "puja Tendresa\n"
+    "al Concurs.");
 
 static const u8 sGreenScarfDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta la Intel·ligència\n"
-    "als Concursos.");
+    "Objecte retingut:\n"
+    "puja Intel·ligència\n"
+    "al Concurs.");
 
 static const u8 sYellowScarfDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta la Resistència\n"
-    "als Concursos.");
+    "Objecte retingut:\n"
+    "puja Resistència\n"
+    "al Concurs.");
 
 // Key items
 static const u8 sMachBikeDesc[] = _(
-    "Una bicicleta plegable\n"
-    "que dobla la velocitat\n"
-    "o més.");
+    "Una bicicleta\n"
+    "plegable que dobla\n"
+    "la velocitat o més.");
 
 static const u8 sCoinCaseDesc[] = _(
     "Una cartera que\n"
@@ -995,9 +997,9 @@ static const u8 sItemfinderDesc[] = _(
     "objectes invisibles.");
 
 static const u8 sOldRodDesc[] = _(
-    "Usa-la a qualsevol\n"
-    "massa d'aigua per\n"
-    "pescar Pokémon salvatges.");
+    "Usa-la en\n"
+    "aigua per pescar\n"
+    "Pokémon salvatges.");
 
 static const u8 sGoodRodDesc[] = _(
     "Una canya decent\n"
@@ -1040,14 +1042,14 @@ static const u8 sBasementKeyDesc[] = _(
     "la Ciutat Mauville.");
 
 static const u8 sAcroBikeDesc[] = _(
-    "Una bicicleta plegable\n"
-    "capaç de fer salts\n"
-    "i cabrioles.");
+    "Bicicleta plegable\n"
+    "capaç de fer\n"
+    "salts i cabrioles.");
 
 static const u8 sPokeblockCaseDesc[] = _(
-    "Una capsa per\n"
-    "guardar {POKEBLOCK}s fets\n"
-    "amb una Batedora.");
+    "Capsa per\n"
+    "guardar {POKEBLOCK}s\n"
+    "de la Batedora.");
 
 static const u8 sLetterDesc[] = _(
     "Una carta per en\n"
@@ -1060,14 +1062,14 @@ static const u8 sEonTicketDesc[] = _(
     "a una illa del sud.");
 
 static const u8 sRedOrbDesc[] = _(
-    "Un orbe vermell\n"
-    "brillant que diuen\n"
-    "que conté poder antic.");
+    "Orbe vermell que\n"
+    "diuen que conté\n"
+    "poder antic.");
 
 static const u8 sBlueOrbDesc[] = _(
-    "Un orbe blau\n"
-    "brillant que diuen\n"
-    "que conté poder antic.");
+    "Orbe blau que\n"
+    "diuen que conté\n"
+    "poder antic.");
 
 static const u8 sScannerDesc[] = _(
     "Un dispositiu trobat\n"
@@ -1075,13 +1077,14 @@ static const u8 sScannerDesc[] = _(
     "Vaixell Abandonat.");
 
 static const u8 sGoGogglesDesc[] = _(
-    "Unes ulleres que\n"
-    "protegeixen els ulls\n"
-    "de les tempestes de sorra.");
+    "Ulleres que\n"
+    "protegeixen dels\n"
+    "vents de sorra.");
 
 static const u8 sMeteoriteDesc[] = _(
-    "Un meteorit trobat\n"
-    "a les Cascades Meteor.");
+    "Un meteorit\n"
+    "trobat a les\n"
+    "Cascades Meteor.");
 
 static const u8 sRoom1KeyDesc[] = _(
     "Una clau que obre\n"
@@ -1145,9 +1148,9 @@ static const u8 sTM04Desc[] = _(
     "la ment.");
 
 static const u8 sTM05Desc[] = _(
-    "Un rugit salvatge\n"
-    "que fa fugir el rival\n"
-    "per acabar el combat.");
+    "Rugit salvatge que\n"
+    "fa fugir el rival i\n"
+    "acaba el combat.");
 
 static const u8 sTM06Desc[] = _(
     "Enverina el rival\n"
@@ -1155,9 +1158,9 @@ static const u8 sTM06Desc[] = _(
     "que empitjora.");
 
 static const u8 sTM07Desc[] = _(
-    "Crea una tempesta\n"
-    "de calamarsa que danya\n"
-    "tots excepte els de tipus Gel.");
+    "Crea calamarsa que\n"
+    "danya tots excepte\n"
+    "els de tipus Gel.");
 
 static const u8 sTM08Desc[] = _(
     "Reforça el cos per\n"
@@ -1175,14 +1178,14 @@ static const u8 sTM10Desc[] = _(
     "diferents Pokémon.");
 
 static const u8 sTM11Desc[] = _(
-    "Augmenta la potència\n"
-    "dels moviments Foc\n"
+    "Potencia els\n"
+    "moviments Foc\n"
     "durant 5 torns.");
 
 static const u8 sTM12Desc[] = _(
-    "Enfureix el rival\n"
-    "perquè només pugui\n"
-    "usar moviments d'atac.");
+    "Enfureix el rival:\n"
+    "només pot usar\n"
+    "moviments d'atac.");
 
 static const u8 sTM13Desc[] = _(
     "Dispara un raig\n"
@@ -1210,8 +1213,8 @@ static const u8 sTM17Desc[] = _(
     "s'usa seguit.");
 
 static const u8 sTM18Desc[] = _(
-    "Augmenta la potència\n"
-    "dels moviments Aigua\n"
+    "Potencia els\n"
+    "moviments Aigua\n"
     "durant 5 torns.");
 
 static const u8 sTM19Desc[] = _(
@@ -1226,13 +1229,13 @@ static const u8 sTM20Desc[] = _(
 
 static const u8 sTM21Desc[] = _(
     "Com menys t'estimi\n"
-    "l'usuari, més\n"
-    "poderós és el moviment.");
+    "l'usuari, més poderós\n"
+    "és el moviment.");
 
 static const u8 sTM22Desc[] = _(
     "Absorbeix llum solar\n"
-    "el 1r torn, i\n"
-    "ataca el torn següent.");
+    "el 1r torn, i ataca\n"
+    "el torn següent.");
 
 static const u8 sTM23Desc[] = _(
     "Colpeja el rival amb\n"
@@ -1256,8 +1259,8 @@ static const u8 sTM26Desc[] = _(
 
 static const u8 sTM27Desc[] = _(
     "Com més t'estimi\n"
-    "l'usuari, més\n"
-    "poderós és el moviment.");
+    "l'usuari, més poderós\n"
+    "és el moviment.");
 
 static const u8 sTM28Desc[] = _(
     "S'enterra el 1r torn\n"
@@ -1280,9 +1283,9 @@ static const u8 sTM31Desc[] = _(
     "i causa dany.");
 
 static const u8 sTM32Desc[] = _(
-    "Crea còpies il·lusòries\n"
-    "per augmentar\n"
-    "l'esquiva.");
+    "Crea còpies\n"
+    "il·lusòries per\n"
+    "augmentar l'esquiva.");
 
 static const u8 sTM33Desc[] = _(
     "Crea una pantalla\n"
@@ -1305,9 +1308,9 @@ static const u8 sTM36Desc[] = _(
     "el rival.");
 
 static const u8 sTM37Desc[] = _(
-    "Causa una tempesta\n"
-    "de sorra que danya\n"
-    "el rival durant torns.");
+    "Causa tempesta de\n"
+    "sorra que danya\n"
+    "el rival uns torns.");
 
 static const u8 sTM38Desc[] = _(
     "Un atac de foc\n"
@@ -1316,8 +1319,8 @@ static const u8 sTM38Desc[] = _(
 
 static const u8 sTM39Desc[] = _(
     "Immobilitza el rival\n"
-    "amb roques.\n"
-    "Pot reduir la Velocitat.");
+    "amb roques. Pot\n"
+    "reduir la Velocitat.");
 
 static const u8 sTM40Desc[] = _(
     "Un atac extremament\n"
@@ -1340,8 +1343,8 @@ static const u8 sTM43Desc[] = _(
     "la ubicació.");
 
 static const u8 sTM44Desc[] = _(
-    "L'usuari dorm\n"
-    "2 torns per restaurar\n"
+    "L'usuari dorm 2\n"
+    "torns per restaurar\n"
     "salut i estat.");
 
 static const u8 sTM45Desc[] = _(
@@ -1356,34 +1359,34 @@ static const u8 sTM46Desc[] = _(
 
 static const u8 sTM47Desc[] = _(
     "Desplega ales\n"
-    "esmolades i es\n"
-    "llança contra el rival.");
+    "esmolades i es llança\n"
+    "contra el rival.");
 
 static const u8 sTM48Desc[] = _(
-    "Intercanvia habilitats\n"
-    "amb el rival el torn\n"
-    "que s'usa.");
+    "Intercanvia\n"
+    "habilitats amb el\n"
+    "rival en usar-se.");
 
 static const u8 sTM49Desc[] = _(
     "Roba els efectes\n"
-    "del moviment que\n"
-    "el rival intenta usar.");
+    "del moviment que el\n"
+    "rival intenta usar.");
 
 static const u8 sTM50Desc[] = _(
-    "Permet atacar a\n"
-    "plena potència, però\n"
-    "redueix molt l'Atac Esp.");
+    "Ataca a plena\n"
+    "potència, però baixa\n"
+    "molt l'Atac Esp.");
 
 
 static const u8 sHM01Desc[] = _(
-    "Ataca el rival\n"
-    "amb làmines esmolades\n"
+    "Ataca el rival amb\n"
+    "làmines esmolades\n"
     "o urpes.");
 
 static const u8 sHM02Desc[] = _(
     "Vola amunt el\n"
-    "primer torn, i\n"
-    "ataca el torn següent.");
+    "primer torn, i ataca\n"
+    "el torn següent.");
 
 static const u8 sHM03Desc[] = _(
     "Crea una onada\n"
@@ -1417,9 +1420,9 @@ static const u8 sHM08Desc[] = _(
 
 // FireRed/LeafGreen key items
 static const u8 sOaksParcelDesc[] = _(
-    "Un paquet per al\n"
-    "Prof. Oak d'un\n"
-    "dependent de Pokémart.");
+    "Paquet per al Prof.\n"
+    "Oak d'un dependent\n"
+    "de Pokémart.");
 
 static const u8 sPokeFluteDesc[] = _(
     "Una flauta de so\n"
@@ -1432,9 +1435,9 @@ static const u8 sSecretKeyDesc[] = _(
     "l'Illa Cinnabar.");
 
 static const u8 sBikeVoucherDesc[] = _(
-    "Un val per\n"
-    "obtenir una bicicleta\n"
-    "a la Botiga de Bicis.");
+    "Un val per obtenir\n"
+    "una bicicleta a la\n"
+    "Botiga de Bicis.");
 
 static const u8 sGoldTeethDesc[] = _(
     "Dentadura d'or\n"
@@ -1472,7 +1475,7 @@ static const u8 sSilphScopeDesc[] = _(
     "Pokémon invisibles.");
 
 static const u8 sBicycleDesc[] = _(
-    "Una bicicleta plegable\n"
+    "Bicicleta plegable\n"
     "més ràpida que les\n"
     "Sabates de Córrer.");
 
@@ -1482,14 +1485,14 @@ static const u8 sTownMapDesc[] = _(
     "Mostra la ubicació.");
 
 static const u8 sVSSeekerDesc[] = _(
-    "Un aparell recàrregable\n"
-    "que detecta entrenadors\n"
-    "llestos per combatre.");
+    "Aparell que detecta\n"
+    "entrenadors llestos\n"
+    "per combatre.");
 
 static const u8 sFameCheckerDesc[] = _(
-    "Desa informació\n"
-    "sobre persones famoses\n"
-    "per consultar-la.");
+    "Desa informació de\n"
+    "persones famoses\n"
+    "per consultar.");
 
 static const u8 sTMCaseDesc[] = _(
     "Una capsa pràctica\n"
@@ -1502,19 +1505,19 @@ static const u8 sBerryPouchDesc[] = _(
     "guarda Baies.");
 
 static const u8 sTeachyTVDesc[] = _(
-    "Un televisor sintonitzat\n"
-    "a un programa\n"
-    "de consells per entrenadors.");
+    "Televisor amb un\n"
+    "programa de consells\n"
+    "per entrenadors.");
 
 static const u8 sTriPassDesc[] = _(
-    "Un passi per als\n"
-    "transbordadors entre\n"
-    "les Illes Un, Dos i Tres.");
+    "Transbordadors\n"
+    "entre les Illes\n"
+    "Un, Dos i Tres.");
 
 static const u8 sRainbowPassDesc[] = _(
-    "Per als transbordadors\n"
-    "a Vermilion i les\n"
-    "Illes Sevii.");
+    "Transbordadors\n"
+    "a Vermilion i\n"
+    "les Illes Sevii.");
 
 static const u8 sTeaDesc[] = _(
     "Un te refrescant\n"
@@ -1522,13 +1525,13 @@ static const u8 sTeaDesc[] = _(
     "una senyora gran.");
 
 static const u8 sMysticTicketDesc[] = _(
-    "Un bitllet necessari\n"
-    "per embarcar al vaixell\n"
+    "Bitllet per\n"
+    "embarcar al vaixell\n"
     "cap a la Roca Navel.");
 
 static const u8 sAuroraTicketDesc[] = _(
-    "Un bitllet necessari\n"
-    "per embarcar al vaixell\n"
+    "Bitllet per\n"
+    "embarcar al vaixell\n"
     "cap a l'Illa Birth.");
 
 static const u8 sPowderJarDesc[] = _(
@@ -1542,190 +1545,190 @@ static const u8 sRubyDesc[] = _(
     "simbolitza la passió.");
 
 static const u8 sSapphireDesc[] = _(
-    "Una gemma blava\n"
-    "brillant que\n"
-    "simbolitza l'honestedat.");
+    "Gemma blava\n"
+    "que simbolitza\n"
+    "l'honestedat.");
 
 // Emerald-specific key items
 static const u8 sMagmaEmblemDesc[] = _(
-    "Un objecte semblant\n"
-    "a una medalla amb\n"
-    "la marca del Team Magma.");
+    "Objecte com una\n"
+    "medalla amb la marca\n"
+    "del Team Magma.");
 
 static const u8 sOldSeaMapDesc[] = _(
-    "Un mapa marítim\n"
-    "desgastat que indica\n"
+    "Mapa marítim\n"
+    "desgastat: indica\n"
     "el camí a una illa.");
 
 //Nature Mints
 static const u8 sAdamantMintDesc[] = _(
-    "Estimat pels Pokémon!\n"
-    "Aquesta menta té\n"
-    "sabor Adamant.");
+    "Estimat pels\n"
+    "Pokémon! Menta\n"
+    "de sabor Adamant.");
 
 static const u8 sBoldMintDesc[] = _(
-    "Estimat pels Pokémon!\n"
-    "Aquesta menta té\n"
-    "sabor Bold.");
+    "Estimat pels\n"
+    "Pokémon! Menta\n"
+    "de sabor Bold.");
 
 static const u8 sBraveMintDesc[] = _(
-    "Estimat pels Pokémon!\n"
-    "Aquesta menta té\n"
-    "sabor Brave.");
+    "Estimat pels\n"
+    "Pokémon! Menta\n"
+    "de sabor Brave.");
 
 static const u8 sCalmMintDesc[] = _(
-    "Estimat pels Pokémon!\n"
-    "Aquesta menta té\n"
-    "sabor Calm.");
+    "Estimat pels\n"
+    "Pokémon! Menta\n"
+    "de sabor Calm.");
 
 static const u8 sCarefulMintDesc[] = _(
-    "Estimat pels Pokémon!\n"
-    "Aquesta menta té\n"
-    "sabor Careful.");
+    "Estimat pels\n"
+    "Pokémon! Menta\n"
+    "de sabor Careful.");
 
 static const u8 sGentleMintDesc[] = _(
-    "Estimat pels Pokémon!\n"
-    "Aquesta menta té\n"
-    "sabor Gentle.");
+    "Estimat pels\n"
+    "Pokémon! Menta\n"
+    "de sabor Gentle.");
 
 static const u8 sHastyMintDesc[] = _(
-    "Estimat pels Pokémon!\n"
-    "Aquesta menta té\n"
-    "sabor Hasty.");
+    "Estimat pels\n"
+    "Pokémon! Menta\n"
+    "de sabor Hasty.");
 
 static const u8 sImpishMintDesc[] = _(
-    "Estimat pels Pokémon!\n"
-    "Aquesta menta té\n"
-    "sabor Impish.");
+    "Estimat pels\n"
+    "Pokémon! Menta\n"
+    "de sabor Impish.");
 
 static const u8 sJollyMintDesc[] = _(
-    "Estimat pels Pokémon!\n"
-    "Aquesta menta té\n"
-    "sabor Jolly.");
+    "Estimat pels\n"
+    "Pokémon! Menta\n"
+    "de sabor Jolly.");
 
 static const u8 sLaxMintDesc[] = _(
-    "Estimat pels Pokémon!\n"
-    "Aquesta menta té\n"
-    "sabor Lax.");
+    "Estimat pels\n"
+    "Pokémon! Menta\n"
+    "de sabor Lax.");
 
 static const u8 sLonelyMintDesc[] = _(
-    "Estimat pels Pokémon!\n"
-    "Aquesta menta té\n"
-    "sabor Lonely.");
+    "Estimat pels\n"
+    "Pokémon! Menta\n"
+    "de sabor Lonely.");
 
 static const u8 sMildMintDesc[] = _(
-    "Estimat pels Pokémon!\n"
-    "Aquesta menta té\n"
-    "sabor Mild.");
+    "Estimat pels\n"
+    "Pokémon! Menta\n"
+    "de sabor Mild.");
 
 static const u8 sModestMintDesc[] = _(
-    "Estimat pels Pokémon!\n"
-    "Aquesta menta té\n"
-    "sabor Modest.");
+    "Estimat pels\n"
+    "Pokémon! Menta\n"
+    "de sabor Modest.");
 
 static const u8 sNaiveMintDesc[] = _(
-    "Estimat pels Pokémon!\n"
-    "Aquesta menta té\n"
-    "sabor Naive.");
+    "Estimat pels\n"
+    "Pokémon! Menta\n"
+    "de sabor Naive.");
 
 static const u8 sNaughtyMintDesc[] = _(
-    "Estimat pels Pokémon!\n"
-    "Aquesta menta té\n"
-    "sabor Naughty.");
+    "Estimat pels\n"
+    "Pokémon! Menta\n"
+    "de sabor Naughty.");
 
 static const u8 sQuietMintDesc[] = _(
-    "Estimat pels Pokémon!\n"
-    "Aquesta menta té\n"
-    "sabor Quiet.");
+    "Estimat pels\n"
+    "Pokémon! Menta\n"
+    "de sabor Quiet.");
 
 static const u8 sRashMintDesc[] = _(
-    "Estimat pels Pokémon!\n"
-    "Aquesta menta té\n"
-    "sabor Rash.");
+    "Estimat pels\n"
+    "Pokémon! Menta\n"
+    "de sabor Rash.");
 
 static const u8 sRelaxedMintDesc[] = _(
-    "Estimat pels Pokémon!\n"
-    "Aquesta menta té\n"
-    "sabor Relaxed.");
+    "Estimat pels\n"
+    "Pokémon! Menta\n"
+    "de sabor Relaxed.");
 
 static const u8 sSassyMintDesc[] = _(
-    "Estimat pels Pokémon!\n"
-    "Aquesta menta té\n"
-    "sabor Sassy.");
+    "Estimat pels\n"
+    "Pokémon! Menta\n"
+    "de sabor Sassy.");
 
 static const u8 sSeriousMintDesc[] = _(
-    "Estimat pels Pokémon!\n"
-    "Aquesta menta té\n"
-    "sabor Serious.");
+    "Estimat pels\n"
+    "Pokémon! Menta\n"
+    "de sabor Serious.");
 
 static const u8 sTimidMintDesc[] = _(
-    "Estimat pels Pokémon!\n"
-    "Aquesta menta té\n"
-    "sabor Timid.");
+    "Estimat pels\n"
+    "Pokémon! Menta\n"
+    "de sabor Timid.");
 
 static const u8 sAbilityCapsuleDesc[] = _(
     "Canvia l'habilitat\n"
     "d'un Pokémon.");
 
 static const u8 sAbilityPatchDesc[] = _(
-    "Converteix l'habilitat\n"
-    "d'un Pokémon en\n"
-    "una habilitat rara.");
+    "Fa que un Pokémon\n"
+    "tingui una\n"
+    "habilitat rara.");
 
 static const u8 sEvioliteDesc[] = _(
-    "Augmenta la Def i\n"
-    "Def. Esp. de Pokémon\n"
-    "que poden evolucionar.");
+    "Puja Def i Def. Esp.\n"
+    "de Pokémon que\n"
+    "poden evolucionar.");
 
 static const u8 sPowerWeightDesc[] = _(
-    "Objecte retingut\n"
-    "que potencia el guany\n"
-    "de PS però redueix la Velocitat.");
+    "Objecte retingut:\n"
+    "puja el guany\n"
+    "de PS, baixa Vel.");
 
 static const u8 sPowerBracerDesc[] = _(
-    "Objecte retingut\n"
-    "que potencia el guany\n"
-    "d'Atac però redueix la Velocitat.");
+    "Objecte retingut:\n"
+    "puja el guany\n"
+    "d'Atac, baixa Vel.");
 
 static const u8 sPowerBeltDesc[] = _(
-    "Objecte retingut\n"
-    "que potencia el guany\n"
-    "de Def però redueix la Velocitat.");
+    "Objecte retingut:\n"
+    "puja el guany de\n"
+    "Def, baixa Vel.");
 
 static const u8 sPowerLensDesc[] = _(
-    "Objecte retingut que\n"
-    "potencia el guany\n"
-    "d'At. Esp. però redueix Velocitat.");
+    "Objecte retingut:\n"
+    "puja el guany d'At.\n"
+    "Esp., baixa Vel.");
 
 static const u8 sPowerBandDesc[] = _(
-    "Objecte retingut que\n"
-    "potencia el guany\n"
-    "de Def. Esp. però redueix Velocitat.");
+    "Objecte retingut:\n"
+    "puja el guany de\n"
+    "Def. Esp., baixa Vel.");
 
 static const u8 sPowerAnkletDesc[] = _(
-    "Objecte retingut\n"
-    "que potencia el guany\n"
-    "de Vel. però redueix la Velocitat.");
+    "Objecte retingut:\n"
+    "puja el guany de\n"
+    "Vel., baixa Vel.");
 
 static const u8 sBlackSludgeDesc[] = _(
-    "Restaura els PS dels\n"
-    "tipus Verí a poc a poc.\n"
+    "Cura els tipus\n"
+    "Verí a poc a poc.\n"
     "Danya els altres.");
 
 static const u8 sBigRootDesc[] = _(
-    "Objecte retingut\n"
-    "que potencia els\n"
-    "moviments que roben PS.");
+    "Objecte retingut:\n"
+    "potencia moviments\n"
+    "que roben PS.");
 
 static const u8 sExpertBeltDesc[] = _(
-    "Un cinturó que\n"
-    "potencia els moviments\n"
+    "Cinturó que\n"
+    "potencia moviments\n"
     "supereficaços.");
 
 static const u8 sLifeOrbDesc[] = _(
-    "Potencia els moviments\n"
-    "però costa alguns PS\n"
-    "per torn.");
+    "Potencia els\n"
+    "moviments; costa\n"
+    "PS per torn.");
 
 static const u8 sWiseGlassesDesc[] = _(
     "Unes ulleres\n"
@@ -1748,9 +1751,9 @@ static const u8 sRedCardDesc[] = _(
     "el portador.");
 
 static const u8 sProtectivePadsDesc[] = _(
-    "Protegeix el portador\n"
-    "dels efectes dels\n"
-    "moviments de contacte.");
+    "Protegeix\n"
+    "dels efectes\n"
+    "de contacte.");
 
 static const u8 sRockyHelmetDesc[] = _(
     "Danya el rival\n"
@@ -1763,9 +1766,9 @@ static const u8 sRazorClawDesc[] = _(
     "ratio de cop crític.");
 
 static const u8 sRazorFangDesc[] = _(
-    "Objecte retingut\n"
-    "que pot fer retrocedir\n"
-    "el rival en ser colpejat.");
+    "Objecte retingut:\n"
+    "pot fer retrocedir\n"
+    "en colpejar.");
 
 static const u8 sChoiceSpecsDesc[] = _(
     "Augmenta l'Atac Esp.,\n"
@@ -1773,14 +1776,14 @@ static const u8 sChoiceSpecsDesc[] = _(
     "només un moviment.");
 
 static const u8 sChoiceScarfDesc[] = _(
-    "Augmenta la Velocitat,\n"
-    "però permet usar\n"
-    "només un moviment.");
+    "Puja la Velocitat,\n"
+    "però només permet\n"
+    "un moviment.");
 
 static const u8 sLightClayDesc[] = _(
-    "Allarga la durada\n"
-    "dels moviments de\n"
-    "barrera del portador.");
+    "Allarga els\n"
+    "moviments de barrera\n"
+    "del portador.");
 
 static const u8 sDestinyKnotDesc[] = _(
     "Si el portador\n"
@@ -1798,8 +1801,8 @@ static const u8 sHeatRockDesc[] = _(
     "el portador.");
 
 static const u8 sSmoothRockDesc[] = _(
-    "Allarga la durada\n"
-    "de la Tempesta de Sorra\n"
+    "Allarga la durada de\n"
+    "la Tempesta de Sorra\n"
     "si l'usa el portador.");
 
 static const u8 sIcyRockDesc[] = _(
@@ -1808,9 +1811,9 @@ static const u8 sIcyRockDesc[] = _(
     "si l'usa el portador.");
 
 static const u8 sPixieDustDesc[] = _(
-    "Objecte retingut\n"
-    "que augmenta la potència\n"
-    "dels moviments Fada.");
+    "Objecte retingut:\n"
+    "potencia els\n"
+    "moviments Fada.");
 
 //Mega
 static const u8 sMegaRingDesc[] = _(
@@ -1819,122 +1822,122 @@ static const u8 sMegaRingDesc[] = _(
     "fer la Mega Evolució.");
 
 static const u8 sVenusauriteDesc[] = _(
-    "Aquesta pedra permet\n"
-    "a Venusaur fer la\n"
-    "Mega Evolució en combat.");
+    "Permet a Venusaur\n"
+    "Mega Evolucionar\n"
+    "en combat.");
 
 static const u8 sCharizarditeDesc[] = _(
-    "Aquesta pedra permet\n"
-    "a Charizard fer la\n"
-    "Mega Evolució en combat.");
+    "Permet a Charizard\n"
+    "Mega Evolucionar\n"
+    "en combat.");
 
 static const u8 sBlastoisiniteDesc[] = _(
-    "Aquesta pedra permet\n"
-    "a Blastoise fer la\n"
-    "Mega Evolució en combat.");
+    "Permet a Blastoise\n"
+    "Mega Evolucionar\n"
+    "en combat.");
 
 static const u8 sBeedrilliteDesc[] = _(
-    "Aquesta pedra permet\n"
-    "a Beedrill fer la\n"
-    "Mega Evolució en combat.");
+    "Permet a Beedrill\n"
+    "Mega Evolucionar\n"
+    "en combat.");
 
 static const u8 sPidgeotiteDesc[] = _(
-    "Aquesta pedra permet\n"
-    "a Pidgeot fer la\n"
-    "Mega Evolució en combat.");
+    "Permet a Pidgeot\n"
+    "Mega Evolucionar\n"
+    "en combat.");
 
 static const u8 sAlakaziteDesc[] = _(
-    "Aquesta pedra permet\n"
-    "a Alakazam fer la\n"
-    "Mega Evolució en combat.");
+    "Permet a Alakazam\n"
+    "Mega Evolucionar\n"
+    "en combat.");
 
 static const u8 sSlowbroniteDesc[] = _(
-    "Aquesta pedra permet\n"
-    "a Slowbro fer la\n"
-    "Mega Evolució en combat.");
+    "Permet a Slowbro\n"
+    "Mega Evolucionar\n"
+    "en combat.");
 
 static const u8 sGengariteDesc[] = _(
-    "Aquesta pedra permet\n"
-    "a Gengar fer la\n"
-    "Mega Evolució en combat.");
+    "Permet a Gengar\n"
+    "Mega Evolucionar\n"
+    "en combat.");
 
 static const u8 sKangaskhaniteDesc[] = _(
-    "Aquesta pedra permet\n"
-    "a Kangaskhan fer la\n"
-    "Mega Evolució en combat.");
+    "Permet a Kangaskhan\n"
+    "Mega Evolucionar\n"
+    "en combat.");
 
 static const u8 sPinsiriteDesc[] = _(
-    "Aquesta pedra permet\n"
-    "a Pinsir fer la\n"
-    "Mega Evolució en combat.");
+    "Permet a Pinsir\n"
+    "Mega Evolucionar\n"
+    "en combat.");
 
 static const u8 sGyaradositeDesc[] = _(
-    "Aquesta pedra permet\n"
-    "a Gyarados fer la\n"
-    "Mega Evolució en combat.");
+    "Permet a Gyarados\n"
+    "Mega Evolucionar\n"
+    "en combat.");
 
 static const u8 sAerodactyliteDesc[] = _(
-    "Aquesta pedra permet\n"
-    "a Aerodactyl fer la\n"
-    "Mega Evolució en combat.");
+    "Permet a Aerodactyl\n"
+    "Mega Evolucionar\n"
+    "en combat.");
 
 static const u8 sMewtwoniteDesc[] = _(
-    "Aquesta pedra permet\n"
-    "a Mewtwo fer la\n"
-    "Mega Evolució en combat.");
+    "Permet a Mewtwo\n"
+    "Mega Evolucionar\n"
+    "en combat.");
 
 // Charms
 static const u8 sOvalCharmDesc[] = _(
-    "Augmenta la possibilitat\n"
-    "de trobar ous\n"
-    "a la guarderia.");
+    "Fa més probable\n"
+    "trobar ous a\n"
+    "la guarderia.");
 
 static const u8 sShinyCharmDesc[] = _(
-    "Un amulet que\n"
-    "augmenta la possibilitat\n"
-    "de trobar Pokémon vistosos.");
+    "Amulet que ajuda\n"
+    "a trobar Pokémon\n"
+    "vistosos.");
 
 static const u8 sCatchingCharmDesc[] = _(
-    "Un amulet que augmenta\n"
-    "la possibilitat de\n"
+    "Amulet\n"
+    "que afavoreix les\n"
     "Captures Crítiques.");
 
 static const u8 sHPCandyDesc[] = _(
-    "Augmenta l'estadística\n"
+    "Puja l'estad.\n"
     "central de PS\n"
     "d'un Pokémon.");
 
 static const u8 sAtkCandyDesc[] = _(
-    "Augmenta l'estadística\n"
+    "Puja l'estad.\n"
     "central d'Atac\n"
     "d'un Pokémon.");
 
 static const u8 sDefCandyDesc[] = _(
-    "Augmenta l'estadística\n"
+    "Puja l'estad.\n"
     "central de Defensa\n"
     "d'un Pokémon.");
 
 static const u8 sSpAtkCandyDesc[] = _(
-    "Augmenta l'estadística\n"
-    "central d'Atac Esp.\n"
-    "d'un Pokémon.");
+    "Puja l'estad.\n"
+    "central d'Atac\n"
+    "Esp. d'un Pokémon.");
 
 static const u8 sSpDefCandyDesc[] = _(
-    "Augmenta l'estadística\n"
-    "central de Def. Esp.\n"
-    "d'un Pokémon.");
+    "Puja l'estad.\n"
+    "central de Def.\n"
+    "Esp. d'un Pokémon.");
 
 static const u8 sSpeedCandyDesc[] = _(
-    "Augmenta l'estadística\n"
-    "central de Velocitat\n"
+    "Puja l'estad. central\n"
+    "de Velocitat\n"
     "d'un Pokémon.");
 
 static const u8 sMaxCandyDesc[] = _(
-    "Maximitza totes les\n"
-    "estadístiques centrals\n"
+    "Maximitza les\n"
+    "estad. centrals\n"
     "d'un Pokémon.");
 
 static const u8 sResetCandyDesc[] = _(
-    "Neutralitza totes les\n"
-    "estadístiques centrals\n"
+    "Neutralitza les\n"
+    "estad. centrals\n"
     "d'un Pokémon.");
