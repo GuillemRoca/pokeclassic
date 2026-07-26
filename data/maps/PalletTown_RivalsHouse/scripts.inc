@@ -18,17 +18,17 @@ PalletTown_RivalsHouse_EventScript_Picture::
 	end
 
 PalletTown_RivalsHouse_Text_ItsBigMapOfKanto::
-    .string "It's a big map of the Kanto region.\p"
-    .string "Isn't it so much easier to use\n"
-    .string "the map from your PokéGear?!$"
+    .string "És un mapa gran de la regió de Kanto.\p"
+    .string "No és molt més còmode fer servir\n"
+    .string "el mapa del PokéGear?!$"
 
 PalletTown_RivalsHouse_EventScript_Bookshelf::
 	msgbox PalletTown_RivalsHouse_Text_ShelvesCrammedFullOfBooks, MSGBOX_SIGN
 	end
 
 PalletTown_RivalsHouse_Text_ShelvesCrammedFullOfBooks::
-    .string "The shelves are crammed full of\n"
-    .string "books on Pokémon.$"
+    .string "Les prestatgeries són plenes de\n"
+    .string "llibres sobre Pokémon.$"
 
 PalletTown_RivalsHouse_EventScript_Daisy::
 	lock
@@ -46,10 +46,10 @@ PalletTown_RivalsHouse_EventScript_PleaseGiveMonsRest::
 	end
 
 PalletTown_RivalsHouse_Text_PleaseGiveMonsRest::
-    .string "Daisy: Just like people, Pokémon\n"
-    .string "are living things.\p"
-    .string "When they get tired, please give\n"
-    .string "them a rest.$"
+    .string "Daisy: Igual que les persones, els\n"
+    .string "Pokémon són éssers vius.\p"
+    .string "Quan es cansen, si us plau, deixa'ls\n"
+    .string "descansar.$"
 
 PalletTown_RivalsHouse_EventScript_Daisy1::
 	msgbox PalletTown_RivalsHouse_Text_HiBrothersAtLab, MSGBOX_DEFAULT
@@ -58,9 +58,9 @@ PalletTown_RivalsHouse_EventScript_Daisy1::
 	end
 
 PalletTown_RivalsHouse_Text_HiBrothersAtLab::
-    .string "Daisy: Hi, {PLAYER}!\p"
-    .string "My brother, {RIVAL}, is out at\n"
-    .string "Grandpa's Lab.$"
+    .string "Daisy: Hola, {PLAYER}!\p"
+    .string "El meu germà, {RIVAL}, és al\n"
+    .string "laboratori de l'avi.$"
 
 PalletTown_RivalsHouse_EventScript_Daisy2::
 	msgbox PalletTown_RivalsHouse_Text_HeardYouBattledRival, MSGBOX_DEFAULT
@@ -69,9 +69,9 @@ PalletTown_RivalsHouse_EventScript_Daisy2::
 	end
 
 PalletTown_RivalsHouse_Text_HeardYouBattledRival::
-    .string "Daisy: {PLAYER}, I heard you had\n"
-    .string "a battle against {RIVAL}.\p"
-    .string "I wish I'd seen that!$"
+    .string "Daisy: {PLAYER}, m'han dit que has\n"
+    .string "combatut contra {RIVAL}.\p"
+    .string "Tant de bo ho hagués vist!$"
 
 PalletTown_RivalsHouse_EventScript_Daisy3::
 	goto_if_le VAR_OAK_LAB_STATE, 7, PalletTown_RivalsHouse_EventScript_PleaseGiveMonsRest
@@ -88,12 +88,12 @@ PalletTown_RivalsHouse_EventScript_Daisy3::
 	end
 
 PalletTown_RivalsHouse_Text_GetRivalNumber::
-    .string "Grandpa asked you to run an\n"
-    .string "errand?\p"
-    .string "And {RIVAL} wouldn't even give\n"
-    .string "you his number, either?\p"
-    .string "Gee, that's rude of him.\n"
-    .string "Here, let me help you.$"
+    .string "L'avi t'ha demanat que li facis\n"
+    .string "un encàrrec?\p"
+    .string "I {RIVAL} no t'ha volgut donar\n"
+    .string "ni el seu número?\p"
+    .string "Uf, quina poca educació.\n"
+    .string "Vine, deixa'm ajudar-te.$"
 
 PalletTown_RivalsHouse_EventScript_GroomMon:: @TODO
 	goto_if_lt VAR_MASSAGE_COOLDOWN_STEP_COUNTER, 500, PalletTown_RivalsHouse_EventScript_RateMonFriendship
@@ -124,13 +124,13 @@ PalletTown_RivalsHouse_EventScript_GroomMon:: @TODO
 	end
 
 PalletTown_RivalsHouse_Text_LikeMeToGroomMon::
-    .string "Daisy: Hi, {PLAYER}!\n"
-    .string "Good timing.\p"
-    .string "I'm about to have some tea.\n"
-    .string "Would you like to join me?\p"
-    .string "Oh, but look.\n"
-    .string "Your Pokémon are a little dirty.\p"
-    .string "Would you like me to groom one?$"
+    .string "Daisy: Hola, {PLAYER}!\n"
+    .string "Arribes en bon moment.\p"
+    .string "Ara mateix anava a prendre un te.\n"
+    .string "Vols acompanyar-me?\p"
+    .string "Oh, però mira.\n"
+    .string "Els teus Pokémon estan una mica bruts.\p"
+    .string "Vols que en pentini un?$"
 
 PalletTown_RivalsHouse_EventScript_DeclineGrooming::
 	msgbox PalletTown_RivalsHouse_Text_DontNeedAnyGrooming
@@ -138,11 +138,11 @@ PalletTown_RivalsHouse_EventScript_DeclineGrooming::
 	end
 
 PalletTown_RivalsHouse_Text_DontNeedAnyGrooming::
-    .string "You don't need any grooming done?\n"
-    .string "Okay, we'll just have tea.$"
+    .string "No en vols pentinar cap?\n"
+    .string "D'acord, doncs només prendrem te.$"
 
 PalletTown_RivalsHouse_Text_GroomWhichOne::
-    .string "Which one should I groom?$"
+    .string "Quin vols que pentini?$"
 
 PalletTown_RivalsHouse_EventScript_CantGroomEgg::
 	msgbox PalletTown_RivalsHouse_Text_CantGroomAnEgg, MSGBOX_DEFAULT
@@ -150,19 +150,19 @@ PalletTown_RivalsHouse_EventScript_CantGroomEgg::
 	end
 
 PalletTown_RivalsHouse_Text_CantGroomAnEgg::
-    .string "Oh, sorry. I honestly can't\n"
-    .string "groom an Egg.$"
+    .string "Oh, perdona. Sincerament, no puc\n"
+    .string "pentinar un Ou.$"
 
 PalletTown_RivalsHouse_Text_LookingNiceInNoTime::
-    .string "Daisy: Okay, I'll get it looking\n"
-    .string "nice in no time.$"
+    .string "Daisy: Molt bé, el deixaré ben\n"
+    .string "maco en un moment.$"
 
 PalletTown_RivalsHouse_Text_ThereYouGoAllDone::
-    .string "{STR_VAR_1} looks dreamily content…\p"
-    .string "Daisy: There you go! All done.\n"
-    .string "See? Doesn't it look nice?\p"
-    .string "Giggle…\n"
-    .string "It's such a cute Pokémon.$"
+    .string "{STR_VAR_1} sembla content i somiador…\p"
+    .string "Daisy: Ja està! Acabat.\n"
+    .string "Ho veus? No està maco?\p"
+    .string "Ha, ha…\n"
+    .string "Quin Pokémon més bonic.$"
 
 
 PalletTown_RivalsHouse_EventScript_RateMonFriendship::
@@ -179,10 +179,10 @@ PalletTown_RivalsHouse_EventScript_RateMonFriendship::
 	end
 
 PalletTown_RivalsHouse_Text_MayISeeFirstMon::
-    .string "Daisy: Your Pokémon grow to love\n"
-    .string "you if you raise them with love.\p"
-    .string "For example, {PLAYER}, may I see\n"
-    .string "your first Pokémon?$"
+    .string "Daisy: Els teus Pokémon t'arriben a\n"
+    .string "estimar si els cries amb amor.\p"
+    .string "Per exemple, {PLAYER}, puc veure\n"
+    .string "el teu primer Pokémon?$"
 
 PalletTown_RivalsHouse_EventScript_MonFriendshipLowest::
 	msgbox PalletTown_RivalsHouse_Text_WhyWouldMonHateYouSoMuch, MSGBOX_DEFAULT
@@ -190,10 +190,10 @@ PalletTown_RivalsHouse_EventScript_MonFriendshipLowest::
 	end
 
 PalletTown_RivalsHouse_Text_WhyWouldMonHateYouSoMuch::
-    .string "…Um, it's not easy for me to say\n"
-    .string "this, but…\p"
-    .string "Is there some reason why your\n"
-    .string "Pokémon would hate you so much?$"
+    .string "…Ehm, no em resulta fàcil dir-te\n"
+    .string "això, però…\p"
+    .string "Hi ha algun motiu perquè el teu\n"
+    .string "Pokémon t'odiï tant?$"
 
 PalletTown_RivalsHouse_EventScript_MonFriendshipLower::
 	msgbox PalletTown_RivalsHouse_Text_DontLikeWayItGlaresAtYou, MSGBOX_DEFAULT
@@ -201,10 +201,10 @@ PalletTown_RivalsHouse_EventScript_MonFriendshipLower::
 	end
 
 PalletTown_RivalsHouse_Text_DontLikeWayItGlaresAtYou::
-    .string "{PLAYER}, I don't like the way it\n"
-    .string "glares at you.\p"
-    .string "Could you try being a little nicer\n"
-    .string "to it?$"
+    .string "{PLAYER}, no m'agrada com et\n"
+    .string "mira de reüll.\p"
+    .string "Podries provar de ser una mica més\n"
+    .string "amable amb ell?$"
 
 PalletTown_RivalsHouse_EventScript_MonFriendshipLow::
 	msgbox PalletTown_RivalsHouse_Text_NotFamiliarWithYouYet, MSGBOX_DEFAULT
@@ -212,10 +212,10 @@ PalletTown_RivalsHouse_EventScript_MonFriendshipLow::
 	end
 
 PalletTown_RivalsHouse_Text_NotFamiliarWithYouYet::
-    .string "It's not quite familiar with you\n"
-    .string "yet.\p"
-    .string "Pokémon are all quite wary when\n"
-    .string "you first get them.$"
+    .string "Encara no t'acaba de tenir\n"
+    .string "confiança.\p"
+    .string "Tots els Pokémon són desconfiats\n"
+    .string "quan els acabes d'aconseguir.$"
 
 PalletTown_RivalsHouse_EventScript_MonFriendshipMid::
 	msgbox PalletTown_RivalsHouse_Text_ItsWarmingUpToYou, MSGBOX_DEFAULT
@@ -223,8 +223,8 @@ PalletTown_RivalsHouse_EventScript_MonFriendshipMid::
 	end
 
 PalletTown_RivalsHouse_Text_ItsWarmingUpToYou::
-    .string "It's warming up to you.\n"
-    .string "Trust must be growing between you.$"
+    .string "S'està acostumant a tu.\n"
+    .string "La confiança va creixent entre vosaltres.$"
 
 PalletTown_RivalsHouse_EventScript_MonFriendshipHigh::
 	msgbox PalletTown_RivalsHouse_Text_ItsQuiteFriendly, MSGBOX_DEFAULT
@@ -232,8 +232,8 @@ PalletTown_RivalsHouse_EventScript_MonFriendshipHigh::
 	end
 
 PalletTown_RivalsHouse_Text_ItsQuiteFriendly::
-    .string "It's quite friendly with you.\n"
-    .string "Keep being good to it!$"
+    .string "Es porta bastant bé amb tu.\n"
+    .string "Continua tractant-lo bé!$"
 
 PalletTown_RivalsHouse_EventScript_MonFriendshipHigher::
 	msgbox PalletTown_RivalsHouse_Text_ItLooksVeryHappy, MSGBOX_DEFAULT
@@ -241,9 +241,9 @@ PalletTown_RivalsHouse_EventScript_MonFriendshipHigher::
 	end
 
 PalletTown_RivalsHouse_Text_ItLooksVeryHappy::
-    .string "It looks very happy.\p"
-    .string "I wish {RIVAL} could see this and\n"
-    .string "learn something from it.$"
+    .string "Sembla molt content.\p"
+    .string "Tant de bo {RIVAL} ho pogués veure i\n"
+    .string "n'aprengués alguna cosa.$"
 
 PalletTown_RivalsHouse_EventScript_MonFriendshipHighest::
 	msgbox PalletTown_RivalsHouse_Text_CouldntLoveYouMore, MSGBOX_DEFAULT
@@ -251,10 +251,10 @@ PalletTown_RivalsHouse_EventScript_MonFriendshipHighest::
 	end
 
 PalletTown_RivalsHouse_Text_CouldntLoveYouMore::
-    .string "It couldn't possibly love you\n"
-    .string "any more than it does now.\p"
-    .string "Your Pokémon is happy beyond\n"
-    .string "words.$"
+    .string "No et podria estimar més\n"
+    .string "del que t'estima ara.\p"
+    .string "El teu Pokémon és feliç més enllà\n"
+    .string "de les paraules.$"
 
 
 
