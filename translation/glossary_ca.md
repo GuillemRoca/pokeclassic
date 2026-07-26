@@ -15,6 +15,28 @@ Terminologia acordada per a la localització al català del joc PokeClassic (rec
   l'amplada real en píxels amb `python3 translation/audit_box_widths.py` (vegeu
   [TOOLING.md](TOOLING.md)). Límits: 109 px les descripcions de motxilla,
   144 px les d'habilitat, 208 px els missatges de combat i les caixes de text.
+- Les descripcions d'habilitat **no es poden partir en dues línies**: el plafó és
+  una sola línia de 144 px (uns 26 caràcters). Cal escriure-les curtes, com fa
+  l'anglès original.
+
+---
+
+## Formes curtes obligatòries
+
+Els quadres de text del GBA són estrets, així que aquestes formes s'usen sempre,
+per coherència i perquè el text hi càpiga. Vegeu [TOOLING.md](TOOLING.md).
+
+| Forma llarga | Forma curta |
+|--------------|-------------|
+| estadística / estadístiques | estad. |
+| Velocitat | Vel. |
+| Defensa | Def. |
+| Augmenta la X | Puja la X |
+| Redueix la X | Baixa la X |
+| augmenta la potència dels moviments X | potencia els moviments X |
+| en un moment crític | en perill |
+| en fer contacte | al contacte |
+| Objecte retingut que… | Objecte retingut: … |
 
 ---
 
