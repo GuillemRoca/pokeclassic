@@ -55,11 +55,43 @@ python3 translation/audit_box_widths.py dump over.json  # JSON, for scripted re-
 
 ### Current state
 
-`check_name_limits.py` passes. `audit_box_widths.py` reports **350 overflowing
-strings** — 181 bag item descriptions, 165 ability descriptions, 4 UI strings.
-These render clipped or spill out of their box; they do not break the build.
-Fixing them means re-wrapping and shortening the Catalan text until the script
-reports `TOTAL OVERFLOWING: 0`.
+Both scripts pass: `TOTAL OVER ARRAY LIMIT: 0` and `TOTAL OVERFLOWING: 0`.
 
-Credit: both scripts originate from the `feature/catalan-translation` branch
-(PR #1), ported here and re-pointed at `translation/`.
+Getting there meant shortening 181 bag descriptions, 165 ability descriptions and
+4 UI strings. Two things are worth knowing before editing this text again:
+
+- **The ability pane cannot wrap.** It is a single 144px line, so an ability
+  description can only be made to fit by shortening it. The English descriptions
+  are themselves telegraphic — median 127px, max 145px — so the Catalan has to be
+  about 26 characters. That is the budget, not a stylistic choice.
+- **Bag descriptions have 3 lines of 109px.** 109px is roughly 19 characters, so
+  a 3-line description holds about 57. Re-wrapping alone fixed only 36 of the
+  181; the rest needed the words shortened too.
+
+### Conventions adopted to fit
+
+Applied consistently rather than per-string, so the same idea reads the same way
+everywhere. Also recorded in [`glossary_ca.md`](glossary_ca.md).
+
+| Long form | Short form |
+| --- | --- |
+| `estadística` / `estadístiques` | `estad.` |
+| `Augmenta la X` | `Puja la X` |
+| `Redueix la X` | `Baixa la X` |
+| `Velocitat` / `Defensa` | `Vel.` / `Def.` |
+| `augmenta la potència dels moviments X` | `potencia els moviments X` |
+| `en un moment crític` | `en perill` |
+| `en fer contacte` | `al contacte` |
+| `Objecte retingut que …` | `Objecte retingut: …` |
+
+### Known limitation of the audit
+
+The 208px limit used for `src/strings.c` is the standard overworld msgbox. A few
+strings live in narrower windows — `gText_PressAToLoadEvent`, for instance, is
+drawn in a 22-tile window (175px) in `mystery_event_menu.c`. The audit will not
+catch a string that fits 208px but overflows its own narrower window, so check
+the window template when touching menu-specific text.
+
+Credit: `width_audit.py` and `audit_box_widths.py` originate from the
+`feature/catalan-translation` branch (PR #1), ported here and re-pointed at
+`translation/`.
