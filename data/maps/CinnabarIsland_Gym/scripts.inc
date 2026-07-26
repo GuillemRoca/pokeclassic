@@ -45,10 +45,10 @@ CinnabarIsland_Gym_EventScript_BlaineFujiPhoto::
 	end
 
 CinnabarIsland_Gym_Text_PhotoOfBlaineAndFuji::
-    .string "It's a photo of Blaine and\n"
-    .string "Mr. Fuji.\p"
-    .string "They're standing shoulder to\n"
-    .string "shoulder with big grins.$"
+    .string "És una foto d'en Blaine i\n"
+    .string "el Sr. Fuji.\p"
+    .string "Estan l'un al costat de l'altre\n"
+    .string "amb grans somriures.$"
 
 CinnabarIsland_Gym_OnLoadOpenDoor1::
 	call CinnabarIsland_Gym_EventScript_OpenDoor1
@@ -80,18 +80,18 @@ CinnabarIsland_Gym_EventScript_Erik::
 	end
 
 CinnabarIsland_Gym_Text_ErikIntro::
-    .string "Do you know how hot Pokémon fire\n"
-    .string "breath can get?$"
+    .string "Saps a quina temperatura arriba\n"
+    .string "l'alè de foc d'un Pokémon?$"
 
 CinnabarIsland_Gym_Text_ErikDefeat::
-    .string "Yow!\n"
-    .string "Hot, hot, hot!$"
+    .string "Ai!\n"
+    .string "Calent, calent, calent!$"
 
 CinnabarIsland_Gym_Text_ErikPostBattle::
-    .string "Fire, or to be more precise,\n"
-    .string "combustion…\p"
-    .string "…Oxygen in the air…\n"
-    .string "Blah, blah, blah, blah…$"
+    .string "El foc, o més precisament,\n"
+    .string "la combustió…\p"
+    .string "…L'oxigen de l'aire…\n"
+    .string "Bla, bla, bla, bla…$"
 
 CinnabarIsland_Gym_EventScript_Avery::
 	trainerbattle_single TRAINER_SUPER_NERD_AVERY, CinnabarIsland_Gym_Text_AveryIntro, CinnabarIsland_Gym_Text_AveryDefeat, CinnabarIsland_Gym_EventScript_DefeatedAvery
@@ -141,15 +141,15 @@ CinnabarIsland_Gym_EventScript_Quinn::
 	end
 
 CinnabarIsland_Gym_Text_QuinnIntro::
-    .string "I was a thief, but I went straight\n"
-    .string "as a trainer.$"
+    .string "Era lladre, però m'he redreçat\n"
+    .string "com a entrenador.$"
 
 CinnabarIsland_Gym_Text_QuinnDefeat::
-    .string "I surrender!$"
+    .string "Em rendeixo!$"
 
 CinnabarIsland_Gym_Text_QuinnPostBattle::
-    .string "I get this uncontrollable urge to\n"
-    .string "steal other people's Pokémon.$"
+    .string "Tinc un impuls incontrolable\n"
+    .string "de robar Pokémon d'altri.$"
 
 CinnabarIsland_Gym_EventScript_DefeatedQuinn::
 	call_if_unset FLAG_CINNABAR_GYM_QUIZ_1, CinnabarIsland_Gym_EventScript_Quiz1CompleteTrainer
@@ -166,15 +166,15 @@ CinnabarIsland_Gym_EventScript_Ramon::
 	end
 
 CinnabarIsland_Gym_Text_RamonIntro::
-    .string "I like using Fire type Pokémon.\n"
-    .string "I just do.$"
+    .string "M'agrada fer servir Pokémon\n"
+    .string "de Foc. Simplement m'agrada.$"
 
 CinnabarIsland_Gym_Text_RamonDefeat::
-    .string "Too hot to handle!$"
+    .string "Massa calent per aguantar!$"
 
 CinnabarIsland_Gym_Text_RamonPostBattle::
-    .string "I wish there were a thief Pokémon.\n"
-    .string "I'd use that!$"
+    .string "M'agradaria que existís un\n"
+    .string "Pokémon lladre. El faria servir!$"
 
 CinnabarIsland_Gym_EventScript_DefeatedRamon::
 	call_if_unset FLAG_CINNABAR_GYM_QUIZ_3, CinnabarIsland_Gym_EventScript_Quiz3CompleteTrainer
@@ -364,16 +364,16 @@ CinnabarIsland_Gym_EventScript_BattleAvery::
 	end
 
 CinnabarIsland_Gym_Text_AveryIntro::
-    .string "I've studied Pokémon thoroughly.\n"
-    .string "You can't win!$"
+    .string "He estudiat Pokémon a fons.\n"
+    .string "No pots guanyar!$"
 
 CinnabarIsland_Gym_Text_AveryDefeat::
-    .string "Waah!\n"
-    .string "My studies were insufficient!$"
+    .string "Uaah!\n"
+    .string "Els meus estudis eren insuficients!$"
 
 CinnabarIsland_Gym_Text_AveryPostBattle::
-    .string "My theories are too complicated\n"
-    .string "for you to understand.$"
+    .string "Les meves teories són massa\n"
+    .string "complicades perquè les entenguis.$"
 
 CinnabarIsland_Gym_EventScript_AveryApproachLeft::
 	applymovement OBJ_EVENT_ID_PLAYER, CinnabarIsland_Gym_Movement_PlayerFaceAvery
@@ -527,19 +527,19 @@ CinnabarIsland_Gym_EventScript_BattleDerek::
 	end
 
 CinnabarIsland_Gym_Text_DerekIntro::
-    .string "I know why Blaine became a\n"
-    .string "trainer.$"
+    .string "Sé per què en Blaine es va fer\n"
+    .string "entrenador.$"
 
 CinnabarIsland_Gym_Text_DerekDefeat::
-    .string "Ow!$"
+    .string "Au!$"
 
 CinnabarIsland_Gym_Text_DerekPostBattle::
-    .string "Our Leader, Blaine, got seriously\n"
-    .string "lost in the mountains once.\p"
-    .string "Night fell when a fiery bird\n"
-    .string "Pokémon appeared.\p"
-    .string "Its light allowed Blaine to find\n"
-    .string "his way down safely.$"
+    .string "El nostre Líder, en Blaine, es va\n"
+    .string "perdre a les muntanyes.\p"
+    .string "Va caure la nit quan un Pokémon\n"
+    .string "ocell de foc va aparèixer.\p"
+    .string "La seva llum va permetre\n"
+    .string "a en Blaine tornar sa i estalvi.$"
 
 CinnabarIsland_Gym_EventScript_DerekApproachLeft::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
@@ -613,16 +613,16 @@ CinnabarIsland_Gym_EventScript_BattleDusty::
 	end
 
 CinnabarIsland_Gym_Text_DustyIntro::
-    .string "I've been to many Gyms, but this\n"
-    .string "one best suits my style.$"
+    .string "He estat a molts Gimnasos, però\n"
+    .string "aquest és el que més m'agrada.$"
 
 CinnabarIsland_Gym_Text_DustyDefeat::
-    .string "Yowza!\n"
-    .string "Too hot!$"
+    .string "Uaau!\n"
+    .string "Massa calent!$"
 
 CinnabarIsland_Gym_Text_DustyPostBattle::
     .string "Ponyta, Ninetales…\n"
-    .string "Those are popular Fire Pokémon.$"
+    .string "Són Pokémon de Foc populars.$"
 
 CinnabarIsland_Gym_EventScript_DustyApproachLeft::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
@@ -696,16 +696,16 @@ CinnabarIsland_Gym_EventScript_BattleZac::
 	end
 
 CinnabarIsland_Gym_Text_ZacIntro::
-    .string "Fire is weak against H2O.$"
+    .string "El Foc és feble contra l'H2O.$"
 
 CinnabarIsland_Gym_Text_ZacDefeat::
     .string "Oh!\n"
-    .string "Snuffed out!$"
+    .string "Apagat!$"
 
 CinnabarIsland_Gym_Text_ZacPostBattle::
-    .string "Water beats fire, of course.\p"
-    .string "But fire melts ice, so the Fire\n"
-    .string "type beats Ice type Pokémon.$"
+    .string "L'Aigua venç el Foc, és clar.\p"
+    .string "Però el Foc fon el Gel, així que\n"
+    .string "el tipus Foc venç el tipus Gel.$"
 
 CinnabarIsland_Gym_EventScript_ZacApproachLeft::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
@@ -800,19 +800,19 @@ CinnabarIsland_Gym_EventScript_ChallengeLeader::
 	end
 
 CinnabarIsland_Gym_Text_LeaderSpeech::
-    .string "Hah!\p"
-    .string "I am Blaine, the red-hot Leader\n"
-    .string "of Cinnabar Gym!\p"
-    .string "My fiery Pokémon are all rough\n"
-    .string "and ready with intense heat!\p"
-    .string "They incinerate all challengers!$"
+    .string "Ha!\p"
+    .string "Sóc en Blaine, el Líder\n"
+    .string "ardent del Gimnàs Cinnabar!\p"
+    .string "Els meus Pokémon de Foc són\n"
+    .string "durs i plens de calor intensa!\p"
+    .string "Incineren tots els desafiants!$"
 
 CinnabarIsland_Gym_Text_LeaderIntro::
-    .string "Hah!\n"
-    .string "You better have Burn Heal!$"
+    .string "Ha!\n"
+    .string "Més val que portis Anticremada!$"
 
 CinnabarIsland_Gym_Text_LeaderDefeat::
-    .string "I have burned down to nothing!$"
+    .string "M'he cremat fins a les cendres!$"
 
 CinnabarIsland_Gym_EventScript_DefeatedLeaderGetBadge::
 	msgbox CinnabarIsland_Gym_Text_GetBadge, MSGBOX_DEFAULT
@@ -822,23 +822,23 @@ CinnabarIsland_Gym_EventScript_DefeatedLeaderGetBadge::
 	waitmessage
 	setflag FLAG_BADGE07_GET
 	setflag FLAG_DAILY_BLAINE_REMATCH
-	settrainerflag	TRAINER_SUPER_NERD_ERIK						
-	settrainerflag	TRAINER_SUPER_NERD_AVERY					
-	settrainerflag	TRAINER_SUPER_NERD_DEREK					
-	settrainerflag	TRAINER_SUPER_NERD_ZAC						
-	settrainerflag	TRAINER_BURGLAR_QUINN						
-	settrainerflag	TRAINER_BURGLAR_RAMON						
-	settrainerflag	TRAINER_BURGLAR_DUSTY						
+	settrainerflag	TRAINER_SUPER_NERD_ERIK
+	settrainerflag	TRAINER_SUPER_NERD_AVERY
+	settrainerflag	TRAINER_SUPER_NERD_DEREK
+	settrainerflag	TRAINER_SUPER_NERD_ZAC
+	settrainerflag	TRAINER_BURGLAR_QUINN
+	settrainerflag	TRAINER_BURGLAR_RAMON
+	settrainerflag	TRAINER_BURGLAR_DUSTY
 	goto CinnabarIsland_Gym_EventScript_GetTM
 	end
 
 CinnabarIsland_Gym_Text_GetBadge::
-    .string "Not even ashes remain!\p"
-    .string "You have earned the Volcano Badge.$"
+    .string "No en queden ni les cendres!\p"
+    .string "T'has guanyat la Medalla Volcà.$"
 
 CinnabarIsland_Gym_Text_ReceivedBadge::
-	.string "{PLAYER} received the Volcano\n"
-    .string "Badge from Blaine!$"
+	.string "{PLAYER} ha rebut la Medalla\n"
+    .string "Volcà d'en Blaine!$"
 
 CinnabarIsland_Gym_EventScript_GetTM::
 	msgbox CinnabarIsland_Gym_Text_TakeThisWithYou, MSGBOX_DEFAULT
@@ -854,17 +854,17 @@ CinnabarIsland_Gym_EventScript_GetTM::
 	end
 
 CinnabarIsland_Gym_Text_TakeThisWithYou::
-    .string "Here, you can have this, too!$"
+    .string "Pren això també!$"
 
 CinnabarIsland_Gym_Text_ReceivedTM::
-    .string "{PLAYER} received TM38\n"
-    .string "from Blaine.$"
+    .string "{PLAYER} ha rebut la MT38\n"
+    .string "d'en Blaine.$"
 
 CinnabarIsland_Gym_Text_ExplainTM::
-    .string "TM38 contains Fire Blast.\n"
-    .string "Teach it to Fire type Pokémon.\p"
-    .string "Vulpix or Charmeleon would be\n"
-    .string "ideal for that move.$"
+    .string "La MT38 conté Flamarada.\n"
+    .string "Ensenya-la a Pokémon de Foc.\p"
+    .string "Vulpix o Charmeleon serien\n"
+    .string "ideals per a aquest moviment.$"
 
 CinnabarIsland_Gym_EventScript_NoRoomForTM::
 	msgbox CinnabarIsland_Gym_Text_NoRoomForTM, MSGBOX_DEFAULT
@@ -872,7 +872,7 @@ CinnabarIsland_Gym_EventScript_NoRoomForTM::
 	end
 
 CinnabarIsland_Gym_Text_NoRoomForTM::
-    .string "Make space for this, child!$"
+    .string "Fes espai per a això, nen!$"
 
 CinnabarIsland_Gym_EventScript_LeaderPostBattle::
 	lock
@@ -883,9 +883,10 @@ CinnabarIsland_Gym_EventScript_LeaderPostBattle::
 	end
 
 CinnabarIsland_Gym_Text_LeaderPostBattle::
-    .string "Fire Blast is the ultimate fire\n"
-    .string "technique.\p"
-    .string "Don't waste it on Water Pokémon.$"
+    .string "Flamarada és la tècnica\n"
+    .string "definitiva de foc.\p"
+    .string "No la malgastis amb Pokémon\n"
+    .string "d'Aigua.$"
 
 CinnabarIsland_Gym_EventScript_LeaderPostBattleGameClear::
 	msgbox CinnabarIsland_Gym_Text_PostBattleGameClear, MSGBOX_DEFAULT
@@ -893,7 +894,7 @@ CinnabarIsland_Gym_EventScript_LeaderPostBattleGameClear::
 	end
 
 CinnabarIsland_Gym_Text_PostBattleGameClear::
-	.string "Hah! I'm all fired up!$"
+	.string "Ha! Estic encès!$"
 
 CinnabarIsland_Gym_EventScript_RematchLeader::
 	msgbox CinnabarIsland_Gym_Text_RematchLeader, MSGBOX_YESNO
@@ -903,14 +904,14 @@ CinnabarIsland_Gym_EventScript_RematchLeader::
 	end
 
 CinnabarIsland_Gym_Text_RematchLeader::
-	.string "Hah! Well done, returning here to my Gym!\p" 
-	.string "Have you explored Pokémon Mansion?\p"
-	.string "Did you see anything interesting while\n" 
-	.string "you were in there?\p" 
-	.string "That place still holds the remnants of my\n" 
-	.string "old friend's research!\p" 
-	.string "More importantly, since you came all this\n"
-	.string "way, we should have a battle! Hah!$"
+	.string "Ha! Ben fet, tornar al meu Gimnàs!\p"
+	.string "Has explorat la Mansió Pokémon?\p"
+	.string "Has vist alguna cosa interessant\n"
+	.string "allà dins?\p"
+	.string "Aquell lloc encara guarda restes\n"
+	.string "de la investigació del meu amic!\p"
+	.string "Més important, ja que has vingut\n"
+	.string "fins aquí, hauríem de lluitar! Ha!$"
 
 CinnabarIsland_Gym_EventScript_DeclineRematch::
 	msgbox CinnabarIsland_Gym_Text_DeclineRematch, MSGBOX_DEFAULT
@@ -918,7 +919,7 @@ CinnabarIsland_Gym_EventScript_DeclineRematch::
 	end
 
 CinnabarIsland_Gym_Text_DeclineRematch::
-	.string "Disappointing!$"
+	.string "Decebedor!$"
 
 CinnabarIsland_Gym_EventScript_PostgameRematch::
 	msgbox CinnabarIsland_Gym_Text_RematchMode, MSGBOX_YESNO
@@ -927,26 +928,27 @@ CinnabarIsland_Gym_EventScript_PostgameRematch::
 	end
 
 CinnabarIsland_Gym_Text_RematchMode::
-	.string "Now that you're the champion,\n"
-	.string "would you like to go all out?$"
+	.string "Ara que ets el campió,\n"
+	.string "vols anar amb tot?$"
 
 CinnabarIsland_Gym_EventScript_LeaderRematch_OriginalTeam::
 	trainerbattle_single LEADER_REMATCH_BLAINE_ORIGINAL, CinnabarIsland_Gym_Text_RematchOriginal, CinnabarIsland_Gym_Text_RematchDefeat, CinnabarIsland_Gym_EventScript_DefeatedLeaderRematch
 	end
 
 CinnabarIsland_Gym_Text_RematchOriginal::
-	.string "Our first battle is burned into my\n" 
-	.string "memory! Let's go!$" 
+	.string "El nostre primer combat està\n"
+	.string "gravat a la memòria! Som-hi!$"
 
 CinnabarIsland_Gym_EventScript_LeaderRematch_PostGameTeam::
 	trainerbattle_single LEADER_REMATCH_BLAINE_POSTGAME, CinnabarIsland_Gym_Text_RematchPostgame, CinnabarIsland_Gym_Text_RematchDefeat, CinnabarIsland_Gym_EventScript_DefeatedLeaderRematch
 	end
 
 CinnabarIsland_Gym_Text_RematchPostgame::
-	.string "The Cinnabar Island volcano seems quite\n"
-	.string "active today!\p" 
-	.string "Which means that my Fire-type Pokémon will\n"
-	.string "be in top shape today, too! Let's go! Hah!$"
+	.string "El volcà de l'Illa Cinnabar sembla\n"
+	.string "molt actiu avui!\p"
+	.string "Això vol dir que els meus Pokémon\n"
+	.string "de Foc estaran en plena forma\l"
+	.string "avui! Som-hi! Ha!$"
 
 CinnabarIsland_Gym_EventScript_DefeatedLeaderRematch::
 	setflag FLAG_DAILY_BLAINE_REMATCH
@@ -954,68 +956,70 @@ CinnabarIsland_Gym_EventScript_DefeatedLeaderRematch::
 	end
 
 CinnabarIsland_Gym_Text_RematchDefeat::
-	.string "Hah! I'm all fired up!$"
+	.string "Ha! Estic encès!$"
 
 CinnabarIsland_Gym_Text_GymGuyAdvice::
-    .string "Yo!\n"
-    .string "Champ in the making!\p"
-    .string "The hotheaded Blaine is a Fire\n"
-    .string "Pokémon pro.\p"
-    .string "Douse his spirits with water!\p"
-    .string "You'd better take some\n"
-    .string "Burn Heals, too.$"
+    .string "Ei!\n"
+    .string "Futur campió!\p"
+    .string "En Blaine, el de cap calent, és\n"
+    .string "un pro dels Pokémon de Foc.\p"
+    .string "Apaga els seus ànims amb aigua!\p"
+    .string "Millor que portis\n"
+    .string "Anticremades.$"
 
 CinnabarIsland_Gym_Text_GymGuyPostVictory::
     .string "{PLAYER}!\n"
-    .string "You beat that firebrand!$"
+    .string "Has vençut aquell fogós!$"
 
 CinnabarIsland_Gym_Text_GymStatue::
-    .string "Cinnabar Pokémon Gym\n"
-    .string "Leader: Blaine\p"
-    .string "Winning Trainers:\n"
+    .string "Gimnàs Pokémon de Cinnabar\n"
+    .string "Líder: Blaine\p"
+    .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}$"
 
 CinnabarIsland_Gym_Text_GymStatuePlayerWon::
-    .string "Cinnabar Pokémon Gym\n"
-    .string "Leader: Blaine\p"
-    .string "Winning Trainers:\n"
+    .string "Gimnàs Pokémon de Cinnabar\n"
+    .string "Líder: Blaine\p"
+    .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}, {PLAYER}$"
 
 CinnabarIsland_Gym_Text_PokemonQuizRules::
-    .string "Pokémon Quiz!\p"
-    .string "Get it right, and the door opens to\n"
-    .string "the next room.\p"
-    .string "Get it wrong, and face a trainer!\p"
-    .string "If you want to conserve your\n"
-    .string "Pokémon for the Gym Leader…\p"
-    .string "Then get it right!\n"
-    .string "Here we go!$"
+    .string "Qüestionari Pokémon!\p"
+    .string "Encerta i la porta s'obrirà\n"
+    .string "a la següent sala.\p"
+    .string "Falla i t'enfrontaràs a un\n"
+    .string "entrenador!\p"
+    .string "Si vols estalviar els teus\n"
+    .string "Pokémon per al Líder…\p"
+    .string "Encerta!\n"
+    .string "Som-hi!$"
 
 CinnabarIsland_Gym_Text_QuizQuestion1::
-    .string "Caterpie evolves into Metapod?$"
+    .string "Caterpie evoluciona a Metapod?$"
 
 CinnabarIsland_Gym_Text_QuizQuestion2::
-    .string "There are nine certified Pokémon\n"
-    .string "League Badges?$"
+    .string "Hi ha nou Medalles certificades\n"
+    .string "de la Lliga Pokémon?$"
 
 CinnabarIsland_Gym_Text_QuizQuestion3::
-    .string "Poliwag evolves three times?$"
+    .string "Poliwag evoluciona tres vegades?$"
 
 CinnabarIsland_Gym_Text_QuizQuestion4::
-    .string "Are electric moves effective\n"
-    .string "against Ground type Pokémon?$"
+    .string "Són efectius els moviments\n"
+    .string "elèctrics contra Pokémon\l"
+    .string "de tipus Terra?$"
 
 CinnabarIsland_Gym_Text_QuizQuestion5::
-    .string "Pokémon of the same kind and level\n"
-    .string "are not identical?$"
+    .string "Pokémon de la mateixa espècie\n"
+    .string "i nivell no són idèntics?$"
 
 CinnabarIsland_Gym_Text_QuizQuestion6::
-    .string "TM28 contains Tombstony?$"
+    .string "La MT28 conté Tombstony?$"
 
 CinnabarIsland_Gym_Text_CorrectGoOnThrough::
-    .string "You're absolutely correct!\p"
-    .string "Go on through!$"
+    .string "Absolutament correcte!\p"
+    .string "Endavant!$"
 
 CinnabarIsland_Gym_Text_SorryBadCall::
-    .string "Sorry!\n"
-    .string "Bad call!$"
+    .string "Ho sento!\n"
+    .string "Mala resposta!$"

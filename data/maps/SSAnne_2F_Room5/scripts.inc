@@ -6,16 +6,16 @@ SSAnne_2F_Room5_EventScript_Gentleman::
 	end
 
 SSAnne_2F_Room5_Text_HaveYouGoneToSafariZone::
-    .string "Have you gone to the SAFARI ZONE\n"
-    .string "in Fuchsia City?\p"
-    .string "There are many kinds of rare\n"
-    .string "Pokémon.$"
+    .string "Has anat a la ZONA SAFARI de\n"
+    .string "Ciutat Fuchsia?\p"
+    .string "Hi ha moltes espècies de Pokémon\n"
+    .string "rars.$"
 
 SSAnne_2F_Room5_EventScript_LittleBoy::
 	msgbox SSAnne_2F_Room5_Text_WeThinkSafariZoneIsAwesome, MSGBOX_NPC
 	end
 
 SSAnne_2F_Room5_Text_WeThinkSafariZoneIsAwesome::
-    .string "Me and my granpa think the Safari\n"
-    .string "Zone is awesome!\l"
-    .string "I wish we could go there again.$"
+    .string "El meu avi i jo pensem que la\n"
+    .string "Zona Safari és increïble!\l"
+    .string "M'agradaria tornar-hi.$"

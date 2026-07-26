@@ -60,46 +60,47 @@ SilphCo_4F_EventScript_Grunt2::
 	end
 
 SilphCo_4F_Text_CantYouSeeImHiding::
-    .string "Sssh!\n"
-    .string "Can't you see I'm hiding?$"
+    .string "Xxt!\n"
+    .string "No veus que m'amago?$"
 
 SilphCo_4F_Text_TeamRocketIsGone::
-    .string "Huh?\n"
-    .string "Team Rocket is gone?$"
+    .string "Eh?\n"
+    .string "L'Equip Rocket se n'ha anat?$"
 
 SilphCo_4F_Text_Grunt1Intro::
-    .string "Team Rocket has taken control\n"
-    .string "of Silph Co.!$"
+    .string "L'Equip Rocket ha pres el control\n"
+    .string "de Silph S.A.!$"
 
 SilphCo_4F_Text_Grunt1Defeat::
     .string "Arrgh!$"
 
 SilphCo_4F_Text_Grunt1PostBattle::
     .string "Fwahahaha!\n"
-    .string "My Boss has been after this place!$"
+    .string "El meu Cap anava darrere d'aquí!$"
 
 SilphCo_4F_Text_RodneyIntro::
-    .string "My Pokémon is my loyal servant.$"
+    .string "El meu Pokémon és el meu servent\n"
+    .string "lleial.$"
 
 SilphCo_4F_Text_RodneyDefeat::
-    .string "Darn!\n"
-    .string "You weak Pokémon!$"
+    .string "Llamp!\n"
+    .string "Pokémon feble!$"
 
 SilphCo_4F_Text_RodneyPostBattle::
-    .string "The doors are electronically\n"
-    .string "locked.\p"
-    .string "It takes a Card Key to open the\n"
-    .string "doors here.$"
+    .string "Les portes estan tancades\n"
+    .string "electrònicament.\p"
+    .string "Cal una Clau Targeta per obrir\n"
+    .string "les portes d'aquí.$"
 
 SilphCo_4F_Text_Grunt2Intro::
-    .string "Intruder spotted!$"
+    .string "Intrús detectat!$"
 
 SilphCo_4F_Text_Grunt2Defeat::
-    .string "Who are you?$"
+    .string "Qui ets?$"
 
 SilphCo_4F_Text_Grunt2PostBattle::
-    .string "I better tell the Boss on 11F!$"
+    .string "Millor que avisi el Cap al pis 11!$"
 
 SilphCo_4F_Text_FloorSign::
-    .string "Silph Co. Head Office\n"
-    .string "4F$"
+    .string "Seu Central de Silph S.A.\n"
+    .string "4t pis$"

@@ -6,5 +6,5 @@ Route12_NorthEntrance_1F_EventScript_Guard::
 	end
 
 Route12_NorthEntrance_1F_Text_LookoutSpotUpstairs::
-    .string "There's a lookout spot upstairs.\n"
-    .string "The view is magnificent.$"
+    .string "Hi ha un mirador a dalt.\n"
+    .string "La vista és magnífica.$"

@@ -9,7 +9,7 @@ IndigoPlateau_PokemonCenter_2F_Trainer::
 	end
 
 IndigoPlateau_PokemonCenter_2F_NervousTrainer::
-	.string "Deep breaths...\n"
-	.string "Deep breaths...\p"
-	.string "I'm pretty nervous about taking on\n"
-	.string "the Elite Four...$"
+	.string "Respira fondo...\n"
+	.string "Respira fondo...\p"
+	.string "Estic bastant nerviós per\n"
+	.string "enfrontar-me a l'Alt Comandament...$"

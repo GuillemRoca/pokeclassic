@@ -9,6 +9,6 @@ ViridianCity_PokemonCenter_2F_LittleGirl::
 	end
 
 ViridianCity_PokemonCenter_2F_Text_Rank::
-	.string "That man won't let me buy stuff!\n"
-	.string "He says I'm not a high enough rank!\p"
-	.string "What's that even mean?$"
+	.string "Aquell home no em deixa comprar!\n"
+	.string "Diu que no tinc prou rang!\p"
+	.string "Què vol dir, això?$"

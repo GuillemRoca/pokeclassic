@@ -6,19 +6,19 @@ PewterCity_House2_EventScript_OldMan::
 	end
 
 PewterCity_House2_Text_MonsLearnTechniquesAsTheyGrow::
-    .string "Pokémon learn new techniques as\n"
-    .string "they grow.\p"
-    .string "But some moves must be taught to\n"
-    .string "them by people.$"
+    .string "Els Pokémon aprenen tècniques\n"
+    .string "noves a mesura que creixen.\p"
+    .string "Però alguns moviments els han\n"
+    .string "d'ensenyar les persones.$"
 
 PewterCity_House2_EventScript_LittleBoy::
 	msgbox PewterCity_House2_Text_MonsEasierCatchIfStatused, MSGBOX_NPC
 	end
 
 PewterCity_House2_Text_MonsEasierCatchIfStatused::
-    .string "A Pokémon becomes easier to \n"
-    .string "catch if it has a status problem.\p"
-    .string "Sleep, poison, burn, or paralysis…\n"
-    .string "Those are all effective.\p"
-    .string "But catching Pokémon is never\n"
-    .string "a sure thing!$"
+    .string "Un Pokémon és més fàcil de\n"
+    .string "capturar si té un problema d'estat.\p"
+    .string "Son, verí, cremada o paràlisi…\n"
+    .string "Tots són efectius.\p"
+    .string "Però capturar Pokémon mai no és\n"
+    .string "cosa segura!$"

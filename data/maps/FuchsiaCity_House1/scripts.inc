@@ -6,9 +6,10 @@ FuchsiaCity_House1_EventScript_Woman::
 	end
 
 FuchsiaCity_House1_Text_WardenIsOldHasFalseTeeth::
-    .string "The Safari Zone's Warden is old, \n"
-    .string "but he's still very much active.\p"
-    .string "All his teeth are false, though.$"
+    .string "El Guardià de la Zona Safari és\n"
+    .string "gran, però encara és molt actiu.\p"
+    .string "Totes les seves dents són\n"
+    .string "postisses, però.$"
 
 FuchsiaCity_House1_EventScript_OldMan::
 	lock
@@ -19,16 +20,16 @@ FuchsiaCity_House1_EventScript_OldMan::
 
 FuchsiaCity_House1_Text_BillIsMyGrandson::
     .string "Hmm?\n"
-    .string "You've met Bill?\p"
-    .string "He's my grandson!\p"
-    .string "He always liked collecting things,\n"
-    .string "even as a child!$"
+    .string "Has conegut en Bill?\p"
+    .string "És el meu nét!\p"
+    .string "Sempre li ha agradat col·leccionar\n"
+    .string "coses, fins i tot de petit!$"
 
 FuchsiaCity_House1_EventScript_LittleBoy::
 	msgbox FuchsiaCity_House1_Text_BillFilesHisOwnMonData, MSGBOX_NPC
 	end
 
 FuchsiaCity_House1_Text_BillFilesHisOwnMonData::
-    .string "Bill files his own Pokémon data on\n"
-    .string "his PC.\p"
-    .string "Did he show you?$"
+    .string "En Bill arxiva les seves pròpies\n"
+    .string "dades Pokémon al seu PC.\p"
+    .string "Te les va ensenyar?$"

@@ -1,165 +1,447 @@
 
 gPokeNewsTextSlateport_Upcoming::
-	.string "Greetings!\n"
-	.string "It's time for Pokémon News.\p"
-	.string "Slateport's most popular kind of guy,\n"
-	.string "the Energy Guru, is in the news again!\p"
-	.string "He promises to, “Stupendously go for\n"
-	.string "it in just this many days: {STR_VAR_1}!”\p"
-	.string "While he refused to elaborate on what\n"
-	.string "he will stupendously go for, the\l"
-	.string "Energy Guru advised, “Save up your\l"
-	.string "money. That'll be good…”\p"
-	.string "It sounds like a trip to Slateport\n"
-	.string "would be well worth your while that day.\p"
-	.string "That's the news on Pokémon News.$"
+	.string "Benvinguts!\n"
+
+
+	.string "Hora de les Notícies Pokémon.\p"
+
+
+	.string "El Gurú de l'Energia de Slateport,\n"
+
+
+	.string "el personatge més popular, torna!\p"
+
+
+	.string "Promet “anar-hi a tope en\n"
+
+
+	.string "exactament {STR_VAR_1} dies!”\p"
+
+
+	.string "Tot i que no ha volgut aclarir a\n"
+
+
+	.string "qué anirà a tope, el Gurú de\l"
+
+
+	.string "l'Energia ha dit: “Estalvieu.\l"
+
+
+	.string "Això serà bo…”\p"
+
+
+	.string "Sembla que valdrà la pena visitar\n"
+
+
+	.string "Slateport aquell dia.\p"
+
+
+	.string "Això és tot per a les Notícies Pokémon.$"
+
+
 
 gPokeNewsTextSlateport_Ongoing::
-	.string "Greetings!\n"
-	.string "It's time for Pokémon News.\p"
-	.string "This is the news you've all been\n"
-	.string "waiting for!\p"
-	.string "Slateport's Energy Guru is going\n"
-	.string "for it stupendously in the Market!\p"
-	.string "He promises unbeatable bargain\n"
-	.string "prices on Calcium and Protein!\p"
-	.string "A trip to Slateport City sounds\n"
-	.string "worthwhile. Why not visit and shop\l"
-	.string "to your heart's content?\p"
-	.string "That's the news on Pokémon News.$"
+	.string "Benvinguts!\n"
+
+
+	.string "Hora de les Notícies Pokémon.\p"
+
+
+	.string "Aquesta és la notícia que\n"
+
+
+	.string "tots esperàveu!\p"
+
+
+	.string "El Gurú de l'Energia de Slateport\n"
+
+
+	.string "va a tope al Mercat!\p"
+
+
+	.string "Promet preus de ganga imbatibles\n"
+
+
+	.string "en Calci i Proteïna!\p"
+
+
+	.string "Visitar Slateport sembla que\n"
+
+
+	.string "val la pena. Per qué no anireu\l"
+
+
+	.string "a comprar fins on podeu?\p"
+
+
+	.string "Això és tot per a les Notícies Pokémon.$"
+
+
 
 gPokeNewsTextSlateport_Ending::
-	.string "Greetings!\n"
-	.string "It's time for Pokémon News.\p"
-	.string "This is the news you've all been\n"
-	.string "waiting for!\p"
-	.string "Slateport's Energy Guru is going\n"
-	.string "for it stupendously in the Market!\p"
-	.string "He promises unbeatable bargain\n"
-	.string "prices on Calcium and Protein!\p"
-	.string "According to the Energy Guru, he\n"
-	.string "still has ample merchandise left.\p"
-	.string "Why not visit Slateport City for\n"
-	.string "a most enjoyable shopping trip?\p"
-	.string "That's the news on Pokémon News.$"
+	.string "Benvinguts!\n"
+
+
+	.string "Hora de les Notícies Pokémon.\p"
+
+
+	.string "Aquesta és la notícia que\n"
+
+
+	.string "tots esperàveu!\p"
+
+
+	.string "El Gurú de l'Energia de Slateport\n"
+
+
+	.string "va a tope al Mercat!\p"
+
+
+	.string "Promet preus de ganga imbatibles\n"
+
+
+	.string "en Calci i Proteïna!\p"
+
+
+	.string "Segons el Gurú de l'Energia, encara\n"
+
+
+	.string "li queda força mercaderia.\p"
+
+
+	.string "Per qué no visiteu Slateport per\n"
+
+
+	.string "fer una agradable compra?\p"
+
+
+	.string "Això és tot per a les Notícies Pokémon.$"
+
+
 
 gPokeNewsTextGameCorner_Upcoming::
-	.string "Greetings!\n"
-	.string "It's time for Pokémon News.\p"
-	.string "It's approaching!\n"
-	.string "It's finally coming!\p"
-	.string "The Game Corner's service day will be\n"
-	.string "here in just this many days: {STR_VAR_1}!\p"
-	.string "Even those who are usually unlucky\n"
-	.string "may be lucky on this particular day!\p"
-	.string "That's the news on Pokémon News.$"
+	.string "Benvinguts!\n"
+
+
+	.string "Hora de les Notícies Pokémon.\p"
+
+
+	.string "S'acosta!\n"
+
+
+	.string "Finalment ve!\p"
+
+
+	.string "El dia de servei del Saló de Jocs\n"
+
+
+	.string "arribarà en {STR_VAR_1} dies!\p"
+
+
+	.string "Fins i tot els que solen tenir\n"
+
+
+	.string "mala sort podrien tenir-ne aquell dia!\p"
+
+
+	.string "Això és tot per a les Notícies Pokémon.$"
+
+
 
 gPokeNewsTextGameCorner_Ongoing::
-	.string "Greetings!\n"
-	.string "It's time for Pokémon News.\p"
-	.string "It's here!\n"
-	.string "It's finally arrived!\p"
-	.string "Game Corner's service day has finally\n"
-	.string "arrived!\p"
-	.string "Could you be lucky at the Slots \n"
-	.string "and Roulette?\p"
-	.string "The location is Mauville City.\n"
-	.string "This is the place!\p"
-	.string "That's the news on Pokémon News.$"
+	.string "Benvinguts!\n"
+
+
+	.string "Hora de les Notícies Pokémon.\p"
+
+
+	.string "Ja és aquí!\n"
+
+
+	.string "Finalment ha arribat!\p"
+
+
+	.string "El dia de servei del Saló de Jocs\n"
+
+
+	.string "finalment ha arribat!\p"
+
+
+	.string "Podries tenir sort a les Màquines\n"
+
+
+	.string "i la Ruleta?\p"
+
+
+	.string "Al Saló de Jocs a Mauville City.\n"
+
+
+	.string "Aquest és el lloc!\p"
+
+
+	.string "Això és tot per a les Notícies Pokémon.$"
+
+
 
 gPokeNewsTextGameCorner_Ending::
-	.string "Greetings!\n"
-	.string "It's time for Pokémon News.\p"
-	.string "It's here!\n"
-	.string "It's finally arrived!\p"
-	.string "Game Corner's service day has finally\n"
-	.string "arrived!\p"
-	.string "Could you be lucky at the Slots\n"
-	.string "and Roulette?\p"
-	.string "Time is limited and has almost run out.\n"
-	.string "The location is Mauville City.\p"
-	.string "That's the news on Pokémon News.$"
+	.string "Benvinguts!\n"
+
+
+	.string "Hora de les Notícies Pokémon.\p"
+
+
+	.string "Ja és aquí!\n"
+
+
+	.string "Finalment ha arribat!\p"
+
+
+	.string "El dia de servei del Saló de Jocs\n"
+
+
+	.string "finalment ha arribat!\p"
+
+
+	.string "Podries tenir sort a les Màquines\n"
+
+
+	.string "i la Ruleta?\p"
+
+
+	.string "El temps és limitat i gairebé s'acaba.\n"
+
+
+	.string "El lloc és Mauville City.\p"
+
+
+	.string "Això és tot per a les Notícies Pokémon.$"
+
+
 
 gPokeNewsTextLilycove_Upcoming::
-	.string "Greetings!\n"
-	.string "It's time for Pokémon News.\p"
-	.string "We've just received wonderful news\n"
-	.string "from Lilycove Department Store.\p"
-	.string "The Department Store's clear-out sale\n"
-	.string "will be in just this many days: {STR_VAR_1}!\p"
-	.string "That thingamajig or that doodad that\n"
-	.string "you've always wanted could be yours!\p"
-	.string "That's the news on Pokémon News.$"
+	.string "Benvinguts!\n"
+
+
+	.string "Hora de les Notícies Pokémon.\p"
+
+
+	.string "Acabem de rebre notícies meravelloses\n"
+
+
+	.string "dels Grans Magatzems de Lilycove.\p"
+
+
+	.string "La venda de liquidació dels Grans\n"
+
+
+	.string "Magatzems serà en {STR_VAR_1} dies!\p"
+
+
+	.string "Aquella cosa que sempre has volgut\n"
+
+
+	.string "podria ser teva!\p"
+
+
+	.string "Això és tot per a les Notícies Pokémon.$"
+
+
 
 gPokeNewsTextLilycove_Ongoing::
-	.string "Greetings!\n"
-	.string "It's time for Pokémon News.\p"
-	.string "This is the news you've all been\n"
-	.string "waiting for!\p"
-	.string "Lilycove Department Store's clear-out\n"
-	.string "sale has finally arrived!\p"
-	.string "All the thingamajigs and doodads that\n"
-	.string "you've always dreamt about…\p"
-	.string "You may be in for fateful encounters\n"
-	.string "with them all!\p"
-	.string "That's the news on Pokémon News.$"
+	.string "Benvinguts!\n"
+
+
+	.string "Hora de les Notícies Pokémon.\p"
+
+
+	.string "Aquesta és la notícia que\n"
+
+
+	.string "tots esperàveu!\p"
+
+
+	.string "La venda de liquidació dels Grans\n"
+
+
+	.string "Magatzems de Lilycove ha arribat!\p"
+
+
+	.string "Totes aquelles coses amb les quals\n"
+
+
+	.string "sempre has somiat…\p"
+
+
+	.string "Podries tenir encontres fatídics\n"
+
+
+	.string "amb totes elles!\p"
+
+
+	.string "Això és tot per a les Notícies Pokémon.$"
+
+
 
 gPokeNewsTextLilycove_Ending::
-	.string "Greetings!\n"
-	.string "It's time for Pokémon News.\p"
-	.string "This is the news you've all been\n"
-	.string "waiting for!\p"
-	.string "Lilycove Department Store's clear-out\n"
-	.string "sale has finally arrived!\p"
-	.string "All the thingamajigs and doodads that\n"
-	.string "you've always dreamt about…\p"
-	.string "You may be in for fateful encounters\n"
-	.string "with them all!\p"
-	.string "That's the news on Pokémon News.$"
+	.string "Benvinguts!\n"
+
+
+	.string "Hora de les Notícies Pokémon.\p"
+
+
+	.string "Aquesta és la notícia que\n"
+
+
+	.string "tots esperàveu!\p"
+
+
+	.string "La venda de liquidació dels Grans\n"
+
+
+	.string "Magatzems de Lilycove ha arribat!\p"
+
+
+	.string "Totes aquelles coses amb les quals\n"
+
+
+	.string "sempre has somiat…\p"
+
+
+	.string "Podries tenir encontres fatídics\n"
+
+
+	.string "amb totes elles!\p"
+
+
+	.string "Això és tot per a les Notícies Pokémon.$"
+
+
 
 gPokeNewsTextBlendMaster_Upcoming::
-	.string "Greetings!\n"
-	.string "It's time for Pokémon News.\p"
-	.string "We have big news for everyone\n"
-	.string "involved in the making of {POKEBLOCK}s.\p"
-	.string "The legendary Blend Master will be\n"
-	.string "appearing in Lilycove City with just\l"
-	.string "a mere {STR_VAR_1}-day wait to go!\p"
-	.string "The Blend Master is said to be\n"
-	.string "the best in all Hoenn when it comes to\l"
-	.string "spinning a Berry Blender.\p"
-	.string "Those people who want to make great\n"
-	.string "{POKEBLOCK}s or see the Master in action\l"
-	.string "are urged to save their Berries.\p"
-	.string "That's the news on Pokémon News.$"
+	.string "Benvinguts!\n"
+
+
+	.string "Hora de les Notícies Pokémon.\p"
+
+
+	.string "Tenim grans notícies per a tothom\n"
+
+
+	.string "involucrat en la creació de {POKEBLOCK}s.\p"
+
+
+	.string "El llegendari Mestre Barrejador\n"
+
+
+	.string "apareixerà a Lilycove en\l"
+
+
+	.string "tan sols {STR_VAR_1} dia(es) més!\p"
+
+
+	.string "Es diu que el Mestre Barrejador\n"
+
+
+	.string "és el millor de tot Hoenn en\l"
+
+
+	.string "girar la Batedora de Baies.\p"
+
+
+	.string "S'aconsella als qui vulguin fer\n"
+
+
+	.string "bons {POKEBLOCK}s o veure el Mestre\l"
+
+
+	.string "en acció que guardin les seves Baies.\p"
+
+
+	.string "Això és tot per a les Notícies Pokémon.$"
+
+
 
 gPokeNewsTextBlendMaster_Ongoing::
-	.string "Greetings!\n"
-	.string "It's time for Pokémon News.\p"
-	.string "We have big news for everyone\n"
-	.string "involved in the making of {POKEBLOCK}s.\p"
-	.string "The legendary Blend Master has\n"
-	.string "finally appeared!\p"
-	.string "The Blend Master is spinning\n"
-	.string "the Berry Blender at the Lilycove\l"
-	.string "Contest Hall.\p"
-	.string "Those people who want to make great\n"
-	.string "{POKEBLOCK}s or see the Master in action\l"
-	.string "should hurry to Lilycove.\p"
-	.string "That's the news on Pokémon News.$"
+	.string "Benvinguts!\n"
+
+
+	.string "Hora de les Notícies Pokémon.\p"
+
+
+	.string "Tenim grans notícies per a tothom\n"
+
+
+	.string "involucrat en la creació de {POKEBLOCK}s.\p"
+
+
+	.string "El llegendari Mestre Barrejador\n"
+
+
+	.string "finalment ha aparegut!\p"
+
+
+	.string "El Mestre Barrejador gira la\n"
+
+
+	.string "Batedora de Baies a la Sala de\l"
+
+
+	.string "Concursos de Lilycove.\p"
+
+
+	.string "Aquells qui vulguin fer bons {POKEBLOCK}s\n"
+
+
+	.string "o veure el Mestre en acció\l"
+
+
+	.string "haurien d'anar ràpid a Lilycove.\p"
+
+
+	.string "Això és tot per a les Notícies Pokémon.$"
+
+
 
 gPokeNewsTextBlendMaster_Ending::
-	.string "Greetings!\n"
-	.string "It's time for Pokémon News.\p"
-	.string "It's incredible!\n"
-	.string "Too incredible, even!\p"
-	.string "The Berry Blender is spinning at\n"
-	.string "a dizzying pace!\p"
-	.string "The Blend Master has lived up to\n"
-	.string "his reputation!\p"
-	.string "The Blend Master will soon be\n"
-	.string "leaving Lilycove.\p"
-	.string "If you haven't seen the Master in\n"
-	.string "action, don't waste this chance!\l"
-	.string "Head to Lilycove right now!\p"
-	.string "That's the news on Pokémon News.$"
+	.string "Benvinguts!\n"
+
+
+	.string "Hora de les Notícies Pokémon.\p"
+
+
+	.string "És increïble!\n"
+
+
+	.string "Massa increïble, fins i tot!\p"
+
+
+	.string "La Batedora de Baies gira\n"
+
+
+	.string "a una velocitat vertiginosa!\p"
+
+
+	.string "El Mestre Barrejador ha estat\n"
+
+
+	.string "a l'alçada de la seva reputació!\p"
+
+
+	.string "El Mestre Barrejador aviat\n"
+
+
+	.string "deixarà Lilycove.\p"
+
+
+	.string "Si no has vist el Mestre en acció,\n"
+
+
+	.string "no perdis aquesta oportunitat!\l"
+
+
+	.string "Vés a Lilycove ara mateix!\p"
+
+
+	.string "Això és tot per a les Notícies Pokémon.$"
+
+

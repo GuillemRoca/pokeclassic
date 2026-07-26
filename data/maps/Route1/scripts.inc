@@ -63,8 +63,8 @@ Movement_OakAppears:
 	step_end
 
 Route1_Text_OakDontGoOut::
-    .string "Oak: Hey! Wait!\n"
-    .string "Don't come out this way!$"
+    .string "Oak: Ei! Espera!\n"
+    .string "No surtis per aquí!$"
 
 
 Movement_OakApproaches1:
@@ -81,10 +81,8 @@ Movement_OakApproaches2:
 	step_end
 
 Route1_Text_OakGrassUnsafe::
-    .string "OAK: It's unsafe!\n"
-    .string "Wild Pokémon live in tall grass!\p"
-    .string "You need your own Pokémon for\n"
-    .string "your protection.$"
+    .string "OAK: És perillós!\n"
+    .string "Hi ha Pokémon salvatges a l'herba!$"
 
 Movement_PikachuApproaches1:
 	walk_down
@@ -127,11 +125,11 @@ Route1_EventScript_PikachuEncounter::
 	end
 
 Route1_Text_ThatWasClose::
-    .string "Oak: That was close!\n"
-    .string "But that's odd...\p"
-    .string "You don't often see Pikachu\n"
-    .string "in this area...\p"
-    .string "Let's head back to my lab!$"
+    .string "Oak: Per poc!\n"
+    .string "Però és estrany...\p"
+    .string "No és gaire habitual veure\n"
+    .string "Pikachu per aquesta zona...\p"
+    .string "Anem al meu laboratori!$"
 
 Route1_EventScript_MartClerk::
 	lock
@@ -146,13 +144,13 @@ Route1_EventScript_MartClerk::
 	end
 
 Route1_Text_WorkAtPokeMartTakeSample::
-    .string "Hi!\n"
-    .string "I work at a Pokémon Mart.\p"
-    .string "It's part of a convenient chain\n"
-    .string "selling all sorts of items.\p"
-    .string "Please, visit us in Viridian City.\p"
-    .string "I know, I'll give you a sample.\n"
-    .string "Here you go!$"
+    .string "Hola!\n"
+    .string "Treballo a una Botiga Pokémon.\p"
+    .string "Som una cadena que ven tota mena\n"
+    .string "d'objectes.\p"
+    .string "Vine a visitar-nos a Ciutat Viridiana.\p"
+    .string "Mira, et donaré una mostra.\n"
+    .string "Aquí tens!$"
 
 Route1_EventScript_AlreadyGotPotion::
 	msgbox Route1_Text_ComeSeeUsIfYouNeedPokeBalls
@@ -160,27 +158,27 @@ Route1_EventScript_AlreadyGotPotion::
 	end
 
 Route1_Text_ComeSeeUsIfYouNeedPokeBalls::
-    .string "Please come see us if you need\n"
-    .string "Poké Balls for catching Pokémon.$"
+    .string "Vine a veure'ns si necessites\n"
+    .string "Poké Balls per atrapar Pokémon.$"
 
 Route1_EventScript_Boy::
 	msgbox Route1_Text_CanJumpFromLedges, MSGBOX_NPC
 	end
 
 Route1_Text_CanJumpFromLedges::
-    .string "See those ledges along the road?\p"
-    .string "It's a bit scary, but you can jump\n"
-    .string "from them.\p"
-    .string "You can get back to Pallet Town\n"
-    .string "quicker that way.$"
+    .string "Veus aquells barrancs al camí?\p"
+    .string "Fa una mica de por, però pots\n"
+    .string "saltar-los.\p"
+    .string "Pots tornar a Poble Paleta\n"
+    .string "més ràpid per aquí.$"
 
 Route1_EventScript_RouteSign::
 	msgbox Route1_Text_RouteSign, MSGBOX_SIGN
 	end
 
 Route1_Text_RouteSign::
-    .string "Route 1\n"
-    .string "Pallet Town - Viridian City$"
+    .string "Ruta 1\n"
+    .string "Poble Paleta - Ciutat Viridiana$"
 
 Route1_RocketFugitive::
 	trainerbattle_single TRAINER_FUGITIVE_F, RocketFugitive_Text_Intro, RocketFugitive_Text_Defeat

@@ -20,26 +20,26 @@ SafariZone_SecretHouse_EventScript_Attendant::
 	end
 
 SafariZone_SecretHouse_Text_CongratsYouveWon::
-    .string "Ah! Finally!\p"
-    .string "You're the first person to reach\n"
-    .string "the Secret House!\p"
-    .string "Although I made a campaign\n"
-    .string "for our grand opening,\p"
-    .string "I was getting worried that no one\n"
-    .string "would win our campaign prize.\p"
-    .string "Congratulations!\n"
-    .string "You have won!$"
+    .string "Ah! Per fi!\p"
+    .string "Ets la primera persona a arribar\n"
+    .string "a la Casa Secreta!\p"
+    .string "Tot i que vaig fer una campanya\n"
+    .string "per a la nostra gran inauguració,\p"
+    .string "em preocupava que ningú no\n"
+    .string "guanyés el premi de la campanya.\p"
+    .string "Felicitats!\n"
+    .string "Has guanyat!$"
 
 SafariZone_SecretHouse_Text_ExplainSurf::
-    .string "HM03 is Surf.\p"
-    .string "Pokémon will be able to ferry you\n"
-    .string "across water using it.\p"
-    .string "You're super lucky for winning this\n"
-    .string "fabulous prize!$"
+    .string "La MO03 és Surf.\p"
+    .string "Els Pokémon podran transportar-te\n"
+    .string "per l'aigua amb ella.\p"
+    .string "Tens molta sort per guanyar\n"
+    .string "aquest premi fabulós!$"
 
 SafariZone_SecretHouse_Text_ReceivedHM03FromAttendant::
-    .string "{PLAYER} received HM03\n"
-    .string "from the attendant!$"
+    .string "{PLAYER} ha rebut la MO03\n"
+    .string "de l'encarregat!$"
 
 SafariZone_SecretHouse_EventScript_NoRoomForHM03::
 	msgbox SafariZone_SecretHouse_Text_DontHaveRoomForPrize
@@ -47,8 +47,8 @@ SafariZone_SecretHouse_EventScript_NoRoomForHM03::
 	end
 
 SafariZone_SecretHouse_Text_DontHaveRoomForPrize::
-    .string "You don't have room for this\n"
-    .string "fabulous prize!$"
+    .string "No tens espai per a aquest\n"
+    .string "premi fabulós!$"
 
 @TODO: replace this prize with a BOTTLE CAP
 SafariZone_SecretHouse_EventScript_CheckDailyPrize::
@@ -60,13 +60,13 @@ SafariZone_SecretHouse_EventScript_CheckDailyPrize::
 	end
 
 SafariZone_SecretHouse_Text_WinDailyPrize::
-	.string "Congratulations!\n"
-    .string "You made it to the Secret House-\p"
-    .string "Oh! Hey, you're the Grand Prize\n"
-    .string "winner. You already knew the way\l"
-    .string "here, huh?\p"
-    .string "Well, you're still eligible for the\n"
-    .string "normal prize, so here you go!$"
+	.string "Felicitats!\n"
+    .string "Has arribat a la Casa Secreta-\p"
+    .string "Oh! Ei, ets el guanyador del\n"
+    .string "Gran Premi. Ja sabies el camí\l"
+    .string "fins aquí, oi?\p"
+    .string "Bé, encara pots optar al premi\n"
+    .string "normal, així que aquí tens!$"
 
 SafariZone_SecretHouse_EventScript_ExplainDailyPrize::
 	msgbox SafariZone_SecretHouse_Text_ExplainDailyPrize
@@ -74,12 +74,11 @@ SafariZone_SecretHouse_EventScript_ExplainDailyPrize::
 	end
 
 SafariZone_SecretHouse_Text_ExplainDailyPrize::
-	.string "You already got the grand prize\n"
-	.string "for being the first person to\l"
-	.string "reach the Secret House, but you\l"
-	.string "are still eligible to receive a\l"
-	.string "normal prize if you make it here\l"
-	.string "again!\p"
-	.string "We only give out normal prizes once\n"
-	.string "per day, though!\p"
-	.string "Come back tomorrow!$"
+	.string "Ja vas rebre el gran premi per\n"
+	.string "ser la primera persona a arribar\l"
+	.string "a la Casa Secreta, però encara\l"
+	.string "pots rebre un premi normal si\l"
+	.string "tornes a arribar aquí!\p"
+	.string "Només donem premis normals un\n"
+	.string "cop al dia, però!\p"
+	.string "Torna demà!$"

@@ -6,17 +6,19 @@ VermilionCity_House3_EventScript_Boy::
 	end
 
 VermilionCity_House3_Text_PidgeyFlyLetterToSaffron::
-    .string "I'm getting my Pidgey to fly a\n"
-    .string "letter to Saffron in the north.$"
+    .string "Estic fent que el meu Pidgey porti\n"
+    .string "una carta a Saffron, al nord.$"
 
 VermilionCity_House3_EventScript_Lass::
 	msgbox VermilionCity_House3_Text_SendMyPidgeyToUnionRoom, MSGBOX_NPC
 	end
 
 VermilionCity_House3_Text_SendMyPidgeyToUnionRoom::
-    .string "Most people like to use e-mail, but\n"
-    .string "I prefer an old-fashioned letter!\p"
-    .string "I trained my Pidgey to deliver mail!$"
+    .string "La majoria de gent prefereix el\n"
+    .string "correu electrònic, però jo\l"
+    .string "prefereixo una carta clàssica!\p"
+    .string "He entrenat el meu Pidgey per\n"
+    .string "repartir correu!$"
 
 VermilionCity_House3_EventScript_Pidgey::
 	lock
@@ -36,8 +38,8 @@ VermilionCity_House3_EventScript_Letter::
 	end
 
 VermilionCity_House3_Text_DearPippiLetter::
-    .string "Dear Pippi,\n"
-    .string "I hope to see you soon.\p"
-    .string "I heard a rumor that Team Rocket\n"
-    .string "was headed to Saffron City.\p"
-    .string "Vermilion appears to be safe.$"
+    .string "Benvolguda Pippi,\n"
+    .string "espero veure't aviat.\p"
+    .string "He sentit un rumor que el Team\n"
+    .string "Rocket es dirigia a Ciutat Safrà.\p"
+    .string "Vermilion sembla segura.$"

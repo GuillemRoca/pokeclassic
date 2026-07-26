@@ -1,5 +1,5 @@
-.set LOCALID_BOAT, 4 
-.set LOCALID_CAPTAIN, 5 
+.set LOCALID_BOAT, 4
+.set LOCALID_CAPTAIN, 5
 
 CinnabarIsland_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, CinnabarIsland_OnTransition
@@ -23,54 +23,55 @@ CinnabarIsland_EventScript_Woman::
 	end
 
 CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab::
-    .string "Cinnabar Gym's Blaine is quite the\n"
-    .string "odd fellow.\p"
-    .string "He's lived on the island since way\n"
-    .string "before the LAB was built.$"
+    .string "El Blaine del Gimnàs Cinnabar és\n"
+    .string "força peculiar.\p"
+    .string "Viu a l'illa des de molt abans\n"
+    .string "que construïssin el LAB.$"
 
 CinnabarIsland_EventScript_OldMan::
 	msgbox CinnabarIsland_Text_ScientistsExperimentInMansion, MSGBOX_NPC
 	end
 
 CinnabarIsland_Text_ScientistsExperimentInMansion::
-    .string "Scientists conduct experiments \n"
-    .string "in the burned-out building.\p"
-    .string "You know, the one they call the\n"
-    .string "Pokémon Mansion.$"
+    .string "Els científics fan experiments\n"
+    .string "a l'edifici cremat.\p"
+    .string "Saps, el que anomenen la\n"
+    .string "Mansió Pokémon.$"
 
 CinnabarIsland_EventScript_Kid::
 	msgbox CinnabarIsland_Text_GhostStory, MSGBOX_NPC
 	end
 
 CinnabarIsland_Text_GhostStory::
-	.string "The local kids like to make up\n"
-	.string "stories about the Pokémon Mansion.\p"
-	.string "My favorite was the one about there\n"
-	.string "being an Old Treasure Map hidden\l"
-	.string "somehwere inside!$"
+	.string "Als nens del barri els agrada\n"
+	.string "inventar històries sobre la\l"
+	.string "Mansió Pokémon.\p"
+	.string "La meva preferida era la que deia\n"
+	.string "que hi havia un Vell Mapa del\l"
+	.string "Tresor amagat a dins!$"
 
 CinnabarIsland_EventScript_IslandSign::
 	msgbox CinnabarIsland_Text_IslandSign, MSGBOX_SIGN
 	end
 
 CinnabarIsland_Text_IslandSign::
-    .string "Cinnabar Island\n"
-    .string "The Fiery Town of Burning Desire$"
+    .string "Illa Cinnabar\n"
+    .string "La Ciutat Fogosa del Desig Ardent$"
 
 CinnabarIsland_EventScript_PokemonLabSign::
 	msgbox CinnabarIsland_Text_PokemonLab, MSGBOX_SIGN
 	end
 
 CinnabarIsland_Text_PokemonLab::
-    .string "Pokémon Lab$"
+    .string "Laboratori Pokémon$"
 
 CinnabarIsland_EventScript_PokemonMansionSign::
 	msgbox CinnabarIsland_Text_PokemonMansion, MSGBOX_SIGN
 	end
 
 CinnabarIsland_Text_PokemonMansion::
-    .string "Pokémon Mansion\n"
-    .string "NOTICE: CONDEMNED$"
+    .string "Mansió Pokémon\n"
+    .string "AVÍS: CLAUSURAT$"
 
 CinnabarIsland_EventScript_GymSign::
 	lockall
@@ -79,9 +80,9 @@ CinnabarIsland_EventScript_GymSign::
 	end
 
 CinnabarIsland_Text_GymSign::
-    .string "Cinnabar Island Pokémon Gym\n"
-    .string "Leader: Blaine\l"
-    .string "The Hotheaded Quiz Master!$"
+    .string "Gimnàs Pokémon d'Illa Cinnabar\n"
+    .string "Líder: Blaine\l"
+    .string "El Mestre dels Qüestionaris!$"
 
 CinnabarIsland_EventScript_ShellBell::
 	finditem ITEM_SHELL_BELL, 1
@@ -115,7 +116,7 @@ CinnabarIsland_EventScript_Depart::
 	end
 
 CinnabarIsland_EventScript_Text_ReadyToSail::
-	.string "Ready for an adventure?$"
+	.string "Preparat per a una aventura?$"
 
 CinnabarIsland_EventScript_NotSail::
 	msgbox CinnabarIsland_EventScript_Text_ReadyWhenYouAre, MSGBOX_DEFAULT
@@ -123,13 +124,13 @@ CinnabarIsland_EventScript_NotSail::
 	end
 
 CinnabarIsland_EventScript_Text_ReadyWhenYouAre:
-	.string "We'll set sail as soon as you're\n"
-	.string "ready!$"
+	.string "Salparem tan bon punt estiguis\n"
+	.string "preparat!$"
 
 CinnabarIsland_EventScript_Text_LetsSail:
-	.string "Excellent! We'll set sail right away!\p"
-	.string "Let's find this island on\n"
-	.string "this Old Sea Map!$"
+	.string "Excel·lent! Salpem de seguida!\p"
+	.string "Trobem aquesta illa del\n"
+	.string "Vell Mapa Marí!$"
 
 Movement_CaptainEnterShip::
 	walk_up

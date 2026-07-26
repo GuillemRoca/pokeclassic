@@ -32,9 +32,10 @@ CeladonCity_EventScript_FatMan::
 	end
 
 CeladonCity_Text_MyTrustedPalPoliwrath::
-    .string "This is my trusted pal, Poliwrath.\p"
-    .string "It evolved from a Poliwhirl when\n"
-    .string "I used a Water Stone.$"
+    .string "Aquest és el meu company de\n"
+    .string "confiança, Poliwrath.\p"
+    .string "Va evolucionar d'un Poliwhirl\n"
+    .string "quan vaig usar una Pedra Aigua.$"
 
 CeladonCity_EventScript_Poliwrath::
 	lock
@@ -57,97 +58,99 @@ CeladonCity_EventScript_Boy::
 	end
 
 CeladonCity_Text_ScaldedTongueOnTea::
-    .string "Aaaagh, ow…\n"
-    .string "I scalded my tongue!\p"
-    .string "This nice old lady in the Mansion\n"
-    .string "gave me some Tea.\p"
-    .string "But it was boiling hot!\n"
-    .string "Gotta cool it to drink it.$"
+    .string "Aaaagh, au…\n"
+    .string "M'he cremat la llengua!\p"
+    .string "Una senyora amable de la Mansió\n"
+    .string "m'ha donat una mica de Te.\p"
+    .string "Però estava bullint!\n"
+    .string "He d'esperar que es refredi.$"
 
 CeladonCity_EventScript_Woman::
 	msgbox CeladonCity_Text_GameCornerIsBadForCitysImage, MSGBOX_NPC
 	end
 
 CeladonCity_Text_GameCornerIsBadForCitysImage::
-    .string "Celadon takes pride in its efforts\n"
-    .string "to keep the city beautiful.\p"
-    .string "That's why the new Game Corner is\n"
-    .string "bad for our city's image.$"
+    .string "Celadon s'enorgulleix dels seus\n"
+    .string "esforços per mantenir la ciutat\l"
+    .string "bonica.\p"
+    .string "Per això la nova Sala de Jocs és\n"
+    .string "dolenta per a la nostra imatge.$"
 
 CeladonCity_EventScript_RocketGrunt1::
 	msgbox CeladonCity_Text_KeepOutOfTeamRocketsWay, MSGBOX_NPC
 	end
 
 CeladonCity_Text_KeepOutOfTeamRocketsWay::
-    .string "Keep out of Team Rocket's way!$"
+    .string "No et fiquis amb l'Equip Rocket!$"
 
 CeladonCity_EventScript_RocketGrunt2::
 	msgbox CeladonCity_Text_GetLostOrIllPunchYou, MSGBOX_NPC
 	end
 
 CeladonCity_Text_GetLostOrIllPunchYou::
-    .string "What are you staring at?\n"
-    .string "Get lost, or I'll punch you.$"
+    .string "Què mires?\n"
+    .string "Fes el camp o te'n penediràs!$"
 
 CeladonCity_EventScript_Breeder::
-	goto_if_set FLAG_RESCUED_CUBONE, CeladonCity_EventScript_BreederRescuedCubone 
+	goto_if_set FLAG_RESCUED_CUBONE, CeladonCity_EventScript_BreederRescuedCubone
 	msgbox CeladonCity_Text_KidnappedPokemon, MSGBOX_NPC
 	end
 
 CeladonCity_Text_KidnappedPokemon::
-    .string "Oh, what am I to do…\p"
-    .string "Team Rocket has been kidnapping\n" 
+    .string "Oh, què puc fer…\p"
+    .string "L'Equip Rocket ha estat segrestant\n"
     .string "Pokémon.\p"
-    .string "I chased a Rocket Grunt with a\n"
-    .string "Cubone all the way from Lavender!\p"
-    .string "They came running this way,\n"
-    .string "I'm sure of it.\p"
-    .string "But I lost sight of him!\n"
-    .string "Where are they hiding?$"
+    .string "He perseguit un Reclu Rocket amb\n"
+    .string "un Cubone des de Lavender!\p"
+    .string "Van venir corrents cap aquí,\n"
+    .string "n'estic segur.\p"
+    .string "Però el vaig perdre de vista!\n"
+    .string "On s'amaguen?$"
 
 CeladonCity_EventScript_BreederRescuedCubone::
 	msgbox CeladonCity_Text_RescuedCubone, MSGBOX_NPC
 	end
 
 CeladonCity_Text_RescuedCubone::
-    .string "Oh! You rescued the Cubone from\n"
-    .string "Team Rocket?\p" 
-    .string "That's wonderul!$"
+    .string "Oh! Has rescatat el Cubone del\n"
+    .string "l'Equip Rocket?\p"
+    .string "Això és meravellós!$"
 
 CeladonCity_EventScript_OldMan::
 	msgbox CeladonCity_Text_BlewItAllAtSlots, MSGBOX_NPC
 	end
 
 CeladonCity_Text_BlewItAllAtSlots::
-    .string "Moan…\n"
-    .string "I blew it all at the slots!\p"
-    .string "I knew I should have cashed in my\n"
-    .string "Coins for prizes!$"
+    .string "Ai…\n"
+    .string "M'ho he jugat tot a les slots!\p"
+    .string "Sabia que hauria d'haver canviat\n"
+    .string "les Monedes per premis!$"
 
 CeladonCity_EventScript_Pervert::
     msgbox CeladonCity_Text_OwOwOw, MSGBOX_NPC
     end
 
 CeladonCity_Text_OwOwOw::
-    .string "Hey! Not so tight!\n"
-    .string "Ow ow ow!$"
+    .string "Ei! No tant fort!\n"
+    .string "Au au au!$"
 
 CeladonCity_EventScript_Jenny::
     msgbox CeladonCity_Text_CaughtThisCreep, MSGBOX_NPC
     end
 
 CeladonCity_Text_CaughtThisCreep::
-    .string "Hold still, creep.\n"
-    .string "You're coming with me.$"
+    .string "Quiet, delinqüent.\n"
+    .string "Véns amb mi.$"
 
 CeladonCity_EventScript_Police::
     msgbox CeladonCity_Text_GettingComplaints, MSGBOX_NPC
     end
 
 CeladonCity_Text_GettingComplaints::
-    .string "We kept getting complaints\n"
-    .string "from trainers at Erika's gym\l"
-    .string "about someone bothering them.$"
+    .string "Rebíem queixes constantment\n"
+    .string "d'entrenadores del Gimnàs\l"
+    .string "d'Erika sobre algú que les\l"
+    .string "molestava.$"
 
 CeladonCity_EventScript_GymSign::
 	lockall
@@ -156,73 +159,73 @@ CeladonCity_EventScript_GymSign::
 	end
 
 CeladonCity_Text_GymSign::
-    .string "Celadon City Pokémon Gym\n"
-    .string "Leader: Erika\l"
-    .string "The Nature-Loving Princess!$"
+    .string "Gimnàs Pokémon de Celadon\n"
+    .string "Líder: Erika\l"
+    .string "La Princesa Amant de la Natura!$"
 
 CeladonCity_EventScript_CitySign::
 	msgbox CeladonCity_Text_CitySign, MSGBOX_SIGN
 	end
 
 CeladonCity_Text_CitySign::
-    .string "Celadon City\n"
-    .string "The City of Rainbow Dreams$"
+    .string "Ciutat Celadon\n"
+    .string "La Ciutat dels Somnis Irisats$"
 
 CeladonCity_EventScript_DeptStoreSign::
 	msgbox CeladonCity_Text_DeptStoreSign, MSGBOX_SIGN
 	end
 
 CeladonCity_Text_DeptStoreSign::
-    .string "Find what you need at the\n"
-    .string "Celadon Department Store!$"
+    .string "Troba el que necessites als\n"
+    .string "Grans Magatzems de Celadon!$"
 
 CeladonCity_EventScript_MansionSign::
 	msgbox CeladonCity_Text_MansionSign, MSGBOX_SIGN
 	end
 
 CeladonCity_Text_MansionSign::
-    .string "Celadon Mansion$"
+    .string "Mansió Celadon$"
 
 CeladonCity_EventScript_TrainerTips1::
 	msgbox CeladonCity_Text_ExplainXAccuracyDireHit, MSGBOX_SIGN
 	end
 
 CeladonCity_Text_ExplainXAccuracyDireHit::
-    .string "Trainer Tips:\p"
-    .string "X Accuracy boosts the accuracy of\n"
-    .string "techniques.\p"
-    .string "Dire Hit jacks up the likelihood\n"
-    .string "of critical hits.\p"
-    .string "Get your items at the Celadon\n"
-    .string "Department Store!$"
+    .string "Consells d'Entrenador:\p"
+    .string "X Accuracy augmenta la precisió\n"
+    .string "de les tècniques.\p"
+    .string "Dire Hit augmenta la probabilitat\n"
+    .string "de cops crítics.\p"
+    .string "Aconsegueix els teus objectes als\n"
+    .string "Grans Magatzems de Celadon!$"
 
 CeladonCity_EventScript_TrainerTips2::
 	msgbox CeladonCity_Text_GuardSpecProtectsFromStatus, MSGBOX_SIGN
 	end
 
 CeladonCity_Text_GuardSpecProtectsFromStatus::
-    .string "Trainer Tips:\p"
-    .string "Guard Spec. protects Pokémon\n"
-    .string "from status-reduction moves during\l"
-    .string "battle.\p"
-    .string "Get your items at the\n"
-    .string "Celadon Department Store!$"
+    .string "Consells d'Entrenador:\p"
+    .string "Guard Spec. protegeix els Pokémon\n"
+    .string "de moviments que redueixen\l"
+    .string "estadístiques en combat.\p"
+    .string "Aconsegueix els teus objectes als\n"
+    .string "Grans Magatzems de Celadon!$"
 
 CeladonCity_EventScript_PrizeExchangeSign::
 	msgbox CeladonCity_Text_PrizeExchangeSign, MSGBOX_SIGN
 	end
 
 CeladonCity_Text_PrizeExchangeSign::
-    .string "Coins exchanged for prizes!\n"
-    .string "Prize Exchange$"
+    .string "Monedes canviades per premis!\n"
+    .string "Bescanvi de Premis$"
 
 CeladonCity_EventScript_GameCornerSign::
 	msgbox CeladonCity_Text_GameCornerSign, MSGBOX_SIGN
 	end
 
 CeladonCity_Text_GameCornerSign::
-    .string "Rocket Game Corner\n"
-    .string "Blast Off to a World of Riches!$"
+    .string "Sala de Jocs Rocket\n"
+    .string "Enlaire cap a un Món de Riqueses!$"
 
 CeladonCity_RocketFugitive::
     trainerbattle_single TRAINER_FUGITIVE_F, RocketFugitive_Text_Intro, RocketFugitive_Text_Defeat

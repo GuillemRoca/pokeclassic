@@ -1,73 +1,181 @@
 EventTicket_Text_OldSeaMapTooFar:
-    .string "What's up, youngster?\p"
-	.string "What, it's you who's supposed to have\n"
-	.string "a tattered old map?\p"
-	.string "Let's have a look.\n"
+    .string "Qué hi ha, jove?\p"
+
+
+	.string "Què, ets tu el que se suposa que\n"
+
+
+	.string "té un vell mapa espatllat?\p"
+
+
+	.string "Deixa'm veure.\n"
+
+
 	.string "… … … … … …\p"
-	.string "Boy, this is quite a ways away.\n"
-	.string "I'm afraid I can't help you…$"
+
+
+	.string "Noi, això és molt lluny.\n"
+
+
+	.string "Em temo que no te'n puc ajudar…$"
+
+
 
 EventTicket_Text_BrineyHoldOnASecond:
-    .string "Briney: Hold on a second!\p"
-	.string "What's the idea of turning down\n"
-	.string "someone that I owe so much to?$"
+    .string "Briney: Espera un moment!\p"
+
+
+	.string "Quin motiu hi ha per negar-se a\n"
+
+
+	.string "algú a qui dec tant?$"
+
+
 
 EventTicket_Text_BrineyLetsSail:
-    .string "{PLAYER}{KUN}, I'm terribly sorry.\p"
-	.string "You came to me seeking my help,\n"
-	.string "and we almost turned you away.\p"
-	.string "Well, let me make things right.\p"
-	.string "We'll sail right away, of course!\p"
-	.string "Let's find this island on\n"
-	.string "this Old Sea Map!$"
+    .string "{PLAYER}{KUN}, ho sento molt.\p"
+
+
+	.string "Has vingut a demanar-me ajuda,\n"
+
+
+	.string "i gairebé t'hem rebutjat.\p"
+
+
+	.string "Deixa'm arreglar-ho.\p"
+
+
+	.string "Partirem de seguida, és clar!\p"
+
+
+	.string "Anem a trobar aquesta illa al\n"
+
+
+	.string "Vell Mapa Marí!$"
+
+
 
 EventTicket_Text_OddTicketGetOnBoard:
-    .string "Is it you who brought that odd\n"
-	.string "ticket?\p"
-	.string "Where you're trying to go is an island\n"
-	.string "that's far, far away.\p"
-	.string "No one knows what awaits there…\p"
-	.string "The very thought excites my blood\n"
-	.string "as a sailing man!\p"
-	.string "Get on board, youngster!$"
+    .string "Ets tu qui ha portat aquell\n"
+
+
+	.string "tiquet estrany?\p"
+
+
+	.string "On vols anar és una illa\n"
+
+
+	.string "que és molt, molt lluny.\p"
+
+
+	.string "Ningú sap el que hi espera…\p"
+
+
+	.string "Sols de pensar-ho em bull la sang\n"
+
+
+	.string "com a mariner!\p"
+
+
+	.string "Puja a bord, jove!$"
+
+
 
 FarawayIsland_Entrance_Text_SailorReturn:
-    .string "This was quite a journey!\p"
-	.string "It's been a long time since I've\n"
-	.string "had a chance to sail somewhere new.\n"
-	.string "Have you already explored the island?\p"
-	.string "Do you want to return to Cinnabar?$"
+    .string "Quin viatge tan llarg!\p"
+
+
+	.string "Feia molt de temps que no tenia\n"
+
+
+	.string "l'oportunitat de navegar a un lloc nou.\n"
+
+
+	.string "Ja has explorat l'illa?\p"
+
+
+	.string "Vols tornar a Cinnabar?$"
+
+
 
 BirthIsland_Harbor_Text_SailorReturn:
-    .string "What an oddly shaped island, eh?\n"
-	.string "Do you want to return to Lilycove?$"
+    .string "Quina illa amb una forma estranya!\n"
+
+
+	.string "Vols tornar a Lilycove?$"
+
+
 
 EventTicket_Text_OddTicketsWhereTo:
-    .string "Is it you who brought those\n"
-	.string "odd tickets?\p"
-	.string "… … …Hm.\p"
-	.string "These tickets will get you to islands\n"
-	.string "that are far, far away.\p"
-	.string "No one knows what awaits there,\n"
-	.string "or what may happen there.\p"
-	.string "The very thought excites my blood\n"
-	.string "as a sailing man!\p"
-	.string "Get on board, youngster!\n"
-	.string "Where shall we sail first?$"
+    .string "Ets tu qui ha portat\n"
+
+
+	.string "aquells tiquets estranys?\p"
+
+
+	.string "… … …Hmm.\p"
+
+
+	.string "Aquests tiquets t'han de portar a illes\n"
+
+
+	.string "que són molt, molt lluny.\p"
+
+
+	.string "Ningú sap el que hi espera,\n"
+
+
+	.string "ni el que pot passar-hi.\p"
+
+
+	.string "Sols de pensar-ho em bull la sang\n"
+
+
+	.string "com a mariner!\p"
+
+
+	.string "Puja a bord, jove!\n"
+
+
+	.string "A on naveguem primer?$"
+
+
 
 NavelRock_Harbor_Text_SailorReturn:
-    .string "Did… Did you hear that?\n"
-	.string "That low growling from deep in there.\p"
-	.string "Are you sure it's safe?\n"
-	.string "Do you think we should leave?$"
+    .string "Vas… Vas sentir-ho?\n"
+
+
+	.string "Aquell udol profund des de dins.\p"
+
+
+	.string "Segur que és segur?\n"
+
+
+	.string "Creus que hauríem de marxar?$"
+
+
 
 FarawayIsland_Entrance_Text_Sign:
-    .string "The writing is fading as if it was\n"
-	.string "written a long time ago…\p"
-	.string "“…ber, 6th day\n"
-	.string "If any human…sets foot here…\l"
-	.string "again…et it be a kindhearted pers…\l"
-	.string "…ith that hope, I depar…”$"
+    .string "L'escriptura s'esvaeix com si\n"
+
+
+	.string "hagués estat escrita fa molt…\p"
+
+
+	.string "“…de, dia 6\n"
+
+
+	.string "Si algun humà…trepitja aquí…\l"
+
+
+	.string "de nou…que sigui una bona perso…\l"
+
+
+	.string "…mb aquesta esperança, me'n va…”$"
+
+
 
 FarawayIsland_Interior_Text_Mew:
     .string "Myuu…$"
+
+

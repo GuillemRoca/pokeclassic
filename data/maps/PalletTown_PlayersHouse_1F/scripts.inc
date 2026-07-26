@@ -21,14 +21,26 @@ PlayersHouse_1F_EventScript_BillVisiting::
 	end
 
 PalletTown_PlayersHouse_1F_Text_BillVisiting::
-	.string "Mom: I didn't know you knew\n"
-	.string "the famous PokéManiac, honey!\p"
-	.string "He's such a gentleman!$"
+	.string "Mare: No sabia que coneixies\n"
+
+
+	.string "el famós PokéManíac, carinyo!\p"
+
+
+	.string "És tot un cavaller!$"
+
+
 
 PlayersHouse_1F_EventScript_AnotherAdventure::
-	.string "Strange stones? Hidden potential?\p"
-	.string "The adventures never stop for you\n" 
-	.string "Pokémon trainers!$"
+	.string "Pedres estranyes? Potencial ocult?\p"
+
+
+	.string "Les aventures no s'acaben mai\n"
+
+
+	.string "per als entrenadors Pokémon!$"
+
+
 
 PalletTown_PlayersHouse_1F_EventScript_BetterHurry::
 	msgbox PalletTown_PlayersHouse_1F_Text_BetterHurry, MSGBOX_DEFAULT
@@ -37,27 +49,53 @@ PalletTown_PlayersHouse_1F_EventScript_BetterHurry::
 	end
 
 PalletTown_PlayersHouse_1F_Text_BetterHurry:
-	.string "Mom: You don't want to miss\n"
-	.string "Professor Oak!\p"
-	.string "You better hurry!$"
+	.string "Mare: No voldràs perdre't\n"
+
+
+	.string "el Professor Oak!\p"
+
+
+	.string "Més val que t'afanyis!$"
+
+
 
 PlayersHouse_1F_Text_TheresAMovieOnTV:
-    .string "There's a movie on TV.\n"
-    .string "Four boys are walking on railroad\l"
-    .string "tracks.\p"
-    .string "…I better go, too.$"
+    .string "Fan una pel·lícula a la TV.\n"
+
+
+    .string "Quatre nois caminen per les vies\l"
+
+
+    .string "del tren.\p"
+
+
+    .string "…Millor que me'n vagi jo també.$"
+
+
 
 EventScript_RunningShoesManual::
 	msgbox PlayersHouse_1F_Text_RunningShoesManual, MSGBOX_SIGN
 	end
-	
+
 PlayersHouse_1F_Text_RunningShoesManual:
-	.string "It's the instruction booklet for the\n"
-	.string "Running Shoes.\p"
-	.string "“Press the B Button to run while\n"
-	.string "wearing your Running Shoes.\p"
-	.string "Lace up your Running Shoes and hit\n"
-	.string "the road running!”$"
+	.string "És el manual d'instruccions de les\n"
+
+
+	.string "Sabatilles de Córrer.\p"
+
+
+	.string "“Prem el Botó B per córrer mentre\n"
+
+
+	.string "portes les Sabatilles de Córrer.\p"
+
+
+	.string "Posa't les Sabatilles de Córrer\n"
+
+
+	.string "i surt a córrer!”$"
+
+
 
 PlayersHouse_1F_EventScript_PokenavScene::
 	msgbox PalletTown_Text_DidYouMeetOak, MSGBOX_DEFAULT
@@ -89,13 +127,23 @@ PalletTown_PlayersHouse_1F_EventScript_MomHeal::
 	end
 
 PalletTown_PlayersHouse_1F_Text_YouShouldTakeQuickRest::
-    .string "Mom: {PLAYER}!\n"
-    .string "You should take a quick rest.$"
+    .string "Mare: {PLAYER}!\n"
+
+
+    .string "Hauries de descansar una mica.$"
+
+
 
 PalletTown_PlayersHouse_1F_Text_LookingGreatTakeCare::
-    .string "Mom: Oh, good! You and your\n"
-    .string "Pokémon are looking great.\l"
-    .string "Take care now!$"
+    .string "Mare: Oh, bé! Tu i els teus\n"
+
+
+    .string "Pokémon teniu molt bona pinta.\l"
+
+
+    .string "Cuida't!$"
+
+
 
 PlayersHouse_1F_EventScript_GameclearTrigger1::
 	setvar VAR_TEMP_1, 1
@@ -136,34 +184,85 @@ PlayersHouse_1F_EventScript_Bill::
 	end
 
 PlayersHouse_1F_Text_SomethingAmazing::
-	.string "Hey, {PLAYER}!\n"
-	.string "I've discovered something amazing!\p"
-	.string "I was doing some research for my\n"
-	.string "Pokémon collection, when one of my\l"
-	.string "scanners picked up a strange reading.\p"
-	.string "It seems that some Pokémon may have\n"
-	.string "some hidden potential that we haven't\l"
-	.string "seen yet.\p"
-	.string "And this reading seems to be the key!\p"
-	.string "See, I found the source of the reading\n"
-	.string "near the Sea Cottage\p"
-	.string "It was a strange stone I'd never seen\n"
-	.string "before!\p"
-	.string "I brought it back to my lab, and I built\n"
-	.string "a device to draw out its power!\p"
-	.string "I want you to have it!$"
+	.string "Ei, {PLAYER}!\n"
+
+
+	.string "He descobert una cosa increïble!\p"
+
+
+	.string "Estava investigant per a la meva\n"
+
+
+	.string "col·lecció Pokémon, quan un dels\l"
+
+
+	.string "meus escàners va captar un senyal.\p"
+
+
+	.string "Sembla que alguns Pokémon poden\n"
+
+
+	.string "tenir un potencial ocult que encara\l"
+
+
+	.string "no hem vist.\p"
+
+
+	.string "I aquest senyal sembla la clau!\p"
+
+
+	.string "Mira, vaig trobar l'origen del senyal\n"
+
+
+	.string "a prop de la Cabana del Mar.\p"
+
+
+	.string "Era una pedra estranya que no havia\n"
+
+
+	.string "vist mai!\p"
+
+
+	.string "La vaig portar al laboratori i vaig\n"
+
+
+	.string "construir un aparell per treure'n\l"
+
+
+	.string "el poder!\p"
+
+
+	.string "Vull que el tinguis!$"
+
+
 
 PlayersHouse_1F_Text_GetMegaRing::
-	.string "Bill gave you a Mega Ring!$"
+	.string "Bill t'ha donat un Mega Anell!$"
+
+
 
 PlayersHouse_1F_Text_FindMegaStones::
-	.string "According to my readings, there\n"
-	.string "are more of those stones hidden\l"
-	.string "across Kanto.\p"
-	.string "Now that you have the Mega Ring,\n"
-	.string "you should be able to see them!\p"
-	.string "We'll need to find a Mega Stone\n"
-	.string "to test my theory!$"
+	.string "Segons les meves lectures, hi ha\n"
+
+
+	.string "més d'aquestes pedres amagades\l"
+
+
+	.string "per Kanto.\p"
+
+
+	.string "Ara que tens el Mega Anell,\n"
+
+
+	.string "les hauríes de poder veure!\p"
+
+
+	.string "Haurem de trobar una Mega Pedra\n"
+
+
+	.string "per provar la meva teoria!$"
+
+
 
 PlayersHouse_1F_EventScript_Bill2::
 	msgbox PlayersHouse_1F_Text_MegaStones, MSGBOX_NPC
@@ -171,13 +270,23 @@ PlayersHouse_1F_EventScript_Bill2::
 	end
 
 PlayersHouse_1F_Text_MegaStones::
-	.string "Bill: We'll need to find a\n"
-	.string "Mega Stone to test my theory!$"
+	.string "Bill: Haurem de trobar una\n"
+
+
+	.string "Mega Pedra per provar la teoria!$"
+
+
 
 PlayersHouse_1F_Text_Visitor::
-	.string "Mom: Where are you going, {PLAYER}?\p"
-	.string "Aren't you going to say hello\n"
-	.string "to our visitor?$"
+	.string "Mare: On vas, {PLAYER}?\p"
+
+
+	.string "No saludaràs\n"
+
+
+	.string "la nostra visita?$"
+
+
 
 PlayersHouse_1F_EventScript_Gameclear::
 	lockall
@@ -206,29 +315,73 @@ PlayersHouse_1F_EventScript_Gameclear::
 	end
 
 PlayersHouse_1F_Text_Gameclear::
-	.string "Mom: Oh, {PLAYER}!\n"
-	.string "You're already up?\p"
-	.string "After everything you've been doing\n"
-	.string "I thought you'd need more rest.\p"
+	.string "Mare: Oh, {PLAYER}!\n"
+
+
+	.string "Ja t'has llevat?\p"
+
+
+	.string "Després de tot el que has fet,\n"
+
+
+	.string "pensava que necessitaries més repòs.\p"
+
+
 	.string "...\p"
-	.string "You've really grown up, {PLAYER}.\p"
-	.string "I think your Pokémon can see that, too.\p"
-	.string "They'll follow you anywhere!$"
+
+
+	.string "Has crescut molt, {PLAYER}.\p"
+
+
+	.string "Crec que els teus Pokémon també\n"
+
+
+	.string "ho veuen.\p"
+
+
+	.string "Et seguiran a qualsevol lloc!$"
+
+
 
 PlayersHouse_1F_Text_FollowerOptions::
-	.string "Your Follower settings in the Options\n"
-	.string "menu can now be set to Any mode!\p"
-	.string "When this is selected, your first\n"
-	.string "Pokémon will follow you around!$"
+	.string "L'opció de Seguidor a les Opcions\n"
+
+
+	.string "ara es pot posar en mode Tots!\p"
+
+
+	.string "Quan estigui seleccionat, el teu\n"
+
+
+	.string "primer Pokémon et seguirà!$"
+
+
 
 PlayersHouse_1F_Text_Gameclear2::
-	.string "Mom: Just because you're the new\n"
-	.string "champion doesn't mean your story\l"
-	.string "is over!\p"
-	.string "There's a whole world out there\n"
-	.string "for you and your Pokémon to explore!\p"
-	.string "I'm so proud of you, {PLAYER}!\n"
-	.string "Go have fun with your Pokémon!$"
+	.string "Mare: Que siguis el nou campió\n"
+
+
+	.string "no vol dir que la teva història\l"
+
+
+	.string "s'hagi acabat!\p"
+
+
+	.string "Hi ha tot un món per explorar\n"
+
+
+	.string "per a tu i els teus Pokémon!\p"
+
+
+	.string "Estic molt orgullosa de tu,\n"
+
+
+	.string "{PLAYER}!\l"
+
+
+	.string "Ves a divertir-te amb els Pokémon!$"
+
+
 
 PlayersHouse_1F_EventScript_MoveMomToStairs1::
 	applymovement LOCALID_MOM, Movement_MoveMomToStairs1
@@ -268,4 +421,3 @@ Movement_MoveMomToTable2::
 	walk_left
 	walk_left
 	step_end
-

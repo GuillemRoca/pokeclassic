@@ -6,7 +6,7 @@ PkmnLeague_Services_RankSign::
 	end
 
 PkmnLeague_Services_Text_RankingsBoard::
-	.string "Pokémon League - Rankings Board$"
+	.string "Lliga Pokémon - Tauler de Rangs$"
 
 PkmnLeague_Services_RankBoard::
 	msgbox PkmnLeague_Services_Text_RankBoard, MSGBOX_YESNO
@@ -43,8 +43,8 @@ PkmnLeague_Services_AddBadgeToVar:
 	return
 
 PkmnLeague_Services_Text_RankBoard:
-	.string "It's the Pokémon League rankings.\p"
-	.string "Look up your current rank?$"
+	.string "Són els rangs de la Lliga Pokémon.\p"
+	.string "Vols consultar el teu rang actual?$"
 
 PkmnLeague_Services_Ranking_Unranked::
 	msgbox PkmnLeague_Services_Ranking_Text_Unranked, MSGBOX_DEFAULT
@@ -52,9 +52,9 @@ PkmnLeague_Services_Ranking_Unranked::
 	end
 
 PkmnLeague_Services_Ranking_Text_Unranked:
-	.string "You are currently Unranked!\p"
-	.string "You need to earn at least 1\n"
-	.string "Badge to earn a rank.$"
+	.string "Actualment no tens rang!\p"
+	.string "Necessites almenys 1\n"
+	.string "Medalla per obtenir un rang.$"
 
 PkmnLeague_Services_Ranking_Beginner::
 	msgbox PkmnLeague_Services_Ranking_Text_Beginner, MSGBOX_DEFAULT
@@ -62,8 +62,8 @@ PkmnLeague_Services_Ranking_Beginner::
 	end
 
 PkmnLeague_Services_Ranking_Text_Beginner:
-	.string "Your current rank is:\n"
-	.string "Beginner!$"
+	.string "El teu rang actual és:\n"
+	.string "Principiant!$"
 
 PkmnLeague_Services_Ranking_Seasoned::
 	msgbox PkmnLeague_Services_Ranking_Text_Seasoned, MSGBOX_DEFAULT
@@ -71,8 +71,8 @@ PkmnLeague_Services_Ranking_Seasoned::
 	end
 
 PkmnLeague_Services_Ranking_Text_Seasoned:
-	.string "Your current rank is:\p"
-	.string "Seasoned!$"
+	.string "El teu rang actual és:\p"
+	.string "Experimentat!$"
 
 PkmnLeague_Services_Ranking_Veteran::
 	msgbox PkmnLeague_Services_Ranking_Text_Veteran, MSGBOX_DEFAULT
@@ -80,8 +80,8 @@ PkmnLeague_Services_Ranking_Veteran::
 	end
 
 PkmnLeague_Services_Ranking_Text_Veteran:
-	.string "Your current rank is:\p"
-	.string "Veteran!$"
+	.string "El teu rang actual és:\p"
+	.string "Veterà!$"
 
 PkmnLeague_Services_Ranking_Elite::
 	msgbox PkmnLeague_Services_Ranking_Text_Elite, MSGBOX_DEFAULT
@@ -89,8 +89,8 @@ PkmnLeague_Services_Ranking_Elite::
 	end
 
 PkmnLeague_Services_Ranking_Text_Elite:
-	.string "Your current rank is:\p"
-	.string "Elite!$"
+	.string "El teu rang actual és:\p"
+	.string "Èlit!$"
 
 PkmnLeague_Services_Ranking_Champion::
 	msgbox PkmnLeague_Services_Ranking_Text_Champion, MSGBOX_DEFAULT
@@ -99,14 +99,14 @@ PkmnLeague_Services_Ranking_Champion::
 	end
 
 PkmnLeague_Services_Ranking_Text_Champion:
-	.string "Your current rank is:\p"
-	.string "Champion!$"
+	.string "El teu rang actual és:\p"
+	.string "Campió!$"
 
 PkmnLeague_Services_Text_Searching:
-	.string "Searching database....\p"
+	.string "Buscant a la base de dades....\p"
 	.string "..........\p"
-	.string "Found trainer....\p"
-	.string "{PLAYER} from Pallet Town.$"
+	.string "Entrenador trobat....\p"
+	.string "{PLAYER} de Poble Paleta.$"
 
 PkmnLeague_Services_Ranking_TitleMatch::
 	msgbox PkmnLeague_Services_Ranking_Text_TitleMatch, MSGBOX_DEFAULT
@@ -114,10 +114,10 @@ PkmnLeague_Services_Ranking_TitleMatch::
 	end
 
 PkmnLeague_Services_Ranking_Text_TitleMatch:
-	.string "Someone is challenging your status as\n"
-	.string "the champion!\p"
-	.string "Visit the Pokémon League to face your\n"
-	.string "challenger in a Title Match!$"
+	.string "Algú desafia el teu estatus de\n"
+	.string "campió!\p"
+	.string "Visita la Lliga Pokémon per enfrontar\n"
+	.string "el teu rival en un Combat pel Títol!$"
 
 @BADGE CHECKS
 PkmnLeague_Services_MustBeBeginner::
@@ -126,9 +126,9 @@ PkmnLeague_Services_MustBeBeginner::
 	end
 
 PkmnLeague_Services_Text_MustBeBeginner:
-	.string "I'm sorry, but you need to be at\n"
-	.string "least Beginner Rank in the Pokémon\l"
-	.string "League to use our services.$"
+	.string "Ho sento, però necessites ser com\n"
+	.string "a mínim de Rang Principiant a la\l"
+	.string "Lliga Pokémon per usar els serveis.$"
 
 PkmnLeague_Services_MustBeSeasoned::
 	msgbox PkmnLeague_Services_Text_MustBeSeasoned, MSGBOX_DEFAULT
@@ -136,9 +136,9 @@ PkmnLeague_Services_MustBeSeasoned::
 	end
 
 PkmnLeague_Services_Text_MustBeSeasoned:
-	.string "I'm sorry, but you need to be a\n"
-	.string "Seasoned trainer in the Pokémon\l"
-	.string "League to use my services.$"
+	.string "Ho sento, però necessites ser un\n"
+	.string "Entrenador Experimentat a la Lliga\l"
+	.string "Pokémon per usar els meus serveis.$"
 
 PkmnLeague_Services_MustBeElite::
 	msgbox PkmnLeague_Services_Text_MustBeElite, MSGBOX_DEFAULT
@@ -146,11 +146,11 @@ PkmnLeague_Services_MustBeElite::
 	end
 
 PkmnLeague_Services_Text_MustBeElite:
-	.string "Whoa, slow down there, kid!\p"
-	.string "I only work the most Elite\n"
-	.string "trainers.\p"
-	.string "Come back and see me after you\n"
-	.string "earn a few more badges.$"
+	.string "Ep, para el carro, nen!\p"
+	.string "Jo només treballo amb els\n"
+	.string "Entrenadors d'Èlit.\p"
+	.string "Torna a veure'm quan tinguis\n"
+	.string "unes quantes medalles més.$"
 
 PkmnLeague_Services_MoveDeleter::
 	lockall
@@ -210,42 +210,43 @@ PkmnLeague_Services_LastMonWithSurf::
 	end
 
 PkmnLeague_Services_Text_ICanMakeMonForgetMove:
-	.string "Uh… Oh, yes!\n"
-	.string "I'm a pupil of the Move Deleter.\p"
-	.string "I can make Pokémon forget their moves.\p"
-	.string "Would you like me to do that?$"
+	.string "Eh… Oh, sí!\n"
+	.string "Sóc alumne de l'Oblidador.\p"
+	.string "Puc fer que els Pokémon oblidin\n"
+	.string "els seus moviments.\p"
+	.string "Vols que ho faci?$"
 
 PkmnLeague_Services_Text_WhichMonShouldForget:
-	.string "Which Pokémon should forget a move?$"
+	.string "Quin Pokémon ha d'oblidar un moviment?$"
 
 PkmnLeague_Services_Text_WhichMoveShouldBeForgotten:
-	.string "Which move should be forgotten?$"
+	.string "Quin moviment s'ha d'oblidar?$"
 
 PkmnLeague_Services_Text_MonOnlyKnowsOneMove:
-	.string "{STR_VAR_1} knows only one move\n"
-	.string "so it can't be forgotten…$"
+	.string "{STR_VAR_1} només sap un moviment,\n"
+	.string "així que no es pot oblidar…$"
 
 PkmnLeague_Services_Text_MonsMoveShouldBeForgotten:
-	.string "Hm! {STR_VAR_1}'s {STR_VAR_2}?\n"
-	.string "That move should be forgotten?$"
+	.string "Hm! {STR_VAR_2} de {STR_VAR_1}?\n"
+	.string "Vols oblidar aquest moviment?$"
 
 PkmnLeague_Services_Text_MonHasForgottenMove:
-	.string "It worked to perfection!\p"
-	.string "{STR_VAR_1} has forgotten\n"
-	.string "{STR_VAR_2} completely.$"
+	.string "Ha funcionat a la perfecció!\p"
+	.string "{STR_VAR_1} ha oblidat\n"
+	.string "{STR_VAR_2} completament.$"
 
 PkmnLeague_Services_Text_ComeAgain:
-	.string "Come again if there are moves that\n"
-	.string "need to be forgotten.$"
+	.string "Torna si hi ha moviments que\n"
+	.string "s'hagin d'oblidar.$"
 
 PkmnLeague_Services_Text_EggCantForgetMoves:
-	.string "What?\n"
-	.string "No Egg should know any moves.$"
+	.string "Què?\n"
+	.string "Cap Ou hauria de saber moviments.$"
 
 PkmnLeague_Services_Text_CantForgetSurf:
 	.string "Hm!\p"
-	.string "Your {STR_VAR_1} doesn't seem willing\n"
-	.string "to forget Surf.$"
+	.string "El teu {STR_VAR_1} no sembla disposat\n"
+	.string "a oblidar Surf.$"
 
 PkmnLeague_Services_EventScript_MoveRelearner::
 	lockall
@@ -294,30 +295,30 @@ PkmnLeague_Services_EventScript_CantTeachEgg::
 	end
 
 PkmnLeague_Services_Text_ImTheMoveTutor:
-	.string "I'm a Move Tutor.\p"
-	.string "I know all the moves that Pokémon\n"
-	.string "learn--every one of them--and I can\l"
-	.string "teach Pokémon those moves.\p"
-	.string "I can teach a move to a Pokémon\n"
-	.string "of yours if you'd like.$"
+	.string "Sóc un Tutor de Moviments.\p"
+	.string "Conec tots els moviments que els\n"
+	.string "Pokémon aprenen, tots ells, i puc\l"
+	.string "ensenyar-los-hi.\p"
+	.string "Puc ensenyar un moviment a un\n"
+	.string "dels teus Pokémon si vols.$"
 
 PkmnLeague_Services_Text_TutorWhichMon:
-	.string "Which Pokémon needs tutoring?$"
+	.string "Quin Pokémon necessita tutoria?$"
 
 PkmnLeague_Services_Text_WantMeToTeachMove:
-	.string "Want me to tutor a Pokémon?$"
+	.string "Vols que ensenyi un Pokémon?$"
 
 PkmnLeague_Services_Text_TeachWhichMove:
-	.string "Which move should I teach?$"
+	.string "Quin moviment he d'ensenyar?$"
 
 PkmnLeague_Services_Text_DontHaveMoveToTeachPokemon:
-	.string "Sorry…\p"
-	.string "It doesn't appear as if I have any move\n"
-	.string "I can teach that Pokémon.$"
+	.string "Ho sento…\p"
+	.string "Sembla que no tinc cap moviment\n"
+	.string "que pugui ensenyar a aquest Pokémon.$"
 
 PkmnLeague_Services_Text_CantTeachEgg:
-	.string "Hunh? There isn't a single move that\n"
-	.string "I can teach an Egg.$"
+	.string "Eh? No hi ha cap moviment que\n"
+	.string "pugui ensenyar a un Ou.$"
 
 
 PkmnLeague_Services_EliteShop::

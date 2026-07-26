@@ -18,8 +18,8 @@ Route14_EventScript_RouteSign::
 	end
 
 Route14_Text_RouteSign::
-    .string "Route 14\n"
-    .string "West to Fuchsia City$"
+    .string "Ruta 14\n"
+    .string "Oest cap a Ciutat Fúcsia$"
 
 Route14_EventScript_Malik::
 	trainerbattle_single TRAINER_BIKER_MALIK, Route14_Text_MalikIntro, Route14_Text_MalikDefeat
@@ -27,15 +27,15 @@ Route14_EventScript_Malik::
 	end
 
 Route14_Text_MalikIntro::
-    .string "Pokémon battle?\n"
-    .string "Cool! Rumble!$"
+    .string "Combat Pokémon?\n"
+    .string "Genial! Baralla!$"
 
 Route14_Text_MalikDefeat::
-    .string "Blown away!$"
+    .string "Escombrat!$"
 
 Route14_Text_MalikPostBattle::
-    .string "You know who'd win, you and me\n"
-    .string "one-on-one!$"
+    .string "Ja saps qui guanyaria, tu i jo\n"
+    .string "cara a cara!$"
 
 Route14_EventScript_Lukas::
 	trainerbattle_single TRAINER_BIKER_LUKAS, Route14_Text_LukasIntro, Route14_Text_LukasDefeat
@@ -43,16 +43,16 @@ Route14_EventScript_Lukas::
 	end
 
 Route14_Text_LukasIntro::
-    .string "C'mon, c'mon.\n"
-    .string "Let's go, let's go, let's go!$"
+    .string "Va, va.\n"
+    .string "Anem, anem, anem!$"
 
 Route14_Text_LukasDefeat::
-    .string "Arrg!\n"
-    .string "Lost! Get lost!$"
+    .string "Argh!\n"
+    .string "He perdut! Fes-te perdedís!$"
 
 Route14_Text_LukasPostBattle::
-    .string "What, what, what?\n"
-    .string "What do you want still?$"
+    .string "Què, què, què?\n"
+    .string "Què més vols?$"
 
 
 Route14_EventScript_Isaac::
@@ -61,15 +61,15 @@ Route14_EventScript_Isaac::
 	end
 
 Route14_Text_IsaacIntro::
-    .string "I need to burn some time.\n"
-    .string "Shut up and battle.$"
+    .string "Necessito matar el temps.\n"
+    .string "Calla i combateix.$"
 
 Route14_Text_IsaacDefeat::
-    .string "What?\n"
-    .string "You!?$"
+    .string "Què?\n"
+    .string "Tu!?$"
 
 Route14_Text_IsaacPostBattle::
-    .string "Raising Pokémon is a drag, man.$"
+    .string "Criar Pokémon és un pal, tio.$"
 
 Route14_EventScript_Gerald::
 	trainerbattle_single TRAINER_BIKER_GERALD, Route14_Text_GeraldIntro, Route14_Text_GeraldDefeat
@@ -77,17 +77,17 @@ Route14_EventScript_Gerald::
 	end
 
 Route14_Text_GeraldIntro::
-    .string "We ride out here because of the\n"
-    .string "wide-open spaces.$"
+    .string "Circulem per aquí per l'espai\n"
+    .string "obert.$"
 
 Route14_Text_GeraldDefeat::
-    .string "Wipeout!$"
+    .string "Patacada!$"
 
 Route14_Text_GeraldPostBattle::
-    .string "It's cool you made your Pokémon so\n"
-    .string "strong.\p"
-    .string "Might is right!\n"
-    .string "And you know it!$"
+    .string "Mola que hagis fet els teus\n"
+    .string "Pokémon tan forts.\p"
+    .string "La força fa la raó!\n"
+    .string "I tu ho saps!$"
 
 Route14_EventScript_Donald::
 	trainerbattle_single TRAINER_BIRD_KEEPER_DONALD, Route14_Text_DonaldIntro, Route14_Text_DonaldDefeat
@@ -95,18 +95,18 @@ Route14_EventScript_Donald::
 	end
 
 Route14_Text_DonaldIntro::
-    .string "Have you heard the legend of the\n"
-    .string "winged mirages?$"
+    .string "Has sentit la llegenda dels\n"
+    .string "miratges alats?$"
 
 Route14_Text_DonaldDefeat::
-    .string "Why?\n"
-    .string "Why'd I lose?$"
+    .string "Per què?\n"
+    .string "Per què he perdut?$"
 
 Route14_Text_DonaldPostBattle::
-    .string "Well, the winged mirages are the\n"
-    .string "legendary bird Pokémon.\p"
-    .string "There are three of them: Articuno,\n"
-    .string "Zapdos, and Moltres.$"
+    .string "Bé, els miratges alats són els\n"
+    .string "Pokémon ocell llegendaris.\p"
+    .string "N'hi ha tres: Articuno,\n"
+    .string "Zapdos i Moltres.$"
 
 Route14_EventScript_Benny::
 	trainerbattle_single TRAINER_BIRD_KEEPER_BENNY, Route14_Text_BennyIntro, Route14_Text_BennyDefeat
@@ -114,15 +114,15 @@ Route14_EventScript_Benny::
 	end
 
 Route14_Text_BennyIntro::
-    .string "I'm not into it, but okay.\n"
-    .string "Let's go!$"
+    .string "No m'anima gaire, però va.\n"
+    .string "Endavant!$"
 
 Route14_Text_BennyDefeat::
-    .string "I knew it!$"
+    .string "Ja m'ho sabia!$"
 
 Route14_Text_BennyPostBattle::
-    .string "Winning, losing… It's insignificant\n"
-    .string "under this huge sky.$"
+    .string "Guanyar, perdre… És insignificant\n"
+    .string "sota aquest cel immens.$"
 
 Route14_EventScript_Carter::
 	trainerbattle_single TRAINER_BIRD_KEEPER_CARTER, Route14_Text_CarterIntro, Route14_Text_CarterDefeat
@@ -130,15 +130,16 @@ Route14_EventScript_Carter::
 	end
 
 Route14_Text_CarterIntro::
-    .string "You need to use TMs to teach good\n"
-    .string "moves to Pokémon.$"
+    .string "Has de fer servir MTs per\n"
+    .string "ensenyar bons moviments.$"
 
 Route14_Text_CarterDefeat::
-    .string "Not good enough quite yet.$"
+    .string "Encara no n'hi ha prou.$"
 
 Route14_Text_CarterPostBattle::
-    .string "You have some HMs, right? Pokémon\n"
-    .string "can't forget those moves easily.$"
+    .string "Tens MOs, oi? Els Pokémon no\n"
+    .string "oblidaran aquells moviments\l"
+    .string "fàcilment.$"
 
 
 Route14_EventScript_Mitch::
@@ -147,15 +148,15 @@ Route14_EventScript_Mitch::
 	end
 
 Route14_Text_MitchIntro::
-    .string "My bird Pokémon should be ready\n"
-    .string "for battle.$"
+    .string "Els meus Pokémon ocell haurien\n"
+    .string "d'estar a punt per combatre.$"
 
 Route14_Text_MitchDefeat::
-    .string "Not ready yet!$"
+    .string "Encara no estan a punt!$"
 
 Route14_Text_MitchPostBattle::
-    .string "My bird Pokémon need to learn\n"
-    .string "better moves.$"
+    .string "Els meus Pokémon ocell necessiten\n"
+    .string "aprendre moviments millors.$"
 
 Route14_EventScript_Beck::
 	trainerbattle_single TRAINER_BIRD_KEEPER_BECK, Route14_Text_BeckIntro, Route14_Text_BeckDefeat
@@ -163,19 +164,19 @@ Route14_EventScript_Beck::
 	end
 
 Route14_Text_BeckIntro::
-    .string "They have TMs on sale at the\n"
-    .string "Celadon Department Store.\p"
-    .string "TMs aren't really rare, but not\n"
-    .string "many people have HMs.$"
+    .string "Venen MTs als Grans Magatzems\n"
+    .string "de Celadon.\p"
+    .string "Les MTs no són tan rares, però\n"
+    .string "poca gent té MOs.$"
 
 Route14_Text_BeckDefeat::
-    .string "Aww, bummer!$"
+    .string "Ai, quina ràbia!$"
 
 Route14_Text_BeckPostBattle::
-    .string "Try teaching Pokémon a move that's\n"
-    .string "the same type as it.\p"
-    .string "That apparently boosts the power\n"
-    .string "of the move.$"
+    .string "Prova d'ensenyar al Pokémon un\n"
+    .string "moviment del seu mateix tipus.\p"
+    .string "Això augmenta la potència\n"
+    .string "del moviment.$"
 
 
 Route14_EventScript_Marlon::
@@ -184,17 +185,16 @@ Route14_EventScript_Marlon::
 	end
 
 Route14_Text_MarlonIntro::
-    .string "Have you taught your bird Pokémon\n"
-    .string "how to Fly?\p"
-    .string "You'll be able to soar with it into\n"
-    .string "the sky!$"
+    .string "Has ensenyat Volar als teus\n"
+    .string "Pokémon ocell?\p"
+    .string "Podràs volar pel cel amb ells!$"
 
 Route14_Text_MarlonDefeat::
-    .string "Shot down in flames!$"
+    .string "Abatut en flames!$"
 
 Route14_Text_MarlonPostBattle::
-    .string "Bird Pokémon are my one true love.\n"
-    .string "I don't want to raise anything else.$"
+    .string "Els Pokémon ocell són el meu\n"
+    .string "amor. No vull criar res més.$"
 
 
 Route14_EventScript_Kiri::
@@ -203,19 +203,19 @@ Route14_EventScript_Kiri::
 	end
 
 Route14_Text_KiriIntro::
-    .string "Kiri: Jan, let's try really,\n"
-    .string "really hard together.$"
+    .string "Kiri: Jan, esforcem-nos molt,\n"
+    .string "molt juntes.$"
 
 Route14_Text_KiriDefeat::
-    .string "Kiri: Whimper…\n"
-    .string "We lost, didn't we?$"
+    .string "Kiri: Snif…\n"
+    .string "Hem perdut, oi?$"
 
 Route14_Text_KiriPostBattle::
-    .string "Kiri: Did we lose because of me?$"
+    .string "Kiri: Hem perdut per culpa meva?$"
 
 Route14_Text_KiriNotEnoughMons::
-    .string "Kiri: We can battle if you have\n"
-    .string "two Pokémon.$"
+    .string "Kiri: Podem combatre si tens\n"
+    .string "dos Pokémon.$"
 
 
 Route14_EventScript_Jan::
@@ -224,20 +224,20 @@ Route14_EventScript_Jan::
 	end
 
 Route14_Text_JanIntro::
-    .string "Jan: Kiri, here we go!\n"
-    .string "We have to try hard!$"
+    .string "Jan: Kiri, endavant!\n"
+    .string "Ens hi hem d'esforçar!$"
 
 Route14_Text_JanDefeat::
-    .string "Jan: Eeeeh!\n"
-    .string "No fair!$"
+    .string "Jan: Eeeh!\n"
+    .string "No és just!$"
 
 Route14_Text_JanPostBattle::
-    .string "Jan: Kiri, don't cry!\n"
-    .string "We'll just try harder next time.$"
+    .string "Jan: Kiri, no ploris!\n"
+    .string "El proper cop ho farem millor.$"
 
 Route14_Text_JanNotEnoughMons::
-    .string "Jan: You want to battle?\n"
-    .string "You don't have enough Pokémon.$"
+    .string "Jan: Vols combatre?\n"
+    .string "No tens prou Pokémon.$"
 
 Route14_EventScript_BigRoot::
     finditem ITEM_BIG_ROOT, 1

@@ -565,9 +565,9 @@ EventScript_OpenDoor::
 
 Text_CardKeyOpenedDoor::
     .string "Bingo!\n"
-    .string "The Card Key opened the door!$"
+    .string "La Clau Targeta ha obert la porta!$"
 
 Text_ItNeedsCardKey::
     .string "No!\n"
-    .string "It needs a Card Key!$"
+    .string "Necessita una Clau Targeta!$"
 

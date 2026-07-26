@@ -1,286 +1,292 @@
 SecretBase_Text_Trainer0Intro:
-	.string "Have you made a Secret Base already?\p"
-	.string "I went here, there, everywhere before\n"
-	.string "choosing this place.\p"
-	.string "Since you're already here, how would\n"
-	.string "you like to battle?$"
+	.string "Ja tens una Base Secreta?\p"
+	.string "Vaig anar per aquí i per allà\n"
+	.string "fins a triar aquest lloc.\p"
+	.string "Com que ja ets aquí, vols\n"
+	.string "batallar?$"
 
 SecretBase_Text_Trainer0AcceptBattle:
-    .string "Okay!\n"
-    .string "Here we come!$"
+    .string "D'acord!\n"
+    .string "Aquí anem!$"
 
 SecretBase_Text_Trainer0DeclineBattle:
-    .string "Hunh?\n"
-    .string "Oh, you can't now…$"
+    .string "Ah?\n"
+    .string "Oh, ara no pots…$"
 
 SecretBase_Text_Trainer0Defeated::
-    .string "Waaargh! You're too strong!\n"
-    .string "About me losing… Please keep it secret!$"
+    .string "Nooo! Ets massa fort!\n"
+    .string "Que he perdut… Guarda el secret!$"
 
 SecretBase_Text_Trainer0PostBattle:
-    .string "What do you think of my Secret Base?\n"
-    .string "Come visit me again tomorrow.$"
+    .string "Que et sembla la meva Base Secreta?\n"
+    .string "Torna a visitar-me demà.$"
 
 SecretBase_Text_Trainer0PreChampion:
-    .string "Have you made a Secret Base already?\p"
-    .string "I went here, there, everywhere before\n"
-    .string "choosing this place.\p"
-    .string "Feel free to hang out!$"
+    .string "Ja tens una Base Secreta?\p"
+    .string "Vaig anar per aquí i per allà\n"
+    .string "fins a triar aquest lloc.\p"
+    .string "Vine quan vulguis!$"
 
 SecretBase_Text_Trainer5Intro:
-    .string "There're a lot of places where\n"
-    .string "you can make a Secret Base.\p"
-    .string "But I like this spot best.\n"
-    .string "Don't you think it's nice?\p"
-    .string "Oh, would you like to have a battle?$"
+    .string "Hi ha molts llocs on pots fer\n"
+    .string "una Base Secreta.\p"
+    .string "Però a mi m'agrada més aquest.\n"
+    .string "No trobes que és bonic?\p"
+    .string "Oh, vols batallar?$"
 
 SecretBase_Text_Trainer5AcceptBattle:
-    .string "Okay, here goes!$"
+    .string "D'acord, allà anem!$"
 
 SecretBase_Text_Trainer5DeclineBattle:
     .string "Oh…\n"
-    .string "You can't now, okay.$"
+    .string "Ara no pots, d'acord.$"
 
 SecretBase_Text_Trainer5Defeated::
-    .string "Hmmm… It's our loss…\n"
-    .string "But don't tell anyone!\l"
-    .string "It's a confidential secret!$"
+    .string "Hmm… Hem perdut…\n"
+    .string "Però no ho diguis a ningú!\l"
+    .string "És un secret confidencial!$"
 
 SecretBase_Text_Trainer5PostBattle:
-    .string "If you're in this area again,\n"
-    .string "I hope you'll visit me.$"
+    .string "Si tornes per aquí,\n"
+    .string "espero que em visitis.$"
 
 SecretBase_Text_Trainer5PreChampion:
-    .string "There're a lot of places where you can\n"
-    .string "make a Secret Base.\p"
-    .string "But I like this spot best.\n"
-    .string "Don't you think it's nice?$"
+    .string "Hi ha molts llocs on pots fer\n"
+    .string "una Base Secreta.\p"
+    .string "Però a mi m'agrada més aquest.\n"
+    .string "No trobes que és bonic?$"
 
 SecretBase_Text_Trainer1Intro:
-    .string "This is a popular spot.\n"
-    .string "It's always taken.\p"
-    .string "Oh! Were you thinking about\n"
-    .string "taking this spot, too?\p"
-    .string "I'll tell you what, you can have this\n"
-    .string "spot if you can beat me.$"
+    .string "Aquí és un lloc molt popular.\n"
+    .string "Sempre és ocupat.\p"
+    .string "Oh! Tu també pensaves\n"
+    .string "ocupar aquest lloc?\p"
+    .string "Et diré una cosa: pots tenir-lo\n"
+    .string "si m'aconsegueixes guanyar.$"
 
 SecretBase_Text_Trainer1AcceptBattle:
-    .string "Okay!\n"
-    .string "I'm going to defend my Secret Base!$"
+    .string "D'acord!\n"
+    .string "Defensaré la meva Base Secreta!$"
 
 SecretBase_Text_Trainer1DeclineBattle:
-    .string "Hunh? Is that right?\n"
-    .string "You're not interested in this spot?$"
+    .string "Ah? És que no?\n"
+    .string "No t'interessa aquest lloc?$"
 
 SecretBase_Text_Trainer1Defeated::
-    .string "I can't keep going!\n"
-    .string "I surrender!$"
+    .string "No puc continuar!\n"
+    .string "Em rendeixo!$"
 
 SecretBase_Text_Trainer1PostBattle:
-    .string "Okay, when I move one day,\n"
-    .string "this place will be yours!$"
+    .string "D'acord, quan marxi algun dia,\n"
+    .string "aquest lloc serà teu!$"
 
 SecretBase_Text_Trainer1PreChampion:
-    .string "This is a popular spot.\n"
-    .string "It's always taken.\p"
-    .string "I waited a long time for it to open.\n"
-    .string "I finally got to use it!$"
+    .string "Aquí és un lloc molt popular.\n"
+    .string "Sempre és ocupat.\p"
+    .string "Vaig esperar molt fins que va\n"
+    .string "quedar lliure. Finalment és meu!$"
 
 SecretBase_Text_Trainer6Intro:
-    .string "Welcome to my Pokémon Lab.\p"
-    .string "I carry out research on battling in\n"
-    .string "secrecy.\p"
-    .string "Would you like to see how strong I am?$"
+    .string "Benvingut al meu Lab Pokémon.\p"
+    .string "Porto a terme recerca sobre la\n"
+    .string "batalla en secret.\p"
+    .string "Vols veure com de fort sóc?$"
 
 SecretBase_Text_Trainer6AcceptBattle:
-    .string "I'm going to go all out!$"
+    .string "Hi posaré totes les meves forces!$"
 
 SecretBase_Text_Trainer6DeclineBattle:
     .string "Oh.\n"
-    .string "Some other time, then!$"
+    .string "Una altra vegada, doncs!$"
 
 SecretBase_Text_Trainer6Defeated::
-    .string "Hmm… I've still got lots to learn.\n"
-    .string "I have to study some more.$"
+    .string "Hmm… Encara em queda molt per\n"
+    .string "aprendre. He d'estudiar més.$"
 
 SecretBase_Text_Trainer6PostBattle:
-    .string "Thanks for battling with me.\n"
-    .string "Please come back again tomorrow.$"
+    .string "Gràcies per batallar amb mi.\n"
+    .string "Torna a visitar-me demà.$"
 
 SecretBase_Text_Trainer6PreChampion:
-    .string "Welcome to my Pokémon Lab.\p"
-    .string "I carry out research on battling in\n"
-    .string "secrecy.$"
+    .string "Benvingut al meu Lab Pokémon.\p"
+    .string "Porto a terme recerca sobre la\n"
+    .string "batalla en secret.$"
 
 SecretBase_Text_Trainer2Intro:
-    .string "A big mansion is nice, but I like this\n"
-    .string "sort of place more.\p"
-    .string "I like it because all kinds of people\n"
-    .string "come visit me.\p"
-    .string "So, how would you like a battle?$"
+    .string "Una mansió gran és bonica, però\n"
+    .string "m'agrada més un lloc com aquest.\p"
+    .string "M'agrada perquè ve tot tipus\n"
+    .string "de gent a visitar-me.\p"
+    .string "Así doncs, vols batallar?$"
 
 SecretBase_Text_Trainer2AcceptBattle:
-    .string "That's the way!$"
+    .string "Molt bé!$"
 
 SecretBase_Text_Trainer2DeclineBattle:
-    .string "When you're ready, give me a shout!$"
+    .string "Quan estigueu a punt, fes-m'ho saber!$"
 
 SecretBase_Text_Trainer2Defeated::
-    .string "Aww! Done in!\n"
-    .string "But it's still fun to battle!$"
+    .string "Au! Ja estic al terra!\n"
+    .string "Però és divertit batallar!$"
 
 SecretBase_Text_Trainer2PostBattle:
-    .string "Well, anyway, I should go buy some\n"
-    .string "decorations and furniture.\p"
-    .string "I want my Secret Base to be a place\n"
-    .string "other people can enjoy.$"
+    .string "Bé, de totes maneres hauria\n"
+    .string "d'anar a comprar decoracions\l"
+    .string "i mobles.\p"
+    .string "Vull que la meva Base Secreta\n"
+    .string "sigui un lloc que tothom gaudeixi.$"
 
 SecretBase_Text_Trainer2PreChampion:
-    .string "A big mansion is nice, but I like this\n"
-    .string "sort of place more.\p"
-    .string "I like it because all kinds of people\n"
-    .string "come visit me.$"
+    .string "Una mansió gran és bonica, però\n"
+    .string "m'agrada més un lloc com aquest.\p"
+    .string "M'agrada perquè ve tot tipus\n"
+    .string "de gent a visitar-me.$"
 
 SecretBase_Text_Trainer7Intro:
-    .string "I simply adore shopping for decorations\n"
-    .string "and furniture.\p"
-    .string "I also love raising Pokémon just\n"
-    .string "as much.\p"
-    .string "If you would be so kind, will you battle\n"
-    .string "with my Pokémon?$"
+    .string "M'encanta comprar decoracions\n"
+    .string "i mobles.\p"
+    .string "També m'encanta criar Pokémon\n"
+    .string "igual de tant.\p"
+    .string "Si sou tan amable, vol batallar\n"
+    .string "amb els meus Pokémon?$"
 
 SecretBase_Text_Trainer7AcceptBattle:
-    .string "Thank you.\n"
-    .string "Shall we begin?$"
+    .string "Gràcies.\n"
+    .string "Comencem?$"
 
 SecretBase_Text_Trainer7DeclineBattle:
     .string "Oh.\n"
-    .string "How disappointing…$"
+    .string "Quina decepció…$"
 
 SecretBase_Text_Trainer7Defeated::
-    .string "I concede…$"
+    .string "Em rendeixo…$"
 
 SecretBase_Text_Trainer7PostBattle:
-    .string "That was all in good fun!\n"
-    .string "I should go enjoy shopping now.$"
+    .string "Ha estat molt divertit!\n"
+    .string "Ara hauria d'anar a fer compres.$"
 
 SecretBase_Text_Trainer7PreChampion:
-    .string "I simply adore shopping for decorations\n"
-    .string "and furniture.\p"
-    .string "I also love raising Pokémon just\n"
-    .string "as much.$"
+    .string "M'encanta comprar decoracions\n"
+    .string "i mobles.\p"
+    .string "També m'encanta criar Pokémon\n"
+    .string "igual de tant.$"
 
 SecretBase_Text_Trainer3Intro:
-    .string "Some people make their Secret Bases in\n"
-    .string "hard-to-find places.\l"
-    .string "Do they want to just lie low?\p"
-    .string "But since you found me, how about we\n"
-    .string "have a battle?$"
+    .string "Alguns fan les seves Bases Secretes\n"
+    .string "en llocs difícils de trobar.\l"
+    .string "Volen passar desapercebuts?\p"
+    .string "Però com que m'has trobat,\n"
+    .string "batallem?$"
 
 SecretBase_Text_Trainer3AcceptBattle:
-    .string "I'm not going down easily!$"
+    .string "No em guanyaràs fàcilment!$"
 
 SecretBase_Text_Trainer3DeclineBattle:
-    .string "Oh… Are you maybe tired from searching\n"
-    .string "for this place?$"
+    .string "Oh… Potser estàs cansat de\n"
+    .string "buscar aquest lloc?$"
 
 SecretBase_Text_Trainer3Defeated::
-    .string "I went down…$"
+    .string "He caigut…$"
 
 SecretBase_Text_Trainer3PostBattle:
-    .string "Where's your Secret Base?\n"
-    .string "I should go visit you there.$"
+    .string "On és la teva Base Secreta?\n"
+    .string "Hauria d'anar a visitar-te.$"
 
 SecretBase_Text_Trainer3PreChampion:
-    .string "Some people make their Secret Bases in\n"
-    .string "hard-to-find places.\l"
-    .string "Do they want to just lie low?$"
+    .string "Alguns fan les seves Bases Secretes\n"
+    .string "en llocs difícils de trobar.\l"
+    .string "Volen passar desapercebuts?$"
 
 SecretBase_Text_Trainer8Intro:
-    .string "People have told me that you can get\n"
-    .string "decorations in several ways.\p"
-    .string "We should have a race to see who can\n"
-    .string "get nicer decorations and furniture!\p"
-    .string "In the meantime, want to battle?$"
+    .string "M'han dit que pots obtenir\n"
+    .string "decoracions de diverses maneres.\p"
+    .string "Hauríem de fer una cursa per\n"
+    .string "veure qui aconsegueix millors\l"
+    .string "decoracions i mobles!\p"
+    .string "Mentrestant, vols batallar?$"
 
 SecretBase_Text_Trainer8AcceptBattle:
-    .string "This is my Secret Base.\n"
-    .string "I can't lose!$"
+    .string "Aquesta és la meva Base Secreta.\n"
+    .string "No puc perdre!$"
 
 SecretBase_Text_Trainer8DeclineBattle:
-    .string "I'll battle with you anytime.$"
+    .string "Batallaré amb tu quan vulguis.$"
 
 SecretBase_Text_Trainer8Defeated::
-    .string "Huh?\n"
-    .string "Did I just lose?$"
+    .string "Eh?\n"
+    .string "Acabo de perdre?$"
 
 SecretBase_Text_Trainer8PostBattle:
-    .string "I won't lose at collecting decorations.\n"
-    .string "Come visit again!$"
+    .string "No perdré a l'hora de col·leccionar\n"
+    .string "decoracions. Torna a visitar-me!$"
 
 SecretBase_Text_Trainer8PreChampion:
-    .string "People have told me that you can get\n"
-    .string "decorations in several ways.\p"
-    .string "We should have a race to see who can\n"
-    .string "get nicer decorations and furniture!$"
+    .string "M'han dit que pots obtenir\n"
+    .string "decoracions de diverses maneres.\p"
+    .string "Hauríem de fer una cursa per\n"
+    .string "veure qui aconsegueix millors\l"
+    .string "decoracions i mobles!$"
 
 SecretBase_Text_Trainer4Intro:
-    .string "I found a spot I liked, and I did it up\n"
-    .string "with my favorite decorations.\p"
-    .string "I raise my favorite Pokémon and grow\n"
-    .string "stronger with it.\p"
-    .string "That's what I do.\n"
-    .string "Want to battle with me?$"
+    .string "Vaig trobar un lloc que m'agradava\n"
+    .string "i el vaig adornar amb les meves\l"
+    .string "decoracions preferides.\p"
+    .string "Crío el meu Pokémon preferit\n"
+    .string "i en faig cada cop més fort.\p"
+    .string "Això és el que faig.\n"
+    .string "Vols batallar amb mi?$"
 
 SecretBase_Text_Trainer4AcceptBattle:
-    .string "Show me what you're made of!$"
+    .string "Demostra'm de tot el que ets capaç!$"
 
 SecretBase_Text_Trainer4DeclineBattle:
-    .string "I guess there are times when you're not\n"
-    .string "into it.$"
+    .string "Suposo que hi ha moments en\n"
+    .string "que no en tens ganes.$"
 
 SecretBase_Text_Trainer4Defeated::
-    .string "I know exactly what you're made of now.$"
+    .string "Ara sé exactament de tot\n"
+    .string "el que ets capaç.$"
 
 SecretBase_Text_Trainer4PostBattle:
-    .string "We can both become stronger.\n"
-    .string "Let's keep at it!$"
+    .string "Tots dos podem fer-nos més forts.\n"
+    .string "Seguim endavant!$"
 
 SecretBase_Text_Trainer4PreChampion:
-    .string "I found a spot I liked, and I did it up\n"
-    .string "with my favorite decorations.\p"
-    .string "I raise my favorite Pokémon and grow\n"
-    .string "stronger with it.\p"
-    .string "Every day is a great day.$"
+    .string "Vaig trobar un lloc que m'agradava\n"
+    .string "i el vaig adornar amb les meves\l"
+    .string "decoracions preferides.\p"
+    .string "Crío el meu Pokémon preferit\n"
+    .string "i en faig cada cop més fort.\p"
+    .string "Cada dia és un gran dia.$"
 
 SecretBase_Text_Trainer9Intro:
-    .string "You can learn a lot about the taste\n"
-    .string "and sense of people by the kinds of\l"
-    .string "decorations they have, and how they\l"
-    .string "display them.\p"
-    .string "What do you think of my taste?\n"
-    .string "Are you speechless?\p"
-    .string "Want to see my taste in battling?$"
+    .string "Pots aprendre molt sobre el gust\n"
+    .string "i el criteri de les persones\l"
+    .string "pel tipus de decoracions que\l"
+    .string "tenen i com les mostren.\p"
+    .string "Que et sembla el meu gust?\n"
+    .string "T'ha deixat sense paraules?\p"
+    .string "Vols veure el meu gust en la batalla?$"
 
 SecretBase_Text_Trainer9AcceptBattle:
-    .string "There's no holding back!$"
+    .string "Sense aguantar-se!$"
 
 SecretBase_Text_Trainer9DeclineBattle:
-    .string "I'll be happy to demonstrate my style\n"
-    .string "anytime.$"
+    .string "Estaré encantat de demostrar\n"
+    .string "el meu estil quan vulguis.$"
 
 SecretBase_Text_Trainer9Defeated::
-    .string "You're supremely talented!\n"
-    .string "Your power seems to be limitless…$"
+    .string "Tens un talent suprem!\n"
+    .string "El teu poder sembla il·limitat…$"
 
 SecretBase_Text_Trainer9PostBattle:
-    .string "What did you think of my style?\n"
-    .string "I'll keep on polishing it!$"
+    .string "Que et sembla el meu estil?\n"
+    .string "Continuaré polint-lo!$"
 
 SecretBase_Text_Trainer9PreChampion:
-    .string "You can learn a lot about the taste\n"
-    .string "and sense of people by the kinds of\l"
-    .string "decorations they have, and how they\l"
-    .string "display them.\p"
-    .string "What do you think of my taste?\n"
-    .string "Are you speechless?$"
+    .string "Pots aprendre molt sobre el gust\n"
+    .string "i el criteri de les persones\l"
+    .string "pel tipus de decoracions que\l"
+    .string "tenen i com les mostren.\p"
+    .string "Que et sembla el meu gust?\n"
+    .string "T'ha deixat sense paraules?$"

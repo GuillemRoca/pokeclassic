@@ -13,7 +13,7 @@ Route16_House_EventScript_Woman::
 	message Route16_House_Text_ReceivedHM02FromGirl
 	waitfanfare
 	waitmessage
-	closemessage 
+	closemessage
 	additem ITEM_HM02, 1
 	msgbox Route16_House_Text_ExplainHM02
 	setflag FLAG_RECEIVED_HM02
@@ -41,22 +41,24 @@ Route16_House_EventScript_Pidgeot::
 	end
 
 Route16_House_Text_FoundMySecretRetreat::
-    .string "Oh, dear.\n"
-    .string "You've found my secret retreat.\p"
-    .string "Please don't tell anyone I'm here.\n"
-    .string "I'll make it up to you with this!$"
+    .string "Oh, vaja.\n"
+    .string "Has trobat el meu refugi secret.\p"
+    .string "Si us plau, no diguis a ningú\n"
+    .string "que sóc aquí.\l"
+    .string "T'ho compensaré amb això!$"
 
 Route16_House_Text_ReceivedHM02FromGirl::
-    .string "{PLAYER} received HM02\n"
-    .string "from the girl.$"
+    .string "{PLAYER} ha rebut la MO02\n"
+    .string "de la noia.$"
 
 Route16_House_Text_ExplainHM02::
-    .string "HM02 is FLY.\n"
-    .string "It's a wonderfully convenient move.\p"
-    .string "Please, put it to good use.$"
+    .string "La MO02 és Volar.\n"
+    .string "És un moviment increïblement\l"
+    .string "pràctic.\p"
+    .string "Si us plau, fes-ne bon ús.$"
 
 Route16_House_Text_DontHaveAnyRoomForThis::
-    .string "You don't have any room for this.$"
+    .string "No tens lloc per a això.$"
 
 Route16_House_Text_Pidgeot::
     .string "Pidgeot: Kyueen!$"

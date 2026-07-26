@@ -25,11 +25,11 @@ Route22_NorthEntrance_EventScript_GateGuard::
 	end
 
 Route22_NorthEntrance_Text_Collect8Badges::
-	.string "Oh? You want to head to Indigo\n"
-	.string "Plateau?\p"
-	.string "I'm sorry, I can't let you through\n"
-	.string "unless you've collected all 8 Gym\l"
-	.string "Badges.$"
+	.string "Oh? Vols anar a l'Altiplà\n"
+	.string "Índigo?\p"
+	.string "Ho sento, no puc deixar-te\n"
+	.string "passar si no tens les 8\l"
+	.string "Medalles de Gimnàs.$"
 
 Route22_NorthEntrance_HeadToVictoryRoad::
 	msgbox Route22_NorthEntrance_Text_HeadToVictoryRoad, MSGBOX_NPC
@@ -37,10 +37,10 @@ Route22_NorthEntrance_HeadToVictoryRoad::
 	end
 
 Route22_NorthEntrance_Text_HeadToVictoryRoad::
-	.string "You'll find Victory Road at the end\n"
-	.string "of Route 23.\p"
-	.string "It's full of elite trainers and strong\n"
-	.string "Pokémon.\n"
-	.string "It's your final test before you face the\n"
-	.string "Elite Four!$"
+	.string "Trobaràs el Camí de la Victòria\n"
+	.string "al final de la Ruta 23.\p"
+	.string "Està ple d'entrenadors d'elit\n"
+	.string "i Pokémon forts.\n"
+	.string "És la teva prova final abans\n"
+	.string "d'enfrontar l'Alt Comandament!$"
 

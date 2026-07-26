@@ -33,10 +33,10 @@ CinnabarIsland_Mart_EventScript_Scientist::
 	end
 
 CinnabarIsland_Mart_Text_DontTheyHaveXAttack::
-    .string "Don't they have X Attack?\p"
-    .string "I like it because it raises the\n"
-    .string "Attack stat in battle.$"
+    .string "No tenen X Attack?\p"
+    .string "M'agrada perquè augmenta\n"
+    .string "l'Atac en combat.$"
 
 CinnabarIsland_Mart_Text_ExtraItemsNeverHurt::
-    .string "It never hurts to have extra items.\n"
-    .string "You never know what might happen.$"
+    .string "Mai fa mal tenir objectes extra.\n"
+    .string "Mai se sap què pot passar.$"

@@ -12,16 +12,16 @@ PokemonTower_3F_EventScript_Patricia::
 	end
 
 PokemonTower_3F_Text_PatriciaIntro::
-    .string "Be gone!\n"
-    .string "Malevolent spirit!$"
+    .string "Fora d'aquí!\n"
+    .string "Esperit maligne!$"
 
 PokemonTower_3F_Text_PatriciaDefeat::
-    .string "Whew!\n"
-    .string "The spirit left!$"
+    .string "Uf!\n"
+    .string "L'esperit ha marxat!$"
 
 PokemonTower_3F_Text_PatriciaPostBattle::
-    .string "The others above…\n"
-    .string "They must have been possessed.$"
+    .string "Les altres de més amunt…\n"
+    .string "Deuen haver estat posseïdes.$"
 
 PokemonTower_3F_EventScript_Carly::
 	trainerbattle_single TRAINER_CHANNELER_CARLY, PokemonTower_3F_Text_CarlyIntro, PokemonTower_3F_Text_CarlyDefeat
@@ -34,11 +34,11 @@ PokemonTower_3F_Text_CarlyIntro::
 
 PokemonTower_3F_Text_CarlyDefeat::
     .string "Hmm?\n"
-    .string "What am I doing?$"
+    .string "Què estic fent?$"
 
 PokemonTower_3F_Text_CarlyPostBattle::
-    .string "Sorry!\n"
-    .string "I was possessed!$"
+    .string "Perdona!\n"
+    .string "Estava posseïda!$"
 
 PokemonTower_3F_EventScript_Hope::
 	trainerbattle_single TRAINER_CHANNELER_HOPE, PokemonTower_3F_Text_HopeIntro, PokemonTower_3F_Text_HopeDefeat
@@ -51,9 +51,9 @@ PokemonTower_3F_Text_HopeIntro::
 
 PokemonTower_3F_Text_HopeDefeat::
     .string "Hwa!\n"
-    .string "I'm saved!$"
+    .string "M'he salvat!$"
 
 PokemonTower_3F_Text_HopePostBattle::
-    .string "I will be forever changed\n"
-    .string "by this experience.$"
+    .string "Aquesta experiència em canviarà\n"
+    .string "per sempre.$"
 

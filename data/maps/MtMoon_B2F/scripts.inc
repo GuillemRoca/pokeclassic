@@ -23,18 +23,19 @@ MtMoon_B2F_EventScript_Grunt1::
 	end
 
 MtMoon_B2F_Text_Grunt1Intro::
-    .string "We, Team Rocket, shall find the\n"
-    .string "fossils!\p"
-    .string "Reviving Pokémon from them will\n"
-    .string "earn us huge riches!$"
+    .string "Nosaltres, l'Equip Rocket, trobarem\n"
+    .string "els fòssils!\p"
+    .string "Reviure Pokémon d'ells ens farà\n"
+    .string "guanyar una fortuna!$"
 
 MtMoon_B2F_Text_Grunt1Defeat::
-    .string "Urgh!\n"
-    .string "Now I'm mad!$"
+    .string "Argh!\n"
+    .string "Ara sí que estic enfadat!$"
 
 MtMoon_B2F_Text_Grunt1PostBattle::
-    .string "You made me mad!\n"
-    .string "Team Rocket will blacklist you!$"
+    .string "M'has fet enfadar!\n"
+    .string "L'Equip Rocket et posarà a la\l"
+    .string "llista negra!$"
 
 MtMoon_B2F_EventScript_Grunt2::
 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_2, MtMoon_B2F_Text_Grunt2Intro, MtMoon_B2F_Text_Grunt2Defeat
@@ -42,16 +43,17 @@ MtMoon_B2F_EventScript_Grunt2::
 	end
 
 MtMoon_B2F_Text_Grunt2Intro::
-    .string "We, Team Rocket, are Pokémon\n"
-    .string "gangsters!\l"
-    .string "We strike fear with our strength!$"
+    .string "Nosaltres, l'Equip Rocket, som\n"
+    .string "gàngsters Pokémon!\l"
+    .string "Imposem por amb la nostra força!$"
 
 MtMoon_B2F_Text_Grunt2Defeat::
-    .string "I blew it!$"
+    .string "L'he espifiada!$"
 
 MtMoon_B2F_Text_Grunt2PostBattle::
-    .string "Darn it all!\n"
-    .string "My associates won't stand for this!$"
+    .string "Maleït siguis!\n"
+    .string "Els meus companys no permetran\l"
+    .string "això!$"
 
 MtMoon_B2F_EventScript_Grunt3::
 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_3, MtMoon_B2F_Text_Grunt3Intro, MtMoon_B2F_Text_Grunt3Defeat
@@ -59,15 +61,15 @@ MtMoon_B2F_EventScript_Grunt3::
 	end
 
 MtMoon_B2F_Text_Grunt3Intro::
-    .string "We're pulling a big job here!\n"
-    .string "Get lost, kid!$"
+    .string "Estem fent un gran cop aquí!\n"
+    .string "Fes el camp, nen!$"
 
 MtMoon_B2F_Text_Grunt3Defeat::
-    .string "So, you are good…$"
+    .string "Vaja, ets bo…$"
 
 MtMoon_B2F_Text_Grunt3PostBattle::
-    .string "If you find a fossil, give it to me\n"
-    .string "and scram!$"
+    .string "Si trobes un fòssil, dóna-me'l\n"
+    .string "i vés-te'n!$"
 
 MtMoon_B2F_EventScript_Grunt4::
 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_4, MtMoon_B2F_Text_Grunt4Intro, MtMoon_B2F_Text_Grunt4Defeat
@@ -75,16 +77,16 @@ MtMoon_B2F_EventScript_Grunt4::
 	end
 
 MtMoon_B2F_Text_Grunt4Intro::
-    .string "Little kids shouldn't be messing\n"
-    .string "around with grown-ups!\p"
-    .string "It could be bad news!$"
+    .string "Els nens petits no haurien de\n"
+    .string "ficar-se amb els grans!\p"
+    .string "Podria ser perillós!$"
 
 MtMoon_B2F_Text_Grunt4Defeat::
-    .string "I'm steamed!$"
+    .string "Estic furiós!$"
 
 MtMoon_B2F_Text_Grunt4PostBattle::
-    .string "Pokémon lived here long before\n"
-    .string "people came.$"
+    .string "Els Pokémon vivien aquí molt abans\n"
+    .string "que arribessin les persones.$"
 
 MtMoon_B2F_EventScript_MiguelTrigger::
 	lockall
@@ -111,17 +113,17 @@ MtMoon_B2F_EventScript_BattleMiguel::
 	end
 
 MtMoon_B2F_Text_MiguelIntro::
-    .string "Hey, stop!\p"
-    .string "I found these fossils!\n"
-    .string "They're both mine!$"
+    .string "Ei, para!\p"
+    .string "He trobat aquests fòssils!\n"
+    .string "Tots dos són meus!$"
 
 MtMoon_B2F_Text_MiguelDefeat::
-    .string "Okay!\n"
-    .string "I'll share!$"
+    .string "D'acord!\n"
+    .string "Compartiré!$"
 
 MtMoon_B2F_Text_WellEachTakeAFossil::
-    .string "We'll each take a fossil!\n"
-    .string "No being greedy!$"
+    .string "Ens agafarem un fòssil cadascú!\n"
+    .string "Sense ser cobdiciós!$"
 
 MtMoon_B2F_EventScript_MiguelFossilPicked::
 	msgbox MtMoon_B2F_Text_LabOnCinnabarRegeneratesFossils, MSGBOX_DEFAULT
@@ -129,10 +131,10 @@ MtMoon_B2F_EventScript_MiguelFossilPicked::
 	end
 
 MtMoon_B2F_Text_LabOnCinnabarRegeneratesFossils::
-    .string "Far away, on Cinnabar Island,\n"
-    .string "there's a Pokémon Lab.\p"
-    .string "They do research on regenerating\n"
-    .string "fossils.$"
+    .string "Lluny d'aquí, a l'Illa Cinnabar,\n"
+    .string "hi ha un Laboratori Pokémon.\p"
+    .string "Fan recerca sobre la regeneració\n"
+    .string "de fòssils.$"
 
 MtMoon_B2F_EventScript_MiguelGoPickFossil::
 	msgbox MtMoon_B2F_Text_WellEachTakeAFossil, MSGBOX_DEFAULT
@@ -166,10 +168,10 @@ MtMoon_B2F_EventScript_DomeFossil::
 	end
 
 MtMoon_B2F_Text_YouWantDomeFossil::
-    .string "Do you want the Dome Fossil?$"
+    .string "Vols el Fòssil Domo?$"
 
 MtMoon_B2F_Text_ObtainedDomeFossil::
-    .string "Obtained the Dome Fossil!$"
+    .string "Has obtingut el Fòssil Domo!$"
 
 MtMoon_B2F_Movement_MiguelToHelixFossil::
 	walk_right
@@ -205,14 +207,14 @@ MtMoon_B2F_EventScript_HelixFossil::
 	end
 
 MtMoon_B2F_Text_YouWantHelixFossil::
-    .string "Do you want the Helix Fossil?$"
+    .string "Vols el Fòssil Hèlix?$"
 
 MtMoon_B2F_Text_ObtainedHelixFossil::
-    .string "Obtained the Helix Fossil!$"
+    .string "Has obtingut el Fòssil Hèlix!$"
 
 MtMoon_B2F_Text_ThenThisFossilIsMine::
-    .string "All right.\n"
-    .string "Then this fossil is mine!$"
+    .string "Molt bé.\n"
+    .string "Doncs aquest fòssil és meu!$"
 
 MtMoon_B2F_Movement_MiguelToDomeFossil::
 	walk_up
@@ -246,7 +248,7 @@ MtMoon_B2F_EventScript_RocketDuoTrigger1::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_ExclamationMark
 	waitmovement 0
 	applymovement OBJ_EVENT_ID_PLAYER, Movement_FaceRockets1
-	waitmovement 0	
+	waitmovement 0
 	goto MtMoon_B2F_EventScript_RocketDuo
 	end
 
@@ -271,7 +273,7 @@ Movement_FaceRockets2:
 	step_end
 
 MtMoon_B2F_Text_StopRightThere::
-	.string "???: Stop right there!$"
+	.string "???: Para aquí mateix!$"
 
 MtMoon_B2F_EventScript_RocketDuo::
 	playbgm MUS_RG_ENCOUNTER_ROCKET, 0
@@ -326,15 +328,15 @@ MtMoon_Movement_AndMakeItDouble:
 	step_end
 
 MtMoon_B2F_Text_RocketDuoIntro::
-	.string "???: That fossil belongs\n"
-	.string "to Team Rocket!\p"
-	.string "Surrender now, or prepare\n"
-	.string "to fight!$"
+	.string "???: Aquest fòssil pertany\n"
+	.string "a l'Equip Rocket!\p"
+	.string "Rendeix-te ara, o prepara't\n"
+	.string "per lluitar!$"
 
 MtMoon_B2F_Text_RocketDuoDefeat::
-	.string "What, this brat beat us?$"
+	.string "Què, aquest marrec ens ha guanyat?$"
 
 MtMoon_B2F_Text_RocketDuoDefeated::
-	.string "Jessie: This isn't over, kid!\p"
-	.string "James: Team Rocket, blast off at\n"
-	.string "the speed of light!$"
+	.string "Jessie: Això no s'acaba aquí, nen!\p"
+	.string "James: L'Equip Rocket surt\n"
+	.string "disparat a la velocitat de la llum!$"

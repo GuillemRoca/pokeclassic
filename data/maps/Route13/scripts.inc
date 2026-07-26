@@ -16,26 +16,26 @@ Route13_EventScript_TrainerTips1::
 	end
 
 Route13_Text_LookToLeftOfThatPost::
-    .string "Trainer Tips:\p"
-    .string "Look, look!\n"
-    .string "Look to the left of that post!$"
+    .string "Consells d'Entrenador:\p"
+    .string "Mira, mira!\n"
+    .string "Mira a l'esquerra d'aquell pal!$"
 
 Route13_EventScript_TrainerTips2::
 	msgbox Route13_Text_SelectToSwitchItems, MSGBOX_SIGN
 	end
 
 Route13_Text_SelectToSwitchItems::
-    .string "Trainer Tips:\p"
-    .string "Use Select to switch items in the\n"
-    .string "Items window.$"
+    .string "Consells d'Entrenador:\p"
+    .string "Fes servir Select per canviar\n"
+    .string "objectes a la finestra.$"
 
 Route13_EventScript_RouteSign::
 	msgbox Route13_Text_RouteSign, MSGBOX_SIGN
 	end
 
 Route13_Text_RouteSign::
-    .string "ROUTE 13\n"
-    .string "North to Silence Bridge$"
+    .string "RUTA 13\n"
+    .string "Nord cap al Pont del Silenci$"
 
 Route13_EventScript_Lola::
 	trainerbattle_single TRAINER_BEAUTY_LOLA, Route13_Text_LolaIntro, Route13_Text_LolaDefeat
@@ -43,15 +43,15 @@ Route13_EventScript_Lola::
 	end
 
 Route13_Text_LolaIntro::
-    .string "Sure, I'll play with you, sweetie.$"
+    .string "Sí, jugaré amb tu, bonic.$"
 
 Route13_Text_LolaDefeat::
     .string "Oh!\n"
-    .string "You little beast!$"
+    .string "Petita bèstia!$"
 
 Route13_Text_LolaPostBattle::
-    .string "I wonder which is stronger, male or\n"
-    .string "female Pokémon?$"
+    .string "Em pregunto què és més fort,\n"
+    .string "un Pokémon mascle o femella?$"
 
 Route13_EventScript_Sheila::
 	trainerbattle_single TRAINER_BEAUTY_SHEILA, Route13_Text_SheilaIntro, Route13_Text_SheilaDefeat
@@ -59,17 +59,17 @@ Route13_EventScript_Sheila::
 	end
 
 Route13_Text_SheilaIntro::
-    .string "Do you want to battle some\n"
-    .string "Pokémon with me?$"
+    .string "Vols combatre amb Pokémon\n"
+    .string "amb mi?$"
 
 Route13_Text_SheilaDefeat::
-    .string "It's over already?$"
+    .string "Ja s'ha acabat?$"
 
 Route13_Text_SheilaPostBattle::
-    .string "I don't know anything about\n"
-    .string "Pokémon actually.\p"
-    .string "The ones I use… I picked them\n"
-    .string "for their looks!$"
+    .string "En realitat no sé res de\n"
+    .string "Pokémon.\p"
+    .string "Els que tinc… els vaig triar\n"
+    .string "per l'aspecte!$"
 
 Route13_EventScript_Jared::
 	trainerbattle_single TRAINER_BIKER_JARED, Route13_Text_JaredIntro, Route13_Text_JaredDefeat
@@ -77,14 +77,14 @@ Route13_EventScript_Jared::
 	end
 
 Route13_Text_JaredIntro::
-    .string "What're you lookin' at?$"
+    .string "Què mires?$"
 
 Route13_Text_JaredDefeat::
-    .string "Dang!\n"
-    .string "Stripped gears!$"
+    .string "Llamps!\n"
+    .string "S'ha fotut la marxa!$"
 
 Route13_Text_JaredPostBattle::
-    .string "Get lost!$"
+    .string "Fes-te perdedís!$"
 
 Route13_EventScript_Sebastian::
 	trainerbattle_single TRAINER_BIRD_KEEPER_SEBASTIAN, Route13_Text_SebastianIntro, Route13_Text_SebastianDefeat
@@ -92,16 +92,16 @@ Route13_EventScript_Sebastian::
 	end
 
 Route13_Text_SebastianIntro::
-    .string "My bird Pokémon want to battle\n"
-    .string "with you!$"
+    .string "Els meus Pokémon ocell volen\n"
+    .string "combatre amb tu!$"
 
 Route13_Text_SebastianDefeat::
-    .string "My Pidgey and Pidgeotto combo\n"
-    .string "lost?$"
+    .string "El meu combo Pidgey i Pidgeotto\n"
+    .string "ha perdut?$"
 
 Route13_Text_SebastianPostBattle::
-    .string "My Pokémon look happy even though\n"
-    .string "they lost.$"
+    .string "Els meus Pokémon semblen contents\n"
+    .string "tot i haver perdut.$"
 
 
 Route13_EventScript_Perry::
@@ -110,15 +110,15 @@ Route13_EventScript_Perry::
 	end
 
 Route13_Text_PerryIntro::
-    .string "I'm not going to lose.\n"
-    .string "Not when the wind's blowing my way!$"
+    .string "No perdré.\n"
+    .string "No quan el vent bufa a favor!$"
 
 Route13_Text_PerryDefeat::
-    .string "The wind turned!$"
+    .string "El vent ha girat!$"
 
 Route13_Text_PerryPostBattle::
-    .string "I'm beat.\n"
-    .string "I guess I'll fly home.$"
+    .string "Estic destrossat.\n"
+    .string "Suposo que volaré cap a casa.$"
 
 Route13_EventScript_Robert::
 	trainerbattle_single TRAINER_BIRD_KEEPER_ROBERT, Route13_Text_RobertIntro, Route13_Text_RobertDefeat
@@ -126,15 +126,15 @@ Route13_EventScript_Robert::
 	end
 
 Route13_Text_RobertIntro::
-    .string "I always go with bird Pokémon.\n"
-    .string "I've dedicated myself to them.$"
+    .string "Sempre vaig amb Pokémon ocell.\n"
+    .string "M'hi he dedicat en cos i ànima.$"
 
 Route13_Text_RobertDefeat::
-    .string "Out of power!$"
+    .string "Sense energia!$"
 
 Route13_Text_RobertPostBattle::
-    .string "I wish I could fly like Pidgey and\n"
-    .string "Pidgeotto…$"
+    .string "M'agradaria poder volar com\n"
+    .string "Pidgey i Pidgeotto…$"
 
 Route13_EventScript_Alma::
 	trainerbattle_single TRAINER_PICNICKER_ALMA, Route13_Text_AlmaIntro, Route13_Text_AlmaDefeat
@@ -142,16 +142,16 @@ Route13_EventScript_Alma::
 	end
 
 Route13_Text_AlmaIntro::
-    .string "I found a carbos in a cave once\n"
-    .string "while I was spelunking.$"
+    .string "Vaig trobar un carbos en una\n"
+    .string "cova mentre feia espeleologia.$"
 
 Route13_Text_AlmaDefeat::
-    .string "Oh, too bad!\n"
-    .string "I just messed up!$"
+    .string "Oh, quina llàstima!\n"
+    .string "He ficat la pota!$"
 
 Route13_Text_AlmaPostBattle::
-    .string "Carbos boosted the speed of my\n"
-    .string "Pokémon.$"
+    .string "El Carbos va augmentar la\n"
+    .string "velocitat del meu Pokémon.$"
 
 Route13_EventScript_Susie::
 	trainerbattle_single TRAINER_PICNICKER_SUSIE, Route13_Text_SusieIntro, Route13_Text_SusieDefeat
@@ -159,15 +159,16 @@ Route13_EventScript_Susie::
 	end
 
 Route13_Text_SusieIntro::
-    .string "I'm told I'm good for a kid.$"
+    .string "Em diuen que sóc bona per ser\n"
+    .string "una nena.$"
 
 Route13_Text_SusieDefeat::
     .string "Ohh!\n"
-    .string "I lost!$"
+    .string "He perdut!$"
 
 Route13_Text_SusiePostBattle::
-    .string "I want to become a good trainer.\n"
-    .string "I'll train hard, just watch.$"
+    .string "Vull ser una bona entrenadora.\n"
+    .string "Entrenaré fort, ja ho veuràs.$"
 
 Route13_EventScript_Valerie::
 	trainerbattle_single TRAINER_PICNICKER_VALERIE, Route13_Text_ValerieIntro, Route13_Text_ValerieDefeat
@@ -175,15 +176,15 @@ Route13_EventScript_Valerie::
 	end
 
 Route13_Text_ValerieIntro::
-    .string "Wow!\n"
-    .string "Your badges are too cool!$"
+    .string "Uau!\n"
+    .string "Les teves medalles són genials!$"
 
 Route13_Text_ValerieDefeat::
-    .string "Not enough!$"
+    .string "No n'hi ha prou!$"
 
 Route13_Text_ValeriePostBattle::
-    .string "You got those Badges from Gym\n"
-    .string "Leaders. I know!$"
+    .string "Has aconseguit les Medalles dels\n"
+    .string "Líders de Gimnàs. Ho sé!$"
 
 Route13_EventScript_Gwen::
 	trainerbattle_single TRAINER_PICNICKER_GWEN, Route13_Text_GwenIntro, Route13_Text_GwenDefeat
@@ -191,13 +192,13 @@ Route13_EventScript_Gwen::
 	end
 
 Route13_Text_GwenIntro::
-    .string "My cute Pokémon wish to make your\n"
-    .string "acquaintance.$"
+    .string "Els meus Pokémon bufons volen\n"
+    .string "conèixer-te.$"
 
 Route13_Text_GwenDefeat::
-    .string "Good going!\n"
-    .string "You totally won!$"
+    .string "Ben fet!\n"
+    .string "Has guanyat del tot!$"
 
 Route13_Text_GwenPostBattle::
-    .string "You have to make Pokémon battle\n"
-    .string "to toughen them up.$"
+    .string "Has de fer combatre els Pokémon\n"
+    .string "per endurir-los.$"

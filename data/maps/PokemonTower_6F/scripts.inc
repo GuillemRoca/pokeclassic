@@ -25,14 +25,14 @@ PokemonTower_6F_EventScript_Angelica::
 	end
 
 PokemonTower_6F_Text_AngelicaIntro::
-    .string "Give…me…\n"
-    .string "blood…$"
+    .string "Dóna…me…\n"
+    .string "sang…$"
 
 PokemonTower_6F_Text_AngelicaDefeat::
-    .string "Groan!$"
+    .string "Gemec!$"
 
 PokemonTower_6F_Text_AngelicaPostBattle::
-    .string "I feel anemic and weak…$"
+    .string "Em sento anèmica i feble…$"
 
 PokemonTower_6F_EventScript_Emilia::
 	trainerbattle_single TRAINER_CHANNELER_EMILIA, PokemonTower_6F_Text_EmiliaIntro, PokemonTower_6F_Text_EmiliaDefeat
@@ -44,11 +44,11 @@ PokemonTower_6F_Text_EmiliaIntro::
     .string "Kwaah!$"
 
 PokemonTower_6F_Text_EmiliaDefeat::
-    .string "Something fell out!$"
+    .string "Alguna cosa ha caigut!$"
 
 PokemonTower_6F_Text_EmiliaPostBattle::
-    .string "My hair didn't fall out!\n"
-    .string "It was a malevolent spirit!$"
+    .string "No se m'ha caigut el cabell!\n"
+    .string "Era un esperit maligne!$"
 
 PokemonTower_6F_EventScript_Jennifer::
 	trainerbattle_single TRAINER_CHANNELER_JENNIFER, PokemonTower_6F_Text_JenniferIntro, PokemonTower_6F_Text_JenniferDefeat
@@ -63,7 +63,7 @@ PokemonTower_6F_Text_JenniferDefeat::
     .string "Keee!$"
 
 PokemonTower_6F_Text_JenniferPostBattle::
-    .string "What's going on here?$"
+    .string "Què està passant aquí?$"
 
 
 PokemonTower_6F_EventScript_GhostTriggerLeft::
@@ -150,20 +150,20 @@ PokemonTower_6F_EventScript_SootheMarowakGhost::
 	end
 
 PokemonTower_6F_Text_CuboneApproachedTheSpirit::
-	.string "It's the Cubone you rescued from\n"
-	.string "Team Rocket...\p"
-	.string "It approached the restless spirit!$"
+	.string "És el Cubone que vas rescatar\n"
+	.string "de l'Equip Rocket...\p"
+	.string "S'ha acostat a l'esperit inquiet!$"
 
 PokemonTower_6F_Text_GhostRecognizedCubone::
-	.string "The ghost seems to recognize the\n"
-	.string "Cubone...\p"
-	.string "Could it be the Cubone's mother?$"
+	.string "El fantasma sembla reconèixer\n"
+	.string "el Cubone...\p"
+	.string "Podria ser la mare del Cubone?$"
 
 PokemonTower_6F_Text_SeemsToUnderstand::
-	.string "The ghost of Cubone's mother stared\n"
-	.string "at you and nods...\p"
-	.string "It seems to understand what you did\n"
-	.string "for its child...$"
+	.string "El fantasma de la mare del Cubone\n"
+	.string "et mira i assenteix...\p"
+	.string "Sembla que entén el que vas fer\n"
+	.string "pel seu fill...$"
 
 PokemonTower_6F_EventScript_CuboneEntrance1::
 	applymovement LOCALID_CUBONE,PokemonTower_6F_Movement_CuboneEntrance1
@@ -207,7 +207,7 @@ PokemonTower_6F_Movement_CuboneEntrance2:
 	walk_down
 	face_left
 	step_end
-	
+
 PokemonTower_6F_Movement_ForcePlayerUp::
 	walk_up
 	step_end
@@ -251,20 +251,20 @@ Movement_MarowakApproach2::
 	step_end
 
 PokemonTower_6F_Text_ScaryPresence::
-	.string "An ominous presence fills the\n"
-	.string "room...$"
+	.string "Una presència ominosa omple\n"
+	.string "la sala...$"
 
 PokemonTower_6F_Text_BeGoneIntruders::
-    .string "???: Be gone…\n"
-    .string "Intruders…$"
+    .string "???: Fora…\n"
+    .string "Intrusos…$"
 
 PokemonTower_6F_Text_TooScaredToGoOn::
-	.string "Your Pokémon are too scared\n"
-	.string "to go any further!$"
+	.string "Els teus Pokémon tenen massa\n"
+	.string "por per continuar!$"
 
 PokemonTower_6F_Text_MothersSpiritWasCalmed::
-    .string "The mother's spirit was calmed.\p"
-    .string "It departed to the afterlife…$"
+    .string "L'esperit de la mare s'ha calmat.\p"
+    .string "Ha marxat cap a l'altre món…$"
 
 PokemonTower_6F_EventScript_CuboneExit1::
 	applymovement LOCALID_CUBONE,PokemonTower_6F_Movement_CuboneExit1

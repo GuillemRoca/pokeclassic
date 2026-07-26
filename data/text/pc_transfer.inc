@@ -1,32 +1,53 @@
 gText_PkmnTransferredSomeonesPC::
-	.string "{STR_VAR_2} was transferred to\n"
-	.string "Someone's PC.\p"
-	.string "It was placed in \n"
-	.string "Box “{STR_VAR_1}.”$"
+	.string "{STR_VAR_2} s'ha transferit a\n"
+
+	.string "l'ordinador d'algú.\p"
+
+	.string "S'ha col·locat a la\n"
+
+	.string "Caixa “{STR_VAR_1}.”$"
+
 
 gText_PkmnTransferredLanettesPC::
-	.string "{STR_VAR_2} was transferred to\n"
-	.string "Bill's PC.\p"
-	.string "It was placed in \n"
-	.string "Box “{STR_VAR_1}.”$"
+	.string "{STR_VAR_2} s'ha transferit a\n"
+
+	.string "l'ordinador del Bill.\p"
+
+	.string "S'ha col·locat a la\n"
+
+	.string "Caixa “{STR_VAR_1}.”$"
+
 
 gText_PkmnTransferredSomeonesPCBoxFull::
-	.string "Box “{STR_VAR_3}” on\n"
-	.string "Someone's PC was full.\p"
-	.string "{STR_VAR_2} was transferred to\n"
-	.string "Box “{STR_VAR_1}.”$"
+	.string "La Caixa “{STR_VAR_3}” de\n"
+
+	.string "l'ordinador d'algú estava plena.\p"
+
+	.string "{STR_VAR_2} s'ha transferit a\n"
+
+	.string "la Caixa “{STR_VAR_1}.”$"
+
 
 gText_PkmnTransferredLanettesPCBoxFull::
-	.string "Box “{STR_VAR_3}” on\n"
-	.string "Bill's PC was full.\p"
-	.string "{STR_VAR_2} was transferred to\n"
-	.string "Box “{STR_VAR_1}.”$"
+	.string "La Caixa “{STR_VAR_3}” de\n"
+
+	.string "l'ordinador del Bill estava plena.\p"
+
+	.string "{STR_VAR_2} s'ha transferit a\n"
+
+	.string "la Caixa “{STR_VAR_1}.”$"
+
 
 gText_NoMoreRoomForPokemon::
-	.string "There's no more room for Pokémon!\p"
-	.string "The Pokémon Boxes are full and\n"
-	.string "can't accept any more!$"
+	.string "Ja no hi ha espai per a Pokémon!\p"
+
+	.string "Les Caixes de Pokémon estan plenes\n"
+
+	.string "i no en caben més!$"
+
 
 gText_NicknameThisPokemon::
-	.string "Do you want to give a nickname to\n"
-	.string "this {STR_VAR_1}?$"
+	.string "Vols posar un malnom a\n"
+
+	.string "aquest {STR_VAR_1}?$"
+

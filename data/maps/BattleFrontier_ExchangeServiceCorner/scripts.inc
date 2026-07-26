@@ -85,8 +85,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_AbilityCapsule::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmAbilityCapsule:
-	.string "You've chosen the Ability Capsule.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Càpsula Habilitat.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_AbilityPatch::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmAbilityPatch, MSGBOX_YESNO
@@ -97,8 +97,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_AbilityPatch::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmAbilityPatch:
-	.string "You've chosen the Ability Patch.\n"
-	.string "Is that correct?$"
+	.string "Has triat el Pedaç Habilitat.\n"
+	.string "És correcte?$"
 
 
 BattleFrontier_ExchangeServiceCorner_EventScript_VitaminClerk::
@@ -283,174 +283,174 @@ BattleFrontier_ExchangeServiceCorner_EventScript_Girl::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize:
-	.string "Hello, this is the Exchange Service\n"
-	.string "Corner.\p"
-	.string "We exchange the Battle Points you\n"
-	.string "have collected for lovely prizes.\p"
-	.string "Please choose a prize from this list.$"
+	.string "Hola, aquesta és la Cantonada\n"
+	.string "d'Intercanvi.\p"
+	.string "Intercanviem els Punts de Combat\n"
+	.string "que has acumulat per premis.\p"
+	.string "Tria un premi de la llista.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmProtein:
-	.string "You've chosen the Protein.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Proteïna.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCalcium:
-	.string "You've chosen the Calcium.\n"
-	.string "Is that correct?$"
+	.string "Has triat el Calci.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmIron:
-	.string "You've chosen the Iron.\n"
-	.string "Is that correct?$"
+	.string "Has triat el Ferro.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmZinc:
-	.string "You've chosen the Zinc.\n"
-	.string "Is that correct?$"
+	.string "Has triat el Zinc.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCarbos:
-	.string "You've chosen the Carbos.\n"
-	.string "Is that correct?$"
+	.string "Has triat el Carbos.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmHPUp:
-	.string "You've chosen the HP Up.\n"
-	.string "Is that correct?$"
+	.string "Has triat el Més PS.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmBrightpowder:
-	.string "You've chosen the Brightpowder.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Pols Brillant.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmWhiteHerb:
-	.string "You've chosen the White Herb.\n"
-	.string "Is that correct?$"
+	.string "Has triat l'Herba Blanca.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmQuickClaw:
-	.string "You've chosen the Quick Claw.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Grapa Ràpida.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmMentalHerb:
-	.string "You've chosen the Mental Herb.\n"
-	.string "Is that correct?$"
+	.string "Has triat l'Herba Mental.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmChoiceBand:
-	.string "You've chosen the Choice Band.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Cinta Elecció.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmKingsRock:
-	.string "You've chosen the King's Rock.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Roca del Rei.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmFocusBand:
-	.string "You've chosen the Focus Band.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Cinta Focus.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmScopeLens:
-	.string "You've chosen the Scope Lens.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Lent Mira.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmLeftovers:
-	.string "You've chosen the Leftovers.\n"
-	.string "Is that correct?$"
+	.string "Has triat les Restes.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_WellSendItToPC:
-	.string "Thank you!\n"
-	.string "We'll send it to your PC at home.$"
+	.string "Gràcies!\n"
+	.string "T'ho enviarem al PC de casa.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_HereIsYourPrize:
-	.string "Here is your prize!$"
+	.string "Aquí tens el teu premi!$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DontHaveEnoughPoints:
-	.string "I'm so sorry…\n"
-	.string "You don't have enough Battle Points…$"
+	.string "Ho sento molt…\n"
+	.string "No tens prou Punts de Combat…$"
 
 BattleFrontier_ExchangeServiceCorner_Text_PCIsFull:
-	.string "I'm so sorry…\n"
-	.string "Your PC appears to be full…$"
+	.string "Ho sento molt…\n"
+	.string "Sembla que el teu PC és ple…$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DontHaveSpaceToHoldIt:
-	.string "I'm so sorry…\n"
-	.string "You don't have space to hold it…$"
+	.string "Ho sento molt…\n"
+	.string "No tens espai per guardar-ho…$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ThankYouVisitWithPoints:
-	.string "Thank you very much.\p"
-	.string "Please visit us when you have\n"
-	.string "saved up Battle Points.$"
+	.string "Moltes gràcies.\p"
+	.string "Torna a visitar-nos quan hagis\n"
+	.string "acumulat Punts de Combat.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ItemsWillGetMonTougher:
-	.string "If I can get hold of the items here,\n"
-	.string "my Pokémon will get tougher.\p"
-	.string "You bet they will!\n"
-	.string "No question about it!$"
+	.string "Si aconsegueixo els objectes d'aquí,\n"
+	.string "els meus Pokémon seran més forts.\p"
+	.string "Segur que sí!\n"
+	.string "No hi ha cap dubte!$"
 
 BattleFrontier_ExchangeServiceCorner_Text_MoreBattlePointsForRecord:
-	.string "Did you know?\p"
-	.string "If you stretch your record at any of\n"
-	.string "the Battle facilities, they start\l"
-	.string "giving you more and more Battle Points.$"
+	.string "Ho sabies?\p"
+	.string "Si superes el teu rècord a les\n"
+	.string "instal·lacions de Combat, et donen\l"
+	.string "cada cop més Punts de Combat.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ProteinDesc::
-	.string "Raises the stat Attack of one\n"
+	.string "Puja l'Atac d'un\n"
 	.string "Pokémon.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_CalciumDesc::
-	.string "Raises the stat Sp. Atk of one\n"
+	.string "Puja l'At. Esp. d'un\n"
 	.string "Pokémon.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_IronDesc::
-	.string "Raises the stat Defense of one\n"
+	.string "Puja la Defensa d'un\n"
 	.string "Pokémon.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ZincDesc::
-	.string "Raises the stat Sp. Def of one\n"
+	.string "Puja la Def. Esp. d'un\n"
 	.string "Pokémon.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_CarbosDesc::
-	.string "Raises the stat Speed of one\n"
+	.string "Puja la Velocitat d'un\n"
 	.string "Pokémon.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_HPUpDesc::
-	.string "Raises the HP of one Pokémon.$"
+	.string "Puja els PS d'un Pokémon.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_LeftoversDesc::
-	.string "A hold item that gradually restores\n"
-	.string "HP in battle.$"
+	.string "Objecte equipable que restaura\n"
+	.string "PS gradualment en combat.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_WhiteHerbDesc::
-	.string "A hold item that restores any\n"
-	.string "lowered stat.$"
+	.string "Objecte equipable que restaura\n"
+	.string "estadístiques baixades.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_QuickClawDesc::
-	.string "A hold item that occasionally allows\n"
-	.string "the first strike.$"
+	.string "Objecte equipable que de vegades\n"
+	.string "permet atacar primer.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_MentalHerbDesc::
-	.string "A hold item that snaps Pokémon out\n"
-	.string "of infatuation.$"
+	.string "Objecte equipable que cura\n"
+	.string "l'enamorament d'un Pokémon.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_BrightpowderDesc::
-	.string "A hold item that casts a glare to\n"
-	.string "reduce accuracy.$"
+	.string "Objecte equipable que redueix\n"
+	.string "la precisió del rival.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ChoiceBandDesc::
-	.string "Raises a move's power, but permits\n"
-	.string "only that move.$"
+	.string "Puja la potència d'un moviment,\n"
+	.string "però només permet aquell.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_KingsRockDesc::
-	.string "A hold item that may cause flinching\n"
-	.string "when the foe is hit.$"
+	.string "Objecte equipable que pot fer\n"
+	.string "retrocedir el rival en ser colpejat.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_FocusBandDesc::
-	.string "A hold item that occasionally\n"
-	.string "prevents fainting.$"
+	.string "Objecte equipable que de vegades\n"
+	.string "evita el debilitament.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ScopeLensDesc::
-	.string "A hold item that raises the\n"
-	.string "critical-hit rate.$"
+	.string "Objecte equipable que puja la\n"
+	.string "probabilitat de cop crític.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_AbilityCapsuleDesc::
-	.string "Switches a Pokémon's ability.$"
-	.string "critical-hit rate.$"
+	.string "Canvia l'habilitat d'un Pokémon.$"
+	.string "probabilitat de cop crític.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_AbilityPatchDesc::
-	.string "Turns the ability of a Pokémon into\n"
-	.string "a rare ability.$"
+	.string "Converteix l'habilitat d'un Pokémon\n"
+	.string "en una habilitat rara.$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_MintLady::
 	lock
@@ -499,8 +499,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_LonelyMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmLonelyMint:
-	.string "You've chosen the Lonely Mint.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Menta Solitària.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_LaxMint::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmLaxMint, MSGBOX_YESNO
@@ -511,8 +511,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_LaxMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmLaxMint:
-	.string "You've chosen the Lax Mint.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Menta Mandrosa.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_JollyMint::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmJollyMint, MSGBOX_YESNO
@@ -523,8 +523,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_JollyMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmJollyMint:
-	.string "You've chosen the Jolly Mint.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Menta Alegre.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_ImpishMint::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmImpishMint, MSGBOX_YESNO
@@ -535,8 +535,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_ImpishMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmImpishMint:
-	.string "You've chosen the Impish Mint.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Menta Agosarada.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_HastyMint::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmHastyMint, MSGBOX_YESNO
@@ -547,8 +547,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_HastyMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmHastyMint:
-	.string "You've chosen the Hasty Mint.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Menta Precipitada.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_AdamantMint::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmAdamantMint, MSGBOX_YESNO
@@ -559,8 +559,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_AdamantMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmAdamantMint:
-	.string "You've chosen the Adamant Mint.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Menta Ferma.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_BoldMint::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmBoldMint, MSGBOX_YESNO
@@ -571,8 +571,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_BoldMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmBoldMint:
-	.string "You've chosen the Bold Mint.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Menta Audaç.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_BraveMint::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmBraveMint, MSGBOX_YESNO
@@ -583,8 +583,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_BraveMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmBraveMint:
-	.string "You've chosen the Brave Mint.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Menta Valenta.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_CalmMint::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmCalmMint, MSGBOX_YESNO
@@ -595,8 +595,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_CalmMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCalmMint:
-	.string "You've chosen the Calm Mint.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Menta Serena.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_CarefulMint::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmCarefulMint, MSGBOX_YESNO
@@ -607,8 +607,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_CarefulMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCarefulMint:
-	.string "You've chosen the Careful Mint.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Menta Cautelosa.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_GentleMint::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmGentleMint, MSGBOX_YESNO
@@ -619,8 +619,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_GentleMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmGentleMint:
-	.string "You've chosen the Gentle Mint.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Menta Amable.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_ChooseMint2::
 	setvar VAR_0x8004, SCROLL_MULTI_BF_EXCHANGE_CORNER_MINT_LADY_2
@@ -652,8 +652,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_TimidMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmTimidMint:
-	.string "You've chosen the Timid Mint.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Menta Tímida.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_SeriousMint::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmSeriousMint, MSGBOX_YESNO
@@ -664,8 +664,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_SeriousMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmSeriousMint:
-	.string "You've chosen the Serious Mint.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Menta Seriosa.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_SassyMint::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmSassyMint, MSGBOX_YESNO
@@ -676,8 +676,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_SassyMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmSassyMint:
-	.string "You've chosen the Sassy Mint.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Menta Descortesa.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_RelaxedMint::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmRelaxedMint, MSGBOX_YESNO
@@ -688,8 +688,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_RelaxedMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmRelaxedMint:
-	.string "You've chosen the Relaxed Mint.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Menta Relaxada.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_RashMint::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmRashMint, MSGBOX_YESNO
@@ -700,8 +700,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_RashMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmRashMint:
-	.string "You've chosen the Rash Mint.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Menta Imprudent.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_QuietMint::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmQuietMint, MSGBOX_YESNO
@@ -712,8 +712,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_QuietMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmQuietMint:
-	.string "You've chosen the Quiet Mint.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Menta Tranquil·la.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_NaughtyMint::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmNaughtyMint, MSGBOX_YESNO
@@ -724,8 +724,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_NaughtyMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmNaughtyMint:
-	.string "You've chosen the Naughty Mint.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Menta Murri.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_NaiveMint::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmNaiveMint, MSGBOX_YESNO
@@ -736,8 +736,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_NaiveMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmNaiveMint:
-	.string "You've chosen the Naive Mint.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Menta Ingènua.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_ModestMint::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmModestMint, MSGBOX_YESNO
@@ -748,8 +748,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_ModestMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmModestMint:
-	.string "You've chosen the Modest Mint.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Menta Modesta.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_MildMint::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmMildMint, MSGBOX_YESNO
@@ -760,155 +760,155 @@ BattleFrontier_ExchangeServiceCorner_EventScript_MildMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmMildMint:
-	.string "You've chosen the Mild Mint.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Menta Suau.\n"
+	.string "És correcte?$"
 
 
 
 BattleFrontier_ExchangeServiceCorner_Text_AdamantMintDesc::
- 	.string "Loved by Pokémon!\n"
-    .string "This mint has an Adamant flavor.$"
+ 	.string "Encanta als Pokémon!\n"
+    .string "Té un sabor Ferm.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_BoldMintDesc::
-	.string "Loved by Pokémon!\n"
-    .string "This mint has a Bold flavor.$"
+	.string "Encanta als Pokémon!\n"
+    .string "Té un sabor Audaç.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_BraveMintDesc::
-	.string "Loved by Pokémon!\n"
-    .string "This mint has a Brave flavor.$"
+	.string "Encanta als Pokémon!\n"
+    .string "Té un sabor Valent.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_CalmMintDesc::
-	.string "Loved by Pokémon!\n"
-    .string "This mint has a Calm flavor.$"
+	.string "Encanta als Pokémon!\n"
+    .string "Té un sabor Serè.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_CarefulMintDesc::
-	.string "Loved by Pokémon!\n"
-    .string "This mint has a Careful flavor.$"
+	.string "Encanta als Pokémon!\n"
+    .string "Té un sabor Cautelós.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_GentleMintDesc::
-	.string "Loved by Pokémon!\n"
-    .string "This mint has a Gentle flavor.$"
+	.string "Encanta als Pokémon!\n"
+    .string "Té un sabor Amable.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_HastyMintDesc::
-	.string "Loved by Pokémon!\n"
-    .string "This mint has a Hasty flavor.$"
+	.string "Encanta als Pokémon!\n"
+    .string "Té un sabor Precipitat.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ImpishMintDesc::
-	.string "Loved by Pokémon!\n"
-    .string  "This mint has an Impish flavor.$"
+	.string "Encanta als Pokémon!\n"
+    .string  "Té un sabor Agosarat.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_JollyMintDesc::
-	.string "Loved by Pokémon!\n"
-    .string "This mint has a Jolly flavor.$"
+	.string "Encanta als Pokémon!\n"
+    .string "Té un sabor Alegre.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_LaxMintDesc::
-	.string "Loved by Pokémon!\n"
-    .string "This mint has a Lax flavor.$"
+	.string "Encanta als Pokémon!\n"
+    .string "Té un sabor Mandrós.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_LonelyMintDesc::
-	.string "Loved by Pokémon!\n"
-    .string "This mint has a Lonely flavor.$"
+	.string "Encanta als Pokémon!\n"
+    .string "Té un sabor Solitari.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_MildMintDesc::
-	.string "Loved by Pokémon!\n"
-    .string "This mint has a Mild flavor.$"
+	.string "Encanta als Pokémon!\n"
+    .string "Té un sabor Suau.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ModestMintDesc::
-    .string "Loved by Pokémon!\n"
-    .string "This mint has a Modest flavor.$"
+    .string "Encanta als Pokémon!\n"
+    .string "Té un sabor Modest.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_NaiveMintDesc::
-	.string "Loved by Pokémon!\n"
-    .string "This mint has a Naive flavor.$"
+	.string "Encanta als Pokémon!\n"
+    .string "Té un sabor Ingenu.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_NaughtyMintDesc::
-	.string "Loved by Pokémon!\n"
-    .string "This mint has a Naughty flavor.$"
+	.string "Encanta als Pokémon!\n"
+    .string "Té un sabor Murri.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_QuietMintDesc::
-	.string "Loved by Pokémon!\n"
-    .string "This mint has a Quiet flavor.$"
+	.string "Encanta als Pokémon!\n"
+    .string "Té un sabor Tranquil.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_RashMintDesc::
-	.string "Loved by Pokémon!\n"
-    .string "This mint has a Rash flavor.$"
+	.string "Encanta als Pokémon!\n"
+    .string "Té un sabor Imprudent.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_RelaxedMintDesc::
-	.string "Loved by Pokémon!\n"
-    .string "This mint has a Relaxed flavor.$"
+	.string "Encanta als Pokémon!\n"
+    .string "Té un sabor Relaxat.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_SassyMintDesc::
-	.string "Loved by Pokémon!\n"
-    .string "This mint has a Sassy flavor.$"
+	.string "Encanta als Pokémon!\n"
+    .string "Té un sabor Descortès.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_SeriousMintDesc::
-	.string "Loved by Pokémon!\n"
-    .string "This mint has a Serious flavor.$"
+	.string "Encanta als Pokémon!\n"
+    .string "Té un sabor Seriós.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_TimidMintDesc::
-	.string "Loved by Pokémon!\n"
-    .string "This mint has a Timid flavor.$"
+	.string "Encanta als Pokémon!\n"
+    .string "Té un sabor Tímid.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_RazorFang::
-    .string "A hold item that may cause\n"
-    .string "flinching when the foe is hit.$"
+    .string "Objecte equipable que pot fer\n"
+    .string "retrocedir el rival en ser colpejat.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_RazorClaw::
-    .string "A hooked claw that ups the\n"
-    .string "holder's critical-hit ratio.$"
+    .string "Urpa grapada que puja la\n"
+    .string "probabilitat de cop crític.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ChoiceSpecs::
-    .string "Boosts Sp. Atk, but allows\n"
-    .string "the use of only one move.$"
+    .string "Puja l'At. Esp., però només\n"
+    .string "permet un moviment.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ChoiceScarf::
-    .string "Boosts Speed, but allows\n"
-    .string "the use of only one move.$"
+    .string "Puja la Velocitat, però només\n"
+    .string "permet un moviment.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_MuscleBand::
-    .string "A headband that boosts\n"
-    .string "the power of physical moves.$"
+    .string "Cinta que puja la potència\n"
+    .string "dels moviments físics.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_LifeOrb::
-    .string "Boosts the power of moves at\n"
-    .string "the cost of some HP per turn.$"
+    .string "Puja la potència dels moviments\n"
+    .string "a canvi d'alguns PS per torn.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_PowerHerb::
-    .string "Allows immediate use of\n"
-    .string "a move that charges first.$"
+    .string "Permet l'ús immediat d'un\n"
+    .string "moviment que requereix càrrega.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_WiseGlasses::
-    .string "A pair of glasses that ups\n"
-    .string "the power of special moves.$"
+    .string "Ulleres que pugen la potència\n"
+    .string "dels moviments especials.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_RedCard::
-    .string "Switches out the foe\n"
-    .string "if they hit the holder.$"
+    .string "Fa canviar el rival si\n"
+    .string "colpeja el portador.$"
 
 
 BattleFrontier_ExchangeServiceCorner_Text_PowerAnklet::
-    .string "A hold item that promotes\n"
-    .string "Spd gain, but reduces Speed.$"
+    .string "Objecte equipable que potencia\n"
+    .string "guany Vel., però baixa Velocitat.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_PowerBracer::
-    .string "A hold item that promotes\n"
-    .string "Atk gain, but reduces Speed.$"
+    .string "Objecte equipable que potencia\n"
+    .string "guany Atc., però baixa Velocitat.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_PowerBelt::
-    .string "A hold item that promotes\n"
-    .string "Def gain, but reduces Speed.$"
+    .string "Objecte equipable que potencia\n"
+    .string "guany Def., però baixa Velocitat.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_PowerBand::
-    .string "A hold item that promotes\n"
-    .string "Sp. Def gain, but reduces Speed.$"
+    .string "Objecte equipable que potencia\n"
+    .string "guany Def.Esp., baixa Velocitat.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_PowerWeight::
-    .string "A hold item that promotes\n"
-    .string "HP gain, but reduces Speed.$"
+    .string "Objecte equipable que potencia\n"
+    .string "guany PS, però baixa Velocitat.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_PowerLens::
-    .string "A hold item that promotes\n"
-    .string "Sp. Atk gain, reduces Speed.$"
+    .string "Objecte equipable que potencia\n"
+    .string "guany At.Esp., baixa Velocitat.$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_HoldItemClerk2::
 	lock
@@ -947,8 +947,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_RazorFang::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmRazorFang:
-	.string "You've chosen the Razor Fang.\n"
-	.string "Is that correct?$"
+	.string "Has triat l'Ullal Esmolat.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_RazorClaw::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmRazorClaw, MSGBOX_YESNO
@@ -959,8 +959,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_RazorClaw::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmRazorClaw:
-	.string "You've chosen the Razor Claw.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Grapa Esmolada.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_ChoiceSpecs::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmChoiceSpecs, MSGBOX_YESNO
@@ -971,8 +971,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_ChoiceSpecs::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmChoiceSpecs:
-	.string "You've chosen the ChoiceSpecs.\n"
-	.string "Is that correct?$"
+	.string "Has triat les Ulleres Elecció.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_ChoiceScarf::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmChoiceScarf, MSGBOX_YESNO
@@ -983,8 +983,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_ChoiceScarf::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmChoiceScarf:
-	.string "You've chosen the Choice Scarf.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Bufanda Elecció.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_MuscleBand::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmMuscleBand, MSGBOX_YESNO
@@ -995,8 +995,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_MuscleBand::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmMuscleBand:
-	.string "You've chosen the Muscle Band.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Cinta Musculosa.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_LifeOrb::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmLifeOrb, MSGBOX_YESNO
@@ -1007,8 +1007,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_LifeOrb::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmLifeOrb:
-	.string "You've chosen the Life Orb.\n"
-	.string "Is that correct?$"
+	.string "Has triat l'Esfera Vital.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_PowerHerb::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmPowerHerb, MSGBOX_YESNO
@@ -1019,8 +1019,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_PowerHerb::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmPowerHerb:
-	.string "You've chosen the Power Herb.\n"
-	.string "Is that correct?$"
+	.string "Has triat l'Herba Potent.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_WiseGlasses::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmWiseGlasses, MSGBOX_YESNO
@@ -1031,8 +1031,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_WiseGlasses::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmWiseGlasses:
-	.string "You've chosen the Wise Glasses.\n"
-	.string "Is that correct?$"
+	.string "Has triat les Ulleres Sàvies.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_RedCard::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmRedCard, MSGBOX_YESNO
@@ -1043,8 +1043,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_RedCard::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmRedCard:
-	.string "You've chosen the Red Card.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Targeta Vermella.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_PowerItemClerk::
 	lock
@@ -1081,8 +1081,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_PowerAnklet::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmPowerAnklet:
-	.string "You've chosen the Power Anklet.\n"
-	.string "Is that correct?$"
+	.string "Has triat el Turmell Potent.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_PowerBracer::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmPowerBracer, MSGBOX_YESNO
@@ -1093,8 +1093,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_PowerBracer::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmPowerBracer:
-	.string "You've chosen the Power Bracer.\n"
-	.string "Is that correct?$"
+	.string "Has triat el Braçal Potent.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_PowerBelt::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmPowerBelt, MSGBOX_YESNO
@@ -1105,8 +1105,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_PowerBelt::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmPowerBelt:
-	.string "You've chosen the Power Belt.\n"
-	.string "Is that correct?$"
+	.string "Has triat el Cinturó Potent.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_PowerBand::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmPowerBand, MSGBOX_YESNO
@@ -1117,8 +1117,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_PowerBand::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmPowerBand:
-	.string "You've chosen the Power Band.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Banda Potent.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_PowerWeight::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmPowerWeight, MSGBOX_YESNO
@@ -1129,8 +1129,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_PowerWeight::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmPowerWeight:
-	.string "You've chosen the Power Weight.\n"
-	.string "Is that correct?$"
+	.string "Has triat el Pes Potent.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_PowerLens::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmPowerLens, MSGBOX_YESNO
@@ -1141,8 +1141,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_PowerLens::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmPowerLens:
-	.string "You've chosen the Power Lens.\n"
-	.string "Is that correct?$"
+	.string "Has triat la Lent Potent.\n"
+	.string "És correcte?$"
 
 
 BattleFrontier_ExchangeServiceCorner_EventScript_CandyClerk::
@@ -1182,8 +1182,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_HPCandy::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmHPCandy:
-	.string "You've chosen the HP Candy.\n"
-	.string "Is that correct?$"
+	.string "Has triat el Caramel PS.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_ATKCandy::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmATKCandy, MSGBOX_YESNO
@@ -1194,8 +1194,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_ATKCandy::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmATKCandy:
-	.string "You've chosen the Atk Candy.\n"
-	.string "Is that correct?$"
+	.string "Has triat el Caramel Atac.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_DEFCandy::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmDEFCandy, MSGBOX_YESNO
@@ -1206,8 +1206,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_DEFCandy::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmDEFCandy:
-	.string "You've chosen the Def Candy.\n"
-	.string "Is that correct?$"
+	.string "Has triat el Caramel Defensa.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_SPATKCandy::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmSPATKCandy, MSGBOX_YESNO
@@ -1218,8 +1218,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_SPATKCandy::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmSPATKCandy:
-	.string "You've chosen the Sp.Atk Candy.\n"
-	.string "Is that correct?$"
+	.string "Has triat el Caramel At.Esp.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_SPDEFCandy::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmSPDEFCandy, MSGBOX_YESNO
@@ -1230,8 +1230,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_SPDEFCandy::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmSPDEFCandy:
-	.string "You've chosen the Sp.Def Candy.\n"
-	.string "Is that correct?$"
+	.string "Has triat el Caramel Def.Esp.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_SPEEDCandy::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmSPEEDCandy, MSGBOX_YESNO
@@ -1242,8 +1242,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_SPEEDCandy::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmSPEEDCandy:
-	.string "You've chosen the Speed Candy.\n"
-	.string "Is that correct?$"
+	.string "Has triat el Caramel Velocitat.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_MAXCandy::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmMAXCandy, MSGBOX_YESNO
@@ -1254,8 +1254,8 @@ BattleFrontier_ExchangeServiceCorner_EventScript_MAXCandy::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmMAXCandy:
-	.string "You've chosen the Max Candy.\n"
-	.string "Is that correct?$"
+	.string "Has triat el Caramel Màxim.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_RESETCandy::
 	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmRESETCandy, MSGBOX_YESNO
@@ -1266,29 +1266,29 @@ BattleFrontier_ExchangeServiceCorner_EventScript_RESETCandy::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmRESETCandy:
-	.string "You've chosen the Reset Candy.\n"
-	.string "Is that correct?$"
+	.string "Has triat el Caramel Reinici.\n"
+	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_HPCandy::
-    .string "Raises a Pokémon'score HP stat.$"
+    .string "Puja els PS base d'un Pokémon.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ATKCandy::
-    .string "Raises a Pokémon's core Attack stat.$"
+    .string "Puja l'Atac base d'un Pokémon.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DEFCandy::
-    .string "Raises a Pokémon's core Defense stat.$"
+    .string "Puja la Defensa base d'un Pokémon.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_SPATKCandy::
-   .string  "Raises a Pokémon's core Sp. Attack stat.$"
+   .string  "Puja l'At. Esp. base d'un Pokémon.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_SPDEFCandy::
-    .string "Raises a Pokémon's core Sp. Defense stat.$"
+    .string "Puja la Def. Esp. base d'un Pokémon.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_SPEEDCandy::
-   .string  "Raises a Pokémon's core Speed stat.$"
+   .string  "Puja la Velocitat base d'un Pokémon.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_MAXCandy::
-    .string "Maximizes a Pokémon's core stats.$"
+    .string "Maximitza les estad. base d'un Pokémon.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_RESETCandy::
-    .string "Neutralizes a Pokémon's core stats.$"
+    .string "Neutralitza les estad. base d'un Pokémon.$"

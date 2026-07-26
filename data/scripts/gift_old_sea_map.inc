@@ -35,24 +35,24 @@ OldSeaMap_Obtained:
 	end
 
 sText_MysteryGiftOldSeaMapForYou:
-	.string "Thank you for using the Mystery\n"
-	.string "Gift System.\p"
-	.string "Let me confirm--you are {PLAYER}?\p"
-	.string "We received this Old Sea Map\n"
-	.string "addressed to you.$"
+	.string "Gràcies per utilitzar el sistema\n"
+	.string "de Regal Misteriós.\p"
+	.string "Deixa'm confirmar: ets {PLAYER}?\p"
+	.string "Hem rebut aquest Mapa Marí Antic\n"
+	.string "adreçat a tu.$"
 
 sText_MysteryGiftOldSeaMapUseAtPort:
-	.string "It appears to be for use at the\n"
-	.string "Lilycove City port.\p"
-	.string "Why not give it a try and see what\n"
-	.string "it is about?$"
+	.string "Sembla que és per fer servir al\n"
+	.string "port de Ciutat Lliricove.\p"
+	.string "Per què no ho proves i veus\n"
+	.string "de què es tracta?$"
 
 sText_MysteryGiftOldSeaMapThankYou:
-	.string "Thank you for using the Mystery\n"
-	.string "Gift System.$"
+	.string "Gràcies per utilitzar el sistema\n"
+	.string "de Regal Misteriós.$"
 
 sText_MysteryGiftOldSeaMapBagFull:
-	.string "Oh, I'm sorry, {PLAYER}.\n"
-	.string "Your Bag's Key Items Pocket is full.\p"
-	.string "Please store something on your PC,\n"
-	.string "then come back for this.$"
+	.string "Oh, ho sento, {PLAYER}.\n"
+	.string "La Butxaca d'Obj. Clau és plena.\p"
+	.string "Desa alguna cosa al teu PC\n"
+	.string "i torna a buscar-ho.$"

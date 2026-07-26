@@ -17,12 +17,12 @@ LavenderTown_EventScript_LittleGirl::
 	end
 
 LavenderTown_Text_DoYouBelieveInGhosts::
-    .string "Do you believe in ghosts?$"
+    .string "Creus en els fantasmes?$"
 
 LavenderTown_Text_JustImaginingWhiteHand::
-    .string "Hahaha, I guess not.\p"
-    .string "That white hand on your shoulder…\n"
-    .string "I'm just imagining it.$"
+    .string "Hahaha, ja veig que no.\p"
+    .string "Aquella mà blanca a la teva\n"
+    .string "espatlla… M'ho estic imaginant.$"
 
 
 LavenderTown_EventScript_LittleGirlBelieve::
@@ -31,31 +31,32 @@ LavenderTown_EventScript_LittleGirlBelieve::
 	end
 
 LavenderTown_Text_SoThereAreBelievers::
-    .string "Really?\n"
-    .string "So there are believers…$"
+    .string "De veritat?\n"
+    .string "Així que hi ha qui hi creu…$"
 
 LavenderTown_EventScript_WorkerM::
 	msgbox LavenderTown_Text_TownKnownAsMonGraveSite, MSGBOX_NPC
 	end
 
 LavenderTown_Text_TownKnownAsMonGraveSite::
-    .string "This town is known as the grave\n"
-    .string "site of Pokémon.\p"
-    .string "Memorial services are held in\n"
-    .string "Pokémon Tower.$"
+    .string "Aquesta ciutat és coneguda com\n"
+    .string "el cementiri dels Pokémon.\p"
+    .string "Es fan serveis commemoratius\n"
+    .string "a la Torre Pokémon.$"
 
 LavenderTown_EventScript_Boy::
 	msgbox LavenderTown_Text_GhostsAppearedInTower, MSGBOX_NPC
 	end
 
 LavenderTown_Text_GhostsAppearedInTower::
-    .string "Ghosts appeared in Pokémon Tower.\p"
-    .string "I think they're the spirits of\n"
-    .string "Pokémon that the Rockets killed.$"
+    .string "Han aparegut fantasmes a la\n"
+    .string "Torre Pokémon.\p"
+    .string "Crec que són els esperits dels\n"
+    .string "Pokémon que els Rockets van matar.$"
 
 LavenderTown_Text_TownSign::
-    .string "Lavender Town\n"
-    .string "The Noble Purple Town$"
+    .string "Poble Lavanda\n"
+    .string "El Noble Poble Porpra$"
 
 LavenderTown_EventScript_TownSign::
 	msgbox LavenderTown_Text_TownSign, MSGBOX_SIGN
@@ -66,22 +67,22 @@ LavenderTown_EventScript_TrainerTips::
 	end
 
 LavenderTown_Text_TrainerTips::
-    .string "Trainer Tips!\n"
-    .string "Hold the A Button to walk quietly\n"
-    .string "when using your PokéNav!$"
+    .string "Consells d'Entrenador!\n"
+    .string "Mantén premut el Botó A per\n"
+    .string "caminar en silenci amb el PokéNav!$"
 
 LavenderTown_EventScript_VolunteerHouseSign::
 	msgbox LavenderTown_Text_VolunteerPokemonHouse, MSGBOX_SIGN
 	end
 
 LavenderTown_Text_VolunteerPokemonHouse::
-    .string "Lavender Volunteer\n"
-    .string "Pokémon House$"
+    .string "Casa Voluntària\n"
+    .string "Pokémon de Lavanda$"
 
 LavenderTown_EventScript_PokemonTowerSign::
 	msgbox LavenderTown_Text_PokemonTowerSign, MSGBOX_SIGN
 	end
 
 LavenderTown_Text_PokemonTowerSign::
-    .string "Pokémon Tower\n"
-    .string "Becalm the Spirits of Pokémon$"
+    .string "Torre Pokémon\n"
+    .string "Calma els Esperits dels Pokémon$"

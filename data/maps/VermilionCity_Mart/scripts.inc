@@ -6,22 +6,23 @@ VermilionCity_Mart_EventScript_CooltrainerF::
 	end
 
 VermilionCity_Mart_Text_MonsGoodOrBadDependingOnTrainer::
-    .string "I think Pokémon can be good or\n"
-    .string "bad. It depends on the trainer.$"
+    .string "Crec que els Pokémon poden ser\n"
+    .string "bons o dolents. Depèn de\l"
+    .string "l'entrenador.$"
 
 VermilionCity_Mart_EventScript_BaldingMan::
 	msgbox VermilionCity_Mart_Text_TeamRocketAreWickedPeople, MSGBOX_NPC
 	end
 
 VermilionCity_Mart_Text_TeamRocketAreWickedPeople::
-    .string "There are wicked people who will\n"
-    .string "use Pokémon for criminal acts.\p"
-    .string "Team Rocket traffics in rare\n"
-    .string "Pokémon, for example.\p"
-    .string "They also abandon Pokémon that\n"
-    .string "they consider unpopular or useless.\p"
-    .string "That's the sort of horrid people\n"
-    .string "they are, Team Rocket.$"
+    .string "Hi ha gent malvada que farà\n"
+    .string "servir Pokémon per actes criminals.\p"
+    .string "L'Equip Rocket trafica amb\n"
+    .string "Pokémon rars, per exemple.\p"
+    .string "També abandonen els Pokémon que\n"
+    .string "consideren impopulars o inútils.\p"
+    .string "Aquesta és la mena de gent\n"
+    .string "horrible que són, l'Equip Rocket.$"
 
 VermilionCity_Mart_EventScript_Clerk::
 	lock

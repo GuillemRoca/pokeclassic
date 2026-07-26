@@ -12,15 +12,15 @@ SSAnne_2F_Room2_EventScript_Dale::
 	end
 
 SSAnne_2F_Room2_Text_DaleIntro::
-    .string "Check out what I fished up!$"
+    .string "Mira què he pescat!$"
 
 SSAnne_2F_Room2_Text_DaleDefeat::
-    .string "I'm all out!$"
+    .string "No me'n queden!$"
 
 SSAnne_2F_Room2_Text_DalePostBattle::
-    .string "Party?\p"
-    .string "The cruise ship's party should be\n"
-    .string "over by now.$"
+    .string "Festa?\p"
+    .string "La festa del creuer ja hauria\n"
+    .string "d'haver acabat.$"
 
 SSAnne_2F_Room2_EventScript_Brooks::
 	trainerbattle_single TRAINER_GENTLEMAN_BROOKS, SSAnne_2F_Room2_Text_BrooksIntro, SSAnne_2F_Room2_Text_BrooksDefeat
@@ -28,13 +28,13 @@ SSAnne_2F_Room2_EventScript_Brooks::
 	end
 
 SSAnne_2F_Room2_Text_BrooksIntro::
-    .string "Competing against the young keeps\n"
-    .string "me youthful.$"
+    .string "Competir contra els joves em\n"
+    .string "manté jove.$"
 
 SSAnne_2F_Room2_Text_BrooksDefeat::
-    .string "Good match!\n"
-    .string "Ah, I feel young again!$"
+    .string "Bon combat!\n"
+    .string "Ah, em sento jove de nou!$"
 
 SSAnne_2F_Room2_Text_BrooksPostBattle::
-    .string "Fifteen years ago, I would\n"
-    .string "have won!$"
+    .string "Fa quinze anys, hauria\n"
+    .string "guanyat!$"

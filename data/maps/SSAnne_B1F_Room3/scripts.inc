@@ -7,15 +7,17 @@ SSAnne_B1F_Room3_EventScript_Dylan::
 	end
 
 SSAnne_B1F_Room3_Text_DylanIntro::
-    .string "I like feisty kids like you!$"
+    .string "M'agraden els nens valents\n"
+    .string "com tu!$"
 
 SSAnne_B1F_Room3_Text_DylanDefeat::
     .string "Argh!\n"
-    .string "Lost it!$"
+    .string "L'he perdut!$"
 
 SSAnne_B1F_Room3_Text_DylanPostBattle::
-    .string "Sea Pokémon live in deep water.\n"
-    .string "You'll need a rod to fish them up!$"
+    .string "Els Pokémon marins viuen a\n"
+    .string "aigües profundes. Necessitaràs\l"
+    .string "una canya per pescar-los!$"
 
 SSAnne_B1F_Room3_EventScript_ItemEther::
 	finditem ITEM_ETHER, 1

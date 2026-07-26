@@ -6,18 +6,18 @@ Route12_NorthEntrance_2F_EventScript_LeftBinoculars::
 	end
 
 Route12_NorthEntrance_2F_Text_TheresManFishing::
-    .string "Let's see what the binoculars have\n"
-    .string "to show…\p"
-    .string "There's a man fishing!$"
+    .string "A veure què mostren els\n"
+    .string "prismàtics…\p"
+    .string "Hi ha un home pescant!$"
 
 Route12_NorthEntrance_2F_EventScript_RightBinoculars::
 	msgbox Route12_NorthEntrance_2F_Text_ItsPokemonTower, MSGBOX_SIGN
 	end
 
 Route12_NorthEntrance_2F_Text_ItsPokemonTower::
-    .string "Let's see what the binoculars have\n"
-    .string "to show…\p"
-    .string "It's Pokémon Tower!$"
+    .string "A veure què mostren els\n"
+    .string "prismàtics…\p"
+    .string "És la Torre Pokémon!$"
 
 Route12_NorthEntrance_2F_EventScript_Lass::
 	lock
@@ -38,14 +38,14 @@ Route12_NorthEntrance_2F_EventScript_Lass::
 	end
 
 Route12_NorthEntrance_2F_Text_ReceivedTM27::
-    .string "{PLAYER} received TM27\n"
-    .string "from the mourning girl.$"
+    .string "{PLAYER} ha rebut la MT27\n"
+    .string "de la noia en dol.$"
 
 Route12_NorthEntrance_2F_Text_TakeTMDontNeedAnymore::
-    .string "My Pokémon's ashes are stored in\n"
-    .string "Pokémon Tower.\p"
-    .string "You can have this TM.\n"
-    .string "I don't need it anymore…$"
+    .string "Les cendres del meu Pokémon són\n"
+    .string "a la Torre Pokémon.\p"
+    .string "Pots quedar-te aquesta MT.\n"
+    .string "Ja no la necessito…$"
 
 Route12_NorthEntrance_2F_EventScript_ExplainTM27::
     msgbox Route12_NorthEntrance_2F_Text_ExplainTM27
@@ -53,15 +53,16 @@ Route12_NorthEntrance_2F_EventScript_ExplainTM27::
     end
 
 Route12_NorthEntrance_2F_Text_ExplainTM27::
-    .string "TM27 is a move called Return…\p"
-    .string "If you treat your Pokémon good,\n"
-    .string "it will return your love by working\l"
-    .string "its hardest in battle.$"
+    .string "La MT27 és un moviment anomenat\n"
+    .string "Retorn…\p"
+    .string "Si tractes bé els teus Pokémon,\n"
+    .string "et retornaran l'amor lluitant\l"
+    .string "amb totes les forces.$"
 
 Route12_NorthEntrance_2F_EventScript_NoRoomForTM27::
     msgbox Route12_NorthEntrance_2F_Text_DontHaveRoomForThis
     release
     end
-    
+
 Route12_NorthEntrance_2F_Text_DontHaveRoomForThis::
-    .string "You don't have room for this.$"
+    .string "No tens lloc per a això.$"

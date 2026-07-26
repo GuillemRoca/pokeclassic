@@ -12,7 +12,7 @@ Route5_SouthEntrance_EventScript_Guard::
 	end
 
 Route5_SouthEntrance_Text_HiHowsItGoing::
-    .string "Hi, how's it going?$"
+    .string "Ei, com va?$"
 
 Route5_SouthEntrance_EventScript_RoadsClosed::
 	msgbox Route5_SouthEntrance_Text_RoadsClosed, MSGBOX_NPC
@@ -20,9 +20,9 @@ Route5_SouthEntrance_EventScript_RoadsClosed::
 	end
 
 Route5_SouthEntrance_Text_RoadsClosed::
-    .string "Oh, by the way, the road's closed.\p"
-    .string "The International Police are on\n"
-    .string "the hunt for Team Rocket!$"
+    .string "Ah, per cert, el camí és tancat.\p"
+    .string "La Policia Internacional està\n"
+    .string "a la caça de l'Equip Rocket!$"
 
 Route5_SouthEntrance_EventScript_GuardThirsty::
 	msgbox Route5_SouthEntrance_Text_ThirstyOnGuardDuty, MSGBOX_NPC
@@ -41,24 +41,24 @@ Route5_SouthEntrance_EventScript_GuardThirsty::
 	end
 
 Route5_SouthEntrance_Text_ThirstyOnGuardDuty::
-    .string "I'm on guard duty.\n"
-    .string "Gee, I'm thirsty, though!$"
+    .string "Estic de guàrdia.\n"
+    .string "Uf, tinc molta set, però!$"
 
 Route5_SouthEntrance_Text_ThatTeaLooksTasty::
-    .string "Oh, that tea…\n"
-    .string "It looks awfully tasty…$"
+    .string "Oh, aquest te…\n"
+    .string "Sembla molt bo…$"
 
 Route5_SouthEntrance_Text_ThanksIllShareTeaWithGuards::
-    .string "Huh? I can have this drink?\n"
-    .string "Gee, thanks!\l"
+    .string "Eh? Me'l puc quedar?\n"
+    .string "Gràcies!\l"
     .string "… …\l"
-    .string "Glug, glug…\l"
+    .string "Glup, glup…\l"
     .string "… …\l"
     .string "Gulp…\l"
     .string "… …\l"
-    .string "That really hits the spot!…\p"
-    .string "I'll share this tea with the other\n"
-    .string "guards!$"
+    .string "Això refresca de debò!…\p"
+    .string "Compartiré aquest te amb els\n"
+    .string "altres guàrdies!$"
 
 Route5_SouthEntrance_EventScript_DenyGuard::
 	msgbox Route5_SouthEntrance_Text_ThatsAShame, MSGBOX_NPC
@@ -66,8 +66,8 @@ Route5_SouthEntrance_EventScript_DenyGuard::
 	end
 
 Route5_SouthEntrance_Text_ThatsAShame::
-	.string "Oh, that's a shame.\n"
-	.string "I sure could use a drink...$"
+	.string "Oh, quina llàstima.\n"
+	.string "Bé m'aniria una beguda...$"
 
 Route5_SouthEntrance_EventScript_GuardSmallTalk::
 	goto_if_unset FLAG_DELIVERED_ROCKET_PLANS, Route5_SouthEntrance_EventScript_RoadsClosed
@@ -82,9 +82,10 @@ Route5_SouthEntrance_EventScript_Jenny::
 	end
 
 Route5_SouthEntrance_Text_TipAboutTeamRocket::
-	.string "We received a tip that Team Rocket\n"
-	.string "may be passing this way, so we can't\l"
-	.string "let anyone through right now.$"
+	.string "Hem rebut una pista que l'Equip\n"
+	.string "Rocket podria passar per aquí,\l"
+	.string "així que no podem deixar\l"
+	.string "passar ningú ara mateix.$"
 
 Route5_SouthEntrance_EventScript_DeliverRocketPlans::
 	removeitem ITEM_ROCKET_PLANS
@@ -103,14 +104,14 @@ Route5_SouthEntrance_EventScript_DeliverRocketPlans::
 	end
 
 Route5_SouthEntrance_Text_DeliverRocketPlans::
-	.string "What? You've found some of Team\n"
-	.string "Rocket's plans?\p"
-	.string "This better not be a prank, kid.\p"
-	.string "I'll have to see those...\n"
+	.string "Què? Has trobat plans de\n"
+	.string "l'Equip Rocket?\p"
+	.string "Més val que no sigui una broma.\p"
+	.string "Hauré de veure-ho…\n"
 	.string "... ... ...\p"
-	.string "These appear to be authentic!\p"
-	.string "I need to deliver these to the\n"
-	.string "Inspector right away!$"
+	.string "Semblen autèntics!\p"
+	.string "He de portar-los a l'Inspector\n"
+	.string "immediatament!$"
 
 Route5_SouthEntrance_Movement_JennyExit:
 	face_down

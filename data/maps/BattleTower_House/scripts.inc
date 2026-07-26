@@ -9,13 +9,12 @@ BattleTower_House_Scott::
 	end
 
 BattleTower_House_Text_Scott::
-	.string "Scott: Hey, Champ!\n"
-	.string "Enjoying the Battle Tower?\p"
-	.string "I think I'm finally going to\n"
-	.string "to take a break from scouting\l"
-	.string "trainers.\p"
-	.string "Who knows, maybe I'll try out\n"
-	.string "some battles of my own! Ha!$"
+	.string "Scott: Ei, Campió/ona!\n"
+	.string "Gaudint de la Torre de Combat?\p"
+	.string "Crec que per fi faré un descans\n"
+	.string "de buscar Entrenadors.\p"
+	.string "Qui sap, potser provaré\n"
+	.string "uns combats jo mateix! Ha!$"
 
 BattleTower_House_Sign::
 	msgbox BattleTower_House_Text_Permit, MSGBOX_SIGN
@@ -23,5 +22,5 @@ BattleTower_House_Sign::
 	end
 
 BattleTower_House_Text_Permit::
-	.string "It's a permit to build the\n"
-	.string "the Battle Tower!$"
+	.string "És un permís per construir\n"
+	.string "la Torre de Combat!$"

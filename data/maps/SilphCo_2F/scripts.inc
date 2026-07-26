@@ -12,8 +12,8 @@ SilphCo_2F_EventScript_FloorSign::
 	end
 
 SilphCo_2F_Text_FloorSign::
-    .string "Silph Co. Head Office\n"
-    .string "2F$"
+    .string "Seu Central de Silph S.A.\n"
+    .string "2n pis$"
 
 SilphCo_2F_EventScript_Connor::
 	trainerbattle_single TRAINER_SCIENTIST_CONNOR, SilphCo_2F_Text_ConnorIntro, SilphCo_2F_Text_ConnorDefeat
@@ -21,16 +21,16 @@ SilphCo_2F_EventScript_Connor::
 	end
 
 SilphCo_2F_Text_ConnorIntro::
-    .string "Help!\n"
-    .string "I'm a Silph employee.$"
+    .string "Ajuda!\n"
+    .string "Sóc un empleat de Silph.$"
 
 SilphCo_2F_Text_ConnorDefeat::
-    .string "How did you know\n"
-    .string "I was a Rocket?$"
+    .string "Com has sabut que era\n"
+    .string "un Rocket?$"
 
 SilphCo_2F_Text_ConnorPostBattle::
-    .string "I work for both Silph and Team\n"
-    .string "Rocket.$"
+    .string "Treballo per Silph i per l'Equip\n"
+    .string "Rocket alhora.$"
 
 SilphCo_2F_EventScript_Jerry::
 	trainerbattle_single TRAINER_SCIENTIST_JERRY, SilphCo_2F_Text_JerryIntro, SilphCo_2F_Text_JerryDefeat
@@ -38,15 +38,15 @@ SilphCo_2F_EventScript_Jerry::
 	end
 
 SilphCo_2F_Text_JerryIntro::
-    .string "It's off-limits here!\n"
-    .string "Go home!$"
+    .string "Aquí és zona restringida!\n"
+    .string "Vés-te'n a casa!$"
 
 SilphCo_2F_Text_JerryDefeat::
-    .string "You're good.$"
+    .string "Ets bo.$"
 
 SilphCo_2F_Text_JerryPostBattle::
-    .string "Can you solve the maze in here?\n"
-    .string "It's not easy, I tell you!$"
+    .string "Pots resoldre el laberint d'aquí?\n"
+    .string "No és fàcil, t'ho dic!$"
 
 SilphCo_2F_EventScript_Grunt1::
 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_23, SilphCo_2F_Text_Grunt1Intro, SilphCo_2F_Text_Grunt1Defeat
@@ -54,16 +54,16 @@ SilphCo_2F_EventScript_Grunt1::
 	end
 
 SilphCo_2F_Text_Grunt1Intro::
-    .string "No kids are allowed in here!$"
+    .string "No es deixen entrar nens aquí!$"
 
 SilphCo_2F_Text_Grunt1Defeat::
-    .string "Tough!$"
+    .string "Dur!$"
 
 SilphCo_2F_Text_Grunt1PostBattle::
-    .string "Diamond-shaped tiles are teleport\n"
-    .string "blocks.\p"
-    .string "They're transporters for this\n"
-    .string "high-tech building.$"
+    .string "Les rajoles en forma de diamant\n"
+    .string "són blocs de teletransport.\p"
+    .string "Són transportadors d'aquest\n"
+    .string "edifici d'alta tecnologia.$"
 
 SilphCo_2F_EventScript_Grunt2::
 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_24, SilphCo_2F_Text_Grunt2Intro, SilphCo_2F_Text_Grunt2Defeat
@@ -71,13 +71,13 @@ SilphCo_2F_EventScript_Grunt2::
 	end
 
 SilphCo_2F_Text_Grunt2Intro::
-    .string "Hey, kid!\n"
-    .string "What are you wandering here for?$"
+    .string "Ei, nen!\n"
+    .string "Què fas voltant per aquí?$"
 
 SilphCo_2F_Text_Grunt2Defeat::
-    .string "I goofed!$"
+    .string "He fallat!$"
 
 SilphCo_2F_Text_Grunt2PostBattle::
-    .string "Silph Co. will be associated with\n"
-    .string "Team Rocket!$"
+    .string "Silph S.A. s'associarà amb\n"
+    .string "l'Equip Rocket!$"
 

@@ -6,9 +6,9 @@ Debug_ShowFieldMessageStringVar4::
 	end
 
 Debug_CheckWeekDay_Text:
-	.string "Aaaaah, yes!\l"
-	.string "{STR_VAR_1}s are made for dads!\l"
-	.string "And dad's car!$"
+	.string "Aaaaah, sí!\l"
+	.string "Els {STR_VAR_1}s són per als pares!\l"
+	.string "I el cotxe del papa!$"
 
 Debug_CheatStart::
 	lockall

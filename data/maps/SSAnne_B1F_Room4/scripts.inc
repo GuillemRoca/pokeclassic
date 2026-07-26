@@ -7,16 +7,16 @@ SSAnne_B1F_Room4_EventScript_Leonard::
 	end
 
 SSAnne_B1F_Room4_Text_LeonardIntro::
-    .string "You know what they say about\n"
-    .string "sailors and battling!$"
+    .string "Ja saps què diuen dels mariners\n"
+    .string "i els combats!$"
 
 SSAnne_B1F_Room4_Text_LeonardDefeat::
-    .string "Right!\n"
-    .string "Good battle, mate!$"
+    .string "Bé!\n"
+    .string "Bon combat, company!$"
 
 SSAnne_B1F_Room4_Text_LeonardPostBattle::
     .string "Hahaha!\n"
-    .string "Want to be a sailor, mate?$"
+    .string "Vols ser mariner, company?$"
 
 SSAnne_B1F_Room4_EventScript_Duncan::
 	trainerbattle_single TRAINER_SAILOR_DUNCAN, SSAnne_B1F_Room4_Text_DuncanIntro, SSAnne_B1F_Room4_Text_DuncanDefeat
@@ -24,12 +24,12 @@ SSAnne_B1F_Room4_EventScript_Duncan::
 	end
 
 SSAnne_B1F_Room4_Text_DuncanIntro::
-    .string "Come on, then!\n"
-    .string "My sailor's pride is at stake!$"
+    .string "Vine, doncs!\n"
+    .string "El meu orgull de mariner hi va!$"
 
 SSAnne_B1F_Room4_Text_DuncanDefeat::
-    .string "Your spirit sank me!$"
+    .string "El teu esperit m'ha enfonsat!$"
 
 SSAnne_B1F_Room4_Text_DuncanPostBattle::
-    .string "Did you see the Fishing Guru in\n"
-    .string "Vermilion City?$"
+    .string "Has vist el Guru de la Pesca a\n"
+    .string "Ciutat Vermilion?$"

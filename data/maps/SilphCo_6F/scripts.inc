@@ -101,79 +101,80 @@ SilphCo_6F_EventScript_Grunt2::
 	end
 
 SilphCo_6F_Text_RocketsTookOverBuilding::
-    .string "The Rockets came and took over\n"
-    .string "the building!$"
+    .string "Els Rockets han vingut i han\n"
+    .string "pres l'edifici!$"
 
 SilphCo_6F_Text_BetterGetBackToWork::
-    .string "Well, better get back to work.$"
+    .string "Bé, millor que torni a la feina.$"
 
 SilphCo_6F_Text_HelpMePlease::
-    .string "Oh dear, oh dear.\n"
-    .string "Help me, please!$"
+    .string "Oh, mare, oh, mare.\n"
+    .string "Ajuda'm, si us plau!$"
 
 SilphCo_6F_Text_WeGotEngaged::
-    .string "We got engaged.\n"
+    .string "Ens hem promès.\n"
     .string "Heheh!$"
 
 SilphCo_6F_Text_ThatManIsSuchACoward::
-    .string "That man next to me…\n"
-    .string "He's such a coward!$"
+    .string "Aquell home del meu costat…\n"
+    .string "És un covard!$"
 
 SilphCo_6F_Text_NeedsMeToLookAfterHim::
-    .string "He's so helpless, he needed\n"
-    .string "someone like me to look after him.$"
+    .string "És tan desvalgut que necessita\n"
+    .string "algú com jo per cuidar-lo.$"
 
 SilphCo_6F_Text_RocketsTryingToConquerWorld::
-    .string "Team Rocket is trying to conquer\n"
-    .string "the world with Pokémon.$"
+    .string "L'Equip Rocket intenta conquerir\n"
+    .string "el món amb Pokémon.$"
 
 SilphCo_6F_Text_RocketsRanAwayBecauseOfYou::
-    .string "Team Rocket ran away, and it's all\n"
-    .string "because of you!$"
+    .string "L'Equip Rocket ha fugit, i tot és\n"
+    .string "gràcies a tu!$"
 
 SilphCo_6F_Text_TargetedSilphForOurMonProducts::
-    .string "They must have targeted Silph for\n"
-    .string "our Pokémon products.$"
+    .string "Deuen haver apuntat a Silph pels\n"
+    .string "nostres productes Pokémon.$"
 
 SilphCo_6F_Text_ComeWorkForSilphWhenYoureOlder::
-    .string "Come work for Silph when you\n"
-    .string "get older.$"
+    .string "Vine a treballar a Silph quan\n"
+    .string "siguis més gran.$"
 
 SilphCo_6F_Text_Grunt1Intro::
-    .string "I am one of the four Rocket\n"
-    .string "Brothers!$"
+    .string "Sóc un dels quatre Germans\n"
+    .string "Rocket!$"
 
 SilphCo_6F_Text_Grunt1Defeat::
-    .string "Flame out!$"
+    .string "Cremat!$"
 
 SilphCo_6F_Text_Grunt1PostBattle::
-    .string "No matter!\n"
-    .string "My brothers will avenge me!$"
+    .string "No importa!\n"
+    .string "Els meus germans em venjaran!$"
 
 SilphCo_6F_Text_TaylorIntro::
-    .string "That rotten President!\p"
-    .string "Serves him right for shipping me\n"
-    .string "off to the Unova Branch!\p"
-    .string "That's why Team Rocket came after\n"
-    .string "us, I'm sure of it!$"
+    .string "Aquell President pudent!\p"
+    .string "Ben merescut que ho passa per\n"
+    .string "enviar-me a la sucursal\l"
+    .string "d'Unova!\p"
+    .string "Per això l'Equip Rocket ens ha\n"
+    .string "atacat, segur!$"
 
 SilphCo_6F_Text_TaylorDefeat::
-    .string "Shoot!$"
+    .string "Llamps!$"
 
 SilphCo_6F_Text_TaylorPostBattle::
-    .string "Unova Branch?\n"
-    .string "That's the other side of the world!$"
+    .string "Sucursal d'Unova?\n"
+    .string "Això és a l'altra punta del món!$"
 
 SilphCo_6F_Text_Grunt2Intro::
-    .string "You dare betray Team Rocket?$"
+    .string "Goses trair l'Equip Rocket?$"
 
 SilphCo_6F_Text_Grunt2Defeat::
-    .string "You traitor!$"
+    .string "Traïdor!$"
 
 SilphCo_6F_Text_Grunt2PostBattle::
-    .string "If you stand for justice, you\n"
-    .string "betray us bad guys!$"
+    .string "Si defenses la justícia, ens\n"
+    .string "traeixes a nosaltres els dolents!$"
 
 SilphCo_6F_Text_FloorSign::
-    .string "Silph Co. Head Office\n"
-    .string "6F$"
+    .string "Seu Central de Silph S.A.\n"
+    .string "6è pis$"

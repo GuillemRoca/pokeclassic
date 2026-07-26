@@ -1,113 +1,113 @@
 gOakDexRatingText_GoodToSeeYou::
-	.string "OAK: Good to see you, {PLAYER}!\n"
-	.string "How is your Pokédex coming along?\p"
-	.string "Here, let me take a look.$"
+	.string "OAK: Que alegria veure't, {PLAYER}!\n"
+	.string "Com va el teu Pokédex?\p"
+	.string "Deixa'm fer una ullada.$"
 
 gOakDexRatingText_AreYouCurious::
-	.string "OAK: Good to hear from you you,\n"
-	.string "{PLAYER}!\p"
-	.string "How is your Pokédex coming along?\p"
-	.string "Let's take a look...$"
+	.string "OAK: Quin plaer tenir notícies\n"
+	.string "teves, {PLAYER}!\p"
+	.string "Com va el teu Pokédex?\p"
+	.string "Mirem-ho...$"
 
 gOakDexRatingText_Cancel::
-	.string "Hm? Oh, you haven't caught enough\n"
-	.string "Pokémon to make it worthwhile.$"
+	.string "Hmm? Oh, no has capturat suficients\n"
+	.string "Pokémon com per valer la pena.$"
 
 gOakDexRatingText_SoYouveSeenAndCaught::
 	.string "Hmhm…\p"
-	.string "So, you've seen {STR_VAR_1} Pokémon,\n"
-	.string "and you've caught {STR_VAR_2} Pokémon…$"
+	.string "Llavors has vist {STR_VAR_1} Pokémon,\n"
+	.string "i has capturat {STR_VAR_2} Pokémon…$"
 
 gOakDexRatingText_LessThan10::
-	.string "You still have lots to do.\p"
-	.string "Go into every patch of grass you\n"
-	.string "see and look for POKéMON!$"
+	.string "Encara et queda molt per fer.\p"
+	.string "Endinsa't a tota gespa que\n"
+	.string "vegis i busca POKÉMON!$"
 
 gOakDexRatingText_LessThan20::
-	.string "I guess you're getting the hang\n"
-	.string "of it. But, it gets harder from here.$"
+	.string "Sembla que li agafes el tranc.\n"
+	.string "Però d'aquí en endavant és més difícil.$"
 
 gOakDexRatingText_LessThan30::
-	.string "Some Pokémon only appear in\n"
-	.string "certain areas or times of day.\l"
-	.string "You must be persistent.$"
+	.string "Alguns Pokémon només apareixen\n"
+	.string "en certes zones o moments del dia.\l"
+	.string "Has de ser persistent.$"
 
 gOakDexRatingText_LessThan40::
-	.string "Well, it could use more quantity,\n"
-	.string "but this is looking more like\l"
-	.string "a Pokédex now.$"
+	.string "Bé, li falta quantitat,\n"
+	.string "però ara comença a assemblar-se\l"
+	.string "a un Pokédex.$"
 
 gOakDexRatingText_LessThan50::
-	.string "This is coming along pretty good.\n"
-	.string "Keep up the effort.$"
+	.string "Això va força bé.\n"
+	.string "Continua esforçant-te.$"
 
 gOakDexRatingText_LessThan60::
-	.string "Are you using any Rods?\n"
-	.string "There are many Pokémon in the sea.$"
+	.string "Uses alguna Canya?\n"
+	.string "Hi ha molts Pokémon al mar.$"
 
 gOakDexRatingText_LessThan70::
-	.string "Hoho! This is turning into quite the\n"
-	.string "respectable Pokédex!$"
+	.string "Hoho! Això s'està convertint\n"
+	.string "en un Pokédex ben respectable!$"
 
 gOakDexRatingText_LessThan80::
-	.string "Very good!\p"
-	.string "I think you'll collect even more\n"
-	.string "Pokémon by going fishing!$"
+	.string "Molt bé!\p"
+	.string "Crec que pots capturar encara\n"
+	.string "més Pokémon si vas a pescar!$"
 
 gOakDexRatingText_LessThan90::
-	.string "Wonderful! Let me guess… You\n"
-	.string "like to collect things, don't you?$"
+	.string "Meravellós! Deixa'm endevinar…\n"
+	.string "T'agrada col·leccionar coses, oi?$"
 
 gOakDexRatingText_LessThan100::
-	.string "I'm impressed!\n"
-	.string "It must have been difficult to do!$"
+	.string "Estic impressionat!\n"
+	.string "Ha d'haver estat difícil!$"
 
 gOakDexRatingText_LessThan110::
-	.string "You've finally hit 100 species!\n"
-	.string "I can't believe how good you are!$"
+	.string "Finalment has arribat a 100 espècies!\n"
+	.string "No puc creure el bé que ho fas!$"
 
 gOakDexRatingText_LessThan120::
-	.string "You even have the evolved forms\n"
-	.string "of Pokémon! Super!$"
+	.string "Fins i tot tens les formes\n"
+	.string "evolucionades! Super!$"
 
 gOakDexRatingText_LessThan130::
-	.string "Excellent! Some Pokémon have very\n"
-	.string "unique ways to evolve. You might\l"
-	.string "need to seek those out!$"
+	.string "Excel·lent! Alguns Pokémon tenen\n"
+	.string "maneres molt especials d'evolucionar.\l"
+	.string "Pot ser que hagis de buscar-los!$"
 
 gOakDexRatingText_LessThan140::
-	.string "Outstanding!\n"
-	.string "You've become a real pro at this!$"
+	.string "Extraordinari!\n"
+	.string "Ja ets tot un professional!$"
 
 gOakDexRatingText_LessThan150::
-	.string "I have nothing left to say!\n"
-	.string "You're the Pokémon Professor now!$"
+	.string "No em queda res per dir!\n"
+	.string "Ara ets el Professor Pokémon!$"
 
 gOakDexRatingText_LessThan151::
-	.string "I heard some children talking\n"
-	.string "about how some rare Pokémon like\l"
-	.string "to hide underneath trucks!\p"
-	.string "I don't believe them, though.$"
+	.string "He sentit nens parlant de com\n"
+	.string "alguns Pokémon rars s'amaguen\l"
+	.string "sota dels camions!\p"
+	.string "Però no me'ls crec, jo.$"
 
 gOakDexRatingText_LessThan170::
-	.string "One can get a very good idea about\n"
-	.string "the Pokémon of the Hoenn region\l"
-	.string "by looking through your Pokédex.$"
+	.string "Mirant el teu Pokédex, un es pot\n"
+	.string "fer una idea molt bona dels\l"
+	.string "Pokémon de la regió Hoenn.$"
 
 gOakDexRatingText_LessThan180::
-	.string "I would say you already qualify as\n"
-	.string "a Pokémon Professor, and a good\l"
-	.string "one, too!$"
+	.string "Diria que ja et qualifiques com\n"
+	.string "a Professor Pokémon, i un de bo\l"
+	.string "a més!$"
 
 gOakDexRatingText_LessThan190::
-	.string "With a Pokédex this complete,\n"
-	.string "you're a real professional at this!$"
+	.string "Amb un Pokédex tan complet,\n"
+	.string "ets un professional de veritat!$"
 
 gOakDexRatingText_LessThan200::
-	.string "You're very close to completing\n"
-	.string "this Pokédex.\l"
-	.string "I can feel it in my bones!$"
+	.string "Estàs molt a prop de completar\n"
+	.string "aquest Pokédex.\l"
+	.string "Ho noto als ossos!$"
 
 gOakDexRatingText_DexCompleted::
-	.string "Your Pokédex is entirely complete!\n"
-	.string "Congratulations!!$"
+	.string "El teu Pokédex és completament complet!\n"
+	.string "Enhorabona!!$"

@@ -7,15 +7,15 @@ SSAnne_2F_Room4_EventScript_Lamar::
 	end
 
 SSAnne_2F_Room4_Text_LamarIntro::
-    .string "Which do you find more worthy,\n"
-    .string "a strong or a rare POKéMON?$"
+    .string "Què valores més, un Pokémon\n"
+    .string "fort o un de rar?$"
 
 SSAnne_2F_Room4_Text_LamarDefeat::
-    .string "I must salute you!$"
+    .string "Et saludo!$"
 
 SSAnne_2F_Room4_Text_LamarPostBattle::
-    .string "Personally, I prefer strong and\n"
-    .string "rare Pokémon.$"
+    .string "Personalment, prefereixo Pokémon\n"
+    .string "forts i rars.$"
 
 SSAnne_2F_Room4_EventScript_Dawn::
 	trainerbattle_single TRAINER_LADY_DAWN, SSAnne_2F_Room4_Text_DawnIntro, SSAnne_2F_Room4_Text_DawnDefeat
@@ -23,15 +23,15 @@ SSAnne_2F_Room4_EventScript_Dawn::
 	end
 
 SSAnne_2F_Room4_Text_DawnIntro::
-    .string "I don't believe I saw you at the\n"
-    .string "party?$"
+    .string "No crec que t'hagi vist a la\n"
+    .string "festa?$"
 
 SSAnne_2F_Room4_Text_DawnDefeat::
-    .string "Take it easy!$"
+    .string "Ves amb calma!$"
 
 SSAnne_2F_Room4_Text_DawnPostBattle::
-    .string "Oh, I adore your strong Pokémon!\n"
-    .string "Oh, how I envy you for them!$"
+    .string "Oh, m'encanten els teus Pokémon\n"
+    .string "forts! Com t'envejo!$"
 
 SSAnne_2F_Room4_EventScript_ItemXAttack::
 	finditem ITEM_X_ATTACK, 1

@@ -26,20 +26,21 @@ CeruleanCity_Gym_EventScript_ChallengeMisty::
 	end
 
 CeruleanCity_Gym_Text_MistySpeech::
-    .string "Hi, you're a new face!\p"
-    .string "Only those Trainers who have a\n"
-    .string "policy about Pokémon can turn pro.\p"
-    .string "What is your approach when you\n"
-    .string "catch and train Pokémon?$"
+    .string "Hola, ets una cara nova!\p"
+    .string "Només els Entrenadors amb una\n"
+    .string "filosofia sobre Pokémon poden\l"
+    .string "ser professionals.\p"
+    .string "Quina és la teva manera d'atrapar\n"
+    .string "i entrenar Pokémon?$"
 
 CeruleanCity_Gym_Text_MistyIntro::
-    .string "My policy is an all-out offensive\n"
-    .string "with Water-type Pokémon!$"
+    .string "La meva estratègia és l'atac\n"
+    .string "total amb Pokémon d'Aigua!$"
 
 CeruleanCity_Gym_Text_MistyDefeat::
-	.string "Wow!\n"
-    .string "You're too much!\p"
-    .string "All right!$"
+	.string "Uau!\n"
+    .string "Ets massa fort!\p"
+    .string "D'acord!$"
 
 CeruleanCity_Gym_EventScript_DefeatedMistyGetBadge::
 	msgbox CeruleanCity_Gym_Text_GetBadge, MSGBOX_DEFAULT
@@ -58,22 +59,23 @@ CeruleanCity_Gym_EventScript_DefeatedMistyGetBadge::
 	end
 
 CeruleanCity_Gym_Text_GetBadge::
-    .string "You can have the Cascade Badge\n"
-    .string "to show you beat me.$"
+    .string "Pots quedar-te la Medalla\n"
+    .string "Cascada per demostrar que\l"
+    .string "m'has vençut.$"
 
 CeruleanCity_Gym_Text_ReceivedBadge::
-	.string "{PLAYER} received the Cascade\n"
-    .string "Badge from Misty!$"
+	.string "{PLAYER} ha rebut la Medalla\n"
+    .string "Cascada de la Misty!$"
 
 CeruleanCity_Gym_Text_ExplainBadge::
-	.string "The Cascade Badge makes all\n"
-    .string "Pokémon up to Lv. 30 obey.\p"
-    .string "That includes even outsiders you\n"
-    .string "got in trades.\p"
-    .string "There's more. You can now use Cut\n"
-    .string "anytime, even out of battle.\p"
-    .string "You can Cut down small trees to\n"
-    .string "open new pathways.$"
+	.string "La Medalla Cascada fa que tots\n"
+    .string "els Pokémon fins a Nv. 30 obeixin.\p"
+    .string "Això inclou els que has obtingut\n"
+    .string "per intercanvi.\p"
+    .string "A més, ara pots fer servir\n"
+    .string "Tallar fora de combat.\p"
+    .string "Pots Tallar arbrets per obrir\n"
+    .string "nous camins.$"
 
 CeruleanCity_Gym_EventScript_GetTM::
 	msgbox CeruleanCity_Gym_Text_TakeThisWithYou, MSGBOX_DEFAULT
@@ -90,15 +92,17 @@ CeruleanCity_Gym_EventScript_GetTM::
 	end
 
 CeruleanCity_Gym_Text_TakeThisWithYou::
-	 .string "You can also have my favorite TM.$"
+	 .string "També pots quedar-te la meva\n"
+	 .string "MT preferida.$"
 
 CeruleanCity_Gym_Text_ReceivedTM::
-    .string "{PLAYER} received TM03\n"
-    .string "from Misty.$"
+    .string "{PLAYER} ha rebut la MT03\n"
+    .string "de la Misty.$"
 
 CeruleanCity_Gym_Text_ExplainTM::
-    .string "TM03 teaches Water Pulse.\p"
-    .string "Use it on an aquatic Pokémon!$"
+    .string "La MT03 ensenya Pols d'Aigua.\p"
+    .string "Fes-la servir amb un Pokémon\n"
+    .string "aquàtic!$"
 
 CeruleanCity_Gym_EventScript_NoRoomForTM::
 	msgbox CeruleanCity_Gym_Text_NoRoomForTM, MSGBOX_DEFAULT
@@ -106,7 +110,7 @@ CeruleanCity_Gym_EventScript_NoRoomForTM::
 	end
 
 CeruleanCity_Gym_Text_NoRoomForTM::
-    .string "You better make room for this!$"
+    .string "Fes espai per a això!$"
 
 CeruleanCity_Gym_EventScript_LeaderPostBattle::
 	lock
@@ -117,9 +121,9 @@ CeruleanCity_Gym_EventScript_LeaderPostBattle::
 	end
 
 CeruleanCity_Gym_Text_LeaderPostBattle::
-	.string "Misty: There are times when I want\n"
-	.string "to just break free from a puny\l" 
-	.string "little pool and swim in the big blue!$"
+	.string "Misty: De vegades vull deixar\n"
+	.string "enrere aquesta piscineta i\l"
+	.string "nedar al gran blau!$"
 
 CeruleanCity_Gym_EventScript_LeaderPostBattleGameClear::
 	msgbox CeruleanCity_Gym_Text_PostBattleGameClear, MSGBOX_DEFAULT
@@ -127,11 +131,12 @@ CeruleanCity_Gym_EventScript_LeaderPostBattleGameClear::
 	end
 
 CeruleanCity_Gym_Text_PostBattleGameClear::
-	.string "Know what?\p"
-    .string "My dream was to battle powerful\n" 
-    .string "Trainers and become a Gym Leader...\p"
-    .string "I made my dream come true, and now \n"
-    .string "my next dream is to defeat you!$"
+	.string "Saps què?\p"
+    .string "El meu somni era lluitar contra\n"
+    .string "Entrenadors forts i ser Líder\l"
+    .string "de Gimnàs...\p"
+    .string "He complert el meu somni, i ara\n"
+    .string "el següent és derrotar-te!$"
 
 CeruleanCity_Gym_EventScript_RematchLeader::
 	msgbox CeruleanCity_Gym_Text_RematchLeader, MSGBOX_YESNO
@@ -141,14 +146,14 @@ CeruleanCity_Gym_EventScript_RematchLeader::
 	end
 
 CeruleanCity_Gym_Text_RematchLeader::
-	.string "I heard an interesting rumor!\p" 
-	.string "You and that other kid have been\n" 
-	.string "taking on those Team Rocket guys.\p" 
-	.string "Is that true?\p" 
-	.string "Argh! I just can't take it anymore!\p" 
-	.string "You've gotten so strong that I just\n" 
-	.string "absolutely have to battle you again!\p" 
-	.string "You got that? No refusing!$"
+	.string "He sentit un rumor interessant!\p"
+	.string "Tu i aquell altre noi heu estat\n"
+	.string "lluitant contra l'Equip Rocket.\p"
+	.string "És veritat?\p"
+	.string "Argh! No aguanto més!\p"
+	.string "T'has fet tan fort que necessito\n"
+	.string "tornar a combatre contra tu!\p"
+	.string "Ho tens clar? No pots dir que no!$"
 
 CeruleanCity_Gym_EventScript_DeclineRematch::
 	msgbox CeruleanCity_Gym_Text_DeclineRematch, MSGBOX_DEFAULT
@@ -156,7 +161,7 @@ CeruleanCity_Gym_EventScript_DeclineRematch::
 	end
 
 CeruleanCity_Gym_Text_DeclineRematch::
-	.string "Argh! C'mon! Battle me!$"
+	.string "Argh! Vinga! Lluita amb mi!$"
 
 CeruleanCity_Gym_EventScript_PostgameRematch::
 	msgbox CeruleanCity_Gym_Text_RematchMode, MSGBOX_YESNO
@@ -165,27 +170,27 @@ CeruleanCity_Gym_EventScript_PostgameRematch::
 	end
 
 CeruleanCity_Gym_Text_RematchMode::
-	.string "Now that you're the champion,\n"
-	.string "would you like to go all out?$"
+	.string "Ara que ets el campió,\n"
+	.string "vols anar amb tot?$"
 
 CeruleanCity_Gym_EventScript_LeaderRematch_OriginalTeam::
 	trainerbattle_single LEADER_REMATCH_MISTY_ORIGINAL, CeruleanCity_Gym_Text_RematchOriginal, CeruleanCity_Gym_Text_RematchDefeat, CeruleanCity_Gym_EventScript_DefeatedLeaderRematch
 	end
 
 CeruleanCity_Gym_Text_RematchOriginal::
-	.string "Okay, {PLAYER}!\n"
-	.string "Let's go!$"
+	.string "D'acord, {PLAYER}!\n"
+	.string "Som-hi!$"
 
 CeruleanCity_Gym_EventScript_LeaderRematch_PostGameTeam::
 	trainerbattle_single LEADER_REMATCH_MISTY_POSTGAME, CeruleanCity_Gym_Text_RematchPostgame, CeruleanCity_Gym_Text_RematchDefeat, CeruleanCity_Gym_EventScript_DefeatedLeaderRematch
 	end
 
 CeruleanCity_Gym_Text_RematchPostgame::
-	.string "My adorable Pokémon are ready\n" 
-	.string " to take you on!\p" 
-	.string "The ultimate offense of\n" 
-	.string "Water-type Pokémon!\p" 
-	.string "I hope you're ready!$"
+	.string "Els meus adorables Pokémon estan\n"
+	.string "preparats per enfrontar-te!\p"
+	.string "L'ofensiva definitiva de\n"
+	.string "Pokémon de tipus Aigua!\p"
+	.string "Espero que estiguis preparat!$"
 
 CeruleanCity_Gym_EventScript_DefeatedLeaderRematch::
 	setflag FLAG_DAILY_MISTY_REMATCH
@@ -193,7 +198,7 @@ CeruleanCity_Gym_EventScript_DefeatedLeaderRematch::
 	end
 
 CeruleanCity_Gym_Text_RematchDefeat::
-	.string "Hmph! How annoying!$"
+	.string "Hmph! Que molest!$"
 
 
 CeruleanCity_Gym_EventScript_PrepDexNavCall::
@@ -206,16 +211,17 @@ CeruleanCity_Gym_EventScript_Diana::
 	end
 
 CeruleanCity_Gym_Text_DianaIntro::
-    .string "What? You?\n"
-    .string "I'm more than good enough for you!\p"
-    .string "Misty won't have to be bothered.$"
+    .string "Què? Tu?\n"
+    .string "Sóc més que suficient per a tu!\p"
+    .string "La Misty no s'haurà de molestar.$"
 
 CeruleanCity_Gym_Text_DianaDefeat::
-    .string "You overwhelmed me!$"
+    .string "M'has aclaparat!$"
 
 CeruleanCity_Gym_Text_DianaPostBattle::
-    .string "You have to face other Trainers\n"
-    .string "to see how good you really are.$"
+    .string "Has d'enfrontar-te a altres\n"
+    .string "Entrenadors per saber com\l"
+    .string "de bo ets realment.$"
 
 CeruleanCity_Gym_EventScript_Luis::
 	trainerbattle_single TRAINER_SWIMMER_MALE_LUIS, CeruleanCity_Gym_Text_LuisIntro, CeruleanCity_Gym_Text_LuisDefeat
@@ -224,16 +230,16 @@ CeruleanCity_Gym_EventScript_Luis::
 
 CeruleanCity_Gym_Text_LuisIntro::
     .string "Splash!\p"
-    .string "I'm first up!\n"
-    .string "Let's do it!$"
+    .string "Sóc el primer!\n"
+    .string "Som-hi!$"
 
 CeruleanCity_Gym_Text_LuisDefeat::
-    .string "That can't be!$"
+    .string "No pot ser!$"
 
 CeruleanCity_Gym_Text_LuisPostBattle::
-    .string "Misty is a Trainer who's going to\n"
-    .string "keep improving.\p"
-    .string "She won't lose to someone like you!$"
+    .string "La Misty és una Entrenadora que\n"
+    .string "seguirà millorant.\p"
+    .string "No perdrà contra algú com tu!$"
 
 CeruleanCity_Gym_EventScript_GymGuy::
 	lock
@@ -244,15 +250,15 @@ CeruleanCity_Gym_EventScript_GymGuy::
 	end
 
 CeruleanCity_Gym_Text_GymGuyAdvice::
-    .string "Yo!\n"
-    .string "Champ in the making!\p"
-    .string "Let me give you some advice!\p"
-    .string "The Leader, Misty, is a pro who\n"
-    .string "uses Water-type Pokémon.\p"
-    .string "You can drain all their water with\n"
-    .string "Grass-type Pokémon.\p"
-    .string "Or, you might use Electric-type\n"
-    .string "Pokémon and zap them!$"
+    .string "Ei!\n"
+    .string "Futur campió!\p"
+    .string "Deixa'm donar-te un consell!\p"
+    .string "La Líder, Misty, és una pro\n"
+    .string "dels Pokémon d'Aigua.\p"
+    .string "Pots buidar tota la seva aigua\n"
+    .string "amb Pokémon de tipus Planta.\p"
+    .string "O pots fer servir Pokémon de\n"
+    .string "tipus Elèctric i fulminar-los!$"
 
 CeruleanCity_Gym_EventScript_GymGuyPostVictory::
 	msgbox CeruleanCity_Gym_Text_WeMakePrettyGoodTeam, MSGBOX_DEFAULT
@@ -260,10 +266,10 @@ CeruleanCity_Gym_EventScript_GymGuyPostVictory::
 	end
 
 CeruleanCity_Gym_Text_WeMakePrettyGoodTeam::
-    .string "You beat Misty!\n"
-    .string "See, what'd I tell ya?\p"
-    .string "You and me, kid, we make a pretty\n"
-    .string "darn-good team!$"
+    .string "Has vençut la Misty!\n"
+    .string "Veus? Què et deia?\p"
+    .string "Tu i jo, noi, fem un equip\n"
+    .string "de primera!$"
 
 CeruleanCity_Gym_EventScript_GymStatue::
 	lockall
@@ -273,9 +279,9 @@ CeruleanCity_Gym_EventScript_GymStatue::
 	end
 
 CeruleanCity_Gym_Text_GymStatue::
-    .string "Cerulean Pokémon Gym\n"
-    .string "Leader: Misty\p"
-    .string "Winning Trainers:\n"
+    .string "Gimnàs Pokémon de Cerulean\n"
+    .string "Líder: Misty\p"
+    .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}$"
 
 CeruleanCity_Gym_EventScript_GymStatuePostVictory::
@@ -284,7 +290,7 @@ CeruleanCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 CeruleanCity_Gym_Text_GymStatuePlayerWon::
-    .string "Cerulean Pokémon Gym\n"
-    .string "Leader: Misty\p"
-    .string "Winning Trainers:\n"
+    .string "Gimnàs Pokémon de Cerulean\n"
+    .string "Líder: Misty\p"
+    .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}, {PLAYER}$"
