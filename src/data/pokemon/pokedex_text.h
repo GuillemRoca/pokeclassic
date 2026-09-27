@@ -5,10 +5,10 @@ const u8 gDummyPokedexText[] = _(
     "disponible en aquest moment.");
 
 const u8 gBulbasaurPokedexText[] = _(
-    "Bulbasaur es pot veure dormint al\n"
-    "sol brillant. Té una llavor a\n"
-    "l'esquena. Absorbint els raigs del\n"
-    "sol, la llavor creix cada cop més.");
+    "Bulbasaur sovint fa la migdiada\n"
+    "sota el sol. Té una llavor a l'esquena\n"
+    "que, en absorbir els raigs del sol,\n"
+    "es fa cada cop més grossa.");
 
 const u8 gIvysaurPokedexText[] = _(
     "Per aguantar el bulb, les potes\n"
@@ -29,10 +29,10 @@ const u8 gCharmanderPokedexText[] = _(
     "i crema fort quan s'enfada.");
 
 const u8 gCharmeleonPokedexText[] = _(
-    "Sense pietat, les seves urpes\n"
-    "afilades destrueixen enemics. Si\n"
-    "troba un rival fort, s'agita, i la\n"
-    "flama de la cua es torna blavosa.");
+    "Sense pietat, destrossa els enemics\n"
+    "amb les urpes afilades. Si troba un\n"
+    "rival fort, s'agita i la flama de la\n"
+    "cua pren un color blanc blavós.");
 
 const u8 gCharizardPokedexText[] = _(
     "Charizard vola cercant oponents\n"
@@ -43,14 +43,14 @@ const u8 gCharizardPokedexText[] = _(
 const u8 gSquirtlePokedexText[] = _(
     "La seva closca no és només per\n"
     "protegir-se. La forma rodona i els\n"
-    "solcs minimitzen la resistència a\n"
-    "l'aigua, nedant a gran velocitat.");
+    "solcs redueixen la resistència a\n"
+    "l'aigua i li permeten nedar ràpid.");
 
 const u8 gWartortlePokedexText[] = _(
-    "La seva gran cua està coberta de\n"
-    "pèl ric i espès que s'enfosqueix\n"
-    "amb l'edat. Els rascats a la closca\n"
-    "mostren la duresa en combat.");
+    "La seva gran cua està coberta d'un\n"
+    "pelatge espès que s'enfosqueix amb\n"
+    "l'edat. Les rascades de la closca\n"
+    "mostren la seva duresa en combat.");
 
 const u8 gBlastoisePokedexText[] = _(
     "Els canons que surten de la closca\n"
@@ -71,8 +71,8 @@ const u8 gMetapodPokedexText[] = _(
     "interior tou per a l'evolució.");
 
 const u8 gButterfreePokedexText[] = _(
-    "Té una habilitat superior per\n"
-    "trobar mel deliciosa de les flors.\n"
+    "Té una traça especial per trobar\n"
+    "la mel més deliciosa de les flors.\n"
     "Pot buscar i portar mel de flors\n"
     "a més de deu quilòmetres.");
 
@@ -126,9 +126,9 @@ const u8 gRaticatePokedexText[] = _(
 
 const u8 gSpearowPokedexText[] = _(
     "El seu crit fort es pot sentir a\n"
-    "més d'un quilòmetre. Si se sent\n"
-    "ressò del seu crit agut pertot,\n"
-    "s'estan avisant d'un perill.");
+    "més d'un quilòmetre. Si se sent el\n"
+    "ressò del seu crit agut pertot, és\n"
+    "que s'estan avisant d'un perill.");
 
 const u8 gFearowPokedexText[] = _(
     "El seu coll llarg i bec allargat\n"
@@ -138,15 +138,15 @@ const u8 gFearowPokedexText[] = _(
 
 const u8 gEkansPokedexText[] = _(
     "Ekans s'enrosca en espiral per\n"
-    "descansar. Això li permet\n"
-    "reaccionar ràpid davant un enemic\n"
-    "des de qualsevol direcció.");
+    "descansar. Així pot reaccionar ràpid\n"
+    "davant un enemic de qualsevol costat\n"
+    "i amenaçar-lo amb el cap alçat.");
 
 const u8 gArbokPokedexText[] = _(
     "Aquest Pokémon té una força de\n"
     "constricció terrorífica. Pot fins i\n"
     "tot aixafar bidons d'acer. Un cop\n"
-    "atrapa la presa, no pot escapar.");
+    "enrosca la presa, ja no se li escapa.");
 
 const u8 gPikachuPokedexText[] = _(
     "Emmagatzema electricitat als sacs\n"
@@ -162,9 +162,9 @@ const u8 gRaichuPokedexText[] = _(
 
 const u8 gSandshrewPokedexText[] = _(
     "Quan s'enrosca en bola, qualsevol\n"
-    "atac rebota. La seva pell s'ha fet\n"
-    "dura i sòlida a força de viure\n"
-    "al desert.");
+    "atac hi rebota sense fer-li mal. La\n"
+    "pell se li ha fet dura i sòlida\n"
+    "a força de viure al desert.");
 
 const u8 gSandslashPokedexText[] = _(
     "S'enrosca en bola per protegir-se\n"
@@ -173,10 +173,10 @@ const u8 gSandslashPokedexText[] = _(
     "el dia quan fa molta calor.");
 
 const u8 gNidoranFPokedexText[] = _(
-    "Les seves espines molt tòxiques\n"
-    "s'han desenvolupat per protegir\n"
-    "aquest petit Pokémon. Quan s'enfada\n"
-    "allibera toxina de la banya.");
+    "Es creu que les seves espines tan\n"
+    "tòxiques van sorgir per protegir\n"
+    "aquest petit Pokémon. Quan s'enfada,\n"
+    "allibera una toxina horrible per la banya.");
 
 const u8 gNidorinaPokedexText[] = _(
     "Quan és amb amics o família, les\n"
@@ -200,12 +200,12 @@ const u8 gNidorinoPokedexText[] = _(
     "La seva banya és més dura que un\n"
     "diamant. Si detecta una presència\n"
     "hostil, totes les espines s'ericen\n"
-    "i desafia l'enemic amb tot.");
+    "i desafia l'enemic amb totes les forces.");
 
 const u8 gNidokingPokedexText[] = _(
     "La gruixuda cua de Nidoking té una\n"
     "força destructiva enorme, capaç\n"
-    "de tombar una torre de metall. Un\n"
+    "de tombar una torre elèctrica. Un\n"
     "cop s'enfada, no hi ha qui el pari.");
 
 const u8 gClefairyPokedexText[] = _(
@@ -245,15 +245,15 @@ const u8 gWigglytuffPokedexText[] = _(
     "parar quan inspira.");
 
 const u8 gZubatPokedexText[] = _(
-    "Vivint en cavernes fosques, els\n"
-    "ulls se'ls van tancar i van perdre\n"
-    "la visió. Fan servir ultrasons\n"
-    "per detectar obstacles.");
+    "Com que viuen en coves fosques,\n"
+    "els ulls se'ls van anar tancant i\n"
+    "van perdre la vista. Fan servir\n"
+    "ultrasons per detectar obstacles.");
 
 const u8 gGolbatPokedexText[] = _(
     "Els seus ullals perforen fins i\n"
     "tot pell gruixuda d'animal. Li\n"
-    "encanta la sang de gent i Pokémon.\n"
+    "encanta la sang de persones i Pokémon.\n"
     "Ataca per l'esquena en la foscor.");
 
 const u8 gOddishPokedexText[] = _(
@@ -263,10 +263,10 @@ const u8 gOddishPokedexText[] = _(
     "evitar ser detectat pels enemics.");
 
 const u8 gGloomPokedexText[] = _(
-    "Una mel terriblement pudent regalima\n"
-    "de la boca. Una ensumar-la pot\n"
-    "causar pèrdua de memòria. Diuen\n"
-    "que a alguns fans els agrada.");
+    "Li regalima de la boca una mel\n"
+    "terriblement pudent. Només d'ensumar-la,\n"
+    "es pot perdre la memòria. Tot i així,\n"
+    "diuen que a alguns fans els agrada.");
 
 const u8 gVileplumePokedexText[] = _(
     "En èpoques de més pol·len, l'aire\n"
@@ -276,9 +276,9 @@ const u8 gVileplumePokedexText[] = _(
 
 const u8 gParasPokedexText[] = _(
     "Paras té bolets paràsits tochukaso\n"
-    "que creixen a l'esquena. Creixen\n"
-    "xuclant nutrients del cos. Són\n"
-    "valorats com a medicina.");
+    "que creixen a l'esquena i xuclen\n"
+    "els nutrients de l'hoste. Es valoren\n"
+    "com a remei per viure molts anys.");
 
 const u8 gParasectPokedexText[] = _(
     "Els Parasect infesten arrels de\n"
@@ -290,7 +290,7 @@ const u8 gVenonatPokedexText[] = _(
     "La capa de pèl fi i rígid que li\n"
     "cobreix tot el cos va evolucionar\n"
     "per protegir-lo. Els grans ulls\n"
-    "detecten fins la presa més petita.");
+    "detecten fins i tot la presa més petita.");
 
 const u8 gVenomothPokedexText[] = _(
     "Els Venomoth són nocturns, només\n"
@@ -299,13 +299,13 @@ const u8 gVenomothPokedexText[] = _(
     "per la llum dels fanals.");
 
 const u8 gDiglettPokedexText[] = _(
-    "Els Diglett es crien a les granges.\n"
+    "A moltes granges es crien Diglett.\n"
     "La raó és simple: allà on caven,\n"
-    "la terra queda perfecta per\n"
-    "cultivar collites delicioses.");
+    "la terra queda perfecta per fer-hi\n"
+    "créixer conreus deliciosos.");
 
 const u8 gDugtrioPokedexText[] = _(
-    "Com que els trillizos es van\n"
+    "Com que els trigèmins es van\n"
     "separar d'un sol cos, pensen\n"
     "exactament igual. Cooperen per\n"
     "cavar sense fi sota terra.");
@@ -361,8 +361,8 @@ const u8 gArcaninePokedexText[] = _(
 const u8 gPoliwagPokedexText[] = _(
     "Es poden veure els seus òrgans en\n"
     "espiral a través de la pell fina.\n"
-    "Però la pell també és flexible:\n"
-    "fins i tot ullals reboten.");
+    "Però la pell també és flexible: fins\n"
+    "i tot els ullals afilats hi reboten.");
 
 const u8 gPoliwhirlPokedexText[] = _(
     "La superfície del cos sempre està\n"
@@ -419,10 +419,10 @@ const u8 gBellsproutPokedexText[] = _(
     "fon fins i tot el ferro.");
 
 const u8 gWeepinbellPokedexText[] = _(
-    "De nit, Weepinbell penja d'una\n"
-    "branca amb el ganxo del darrere.\n"
-    "Si es mou mentre dorm, pot\n"
-    "despertar-se al terra.");
+    "De nit, Weepinbell s'agafa a una\n"
+    "branca amb el ganxo del darrere i\n"
+    "dorm. Si es mou mentre dorm, pot\n"
+    "despertar-se a terra.");
 
 const u8 gVictreebelPokedexText[] = _(
     "La llarga liana del cap s'agita com\n"
@@ -445,12 +445,12 @@ const u8 gTentacruelPokedexText[] = _(
 const u8 gGeodudePokedexText[] = _(
     "Escala camins de muntanya només amb\n"
     "la força dels braços. Com que\n"
-    "s'assemblen a roques del camí,\n"
-    "els excursionistes els trepitgen.");
+    "s'assemblen a roques del camí, els\n"
+    "excursionistes els trepitgen sense voler.");
 
 const u8 gGravelerPokedexText[] = _(
     "Baixen de les muntanyes rodolant\n"
-    "per pendents. Són tan bruts que\n"
+    "per pendents. Són tan violents que\n"
     "arrasen arbres i roques enormes\n"
     "amb envestides atronadores.");
 
@@ -462,9 +462,9 @@ const u8 gGolemPokedexText[] = _(
 
 const u8 gPonytaPokedexText[] = _(
     "Ponyta és molt feble en néixer.\n"
-    "Amb prou feines es pot aguantar.\n"
-    "Les potes es fan fortes a mesura\n"
-    "que ensopega seguint els pares.");
+    "Amb prou feines s'aguanta dret.\n"
+    "Les potes se li enforteixen a mesura\n"
+    "que ensopega intentant seguir els pares.");
 
 const u8 gRapidashPokedexText[] = _(
     "Sol trotar tranquil·lament pels\n"
@@ -500,7 +500,7 @@ const u8 gFarfetchdPokedexText[] = _(
     "Sempre se'l veu amb un branquilló.\n"
     "Pel que sembla, n'hi ha de bons i\n"
     "de dolents. De vegades es baralla\n"
-    "amb altres per les millors branques.");
+    "amb altres pels millors branquillons.");
 
 const u8 gDoduoPokedexText[] = _(
     "Fins i tot menjant o dormint, un\n"
@@ -515,22 +515,22 @@ const u8 gDodrioPokedexText[] = _(
     "àrides amb poca pluja.");
 
 const u8 gSeelPokedexText[] = _(
-    "Els Seel cacen preses en mars\n"
-    "gèlids coberts de gel. Quan\n"
-    "necessita respirar, trenca el gel\n"
-    "amb la secció punxeguda del cap.");
+    "Els Seel cacen en mars gèlids\n"
+    "coberts de gel. Quan necessiten\n"
+    "respirar, fan un forat al gel amb\n"
+    "la part punxeguda del cap.");
 
 const u8 gDewgongPokedexText[] = _(
     "Li encanta dormitar sobre gel ben\n"
-    "fred. Veure'l dormint en un glaciar\n"
-    "va fer creure a un mariner que era\n"
-    "una sirena fa molt de temps.");
+    "fred. Fa molt de temps, un mariner\n"
+    "el va veure dormint en una glacera\n"
+    "i el va confondre amb una sirena.");
 
 const u8 gGrimerPokedexText[] = _(
-    "Nascut del fang contaminat del mar,\n"
-    "el menjar preferit de Grimer és\n"
-    "tot el que és brut. S'alimenten\n"
-    "d'aigües residuals de fàbriques.");
+    "Grimer neix del fang contaminat del\n"
+    "mar, i el seu menjar preferit és\n"
+    "qualsevol cosa bruta. S'alimenta\n"
+    "de les aigües residuals de fàbriques.");
 
 const u8 gMukPokedexText[] = _(
     "Prefereix hàbitats càlids i humits.\n"
@@ -541,7 +541,7 @@ const u8 gMukPokedexText[] = _(
 const u8 gShellderPokedexText[] = _(
     "De nit, cava un forat al fons marí\n"
     "amb la seva llengua ampla per fer\n"
-    "un llit. Dormint, tanca la closca\n"
+    "un llit. Mentre dorm, tanca la closca\n"
     "però deixa la llengua fora.");
 
 const u8 gCloysterPokedexText[] = _(
@@ -558,8 +558,8 @@ const u8 gGastlyPokedexText[] = _(
 
 const u8 gHaunterPokedexText[] = _(
     "Si Haunter et fa senyes flotant en\n"
-    "la foscor, no t'hi acostis. Et\n"
-    "llepar à amb la llengua per\n"
+    "la foscor, no t'hi acostis. Intentarà\n"
+    "llepar-te amb la llengua per\n"
     "robar-te la vida.");
 
 const u8 gGengarPokedexText[] = _(
@@ -576,15 +576,15 @@ const u8 gOnixPokedexText[] = _(
 
 const u8 gDrowzeePokedexText[] = _(
     "Si et pica el nas mentre dorms, és\n"
-    "senyal que un Drowzee és damunt\n"
-    "el coixí intentant menjar-se el\n"
+    "senyal que un Drowzee és damunt del\n"
+    "teu coixí intentant menjar-se el\n"
     "teu somni pel nas.");
 
 const u8 gHypnoPokedexText[] = _(
     "El moviment i la brillantor del\n"
-    "pèndol d'Hypno adorm l'enemic en\n"
+    "pèndol d'Hypno sumeixen l'enemic en\n"
     "una hipnosi profunda. Mentre busca\n"
-    "preses, pul·leix el pèndol.");
+    "preses, poleix el pèndol.");
 
 const u8 gKrabbyPokedexText[] = _(
     "Els Krabby viuen en forats cavats\n"
@@ -617,16 +617,16 @@ const u8 gExeggcutePokedexText[] = _(
     "l'evolució és a prop.");
 
 const u8 gExeggutorPokedexText[] = _(
-    "Originari dels tròpics, els caps\n"
-    "d'Exeggutor creixen amb el sol\n"
-    "fort. Es diu que quan els caps\n"
-    "cauen, formen un Exeggcute.");
+    "Exeggutor és originari dels tròpics.\n"
+    "Els caps li creixen amb el sol fort.\n"
+    "Es diu que quan els caps cauen,\n"
+    "s'agrupen i formen un Exeggcute.");
 
 const u8 gCubonePokedexText[] = _(
-    "Plora per la mare que no tornarà\n"
-    "a veure. Veient la lluna plena,\n"
-    "que li recorda la mare, plora.\n"
-    "Les taques del crani són llàgrimes.");
+    "Enyora la mare que mai no tornarà\n"
+    "a veure. Quan veu la lluna plena,\n"
+    "que li recorda la mare, plora. Les\n"
+    "taques del crani són de les llàgrimes.");
 
 const u8 gMarowakPokedexText[] = _(
     "Marowak és la forma evolucionada\n"
@@ -649,8 +649,8 @@ const u8 gHitmonchanPokedexText[] = _(
 const u8 gLickitungPokedexText[] = _(
     "Sempre que veu alguna cosa nova,\n"
     "la llepa perquè memoritza les\n"
-    "coses per textura i gust. Les\n"
-    "coses àcides el desagraden una mica.");
+    "coses per la textura i el gust.\n"
+    "No li agraden gaire les coses àcides.");
 
 const u8 gKoffingPokedexText[] = _(
     "Si t'acostes a Koffing, podràs\n"
@@ -661,8 +661,8 @@ const u8 gKoffingPokedexText[] = _(
 const u8 gWeezingPokedexText[] = _(
     "Diluint els gasos tòxics amb un\n"
     "procés especial, se'n pot treure\n"
-    "el millor perfum. Per a Weezing,\n"
-    "els gasos d'escombraries són un fes.");
+    "el millor perfum. Per a Weezing, els\n"
+    "gasos de les escombraries són un festí.");
 
 const u8 gRhyhornPokedexText[] = _(
     "Un cop comença a córrer, no para.\n"
@@ -690,9 +690,9 @@ const u8 gTangelaPokedexText[] = _(
 
 const u8 gKangaskhanPokedexText[] = _(
     "Si trobes un petit Kangaskhan\n"
-    "jugant sol, no el capturis. La\n"
-    "mare és a prop segur i s'enfadarà\n"
-    "violentament.");
+    "jugant sol, no intentis capturar-lo.\n"
+    "Segur que la mare és a prop i\n"
+    "s'enfurismarà violentament.");
 
 const u8 gHorseaPokedexText[] = _(
     "Movent les aletes del darrere de\n"
@@ -707,10 +707,10 @@ const u8 gSeadraPokedexText[] = _(
     "que s'acosti al seu niu.");
 
 const u8 gGoldeenPokedexText[] = _(
-    "A la primavera, bancs de Goldeen\n"
-    "es veuen nedant riu amunt per les\n"
-    "cascades. Infligeix danys enormes\n"
-    "amb la seva banya.");
+    "A la primavera, es poden veure bancs\n"
+    "de Goldeen remuntant rius i cascades.\n"
+    "Infligeix danys enormes amb la seva\n"
+    "única banya.");
 
 const u8 gSeakingPokedexText[] = _(
     "Forada roques al llit dels rius.\n"
@@ -725,21 +725,21 @@ const u8 gStaryuPokedexText[] = _(
     "regenerar extremitats tallades.");
 
 const u8 gStarmiePokedexText[] = _(
-    "La gent antiga imaginava que els\n"
-    "Starmie eren transformacions dels\n"
-    "reflexos d'estels que brillaven\n"
-    "en ones suaus de nit.");
+    "Antigament, la gent creia que els\n"
+    "Starmie naixien dels reflexos dels\n"
+    "estels que brillaven de nit sobre\n"
+    "les ones suaus.");
 
 const u8 gMrmimePokedexText[] = _(
-    "Mr. Mime és un mestre de la mima.\n"
+    "Mr. Mime és un mestre de la pantomima.\n"
     "Pot convèncer que alguna cosa\n"
     "invisible existeix. Un cop s'hi\n"
     "creu, l'objecte es fa real.");
 
 const u8 gScytherPokedexText[] = _(
-    "La seva velocitat encegadora\n"
-    "afegeix tall a les seves falçs del\n"
-    "braç. Les falçs tallen troncs\n"
+    "La seva velocitat encegadora fa\n"
+    "encara més esmolades les dues falçs\n"
+    "dels avantbraços, que tallen troncs\n"
     "gruixuts d'un sol cop.");
 
 const u8 gJynxPokedexText[] = _(
@@ -764,13 +764,13 @@ const u8 gPinsirPokedexText[] = _(
     "Les pinces són prou fortes per\n"
     "esmicolar troncs gruixuts. Com que\n"
     "no els agrada el fred, els Pinsir\n"
-    "s'enterren per dormir de nit.");
+    "dormen sota terra les nits fredes.");
 
 const u8 gTaurosPokedexText[] = _(
-    "No està satisfet si no s'està\n"
-    "descontrolant. Si no té rival,\n"
-    "envesteix arbres gruixuts i els\n"
-    "tomba per calmar-se.");
+    "Només està content si no para de fer\n"
+    "estralls. Si no té cap rival, envesteix\n"
+    "arbres gruixuts i els tomba per\n"
+    "calmar-se.");
 
 const u8 gMagikarpPokedexText[] = _(
     "Els muscles per nedar són febles\n"
@@ -779,10 +779,10 @@ const u8 gMagikarpPokedexText[] = _(
     "veuen molts Magikarp dipositats.");
 
 const u8 gGyaradosPokedexText[] = _(
-    "És un Pokémon extremadament viciós\n"
+    "És un Pokémon extremadament ferotge\n"
     "i violent. Quan els humans es\n"
     "barallen, apareix i ho crema tot\n"
-    "amb flames intensament calentes.");
+    "amb flames abrasadores.");
 
 const u8 gLaprasPokedexText[] = _(
     "La gent ha portat Lapras gairebé\n"
@@ -804,9 +804,9 @@ const u8 gEeveePokedexText[] = _(
 
 const u8 gVaporeonPokedexText[] = _(
     "Vaporeon va patir una mutació\n"
-    "espontània i va créixer aletes i\n"
-    "brànquies per viure sota l'aigua.\n"
-    "Té l'habilitat de controlar l'aigua.");
+    "espontània i li van créixer aletes\n"
+    "i brànquies per viure sota l'aigua.\n"
+    "Pot controlar l'aigua a voluntat.");
 
 const u8 gJolteonPokedexText[] = _(
     "Les cèl·lules generen energia\n"
@@ -821,16 +821,16 @@ const u8 gFlareonPokedexText[] = _(
     "arribar a un màxim de 900 graus.");
 
 const u8 gPorygonPokedexText[] = _(
-    "Pot revertir-se completament a\n"
-    "dades de programa per entrar al\n"
+    "Pot tornar a convertir-se del tot\n"
+    "en dades de programa per entrar al\n"
     "ciberespai. Porygon té protecció\n"
     "contra còpia i no es pot duplicar.");
 
 const u8 gOmanytePokedexText[] = _(
-    "Un dels Pokémon antics i extincts\n"
-    "des de fa temps, regenerat a\n"
-    "partir de fòssils. Si l'ataquen,\n"
-    "es retira dins la closca dura.");
+    "Un dels Pokémon antics, extints\n"
+    "des de fa temps, que els humans han\n"
+    "regenerat a partir de fòssils. Si\n"
+    "l'ataquen, es tanca dins la closca.");
 
 const u8 gOmastarPokedexText[] = _(
     "Omastar usa els tentacles per\n"
@@ -859,8 +859,8 @@ const u8 gAerodactylPokedexText[] = _(
 const u8 gSnorlaxPokedexText[] = _(
     "El dia típic de Snorlax és menjar\n"
     "i dormir. És un Pokémon tan dòcil\n"
-    "que hi ha nens que fan servir la\n"
-    "seva panxa gran per jugar.");
+    "que hi ha nens que juguen damunt\n"
+    "de la seva gran panxa.");
 
 const u8 gArticunoPokedexText[] = _(
     "Articuno és un ocell llegendari que\n"
@@ -876,7 +876,7 @@ const u8 gZapdosPokedexText[] = _(
 
 const u8 gMoltresPokedexText[] = _(
     "Moltres és un ocell llegendari que\n"
-    "controla el foc. Si es fa mal, es\n"
+    "controla el foc. Si està ferit, es\n"
     "diu que s'endinsa en la lava d'un\n"
     "volcà per cremar-se i curar-se.");
 
@@ -895,8 +895,8 @@ const u8 gDragonairPokedexText[] = _(
 const u8 gDragonitePokedexText[] = _(
     "Pot donar la volta al món en 16\n"
     "hores. És un Pokémon bondadós que\n"
-    "guia vaixells perduts en tempesta\n"
-    "cap a terra ferma.");
+    "guia fins a terra ferma els vaixells\n"
+    "perduts enmig d'una tempesta.");
 
 const u8 gMewtwoPokedexText[] = _(
     "Un Pokémon creat per manipulació\n"
@@ -931,8 +931,8 @@ const u8 gMeganiumPokedexText[] = _(
 const u8 gCyndaquilPokedexText[] = _(
     "Encén flames a l'esquena per\n"
     "protegir-se. El foc crema fort si\n"
-    "està enfadat. Quan està cansat,\n"
-    "espurna amb combustió incompleta.");
+    "està enfadat. Quan està cansat, el\n"
+    "foc crepita per combustió incompleta.");
 
 const u8 gQuilavaPokedexText[] = _(
     "Intimida els enemics amb ràfegues\n"
@@ -965,8 +965,8 @@ const u8 gFeraligatrPokedexText[] = _(
     "l'enemic a una velocitat increïble.");
 
 const u8 gSentretPokedexText[] = _(
-    "Es tornen per fer guàrdia quan\n"
-    "dormen. El sentinella desperta els\n"
+    "A l'hora de dormir, fan torns de\n"
+    "guàrdia. El sentinella desperta els\n"
     "altres si detecta perill. Si un se\n"
     "separa, no pot dormir de por.");
 
@@ -978,9 +978,9 @@ const u8 gFurretPokedexText[] = _(
 
 const u8 gHoothootPokedexText[] = _(
     "Té un òrgan intern que detecta la\n"
-    "rotació de la Terra. Amb aquest\n"
-    "òrgan especial, Hoothoot udola\n"
-    "cada dia exactament a la mateixa h.");
+    "rotació de la Terra. Gràcies a això,\n"
+    "Hoothoot comença a ulular cada dia\n"
+    "exactament a la mateixa hora.");
 
 const u8 gNoctowlPokedexText[] = _(
     "Atrapa preses en la foscor sense\n"
@@ -997,8 +997,8 @@ const u8 gLedybaPokedexText[] = _(
 const u8 gLedianPokedexText[] = _(
     "Es diu que a terres d'aire net,\n"
     "on les estrelles omplen el cel,\n"
-    "hi viuen molts Ledian. Amb raó\n"
-    "usen la llum estel·lar com energia.");
+    "hi viuen molts Ledian. No és estrany:\n"
+    "usen la llum estel·lar com a energia.");
 
 const u8 gSpinarakPokedexText[] = _(
     "La teranyina es pot considerar el\n"
@@ -1033,8 +1033,8 @@ const u8 gLanturnPokedexText[] = _(
 const u8 gPichuPokedexText[] = _(
     "Encara no sap retenir electricitat.\n"
     "Quan s'espanta, descarrega sense\n"
-    "voler. Millora retenir l'energia\n"
-    "a mesura que creix.");
+    "voler. A mesura que creix, aprèn\n"
+    "a retenir millor l'energia.");
 
 const u8 gCleffaPokedexText[] = _(
     "Les nits d'estrelles fugaces, es\n"
@@ -1088,7 +1088,7 @@ const u8 gAmpharosPokedexText[] = _(
     "Emet tanta llum que es veu des de\n"
     "l'espai. Antigament, la gent feia\n"
     "servir la seva llum per enviar\n"
-    "senyals a gent lluny.");
+    "senyals a gent llunyana.");
 
 const u8 gBellossomPokedexText[] = _(
     "Els pètals de la flor s'enfosquei-\n"
@@ -1123,8 +1123,8 @@ const u8 gPolitoedPokedexText[] = _(
 const u8 gHoppipPokedexText[] = _(
     "Hoppip sura i flota amb el vent.\n"
     "Si detecta vents forts, enllaça\n"
-    "les fulles amb altres Hoppip per\n"
-    "no ser endut.");
+    "les fulles amb altres Hoppip perquè\n"
+    "el vent no se l'endugui.");
 
 const u8 gSkiploomPokedexText[] = _(
     "Floreix quan la temperatura supera\n"
@@ -1151,10 +1151,10 @@ const u8 gSunkernPokedexText[] = _(
     "menja i viu només de la rosada.");
 
 const u8 gSunfloraPokedexText[] = _(
-    "Sunflora converteix energia solar\n"
-    "en nutrients. Són molt actius de\n"
-    "dia amb calor però s'aturen de cop\n"
-    "quan es pon el sol.");
+    "Els Sunflora converteixen l'energia\n"
+    "solar en nutrients. Són molt actius\n"
+    "de dia amb calor, però s'aturen de\n"
+    "cop quan es pon el sol.");
 
 const u8 gYanmaPokedexText[] = _(
     "Pot veure 360 graus sense moure\n"
@@ -1283,10 +1283,10 @@ const u8 gShucklePokedexText[] = _(
     "barregen amb fluids i fan un suc.");
 
 const u8 gHeracrossPokedexText[] = _(
-    "Es reuneixen als boscos cercant\n"
-    "saba dolça dels arbres. Està\n"
-    "cobert d'una closca dura com\n"
-    "l'acer. Usa la banya per llançar.");
+    "Es reuneixen als boscos buscant la\n"
+    "saba dolça. Té una closca dura com\n"
+    "l'acer i està orgullós de la banya,\n"
+    "amb què llança els enemics.");
 
 const u8 gSneaselPokedexText[] = _(
     "Sneasel escala arbres clavant les\n"
@@ -1445,10 +1445,10 @@ const u8 gMagbyPokedexText[] = _(
     "barrejades amb fum negre.");
 
 const u8 gMiltankPokedexText[] = _(
-    "Dóna més de vint litres de llet al\n"
+    "Dona més de vint litres de llet al\n"
     "dia. La seva llet dolça agrada a\n"
     "grans i petits. Els que no poden\n"
-    "beure llet la fan iogurt.");
+    "beure llet en fan iogurt.");
 
 const u8 gBlisseyPokedexText[] = _(
     "Si detecta tristesa amb el pèl\n"
@@ -1531,7 +1531,7 @@ const u8 gSceptilePokedexText[] = _(
 const u8 gTorchicPokedexText[] = _(
     "Si l'ataquen, respon escupint boles\n"
     "de foc que forma a l'estómac.\n"
-    "Torchic no li agrada la foscor\n"
+    "A Torchic no li agrada la foscor\n"
     "perquè no veu l'entorn.");
 
 const u8 gCombuskenPokedexText[] = _(
@@ -1542,7 +1542,7 @@ const u8 gCombuskenPokedexText[] = _(
 
 const u8 gBlazikenPokedexText[] = _(
     "Aprèn arts marcials de cops de\n"
-    "puny i puntades. Cada pocs anys,\n"
+    "puny i puntades. Cada tants anys,\n"
     "les plomes velles cremen i en\n"
     "surten de noves i flexibles.");
 
@@ -1759,8 +1759,8 @@ const u8 gShedinjaPokedexText[] = _(
 const u8 gWhismurPokedexText[] = _(
     "Els seus crits igualen el volum\n"
     "d'un avió. Inspira pels canals\n"
-    "auditius. Gràcies a això, pot\n"
-    "cridar sense parar per respirar.");
+    "auditius. Gràcies a això, pot cridar\n"
+    "sense aturar-se a respirar.");
 
 const u8 gLoudredPokedexText[] = _(
     "Col·loca els altaveus rodons del\n"
@@ -1889,7 +1889,7 @@ const u8 gIllumisePokedexText[] = _(
 
 const u8 gRoseliaPokedexText[] = _(
     "Una Roselia que beu aigua de font\n"
-    "nutritiva floreix amb flors belles.\n"
+    "nutritiva fa unes flors precioses.\n"
     "La fragància de les flors fa que\n"
     "els enemics es descuidin.");
 
@@ -1906,13 +1906,13 @@ const u8 gSwalotPokedexText[] = _(
     "és el seu propi estómac.");
 
 const u8 gCarvanhaPokedexText[] = _(
-    "Carvanha ataquen vaixells en eixam\n"
-    "i els enfonsen. Tot i que es diu\n"
-    "que és molt viciós, fuig tímida-\n"
+    "Els Carvanha ataquen vaixells en\n"
+    "eixam i els enfonsen. Tot i que es diu\n"
+    "que és molt ferotge, fuig tímida-\n"
     "ment quan es queda sol.");
 
 const u8 gSharpedoPokedexText[] = _(
-    "El gàngster viciós i astut del mar.\n"
+    "El gàngster despietat i astut del mar.\n"
     "La pell té una textura especial\n"
     "per reduir la fricció a l'aigua.\n"
     "Arriba a més de 120 km/h.");
@@ -1937,8 +1937,8 @@ const u8 gNumelPokedexText[] = _(
 
 const u8 gCameruptPokedexText[] = _(
     "Un Pokémon que viu al cràter d'un\n"
-    "volcà. Cada 10 anys, els volcans\n"
-    "de l'esquena erupcionen. S'inves-\n"
+    "volcà. Cada 10 anys, els volcans de\n"
+    "l'esquena entren en erupció. S'inves-\n"
     "tiga la causa de les erupcions.");
 
 const u8 gTorkoalPokedexText[] = _(
@@ -2049,7 +2049,7 @@ const u8 gCorphishPokedexText[] = _(
     "a qualsevol ambient.");
 
 const u8 gCrawdauntPokedexText[] = _(
-    "Un Pokémon brut que adora lluitar.\n"
+    "Un Pokémon barroer que adora lluitar.\n"
     "Un Crawdaunt veterà que ha guanyat\n"
     "centenars de combats té pinces\n"
     "gegants plenes de cicatrius.");
@@ -2122,13 +2122,13 @@ const u8 gShuppetPokedexText[] = _(
 
 const u8 gBanettePokedexText[] = _(
     "Una nina de peluix abandonada es\n"
-    "va fer aquest Pokémon. Es diu que\n"
-    "viuen als abocadors i busquen els\n"
-    "nens que les van llençar.");
+    "va convertir en aquest Pokémon. Es\n"
+    "diu que viuen als abocadors i busquen\n"
+    "els nens que les van llençar.");
 
 const u8 gDuskullPokedexText[] = _(
     "La mirada del seu únic ull escarlata\n"
-    "glaça fins els adults més forts.\n"
+    "glaça fins i tot els adults més forts.\n"
     "És nocturn i vaga sota el mantell\n"
     "de la foscor.");
 
@@ -2236,9 +2236,9 @@ const u8 gShelgonPokedexText[] = _(
 
 const u8 gSalamencePokedexText[] = _(
     "Després de molts anys, l'estructura\n"
-    "cel·lular va mutar de sobte per\n"
-    "créixer ales. Quan s'enfada, perd\n"
-    "el control i es descontrola.");
+    "cel·lular li va mutar de sobte i li\n"
+    "van créixer ales. Quan s'enfada, perd\n"
+    "el cap i ho destrossa tot.");
 
 const u8 gBeldumPokedexText[] = _(
     "Quan els Beldum s'ajunten en eixam,\n"
@@ -2283,9 +2283,9 @@ const u8 gLatiasPokedexText[] = _(
     "enemics.");
 
 const u8 gLatiosPokedexText[] = _(
-    "Fins i tot amagat, detecta altres\n"
-    "i en sent les emocions gràcies a\n"
-    "la telepatia. La intel·ligència\n"
+    "Fins i tot amagat, detecta on són\n"
+    "els altres i en sent les emocions per\n"
+    "telepatia. La seva intel·ligència\n"
     "li permet entendre idiomes humans.");
 
 const u8 gKyogrePokedexText[] = _(
@@ -2298,7 +2298,7 @@ const u8 gGroudonPokedexText[] = _(
     "Groudon apareix a la mitologia com\n"
     "el creador de la terra. Dorm en\n"
     "magma subterrani i es diu que fa\n"
-    "erupcionar volcans en despertar.");
+    "entrar volcans en erupció en despertar.");
 
 const u8 gRayquazaPokedexText[] = _(
     "Un Pokémon que vola sense fi per\n"
