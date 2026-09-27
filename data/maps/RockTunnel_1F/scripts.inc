@@ -121,7 +121,7 @@ RockTunnel_1F_Text_DanaPostBattle::
     .string "Quina equivocació!$"
 
 RockTunnel_1F_Text_RouteSign::
-    .string "Túnel Roca\n"
+    .string "Túnel Rocós\n"
     .string "Ciutat Celeste - Poble Lavanda$"
 
 RockTunnel_1F_EventScript_ItemEscapeRope::

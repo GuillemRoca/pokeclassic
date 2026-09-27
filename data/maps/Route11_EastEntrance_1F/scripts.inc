@@ -21,6 +21,6 @@ Route11_EastEntrance_1F_EventScript_BottomGuard::
 
 Route11_EastEntrance_1F_Text_RockTunnelToReachLavender::
     .string "Si vols arribar a Poble Lavanda,\n"
-    .string "agafa el Túnel Roca.\p"
+    .string "agafa el Túnel Rocós.\p"
     .string "Pots arribar-hi des de\n"
     .string "Ciutat Cerúlia.$"

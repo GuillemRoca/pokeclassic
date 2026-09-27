@@ -110,14 +110,14 @@ Route9_EventScript_Drew::
     end
 
 Route9_Text_DrewIntro::
-    .string "Agafo el Túnel Roca per anar\n"
+    .string "Agafo el Túnel Rocós per anar\n"
     .string "a Lavanda…$"
 
 Route9_Text_DrewDefeat::
     .string "No estic a l'alçada…$"
 
 Route9_Text_DrewPostBattle::
-    .string "Tu també vas al Túnel Roca?$"
+    .string "Tu també vas al Túnel Rocós?$"
 
 Route9_EventScript_Caitlin::
     trainerbattle_single TRAINER_PICNICKER_CAITLIN, Route9_Text_CaitlinIntro, Route9_Text_CaitlinDefeat
@@ -192,7 +192,7 @@ Route9_EventScript_RouteSign::
 
 Route9_Text_RouteSign::
     .string "Ruta 9\n"
-    .string "Ciutat Cerúlia - Túnel Roca$"
+    .string "Ciutat Cerúlia - Túnel Rocós$"
 
 Route9_EventScript_ItemBurnHeal::
 	finditem ITEM_BURN_HEAL, 1

@@ -6,7 +6,7 @@ DiglettsCave_NorthEntrance_EventScript_Hiker::
 	end
 
 DiglettsCave_NorthEntrance_RockTunnelPitchBlack::
-    .string "Vaig entrar al Túnel Roca, però\n"
+    .string "Vaig entrar al Túnel Rocós, però\n"
     .string "està tot fosc i fa por.\p"
     .string "Si pogués fer que un Pokémon\n"
     .string "usés Flash i il·luminés…$"

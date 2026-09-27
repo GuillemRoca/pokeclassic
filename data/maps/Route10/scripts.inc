@@ -19,7 +19,7 @@ Route10_EventScript_NorthRockTunnelSign::
 	end
 
 Route10_Text_RockTunnelDetourToLavender::
-    .string "Túnel Roca\n"
+    .string "Túnel Rocós\n"
     .string "Drecera a Poble Lavanda$"
 
 Route10_EventScript_SouthRockTunnelSign::
@@ -27,7 +27,7 @@ Route10_EventScript_SouthRockTunnelSign::
 	end
 
 Route10_Text_RockTunnel::
-    .string "Túnel Roca$"
+    .string "Túnel Rocós$"
 
 Route10_EventScript_PowerPlantSign::
 	msgbox Route10_Text_PowerPlant, MSGBOX_SIGN

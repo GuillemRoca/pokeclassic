@@ -9,5 +9,5 @@ Route10_PokemonCenter_2F_Hiker::
 	end
 
 Route10_PokemonCenter_2F_Darkness::
-	.string "El Túnel Roca és massa fosc per\n"
+	.string "El Túnel Rocós és massa fosc per\n"
 	.string "travessar-lo!$"
