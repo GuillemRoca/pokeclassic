@@ -206,7 +206,7 @@ SecretBase_Text_SmallIndentInWall::
 
 SecretBase_Text_IndentUseSecretPower::
 	.string "Hi ha una petita osca a la paret.\p"
-	.string "Usar el Poder Secret?$"
+	.string "Vols usar el Poder Secret?$"
 
 SecretBase_Text_DiscoveredSmallCavern::
 	.string "Has descobert una petita caverna!$"

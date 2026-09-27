@@ -464,16 +464,16 @@ BattleFrontier_BattleFactoryPreBattleRoom_Movement_AttendantReturnToPlayer:
 	step_end
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_HoldMonsChooseFromSelection:
-	.string "Primer, guardarem els teus Pokémon\n"
+	.string "Primer, et guardarem els teus\n"
 
 
-	.string "per seguretat.\p"
+	.string "Pokémon mentre competeixes.\p"
 
 
-	.string "Després podràs triar de la nostra\n"
+	.string "Després podràs triar entre\n"
 
 
-	.string "selecció de Pokémon.$"
+	.string "la nostra selecció de Pokémon.$"
 
 
 
@@ -481,7 +481,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_LetUsRestoreMons:
 	.string "Gràcies per competir!\n"
 
 
-	.string "Restaurem els teus Pokémon!$"
+	.string "Deixa'ns curar els teus Pokémon!$"
 
 
 
@@ -542,10 +542,10 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_SaveAndQuitGame:
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RetireFromChallenge:
-	.string "Vols retirar-te del teu\n"
+	.string "Vols abandonar el repte\n"
 
 
-	.string "desafiament d'Intercanvi?$"
+	.string "del Combat d'Intercanvi?$"
 
 
 
@@ -558,151 +558,151 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_InvestigatedUpcomingOpponent:
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInNormalType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que aquest Entrenador\n"
 
 
-	.string "hàbil amb el tipus Normal.$"
+	.string "domina el tipus Normal.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFireType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que aquest Entrenador\n"
 
 
-	.string "hàbil amb el tipus Foc.$"
+	.string "domina el tipus Foc.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInWaterType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que aquest Entrenador\n"
 
 
-	.string "hàbil amb el tipus Aigua.$"
+	.string "domina el tipus Aigua.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInElectricType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que aquest Entrenador\n"
 
 
-	.string "hàbil amb el tipus Elèctric.$"
+	.string "domina el tipus Elèctric.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGrassType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que aquest Entrenador\n"
 
 
-	.string "hàbil amb el tipus Planta.$"
+	.string "domina el tipus Planta.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInIceType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que aquest Entrenador\n"
 
 
-	.string "hàbil amb el tipus Gel.$"
+	.string "domina el tipus Gel.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFightingType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que aquest Entrenador\n"
 
 
-	.string "hàbil amb el tipus Lluita.$"
+	.string "domina el tipus Lluita.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPoisonType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que aquest Entrenador\n"
 
 
-	.string "hàbil amb el tipus Verí.$"
+	.string "domina el tipus Verí.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGroundType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que aquest Entrenador\n"
 
 
-	.string "hàbil amb el tipus Terra.$"
+	.string "domina el tipus Terra.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFlyingType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que aquest Entrenador\n"
 
 
-	.string "hàbil amb el tipus Volador.$"
+	.string "domina el tipus Volador.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPsychicType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que aquest Entrenador\n"
 
 
-	.string "hàbil amb el tipus Psíquic.$"
+	.string "domina el tipus Psíquic.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInBugType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que aquest Entrenador\n"
 
 
-	.string "hàbil amb el tipus Insecte.$"
+	.string "domina el tipus Insecte.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInRockType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que aquest Entrenador\n"
 
 
-	.string "hàbil amb el tipus Roca.$"
+	.string "domina el tipus Roca.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGhostType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que aquest Entrenador\n"
 
 
-	.string "hàbil amb el tipus Fantasma.$"
+	.string "domina el tipus Fantasma.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDragonType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que aquest Entrenador\n"
 
 
-	.string "hàbil amb el tipus Drac.$"
+	.string "domina el tipus Drac.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDarkType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que aquest Entrenador\n"
 
 
-	.string "hàbil amb el tipus Fosc.$"
+	.string "domina el tipus Fosc.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFairyType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que aquest Entrenador\n"
 
 
-	.string "hàbil amb el tipus Fada.$"
+	.string "domina el tipus Fada.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInSteelType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que aquest Entrenador\n"
 
 
-	.string "hàbil amb el tipus Acer.$"
+	.string "domina el tipus Acer.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerHasNoClearFavorite:
-	.string "L'Entrenador no sembla tenir cap\n"
+	.string "Aquest Entrenador no sembla tenir cap\n"
 
 
 	.string "preferència clara de tipus.$"
@@ -745,7 +745,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleTotalPreparation:
 	.string "L'estil de combat preferit sembla\n"
 
 
-	.string "ser basat en preparació total.$"
+	.string "basar-se en una preparació total.$"
 
 
 
@@ -753,7 +753,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleWeakenFoe:
 	.string "L'estil de combat preferit sembla\n"
 
 
-	.string "ser debilitar primer el rival.$"
+	.string "consistir a debilitar primer el rival.$"
 
 
 
@@ -761,7 +761,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleFlexible:
 	.string "L'estil de combat preferit sembla\n"
 
 
-	.string "ser flexible i adaptable.$"
+	.string "ser flexible i adaptar-se a la situació.$"
 
 
 
@@ -793,7 +793,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_YourSwapIsComplete:
 	.string "Gràcies!\n"
 
 
-	.string "L'intercanvi de Pokémon s'ha fet.$"
+	.string "L'intercanvi de Pokémon s'ha completat.$"
 
 
 
@@ -814,7 +814,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_RecordLatestBattle:
 	.string "Vols enregistrar l'últim combat\n"
 
 
-	.string "al teu Passi de Frontera?$"
+	.string "al Passi de Frontera?$"
 
 
 
@@ -822,7 +822,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_WaitFewMoments:
 	.string "Disculpa! Disculpa, si us plau!\n"
 
 
-	.string "Pots esperar uns moments?$"
+	.string "Pots esperar un moment?$"
 
 
 
@@ -841,10 +841,10 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_MessageFromHeadComeRightNow:
 	.string "Perdona per l'espera!\p"
 
 
-	.string "Tinc un missatge del cap\n"
+	.string "Tinc un missatge del responsable\n"
 
 
-	.string "d'aquesta instal·lació.\p"
+	.string "d'aquí, el Cap de la Fàbrica.\p"
 
 
 	.string "Diu: “Ho farem!\n"
@@ -855,10 +855,10 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_MessageFromHeadComeRightNow:
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_PreparedToFaceHead:
-	.string "El Cap de Fàbrica et demana.\n"
+	.string "El Cap de la Fàbrica et reclama.\n"
 
 
-	.string "Estàs preparat per enfrontar-t'hi?$"
+	.string "Estàs {MASC}preparat{FEM}preparada{ENDG} per enfrontar-t'hi?$"
 
 
 
@@ -866,6 +866,6 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_CantTellAnythingAboutHead:
 	.string "Ho sento molt, però no puc dir-te\n"
 
 
-	.string "res sobre el Cap de Fàbrica.$"
+	.string "res sobre el Cap de la Fàbrica.$"
 
 

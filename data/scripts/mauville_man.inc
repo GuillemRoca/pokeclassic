@@ -320,7 +320,7 @@ MauvilleCity_PokemonCenter_1F_Text_CouldThereBeOtherLegends:
 
 
 MauvilleCity_PokemonCenter_1F_Text_HaveYouAnyLegendaryTales:
-	.string "Ets Entrenador?\p"
+	.string "Ets {MASC}Entrenador{FEM}Entrenadora{ENDG}?\p"
 
 	.string "Doncs digue'm, tens alguna\n"
 
@@ -349,9 +349,9 @@ MauvilleCity_PokemonCenter_1F_Text_NotWorthyOfLegend:
 
 
 MauvilleCity_PokemonCenter_1F_Text_IWishMorePeopleWereInterested:
-	.string "M'agradaria que a més gent li\n"
+	.string "M'agradaria que més gent\n"
 
-	.string "interessés escoltar les meves\l"
+	.string "s'interessés per les meves\l"
 
 	.string "històries d'Entrenadors\l"
 
@@ -485,7 +485,7 @@ MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesStory::
 
 	.string "{STR_VAR_3} deu ser un Entrenador\n"
 
-	.string "que mai rebutja un combat!$"
+	.string "que no rebutja mai un combat!$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtTitle::
@@ -547,7 +547,7 @@ MauvilleCity_PokemonCenter_1F_Text_EggsHatchedStory::
 
 	.string "Ha fet eclosionar {STR_VAR_1} Pokémon\n"
 
-	.string "dels Ous!\p"
+	.string "d'Ous!\p"
 
 	.string "{STR_VAR_3} és un llegendari covador\n"
 
@@ -703,9 +703,9 @@ MauvilleCity_PokemonCenter_1F_Text_MovedBasesStory::
 
 	.string "{STR_VAR_1} vegades!\p"
 
-	.string "{STR_VAR_3} és un Entrenador que\n"
+	.string "{STR_VAR_3} deu ser un Entrenador\n"
 
-	.string "li agrada mudar-se sovint!$"
+	.string "que adora mudar-se sovint!$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_UsedSplashTitle::
@@ -749,7 +749,7 @@ MauvilleCity_PokemonCenter_1F_Text_UsedStruggleStory::
 
 	.string "{STR_VAR_3} és un Entrenador tenaç\n"
 
-	.string "que mai es rendeix!$"
+	.string "que no es rendeix mai!$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_SlotJackpotsTitle::
@@ -797,7 +797,7 @@ MauvilleCity_PokemonCenter_1F_Text_RouletteWinsStory::
 
 
 MauvilleCity_PokemonCenter_1F_Text_BattleTowerChallengesTitle::
-	.string "El Retador de la Torre Combat$"
+	.string "El Retador de la Torre de Combat$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_BattleTowerChallengesAction::
@@ -809,17 +809,17 @@ MauvilleCity_PokemonCenter_1F_Text_BattleTowerChallengesStory::
 
 	.string "Entrenador anomenat {STR_VAR_3}.\p"
 
-	.string "Ha acceptat el repte de la\n"
+	.string "Ha acceptat el repte de la Torre\n"
 
-	.string "Torre Combat {STR_VAR_1} vegades!\p"
+	.string "de Combat {STR_VAR_1} vegades!\p"
 
 	.string "{STR_VAR_3} aspira a l'excel·lència\n"
 
-	.string "a la Torre Combat!$"
+	.string "a la Torre de Combat!$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_MadePokeblocksTitle::
-	.string "L'Amant de les Mescles$"
+	.string "L'Amant del Barrejador$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_MadePokeblocksAction::
@@ -835,7 +835,7 @@ MauvilleCity_PokemonCenter_1F_Text_MadePokeblocksStory::
 
 	.string "{STR_VAR_1} vegades!\p"
 
-	.string "Ningú no utilitza la Mescladora\n"
+	.string "Ningú no fa servir el Barrejador\n"
 
 	.string "de Baies millor que {STR_VAR_3}!$"
 
@@ -907,7 +907,7 @@ MauvilleCity_PokemonCenter_1F_Text_TimesShoppedStory::
 
 
 MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderTitle::
-	.string "El Trobador d'Objectes$"
+	.string "El Buscador d'Objectes$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderAction::
@@ -1234,7 +1234,7 @@ MauvilleCity_PokemonCenter_1F_Text_AlsoIWasThinking:
 MauvilleCity_PokemonCenter_1F_Text_WeShouldChatAgain:
 	.string "Això és tot, crec…\p"
 
-	.string "Hauríem de xerrar un altre cop!\n"
+	.string "Hem de tornar a xerrar!\n"
 
 	.string "Adéu!$"
 
@@ -1300,7 +1300,7 @@ MauvilleCity_PokemonCenter_1F_Text_BardFeelingTheBlues1:
 MauvilleCity_PokemonCenter_1F_Text_WishICouldPlaySongForOthers:
 	.string "Oh, quina cançó tan emotiva…\n"
 
-	.string "M'agradaria tocar-la per altri…$"
+	.string "M'agradaria tocar-la per a més gent…$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_WouldYouLikeToWriteSomeLyrics:
@@ -1326,7 +1326,7 @@ MauvilleCity_PokemonCenter_1F_Text_BardFeelingTheBlues2:
 MauvilleCity_PokemonCenter_1F_Text_LetMeSingItForYou:
 	.string "Moltes gràcies!\n"
 
-	.string "Deixa'm cantar-la per a tu.$"
+	.string "Ara te la canto.$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_ThatHowYouWantedSongToGo:
@@ -1374,5 +1374,5 @@ MauvilleCity_PokemonCenter_1F_Text_HaveYouHeardOfPhrase:
 
 	.string "Què vol dir? Bé…\n"
 
-	.string "Pregunta al teu pare o mare!$"
+	.string "Pregunta-ho al pare o a la mare, eh?$"
 

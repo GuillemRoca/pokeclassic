@@ -250,11 +250,11 @@ BattleFrontier_BattleFactoryBattleRoom_Text_NolandImFactoryHead:
 	.string "per això sóc el Cap de la Fàbrica!\p"
 	.string "He mirat les teves dades d'Intercanvi.\p"
 	.string "Sembla que tens la idea correcta,\n"
-	.string "però encara ets massa quadrat!\p"
+	.string "però encara tens el cap quadriculat!\p"
 	.string "Escolta, d'acord? El coneixement no és\n"
 	.string "només llegir llibres o treballar a taula.\p"
-	.string "Només fer això…\n"
-	.string "Tant se val si és inútil!\p"
+	.string "Si només fas això…\n"
+	.string "És com si no servís de res!\p"
 	.string "Has d'experimentar les coses amb\n"
 	.string "el cor i el cos, entens?\p"
 	.string "T'enfrontaré en les mateixes\n"
@@ -270,12 +270,12 @@ BattleFrontier_BattleFactoryBattleRoom_Text_NolandLetsSeeFrontierPass:
 	.string "Deixa'm veure el teu Passi de Frontera.$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_ReceivedKnowledgeSymbol:
-	.string "El Símbol de Coneixement s'ha gravat\n"
+	.string "El Símbol de Saviesa s'ha gravat\n"
 	.string "al Passi de Frontera!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_NextTimeNoHoldsBarred:
 	.string "Heh…\n"
-	.string "Ets bastant llest/a…\p"
+	.string "Ets força {MASC}llest{FEM}llesta{ENDG}…\p"
 	.string "El proper cop, aniré a per tu amb tot.\n"
 	.string "Sense contemplacions, entens?\p"
 	.string "Segueix estudiant!$"
@@ -300,12 +300,12 @@ BattleFrontier_BattleFactoryBattleRoom_Text_OutOfMyLeagueLetsSeePass:
 	.string "Deixa'm veure el Passi de Frontera!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_KnowledgeSymbolTookGoldenShine:
-	.string "El Símbol de Coneixement ha adquirit\n"
+	.string "El Símbol de Saviesa ha adquirit\n"
 	.string "una brillantor daurada!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_LastTimeILoseToYou:
 	.string "Buf, home!\p"
-	.string "Aquesta és absolutament l'última\n"
+	.string "Et juro que és l'última\n"
 	.string "vegada que perdo contra tu!\p"
 	.string "Ho hem de tornar a fer, eh?$"
 

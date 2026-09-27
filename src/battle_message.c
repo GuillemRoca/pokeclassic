@@ -3149,51 +3149,6 @@ static const u8 *BattleStringGetOpponentClassByTrainerId(u16 trainerId)
     return toCpy;
 }
 
-// Catalan: "de" before a word starting with a vowel or h is written "d'"
-// (d'Eevee, d'Onix). Names are only known at runtime, so the elision is done
-// here when a placeholder is expanded right after "de ". For "de\n" the line
-// break is kept before the elided form: "Atac de\nEevee" -> "Atac \nd'Eevee".
-static bool32 IsElisionInitial(u8 c)
-{
-    static const u8 sElisionInitials[] = _("AEIOUHÀÈÉÍÏÒÓÚÜaeiouhàèéíïòóúü");
-    const u8 *ch;
-
-    for (ch = sElisionInitials; *ch != EOS; ch++)
-    {
-        if (*ch == c)
-            return TRUE;
-    }
-    return FALSE;
-}
-
-static bool32 IsWordSeparator(u8 c)
-{
-    return c == CHAR_SPACE || c == CHAR_NEWLINE || c == CHAR_PROMPT_SCROLL || c == CHAR_PROMPT_CLEAR;
-}
-
-static u32 TryElideDe(u8 *dst, u32 dstID, const u8 *next)
-{
-    u8 sep;
-
-    if (dstID < 3 || !IsElisionInitial(*next))
-        return dstID;
-    sep = dst[dstID - 1];
-    if (!IsWordSeparator(sep) || dst[dstID - 2] != CHAR_e
-     || (dst[dstID - 3] != CHAR_d && dst[dstID - 3] != CHAR_D)
-     || (dstID > 3 && !IsWordSeparator(dst[dstID - 4])))
-        return dstID;
-
-    if (sep == CHAR_SPACE)
-    {
-        dst[dstID - 2] = CHAR_SGL_QUOTE_RIGHT;
-        return dstID - 1;
-    }
-    dst[dstID - 2] = dst[dstID - 3];
-    dst[dstID - 3] = sep;
-    dst[dstID - 1] = CHAR_SGL_QUOTE_RIGHT;
-    return dstID;
-}
-
 u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
 {
     u32 dstID = 0; // if they used dstID, why not use srcID as well?
@@ -3601,7 +3556,7 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
 
             if (toCpy != NULL)
             {
-                dstID = TryElideDe(dst, dstID, toCpy);
+                dstID = ElideCatalanDe(dst, dst + dstID, toCpy) - dst;
                 while (*toCpy != EOS)
                 {
                     dst[dstID] = *toCpy;

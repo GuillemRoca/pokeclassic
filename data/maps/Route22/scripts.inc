@@ -83,7 +83,7 @@ Route22_Text_EarlyRivalVictory:
 	.string "{RIVAL}: Hahaha! {PLAYER}!\p"
 	.string "Això és tot? No m'arribes ni a la\n"
 	.string "sola de la sabata, col·lega!\p"
-	.string "Ves a entrenar més! Perdedor!$"
+	.string "Ves a entrenar més! {MASC}Perdedor{FEM}Perdedora{ENDG}!$"
 
 Route22_EventScript_EarlyRivalPostBattle::
 	msgbox Route22_Text_EarlyRivalPostBattle, MSGBOX_DEFAULT

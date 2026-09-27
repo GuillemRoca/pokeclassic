@@ -31,7 +31,7 @@ Roulette_Text_NotEnoughCoins::
 	.string "No tens prou Monedes.$"
 
 Roulette_Text_SpecialRateTable::
-	.string "Taula amb tarifa especial ara!$"
+	.string "Ara, taula amb pagament especial!$"
 
 Roulette_Text_ControlsInstruction::
 	.string "Fes l'aposta amb la Creueta\n"
@@ -56,7 +56,7 @@ Roulette_Text_KeepPlaying::
 	.string "Vols seguir jugant?$"
 
 Roulette_Text_BoardWillBeCleared::
-	.string "El tauler de Ruleta es netejarà.$"
+	.string "Es buidarà el tauler de la Ruleta.$"
 
 @ Unused
 Roulette_Text_YouDontHaveACoinCase::

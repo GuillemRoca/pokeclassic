@@ -375,15 +375,15 @@ BattleFrontier_BattlePalaceLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattlePalaceLobby_Text_WelcomeForSingleBattle:
-	.string "On els cors dels Entrenadors\n"
-	.string "són posats a prova.\p"
+	.string "On es posa a prova el cor\n"
+	.string "dels Entrenadors.\p"
 	.string "Et dono la benvinguda al\n"
 	.string "Palau de Combat.\p"
-	.string "Accepto desafiaments a les Sales\n"
+	.string "Accepto reptes a les Sales\n"
 	.string "de Combat Individual.$"
 
 BattleFrontier_BattlePalaceLobby_Text_TakeSingleBattleChallenge:
-	.string "Vols acceptar el desafiament\n"
+	.string "Vols acceptar el repte\n"
 	.string "de la Sala de Combat Individual?$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainSingleBattleChallenge:
@@ -398,16 +398,16 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainSingleBattleChallenge:
 	.string "No poden donar ordres als seus\n"
 	.string "Pokémon.\p"
 	.string "Els Pokémon actuaran segons la\n"
-	.string "seva natura i combatran sols.\p"
+	.string "seva naturalesa i combatran sols.\p"
 	.string "Has de confiar en els teus\n"
-	.string "Pokémon i observar-los.\p"
+	.string "Pokémon i vetllar per ells.\p"
 	.string "Si aconsegueixes derrotar set\n"
 	.string "Entrenadors seguits, rebràs\l"
 	.string "Punts de Combat.\p"
-	.string "Si vols interrompre, has de\n"
-	.string "desar la partida.\p"
-	.string "Si no deses, seràs\n"
-	.string "desqualificat.$"
+	.string "Si vols interrompre el repte,\n"
+	.string "has de desar la partida.\p"
+	.string "Si no la deses, et\n"
+	.string "desqualificarem.$"
 
 BattleFrontier_BattlePalaceLobby_Text_ReturnWhenFortified:
 	.string "Quan hagis enfortit el teu cor\n"
@@ -416,31 +416,31 @@ BattleFrontier_BattlePalaceLobby_Text_ReturnWhenFortified:
 BattleFrontier_BattlePalaceLobby_Text_WhichChallenge:
 	.string "Hi ha dues Sales de Combat,\n"
 	.string "Nivell 50 i Nivell Obert.\l"
-	.string "Quina tries per al desafiament?$"
+	.string "Quina tries per al repte?$"
 
 BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLv50:
 	.string "Ai…\p"
 	.string "No tens els tres Pokémon\n"
-	.string "necessaris per al desafiament.\p"
+	.string "necessaris per al repte.\p"
 	.string "Necessites tres Pokémon\n"
 	.string "d'espècies diferents.\p"
 	.string "Han de ser de Nivell 50\n"
 	.string "o inferior.\p"
-	.string "Tampoc poden portar els mateixos\n"
-	.string "tipus d'objecte.\p"
-	.string "Els Ous{STR_VAR_1} no són vàlids.\p"
+	.string "A més, no poden portar el\n"
+	.string "mateix tipus d'objecte.\p"
+	.string "Els Ous{STR_VAR_1} exclosos.\p"
 	.string "Torna quan t'hagis\n"
 	.string "preparat.$"
 
 BattleFrontier_BattlePalaceLobby_Text_NotEnoughValidMonsLvOpen:
 	.string "Ai…\p"
 	.string "No tens els tres Pokémon\n"
-	.string "necessaris per al desafiament.\p"
+	.string "necessaris per al repte.\p"
 	.string "Necessites tres Pokémon\n"
 	.string "d'espècies diferents.\p"
-	.string "Tampoc poden portar els mateixos\n"
-	.string "tipus d'objecte.\p"
-	.string "Els Ous{STR_VAR_1} no són vàlids.\p"
+	.string "A més, no poden portar el\n"
+	.string "mateix tipus d'objecte.\p"
+	.string "Els Ous{STR_VAR_1} exclosos.\p"
 	.string "Torna quan t'hagis\n"
 	.string "preparat.$"
 
@@ -459,23 +459,23 @@ BattleFrontier_BattlePalaceLobby_Text_FollowMe:
 BattleFrontier_BattlePalaceLobby_Text_ResultsWillBeRecorded:
 	.string "Ha estat un privilegi veure\n"
 	.string "les proeses dels teus Pokémon.\p"
-	.string "Els resultats seran registrats.\n"
+	.string "Ara registrarem els resultats.\n"
 	.string "Espera un moment, si us plau.$"
 
 BattleFrontier_BattlePalaceLobby_Text_FirmTrueBondsFor7WinStreak:
-	.string "Aconseguir una ratxa de 7…\p"
+	.string "Aconseguir una ratxa de 7 victòries…\p"
 	.string "Els llaços que uneixen el teu cor\n"
 	.string "amb els Pokémon semblen ferms\l"
 	.string "i autèntics.$"
 
 BattleFrontier_BattlePalaceLobby_Text_FeatWillBeRecorded:
-	.string "La teva gesta serà registrada.\n"
+	.string "Ara registrarem la teva gesta.\n"
 	.string "Espera un moment, si us plau.$"
 
 @ Unused
 BattleFrontier_BattlePalaceLobby_Text_BattlePointsFor7WinStreak:
-    .string "Per la gesta de la teva ratxa de\n"
-    .string "7, t'atorguem Punt(s) de Combat.$"
+    .string "Per la gesta de la teva ratxa de 7\n"
+    .string "victòries, t'atorguem Punts de Combat.$"
 
 BattleFrontier_BattlePalaceLobby_Text_NoSpaceForPrize:
 	.string "Sembla que no tens espai per\n"
@@ -493,10 +493,9 @@ BattleFrontier_BattlePalaceLobby_Text_MustSaveBeforeChallenge:
 BattleFrontier_BattlePalaceLobby_Text_FailedToSaveBeforeEndingChallenge:
 	.string "Ai…\p"
 	.string "No vas desar abans d'acabar\n"
-	.string "el desafiament l'última vegada.\p"
-	.string "Com a resultat, el teu desafiament\n"
-	.string "ha estat desqualificat.\l"
-	.string "És molt desafortunat.$"
+	.string "el repte l'última vegada.\p"
+	.string "Per aquest motiu, has quedat\n"
+	.string "fora del repte. És una llàstima.$"
 
 @ Unused
 BattleFrontier_BattlePalaceLobby_Text_ReceivedPrize:
@@ -505,13 +504,13 @@ BattleFrontier_BattlePalaceLobby_Text_ReceivedPrize:
 
 BattleFrontier_BattlePalaceLobby_Text_LadyCanTellWhatMonsThink:
 	.string "Per a un home robust com jo,\n"
-	.string "Pokémon robustos són els millors.\p"
+	.string "els Pokémon robustos són els millors.\p"
 	.string "L'atac és la millor defensa!\n"
-	.string "Un atac implacable és el màxim!\p"
+	.string "No hi ha res com un atac implacable!\p"
 	.string "Però no era d'això que volia\n"
 	.string "parlar.\p"
 	.string "De tant en tant, una noia molt\n"
-	.string "bonica ve per aquí.\p"
+	.string "bonica passa per aquí.\p"
 	.string "Diu que pot saber què pensen\n"
 	.string "els Pokémon.\p"
 	.string "No sé si és cert,\n"
@@ -521,43 +520,43 @@ BattleFrontier_BattlePalaceLobby_Text_LadyCanTellWhatMonsThink:
 
 BattleFrontier_BattlePalaceLobby_Text_NatureAndMovesKeyHere:
 	.string "Hmm…\p"
-	.string "Sembla que la natura dels Pokémon\n"
+	.string "Sembla que la naturalesa dels Pokémon\n"
 	.string "i els moviments que han après\l"
 	.string "són la clau del combat aquí.\p"
 	.string "Més concretament, com de bé\n"
 	.string "encaixen els moviments amb la\l"
-	.string "natura del Pokémon.\p"
+	.string "naturalesa del Pokémon.\p"
 	.string "Si el teu Pokémon té problemes\n"
 	.string "i no rendeix, potser hauràs\l"
 	.string "d'examinar com s'adapten els\l"
-	.string "moviments a la seva natura.$"
+	.string "moviments a la seva naturalesa.$"
 
 BattleFrontier_BattlePalaceLobby_Text_MonDocileButTransforms:
 	.string "El meu Pokémon sol ser molt dòcil.\p"
 	.string "Però quan és a la Sala de Combat,\n"
 	.string "de vegades sembla transformar-se\l"
 	.string "en alguna cosa malvada!\p"
-	.string "Es torna totalment intimidant.\n"
-	.string "És xocant, fins i tot.$"
+	.string "Es torna ben intimidant.\n"
+	.string "Fins i tot fa impressió.$"
 
 BattleFrontier_BattlePalaceLobby_Text_WhatNatureFavorsChippingAway:
-	.string "Em pregunto quina natura tindria\n"
+	.string "Em pregunto quina naturalesa tindria\n"
 	.string "un Pokémon que preferís debilitar\l"
 	.string "els rivals i desgastar-los.\p"
-	.string "Em sorprendria si fos natura\n"
-	.string "Mandrosa.\p"
-	.string "Però nah, no pot ser.$"
+	.string "Em sorprendria que fos de\n"
+	.string "naturalesa Deixat.\p"
+	.string "Però no, no pot ser.$"
 
 BattleFrontier_BattlePalaceLobby_Text_WelcomeForDoubleBattle:
-	.string "On els cors dels Entrenadors\n"
-	.string "són posats a prova.\p"
+	.string "On es posa a prova el cor\n"
+	.string "dels Entrenadors.\p"
 	.string "Et dono la benvinguda al\n"
 	.string "Palau de Combat.\p"
-	.string "Accepto desafiaments a les Sales\n"
+	.string "Accepto reptes a les Sales\n"
 	.string "de Combat Doble.$"
 
 BattleFrontier_BattlePalaceLobby_Text_TakeDoubleBattleChallenge:
-	.string "Vols acceptar el desafiament\n"
+	.string "Vols acceptar el repte\n"
 	.string "de la Sala de Combat Doble?$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainDoubleBattleChallenge:
@@ -572,34 +571,34 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainDoubleBattleChallenge:
 	.string "No poden donar ordres als seus\n"
 	.string "Pokémon.\p"
 	.string "Els Pokémon actuaran segons la\n"
-	.string "seva natura i combatran sols.\p"
+	.string "seva naturalesa i combatran sols.\p"
 	.string "Has de confiar en els teus\n"
-	.string "Pokémon i observar-los.\p"
+	.string "Pokémon i vetllar per ells.\p"
 	.string "Si aconsegueixes derrotar set\n"
 	.string "Entrenadors seguits, rebràs\l"
 	.string "Punts de Combat.\p"
-	.string "Si vols interrompre, has de\n"
-	.string "desar la partida.\p"
-	.string "Si no deses, seràs\n"
-	.string "desqualificat.$"
+	.string "Si vols interrompre el repte,\n"
+	.string "has de desar la partida.\p"
+	.string "Si no la deses, et\n"
+	.string "desqualificarem.$"
 
 BattleFrontier_BattlePalaceLobby_Text_ToDefeatMavenAnd7Trainers:
-	.string "Derrotar el Mestre del Palau\n"
+	.string "Derrotar el Virtuós del Palau\n"
 	.string "i set Entrenadors seguits…$"
 
 BattleFrontier_BattlePalaceLobby_Text_PresentYouWithBattlePoints:
 	.string "En honor al vincle que comparteixes\n"
 	.string "amb els Pokémon, t'atorguem\l"
-	.string "aquests Punt(s) de Combat.$"
+	.string "aquests Punts de Combat.$"
 
 BattleFrontier_BattlePalaceLobby_Text_LikeToRecordMatch:
 	.string "Vols enregistrar el teu últim\n"
-	.string "combat del Palau al\l"
+	.string "combat del Palau de Combat al\l"
 	.string "Passi de Frontera?$"
 
 BattleFrontier_BattlePalaceLobby_Text_RulesAreListed:
-	.string "Les regles de la Sala de Combat\n"
-	.string "estan exposades.$"
+	.string "Aquí hi ha les regles\n"
+	.string "de la Sala de Combat.$"
 
 BattleFrontier_BattlePalaceLobby_Text_ReadWhichHeading:
 	.string "Quina secció vols llegir?$"
@@ -610,31 +609,31 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainRulesBasics:
 	.string "A diferència dels salvatges,\n"
 	.string "els Pokémon que viuen amb persones\l"
 	.string "es comporten diferent segons\l"
-	.string "la seva natura.$"
+	.string "la seva naturalesa.$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesNature:
-	.string "Segons la seva natura, un Pokémon\n"
+	.string "Segons la seva naturalesa, un Pokémon\n"
 	.string "pot preferir atacar sempre.\p"
 	.string "Un altre pot preferir protegir-se\n"
 	.string "de qualsevol dany.\p"
-	.string "Un altre pot gaudir irritant\n"
+	.string "A un altre li pot agradar molestar\n"
 	.string "o confondre els rivals.\p"
-	.string "Per la seva natura, un Pokémon\n"
+	.string "Per la seva naturalesa, un Pokémon\n"
 	.string "tindrà moviments preferits que\l"
-	.string "fa servir bé.\p"
-	.string "També pot tenir problemes amb\n"
-	.string "certs moviments.$"
+	.string "sap fer servir bé.\p"
+	.string "També hi pot haver moviments que\n"
+	.string "no li agradin i li costi usar.$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesMoves:
 	.string "Hi ha moviments ofensius que\n"
 	.string "infligeixen dany directe al rival.\p"
 	.string "Hi ha moviments defensius per\n"
-	.string "preparar-se per atacs enemics\l"
-	.string "o per curar PS i similars.\p"
+	.string "preparar-se per als atacs enemics\l"
+	.string "o per recuperar PS, entre d'altres.\p"
 	.string "Hi ha també moviments una mica\n"
 	.string "estranys que debiliten els rivals\l"
-	.string "amb problemes d'estat com verí\l"
-	.string "i paràlisi.\p"
+	.string "amb problemes d'estat com el verí\l"
+	.string "o la paràlisi.\p"
 	.string "Els Pokémon usaran moviments\n"
 	.string "d'aquestes tres categories.$"
 
@@ -642,15 +641,15 @@ BattleFrontier_BattlePalaceLobby_Text_ExplainRulesUnderpowered:
 	.string "Sense ordres del seu Entrenador,\n"
 	.string "un Pokémon pot no usar bé certs\l"
 	.string "moviments.\p"
-	.string "Un Pokémon no és bo usant\n"
-	.string "moviments que no li agraden.\p"
+	.string "Un Pokémon no fa bé cap\n"
+	.string "moviment que no li agradi.\p"
 	.string "Si un Pokémon només coneix\n"
 	.string "moviments que no encaixen amb\l"
-	.string "la seva natura, sovint no podrà\l"
+	.string "la seva naturalesa, sovint no podrà\l"
 	.string "rendir al seu màxim.$"
 
 BattleFrontier_BattlePalaceLobby_Text_ExplainRulesWhenInDanger:
-	.string "Segons la seva natura, un Pokémon\n"
+	.string "Segons la seva naturalesa, un Pokémon\n"
 	.string "pot començar a usar moviments que\l"
 	.string "no encaixen quan està en perill.\p"
 	.string "Si un Pokémon actua de manera\n"

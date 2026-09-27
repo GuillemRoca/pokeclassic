@@ -5,7 +5,7 @@ SecretBase_Text_TreeCanBeClimbed:
 SecretBase_Text_TreeUseSecretPower:
 	.string "Si cauen unes lianes, es pot pujar\n"
 	.string "a aquest arbre.\p"
-	.string "Usar el Poder Secret?$"
+	.string "Vols usar el Poder Secret?$"
 
 SecretBase_Text_VineDroppedDown:
 	.string "Ha caigut una liana gruixuda!$"
@@ -17,7 +17,7 @@ SecretBase_Text_ClumpOfGrass:
 SecretBase_Text_ClumpUseSecretPower:
 	.string "Si es pogués moure aquest matollar,\n"
 	.string "potser es podria entrar a dins.\p"
-	.string "Usar el Poder Secret?$"
+	.string "Vols usar el Poder Secret?$"
 
 SecretBase_Text_DiscoveredSmallEntrance:
 	.string "Has descobert una petita entrada!$"
@@ -712,8 +712,8 @@ SecretBase_Text_RegistryInfo:
 	.string "ubicacions de Base Secreta.$"
 
 SecretBase_Text_BattleTowerShield:
-	.string "Un escut de {STR_VAR_2} que marca haver\n"
-	.string "guanyat {STR_VAR_1} cops seguits a la Torre.$"
+	.string "Un escut ({STR_VAR_2}) per haver guanyat\n"
+	.string "{STR_VAR_1} cops seguits a la Torre de Combat.$"
 
 SecretBase_Text_ToyTV:
 	.string "Una TV de joguina realista. Es podria\n"

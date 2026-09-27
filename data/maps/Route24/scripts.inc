@@ -230,7 +230,7 @@ Route24_Text_ReceivedNuggetFromMysteryTrainer::
     .string "de l'Entrenador misteriós!$"
 
 Route24_Text_SecretPrize::
-	.string "Saps, noi, no he vist mai\n"
+	.string "Saps, {MASC}noi{FEM}noia{ENDG}, no he vist mai\n"
 	.string "ningú lluitar així...\p"
 	.string "Crec que et mereixes el\n"
 	.string "Premi Secret!\p"
@@ -270,7 +270,7 @@ Route24_EventScript_DisguisedRocketBattle::
 Route24_Text_RocketGruntIntro:
 	.string "Som criminals professionals\n"
     .string "especialitzats en Pokémon!\p"
-    .string "Un entrenador fort com tu...\n"
+    .string "{MASC}Un entrenador fort{FEM}Una entrenadora forta{ENDG} com tu...\n"
     .string "els meus caps s'enfadarien si\l"
     .string "perdés l'oportunitat de\l"
     .string "reclutar-te!\p"
@@ -282,7 +282,7 @@ Route24_Text_RocketGruntIntro:
 
 Route24_Text_RocketGruntDefeat::
     .string "Argh!\n"
-    .string "Ets bo!$"
+    .string "Ets {MASC}bo{FEM}bona{ENDG}!$"
 
 Route24_EventScript_DisguisedRocketDefeated::
 	msgbox Route24_Text_BossesAreGonnaKillMe, MSGBOX_DEFAULT
@@ -352,14 +352,14 @@ Movement_JessieJamesEnter:
 	step_end
 
 Route24_Text_ThisIsTheKid::
-	.string "Jessie, James, aquest és el\n"
-	.string "nen del qual us parlava!\p"
+	.string "Jessie, James, {MASC}aquest és el{FEM}aquesta és la{ENDG}\n"
+	.string "{MASC}nen del qual{FEM}nena de la qual{ENDG} us parlava!\p"
 	.string "S'ha guanyat el Premi Secret.\p"
     .string "Amb la seva habilitat, arribaria\n"
     .string "a ser un gran líder de l'Equip Rocket.\p"
     .string "N'estic segur!\p"
     .string "Què en dieu?\n"
-    .string "El deixem unir-se?$"
+    .string "{MASC}El{FEM}La{ENDG} deixem unir-se?$"
 
 Route24_Text_OhWowThatsGreat::
 	.string "Uau! De debò?\p"
@@ -438,7 +438,7 @@ Movement_JamesApproach:
 Route24_Text_YouFool:
 	.string "Jessie: Ximple!\p"
 	.string "James: Imbècil!\p"
-	.string "Jessie: Aquest és el marrec\n"
+	.string "Jessie: {MASC}Aquest és el marrec{FEM}Aquesta és la mocosa{ENDG}\n"
 	.string "que va arruïnar els nostres\l"
 	.string "plans al Mont Lluna!\p"
 	.string "James: Segurament ha portat\n"
@@ -464,7 +464,7 @@ Route24_Text_RocketDuoIntro:
 	.string "James: I que siguin dobles!$"
 
 Route24_Text_RocketDuoDefeat:
-	.string "Marrec! Com has pogut\n"
+	.string "{MASC}Marrec{FEM}Mocosa{ENDG}! Com has pogut\n"
 	.string "fer-nos això un altre cop!$"
 
 Route24_EventScript_RocketDuoDefeated::
@@ -601,8 +601,8 @@ Route24_EventScript_RegisterShaneAfterBattle::
 	end
 
 Route24_Text_ShaneRegister:
-	.string "Uau! Ets fort!\p"
-	.string "Si fossis el meu amic, no\n"
+	.string "Uau! Ets {MASC}fort{FEM}forta{ENDG}!\p"
+	.string "Si fossis {MASC}el meu amic{FEM}la meva amiga{ENDG}, no\n"
 	.string "hauria de tenir por!$"
 
 Route24_EventScript_ShaneRematch::
@@ -715,7 +715,7 @@ Route24_EventScript_ReliPostBattle::
 
 Route24_Text_ReliIntro::
     .string "Sóc la Nº 4!\n"
-    .string "Estàs cansat?$"
+    .string "Estàs {MASC}cansat{FEM}cansada{ENDG}?$"
 
 Route24_Text_ReliDefeat::
     .string "Jo també he perdut!$"
@@ -742,7 +742,7 @@ Route24_Text_EthanIntro::
 
 Route24_Text_EthanDefeat::
     .string "Uau!\n"
-    .string "Massa fort!$"
+    .string "Massa {MASC}fort{FEM}forta{ENDG}!$"
 
 Route24_Text_EthanPostBattle::
     .string "Ho he donat tot. No em penedeixo!$"

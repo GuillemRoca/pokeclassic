@@ -24,7 +24,7 @@ Route25_EventScript_Man::
 	end
 
 Route25_Text_AreYouHereAlone::
-    .string "Hola, ets aquí sol?\p"
+    .string "Hola, ets aquí {MASC}sol{FEM}sola{ENDG}?\p"
     .string "Si ets al cap de Cerúlia…\n"
     .string "Hauria de ser en parella.$"
 

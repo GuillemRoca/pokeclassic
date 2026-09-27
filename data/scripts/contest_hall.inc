@@ -1376,7 +1376,7 @@ LilycoveCity_ContestLobby_Text_ReceptionDontHavePokeblockCase:
 	.string "Aquesta és la recepció dels\n"
 	.string "Concursos Pokémon.\p"
 	.string "Oh? Sembla que encara no tens\n"
-	.string "un Estoig de {POKEBLOCK}.\p"
+	.string "cap Capsa {POKEBLOCK}.\p"
 	.string "En aquest cas, cal que et donem\n"
 	.string "això!$"
 

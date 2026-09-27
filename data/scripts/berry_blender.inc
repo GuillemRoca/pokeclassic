@@ -24,12 +24,12 @@ BerryBlender_Text_KnowHowToMakePokeblocks:
 
 BerryBlender_Text_LetsBerryBlender:
 	.string "Doncs comencem!\p"
-	.string "Anem a la Batedora de Baies!$"
+	.string "Som-hi, a barrejar Baies!$"
 
 BerryBlender_Text_ExplainBerryBlending:
 	.string "D'acord, una petita explicació.\p"
 	.string "Oh, no et preocupis, és molt fàcil.\p"
-	.string "Quan la fletxa de la Batedora arribi\n"
+	.string "Quan la fletxa del Barrejador arribi\n"
 	.string "a la teva marca, prem el Botó A.\p"
 	.string "Això és tot el que has de fer.\n"
 	.string "Veuràs com de fàcil és quan ho provis.$"
@@ -42,10 +42,10 @@ BerryBlender_Text_DontHaveAnyBerries:
 
 BerryBlender_Text_CanHaveOneOfMyBerries:
 	.string "Bé, això no pot ser, oi?\p"
-	.string "Si no et fa res les sobres, pots\n"
+	.string "Si no et fan res les sobres, pots\n"
 	.string "quedar-te una de les meves Baies.\p"
 	.string "Així podríem fer uns {POKEBLOCK}S\n"
-	.string "junts amb la Batedora de Baies.$"
+	.string "junts amb el Barrejador de Baies.$"
 
 BerryBlender_Text_DontHaveAnyBerriesToSpare:
 	.string "Si em quedessin Baies de sobres,\n"
@@ -54,24 +54,24 @@ BerryBlender_Text_DontHaveAnyBerriesToSpare:
 	.string "Ho haurem de fer un altre dia.$"
 
 BerryBlender_Text_PokeblockCaseIsFull:
-	.string "Però l'Estoig {POKEBLOCK} és ple.\p"
+	.string "Però la teva Capsa {POKEBLOCK} és plena.\p"
 	.string "Hauries d'usar uns {POKEBLOCK}S abans\n"
 	.string "de tornar a veure'm.$"
 
 BerryBlender_Text_DontHavePokeblockCase:
-	.string "Però no tens un Estoig {POKEBLOCK}.\p"
-	.string "Hauries d'aconseguir un Estoig\n"
+	.string "Però no tens cap Capsa {POKEBLOCK}.\p"
+	.string "Hauries d'aconseguir una Capsa\n"
 	.string "{POKEBLOCK} i després tornar.$"
 
 BerryBlender_Text_LetsGetBlendingAlready:
-	.string "Anem a batre ja!$"
+	.string "Som-hi, a barrejar!$"
 
 BerryBlender_Text_WhatKindOfPokeblockWillIGet:
 	.string "Quin tipus de {POKEBLOCK} em tocarà?\n"
 	.string "Que emocionant!$"
 
 BerryBlender_Text_WantToBlendPokeblocksWithUs:
-	.string "Hola! Volies batre uns\n"
+	.string "Hola! Volies fer uns\n"
 	.string "{POKEBLOCK}S amb nosaltres?$"
 
 BerryBlender_Text_Okay:
@@ -80,20 +80,20 @@ BerryBlender_Text_Okay:
 BerryBlender_Text_ThatsTooBad:
 	.string "Quina llàstima…\p"
 	.string "Però sempre serem aquí quan\n"
-	.string "et vinguin ganes de batre!$"
+	.string "et vinguin ganes de barrejar!$"
 
 BerryBlender_Text_KnowHowToMakePokeblocks2:
 	.string "És clar que saps com\n"
-	.string "batre {POKEBLOCK}S, oi?$"
+	.string "fer {POKEBLOCK}S, oi?$"
 
 BerryBlender_Text_LetsBerryBlender2:
 	.string "Doncs comencem!\p"
-	.string "Anem a la Batedora de Baies!$"
+	.string "Som-hi, a barrejar Baies!$"
 
 BerryBlender_Text_ExplainBerryBlending2:
 	.string "D'acord!\n"
 	.string "Deixa que t'ho expliqui!\p"
-	.string "Quan la fletxa de la Batedora\n"
+	.string "Quan la fletxa del Barrejador\n"
 	.string "arribi a la teva marca, prem\l"
 	.string "el Botó A.\p"
 	.string "Això és tot.\n"
@@ -105,18 +105,18 @@ BerryBlender_Text_DontHaveAnyBerries2:
 	.string "No pots fer {POKEBLOCK}S sense\n"
 	.string "Baies…\p"
 	.string "Sempre serem aquí quan\n"
-	.string "tinguis Baies per batre.$"
+	.string "tinguis Baies per barrejar.$"
 
 BerryBlender_Text_PokeblockCaseIsFull2:
 	.string "Oh, espera un moment…\n"
-	.string "El teu Estoig {POKEBLOCK} és ple.\p"
+	.string "La teva Capsa {POKEBLOCK} és plena.\p"
 	.string "Hauries d'usar uns {POKEBLOCK}S i\n"
 	.string "després tornar.$"
 
 BerryBlender_Text_DontHavePokeblockCase2:
 	.string "Oh, espera un moment…\n"
-	.string "No tens un Estoig {POKEBLOCK}.\p"
-	.string "Hauries d'aconseguir un Estoig\n"
+	.string "No tens cap Capsa {POKEBLOCK}.\p"
+	.string "Hauries d'aconseguir una Capsa\n"
 	.string "{POKEBLOCK} i després tornar.$"
 
 @ Unused
@@ -125,25 +125,25 @@ BerryBlender_Text_MakePokeblocksWithOurGroup:
 	.string "{POKEBLOCK}S amb el nostre grup?$"
 
 BerryBlender_Text_OhDear:
-	.string "Oh, déu meu!$"
+	.string "Mare meva!$"
 
 BerryBlender_Text_LeftUsInShock:
-	.string "Oh, déu meu…\p"
-	.string "Ens has deixat en xoc!$"
+	.string "Mare meva…\p"
+	.string "Ens has deixat de pedra!$"
 
 BerryBlender_Text_KnowHowToMakePokeblocks3:
 	.string "Naturalment, saps com fer\n"
 	.string "{POKEBLOCK}S, oi?$"
 
 BerryBlender_Text_LetsBerryBlender3:
-	.string "D'acord, bonic!\n"
+	.string "D'acord, {MASC}bonic{FEM}bonica{ENDG}!\n"
 	.string "Comencem!\p"
-	.string "Anem a la Batedora de Baies!$"
+	.string "Som-hi, a barrejar Baies!$"
 
 BerryBlender_Text_ExplainBerryBlending3:
-	.string "Oh, bonic!\p"
+	.string "Ai, {MASC}bonic{FEM}bonica{ENDG}!\p"
 	.string "Doncs t'ho explicaré bé.\p"
-	.string "Quan la fletxa de la Batedora arribi\n"
+	.string "Quan la fletxa del Barrejador arribi\n"
 	.string "a la teva marca, prem el Botó A.\p"
 	.string "Això és tot.\n"
 	.string "No és senzill?$"
@@ -158,34 +158,34 @@ BerryBlender_Text_DontHaveAnyBerries3:
 	.string "tinguis alguna Baia.$"
 
 BerryBlender_Text_PokeblockCaseIsFull3:
-	.string "El teu Estoig {POKEBLOCK} és ple,\n"
+	.string "La teva Capsa {POKEBLOCK} és plena,\n"
 	.string "pel que sembla.\p"
 	.string "Hauries d'usar uns {POKEBLOCK}S\n"
 	.string "i després tornar.$"
 
 BerryBlender_Text_DontHavePokeblockCase3:
-	.string "Encara no tens un Estoig {POKEBLOCK},\n"
+	.string "Encara no tens cap Capsa {POKEBLOCK},\n"
 	.string "pel que sembla.\p"
-	.string "Has d'aconseguir un Estoig {POKEBLOCK}\n"
+	.string "Has d'aconseguir una Capsa {POKEBLOCK}\n"
 	.string "abans de tornar.$"
 
 BerryBlender_Text_SetNewBlenderRecord:
-	.string "D'acord! Avui serà el dia que\n"
-	.string "batiré el rècord de la Batedora!$"
+	.string "D'acord! Avui és el dia que batré\n"
+	.string "el rècord de velocitat del Barrejador!$"
 
 BerryBlender_Text_LookGoodAtBlendingJoinUs:
-	.string "Oh, bonic!\n"
-	.string "Sembla que se't dona bé batre.\l"
+	.string "Oh, {MASC}bonic{FEM}bonica{ENDG}!\n"
+	.string "Sembla que se't dona bé barrejar.\l"
 	.string "Vols unir-te a nosaltres?$"
 
 BerryBlender_Text_MakeDeliciousPokeblocks:
 	.string "Faré {POKEBLOCK}S deliciosos\n"
-	.string "i faré els meus Pokémon més bonics.$"
+	.string "per fer més bufons els meus Pokémon.$"
 
 BerryBlender_Text_SaveGameBeforeBerryBlenderLink:
 	.string "Es faran {POKEBLOCK}S amb els teus amics\n"
-	.string "a partir de Baies a la Batedora.\p"
-	.string "Està bé desar la partida abans\n"
+	.string "a partir de Baies al Barrejador.\p"
+	.string "Puc desar la partida abans\n"
 	.string "de connectar amb els teus amics?$"
 
 BerryBlender_Text_SearchingForFriends:
@@ -204,15 +204,15 @@ BerryBlender_Text_AllPlayersArrived:
 
 BerryBlender_Text_NoBerriesLink:
 	.string "No tens Baies.\n"
-	.string "La Batedora de Baies no es pot usar.$"
+	.string "No pots usar el Barrejador de Baies.$"
 
 BerryBlender_Text_PokeblockCaseIsFullLink:
-	.string "El teu Estoig {POKEBLOCK} és ple.\n"
-	.string "La Batedora de Baies no es pot usar.$"
+	.string "La teva Capsa {POKEBLOCK} és plena.\n"
+	.string "No pots usar el Barrejador de Baies.$"
 
 BerryBlender_Text_DontHavePokeblockCaseLink:
-	.string "No tens un Estoig {POKEBLOCK}.\n"
-	.string "La Batedora de Baies no es pot usar.$"
+	.string "No tens cap Capsa {POKEBLOCK}.\n"
+	.string "No pots usar el Barrejador de Baies.$"
 
 BerryBlender_Text_LoveMakingPokeblocks:
 	.string "M'encanta fer {POKEBLOCK}S.\p"
@@ -220,19 +220,19 @@ BerryBlender_Text_LoveMakingPokeblocks:
 
 BerryBlender_Text_MakePokeblocksUsingBerryBlender:
 	.string "Si vols, podríem fer uns\n"
-	.string "{POKEBLOCK}S junts amb la\l"
-	.string "Batedora de Baies.$"
+	.string "{POKEBLOCK}S junts amb el\l"
+	.string "Barrejador de Baies.$"
 
 BerryBlender_Text_DontHaveAnyBerriesHaveOne:
 	.string "Oh?\n"
 	.string "No tens cap Baia?\p"
 	.string "Bé, això no pot ser, oi?\p"
-	.string "Si no et fa res les sobres, pots\n"
+	.string "Si no et fan res les sobres, pots\n"
 	.string "quedar-te una de les meves Baies.$"
 
 BerryBlender_Text_UseItToMakePokeblocksTogether:
 	.string "La farem servir per fer {POKEBLOCK}S\n"
-	.string "junts amb la Batedora de Baies.$"
+	.string "junts amb el Barrejador de Baies.$"
 
 BerryBlender_Text_DontHaveAnyBerriesNoneToSpare:
 	.string "Oh?\n"

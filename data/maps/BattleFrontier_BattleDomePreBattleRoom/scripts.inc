@@ -302,17 +302,17 @@ BattleFrontier_BattleDomePreBattleRoom_Text_RestoreMonsToFullHealth:
 BattleFrontier_BattleDomePreBattleRoom_Text_Round1Complete:
 	.string "Ja s'han disputat tots els\n"
 	.string "combats de la 1a ronda.\p"
-	.string "Aquests són els equips que passen!$"
+	.string "Aquests són els equips classificats!$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_Round2Complete:
 	.string "Ja s'han disputat tots els\n"
 	.string "combats de la 2a ronda.\p"
-	.string "Aquests són els equips que passen!$"
+	.string "Aquests són els equips classificats!$"
 
 BattleFrontier_BattleDomePreBattleRoom_Text_SemifinalsComplete:
 	.string "Ja s'han disputat tots els\n"
 	.string "combats de semifinal.\p"
-	.string "Aquests són els equips que passen!$"
+	.string "Aquests són els equips classificats!$"
 
 @ Unused
 BattleFrontier_BattleDomePreBattleRoom_Text_CongratsReadyForRound2:

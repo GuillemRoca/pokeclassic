@@ -612,7 +612,7 @@ LilycoveCity_PokemonCenter_1F_Text_IWillCherishThis:
 
 	.string "No és bonic?\n"
 
-	.string "És tan ideal…\p"
+	.string "És de somni…\p"
 
 	.string "Gràcies…\n"
 
@@ -714,7 +714,7 @@ LilycoveCity_PokemonCenter_1F_Text_TakeTheQuizAnotherTime:
 LilycoveCity_PokemonCenter_1F_Text_YouGotItRight:
 	.string "Ets increïble! Has encertat!\n"
 
-	.string "Ets molt llest/a!$"
+	.string "Ets molt {MASC}llest{FEM}llesta{ENDG}!$"
 
 
 LilycoveCity_PokemonCenter_1F_Text_YouGotItRightYouveWonPersonsPrize:
@@ -729,13 +729,13 @@ LilycoveCity_PokemonCenter_1F_Text_YouGotItRightYouveWonPersonsPrize:
 
 @ Unused
 LilycoveCity_PokemonCenter_1F_Text_XReceivedOneY:
-	.string "{STR_VAR_1} ha rebut\n"
+	.string "{STR_VAR_1} ha rebut:\n"
 
-	.string "un/a {STR_VAR_2}!$"
+	.string "{STR_VAR_2}!$"
 
 
 LilycoveCity_PokemonCenter_1F_Text_YourBagIsFilledUp:
-	.string "Oh? La Motxilla és plena!\n"
+	.string "Oh? Tens la Motxilla plena!\n"
 
 	.string "Vine quan tinguis espai.$"
 
@@ -749,9 +749,9 @@ LilycoveCity_PokemonCenter_1F_Text_WrongTheCorrectAnswerIs:
 LilycoveCity_PokemonCenter_1F_Text_IGetToKeepPrize:
 	.string "Quina llàstima!\p"
 
-	.string "Em quedo el premi del qüestionari\n"
+	.string "Ara em quedo el premi del\n"
 
-	.string "{STR_VAR_1}!$"
+	.string "qüestionari: {STR_VAR_1}!$"
 
 
 LilycoveCity_PokemonCenter_1F_Text_MakeYourOwnQuiz:
@@ -836,7 +836,7 @@ LilycoveCity_PokemonCenter_1F_Text_ThankForPokeblock:
 LilycoveCity_PokemonCenter_1F_Text_MyFriendDisplaysQuality:
 	.string "Aquest és el meu amic {STR_VAR_1}!\n"
 
-	.string "És l'epítom de {STR_VAR_2}!\p"
+	.string "És la {STR_VAR_2} en persona!\p"
 
 	.string "Però crec que pot mostrar\n"
 
@@ -844,7 +844,7 @@ LilycoveCity_PokemonCenter_1F_Text_MyFriendDisplaysQuality:
 
 
 LilycoveCity_PokemonCenter_1F_Text_DontHaveAPokeblockCase:
-	.string "Per tant, necessito la teva ajuda!\p"
+	.string "Així que necessito la teva ajuda!\p"
 
 	.string "Si us plau, em dones un {POKEBLOCK}?\n"
 
@@ -852,13 +852,13 @@ LilycoveCity_PokemonCenter_1F_Text_DontHaveAPokeblockCase:
 
 	.string "…Oh, però…\n"
 
-	.string "No tens un Estoig de {POKEBLOCK}?\l"
+	.string "No tens cap Capsa {POKEBLOCK}?\l"
 
-	.string "Això no va bé. Un altre cop, doncs!$"
+	.string "Quina llàstima. Un altre cop, doncs!$"
 
 
 LilycoveCity_PokemonCenter_1F_Text_AskingForOnePokeblock:
-	.string "Per tant, necessito la teva ajuda!\p"
+	.string "Així que necessito la teva ajuda!\p"
 
 	.string "Si us plau, em dones un {POKEBLOCK}?\n"
 
@@ -874,11 +874,11 @@ LilycoveCity_PokemonCenter_1F_Text_ICantHaveOnePokeblock:
 LilycoveCity_PokemonCenter_1F_Text_WhatACheapskate:
 	.string "Bah!\n"
 
-	.string "Quin garrepa!$"
+	.string "{MASC}Quin garrepa{FEM}Quina garrepa{ENDG}!$"
 
 
 LilycoveCity_PokemonCenter_1F_Text_IllUseYourPokeblock:
-	.string "Bé!\n"
+	.string "Visca!\n"
 
 	.string "Gràcies!\p"
 
@@ -900,13 +900,13 @@ LilycoveCity_PokemonCenter_1F_Text_NoChangeThanks:
 
 
 LilycoveCity_PokemonCenter_1F_Text_ReallyImprovedThanks:
-	.string "Oh, bé!\n"
+	.string "Oh, visca!\n"
 
 	.string "Està molt content!\p"
 
-	.string "Crec que ha millorat molt la\n"
+	.string "Crec que també ha millorat molt\n"
 
-	.string "qualitat de {STR_VAR_2} de {STR_VAR_1}.\p"
+	.string "la {STR_VAR_2} de {STR_VAR_1}.\p"
 
 	.string "Moltes gràcies!$"
 

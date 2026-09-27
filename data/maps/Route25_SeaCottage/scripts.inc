@@ -155,7 +155,7 @@ Route25_SeaCottage_EventScript_DeclineHelpBill::
 
 Route25_SeaCottage_Text_NoPlease::
     .string "No!?\n"
-    .string "No siguis tan fred!\p"
+    .string "No siguis tan {MASC}fred{FEM}freda{ENDG}!\p"
     .string "Vinga, has d'ajudar un pobre home\n"
     .string "que està en un bon embolic!\p"
     .string "Què em dius?\n"
@@ -319,7 +319,7 @@ Route25_SeaCottage_EventScript_BillGiveSSTicket::
 
 Route25_SeaCottage_Text_ThanksTakeThis::
     .string "Bill: Visca!\n"
-    .string "Gràcies, amic! Et dec una!\p"
+    .string "Gràcies, {MASC}amic{FEM}amiga{ENDG}! Et dec una!\p"
     .string "I bé, has vingut a veure la\n"
     .string "meva col·lecció de Pokémon?\p"
     .string "No?\n"

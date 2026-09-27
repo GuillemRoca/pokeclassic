@@ -332,6 +332,52 @@ u8 *ConvertIntToHexStringN(u8 *dest, s32 value, enum StringConvertMode mode, u8 
     return dest;
 }
 
+// Catalan: "de" before a word starting with a vowel or h is written "d'"
+// (d'Eevee, d'Ash). Names are only known at runtime, so the elision is done
+// when a placeholder is expanded right after "de ". For "de\n" the line break
+// is kept before the elided form: "Atac de\nEevee" -> "Atac \nd'Eevee".
+static bool32 IsElisionInitial(u8 c)
+{
+    static const u8 sElisionInitials[] = _("AEIOUHÀÈÉÍÏÒÓÚÜaeiouhàèéíïòóúü");
+    const u8 *ch;
+
+    for (ch = sElisionInitials; *ch != EOS; ch++)
+    {
+        if (*ch == c)
+            return TRUE;
+    }
+    return FALSE;
+}
+
+static bool32 IsWordSeparator(u8 c)
+{
+    return c == CHAR_SPACE || c == CHAR_NEWLINE || c == CHAR_PROMPT_SCROLL || c == CHAR_PROMPT_CLEAR;
+}
+
+// start..dest is the text written so far; returns the new end of it
+u8 *ElideCatalanDe(u8 *start, u8 *dest, const u8 *next)
+{
+    u8 sep;
+
+    if (dest - start < 3 || !IsElisionInitial(*next))
+        return dest;
+    sep = dest[-1];
+    if (!IsWordSeparator(sep) || dest[-2] != CHAR_e
+     || (dest[-3] != CHAR_d && dest[-3] != CHAR_D)
+     || (dest - start > 3 && !IsWordSeparator(dest[-4])))
+        return dest;
+
+    if (sep == CHAR_SPACE)
+    {
+        dest[-2] = CHAR_SGL_QUOTE_RIGHT;
+        return dest - 1;
+    }
+    dest[-2] = dest[-3];
+    dest[-3] = sep;
+    dest[-1] = CHAR_SGL_QUOTE_RIGHT;
+    return dest;
+}
+
 // Female outfits make gendered text use its feminine branch, since the
 // intro never asks for the player's gender in this game.
 bool32 IsPlayerTextFemale(void)
@@ -363,8 +409,14 @@ static const u8 *SkipToGenderMarker(const u8 *src, u8 marker)
     return src;
 }
 
+EWRAM_DATA static u8 *sExpandStart = NULL; // start of the outermost expansion, for elision
+EWRAM_DATA static u8 sExpandDepth = 0;
+
 u8 *StringExpandPlaceholders(u8 *dest, const u8 *src)
 {
+    if (sExpandDepth++ == 0)
+        sExpandStart = dest;
+
     for (;;)
     {
         u8 c = *src++;
@@ -385,6 +437,7 @@ u8 *StringExpandPlaceholders(u8 *dest, const u8 *src)
             if (placeholderId == PLACEHOLDER_ID_ENDG)
                 break;
             expandedString = GetExpandedPlaceholder(placeholderId);
+            dest = ElideCatalanDe(sExpandStart, dest, expandedString);
             dest = StringExpandPlaceholders(dest, expandedString);
             break;
         case EXT_CTRL_CODE_BEGIN:
@@ -412,6 +465,7 @@ u8 *StringExpandPlaceholders(u8 *dest, const u8 *src)
             break;
         case EOS:
             *dest = EOS;
+            sExpandDepth--;
             return dest;
         case CHAR_PROMPT_SCROLL:
         case CHAR_PROMPT_CLEAR:

@@ -85,7 +85,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_AbilityCapsule::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmAbilityCapsule:
-	.string "Has triat la Càpsula Habilitat.\n"
+	.string "Has triat la Càpsula d'Habilitat.\n"
 	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_AbilityPatch::
@@ -97,7 +97,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_AbilityPatch::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmAbilityPatch:
-	.string "Has triat el Pedaç Habilitat.\n"
+	.string "Has triat el Pedaç d'Habilitat.\n"
 	.string "És correcte?$"
 
 
@@ -283,10 +283,10 @@ BattleFrontier_ExchangeServiceCorner_EventScript_Girl::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize:
-	.string "Hola, aquesta és la Cantonada\n"
+	.string "Hola, aquest és el Racó\n"
 	.string "d'Intercanvi.\p"
-	.string "Intercanviem els Punts de Combat\n"
-	.string "que has acumulat per premis.\p"
+	.string "Bescanviem els Punts de Combat\n"
+	.string "que has acumulat per premis genials.\p"
 	.string "Tria un premi de la llista.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmProtein:
@@ -310,7 +310,7 @@ BattleFrontier_ExchangeServiceCorner_Text_ConfirmCarbos:
 	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmHPUp:
-	.string "Has triat el Més PS.\n"
+	.string "Has triat el Puja PS.\n"
 	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmBrightpowder:
@@ -322,7 +322,7 @@ BattleFrontier_ExchangeServiceCorner_Text_ConfirmWhiteHerb:
 	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmQuickClaw:
-	.string "Has triat la Grapa Ràpida.\n"
+	.string "Has triat l'Urpa Ràpida.\n"
 	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmMentalHerb:
@@ -381,8 +381,8 @@ BattleFrontier_ExchangeServiceCorner_Text_ItemsWillGetMonTougher:
 
 BattleFrontier_ExchangeServiceCorner_Text_MoreBattlePointsForRecord:
 	.string "Ho sabies?\p"
-	.string "Si superes el teu rècord a les\n"
-	.string "instal·lacions de Combat, et donen\l"
+	.string "Si millores el teu rècord a qualsevol\n"
+	.string "instal·lació de la Frontera, et donen\l"
 	.string "cada cop més Punts de Combat.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ProteinDesc::
@@ -438,7 +438,7 @@ BattleFrontier_ExchangeServiceCorner_Text_KingsRockDesc::
 
 BattleFrontier_ExchangeServiceCorner_Text_FocusBandDesc::
 	.string "Objecte equipable que de vegades\n"
-	.string "evita el debilitament.$"
+	.string "evita el desmai.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ScopeLensDesc::
 	.string "Objecte equipable que puja la\n"
@@ -511,7 +511,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_LaxMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmLaxMint:
-	.string "Has triat la Menta Mandrosa.\n"
+	.string "Has triat la Menta Deixada.\n"
 	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_JollyMint::
@@ -535,7 +535,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_ImpishMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmImpishMint:
-	.string "Has triat la Menta Agosarada.\n"
+	.string "Has triat la Menta Múrria.\n"
 	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_HastyMint::
@@ -571,7 +571,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_BoldMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmBoldMint:
-	.string "Has triat la Menta Audaç.\n"
+	.string "Has triat la Menta Atrevida.\n"
 	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_BraveMint::
@@ -595,7 +595,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_CalmMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCalmMint:
-	.string "Has triat la Menta Serena.\n"
+	.string "Has triat la Menta Calmada.\n"
 	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_CarefulMint::
@@ -607,7 +607,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_CarefulMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmCarefulMint:
-	.string "Has triat la Menta Cautelosa.\n"
+	.string "Has triat la Menta Prudent.\n"
 	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_GentleMint::
@@ -619,7 +619,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_GentleMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmGentleMint:
-	.string "Has triat la Menta Amable.\n"
+	.string "Has triat la Menta Gentil.\n"
 	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_ChooseMint2::
@@ -676,7 +676,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_SassyMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmSassyMint:
-	.string "Has triat la Menta Descortesa.\n"
+	.string "Has triat la Menta Descarada.\n"
 	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_RelaxedMint::
@@ -700,7 +700,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_RashMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmRashMint:
-	.string "Has triat la Menta Imprudent.\n"
+	.string "Has triat la Menta Impulsiva.\n"
 	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_QuietMint::
@@ -724,7 +724,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_NaughtyMint::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmNaughtyMint:
-	.string "Has triat la Menta Murri.\n"
+	.string "Has triat la Menta Entremaliada.\n"
 	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_NaiveMint::
@@ -771,7 +771,7 @@ BattleFrontier_ExchangeServiceCorner_Text_AdamantMintDesc::
 
 BattleFrontier_ExchangeServiceCorner_Text_BoldMintDesc::
 	.string "Encanta als Pokémon!\n"
-    .string "Té un sabor Audaç.$"
+    .string "Té un sabor Atrevit.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_BraveMintDesc::
 	.string "Encanta als Pokémon!\n"
@@ -779,15 +779,15 @@ BattleFrontier_ExchangeServiceCorner_Text_BraveMintDesc::
 
 BattleFrontier_ExchangeServiceCorner_Text_CalmMintDesc::
 	.string "Encanta als Pokémon!\n"
-    .string "Té un sabor Serè.$"
+    .string "Té un sabor Calmat.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_CarefulMintDesc::
 	.string "Encanta als Pokémon!\n"
-    .string "Té un sabor Cautelós.$"
+    .string "Té un sabor Prudent.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_GentleMintDesc::
 	.string "Encanta als Pokémon!\n"
-    .string "Té un sabor Amable.$"
+    .string "Té un sabor Gentil.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_HastyMintDesc::
 	.string "Encanta als Pokémon!\n"
@@ -795,7 +795,7 @@ BattleFrontier_ExchangeServiceCorner_Text_HastyMintDesc::
 
 BattleFrontier_ExchangeServiceCorner_Text_ImpishMintDesc::
 	.string "Encanta als Pokémon!\n"
-    .string  "Té un sabor Agosarat.$"
+    .string  "Té un sabor Murri.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_JollyMintDesc::
 	.string "Encanta als Pokémon!\n"
@@ -803,7 +803,7 @@ BattleFrontier_ExchangeServiceCorner_Text_JollyMintDesc::
 
 BattleFrontier_ExchangeServiceCorner_Text_LaxMintDesc::
 	.string "Encanta als Pokémon!\n"
-    .string "Té un sabor Mandrós.$"
+    .string "Té un sabor Deixat.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_LonelyMintDesc::
 	.string "Encanta als Pokémon!\n"
@@ -823,7 +823,7 @@ BattleFrontier_ExchangeServiceCorner_Text_NaiveMintDesc::
 
 BattleFrontier_ExchangeServiceCorner_Text_NaughtyMintDesc::
 	.string "Encanta als Pokémon!\n"
-    .string "Té un sabor Murri.$"
+    .string "Té un sabor Entremaliat.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_QuietMintDesc::
 	.string "Encanta als Pokémon!\n"
@@ -831,7 +831,7 @@ BattleFrontier_ExchangeServiceCorner_Text_QuietMintDesc::
 
 BattleFrontier_ExchangeServiceCorner_Text_RashMintDesc::
 	.string "Encanta als Pokémon!\n"
-    .string "Té un sabor Imprudent.$"
+    .string "Té un sabor Impulsiu.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_RelaxedMintDesc::
 	.string "Encanta als Pokémon!\n"
@@ -839,7 +839,7 @@ BattleFrontier_ExchangeServiceCorner_Text_RelaxedMintDesc::
 
 BattleFrontier_ExchangeServiceCorner_Text_SassyMintDesc::
 	.string "Encanta als Pokémon!\n"
-    .string "Té un sabor Descortès.$"
+    .string "Té un sabor Descaradet.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_SeriousMintDesc::
 	.string "Encanta als Pokémon!\n"
@@ -854,7 +854,7 @@ BattleFrontier_ExchangeServiceCorner_Text_RazorFang::
     .string "retrocedir el rival en ser colpejat.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_RazorClaw::
-    .string "Urpa grapada que puja la\n"
+    .string "Urpa corbada que puja la\n"
     .string "probabilitat de cop crític.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ChoiceSpecs::
@@ -887,28 +887,28 @@ BattleFrontier_ExchangeServiceCorner_Text_RedCard::
 
 
 BattleFrontier_ExchangeServiceCorner_Text_PowerAnklet::
-    .string "Objecte equipable que potencia\n"
-    .string "guany Vel., però baixa Velocitat.$"
+    .string "Objecte que potencia el creixement\n"
+	.string "de la Velocitat, però la baixa.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_PowerBracer::
-    .string "Objecte equipable que potencia\n"
-    .string "guany Atc., però baixa Velocitat.$"
+    .string "Objecte que potencia el creixement\n"
+	.string "de l'Atac, però baixa la Velocitat.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_PowerBelt::
-    .string "Objecte equipable que potencia\n"
-    .string "guany Def., però baixa Velocitat.$"
+    .string "Objecte que potencia el creixement\n"
+	.string "de la Defensa, però baixa la Velocitat.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_PowerBand::
-    .string "Objecte equipable que potencia\n"
-    .string "guany Def.Esp., baixa Velocitat.$"
+    .string "Objecte que potencia el creixement\n"
+	.string "de la Def. Esp., però baixa la Velocitat.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_PowerWeight::
-    .string "Objecte equipable que potencia\n"
-    .string "guany PS, però baixa Velocitat.$"
+    .string "Objecte que potencia el creixement\n"
+	.string "dels PS, però baixa la Velocitat.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_PowerLens::
-    .string "Objecte equipable que potencia\n"
-    .string "guany At.Esp., baixa Velocitat.$"
+    .string "Objecte que potencia el creixement\n"
+	.string "de l'At. Esp., però baixa la Velocitat.$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_HoldItemClerk2::
 	lock
@@ -959,7 +959,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_RazorClaw::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmRazorClaw:
-	.string "Has triat la Grapa Esmolada.\n"
+	.string "Has triat l'Urpa Esmolada.\n"
 	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_ChoiceSpecs::
@@ -995,7 +995,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_MuscleBand::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmMuscleBand:
-	.string "Has triat la Cinta Musculosa.\n"
+	.string "Has triat la Cinta Muscular.\n"
 	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_LifeOrb::
@@ -1007,7 +1007,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_LifeOrb::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmLifeOrb:
-	.string "Has triat l'Esfera Vital.\n"
+	.string "Has triat l'Orbe Vital.\n"
 	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_PowerHerb::
@@ -1019,7 +1019,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_PowerHerb::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmPowerHerb:
-	.string "Has triat l'Herba Potent.\n"
+	.string "Has triat l'Herba Poder.\n"
 	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_WiseGlasses::
@@ -1081,7 +1081,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_PowerAnklet::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmPowerAnklet:
-	.string "Has triat el Turmell Potent.\n"
+	.string "Has triat la Turmellera Poder.\n"
 	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_PowerBracer::
@@ -1093,7 +1093,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_PowerBracer::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmPowerBracer:
-	.string "Has triat el Braçal Potent.\n"
+	.string "Has triat el Braçalet Poder.\n"
 	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_PowerBelt::
@@ -1105,7 +1105,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_PowerBelt::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmPowerBelt:
-	.string "Has triat el Cinturó Potent.\n"
+	.string "Has triat el Cinturó Poder.\n"
 	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_PowerBand::
@@ -1117,7 +1117,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_PowerBand::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmPowerBand:
-	.string "Has triat la Banda Potent.\n"
+	.string "Has triat la Cinta Poder.\n"
 	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_PowerWeight::
@@ -1129,7 +1129,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_PowerWeight::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmPowerWeight:
-	.string "Has triat el Pes Potent.\n"
+	.string "Has triat el Pes Poder.\n"
 	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_PowerLens::
@@ -1141,7 +1141,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_PowerLens::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmPowerLens:
-	.string "Has triat la Lent Potent.\n"
+	.string "Has triat la Lent Poder.\n"
 	.string "És correcte?$"
 
 
@@ -1218,7 +1218,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_SPATKCandy::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmSPATKCandy:
-	.string "Has triat el Caramel At.Esp.\n"
+	.string "Has triat el Caramel Atac Esp.\n"
 	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_SPDEFCandy::
@@ -1230,7 +1230,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_SPDEFCandy::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmSPDEFCandy:
-	.string "Has triat el Caramel Def.Esp.\n"
+	.string "Has triat el Caramel Def. Esp.\n"
 	.string "És correcte?$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_SPEEDCandy::
