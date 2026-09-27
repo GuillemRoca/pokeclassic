@@ -49,7 +49,7 @@ LavenderTown_Mart_Text_SearchingForStatRaiseItems::
 
 LavenderTown_Mart_Text_DidYouBuyRevives::
     .string "Has comprat Revius?\n"
-    .string "Reviuen qualsevol Pokémon debilitat!$"
+    .string "Reviuen qualsevol Pokémon desmaiat!$"
 
 LavenderTown_Mart_Text_TrainerDuosCanChallengeYou::
     .string "De vegades, un duo d'entrenadors\n"

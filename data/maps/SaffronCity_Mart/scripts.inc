@@ -39,4 +39,4 @@ SaffronCity_Mart_Text_MaxRepelMoreEffectiveThanSuper::
 
 SaffronCity_Mart_Text_ReviveIsCostly::
     .string "Reviscola és car, però ressuscita\n"
-    .string "Pokémon debilitats!$"
+    .string "Pokémon desmaiats!$"

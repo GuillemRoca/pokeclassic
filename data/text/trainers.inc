@@ -277,7 +277,7 @@ Route103_Text_MiguelDefeated:
 Route103_Text_MiguelPostBattle:
 	.string "El meu Pokémon és adorable fins i\n"
 
-	.string "tot quan està debilitat!$"
+	.string "tot quan està desmaiat!$"
 
 
 Route103_Text_MiguelRegister:
@@ -7235,7 +7235,7 @@ Route134_Text_KelvinPostBattle:
 
 	.string "que tornarem a casa?\p"
 
-	.string "Sé que un Pokémon debilitat pot\n"
+	.string "Sé que un Pokémon desmaiat pot\n"
 
 	.string "fer Surf, però no em sembla bé.$"
 
