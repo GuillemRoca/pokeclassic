@@ -57,7 +57,7 @@ SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain::
     .string "del Capità!$"
 
 SSAnne_CaptainsOffice_Text_ExplainCut::
-    .string "Amb tall, pots tallar arbres\n"
+    .string "Amb Tall, pots tallar arbres\n"
     .string "petits.\p"
     .string "Per què no ho proves amb els\n"
     .string "arbres de Ciutat Vermella?$"

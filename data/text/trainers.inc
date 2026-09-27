@@ -4481,7 +4481,7 @@ Route120_Text_ColinDefeat:
 
 
 Route120_Text_ColinPostBattle:
-	.string "El moviment Vol és pràctic,\n"
+	.string "El moviment Volar és pràctic,\n"
 
 	.string "no trobes?\p"
 

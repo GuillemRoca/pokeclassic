@@ -1279,7 +1279,7 @@ static const u8 sTM30Desc[] = _(
 
 static const u8 sTM31Desc[] = _(
     "Destrueix barreres\n"
-    "com Pantalla Llum\n"
+    "com Pantalla de Llum\n"
     "i causa dany.");
 
 static const u8 sTM32Desc[] = _(

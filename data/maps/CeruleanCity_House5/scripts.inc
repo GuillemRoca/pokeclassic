@@ -11,7 +11,7 @@ CeruleanCity_House5_Text_BadgesHaveAmazingSecrets::
 	.string "insígnia bonica!\p"
 	.string "Una Medalla autoritza un Entrenador\n"
 	.string "a usar alguns Moviments Ocults,\l"
-	.string "com Llampec o Vol.\p"
+	.string "com Llampec o Volar.\p"
 	.string "Sembla que els Pokémon també\n"
 	.string "en comprenen la importància.\p"
 	.string "Els Pokémon de nivell alt no\n"

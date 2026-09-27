@@ -290,7 +290,7 @@ VermilionCity_Gym_Text_ReceivedBadge::
 
 VermilionCity_Gym_Text_ExplainBadge::
     .string "La Medalla Tro habilita els teus\n"
-    .string "Pokémon per usar Vol fora de\l"
+    .string "Pokémon per usar Volar fora de\l"
     .string "combat.\p"
     .string "Si coneixen el moviment, podran\n"
     .string "moure's ràpid com un llamp!\p"
