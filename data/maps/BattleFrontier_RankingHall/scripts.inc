@@ -111,7 +111,7 @@ BattleFrontier_RankingHall_Text_DomePikeFactoryRecords:
 	.string "de Combat i la Fàbrica de Combat$"
 
 BattleFrontier_RankingHall_Text_PalaceArenaPyramidRecords:
-	.string "Rècords del Palau de Combat, l\'Arena\n"
+	.string "Rècords del Palau de Combat, l'Arena\n"
 	.string "de Combat i la Piràmide de Combat$"
 
 BattleFrontier_RankingHall_Text_IsYourNameOnThisList:

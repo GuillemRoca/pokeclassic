@@ -26,7 +26,7 @@ Route21_South_Text_JohanIntro::
     .string "totes aquestes Poké Balls!$"
 
 Route21_South_Text_JohanDefeat::
-    .string "Se m'han caigut les boles...$"
+    .string "Se m'han caigut les Poké Balls...$"
 
 Route21_South_Text_JohanPostBattle::
     .string "Només els entrenadors més forts\n"
@@ -41,9 +41,9 @@ Route21_South_EventScript_RegisterJohanAfterBattle::
 	end
 
 Route21_South_Text_JohanRegister:
-	.string "M'he teletransportat aquí..\p"
-	.string "però no em queden PP...\p"
-	.string "Et puc trucar per tornar?$"
+	.string "M'he teletransportat aquí...\p"
+	.string "però no em queden PU...\p"
+	.string "Em vindràs a buscar si et truco?$"
 
 Route21_South_EventScript_JohanRematch::
 	trainerbattle_rematch REMATCHABLE_TRAINER_JUGGLER_JOHAN_1, Route21_South_Text_JohanRematchIntro, Route21_South_Text_JohanDefeat
@@ -70,8 +70,8 @@ Route21_South_Text_ClaudeIntro::
 	.string "Ei, no espantis els peixos!$"
 
 Route21_South_Text_ClaudeDefeat::
-	.string "Perdona! Estic frustrat de\n"
-	.string "no pescar res.$"
+	.string "Perdona! Estic frustrat perquè\n"
+	.string "no pesco res.$"
 
 Route21_South_Text_ClaudePostBattle::
 	.string "No he pescat res de res.\n"
@@ -87,11 +87,11 @@ Route21_South_Text_NolanIntro::
 	.string "Fes-me companyia fins que piqui.$"
 
 Route21_South_Text_NolanDefeat::
-	.string "Això ha cremat una mica de temps.$"
+	.string "Així he matat una mica el temps.$"
 
 Route21_South_Text_NolanPostBattle::
 	.string "Oh, espera!\n"
-	.string "Tinc picada! Sí!$"
+	.string "Ha picat! Sí!$"
 
 Route21_South_EventScript_Jack::
 	trainerbattle_single TRAINER_SWIMMER_MALE_JACK, Route21_South_Text_JackIntro, Route21_South_Text_JackDefeat
@@ -114,7 +114,7 @@ Route21_South_EventScript_Jerome::
 	end
 
 Route21_South_Text_JeromeIntro::
-	.string "Ara estic en un triatló.$"
+	.string "Ara estic fent un triatló.$"
 
 Route21_South_Text_JeromeDefeat::
 	.string "Buf…\n"

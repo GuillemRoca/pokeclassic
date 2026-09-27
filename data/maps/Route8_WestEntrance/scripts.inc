@@ -155,7 +155,7 @@ Route8_WestEntrance_EventScript_DeliverRocketPlans::
 Route8_WestEntrance_Text_DeliverRocketPlans::
 	.string "Què? Has trobat plans de\n"
 	.string "l'Equip Rocket?\p"
-	.string "Més val que no sigui una broma, nano.\p"
+	.string "Més val que no sigui una broma, {MASC}nano{FEM}nena{ENDG}.\p"
 	.string "Els hauré de veure...\n"
 	.string "... ... ...\p"
 	.string "Semblen autèntics!\p"

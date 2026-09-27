@@ -311,9 +311,7 @@ BattleFrontier_OutsideWest_Text_BattleDomeSign:
 	.string "Aquest és el Domo de Combat!\n"
 
 
-	.string "El teu camí cap a la superestrella\l"
-
-
+	.string "El camí per ser una superestrella\l"
 	.string "invencible!$"
 
 
@@ -374,10 +372,8 @@ BattleFrontier_OutsideWest_Text_WhereWouldYouLikeToGo:
 	.string "{PLAYER} ha ensenyat el Tiquet.\p"
 
 
-	.string "Perfecte! Això és tot!\p"
-
-
-	.string "On voldries anar?$"
+	.string "Perfecte! No et cal res més!\p"
+	.string "On vols anar?$"
 
 
 
@@ -397,10 +393,8 @@ BattleFrontier_OutsideWest_Text_SailWithUsAnotherTime:
 
 
 BattleFrontier_OutsideWest_Text_PleaseBoardFerry:
-	.string "Si us plau, pugeu al ferri\n"
-
-
-	.string "i espereu la sortida.$"
+	.string "Si us plau, puja al ferri\n"
+	.string "i espera la sortida.$"
 
 
 
@@ -455,10 +449,8 @@ BattleFrontier_OutsideWest_Text_OnlyToughTrainersBroughtHere:
 	.string "aquí, ho saps?\p"
 
 
-	.string "Només els Entrenadors reconeguts\n"
-
-
-	.string "com a durs són portats aquí.\p"
+	.string "Només hi porten els Entrenadors\n"
+	.string "que han demostrat ser forts.\p"
 
 
 	.string "Per això molts Entrenadors ni\n"
@@ -497,10 +489,8 @@ BattleFrontier_OutsideWest_Text_BigGuySaidIllLendYouMons:
 
 
 BattleFrontier_OutsideWest_Text_WhosRaisingThoseRentalMons:
-	.string "Això és la Fàbrica de Combat.\n"
-
-
-	.string "Pots llogar Pokémon forts allà.\p"
+	.string "Allò és la Fàbrica de Combat.\n"
+	.string "Allà pots llogar Pokémon forts.\p"
 
 
 	.string "Però em fa pensar.\n"
@@ -601,10 +591,8 @@ BattleFrontier_OutsideWest_Text_YoureOffToChallengeDome:
 	.string "Et desitjo molta sort.\n"
 
 
-	.string "Que tots dos guanyem i ens\l"
-
-
-	.string "trobem als desafiaments.$"
+	.string "Que tots dos anem guanyant\l"
+	.string "fins que ens trobem cara a cara!$"
 
 
 
@@ -623,9 +611,7 @@ BattleFrontier_OutsideWest_Text_WontLetGentlemenBeatMe:
 	.string "Ah, aquest és el Domo de Combat?\n"
 
 
-	.string "No deixaré que cap Gentlemen\l"
-
-
+	.string "No deixaré que cap Senyor\l"
 	.string "em guanyi!\p"
 
 
@@ -685,10 +671,8 @@ BattleFrontier_OutsideWest_Text_MetOlderGirlAtPike:
 	.string "noia gran a la Llança de Combat.\p"
 
 
-	.string "Tenia uns ulls que feien por\n"
-
-
-	.string "d'una manera molt bèstia.\p"
+	.string "Tenia una mirada que feia por,\n"
+	.string "de tan mala bava.\p"
 
 
 	.string "Cruix, cruix…\p"
@@ -741,10 +725,8 @@ BattleFrontier_OutsideWest_Text_DomeAceLookedBecauseOfMyCheering:
 	.string "L'As del Domo va mirar cap aquí\n"
 
 
-	.string "perquè els meus crits eren\l"
-
-
-	.string "molt forts!$"
+	.string "perquè jo cridava\l"
+	.string "molt fort!$"
 
 
 
@@ -755,10 +737,8 @@ BattleFrontier_OutsideWest_Text_DomeAceIsMine:
 	.string "Baixeu la veu!\p"
 
 
-	.string "Fans com vosaltres hauríeu\n"
-
-
-	.string "d'animar algun Líder de Gimnàs!\p"
+	.string "Fans de pa sucat amb oli! Aneu a\n"
+	.string "animar algun Líder de Gimnàs!\p"
 
 
 	.string "L'As del Domo és meu!\n"
@@ -790,10 +770,8 @@ BattleFrontier_OutsideWest_Text_FansOverThereUsedToBeTrainers:
 	.string "cert Entrenador en un torneig.\p"
 
 
-	.string "Van quedar tan impressionats,\n"
-
-
-	.string "que es van enamorar d'ell.\p"
+	.string "Els va apallissar tant\n"
+	.string "que se'n van enamorar.\p"
 
 
 	.string "Ara són fans d'aquell Entrenador.\n"
@@ -807,10 +785,8 @@ BattleFrontier_OutsideWest_Text_FansOverThereUsedToBeTrainers:
 
 
 BattleFrontier_OutsideWest_Text_MonWithLongTailInFrontier:
-	.string "He sentit un rumor que algú va\n"
-
-
-	.string "veure un Pokémon amb una cua\l"
+	.string "He sentit a dir que algú ha\n"
+	.string "vist un Pokémon amb una cua\l"
 
 
 	.string "molt llarga a la Frontera.\p"

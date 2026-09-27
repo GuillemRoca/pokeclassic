@@ -244,11 +244,11 @@ VermilionCity_Gym_EventScript_ChallengeLeader::
 	end
 
 VermilionCity_Gym_Text_LeaderSpeech::
-    .string "Ei, nano! Què et penses que fas\n"
+    .string "Ei, {MASC}nano{FEM}nena{ENDG}! Què et penses que fas\n"
     .string "aquí?\p"
     .string "No duraràs gaire en combat!\n"
     .string "No amb el teu poder tan feble!\p"
-    .string "Et dic, nano, els Pokémon elèctrics\n"
+    .string "Et dic, {MASC}nano{FEM}nena{ENDG}, els Pokémon elèctrics\n"
     .string "em van salvar durant la guerra!$"
 
 VermilionCity_Gym_Text_LeaderIntro::
@@ -258,7 +258,7 @@ VermilionCity_Gym_Text_LeaderIntro::
 
 VermilionCity_Gym_Text_LeaderDefeat::
     .string "Això sí que és un xoc!\p"
-    .string "Ets de debò, nano!$"
+    .string "Ets de debò, {MASC}nano{FEM}nena{ENDG}!$"
 
 VermilionCity_Gym_EventScript_DefeatedLeaderGetBadge::
 	msgbox VermilionCity_Gym_Text_GetBadge, MSGBOX_DEFAULT
@@ -294,7 +294,7 @@ VermilionCity_Gym_Text_ExplainBadge::
     .string "combat.\p"
     .string "Si coneixen el moviment, podran\n"
     .string "moure's ràpid com un llamp!\p"
-    .string "Ets especial, nano!$"
+    .string "Ets especial, {MASC}nano{FEM}nena{ENDG}!$"
 
 VermilionCity_Gym_EventScript_GetTM::
 	msgbox VermilionCity_Gym_Text_TakeThisWithYou, MSGBOX_DEFAULT
@@ -337,7 +337,7 @@ VermilionCity_Gym_EventScript_LeaderPostBattle::
 	end
 
 VermilionCity_Gym_Text_LeaderPostBattle::
-    .string "Un petit consell, nano!\p"
+    .string "Un petit consell, {MASC}nano{FEM}nena{ENDG}!\p"
     .string "L'electricitat és molt poderosa!\p"
     .string "Però és inútil contra els Pokémon\n"
     .string "de tipus Terra!$"
@@ -350,7 +350,7 @@ VermilionCity_Gym_EventScript_LeaderPostBattleGameClear::
 VermilionCity_Gym_Text_PostBattleGameClear::
 	.string "Sembla que encara hi ha un desnivell\n"
 	.string "entre les nostres habilitats que\l"
-	.string "he de tancar, nano!\p"
+	.string "he de tancar, {MASC}nano{FEM}nena{ENDG}!\p"
 	.string "És el primer cop que em sento\n"
 	.string "així des que vaig començar com\l"
 	.string "a Líder de Gimnàs de Vermella.$"
@@ -363,7 +363,7 @@ VermilionCity_Gym_EventScript_RematchLeader::
 	end
 
 VermilionCity_Gym_Text_RematchLeader::
-	.string "Ei, nano! Força xocant que hagis\n"
+	.string "Ei, {MASC}nano{FEM}nena{ENDG}! Força xocant que hagis\n"
 	.string "arribat tan lluny en el teu viatge!\p"
 	.string "Segur que els Pokémon de tipus\n"
 	.string "Elèctric t'han ajudat molt, oi?\p"
@@ -397,7 +397,7 @@ VermilionCity_Gym_Text_RematchOriginal::
 	.string "Ferms!\n"
 	.string "Recorda, un combat Pokémon és una\l"
 	.string "guerra!\p"
-	.string "Som-hi, nano!$"
+	.string "Som-hi, {MASC}nano{FEM}nena{ENDG}!$"
 
 VermilionCity_Gym_EventScript_LeaderRematch_PostGameTeam::
 	trainerbattle_single LEADER_REMATCH_SURGE_POSTGAME, VermilionCity_Gym_Text_RematchPostgame, VermilionCity_Gym_Text_RematchDefeat, VermilionCity_Gym_EventScript_DefeatedLeaderRematch
@@ -407,7 +407,7 @@ VermilionCity_Gym_Text_RematchPostgame::
 	.string "No cal presentar-se aquest cop!\n"
 	.string "Entrenadors com nosaltres no\l"
 	.string "necessitem paraules!\p"
-	.string "Som-hi, nano!$"
+	.string "Som-hi, {MASC}nano{FEM}nena{ENDG}!$"
 
 VermilionCity_Gym_EventScript_DefeatedLeaderRematch::
 	setflag FLAG_DAILY_SURGE_REMATCH

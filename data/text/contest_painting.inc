@@ -1,6 +1,6 @@
 gContestHallPaintingCaption::
 	.string "{STR_VAR_1}\n"
-	.string "{STR_VAR_2}'s {STR_VAR_3}$"
+	.string "{STR_VAR_3} de {STR_VAR_2}$"
 
 @ Unused
 gContestPaintingContest::
@@ -22,7 +22,7 @@ gContestLink::
 	.string "Enllaç$"
 
 gContestCoolness::
-	.string "Gràcia$"
+	.string "Frescor$"
 
 gContestBeauty::
 	.string "Bellesa$"
@@ -31,13 +31,13 @@ gContestCuteness::
 	.string "Tendresa$"
 
 gContestSmartness::
-	.string "Saviesa$"
+	.string "Intel·ligència$"
 
 gContestToughness::
-	.string "Potència$"
+	.string "Força$"
 
 gContestPaintingCool1::
-	.string "Sense parar, supercool--\n"
+	.string "Supercool sense parar:\n"
 	.string "l'inestimable {STR_VAR_1}$"
 
 gContestPaintingCool2::
@@ -49,7 +49,7 @@ gContestPaintingCool3::
 	.string "magnífic {STR_VAR_1}$"
 
 gContestPaintingBeauty1::
-	.string "L'última Venus d'aquest segle--\n"
+	.string "L'última Venus d'aquest segle:\n"
 	.string "el bellíssim {STR_VAR_1}$"
 
 gContestPaintingBeauty2::
@@ -57,7 +57,7 @@ gContestPaintingBeauty2::
 	.string "i escintil·lant de {STR_VAR_1}$"
 
 gContestPaintingBeauty3::
-	.string "El super ídol del Centre Pokémon--\n"
+	.string "El gran ídol del Centre Pokémon:\n"
 	.string "l'incomparable {STR_VAR_1}$"
 
 gContestPaintingCute1::
@@ -68,16 +68,16 @@ gContestPaintingCute2::
 	.string "del preciós {STR_VAR_1}$"
 
 gContestPaintingCute3::
-	.string "Fes-nos un guiño!\n"
-	.string "El Pokémon maquet {STR_VAR_1}$"
+	.string "Fes-nos l'ullet!\n"
+	.string "El bufó Pokémon {STR_VAR_1}$"
 
 gContestPaintingSmart1::
-	.string "El mestre de la saviesa--\n"
+	.string "El mestre de la intel·ligència:\n"
 	.string "el savi Pokémon {STR_VAR_1}$"
 
 gContestPaintingSmart2::
-	.string "{STR_VAR_1}--l'elegit\n"
-	.string "per sobre de tots els Pokémon$"
+	.string "{STR_VAR_1}: l'escollit\n"
+	.string "d'entre tots els Pokémon$"
 
 gContestPaintingSmart3::
 	.string "El moment d'elegància\n"
@@ -92,5 +92,5 @@ gContestPaintingTough2::
 	.string "fortíssim {STR_VAR_1}$"
 
 gContestPaintingTough3::
-	.string "L'increïblement dur\n"
+	.string "El poderós i duríssim\n"
 	.string "hiper Pokémon {STR_VAR_1}$"

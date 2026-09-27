@@ -269,7 +269,7 @@ Route8_Text_JarenIntro::
     .string "Aparta't del camí o t'atropello!$"
 
 Route8_Text_JarenDefeat::
-    .string "Vas de debò, nano?$"
+    .string "Vas de debò, {MASC}nano{FEM}nena{ENDG}?$"
 
 Route8_Text_JarenPostBattle::
     .string "No et creguis especial per\n"

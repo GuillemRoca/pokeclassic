@@ -130,7 +130,7 @@ Movement_OakDockApproach::
 VermilionCity_Text_VisitedSSAnne::
 	.string "Oak: Oh! {PLAYER}! Anaves a\n"
 	.string "visitar el SS Anna?\p"
-	.string "Em temo que t'has perdut la meva\n"
+	.string "Em sap greu, però t'has perdut la\n"
 	.string "presentació sobre la Pokédex!\p"
 	.string "Què, no sabies que hi seria?\n"
 	.string "Quina llàstima...\p"
@@ -139,8 +139,8 @@ VermilionCity_Text_VisitedSSAnne::
 	.string "Així, podria contactar-te si\n"
 	.string "sorgeix alguna cosa. I si vols,\l"
 	.string "pots trucar-me per avaluar la\l"
-	.string "teva Pokédex mentre ets al\l"
-	.string "camp.$"
+	.string "teva Pokédex fins i tot quan\l"
+	.string "siguis de viatge.$"
 
 VermilionCity_Text_EnjoySSAnne::
 	.string "Oak: M'ha agradat veure't!\n"
@@ -296,7 +296,7 @@ VermilionCity_EventScript_FerrySailor::
 	end
 
 VermilionCity_Text_WelcomeToTheSSAnne::
-    .string "Mariner: Benvingut al SS Anna!$"
+    .string "Mariner: {MASC}Benvingut{FEM}Benvinguda{ENDG} al SS Anna!$"
 
 VermilionCity_EventScript_CheckSSTidal::
 	goto_if_unset FLAG_HIDE_SS_TIDAL, VermilionCity_EventScript_SSTidalArrived
@@ -308,7 +308,7 @@ VermilionCity_Text_TheShipSetSail::
     .string "El vaixell ha salpat.$"
 
 VermilionCity_EventScript_SSTidalArrived::
-	.string "N'has sentit a parlar?\p"
+	.string "N'has sentit parlar?\p"
 	.string "Un nou vaixell, el S.S. Tidal, ha\n"
 	.string "arribat al port!$"
 
@@ -342,15 +342,15 @@ VermilionCity_EventScript_TicketCheck::
 	end
 
 VermilionCity_Text_DoYouHaveATicket::
-    .string "Mariner: Benvingut al SS Anna!\p"
+    .string "Mariner: {MASC}Benvingut{FEM}Benvinguda{ENDG} al SS Anna!\p"
     .string "Disculpa, tens un bitllet?$"
 
 VermilionCity_Text_FlashedSSTicket::
-    .string "{PLAYER} ha ensenyat el BITLLET!$"
+    .string "{PLAYER} ha ensenyat el Bitllet S.S.!$"
 
 VermilionCity_Text_SailorGreat::
     .string "Mariner: Genial!\n"
-    .string "Benvingut al SS Anna!$"
+    .string "{MASC}Benvingut{FEM}Benvinguda{ENDG} al SS Anna!$"
 
 VermilionCity_EventScript_TicketCheck1::
 	applymovement LOCALID_SAILOR, Movement_TicketCheck1
@@ -388,7 +388,7 @@ VermilionCity_EventScript_NoTicket::
 
 VermilionCity_Text_DontHaveNeededSSTicket::
     .string "Ho sento!\p"
-    .string "Necessites un Bitllet per pujar.$"
+    .string "Necessites un Bitllet S.S. per pujar.$"
 
 VermilionCity_EventScript_MoveSailor1::
 	applymovement LOCALID_SAILOR, Movement_MoveSailor1
@@ -534,7 +534,7 @@ VermilionCity_Text_PlayerFlashedBadge::
 
 VermilionCity_Text_AStrongTrainer::
 	.string "Agent: Oh! Tens la Medalla Tro?\p"
-	.string "Has de ser un entrenador molt fort.\p"
+	.string "Has de ser {MASC}un entrenador molt fort{FEM}una entrenadora molt forta{ENDG}.\p"
 	.string "Què dius?\p"
 	.string "Dius que respondràs per aquest\n"
 	.string "Pokémon?\p"
@@ -543,7 +543,7 @@ VermilionCity_Text_AStrongTrainer::
 	.string "això, però tinc un bon pressentiment\l"
 	.string "sobre tu.\p"
 	.string "Has demostrat les teves habilitats\n"
-	.string "com a entrenador Pokémon.\p"
+	.string "com a {MASC}entrenador{FEM}entrenadora{ENDG} Pokémon.\p"
 	.string "Potser un bon model a seguir és\n"
 	.string "el que necessita aquest Pokémon!$"
 
@@ -560,8 +560,8 @@ VermilionCity_EventScript_DontGiveSquirtle::
  	step_end
 
 VermilionCity_Text_SquirtleIsAMenace::
-	.string "Agent: Enrere, ciutadà!\p"
-	.string "Aquest Squirtle és un perillós!\p"
+	.string "Agent: Enrere, {MASC}ciutadà{FEM}ciutadana{ENDG}!\p"
+	.string "Aquest Squirtle és un perill públic!\p"
 	.string "Ha estat cometent delictes per\n"
 	.string "tota Ciutat Vermella!\p"
 	.string "L'he acorralat, però espero\n"

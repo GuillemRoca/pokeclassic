@@ -95,8 +95,8 @@ Route19_Text_MatthewDefeat::
     .string "Panxada!$"
 
 Route19_Text_MatthewPostBattle::
-    .string "Puc guanyar fins i tot Pokémon\n"
-    .string "marins nedant.$"
+    .string "Nedant, puc guanyar fins i tot\n"
+    .string "els Pokémon marins.$"
 
 Route19_EventScript_Douglas::
 	trainerbattle_single TRAINER_SWIMMER_MALE_DOUGLAS, Route19_Text_DouglasIntro, Route19_Text_DouglasDefeat
@@ -161,7 +161,7 @@ Route19_Text_AxleDefeat::
 
 Route19_Text_AxlePostBattle::
     .string "L-les cames! Se m'han\n"
-    .string "enrampar! Glub, glub…$"
+    .string "enrampat! Glub, glub…$"
 
 Route19_EventScript_Anya::
 	trainerbattle_single TRAINER_SWIMMER_FEMALE_ANYA, Route19_Text_AnyaIntro, Route19_Text_AnyaDefeat
@@ -169,7 +169,7 @@ Route19_EventScript_Anya::
 	end
 
 Route19_Text_AnyaIntro::
-    .string "Oh, m'encanta el teu vehicle!\n"
+    .string "Oh, m'encanta la teva muntura!\n"
     .string "Me'l puc quedar si guanyo?$"
 
 Route19_Text_AnyaDefeat::
@@ -221,7 +221,7 @@ Route19_EventScript_Lia::
 
 Route19_Text_LiaIntro::
     .string "Lia: Vigilo el meu germà.\n"
-    .string "Acaba de ser Entrenador.$"
+    .string "Acaba de fer-se Entrenador.$"
 
 Route19_Text_LiaDefeat::
     .string "Lia: Així no es tracta el meu\n"
@@ -233,7 +233,7 @@ Route19_Text_LiaPostBattle::
     .string "moltes coses.$"
 
 Route19_Text_LiaNotEnoughMons::
-    .string "Lia: Vull combatre junt amb\n"
+    .string "Lia: Vull fer equip amb\n"
     .string "el meu germanet.\p"
     .string "No tens dos Pokémon?$"
 
@@ -249,7 +249,7 @@ Route19_Text_LucIntro::
 
 Route19_Text_LucDefeat::
     .string "Luc: Uau!\n"
-    .string "Algú més fort que la germana!$"
+    .string "Algú més fort que la meva germana!$"
 
 Route19_Text_LucPostBattle::
     .string "Luc: La meva germana és forta\n"

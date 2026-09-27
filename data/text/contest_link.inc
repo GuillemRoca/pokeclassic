@@ -14,10 +14,10 @@ gText_WinnerIsPlayersMon::
 	.string "El guanyador és {STR_VAR_2} de {STR_VAR_1}!{PAUSE_UNTIL_PRESS}$"
 
 gText_PrimaryJudgingNumX::
-	.string "Judici primari: Núm. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
+	.string "Primera avaluació: Núm. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gText_SecondaryJudgingNumX::
-	.string "Judici secundari: Núm. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
+	.string "Segona avaluació: Núm. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gText_SetEventNumX::
 	.string "Esdeveniment fix: Núm. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
@@ -34,5 +34,5 @@ gText_SetEventNumX2::
 	.string "Esdeveniment fix: Núm. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gText_LinkTVProgramWillNotBeMadeTrainerLost::
-	.string "No es farà un programa de TV per\n"
-	.string "l'Entrenador que ha perdut.{PAUSE_UNTIL_PRESS}$"
+	.string "No es farà cap programa de TV\n"
+	.string "d'enllaç perquè has perdut.{PAUSE_UNTIL_PRESS}$"
