@@ -47,7 +47,7 @@ gText_NoMoreRoomForPokemon::
 
 
 gText_NicknameThisPokemon::
-	.string "Vols posar un malnom a\n"
+	.string "Vols posar un sobrenom a\n"
 
 	.string "aquest {STR_VAR_1}?$"
 

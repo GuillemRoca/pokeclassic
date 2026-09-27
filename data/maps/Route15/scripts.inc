@@ -171,10 +171,10 @@ Route15_Text_KindraDefeat::
     .string "No n'hi ha prou!$"
 
 Route15_Text_KindraPostBattle::
-    .string "No pots canviar el malnom d'un\n"
+    .string "No pots canviar el sobrenom d'un\n"
     .string "Pokémon d'intercanvi.\p"
     .string "Només l'Entrenador Original pot\n"
-    .string "canviar el malnom.$"
+    .string "canviar el sobrenom.$"
 
 Route15_EventScript_Becky::
 	trainerbattle_single TRAINER_PICNICKER_BECKY, Route15_Text_BeckyIntro, Route15_Text_BeckyDefeat

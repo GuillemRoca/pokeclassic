@@ -11,7 +11,7 @@ Route11_EastEntrance_1F_Text_ManInLavenderRatesNames::
     .string "Sobretot si n'has atrapat\n"
     .string "un munt?\p"
     .string "A Poble Lavanda, hi ha un home\n"
-    .string "que valora els malnoms Pokémon.\p"
+    .string "que valora els sobrenoms Pokémon.\p"
     .string "Fins i tot pot ajudar-te a\n"
     .string "canviar el nom dels teus Pokémon.$"
 

@@ -6,7 +6,7 @@ FuchsiaCity_SafariZone_Office_EventScript_Worker1::
 	end
 
 FuchsiaCity_SafariZone_Office_Text_NicknamedWardenSlowpoke::
-    .string "Hem posat de malnom al Guardià\n"
+    .string "Hem posat de sobrenom al Guardià\n"
 
     .string "“Slowpoke.”\p"
 

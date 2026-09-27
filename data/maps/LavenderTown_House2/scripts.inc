@@ -74,23 +74,23 @@ LavenderTown_House2_EventScript_ChoseNewNickname::
 LavenderTown_House2_Text_WantMeToRateNicknames::
     .string "Hola, hola!\n"
     .string "Sóc el Valorador de Noms oficial!\p"
-    .string "Vols que valori els malnoms\n"
+    .string "Vols que valori els sobrenoms\n"
     .string "dels teus Pokémon?$"
 
 LavenderTown_House2_Text_CritiqueWhichMonsNickname::
-    .string "Quin malnom de Pokémon hauria\n"
+    .string "Quin sobrenom de Pokémon hauria\n"
     .string "de valorar?$"
 
 LavenderTown_House2_Text_GiveItANicerName::
     .string "{STR_VAR_1}, oi?\n"
-    .string "És un malnom decent!\p"
+    .string "És un sobrenom decent!\p"
     .string "Però, voldries que li posés\n"
     .string "un nom més bonic?\p"
     .string "Què me'n dius?$"
 
 LavenderTown_House2_Text_WhatShallNewNicknameBe::
     .string "Ah, bé. Llavors, quin serà\n"
-    .string "el nou malnom?$"
+    .string "el nou sobrenom?$"
 
 LavenderTown_House2_Text_FromNowOnShallBeKnownAsName::
     .string "Fet! A partir d'ara, aquest\n"

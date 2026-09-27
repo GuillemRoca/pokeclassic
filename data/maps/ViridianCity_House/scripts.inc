@@ -8,7 +8,7 @@ ViridianCity_House_EventScript_BaldingMan::
 	end
 
 ViridianCity_House_Text_NicknamingIsFun::
-    .string "Inventar malnoms és divertit,\n"
+    .string "Inventar sobrenoms és divertit,\n"
     .string "però no és tan fàcil.\p"
     .string "Els noms enginyosos estan bé,\n"
     .string "però els simples són més fàcils\l"
