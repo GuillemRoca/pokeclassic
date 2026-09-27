@@ -32,7 +32,7 @@ SSAnne_Deck_EventScript_Edmond::
 	end
 
 SSAnne_Deck_Text_EdmondIntro::
-    .string "Ei, company!\p"
+    .string "Ei, {MASC}company{FEM}companya{ENDG}!\p"
     .string "Fem un petit ball!$"
 
 SSAnne_Deck_Text_EdmondDefeat::

@@ -377,7 +377,7 @@ VermilionCity_Gym_EventScript_DeclineRematch::
 	end
 
 VermilionCity_Gym_Text_DeclineRematch::
-	.string "Bah. Covard!$"
+	.string "Bah. {MASC}Covard{FEM}Covarda{ENDG}!$"
 
 VermilionCity_Gym_EventScript_PostgameRematch::
 	msgbox VermilionCity_Gym_Text_RematchMode, MSGBOX_YESNO

@@ -6,7 +6,7 @@ SSAnne_Kitchen_EventScript_Chef1::
 	end
 
 SSAnne_Kitchen_Text_BusyOutOfTheWay::
-    .string "Tu, mon petit!\n"
+    .string "Tu, {MASC}mon petit{FEM}ma petite{ENDG}!\n"
     .string "Estem molt ocupats aquí!\l"
     .string "Aparta't!$"
 

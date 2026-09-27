@@ -7,7 +7,7 @@ SSAnne_B1F_Room1_EventScript_Barny::
 	end
 
 SSAnne_B1F_Room1_Text_BarnyIntro::
-    .string "Hola, foraster!\p"
+    .string "Hola, {MASC}foraster{FEM}forastera{ENDG}!\p"
     .string "No sé si ets de mar o de\n"
     .string "muntanya, però para i xerra.\p"
     .string "Tots els meus Pokémon són del mar.$"
@@ -26,7 +26,7 @@ SSAnne_B1F_Room1_EventScript_Phillip::
 	end
 
 SSAnne_B1F_Room1_Text_PhillipIntro::
-    .string "Company, si perds, et llanço\n"
+    .string "{MASC}Company{FEM}Companya{ENDG}, si perds, et llanço\n"
     .string "per la borda!$"
 
 SSAnne_B1F_Room1_Text_PhillipDefeat::

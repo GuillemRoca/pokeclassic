@@ -12,11 +12,11 @@ SSAnne_B1F_Room4_Text_LeonardIntro::
 
 SSAnne_B1F_Room4_Text_LeonardDefeat::
     .string "Bé!\n"
-    .string "Bon combat, company!$"
+    .string "Bon combat, {MASC}company{FEM}companya{ENDG}!$"
 
 SSAnne_B1F_Room4_Text_LeonardPostBattle::
     .string "Hahaha!\n"
-    .string "Vols ser mariner, company?$"
+    .string "Vols ser mariner, {MASC}company{FEM}companya{ENDG}?$"
 
 SSAnne_B1F_Room4_EventScript_Duncan::
 	trainerbattle_single TRAINER_SAILOR_DUNCAN, SSAnne_B1F_Room4_Text_DuncanIntro, SSAnne_B1F_Room4_Text_DuncanDefeat
