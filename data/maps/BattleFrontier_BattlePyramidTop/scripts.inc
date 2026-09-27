@@ -230,26 +230,26 @@ BattleFrontier_BattlePyramidTop_Text_ReachedSummitUpYouGo:
 	.string "Amunt!$"
 
 BattleFrontier_BattlePyramidTop_Text_PlayerConqueredPyramid:
-	.string "El nou conqueridor de la Piràmide!\n"
-	.string "Que es conegui el nom {PLAYER}!$"
+	.string "{MASC}El nou conqueridor{FEM}La nova conqueridora{ENDG} de la Piràmide!\n"
+	.string "Que tothom conegui el nom de {PLAYER}!$"
 
 BattleFrontier_BattlePyramidTop_Text_ChiefBeatYouHere:
 	.string "Quin plaer veure't aquí!\p"
-	.string "Malauradament, has arribat segon\n"
-	.string "per ben poc temps!\p"
+	.string "Malauradament, has arribat {MASC}segon{FEM}segona{ENDG}\n"
+	.string "per una fracció de segon!\p"
 	.string "El nostre cap ja ha conquerit\n"
 	.string "la Piràmide abans que tu.\p"
-	.string "Però, jove explorador…\n"
-	.string "Ets un Entrenador!\p"
+	.string "Però, {MASC}jove explorador{FEM}jove exploradora{ENDG}…\n"
+	.string "Ets {MASC}un Entrenador{FEM}una Entrenadora{ENDG}!\p"
 	.string "Demostra el teu poder i pren la\n"
 	.string "glòria del cim al nostre cap!\p"
 	.string "Ara, si us plau! Quan estiguis\n"
-	.string "a punt, fes un pas de coratge!$"
+	.string "a punt, fes un últim pas amb coratge!$"
 
 BattleFrontier_BattlePyramidTop_Text_ExplorationsAreGrandestAdventure:
-	.string "Jove aventurer…\p"
-	.string "No trobes que les exploracions\n"
-	.string "són la major aventura?\p"
+	.string "{MASC}Jove aventurer{FEM}Jove aventurera{ENDG}…\p"
+	.string "No trobes que explorar és\n"
+	.string "la més gran de les aventures?\p"
 	.string "El teu propi enginy!\p"
 	.string "La teva pròpia força!\p"
 	.string "Els teus propis Pokémon!\p"
@@ -262,9 +262,9 @@ BattleFrontier_BattlePyramidTop_Text_ImPyramidKingBrandon:
 	.string "Sóc en Brandon!\p"
 	.string "Sóc el Rei de la Piràmide, cosa\n"
 	.string "que vol dir que mano aquí.\p"
-	.string "La majoria em diuen el cap!\p"
+	.string "Gairebé tothom em diu el cap!\p"
 	.string "Que hagis vingut aquí vol dir que\n"
-	.string "tens molta confiança en tu mateix,\l"
+	.string "tens molta confiança en tu {MASC}mateix{FEM}mateixa{ENDG},\l"
 	.string "oi?\p"
 	.string "Hahahah!\n"
 	.string "Això serà emocionant!$"
@@ -276,20 +276,20 @@ BattleFrontier_BattlePyramidTop_Text_BringCourageToOurBattle:
 BattleFrontier_BattlePyramidTop_Text_BrandonFrontierPassPlease:
 	.string "Brandon: Hahahah! Ha estat grandiós!\n"
 	.string "Grandiós, sí!\p"
-	.string "Ben fet! T'has guanyat el mèrit!\n"
+	.string "Ben fet! T'has guanyat el reconeixement!\n"
 	.string "El teu Passi de Frontera, si us plau!$"
 
 BattleFrontier_BattlePyramidTop_Text_ReceivedBraveSymbol:
-	.string "El Símbol del Valor s'ha gravat\n"
+	.string "El Símbol de Valor s'ha gravat\n"
 	.string "al Passi de Frontera!$"
 
 BattleFrontier_BattlePyramidTop_Text_LookForwardToNextMeeting:
-	.string "Jove explorador!\n"
+	.string "{MASC}Jove explorador{FEM}Jove exploradora{ENDG}!\n"
 	.string "Espero la nostra propera trobada!$"
 
 BattleFrontier_BattlePyramidTop_Text_BrandonYouveReturned:
 	.string "Brandon: …Per fi has tornat,\n"
-	.string "jove explorador…\p"
+	.string "{MASC}jove explorador{FEM}jove exploradora{ENDG}…\p"
 	.string "El teu amor per l'aventura sembla\n"
 	.string "venir del fons del teu cor…\p"
 	.string "Sí… Ets exactament com jo era\n"
@@ -298,8 +298,8 @@ BattleFrontier_BattlePyramidTop_Text_BrandonYouveReturned:
 	.string "La passió!\p"
 	.string "El perill!\p"
 	.string "La desesperació!\p"
-	.string "Aquells dies d'aventures de vida\n"
-	.string "o mort han tornat…$"
+	.string "Han tornat aquells dies d'aventures\n"
+	.string "a vida o mort, plens d'emoció…$"
 
 BattleFrontier_BattlePyramidTop_Text_MyCourageIsOffMeter:
 	.string "Doncs, endavant!\p"
@@ -314,19 +314,19 @@ BattleFrontier_BattlePyramidTop_Text_BrandonRemarkableHaveThis:
 	.string "Brandon: Hahahah!\n"
 	.string "Extraordinari!\l"
 	.string "Sí, és grandiós!\p"
-	.string "Jove explorador!\p"
+	.string "{MASC}Jove explorador{FEM}Jove exploradora{ENDG}!\p"
 	.string "M'has superat completament!\n"
 	.string "Té! Vull que tinguis això!$"
 
 BattleFrontier_BattlePyramidTop_Text_BraveSymbolTookGoldenShine:
-	.string "El Símbol del Valor ha adquirit\n"
+	.string "El Símbol de Valor ha adquirit\n"
 	.string "una brillantor daurada!$"
 
 BattleFrontier_BattlePyramidTop_Text_FarewellForNow:
 	.string "Ah, sí! Això demostra que encara\n"
 	.string "tinc molt per aprendre!\p"
 	.string "Que els nostres camins es tornin\n"
-	.string "a creuar! Adéu, jove explorador!$"
+	.string "a creuar! Adéu, {MASC}jove explorador{FEM}jove exploradora{ENDG}!$"
 
 BattleFrontier_BattlePyramidTop_Text_StepForwardWhenReady:
 	.string "Ara, quan estiguis a punt, fes un\n"

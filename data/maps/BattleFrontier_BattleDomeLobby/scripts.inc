@@ -838,7 +838,7 @@ BattleFrontier_BattleDomeLobby_Text_ExplainDoubleKORules:
 
 	.string "alhora (un doble KO) en un combat\l"
 
-	.string "de torneig, els Àrbitres revisaran\l"
+	.string "de torneig, els àrbitres revisaran\l"
 
 	.string "el combat i declararan el guanyador.$"
 

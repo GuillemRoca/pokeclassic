@@ -438,8 +438,8 @@ BattleFrontier_BattleTowerBattleRoom_EventScript_RetireChallenge::
 	end
 
 BattleFrontier_BattleTowerBattleRoom_Text_RestoreMonsToFullHealth:
-	.string "Restaurarem els teus Pokémon\n"
-	.string "a plena salut.$"
+	.string "Curarem del tot\n"
+	.string "els teus Pokémon.$"
 
 @ Unused
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyForOpponent:
@@ -471,11 +471,11 @@ BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor7thOpponent:
 	.string "Estàs a punt?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_RecordYourBattle:
-	.string "Vols enregistrar el combat al teu\n"
+	.string "Vols enregistrar el combat al\n"
 	.string "Passi de Frontera?$"
 
 BattleFrontier_BattleTowerLobby_Text_BattleRecordedOnPass:
-	.string "El combat de {PLAYER} s'ha gravat\n"
+	.string "El combat de {PLAYER} s'ha enregistrat\n"
 	.string "al Passi de Frontera.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_SaveAndQuitGame:
@@ -487,7 +487,7 @@ BattleFrontier_BattleTowerBattleRoom_Text_SavingPleaseWait:
 	.string "Si us plau, espera.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_CancelYourChallenge:
-	.string "Vols cancel·lar el teu desafiament\n"
+	.string "Vols cancel·lar el teu repte\n"
 	.string "a la Sala de Combat?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_RecordCouldntBeSaved::
@@ -496,30 +496,30 @@ BattleFrontier_BattleTowerBattleRoom_Text_RecordCouldntBeSaved::
 
 BattleFrontier_BattleTowerBattleRoom_Text_SalonMaidenOnHerWay:
 	.string "Disculpa, però…\p"
-	.string "La nostra líder, la Dama del Saló,\n"
+	.string "La nostra líder, la Mestra del Saló,\n"
 	.string "ve cap aquí amb ganes de lluitar.\p"
 	.string "Hauria d'arribar molt aviat.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyForSalonMaiden:
-	.string "T'enfrontaràs a la Dama del Saló.\n"
-	.string "Estàs preparat?$"
+	.string "T'enfrontaràs a la Mestra del Saló.\n"
+	.string "Estàs {MASC}preparat{FEM}preparada{ENDG}?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_GreetingsImAnabel:
 	.string "Salutacions…\n"
 	.string "Em dic Anabel.\p"
-	.string "Sóc la Dama del Saló i estic\n"
+	.string "Sóc la Mestra del Saló i estic\n"
 	.string "a càrrec de la Torre de Combat…\p"
 	.string "He sentit diversos rumors\n"
 	.string "sobre tu…\p"
-	.string "Sent sincera, el que he sentit no\n"
-	.string "sembla atractiu de cap manera…\p"
+	.string "Si he de ser sincera, el que he\n"
+	.string "sentit no em sembla gens atractiu…\p"
 	.string "La raó per la qual he vingut\n"
 	.string "a veure't…\l"
 	.string "Bé, només hi ha una raó…$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_LetMeSeeYourTalent:
-	.string "Deixa'm veure el teu talent\n"
-	.string "en la seva totalitat…$"
+	.string "Deixa'm veure tot el teu\n"
+	.string "talent…$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelTalentShallBeRecognized:
 	.string "Anabel: Fufufu, ben fet…\p"
@@ -534,8 +534,8 @@ BattleFrontier_BattleTowerBattleRoom_Text_UntilNextTime:
 	.string "… … … … … …\p"
 	.string "Tens confiança en el teu talent\n"
 	.string "per als combats Pokémon, oi?\p"
-	.string "Et demano que segueixis lluitant\n"
-	.string "i segueixis guanyant.\p"
+	.string "Et demano que continuïs lluitant\n"
+	.string "i guanyant.\p"
 	.string "T'esperaré.\n"
 	.string "Fins a la propera vegada…$"
 
@@ -546,8 +546,8 @@ BattleFrontier_BattleTowerBattleRoom_Text_AnabelYouCameBack:
 	.string "Has guanyat combats seguits per\n"
 	.string "veure'm… No m'hauré de contenir…\p"
 	.string "Fa massa temps…\p"
-	.string "Massa temps des que vaig poder\n"
-	.string "lluitar sense pensar en res…$"
+	.string "Massa temps sense poder lluitar\n"
+	.string "sense pensar en res més…$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_LetsBeginShallWe:
 	.string "Comencem, d'acord?$"
