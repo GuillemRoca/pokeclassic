@@ -23,7 +23,7 @@ gText_ObtainedTheDecor::
 	.string "Has obtingut {STR_VAR_2}!$"
 
 gText_NoRoomLeftForAnother::
-	.string "Llàstima! No hi ha espai per\n"
+	.string "Llàstima! No hi ha espai per a\n"
 	.string "un altre {STR_VAR_2}…$"
 
 gText_TheDecorWasTransferredToThePC::

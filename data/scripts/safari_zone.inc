@@ -77,11 +77,11 @@ SafariZone_Text_WouldYouLikeToExit:
 
 SafariZone_Text_TimesUp:
 	.string "Ding-dong! S'ha acabat el temps!\n"
-	.string "El teu Joc Safari ha acabat.$"
+	.string "Fi del Joc Safari.$"
 
 SafariZone_Text_OutOfBalls:
 	.string "T'has quedat sense Safari Balls.\n"
-	.string "El teu Joc Safari ha acabat.$"
+	.string "Fi del Joc Safari.$"
 
 SafariZone_Text_PlacePokeblockOnFeeder:
 	.string "Vols posar un {POKEBLOCK}\n"

@@ -3,19 +3,19 @@ gText_PkmnTransferredSomeonesPC::
 
 	.string "l'ordinador d'algú.\p"
 
-	.string "S'ha col·locat a la\n"
+	.string "S'ha desat a la\n"
 
-	.string "Caixa “{STR_VAR_1}.”$"
+	.string "Caixa “{STR_VAR_1}”.$"
 
 
 gText_PkmnTransferredLanettesPC::
 	.string "{STR_VAR_2} s'ha transferit a\n"
 
-	.string "l'ordinador del Bill.\p"
+	.string "l'ordinador d'en Bill.\p"
 
-	.string "S'ha col·locat a la\n"
+	.string "S'ha desat a la\n"
 
-	.string "Caixa “{STR_VAR_1}.”$"
+	.string "Caixa “{STR_VAR_1}”.$"
 
 
 gText_PkmnTransferredSomeonesPCBoxFull::
@@ -25,17 +25,17 @@ gText_PkmnTransferredSomeonesPCBoxFull::
 
 	.string "{STR_VAR_2} s'ha transferit a\n"
 
-	.string "la Caixa “{STR_VAR_1}.”$"
+	.string "la Caixa “{STR_VAR_1}”.$"
 
 
 gText_PkmnTransferredLanettesPCBoxFull::
 	.string "La Caixa “{STR_VAR_3}” de\n"
 
-	.string "l'ordinador del Bill estava plena.\p"
+	.string "l'ordinador d'en Bill estava plena.\p"
 
 	.string "{STR_VAR_2} s'ha transferit a\n"
 
-	.string "la Caixa “{STR_VAR_1}.”$"
+	.string "la Caixa “{STR_VAR_1}”.$"
 
 
 gText_NoMoreRoomForPokemon::

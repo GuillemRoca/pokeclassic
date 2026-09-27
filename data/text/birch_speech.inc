@@ -53,7 +53,7 @@ gText_Birch_YourePlayer::
 gText_Birch_AreYouReady::
     .string "{PLAYER}!\p"
     .string "La teva pròpia llegenda Pokémon\n"
-    .string "està a punt de desplegar-se!\p"
+    .string "està a punt de començar!\p"
     .string "Un món de somnis i aventures\n"
     .string "amb Pokémon t'espera! Endavant!\p"
     .string "$"

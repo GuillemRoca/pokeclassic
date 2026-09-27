@@ -193,56 +193,57 @@ BerryTree_Text_PlantedOneBerry:
 	.string "{PLAYER} ha plantat una {STR_VAR_1}!$"
 
 BerryTree_Text_BerryGrowthStage1:
-	.string "Una {STR_VAR_1} ha estat plantada aquí.$"
+	.string "Aquí hi ha plantada una {STR_VAR_1}.$"
 
 BerryTree_Text_BerryGrowthStage2:
-	.string "{STR_VAR_1} ha brotat.$"
+	.string "La Baia {STR_VAR_1} ha brotat.$"
 
 BerryTree_Text_BerryGrowthStage3:
-	.string "Aquesta planta de {STR_VAR_1} creix.$"
+	.string "La planta de Baia {STR_VAR_1} creix.$"
 
 BerryTree_Text_BerryGrowthStage4:
-	.string "Les flors de {STR_VAR_1} estan florint\n"
-	.string "{STR_VAR_2}.$"
+	.string "Les flors de la Baia {STR_VAR_1}\n"
+	.string "estan {STR_VAR_2}.$"
 
 BerryTree_Text_CareAdverbGreat:
-	.string "molt bellament$"
+	.string "esplèndides$"
 
 BerryTree_Text_CareAdverbPoor:
-	.string "discretament$"
+	.string "boniquetes$"
 
 BerryTree_Text_CareAdverbGood:
-	.string "bé$"
+	.string "ben maques$"
 
 BerryTree_Text_WantToPick:
 	.string "Has trobat {STR_VAR_2} {STR_VAR_1}!\p"
-	.string "Vols collir les\n"
+	.string "Vols collir\n"
 	.string "{STR_VAR_1}?$"
 
 BerryTree_Text_PickedTheBerry:
-	.string "{PLAYER} ha collit les {STR_VAR_2} {STR_VAR_1}.$"
+	.string "{PLAYER} ha collit\n"
+	.string "{STR_VAR_2} {STR_VAR_1}.$"
 
 BerryTree_Text_PutAwayBerry:
-	.string "{PLAYER} ha desat les {STR_VAR_1}\n"
+	.string "{PLAYER} ha desat {STR_VAR_1}\n"
 	.string "a la Butxaca de Baies.$"
 
 BerryTree_Text_BerryPocketFull:
-	.string "La Butxaca de Baies és plena.\p"
-	.string "No s'han pogut agafar les {STR_VAR_1}.$"
+	.string "La Butxaca de Baies està plena.\p"
+	.string "No has pogut collir {STR_VAR_1}.$"
 
 BerryTree_Text_BerryLeftUnpicked:
-	.string "{PLAYER} ha deixat les {STR_VAR_1}\n"
+	.string "{PLAYER} ha deixat {STR_VAR_1}\n"
 	.string "sense collir.$"
 
 BerryTree_Text_WantToWater:
-	.string "Vols regar les {STR_VAR_1} amb la\n"
-	.string "Regadora?$"
+	.string "Vols regar la Baia {STR_VAR_1} amb\n"
+	.string "la Regadora?$"
 
 BerryTree_Text_WateredTheBerry:
-	.string "{PLAYER} ha regat les {STR_VAR_1}.$"
+	.string "{PLAYER} ha regat la Baia {STR_VAR_1}.$"
 
 BerryTree_Text_PlantIsDelighted:
-	.string "La planta sembla estar encantada.$"
+	.string "La planta sembla ben contenta.$"
 
 BerryTree_Text_ExclamationPoint:
 	.string "!$"

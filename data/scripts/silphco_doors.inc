@@ -569,5 +569,5 @@ Text_CardKeyOpenedDoor::
 
 Text_ItNeedsCardKey::
     .string "No!\n"
-    .string "Necessita una Clau Targeta!$"
+    .string "Cal una Clau Targeta!$"
 

@@ -94,7 +94,7 @@ ProfileMan_EventScript_Ret::
 ProfileMan_Text_CollectTrainerProfiles:
 	.string "Hola, Entrenador!\n"
 	.string "Tens un somriure meravellós.\p"
-	.string "Tinc un hobby: col·leccionar perfils\n"
+	.string "Tinc una afició: col·leccionar perfils\n"
 	.string "d'Entrenadors Pokémon.$"
 
 ProfileMan_Text_MayISeeYourProfile:
@@ -112,7 +112,7 @@ ProfileMan_Text_EasyChatExplanation:
 	.string "Hi ha molts fragments de text\n"
 	.string "que pots fer servir.\p"
 	.string "Estan organitzats en grups com\n"
-	.string "Pokémon, estils de vida i hobbies\l"
+	.string "Pokémon, estils de vida i aficions\l"
 	.string "per facilitar-ne la cerca.\p"
 	.string "Primer, tria el grup de fragments\n"
 	.string "per mostrar una llista d'opcions.\p"
@@ -131,7 +131,7 @@ ProfileMan_Text_ImagineYouWouldHaveWonderfulProfile:
 
 ProfileMan_Text_NotIntoItRightNow:
 	.string "Oh? Ara no et ve de gust?\p"
-	.string "Bé, qualsevol moment va bé!$"
+	.string "Bé, quan vulguis, eh!$"
 
 ProfileMan_Text_YouHaveWonderfulSmile:
 	.string "Hola, Entrenador!\n"

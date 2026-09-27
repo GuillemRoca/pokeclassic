@@ -23,7 +23,7 @@ sText_MysteryGiftVisitingTrainerInstructions:
 	.string "Gràcies per utilitzar el sistema\n"
 	.string "de Regal Misteriós.\p"
 	.string "Amb aquesta Targeta Prodigi, pots\n"
-	.string "participar en una enquesta a una\l"
+	.string "participar en una enquesta en una\l"
 	.string "Botiga Pokémon.\p"
 	.string "Utilitza les enquestes per convidar\n"
 	.string "Entrenadors a Ciutat Cavanac.\p"

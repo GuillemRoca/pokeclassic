@@ -51,6 +51,6 @@ sText_AuroraTicketThankYou:
 
 sText_AuroraTicketBagFull:
 	.string "Oh, ho sento, {PLAYER}.\n"
-	.string "La Butxaca d'Obj. Clau és plena.\p"
-	.string "Desa alguna cosa al teu PC\n"
+	.string "La butxaca Obj. Clau està plena.\p"
+	.string "Desa alguna cosa a l'ordinador\n"
 	.string "i torna a buscar-ho.$"

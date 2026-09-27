@@ -1,10 +1,10 @@
 gText_HowMayIServeYou::
 	.string "Hola!\n"
-	.string "En puc ajudar?$"
+	.string "En què et puc ajudar?$"
 
 gText_PleaseComeAgain::
-	.string "Fins aviat!$"
+	.string "Gràcies! Torna quan vulguis!$"
 
 gText_PlayerWhatCanIDoForYou::
 	.string "{PLAYER}{STRING 5}, benvingut!\p"
-	.string "En puc ajudar?$"
+	.string "En què et puc ajudar?$"

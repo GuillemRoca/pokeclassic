@@ -11,11 +11,11 @@ EventScript_PkmnCenterNurse_NormalHeal::
 	end
 
 gText_WouldYouLikeToRestYourPkmn::
-    .string "Hola, i benvingut al\n"
-    .string "Centre Pokémon.\p"
-    .string "Restaurem els teus Pokémon\n"
-    .string "cansats a plena salut.\p"
-    .string "Vols que descansin els teus Pokémon?$"
+    .string "Hola! Et donem la benvinguda\n"
+    .string "al Centre Pokémon.\p"
+    .string "Aquí deixem com nous els\n"
+    .string "Pokémon cansats.\p"
+    .string "Vols que curem els teus Pokémon?$"
 
 EventScript_PkmnCenterNurse_GameClearHeal::
 	msgbox gText_YouWantTheUsual, MSGBOX_YESNO
@@ -37,7 +37,7 @@ EventScript_PkmnCenterNurse_ChampionHeal::
 
 gText_ItsTheChampion::
     .string "Oh! Ets el Campió, {PLAYER}!\n"
-    .string "Curem els teus Pokémon?$"
+    .string "Vols que curem els teus Pokémon?$"
 
 EventScript_PkmnCenterNurse_HealPkmn::
 	incrementgamestat GAME_STAT_USED_POKECENTER
@@ -57,13 +57,13 @@ EventScript_PkmnCenterNurse_HealPkmn::
 	goto EventScript_PkmnCenterNurse_Goodbye
 
 gText_IllTakeYourPkmn::
-    .string "D'acord, agafaré els teus Pokémon\n"
-    .string "uns segons.$"
+    .string "D'acord, deixa'm els teus Pokémon\n"
+    .string "un moment.$"
 
 gText_RestoredPkmnToFullHealth::
     .string "Gràcies per esperar.\p"
-    .string "Hem restaurat els teus Pokémon\n"
-    .string "a plena salut.$"
+    .string "Els teus Pokémon ja estan\n"
+    .string "completament recuperats.$"
 
 EventScript_PkmnCenterNurse_CheckPokerus::
 	specialvar VAR_RESULT, IsPokerusInParty
@@ -77,15 +77,15 @@ EventScript_PkmnCenterNurse_ExplainPokerus::
 
 gText_PokerusExplanation::
 	.string "Els teus Pokémon podrien estar\n"
-	.string "infectats amb Pokérus.\p"
-	.string "Se sap poc del Pokérus\n"
-	.string "excepte que són formes de vida\l"
-	.string "microscòpiques que s'enganxen.\p"
-	.string "Mentre estan infectats, es diu que\n"
-	.string "els Pokémon creixen molt bé.$"
+	.string "infectats de Pokérus.\p"
+	.string "Se'n sap poca cosa, a part que\n"
+	.string "són formes de vida microscòpiques\l"
+	.string "que s'enganxen als Pokémon.\p"
+	.string "Diuen que, mentre estan infectats,\n"
+	.string "els Pokémon es fan forts molt de pressa.$"
 
 gText_WeHopeToSeeYouAgain::
-    .string "Esperem tornar-te a veure!$"
+    .string "Esperem veure't aviat!$"
 
 Movement_PkmnCenterNurse_Bow:
 	nurse_joy_bow

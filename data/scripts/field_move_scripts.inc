@@ -47,15 +47,15 @@ EventScript_CancelCut::
 
 Text_WantToCut:
 	.string "Sembla que aquest arbre es pot\n"
-	.string "Tallar!\p"
-	.string "Vols Tallar-lo?$"
+	.string "tallar!\p"
+	.string "Vols fer servir Tall?$"
 
 Text_MonUsedFieldMove:
 	.string "{STR_VAR_1} ha usat {STR_VAR_2}!$"
 
 Text_CantCut:
 	.string "Sembla que aquest arbre es pot\n"
-	.string "Tallar!$"
+	.string "tallar!$"
 
 @ Interact with smashable rock
 EventScript_RockSmash::
@@ -204,8 +204,8 @@ EventScript_CancelSmash::
 	end
 
 Text_WantToSmash:
-	.string "Aquesta roca sembla trencadissa.\n"
-	.string "Vols fer servir Destrossa Roques?$"
+	.string "Sembla que aquesta roca es pot trencar.\n"
+	.string "Vols fer servir Trencar Roca?$"
 
 Text_CantSmash:
 	.string "És una roca dura, però un Pokémon\n"
@@ -353,23 +353,23 @@ EventScript_EndSurface::
 	end
 
 Text_CantDive:
-	.string "El mar és profund aquí. Un Pokémon\n"
+	.string "Aquí el mar és profund. Un Pokémon\n"
 	.string "podria submergir-s'hi.$"
 
 Text_WantToDive:
-	.string "El mar és profund aquí.\n"
-	.string "Vols fer servir Busseig?$"
+	.string "Aquí el mar és profund.\n"
+	.string "Vols fer servir Capbussar?$"
 
 Text_MonUsedDive:
-	.string "{STR_VAR_1} ha usat Busseig.$"
+	.string "{STR_VAR_1} ha usat Capbussar.$"
 
 Text_CantSurface:
 	.string "La llum es filtra des de dalt.\n"
-	.string "Un Pokémon podria emergir.$"
+	.string "Un Pokémon podria sortir a la superfície.$"
 
 Text_WantToSurface:
 	.string "La llum es filtra des de dalt.\n"
-	.string "Vols fer servir Busseig?$"
+	.string "Vols fer servir Capbussar?$"
 
 EventScript_FailSweetScent::
 	msgbox Text_FailSweetScent, MSGBOX_SIGN

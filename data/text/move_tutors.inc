@@ -13,8 +13,8 @@ MoveTutor_Text_SwaggerTeach:
 	.string "Fanfarroneig a un Pokémon teu.$"
 
 MoveTutor_Text_SwaggerDeclined:
-	.string "Com que no? No t'hi pots\n"
-	.string "posar a l'ambient?$"
+	.string "Com que no? Que no saps\n"
+	.string "seguir el rotllo?$"
 
 MoveTutor_Text_SwaggerWhichMon:
 	.string "Molt bé, quin Pokémon vol\n"
@@ -32,16 +32,16 @@ MoveTutor_Text_RolloutTeach:
 	.string "rodar d'aquella manera.\p"
 	.string "Creus que el teu Pokémon\n"
 	.string "també voldrà rodar?\p"
-	.string "Puc ensenyar a un la Rodolada\n"
-	.string "si vols.$"
+	.string "Si vols, puc ensenyar Rodolada\n"
+	.string "a un dels teus Pokémon.$"
 
 MoveTutor_Text_RolloutDeclined:
 	.string "No cal ser tímid.\n"
 	.string "Anem a rodar!$"
 
 MoveTutor_Text_RolloutWhichMon:
-	.string "Ehehe, per descomptat! Seria genial\n"
-	.string "si el Pokémon s'assemblés a mi.$"
+	.string "Ehehe, i tant! Seria genial que\n"
+	.string "el Pokémon s'assemblés a mi.$"
 
 MoveTutor_Text_RolloutTaught:
 	.string "Rodar per l'herba em fa feliç.\n"
@@ -52,16 +52,16 @@ MoveTutor_Text_FuryCutterTeach:
 	.string "més fort quan s'usa consecutivament.\p"
 	.string "És un moviment de tipus Insecte,\n"
 	.string "i és increïblement guai.\p"
-	.string "Es diu Frenesi Talls.\n"
+	.string "Es diu Tall Furiós.\n"
 	.string "Vols que l'ensenyi a un Pokémon?$"
 
 MoveTutor_Text_FuryCutterDeclined:
-	.string "No estem en la mateixa\n"
-	.string "longitud d'ona.$"
+	.string "No estem gens\n"
+	.string "en sintonia.$"
 
 MoveTutor_Text_FuryCutterWhichMon:
 	.string "Hurra!\n"
-	.string "Ensenya'm quin Pokémon hauria d'ensenyar.$"
+	.string "Digues-me a quin Pokémon l'ensenyo.$"
 
 MoveTutor_Text_FuryCutterTaught:
 	.string "M'emociona veure si el moviment\n"
@@ -92,14 +92,14 @@ MoveTutor_Text_SleepTalkTaught:
 MoveTutor_Text_DynamicPunchTeach:
 	.string "Ja no puc més!\p"
 	.string "És completament inútil!\p"
-	.string "Sóc un Entrenador de Combat,\n"
+	.string "Sóc Entrenador de tipus Lluita,\n"
 	.string "i no puc guanyar al Gimnàs de\l"
-	.string "Mossdeep per molt que ho intento!\p"
+	.string "Mossdeep per molt que ho intenti!\p"
 	.string "Argh! Cop! Cop! Cop!\n"
 	.string "Cop! Cop! Cop!\p"
 	.string "Ep, no em miris així!\n"
 	.string "Només estic colpejant el terra!\p"
-	.string "O vols que ensenyi Cop Dinàmic\n"
+	.string "O vols que ensenyi Puny Dinàmic\n"
 	.string "al teu Pokémon?$"
 
 MoveTutor_Text_DynamicPunchDeclined:
@@ -112,16 +112,16 @@ MoveTutor_Text_DynamicPunchWhichMon:
 
 MoveTutor_Text_DynamicPunchTaught:
 	.string "Vull que guanyis al Gimnàs de\n"
-	.string "Mossdeep amb aquell Cop Dinàmic!$"
+	.string "Mossdeep amb aquest Puny Dinàmic!$"
 
 MoveTutor_Text_ExplosionTeach:
 	.string "No tinc intenció de quedar-me\n"
 	.string "encallat aquí per sempre.\p"
 	.string "Ja ho veuràs, sortiré a la\n"
 	.string "ciutat i em convertiré en un gran èxit.\p"
-	.string "En serio, causaré una enorme\n"
+	.string "De debò, causaré una enorme\n"
 	.string "Explosió de popularitat!\p"
-	.string "Si m'has sentit, t'ensenyaré\n"
+	.string "Si m'has sentit, ensenyaré encantat\n"
 	.string "Explosió al teu Pokémon!$"
 
 MoveTutor_Text_ExplosionDeclined:
@@ -133,8 +133,8 @@ MoveTutor_Text_ExplosionWhichMon:
 	.string "Quin Pokémon vol explotar?$"
 
 MoveTutor_Text_ExplosionTaught:
-	.string "Fa molt que ensenyo els Pokémon\n"
-	.string "a usar Explosió, però la meva\l"
-	.string "pròpia encara no ha encès…\p"
+	.string "Fa molt que ensenyo als Pokémon\n"
+	.string "a usar Explosió, però encara no\l"
+	.string "he fet esclatar la meva…\p"
 	.string "Potser és perquè, en el fons,\n"
 	.string "prefereixo quedar-me aquí…$"

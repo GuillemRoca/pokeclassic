@@ -70,4 +70,4 @@ sText_FullParty:
 	.string "Oh, sembla que el teu equip\n"
 	.string "és ple.\p"
 	.string "Vine a veure'm després de desar\n"
-	.string "un Pokémon al PC.$"
+	.string "un Pokémon a l'ordinador.$"

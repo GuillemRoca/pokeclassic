@@ -4,11 +4,11 @@ gText_ConfirmSave::
 
 gText_AlreadySavedFile::
 	.string "Ja hi ha un arxiu desat.\n"
-	.string "És correcte sobreescriure'l?$"
+	.string "Vols sobreescriure'l?$"
 
 gText_SavingDontTurnOff::
 	.string "Desant…\n"
-	.string "No apagueu la consola.$"
+	.string "No apaguis la consola.$"
 
 gText_PlayerSavedGame::
 	.string "{PLAYER} ha desat el joc.$"
@@ -17,17 +17,17 @@ gText_DifferentSaveFile::
 	.string "AVÍS!\p"
 	.string "Hi ha un arxiu de joc diferent\n"
 	.string "que ja estava desat.\p"
-	.string "Si deses ara, l'aventura de l'altre\n"
-	.string "arxiu, incloent articles i\l"
-	.string "Pokémon, es perdrà completament.\p"
+	.string "Si deses ara, es perdrà del tot\n"
+	.string "l'aventura de l'altre arxiu,\l"
+	.string "objectes i Pokémon inclosos.\p"
 	.string "Segur que vols desar ara\n"
 	.string "i sobreescriure l'altre arxiu?$"
 
 gText_SaveError::
 	.string "Error en desar.\p"
-	.string "Canvieu la\n"
+	.string "Canvia la\n"
 	.string "memòria de còpia de seguretat.$"
 
 gText_SavingDontTurnOffPower::
 	.string "Desant…\n"
-	.string "No apagueu la consola.$"
+	.string "No apaguis la consola.$"

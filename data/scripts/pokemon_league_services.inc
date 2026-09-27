@@ -53,7 +53,7 @@ PkmnLeague_Services_Ranking_Unranked::
 
 PkmnLeague_Services_Ranking_Text_Unranked:
 	.string "Actualment no tens rang!\p"
-	.string "Necessites almenys 1\n"
+	.string "Has de tenir almenys 1\n"
 	.string "Medalla per obtenir un rang.$"
 
 PkmnLeague_Services_Ranking_Beginner::
@@ -114,10 +114,10 @@ PkmnLeague_Services_Ranking_TitleMatch::
 	end
 
 PkmnLeague_Services_Ranking_Text_TitleMatch:
-	.string "Algú desafia el teu estatus de\n"
-	.string "campió!\p"
-	.string "Visita la Lliga Pokémon per enfrontar\n"
-	.string "el teu rival en un Combat pel Títol!$"
+	.string "Algú vol arrabassar-te el títol\n"
+	.string "de Campió!\p"
+	.string "Ves a la Lliga Pokémon i enfronta't\n"
+	.string "a l'aspirant en un Combat pel Títol!$"
 
 @BADGE CHECKS
 PkmnLeague_Services_MustBeBeginner::
@@ -126,8 +126,8 @@ PkmnLeague_Services_MustBeBeginner::
 	end
 
 PkmnLeague_Services_Text_MustBeBeginner:
-	.string "Ho sento, però necessites ser com\n"
-	.string "a mínim de Rang Principiant a la\l"
+	.string "Ho sento, però has de tenir com a\n"
+	.string "mínim el Rang Principiant a la\l"
 	.string "Lliga Pokémon per usar els serveis.$"
 
 PkmnLeague_Services_MustBeSeasoned::
@@ -136,7 +136,7 @@ PkmnLeague_Services_MustBeSeasoned::
 	end
 
 PkmnLeague_Services_Text_MustBeSeasoned:
-	.string "Ho sento, però necessites ser un\n"
+	.string "Ho sento, però has de ser un\n"
 	.string "Entrenador Experimentat a la Lliga\l"
 	.string "Pokémon per usar els meus serveis.$"
 
@@ -241,7 +241,7 @@ PkmnLeague_Services_Text_ComeAgain:
 
 PkmnLeague_Services_Text_EggCantForgetMoves:
 	.string "Què?\n"
-	.string "Cap Ou hauria de saber moviments.$"
+	.string "Els Ous no saben cap moviment!$"
 
 PkmnLeague_Services_Text_CantForgetSurf:
 	.string "Hm!\p"
@@ -296,17 +296,17 @@ PkmnLeague_Services_EventScript_CantTeachEgg::
 
 PkmnLeague_Services_Text_ImTheMoveTutor:
 	.string "Sóc un Tutor de Moviments.\p"
-	.string "Conec tots els moviments que els\n"
-	.string "Pokémon aprenen, tots ells, i puc\l"
-	.string "ensenyar-los-hi.\p"
+	.string "Conec tots i cadascun dels\n"
+	.string "moviments que aprenen els Pokémon,\l"
+	.string "i els hi puc ensenyar.\p"
 	.string "Puc ensenyar un moviment a un\n"
 	.string "dels teus Pokémon si vols.$"
 
 PkmnLeague_Services_Text_TutorWhichMon:
-	.string "Quin Pokémon necessita tutoria?$"
+	.string "A quin Pokémon vols que ensenyi?$"
 
 PkmnLeague_Services_Text_WantMeToTeachMove:
-	.string "Vols que ensenyi un Pokémon?$"
+	.string "Vols que ensenyi algun Pokémon?$"
 
 PkmnLeague_Services_Text_TeachWhichMove:
 	.string "Quin moviment he d'ensenyar?$"
