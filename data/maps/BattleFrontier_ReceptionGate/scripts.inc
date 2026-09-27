@@ -485,7 +485,7 @@ BattleFrontier_ReceptionGate_Text_SymbolsInfo:
 	.string "símbols de cada instal·lació.\p"
 	.string "Per guanyar un símbol, potser\n"
 	.string "hauràs de derrotar Entrenadors\l"
-	.string "seguits i guanyar esdeveniments repetits.\p"
+	.string "seguits i guanyar diversos reptes.\p"
 	.string "No és fàcil guanyar símbols.\n"
 	.string "Et desitjo molta sort!$"
 

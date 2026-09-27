@@ -178,7 +178,7 @@ BattleFrontier_Lounge2_Text_DomeAceSilverMons::
 	.string "Quan tracta l'oponent amb lleugeresa,\n"
 	.string "usa aquests tres Pokémon:\p"
 	.string "Un Pokémon Drac de tipus Drac/Volador,\n"
-	.string "un Pokémon Peix Fang de tipus Aigua/Terra,\l"
+	.string "un Pokémon Peix Fang d'Aigua/Terra,\l"
 	.string "i un Pokémon Flama de tipus Foc/Volador.$"
 
 BattleFrontier_Lounge2_Text_DomeAceGoldMons::
@@ -187,7 +187,7 @@ BattleFrontier_Lounge2_Text_DomeAceGoldMons::
 	.string "Quan demostra la seva estratègia,\n"
 	.string "usa aquests tres Pokémon:\p"
 	.string "Un Pokémon Eó de tipus Drac/Volador,\n"
-	.string "un Pokémon Peix Fang de tipus Aigua/Terra,\l"
+	.string "un Pokémon Peix Fang d'Aigua/Terra,\l"
 	.string "i un Pokémon Cama de Ferro\l"
 	.string "de tipus Acer/Psíquic.$"
 
@@ -255,9 +255,9 @@ BattleFrontier_Lounge2_Text_ArenaTycoonSilverMons::
 	.string "l'Arena?\p"
 	.string "Quan avalua l'habilitat de l'enemic,\n"
 	.string "sembla que usa aquests Pokémon:\p"
-	.string "Un Pokémon Banya de tipus Insecte/Lluita,\n"
+	.string "Un Pokémon Banya d'Insecte/Lluita,\n"
 	.string "un Pokémon Lluna de tipus Fosc,\l"
-	.string "i un Pokémon Muda de tipus Insecte/Fantasma.$"
+	.string "i un Pokémon Muda d'Insecte/Fantasma.$"
 
 BattleFrontier_Lounge2_Text_ArenaTycoonGoldMons::
 	.string "Has combatut contra el Magnat de\n"

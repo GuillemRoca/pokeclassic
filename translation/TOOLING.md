@@ -45,6 +45,14 @@ template that actually draws that text:
 | ability description | 144 px, single line | `PSS_LABEL_PANE_RIGHT` w=19 at x=8 |
 | battle message | 208 px | `B_WIN_MSG` w=26 |
 | overworld / UI msgbox | 208 px | standard text box w=26 |
+| map & event scripts (`*.inc`) | 216 px per rendered line | `sStandardTextBox_WindowTemplates` w=27, printed at x=0 |
+| Battle Dome info card (`battle_dome.inc`) | 208 px | `sInfoCardWindowTemplates` w=26 |
+
+The `.inc` pass covers every map script, `data/scripts/` and `data/text/` file
+this branch touched (~22 000 lines, the bulk of the translation). Each message is
+split on `\n`, `\l` and `\p` and every rendered line is measured. Placeholders
+such as `{PLAYER}` and `{STR_VAR_1}` are counted as zero width, so what it reports
+is a certain overflow; leave headroom on lines that contain one.
 
 Useful invocations:
 

@@ -5,7 +5,7 @@ EventTicket_Text_ShowOldSeaMap:
 	.string "Perdona'm?\n"
 
 
-	.string "Podem navegar fins a aquest lloc del mapa?\p"
+	.string "Podem navegar fins a aquest lloc?\p"
 
 
 	.string "Conec algú que et pot ajudar millor.\n"
@@ -85,7 +85,7 @@ SouthernIsland_Interior_Text_Sign:
 
 
 SouthernIsland_Exterior_Text_Sign:
-	.string "“Aquells els records dels quals s'esvaeixen\n"
+	.string "“Els qui veuen esvair-se els records\n"
 
 
 	.string "busquen gravar-los al cor…”$"

@@ -442,7 +442,7 @@ BattleFrontier_BattleArenaLobby_Text_DidntSaveBeforeShuttingDown:
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnSevenWins:
 	.string "Et felicitem per la teva esplèndida\n"
-	.string "ratxa de victòries contra set Entrenadors!$"
+	.string "ratxa de set victòries seguides!$"
 
 BattleFrontier_BattleArenaLobby_Text_RecordAchievement:
 	.string "La teva fita serà registrada.\n"

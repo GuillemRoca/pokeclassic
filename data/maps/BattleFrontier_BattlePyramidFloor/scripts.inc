@@ -679,7 +679,7 @@ BattlePyramid_Text_FiveTrainersRemaining5::
 
 BattlePyramid_Text_FourTrainersRemaining5::
 	.string "Potser tens el que cal per vèncer\n"
-	.string "els quatre Entrenadors experts restants.$"
+	.string "els quatre experts que queden.$"
 
 BattlePyramid_Text_ThreeTrainersRemaining5::
 	.string "Potser tens el que cal per vèncer\n"

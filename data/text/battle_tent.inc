@@ -1,6 +1,6 @@
 FallarborTown_BattleTentLobby_Text_WelcomeToBattleTent:
 	.string "Us dono la benvinguda a la\n"
-	.string "Carpa de Batalla de Fallabor!\p"
+	.string "Carpa de Combat de Fallabor!\p"
 	.string "Sóc el vostre guia del Torneig KO!$"
 
 FallarborTown_BattleTentLobby_Text_TakeChallenge:
@@ -11,16 +11,16 @@ FallarborTown_BattleTentLobby_Text_AwaitAnotherChallenge:
 	.string "Us esperem en una altra ocasió!$"
 
 FallarborTown_BattleTentLobby_Text_ExplainFallarborTent:
-	.string "A la Carpa de Batalla de Fallabor,\n"
+	.string "A la Carpa de Combat de Fallabor,\n"
 	.string "duem a terme el Torneig KO.\p"
 	.string "Tots els participants entren\n"
 	.string "amb un equip de tres Pokémon.\p"
 	.string "Els tres Pokémon s'han d'ordenar\n"
 	.string "en l'ordre en què apareixeran.\p"
-	.string "Durant la batalla, els Pokémon\n"
+	.string "Durant el combat, els Pokémon\n"
 	.string "sortiran d'un en un en l'ordre\l"
 	.string "predeterminat.\p"
-	.string "Un cop un Pokémon entra en batalla,\n"
+	.string "Un cop un Pokémon entra en combat,\n"
 	.string "ha de romandre-hi fins al final\l"
 	.string "del combat.\p"
 	.string "Si un combat no es resol en\n"
@@ -35,7 +35,7 @@ FallarborTown_BattleTentLobby_Text_ExplainFallarborTent:
 
 FallarborTown_BattleTentLobby_Text_SaveBeforeChallenge:
 	.string "Abans de portar-vos a la Carpa\n"
-	.string "de Batalla, he de desar. D'acord?$"
+	.string "de Combat, he de desar. D'acord?$"
 
 @ Unused
 FallarborTown_BattleTentLobby_Text_WhichLevelMode:
@@ -71,7 +71,7 @@ FallarborTown_BattleTentLobby_Text_NotEnoughValidMonsLvOpen:
 
 FallarborTown_BattleTentLobby_Text_GuideYouToBattleTent:
 	.string "Ara us guiaré fins\n"
-	.string "a la Carpa de Batalla.$"
+	.string "a la Carpa de Combat.$"
 
 FallarborTown_BattleTentLobby_Text_DidntSaveBeforeQuitting:
 	.string "Estimat repte!\p"
@@ -115,21 +115,21 @@ FallarborTown_BattleTentLobby_Text_AwaitAnotherChallenge2:
 FallarborTown_BattleTentLobby_Text_LookingForwardToArrival:
 	.string "Estàvem esperant la vostra arribada.\p"
 	.string "Abans de portar-vos a la Carpa\n"
-	.string "de Batalla, he de desar. Espereu.$"
+	.string "de Combat, he de desar. Espereu.$"
 
 VerdanturfTown_BattleTentLobby_Text_WelcomeToBattleTent:
 	.string "Us dono la benvinguda a la\n"
-	.string "Carpa de Batalla de Verdanturf!\p"
+	.string "Carpa de Combat de Verdanturf!\p"
 	.string "Aquí es posa a prova la\n"
 	.string "confiança del Entrenador\l"
 	.string "envers els seus Pokémon.$"
 
 VerdanturfTown_BattleTentLobby_Text_TakeChallenge:
 	.string "Voleu acceptar el repte\n"
-	.string "de la Carpa de Batalla de Verdanturf?$"
+	.string "de la Carpa de Combat de Verdanturf?$"
 
 VerdanturfTown_BattleTentLobby_Text_ExplainVerdanturfTent:
-	.string "A la Carpa de Batalla de Verdanturf\n"
+	.string "A la Carpa de Combat de Verdanturf\n"
 	.string "hi ha una regla crucial\l"
 	.string "que cal respectar.\p"
 	.string "Els Entrenadors només poden\n"
@@ -139,7 +139,7 @@ VerdanturfTown_BattleTentLobby_Text_ExplainVerdanturfTent:
 	.string "als seus Pokémon.\p"
 	.string "Els Pokémon han d'actuar\n"
 	.string "segons la seva naturalesa\l"
-	.string "i batallar sols.\p"
+	.string "i lluitar sols.\p"
 	.string "Heu de confiar en els vostres\n"
 	.string "Pokémon i observar-los.\p"
 	.string "Si aconseguiu guanyar tres\n"
@@ -190,7 +190,7 @@ VerdanturfTown_BattleTentLobby_Text_SelectThreeMons:
 
 VerdanturfTown_BattleTentLobby_Text_SaveBeforeChallenge:
 	.string "He de desar abans de portar-vos\n"
-	.string "a la Carpa de Batalla. D'acord?$"
+	.string "a la Carpa de Combat. D'acord?$"
 
 VerdanturfTown_BattleTentLobby_Text_NowFollowMe:
 	.string "Bé.\n"
@@ -218,27 +218,27 @@ VerdanturfTown_BattleTentLobby_Text_PresentYouWithPrize:
 	.string "aquest premi.$"
 
 SlateportCity_BattleTentLobby_Text_WelcomeToBattleTent:
-	.string "Benvinguts a la Carpa de Batalla\n"
+	.string "Benvinguts a la Carpa de Combat\n"
 	.string "de Slateport!\p"
 	.string "Sóc el vostre guia del Torneig\n"
-	.string "d'Intercanvi de Batalla.$"
+	.string "d'Intercanvi de Combat.$"
 
 SlateportCity_BattleTentLobby_Text_TakeChallenge:
 	.string "Voleu acceptar el repte\n"
-	.string "de la Batalla d'Intercanvi?$"
+	.string "de la Combat d'Intercanvi?$"
 
 SlateportCity_BattleTentLobby_Text_ExplainSlateportTent:
-	.string "Aquí a la Carpa de Batalla de\n"
-	.string "Slateport duem a terme Batalles\l"
+	.string "Aquí a la Carpa de Combat de\n"
+	.string "Slateport duem a terme Combats\l"
 	.string "d'Intercanvi amb Pokémon de lloguer.\p"
 	.string "Primer, se us deixaran tres\n"
-	.string "Pokémon específics per a l'event.\p"
+	.string "Pokémon específics per a l'esdeveniment.\p"
 	.string "Usant els Pokémon de lloguer,\n"
-	.string "heu de dur a terme una Batalla\l"
+	.string "heu de dur a terme un Combat\l"
 	.string "Individual.\p"
 	.string "Si guanyeu, podeu intercanviar\n"
 	.string "un dels vostres Pokémon de lloguer.\p"
-	.string "Repetiu aquest cicle de batallar\n"
+	.string "Repetiu aquest cicle de lluitar\n"
 	.string "i intercanviar - si guanyeu tres\l"
 	.string "vegades seguides, guanyareu\l"
 	.string "un gran premi.\p"
@@ -272,7 +272,7 @@ SlateportCity_BattleTentLobby_Text_ReturnRentalMonsSaveResults:
 	.string "Us retornaré els vostres Pokémon\n"
 	.string "a canvi dels Pokémon de lloguer.\p"
 	.string "També he de desar els resultats\n"
-	.string "de l'event. Espereu.$"
+	.string "de l'esdeveniment. Espereu.$"
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_ReturnMonsExchangeRentals:
@@ -285,7 +285,7 @@ SlateportCity_BattleTentLobby_Text_WonThreeMatchesReturnMons:
 	.string "Us retornaré els vostres Pokémon\n"
 	.string "a canvi dels Pokémon de lloguer.\p"
 	.string "També he de desar els resultats\n"
-	.string "de l'event. Espereu.$"
+	.string "de l'esdeveniment. Espereu.$"
 
 SlateportCity_BattleTentLobby_Text_AwardYouThisPrize:
 	.string "En reconeixement de la vostra\n"
@@ -311,7 +311,7 @@ SlateportCity_BattleTentLobby_Text_DidntSaveBeforeQuitting:
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_ReturnPersonalMons:
-	.string "Us retornarem els vostres Pokémon personals.$"
+	.string "Us tornarem els vostres Pokémon.$"
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_ReceivedPrize:
@@ -320,7 +320,7 @@ SlateportCity_BattleTentLobby_Text_ReceivedPrize:
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_RulesAreListed:
-	.string "Les regles de la Batalla d'Intercanvi\n"
+	.string "Les regles de la Combat d'Intercanvi\n"
 	.string "estan llistades.$"
 
 @ Unused
@@ -328,7 +328,7 @@ SlateportCity_BattleTentLobby_Text_ReadWhichHeading:
 	.string "Quin apartat voleu llegir?$"
 
 SlateportCity_BattleTentLobby_Text_ExplainBasicRules:
-	.string "En un event de Batalla d'Intercanvi,\n"
+	.string "En un esdeveniment d'Intercanvi,\n"
 	.string "només podeu usar tres Pokémon.\p"
 	.string "Tant si llogeu com si intercanvieu,\n"
 	.string "el vostre equip no pot tenir dos\l"
@@ -343,11 +343,11 @@ SlateportCity_BattleTentLobby_Text_ExplainSwapPartnerRules:
 	.string "derrotat.$"
 
 SlateportCity_BattleTentLobby_Text_ExplainSwapNumberRules:
-	.string "Després de cada batalla guanyada,\n"
+	.string "Després de cada combat guanyat,\n"
 	.string "podeu intercanviar un dels Pokémon\l"
 	.string "del vostre rival derrotat.\p"
 	.string "No podreu intercanviar Pokémon\n"
-	.string "amb el tercer Entrenador de l'event.$"
+	.string "amb el tercer Entrenador.$"
 
 SlateportCity_BattleTentLobby_Text_ExplainSwapNotes:
 	.string "Hi ha dos punts clau a tenir en\n"
@@ -362,14 +362,14 @@ SlateportCity_BattleTentLobby_Text_ExplainSwapNotes:
 	.string "ni tan sols en fer intercanvis.$"
 
 SlateportCity_BattleTentLobby_Text_ExplainMonRules:
-	.string "Els Pokémon de la Carpa de Batalla\n"
+	.string "Els Pokémon de la Carpa de Combat\n"
 	.string "de Slateport són tots de lloguer.\p"
 	.string "Tots els Pokémon de lloguer es\n"
 	.string "mantenen al Nivell 30.$"
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_RulesAreListed2:
-	.string "Les regles de la Carpa de Batalla\n"
+	.string "Les regles de la Carpa de Combat\n"
 	.string "de Verdanturf estan llistades.$"
 
 @ Unused
@@ -378,9 +378,9 @@ VerdanturfTown_BattleTentLobby_Text_ReadWhichHeading:
 
 @ Unused
 VerdanturfTown_BattleTentLobby_Text_ExplainBasicRules:
-	.string "Aquí a la Carpa de Batalla de\n"
+	.string "Aquí a la Carpa de Combat de\n"
 	.string "Verdanturf, els Pokémon han de\l"
-	.string "pensar i batallar sols.\p"
+	.string "pensar i lluitar sols.\p"
 	.string "A diferència de la natura, els\n"
 	.string "Pokémon que viuen amb persones\l"
 	.string "es comporten diferent\l"
@@ -437,7 +437,7 @@ VerdanturfTown_BattleTentLobby_Text_ExplainWhenInDangerRules:
 	.string "crític, observeu-lo amb atenció.$"
 
 BattleTentLobby_Text_ExplainLevelRules:
-	.string "En aquesta Carpa de Batalla, els\n"
+	.string "En aquesta Carpa de Combat, els\n"
 	.string "nivells dels vostres rivals\l"
 	.string "s'ajustaran als vostres Pokémon.\p"
 	.string "Tot i això, cap Entrenador al que\n"
@@ -445,5 +445,5 @@ BattleTentLobby_Text_ExplainLevelRules:
 	.string "per sota del Nivell 30.$"
 
 VerdanturfTown_BattleTentLobby_Text_RulesAreListed:
-	.string "Les regles de la Carpa de Batalla\n"
+	.string "Les regles de la Carpa de Combat\n"
 	.string "de Verdanturf estan llistades.$"
