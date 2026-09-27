@@ -5103,13 +5103,13 @@ Route123_Text_BraxtonIntro:
 
 	.string "de Medalles de Gimnàs.\p"
 
-	.string "Deixa'm veure si ets realment digne\n"
+	.string "Deixa'm veure si ets realment {MASC}digne{FEM}digna{ENDG}\n"
 
 	.string "d'aquestes Medalles!$"
 
 
 Route123_Text_BraxtonDefeat:
-	.string "Oh, en ets digne, sens dubte!$"
+	.string "Oh, en ets {MASC}digne{FEM}digna{ENDG}, sens dubte!$"
 
 
 Route123_Text_BraxtonPostBattle:
@@ -5303,7 +5303,7 @@ Route123_Text_FernandoIntro:
 Route123_Text_FernandoDefeat:
 	.string "Ei, espera!\n"
 
-	.string "Encara tocava la intro!$"
+	.string "Encara tocava la introducció!$"
 
 
 Route123_Text_FernandoPostBattle:
@@ -5439,9 +5439,9 @@ Route123_Text_EdPostBattle:
 
 
 Route123_Text_JonasIntro:
-	.string "He parat una emboscada, i un\n"
+	.string "He parat una emboscada, i\n"
 
-	.string "Entrenador ha caigut a la trampa!$"
+	.string "{MASC}un Entrenador{FEM}una Entrenadora{ENDG} ha caigut a la trampa!$"
 
 
 Route123_Text_JonasDefeat:
@@ -5491,7 +5491,7 @@ Route124_Text_SpencerDefeat:
 Route124_Text_SpencerPostBattle:
 	.string "Molta gent perd el rumb al mar.\p"
 
-	.string "Si ets d'aquests, consulta el\n"
+	.string "Si ets {MASC}d'aquests{FEM}d'aquestes{ENDG}, consulta el\n"
 
 	.string "Mapa del Pokénav.$"
 
