@@ -16,7 +16,7 @@ static const u8 sCharacteristic14[] = _("Molt persistent.");
 static const u8 sCharacteristic15[] = _("Impetuós i ximple.");
 static const u8 sCharacteristic16[] = _("Molt astut.");
 static const u8 sCharacteristic17[] = _("Molt rebel.");
-static const u8 sCharacteristic18[] = _("Espargeix coses sovint.");
+static const u8 sCharacteristic18[] = _("Sovint ho escampa tot.");
 static const u8 sCharacteristic19[] = _("Li agrada lluitar.");
 static const u8 sCharacteristic20[] = _("Bona resistència.");
 static const u8 sCharacteristic21[] = _("Una mica pallasso.");
@@ -25,7 +25,7 @@ static const u8 sCharacteristic23[] = _("Odia perdre.");
 static const u8 sCharacteristic24[] = _("Li agrada relaxar-se.");
 static const u8 sCharacteristic25[] = _("Irascible.");
 static const u8 sCharacteristic26[] = _("Bona perseverança.");
-static const u8 sCharacteristic27[] = _("Ràpid per fugir.");
+static const u8 sCharacteristic27[] = _("Fuig de seguida.");
 static const u8 sCharacteristic28[] = _("Molt primmirat.");
 static const u8 sCharacteristic29[] = _("Una mica tossut.");
 
