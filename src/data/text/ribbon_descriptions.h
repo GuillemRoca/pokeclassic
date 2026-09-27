@@ -1,10 +1,10 @@
 const u8 gRibbonDescriptionPart1_Champion[] = _("Cinta de membre del");
 const u8 gRibbonDescriptionPart2_Champion[] = _("Saló de la Fama");
-const u8 gRibbonDescriptionPart1_CoolContest[] = _("Concurs de Gràcia");
+const u8 gRibbonDescriptionPart1_CoolContest[] = _("Concurs de Frescor");
 const u8 gRibbonDescriptionPart1_BeautyContest[] = _("Concurs de Bellesa");
 const u8 gRibbonDescriptionPart1_CuteContest[] = _("Concurs de Tendresa");
-const u8 gRibbonDescriptionPart1_SmartContest[] = _("Concurs de Saviesa");
-const u8 gRibbonDescriptionPart1_ToughContest[] = _("Concurs de Potència");
+const u8 gRibbonDescriptionPart1_SmartContest[] = _("Concurs d'Intel·ligència");
+const u8 gRibbonDescriptionPart1_ToughContest[] = _("Concurs de Força");
 const u8 gRibbonDescriptionPart2_NormalRank[] = _("Guanyador Rang Normal!");
 const u8 gRibbonDescriptionPart2_SuperRank[] = _("Guanyador Rang Súper!");
 const u8 gRibbonDescriptionPart2_HyperRank[] = _("Guanyador Rang Hiper!");

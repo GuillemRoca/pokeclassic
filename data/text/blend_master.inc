@@ -31,7 +31,7 @@ BerryBlender_Text_BlendMasterKnowHowToMakePokeblocks:
 BerryBlender_Text_BlendMasterExplainBerryBlending:
 	.string "Hmm!\p"
 	.string "Però és un procés senzill!\p"
-	.string "Quan la fletxa de la Batedora arribi\n"
+	.string "Quan la fletxa del Barrejador arribi\n"
 	.string "al teu marcador, prem el Botó A.\p"
 	.string "Això és tot el que has de fer.\p"
 	.string "Quan vegis amb quina precisió\n"
@@ -41,7 +41,7 @@ BerryBlender_Text_BlendMasterLetsBerryBlender:
 	.string "Molt bé!\p"
 	.string "Comencem, doncs!\p"
 	.string "Tots junts amb el Mestre Barrejador,\n"
-	.string "anem a la Batedora de Baies!$"
+	.string "anem al Barrejador de Baies!$"
 
 BerryBlender_Text_BlendMasterNoPokeblockCase:
 	.string "Hmm!\p"

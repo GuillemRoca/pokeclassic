@@ -293,24 +293,24 @@ BattleFrontier_BattlePikeThreePathRoom_Text_CurrentlyInRoom13:
 
 BattleFrontier_BattlePikeThreePathRoom_Text_ContinueWithChallenge:
 	.string "Vols continuar amb\n"
-	.string "el teu desafiament?$"
+	.string "el teu repte?$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SaveChallengeAndQuit:
-	.string "Vols desar el desafiament\n"
+	.string "Vols desar el repte\n"
 	.string "i sortir del joc ara?$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_RetireFromChallenge:
-	.string "Vols retirar-te del desafiament\n"
+	.string "Vols abandonar el repte\n"
 	.string "d'Elecció de Combat?$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_AwaitingReturnSaveBeforeResume:
 	.string "Esperàvem el teu retorn…\p"
-	.string "Abans de reprendre el desafiament\n"
-	.string "d'Elecció de Combat, desa'm la\l"
-	.string "partida…$"
+	.string "Abans de reprendre el repte\n"
+	.string "d'Elecció de Combat, deixa'm\l"
+	.string "desar la partida…$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_PleaseEnjoyChallenge:
-	.string "Si us plau, gaudeix del desafiament\n"
+	.string "Si us plau, gaudeix del repte\n"
 	.string "d'Elecció de Combat…$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_SavingYourData:
@@ -322,7 +322,7 @@ BattleFrontier_BattlePike_Text_PathBlockedNoTurningBack:
 	.string "I no es pot tornar enrere…$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_FindingItDifficultToChoose:
-	.string "Et demano perdó, però…\p"
+	.string "Perdona, però…\p"
 	.string "Potser et costa triar\n"
 	.string "el teu camí?$"
 
@@ -343,8 +343,8 @@ BattleFrontier_BattlePikeThreePathRoom_Text_SomethingAboutLeftPath:
 	.string "al camí de l'esquerra…$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_AromaOfPokemon:
-	.string "Sembla que té l'aroma inconfusible\n"
-	.string "de Pokémon flotant al voltant…$"
+	.string "Sembla que en surt l'aroma\n"
+	.string "inconfusible de Pokémon…$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_PresenceOfPeople:
 	.string "És… Un Entrenador?\n"
@@ -355,8 +355,8 @@ BattleFrontier_BattlePikeThreePathRoom_Text_HeardWhispering:
 	.string "Potser eren xiuxiuejos…$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_WaveOfNostaliga:
-	.string "Per alguna raó estranya, he sentit\n"
-	.string "una onada de nostàlgia…$"
+	.string "Per alguna raó estranya, n'he sentit\n"
+	.string "venir una onada de nostàlgia…$"
 
 BattleFrontier_BattlePikeThreePathRoom_Text_TerrifyingEvent:
 	.string "Lamento dir-ho…\p"

@@ -1049,7 +1049,7 @@ static const u8 sAcroBikeDesc[] = _(
 static const u8 sPokeblockCaseDesc[] = _(
     "Capsa per\n"
     "guardar {POKEBLOCK}s\n"
-    "de la Batedora.");
+    "del Barrejador.");
 
 static const u8 sLetterDesc[] = _(
     "Una carta per a en\n"

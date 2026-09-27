@@ -299,7 +299,7 @@ BerryHouse_EventScript_BlenderNoCase:
     end
 
 BerryHouse_Text_DontHavePokeblockCase:
-    .string "Però no tens un Estoig {POKEBLOCK}.\p"
+    .string "Però no tens una Capsa {POKEBLOCK}.\p"
     .string "Hauries d'aconseguir-ne un primer.$"
 
 BerryHouse_EventScript_BlenderNoCaseDaisy:
@@ -308,7 +308,7 @@ BerryHouse_EventScript_BlenderNoCaseDaisy:
     end
 
 BerryHouse_Text_DontHavePokeblockCaseDaisy:
-    .string "Oh? No tens un Estoig {POKEBLOCK}?\p"
+    .string "Oh? No tens una Capsa {POKEBLOCK}?\p"
     .string "{RIVAL} no te'n va donar un?$"
 
 BerryHouse_EventScript_BlenderCaseFull:
@@ -317,8 +317,8 @@ BerryHouse_EventScript_BlenderCaseFull:
     end
 
 BerryHouse_Text_PokeblockCaseIsFull:
-    .string "El teu Estoig {POKEBLOCK} està\n"
-    .string "ple, pel que sembla.\p"
+    .string "La teva Capsa {POKEBLOCK} està\n"
+    .string "plena, pel que sembla.\p"
     .string "Hauries de gastar uns quants\n"
     .string "{POKEBLOCK}S i tornar.$"
 

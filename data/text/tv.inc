@@ -176,7 +176,7 @@ gTVBravoTrainerText03::
 	.string "I és clar, el Pokémon de {STR_VAR_1}\n"
 
 
-	.string "va quedar en la posició {STR_VAR_3} al Concurs.\p"
+	.string "va quedar en la posició {STR_VAR_3}.\p"
 
 
 	.string "Aquesta frase li escau perfectament\n"
@@ -199,7 +199,7 @@ gTVBravoTrainerText04::
 	.string "I és clar, el Pokémon de {STR_VAR_1}\n"
 
 
-	.string "va quedar en la posició {STR_VAR_3} al Concurs.\p"
+	.string "va quedar en la posició {STR_VAR_3}.\p"
 
 
 	.string "La decepció de {STR_VAR_1} es nota\n"
@@ -422,7 +422,7 @@ BattleFrontier_BattleTowerLobby_Text_LookingForwardToNextBattle::
 
 
 BravoTrainerBattleTower_Text_Intro::
-	.string "Yeah!\n"
+	.string "Som-hi!\n"
 
 
 	.string "És l'hora de Bravo Entrenador!\p"
@@ -488,10 +488,10 @@ BravoTrainerBattleTower_Text_Won::
 	.string "El duo ho va guanyar tot en derrotar\n"
 
 
-	.string "sense pietat el {STR_VAR_2} de {STR_VAR_1}.\l"
+	.string "sense pietat el {STR_VAR_2}\l"
 
 
-	.string "Bravo, Entrenador!\p"
+	.string "de {STR_VAR_1}. Bravo, Entrenador!\p"
 
 
 	.string "Vèncer fins i tot {STR_VAR_1}…\n"
@@ -976,7 +976,7 @@ gTVFanClubOpinionsText01::
 	.string "“{STR_VAR_3}!”\p"
 
 
-	.string "Yeahah! Quin crit tan bo!\p"
+	.string "Uaaau! Quin crit tan bo!\p"
 
 
 	.string "No et porta records d'aquells\n"
@@ -1972,7 +1972,7 @@ gTVNameRaterText11::
 	.string "El pas de la lletra inicial “{STR_VAR_2}”\n"
 
 
-	.string "a “{STR_VAR_3}” és especialment meravellós.$"
+	.string "a “{STR_VAR_3}” és d'allò més meravellós.$"
 
 
 
@@ -2015,10 +2015,10 @@ gTVNameRaterText15::
 
 
 gTVNameRaterText16::
-	.string "{STR_VAR_1}{STR_VAR_3} també seria un sobrenom\n"
+	.string "{STR_VAR_1}{STR_VAR_3} també seria\n"
 
 
-	.string "eficaç.$"
+	.string "un sobrenom eficaç.$"
 
 
 
@@ -2738,10 +2738,13 @@ SmartShopper_Text_RandomComment4::
 
 
 SmartShopper_Text_SecondItem::
-	.string "Dependent: {STR_VAR_1} també va comprar\n"
+	.string "Dependent: {STR_VAR_1} també va\n"
 
 
-	.string "{STR_VAR_2} a l'engròs: {STR_VAR_3} unitats.\p"
+	.string "comprar {STR_VAR_2} a l'engròs:\l"
+
+
+	.string "{STR_VAR_3} unitats.\p"
 
 
 	.string "Entrevistador: Oh, molt intel·ligent.\n"
@@ -3884,7 +3887,7 @@ gTVSecretBaseVisitText09::
 	.string "Van demostrar àmpliament la\n"
 
 
-	.string "fortalesa de {STR_VAR_1} com a Entrenador.\p"
+	.string "fortalesa de {STR_VAR_1}.\p"
 
 
 	.string "Que el {STR_VAR_2} sabés el moviment\n"
@@ -4325,7 +4328,10 @@ gTVTrainerFanClubText11::
 	.string "Presentador: Com acabeu de veure,\n"
 
 
-	.string "{STR_VAR_1} està que crema! Ni es pot tocar!\p"
+	.string "{STR_VAR_1} està que crema!\l"
+
+
+	.string "Ni es pot tocar!\p"
 
 
 	.string "Entre els fans de {STR_VAR_1}\n"
@@ -5170,10 +5176,13 @@ gTVWhatsNo1InHoennTodayText03::
 
 
 gTVWhatsNo1InHoennTodayText04::
-	.string "En un sol dia, {STR_VAR_1} va fer girar\n"
+	.string "En un sol dia, {STR_VAR_1} va fer\n"
 
 
-	.string "el Barrejador de Baies {STR_VAR_2} vegades!\p"
+	.string "girar el Barrejador de Baies\l"
+
+
+	.string "{STR_VAR_2} vegades!\p"
 
 
 	.string "Cap al final, fins i tot {STR_VAR_1}\n"
@@ -6362,7 +6371,7 @@ ContestLiveUpdates_Text_VeryCool::
 	.string "{STR_VAR_2}!\n"
 
 
-	.string "Ets l'últim crit en genialitat!$"
+	.string "Ets el súmmum de l'estil!$"
 
 
 

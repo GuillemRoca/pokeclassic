@@ -129,13 +129,13 @@ BattleFacility_TrainerBattle_PlaceholderText:
 	.string "Això és un missatge d'exemple.$"
 
 gText_BattlePyramidConfirmRest::
-	.string "La teva cerca a la Piràmide de\n"
+	.string "La teva expedició a la Piràmide de\n"
 	.string "Combat es desarà perquè puguis\l"
 	.string "sortir ara. D'acord?$"
 
 gText_BattlePyramidConfirmRetire::
 	.string "Segur que vols abandonar la\n"
-	.string "teva cerca a la Piràmide?$"
+	.string "teva expedició a la Piràmide?$"
 
 BattlePyramid_Text_ExitHintUp1::
 	.string "La sortida d'aquest pis és\n"
@@ -376,58 +376,58 @@ BattlePyramid_Text_ZeroItemsRemaining3::
 	.string "Com van les teves provisions?\p"
 	.string "Diria que no queden més objectes\n"
 	.string "per trobar en aquest pis.\l"
-	.string "Ves amb compte!$"
+	.string "Vés amb compte!$"
 
 BattlePyramid_Text_EightItemsRemaining4::
-	.string "Ets fort, així que t'has guanyat\n"
+	.string "Quina força! T'has guanyat\n"
 	.string "una pista!\p"
 	.string "Sembla que hi ha vuit objectes\n"
 	.string "més a terra.$"
 
 BattlePyramid_Text_SevenItemsRemaining4::
-	.string "Ets fort, així que t'has guanyat\n"
+	.string "Quina força! T'has guanyat\n"
 	.string "una pista!\p"
 	.string "Sembla que hi ha set objectes\n"
 	.string "més a terra.$"
 
 BattlePyramid_Text_SixItemsRemaining4::
-	.string "Ets fort, així que t'has guanyat\n"
+	.string "Quina força! T'has guanyat\n"
 	.string "una pista!\p"
 	.string "Sembla que hi ha sis objectes\n"
 	.string "més a terra.$"
 
 BattlePyramid_Text_FiveItemsRemaining4::
-	.string "Ets fort, així que t'has guanyat\n"
+	.string "Quina força! T'has guanyat\n"
 	.string "una pista!\p"
 	.string "Sembla que hi ha cinc objectes\n"
 	.string "més a terra.$"
 
 BattlePyramid_Text_FourItemsRemaining4::
-	.string "Ets fort, així que t'has guanyat\n"
+	.string "Quina força! T'has guanyat\n"
 	.string "una pista!\p"
 	.string "Sembla que hi ha quatre objectes\n"
 	.string "més a terra.$"
 
 BattlePyramid_Text_ThreeItemsRemaining4::
-	.string "Ets fort, així que t'has guanyat\n"
+	.string "Quina força! T'has guanyat\n"
 	.string "una pista!\p"
 	.string "Sembla que hi ha tres objectes\n"
 	.string "més a terra.$"
 
 BattlePyramid_Text_TwoItemsRemaining4::
-	.string "Ets fort, així que t'has guanyat\n"
+	.string "Quina força! T'has guanyat\n"
 	.string "una pista!\p"
 	.string "Sembla que hi ha dos objectes\n"
 	.string "més a terra.$"
 
 BattlePyramid_Text_OneItemRemaining4::
-	.string "Ets fort, així que t'has guanyat\n"
+	.string "Quina força! T'has guanyat\n"
 	.string "una pista!\p"
 	.string "Sembla que només queda un\n"
 	.string "objecte més a terra.$"
 
 BattlePyramid_Text_ZeroItemsRemaining4::
-	.string "Ets fort, així que t'has guanyat\n"
+	.string "Quina força! T'has guanyat\n"
 	.string "una pista!\p"
 	.string "Sembla que no queden més\n"
 	.string "objectes a terra.$"
@@ -634,31 +634,31 @@ BattlePyramid_Text_ZeroTrainersRemaining3::
 	.string "d'aquest pis.$"
 
 BattlePyramid_Text_SevenTrainersRemaining4::
-	.string "Potser podries escombrar els\n"
+	.string "Potser podries vèncer tots els\n"
 	.string "set Entrenadors que queden aquí.$"
 
 BattlePyramid_Text_SixTrainersRemaining4::
-	.string "Potser podries escombrar els\n"
+	.string "Potser podries vèncer tots els\n"
 	.string "sis Entrenadors que queden aquí.$"
 
 BattlePyramid_Text_FiveTrainersRemaining4::
-	.string "Potser podries escombrar els\n"
+	.string "Potser podries vèncer tots els\n"
 	.string "cinc Entrenadors que queden aquí.$"
 
 BattlePyramid_Text_FourTrainersRemaining4::
-	.string "Potser podries escombrar els\n"
+	.string "Potser podries vèncer tots els\n"
 	.string "quatre Entrenadors que queden aquí.$"
 
 BattlePyramid_Text_ThreeTrainersRemaining4::
-	.string "Potser podries escombrar els\n"
+	.string "Potser podries vèncer tots els\n"
 	.string "tres Entrenadors que queden aquí.$"
 
 BattlePyramid_Text_TwoTrainersRemaining4::
-	.string "Potser podries escombrar els\n"
+	.string "Potser podries vèncer tots els\n"
 	.string "dos Entrenadors que queden aquí.$"
 
 BattlePyramid_Text_OneTrainersRemaining4::
-	.string "Potser podries completar la neteja\n"
+	.string "Potser podries acabar la feina\n"
 	.string "amb l'Entrenador que queda aquí.$"
 
 BattlePyramid_Text_ZeroTrainersRemaining4::

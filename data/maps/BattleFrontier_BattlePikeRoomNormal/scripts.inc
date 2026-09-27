@@ -647,20 +647,20 @@ BattleFrontier_BattlePikeRoomNormal_Movement_CameraPanDown:
 	step_end
 
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreToFullHealth:
-	.string "Benvingut…\n"
-	.string "Has de ser felicitat per la teva sort…\p"
-	.string "Els teus Pokémon seran restaurats\n"
-	.string "a plena salut…$"
+	.string "Et dono la benvinguda…\n"
+	.string "La teva sort mereix un elogi…\p"
+	.string "Els teus Pokémon recuperaran\n"
+	.string "tota la salut…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge:
 	.string "Et convido a gaudir de la resta\n"
-	.string "del teu desafiament d'Elecció…$"
+	.string "del teu repte d'Elecció…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreOneMon:
 	.string "Ah, tens sort.\n"
 	.string "Estic de força bon humor ara.\p"
-	.string "Restauraré un dels teus Pokémon\n"
-	.string "a plena salut.$"
+	.string "Curaré del tot un dels\n"
+	.string "teus Pokémon.$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell:
 	.string "Et desitjo molta sort.\n"
@@ -672,7 +672,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell:
 BattleFrontier_BattlePikeRoomNormal_Text_CareForBattleWillRestoreMons:
 	.string "Disculpa…\p"
 	.string "Vols un combat?\n"
-	.string "Si guanyes, restauraré els teus Pokémon.$"
+	.string "Si guanyes, curaré els teus Pokémon.$"
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_NowShallWe:
@@ -687,8 +687,8 @@ BattleFrontier_BattlePikeRoomNormal_Text_HowUnsportingOfYou:
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreMonsAsPromised:
 	.string "Magnífic…\p"
-	.string "Com vaig prometre, restauraré\n"
-	.string "els teus Pokémon a plena salut.$"
+	.string "Tal com t'he promès, curaré\n"
+	.string "del tot els teus Pokémon.$"
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell2:
@@ -697,7 +697,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_BestOfLuckFarewell2:
 
 BattleFrontier_BattlePikeRoomNormal_Text_WatchOut:
 	.string "Oh, vaja!\p"
-	.string "Ves amb compte!$"
+	.string "Vés amb compte!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_KirliaStop:
 	.string "Ep, ep!\n"
@@ -723,7 +723,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedWillOWisp:
 	.string "Dusclops ha usat Foc Follet!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_DusclopsUsedIceBeam:
-	.string "Dusclops ha usat Raig de Gel!$"
+	.string "Dusclops ha usat Raig Gel!$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ThatsEnough:
 	.string "Escolta!\n"
@@ -731,11 +731,11 @@ BattleFrontier_BattlePikeRoomNormal_Text_ThatsEnough:
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForKirlia:
 	.string "He de disculpar-me…\p"
-	.string "La meva Kirlia té un caràcter Tímid…$"
+	.string "El meu Kirlia és de naturalesa Tímid…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeForDusclops:
 	.string "He de disculpar-me…\p"
-	.string "El meu Dusclops té un caràcter Tímid…$"
+	.string "El meu Dusclops és de naturalesa Tímid…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_AttacksWhenStartled:
 	.string "Ataca sense avisar si s'espanta\n"
@@ -743,7 +743,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_AttacksWhenStartled:
 	.string "Tu i els teus Pokémon esteu bé?$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ApologizeHopeMonsAreFine:
-	.string "Em disculpo pel que va passar…\n"
+	.string "Et demano disculpes pel que ha passat…\n"
 	.string "Espero que els teus Pokémon estiguin bé.$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_Silence:
@@ -751,19 +751,19 @@ BattleFrontier_BattlePikeRoomNormal_Text_Silence:
 	.string "… … … … … …$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_BattleSomewhatToughTrainer:
-	.string "Benvingut…\p"
+	.string "Et dono la benvinguda…\p"
 	.string "Aquí, et farem lluitar contra\n"
 	.string "un Entrenador força dur…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_RestoreToFullHealth:
 	.string "Meravellós…\p"
-	.string "Per honorar la teva victòria,\n"
-	.string "els teus Pokémon seran restaurats\l"
-	.string "a plena salut…$"
+	.string "En honor de la teva victòria,\n"
+	.string "els teus Pokémon recuperaran\l"
+	.string "tota la salut…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge2:
 	.string "Et convido a gaudir de la resta\n"
-	.string "del teu desafiament d'Elecció…$"
+	.string "del teu repte d'Elecció…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ImThePikeQueen:
 	.string "Sóc la Lucy…\n"
@@ -771,7 +771,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_ImThePikeQueen:
 	.string "Perquè sóc la Reina de la Llança…\p"
 	.string "Ja ho saps, però per avançar,\n"
 	.string "m'has de derrotar…\p"
-	.string "…No sóc de conversa buida.\n"
+	.string "…No m'agrada xerrar per xerrar.\n"
 	.string "Afanya't. Vine…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_HopeYouDidntUseUpLuck:
@@ -788,15 +788,15 @@ BattleFrontier_BattlePikeRoomNormal_Text_ReceivedLuckSymbol:
 
 BattleFrontier_BattlePikeRoomNormal_Text_AllThereIsDisappear:
 	.string "…Això és tot…\n"
-	.string "Desapareix ja…$"
+	.string "Vés-te'n d'una vegada…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_LucyYouAgain:
 	.string "Lucy: …Tu un altre cop…\p"
 	.string "… … … … … …\p"
 	.string "…He trepitjat flors i he desafiat\n"
 	.string "tempestes per arribar on sóc…\p"
-	.string "No tinc cap ganes de seguir\n"
-	.string "perdent contra el mateix oponent…\p"
+	.string "No tinc gens de ganes de continuar\n"
+	.string "perdent contra el mateix rival…\p"
 	.string "… … … … … …\n"
 	.string "D'acord… Ho faré…$"
 
@@ -818,29 +818,29 @@ BattleFrontier_BattlePikeRoomNormal_Text_IWontForget:
 
 BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomNoHeal:
 	.string "Et dono la benvinguda…\p"
-	.string "Rialleta…\n"
-	.string "Sembla que no tens sort…\p"
+	.string "Hi, hi…\n"
+	.string "Sembla que no tens gens de sort…\p"
 	.string "Si no haguessis triat aquesta sala,\n"
-	.string "els teus Pokémon podrien haver\l"
-	.string "estat curats…$"
+	.string "hauries pogut curar\l"
+	.string "els teus Pokémon…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealOne:
 	.string "Et dono la benvinguda…\p"
 	.string "Com que has triat aquesta sala,\n"
-	.string "restauraré un Pokémon a plena salut…$"
+	.string "curaré del tot un dels teus Pokémon…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ChoseRoomHealTwo:
 	.string "Et dono la benvinguda…\p"
 	.string "Com que has triat aquesta sala,\n"
-	.string "restauraré dos Pokémon a plena salut…$"
+	.string "curaré del tot dos dels teus Pokémon…$"
 
 @ Unused
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreAllMons:
 	.string "Et dono la benvinguda…\p"
-	.string "Rialleta…\n"
-	.string "Hauries d'agrair la teva sort…\p"
+	.string "Hi, hi…\n"
+	.string "Dona gràcies a la teva bona estrella…\p"
 	.string "Com que has triat aquesta sala,\n"
-	.string "tots els teus Pokémon seran restaurats…$"
+	.string "curaré tots els teus Pokémon…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ShallFetchOurMaster:
 	.string "Aniré a buscar la nostra mestra…$"
@@ -848,5 +848,5 @@ BattleFrontier_BattlePikeRoomNormal_Text_ShallFetchOurMaster:
 BattleFrontier_BattlePikeRoomNormal_Text_WillRestoreTwoMons:
 	.string "Ah, tens sort!\n"
 	.string "Estic de molt bon humor ara.\p"
-	.string "Restauraré dos dels teus Pokémon\n"
-	.string "a plena salut!$"
+	.string "Curaré del tot dos dels\n"
+	.string "teus Pokémon!$"

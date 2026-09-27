@@ -347,7 +347,7 @@ gPokeNewsTextBlendMaster_Upcoming::
 	.string "és el millor de tot Hoenn a l'hora de\l"
 
 
-	.string "fer girar la Batedora de Baies.\p"
+	.string "fer girar el Barrejador de Baies.\p"
 
 
 	.string "S'aconsella als qui vulguin fer\n"
@@ -382,10 +382,10 @@ gPokeNewsTextBlendMaster_Ongoing::
 	.string "finalment ha aparegut!\p"
 
 
-	.string "El Mestre Barrejador fa girar la\n"
+	.string "El Mestre Barrejador fa girar el\n"
 
 
-	.string "Batedora de Baies a la Sala de\l"
+	.string "Barrejador de Baies a la Sala de\l"
 
 
 	.string "Concursos de Lilycove.\p"
@@ -417,7 +417,7 @@ gPokeNewsTextBlendMaster_Ending::
 	.string "Massa increïble, fins i tot!\p"
 
 
-	.string "La Batedora de Baies gira\n"
+	.string "El Barrejador de Baies gira\n"
 
 
 	.string "a una velocitat vertiginosa!\p"
