@@ -1861,8 +1861,11 @@ const u8 gText_WhatWillPkmnDo[] = _("Què farà\n{B_ACTIVE_NAME2}?");
 const u8 gText_WhatWillPkmnDo2[] = _("Què farà\n{B_PLAYER_NAME}?");
 const u8 gText_WhatWillWallyDo[] = _("El Professor Oak\nestà pensant...");
 const u8 gText_LinkStandby[] = _("{PAUSE 16}Connexió en espera…");
-const u8 gText_BattleMenu[] = _("Lluitar{CLEAR_TO 54}Motxilla\nPokémon{CLEAR_TO 54}Fugir");
-const u8 gText_SafariZoneMenu[] = _("Ball{CLEAR_TO 56}{POKEBLOCK}\nAcostar-se{CLEAR_TO 56}Fugir");
+// "Motxilla" is 42 px and the second column only has 40 (x 56-95: the cursor
+// tile at x 48-55 is blanked when the cursor moves), so the last two letters
+// are kerned 1 px each with SKIP (absolute x) to keep it inside the window.
+const u8 gText_BattleMenu[] = _("Lluitar{CLEAR_TO 56}Motxil{SKIP 87}l{SKIP 90}a\nPokémon{CLEAR_TO 56}Fugir");
+const u8 gText_SafariZoneMenu[] = _("Ball{CLEAR_TO 56}{POKEBLOCK}\nAvançar{CLEAR_TO 56}Fugir");
 const u8 gText_MoveInterfacePP[] = _("PU ");
 const u8 gText_MoveInterfaceType[] = _("Tipus/");
 const u8 gText_MoveInterfacePpType[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}PU\nTipus/");
