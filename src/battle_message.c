@@ -139,9 +139,9 @@ static const u8 sText_PkmnRaisedSpDef[] = _("{B_CURRENT_MOVE} de {B_ATK_PREFIX2}
 static const u8 sText_PkmnRaisedSpDefALittle[] = _("{B_CURRENT_MOVE} de {B_ATK_PREFIX2}\nha pujat la Def. Esp. una mica!");
 static const u8 sText_PkmnRaisedDef[] = _("{B_CURRENT_MOVE} de {B_ATK_PREFIX2}\nha pujat la Defensa!");
 static const u8 sText_PkmnRaisedDefALittle[] = _("{B_CURRENT_MOVE} de {B_ATK_PREFIX2}\nha pujat la Defensa una mica!");
-static const u8 sText_PkmnCoveredByVeil[] = _("L'equip de {B_ATK_PREFIX2} està\ncobert per un vel!");
+static const u8 sText_PkmnCoveredByVeil[] = _("Un vel cobreix\n{B_ATK_PREFIX2}!");
 static const u8 sText_PkmnUsedSafeguard[] = _("L'equip de {B_DEF_NAME_WITH_PREFIX}\nestà protegit per Salvaguarda!");
-static const u8 sText_PkmnSafeguardExpired[] = _("L'equip de {B_ATK_PREFIX3} ja no\nestà protegit per Salvaguarda!");
+static const u8 sText_PkmnSafeguardExpired[] = _("Salvaguarda ja no protegeix\n{B_ATK_PREFIX3}!");
 static const u8 sText_PkmnWentToSleep[] = _("{B_ATK_NAME_WITH_PREFIX} s'ha\nadormit!");
 static const u8 sText_PkmnSleptHealthy[] = _("{B_ATK_NAME_WITH_PREFIX} ha dormit i\ns'ha recuperat!");
 static const u8 sText_PkmnWhippedWhirlwind[] = _("{B_ATK_NAME_WITH_PREFIX} ha creat\nun remolí!");
@@ -161,7 +161,7 @@ static const u8 sText_PkmnClamped[] = _("{B_ATK_NAME_WITH_PREFIX} ha atrapat\n{B
 static const u8 sText_PkmnHurtBy[] = _("{B_ATK_NAME_WITH_PREFIX} pateix\nper {B_BUFF1}!");
 static const u8 sText_PkmnFreedFrom[] = _("{B_ATK_NAME_WITH_PREFIX} s'ha\nalliberat de {B_BUFF1}!");
 static const u8 sText_PkmnCrashed[] = _("{B_ATK_NAME_WITH_PREFIX} ha continuat\ni s'ha estavellat!");
-const u8 gText_PkmnShroudedInMist[] = _("{B_ATK_PREFIX2} s'ha envoltat\nde Boira!");
+const u8 gText_PkmnShroudedInMist[] = _("La Boira ha envoltat\n{B_ATK_PREFIX2}!");
 static const u8 sText_PkmnProtectedByMist[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} està\nprotegit per la Boira!");
 const u8 gText_PkmnGettingPumped[] = _("{B_ATK_NAME_WITH_PREFIX} s'està\ncarregant d'energia!");
 static const u8 sText_PkmnHitWithRecoil[] = _("{B_ATK_NAME_WITH_PREFIX} ha rebut\ndany de retrocés!");
@@ -311,18 +311,19 @@ static const u8 sText_PkmnsXPreventsFlinching[] = _("{B_EFF_ABILITY} de\n{B_EFF_
 static const u8 sText_PkmnsXPreventsYsZ[] = _("{B_ATK_ABILITY} de\n{B_ATK_NAME_WITH_PREFIX} impedeix\l{B_DEF_ABILITY} de\l{B_DEF_NAME_WITH_PREFIX}!");
 static const u8 sText_PkmnsXCuredItsYProblem[] = _("{B_SCR_ACTIVE_ABILITY} de\n{B_SCR_ACTIVE_NAME_WITH_PREFIX}\lha curat el problema de {B_BUFF1}!");
 static const u8 sText_PkmnsXHadNoEffectOnY[] = _("{B_SCR_ACTIVE_ABILITY} de\n{B_SCR_ACTIVE_NAME_WITH_PREFIX}\lno ha afectat {B_EFF_NAME_WITH_PREFIX}!");
-// The engine assembles B_BUFF2 as [intensifier] + [direction] (see pokemon.c and
-// battle_script_commands.c), so the direction has to be adverbial for the pair to
-// read as Catalan: "molt " + "amunt!" -> "molt amunt!", not "molt va pujar!".
-const u8 gText_StatSharply[] = _("molt ");
-const u8 gText_StatRose[] = _("amunt!");
-static const u8 sText_StatHarshly[] = _("molt ");
-static const u8 sText_StatFell[] = _("avall!");
-static const u8 sText_AttackersStatRose[] = _("{B_BUFF1} de\n{B_ATK_NAME_WITH_PREFIX} {B_BUFF2}");
-const u8 gText_DefendersStatRose[] = _("{B_BUFF1} de\n{B_DEF_NAME_WITH_PREFIX} {B_BUFF2}");
-static const u8 sText_UsingItemTheStatOfPkmnRose[] = _("Amb {B_LAST_ITEM}, {B_BUFF1}\nde {B_SCR_ACTIVE_NAME_WITH_PREFIX} {B_BUFF2}");
-static const u8 sText_AttackersStatFell[] = _("{B_BUFF1} de\n{B_ATK_NAME_WITH_PREFIX} {B_BUFF2}");
-static const u8 sText_DefendersStatFell[] = _("{B_BUFF1} de\n{B_DEF_NAME_WITH_PREFIX} {B_BUFF2}");
+// B_BUFF2 is buffered as [intensifier][direction] (battle_script_commands.c,
+// battle_util.c); ExpandBattleTextBuffPlaceholders prints the direction first,
+// and pokemon.c copies them in that order, so the pair reads "ha pujat molt".
+// The closing "!" lives in the Stat{Rose,Fell} message templates.
+const u8 gText_StatSharply[] = _(" molt");
+const u8 gText_StatRose[] = _("ha pujat");
+static const u8 sText_StatHarshly[] = _(" molt");
+static const u8 sText_StatFell[] = _("ha baixat");
+static const u8 sText_AttackersStatRose[] = _("{B_BUFF1} de\n{B_ATK_NAME_WITH_PREFIX} {B_BUFF2}!");
+const u8 gText_DefendersStatRose[] = _("{B_BUFF1} de\n{B_DEF_NAME_WITH_PREFIX} {B_BUFF2}!");
+static const u8 sText_UsingItemTheStatOfPkmnRose[] = _("Amb {B_LAST_ITEM}, {B_BUFF1}\nde {B_SCR_ACTIVE_NAME_WITH_PREFIX} {B_BUFF2}!");
+static const u8 sText_AttackersStatFell[] = _("{B_BUFF1} de\n{B_ATK_NAME_WITH_PREFIX} {B_BUFF2}!");
+static const u8 sText_DefendersStatFell[] = _("{B_BUFF1} de\n{B_DEF_NAME_WITH_PREFIX} {B_BUFF2}!");
 static const u8 sText_StatsWontIncrease2[] = _("Les estad. de\n{B_ATK_NAME_WITH_PREFIX} no pujaran més!");
 static const u8 sText_StatsWontDecrease2[] = _("Les estad. de\n{B_DEF_NAME_WITH_PREFIX} no baixaran més!");
 static const u8 sText_CriticalHit[] = _("Cop crític!");
@@ -424,15 +425,17 @@ static const u8 sText_PkmnGoodComeBack[] = _("{B_BUFF1}, molt bé!\nTorna!");
 static const u8 sText_Trainer1WithdrewPkmn[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\nha retirat {B_BUFF1}!");
 static const u8 sText_LinkTrainer1WithdrewPkmn[] = _("{B_LINK_OPPONENT1_NAME} ha retirat\n{B_BUFF1}!");
 static const u8 sText_LinkTrainer2WithdrewPkmn[] = _("{B_LINK_SCR_TRAINER_NAME} ha retirat\n{B_BUFF1}!");
-static const u8 sText_WildPkmnPrefix[] = _("Salvatge ");
-static const u8 sText_FoePkmnPrefix[] = _("Rival ");
+// Catalan puts these after the name ("Pikachu salvatge"), so they are
+// appended to the nickname instead of prepended; see HANDLE_NICKNAME_STRING_CASE.
+static const u8 sText_WildPkmnPrefix[] = _(" salvatge");
+static const u8 sText_FoePkmnPrefix[] = _(" rival");
 static const u8 sText_EmptyString8[] = _("");
-static const u8 sText_FoePkmnPrefix2[] = _("Rival");
-static const u8 sText_AllyPkmnPrefix[] = _("Aliat");
-static const u8 sText_FoePkmnPrefix3[] = _("Rival");
-static const u8 sText_AllyPkmnPrefix2[] = _("Aliat");
-static const u8 sText_FoePkmnPrefix4[] = _("Rival");
-static const u8 sText_AllyPkmnPrefix3[] = _("Aliat");
+static const u8 sText_FoePkmnPrefix2[] = _("l'equip rival");
+static const u8 sText_AllyPkmnPrefix[] = _("l'equip aliat");
+static const u8 sText_FoePkmnPrefix3[] = _("l'equip rival");
+static const u8 sText_AllyPkmnPrefix2[] = _("l'equip aliat");
+static const u8 sText_FoePkmnPrefix4[] = _("l'equip rival");
+static const u8 sText_AllyPkmnPrefix3[] = _("l'equip aliat");
 static const u8 sText_AttackerUsedX[] = _("{B_ATK_NAME_WITH_PREFIX} ha usat\n{B_BUFF3}!");
 static const u8 sText_ExclamationMark[] = _("!");
 static const u8 sText_ExclamationMark2[] = _("!");
@@ -653,8 +656,8 @@ static const u8 sText_HealBlockPreventsUsage[] = _("S'ha impedit que\n{B_ATK_NAM
 static const u8 sText_MegaEvoReacting[] = _("{B_LAST_ITEM} de\n{B_ATK_NAME_WITH_PREFIX} reacciona\lamb el Mega Anell de\l{B_ATK_TRAINER_NAME}!");
 static const u8 sText_FerventWishReached[] = _("El desig fervent de\n{B_ATK_TRAINER_NAME} ha arribat a\l{B_ATK_NAME_WITH_PREFIX}!");
 static const u8 sText_MegaEvoEvolved[] = _("{B_ATK_NAME_WITH_PREFIX} ha Mega\nEvolucionat a Mega {B_BUFF1}!");
-static const u8 sText_drastically[] = _("dràsticament ");
-static const u8 sText_severely[] = _("severament ");
+static const u8 sText_drastically[] = _(" moltíssim");
+static const u8 sText_severely[] = _(" moltíssim");
 static const u8 sText_Infestation[] = _("{B_DEF_NAME_WITH_PREFIX} ha estat afligit\nper una infestació de\l{B_ATK_NAME_WITH_PREFIX}!");
 static const u8 sText_NoEffectOnTarget[] = _("No ha tingut efecte\nsobre {B_DEF_NAME_WITH_PREFIX}!");
 static const u8 sText_BurstingFlames[] = _("Les flames explosives\nhan colpejat {B_SCR_ACTIVE_NAME_WITH_PREFIX}!");
@@ -1858,7 +1861,7 @@ const u8 gText_WhatWillPkmnDo[] = _("Què farà\n{B_ACTIVE_NAME2}?");
 const u8 gText_WhatWillPkmnDo2[] = _("Què farà\n{B_PLAYER_NAME}?");
 const u8 gText_WhatWillWallyDo[] = _("El Professor Oak\nestà pensant...");
 const u8 gText_LinkStandby[] = _("{PAUSE 16}Connexió en espera…");
-const u8 gText_BattleMenu[] = _("Lluitar{CLEAR_TO 56}Motxilla\nPokémon{CLEAR_TO 56}Fugir");
+const u8 gText_BattleMenu[] = _("Lluitar{CLEAR_TO 54}Motxilla\nPokémon{CLEAR_TO 54}Fugir");
 const u8 gText_SafariZoneMenu[] = _("Ball{CLEAR_TO 56}{POKEBLOCK}\nAcostar-se{CLEAR_TO 56}Fugir");
 const u8 gText_MoveInterfacePP[] = _("PU ");
 const u8 gText_MoveInterfaceType[] = _("Tipus/");
@@ -2995,20 +2998,14 @@ static void GetBattlerNick(u32 battlerId, u8 *dst)
 }
 
 #define HANDLE_NICKNAME_STRING_CASE(battlerId)                          \
+    GetBattlerNick(battlerId, text);                                    \
     if (GetBattlerSide(battlerId) != B_SIDE_PLAYER)                     \
     {                                                                   \
         if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)                     \
-            toCpy = sText_FoePkmnPrefix;                                \
+            StringAppend(text, sText_FoePkmnPrefix);                    \
         else                                                            \
-            toCpy = sText_WildPkmnPrefix;                               \
-        while (*toCpy != EOS)                                           \
-        {                                                               \
-            dst[dstID] = *toCpy;                                        \
-            dstID++;                                                    \
-            toCpy++;                                                    \
-        }                                                               \
+            StringAppend(text, sText_WildPkmnPrefix);                   \
     }                                                                   \
-    GetBattlerNick(battlerId, text);                                    \
     toCpy = text;
 
 static const u8 *BattleStringGetOpponentNameByTrainerId(u16 trainerId, u8 *text, u8 multiplayerId, u8 battlerId)
@@ -3145,6 +3142,51 @@ static const u8 *BattleStringGetOpponentClassByTrainerId(u16 trainerId)
         toCpy = gTrainerClassNames[gTrainers[trainerId].trainerClass];
 
     return toCpy;
+}
+
+// Catalan: "de" before a word starting with a vowel or h is written "d'"
+// (d'Eevee, d'Onix). Names are only known at runtime, so the elision is done
+// here when a placeholder is expanded right after "de ". For "de\n" the line
+// break is kept before the elided form: "Atac de\nEevee" -> "Atac \nd'Eevee".
+static bool32 IsElisionInitial(u8 c)
+{
+    static const u8 sElisionInitials[] = _("AEIOUHÀÈÉÍÏÒÓÚÜaeiouhàèéíïòóúü");
+    const u8 *ch;
+
+    for (ch = sElisionInitials; *ch != EOS; ch++)
+    {
+        if (*ch == c)
+            return TRUE;
+    }
+    return FALSE;
+}
+
+static bool32 IsWordSeparator(u8 c)
+{
+    return c == CHAR_SPACE || c == CHAR_NEWLINE || c == CHAR_PROMPT_SCROLL || c == CHAR_PROMPT_CLEAR;
+}
+
+static u32 TryElideDe(u8 *dst, u32 dstID, const u8 *next)
+{
+    u8 sep;
+
+    if (dstID < 3 || !IsElisionInitial(*next))
+        return dstID;
+    sep = dst[dstID - 1];
+    if (!IsWordSeparator(sep) || dst[dstID - 2] != CHAR_e
+     || (dst[dstID - 3] != CHAR_d && dst[dstID - 3] != CHAR_D)
+     || (dstID > 3 && !IsWordSeparator(dst[dstID - 4])))
+        return dstID;
+
+    if (sep == CHAR_SPACE)
+    {
+        dst[dstID - 2] = CHAR_SGL_QUOTE_RIGHT;
+        return dstID - 1;
+    }
+    dst[dstID - 2] = dst[dstID - 3];
+    dst[dstID - 3] = sep;
+    dst[dstID - 1] = CHAR_SGL_QUOTE_RIGHT;
+    return dstID;
 }
 
 u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
@@ -3406,23 +3448,18 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
             case B_TXT_26: // ?
                 if (GetBattlerSide(gBattleScripting.battler) != B_SIDE_PLAYER)
                 {
-                    if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
-                        toCpy = sText_FoePkmnPrefix;
-                    else
-                        toCpy = sText_WildPkmnPrefix;
-                    while (*toCpy != EOS)
-                    {
-                        dst[dstID] = *toCpy;
-                        dstID++;
-                        toCpy++;
-                    }
                     GetMonData(&gEnemyParty[gBattleStruct->field_52], MON_DATA_NICKNAME, text);
+                    StringGet_Nickname(text);
+                    if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
+                        StringAppend(text, sText_FoePkmnPrefix);
+                    else
+                        StringAppend(text, sText_WildPkmnPrefix);
                 }
                 else
                 {
                     GetMonData(&gPlayerParty[gBattleStruct->field_52], MON_DATA_NICKNAME, text);
+                    StringGet_Nickname(text);
                 }
-                StringGet_Nickname(text);
                 toCpy = text;
                 break;
             case B_TXT_PC_CREATOR_NAME: // lanette pc
@@ -3559,6 +3596,7 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
 
             if (toCpy != NULL)
             {
+                dstID = TryElideDe(dst, dstID, toCpy);
                 while (*toCpy != EOS)
                 {
                     dst[dstID] = *toCpy;
@@ -3621,6 +3659,17 @@ static void IllusionNickHack(u32 battlerId, u32 partyId, u8 *dst)
     GetMonData(mon, MON_DATA_NICKNAME, dst);
 }
 
+static bool32 IsStatIntensifier(u16 stringId)
+{
+    return stringId == STRINGID_STATSHARPLY || stringId == STRINGID_STATHARSHLY
+        || stringId == STRINGID_DRASTICALLY || stringId == STRINGID_SEVERELY;
+}
+
+static bool32 IsStatDirection(u16 stringId)
+{
+    return stringId == STRINGID_STATROSE || stringId == STRINGID_STATFELL;
+}
+
 void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)
 {
     u32 srcID = 1;
@@ -3635,6 +3684,16 @@ void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)
         {
         case B_BUFF_STRING: // battle string
             hword = T1_READ_16(&src[srcID + 1]);
+            // Stat changes are buffered as [intensifier][direction], but Catalan
+            // says "ha pujat molt", so print the direction first.
+            if (IsStatIntensifier(hword) && src[srcID + 3] == B_BUFF_STRING
+             && IsStatDirection(T1_READ_16(&src[srcID + 4])))
+            {
+                StringAppend(dst, gBattleStringsTable[T1_READ_16(&src[srcID + 4]) - BATTLESTRINGS_TABLE_START]);
+                StringAppend(dst, gBattleStringsTable[hword - BATTLESTRINGS_TABLE_START]);
+                srcID += 6;
+                break;
+            }
             StringAppend(dst, gBattleStringsTable[hword - BATTLESTRINGS_TABLE_START]);
             srcID += 3;
             break;
@@ -3669,15 +3728,17 @@ void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)
             }
             else
             {
-                if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
-                    StringAppend(dst, sText_FoePkmnPrefix);
-                else
-                    StringAppend(dst, sText_WildPkmnPrefix);
-
                 GetMonData(&gEnemyParty[src[srcID + 2]], MON_DATA_NICKNAME, text);
             }
             StringGet_Nickname(text);
             StringAppend(dst, text);
+            if (GetBattlerSide(src[srcID + 1]) != B_SIDE_PLAYER)
+            {
+                if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
+                    StringAppend(dst, sText_FoePkmnPrefix);
+                else
+                    StringAppend(dst, sText_WildPkmnPrefix);
+            }
             srcID += 3;
             break;
         case B_BUFF_STAT: // stats
