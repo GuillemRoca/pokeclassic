@@ -27,7 +27,7 @@ EventTicket_Text_ThatPass:
 
 
 EventTicket_Text_ShowEonTicket:
-	.string "Ei, company, ets tu qui ha portat\n"
+	.string "Ei, {MASC}company{FEM}companya{ENDG}, ets tu qui ha portat\n"
 
 
 	.string "aquell Passi tan estrany?\p"
@@ -42,7 +42,7 @@ EventTicket_Text_ShowEonTicket:
 	.string "No se sap què trobarem quan\n"
 
 
-	.string "hi arribem, company.\l"
+	.string "hi arribem, {MASC}company{FEM}companya{ENDG}.\l"
 
 
 	.string "Això m'estremet!\p"
@@ -53,7 +53,7 @@ EventTicket_Text_ShowEonTicket:
 
 
 EventTicket_Text_SouthernIslandSailBack:
-	.string "Ei, company, no hi ha res a\n"
+	.string "Ei, {MASC}company{FEM}companya{ENDG}, no hi ha res a\n"
 
 
 	.string "veure ni a fer en aquesta illeta.\p"

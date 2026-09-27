@@ -21,7 +21,7 @@ MatchCall_Text_ScottBusy::
 	.string "estar ocupada…$"
 
 MatchCall_Text_ScottCerulean::
-	.string "Scott: Ei! Campió en potència!\p"
+	.string "Scott: Ei! {MASC}Campió{FEM}Campiona{ENDG} en potència!\p"
 	.string "Has arribat a Ciutat Cerúlia!\p"
 	.string "Vas a desafiar la Misty?\n"
 	.string "Millor que portis el banyador! Ha!\p"
@@ -29,53 +29,53 @@ MatchCall_Text_ScottCerulean::
 	.string "sobre tu. Fins al gimnàs!$"
 
 MatchCall_Text_ScottGotBadge2::
-	.string "Scott: Ei! Campió en potència!\p"
+	.string "Scott: Ei! {MASC}Campió{FEM}Campiona{ENDG} en potència!\p"
 	.string "Felicitats per aconseguir\n"
 	.string "la Medalla Cascada!\p"
 	.string "Ja li estàs agafant el truc!$"
 
 MatchCall_Text_ScottVermilion::
-	.string "Scott: Ei! Campió en potència!\p"
+	.string "Scott: Ei! {MASC}Campió{FEM}Campiona{ENDG} en potència!\p"
 	.string "He sentit que has arribat\n"
 	.string "a Ciutat Vermella!\p"
 	.string "Vas a enfrontar-te al Lt. Surge?\p"
 	.string "Genial! Ho estaré mirant!$"
 
 MatchCall_Text_ScottGotBadge3::
-	.string "Scott: Ei! Campió en potència!\p"
+	.string "Scott: Ei! {MASC}Campió{FEM}Campiona{ENDG} en potència!\p"
 	.string "Quin combat! Sabia que\n"
 	.string "aconseguiries la Medalla Tro!\p"
 	.string "Però ara tot serà més difícil!$"
 
 MatchCall_Text_ScottCeladon::
-	.string "Scott: Ei! Campió en potència!\p"
+	.string "Scott: Ei! {MASC}Campió{FEM}Campiona{ENDG} en potència!\p"
 	.string "Així que has arribat a Celadó!\p"
 	.string "Potser faré un descans de la\n"
 	.string "Sala de Jocs i veuré el teu combat!$"
 
 MatchCall_Text_ScottGotBadge4::
-	.string "Scott: Ei! Campió en potència!\p"
+	.string "Scott: Ei! {MASC}Campió{FEM}Campiona{ENDG} en potència!\p"
 	.string "Sort que no em vaig perdre\n"
 	.string "aquell combat. Quin espectacle!\p"
 	.string "T'estàs fent un nom,\n"
 	.string "sens dubte!$"
 
 MatchCall_Text_ScottSaffron::
-	.string "Scott: Ei! Campió en potència!\p"
+	.string "Scott: Ei! {MASC}Campió{FEM}Campiona{ENDG} en potència!\p"
 	.string "Esperava veure't a Safrà,\n"
 	.string "però hi havia soldats\l"
 	.string "de l'Equip Rocket pertot!\p"
 	.string "En sabies alguna cosa?$"
 
 MatchCall_Text_ScottGotBadge5::
-	.string "Scott: Ei! Campió en potència!\p"
+	.string "Scott: Ei! {MASC}Campió{FEM}Campiona{ENDG} en potència!\p"
 	.string "Si la Sabrina m'hagués\n"
 	.string "llegit la ment, sabria que\l"
 	.string "mai vaig dubtar de tu!\p"
 	.string "Enhorabona per la Medalla Pantà!$"
 
 MatchCall_Text_ScottFuchsia::
-	.string "Scott: Ei! Campió en potència!\p"
+	.string "Scott: Ei! {MASC}Campió{FEM}Campiona{ENDG} en potència!\p"
 	.string "Què dius? Ets a Ciutat Fúcsia\n"
 	.string "també?\p"
 	.string "Com?\n"
@@ -89,27 +89,27 @@ MatchCall_Text_ScottFuchsia::
 	.string "Me n'he d'anar!$"
 
 MatchCall_Text_ScottGotBadge6::
-	.string "Scott: Ei! Campió en potència!\p"
+	.string "Scott: Ei! {MASC}Campió{FEM}Campiona{ENDG} en potència!\p"
 	.string "Ni amb els seus trucs\n"
 	.string "el Koga tenia possibilitats!\p"
 	.string "Quantes medalles portes ara?\p"
 	.string "Estàs en una gran ratxa!$"
 
 MatchCall_Text_ScottCinnabar::
-	.string "Scott: Ei! Campió en potència!\p"
+	.string "Scott: Ei! {MASC}Campió{FEM}Campiona{ENDG} en potència!\p"
 	.string "Vas a Illa Cinabri\n"
 	.string "per enfrontar-te al Blaine?\p"
 	.string "Ens veiem allà!$"
 
 MatchCall_Text_ScottGotBadge7::
-	.string "Scott: Ei! Campió en potència!\p"
+	.string "Scott: Ei! {MASC}Campió{FEM}Campiona{ENDG} en potència!\p"
 	.string "De debò que es notava\n"
 	.string "la calor en aquell combat!\p"
 	.string "Però no t'envaneixis!\n"
 	.string "A per la propera medalla!$"
 
 MatchCall_Text_ScottFinalBadge::
-	.string "Scott: Ei! Campió en potència!\p"
+	.string "Scott: Ei! {MASC}Campió{FEM}Campiona{ENDG} en potència!\p"
 	.string "Doncs, només queda\n"
 	.string "una medalla!\p"
 	.string "Has sentit que el Líder\n"
@@ -119,7 +119,7 @@ MatchCall_Text_ScottFinalBadge::
 	.string "això promet ser interessant.$"
 
 MatchCall_Text_ScottPkmnLeague::
-	.string "Scott: Ei! Campió en potència!\p"
+	.string "Scott: Ei! {MASC}Campió{FEM}Campiona{ENDG} en potència!\p"
 	.string "Vaja! Les vuit medalles!\p"
 	.string "Des que et vaig veure\n"
 	.string "enfrontar-te al Brock,\l"
@@ -128,7 +128,7 @@ MatchCall_Text_ScottPkmnLeague::
 	.string "vèncer l'Alt Comandament?$"
 
 MatchCall_Text_ScottThisIsIt::
-	.string "Scott: Ei! Campió en potència!\p"
+	.string "Scott: Ei! {MASC}Campió{FEM}Campiona{ENDG} en potència!\p"
 	.string "Què puc dir...\n"
 	.string "Has arribat a l'Altiplà Índigo.\p"
 	.string "Que comenci l'espectacle!$"
@@ -146,9 +146,9 @@ MatchCall_Text_ScottBattleTower2::
 	.string "Genial! Continua apuntant al cim!$"
 
 MatchCall_Text_ScottGameClear::
-	.string "Scott: Ei, campió en -!\p"
+	.string "Scott: Ei, {MASC}campió{FEM}campiona{ENDG} en -!\p"
 	.string "Espera, suposo que ara\n"
-	.string "simplement és Campió!\p"
+	.string "simplement ets {MASC}Campió{FEM}Campiona{ENDG}!\p"
 	.string "Però et diré un petit\n"
 	.string "secret.\p"
 	.string "La teva aventura no acaba\n"
@@ -166,13 +166,13 @@ MatchCall_Text_Mom1::
 	.string "Faràs molts amics en el\n"
 	.string "viatge, registra'ls també!\p"
 	.string "Bé! Bé!\n"
-	.string "Sembla que estàs content!\p"
+	.string "Sembla que estàs {MASC}content{FEM}contenta{ENDG}!\p"
 	.string "Hm…\n"
 	.string "Com puc saber-ho?\p"
 	.string "Perquè sóc la teva mare!\p"
 	.string "Ho sé tot sobre tu!\p"
 	.string "Hehehehe.\n"
-	.string "Fins aviat, estimat!$"
+	.string "Fins aviat, {MASC}estimat{FEM}estimada{ENDG}!$"
 
 MatchCall_Text_Mom2::
 	.string "Mare: He sentit que un home\n"
@@ -303,9 +303,9 @@ MatchCall_Text_Rival5::
 MatchCall_Text_Rival6::
 	.string "{RIVAL}: Ecs, {PLAYER}.\p"
 	.string "Per què no pares de trucar-me?\p"
-	.string "Estàs obsessionat\n"
+	.string "Estàs {MASC}obsessionat{FEM}obsessionada{ENDG}\n"
 	.string "o què?\p"
-	.string "No siguis tan estrany!$"
+	.string "No siguis tan {MASC}estrany{FEM}estranya{ENDG}!$"
 
 MatchCall_Text_Rival7::
 	.string "{RIVAL}: No puc parlar, {PLAYER}.\p"
@@ -528,7 +528,7 @@ MatchCall_Text_AideOnMyWayRoute15::
 MatchCall_Text_AideGameClear::
 	.string "Cedar: Ah, hola {PLAYER}!\p"
 	.string "Felicitats per convertir-te\n"
-	.string "en campió!\p"
+	.string "en {MASC}campió{FEM}campiona{ENDG}!\p"
 	.string "Espero que les meves\n"
 	.string "recompenses t'hagin estat\l"
 	.string "útils!$"
