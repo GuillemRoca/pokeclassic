@@ -5583,7 +5583,7 @@ Route124_Text_GracePostBattle:
 
 
 Route124_Text_ChadIntro:
-	.string "Fufufufu… Busseig a grans\n"
+	.string "Fufufufu… Bussejo a grans\n"
 
 	.string "profunditats per amagar-me.\l"
 
@@ -5599,9 +5599,9 @@ Route124_Text_ChadDefeat:
 
 
 Route124_Text_ChadPostBattle:
-	.string "M'han dit que hi ha un punt\n"
+	.string "M'han dit que per aquí hi ha\n"
 
-	.string "de Busseig per aquí.\p"
+	.string "un lloc per usar Capbussar.\p"
 
 	.string "Em ve de gust tornar a\n"
 
