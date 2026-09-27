@@ -712,8 +712,8 @@ SecretBase_Text_RegistryInfo:
 	.string "ubicacions de Base Secreta.$"
 
 SecretBase_Text_BattleTowerShield:
-	.string "Un escut ({STR_VAR_2}) per haver guanyat\n"
-	.string "{STR_VAR_1} cops seguits a la Torre de Combat.$"
+	.string "Escut {STR_VAR_2}: {STR_VAR_1} victòries\n"
+	.string "seguides a la Torre de Combat.$"
 
 SecretBase_Text_ToyTV:
 	.string "Una TV de joguina realista. Es podria\n"
