@@ -304,7 +304,7 @@ BattleTower_Entrance_EventScript_LookForwardToChallenge::
 
 BattleTower_Entrance_Text_CongratsDefeatedMaiden:
 	.string "Felicitats!\n"
-	.string "Has derrotat la Dama del Saló\l"
+	.string "Has derrotat la Mestra del Saló\l"
 	.string "i has vençut set Entrenadors seguits!$"
 
 BattleTower_Entrance_EventScript_LostChallenge::

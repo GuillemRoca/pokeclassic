@@ -146,10 +146,10 @@ BattleFrontier_Lounge2_Text_SalonMaidenIsThere::
 	.string "l'Scott anomena Cervells de la\l"
 	.string "Frontera és allà.\p"
 	.string "Qui hi mana és una Entrenadora\n"
-	.string "misteriosa: la Dama del Saló.$"
+	.string "misteriosa: la Mestra del Saló.$"
 
 BattleFrontier_Lounge2_Text_SalonMaidenSilverMons::
-	.string "Has combatut contra la Dama del Saló?\p"
+	.string "Has combatut contra la Mestra del Saló?\p"
 	.string "Quan avalua l'oponent,\n"
 	.string "sembla que usa aquests Pokémon:\p"
 	.string "Un Pokémon PSI de tipus Psíquic,\n"
@@ -157,7 +157,7 @@ BattleFrontier_Lounge2_Text_SalonMaidenSilverMons::
 	.string "i un Pokémon Dormilega de tipus Normal.$"
 
 BattleFrontier_Lounge2_Text_SalonMaidenGoldMons::
-	.string "Has combatut contra la Dama del Saló\n"
+	.string "Has combatut contra la Mestra del Saló\n"
 	.string "quan va de debò?\p"
 	.string "Quan combat a fons,\n"
 	.string "sembla que usa aquests Pokémon:\p"
@@ -275,7 +275,7 @@ BattleFrontier_Lounge2_Text_PalaceMavenIsThere::
 	.string "l'Scott anomena Cervells de la\l"
 	.string "Frontera és allà.\p"
 	.string "Qui hi mana és un Entrenador\n"
-	.string "sinistre: el Mestre del Palau.$"
+	.string "sinistre: el Virtuós del Palau.$"
 
 BattleFrontier_Lounge2_Text_PalaceMavenSilverMons::
 	.string "Has combatut contra el Mestre del\n"
