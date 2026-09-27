@@ -25,7 +25,7 @@ CeruleanCity_BikeShop_EventScript_Clerk::
 
 CeruleanCity_BikeShop_Text_WelcomeToBikeShop::
     .string "Hola!\n"
-    .string "Benvingut a la Botiga de Bicicletes.\p"
+    .string "{MASC}Benvingut{FEM}Benvinguda{ENDG} a la Botiga de Bicicletes.\p"
     .string "Tenim la Bicicleta perfecta\n"
     .string "per a tu!$"
 
@@ -92,7 +92,7 @@ CeruleanCity_BikeShop_EventScript_BringBikeVoucher::
 	end
 
 CeruleanCity_BikeShop_Text_MakeRoomForBicycle::
-    .string "Què dius, nano?\p"
+    .string "Què dius, {MASC}nano{FEM}nena{ENDG}?\p"
     .string "No em pots dir que tens un Val\n"
     .string "de Bicicleta, me l'has de portar!$"
 

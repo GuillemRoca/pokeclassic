@@ -382,17 +382,17 @@ BattleFrontier_OutsideWest_Text_WhereWouldYouLikeToGo:
 
 
 BattleFrontier_OutsideWest_Text_SlateportItIs:
-	.string "Ciutat Portual, doncs!$"
+	.string "Ciutat Slateport, doncs!$"
 
 
 
 BattleFrontier_OutsideWest_Text_LilycoveItIs:
-	.string "Ciutat Llirimàs, doncs!$"
+	.string "Ciutat Lilycove, doncs!$"
 
 
 
 BattleFrontier_OutsideWest_Text_SailWithUsAnotherTime:
-	.string "Navega amb nosaltres un altre cop!$"
+	.string "Esperem tornar-te a veure a bord!$"
 
 
 
@@ -405,7 +405,7 @@ BattleFrontier_OutsideWest_Text_PleaseBoardFerry:
 
 
 BattleFrontier_OutsideWest_Text_ThenWhereWouldYouLikeToGo:
-	.string "Llavors, on voldries anar?$"
+	.string "Llavors, on vols anar?$"
 
 
 
@@ -489,7 +489,7 @@ BattleFrontier_OutsideWest_Text_BigGuySaidIllLendYouMons:
 	.string "Crec…\p"
 
 
-	.string "Però recordes aquell home gran?\n"
+	.string "Recordes aquell home gran que fa por?\n"
 
 
 	.string "Va dir: “Us deixaré Pokémon!”$"
@@ -523,7 +523,7 @@ BattleFrontier_OutsideWest_Text_ScaredOfPikeBecauseSeviper:
 	.string "que intentaré conquerir-ho tot!\l"
 
 
-	.string "…Tremolor…$"
+	.string "…Brrr…$"
 
 
 
@@ -539,7 +539,7 @@ BattleFrontier_OutsideWest_Text_LetsPlayRockPaperScissors:
 
 
 BattleFrontier_OutsideWest_Text_WonIllTakePikeChallenge:
-	.string "Bé! He guanyat!\n"
+	.string "Visca! He guanyat!\n"
 
 
 	.string "Faré el desafiament de la Llança!$"
@@ -657,7 +657,7 @@ BattleFrontier_OutsideWest_Text_FinallyArrivedAtFrontier:
 	.string "Segur que crido l'atenció amb\n"
 
 
-	.string "el meu aspecte i habilitat!$"
+	.string "el meu aspecte i el meu talent!$"
 
 
 
@@ -668,7 +668,7 @@ BattleFrontier_OutsideWest_Text_SquareFilledWithToughPeople:
 	.string "Sembla que aquesta plaça està\n"
 
 
-	.string "plena de gent dura.\p"
+	.string "plena de gent forta.\p"
 
 
 	.string "Nyam, nyam…$"
@@ -676,7 +676,7 @@ BattleFrontier_OutsideWest_Text_SquareFilledWithToughPeople:
 
 
 BattleFrontier_OutsideWest_Text_MetOlderGirlAtPike:
-	.string "Crec, crec…\p"
+	.string "Cruix, cruix…\p"
 
 
 	.string "Fa un temps, vaig conèixer una\n"
@@ -691,13 +691,13 @@ BattleFrontier_OutsideWest_Text_MetOlderGirlAtPike:
 	.string "d'una manera molt bèstia.\p"
 
 
-	.string "Crec, crec…\p"
+	.string "Cruix, cruix…\p"
 
 
 	.string "Es va enfadar molt: “Vols parar\n"
 
 
-	.string "de menjar!” I em va etzibar.\p"
+	.string "de menjar!” I me la va clavar.\p"
 
 
 	.string "Va ser una experiència\n"
@@ -706,12 +706,12 @@ BattleFrontier_OutsideWest_Text_MetOlderGirlAtPike:
 	.string "esgarrifosa, sí senyor.\p"
 
 
-	.string "Crec, crec…$"
+	.string "Cruix, cruix…$"
 
 
 
 BattleFrontier_OutsideWest_Text_LastTimeOurEyesMet:
-	.string "Eh? Escolta't!\n"
+	.string "Eh? Però tu t'has sentit?\n"
 
 
 	.string "Això no és res!\p"
@@ -720,7 +720,8 @@ BattleFrontier_OutsideWest_Text_LastTimeOurEyesMet:
 	.string "L'última vegada que vaig animar-lo,\n"
 
 
-	.string "les nostres mirades es van creuar!$"
+	.string "les mirades es van creuar i va\l"
+	.string "saltar l'espurna!$"
 
 
 
@@ -768,7 +769,7 @@ BattleFrontier_OutsideWest_Text_DomeAceIsMine:
 
 
 BattleFrontier_OutsideWest_Text_FansOverThereUsedToBeTrainers:
-	.string "Aquesta gent discutint allà…\p"
+	.string "Aquella gent que es baralla allà…\p"
 
 
 	.string "Costa de creure, però abans\n"
@@ -821,6 +822,6 @@ BattleFrontier_OutsideWest_Text_MonWithLongTailInFrontier:
 	.string "Oh, els desafiaments poden esperar.\n"
 
 
-	.string "He de trobar la criatura!$"
+	.string "He de trobar aquesta criatura!$"
 
 

@@ -72,8 +72,8 @@ Route16_EventScript_SnorlaxNoPokeFlute::
 	end
 
 Route16_Text_MonSprawledOutInSlumber::
-    .string "Un Pokémon és escampat en un\n"
-    .string "son profund i confortable.$"
+    .string "Hi ha un Pokémon estirat, sumit\n"
+    .string "en un son profund i plàcid.$"
 
 Route16_EventScript_CyclingRoadSign::
 	msgbox Route16_Text_CyclingRoadSign, MSGBOX_SIGN
@@ -108,8 +108,8 @@ Route16_Text_HideoDefeat::
 Route16_Text_HideoPostBattle::
     .string "Sempre estarem per aquí tant\n"
     .string "si t'agrada com si no.\p"
-    .string "Pots desviar-te a Vermella\n"
-    .string "des de Fúcsia per la costa.$"
+    .string "Des de Fúcsia pots anar a Ciutat\n"
+    .string "Vermella per la costa.$"
 
 Route16_EventScript_RegisterHideoAfterBattle::
 	special PlayerFaceTrainerAfterBattle
@@ -122,7 +122,7 @@ Route16_EventScript_RegisterHideoAfterBattle::
 Route16_Text_HideoRegister:
 	.string "Ei, ja que has xocat amb la meva\n"
 	.string "moto, m'ho hauràs de compensar.\p"
-	.string "Acceptaré una revenja com a paga.$"
+	.string "Acceptaré una revenja com a pagament.$"
 
 Route16_EventScript_HideoRematch::
 	trainerbattle_rematch REMATCHABLE_TRAINER_BIKER_HIDEO_1, Route16_Text_HideoRematchIntro, Route16_Text_HideoDefeat
@@ -133,7 +133,7 @@ Route16_Text_HideoRematchIntro::
 	.string "T'he fet esperar, eh?$"
 
 Route16_Text_HideoRematchPostBattle::
-	.string "Mai es Game Over!$"
+	.string "Mai és Game Over!$"
 
 
 Route16_EventScript_Koji::
@@ -152,7 +152,7 @@ Route16_Text_KojiDefeat::
     .string "KO!$"
 
 Route16_Text_KojiPostBattle::
-    .string "Oblida-ho, qui necessita la\n"
+    .string "Tant se val, qui vol la\n"
     .string "teva bici!$"
 
 Route16_EventScript_RegisterKojiAfterBattle::
@@ -164,8 +164,8 @@ Route16_EventScript_RegisterKojiAfterBattle::
 	end
 
 Route16_Text_KojiRegister:
-	.string "Si no em donaràs la bici,\n"
-	.string "doncs em quedaré el teu\l"
+	.string "Si no em vols donar la bici,\n"
+	.string "em quedaré el teu\l"
 	.string "número de mòbil!$"
 
 Route16_EventScript_KojiRematch::
@@ -178,7 +178,7 @@ Route16_Text_KojiRematchIntro::
 	.string "Oh, ets tu, {PLAYER}!$"
 
 Route16_Text_KojiRematchPostBattle::
-	.string "Mai em podré permetre una bici\n"
+	.string "Mai em podré pagar una bici guapa,\n"
 	.string "així que en robaré una!$"
 
 Route16_EventScript_Lao::
@@ -193,8 +193,8 @@ Route16_Text_LaoDefeat::
     .string "No t'atreveixis a riure!$"
 
 Route16_Text_LaoPostBattle::
-    .string "Ens agrada estar aquí.\n"
-    .string "Quin problema tens?$"
+    .string "Ens agrada fer el vago per aquí.\n"
+    .string "Què passa, et molesta?$"
 
 Route16_EventScript_Ruben::
 	trainerbattle_single TRAINER_BIKER_RUBEN, Route16_Text_RubenIntro, Route16_Text_RubenDefeat
@@ -206,7 +206,7 @@ Route16_Text_RubenIntro::
     .string "Passem-ho bé!$"
 
 Route16_Text_RubenDefeat::
-    .string "No em feu enfadar!$"
+    .string "No em facis enfadar!$"
 
 Route16_Text_RubenPostBattle::
     .string "M'ho passo bé molestant la gent\n"
@@ -223,7 +223,7 @@ Route16_Text_LukeIntro::
     .string "Surt a jugar, ratolinet!$"
 
 Route16_Text_LukeDefeat::
-    .string "Petit rata!$"
+    .string "Maleïda rata!$"
 
 Route16_Text_LukePostBattle::
     .string "Odio perdre!\n"
@@ -288,7 +288,7 @@ Route16_Text_JedNotEnoughMons::
 Route16_Text_LeaNotEnoughMons::
     .string "Lea: Oh, no portes dos\n"
     .string "Pokémon?\p"
-    .string "No et sents sol, tu o\n"
+    .string "No et sents {MASC}sol{FEM}sola{ENDG}, tu o\n"
     .string "el teu Pokémon?$"
 
 
@@ -302,7 +302,7 @@ Route16_EventScript_BerryMan::
 
 Route16_Text_SnorlaxEatsBerries:
 	.string "A vegades Snorlax entra al nostre\n"
-	.string "Hort de Baies i se'ls menja tots!\p"
+	.string "Hort de Baies i es menja tota la collita!\p"
 	.string "Després, fa una llarga migdiada.\p"
 	.string "Ni el soroll del Carril Bici pot\n"
 	.string "despertar-lo.$"

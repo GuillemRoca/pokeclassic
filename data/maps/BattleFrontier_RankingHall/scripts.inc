@@ -102,17 +102,17 @@ BattleFrontier_RankingHall_EventScript_Boy::
 
 BattleFrontier_RankingHall_Text_ExplainRankingHall:
 	.string "Aquesta és la Sala de Rànquing.\p"
-	.string "Aquí reconeixem els Entrenadors\n"
-	.string "immortals que van deixar grans\l"
-	.string "registres als esdeveniments.$"
+	.string "Aquí honorem els Entrenadors\n"
+	.string "immortals que han deixat grans\l"
+	.string "rècords a la Frontera de Combat.$"
 
 BattleFrontier_RankingHall_Text_DomePikeFactoryRecords:
-	.string "Registres del Domo de Combat,\n"
-	.string "Llança de Combat i Fàbrica de Combat$"
+	.string "Rècords del Domo de Combat, la Llança\n"
+	.string "de Combat i la Fàbrica de Combat$"
 
 BattleFrontier_RankingHall_Text_PalaceArenaPyramidRecords:
-	.string "Registres del Palau de Combat,\n"
-	.string "Arena de Combat i Piràmide de Combat$"
+	.string "Rècords del Palau de Combat, l\'Arena\n"
+	.string "de Combat i la Piràmide de Combat$"
 
 BattleFrontier_RankingHall_Text_IsYourNameOnThisList:
 	.string "Hola, el teu nom és a la llista?$"

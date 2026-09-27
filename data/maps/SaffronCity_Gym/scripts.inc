@@ -200,18 +200,18 @@ SaffronCity_Gym_Text_GetBadge::
 
 SaffronCity_Gym_Text_ReceivedBadge::
 	.string "{PLAYER} ha rebut la Medalla\n"
-    .string "Ànima de Sabrina!$"
+    .string "Pantà de Sabrina!$"
 
 SaffronCity_Gym_Text_ExplainBadge::
     .string "La Medalla Pantà permet als teus\n"
-    .string "Pokémon usar Trenca Roques.\p"
+    .string "Pokémon usar Trencar Roca.\p"
     .string "També farà que els Pokémon fins\n"
     .string "a Nv. 70 t'obeeixin.\p"
     .string "Els Pokémon més forts es tornaran\n"
     .string "salvatges, ignorant les teves\l"
     .string "ordres en combat.\p"
-    .string "No puges massa els teus Pokémon\n"
-    .string "per evitar aquest problema.$"
+    .string "No pugis massa el nivell dels teus\n"
+    .string "Pokémon i evitaràs aquest problema.$"
 
 SaffronCity_Gym_EventScript_GetTM::
 	msgbox SaffronCity_Gym_Text_TakeThisWithYou, MSGBOX_DEFAULT
@@ -282,7 +282,7 @@ SaffronCity_Gym_EventScript_RematchLeader::
 SaffronCity_Gym_Text_RematchLeader::
 	.string "...És cert que el poder psíquic\n"
 	.string "és una habilitat potent.\p"
-	.string "No obstant, hi ha coses que no\n"
+	.string "No obstant això, hi ha coses que no\n"
 	.string "es poden superar només amb\l"
 	.string "aquest poder.\p"
 	.string "Finalment ho entenc, després de\n"
@@ -310,7 +310,7 @@ SaffronCity_Gym_EventScript_PostgameRematch::
 	end
 
 SaffronCity_Gym_Text_RematchMode::
-	.string "Ara que ets el campió, vols\n"
+	.string "Ara que ets {MASC}el campió{FEM}la campiona{ENDG}, vols\n"
 	.string "anar amb tot?$"
 
 SaffronCity_Gym_EventScript_LeaderRematch_OriginalTeam::
@@ -330,7 +330,7 @@ SaffronCity_Gym_Text_RematchPostgame::
 	.string "el futur.\p"
 	.string "Però intencionadament no vaig\n"
 	.string "mirar qui guanyaria el combat.\p"
-	.string "Descobrim-ho junts!$"
+	.string "Descobrim-ho {MASC}junts{FEM}juntes{ENDG}!$"
 
 SaffronCity_Gym_EventScript_DefeatedLeaderRematch::
 	setflag FLAG_DAILY_SABRINA_REMATCH
@@ -338,8 +338,8 @@ SaffronCity_Gym_EventScript_DefeatedLeaderRematch::
 	end
 
 SaffronCity_Gym_Text_RematchDefeat::
-	.string "No trobaré un Entrenador com tu\n"
-	.string "en uns tres anys.$"
+	.string "No trobaré {MASC}un Entrenador{FEM}una Entrenadora{ENDG} com tu\n"
+	.string "fins d'aquí a uns tres anys.$"
 
 
 SaffronCity_Gym_EventScript_GymGuy::
@@ -352,7 +352,7 @@ SaffronCity_Gym_EventScript_GymGuy::
 
 SaffronCity_Gym_Text_GymGuyAdvice::
     .string "Ei!\n"
-    .string "Futur campió!\p"
+    .string "{MASC}Futur campió{FEM}Futura campiona{ENDG}!\p"
     .string "Els Pokémon de Sabrina fan servir\n"
     .string "poder psíquic en lloc de força.\p"
     .string "Els Pokémon de Lluita són\n"

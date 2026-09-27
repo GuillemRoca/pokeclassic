@@ -11,7 +11,7 @@ RockTunnel_1F_EventScript_Lenny::
 	end
 
 RockTunnel_1F_Text_LennyIntro::
-    .string "Aquest túnel és molt llarg, nen!$"
+    .string "Aquest túnel és molt llarg, {MASC}nen{FEM}nena{ENDG}!$"
 
 RockTunnel_1F_Text_LennyDefeat::
     .string "Doh!\n"
@@ -38,7 +38,7 @@ RockTunnel_1F_Text_OliverDefeat::
     .string "Per on se surt?$"
 
 RockTunnel_1F_Text_OliverPostBattle::
-    .string "Aquell Pokémon dormint a la Ruta\n"
+    .string "Aquell Pokémon adormit a la Ruta\n"
     .string "12 m'ha obligat a fer aquest\l"
     .string "desviament.$"
 
@@ -55,7 +55,7 @@ RockTunnel_1F_Text_LucasDefeat::
     .string "Em rendeixo!$"
 
 RockTunnel_1F_Text_LucasPostBattle::
-    .string "Tens prou talent per fer rutes!$"
+    .string "Tens prou talent per ser senderista!$"
 
 RockTunnel_1F_EventScript_Ashton::
 	trainerbattle_single TRAINER_POKEMANIAC_ASHTON, RockTunnel_1F_Text_AshtonIntro, RockTunnel_1F_Text_AshtonDefeat
@@ -98,7 +98,7 @@ RockTunnel_1F_Text_ArianaIntro::
     .string "Comencem!$"
 
 RockTunnel_1F_Text_ArianaDefeat::
-    .string "Jugues dur!$"
+    .string "Quina manera de lluitar!$"
 
 RockTunnel_1F_Text_ArianaPostBattle::
     .string "Uf!\n"
@@ -117,12 +117,12 @@ RockTunnel_1F_Text_DanaDefeat::
     .string "No em queden Pokémon!$"
 
 RockTunnel_1F_Text_DanaPostBattle::
-    .string "Semblaves bufó i inofensiu.\n"
-    .string "Quina equivocació!$"
+    .string "Semblaves {MASC}bufó i inofensiu{FEM}bufona i inofensiva{ENDG}.\n"
+    .string "I tant que m'equivocava!$"
 
 RockTunnel_1F_Text_RouteSign::
     .string "Túnel Rocós\n"
-    .string "Ciutat Celeste - Poble Lavanda$"
+    .string "Ciutat Cerúlia - Poble Lavanda$"
 
 RockTunnel_1F_EventScript_ItemEscapeRope::
 	finditem ITEM_ESCAPE_ROPE, 1

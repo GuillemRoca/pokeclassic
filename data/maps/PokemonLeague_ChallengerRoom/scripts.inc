@@ -230,7 +230,7 @@ TitleMatch_Text_TitleMatchVictory::
 
 TitleMatch_Text_TitleMatchDefeated::
 	.string "El Combat pel Títol ha acabat!\n"
-	.string "{PLAYER} ha estat derrotat!\p"
+	.string "{PLAYER} ha estat {MASC}derrotat{FEM}derrotada{ENDG}!\p"
 	.string "Kanto té un nou campió!$"
 
 TitleMatch_Steph::
@@ -301,7 +301,7 @@ TitleMatch_Steve::
 	end
 
 TitleMatch_Text_SteveIntro::
-	.string "Pokémon va de poder.$"
+	.string "Amb els Pokémon, tot és poder.$"
 
 TitleMatch_Text_SteveDefeated::
 	.string "Avui no era el meu dia.$"
@@ -311,7 +311,7 @@ TitleMatch_M::
 	end
 
 TitleMatch_Text_MIntro::
-	.string "Aquest és el meu territori!$"
+	.string "Aquest és el meu pantà!$"
 
 TitleMatch_Text_MDefeated::
 	.string "Deixa'm en pau!$"
@@ -321,10 +321,10 @@ TitleMatch_Bean::
 	end
 
 TitleMatch_Text_BeanIntro::
-	.string "No toleraré els maleducats.$"
+	.string "No toleraré els abusons.$"
 
 TitleMatch_Text_BeanDefeated::
-	.string "Ets dur! M'agrada!$"
+	.string "Ets {MASC}dur{FEM}dura{ENDG}! M'agrada!$"
 
 TitleMatch_Annie::
 	trainerbattle_no_whiteout_continue_script TITLE_MATCH_ANNIE, TitleMatch_Text_AnnieIntro, TitleMatch_Text_AnnieDefeated, TitleMatch_BattleOutcome
@@ -365,8 +365,8 @@ TitleMatch_Surge::
 	end
 
 TitleMatch_Text_SurgeIntro::
-	.string "Surge: La vida és una guerra, nen.\p"
-	.string "Això és un camp de combat més.$"
+	.string "Surge: La vida és una guerra, {MASC}nen{FEM}nena{ENDG}.\p"
+	.string "Això només és un altre camp de batalla.$"
 
 TitleMatch_Text_SurgeDefeated::
 	.string "Tornem a l'entrenament bàsic!$"
@@ -412,14 +412,14 @@ TitleMatch_Text_BlaineIntro::
 	.string "Blaine: M'has encès la flama!$"
 
 TitleMatch_Text_BlaineDefeated::
-	.string "No prou calent!$"
+	.string "La meva flama no era prou calenta!$"
 
 TitleMatch_Rocket::
 	trainerbattle_no_whiteout_continue_script TITLE_MATCH_ROCKET, TitleMatch_Text_RocketIntro, TitleMatch_Text_RocketDefeated, TitleMatch_BattleOutcome
 	end
 
 TitleMatch_Text_RocketIntro::
-	.string "Vam lluitar a Silph SA.\p"
+	.string "Ens vam enfrontar a Silph S.A.\p"
 	.string "Intento anar pel bon camí.\n"
 	.string "Tu em vas inspirar a intentar\l"
 	.string "ser un entrenador de debò.$"
@@ -468,4 +468,4 @@ TitleMatch_Text_RivalIntro::
 	.string "campió!$"
 
 TitleMatch_Text_RivalDefeated::
-	.string "Heh, encara no en saps prou.$"
+	.string "Heh, encara no estic a l'altura.$"

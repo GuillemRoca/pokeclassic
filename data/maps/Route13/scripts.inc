@@ -35,7 +35,7 @@ Route13_EventScript_RouteSign::
 
 Route13_Text_RouteSign::
     .string "RUTA 13\n"
-    .string "Nord cap al Pont del Silenci$"
+    .string "Al nord: Pont del Silenci$"
 
 Route13_EventScript_Lola::
 	trainerbattle_single TRAINER_BEAUTY_LOLA, Route13_Text_LolaIntro, Route13_Text_LolaDefeat
@@ -43,15 +43,15 @@ Route13_EventScript_Lola::
 	end
 
 Route13_Text_LolaIntro::
-    .string "Sí, jugaré amb tu, bonic.$"
+    .string "Sí, jugaré amb tu, {MASC}bonic{FEM}bonica{ENDG}.$"
 
 Route13_Text_LolaDefeat::
     .string "Oh!\n"
-    .string "Petita bèstia!$"
+    .string "Quina fera!$"
 
 Route13_Text_LolaPostBattle::
-    .string "Em pregunto què és més fort,\n"
-    .string "un Pokémon mascle o femella?$"
+    .string "Qui deu ser més fort, el Pokémon\n"
+    .string "mascle o la femella?$"
 
 Route13_EventScript_Sheila::
 	trainerbattle_single TRAINER_BEAUTY_SHEILA, Route13_Text_SheilaIntro, Route13_Text_SheilaDefeat
@@ -59,7 +59,7 @@ Route13_EventScript_Sheila::
 	end
 
 Route13_Text_SheilaIntro::
-    .string "Vols combatre amb Pokémon\n"
+    .string "Vols fer un combat Pokémon\n"
     .string "amb mi?$"
 
 Route13_Text_SheilaDefeat::
@@ -81,7 +81,7 @@ Route13_Text_JaredIntro::
 
 Route13_Text_JaredDefeat::
     .string "Llamps!\n"
-    .string "S'ha fotut la marxa!$"
+    .string "Se m'ha espatllat la marxa!$"
 
 Route13_Text_JaredPostBattle::
     .string "Fes-te perdedís!$"
@@ -111,7 +111,7 @@ Route13_EventScript_Perry::
 
 Route13_Text_PerryIntro::
     .string "No perdré.\n"
-    .string "No quan el vent bufa a favor!$"
+    .string "No pas amb el vent a favor!$"
 
 Route13_Text_PerryDefeat::
     .string "El vent ha girat!$"
@@ -142,7 +142,7 @@ Route13_EventScript_Alma::
 	end
 
 Route13_Text_AlmaIntro::
-    .string "Vaig trobar un carbos en una\n"
+    .string "Vaig trobar un Carbos en una\n"
     .string "cova mentre feia espeleologia.$"
 
 Route13_Text_AlmaDefeat::
@@ -197,7 +197,7 @@ Route13_Text_GwenIntro::
 
 Route13_Text_GwenDefeat::
     .string "Ben fet!\n"
-    .string "Has guanyat del tot!$"
+    .string "M'has guanyat de totes totes!$"
 
 Route13_Text_GwenPostBattle::
     .string "Has de fer combatre els Pokémon\n"

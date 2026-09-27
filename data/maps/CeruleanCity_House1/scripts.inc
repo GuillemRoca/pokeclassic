@@ -37,7 +37,7 @@ CeruleanCity_House1_Text_PokemonLoveBerries::
 	.string "bona manera d'enfortir el vostre\l"
 	.string "vincle.\p"
 	.string "Té, per què no ho comproves\n"
-	.string "tu mateix!$"
+	.string "{MASC}tu mateix{FEM}tu mateixa{ENDG}!$"
 
 CeruleanCity_House1_EventScript_GiveGrepaBerry::
 	giveitem ITEM_GREPA_BERRY, 1

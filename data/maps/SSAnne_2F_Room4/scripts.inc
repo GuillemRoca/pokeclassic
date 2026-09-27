@@ -11,7 +11,7 @@ SSAnne_2F_Room4_Text_LamarIntro::
     .string "fort o un de rar?$"
 
 SSAnne_2F_Room4_Text_LamarDefeat::
-    .string "Et saludo!$"
+    .string "Em trec el barret!$"
 
 SSAnne_2F_Room4_Text_LamarPostBattle::
     .string "Personalment, prefereixo Pokémon\n"

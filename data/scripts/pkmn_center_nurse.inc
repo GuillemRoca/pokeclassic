@@ -36,7 +36,7 @@ EventScript_PkmnCenterNurse_ChampionHeal::
 	end
 
 gText_ItsTheChampion::
-    .string "Oh! Ets el Campió, {PLAYER}!\n"
+    .string "Oh! Ets {MASC}el Campió{FEM}la Campiona{ENDG}, {PLAYER}!\n"
     .string "Vols que curem els teus Pokémon?$"
 
 EventScript_PkmnCenterNurse_HealPkmn::

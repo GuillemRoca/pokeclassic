@@ -27,7 +27,7 @@ PokemonMansion_1F_EventScript_Ted::
 
 PokemonMansion_1F_Text_TedIntro::
     .string "Qui ets?\n"
-    .string "Aquí no hi hauria de ser ningú.$"
+    .string "Aquí no hi hauria d'haver ningú.$"
 
 PokemonMansion_1F_Text_TedDefeat::
     .string "Au!$"

@@ -67,7 +67,7 @@ Route5_SouthEntrance_EventScript_DenyGuard::
 
 Route5_SouthEntrance_Text_ThatsAShame::
 	.string "Oh, quina llàstima.\n"
-	.string "Bé m'aniria una beguda...$"
+	.string "Em ve molt de gust beure alguna cosa...$"
 
 Route5_SouthEntrance_EventScript_GuardSmallTalk::
 	goto_if_unset FLAG_DELIVERED_ROCKET_PLANS, Route5_SouthEntrance_EventScript_RoadsClosed

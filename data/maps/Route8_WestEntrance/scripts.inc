@@ -132,7 +132,7 @@ Route8_WestEntrance_EventScript_Jenny::
 	end
 
 Route8_WestEntrance_Text_TipAboutTeamRocket::
-	.string "Hem rebut una pista que el Team\n"
+	.string "Hem rebut un avís que l'Equip\n"
 	.string "Rocket podria passar per aquí, així\l"
 	.string "que no podem deixar passar ningú.$"
 
@@ -153,9 +153,9 @@ Route8_WestEntrance_EventScript_DeliverRocketPlans::
 	end
 
 Route8_WestEntrance_Text_DeliverRocketPlans::
-	.string "Què? Has trobat plans del\n"
-	.string "Equip Rocket?\p"
-	.string "Més val que no sigui una broma.\p"
+	.string "Què? Has trobat plans de\n"
+	.string "l'Equip Rocket?\p"
+	.string "Més val que no sigui una broma, nano.\p"
 	.string "Els hauré de veure...\n"
 	.string "... ... ...\p"
 	.string "Semblen autèntics!\p"

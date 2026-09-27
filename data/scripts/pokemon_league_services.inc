@@ -72,7 +72,7 @@ PkmnLeague_Services_Ranking_Seasoned::
 
 PkmnLeague_Services_Ranking_Text_Seasoned:
 	.string "El teu rang actual és:\p"
-	.string "Experimentat!$"
+	.string "{MASC}Experimentat{FEM}Experimentada{ENDG}!$"
 
 PkmnLeague_Services_Ranking_Veteran::
 	msgbox PkmnLeague_Services_Ranking_Text_Veteran, MSGBOX_DEFAULT
@@ -81,7 +81,7 @@ PkmnLeague_Services_Ranking_Veteran::
 
 PkmnLeague_Services_Ranking_Text_Veteran:
 	.string "El teu rang actual és:\p"
-	.string "Veterà!$"
+	.string "{MASC}Veterà{FEM}Veterana{ENDG}!$"
 
 PkmnLeague_Services_Ranking_Elite::
 	msgbox PkmnLeague_Services_Ranking_Text_Elite, MSGBOX_DEFAULT
@@ -100,7 +100,7 @@ PkmnLeague_Services_Ranking_Champion::
 
 PkmnLeague_Services_Ranking_Text_Champion:
 	.string "El teu rang actual és:\p"
-	.string "Campió!$"
+	.string "{MASC}Campió{FEM}Campiona{ENDG}!$"
 
 PkmnLeague_Services_Text_Searching:
 	.string "Buscant a la base de dades....\p"
@@ -115,7 +115,7 @@ PkmnLeague_Services_Ranking_TitleMatch::
 
 PkmnLeague_Services_Ranking_Text_TitleMatch:
 	.string "Algú vol arrabassar-te el títol\n"
-	.string "de Campió!\p"
+	.string "de {MASC}Campió{FEM}Campiona{ENDG}!\p"
 	.string "Ves a la Lliga Pokémon i enfronta't\n"
 	.string "a l'aspirant en un Combat pel Títol!$"
 
@@ -136,9 +136,9 @@ PkmnLeague_Services_MustBeSeasoned::
 	end
 
 PkmnLeague_Services_Text_MustBeSeasoned:
-	.string "Ho sento, però has de ser un\n"
-	.string "Entrenador Experimentat a la Lliga\l"
-	.string "Pokémon per usar els meus serveis.$"
+	.string "Ho sento, però has de tenir el Rang\n"
+	.string "Experimentat a la Lliga Pokémon\l"
+	.string "per usar els meus serveis.$"
 
 PkmnLeague_Services_MustBeElite::
 	msgbox PkmnLeague_Services_Text_MustBeElite, MSGBOX_DEFAULT
@@ -146,7 +146,7 @@ PkmnLeague_Services_MustBeElite::
 	end
 
 PkmnLeague_Services_Text_MustBeElite:
-	.string "Ep, para el carro, nen!\p"
+	.string "Ep, para el carro, {MASC}nen{FEM}nena{ENDG}!\p"
 	.string "Jo només treballo amb els\n"
 	.string "Entrenadors d'Èlit.\p"
 	.string "Torna a veure'm quan tinguis\n"

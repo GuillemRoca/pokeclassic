@@ -50,6 +50,6 @@ LavenderTown_PokemonCenter_1F_EventScript_BaldingMan::
 	end
 
 LavenderTown_PokemonCenter_1F_Text_HearMrFujiNotFromAroundHere::
-    .string "Fa poc que visc en aquesta ciutat.\p"
+    .string "Fa poc que visc en aquest poble.\p"
     .string "He sentit que el Sr. Fuji tampoc\n"
     .string "és d'aquí originalment.$"

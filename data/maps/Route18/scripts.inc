@@ -103,7 +103,7 @@ Route18_EventScript_RegisterWiltonAfterBattle::
 	end
 
 Route18_Text_WiltonRegister:
-	.string "Estàs fent una PokéDex?\p"
+	.string "Estàs completant la Pokédex?\p"
 	.string "Truca'm si trobes bons llocs\l"
 	.string "per atrapar Pokémon!"
 

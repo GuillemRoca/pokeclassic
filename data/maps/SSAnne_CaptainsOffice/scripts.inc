@@ -34,7 +34,7 @@ SSAnne_CaptainsOffice_Text_CaptainIFeelSeasick::
     .string "Urrp! Marejat…$"
 
 SSAnne_CaptainsOffice_Text_RubbedCaptainsBack::
-    .string "{PLAYER} va fregar l'esquena\n"
+    .string "{PLAYER} ha fregat l'esquena\n"
     .string "del Capità!\p"
     .string "Frega-frega…\n"
     .string "Frega-frega-frega…$"
@@ -43,14 +43,14 @@ SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut::
     .string "Capità: Uf! Gràcies!\n"
     .string "Em trobo molt millor ara.\p"
     .string "Vols veure la meva tècnica\n"
-    .string "secreta de tall?\p"
+    .string "secreta de Tall?\p"
     .string "Podria ensenyar-te la meva\n"
     .string "tècnica si no estigués tan\l"
     .string "malalt…\p"
-    .string "Ja ho sé! Pots tenir això!\n"
+    .string "Ja ho sé! Queda't això!\n"
     .string "Aquesta Màquina Oculta!\p"
-    .string "Ensenya tall al teu Pokémon,\n"
-    .string "i podràs veure'l tallar sempre!$"
+    .string "Ensenya Tall a un Pokémon\n"
+    .string "i el podràs veure tallar sempre!$"
 
 SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain::
     .string "{PLAYER} ha obtingut la MO01\n"
@@ -73,8 +73,8 @@ SSAnne_CaptainsOffice_EventScript_NoRoomForCut::
 SSAnne_CaptainsOffice_Text_YouHaveNoRoomForThis::
     .string "Oh, no!\n"
     .string "No tens espai per a això!\p"
-    .string "Oh no, sento una altra onada\n"
-    .string "que ve --- HURGH!!$"
+    .string "Oh, no, em torna a venir una\n"
+    .string "altra onada --- HURGH!!$"
 
 SSAnne_CaptainsOffice_EventScript_AlreadyGotCut::
 	applymovement LOCALID_CAPTAIN, Common_Movement_FacePlayer
@@ -87,7 +87,7 @@ SSAnne_CaptainsOffice_Text_SSAnneWillSetSailSoon::
     .string "Capità: …Uf!\p"
     .string "Ara que ja no estic malalt,\n"
     .string "suposo que és l'hora.\p"
-    .string "L'SS Anna zarparà aviat!\p"
+    .string "L'SS Anna salparà aviat!\p"
     .string "Adéu, fins al nostre retorn a\n"
     .string "Ciutat Vermella!$"
 
@@ -104,5 +104,5 @@ SSAnne_CaptainsOffice_EventScript_Book::
 	end
 
 SSAnne_CaptainsOffice_Text_HowToConquerSeasickness::
-    .string "Com Superar el Mareig…\n"
+    .string "Com superar el mareig…\n"
     .string "El Capità està llegint això!$"

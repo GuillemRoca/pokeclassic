@@ -7,8 +7,8 @@ CeladonCity_House1_EventScript_RocketChief::
 
 CeladonCity_House1_Text_SlotsReelInTheDough::
     .string "Hehehe!\p"
-    .string "Les slots ens omplen de pasta,\n"
-    .string "a lo gran!$"
+    .string "Les escurabutxaques ens donen\n"
+    .string "pasta a cabassos!$"
 
 CeladonCity_House1_EventScript_Rocket1::
 	msgbox CeladonCity_House1_Text_ShippedMonsAsSlotPrizes, MSGBOX_NPC
@@ -17,10 +17,10 @@ CeladonCity_House1_EventScript_Rocket1::
 CeladonCity_House1_Text_ShippedMonsAsSlotPrizes::
     .string "Cap!\p"
     .string "Avui hem enviat dos mil\n"
-    .string "Ninots Pokémon més com a premis\l"
-    .string "de les slots!\p"
+    .string "Poké Ninots més com a premis\l"
+    .string "de les escurabutxaques!\p"
     .string "I també estem buscant compradors\n"
-    .string "pels Pokémon que hem segrestat.$"
+    .string "per als Pokémon que hem segrestat.$"
 
 CeladonCity_House1_EventScript_Rocket2::
 	msgbox CeladonCity_House1_Text_DontTouchGameCornerPoster, MSGBOX_NPC
@@ -45,7 +45,7 @@ CeladonCity_House1_EventScript_Police1::
     end
 
 CeladonCity_House1_Text_DontStepOnEvidence::
-    .string "Ei! Vigila, nano!\n"
+    .string "Ei! Vigila, {MASC}nano{FEM}nena{ENDG}!\n"
     .string "Estem recollint proves.$"
 
 CeladonCity_House1_EventScript_Police2::

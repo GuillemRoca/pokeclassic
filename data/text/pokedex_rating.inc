@@ -64,7 +64,7 @@ gOakDexRatingText_LessThan100::
 
 gOakDexRatingText_LessThan110::
 	.string "Per fi has arribat a 100 espècies!\n"
-	.string "No em puc creure que siguis tan bo!$"
+	.string "No em puc creure que siguis tan {MASC}bo{FEM}bona{ENDG}!$"
 
 gOakDexRatingText_LessThan120::
 	.string "Fins i tot tens les formes\n"
@@ -77,11 +77,11 @@ gOakDexRatingText_LessThan130::
 
 gOakDexRatingText_LessThan140::
 	.string "Extraordinari!\n"
-	.string "Ja ets tot un professional!$"
+	.string "Ja ets {MASC}tot un professional{FEM}tota una professional{ENDG}!$"
 
 gOakDexRatingText_LessThan150::
 	.string "No em queda res per dir!\n"
-	.string "Ara el Professor Pokémon ets tu!$"
+	.string "Ara {MASC}el Professor{FEM}la Professora{ENDG} Pokémon ets tu!$"
 
 gOakDexRatingText_LessThan151::
 	.string "He sentit uns nens que deien que\n"
@@ -96,12 +96,12 @@ gOakDexRatingText_LessThan170::
 
 gOakDexRatingText_LessThan180::
 	.string "Diria que ja pots considerar-te\n"
-	.string "Professor Pokémon, i dels bons,\l"
+	.string "{MASC}Professor{FEM}Professora{ENDG} Pokémon, i {MASC}dels bons{FEM}de les bones{ENDG},\l"
 	.string "a més!$"
 
 gOakDexRatingText_LessThan190::
 	.string "Amb una Pokédex tan completa,\n"
-	.string "ets un professional de veritat!$"
+	.string "ets {MASC}un professional{FEM}una professional{ENDG} de veritat!$"
 
 gOakDexRatingText_LessThan200::
 	.string "Estàs molt a prop de completar\n"

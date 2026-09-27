@@ -12,7 +12,7 @@ Route104_Text_PlantBerriesInSoilTakeThis:
 
 Route104_Text_TrainersOftenMakeMonHoldBerries:
 	.string "Amb la pinta que fas, deus ser\n"
-	.string "un Entrenador, oi?\p"
+	.string "{MASC}un Entrenador{FEM}una Entrenadora{ENDG}, oi?\p"
 	.string "Els Entrenadors sovint fan que\n"
 	.string "els Pokémon duguin Baies.\p"
 	.string "Depèn de tu si vols cultivar\n"
@@ -83,7 +83,7 @@ LilycoveCity_Text_BerrySuitsYou:
 
 LilycoveCity_Text_BecauseYoureTrainer:
 	.string "Pensant-hi bé…\p"
-	.string "És perquè ets un Entrenador!$"
+	.string "És perquè ets {MASC}un Entrenador{FEM}una Entrenadora{ENDG}!$"
 
 LilycoveCity_Text_PokeblocksSuitPokemon:
 	.string "Pensant-hi bé…\p"
@@ -115,7 +115,7 @@ Route123_BerryMastersHouse_Text_HeardAGoodSayingLately:
 	.string "La manera com el meu marit\n"
 	.string "cultiva Baies, oh, és el millor del món.\p"
 	.string "N'estic ben orgullosa, i tant.\p"
-	.string "Per cert, nen, has sentit\n"
+	.string "Per cert, {MASC}nen{FEM}nena{ENDG}, has sentit\n"
 	.string "algun bon refrany darrerament?$"
 
 Route123_BerryMastersHouse_Text_InspirationalTakeThis:

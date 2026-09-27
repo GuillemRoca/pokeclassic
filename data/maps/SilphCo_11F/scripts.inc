@@ -61,7 +61,7 @@ SilphCo_11F_Text_WhatAGreatBattle::
 
 SilphCo_11F_Text_PrezDefeat::
 	.string "Sembla que ni un President pot\n"
-	.string "igualar un Campió!$"
+	.string "igualar {MASC}un Campió{FEM}una Campiona{ENDG}!$"
 
 SilphCo_11F_Text_PracticeBattling::
 	.string "President: Ah, hola {PLAYER}!\p"
@@ -83,7 +83,7 @@ SilphCo_11F_EventScript_DeclinePrezBattle::
 
 SilphCo_11F_Text_IUnderstand::
 	.string "Ho entenc. Les coses han d'anar\n"
-	.string "molt atrafegades per a un Campió.$"
+	.string "molt atrafegades per a {MASC}un Campió{FEM}una Campiona{ENDG}.$"
 
 SilphCo_11F_EventScript_PresidentPostgamePostBattle::
 	msgbox SilphCo_11F_Text_TheseRocketsPunks, MSGBOX_NPC
@@ -252,7 +252,7 @@ SilphCo_11F_EventScript_JessieJames::
 
 SilphCo_11F_Text_StopYouOnceAndForAll::
 	.string "James: Vaja, mira qui és.\n"
-	.string "Jessie: El marrec ha arribat\l"
+	.string "Jessie: {MASC}El marrec{FEM}La marreca{ENDG} ha arribat\l"
 	.string "puntualment.\p"
 	.string "Jessie: Sabíem que vindries.\n"
 	.string "James: Però fins aquí has arribat.\l"
@@ -265,7 +265,7 @@ SilphCo_11F_Text_JessieJamesDefeat::
 	.string "James: Com sempre...$"
 
 SilphCo_11F_Text_JessieJamesPostBattle::
-	.string "Jessie: Hem fallat al cap.\n"
+	.string "Jessie: Hem decebut el cap.\n"
 	.string "James: Era la nostra última\l"
 	.string "oportunitat!\p"
 	.string "Jessie i James: Sembla que\n"
@@ -297,7 +297,7 @@ SilphCo_11F_EventScript_Grunt2::
 	end
 
 SilphCo_11F_Text_ThanksForSavingMe::
-    .string "President: Oh, estimat nen!\n"
+    .string "President: Oh, {MASC}estimat nen{FEM}estimada nena{ENDG}!\n"
     .string "Gràcies per salvar Silph.\p"
     .string "Mai oblidaré que ens vas salvar\n"
     .string "en el nostre moment de perill.\p"
@@ -307,17 +307,17 @@ SilphCo_11F_Text_ThanksForSavingMe::
     .string "Potser això et servirà.$"
 
 SilphCo_11F_Text_ObtainedMasterBallFromPresident::
-    .string "{PLAYER} ha obtingut una Master\n"
+    .string "{PLAYER} ha obtingut una Màster\n"
     .string "Ball del President!$"
 
 SilphCo_11F_Text_ThatsOurSecretPrototype::
     .string "President: Això no es pot comprar\n"
     .string "enlloc.\p"
     .string "És el nostre prototip secret de\n"
-    .string "Master Ball.\p"
+    .string "Màster Ball.\p"
     .string "Capturarà qualsevol Pokémon\n"
-    .string "sense falta!\p"
-    .string "Però hauries de ser discret\n"
+    .string "sense fallar!\p"
+    .string "Però hauries de ser {MASC}discret{FEM}discreta{ENDG}\n"
     .string "sobre el seu ús.$"
 
 SilphCo_11F_Text_YouHaveNoRoomForThis::
@@ -336,7 +336,7 @@ SilphCo_11F_Text_GiovanniIntro::
     .string "una proposta de negoci vital.\p"
     .string "No fiquis el nas en assumptes\n"
     .string "d'adults…\p"
-    .string "O experimenta un món de dolor!$"
+    .string "O te'n penediràs, i molt!$"
 
 SilphCo_11F_Text_GiovanniDefeat::
     .string "Arrgh!!\n"
@@ -364,7 +364,7 @@ SilphCo_11F_Text_Grunt2PostBattle::
     .string "Vols veure el meu Cap?$"
 
 SilphCo_11F_Text_Grunt1Intro::
-    .string "Alt! Tens cita amb el\n"
+    .string "Atura't! Tens cita amb el\n"
     .string "meu Cap?$"
 
 SilphCo_11F_Text_Grunt1Defeat::
@@ -430,7 +430,7 @@ SilphCo_11F_Text_ThatsEnoughFromYou::
 	.string "d'una sola cosa...el poder!\p"
 	.string "Per això sempre perdreu contra\n"
 	.string "algú com {PLAYER}.\p"
-	.string "Ell sap què significa realment\n"
+	.string "{MASC}Ell{FEM}Ella{ENDG} sap què significa realment\n"
 	.string "viure al costat dels Pokémon.\p"
 	.string "...\p"
 	.string "Has dit que Giovanni era feble,\n"
@@ -449,8 +449,8 @@ SilphCo_11F_Text_TakingYouIn::
 	.string "{PLAYER}! M'emporto aquest\n"
 	.string "Rocket.\p"
 	.string "Gràcies per tota la teva ajuda\n"
-	.string "aquí. Hauries de venir a veure'm\n"
-	.string "la propera vegada que siguis a\n"
+	.string "aquí. Hauries de venir a veure'm\l"
+	.string "la propera vegada que siguis a\l"
 	.string "Ciutat Celadó.$"
 
 SilphCo_11F_EventScript_LookerMovement1::
@@ -548,16 +548,16 @@ SilphCo_11F_EventScript_LookerMovement4::
 SilphCo_11F_Text_GiovanniWasWeak::
 	.string "Rocket: Ha! De debò has\n"
 	.string "aparegut?\p"
-	.string "Què? El gran campió de Kanto\n"
+	.string "Què? {MASC}El gran campió{FEM}La gran campiona{ENDG} de Kanto\n"
 	.string "es pensa que em derrotarà?\p"
-	.string "Bé, escolta bé, nen.\p"
+	.string "Bé, escolta bé, {MASC}nen{FEM}nena{ENDG}.\p"
 	.string "Giovanni era feble!\p"
 	.string "Va deixar que un don ningú com\n"
 	.string "tu li passés per sobre!\p"
 	.string "Sota el meu lideratge, l'Equip\n"
-	.string "Rocket no es rendiria només\l"
-	.string "perquè un nen s'interposa!\p"
-	.string "Saluda al nou Equip Rocket!$"
+	.string "Rocket no es rendirà només\l"
+	.string "perquè {MASC}un nen{FEM}una nena{ENDG} s'hi interposi!\p"
+	.string "Saluda el nou Equip Rocket!$"
 
 SilphCo_11F_Text_RocketLeaderDefeat::
 	.string "Què?! Sóc més feble que\n"
@@ -568,7 +568,7 @@ SilphCo_11F_Text_HowCouldThisHappen::
 	.string "Això havia de ser el nostre gran\n"
 	.string "retorn!\p"
 	.string "Pensàvem que Giovanni era\n"
-	.string "feble... però tu ets massa bo!$"
+	.string "feble... però tu ets massa {MASC}bo{FEM}bona{ENDG}!$"
 
 
 

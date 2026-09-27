@@ -87,7 +87,7 @@ PokemonLeague_AgathasRoom_EventScript_PostBattle2::
 PokemonLeague_AgathasRoom_Text_Intro::
     .string "Sóc l'Agatha de l'Alt Comandament.\p"
     .string "He sentit que l'Oak s'ha interessat\n"
-    .string "molt per tu, nen.\p"
+    .string "molt per tu, {MASC}nen{FEM}nena{ENDG}.\p"
     .string "Aquell vell tòtil va ser dur i\n"
     .string "atractiu en el seu dia.\p"
     .string "Però això va ser fa dècades.\n"
@@ -107,7 +107,7 @@ PokemonLeague_AgathasRoom_Text_Intro2::
 
 PokemonLeague_AgathasRoom_Text_Defeat::
     .string "Oh, vaja!\n"
-    .string "Ets algú especial, nen!$"
+    .string "Ets algú especial, {MASC}nen{FEM}nena{ENDG}!$"
 
 PokemonLeague_AgathasRoom_Text_Defeat2::
     .string "No està malament!$"
@@ -117,12 +117,12 @@ PokemonLeague_AgathasRoom_Text_PostBattle::
     .string "Ara veig què hi veu aquell\n"
     .string "vell tòtil en tu.\p"
     .string "No tinc res més a dir.\n"
-    .string "Corre, nen!$"
+    .string "Au, corre, {MASC}nen{FEM}nena{ENDG}!$"
 
 PokemonLeague_AgathasRoom_Text_PostBattle2::
     .string "No és estrany que aquell vell\n"
     .string "s'hagi interessat tant per tu.\p"
-    .string "L'Oak i jo vam ser bons rivals\n"
-    .string "també, saps. Com tu i {RIVAL}.\p"
+    .string "L'Oak i jo també érem bons rivals,\n"
+    .string "saps? Com tu i {RIVAL}.\p"
     .string "Bé, a què esperes?\n"
     .string "Vés a la següent sala!$"

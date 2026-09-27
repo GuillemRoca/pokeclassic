@@ -6,8 +6,8 @@ Route16_NorthEntrance_2F_EventScript_LittleBoy::
 	end
 
 Route16_NorthEntrance_2F_Text_OnBikeRideWithGirlfriend::
-    .string "Faig un passeig relaxat amb la\n"
-    .string "meva bici nova amb la meva nòvia.$"
+    .string "Faig un passeig tranquil amb la\n"
+    .string "bici nova i la meva nòvia.$"
 
 Route16_NorthEntrance_2F_EventScript_LittleGirl::
 	msgbox Route16_NorthEntrance_2F_Text_RidingTogetherOnNewBikes, MSGBOX_NPC
@@ -34,7 +34,7 @@ Route16_NorthEntrance_2F_EventScript_RightBinoculars::
 Route16_NorthEntrance_2F_Text_LongPathOverWater::
     .string "A veure què mostren els\n"
     .string "prismàtics…\p"
-    .string "Hi ha un camí llarg sobre l'aigua\n"
+    .string "Hi ha un camí llarg sobre l'aigua,\n"
     .string "molt lluny.$"
 
 
@@ -77,8 +77,8 @@ Route16_NorthEntrance_2F_EventScript_AlreadyGotReward::
 Route16_NorthEntrance_2F_Text_ExplainReward::
 	.string "Sabies que els Pokémon poden\n"
 	.string "portar objectes?\p"
-    .string "La Moneda Amuleto és un objecte\n"
-    .string "per portar un Pokémon.\p"
+    .string "La Moneda Amulet és un objecte\n"
+    .string "que ha de portar un Pokémon.\p"
     .string "Si el Pokémon surt en un combat\n"
     .string "guanyat, guanyaràs més diners.$"
 

@@ -79,10 +79,10 @@ SilphCo_5F_Text_RocketsInUproarAboutIntruder::
 
 SilphCo_5F_Text_YoureOurHeroThankYou::
     .string "L'Equip Rocket ha fugit!\n"
-    .string "Ets el nostre heroi! Gràcies!$"
+    .string "Ets {MASC}el nostre heroi{FEM}la nostra heroïna{ENDG}! Gràcies!$"
 
 SilphCo_5F_Text_Grunt1Intro::
-    .string "He sentit que un nen voltava\n"
+    .string "He sentit que {MASC}un nen{FEM}una nena{ENDG} voltava\n"
     .string "per aquí.$"
 
 SilphCo_5F_Text_Grunt1Defeat::

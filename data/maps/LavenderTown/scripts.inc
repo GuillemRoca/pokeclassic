@@ -39,7 +39,7 @@ LavenderTown_EventScript_WorkerM::
 	end
 
 LavenderTown_Text_TownKnownAsMonGraveSite::
-    .string "Aquesta ciutat és coneguda com\n"
+    .string "Aquest poble és conegut com\n"
     .string "el cementiri dels Pokémon.\p"
     .string "Es fan serveis commemoratius\n"
     .string "a la Torre Pokémon.$"
@@ -76,7 +76,7 @@ LavenderTown_EventScript_VolunteerHouseSign::
 	end
 
 LavenderTown_Text_VolunteerPokemonHouse::
-    .string "Casa Voluntària\n"
+    .string "Casa de Voluntaris\n"
     .string "Pokémon de Lavanda$"
 
 LavenderTown_EventScript_PokemonTowerSign::

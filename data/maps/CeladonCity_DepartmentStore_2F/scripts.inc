@@ -6,9 +6,9 @@ CeladonCity_DepartmentStore_2F_EventScript_UnusedNPC::
 	end
 
 CeladonCity_DepartmentStore_2F_Text_SuperRepelMorePowerfulRepel::
-    .string "El Super Repel manté els Pokémon\n"
+    .string "El Superrepel·lent manté els Pokémon\n"
     .string "febles a ratlla…\p"
-    .string "Hmm, és un Repel més potent.$"
+    .string "Hmm, és un Repel·lent més potent.$"
 
 CeladonCity_DepartmentStore_2F_EventScript_Lass::
 	msgbox CeladonCity_DepartmentStore_2F_Text_BuyReviveForLongOutings, MSGBOX_NPC
@@ -16,7 +16,7 @@ CeladonCity_DepartmentStore_2F_EventScript_Lass::
 
 CeladonCity_DepartmentStore_2F_Text_BuyReviveForLongOutings::
     .string "Per a sortides llargues, hauries\n"
-    .string "de comprar Revive.$"
+    .string "de comprar Revifades.$"
 
 CeladonCity_DepartmentStore_2F_EventScript_FloorSign::
 	msgbox CeladonCity_DepartmentStore_2F_Text_FloorSign, MSGBOX_SIGN

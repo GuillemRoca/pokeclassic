@@ -45,7 +45,7 @@ SilphCo_9F_EventScript_Grunt2::
 	end
 
 SilphCo_9F_Text_YouShouldTakeQuickNap::
-    .string "Sembles cansat.\n"
+    .string "Sembles {MASC}cansat{FEM}cansada{ENDG}.\n"
     .string "Hauries de fer una migdiada.$"
 
 SilphCo_9F_Text_DontGiveUp::
@@ -56,7 +56,7 @@ SilphCo_9F_Text_ThankYouSoMuch::
 
 SilphCo_9F_Text_Grunt1Intro::
     .string "Els teus Pokémon sembla que\n"
-    .string "t'adoren, nen!$"
+    .string "t'adoren, {MASC}nen{FEM}nena{ENDG}!$"
 
 SilphCo_9F_Text_Grunt1Defeat::
     .string "Ghaaah!$"
@@ -70,7 +70,7 @@ SilphCo_9F_Text_EdIntro::
     .string "febles! Puc aprofitar-los!$"
 
 SilphCo_9F_Text_EdDefeat::
-    .string "M'has clavat!$"
+    .string "M'has fet miques!$"
 
 SilphCo_9F_Text_EdPostBattle::
     .string "Explotar punts febles funciona.\n"

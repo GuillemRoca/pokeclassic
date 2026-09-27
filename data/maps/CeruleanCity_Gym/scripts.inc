@@ -39,8 +39,8 @@ CeruleanCity_Gym_Text_MistyIntro::
 
 CeruleanCity_Gym_Text_MistyDefeat::
 	.string "Uau!\n"
-    .string "Ets massa fort!\p"
-    .string "D'acord!$"
+	.string "Ets massa {MASC}fort{FEM}forta{ENDG}!\p"
+	.string "D'acord!$"
 
 CeruleanCity_Gym_EventScript_DefeatedMistyGetBadge::
 	msgbox CeruleanCity_Gym_Text_GetBadge, MSGBOX_DEFAULT
@@ -151,7 +151,7 @@ CeruleanCity_Gym_Text_RematchLeader::
 	.string "lluitant contra l'Equip Rocket.\p"
 	.string "És veritat?\p"
 	.string "Argh! No aguanto més!\p"
-	.string "T'has fet tan fort que necessito\n"
+	.string "T'has fet tan {MASC}fort{FEM}forta{ENDG} que necessito\n"
 	.string "tornar a combatre contra tu!\p"
 	.string "Ho tens clar? No pots dir que no!$"
 
@@ -170,7 +170,7 @@ CeruleanCity_Gym_EventScript_PostgameRematch::
 	end
 
 CeruleanCity_Gym_Text_RematchMode::
-	.string "Ara que ets el campió,\n"
+	.string "Ara que ets {MASC}el campió{FEM}la campiona{ENDG},\n"
 	.string "vols anar amb tot?$"
 
 CeruleanCity_Gym_EventScript_LeaderRematch_OriginalTeam::
@@ -190,7 +190,7 @@ CeruleanCity_Gym_Text_RematchPostgame::
 	.string "preparats per plantar-te cara!\p"
 	.string "L'ofensiva definitiva de\n"
 	.string "Pokémon de tipus Aigua!\p"
-	.string "Espero que estiguis preparat!$"
+	.string "Espero que estiguis {MASC}preparat{FEM}preparada{ENDG}!$"
 
 CeruleanCity_Gym_EventScript_DefeatedLeaderRematch::
 	setflag FLAG_DAILY_MISTY_REMATCH
@@ -251,7 +251,7 @@ CeruleanCity_Gym_EventScript_GymGuy::
 
 CeruleanCity_Gym_Text_GymGuyAdvice::
     .string "Ei!\n"
-    .string "Futur campió!\p"
+    .string "{MASC}Futur campió{FEM}Futura campiona{ENDG}!\p"
     .string "Deixa'm donar-te un consell!\p"
     .string "La Líder, Misty, és una pro\n"
     .string "dels Pokémon d'Aigua.\p"
@@ -268,7 +268,7 @@ CeruleanCity_Gym_EventScript_GymGuyPostVictory::
 CeruleanCity_Gym_Text_WeMakePrettyGoodTeam::
     .string "Has vençut la Misty!\n"
     .string "Veus? Què et deia?\p"
-    .string "Tu i jo, noi, fem un equip\n"
+    .string "Tu i jo, {MASC}noi{FEM}noia{ENDG}, fem un equip\n"
     .string "de primera!$"
 
 CeruleanCity_Gym_EventScript_GymStatue::

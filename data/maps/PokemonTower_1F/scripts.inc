@@ -6,7 +6,7 @@ PokemonTower_1F_EventScript_Channeler::
 	end
 
 PokemonTower_1F_Text_SenseSpiritsUpToMischief::
-    .string "Sóc una Canalitzadora.\p"
+    .string "Sóc una Mèdium.\p"
     .string "Hi ha esperits fent entremaliadures.\n"
     .string "Els sento a dalt de la torre.$"
 
@@ -36,9 +36,9 @@ PokemonTower_1F_EventScript_CueBall2::
 PokemonTower_1F_Text_BraveFace::
 	.string "Sempre que combatíem, jo era\n"
 	.string "capaç de posar bona cara\l"
-	.string "pels meus Pokémon.\p"
-	.string "Però ara, no puc mantenir\n"
-	.string "la façana...$"
+	.string "per als meus Pokémon.\p"
+	.string "Però ara ja no puc fingir\n"
+	.string "més...$"
 
 PokemonTower_1F_Text_GrowlitheWhyDidYouDie::
     .string "El meu Growlithe…\n"
@@ -58,7 +58,7 @@ PokemonTower_1F_Text_CameToPrayForDepartedClefairy::
     .string "He vingut a pregar pel meu\n"
     .string "estimat Clefairy.\p"
     .string "Snif!\n"
-    .string "Estic ple de llàgrimes…$"
+    .string "No paro de plorar…$"
 
 PokemonTower_1F_Text_ComeToPayRespects::
     .string "Has vingut a retre homenatge?\p"

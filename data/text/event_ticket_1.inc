@@ -2,10 +2,10 @@ EventTicket_Text_ShowOldSeaMap:
 	.string "El vaixell cap a Slateport és…\p"
 
 
-	.string "Perdona'm?\n"
+	.string "Com dius?\n"
 
 
-	.string "Podem navegar fins a aquest lloc?\p"
+	.string "Podem anar fins a aquest lloc del mapa?\p"
 
 
 	.string "Conec algú que et pot ajudar millor.\n"
@@ -36,7 +36,7 @@ EventTicket_Text_ShowEonTicket:
 	.string "T'ho dic, intentes arribar a una\n"
 
 
-	.string "petita illeta lluny al sud.\p"
+	.string "petita illeta perduda molt al sud.\p"
 
 
 	.string "No se sap què trobarem quan\n"
@@ -53,10 +53,10 @@ EventTicket_Text_ShowEonTicket:
 
 
 EventTicket_Text_SouthernIslandSailBack:
-	.string "Ei, company, no hi ha res per\n"
+	.string "Ei, company, no hi ha res a\n"
 
 
-	.string "veure ni fer en aquesta illeta.\p"
+	.string "veure ni a fer en aquesta illeta.\p"
 
 
 	.string "Tornem a Lilycove, què et sembla?$"
@@ -77,7 +77,7 @@ EventTicket_Text_AsYouLike:
 
 
 SouthernIsland_Interior_Text_Sign:
-	.string "“Tots els somnis no són més que\n"
+	.string "“Els somnis no són més que\n"
 
 
 	.string "una altra realitat. No oblidis…”$"

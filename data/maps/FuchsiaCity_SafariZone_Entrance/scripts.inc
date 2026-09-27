@@ -39,7 +39,7 @@ FuchsiaCity_SafariZone_Entrance_Text_TrainerTip:
 	.string "perquè siguin menys propensos a fugir.$"
 
 FuchsiaCity_SafariZone_Entrance_Text_WelcomeFirstTime:
-	.string "Benvingut a la Zona Safari!\n"
+	.string "{MASC}Benvingut{FEM}Benvinguda{ENDG} a la Zona Safari!\n"
 	.string "És el teu primer cop aquí?$"
 
 FuchsiaCity_SafariZone_Entrance_Text_ComeInAndEnjoy:
@@ -51,7 +51,7 @@ FuchsiaCity_SafariZone_Entrance_EventScript_FirstTimeInfo::
 	end
 
 FuchsiaCity_SafariZone_Entrance_Text_FirstTimeInfo:
-	.string "Quan entris a la Zona Safari,\n"
+	.string "Quan entres a la Zona Safari,\n"
 	.string "comences amb 30 Safari Balls per\l"
 	.string "atrapar Pokémon.\p"
 	.string "El Joc Safari acaba quan et quedes\n"
@@ -94,7 +94,7 @@ FuchsiaCity_SafariZone_Entrance_EventScript_EntranceCounter::
 	end
 
 FuchsiaCity_SafariZone_Entrance_Text_WouldYouLikeToPlay:
-	.string "Benvingut a la Zona Safari!\p"
+	.string "{MASC}Benvingut{FEM}Benvinguda{ENDG} a la Zona Safari!\p"
 	.string "Tot el que puguis atrapar per\n"
 	.string "només ¥500!\l"
 	.string "Vols jugar al Joc Safari?$"

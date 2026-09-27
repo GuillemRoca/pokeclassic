@@ -33,7 +33,7 @@ CinnabarIsland_Mart_EventScript_Scientist::
 	end
 
 CinnabarIsland_Mart_Text_DontTheyHaveXAttack::
-    .string "No tenen X Attack?\p"
+    .string "No tenen Atac X?\p"
     .string "M'agrada perquè augmenta\n"
     .string "l'Atac en combat.$"
 

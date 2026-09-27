@@ -92,7 +92,7 @@ ProfileMan_EventScript_Ret::
 	return
 
 ProfileMan_Text_CollectTrainerProfiles:
-	.string "Hola, Entrenador!\n"
+	.string "Hola, {MASC}Entrenador{FEM}Entrenadora{ENDG}!\n"
 	.string "Tens un somriure meravellós.\p"
 	.string "Tinc una afició: col·leccionar perfils\n"
 	.string "d'Entrenadors Pokémon.$"
@@ -134,7 +134,7 @@ ProfileMan_Text_NotIntoItRightNow:
 	.string "Bé, quan vulguis, eh!$"
 
 ProfileMan_Text_YouHaveWonderfulSmile:
-	.string "Hola, Entrenador!\n"
+	.string "Hola, {MASC}Entrenador{FEM}Entrenadora{ENDG}!\n"
 	.string "Tens un somriure meravellós.$"
 
 ProfileMan_Text_MayISeeYourNewProfile:

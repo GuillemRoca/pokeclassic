@@ -4,4 +4,4 @@ gText_AbnormalWeatherEnded_Rain::
 
 gText_AbnormalWeatherEnded_Sun::
 	.string "Sembla que el sol intens\n"
-	.string "s'ha aturat…$"
+	.string "ha minvat…$"

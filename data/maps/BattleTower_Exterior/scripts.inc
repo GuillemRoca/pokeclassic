@@ -39,7 +39,7 @@ BattleTower_Exterior_Text_AirTraffic::
 	.string "Torre de Combat.\p"
 	.string "M'han posat aquí per gestionar\n"
 	.string "la multitud.\p"
-	.string "I no permetem que ningú hi voli\n"
+	.string "I no deixem que ningú hi voli\n"
 	.string "sense un Passi de la Torre.$"
 
 BattleTower_Exterior_Jenny2::
@@ -49,7 +49,7 @@ BattleTower_Exterior_Jenny2::
 
 BattleTower_Exterior_Text_TowerPass::
 	.string "Oh! Tens un Passi de la Torre.\n"
-	.string "Ara estàs autoritzat a volar aquí!$"
+	.string "Ja tens permís per volar fins aquí!$"
 
 BattleTower_Exterior_Lass::
 	msgbox BattleTower_Exterior_Text_OnAStreak, MSGBOX_NPC
@@ -62,7 +62,7 @@ BattleTower_Exterior_Text_OnAStreak::
 	.string "Poliwrath i jo hem sortit a\n"
 	.string "prendre l'aire.\p"
 	.string "És important descansar.\n"
-	.string "No vols posar-te nerviós/a!$"
+	.string "Els nervis et poden trair!$"
 
 BattleTower_Exterior_Poliwrath::
 	playmoncry SPECIES_POLIWRATH, CRY_MODE_NORMAL
@@ -100,8 +100,8 @@ BattleTower_Exterior_Punk::
 
 BattleTower_Exterior_Text_GotCarded::
 	.string "No m'ho puc creure!\p"
-	.string "Vaig cridar a l'àrbitre i em va\n"
-	.string "donar una d'aquestes!$"
+	.string "Vaig escridassar l'àrbitra i em va\n"
+	.string "treure una d'aquestes!$"
 
 BattleTower_Exterior_Punk2::
 	lockall

@@ -6,7 +6,7 @@ SSAnne_2F_Room5_EventScript_Gentleman::
 	end
 
 SSAnne_2F_Room5_Text_HaveYouGoneToSafariZone::
-    .string "Has anat a la ZONA SAFARI de\n"
+    .string "Has anat a la Zona Safari de\n"
     .string "Ciutat Fúcsia?\p"
     .string "Hi ha moltes espècies de Pokémon\n"
     .string "rars.$"

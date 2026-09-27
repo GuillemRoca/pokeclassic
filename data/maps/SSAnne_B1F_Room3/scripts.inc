@@ -7,7 +7,7 @@ SSAnne_B1F_Room3_EventScript_Dylan::
 	end
 
 SSAnne_B1F_Room3_Text_DylanIntro::
-    .string "M'agraden els nens valents\n"
+    .string "M'agraden {MASC}els nens valents{FEM}les nenes valentes{ENDG}\n"
     .string "com tu!$"
 
 SSAnne_B1F_Room3_Text_DylanDefeat::

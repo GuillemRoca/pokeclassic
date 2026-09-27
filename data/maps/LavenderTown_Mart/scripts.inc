@@ -43,12 +43,12 @@ LavenderTown_Mart_Text_SearchingForStatRaiseItems::
     .string "estadístiques dels Pokémon.\p"
     .string "Són efectius durant un sol\n"
     .string "combat.\p"
-    .string "X Atac, X Defensa, X Velocitat\n"
-    .string "i X Especial és el que busco.\p"
+    .string "Atac X, Defensa X, Velocitat X\n"
+    .string "i Especial X és el que busco.\p"
     .string "Saps on puc trobar-los?$"
 
 LavenderTown_Mart_Text_DidYouBuyRevives::
-    .string "Has comprat Revius?\n"
+    .string "Has comprat Revifades?\n"
     .string "Reviuen qualsevol Pokémon desmaiat!$"
 
 LavenderTown_Mart_Text_TrainerDuosCanChallengeYou::

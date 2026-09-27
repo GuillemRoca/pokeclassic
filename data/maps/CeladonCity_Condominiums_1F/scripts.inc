@@ -57,12 +57,12 @@ CeladonCity_Condominiums_1F_EventScript_GetDailyTea::
 	return
 
 CeladonCity_Condominiums_1F_Text_TakeThisDear::
-	.string "Vols una mica de Te, bonica?"
+	.string "Vols una mica de Te, {MASC}bonic{FEM}bonica{ENDG}?"
 
 CeladonCity_Condominiums_1F_Text_DaisyComesToBuyTea::
-    .string "Oh, hola, bonica.\n"
+    .string "Oh, hola, {MASC}bonic{FEM}bonica{ENDG}.\n"
     .string "T'ha agradat el meu Te?\p"
-    .string "Per cert, bonica. Ets, per\n"
+    .string "Per cert, {MASC}bonic{FEM}bonica{ENDG}. Ets, per\n"
     .string "casualitat, de Poble Paleta?\p"
     .string "Una noia de Poble Paleta, Daisy,\n"
     .string "gaudeix del meu Te cada dia.\p"

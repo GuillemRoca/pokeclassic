@@ -61,7 +61,7 @@ PokemonLeague_LoreleisRoom_EventScript_Lorelei::
 	end
 
 PokemonLeague_LoreleisRoom_Text_Intro::
-    .string "Benvingut a la Lliga Pokémon.\p"
+    .string "{MASC}Benvingut{FEM}Benvinguda{ENDG} a la Lliga Pokémon.\p"
     .string "Sóc la Lorelei de l'Alt\n"
     .string "Comandament.\p"
     .string "Ningú no em supera quan es\n"
@@ -70,7 +70,7 @@ PokemonLeague_LoreleisRoom_Text_Intro::
     .string "Els teus Pokémon estaran a la\n"
     .string "meva mercè quan es congelin.\p"
     .string "Hahaha!\n"
-    .string "Estàs preparat?$"
+    .string "Estàs {MASC}preparat{FEM}preparada{ENDG}?$"
 
 PokemonLeague_LoreleisRoom_Text_Defeat::
     .string "…Les coses no haurien de ser així!$"
@@ -85,11 +85,11 @@ PokemonLeague_LoreleisRoom_EventScript_LoreleiPostgame::
 	end
 
 PokemonLeague_LoreleisRoom_Text_Intro2::
-    .string "Benvingut a la Lliga Pokémon!\p"
+    .string "{MASC}Benvingut{FEM}Benvinguda{ENDG} a la Lliga Pokémon!\p"
     .string "Ei, quin bon moment!\p"
     .string "Justament pensava que m'agradaria\n"
     .string "combatre amb tu. Espero que\l"
-    .string "estiguis preparat.$"
+    .string "estiguis {MASC}preparat{FEM}preparada{ENDG}.$"
 
 PokemonLeague_LoreleisRoom_Text_Defeat2::
 	.string "Argh! Com?!$"
@@ -123,5 +123,5 @@ PokemonLeague_LoreleisRoom_Text_PostBattle2::
     .string "Potser he perdut, però mai\n"
     .string "renunciaré als meus Pokémon\l"
     .string "de tipus Gel!\p"
-    .string "Tu també hauries de lluitar\n"
+    .string "Tu també hauries d'intentar guanyar\n"
     .string "amb els Pokémon que més t'agradin!$"

@@ -258,7 +258,7 @@ SilphCo_7F_Text_HaveMonForSavingUs::
     .string "per salvar-nos.$"
 
 SilphCo_7F_Text_ObtainedLaprasFromEmployee::
-    .string "{PLAYER} ha obtingut un LAPRAS\n"
+    .string "{PLAYER} ha obtingut un Lapras\n"
     .string "de l'empleat de Silph!$"
 
 SilphCo_7F_Text_ExplainLapras::
@@ -266,7 +266,7 @@ SilphCo_7F_Text_ExplainLapras::
     .string "És un Pokémon molt intel·ligent.\p"
     .string "El teníem al nostre laboratori,\n"
     .string "però estarà molt millor amb tu.\p"
-    .string "Crec que seràs un bon entrenador\n"
+    .string "Crec que seràs {MASC}un bon entrenador{FEM}una bona entrenadora{ENDG}\n"
     .string "per a Lapras!\p"
     .string "És un bon nedador. Et portarà\n"
     .string "per l'aigua!$"
@@ -279,23 +279,23 @@ SilphCo_7F_Text_RocketBossWentToBoardroom::
 
 SilphCo_7F_Text_RocketsAfterMasterBall::
     .string "L'Equip Rocket anava darrere la\n"
-    .string "Master Ball, que captura\l"
+    .string "Màster Ball, que captura\l"
     .string "qualsevol Pokémon.$"
 
 SilphCo_7F_Text_CanceledMasterBallProject::
     .string "Hem cancel·lat el projecte de la\n"
-    .string "MASTER Ball per culpa de l'Equip\l"
+    .string "Màster Ball per culpa de l'Equip\l"
     .string "Rocket.$"
 
 SilphCo_7F_Text_BadIfTeamRocketTookOver::
-    .string "Seria dolent si l'Equip Rocket\n"
+    .string "Seria terrible que l'Equip Rocket\n"
     .string "s'apoderés de Silph o dels\l"
     .string "nostres Pokémon.$"
 
 SilphCo_7F_Text_WowYouChasedOffTeamRocket::
     .string "Uau!\p"
     .string "Has foragitat l'Equip Rocket\n"
-    .string "tot sol?$"
+    .string "{MASC}tot sol{FEM}tota sola{ENDG}?$"
 
 SilphCo_7F_Text_ReallyDangerousHere::
     .string "Tu!\n"
@@ -326,8 +326,8 @@ SilphCo_7F_Text_JoshuaDefeat::
     .string "Estic acabat!$"
 
 SilphCo_7F_Text_JoshuaPostBattle::
-    .string "Malgrat la teva edat, ets un\n"
-    .string "entrenador hàbil!$"
+    .string "Malgrat la teva edat, ets\n"
+    .string "{MASC}un entrenador hàbil{FEM}una entrenadora hàbil{ENDG}!$"
 
 SilphCo_7F_Text_Grunt1Intro::
     .string "Sóc un dels quatre Germans\n"
@@ -343,7 +343,7 @@ SilphCo_7F_Text_Grunt1PostBattle::
     .string "el favor!$"
 
 SilphCo_7F_Text_Grunt2Intro::
-    .string "Un intrús infantil?\n"
+    .string "{MASC}Un nen intrús{FEM}Una nena intrusa{ENDG}?\n"
     .string "Deus ser tu!$"
 
 SilphCo_7F_Text_Grunt2Defeat::
@@ -363,13 +363,13 @@ SilphCo_7F_Text_RivalIntro::
     .string "apareixeries si esperava aquí!\p"
     .string "Suposo que l'Equip Rocket t'ha\n"
     .string "alentit! No és que m'importi!\p"
-    .string "Et vaig veure a SAFFRON, així que\n"
+    .string "Et vaig veure a Safrà, així que\n"
     .string "vaig decidir veure si has\l"
     .string "millorat!$"
 
 SilphCo_7F_Text_RivalDefeat::
     .string "Oh, no!\n"
-    .string "Bé, estàs preparat per al Cap\l"
+    .string "Doncs ja estàs {MASC}preparat{FEM}preparada{ENDG} per al Cap\l"
     .string "Rocket!$"
 
 SilphCo_7F_Text_RivalPostBattle::
@@ -399,7 +399,7 @@ SilphCo_7F_EventScript_PostgameGrunt5::
 
 SilphCo_7F_Text_PostgameGrunt5Intro::
     .string "No faràs quedar malament l'Equip\n"
-    .string "Rocket un altre cop, nen!$"
+    .string "Rocket un altre cop, {MASC}nen{FEM}nena{ENDG}!$"
 
 SilphCo_7F_Text_PostgameGrunt5Defeat::
     .string "Això no pot estar passant!$"

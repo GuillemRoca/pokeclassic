@@ -148,7 +148,7 @@ PokemonLeague_BrunosRoom_Text_PostBattle::
 
 PokemonLeague_BrunosRoom_Text_PostBattle2::
     .string "Ugh! No! Així que el meu\n"
-    .string "entrenament encara no és prou?\p"
+    .string "entrenament encara és insuficient?\p"
     .string "...Vés.\p"
     .string "No et preocupis per mi.\n"
     .string "Continua endavant!$"

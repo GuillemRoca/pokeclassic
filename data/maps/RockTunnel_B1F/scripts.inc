@@ -84,7 +84,7 @@ RockTunnel_B1F_Text_AllenIntro::
 
 RockTunnel_B1F_Text_AllenDefeat::
     .string "Em rendeixo!\n"
-    .string "Ets millor tècnic!$"
+    .string "Ets {MASC}millor tècnic{FEM}millor tècnica{ENDG}!$"
 
 RockTunnel_B1F_Text_AllenPostBattle::
     .string "A les muntanyes sovint trobaràs\n"
@@ -103,7 +103,7 @@ RockTunnel_B1F_Text_EricDefeat::
 
 RockTunnel_B1F_Text_EricPostBattle::
     .string "Criaré els meus Pokémon per\n"
-    .string "guanyar els teus, nen.$"
+    .string "guanyar els teus, {MASC}nen{FEM}nena{ENDG}.$"
 
 RockTunnel_B1F_EventScript_Cooper::
 	trainerbattle_single TRAINER_POKEMANIAC_COOPER, RockTunnel_B1F_Text_CooperIntro, RockTunnel_B1F_Text_CooperDefeat
@@ -128,7 +128,7 @@ RockTunnel_B1F_EventScript_Steve::
 	end
 
 RockTunnel_B1F_Text_SteveIntro::
-    .string "Mmm… Saps sobre el cosplay\n"
+    .string "Mmm… Coneixes el cosplay\n"
     .string "Pokémon?$"
 
 RockTunnel_B1F_Text_SteveDefeat::

@@ -113,7 +113,7 @@ Route16_NorthEntrance_1F_EventScript_OldMan::
 	end
 
 Route16_NorthEntrance_1F_Text_NoPedestriansOnCyclingRoad::
-    .string "No es permet vianants al\n"
+    .string "Prohibit el pas de vianants al\n"
     .string "Carril Bici!$"
 
 Route16_NorthEntrance_1F_Text_CyclingRoadIsDownhillCourse::

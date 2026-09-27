@@ -1,7 +1,7 @@
 LilycoveCity_DepartmentStore_1F_Text_LotteryCornerDrawTicket:
-	.string "Benvingut al Racó de la Loteria Pokémon.\p"
-	.string "Tots els compradors dels nostres grans\n"
-	.string "magatzems podeu treure un Tiquet Loto.\p"
+	.string "Aquest és el Racó de la Loteria Pokémon.\p"
+	.string "Tots els clients dels nostres grans\n"
+	.string "magatzems poden treure un Tiquet Loto.\p"
 	.string "Si el número del Tiquet Loto coincideix\n"
 	.string "amb el número d'ID d'algun dels teus\l"
 	.string "Pokémon, rebràs un regal fabulós.\p"
@@ -58,7 +58,7 @@ LilycoveCity_DepartmentStore_1F_Text_FourDigitsMatched:
 LilycoveCity_DepartmentStore_1F_Text_AllFiveDigitsMatched:
 	.string "Mare meva, han coincidit els cinc\n"
 	.string "dígits!\p"
-	.string "Has guanyat el premi gordo!\n"
+	.string "Has guanyat la grossa!\n"
 	.string "Has guanyat {STR_VAR_1}!$"
 
 LilycoveCity_DepartmentStore_1F_Text_NoRoomForThis:

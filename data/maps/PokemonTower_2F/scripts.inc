@@ -112,21 +112,21 @@ PokemonTower_2F_Text_RivalIntro::
     .string "Què fas aquí?\l"
     .string "El teu Pokémon ha mort?\p"
     .string "Ei! És viu!\p"
-    .string "Almenys puc fer-los caure!\n"
+    .string "Almenys puc fer-los desmaiar!\n"
     .string "Anem!$"
 
 PokemonTower_2F_Text_RivalDefeat::
     .string "Què?\n"
-    .string "Ets un trapella!\p"
-    .string "Hi he anat suau, eh!$"
+    .string "Ets {MASC}un{FEM}una{ENDG} trapella!\p"
+    .string "I això que hi he anat fluix!$"
 
 PokemonTower_2F_Text_RivalPostBattle::
     .string "Com va la teva Pokédex?\n"
     .string "Jo acabo d'atrapar un Cubone!\p"
-    .string "No trobo el Marowak gran.\n"
+    .string "No trobo cap Marowak.\n"
     .string "On deuen ser?\p"
     .string "Aposto que ja no en queden!\p"
     .string "Bé, me'n vaig.\n"
-    .string "Tinc molt a fer,\l"
+    .string "Tinc moltes coses per fer,\l"
     .string "no com tu.\p"
     .string "Ja ens veurem!$"

@@ -16,7 +16,7 @@ CinnabarIsland_PokemonLab_Entrance_EventScript_DrFujiPhoto::
     end
 
 CinnabarIsland_PokemonLab_Entrance_Text_PhotoOfLabFounderDrFuji::
-    .string "Una foto del fundador del Lab…\n"
+    .string "Una foto del fundador del Laboratori…\n"
     .string "Dr. Fuji?!$"
 
 CinnabarIsland_PokemonLab_Entrance_EventScript_MeetingRoomSign::

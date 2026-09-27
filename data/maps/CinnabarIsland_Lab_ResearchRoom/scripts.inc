@@ -25,7 +25,7 @@ CinnabarIsland_PokemonLab_ResearchRoom_Text_LegendaryBirdEmail::
     .string "Són Articuno, Zapdos i\n"
     .string "Moltres.\p"
     .string "El seu parador és desconegut.\p"
-    .string "Planem explorar la caverna\n"
+    .string "Tenim previst explorar la cova\n"
     .string "prop de Cerúlia.\p"
     .string "De: Equip de Recerca Pokémon…$"
 

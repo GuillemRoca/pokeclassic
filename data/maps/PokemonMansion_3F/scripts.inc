@@ -31,7 +31,7 @@ PokemonMansion_3F_EventScript_Braydon::
 	end
 
 PokemonMansion_1F_Text_SimonIntro::
-    .string "Aquest lloc és, com, enorme!$"
+    .string "Aquest lloc és, o sigui, enorme!$"
 
 PokemonMansion_1F_Text_SimonDefeat::
     .string "Ai!$"
@@ -47,13 +47,13 @@ PokemonMansion_1F_Text_BraydonDefeat::
     .string "Aclaparant!$"
 
 PokemonMansion_1F_Text_BraydonPostBattle::
-    .string "Estàs encallat?\n"
+    .string "Estàs {MASC}encallat{FEM}encallada{ENDG}?\n"
     .string "Prova de saltar per allà!$"
 
 PokemonMansion_1F_Text_MewGaveBirthToMewtwo::
     .string "Diari: 6 de febrer\n"
     .string "Mew ha donat a llum.\p"
-    .string "Hem batejat el nadó com a Mewtwo.$"
+    .string "Al nadó li hem posat Mewtwo.$"
 
 PokemonMansion_3F_EventScript_ItemMaxPotion::
 	finditem ITEM_MAX_POTION, 1

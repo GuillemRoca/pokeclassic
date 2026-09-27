@@ -113,16 +113,16 @@ BattleFrontier_Lounge2_EventScript_TriathleteF::
 BattleFrontier_Lounge2_Text_FrontierManiacIntro::
 	.string "Hola! Pel que fa a notícies sobre\n"
 	.string "la Frontera de Combat, sóc el nº 1.\p"
-	.string "Pots pensar en mi com\n"
+	.string "Pots dir-me\n"
 	.string "el Fanàtic de la Frontera.\p"
-	.string "Només per confirmar, ets Entrenador/a,\n"
-	.string "oi?\p"
-	.string "Encantadíssim de compartir les últimes\n"
-	.string "notícies de la Frontera de Combat.$"
+	.string "Només per confirmar: ets\n"
+	.string "{MASC}Entrenador{FEM}Entrenadora{ENDG}, oi?\p"
+	.string "Et contaré encantat les notícies\n"
+	.string "més fresques de la Frontera de Combat.$"
 
 BattleFrontier_Lounge2_Text_SwingByForTheLatestWord::
-	.string "Hola! Has vingut a treure'm les\n"
-	.string "últimes notícies? D'acord!$"
+	.string "Hola! Has vingut a sonsacar-me les\n"
+	.string "últimes notícies? D'acord, d'acord!$"
 
 @ Unused
 BattleFrontier_Lounge2_Text_MyInformationsBeenUsefulRight::
@@ -137,16 +137,16 @@ BattleFrontier_Lounge2_Text_FacilityIsHottest::
 
 BattleFrontier_Lounge2_Text_BattleTowerIsHottest::
 	.string "A veure…\p"
-	.string "Sembla que la Torre de Combat\n"
-	.string "{STR_VAR_1} és el més popular.$"
+	.string "Sembla que la modalitat {STR_VAR_1}\n"
+	.string "de la Torre de Combat és la més popular.$"
 
 BattleFrontier_Lounge2_Text_SalonMaidenIsThere::
 	.string "Segur que no ho sabies!\p"
 	.string "Un dels Entrenadors d'elit que\n"
 	.string "l'Scott anomena Cervells de la\l"
 	.string "Frontera és allà.\p"
-	.string "És una Entrenadora misteriosa\n"
-	.string "anomenada la Dama del Saló.$"
+	.string "Qui hi mana és una Entrenadora\n"
+	.string "misteriosa: la Dama del Saló.$"
 
 BattleFrontier_Lounge2_Text_SalonMaidenSilverMons::
 	.string "Has combatut contra la Dama del Saló?\p"
@@ -158,7 +158,7 @@ BattleFrontier_Lounge2_Text_SalonMaidenSilverMons::
 
 BattleFrontier_Lounge2_Text_SalonMaidenGoldMons::
 	.string "Has combatut contra la Dama del Saló\n"
-	.string "quan va de seriós?\p"
+	.string "quan va de debò?\p"
 	.string "Quan combat a fons,\n"
 	.string "sembla que usa aquests Pokémon:\p"
 	.string "Un Pokémon Eó de tipus Drac/Psíquic,\n"
@@ -170,8 +170,8 @@ BattleFrontier_Lounge2_Text_DomeAceIsThere::
 	.string "Un dels Entrenadors d'elit que\n"
 	.string "l'Scott anomena Cervells de la\l"
 	.string "Frontera és allà.\p"
-	.string "És un Entrenador flamenc\n"
-	.string "anomenat l'As del Domo.$"
+	.string "Qui hi mana és un Entrenador\n"
+	.string "extravagant: l'As del Domo.$"
 
 BattleFrontier_Lounge2_Text_DomeAceSilverMons::
 	.string "Has combatut contra l'As del Domo?\p"
@@ -183,7 +183,7 @@ BattleFrontier_Lounge2_Text_DomeAceSilverMons::
 
 BattleFrontier_Lounge2_Text_DomeAceGoldMons::
 	.string "Has combatut contra l'As del Domo\n"
-	.string "quan va de seriós?\p"
+	.string "quan va de debò?\p"
 	.string "Quan demostra la seva estratègia,\n"
 	.string "usa aquests tres Pokémon:\p"
 	.string "Un Pokémon Eó de tipus Drac/Volador,\n"
@@ -196,8 +196,8 @@ BattleFrontier_Lounge2_Text_FactoryHeadIsThere::
 	.string "Un dels Entrenadors d'elit que\n"
 	.string "l'Scott anomena Cervells de la\l"
 	.string "Frontera és allà.\p"
-	.string "És un Entrenador estrany\n"
-	.string "anomenat el Cap de la Fàbrica.$"
+	.string "Qui hi mana és un Entrenador\n"
+	.string "estrafolari: el Cap de la Fàbrica.$"
 
 BattleFrontier_Lounge2_Text_FactoryHeadSilverMons::
 	.string "Has combatut contra el Cap de la\n"
@@ -209,7 +209,7 @@ BattleFrontier_Lounge2_Text_FactoryHeadSilverMons::
 
 BattleFrontier_Lounge2_Text_FactoryHeadGoldMons::
 	.string "Has combatut contra el Cap de la\n"
-	.string "Fàbrica quan va de seriós?\p"
+	.string "Fàbrica quan va de debò?\p"
 	.string "Quan combat seriosament,\n"
 	.string "segueix agafant tres Pokémon de lloguer.\p"
 	.string "Combat en virtualment les mateixes\n"
@@ -220,8 +220,8 @@ BattleFrontier_Lounge2_Text_PikeQueenIsThere::
 	.string "Un dels Entrenadors d'elit que\n"
 	.string "l'Scott anomena Cervells de la\l"
 	.string "Frontera és allà.\p"
-	.string "És una Entrenadora temible\n"
-	.string "anomenada la Reina de la Llança.$"
+	.string "Qui hi mana és una Entrenadora\n"
+	.string "temible: la Reina de la Llança.$"
 
 BattleFrontier_Lounge2_Text_PikeQueenSilverMons::
 	.string "Has combatut contra la Reina de la\n"
@@ -234,7 +234,7 @@ BattleFrontier_Lounge2_Text_PikeQueenSilverMons::
 
 BattleFrontier_Lounge2_Text_PikeQueenGoldMons::
 	.string "Has combatut contra la Reina de la\n"
-	.string "Llança quan va de seriós?\p"
+	.string "Llança quan va de debò?\p"
 	.string "Quan està molt molesta, diuen que\n"
 	.string "usa aquests tres Pokémon:\p"
 	.string "Un Pokémon Serp Ullal de tipus Verí,\n"
@@ -247,8 +247,8 @@ BattleFrontier_Lounge2_Text_ArenaTycoonIsThere::
 	.string "Un dels Entrenadors d'elit que\n"
 	.string "l'Scott anomena Cervells de la\l"
 	.string "Frontera és allà.\p"
-	.string "És una Entrenadora encantadora\n"
-	.string "anomenada el Magnat de l'Arena.$"
+	.string "Qui hi mana és una Entrenadora\n"
+	.string "molt maca: el Magnat de l'Arena.$"
 
 BattleFrontier_Lounge2_Text_ArenaTycoonSilverMons::
 	.string "Has combatut contra el Magnat de\n"
@@ -261,7 +261,7 @@ BattleFrontier_Lounge2_Text_ArenaTycoonSilverMons::
 
 BattleFrontier_Lounge2_Text_ArenaTycoonGoldMons::
 	.string "Has combatut contra el Magnat de\n"
-	.string "l'Arena quan va de seriós?\p"
+	.string "l'Arena quan va de debò?\p"
 	.string "Quan combat de debò,\n"
 	.string "sembla que usa aquests Pokémon:\p"
 	.string "Un Pokémon Lluna de tipus Fosc,\n"
@@ -274,23 +274,23 @@ BattleFrontier_Lounge2_Text_PalaceMavenIsThere::
 	.string "Un dels Entrenadors d'elit que\n"
 	.string "l'Scott anomena Cervells de la\l"
 	.string "Frontera és allà.\p"
-	.string "És un Entrenador sinistre\n"
-	.string "anomenat el Mestre del Palau.$"
+	.string "Qui hi mana és un Entrenador\n"
+	.string "sinistre: el Mestre del Palau.$"
 
 BattleFrontier_Lounge2_Text_PalaceMavenSilverMons::
 	.string "Has combatut contra el Mestre del\n"
 	.string "Palau?\p"
 	.string "Quan posa a prova l'esperit de\n"
-	.string "l'oponent, diuen que usa aquests:\p"
+	.string "l'oponent, diuen que usa aquests Pokémon:\p"
 	.string "Un Pokémon Rat Penat de Verí/Volador,\n"
 	.string "un Pokémon Gandul de tipus Normal, i\l"
 	.string "un Pokémon Transport d'Aigua/Gel.$"
 
 BattleFrontier_Lounge2_Text_PalaceMavenGoldMons::
 	.string "Has combatut contra el Mestre del\n"
-	.string "Palau quan va de seriós?\p"
-	.string "Quan llança tota la seva força al\n"
-	.string "combat, diuen que usa aquests:\p"
+	.string "Palau quan va de debò?\p"
+	.string "Quan hi posa tota la seva força,\n"
+	.string "diuen que usa aquests Pokémon:\p"
 	.string "Un Pokémon Llegendari de tipus Foc,\n"
 	.string "un Pokémon Gandul de tipus Normal,\l"
 	.string "i un Pokémon Aurora de tipus Aigua.$"
@@ -300,8 +300,8 @@ BattleFrontier_Lounge2_Text_PyramidKingIsThere::
 	.string "Un dels Entrenadors d'elit que\n"
 	.string "l'Scott anomena Cervells de la\l"
 	.string "Frontera és allà.\p"
-	.string "És un Entrenador apassionat\n"
-	.string "anomenat el Rei de la Piràmide.$"
+	.string "Qui hi mana és un Entrenador\n"
+	.string "fogós: el Rei de la Piràmide.$"
 
 BattleFrontier_Lounge2_Text_PyramidKingSilverMons::
 	.string "Has combatut contra el Rei de la\n"
@@ -314,7 +314,7 @@ BattleFrontier_Lounge2_Text_PyramidKingSilverMons::
 
 BattleFrontier_Lounge2_Text_PyramidKingGoldMons::
 	.string "Has combatut contra el Rei de la\n"
-	.string "Piràmide quan va de seriós?\p"
+	.string "Piràmide quan va de debò?\p"
 	.string "Quan està carregat de poder,\n"
 	.string "sembla que usa aquests Pokémon:\p"
 	.string "Un Pokémon Congelació de Gel/Volador,\n"
@@ -332,10 +332,10 @@ BattleFrontier_Lounge2_Text_DoubleBattleAdvice1::
 	.string "a la Frontera de Combat.$"
 
 BattleFrontier_Lounge2_Text_DoubleBattleAdvice2::
-	.string "Vigila en els combats d'aquí.\p"
+	.string "Vés amb compte en els combats d'aquí.\p"
 	.string "He sentit que hi ha Entrenadors amb\n"
-	.string "estratègies desenvolupades just per\l"
-	.string "als Combats Dobles.$"
+	.string "estratègies pensades expressament\l"
+	.string "per als Combats Dobles.$"
 
 BattleFrontier_Lounge2_Text_DoubleBattleAdvice3::
 	.string "Un cop tinguis confiança amb els\n"
@@ -348,16 +348,16 @@ BattleFrontier_Lounge2_Text_MultiBattleAdvice::
 	.string "al Saló de Combat.\p"
 	.string "Pensa-hi: podries trobar-te amb\n"
 	.string "els teus amics o seguidors!\l"
-	.string "Hauries de mirar bé!$"
+	.string "Estigues a l'aguait!$"
 
 BattleFrontier_Lounge2_Text_LinkMultiBattleAdvice::
 	.string "Si vas amb un amic, dirigeix-te a la\n"
-	.string "Sala de Combat Múltiple per Link.\p"
+	.string "Sala de Combat Múltiple per Enllaç.\p"
 	.string "Si jugues amb un amic fort,\n"
-	.string "pots esperar enemics difícils!$"
+	.string "segur que trobaràs rivals molt durs!$"
 
 BattleFrontier_Lounge2_Text_NewsGatheringPower::
-	.string "Quin poder de recopilació de notícies!\n"
+	.string "Quina capacitat per trobar notícies!\n"
 	.string "El meu mentor és únic!$"
 
 BattleFrontier_Lounge2_Text_AmazingPowersOfObservation::

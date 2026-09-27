@@ -49,7 +49,7 @@ SilphCo_10F_EventScript_Grunt::
 	end
 
 SilphCo_10F_Text_GruntIntro::
-    .string "Benvingut al pis 10!\n"
+    .string "{MASC}Benvingut{FEM}Benvinguda{ENDG} al pis 10!\n"
     .string "Quina gentilesa de venir!$"
 
 SilphCo_10F_Text_GruntDefeat::
@@ -63,10 +63,10 @@ SilphCo_10F_Text_TravisIntro::
     .string "N'hi ha prou dels teus jocs!$"
 
 SilphCo_10F_Text_TravisDefeat::
-    .string "No queden continues!$"
+    .string "No em queden més vides!$"
 
 SilphCo_10F_Text_TravisPostBattle::
-    .string "Estàs satisfet amb guanyar-me?\n"
+    .string "Estàs {MASC}satisfet{FEM}satisfeta{ENDG} d'haver-me guanyat?\n"
     .string "Doncs vés-te'n a casa!$"
 
 SilphCo_10F_Text_WaaaImScared::

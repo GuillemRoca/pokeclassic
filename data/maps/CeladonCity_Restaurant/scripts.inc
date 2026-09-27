@@ -37,14 +37,14 @@ CeladonCity_Restaurant_EventScript_CoinCaseMan::
 CeladonCity_Restaurant_Text_TakeThisImBusted::
     .string "Endavant! Riu-te'n!\n"
     .string "Estic completament arruïnat!\p"
-    .string "S'han acabat les slots per a mi!\n"
+    .string "Prou escurabutxaques per a mi!\n"
     .string "Seguiré el bon camí!\p"
     .string "Té!\n"
     .string "Ja no necessitaré més això!$"
 
 CeladonCity_Restaurant_Text_ReceivedCoinCaseFromMan::
-    .string "{PLAYER} ha rebut un Estoig de\n"
-    .string "Monedes de l'home.$"
+    .string "{PLAYER} ha rebut un Moneder\n"
+    .string "de l'home.$"
 
 CeladonCity_Restaurant_EventScript_NoRoomForCoinCase::
 	msgbox CeladonCity_Restaurant_Text_MakeRoomForThis
@@ -79,4 +79,4 @@ CeladonCity_Restaurant_EventScript_FatMan::
 CeladonCity_Restaurant_Text_ManLostItAllAtSlots::
     .string "Nyam…\p"
     .string "L'home d'aquella taula s'ho ha\n"
-    .string "jugat tot a les slots.$"
+    .string "jugat tot a les escurabutxaques.$"

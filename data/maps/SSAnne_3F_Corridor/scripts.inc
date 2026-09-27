@@ -7,6 +7,6 @@ SSAnne_3F_Corridor_EventScript_Sailor::
 
 SSAnne_3F_Corridor_Text_CaptainTeachesCutToMons::
     .string "El nostre Capità és un mestre de\n"
-    .string "l'espasa. És genial amb el tall.\p"
+    .string "l'espasa. És un crac usant Tall.\p"
     .string "Diuen que fins i tot ensenya\n"
-    .string "tall als Pokémon!$"
+    .string "Tall als Pokémon!$"

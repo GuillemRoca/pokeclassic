@@ -809,7 +809,7 @@ CinnabarIsland_Gym_Text_LeaderSpeech::
 
 CinnabarIsland_Gym_Text_LeaderIntro::
     .string "Ha!\n"
-    .string "Més val que portis Anticremada!$"
+    .string "Més val que portis Cura Cremades!$"
 
 CinnabarIsland_Gym_Text_LeaderDefeat::
     .string "M'he cremat fins a les cendres!$"
@@ -872,7 +872,7 @@ CinnabarIsland_Gym_EventScript_NoRoomForTM::
 	end
 
 CinnabarIsland_Gym_Text_NoRoomForTM::
-    .string "Fes espai per a això, nen!$"
+    .string "Fes espai per a això, {MASC}nen{FEM}nena{ENDG}!$"
 
 CinnabarIsland_Gym_EventScript_LeaderPostBattle::
 	lock
@@ -904,13 +904,13 @@ CinnabarIsland_Gym_EventScript_RematchLeader::
 	end
 
 CinnabarIsland_Gym_Text_RematchLeader::
-	.string "Ha! Ben fet, tornar al meu Gimnàs!\p"
+	.string "Ha! Has fet bé de tornar al meu Gimnàs!\p"
 	.string "Has explorat la Mansió Pokémon?\p"
 	.string "Has vist alguna cosa interessant\n"
 	.string "allà dins?\p"
 	.string "Aquell lloc encara guarda restes\n"
 	.string "de la investigació del meu amic!\p"
-	.string "Més important, ja que has vingut\n"
+	.string "I sobretot, ja que has vingut\n"
 	.string "fins aquí, hauríem de lluitar! Ha!$"
 
 CinnabarIsland_Gym_EventScript_DeclineRematch::
@@ -928,7 +928,7 @@ CinnabarIsland_Gym_EventScript_PostgameRematch::
 	end
 
 CinnabarIsland_Gym_Text_RematchMode::
-	.string "Ara que ets el campió,\n"
+	.string "Ara que ets {MASC}el campió{FEM}la campiona{ENDG},\n"
 	.string "vols anar amb tot?$"
 
 CinnabarIsland_Gym_EventScript_LeaderRematch_OriginalTeam::
@@ -960,12 +960,12 @@ CinnabarIsland_Gym_Text_RematchDefeat::
 
 CinnabarIsland_Gym_Text_GymGuyAdvice::
     .string "Ei!\n"
-    .string "Futur campió!\p"
+    .string "{MASC}Futur campió{FEM}Futura campiona{ENDG}!\p"
     .string "En Blaine, el de cap calent, és\n"
     .string "un pro dels Pokémon de Foc.\p"
     .string "Apaga els seus ànims amb aigua!\p"
-    .string "Millor que portis\n"
-    .string "Anticremades.$"
+    .string "També et convé portar\n"
+    .string "Cura Cremades.$"
 
 CinnabarIsland_Gym_Text_GymGuyPostVictory::
     .string "{PLAYER}!\n"
@@ -995,7 +995,7 @@ CinnabarIsland_Gym_Text_PokemonQuizRules::
     .string "Som-hi!$"
 
 CinnabarIsland_Gym_Text_QuizQuestion1::
-    .string "Caterpie evoluciona a Metapod?$"
+    .string "Caterpie evoluciona en Metapod?$"
 
 CinnabarIsland_Gym_Text_QuizQuestion2::
     .string "Hi ha nou Medalles certificades\n"

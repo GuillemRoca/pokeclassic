@@ -29,7 +29,7 @@ SilphCo_2F_Text_ConnorDefeat::
     .string "un Rocket?$"
 
 SilphCo_2F_Text_ConnorPostBattle::
-    .string "Treballo per Silph i per l'Equip\n"
+    .string "Treballo per a Silph i per a l'Equip\n"
     .string "Rocket alhora.$"
 
 SilphCo_2F_EventScript_Jerry::
@@ -42,7 +42,7 @@ SilphCo_2F_Text_JerryIntro::
     .string "Vés-te'n a casa!$"
 
 SilphCo_2F_Text_JerryDefeat::
-    .string "Ets bo.$"
+    .string "Ets {MASC}bo{FEM}bona{ENDG}.$"
 
 SilphCo_2F_Text_JerryPostBattle::
     .string "Pots resoldre el laberint d'aquí?\n"
@@ -57,7 +57,7 @@ SilphCo_2F_Text_Grunt1Intro::
     .string "No es deixen entrar nens aquí!$"
 
 SilphCo_2F_Text_Grunt1Defeat::
-    .string "Dur!$"
+    .string "Ets {MASC}dur{FEM}dura{ENDG}!$"
 
 SilphCo_2F_Text_Grunt1PostBattle::
     .string "Les rajoles en forma de diamant\n"
@@ -71,7 +71,7 @@ SilphCo_2F_EventScript_Grunt2::
 	end
 
 SilphCo_2F_Text_Grunt2Intro::
-    .string "Ei, nen!\n"
+    .string "Ei, {MASC}nen{FEM}nena{ENDG}!\n"
     .string "Què fas voltant per aquí?$"
 
 SilphCo_2F_Text_Grunt2Defeat::

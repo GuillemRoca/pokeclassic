@@ -19,7 +19,7 @@ Route14_EventScript_RouteSign::
 
 Route14_Text_RouteSign::
     .string "Ruta 14\n"
-    .string "Oest cap a Ciutat Fúcsia$"
+    .string "A l'oest: Ciutat Fúcsia$"
 
 Route14_EventScript_Malik::
 	trainerbattle_single TRAINER_BIKER_MALIK, Route14_Text_MalikIntro, Route14_Text_MalikDefeat
@@ -62,7 +62,7 @@ Route14_EventScript_Isaac::
 
 Route14_Text_IsaacIntro::
     .string "Necessito matar el temps.\n"
-    .string "Calla i combateix.$"
+    .string "Calla i lluita.$"
 
 Route14_Text_IsaacDefeat::
     .string "Què?\n"
@@ -77,8 +77,8 @@ Route14_EventScript_Gerald::
 	end
 
 Route14_Text_GeraldIntro::
-    .string "Circulem per aquí per l'espai\n"
-    .string "obert.$"
+    .string "Venim a córrer per aquí perquè\n"
+    .string "hi ha molt d'espai obert.$"
 
 Route14_Text_GeraldDefeat::
     .string "Patacada!$"
@@ -130,16 +130,16 @@ Route14_EventScript_Carter::
 	end
 
 Route14_Text_CarterIntro::
-    .string "Has de fer servir MTs per\n"
+    .string "Has de fer servir MT per\n"
     .string "ensenyar bons moviments.$"
 
 Route14_Text_CarterDefeat::
     .string "Encara no n'hi ha prou.$"
 
 Route14_Text_CarterPostBattle::
-    .string "Tens MOs, oi? Els Pokémon no\n"
-    .string "oblidaran aquells moviments\l"
-    .string "fàcilment.$"
+    .string "Tens MO, oi? Els Pokémon no poden\n"
+    .string "oblidar fàcilment aquests\l"
+    .string "moviments.$"
 
 
 Route14_EventScript_Mitch::
@@ -164,10 +164,10 @@ Route14_EventScript_Beck::
 	end
 
 Route14_Text_BeckIntro::
-    .string "Venen MTs als Grans Magatzems\n"
+    .string "Venen MT als Grans Magatzems\n"
     .string "de Celadó.\p"
-    .string "Les MTs no són tan rares, però\n"
-    .string "poca gent té MOs.$"
+    .string "Les MT no són tan rares, però\n"
+    .string "poca gent té MO.$"
 
 Route14_Text_BeckDefeat::
     .string "Ai, quina ràbia!$"
@@ -175,8 +175,8 @@ Route14_Text_BeckDefeat::
 Route14_Text_BeckPostBattle::
     .string "Prova d'ensenyar al Pokémon un\n"
     .string "moviment del seu mateix tipus.\p"
-    .string "Això augmenta la potència\n"
-    .string "del moviment.$"
+    .string "Sembla que això augmenta la\n"
+    .string "potència del moviment.$"
 
 
 Route14_EventScript_Marlon::

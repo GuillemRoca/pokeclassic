@@ -15,7 +15,7 @@ ShoalCave_LowTideEntranceRoom_Text_BringMe4ShoalSaltAndShells:
 
 ShoalCave_LowTideEntranceRoom_Text_WouldYouLikeShellBell:
 	.string "Oh, ei! Sal Shoal i Closques Shoal!\n"
-	.string "I prou, a més!\p"
+	.string "I en tens prou, a més!\p"
 	.string "Vols que et faci\n"
 	.string "un Campanet Closca?$"
 
@@ -42,7 +42,7 @@ ShoalCave_LowTideEntranceRoom_Text_NoSpaceInYourBag:
 	.string "No tens espai a la Motxilla\n"
 	.string "si te'l faig ara.\p"
 	.string "Hauries de fer espai i tornar\n"
-	.string "per un Campanet Closca.$"
+	.string "a buscar un Campanet Closca.$"
 
 ShoalCave_Text_WasShoalSaltNowNothing:
 	.string "Aquí hi havia Sal Shoal.\n"

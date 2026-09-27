@@ -304,7 +304,7 @@ TrainerHill_Entrance_Text_StillGettingReady:
 	.string "Torna més tard, si us plau!$"
 
 TrainerHill_Entrance_Text_WelcomeToTrainerHill:
-	.string "Benvingut!\p"
+	.string "{MASC}Benvingut{FEM}Benvinguda{ENDG}!\p"
 	.string "Aquest és el Turó dels Entrenadors,\n"
 	.string "on pots gaudir de combats per\l"
 	.string "parelles amb molts Entrenadors!$"
@@ -366,7 +366,7 @@ TrainerHill_Entrance_Text_ExplainTrainerHill:
 	.string "trigues a arribar al propietari\l"
 	.string "al terrat des d'aquest taulell.\p"
 	.string "Els millors temps es publiquen al\n"
-	.string "Tauler de Temps. Prova a competir\l"
+	.string "Tauler de Temps. Prova de competir\l"
 	.string "amb els teus amics.\p"
 	.string "En els combats pel camí, no es\n"
 	.string "donaran ni Punts d'Exp. ni diners.$"
@@ -376,7 +376,7 @@ TrainerHill_Entrance_Text_NeedAtLeastTwoPokemon:
 	.string "Oh, ho sento, però sembla que\n"
 	.string "només tens un Pokémon amb tu.\p"
 	.string "Necessitaràs almenys dos Pokémon\n"
-	.string "per participar en aquest event.$"
+	.string "per participar en aquest esdeveniment.$"
 
 TrainerHill_Roof_Text_YouFinallyCameBravo:
 	.string "Hm! Hm!\p"
@@ -384,7 +384,7 @@ TrainerHill_Roof_Text_YouFinallyCameBravo:
 	.string "Sí, has arribat!\p"
 	.string "Espera! No ho diguis!\n"
 	.string "Sé per què has vingut fins aquí\l"
-	.string "tu sol!\p"
+	.string "tu {MASC}sol{FEM}sola{ENDG}!\p"
 	.string "Volies veure'm a mi, el propietari\n"
 	.string "del Turó dels Entrenadors,\l"
 	.string "perquè…\p"
@@ -414,7 +414,7 @@ TrainerHill_Roof_Text_GotHereMarvelouslyQuickly:
 
 TrainerHill_Roof_Text_YouWerentVeryQuick:
 	.string "Però, oh…\n"
-	.string "No has estat gaire ràpid.$"
+	.string "No has estat gaire {MASC}ràpid{FEM}ràpida{ENDG}.$"
 
 TrainerHill_Roof_Text_ArriveZippierNextTime:
 	.string "Potser m'agradaria més si\n"
@@ -422,7 +422,7 @@ TrainerHill_Roof_Text_ArriveZippierNextTime:
 	.string "cop.\p"
 	.string "Aleshores, estaré encantat de\n"
 	.string "formar equip amb tu!\p"
-	.string "Fins que ens retrobem, amic!$"
+	.string "Fins que ens retrobem, {MASC}amic{FEM}amiga{ENDG}!$"
 
 @ Unused
 TrainerHill_Roof_Text_BuiltTrainerHillToFindPartner:
@@ -443,7 +443,7 @@ TrainerHill_Entrance_Text_WhatSortOfTrainersAreAhead:
 TrainerHill_Entrance_Text_CantWaitToTestTheWaters:
 	.string "He sentit que Entrenadors forts\n"
 	.string "vénen a aquest Turó d'arreu.\p"
-	.string "No puc esperar per provar sort!\p"
+	.string "Tinc moltes ganes de provar sort!\p"
 	.string "Atuiré qualsevol que se'm posi\n"
 	.string "al davant!$"
 

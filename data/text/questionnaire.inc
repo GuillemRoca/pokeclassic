@@ -5,30 +5,31 @@ Questionnaire_Text_FillOut::
 Questionnaire_Text_ThankYou::
 	.string "Gràcies per prendre't el temps\n"
 	.string "d'emplenar el nostre qüestionari.\p"
-	.string "Els teus comentaris seran\n"
-	.string "considerats en el futur.$"
+	.string "Tindrem en compte els teus\n"
+	.string "comentaris en el futur.$"
 
 Questionnaire_Text_YouKnowThoseWordsGift::
 	.string "Oh, hola!\n"
 	.string "Coneixes aquestes paraules?\p"
-	.string "Llavors deus saber del\n"
-	.string "Regal Misteriós.\p"
+	.string "Això vol dir que deus conèixer\n"
+	.string "el Regal Misteriós.\p"
 	.string "A partir d'ara, hauries de\n"
 	.string "rebre Regals Misteriosos!$"
 
 Questionnaire_Text_YouCanAccessMysteryGift::
-	.string "Un cop desats el joc, podràs\n"
-	.string "accedir al Regal Misteriós.$"
+	.string "Quan hagis desat la partida,\n"
+	.string "podràs accedir al Regal Misteriós.$"
 
 Questionnaire_Text_YouKnowThoseWordsEvent::
 	.string "Oh, hola!\n"
 	.string "Coneixes aquestes paraules?\p"
-	.string "Llavors deus saber de\n"
+	.string "Això vol dir que deus conèixer\n"
 	.string "l'Esdeveniment Misteriós.$"
 
 Questionnaire_Text_YouCanAccessMysteryEvent::
-	.string "Un cop desats el joc, podràs\n"
-	.string "accedir a l'Esdeveniment Misteriós.$"
+	.string "Quan hagis desat la partida,\n"
+	.string "podràs accedir a l'Esdeveniment\l"
+	.string "Misteriós.$"
 
 MysteryGift_Text_TheresATicketForYou::
 	.string "Gràcies per usar el Sistema\n"

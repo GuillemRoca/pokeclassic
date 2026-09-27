@@ -20,7 +20,7 @@ Route10_EventScript_NorthRockTunnelSign::
 
 Route10_Text_RockTunnelDetourToLavender::
     .string "Túnel Rocós\n"
-    .string "Drecera a Poble Lavanda$"
+    .string "Desviament cap a Poble Lavanda$"
 
 Route10_EventScript_SouthRockTunnelSign::
 	msgbox Route10_Text_RockTunnel, MSGBOX_SIGN
@@ -46,7 +46,7 @@ Route10_EventScript_Mark::
 
 Route10_Text_MarkIntro::
     .string "Uau, has vingut fins aquí?\n"
-    .string "Potser també ets un PokéManíac?\l"
+    .string "Potser també ets {MASC}un PokéManíac{FEM}una PokéManíaca{ENDG}?\l"
     .string "Vols veure la meva col·lecció?$"
 
 Route10_Text_MarkDefeat::
@@ -79,7 +79,7 @@ Route10_Text_MarkRematchIntro::
 	.string "Deixa que te'ls ensenyi!$"
 
 Route10_Text_MarkRematchPostBattle::
-	.string "Tu sí que ets un PokéManíac!$"
+	.string "Tu sí que ets {MASC}un PokéManíac{FEM}una PokéManíaca{ENDG}!$"
 
 
 Route10_EventScript_Herman::
@@ -88,7 +88,7 @@ Route10_EventScript_Herman::
 	end
 
 Route10_Text_HermanIntro::
-    .string "Ei, nano!\n"
+    .string "Ei, {MASC}nano{FEM}nena{ENDG}!\n"
     .string "Vols veure els meus Pokémon?$"
 
 Route10_Text_HermanDefeat::
@@ -115,7 +115,7 @@ Route10_Text_HeidiDefeat::
 
 Route10_Text_HeidiPostBattle::
     .string "He vist uns PokéManíacs\n"
-    .string "per aquí.\p"
+    .string "rondant per aquí.\p"
     .string "T'ho pots imaginar? Ells?\n"
     .string "Aquí dalt a la muntanya?$"
 
@@ -136,7 +136,7 @@ Route10_Text_CarolPostBattle::
     .string "Els Pokémon d'aquí la muntanya\n"
     .string "són tan rodanxons…\p"
     .string "M'agradaria que hi hagués\n"
-    .string "Pokémon roses amb flors!$"
+    .string "Pokémon roses amb estampat de flors!$"
 
 Route10_EventScript_Clark::
 	trainerbattle_single TRAINER_HIKER_CLARK, Route10_Text_ClarkIntro, Route10_Text_ClarkDefeat
@@ -149,7 +149,7 @@ Route10_Text_ClarkIntro::
 Route10_Text_ClarkDefeat::
     .string "Ha-haha!\n"
     .string "No ric!\l"
-    .string "Ha-hay al·lèrgia! Haha-ha-txís!$"
+    .string "Ha-hal·lèrgia al pol·len! Haha-ha-txís!$"
 
 Route10_Text_ClarkPostBattle::
     .string "Haha-ha-txís!\n"

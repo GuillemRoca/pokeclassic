@@ -78,7 +78,7 @@ FossilResurrection_HasAmber::
 	end
 
 FossilResurrection_Text_WantToTryOldAmber::
-	.string "Tens Ambre Antic!\p"
+	.string "Tens un Ambre Vell!\p"
 	.string "Vols intentar ressuscitar un\n"
 	.string "Pokémon de l'ADN que conté?$"
 
@@ -157,7 +157,7 @@ FossilResurrection_HasAmberHelixDome::
 	end
 
 FossilResurrection_Text_WhichFossil::
-	.string "Oh! Tens múltiples fòssils!\p"
+	.string "Oh! Tens diversos fòssils!\p"
 	.string "Quin Fòssil vols\n"
 	.string "ressuscitar?$"
 
@@ -345,14 +345,14 @@ FossilResurrection_Finish::
 	end
 
 Text_FossilMonBackToLife::
-    .string "Aquí ets!\n"
+    .string "Aquí el tens!\n"
     .string "L'experiment ha acabat, i\p"
     .string "el teu fòssil ha tornat a la vida!\n"
     .string "Hem ressuscitat {STR_VAR_2}!$"
 
 Text_ReceivedMonFromResearcher:
-	.string "{PLAYER} ha rebut {STR_VAR_2} del\n"
-	.string "Investigador.$"
+	.string "{PLAYER} ha rebut {STR_VAR_2} de\n"
+	.string "l'Investigador.$"
 
 CinnabarIsland_PokemonLab_ExperimentRoom_EventScript_Garett::
 	lock

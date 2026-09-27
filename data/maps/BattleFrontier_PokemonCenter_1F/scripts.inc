@@ -42,8 +42,8 @@ BattleFrontier_PokemonCenter_1F_EventScript_Skitty::
 BattleFrontier_PokemonCenter_1F_Text_NeverSeenPokemon:
 	.string "Hi havia algú aquí usant un\n"
 	.string "Pokémon que no havia vist mai.\p"
-	.string "No el vaig aprendre a l'Escola\n"
-	.string "d'Entrenadors, almenys.\p"
+	.string "Almenys, a l'Escola d'Entrenadors\n"
+	.string "no me'n van parlar mai.\p"
 	.string "Em pregunto on es poden capturar\n"
 	.string "Pokémon així.$"
 
@@ -53,7 +53,7 @@ BattleFrontier_PokemonCenter_1F_Text_NextStopBattleArena:
 	.string "adequats del Sistema de PC.$"
 
 BattleFrontier_PokemonCenter_1F_Text_GoingThroughEveryChallenge:
-	.string "Ji ji… Passaré tots els reptes\n"
+	.string "Ji ji… Superaré tots els reptes\n"
 	.string "només amb aquest petit!$"
 
 BattleFrontier_PokemonCenter_1F_Text_Skitty:

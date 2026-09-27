@@ -8,7 +8,7 @@ SSAnne_Kitchen_EventScript_Chef1::
 SSAnne_Kitchen_Text_BusyOutOfTheWay::
     .string "Tu, mon petit!\n"
     .string "Estem molt ocupats aquí!\l"
-    .string "Fora del camí!$"
+    .string "Aparta't!$"
 
 SSAnne_Kitchen_EventScript_Chef2::
 	msgbox SSAnne_Kitchen_Text_SawOddBerryInTrash, MSGBOX_NPC
@@ -57,8 +57,8 @@ SSAnne_Kitchen_EventScript_EelsAuBarbecue::
 
 SSAnne_Kitchen_Text_EelsAuBarbecue::
     .string "Anguiles au Barbecue!\p"
-    .string "Les convidats es rebel·laran,\n"
-    .string "em temo.$"
+    .string "Tinc por que les convidats\n"
+    .string "es rebel·lin.$"
 
 SSAnne_Kitchen_EventScript_PrimeBeefsteak::
 	msgbox SSAnne_Kitchen_Text_PrimeBeefsteak

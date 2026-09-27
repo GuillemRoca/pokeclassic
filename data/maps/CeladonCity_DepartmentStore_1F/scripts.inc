@@ -6,7 +6,7 @@ CeladonCity_DepartmentStore_1F_EventScript_Receptionist::
 	end
 
 CeladonCity_DepartmentStore_1F_Text_WelcomeToDeptStore::
-    .string "Hola! Benvingut als Grans\n"
+    .string "Hola! {MASC}Benvingut{FEM}Benvinguda{ENDG} als Grans\n"
     .string "Magatzems de Celadó.\p"
     .string "El tauler de la dreta descriu\n"
     .string "la distribució de la botiga.$"

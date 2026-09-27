@@ -62,7 +62,7 @@ SafariZone_SecretHouse_EventScript_CheckDailyPrize::
 SafariZone_SecretHouse_Text_WinDailyPrize::
 	.string "Felicitats!\n"
     .string "Has arribat a la Casa Secreta-\p"
-    .string "Oh! Ei, ets el guanyador del\n"
+    .string "Oh! Ei, ets {MASC}el guanyador{FEM}la guanyadora{ENDG} del\n"
     .string "Gran Premi. Ja sabies el camí\l"
     .string "fins aquí, oi?\p"
     .string "Bé, encara pots optar al premi\n"

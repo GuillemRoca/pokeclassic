@@ -355,8 +355,8 @@ BattleFrontier_BattleArenaLobby_EventScript_ExitRules::
 BattleFrontier_BattleArenaLobby_Text_WelcomeToBattleArena:
 	.string "On l'esperit combatiu dels\n"
 	.string "Entrenadors es posa a prova!\p"
-	.string "Benvingut a l'Arena de Combat!\p"
-	.string "Sóc la teva guia al Torneig KO Fix!$"
+	.string "{MASC}Benvingut{FEM}Benvinguda{ENDG} a l'Arena de Combat!\p"
+	.string "Sóc la teva guia del Torneig KO!$"
 
 BattleFrontier_BattleArenaLobby_Text_WishToTakeChallenge:
 	.string "Vols acceptar el repte\n"
@@ -367,23 +367,23 @@ BattleFrontier_BattleArenaLobby_Text_AwaitAnotherChallenge:
 	.string "en una altra ocasió!$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainChallenge:
-	.string "A l'Arena de Combat, fem\n"
-	.string "el Torneig KO Fix.\p"
+	.string "A l'Arena de Combat, celebrem\n"
+	.string "el Torneig KO.\p"
 	.string "Tots els participants entren amb\n"
 	.string "un equip de tres Pokémon.\p"
-	.string "Els tres Pokémon s'han d'ordenar\n"
-	.string "en l'ordre en què han d'aparèixer.\p"
+	.string "Els tres Pokémon s'han de posar\n"
+	.string "en l'ordre en què sortiran.\p"
 	.string "Durant el combat, els Pokémon surten\n"
 	.string "d'un en un en l'ordre establert.\p"
 	.string "Un cop un Pokémon entra en combat,\n"
-	.string "ha de quedar-se fins que es decideixi.\p"
-	.string "Si un combat no es decideix en\n"
-	.string "tres torns, es va a judici.\p"
+	.string "no pot sortir fins al final del duel.\p"
+	.string "Si un duel no s'ha decidit en\n"
+	.string "tres torns, decideix l'Àrbitre.\p"
 	.string "Si vols interrompre el teu repte,\n"
 	.string "si us plau, desa la partida.\p"
-	.string "Si no deses, no podràs continuar\n"
+	.string "Si no la deses, no podràs continuar\n"
 	.string "amb el teu repte.\p"
-	.string "Si aconsegueixes la proesa de vèncer\n"
+	.string "Si aconsegueixes la proesa de guanyar\n"
 	.string "set Entrenadors seguits,\l"
 	.string "et donarem Punts de Combat.$"
 
@@ -401,28 +401,28 @@ BattleFrontier_BattleArenaLobby_Text_SelectThreeMons:
 	.string "tres Pokémon, si us plau.$"
 
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLvOpen:
-	.string "Estimat/da aspirant!\p"
+	.string "{MASC}Estimat{FEM}Estimada{ENDG} aspirant!\p"
 	.string "No tens els tres Pokémon\n"
 	.string "necessaris per entrar.\p"
-	.string "Per classificar-te, has de portar\n"
-	.string "tres Pokémon diferents.\p"
-	.string "Tampoc poden portar el mateix\n"
-	.string "tipus d'objectes.\p"
-	.string "Els Ous{STR_VAR_1} no són elegibles.\p"
+	.string "Per participar, has de portar\n"
+	.string "tres espècies de Pokémon diferents.\p"
+	.string "A més, no poden portar el mateix\n"
+	.string "tipus d'objecte.\p"
+	.string "Els Ous{STR_VAR_1} exclosos.\p"
 	.string "Quan hagis fet els preparatius,\n"
 	.string "si us plau, torna.$"
 
 BattleFrontier_BattleArenaLobby_Text_NotEnoughValidMonsLv50:
-	.string "Estimat/da aspirant!\p"
+	.string "{MASC}Estimat{FEM}Estimada{ENDG} aspirant!\p"
 	.string "No tens els tres Pokémon\n"
 	.string "necessaris per entrar.\p"
-	.string "Per classificar-te, has de portar\n"
-	.string "tres Pokémon diferents.\p"
+	.string "Per participar, has de portar\n"
+	.string "tres espècies de Pokémon diferents.\p"
 	.string "Els tres Pokémon diferents han\n"
 	.string "de ser de Nivell 50 o inferior.\p"
-	.string "Tampoc poden portar el mateix\n"
-	.string "tipus d'objectes.\p"
-	.string "els Ous{STR_VAR_1} no són elegibles.\p"
+	.string "A més, no poden portar el mateix\n"
+	.string "tipus d'objecte.\p"
+	.string "Els Ous{STR_VAR_1} exclosos.\p"
 	.string "Quan hagis fet els preparatius,\n"
 	.string "si us plau, torna.$"
 
@@ -431,14 +431,13 @@ BattleFrontier_BattleArenaLobby_Text_GuideYouToArena:
 	.string "l'Arena de Combat.$"
 
 BattleFrontier_BattleArenaLobby_Text_DidntSaveBeforeShuttingDown:
-	.string "Estimat/da aspirant!\p"
+	.string "{MASC}Estimat{FEM}Estimada{ENDG} aspirant!\p"
 	.string "No vas desar la partida abans\n"
 	.string "d'apagar, oi?\p"
-	.string "És una llàstima, però això ha\n"
-	.string "resultat en la teva desqualificació\l"
-	.string "del repte.\p"
-	.string "Pots, és clar, començar amb un\n"
-	.string "nou repte.$"
+	.string "És una llàstima, però per aquest\n"
+	.string "motiu has quedat fora del repte.\p"
+	.string "És clar que pots començar\n"
+	.string "un repte nou.$"
 
 BattleFrontier_BattleArenaLobby_Text_CongratsOnSevenWins:
 	.string "Et felicitem per la teva esplèndida\n"
@@ -481,8 +480,8 @@ BattleFrontier_BattleArenaLobby_Text_LookingForwardToArrivalSaveGame:
 	.string "Si us plau, espera.$"
 
 BattleFrontier_BattleArenaLobby_Text_RecordLastMatch:
-	.string "Vols que gravi el teu últim combat\n"
-	.string "de l'Arena al teu Passi de Frontera?$"
+	.string "Vols que enregistri el teu últim\n"
+	.string "combat de l'Arena al Passi de Frontera?$"
 
 BattleFrontier_BattleArenaLobby_Text_BadIdeaToNotAttack:
 	.string "Vaig perdre per decisió de l'Àrbitre…\p"
@@ -490,7 +489,7 @@ BattleFrontier_BattleArenaLobby_Text_BadIdeaToNotAttack:
 	.string "només moviments defensius i no atacar…$"
 
 BattleFrontier_BattleArenaLobby_Text_LandingHitsWorked:
-	.string "Vaig guanyar per judici!\p"
+	.string "Vaig guanyar per decisió de l'Àrbitre!\p"
 	.string "Colpejar constantment els\n"
 	.string "Pokémon de l'oponent va funcionar!$"
 
@@ -506,31 +505,31 @@ BattleFrontier_BattleArenaLobby_Text_OrderOfMonsImportant:
 	.string "Per exemple, si el teu primer Pokémon\n"
 	.string "té certs desavantatges de tipus,\l"
 	.string "intenta que el segon tingui\l"
-	.string "moviments supereficaços\l"
+	.string "moviments molt eficaços\l"
 	.string "contra el primer.\p"
 	.string "Crec que és una bona manera de\n"
 	.string "fer un equip eficaç.$"
 
 BattleFrontier_BattleArenaLobby_Text_RulesAreListed:
-	.string "Les regles del Torneig KO Fix.$"
+	.string "Aquí hi ha les regles del Torneig KO.$"
 
 BattleFrontier_BattleArenaLobby_Text_ReadWhichHeading:
 	.string "Quina secció vols llegir?$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainBattleRules:
-	.string "El Torneig KO Fix té regles especials,\n"
+	.string "El Torneig KO té regles especials,\n"
 	.string "a diferència dels combats normals.\p"
 	.string "Primer, un combat dura només\n"
 	.string "tres torns.\p"
-	.string "Si el resultat no es decideix en\n"
-	.string "tres torns, es va a judici.\p"
+	.string "Si el resultat no s'ha decidit en\n"
+	.string "tres torns, passa a judici.\p"
 	.string "L'Àrbitre triarà el guanyador\n"
 	.string "segons com han combatut els Pokémon.\p"
-	.string "A més, un Pokémon no pot ser canviat\n"
-	.string "fins que es decideixi el resultat.$"
+	.string "A més, no es pot canviar un Pokémon\n"
+	.string "fins que no s'ha decidit el duel.$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainMindRules:
-	.string "El primer factor és “Ment.”\n"
+	.string "El primer factor és la “Ment”.\n"
 	.string "Avalua com d'agressius\l"
 	.string "han estat els combatents.\p"
 	.string "Es basa en la freqüència amb què\n"
@@ -538,27 +537,27 @@ BattleFrontier_BattleArenaLobby_Text_ExplainMindRules:
 	.string "moviments ofensius.$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainSkillRules:
-	.string "El segon factor és “Habilitat.”\n"
-	.string "Avalua com d'eficaçment s'han\l"
-	.string "usat els moviments Pokémon.\p"
+	.string "El segon factor és la “Tècnica”.\n"
+	.string "Avalua l'eficàcia amb què s'han\l"
+	.string "usat els moviments.\p"
 	.string "Si un moviment ha funcionat bé,\n"
-	.string "la puntuació d'Habilitat puja.\p"
+	.string "la puntuació de Tècnica puja.\p"
 	.string "Si un moviment ha fallat, la puntuació\n"
-	.string "d'Habilitat baixa.\p"
+	.string "de Tècnica baixa.\p"
 	.string "Si era un moviment ofensiu, la\n"
-	.string "puntuació puja si era “super\l"
-	.string "eficaç” i baixa si era\l"
-	.string "”poc eficaç.”\p"
-	.string "La puntuació no pujarà per moviments\n"
-	.string "com Protecció i Detecció.\p"
+	.string "puntuació puja si era “molt\l"
+	.string "efectiu” i baixa si era\l"
+	.string "“no gaire efectiu”.\p"
+	.string "La puntuació no puja amb moviments\n"
+	.string "com Protecció i Detectar.\p"
 	.string "Si l'oponent ha usat Protecció o\n"
-	.string "Detecció, i el teu Pokémon no ha\l"
+	.string "Detectar i el teu Pokémon no ha\l"
 	.string "impactat, la seva puntuació\l"
 	.string "no baixarà.$"
 
 BattleFrontier_BattleArenaLobby_Text_ExplainBodyRules:
-	.string "El tercer factor és “Cos.”\n"
-	.string "Es basa en quants PS quedaven\l"
+	.string "El tercer factor és el “Cos”.\n"
+	.string "Es basa en quants PS queden\l"
 	.string "al final del combat.\p"
 	.string "La puntuació té en compte quants\n"
 	.string "PS tenia el Pokémon a l'inici del\l"
@@ -571,6 +570,6 @@ BattleFrontier_BattleArenaLobby_Text_CongratsOnDefeatingTycoon:
 	.string "tan esplèndid!$"
 
 BattleFrontier_BattleArenaLobby_Text_PleaseAcceptBattlePoints:
-	.string "Estimat/da aspirant, en reconeixement\n"
-	.string "del teu esperit incansable, si us\l"
-	.string "plau accepta aquests Punts de Combat.$"
+	.string "{MASC}Estimat{FEM}Estimada{ENDG} aspirant, en reconeixement\n"
+	.string "del teu esperit incansable, accepta\l"
+	.string "aquests Punts de Combat, si us plau.$"

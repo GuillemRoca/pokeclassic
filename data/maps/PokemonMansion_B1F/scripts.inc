@@ -42,7 +42,7 @@ PokemonMansion_B1F_Text_LewisPostBattle::
     .string "Els residents les devien deixar.$"
 
 PokemonMansion_B1F_Text_IvanIntro::
-    .string "Aquest lloc és ideal per a un lab.\n"
+    .string "Aquest lloc és ideal per a un laboratori.\n"
     .string "Mira tot aquest espai.$"
 
 PokemonMansion_B1F_Text_IvanDefeat::

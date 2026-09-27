@@ -6,9 +6,9 @@ FuchsiaCity_SafariZone_Office_EventScript_Worker1::
 	end
 
 FuchsiaCity_SafariZone_Office_Text_NicknamedWardenSlowpoke::
-    .string "Hem posat de sobrenom al Guardià\n"
+    .string "Al Guardià li diem\n"
 
-    .string "“Slowpoke.”\p"
+    .string "“Slowpoke”.\p"
 
     .string "Saps, té aquella mirada buida\n"
 

@@ -8,13 +8,13 @@ CeladonCity_DepartmentStore_5F_EventScript_Gentleman::
 CeladonCity_DepartmentStore_5F_Text_ExplainStatEnhancers::
     .string "Els potenciadors d'estadístiques\n"
     .string "Pokémon només es venen aquí.\p"
-    .string "HP Up augmenta el PS base d'un\n"
-    .string "Pokémon.\p"
-    .string "Calcium augmenta l'AT. ESP.\n"
+    .string "El Puja PS augmenta els PS base\n"
+    .string "d'un Pokémon.\p"
+    .string "El Calci augmenta l'Atac Esp.\n"
     .string "base d'un Pokémon.\p"
-    .string "Zinc potencia la DEF. ESP.\n"
+    .string "El Zinc potencia la Defensa Esp.\n"
     .string "base d'un Pokémon.\p"
-    .string "Carbos millora la Velocitat\n"
+    .string "El Carbos millora la Velocitat\n"
     .string "base.$"
 
 CeladonCity_DepartmentStore_5F_EventScript_Sailor::
@@ -22,11 +22,11 @@ CeladonCity_DepartmentStore_5F_EventScript_Sailor::
 	end
 
 CeladonCity_DepartmentStore_5F_Text_HereForStatEnhancers::
-    .string "Sóc aquí pels potenciadors\n"
+    .string "He vingut a buscar potenciadors\n"
     .string "d'estadístiques Pokémon.\p"
-    .string "Protein augmenta el poder\n"
-    .string "d'Atac base.\p"
-    .string "Iron augmenta la Defensa\n"
+    .string "La Proteïna augmenta l'Atac\n"
+    .string "base.\p"
+    .string "El Ferro augmenta la Defensa\n"
     .string "base.$"
 
 CeladonCity_DepartmentStore_5F_EventScript_FloorSign::

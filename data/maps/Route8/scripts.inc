@@ -30,8 +30,8 @@ Route8_EventScript_Aidan::
 	end
 
 Route8_Text_AidanIntro::
-    .string "Sembles bo amb Pokémon, però com\n"
-    .string "vas de química?$"
+    .string "Sembla que ets {MASC}bo{FEM}bona{ENDG} amb els Pokémon,\n"
+    .string "però com vas de química?$"
 
 Route8_Text_AidanDefeat::
     .string "Au!\n"
@@ -76,12 +76,12 @@ Route8_Text_JuliaIntro::
 
 Route8_Text_JuliaDefeat::
     .string "Para!\p"
-    .string "No siguis tan dolent amb Clefairy!$"
+    .string "No siguis tan {MASC}dolent{FEM}dolenta{ENDG} amb el meu Clefairy!$"
 
 Route8_Text_JuliaPostBattle::
     .string "He llegit que Clefairy evoluciona\n"
     .string "quan s'exposa a una Pedra Lunar.\p"
-    .string "Ho vaig llegir a una revista\n"
+    .string "Ho vaig llegir en una revista\n"
     .string "Pokémon. Serà veritat?$"
 
 
@@ -124,7 +124,7 @@ Route8_EventScript_Megan::
 	end
 
 Route8_Text_MeganIntro::
-    .string "Devem fer el bonic aquí plantades\n"
+    .string "Segur que fem el ridícul aquí plantades\n"
     .string "així.$"
 
 Route8_Text_MeganDefeat::
@@ -143,7 +143,7 @@ Route8_EventScript_Glenn::
 	end
 
 Route8_Text_GlennIntro::
-    .string "Has d'estar informat.\n"
+    .string "Has d'estar {MASC}informat{FEM}informada{ENDG}.\n"
     .string "Cal estratègia per guanyar!$"
 
 Route8_Text_GlennDefeat::
@@ -200,7 +200,7 @@ Route8_Text_RichDefeat::
     .string "He perdut la gran oportunitat!$"
 
 Route8_Text_RichPostBattle::
-    .string "Jugar i els Pokémon són com menjar\n"
+    .string "Les apostes i els Pokémon són com els\n"
     .string "cacauets! No puc parar!$"
 
 Route8_EventScript_Eli::

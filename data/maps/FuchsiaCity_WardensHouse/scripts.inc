@@ -39,8 +39,8 @@ FuchsiaCity_WardensHouse_Text_ThanksGiveYouSomething::
     .string "M'has salvat la vida!\p"
     .string "Ningú no entenia ni una paraula\n"
     .string "del que deia, ni una!\p"
-    .string "Em feia massa vergonya per\n"
-    .string "ensenyar la cara per l'Oficina.\p"
+    .string "Em feia tanta vergonya que ni\n"
+    .string "gosava passar per l'Oficina.\p"
     .string "Deixa'm donar-te alguna cosa\n"
     .string "per les molèsties.$"
 
@@ -93,12 +93,12 @@ FuchsiaCity_WardensHouse_Text_ReceivedHM04FromWarden::
     .string "del Guardià.$"
 
 FuchsiaCity_WardensHouse_Text_MonPhotosFossilsOnDisplay::
-    .string "Fotos de Pokémon i fòssils\n"
-    .string "estan exposats.$"
+    .string "Hi ha fotos de Pokémon i fòssils\n"
+    .string "exposats.$"
 
 FuchsiaCity_WardensHouse_Text_OldMonMerchandiseOnDisplay::
-    .string "Marxandatge antic de Pokémon\n"
-    .string "està exposat.$"
+    .string "Hi ha marxandatge antic de\n"
+    .string "Pokémon exposat.$"
 
 FuchsiaCity_WardensHouse_EventScript_PokemonJournalKoga::
 	msgbox PokemonJournal_Text_SpecialFeatureKoga, MSGBOX_SIGN

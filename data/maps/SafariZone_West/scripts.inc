@@ -32,7 +32,7 @@ SafariZone_West_Text_PleaseFindWardensLostTeeth::
     .string "Si us plau, trobeu les Dents\n"
     .string "d'Or perdudes del Guarda del\l"
     .string "Safari. Són per aquí a prop.\p"
-    .string "Es dona recompensa!\n"
+    .string "S'ofereix recompensa!\n"
     .string "Contacte: Guarda$"
 
 SafariZone_West_EventScript_TrainerTips::

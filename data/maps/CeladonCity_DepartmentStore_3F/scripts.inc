@@ -12,7 +12,7 @@ CeladonCity_DepartmentStore_3F_Text_OTStandsForOriginalTrainer::
 
     .string "EO vol dir “Entrenador Original” -\n"
 
-    .string "l'entrenador que el va capturar.$"
+    .string "l'entrenador que el va atrapar primer.$"
 
 
 CeladonCity_DepartmentStore_3F_EventScript_GBAKid2::

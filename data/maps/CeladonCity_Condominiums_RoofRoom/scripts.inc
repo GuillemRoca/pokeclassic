@@ -27,7 +27,7 @@ CeladonCity_Condominiums_RoofRoom_EventScript_AlreadyGotPorygon::
 CeladonCity_Condominiums_RoofRoom_Text_CanAPokemonBeHacked::
 	.string "Si podem convertir Pokémon en\n"
 	.string "dades, vol dir que un Pokémon\l"
-	.string "pot ser hackejat?$"
+	.string "pot ser piratejat?$"
 
 CeladonCity_Condominiums_RoofRoom_EventScript_TMsPamphlet::
 	msgbox CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs, MSGBOX_SIGN
@@ -39,7 +39,7 @@ CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs::
     .string "Hi ha cinquanta MT en total.\p"
     .string "També hi ha vuit MO que es\n"
     .string "poden usar al camp!\p"
-    .string "SILPH CO.$"
+    .string "SILPH S.A.$"
 
 CeladonCity_Condominiums_RoofRoom_EventScript_PorygonBall::
     setvar VAR_TEMP_1, SPECIES_PORYGON

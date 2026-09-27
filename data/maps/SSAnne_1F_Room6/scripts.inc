@@ -13,7 +13,7 @@ SSAnne_1F_Room6_EventScript_Woman::
 	end
 
 SSAnne_1F_Room6_Text_TakeAShortRest::
-    .string "Sembla que estàs cansat. Vols\n"
+    .string "Sembla que estàs {MASC}cansat{FEM}cansada{ENDG}. Vols\n"
     .string "descansar una estona?$"
 
 SSAnne_1F_Room6_Text_GladEveryoneIsRefreshed::
@@ -27,4 +27,4 @@ SSAnne_1F_Room6_EventScript_DeclineHeal::
 
 SSAnne_1F_Room6_Text_SorryYouLookLikeSomeone::
     .string "Oh, perdona per preocupar-me tant.\n"
-    .string "Em recordes al meu nét…$"
+    .string "Em recordes {MASC}al meu nét{FEM}la meva néta{ENDG}…$"

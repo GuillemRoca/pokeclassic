@@ -4,7 +4,7 @@
 @       section by editing ScrCmd_braillemessage.
 Underwater_SealedChamber_Braille_GoUpHere:
 	brailleformat 4, 6, 26, 13, 7, 9
-	.braille "PUJA AMUNT.$"
+	.braille "PUJA PER AQUI.$"
 
 SealedChamber_OuterRoom_Braille_ABC:
 	brailleformat 7, 6, 21, 13, 10, 9
@@ -72,10 +72,10 @@ SealedChamber_InnerRoom_Braille_WeOweAllToThePokemon:
 
 SealedChamber_InnerRoom_Braille_ButWeSealedThePokemonAway:
 	brailleformat 3, 0, 25, 19, 6, 3
-	.braille "PERO ELS\n"
-	.braille "POKEMON\n"
-	.braille "FOREN\n"
-	.braille "SEGELLATS.$"
+	.braille "PERO VAM\n"
+	.braille "SEGELLAR\n"
+	.braille "ELS\n"
+	.braille "POKEMON.$"
 
 SealedChamber_InnerRoom_Braille_WeFearedIt:
 	brailleformat 5, 6, 25, 13, 8, 9
@@ -83,9 +83,9 @@ SealedChamber_InnerRoom_Braille_WeFearedIt:
 
 SealedChamber_InnerRoom_Braille_ThoseWithCourageHope:
 	brailleformat 6, 0, 24, 19, 9, 3
-	.braille "ELS AMB\n"
+	.braille "QUI TINGUI\n"
 	.braille "CORATGE,\n"
-	.braille "ELS AMB\n"
+	.braille "QUI TINGUI\n"
 	.braille "ESPERANCA.$"
 
 SealedChamber_InnerRoom_Braille_OpenDoorEternalPokemonWaits:
@@ -97,21 +97,21 @@ SealedChamber_InnerRoom_Braille_OpenDoorEternalPokemonWaits:
 
 DesertRuins_Braille_UseRockSmash:
 	brailleformat 1, 0, 27, 19, 4, 3
-	.braille "ESQU, ESQU,\n"
+	.braille "ESQUERRA, ESQUERRA,\n"
 	.braille "AVALL, AVALL.\n"
-	.braille "LLAVORS USAR\n"
-	.braille "ROCA TRENCADA.$"
+	.braille "DESPRES, USA\n"
+	.braille "TRENCAR ROCA.$"
 
 IslandCave_Braille_RunLapAroundWall:
 	brailleformat 5, 0, 25, 19, 8, 3
-	.braille "QUEDA PROP\n"
+	.braille "ESTIGUES A PROP\n"
 	.braille "DE LA PARET.\n"
-	.braille "FAIN UNA\n"
+	.braille "FES-HI UNA\n"
 	.braille "VOLTA.$"
 
 AncientTomb_Braille_ShineInTheMiddle:
 	brailleformat 3, 0, 25, 19, 6, 3
 	.braille "ELS QUI\n"
 	.braille "HERETEN LA\n"
-	.braille "NOSTRA VOLUNTAT\n"
-	.braille "BRILLIN AL MEDI.$"
+	.braille "NOSTRA VOLUNTAT,\n"
+	.braille "QUE BRILLIN AL MIG.$"

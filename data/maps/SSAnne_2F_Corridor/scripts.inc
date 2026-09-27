@@ -67,7 +67,7 @@ SSAnne_2F_Corridor_Text_RivalIntro::
     .string "No m'esperava trobar-te aquí!\n"
     .string "{PLAYER}, t'han convidat de veritat?\p"
     .string "Com va la teva Pokédex?\p"
-    .string "Jo ja n'he capturat 40 tipus, amic.\n"
+    .string "Jo ja n'he capturat 40 espècies, amic.\n"
     .string "N'hi ha de diferents a tot arreu.\p"
     .string "Arrossega't per zones d'herba\n"
     .string "i busca'ls bé.$"

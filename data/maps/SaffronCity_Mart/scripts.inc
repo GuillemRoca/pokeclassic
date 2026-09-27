@@ -32,11 +32,11 @@ SaffronCity_Mart_EventScript_Youngster::
 	end
 
 SaffronCity_Mart_Text_MaxRepelMoreEffectiveThanSuper::
-    .string "Màx. Repel manté els Pokémon\n"
-    .string "febles allunyats.\p"
-    .string "Màx. Repel dura més que\n"
-    .string "Súper Repel.$"
+    .string "El Repel·lent Màxim manté\n"
+    .string "allunyats els Pokémon febles.\p"
+    .string "El Repel·lent Màxim dura més\n"
+    .string "que el Superrepel·lent.$"
 
 SaffronCity_Mart_Text_ReviveIsCostly::
-    .string "Reviscola és car, però ressuscita\n"
-    .string "Pokémon desmaiats!$"
+    .string "La Revifada és cara, però reanima\n"
+    .string "els Pokémon desmaiats!$"

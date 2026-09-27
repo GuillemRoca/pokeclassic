@@ -210,7 +210,7 @@ PokemonLeague_ChampionsRoom_Text_Intro::
 PokemonLeague_ChampionsRoom_Text_Defeat::
     .string "NO!\n"
     .string "No pot ser!\l"
-    .string "M'has guanyat al meu millor!\p"
+    .string "M'has guanyat en plena forma!\p"
     .string "Després de tota la feina per\n"
     .string "ser Campió de la Lliga?\p"
     .string "El meu regnat ja s'ha acabat?\n"
@@ -221,7 +221,7 @@ PokemonLeague_ChampionsRoom_Text_PostBattle::
     .string "Per què he perdut?\p"
     .string "No vaig cometre cap error criant\n"
     .string "els meus Pokémon…\p"
-    .string "Maleït! Ets el nou Campió de\n"
+    .string "Maleït sigui! Ets {MASC}el nou Campió{FEM}la nova Campiona{ENDG} de\n"
     .string "la Lliga Pokémon!\p"
     .string "Tot i que no m'agrada admetre-ho…$"
 
@@ -231,7 +231,7 @@ PokemonLeague_ChampionsRoom_Text_OakPlayer::
 PokemonLeague_ChampionsRoom_Text_OakCongratulations::
     .string "Oak: Així que has guanyat!\n"
     .string "Sincerament, felicitats!\p"
-    .string "Ets el nou Campió de la Lliga\n"
+    .string "Ets {MASC}el nou Campió{FEM}la nova Campiona{ENDG} de la Lliga\n"
     .string "Pokémon!\p"
     .string "Has crescut molt des que vas\n"
     .string "marxar amb Pikachu per treballar\l"

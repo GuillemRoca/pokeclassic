@@ -269,7 +269,7 @@ SaffronCity_Dojo_Text_HitsThatSpot:
 	.string "GLUP GLUP GLUP\p"
 	.string "Ahhhhhhh....\p"
 	.string "Això és el que necessitava!\p"
-	.string "Em sento preparat per un altre\n"
+	.string "Em sento preparat per a un altre\n"
 	.string "combat!$"
 
 SaffronCity_Dojo_EventScript_BattleLater::
@@ -338,7 +338,7 @@ SaffronCity_Dojo_Text_HpPupil:
 	.string "Vols desafiar-me?$"
 
 SaffronCity_Dojo_Text_BattleLater:
-	.string "Si vols ser el millor, has de\n"
+	.string "Si vols ser {MASC}el millor{FEM}la millor{ENDG}, has de\n"
 	.string "treballar-hi!$"
 
 SaffronCity_Dojo_EventScript_AttackPupil::
@@ -496,7 +496,7 @@ SaffronCity_Dojo_ExpertBelt::
 
 SaffronCity_Dojo_Text_ExpertBelt::
 	.string "Aquest Cinturó demostra que ets\n"
-	.string "un mestre dels combats Pokémon.$"
+	.string "{MASC}un mestre{FEM}una mestra{ENDG} dels combats Pokémon.$"
 
 SaffronCity_Dojo_Unworthy::
 	msgbox SaffronCity_Dojo_Text_Unworthy, MSGBOX_DEFAULT
@@ -504,5 +504,5 @@ SaffronCity_Dojo_Unworthy::
 	end
 
 SaffronCity_Dojo_Text_Unworthy::
-	.string "No et sents digne d'agafar-lo.$"
+	.string "No et sents {MASC}digne{FEM}digna{ENDG} d'agafar-lo.$"
 

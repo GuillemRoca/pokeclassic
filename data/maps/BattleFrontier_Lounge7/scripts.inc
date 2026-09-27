@@ -302,8 +302,8 @@ BattleFrontier_Lounge7_Text_LeftTutorIntro:
 	.string "Puc ensenyar als teus Pokémon\l"
 	.string "moviments especials i bonics.\p"
 	.string "Però les meves lliçons no són gratis.\n"
-	.string "Què et sembla pagar amb una mica\l"
-	.string "de Punts de Combat?$"
+	.string "Què et sembla pagar-me-les amb\l"
+	.string "uns quants Punts de Combat?$"
 
 BattleFrontier_Lounge7_Text_LeftTutorWelcomeBack:
 	.string "Buhahaha!\p"
@@ -311,16 +311,16 @@ BattleFrontier_Lounge7_Text_LeftTutorWelcomeBack:
 	.string "especials i bonics de Pokémon?$"
 
 BattleFrontier_Lounge7_Text_TeachWhichMove:
-	.string "Molt bé, mira aquí!\n"
-	.string "Quin moviment t'ensenyo?$"
+	.string "Molt bé, mira!\n"
+	.string "Quin moviment vols que ensenyi?$"
 
 BattleFrontier_Lounge7_Text_MoveWillBeXBattlePoints:
 	.string "El moviment {STR_VAR_1}, oi?\n"
-	.string "Seran {STR_VAR_2} Punts de Combat, d'acord?$"
+	.string "Són {STR_VAR_2} Punts de Combat, d'acord?$"
 
 BattleFrontier_Lounge7_Text_TeachMoveToWhichMon:
 	.string "Molt bé, ara tria el Pokémon\n"
-	.string "a qui li he d'ensenyar el moviment.$"
+	.string "a qui he d'ensenyar el moviment.$"
 
 BattleFrontier_Lounge7_Text_HaventGotEnoughPoints:
 	.string "Què…\n"
@@ -328,7 +328,7 @@ BattleFrontier_Lounge7_Text_HaventGotEnoughPoints:
 
 BattleFrontier_Lounge7_Text_IllTakeBattlePoints:
 	.string "Ja veus com sóc d'hàbil?\n"
-	.string "M'emporto els teus Punts de Combat!$"
+	.string "Em quedo els Punts de Combat, gràcies!$"
 
 BattleFrontier_Lounge7_Text_YouDontWantTo:
 	.string "Què dius?\n"
@@ -351,8 +351,8 @@ BattleFrontier_Lounge7_Text_RightTutorIntro:
 	.string "Puc ensenyar als teus Pokémon\l"
 	.string "moviments durs i bonics.\p"
 	.string "Però les meves lliçons no són gratis.\n"
-	.string "Què et sembla pagar amb una mica\l"
-	.string "de Punts de Combat?$"
+	.string "Què et sembla pagar-me-les amb\l"
+	.string "uns quants Punts de Combat?$"
 
 BattleFrontier_Lounge7_Text_RightTutorWelcomeBack:
 	.string "Ihihihi!\p"
@@ -360,8 +360,8 @@ BattleFrontier_Lounge7_Text_RightTutorWelcomeBack:
 	.string "durs i bonics de Pokémon?$"
 
 BattleFrontier_Lounge7_Text_ThinkLadiesDontGetAlong:
-	.string "Aquestes senyores, com es critiquen\n"
-	.string "l'una a l'altra, deus pensar que\l"
+	.string "Tal com es critiquen aquestes\n"
+	.string "senyores, deus pensar que\l"
 	.string "no s'avenen.\p"
 	.string "Però si fos cert, no estarien\n"
 	.string "aquí juntes, oi?$"
@@ -369,7 +369,7 @@ BattleFrontier_Lounge7_Text_ThinkLadiesDontGetAlong:
 BattleFrontier_Lounge7_Text_LadiesWereStrongAndBeautiful:
 	.string "Quan era un jovenet,\n"
 	.string "aquelles senyores eren fortes i belles.\p"
-	.string "Eren ídols entre els Entrenadors.\p"
+	.string "Eren ídols per als Entrenadors.\p"
 	.string "Fins i tot ara, l'edat no ha apagat\n"
 	.string "les seves habilitats.\p"
 	.string "De fet, els seus moviments Pokémon\n"
@@ -409,9 +409,9 @@ BattleFrontier_Lounge7_Text_BodySlamDesc::
 	.string "paràlisi.$"
 
 BattleFrontier_Lounge7_Text_RockSlideDesc::
-	.string "Grans roques\n"
-	.string "són llançades. Pot\n"
-	.string "fer retrocedir.$"
+	.string "Llança grans\n"
+	.string "roques. Pot fer\n"
+	.string "retrocedir.$"
 
 BattleFrontier_Lounge7_Text_CounterDesc::
 	.string "Retorna qualsevol\n"

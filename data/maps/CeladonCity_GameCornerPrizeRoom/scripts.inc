@@ -16,14 +16,14 @@ CeladonCity_GameCorner_PrizeRoom_EventScript_BaldingMan::
 
 CeladonCity_GameCorner_PrizeRoom_Text_FancyThatPorygon::
     .string "M'encanten aquells peluixos grans!\n"
-    .string "Però és difícil guanyar a les slots!$"
+    .string "Però les escurabutxaques no perdonen!$"
 
 CeladonCity_GameCorner_PrizeRoom_EventScript_OldMan::
 	msgbox CeladonCity_GameCorner_PrizeRoom_Text_RakedItInToday, MSGBOX_NPC
 	end
 
 CeladonCity_GameCorner_PrizeRoom_Text_RakedItInToday::
-    .string "Gahaha! Avui ho he arrasat!\n"
+    .string "Gahaha! Avui he fet calaix!\n"
     .string "Si cada dia fos com avui…$"
 
 
@@ -37,7 +37,7 @@ CeladonCity_GameCorner_EventScript_PrizeCornerBigDolls::
 	end
 
 CeladonCity_GameCorner_Text_ExchangeCoinsForPrizes:
-	.string "Benvingut.\p"
+	.string "{MASC}Benvingut{FEM}Benvinguda{ENDG}.\p"
 	.string "Pots canviar les teves Monedes\n"
 	.string "per premis aquí.$"
 

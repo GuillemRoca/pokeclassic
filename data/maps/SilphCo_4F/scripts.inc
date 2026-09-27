@@ -76,7 +76,7 @@ SilphCo_4F_Text_Grunt1Defeat::
 
 SilphCo_4F_Text_Grunt1PostBattle::
     .string "Fwahahaha!\n"
-    .string "El meu Cap anava darrere d'aquí!$"
+    .string "El meu Cap volia aquest lloc!$"
 
 SilphCo_4F_Text_RodneyIntro::
     .string "El meu Pokémon és el meu servent\n"

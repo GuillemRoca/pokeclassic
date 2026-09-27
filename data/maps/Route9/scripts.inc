@@ -21,7 +21,7 @@ Route9_EventScript_Alicia::
 
 Route9_Text_AliciaIntro::
     .string "Portes Pokémon amb tu!\n"
-    .string "Ets meu!$"
+    .string "Ets {MASC}meu{FEM}meva{ENDG}!$"
 
 Route9_Text_AliciaDefeat::
     .string "M'has enganyat…$"
@@ -29,7 +29,7 @@ Route9_Text_AliciaDefeat::
 Route9_Text_AliciaPostBattle::
     .string "El túnel que ve és completament\n"
     .string "fosc per dins.\p"
-    .string "Necessitaràs FLASH per passar-hi.$"
+    .string "Necessitaràs Llampec per passar-hi.$"
 
 Route9_EventScript_RegisterAliciaAfterBattle::
 	special PlayerFaceTrainerAfterBattle
@@ -51,7 +51,7 @@ Route9_EventScript_AliciaRematch::
 
 Route9_Text_AliciaRematchIntro::
 	.string "Hem de combatre de nou?\n"
-	.string "Aquest cop, ets meu!$"
+	.string "Aquest cop, ets {MASC}meu{FEM}meva{ENDG}!$"
 
 Route9_Text_AliciaRematchPostBattle::
 	.string "M'has tornat a enganyar!$"
@@ -64,7 +64,7 @@ Route9_EventScript_Brent::
 
 Route9_Text_BrentIntro::
     .string "Em llevava d'hora cada dia per\n"
-    .string "criar Pokémon des de capoll!$"
+    .string "criar els meus Pokémon des de capoll!$"
 
 Route9_Text_BrentDefeat::
     .string "QUÈ?\p"
@@ -80,7 +80,7 @@ Route9_EventScript_Conner::
     end
 
 Route9_Text_ConnerIntro::
-    .string "Endavant, super Pokémon insecte!$"
+    .string "Endavant, súper Pokémon insecte!$"
 
 Route9_Text_ConnerDefeat::
     .string "Els meus insectes…$"
@@ -95,7 +95,7 @@ Route9_EventScript_Chris::
     end
 
 Route9_Text_ChrisIntro::
-    .string "Qui és aquell que camina amb\n"
+    .string "Qui és {MASC}aquell{FEM}aquella{ENDG} que camina amb\n"
     .string "aquells Pokémon tan macos?$"
 
 Route9_Text_ChrisDefeat::
@@ -111,7 +111,7 @@ Route9_EventScript_Drew::
 
 Route9_Text_DrewIntro::
     .string "Agafo el Túnel Rocós per anar\n"
-    .string "a Lavanda…$"
+    .string "a Poble Lavanda…$"
 
 Route9_Text_DrewDefeat::
     .string "No estic a l'alçada…$"
@@ -129,7 +129,7 @@ Route9_Text_CaitlinIntro::
 
 Route9_Text_CaitlinDefeat::
     .string "No!\n"
-    .string "Ets massa fort.$"
+    .string "Ets massa {MASC}fort{FEM}forta{ENDG}.$"
 
 Route9_Text_CaitlinPostBattle::
     .string "Tens talent, sens dubte.\n"
@@ -159,7 +159,7 @@ Route9_EventScript_Brice::
 
 Route9_Text_BriceIntro::
     .string "Hahaha!\n"
-    .string "Ets un durillo!$"
+    .string "{MASC}Quin nano més dur{FEM}Quina nena més dura{ENDG}!$"
 
 Route9_Text_BriceDefeat::
     .string "Què dius?$"

@@ -11,7 +11,7 @@ SSAnne_1F_Room5_Text_ArthurIntro::
     .string "Com goses entrar així!$"
 
 SSAnne_1F_Room5_Text_ArthurDefeat::
-    .string "Bah! Nen maleducat!\n"
+    .string "Bah! {MASC}Nen maleducat{FEM}Nena maleducada{ENDG}!\n"
     .string "No tens cap sentit de cortesia!$"
 
 SSAnne_1F_Room5_Text_ArthurPostBattle::

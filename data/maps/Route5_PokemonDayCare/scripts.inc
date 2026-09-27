@@ -173,7 +173,7 @@ Route5_PokemonDayCare_EventScript_OnlyOneMon::
 Route5_PokemonDayCare_Text_YouHaveJustOneMon:
 	.string "Oh? Però si només tens un\n"
 	.string "Pokémon.\p"
-	.string "No et puc deixar sol!\n"
+	.string "No et puc deixar {MASC}sol{FEM}sola{ENDG}!\n"
 	.string "Torna un altre dia.$"
 
 Route5_PokemonDayCare_EventScript_OnlyTwoAliveMons::

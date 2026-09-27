@@ -17,7 +17,7 @@ Route17_EventScript_ItemsNotice::
 
 Route17_Text_WatchOutForDiscardedItems::
     .string "És un avís.\p"
-    .string "Vigileu amb objectes abandonats.$"
+    .string "Compte amb els objectes abandonats.$"
 
 Route17_EventScript_TrainerTips1::
 	msgbox Route17_Text_SameSpeciesGrowDifferentRates, MSGBOX_SIGN
@@ -71,10 +71,10 @@ Route17_EventScript_Billy::
 
 Route17_Text_BillyIntro::
     .string "Som Motoristes!\n"
-    .string "Manem a les carreteres, tio!$"
+    .string "Les carreteres són nostres, tio!$"
 
 Route17_Text_BillyDefeat::
-    .string "Fumat!$"
+    .string "Liquidat!$"
 
 Route17_Text_BillyPostBattle::
     .string "Busques aventura?$"
@@ -101,13 +101,13 @@ Route17_EventScript_Jaxon::
 
 Route17_Text_JaxonIntro::
     .string "Bona BICI!\n"
-    .string "Com funciona?$"
+    .string "Què tal es condueix?$"
 
 Route17_Text_JaxonDefeat::
     .string "Renoi!$"
 
 Route17_Text_JaxonPostBattle::
-    .string "El pendent fa difícil girar.$"
+    .string "Amb el pendent costa molt girar.$"
 
 Route17_EventScript_William::
 	trainerbattle_single TRAINER_BIKER_WILLIAM, Route17_Text_WilliamIntro, Route17_Text_WilliamDefeat
@@ -115,11 +115,11 @@ Route17_EventScript_William::
 	end
 
 Route17_Text_WilliamIntro::
-    .string "Fes-te perdedís, nano!\n"
+    .string "Fes-te perdedís, {MASC}nano{FEM}nena{ENDG}!\n"
     .string "Estic rebentat!$"
 
 Route17_Text_WilliamDefeat::
-    .string "Estàs content?$"
+    .string "Estàs {MASC}content{FEM}contenta{ENDG}?$"
 
 Route17_Text_WilliamPostBattle::
     .string "Necessito fer una becaina!$"
@@ -139,8 +139,8 @@ Route17_Text_RaulDefeat::
 Route17_Text_RaulPostBattle::
     .string "Pots trobar coses bones pel\n"
     .string "Carril Bici.\p"
-    .string "Hi ha bons diners en recollir-les\n"
-    .string "i vendre-les.$"
+    .string "Es poden fer bons diners\n"
+    .string "recollint-les i venent-les.$"
 
 Route17_EventScript_Isaiah::
 	trainerbattle_single TRAINER_CUE_BALL_ISAIAH, Route17_Text_IsaiahIntro, Route17_Text_IsaiahDefeat
@@ -149,10 +149,10 @@ Route17_EventScript_Isaiah::
 
 Route17_Text_IsaiahIntro::
     .string "Estic molt orgullós del meu cos.\n"
-    .string "Vine, nano!$"
+    .string "Vine, {MASC}nano{FEM}nena{ENDG}!$"
 
 Route17_Text_IsaiahDefeat::
-    .string "Uixi!$"
+    .string "Uau!$"
 
 Route17_Text_IsaiahPostBattle::
     .string "Et podria treure d'aquí a\n"
@@ -164,7 +164,7 @@ Route17_EventScript_Zeek::
 	end
 
 Route17_Text_ZeekIntro::
-    .string "He pujat de nivell el Pokémon,\n"
+    .string "He fet pujar de nivell el Pokémon,\n"
     .string "però no evoluciona. Per què?$"
 
 Route17_Text_ZeekDefeat::
@@ -195,13 +195,13 @@ Route17_EventScript_Corey::
 	end
 
 Route17_Text_CoreyIntro::
-    .string "Sigues un rebel!$"
+    .string "Sigues {MASC}un rebel{FEM}una rebel{ENDG}!$"
 
 Route17_Text_CoreyDefeat::
     .string "Aaaargh!$"
 
 Route17_Text_CoreyPostBattle::
-    .string "Estigues preparat per lluitar\n"
+    .string "Estigues {MASC}preparat{FEM}preparada{ENDG} per lluitar\n"
     .string "per les teves idees!$"
 
 Route17_EventScript_Virgil::
@@ -210,7 +210,7 @@ Route17_EventScript_Virgil::
 	end
 
 Route17_Text_VirgilIntro::
-    .string "Vas cap a FUCHSIA?$"
+    .string "Vas cap a Ciutat Fúcsia?$"
 
 Route17_Text_VirgilDefeat::
     .string "Patacada!$"

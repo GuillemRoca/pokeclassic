@@ -45,7 +45,7 @@ FuchsiaCity_House2_Text_DoYouLikeToFish::
 FuchsiaCity_House2_Text_LikeYourStyleTakeThis::
     .string "Genial! M'agrada el teu estil.\n"
     .string "Crec que podem ser amics.\p"
-    .string "Pren això i pesca, jove amic!$"
+    .string "Pren això i pesca, {MASC}jove amic{FEM}jove amiga{ENDG}!$"
 
 FuchsiaCity_House2_Text_ReceivedGoodRod::
     .string "{PLAYER} ha rebut una Bona Canya\n"

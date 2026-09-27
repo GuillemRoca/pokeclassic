@@ -30,7 +30,7 @@ CeladonCity_Gym_Text_LeaderSpeech::
     .string "Bon temps, oi?\l"
     .string "Molt agradable…\p"
     .string "…Oh, vaja…\n"
-    .string "M'he quedat adormida. Benvingut.\p"
+    .string "M'he quedat adormida. {MASC}Benvingut{FEM}Benvinguda{ENDG}.\p"
     .string "Em dic Erika.\n"
     .string "Sóc la Líder del Gimnàs Celadó.\p"
     .string "Sóc estudiant de l'art de\n"
@@ -74,7 +74,7 @@ CeladonCity_Gym_EventScript_NextAideCall::
 	return
 
 CeladonCity_Gym_Text_GetBadge::
-    .string "Ets extraordinàriament fort.\p"
+    .string "Ets extraordinàriament {MASC}fort{FEM}forta{ENDG}.\p"
     .string "He de concedir-te la Medalla\n"
     .string "Arc de Sant Martí.$"
 
@@ -84,7 +84,7 @@ CeladonCity_Gym_Text_ReceivedBadge::
 
 CeladonCity_Gym_Text_ExplainBadge::
     .string "La Medalla Arc de Sant Martí farà\n"
-    .string "que els Pokémon fins a Nv. 50\l"
+    .string "que els Pokémon fins a Niv. 50\l"
     .string "t'obeixin.\p"
     .string "També permet als Pokémon usar\n"
     .string "Força dins i fora de combat.$"
@@ -156,14 +156,14 @@ CeladonCity_Gym_EventScript_RematchLeader::
 	end
 
 CeladonCity_Gym_Text_RematchLeader::
-	.string "Oh, si no és qui està intentant\n"
+	.string "Oh, però si és qui intenta\n"
 	.string "completar la Pokédex.\p"
 	.string "Espero que les coses t'hagin anat bé\n"
 	.string "des de la nostra última trobada.\p"
-	.string "...Ja veig. Has estat molt ocupat.\p"
+	.string "...Ja veig. Has estat molt {MASC}ocupat{FEM}ocupada{ENDG}.\p"
 	.string "No m'agraden gaire les coses\n"
 	.string "públiques...\p"
-	.string "No obstant, els combats són\n"
+	.string "No obstant això, els combats són\n"
 	.string "diferents. Per això has vingut, oi?$"
 
 CeladonCity_Gym_EventScript_DeclineRematch::
@@ -181,7 +181,7 @@ CeladonCity_Gym_EventScript_PostgameRematch::
 	end
 
 CeladonCity_Gym_Text_RematchMode::
-	.string "Ara que ets el campió,\n"
+	.string "Ara que ets {MASC}el campió{FEM}la campiona{ENDG},\n"
 	.string "vols anar amb tot?$"
 
 CeladonCity_Gym_EventScript_LeaderRematch_OriginalTeam::
@@ -189,8 +189,8 @@ CeladonCity_Gym_EventScript_LeaderRematch_OriginalTeam::
 	end
 
 CeladonCity_Gym_Text_RematchOriginal::
-	.string "Encantador, {PLAYER}!\n"
-	.string "Estimem aquest record!$"
+	.string "Que bonic, {PLAYER}!\n"
+	.string "Fem d'aquest combat un bon record!$"
 
 CeladonCity_Gym_EventScript_LeaderRematch_PostGameTeam::
 	trainerbattle_single LEADER_REMATCH_ERIKA_POSTGAME, CeladonCity_Gym_Text_RematchPostgame, CeladonCity_Gym_Text_RematchDefeat, CeladonCity_Gym_EventScript_DefeatedLeaderRematch
@@ -198,7 +198,7 @@ CeladonCity_Gym_EventScript_LeaderRematch_PostGameTeam::
 
 CeladonCity_Gym_Text_RematchPostgame::
 	.string "Molt bé, {PLAYER}!\n"
-	.string "Prepara't per un combat total!$"
+	.string "Prepara't per a un combat a fons!$"
 
 CeladonCity_Gym_EventScript_DefeatedLeaderRematch::
 	setflag FLAG_DAILY_ERIKA_REMATCH
@@ -222,7 +222,7 @@ CeladonCity_Gym_Text_KayIntro::
     .string "senyores!$"
 
 CeladonCity_Gym_Text_KayDefeat::
-    .string "Ets massa brut!$"
+    .string "Ets massa bèstia!$"
 
 CeladonCity_Gym_Text_KayPostBattle::
     .string "Bah!\n"
@@ -268,7 +268,7 @@ CeladonCity_Gym_EventScript_Bridget::
 	end
 
 CeladonCity_Gym_Text_BridgetIntro::
-    .string "Oh, benvingut.\n"
+    .string "Oh, {MASC}benvingut{FEM}benvinguda{ENDG}.\n"
     .string "M'estava avorrint.$"
 
 CeladonCity_Gym_Text_BridgetDefeat::
@@ -289,7 +289,7 @@ CeladonCity_Gym_Text_TamiaIntro::
     .string "Mira, mira!\n"
     .string "Veus els meus Pokémon!\p"
     .string "M'agrada el tipus Planta.\n"
-    .string "M'agrada com són fàcils de criar.$"
+    .string "M'agrada que siguin fàcils de criar.$"
 
 CeladonCity_Gym_Text_TamiaDefeat::
     .string "No!$"
@@ -324,7 +324,7 @@ CeladonCity_Gym_EventScript_Mary::
 	end
 
 CeladonCity_Gym_Text_MaryIntro::
-    .string "Benvingut al Gimnàs Celadó!\p"
+    .string "{MASC}Benvingut{FEM}Benvinguda{ENDG} al Gimnàs Celadó!\p"
     .string "Millor que no subestimis\n"
     .string "les senyores d'aquí.$"
 

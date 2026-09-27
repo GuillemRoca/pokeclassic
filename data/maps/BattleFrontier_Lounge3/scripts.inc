@@ -204,13 +204,13 @@ BattleFrontier_Lounge3_Text_CantYouSeeWereBusyHere::
 
 BattleFrontier_Lounge3_Text_YouLookToughExplainGambling::
 	.string "…Eh?\n"
-	.string "Em sembla que ets un Entrenador dur.\p"
+	.string "Em sembla que ets {MASC}un Entrenador dur{FEM}una Entrenadora dura{ENDG}.\p"
 	.string "Heheh…\n"
 	.string "Escolta, tinc una proposta.\p"
 	.string "Tenim un petit grup aquí,\n"
 	.string "i juguem a un joc amb el que\l"
 	.string "passa a la Frontera de Combat.\p"
-	.string "Les regles són molt simples.\p"
+	.string "Les regles són molt senzilles.\p"
 	.string "Primer, triem una de les\n"
 	.string "instal·lacions de la Frontera.\p"
 	.string "Després, cadascú tria un Entrenador\n"
@@ -219,104 +219,104 @@ BattleFrontier_Lounge3_Text_YouLookToughExplainGambling::
 	.string "Qui aposti per l'Entrenador amb\n"
 	.string "el millor rècord s'emporta tots\l"
 	.string "els Punts de Combat del pot.\p"
-	.string "Sona simple, oi?\n"
-	.string "Doncs, bé…$"
+	.string "Sona senzill, oi?\n"
+	.string "Bé, doncs…$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleTowerSingle::
 	.string "El que busco és un Entrenador que\n"
 	.string "vagi a desafiar les Sales de\l"
 	.string "Combat Individual de la Torre.\p"
 	.string "Però fins ara, no he vist cap\n"
-	.string "Entrenador amb qualitat.$"
+	.string "Entrenador amb pinta de guanyador.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleTowerDouble::
 	.string "El que busco és un Entrenador que\n"
 	.string "vagi a desafiar les Sales de\l"
 	.string "Combat Doble de la Torre.\p"
 	.string "Però fins ara, no he vist cap\n"
-	.string "Entrenador amb qualitat.$"
+	.string "Entrenador amb pinta de guanyador.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleTowerMulti::
 	.string "El que busco és un Entrenador que\n"
 	.string "vagi a desafiar les Sales de\l"
 	.string "Combat Múltiple de la Torre.\p"
 	.string "Però fins ara, no he vist cap\n"
-	.string "Entrenador amb qualitat.$"
+	.string "Entrenador amb pinta de guanyador.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleDomeSingle::
 	.string "El que busco és un Entrenador que\n"
 	.string "vagi a entrar al Torneig de\l"
 	.string "Combat Individual del Domo.\p"
 	.string "Però fins ara, no he vist cap\n"
-	.string "Entrenador amb qualitat.$"
+	.string "Entrenador amb pinta de guanyador.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleDomeDouble::
 	.string "El que busco és un Entrenador que\n"
 	.string "vagi a entrar al Torneig de\l"
 	.string "Combat Doble del Domo.\p"
 	.string "Però fins ara, no he vist cap\n"
-	.string "Entrenador amb qualitat.$"
+	.string "Entrenador amb pinta de guanyador.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleFactorySingle::
 	.string "El que busco és un Entrenador que\n"
 	.string "vagi a entrar al Torneig\l"
 	.string "d'Intercanvi Individual de la Fàbrica.\p"
 	.string "Però fins ara, no he vist cap\n"
-	.string "Entrenador amb qualitat.$"
+	.string "Entrenador amb pinta de guanyador.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleFactoryDouble::
 	.string "El que busco és un Entrenador que\n"
 	.string "vagi a entrar al Torneig\l"
 	.string "d'Intercanvi Doble de la Fàbrica.\p"
 	.string "Però fins ara, no he vist cap\n"
-	.string "Entrenador amb qualitat.$"
+	.string "Entrenador amb pinta de guanyador.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattlePalaceSingle::
 	.string "El que busco és un Entrenador que\n"
 	.string "vagi a desafiar les Sales de\l"
 	.string "Combat Individual del Palau.\p"
 	.string "Però fins ara, no he vist cap\n"
-	.string "Entrenador amb qualitat.$"
+	.string "Entrenador amb pinta de guanyador.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattlePalaceDouble::
 	.string "El que busco és un Entrenador que\n"
 	.string "vagi a desafiar les Sales de\l"
 	.string "Combat Doble del Palau.\p"
 	.string "Però fins ara, no he vist cap\n"
-	.string "Entrenador amb qualitat.$"
+	.string "Entrenador amb pinta de guanyador.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattleArena::
 	.string "El que busco és un Entrenador que\n"
 	.string "vagi a entrar al Torneig\l"
 	.string "KO de l'Arena de Combat.\p"
 	.string "Però fins ara, no he vist cap\n"
-	.string "Entrenador amb qualitat.$"
+	.string "Entrenador amb pinta de guanyador.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattlePike::
 	.string "El que busco és un Entrenador que\n"
 	.string "vagi a entrar a l'Elecció de\l"
 	.string "Combat de la Llança.\p"
 	.string "Però fins ara, no he vist cap\n"
-	.string "Entrenador amb qualitat.$"
+	.string "Entrenador amb pinta de guanyador.$"
 
 BattleFrontier_Lounge3_Text_ChallengeBattlePyramid::
 	.string "El que busco és un Entrenador que\n"
 	.string "vagi a entrar a la Cerca de\l"
 	.string "Combat de la Piràmide.\p"
 	.string "Però fins ara, no he vist cap\n"
-	.string "Entrenador amb qualitat.$"
+	.string "Entrenador amb pinta de guanyador.$"
 
 BattleFrontier_Lounge3_Text_HowAboutEnteringEventForMe::
-	.string "Et compensaré, ja ho veuràs.\n"
+	.string "Tu també hi sortiràs guanyant.\n"
 	.string "Què me'n dius?\l"
-	.string "Vols participar en l'esdeveniment per mi?$"
+	.string "Hi vols participar per mi?$"
 
 BattleFrontier_Lounge3_Text_SpotMeSomeBattlePoints::
 	.string "Perfecte.\n"
 	.string "I… Què tal si em deixes uns\l"
 	.string "Punts de Combat?\p"
-	.string "Confia en mi, et mostraré\n"
-	.string "la meva gratitud després.$"
+	.string "Confia en mi, després\n"
+	.string "t'ho sabré agrair.$"
 
 BattleFrontier_Lounge3_Text_HowMuchCanYouSpot::
 	.string "Genial, genial!\n"
@@ -325,8 +325,8 @@ BattleFrontier_Lounge3_Text_HowMuchCanYouSpot::
 BattleFrontier_Lounge3_Text_YouDontHaveEnoughPoints::
 	.string "Oh, no, no, no!\n"
 	.string "No tens prou Punts de Combat!\p"
-	.string "No em facis perdre el temps\n"
-	.string "a tothom!$"
+	.string "Deixa de fer el ximple i de fer-nos\n"
+	.string "perdre el temps a tots!$"
 
 BattleFrontier_Lounge3_Text_ThanksOffYouGo::
 	.string "Heheh! Moltes gràcies!\n"
@@ -421,12 +421,12 @@ BattleFrontier_Lounge3_Text_NiceTryCantReturnPoints::
 	.string "Bon intent…\p"
 	.string "Em sap greu, però no et puc\n"
 	.string "tornar els Punts de Combat…\p"
-	.string "Suposo que ens haurà de motivar\n"
-	.string "per esforçar-nos més el pròxim cop!$"
+	.string "Això ens ha de motivar a\n"
+	.string "esforçar-nos més el pròxim cop!$"
 
 BattleFrontier_Lounge3_Text_HelloChampHeresYourPoints::
 	.string "Oh, sí!\n"
-	.string "Hola, campió!\p"
+	.string "Hola, {MASC}campió{FEM}campiona{ENDG}!\p"
 	.string "Sabia que podies!\n"
 	.string "Sabia que ho faries!\l"
 	.string "Tots dos hem guanyat!\p"
@@ -438,7 +438,7 @@ BattleFrontier_Lounge3_Text_ObtainedBattlePoints::
 	.string "{STR_VAR_1} Punts de Combat.$"
 
 BattleFrontier_Lounge3_Text_ThinkOfMeForAnotherChallenge::
-	.string "Si vols un altre desafiament,\n"
+	.string "Si t'animes a fer un altre repte,\n"
 	.string "pensa en mi!$"
 
 BattleFrontier_Lounge3_Text_NotInterested::
@@ -460,7 +460,7 @@ BattleFrontier_Lounge3_Text_TrainerGoodButRattled::
 	.string "per sobreviure al Domo de Combat…$"
 
 BattleFrontier_Lounge3_Text_KnowWinnerWhenISeeOne::
-	.string "Rialleta!\n"
+	.string "Ji, ji!\n"
 	.string "Sé reconèixer un guanyador!$"
 
 BattleFrontier_Lounge3_Text_ShouldBeTakingChallenges::

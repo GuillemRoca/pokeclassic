@@ -13,8 +13,8 @@ MoveTutor_DoubleEdge::
 	end
 
 MoveTutor_Text_DoubleEdgeTeach::
-    .string "Hauries d'estar orgullós de tu\n"
-    .string "mateix: has travessat el Camí\l"
+    .string "Hauries d'estar {MASC}orgullós{FEM}orgullosa{ENDG} de tu\n"
+    .string "{MASC}mateix{FEM}mateixa{ENDG}: has travessat el Camí\l"
     .string "de la Victòria amb molt de valor.\p"
     .string "En reconeixement de la teva gesta,\n"
     .string "t'ensenyaré Doble Tall.\p"
@@ -428,7 +428,7 @@ MoveTutor_Text_RockSlideTeach::
     .string "Roques caient-te a sobre?\p"
     .string "Seria… uaaaaaah!\n"
     .string "Terror total!\p"
-    .string "No sembles espantat.\n"
+    .string "No sembles {MASC}espantat{FEM}espantada{ENDG}.\n"
     .string "Vols provar Allau de Roca?$"
 
 MoveTutor_EventScript_RockSlideDeclined::

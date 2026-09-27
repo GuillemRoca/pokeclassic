@@ -15,7 +15,7 @@ SSAnne_2F_Room3_EventScript_OldMan::
 
 SSAnne_2F_Room3_Text_SomeTreesCanBeCutDown::
     .string "Els arbres petits es poden tallar\n"
-    .string "amb el moviment tall.\p"
+    .string "amb el moviment Tall.\p"
     .string "Però recorda-ho!\n"
     .string "Tall és una tècnica MO.\p"
     .string "Un cop apresa, no és tan fàcil\n"

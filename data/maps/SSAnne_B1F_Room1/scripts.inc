@@ -17,8 +17,8 @@ SSAnne_B1F_Room1_Text_BarnyDefeat::
     .string "Se m'ha escapat!$"
 
 SSAnne_B1F_Room1_Text_BarnyPostBattle::
-    .string "Anava a fer-te el meu\n"
-    .string "ajudant, també!$"
+    .string "I jo que volia fer-te el meu\n"
+    .string "ajudant!$"
 
 SSAnne_B1F_Room1_EventScript_Phillip::
 	trainerbattle_single TRAINER_SAILOR_PHILLIP, SSAnne_B1F_Room1_Text_PhillipIntro, SSAnne_B1F_Room1_Text_PhillipDefeat
@@ -26,13 +26,13 @@ SSAnne_B1F_Room1_EventScript_Phillip::
 	end
 
 SSAnne_B1F_Room1_Text_PhillipIntro::
-    .string "Mariner, caminaràs pel tauló\n"
-    .string "si perds!$"
+    .string "Company, si perds, et llanço\n"
+    .string "per la borda!$"
 
 SSAnne_B1F_Room1_Text_PhillipDefeat::
     .string "Argh!\n"
-    .string "Derrotat per un nen!$"
+    .string "Derrotat per {MASC}un nen{FEM}una nena{ENDG}!$"
 
 SSAnne_B1F_Room1_Text_PhillipPostBattle::
     .string "Quan som a alta mar, de vegades\n"
-    .string "passen meduses Pokémon.$"
+    .string "passen Pokémon medusa.$"

@@ -8,7 +8,7 @@ RocketHideout_B2F_EventScript_Grunt::
 
 RocketHideout_B2F_Text_GruntIntro::
     .string "Sí, vam matar la mare d'aquell\n"
-    .string "Cubone. Què et sembla, nen?$"
+    .string "Cubone. I a tu què t'importa, {MASC}nen{FEM}nena{ENDG}?$"
 
 RocketHideout_B2F_Text_GruntDefeat::
     .string "Em rendeixo!$"

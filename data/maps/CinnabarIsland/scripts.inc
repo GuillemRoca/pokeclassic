@@ -26,7 +26,7 @@ CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab::
     .string "El Blaine del Gimnàs Cinabri és\n"
     .string "força peculiar.\p"
     .string "Viu a l'illa des de molt abans\n"
-    .string "que construïssin el LAB.$"
+    .string "que construïssin el Laboratori.$"
 
 CinnabarIsland_EventScript_OldMan::
 	msgbox CinnabarIsland_Text_ScientistsExperimentInMansion, MSGBOX_NPC
@@ -116,7 +116,7 @@ CinnabarIsland_EventScript_Depart::
 	end
 
 CinnabarIsland_EventScript_Text_ReadyToSail::
-	.string "Preparat per a una aventura?$"
+	.string "{MASC}Preparat{FEM}Preparada{ENDG} per a una aventura?$"
 
 CinnabarIsland_EventScript_NotSail::
 	msgbox CinnabarIsland_EventScript_Text_ReadyWhenYouAre, MSGBOX_DEFAULT
@@ -125,11 +125,11 @@ CinnabarIsland_EventScript_NotSail::
 
 CinnabarIsland_EventScript_Text_ReadyWhenYouAre:
 	.string "Salparem tan bon punt estiguis\n"
-	.string "preparat!$"
+	.string "{MASC}preparat{FEM}preparada{ENDG}!$"
 
 CinnabarIsland_EventScript_Text_LetsSail:
 	.string "Excel·lent! Salpem de seguida!\p"
-	.string "Trobem aquesta illa del\n"
+	.string "Busquem l'illa d'aquest\n"
 	.string "Vell Mapa Marí!$"
 
 Movement_CaptainEnterShip::

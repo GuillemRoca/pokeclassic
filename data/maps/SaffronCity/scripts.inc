@@ -111,8 +111,8 @@ SaffronCity_EventScript_BattleGirl::
 SaffronCity_Text_HowCanClubNotRecognizeLance::
     .string "Aquest Club de Fans…\n"
     .string "Ningú aquí no té ni idea!\p"
-    .string "Com poden no reconèixer\n"
-    .string "la brillantor que és Lance?\p"
+    .string "Com és que no reconeixen\n"
+    .string "la grandesa de Lance?\p"
     .string "Defensa la justícia!\n"
     .string "És genial, i alhora apassionat!\l"
     .string "És el millor, Lance!$"
@@ -122,7 +122,7 @@ SaffronCity_EventScript_WorkerM::
 	end
 
 SaffronCity_Text_YouBeatTeamRocket::
-    .string "Has derrotat l'Equip Rocket sol?\n"
+    .string "Has derrotat l'Equip Rocket tu {MASC}sol{FEM}sola{ENDG}?\n"
     .string "Això és increïble!$"
 
 SaffronCity_EventScript_Youngster::
@@ -230,7 +230,7 @@ SaffronCity_EventScript_TrainerTips2::
 
 SaffronCity_Text_GreatBallImprovedCatchRate::
     .string "Consells d'Entrenador:\p"
-    .string "La nova Super Ball ofereix una\n"
+    .string "La nova Gran Ball ofereix una\n"
     .string "taxa de captura millorada.\p"
     .string "Prova-la amb aquells Pokémon\n"
     .string "difícils de capturar.$"
@@ -343,7 +343,7 @@ Movement_LookerWalksLeft::
 SaffronCity_Text_ShouldntBeSurprised::
 	.string "Looker: Bé, comencem a establir\n"
 	.string "un perímetre...Oh! {PLAYER}!\p"
-	.string "Acabem de reunir els Soldats de\n"
+	.string "Acabem d'arrestar els Soldats de\n"
 	.string "l'Equip Rocket que terroritzaven\l"
 	.string "els ciutadans. Estem a punt per\l"
 	.string "assaltar Silph S.A. i derrotar\l"

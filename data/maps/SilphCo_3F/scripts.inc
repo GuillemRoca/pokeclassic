@@ -40,7 +40,7 @@ SilphCo_3F_EventScript_Grunt::
 	end
 
 SilphCo_3F_Text_WhatAmIToDo::
-    .string "Treballo per Silph S.A.\n"
+    .string "Treballo per a Silph S.A.\n"
     .string "Què he de fer?$"
 
 SilphCo_3F_Text_YouAndYourMonsSavedUs::
@@ -49,7 +49,7 @@ SilphCo_3F_Text_YouAndYourMonsSavedUs::
     .string "salvat!$"
 
 SilphCo_3F_Text_GruntIntro::
-    .string "Deixa de molestar-nos, nen!$"
+    .string "Deixa de molestar-nos, {MASC}nen{FEM}nena{ENDG}!$"
 
 SilphCo_3F_Text_GruntDefeat::
     .string "Em rendeixo!$"
@@ -63,7 +63,7 @@ SilphCo_3F_Text_JoseIntro::
     .string "que a Silph S.A.!$"
 
 SilphCo_3F_Text_JoseDefeat::
-    .string "M'has pillat de debò!$"
+    .string "M'has ben enxampat!$"
 
 SilphCo_3F_Text_JosePostBattle::
     .string "Bah…\p"

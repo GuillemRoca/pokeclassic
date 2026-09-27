@@ -54,142 +54,142 @@ BattleFrontier_Lounge5_Text_NatureGirlNoneShown::
 BattleFrontier_Lounge5_Text_NatureGirlHardy::
 	.string "Hmhm…\p"
 	.string "Aquest diu que li agrada combatre!\n"
-	.string "Combatirà fins i tot si té molts\l"
-	.string "ais!$"
+	.string "Combatrà fins i tot si té moltes\l"
+	.string "pupes!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlLonely::
 	.string "Hmhm…\p"
 	.string "Aquest diu que li agrada ser astut!\n"
-	.string "Però si rep prou ais,\l"
+	.string "Però si té prou pupes,\l"
 	.string "contraatacarà!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlBrave::
 	.string "Hmhm…\p"
 	.string "Aquest diu que li agrada combatre!\n"
-	.string "Però si rep prou ais,\l"
+	.string "Però si té prou pupes,\l"
 	.string "es preocuparà per ell mateix!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlAdamant::
 	.string "Hmhm…\p"
 	.string "Aquest diu que li agrada combatre!\n"
-	.string "Combatirà fins i tot si té molts\l"
-	.string "ais!$"
+	.string "Combatrà fins i tot si té moltes\l"
+	.string "pupes!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlNaughty::
 	.string "Hmhm…\p"
 	.string "Aquest diu que cuida de si mateix!\n"
-	.string "Però si rep prou ais,\l"
+	.string "Però si té prou pupes,\l"
 	.string "contraatacarà!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlBold::
 	.string "Hmhm…\p"
 	.string "Aquest diu que li agrada ser astut!\n"
-	.string "Però si rep prou ais,\l"
+	.string "Però si té prou pupes,\l"
 	.string "es preocuparà per ell mateix!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlDocileNaiveQuietQuirky::
 	.string "Hmhm…\p"
 	.string "Aquest diu que li agrada combatre!\n"
-	.string "Combatirà fins i tot si té molts\l"
-	.string "ais!$"
+	.string "Combatrà fins i tot si té moltes\l"
+	.string "pupes!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlRelaxed::
 	.string "Hmhm…\p"
 	.string "Aquest diu que li agrada ser astut!\n"
-	.string "Però si rep prou ais,\l"
+	.string "Però si té prou pupes,\l"
 	.string "contraatacarà!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlImpish::
 	.string "Hmhm…\p"
 	.string "Aquest diu que li agrada combatre!\n"
-	.string "Però si rep prou ais,\l"
+	.string "Però si té prou pupes,\l"
 	.string "es preocuparà per ell mateix!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlLax::
 	.string "Hmhm…\p"
 	.string "Aquest diu que li agrada ser astut!\n"
 	.string "Diu que li agrada ser astut fins\l"
-	.string "i tot si té molts ais!$"
+	.string "i tot si té moltes pupes!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlTimid::
 	.string "Hmhm…\p"
 	.string "Aquest diu que li agrada combatre!\n"
-	.string "Però si rep prou ais,\l"
+	.string "Però si té prou pupes,\l"
 	.string "es tornarà astut!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlHasty::
 	.string "Hmhm…\p"
 	.string "Aquest diu que li agrada combatre!\n"
-	.string "Combatirà fins i tot si té molts\l"
-	.string "ais!$"
+	.string "Combatrà fins i tot si té moltes\l"
+	.string "pupes!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlSerious::
 	.string "Hmhm…\p"
 	.string "Aquest diu que li agrada ser astut!\n"
 	.string "Diu que li agrada ser astut fins\l"
-	.string "i tot si té molts ais!$"
+	.string "i tot si té moltes pupes!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlJolly::
 	.string "Hmhm…\p"
 	.string "Aquest diu que li agrada ser astut!\n"
-	.string "Però si rep prou ais,\l"
+	.string "Però si té prou pupes,\l"
 	.string "es preocuparà per ell mateix!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlModest::
 	.string "Hmhm…\p"
 	.string "Aquest diu que cuida de si mateix!\n"
 	.string "Diu que es preocupa per ell tant\l"
-	.string "si té molts ais com si no!$"
+	.string "si té moltes pupes com si no!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlMild::
 	.string "Hmhm…\p"
 	.string "Aquest diu que cuida de si mateix!\n"
-	.string "Però si rep prou ais,\l"
+	.string "Però si té prou pupes,\l"
 	.string "es tornarà astut!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlBashful::
 	.string "Hmhm…\p"
 	.string "Aquest diu que cuida de si mateix!\n"
 	.string "Diu que es preocupa per ell fins\l"
-	.string "i tot si té molts ais!$"
+	.string "i tot si té moltes pupes!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlRash::
 	.string "Hmhm…\p"
 	.string "Aquest diu que li agrada ser astut!\n"
 	.string "Diu que li agrada ser astut fins\l"
-	.string "i tot si té molts ais!$"
+	.string "i tot si té moltes pupes!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlCalm::
 	.string "Hmhm…\p"
 	.string "Aquest diu que cuida de si mateix!\n"
 	.string "Diu que es preocupa per ell fins\l"
-	.string "i tot si té molts ais!$"
+	.string "i tot si té moltes pupes!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlGentle::
 	.string "Hmhm…\p"
 	.string "Aquest diu que cuida de si mateix!\n"
-	.string "Però si rep prou ais,\l"
+	.string "Però si té prou pupes,\l"
 	.string "contraatacarà!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlSassy::
 	.string "Hmhm…\p"
 	.string "Aquest diu que li agrada combatre!\n"
-	.string "Però si rep prou ais,\l"
+	.string "Però si té prou pupes,\l"
 	.string "es tornarà astut!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlCareful::
 	.string "Hmhm…\p"
 	.string "Aquest diu que cuida de si mateix!\n"
-	.string "Però si rep prou ais,\l"
+	.string "Però si té prou pupes,\l"
 	.string "es tornarà astut!$"
 
 BattleFrontier_Lounge5_Text_NatureGirlEgg::
-	.string "Quina ximpleria! Un Ou està dormint!\n"
+	.string "Que ximple! Els Ous estan dormint!\n"
 	.string "No hi puc parlar!$"
 
 BattleFrontier_Lounge5_Text_LadyClaimsSheUnderstandsPokemon::
-	.string "Que encantador!\n"
-	.string "Aquesta senyoreta diu que pot\l"
+	.string "Quina gràcia!\n"
+	.string "Aquella nena diu que pot\l"
 	.string "entendre els Pokémon!$"
 
 BattleFrontier_Lounge5_Text_GirlSayingSomethingProfound::
@@ -198,6 +198,6 @@ BattleFrontier_Lounge5_Text_GirlSayingSomethingProfound::
 
 BattleFrontier_Lounge5_Text_GirlPlaysAtRedHouseALot::
 	.string "Sé una cosa!\p"
-	.string "Aquella nena juga a la casa vermella\n"
-	.string "sovint!$"
+	.string "Aquella nena juga sovint\n"
+	.string "a la casa vermella!$"
 

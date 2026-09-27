@@ -112,7 +112,7 @@ LavenderTown_House2_Text_FromNowOnShallBeKnownAsSameName::
 LavenderTown_House2_Text_TrulyImpeccableName::
     .string "{STR_VAR_1}, oi?\n"
     .string "És un nom realment impecable!\p"
-    .string "Cuida bé de {STR_VAR_1}!$"
+    .string "Cuida bé {STR_VAR_1}!$"
 
 LavenderTown_House2_Text_ThatIsMerelyAnEgg::
     .string "Vinga, vinga.\n"

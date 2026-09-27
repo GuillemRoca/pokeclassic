@@ -25,11 +25,11 @@ PokemonTower_6F_EventScript_Angelica::
 	end
 
 PokemonTower_6F_Text_AngelicaIntro::
-    .string "Dóna…me…\n"
+    .string "Dóna'm…\n"
     .string "sang…$"
 
 PokemonTower_6F_Text_AngelicaDefeat::
-    .string "Gemec!$"
+    .string "Aaaagh!$"
 
 PokemonTower_6F_Text_AngelicaPostBattle::
     .string "Em sento anèmica i feble…$"

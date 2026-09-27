@@ -10,7 +10,7 @@ SilphCo_1F_EventScript_FloorSign::
 	end
 
 SilphCo_1F_Text_WelcomePresidentInBoardroom::
-    .string "Benvingut.\p"
+    .string "{MASC}Benvingut{FEM}Benvinguda{ENDG}.\p"
     .string "El President és a la sala de\n"
     .string "juntes al pis 11.$"
 
@@ -25,7 +25,7 @@ SilphCo_1F_EventScript_PostgameGrunt1::
 	end
 
 SilphCo_1F_Text_PostgameGrunt1Intro::
-    .string "L'Equip Rocket ha tornat, nen!$"
+    .string "L'Equip Rocket ha tornat, {MASC}nen{FEM}nena{ENDG}!$"
 
 SilphCo_1F_Text_PostgameGrunt1Defeat::
     .string "Abatut en plena joventut!$"

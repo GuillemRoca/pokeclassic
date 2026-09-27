@@ -7,7 +7,7 @@ CinnabarIsland_PokemonLab_Lounge_EventScript_Scientist::
 
 CinnabarIsland_PokemonLab_Lounge_Text_FoundFossilInMtMoon::
     .string "He trobat un fòssil increïble\n"
-    .string "dins del Mont Moon.\p"
+    .string "dins del Mont Lluna.\p"
     .string "Crec que és d'un Pokémon\n"
     .string "prehistòric rar.$"
 

@@ -7,7 +7,7 @@ SSAnne_Deck_EventScript_Youngster::
 
 SSAnne_Deck_Text_ShipDepartingSoon::
     .string "La festa s'ha acabat.\n"
-    .string "El vaixell zarparà aviat.$"
+    .string "El vaixell salparà aviat.$"
 
 SSAnne_Deck_EventScript_BaldingMan::
 	msgbox SSAnne_Deck_Text_FeelSeasick, MSGBOX_NPC
@@ -48,8 +48,8 @@ SSAnne_Deck_EventScript_Trevor::
 	end
 
 SSAnne_Deck_Text_TrevorIntro::
-    .string "Ep, aquí!\n"
-    .string "Estàs marejat?$"
+    .string "Ep, tu!\n"
+    .string "Estàs {MASC}marejat{FEM}marejada{ENDG}?$"
 
 SSAnne_Deck_Text_TrevorDefeat::
     .string "He estat descuidat!$"

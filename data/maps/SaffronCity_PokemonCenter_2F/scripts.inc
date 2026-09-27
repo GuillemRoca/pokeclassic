@@ -7,7 +7,7 @@ SaffronCity_PokemonCenter_2F_Rocket1::
 	end
 
 SaffronCity_PokemonCenter_2F_Text_Rocket1::
-	.string "Heh, fes el camp, nen!\n"
+	.string "Heh, fes el camp, {MASC}nen{FEM}nena{ENDG}!\n"
 	.string "Ara això és botí de l'Equip\l"
 	.string "Rocket!$"
 
@@ -55,5 +55,5 @@ SaffronCity_PokemonCenter_2F_Text_Unworthy::
 
 SaffronCity_PokemonCenter_2F_Text_Unworthy2::
 	.string "He de tornar al Dojo.\n"
-	.string "He de reentrenar el meu cos i\l"
-	.string "esperit.$"
+	.string "He de tornar a entrenar el cos i\l"
+	.string "l'esperit.$"

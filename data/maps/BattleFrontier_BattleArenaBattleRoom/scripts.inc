@@ -480,22 +480,22 @@ BattleFrontier_BattleArenaBattleRoom_Movement_GretaWalkBackToCenter:
 	step_end
 
 BattleFrontier_BattleArenaBattleRoom_Text_PlayerStepForward:
-	.string "Àrbitre: Entrenador/a {PLAYER}!\n"
+	.string "Àrbitre: {MASC}Entrenador{FEM}Entrenadora{ENDG} {PLAYER}!\n"
 	.string "Endavant, si us plau!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_OpponentStepForward:
-	.string "Àrbitre: Entrenador/a {STR_VAR_1}!\n"
+	.string "Àrbitre: Oponent {STR_VAR_1}!\n"
 	.string "Endavant, si us plau!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SetKOTourneyBegin:
-	.string "Àrbitre: Torneig KO Fix!\n"
+	.string "Àrbitre: Torneig KO!\n"
 	.string "Comenceu!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsPlayer:
-	.string "Àrbitre: Qui guanya és {PLAYER}!$"
+	.string "Àrbitre: Victòria per a {PLAYER}!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_WinnerIsOpponent:
-	.string "Àrbitre: Qui guanya és {STR_VAR_1}!$"
+	.string "Àrbitre: Victòria per a {STR_VAR_1}!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_MonsWillBeRestored:
 	.string "Els teus Pokémon seran curats\n"
@@ -530,8 +530,8 @@ BattleFrontier_BattleArenaBattleRoom_Text_SaveAndShutDown:
 	.string "apagar ara?$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_RetireFromChallenge:
-	.string "Vols retirar-te del teu repte\n"
-	.string "al Torneig KO Fix?$"
+	.string "Vols abandonar el repte\n"
+	.string "del Torneig KO?$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_SavingPleaseWait:
 	.string "Estic desant les dades de la partida.\n"
@@ -539,17 +539,17 @@ BattleFrontier_BattleArenaBattleRoom_Text_SavingPleaseWait:
 
 BattleFrontier_BattleArenaBattleRoom_Text_RecordLastBattle:
 	.string "Vols enregistrar el teu últim combat\n"
-	.string "al teu Passi de Frontera?$"
+	.string "al Passi de Frontera?$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_NowFaceTycoon:
-	.string "Estimat/da aspirant!\p"
-	.string "El teu nivell d'habilitat és increïble!\p"
+	.string "{MASC}Estimat{FEM}Estimada{ENDG} aspirant!\p"
+	.string "La teva destresa és increïble!\p"
 	.string "Ara ens agradaria que t'enfrontessis\n"
 	.string "al nostre líder, el Magnat de l'Arena!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_PreparedForTycoon:
 	.string "Un combat amb el Magnat de l'Arena!\n"
-	.string "Estàs preparat/da?$"
+	.string "Estàs {MASC}preparat{FEM}preparada{ENDG}?$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_MakeWayForGreta:
 	.string "Àrbitre: El Magnat de l'Arena!\n"
@@ -566,7 +566,7 @@ BattleFrontier_BattleArenaBattleRoom_Text_IsThatRight:
 
 BattleFrontier_BattleArenaBattleRoom_Text_YouLookWeakTakeThingsEasy:
 	.string "No sé com dir-ho, però…\n"
-	.string "Sent franc, sembles bastant feble.\l"
+	.string "Per dir-ho clar, sembles força feble.\l"
 	.string "Segur que estàs a la meva altura?\p"
 	.string "Hmm…\p"
 	.string "Bé, d'acord!\n"
@@ -578,17 +578,17 @@ BattleFrontier_BattleArenaBattleRoom_Text_IgniteMyPassionForBattle:
 
 BattleFrontier_BattleArenaBattleRoom_Text_GretaYoureToughAfterAll:
 	.string "Greta: Au, espera un moment!\n"
-	.string "Al final sí que ets dur/a!\p"
+	.string "Al final sí que ets {MASC}dur{FEM}dura{ENDG}!\p"
 	.string "M'agrades!\n"
 	.string "Deixa'm veure el teu Passi de Frontera.$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_ReceivedGutsSymbol:
-	.string "El Símbol de Valor s'ha gravat\n"
+	.string "El Símbol de Valentia s'ha gravat\n"
 	.string "al Passi de Frontera!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_GoingToBeFunNextTime:
 	.string "Hmm…\p"
-	.string "Serà divertit el proper cop!\n"
+	.string "El proper cop serà divertit!\n"
 	.string "Tinc moltes ganes!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_GretaLookingForwardToSeeingAgain:
@@ -604,22 +604,22 @@ BattleFrontier_BattleArenaBattleRoom_Text_SoAreYouReady:
 
 BattleFrontier_BattleArenaBattleRoom_Text_WontAllowHalfheartedEffort:
 	.string "No permetré un esforç a mitges!\n"
-	.string "Prepara't per una pallissa!$"
+	.string "Prepara't per rebre una pallissa!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_LetsGetThisStarted:
 	.string "Vinga, Àrbitre!\n"
 	.string "Comencem d'una vegada!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_GretaBlownAway:
-	.string "Greta: Gaaah! Arrasat!\n"
+	.string "Greta: Gaaah! M'has arrasat!\n"
 	.string "Deixa'm veure el teu Passi de Frontera!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_GutsSymbolTookGoldenShine:
-	.string "El Símbol de Valor ha adquirit\n"
+	.string "El Símbol de Valentia ha adquirit\n"
 	.string "una brillantor daurada!$"
 
 BattleFrontier_BattleArenaBattleRoom_Text_IfWeBattleAgainWontLose:
 	.string "Arrrgh!\n"
 	.string "Quina ràbia!\p"
 	.string "Si tornem a combatre, no perdré!\n"
-	.string "No ho oblidis! Adéu-siau!$"
+	.string "No ho oblidis! Adeu, adeu!$"

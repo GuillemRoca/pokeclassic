@@ -1,11 +1,11 @@
 EventTicket_Text_OldSeaMapTooFar:
-    .string "Qué hi ha, jove?\p"
+    .string "Què hi ha, jove?\p"
 
 
-	.string "Què, ets tu el que se suposa que\n"
+	.string "Què, ets tu qui se suposa que\n"
 
 
-	.string "té un vell mapa espatllat?\p"
+	.string "té un mapa vell i estripat?\p"
 
 
 	.string "Deixa'm veure.\n"
@@ -14,10 +14,10 @@ EventTicket_Text_OldSeaMapTooFar:
 	.string "… … … … … …\p"
 
 
-	.string "Noi, això és molt lluny.\n"
+	.string "Vaja, això queda molt lluny.\n"
 
 
-	.string "Em temo que no te'n puc ajudar…$"
+	.string "Em temo que no et puc ajudar…$"
 
 
 
@@ -25,10 +25,10 @@ EventTicket_Text_BrineyHoldOnASecond:
     .string "Briney: Espera un moment!\p"
 
 
-	.string "Quin motiu hi ha per negar-se a\n"
+	.string "Què és això de rebutjar algú\n"
 
 
-	.string "algú a qui dec tant?$"
+	.string "a qui dec tant?$"
 
 
 
@@ -62,10 +62,10 @@ EventTicket_Text_OddTicketGetOnBoard:
 	.string "tiquet estrany?\p"
 
 
-	.string "On vols anar és una illa\n"
+	.string "Allà on vols anar és una illa\n"
 
 
-	.string "que és molt, molt lluny.\p"
+	.string "molt, molt llunyana.\p"
 
 
 	.string "Ningú sap el que hi espera…\p"
@@ -94,7 +94,7 @@ FarawayIsland_Entrance_Text_SailorReturn:
 	.string "Ja has explorat l'illa?\p"
 
 
-	.string "Vols tornar a Cinabri?$"
+	.string "Vols tornar a l'Illa Cinabri?$"
 
 
 
@@ -116,10 +116,10 @@ EventTicket_Text_OddTicketsWhereTo:
 	.string "… … …Hmm.\p"
 
 
-	.string "Aquests tiquets t'han de portar a illes\n"
+	.string "Aquests tiquets et portaran a illes\n"
 
 
-	.string "que són molt, molt lluny.\p"
+	.string "molt, molt llunyanes.\p"
 
 
 	.string "Ningú sap el que hi espera,\n"
@@ -137,18 +137,18 @@ EventTicket_Text_OddTicketsWhereTo:
 	.string "Puja a bord, jove!\n"
 
 
-	.string "A on naveguem primer?$"
+	.string "Cap a on naveguem primer?$"
 
 
 
 NavelRock_Harbor_Text_SailorReturn:
-    .string "Vas… Vas sentir-ho?\n"
+    .string "Ho… Ho has sentit?\n"
 
 
-	.string "Aquell udol profund des de dins.\p"
+	.string "Aquell grunyit greu que ve de dins.\p"
 
 
-	.string "Segur que és segur?\n"
+	.string "Segur que no és perillós?\n"
 
 
 	.string "Creus que hauríem de marxar?$"
@@ -162,7 +162,7 @@ FarawayIsland_Entrance_Text_Sign:
 	.string "hagués estat escrita fa molt…\p"
 
 
-	.string "“…de, dia 6\n"
+	.string "“…bre, dia 6\n"
 
 
 	.string "Si algun humà…trepitja aquí…\l"

@@ -206,7 +206,7 @@ FuchsiaCity_House3_Text_Expert:
     .string "així que intentem mantenir la\l"
     .string "tradició.\p"
     .string "Sempre que algú ens visita,\n"
-    .string "Mesclem Baies junts!$"
+    .string "mesclem Baies junts!$"
 
 
 BerryHouse_EventScript_BerryBlender::
@@ -419,7 +419,7 @@ BerryHouse_Text_ExplainBerryBlending:
     .string "arribi al teu marcador, prem\l"
     .string "el Botó A.\p"
     .string "Això és tot.\n"
-    .string "Veuràs com de fàcil és!$"
+    .string "Ja veuràs que fàcil que és!$"
 
 BerryHouse_EventScript_StartBlender:
     msgbox BerryHouse_Text_LetsBerryBlender, MSGBOX_DEFAULT

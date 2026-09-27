@@ -6,7 +6,7 @@ SafariZone_East_RestHouse_EventScript_Rocker::
 	end
 
 SafariZone_East_Text_CaughtChanseyAllWorthwhile::
-    .string "He capturat un Chansey!\p"
+    .string "He capturat una Chansey!\p"
     .string "Això fa que tot hagi valgut\n"
     .string "la pena.$"
 
@@ -33,6 +33,6 @@ SafariZone_East_RestHouse_EventScript_RangerM::
 SafariZone_East_RestHouse_Text_RangerM:
 	.string "Si poses un {POKEBLOCK} al Dispensador,\n"
 	.string "els Pokémon s'hi senten atrets.$"
-	.string "Crec que Pokémon amb el mateix\n"
-	.string "tipus de caràcter són atrets\l"
+	.string "Crec que els Pokémon d'una mateixa\n"
+	.string "naturalesa se senten atrets\l"
 	.string "per un cert {POKEBLOCK}.$"

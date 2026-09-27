@@ -36,7 +36,7 @@ MoveTutor_Text_RolloutTeach:
 	.string "a un dels teus Pokémon.$"
 
 MoveTutor_Text_RolloutDeclined:
-	.string "No cal ser tímid.\n"
+	.string "No cal ser {MASC}tímid{FEM}tímida{ENDG}.\n"
 	.string "Anem a rodar!$"
 
 MoveTutor_Text_RolloutWhichMon:
@@ -77,10 +77,10 @@ MoveTutor_Text_SleepTalkTeach:
 
 MoveTutor_Text_SleepTalkDeclined:
 	.string "Oh, bé, bé. Tu també vols estar\n"
-	.string "despert amb Poder Ocult…$"
+	.string "{MASC}despert{FEM}desperta{ENDG} amb Poder Ocult…$"
 
 MoveTutor_Text_SleepTalkWhichMon:
-	.string "Ah, un nen agraït!\n"
+	.string "Ah, {MASC}un nen agraït{FEM}una nena agraïda{ENDG}!\n"
 	.string "A quin Pokémon hauria d'ensenyar?$"
 
 MoveTutor_Text_SleepTalkTaught:

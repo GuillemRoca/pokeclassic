@@ -8,7 +8,7 @@ CeladonCity_DepartmentStore_4F_EventScript_Man::
 CeladonCity_DepartmentStore_4F_Text_GettingPokeDollAsPresent::
     .string "Busco un regal per a la meva\n"
     .string "xicota.\p"
-    .string "Suposo que serà una Poké Doll.\n"
+    .string "Suposo que serà un Poké Ninot.\n"
     .string "És el que es porta.$"
 
 CeladonCity_DepartmentStore_4F_EventScript_Youngster::
@@ -18,7 +18,7 @@ CeladonCity_DepartmentStore_4F_EventScript_Youngster::
 CeladonCity_DepartmentStore_4F_Text_CanRunAwayWithPokeDoll::
     .string "He sentit una cosa útil.\p"
     .string "Si apareix un Pokémon salvatge,\n"
-    .string "pots distreure'l amb una Poké Doll.\p"
+    .string "pots distreure'l amb un Poké Ninot.\p"
     .string "Pots fugir mentre el Pokémon\n"
     .string "salvatge està distret.$"
 

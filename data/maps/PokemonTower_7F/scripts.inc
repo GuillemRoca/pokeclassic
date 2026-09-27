@@ -64,7 +64,7 @@ PokemonTower_7F_EventScript_JessieJamesBattle::
 	end
 
 PokemonTower_7F_Text_HoldItKid::
-	.string "Jessie: Para aquí mateix, marrec.$"
+	.string "Jessie: Atura't aquí mateix, {MASC}marrec{FEM}mocosa{ENDG}.$"
 
 Movement_RocketDuoEnters:
 	walk_up
@@ -82,10 +82,10 @@ PokemonTower_7F_RocketDuoIntro::
 	.string "Jessie: Hauries d'haver-los donat\n"
 	.string "a la Policia Internacional quan\l"
 	.string "en tenies l'oportunitat.\p"
-	.string "James: Ens els tornarem a quedar!$"
+	.string "James: Ara mateix els recuperarem!$"
 
 PokemonTower_7F_RocketDuoDefeat::
-    .string "Jessie: Marrec!\n"
+    .string "Jessie: {MASC}Marrec{FEM}Mocosa{ENDG}!\n"
     .string "James: Te'n penediràs!$"
 
 PokemonTower_7F_EventScript_RocketDuoDefeated::
@@ -107,7 +107,7 @@ PokemonTower_7F_Text_RocketDuoDefeated::
     .string "oportunitat de recuperar els plans\l"
     .string "ha fracassat...\p"
     .string "Jessie: No creus que ja ho sé?\n"
-    .string "Tant se val, si aquest marrec\l"
+    .string "Tant se val, si {MASC}aquest marrec{FEM}aquesta mocosa{ENDG}\l"
     .string "encara no ha donat els plans a la\l"
     .string "Policia Internacional, vol dir que\l"
     .string "encara tenim temps per anar a\l"
@@ -169,7 +169,7 @@ PokemonTower_7F_Text_Grunt1Defeat::
     .string "Em rendeixo!$"
 
 PokemonTower_7F_Text_Grunt1PostBattle::
-    .string "No oblidaré això!$"
+    .string "No ho oblidaré!$"
 
 PokemonTower_7F_EventScript_RemoveGrunt1::
 	removeobject LOCALID_GRUNT1
@@ -229,8 +229,8 @@ PokemonTower_7F_Text_Grunt2Intro::
     .string "Llavors, es va posar a predicar\n"
     .string "que l'Equip Rocket maltracta\l"
     .string "els Pokémon.\p"
-    .string "Doncs, només n'estem parlant\n"
-    .string "com adults.$"
+    .string "Així que només n'estem parlant\n"
+    .string "com a adults.$"
 
 PokemonTower_7F_Text_Grunt2Defeat::
     .string "Si us plau!\n"
@@ -307,10 +307,10 @@ PokemonTower_7F_EventScript_Grunt3::
 	end
 
 PokemonTower_7F_Text_Grunt3Intro::
-    .string "No salvaràs ningú, nen!$"
+    .string "No salvaràs ningú, {MASC}nen{FEM}nena{ENDG}!$"
 
 PokemonTower_7F_Text_Grunt3Defeat::
-    .string "No lluiteu contra nosaltres,\n"
+    .string "No t'enfrontis\n"
     .string "els Rockets!$"
 
 PokemonTower_7F_Text_Grunt3PostBattle::

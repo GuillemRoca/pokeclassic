@@ -136,7 +136,7 @@ CeruleanCity_EventScript_Youngster::
 	end
 
 CeruleanCity_Text_TrainerLifeIsToughIsntIt::
-    .string "Tu també ets Entrenador?\p"
+    .string "Tu també ets {MASC}Entrenador{FEM}Entrenadora{ENDG}?\p"
     .string "Col·leccionar, combatre…\n"
     .string "És una vida dura, oi?$"
 
@@ -378,7 +378,7 @@ CeruleanCity_Text_ObtainedPokeblockCase::
 	.string "PokéBloc als Obj. Clau.$"
 
 CeruleanCity_Text_ExplainPokeblockSmellYa::
-    .string "Un poca-cosa com tu…\n"
+    .string "{MASC}Un{FEM}Una{ENDG} poca-cosa com tu…\n"
     .string "Això et va perfecte.\p"
     .string "Jo no el necessito perquè\n"
     .string "m'importen un rave els Concursos.\p"

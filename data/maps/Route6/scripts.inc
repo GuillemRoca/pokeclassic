@@ -41,7 +41,7 @@ Route6_EventScript_RegisterKeigoAfterBattle::
 	end
 
 Route6_Text_KeigoRegister:
-	.string "Demostrar que els Pokémon Insecte\n"
+	.string "Demostraré que els Pokémon Insecte\n"
 	.string "són els més forts. Fem la\l"
 	.string "revenja algun dia!$"
 
@@ -55,8 +55,8 @@ Route6_Text_KeigoRematchIntro::
 	.string "que no sigui un Pokémon Insecte…$"
 
 Route6_Text_KeigoRematchPostBattle::
-	.string "Pensava que havia de diversificar,\n"
-	.string "però sempre estimaré els Insecte!$"
+	.string "Volia provar altres tipus, però\n"
+	.string "sempre estimaré els Pokémon Insecte!$"
 
 Route6_EventScript_Ricky::
 	trainerbattle_single TRAINER_CAMPER_RICKY, Route6_Text_RickyIntro, Route6_Text_RickyDefeat
@@ -98,10 +98,10 @@ Route6_EventScript_Elijah::
 
 Route6_Text_ElijahIntro::
     .string "No t'havia vist mai per aquí.\n"
-    .string "Ets bo?$"
+    .string "Ets {MASC}bo{FEM}bona{ENDG}?$"
 
 Route6_Text_ElijahDefeat::
-    .string "Ets massa bo!$"
+    .string "Ets massa {MASC}bo{FEM}bona{ENDG}!$"
 
 Route6_Text_ElijahPostBattle::
     .string "Els meus Pokémon són febles?\n"
@@ -134,7 +134,7 @@ Route6_Text_JeffIntro::
     .string "Vols parlar amb mi?$"
 
 Route6_Text_JeffDefeat::
-    .string "Quin fàstic…\n"
+    .string "Quina ràbia…\n"
     .string "No he pogut superar el repte…$"
 
 Route6_Text_JeffPostBattle::

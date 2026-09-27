@@ -73,7 +73,7 @@ Route11_Text_JasperIntro::
     .string "No en tinc mai prou!$"
 
 Route11_Text_JasperDefeat::
-    .string "Hi era a prop!$"
+    .string "Podia haver guanyat!$"
 
 Route11_Text_JasperPostBattle::
     .string "No pots ser un covard al món\n"
@@ -88,7 +88,7 @@ Route11_EventScript_Bernie::
 	end
 
 Route11_Text_BernieIntro::
-    .string "Compte amb els cables vius!$"
+    .string "Compte amb els cables amb corrent!$"
 
 Route11_Text_BernieDefeat::
     .string "Uau!\n"
@@ -115,7 +115,7 @@ Route11_EventScript_BernieRematch::
 	end
 
 Route11_Text_BernieRematchIntro::
-	.string "Uixi! Hora de la pausa.\n"
+	.string "Iupi! Hora de la pausa.\n"
 	.string "Fem la revenja?$"
 
 Route11_Text_BernieRematchPostBattle::
@@ -128,13 +128,13 @@ Route11_EventScript_Braxton::
 
 Route11_Text_BraxtonIntro::
     .string "Compte!\n"
-    .string "Estic estirant cables!$"
+    .string "Estic instal·lant cables!$"
 
 Route11_Text_BraxtonDefeat::
     .string "Ha estat electritzant!$"
 
 Route11_Text_BraxtonPostBattle::
-    .string "Escampeu la veu d'estalviar\n"
+    .string "Fes córrer la veu: cal estalviar\n"
     .string "energia!$"
 
 Route11_EventScript_Eddie::
@@ -159,11 +159,11 @@ Route11_EventScript_Dillon::
 	end
 
 Route11_Text_DillonIntro::
-    .string "Acabo de ser entrenador.\n"
+    .string "Acabo de fer-me entrenador.\n"
     .string "Però crec que puc guanyar.$"
 
 Route11_Text_DillonDefeat::
-    .string "Els meus Pokémon no han pogut…\n"
+    .string "Els meus Pokémon no han pogut guanyar…\n"
     .string "No han crescut prou?$"
 
 Route11_Text_DillonPostBattle::
@@ -188,7 +188,7 @@ Route11_Text_YasuPostBattle::
     .string "Hi ha un Pokémon gras que baixa\n"
     .string "de les muntanyes.\p"
     .string "Segur que seria fort si\n"
-    .string "l'atrapes.$"
+    .string "l'atrapessis.$"
 
 Route11_EventScript_Dave::
 	trainerbattle_single TRAINER_YOUNGSTER_DAVE, Route11_Text_DaveIntro, Route11_Text_DaveDefeat

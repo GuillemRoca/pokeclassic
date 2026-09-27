@@ -37,7 +37,7 @@ PokemonTower_4F_EventScript_Laurel::
 	end
 
 PokemonTower_4F_Text_LaurelIntro::
-    .string "Sigues maleït amb mi!\n"
+    .string "Sigues {MASC}maleït{FEM}maleïda{ENDG} amb mi!\n"
     .string "Kwaaah!$"
 
 PokemonTower_4F_Text_LaurelDefeat::
@@ -54,7 +54,7 @@ PokemonTower_4F_EventScript_Jody::
 
 PokemonTower_4F_Text_JodyIntro::
     .string "Huhuhu…\n"
-    .string "No em pegueu!$"
+    .string "No em peguis!$"
 
 PokemonTower_4F_Text_JodyDefeat::
     .string "Eh?\n"

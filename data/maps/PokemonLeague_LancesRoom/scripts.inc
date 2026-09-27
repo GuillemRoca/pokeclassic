@@ -158,7 +158,7 @@ PokemonLeague_LancesRoom_Text_Intro::
     .string "però els seus poders són superiors.\p"
     .string "Són pràcticament indestructibles.\n"
     .string "No serveix de res ser astut.\p"
-    .string "Bé, estàs preparat per perdre?\p"
+    .string "Bé, estàs {MASC}preparat{FEM}preparada{ENDG} per perdre?\p"
     .string "El teu desafiament a la Lliga\n"
     .string "acaba amb mi, {PLAYER}!$"
 
@@ -174,16 +174,16 @@ PokemonLeague_LancesRoom_Text_Intro2::
 PokemonLeague_LancesRoom_Text_Defeat::
     .string "Ja està!\p"
     .string "Em costa admetre-ho, però ets\n"
-    .string "un mestre Pokémon!$"
+    .string "{MASC}un mestre{FEM}una mestra{ENDG} Pokémon!$"
 
 PokemonLeague_LancesRoom_Text_Defeat2::
-    .string "Com he pogut ser empès\n"
-    .string "fins a aquest punt?$"
+    .string "Com he pogut arribar\n"
+    .string "a aquest extrem?$"
 
 PokemonLeague_LancesRoom_Text_PostBattle::
     .string "Encara no puc creure que els meus\n"
     .string "dracs hagin perdut, {PLAYER}.\p"
-    .string "Ara ets el Campió de la Lliga\n"
+    .string "Ara ets {MASC}el Campió{FEM}la Campiona{ENDG} de la Lliga\n"
     .string "Pokémon!\p"
     .string "…O ho series, però encara\n"
     .string "et queda un repte més.\p"
@@ -205,4 +205,4 @@ PokemonLeague_LancesRoom_Text_PostBattle2::
     .string "un cop més, però un últim repte\l"
     .string "t'espera!\p"
     .string "Hem preparat un desafiament\n"
-    .string "especial per a tu, Campió!$"
+    .string "especial per a tu, {MASC}Campió{FEM}Campiona{ENDG}!$"

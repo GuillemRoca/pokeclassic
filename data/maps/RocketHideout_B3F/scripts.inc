@@ -34,8 +34,8 @@ RocketHideout_B3F_Text_Grunt2Defeat::
 
 RocketHideout_B3F_Text_Grunt2PostBattle::
     .string "Endavant, ves-hi!\p"
-    .string "Però no pots fer servir\n"
-    .string "l'ascensor sense la Clau.$"
+    .string "Però sense la Clau de l'Ascensor\n"
+    .string "no el podràs fer funcionar.$"
 
 RocketHideout_B3F_EventScript_ItemRareCandy::
 	finditem ITEM_RARE_CANDY, 1

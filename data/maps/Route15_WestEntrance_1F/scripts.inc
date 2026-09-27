@@ -7,5 +7,5 @@ Route15_WestEntrance_1F_EventScript_Guard::
 
 Route15_WestEntrance_1F_Text_OaksAideCameByHere::
     .string "Què és això que portes?\n"
-    .string "Eh? Una PokéDex?\p"
+    .string "Eh? Una Pokédex?\p"
     .string "Què és això?$"

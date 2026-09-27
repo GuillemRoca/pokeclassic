@@ -100,7 +100,7 @@ CeladonCity_Text_KidnappedPokemon::
     .string "Oh, què puc fer…\p"
     .string "L'Equip Rocket ha estat segrestant\n"
     .string "Pokémon.\p"
-    .string "He perseguit un Reclu Rocket amb\n"
+    .string "He perseguit un Recluta Rocket amb\n"
     .string "un Cubone des de Lavanda!\p"
     .string "Van venir corrents cap aquí,\n"
     .string "n'estic segur.\p"
@@ -112,7 +112,7 @@ CeladonCity_EventScript_BreederRescuedCubone::
 	end
 
 CeladonCity_Text_RescuedCubone::
-    .string "Oh! Has rescatat el Cubone del\n"
+    .string "Oh! Has rescatat el Cubone de\n"
     .string "l'Equip Rocket?\p"
     .string "Això és meravellós!$"
 
@@ -122,7 +122,7 @@ CeladonCity_EventScript_OldMan::
 
 CeladonCity_Text_BlewItAllAtSlots::
     .string "Ai…\n"
-    .string "M'ho he jugat tot a les slots!\p"
+    .string "M'ho he jugat tot a les escurabutxaques!\p"
     .string "Sabia que hauria d'haver canviat\n"
     .string "les Monedes per premis!$"
 
@@ -192,9 +192,9 @@ CeladonCity_EventScript_TrainerTips1::
 
 CeladonCity_Text_ExplainXAccuracyDireHit::
     .string "Consells d'Entrenador:\p"
-    .string "X Accuracy augmenta la precisió\n"
+    .string "Precisió X augmenta la precisió\n"
     .string "de les tècniques.\p"
-    .string "Dire Hit augmenta la probabilitat\n"
+    .string "Cop Crític augmenta la probabilitat\n"
     .string "de cops crítics.\p"
     .string "Aconsegueix els teus objectes als\n"
     .string "Grans Magatzems de Celadó!$"
@@ -205,7 +205,7 @@ CeladonCity_EventScript_TrainerTips2::
 
 CeladonCity_Text_GuardSpecProtectsFromStatus::
     .string "Consells d'Entrenador:\p"
-    .string "Guard Spec. protegeix els Pokémon\n"
+    .string "Esp. Guàrdia protegeix els Pokémon\n"
     .string "de moviments que redueixen\l"
     .string "estadístiques en combat.\p"
     .string "Aconsegueix els teus objectes als\n"

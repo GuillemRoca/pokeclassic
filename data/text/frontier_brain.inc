@@ -14,18 +14,19 @@ gText_AnabelDefeatGold::
 @ Battle Dome
 gText_TuckerWonSilver::
 	.string "Ahahaha! No t'avergonyeixes?\n"
-	.string "Tothom ho mira!$"
+	.string "Tothom t'està mirant!$"
 
 gText_TuckerDefeatSilver::
 	.string "Grr…\n"
 	.string "Però, com…$"
 
 gText_TuckerWonGold::
-	.string "El meu títol d'As del Domo no és per a res!$"
+	.string "El meu títol d'As del Domo\n"
+	.string "no és de decoració!$"
 
 gText_TuckerDefeatGold::
 	.string "Ahahaha!\n"
-	.string "Ets inspirador!$"
+	.string "M'inspires!$"
 
 @ Battle Factory
 gText_NolandWonSilver::
@@ -41,7 +42,7 @@ gText_NolandWonGold::
 	.string "Ja has acabat?$"
 
 gText_NolandDefeatGold::
-	.string "Però, com ha passat?$"
+	.string "Però què ha passat aquí?$"
 
 @ Battle Pike
 gText_LucyWonSilver::
@@ -54,12 +55,12 @@ gText_LucyWonGold::
 	.string "Ha!$"
 
 gText_LucyDefeatGold::
-	.string "Maleïda!$"
+	.string "Llamps!$"
 
 @ Battle Arena
 gText_GretaWonSilver::
 	.string "Au va!\n"
-	.string "Has d'esforçar-te més que això!$"
+	.string "T'hi hauràs d'esforçar molt més!$"
 
 gText_GretaDefeatSilver::
 	.string "No pot ser!\n"
@@ -67,16 +68,16 @@ gText_GretaDefeatSilver::
 
 gText_GretaWonGold::
 	.string "Heheh!\n"
-	.string "Que esperaves?$"
+	.string "Què t'esperaves?$"
 
 gText_GretaDefeatGold::
 	.string "Com?\n"
-	.string "Va en serio?!$"
+	.string "Va de debò?!$"
 
 @ Battle Palace
 gText_SpenserWonSilver::
 	.string "Els teus Pokémon són febles\n"
-	.string "perquè tu ets un Entrenador feble!$"
+	.string "perquè el seu Entrenador també ho és!$"
 
 gText_SpenserDefeatSilver::
 	.string "Ah…\n"
@@ -92,7 +93,7 @@ gText_SpenserDefeatGold::
 
 @ Battle Pyramid
 gText_BrandonWonSilver::
-	.string "Ei! Però, que et passa!\n"
+	.string "Ei! Però què et passa?!\n"
 	.string "Fes un esforç! Aixeca't!$"
 
 gText_BrandonDefeatSilver::

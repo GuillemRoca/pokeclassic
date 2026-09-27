@@ -51,7 +51,7 @@ PokemonTower_3F_Text_HopeIntro::
 
 PokemonTower_3F_Text_HopeDefeat::
     .string "Hwa!\n"
-    .string "M'he salvat!$"
+    .string "Estic salvada!$"
 
 PokemonTower_3F_Text_HopePostBattle::
     .string "Aquesta experiència em canviarà\n"

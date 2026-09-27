@@ -108,7 +108,7 @@ SilphCo_6F_Text_BetterGetBackToWork::
     .string "Bé, millor que torni a la feina.$"
 
 SilphCo_6F_Text_HelpMePlease::
-    .string "Oh, mare, oh, mare.\n"
+    .string "Ai, mare meva, mare meva!\n"
     .string "Ajuda'm, si us plau!$"
 
 SilphCo_6F_Text_WeGotEngaged::
@@ -132,8 +132,8 @@ SilphCo_6F_Text_RocketsRanAwayBecauseOfYou::
     .string "gràcies a tu!$"
 
 SilphCo_6F_Text_TargetedSilphForOurMonProducts::
-    .string "Deuen haver apuntat a Silph pels\n"
-    .string "nostres productes Pokémon.$"
+    .string "Segur que tenien Silph a la mira\n"
+    .string "pels nostres productes Pokémon.$"
 
 SilphCo_6F_Text_ComeWorkForSilphWhenYoureOlder::
     .string "Vine a treballar a Silph quan\n"
@@ -152,8 +152,8 @@ SilphCo_6F_Text_Grunt1PostBattle::
 
 SilphCo_6F_Text_TaylorIntro::
     .string "Aquell President pudent!\p"
-    .string "Ben merescut que ho passa per\n"
-    .string "enviar-me a la sucursal\l"
+    .string "S'ho té ben merescut per haver-me\n"
+    .string "enviat a la sucursal\l"
     .string "d'Unova!\p"
     .string "Per això l'Equip Rocket ens ha\n"
     .string "atacat, segur!$"
@@ -169,7 +169,7 @@ SilphCo_6F_Text_Grunt2Intro::
     .string "Goses trair l'Equip Rocket?$"
 
 SilphCo_6F_Text_Grunt2Defeat::
-    .string "Traïdor!$"
+    .string "{MASC}Traïdor{FEM}Traïdora{ENDG}!$"
 
 SilphCo_6F_Text_Grunt2PostBattle::
     .string "Si defenses la justícia, ens\n"

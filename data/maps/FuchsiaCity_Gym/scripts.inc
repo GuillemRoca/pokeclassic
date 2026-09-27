@@ -27,7 +27,7 @@ FuchsiaCity_Gym_EventScript_ChallengeLeader::
 
 FuchsiaCity_Gym_Text_LeaderSpeech::
     .string "Koga: Fwahahaha!\p"
-    .string "Un simple nen com tu gosa\n"
+    .string "{MASC}Un simple nen{FEM}Una simple nena{ENDG} com tu gosa\n"
     .string "desafiar-me?\p"
     .string "Només la idea em fa tremolar\n"
     .string "de riure!\p"
@@ -78,7 +78,7 @@ FuchsiaCity_Gym_Text_ReceivedBadge::
 
 FuchsiaCity_Gym_Text_ExplainBadge::
     .string "La Medalla Ànima et permetrà\n"
-   .string "fer SURF fora de combat.$"
+    .string "fer servir Surf fora de combat.$"
 
 FuchsiaCity_Gym_EventScript_GetTM::
 	msgbox FuchsiaCity_Gym_Text_TakeThisWithYou, MSGBOX_DEFAULT
@@ -113,7 +113,7 @@ FuchsiaCity_Gym_EventScript_NoRoomForTM::
 	end
 
 FuchsiaCity_Gym_Text_NoRoomForTM::
-    .string "Fes espai per a això, nen!$"
+    .string "Fes espai per a això, {MASC}nen{FEM}nena{ENDG}!$"
 
 FuchsiaCity_Gym_EventScript_LeaderPostBattle::
 	lock
@@ -151,7 +151,7 @@ FuchsiaCity_Gym_EventScript_RematchLeader::
 	end
 
 FuchsiaCity_Gym_Text_RematchLeader::
-	.string "Fwahahaha! Si no és el nen.\p"
+	.string "Fwahahaha! Però si és {MASC}el nen{FEM}la nena{ENDG}!\p"
 	.string "Sembla que el destí ens ha tornat\n"
 	.string "a reunir.\p"
 	.string "Has vingut en un moment molt\n"
@@ -178,7 +178,7 @@ FuchsiaCity_Gym_EventScript_PostgameRematch::
 	end
 
 FuchsiaCity_Gym_Text_RematchMode::
-	.string "Ara que ets el campió,\n"
+	.string "Ara que ets {MASC}el campió{FEM}la campiona{ENDG},\n"
 	.string "vols anar amb tot?$"
 
 FuchsiaCity_Gym_EventScript_LeaderRematch_OriginalTeam::
@@ -222,7 +222,7 @@ FuchsiaCity_Gym_Text_PhilIntro::
 
 FuchsiaCity_Gym_Text_PhilDefeat::
     .string "Uau!\n"
-    .string "Ets bo!$"
+    .string "Ets {MASC}bo{FEM}bona{ENDG}!$"
 
 FuchsiaCity_Gym_Text_PhilPostBattle::
     .string "M'has impressionat!\n"
@@ -238,7 +238,7 @@ FuchsiaCity_Gym_EventScript_Edgar::
 FuchsiaCity_Gym_Text_EdgarIntro::
     .string "Jo també estudio el camí del\n"
     .string "ninja amb el Mestre Koga!\p"
-    .string "Els ninja tenen una llarga\n"
+    .string "Els ninjas tenen una llarga\n"
     .string "història d'usar animals!$"
 
 FuchsiaCity_Gym_Text_EdgarDefeat::
@@ -262,9 +262,9 @@ FuchsiaCity_Gym_Text_KirkDefeat::
     .string "Estic acabat!$"
 
 FuchsiaCity_Gym_Text_KirkPostBattle::
-    .string "Tot i perdre, seguiré entrenant\n"
-    .string "seguint els ensenyaments de\l"
-    .string "Koga, el meu mestre ninja.$"
+    .string "Tot i haver perdut, seguiré\n"
+    .string "entrenant segons els ensenyaments\l"
+    .string "de Koga, el meu mestre ninja.$"
 
 FuchsiaCity_Gym_EventScript_Shawn::
 	trainerbattle_single TRAINER_JUGGLER_SHAWN, FuchsiaCity_Gym_Text_ShawnIntro, FuchsiaCity_Gym_Text_ShawnDefeat
@@ -283,7 +283,7 @@ FuchsiaCity_Gym_Text_ShawnDefeat::
 FuchsiaCity_Gym_Text_ShawnPostBattle::
     .string "On hi ha llum, hi ha ombra!\p"
     .string "Llum i ombra!\n"
-    .string "Quin tries?$"
+    .string "Què tries?$"
 
 FuchsiaCity_Gym_EventScript_Kayden::
 	trainerbattle_single TRAINER_JUGGLER_KAYDEN, FuchsiaCity_Gym_Text_KaydenIntro, FuchsiaCity_Gym_Text_KaydenDefeat
@@ -304,7 +304,7 @@ FuchsiaCity_Gym_Text_KaydenDefeat::
 FuchsiaCity_Gym_Text_KaydenPostBattle::
     .string "Combines força i intel·ligència?\n"
     .string "Bona estratègia!\p"
-    .string "Remarcable per a un entrenador\n"
+    .string "Notable per a {MASC}un entrenador{FEM}una entrenadora{ENDG}\n"
     .string "tan jove.$"
 
 FuchsiaCity_Gym_EventScript_Nate::
@@ -334,12 +334,12 @@ FuchsiaCity_Gym_EventScript_GymGuy::
 
 FuchsiaCity_Gym_Text_GymGuyAdvice::
     .string "Ei!\n"
-    .string "Futur campió!\p"
+    .string "{MASC}Futur campió{FEM}Futura campiona{ENDG}!\p"
     .string "El Gimnàs Fúcsia és un lloc\n"
-    .string "ple de trampes. Està ple\l"
+    .string "ple de trampes. Està farcit\l"
     .string "de parets invisibles!\p"
     .string "Koga pot semblar a prop, però\n"
-    .string "està bloquejat.\p"
+    .string "el camí està tallat.\p"
     .string "Has de trobar forats a les\n"
     .string "parets per arribar-hi.$"
 
@@ -349,8 +349,8 @@ FuchsiaCity_Gym_EventScript_GymGuyPostVictory::
 	end
 
 FuchsiaCity_Gym_Text_GymGuyPostVictory::
-    .string "Impressiona com els ninjas\n"
-    .string "encara aterren, fins avui!$"
+    .string "És increïble com els ninjas\n"
+    .string "encara fan por avui dia!$"
 
 FuchsiaCity_Gym_EventScript_GymStatue::
 	lockall

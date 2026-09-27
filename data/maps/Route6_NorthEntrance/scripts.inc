@@ -67,7 +67,7 @@ Route6_NorthEntrance_EventScript_DenyGuard::
 
 Route6_NorthEntrance_Text_ThatsAShame::
 	.string "Oh, quina llàstima.\n"
-	.string "Bé m'aniria una beguda...$"
+	.string "Em ve molt de gust beure alguna cosa...$"
 
 Route6_NorthEntrance_EventScript_GuardSmallTalk::
 	goto_if_unset FLAG_DELIVERED_ROCKET_PLANS, Route6_NorthEntrance_EventScript_RoadsClosed

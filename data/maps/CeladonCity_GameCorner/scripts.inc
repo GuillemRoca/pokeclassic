@@ -130,7 +130,7 @@ GameCorner_EventScript_CoinsClerk::
 	goto GameCorner_EventScript_ChooseCoinsDefault50
 
 GameCorner_Text_ThisIsGameCorner:
-	.string "Benvingut a la Sala de Jocs.$"
+	.string "{MASC}Benvingut{FEM}Benvinguda{ENDG} a la Sala de Jocs.$"
 
 GameCorner_Text_WereYouLookingForCoins:
 	.string "Buscaves Monedes?\p"
@@ -418,7 +418,7 @@ GameCorner_EventScript_InfoClerk::
 	end
 
 GameCorner_Text_CanExchangeCoinsNextDoor::
-    .string "Benvingut!\p"
+    .string "{MASC}Benvingut{FEM}Benvinguda{ENDG}!\p"
     .string "Pots canviar les teves Monedes\n"
     .string "per premis fabulosos al costat.$"
 
@@ -462,7 +462,7 @@ GameCorner_EventScript_WorkedOn::
 
 GameCorner_Text_Console::
     .string "L'Enginyer té el terminal obert.\n"
-    .string "Millor no tocar-la!$"
+    .string "Millor no tocar-lo!$"
 
 GameCorner_EventScript_FaceSlotMachine::
 	closemessage
@@ -547,10 +547,10 @@ GameCorner_EventScript_Fisher::
 	end
 
 GameCorner_Text_DoYouWantToPlay::
-    .string "Nano, vols jugar?$"
+    .string "{MASC}Nano{FEM}Nena{ENDG}, vols jugar?$"
 
 GameCorner_Text_Received10CoinsFromMan::
-    .string "{PLAYER} ha rebut 10 MONEDES\n"
+    .string "{PLAYER} ha rebut 10 monedes\n"
     .string "de l'home.$"
 
 GameCorner_EventScript_FisherAlreadyGotCoins::
@@ -732,7 +732,7 @@ GameCorner_EventScript_DefeatedGrunt::
 GameCorner_Text_GruntPostBattle::
     .string "Podrien descobrir l'Amagatall\n"
     .string "de l'Equip Rocket!\p"
-    .string "Millor aviso el Cap!$"
+    .string "Més val que avisi el Cap!$"
 
 Movement_GCGruntExit::
 	walk_right
@@ -885,7 +885,7 @@ HiddenCoins_NoSpace::
 HiddenCoins_FoundCoinsNoSpace::
 	.string "{PLAYER} ha trobat monedes\n"
 	.string "escampades pel terra...\p"
-	.string "Llàstima que el Moneder és ple!$"
+	.string "Llàstima que el Moneder sigui ple!$"
 
 HiddenCoins_NoCase::
 	msgbox HiddenCoins_FoundCoinsNoCase, MSGBOX_AUTOCLOSE
@@ -895,7 +895,7 @@ HiddenCoins_NoCase::
 HiddenCoins_FoundCoinsNoCase::
 	.string "{PLAYER} ha trobat monedes\n"
 	.string "escampades pel terra...\p"
-	.string "Llàstima que no tens Moneder!$"
+	.string "Llàstima que no tinguis Moneder!$"
 
 HiddenCoins_Found10Coins::
 	.string "{PLAYER} ha trobat 10 monedes\n"
@@ -922,9 +922,9 @@ GameCorner_EventScript_Scott::
 
 GameCorner_Text_GymGuide::
 	.string "Ei! Tens coses millors a fer,\n"
-	.string "futur campió!\p"
+	.string "{MASC}futur campió{FEM}futura campiona{ENDG}!\p"
 	.string "La Líder del Gimnàs Celadó és\n"
 	.string "l'Erika! Fa servir Pokémon\l"
 	.string "de tipus Planta!\p"
 	.string "Pot semblar dòcil, però no\n"
-	.string "t'hi confïis!$"
+	.string "t'hi refiïs!$"
