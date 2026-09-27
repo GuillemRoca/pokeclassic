@@ -86,9 +86,9 @@ const u8 gText_TrainerMemo_EggFromTraveler[] = _("Un Ou Pokémon estrany\nobting
 const u8 gText_TrainerMemo_EggFromKanto[] = _("Un Ou Pokémon estrany trobat\nper {DYNAMIC 0}la parella de la Guarderia{DYNAMIC 1}\na la regió de {DYNAMIC 0}Kanto{DYNAMIC 1}.\n\n“La Guarda de l'Ou”\n{DYNAMIC 2}");
 const u8 gText_TrainerMemo_EggFromBrigette[] = _("Un Ou Pokémon obtingut\nde la {DYNAMIC 0}Brigette{DYNAMIC 1}.\n\n\n“La Guarda de l'Ou”\n{DYNAMIC 2}");
 const u8 gText_TrainerMemo_BadEgg[] = _("Un Ou Pokémon\nmolt misteriós.\n\n\n“La Guarda de l'Ou”\n{DYNAMIC 2}");
-const u8 gText_TrainerMemo_OldFriend[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1} naturalesa,\n\nvell amic de {DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}\nd'{DYNAMIC 0}Orre{DYNAMIC 1}.\n\n{DYNAMIC 6}\n{DYNAMIC 7}");
-const u8 gText_TrainerMemo_ReceivedFrom[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1} naturalesa,\n\nrebut de {DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}\na {DYNAMIC 0}Orre{DYNAMIC 1}.\n\n{DYNAMIC 6}\n{DYNAMIC 7}");
-const u8 gText_TrainerMemo_ObtainedFromDad[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1} naturalesa,\n\ndonat a {DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1} pel seu pare\na {DYNAMIC 0}Orre{DYNAMIC 1}.\n\n{DYNAMIC 6}\n{DYNAMIC 7}");
+const u8 gText_TrainerMemo_OldFriend[] = _("Naturalesa {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1},\n\nvell amic de {DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}\nd'{DYNAMIC 0}Orre{DYNAMIC 1}.\n\n{DYNAMIC 6}\n{DYNAMIC 7}");
+const u8 gText_TrainerMemo_ReceivedFrom[] = _("Naturalesa {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1},\n\nrebut de {DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}\na {DYNAMIC 0}Orre{DYNAMIC 1}.\n\n{DYNAMIC 6}\n{DYNAMIC 7}");
+const u8 gText_TrainerMemo_ObtainedFromDad[] = _("Naturalesa {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1},\n\ndonat a {DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1} pel seu pare\na {DYNAMIC 0}Orre{DYNAMIC 1}.\n\n{DYNAMIC 6}\n{DYNAMIC 7}");
 
 //Battle Tower from Ruby/Sapphire
 const u8 gMapName_BattleTower[] = _("Torre de Combat");
@@ -142,9 +142,9 @@ const u8 gText_TrainerMemo_EggFromTraveler[] = _("Un Ou Pokémon estrany\nobting
 const u8 gText_TrainerMemo_EggFromKanto[] = _("Un Ou Pokémon estrany trobat\nper {DYNAMIC 0}la parella de la Guarderia{DYNAMIC 1}\na la regió de {DYNAMIC 0}Kanto{DYNAMIC 1}.\n\n“La Guarda de l'Ou”\n{DYNAMIC 2}");
 const u8 gText_TrainerMemo_EggFromBrigette[] = _("Un Ou Pokémon obtingut\nde la {DYNAMIC 0}Brigette{DYNAMIC 1}.\n\n\n“La Guarda de l'Ou”\n{DYNAMIC 2}");
 const u8 gText_TrainerMemo_BadEgg[] = _("Un Ou Pokémon\nmolt misteriós.\n\n\n“La Guarda de l'Ou”\n{DYNAMIC 2}");
-const u8 gText_TrainerMemo_OldFriend[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1} naturalesa,\n\nvell amic de {DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}\nd'{DYNAMIC 0}Orre{DYNAMIC 1}.\n\n{DYNAMIC 6}\n{DYNAMIC 7}");
-const u8 gText_TrainerMemo_ReceivedFrom[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1} naturalesa,\n\nrebut de {DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}\na {DYNAMIC 0}Orre{DYNAMIC 1}.\n\n{DYNAMIC 6}\n{DYNAMIC 7}");
-const u8 gText_TrainerMemo_ObtainedFromDad[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1} naturalesa,\n\ndonat a {DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1} pel seu pare\na {DYNAMIC 0}Orre{DYNAMIC 1}.\n\n{DYNAMIC 6}\n{DYNAMIC 7}");
+const u8 gText_TrainerMemo_OldFriend[] = _("Naturalesa {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1},\n\nvell amic de {DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}\nd'{DYNAMIC 0}Orre{DYNAMIC 1}.\n\n{DYNAMIC 6}\n{DYNAMIC 7}");
+const u8 gText_TrainerMemo_ReceivedFrom[] = _("Naturalesa {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1},\n\nrebut de {DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1}\na {DYNAMIC 0}Orre{DYNAMIC 1}.\n\n{DYNAMIC 6}\n{DYNAMIC 7}");
+const u8 gText_TrainerMemo_ObtainedFromDad[] = _("Naturalesa {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1},\n\ndonat a {DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 1} pel seu pare\na {DYNAMIC 0}Orre{DYNAMIC 1}.\n\n{DYNAMIC 6}\n{DYNAMIC 7}");
 
 
 //Battle Tower from Ruby/Sapphire
