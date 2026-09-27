@@ -132,7 +132,7 @@ PewterCity_Gym_Text_LeaderPostBattle::
     .string "Hi ha tota mena d'Entrenadors en\n"
     .string "aquest gran món nostre.\p"
     .string "Sembla que tens molt de talent\n"
-    .string "com a Entrenador Pokémon.\p"
+    .string "com a {MASC}Entrenador{FEM}Entrenadora{ENDG} Pokémon.\p"
     .string "Deixa'm fer-te un suggeriment.\p"
     .string "Vés al Gimnàs de Cerúlia i posa\n"
     .string "a prova les teves habilitats.$"
@@ -175,7 +175,7 @@ PewterCity_Gym_EventScript_PostgameRematch::
 	end
 
 PewterCity_Gym_Text_RematchMode::
-	.string "Ara que ets el Campió,\n"
+	.string "Ara que ets {MASC}el Campió{FEM}la Campiona{ENDG},\n"
 	.string "vols anar amb tot?$"
 
 PewterCity_Gym_EventScript_LeaderRematch_OriginalTeam::
@@ -200,7 +200,7 @@ PewterCity_Gym_EventScript_DefeatedLeaderRematch::
 	end
 
 PewterCity_Gym_Text_RematchDefeat::
-	.string "Sabia que eres fort, però això…$"
+	.string "Sabia que eres {MASC}fort{FEM}forta{ENDG}, però això…$"
 
 PewterCity_Gym_EventScript_Liam::
 	trainerbattle_single TRAINER_CAMPER_LIAM, PewterCity_Gym_Text_LiamIntro, PewterCity_Gym_Text_LiamDefeat
@@ -208,7 +208,7 @@ PewterCity_Gym_EventScript_Liam::
 	end
 
 PewterCity_Gym_Text_LiamIntro::
-    .string "Para aquí, nen!\p"
+    .string "Para aquí, {MASC}nen{FEM}nena{ENDG}!\p"
     .string "Estàs a deu mil anys llum\n"
     .string "d'enfrontar-te a Brock!$"
 
@@ -218,7 +218,7 @@ PewterCity_Gym_Text_LiamDefeat::
     .string "Mesuren distància!$"
 
 PewterCity_Gym_Text_LiamPostBattle::
-    .string "Ets bastant bo.\n"
+    .string "Ets {MASC}bastant bo{FEM}bastant bona{ENDG}.\n"
     .string "…Però no tant com Brock!$"
 
 PewterCity_Gym_EventScript_ScottTrigger1::
@@ -266,7 +266,7 @@ PewterCity_Gym_EventScript_ScottTriggered::
 	return
 
 PewterCity_Gym_Text_HeyWaitUp::
-	.string "Ei, nen! Espera!$"
+	.string "Ei, {MASC}nen{FEM}nena{ENDG}! Espera!$"
 
 PewterCity_Gym_EventScript_Scott::
 	lock
@@ -282,7 +282,7 @@ PewterCity_Gym_Text_LetMeTakeYouToTheTop::
     .string "Hola!\n"
     .string "Vols somiar en gran?\p"
     .string "Gosaries somiar en ser\n"
-    .string "el Campió Pokémon?\p"
+    .string "{MASC}el Campió{FEM}la Campiona{ENDG} Pokémon?\p"
     .string "Jo no sóc Entrenador, però et\n"
     .string "puc donar consells per guanyar.\p"
     .string "Deixa que et porti al cim!$"
@@ -325,7 +325,7 @@ PewterCity_Gym_EventScript_GymGuyPostVictory::
 	end
 
 PewterCity_Gym_Text_YoureChampMaterial::
-    .string "Tens fusta de Campió Pokémon!$"
+    .string "Tens fusta de {MASC}Campió{FEM}Campiona{ENDG} Pokémon!$"
 
 PewterCity_Gym_EventScript_ThatWasReallySomething::
 	msgbox PewterCity_Gym_Text_ThatWasReallySomething, MSGBOX_DEFAULT

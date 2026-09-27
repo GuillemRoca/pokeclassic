@@ -42,7 +42,7 @@ Route3_Text_JaniceIntro::
     .string "M'has mirat, oi?$"
 
 Route3_Text_JaniceDefeat::
-    .string "Ets dolent!$"
+    .string "Ets {MASC}dolent{FEM}dolenta{ENDG}!$"
 
 Route3_Text_JanicePostBattle::
     .string "No hauries de mirar si no vols\n"
@@ -122,7 +122,7 @@ Route3_EventScript_RegisterBenAfterBattle::
 	end
 
 Route3_Text_BenRegister:
-	.string "Sembles un entrenador que\n"
+	.string "Sembles {MASC}un entrenador{FEM}una entrenadora{ENDG} que\n"
 	.string "m'entén. Siguem amics!$"
 
 Route3_EventScript_BenRematch::
@@ -144,7 +144,7 @@ Route3_EventScript_Greg::
 	end
 
 Route3_Text_GregIntro::
-    .string "Ets entrenador?\n"
+    .string "Ets {MASC}entrenador{FEM}entrenadora{ENDG}?\n"
     .string "Comencem de seguida!$"
 
 Route3_Text_GregDefeat::

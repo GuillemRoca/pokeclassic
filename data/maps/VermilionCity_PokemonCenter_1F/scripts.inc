@@ -21,7 +21,7 @@ VermilionCity_PokemonCenter_1F_EventScript_Man::
 
 VermilionCity_PokemonCenter_1F_Text_PoisonedMonFaintedWhileWalking::
     .string "El meu Pokémon estava enverinat!\n"
-    .string "Va caure mentre caminàvem!$"
+    .string "S'ha desmaiat mentre caminàvem!$"
 
 VermilionCity_PokemonCenter_1F_EventScript_Hiker::
 	msgbox VermilionCity_PokemonCenter_1F_Text_TrainerMonsStrongerThanWild, MSGBOX_NPC
@@ -30,7 +30,7 @@ VermilionCity_PokemonCenter_1F_EventScript_Hiker::
 VermilionCity_PokemonCenter_1F_Text_TrainerMonsStrongerThanWild::
     .string "Encara que siguin del mateix nivell,\n"
     .string "els Pokémon poden tenir\l"
-    .string "estadístiques molt diferents.\p"
+    .string "estadístiques i habilitats diferents.\p"
     .string "Un Pokémon criat per un entrenador\n"
     .string "és més fort que un salvatge.$"
 

@@ -113,9 +113,9 @@ BattleFactory_Movement_PlayerFaceTowerKiosk::
 	step_end
 
 BattleFactoryLobby_Text_Welcome:
-	.string "Benvingut a la Fàbrica de Combat,\n"
-	.string "on la intel·ligència dels\l"
-	.string "Entrenadors és posada a prova!\p"
+	.string "{MASC}Benvingut{FEM}Benvinguda{ENDG} a la Fàbrica de Combat,\n"
+	.string "on es posa a prova la intel·ligència\l"
+	.string "dels Entrenadors!\p"
 	.string "Sóc la teva guia del Torneig\n"
 	.string "d'Intercanvi de Combat.\p"
 	.string "En quin tipus de torneig\n"
@@ -229,7 +229,7 @@ BattleTower_Basement_Text_ExplainChallenge:
 	.string "Pokémon per a aquest esdeveniment.\p"
 	.string "Amb els Pokémon de lloguer,\n"
 	.string "hauràs de fer Combats Individuals\l"
-	.string "o Dobles, segons el mode.\p"
+	.string "o Dobles, segons la modalitat.\p"
 	.string "Si guanyes, pots intercanviar\n"
 	.string "un dels teus Pokémon de lloguer.\p"
 	.string "Repeteix el cicle de combatre i\n"
@@ -237,8 +237,8 @@ BattleTower_Basement_Text_ExplainChallenge:
 	.string "seguits, guanyaràs Punts de Combat.\p"
 	.string "Si vols interrompre el teu\n"
 	.string "desafiament, desa la partida.\p"
-	.string "Si no deses, seràs desqualificat\n"
-	.string "del desafiament.$"
+	.string "Si no deses, quedaràs\n"
+	.string "{MASC}desqualificat{FEM}desqualificada{ENDG} del desafiament.$"
 
 BattleTower_Basement_EventScript_CancelChallengeSaveFailed::
 	frontier_set FRONTIER_DATA_CHALLENGE_STATUS, 0
@@ -284,22 +284,22 @@ BattleTower_Basement_Text_WaitingForYouToResume:
 BattleTower_Basement_Text_DidntSaveBeforeQuitting:
 	.string "Em sap greu, però no vas desar\n"
 	.string "abans de sortir l'última vegada.\p"
-	.string "Com a resultat, has estat\n"
-	.string "desqualificat del desafiament.$"
+	.string "Per tant, has quedat\n"
+	.string "{MASC}desqualificat{FEM}desqualificada{ENDG} del desafiament.$"
 
 BattleTower_Basement_Text_CongratsForDefeatingHead:
-	.string "Felicitats per derrotar el Cap\n"
-	.string "de la Fàbrica i guanyar set\l"
+	.string "Felicitats per haver derrotat el Cap\n"
+	.string "de la Fàbrica i haver guanyat set\l"
 	.string "combats seguits!$"
 
 BattleTower_Basement_Text_AwardBattlePoints:
-	.string "En reconeixement de la teva riquesa\n"
-	.string "de coneixement i gran intel·ligència,\l"
+	.string "En reconeixement dels teus grans\n"
+	.string "coneixements i la teva intel·ligència,\l"
 	.string "t'atorguem aquests Punt(s) de Combat.$"
 
 BattleTower_Basement_Text_ExchangeMonsAndSave:
-	.string "Deixa'm intercanviar els Pokémon\n"
-	.string "pels de lloguer.\p"
+	.string "Deixa'm canviar-te els Pokémon\n"
+	.string "pels nostres de lloguer.\p"
 	.string "He de desar les dades del combat,\n"
 	.string "espera si us plau.$"
 
@@ -310,8 +310,8 @@ BattleTower_Basement_EventScript_RulesBoard::
 	end
 
 BattleTower_Basement_Text_RulesAreListed:
-	.string "Les regles d'Intercanvi de Combat\n"
-	.string "estan exposades.$"
+	.string "Aquí hi ha les regles de\n"
+	.string "l'Intercanvi de Combat.$"
 
 BattleTower_Basement_EventScript_ReadRulesBoard::
 	message BattleTower_Basement_Text_ReadWhichHeading
@@ -374,13 +374,13 @@ BattleTower_Basement_EventScript_RulesSwapNotes::
 BattleTower_Basement_Text_ExplainSwapNotesRules:
 	.string "Hi ha dos punts clau a l'hora\n"
 	.string "d'intercanviar Pokémon.\p"
-	.string "Primer, no pots veure les stats\n"
+	.string "Primer, no pots veure les estadístiques\n"
 	.string "del Pokémon que rebràs.\p"
 	.string "Segon, els Pokémon del teu equip\n"
 	.string "estan en seqüència, segons l'ordre\l"
 	.string "en què els vas llogar.\p"
 	.string "Aquesta seqüència no canvia\n"
-	.string "ni amb intercanvis.$"
+	.string "ni quan fas intercanvis.$"
 
 BattleTower_Basement_EventScript_RulesOpenLv::
 	msgbox BattleTower_Basement_Text_ExplainOpenLvRules, MSGBOX_DEFAULT
@@ -475,5 +475,5 @@ BattleTower_Basement_EventScript_FatMan::
 BattleTower_Basement_Text_CantFigureOutStaffHints:
 	.string "Saps que el personal d'aquí et\n"
 	.string "dóna pistes sobre el pròxim rival?\p"
-	.string "Doncs, sóc un home fet i dret,\n"
+	.string "Doncs mira, sóc un home fet i dret,\n"
 	.string "però em costa entendre les pistes.$"

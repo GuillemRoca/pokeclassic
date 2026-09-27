@@ -14,7 +14,7 @@ SecretBase_Text_Trainer0DeclineBattle:
     .string "Oh, ara no pots…$"
 
 SecretBase_Text_Trainer0Defeated::
-    .string "Nooo! Ets massa fort!\n"
+    .string "Nooo! Ets massa {MASC}fort{FEM}forta{ENDG}!\n"
     .string "No diguis a ningú que he perdut!$"
 
 SecretBase_Text_Trainer0PostBattle:
@@ -87,10 +87,10 @@ SecretBase_Text_Trainer1PreChampion:
     .string "quedar lliure. Per fi és meu!$"
 
 SecretBase_Text_Trainer6Intro:
-    .string "Benvingut al meu Lab Pokémon.\p"
+    .string "{MASC}Benvingut{FEM}Benvinguda{ENDG} al meu Lab Pokémon.\p"
     .string "Investigo en secret l'art\n"
     .string "del combat.\p"
-    .string "Vols veure com sóc de fort?$"
+    .string "Vols veure com sóc de forta?$"
 
 SecretBase_Text_Trainer6AcceptBattle:
     .string "Hi posaré totes les meves forces!$"
@@ -108,7 +108,7 @@ SecretBase_Text_Trainer6PostBattle:
     .string "Torna a visitar-me demà.$"
 
 SecretBase_Text_Trainer6PreChampion:
-    .string "Benvingut al meu Lab Pokémon.\p"
+    .string "{MASC}Benvingut{FEM}Benvinguda{ENDG} al meu Lab Pokémon.\p"
     .string "Investigo en secret l'art\n"
     .string "del combat.$"
 
@@ -182,7 +182,7 @@ SecretBase_Text_Trainer3AcceptBattle:
     .string "No em guanyaràs fàcilment!$"
 
 SecretBase_Text_Trainer3DeclineBattle:
-    .string "Oh… Potser estàs cansat de\n"
+    .string "Oh… Potser estàs {MASC}cansat{FEM}cansada{ENDG} de\n"
     .string "buscar aquest lloc?$"
 
 SecretBase_Text_Trainer3Defeated::
@@ -272,7 +272,7 @@ SecretBase_Text_Trainer9AcceptBattle:
     .string "No em contindré!$"
 
 SecretBase_Text_Trainer9DeclineBattle:
-    .string "Estaré encantat de demostrar\n"
+    .string "Estaré encantada de demostrar\n"
     .string "el meu estil quan vulguis.$"
 
 SecretBase_Text_Trainer9Defeated::

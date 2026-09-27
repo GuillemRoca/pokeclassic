@@ -17,7 +17,7 @@ MtMoon_1F_EventScript_Macros::
 MtMoon_1F_Text_MarcosIntro::
     .string "UAU!\n"
     .string "M'has espantat!\l"
-    .string "…Oh, si només ets un nen!$"
+    .string "…Oh, si només ets {MASC}un nen{FEM}una nena{ENDG}!$"
 
 MtMoon_1F_Text_MarcosDefeat::
     .string "Uau!\n"

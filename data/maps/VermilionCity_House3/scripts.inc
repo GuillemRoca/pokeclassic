@@ -40,6 +40,6 @@ VermilionCity_House3_EventScript_Letter::
 VermilionCity_House3_Text_DearPippiLetter::
     .string "Benvolguda Pippi,\n"
     .string "espero veure't aviat.\p"
-    .string "He sentit un rumor que el Team\n"
+    .string "He sentit un rumor que l'Equip\n"
     .string "Rocket es dirigia a Ciutat Safrà.\p"
     .string "Vermella sembla segura.$"

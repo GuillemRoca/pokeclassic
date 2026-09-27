@@ -631,7 +631,7 @@ PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe::
     .string "Bé, sembla que s'encarinya\n"
     .string "cada cop més amb tu.\p"
     .string "Deus tenir talent com a\n"
-    .string "Entrenador de Pokémon.\p"
+    .string "{MASC}Entrenador{FEM}Entrenadora{ENDG} de Pokémon.\p"
     .string "Què és això?\n"
     .string "Tens alguna cosa per a mi?$"
 

@@ -1137,7 +1137,7 @@ PewterCity_Text_GoTakeOnBrock::
     .string "vés a enfrontar-te a Brock!$"
 
 PewterCity_Text_BrocksLookingForChallengersFollowMe::
-    .string "Ets Entrenador, oi?\p"
+    .string "Ets {MASC}Entrenador{FEM}Entrenadora{ENDG}, oi?\p"
     .string "Brock busca nous rivals.\n"
     .string "Segueix-me!$"
 

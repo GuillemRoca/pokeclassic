@@ -31,5 +31,5 @@ SSAnne_B1F_Room4_Text_DuncanDefeat::
     .string "El teu esperit m'ha enfonsat!$"
 
 SSAnne_B1F_Room4_Text_DuncanPostBattle::
-    .string "Has vist el Guru de la Pesca a\n"
+    .string "Has vist el Gurú de la Pesca a\n"
     .string "Ciutat Vermella?$"

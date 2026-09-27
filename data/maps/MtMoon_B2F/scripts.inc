@@ -51,7 +51,7 @@ MtMoon_B2F_Text_Grunt2Defeat::
     .string "L'he espifiada!$"
 
 MtMoon_B2F_Text_Grunt2PostBattle::
-    .string "Maleït siguis!\n"
+    .string "Maleït sigui!\n"
     .string "Els meus companys no ho\l"
     .string "deixaran passar!$"
 
@@ -62,10 +62,10 @@ MtMoon_B2F_EventScript_Grunt3::
 
 MtMoon_B2F_Text_Grunt3Intro::
     .string "Estem preparant un gran cop!\n"
-    .string "Fes el camp, nen!$"
+    .string "Fes el camp, {MASC}nen{FEM}nena{ENDG}!$"
 
 MtMoon_B2F_Text_Grunt3Defeat::
-    .string "Vaja, ets bo…$"
+    .string "Vaja, ets {MASC}bo{FEM}bona{ENDG}…$"
 
 MtMoon_B2F_Text_Grunt3PostBattle::
     .string "Si trobes un fòssil, dóna-me'l\n"
@@ -334,9 +334,9 @@ MtMoon_B2F_Text_RocketDuoIntro::
 	.string "per lluitar!$"
 
 MtMoon_B2F_Text_RocketDuoDefeat::
-	.string "Què, aquest marrec ens ha guanyat?$"
+	.string "Què, {MASC}aquest marrec{FEM}aquesta mocosa{ENDG} ens ha guanyat?$"
 
 MtMoon_B2F_Text_RocketDuoDefeated::
-	.string "Jessie: Això no s'acaba aquí, nen!\p"
+	.string "Jessie: Això no s'acaba aquí, {MASC}nen{FEM}nena{ENDG}!\p"
 	.string "James: L'Equip Rocket surt\n"
 	.string "disparat a la velocitat de la llum!$"

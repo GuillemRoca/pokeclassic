@@ -19,12 +19,12 @@ gText_ApprenticeChallenge4::
 	.string "de {STR_VAR_1}! Deixa que et repti!$"
 
 gText_ApprenticeChallenge5::
-	.string "Estic molt ocupat, però també\n"
-	.string "soc l'aprenent núm. {STR_VAR_2} de {STR_VAR_1}.$"
+	.string "Soc l'aprenent núm. {STR_VAR_2} de\n"
+	.string "{STR_VAR_1}, tot i que vaig molt ocupat.$"
 
 gText_ApprenticeChallenge6::
 	.string "Soc l'aprenent núm. {STR_VAR_2}\n"
-	.string "de {STR_VAR_1}. Encantada de conèixer-te!$"
+	.string "de {STR_VAR_1}. Molt de gust!$"
 
 gText_ApprenticeChallenge7::
 	.string "Serveixo com a aprenent núm. {STR_VAR_2}\n"
@@ -47,16 +47,16 @@ gText_ApprenticeChallenge11::
 	.string "de {STR_VAR_1}! Que comenci la marxa!$"
 
 gText_ApprenticeChallenge12::
-	.string "Visca! Soc el que en diuen\n"
-	.string "l'aprenent núm. {STR_VAR_2} de {STR_VAR_1}!$"
+	.string "Visca! Soc el que en diuen l'aprenent\n"
+	.string "núm. {STR_VAR_2} de {STR_VAR_1}!$"
 
 gText_ApprenticeChallenge13::
 	.string "Cof! Soc l'aprenent núm. {STR_VAR_2}\n"
 	.string "de {STR_VAR_1}. Encantat! Cof!$"
 
 gText_ApprenticeChallenge14::
-	.string "Quins nervis…\n"
-	.string "Soc l'aprenent núm. {STR_VAR_2} de {STR_VAR_1}.$"
+	.string "Quins nervis… Soc l'aprenent\n"
+	.string "núm. {STR_VAR_2} de {STR_VAR_1}.$"
 
 gText_ApprenticeChallenge15::
 	.string "Soc l'aprenent núm. {STR_VAR_2}\n"
@@ -1181,8 +1181,8 @@ gText_ApprenticeWhatHeldItem14::
 	.string "seria bo?$"
 
 gText_ApprenticeHoldNothing14::
-	.string "Oh… Doncs, creus que seria millor\n"
-	.string "que el meu {STR_VAR_1} no tingués objecte?$"
+	.string "Oh… Doncs, creus que seria millor que\n"
+	.string "el meu {STR_VAR_1} no tingués objecte?$"
 
 gText_ApprenticeThanksNoHeldItem14::
 	.string "Oh… D'acord!\n"

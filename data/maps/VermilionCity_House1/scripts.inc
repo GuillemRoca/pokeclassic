@@ -47,13 +47,13 @@ VermilionCity_House1_EventScript_GiveOldRod::
 VermilionCity_House1_Text_TakeThisAndFish::
     .string "Genial! M'agrada el teu estil.\n"
     .string "Crec que podem ser amics.\p"
-    .string "Pren això i vés a pescar, amic!$"
+    .string "Pren això i vés a pescar, {MASC}amic{FEM}amiga{ENDG}!$"
 
 VermilionCity_House1_Text_FishingIsAWayOfLife::
     .string "La pesca és un estil de vida!\n"
     .string "És com la millor poesia.\p"
     .string "Dels mars als rius, surt a\n"
-    .string "pescar el gran, amic meu.$"
+    .string "pescar la peça grossa, {MASC}amic meu{FEM}amiga meva{ENDG}.$"
 
 
 VermilionCity_House1_EventScript_NoRoomForOldRod::

@@ -58,7 +58,7 @@ PewterCity_Museum_1F_EventScript_EntranceTrigger::
 	end
 
 PewterCity_Museum_1F_Text_Its50YForChildsTicket::
-    .string "Benvingut al nostre museu!\n"
+    .string "{MASC}Benvingut{FEM}Benvinguda{ENDG} al nostre museu!\n"
     .string "Són ¥50 per a l'entrada infantil.\p"
     .string "Vols entrar?$"
 
@@ -120,7 +120,7 @@ PewterCity_Museum_1F_EventScript_Scientist1BehindCounter::
 
 PewterCity_Museum_1F_Text_DoYouKnowWhatAmberIs::
     .string "No pots colar-te per darrere!\n"
-    .string "Bon intent, nen, però no.\p"
+    .string "Bon intent, {MASC}nen{FEM}nena{ENDG}, però no.\p"
     .string "Bah, tant se val!\n"
     .string "Saps què és l'ambre?$"
 

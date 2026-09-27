@@ -82,7 +82,7 @@ Route4_PokemonCenter_1F_EventScript_MagikarpSalesman::
 	end
 
 Route4_PokemonCenter_1F_Text_BuyMagikarpForJust500::
-    .string "Home: Ei, nano!\n"
+    .string "Home: Ei, {MASC}nano{FEM}nena{ENDG}!\n"
     .string "Tinc una oferta genial per a tu!\p"
     .string "Et deixaré un Pokémon secret\n"
     .string "- un Magikarp - per només ¥500!\p"

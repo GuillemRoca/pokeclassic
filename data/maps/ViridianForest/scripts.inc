@@ -57,7 +57,7 @@ ViridianForest_EventScript_Doug::
 ViridianForest_Text_DougIntro::
     .string "Ei!\n"
     .string "No pots escaquejar-te si ets\l"
-    .string "Entrenador Pokémon!$"
+    .string "{MASC}Entrenador{FEM}Entrenadora{ENDG} Pokémon!$"
 
 ViridianForest_Text_DougDefeat::
     .string "Eh?\n"

@@ -7,11 +7,11 @@ gText_LinkStandby4::
 	.string "En espera d'enllaç!$"
 
 gText_WinnerIsPlayersMonCongrats::
-	.string "El guanyador és {STR_VAR_2} de {STR_VAR_1}!\n"
+	.string "Guanya {STR_VAR_2} de {STR_VAR_1}!\n"
 	.string "Enhorabona!$"
 
 gText_WinnerIsPlayersMon::
-	.string "El guanyador és {STR_VAR_2} de {STR_VAR_1}!{PAUSE_UNTIL_PRESS}$"
+	.string "Guanya {STR_VAR_2} de {STR_VAR_1}!{PAUSE_UNTIL_PRESS}$"
 
 gText_PrimaryJudgingNumX::
 	.string "Primera avaluació: Núm. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"

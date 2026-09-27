@@ -212,7 +212,7 @@ BattleFrontier_ScottsHouse_EventScript_ScottFaceAwayWest::
 	return
 
 BattleFrontier_ScottsHouse_Text_WelcomeToBattleFrontier:
-	.string "Scott: Hola i benvingut!\n"
+	.string "Scott: Hola i {MASC}benvingut{FEM}benvinguda{ENDG}!\n"
 	.string "Heheh… Perdona l'espai reduït.\p"
 	.string "En fi, {PLAYER}{KUN}, deixa'm donar-te\n"
 	.string "la benvinguda a la Frontera de Combat.\p"
@@ -231,8 +231,8 @@ BattleFrontier_ScottsHouse_Text_HowMuchEffortItTookToMakeReal:
 BattleFrontier_ScottsHouse_Text_HaveThisAsMementoOfOurPathsCrossing:
 	.string "Però tot això ja és passat.\n"
 	.string "No val la pena pensar-hi!\p"
-	.string "L'únic que vull és que gaudeixis\n"
-	.string "combatent a cor obert aquí.\p"
+	.string "L'únic que vull és que aquí\n"
+	.string "gaudeixis dels combats al màxim.\p"
 	.string "{PLAYER}{KUN}, vull que tinguis això\n"
 	.string "com a record de totes les vegades\l"
 	.string "que els nostres camins es van creuar.$"
@@ -247,16 +247,16 @@ BattleFrontier_ScottsHouse_Text_ExplainBattlePoints:
 	.string "Com més èxit tinguis aquí a la\n"
 	.string "Frontera de Combat, més Punts\l"
 	.string "de Combat acumularàs.\p"
-	.string "Fes servir els teus Punts de Combat\n"
-	.string "com vulguis, com canviar-los per\l"
-	.string "objectes.$"
+	.string "Fes servir els Punts de Combat com\n"
+	.string "et sembli; per exemple, pots\l"
+	.string "canviar-los per objectes.$"
 
 BattleFrontier_ScottsHouse_Text_ExpectingGreatThings:
 	.string "Espero grans coses de tu!$"
 
 BattleFrontier_ScottsHouse_Text_WhyIGoSeekingTrainers:
 	.string "Scott: Cada Entrenador és únic.\n"
-	.string "Tots porten la seva pròpia vida.\p"
+	.string "Cadascú fa la seva vida.\p"
 	.string "Però quan estan en un combat,\n"
 	.string "no importa qui siguin.\p"
 	.string "Tots són iguals!\p"
@@ -264,17 +264,18 @@ BattleFrontier_ScottsHouse_Text_WhyIGoSeekingTrainers:
 	.string "on tothom és igual.\p"
 	.string "Per això vaig arreu buscant\n"
 	.string "Entrenadors que es prenguin\l"
-	.string "els combats seriosament.$"
+	.string "els combats seriosament, i els\l"
+	.string "convido a venir aquí.$"
 
 BattleFrontier_ScottsHouse_Text_HaveYouMetFrontierBrain:
 	.string "Scott: Has conegut algun dels\n"
 	.string "Cervells de la Frontera?\p"
-	.string "Millor encara, has obtingut algun\n"
-	.string "símbol d'ells?\p"
+	.string "Millor encara, has aconseguit\n"
+	.string "que et donin algun símbol?\p"
 	.string "Vaig triar els Cervells de la Frontera\n"
-	.string "com els Entrenadors més durs.\p"
-	.string "Però segur que veure com ets de\n"
-	.string "dur els sorprendrà fins i tot a ells!$"
+	.string "un per un: són els més forts que hi ha.\p"
+	.string "Però segur que la teva força\n"
+	.string "els sorprendrà fins i tot a ells!$"
 
 BattleFrontier_ScottsHouse_Text_MayFindWildMonsInFrontier:
 	.string "Scott: No només entrenes per\n"
@@ -295,7 +296,7 @@ BattleFrontier_ScottsHouse_Text_YouveCollectedAllSilverSymbols:
 	.string "Has recollit la col·lecció completa\l"
 	.string "de símbols de plata!\p"
 	.string "Això és més que impressionant!\n"
-	.string "Ets dur, com jo sospitava!\p"
+	.string "Ets {MASC}dur{FEM}dura{ENDG}, com jo sospitava!\p"
 	.string "Normalment no faria una cosa així,\n"
 	.string "però és un moment especial!\p"
 	.string "Vull que tinguis això.\n"
@@ -328,17 +329,15 @@ BattleFrontier_ScottsHouse_Text_BerryPocketStuffed:
 
 BattleFrontier_ScottsHouse_Text_Beat50TrainersInARow:
 	.string "Scott: Oh, he sentit parlar de tu!\n"
-	.string "De com has dominat la Torre de Combat!\l"
-	.string "Has vençut més de 50 Entrenadors\n"
-	.string "seguits?\p"
+	.string "Has dominat la Torre de Combat!\l"
+	.string "Has guanyat més de 50 combats seguits?\p"
 	.string "Això és fantàstic!\n"
 	.string "Vull que tinguis això!$"
 
 BattleFrontier_ScottsHouse_Text_Beat100TrainersInARow:
 	.string "Scott: Oh! He sentit parlar de tu!\n"
-	.string "De com has arrasat a la Torre de\l"
-	.string "Combat! Has vençut més de 100\n"
-	.string "Entrenadors seguits?\p"
+	.string "Has arrasat a la Torre de Combat!\l"
+	.string "Has guanyat més de 100 combats seguits?\p"
 	.string "Això és ridículament espectacular!\n"
 	.string "Has de tenir això!$"
 
@@ -347,6 +346,6 @@ BattleFrontier_ScottsHouse_Text_ExpectingToHearEvenGreaterThings:
 	.string "grans de tu a partir d'ara!$"
 
 BattleFrontier_ScottsHouse_Text_ComeBackForThisLater:
-	.string "Vaja, bé, si tens masses coses,\n"
+	.string "Vaja, si portes massa coses,\n"
 	.string "torna a buscar-ho més tard.$"
 

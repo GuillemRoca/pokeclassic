@@ -1395,7 +1395,7 @@ LilycoveCity_ContestLobby_Text_ContestReception:
 LilycoveCity_ContestLobby_Text_CounterOnlyFor4PlayerContests:
 	.string "Hola!\p"
 	.string "Aquesta recepció és només per\n"
-	.string "als Concursos Pokémon de 4.$"
+	.string "als Concursos Pokémon de 4 jugadors.$"
 
 LilycoveCity_ContestLobby_Text_EnterContest1:
 	.string "Vols inscriure el teu Pokémon\n"
@@ -1407,27 +1407,27 @@ LilycoveCity_ContestLobby_Text_WhichTopic1:
 LilycoveCity_ContestLobby_Text_ExplainContests:
 	.string "En un Concurs Pokémon, quatre\n"
 	.string "Entrenadors inscriuen un Pokémon\l"
-	.string "cadascun per ser jutjats.\p"
-	.string "Un Concurs té dues fases de judici,\n"
-	.string "la primària i la secundària.\p"
-	.string "El judici primari és una votació\n"
-	.string "de popularitat del públic.\p"
-	.string "El judici secundari consisteix en\n"
-	.string "exhibicions dels Pokémon amb els\l"
-	.string "seus moviments.\p"
-	.string "Planifica les exhibicions per cridar\n"
-	.string "l'atenció del Jurat i emocionar\l"
-	.string "el públic.\l"
+	.string "cadascun per ser avaluats.\p"
+	.string "Un Concurs té dues fases\n"
+	.string "d'avaluació: la primera i la segona.\p"
+	.string "La primera avaluació és una\n"
+	.string "votació de popularitat del públic.\p"
+	.string "A la segona avaluació, els Pokémon\n"
+	.string "fan actuacions amb els seus\l"
+	.string "moviments.\p"
+	.string "Planifica bé les actuacions per\n"
+	.string "cridar l'atenció del Jutge i\l"
+	.string "emocionar el públic.\l"
 	.string "Fes el possible per destacar.\p"
-	.string "Les puntuacions primària i secundària\n"
+	.string "Les puntuacions de les dues fases\n"
 	.string "se sumen al final.\p"
 	.string "El Pokémon amb la puntuació més\n"
 	.string "alta és declarat guanyador.$"
 
 LilycoveCity_ContestLobby_Text_ExplainContestTypes:
 	.string "Hi ha cinc tipus de Concursos.\p"
-	.string "Genial, Bellesa, Simpàtic,\n"
-	.string "Intel·ligent i Dur són les cinc\l"
+	.string "Frescor, Bellesa, Tendresa,\n"
+	.string "Intel·ligència i Força són les cinc\l"
 	.string "categories.\p"
 	.string "Tria el Concurs adequat per al\n"
 	.string "Pokémon que vulguis inscriure.$"
@@ -1435,7 +1435,7 @@ LilycoveCity_ContestLobby_Text_ExplainContestTypes:
 LilycoveCity_ContestLobby_Text_ExplainContestRanks:
 	.string "Hi ha quatre rangs de Concursos\n"
 	.string "Pokémon.\p"
-	.string "Normal, Súper, Hiper i Mestre\n"
+	.string "Normal, Súper, Hiper i Màster\n"
 	.string "són els quatre rangs.\p"
 	.string "Al Rang Normal, qualsevol Pokémon\n"
 	.string "pot participar.\p"
@@ -1445,9 +1445,9 @@ LilycoveCity_ContestLobby_Text_ExplainContestRanks:
 	.string "De la mateixa manera, un guanyador\n"
 	.string "del Rang Súper pot pujar a l'Hiper,\l"
 	.string "i un guanyador de l'Hiper pot pujar\l"
-	.string "al Rang Mestre en la mateixa\l"
+	.string "al Rang Màster en la mateixa\l"
 	.string "categoria.\p"
-	.string "Un Pokémon que guanyi al Rang Mestre\n"
+	.string "Un Pokémon que guanyi al Rang Màster\n"
 	.string "pot competir-hi tantes vegades com\l"
 	.string "el seu Entrenador vulgui.$"
 
@@ -1506,27 +1506,27 @@ LilycoveCity_ContestLobby_Text_ComeBackForPrizeLater:
 
 ContestHall_Text_GettingStartedParticipantsAsFollows:
 	.string "Presentador: Hola! Estem a punt de\n"
-	.string "començar un Concurs Pokémon de\l"
-	.string "{STR_VAR_2} de Rang {STR_VAR_3}!\p"
+	.string "començar el {STR_VAR_2}\l"
+	.string "de Rang {STR_VAR_3}!\p"
 	.string "Els Entrenadors participants i els\n"
 	.string "seus Pokémon són els següents:$"
 
 ContestHall_Text_GettingStartedParticipantsAsFollowsLink:
 	.string "Presentador: Hola! Estem a punt de\n"
-	.string "començar un Concurs Pokémon de\l"
-	.string "{STR_VAR_2} connectat de 4!\p"
+	.string "començar el {STR_VAR_2}\l"
+	.string "per connexió de 4 jugadors!\p"
 	.string "Els Entrenadors participants i els\n"
 	.string "seus Pokémon són els següents:$"
 
 ContestHall_Text_EntryXTrainersMon:
-	.string "Presentador: Inscripció Núm.\n"
+	.string "Presentador: Participant núm.\n"
 	.string "{STR_VAR_2}! {STR_VAR_3} de\l"
 	.string "{STR_VAR_1}!$"
 
 ContestHall_Text_SeenContestantsAudienceWillVote:
 	.string "Presentador: Acabem de veure els\n"
 	.string "quatre concursants Pokémon.\p"
-	.string "Ara és l'hora del judici primari!\p"
+	.string "Ara toca la primera avaluació!\p"
 	.string "El públic votarà els seus\n"
 	.string "concursants Pokémon preferits.\p"
 	.string "Sense més preàmbuls, que comenci\n"
@@ -1538,35 +1538,35 @@ ContestHall_Text_VotingUnderWay:
 ContestHall_Text_VotingCompleteLetsAppeal:
 	.string "La votació ha acabat!\p"
 	.string "Mentre es compten els vots,\n"
-	.string "passem al judici secundari!\p"
-	.string "La segona fase del judici és el\n"
-	.string "tan esperat moment d'exhibició!\p"
+	.string "passem a la segona avaluació!\p"
+	.string "La segona fase és el tan esperat\n"
+	.string "moment de les actuacions!\p"
 	.string "Que els concursants ens sorprenguin\n"
-	.string "amb exhibicions de moviments\l"
+	.string "amb actuacions de moviments\l"
 	.string "enlluernadors!\p"
-	.string "Anem a veure una mica d'entusiasme!\n"
-	.string "Comencen les exhibicions!$"
+	.string "Volem veure entusiasme!\n"
+	.string "Que comencin les actuacions!$"
 
 ContestHall_Text_ThatsItForJudging:
-	.string "Presentador: Això és tot pel judici!$"
+	.string "Presentador: Aquí acaba l'avaluació!$"
 
 ContestHall_Text_ThankYouForAppeals:
-	.string "Gràcies a tots per una meravellosa\n"
-	.string "exhibició d'exhibicions de qualitat!\p"
-	.string "Això conclou tot el judici!\n"
-	.string "Gràcies pels vostres esforços!$"
+	.string "Gràcies a tots per unes actuacions\n"
+	.string "de tanta qualitat!\p"
+	.string "L'avaluació ha acabat!\n"
+	.string "Gràcies pel vostre esforç!$"
 
 ContestHall_Text_JudgeLooksReady:
 	.string "Ara, només queda la trepidant\n"
 	.string "proclamació del guanyador.\p"
-	.string "El Jurat sembla a punt de fer\n"
+	.string "El Jutge sembla a punt de fer\n"
 	.string "l'anunci!$"
 
 ContestHall_Text_WeWillNowDeclareWinner:
-	.string "Jurat: Ara declararem el guanyador!$"
+	.string "Jutge: Ara anunciaré el guanyador!$"
 
 ContestHall_Text_CongratsTrainerXandMon:
-	.string "Presentador: Inscripció Núm.\n"
+	.string "Presentador: Participant núm.\n"
 	.string "{STR_VAR_2}!\p"
 	.string "{STR_VAR_3} i {STR_VAR_1},\n"
 	.string "felicitats!$"
@@ -1673,7 +1673,7 @@ LilycoveCity_ContestLobby_Text_ContestBeginShortly:
 	.string "El Concurs començarà aviat.$"
 
 LilycoveCity_ContestLobby_Text_LinkContestReception:
-	.string "Benvingut! Aquesta és la recepció\n"
+	.string "{MASC}Benvingut{FEM}Benvinguda{ENDG}! Aquesta és la recepció\n"
 	.string "de connexió de Concursos Pokémon.\p"
 	.string "Pots participar en Concursos\n"
 	.string "amb un o més amics.$"
@@ -1778,9 +1778,9 @@ LilycoveCity_ContestLobby_Text_WhichContestMode:
 	.string "participar?$"
 
 ContestHall_Text_GettingStartedWireless:
-	.string "Presentador: Hola! Estem a punt\n"
-	.string "de començar un Concurs Pokémon\l"
-	.string "de {STR_VAR_2} connectat de 4!$"
+	.string "Presentador: Hola! Estem a punt de\n"
+	.string "començar el {STR_VAR_2}\l"
+	.string "per connexió de 4 jugadors!$"
 
 ContestHall_Text_ParticipantsAsFollows:
 	.string "Els Entrenadors participants i els\n"
@@ -1789,7 +1789,7 @@ ContestHall_Text_ParticipantsAsFollows:
 ContestHall_Text_WeveSeenContestants:
 	.string "Presentador: Acabem de veure els\n"
 	.string "quatre concursants Pokémon.\p"
-	.string "Ara és l'hora del judici primari!$"
+	.string "Ara toca la primera avaluació!$"
 
 ContestHall_Text_AudienceWillVote:
 	.string "El públic votarà els seus\n"
@@ -1802,15 +1802,15 @@ ContestHall_Text_LetVotingBegin:
 ContestHall_Text_VotingComplete:
 	.string "La votació ha acabat!\p"
 	.string "Mentre es compten els vots,\n"
-	.string "passem al judici secundari!$"
+	.string "passem a la segona avaluació!$"
 
 ContestHall_Text_SecondStageOfJudging:
-	.string "La segona fase del judici és el\n"
-	.string "tan esperat moment d'exhibició!\p"
+	.string "La segona fase és el tan esperat\n"
+	.string "moment de les actuacions!\p"
 	.string "Que els concursants ens sorprenguin\n"
-	.string "amb exhibicions de moviments\l"
+	.string "amb actuacions de moviments\l"
 	.string "enlluernadors!$"
 
 ContestHall_Text_LetsAppeal:
-	.string "Anem a veure una mica d'entusiasme!\n"
-	.string "Comencen les exhibicions!$"
+	.string "Volem veure entusiasme!\n"
+	.string "Que comencin les actuacions!$"

@@ -18,7 +18,7 @@ VermilionCity_PokemonCenter_2F_DestinyKnot::
 	.string "No volia que se sentís sol,\n"
 	.string "així que li vaig deixar un regal.\p"
 	.string "Mira, en tenia un de més,\n"
-	.string "hauries d'agafar-lo!$"
+	.string "queda-te'l!$"
 
 VermilionCity_PokemonCenter_2F_Pokefan2::
 	msgbox VermilionCity_PokemonCenter_2F_Daycare, MSGBOX_DEFAULT

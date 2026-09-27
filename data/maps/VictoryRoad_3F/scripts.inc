@@ -35,7 +35,7 @@ VictoryRoad_3F_EventScript_George::
 	end
 
 VictoryRoad_3F_Text_GeorgeIntro::
-    .string "He sentit rumors d'un nen prodigi.$"
+    .string "He sentit rumors d'{MASC}un nen{FEM}una nena{ENDG} prodigi.$"
 
 VictoryRoad_3F_Text_GeorgeDefeat::
     .string "Els rumors eren certs!$"
@@ -66,15 +66,15 @@ VictoryRoad_3F_EventScript_Caroline::
 	end
 
 VictoryRoad_3F_Text_CarolineIntro::
-    .string "Et mostraré com de bo ets.\n"
+    .string "Et mostraré com n'ets, de {MASC}bo{FEM}bona{ENDG}.\n"
     .string "O no!$"
 
 VictoryRoad_3F_Text_CarolineDefeat::
     .string "Estic furiosa!$"
 
 VictoryRoad_3F_Text_CarolinePostBattle::
-    .string "M'has mostrat com de bona\n"
-    .string "era jo…$"
+    .string "M'has mostrat com n'era,\n"
+    .string "de bona…$"
 
 VictoryRoad_3F_EventScript_Alexa::
 	trainerbattle_single TRAINER_COOLTRAINER_ALEXA, VictoryRoad_3F_Text_AlexaIntro, VictoryRoad_3F_Text_AlexaDefeat
@@ -87,11 +87,11 @@ VictoryRoad_3F_Text_AlexaIntro::
 
 VictoryRoad_3F_Text_AlexaDefeat::
     .string "Oh!\n"
-    .string "Que fort!$"
+    .string "{MASC}Que fort{FEM}Que forta{ENDG}!$"
 
 VictoryRoad_3F_Text_AlexaPostBattle::
-    .string "Lluitant combats durs, et fas\n"
-    .string "més fort.$"
+    .string "Amb combats durs, et fas\n"
+    .string "més {MASC}fort{FEM}forta{ENDG}.$"
 
 VictoryRoad_3F_EventScript_Ray::
 	trainerbattle_double TRAINER_COOL_COUPLE_RAY_TYRA, VictoryRoad_3F_Text_RayIntro, VictoryRoad_3F_Text_RayDefeat, VictoryRoad_3F_Text_RayNotEnoughMons

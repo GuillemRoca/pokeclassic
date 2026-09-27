@@ -358,7 +358,7 @@ PlayersHouse_1F_Text_FollowerOptions::
 
 
 PlayersHouse_1F_Text_Gameclear2::
-	.string "Mare: Que siguis el nou campió\n"
+	.string "Mare: Que siguis {MASC}el nou campió{FEM}la nova campiona{ENDG}\n"
 
 
 	.string "no vol dir que la teva història\l"

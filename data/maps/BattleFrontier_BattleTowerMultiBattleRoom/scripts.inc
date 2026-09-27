@@ -471,32 +471,32 @@ BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor7thOpponentSet:
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_2ndOpponentSetNext:
 	.string "El 2n grup d'oponents és el\n"
-	.string "següent. Fes-ho bé!$"
+	.string "següent. Dona-ho tot!$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_3rdOpponentSetNext:
 	.string "El 3r grup d'oponents és el\n"
-	.string "següent. Fes-ho bé!$"
+	.string "següent. Dona-ho tot!$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_4thOpponentSetNext:
 	.string "El 4t grup d'oponents és el\n"
-	.string "següent. Fes-ho bé!$"
+	.string "següent. Dona-ho tot!$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_5thOpponentSetNext:
 	.string "El 5è grup d'oponents és el\n"
-	.string "següent. Fes-ho bé!$"
+	.string "següent. Dona-ho tot!$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_6thOpponentSetNext:
 	.string "El 6è grup d'oponents és el\n"
-	.string "següent. Fes-ho bé!$"
+	.string "següent. Dona-ho tot!$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_7thOpponentSetNext:
 	.string "El 7è grup d'oponents és el\n"
-	.string "següent. Fes-ho bé!$"
+	.string "següent. Dona-ho tot!$"
 
 gText_LinkStandby3::
 	.string "Esperant connexió…$"

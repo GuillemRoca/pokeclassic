@@ -38,15 +38,15 @@ VictoryRoad_1F_EventScript_Naomi::
 	end
 
 VictoryRoad_1F_Text_NaomiIntro::
-    .string "Em pregunto si ets prou bo\n"
+    .string "Seràs prou {MASC}bo{FEM}bona{ENDG}\n"
     .string "per a mi?$"
 
 VictoryRoad_1F_Text_NaomiDefeat::
     .string "He perdut…$"
 
 VictoryRoad_1F_Text_NaomiPostBattle::
-    .string "No volia perdre amb ningú,\n"
-    .string "sobretot amb un nen…$"
+    .string "No volia perdre contra ningú,\n"
+    .string "sobretot contra algú més jove…$"
 
 VictoryRoad_1F_EventScript_Rolando::
 	trainerbattle_single TRAINER_COOLTRAINER_ROLANDO, VictoryRoad_1F_Text_RolandoIntro, VictoryRoad_1F_Text_RolandoDefeat
@@ -54,15 +54,15 @@ VictoryRoad_1F_EventScript_Rolando::
 	end
 
 VictoryRoad_1F_Text_RolandoIntro::
-    .string "Veig que ets bo.\n"
-    .string "Deixa'm veure exactament com!$"
+    .string "Veig que ets {MASC}bo{FEM}bona{ENDG}.\n"
+    .string "Deixa'm veure com n'ets, de {MASC}bo{FEM}bona{ENDG}!$"
 
 VictoryRoad_1F_Text_RolandoDefeat::
     .string "Tenia una oportunitat…$"
 
 VictoryRoad_1F_Text_RolandoPostBattle::
     .string "Tsc!\n"
-    .string "Admet que ets millor que jo!$"
+    .string "Ho admeto, ets millor que jo!$"
 
 VictoryRoad_1F_EventScript_ItemTM02::
 	finditem ITEM_TM02, 1

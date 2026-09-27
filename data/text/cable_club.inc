@@ -1,5 +1,5 @@
 CableClub_Text_WelcomeWhichCableClubService:
-	.string "Benvingut al Club de Cable\n"
+	.string "{MASC}Benvingut{FEM}Benvinguda{ENDG} al Club de Cable\n"
 
 	.string "Pokémon.\p"
 
@@ -169,7 +169,7 @@ Text_TerminateLinkConfirmation:
 Text_TerminateLinkPleaseWait:
 	.string "Interrompent connexió…\n"
 
-	.string "Seràs acompanyat fora\l"
+	.string "Seràs {MASC}acompanyat{FEM}acompanyada{ENDG} fora\l"
 
 	.string "de la sala. Espera.$"
 
@@ -444,7 +444,7 @@ MossdeepCity_GameCorner_1F_Text_TalkToOldManToPlay:
 
 
 MossdeepCity_GameCorner_1F_Text_WelcomeCanYouWait:
-	.string "Hola, benvingut!\n"
+	.string "Hola, {MASC}benvingut{FEM}benvinguda{ENDG}!\n"
 
 	.string "Ets aquí per a jugar usant\l"
 
@@ -528,7 +528,7 @@ MossdeepCity_GameCorner_1F_Text_RetryPlease:
 
 
 CableClub_Text_WelcomeWhichDirectCornerRoom:
-	.string "Benvingut al Racó Directe del\n"
+	.string "{MASC}Benvingut{FEM}Benvinguda{ENDG} al Racó Directe del\n"
 
 	.string "Club Sense Fils Pokémon.\p"
 
@@ -626,7 +626,7 @@ CableClub_Text_ChooseGroupLeader:
 
 
 CableClub_Text_WelcomeUnionRoomEnter:
-	.string "Benvingut a la Sala Unió del\n"
+	.string "{MASC}Benvingut{FEM}Benvinguda{ENDG} a la Sala Unió del\n"
 
 	.string "Club Sense Fils Pokémon.\p"
 

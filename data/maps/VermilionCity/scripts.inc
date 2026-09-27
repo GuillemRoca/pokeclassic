@@ -131,7 +131,7 @@ VermilionCity_Text_VisitedSSAnne::
 	.string "Oak: Oh! {PLAYER}! Anaves a\n"
 	.string "visitar el SS Anna?\p"
 	.string "Em sap greu, però t'has perdut la\n"
-	.string "presentació sobre la Pokédex!\p"
+	.string "meva presentació sobre la Pokédex!\p"
 	.string "Què, no sabies que hi seria?\n"
 	.string "Quina llàstima...\p"
 	.string "Oh! Ja ho sé! Tens un Mòbil,\n"

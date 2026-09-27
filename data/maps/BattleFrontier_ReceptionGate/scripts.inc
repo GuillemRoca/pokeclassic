@@ -305,7 +305,7 @@ BattleFrontier_ReceptionGate_Text_FirstTimeHereThisWay:
 BattleFrontier_ReceptionGate_Text_WelcomeToBattleFrontier:
 	.string "La primera línia dels combats\n"
 	.string "Pokémon!\l"
-	.string "Benvingut a la Frontera de Combat!$"
+	.string "{MASC}Benvingut{FEM}Benvinguda{ENDG} a la Frontera de Combat!$"
 
 BattleFrontier_ReceptionGate_Text_IssueFrontierPass:
 	.string "Als visitants nous els donem\n"
@@ -331,7 +331,7 @@ BattleFrontier_ReceptionGate_Text_IfItIsntPlayerYouCame:
 	.string "Has vingut fins aquí!$"
 
 BattleFrontier_ReceptionGate_Text_OhMrScottGoodDay:
-	.string "Guia: Oh! Sr. Scott, senyor!\n"
+	.string "Guia: Oh! Senyor Scott!\n"
 	.string "Bon dia, senyor!$"
 
 BattleFrontier_ReceptionGate_Text_ScottGreatToSeeYouHere:
@@ -342,22 +342,21 @@ BattleFrontier_ReceptionGate_Text_ScottGreatToSeeYouHere:
 	.string "Naturalment, espero que també\n"
 	.string "experimentis l'essència pura\l"
 	.string "del combat.\p"
-	.string "També tinc la meva residència\n"
-	.string "aquí, vine a visitar-me si tens\l"
-	.string "temps.$"
+	.string "També visc aquí, així que\n"
+	.string "vine a veure'm si tens temps.$"
 
 BattleFrontier_ReceptionGate_Text_YourGuideToFacilities:
-	.string "Sóc la teva guia de les diverses\n"
+	.string "T'informo sobre les diverses\n"
 	.string "instal·lacions de la Frontera.$"
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhich2:
-	.string "De quina vols saber-ne més?$"
+	.string "De quina vols més informació?$"
 
 BattleFrontier_ReceptionGate_Text_BattleTowerInfo:
 	.string "És la torre gegant considerada\n"
 	.string "el símbol de la Frontera.\p"
-	.string "Hi ha quatre Sales de Combat\n"
-	.string "per a Individual, Doble, Múltiple\l"
+	.string "Hi ha quatre tipus de Sales de Combat:\n"
+	.string "Individual, Doble, Múltiple\l"
 	.string "i Múltiple per Enllaç.$"
 
 BattleFrontier_ReceptionGate_Text_BattleDomeInfo:
@@ -371,15 +370,15 @@ BattleFrontier_ReceptionGate_Text_BattleDomeInfo:
 BattleFrontier_ReceptionGate_Text_BattlePalaceInfo:
 	.string "El Palau de Combat és l'edifici\n"
 	.string "vermell a la dreta de la Frontera.\p"
-	.string "Hi ha dues Sales de Combat\n"
-	.string "per a Individual i Doble.$"
+	.string "Hi ha dues Sales de Combat: per a\n"
+	.string "Combats Individuals i Dobles.$"
 
 BattleFrontier_ReceptionGate_Text_BattleArenaInfo:
 	.string "L'Arena de Combat és l'edifici\n"
 	.string "amb forma de dojo al centre-dreta\l"
 	.string "de la Frontera.\p"
-	.string "S'hi celebra el Torneig KO\n"
-	.string "a l'Arena de Combat.$"
+	.string "S'hi celebra un esdeveniment\n"
+	.string "anomenat Torneig KO.$"
 
 BattleFrontier_ReceptionGate_Text_BattleFactoryInfo:
 	.string "La Fàbrica de Combat és l'edifici\n"
@@ -412,20 +411,20 @@ BattleFrontier_ReceptionGate_Text_RankingHallInfo:
 	.string "de la Frontera de Combat.$"
 
 BattleFrontier_ReceptionGate_Text_ExchangeCornerInfo:
-	.string "La Cantonada de Serveis d'Intercanvi\n"
+	.string "El Racó d'Intercanvi\n"
 	.string "és a prop de la Torre de Combat.\p"
 	.string "Els Punts de Combat guanyats\n"
 	.string "a la Frontera es poden canviar\l"
 	.string "per premis fabulosos allà.$"
 
 BattleFrontier_ReceptionGate_Text_YourGuideToRules:
-	.string "Sóc la teva guia de les regles\n"
+	.string "T'informo sobre les regles\n"
 	.string "bàsiques comunes a tots els\l"
 	.string "desafiaments de les instal·lacions\l"
 	.string "de la Frontera de Combat.$"
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhat:
-	.string "De què vols saber-ne més?$"
+	.string "De què vols més informació?$"
 
 BattleFrontier_ReceptionGate_Text_LevelModeInfo:
 	.string "Tots els desafiaments de la\n"
@@ -433,9 +432,9 @@ BattleFrontier_ReceptionGate_Text_LevelModeInfo:
 	.string "modalitats: Nivell 50 i Nivell Obert.$"
 
 BattleFrontier_ReceptionGate_Text_Level50Info:
-	.string "El mode Nivell 50 és per a Pokémon\n"
-	.string "de nivell 50 o inferior.\p"
-	.string "Tingueu en compte, però, que\n"
+	.string "La modalitat Nivell 50 és per a\n"
+	.string "Pokémon de nivell 50 o inferior.\p"
+	.string "Tingues en compte, però, que\n"
 	.string "cap Entrenador rival tindrà\l"
 	.string "Pokémon per sota del nivell 50.\p"
 	.string "Aquesta modalitat és l'entrada\n"
@@ -444,7 +443,7 @@ BattleFrontier_ReceptionGate_Text_Level50Info:
 	.string "desafiïs aquesta modalitat.$"
 
 BattleFrontier_ReceptionGate_Text_OpenLevelInfo:
-	.string "El mode Nivell Obert no limita\n"
+	.string "La modalitat Nivell Obert no limita\n"
 	.string "el nivell dels Pokémon que\l"
 	.string "participen.\p"
 	.string "El nivell dels teus rivals\n"
@@ -472,10 +471,10 @@ BattleFrontier_ReceptionGate_Text_HoldItemsInfo:
 	.string "portin objectes diferents.$"
 
 BattleFrontier_ReceptionGate_Text_YourGuideToFrontierPass:
-	.string "Sóc la teva guia del Passi de Frontera.$"
+	.string "T'informo sobre el Passi de Frontera.$"
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhich1:
-	.string "De què vols saber-ne més?$"
+	.string "De què vols més informació?$"
 
 BattleFrontier_ReceptionGate_Text_SymbolsInfo:
 	.string "Hi ha set instal·lacions a\n"
@@ -492,14 +491,14 @@ BattleFrontier_ReceptionGate_Text_SymbolsInfo:
 BattleFrontier_ReceptionGate_Text_RecordedBattleInfo:
 	.string "Es pot enregistrar un combat\n"
 	.string "al Passi de Frontera.\p"
-	.string "Pots enregistrar un combat\n"
-	.string "amb un amic o amics.\p"
+	.string "Pots enregistrar un combat que\n"
+	.string "hagis fet amb un o més amics.\p"
 	.string "O pots enregistrar un combat\n"
 	.string "de la Frontera excepte els de\l"
 	.string "la Llança de Combat o\l"
 	.string "la Piràmide de Combat.\p"
-	.string "Pots triar enregistrar el combat\n"
-	.string "al final d'un combat.$"
+	.string "Pots decidir si l'enregistres\n"
+	.string "quan acabi el combat.$"
 
 BattleFrontier_ReceptionGate_Text_BattlePointsInfo:
 	.string "Els Punts de Combat són premis\n"
@@ -507,5 +506,4 @@ BattleFrontier_ReceptionGate_Text_BattlePointsInfo:
 	.string "combatut brillantment a la\l"
 	.string "Frontera de Combat.\p"
 	.string "Pots canviar-los per premis\n"
-	.string "a la Cantonada de Serveis\l"
-	.string "d'Intercanvi.$"
+	.string "al Racó d'Intercanvi.$"

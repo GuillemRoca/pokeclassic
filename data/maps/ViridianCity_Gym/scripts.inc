@@ -29,7 +29,7 @@ ViridianCity_Gym_EventScript_Giovanni::
 
 ViridianCity_Gym_Text_GiovanniSpeech::
     .string "Fwahahaha!\n"
-    .string "Benvingut al meu amagatall!\p"
+    .string "{MASC}Benvingut{FEM}Benvinguda{ENDG} al meu amagatall!\p"
     .string "Així serà fins que pugui restaurar\n"
     .string "l'Equip Rocket a la seva antiga\l"
     .string "glòria.\p"
@@ -105,7 +105,7 @@ ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis::
     .string "de qualsevol nivell t'obeeixin\l"
     .string "sense discutir.\p"
     .string "És la prova del teu domini com\n"
-    .string "a Entrenador Pokémon.\p"
+    .string "a {MASC}Entrenador{FEM}Entrenadora{ENDG} Pokémon.\p"
     .string "Amb ella, pots desafiar la\n"
     .string "Lliga Pokémon.\p"
     .string "A més, pren aquesta MT.\p"
@@ -278,7 +278,7 @@ ViridianCity_Gym_EventScript_GymGuy::
 
 ViridianCity_Gym_Text_GymGuyAdvice::
     .string "Ei!\n"
-    .string "Futur campió!\p"
+    .string "{MASC}Futur campió{FEM}Futura campiona{ENDG}!\p"
     .string "Ni tan sols jo sé qui és el\n"
     .string "Líder de Viridiana.\p"
     .string "Però una cosa és segura.\n"

@@ -977,7 +977,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerPlayer:
 	.string "Felicitats!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_BrightNewHope:
-	.string "La nova esperança brillant!\p"
+	.string "La gran nova esperança!\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RisingStar:
@@ -985,8 +985,8 @@ BattleFrontier_BattleDomeBattleRoom_Text_RisingStar:
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillTheyRaceToChampionship:
-	.string "Arribarà aquest Entrenador\n"
-	.string "al campionat?\p"
+	.string "Serà capaç d'arribar\n"
+	.string "fins al campionat?\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanAchieveChampionFirstTry:
@@ -1000,54 +1000,54 @@ BattleFrontier_BattleDomeBattleRoom_Text_CanLossBeAvenged:
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_OnFireForChampionship:
-	.string "L'Entrenador està encès pel\n"
-	.string "primer intent de campionat!\p"
+	.string "Quina empenta en el primer\n"
+	.string "intent de guanyar el campionat!\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WinHereAdvancesToFinal:
-	.string "Una victòria aquí significa que\n"
-	.string "avança a la final!\p"
+	.string "Amb una victòria aquí,\n"
+	.string "passarà a la final!\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillLongHeldDreamComeTrue:
-	.string "Es farà realitat el somni\n"
-	.string "d'un campionat?\p"
+	.string "Es complirà per fi el somni\n"
+	.string "tan esperat del campionat?\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TheInvincibleChampion:
-	.string "El campió invencible!\p"
+	.string "{MASC}El campió invencible{FEM}La campiona invencible{ENDG}!\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CanAnyoneHopeToBeatTrainer:
-	.string "Pot algú esperar vèncer\n"
-	.string "aquest Entrenador?\p"
+	.string "Algú podrà vèncer\n"
+	.string "{MASC}aquest Entrenador{FEM}aquesta Entrenadora{ENDG}?\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_DoBattlesExistSolelyForTrainer:
 	.string "Existeixen els combats només\n"
-	.string "per a aquest Entrenador?\p"
+	.string "per a {MASC}aquest Entrenador{FEM}aquesta Entrenadora{ENDG}?\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_CurrentChampAimingToRetainTitle:
-	.string "El campió actual aspira a\n"
-	.string "retenir el títol!\p"
+	.string "{MASC}El campió actual{FEM}La campiona actual{ENDG} vol\n"
+	.string "revalidar el títol!\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_FormerChampHasReturned:
-	.string "L'antic campió ha tornat!\p"
+	.string "{MASC}L'antic campió{FEM}L'antiga campiona{ENDG} ha tornat!\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_FormerToughnessReturned:
-	.string "L'antiga duresa ha tornat!\p"
+	.string "Ha tornat la duresa d'abans!\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillDoExpectedAdvanceToFinals:
-	.string "Farà el que s'espera i avançarà\n"
-	.string "a la final?\p"
+	.string "Complirà les expectatives\n"
+	.string "i passarà a la final?\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillFormerChampRegainGlory:
-	.string "L'antic campió recuperarà\n"
+	.string "{MASC}L'antic campió{FEM}L'antiga campiona{ENDG} recuperarà\n"
 	.string "la glòria perduda?\p"
 	.string "$"
 
@@ -1120,9 +1120,9 @@ BattleFrontier_BattleDomeBattleRoom_Text_LegendHasReturnedDomeAceTucker:
 BattleFrontier_BattleDomeBattleRoom_Text_TuckerGoldIntro:
 	.string "Tucker: Ah…\n"
 	.string "El rugit del públic…\l"
-	.string "La seva calor d'emoció…\l"
+	.string "L'emoció que crema com un forn…\l"
 	.string "Aquest és un lloc meravellós…\p"
-	.string "Pel públic, sóc l'As del Domo…\n"
+	.string "Per al públic, sóc l'As del Domo…\n"
 	.string "Represento les seves esperances…\l"
 	.string "No puc desaparèixer mai de la seva vista…\p"
 	.string "He de cremar!\n"

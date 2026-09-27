@@ -53,7 +53,7 @@ VermilionCity_PokemonFanClub_Text_TruePokeFan::
 
 	.string "dels teus Pokémon!\p"
 
-	.string "Ets un autèntic PokéFan!\p"
+	.string "Ets {MASC}un autèntic{FEM}una autèntica{ENDG} PokéFan!\p"
 
 	.string "Si us plau, pren això i\n"
 
