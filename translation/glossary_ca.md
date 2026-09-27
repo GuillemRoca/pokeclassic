@@ -147,7 +147,7 @@ per coherència i perquè el text hi càpiga. Vegeu [TOOLING.md](TOOLING.md).
 | Youngster | Jovenet |
 | Lass | Noieta |
 | Bug Catcher | Caçainsectes |
-| Hiker | Excursionista |
+| Hiker | Senderista |
 | Fisherman | Pescador |
 | Sailor | Mariner |
 | Biker | Ciclista |
@@ -163,7 +163,7 @@ per coherència i perquè el text hi càpiga. Vegeu [TOOLING.md](TOOLING.md).
 | Super Nerd | Súper Friqui |
 | Juggler | Malabarista |
 | Camper | Campista |
-| Picnicker | Excursionista |
+| Picnicker | Piqueniquera |
 | School Kid | Estudiant |
 | Swimmer | Nedador/a |
 | Beauty | Bellesa |
@@ -298,9 +298,16 @@ per coherència i perquè el text hi càpiga. Vegeu [TOOLING.md](TOOLING.md).
 | Dig | Excavar |
 | Teleport | Teletransport |
 | Waterfall | Cascada |
-| Rock Smash | Trencaroques |
+| Rock Smash | Trencar Roca |
 
 ### Missatges de combat
+
+Temps verbal: perfet ("ha usat", "s'ha desmaiat"), mai el passat perifràstic.
+Els indicadors de bàndol van **darrere** del nom, i el motor els afegeix sol:
+"Pikachu salvatge", "Pidgey rival". El motor també apostrofa "de" davant d'un
+nom que comenci per vocal o h ("Defensa d'Eevee"), així que les plantilles
+han d'escriure sempre "de {NOM}". Els canvis d'estadística es componen com
+"[estad.] de [nom] ha pujat/baixat [molt/moltíssim]!".
 
 | Anglès | Català |
 |--------|--------|
@@ -308,16 +315,16 @@ per coherència i perquè el text hi càpiga. Vegeu [TOOLING.md](TOOLING.md).
 | Fight | Lluitar |
 | Bag | Motxilla |
 | Run | Fugir |
-| {PKMN} used {MOVE}! | {PKMN} va usar {MOVE}! |
+| {PKMN} used {MOVE}! | {PKMN} ha usat {MOVE}! |
 | It's super effective! | És molt efectiu! |
 | It's not very effective... | No és gaire efectiu... |
 | It doesn't affect {PKMN}... | No afecta {PKMN}... |
 | A critical hit! | Cop crític! |
-| {PKMN} fainted! | {PKMN} es va desmaiar! |
-| {PLAYER} won! | {PLAYER} va guanyar! |
-| {PLAYER} lost... | {PLAYER} va perdre... |
-| {PKMN} gained {AMOUNT} Exp. Points! | {PKMN} va guanyar {AMOUNT} punts d'Exp.! |
-| {PKMN} grew to level {LEVEL}! | {PKMN} va arribar al nivell {LEVEL}! |
+| {PKMN} fainted! | {PKMN} s'ha desmaiat! |
+| {PLAYER} won! | {PLAYER} ha guanyat! |
+| {PLAYER} lost... | {PLAYER} ha perdut... |
+| {PKMN} gained {AMOUNT} Exp. Points! | {PKMN} ha guanyat {AMOUNT} Punts d'Exp.! |
+| {PKMN} grew to level {LEVEL}! | {PKMN} ha pujat al Niv. {LEVEL}! |
 
 ### Missatges del Centre Pokémon
 
