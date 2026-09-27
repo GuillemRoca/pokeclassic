@@ -915,7 +915,7 @@ const struct SpriteSheet gSpriteSheet_HeldItem =
     sHeldItemGfx, sizeof(sHeldItemGfx), 0xd750
 };
 
-static const struct SpritePalette sSpritePalette_HeldItem =
+const struct SpritePalette sSpritePalette_HeldItem =
 {
     gHeldItemPalette, 0xd750
 };
