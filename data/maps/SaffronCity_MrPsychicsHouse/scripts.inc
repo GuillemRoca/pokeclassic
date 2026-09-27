@@ -31,10 +31,10 @@ SaffronCity_MrPsychicsHouse_EventScript_GetAlakazite::
 	end
 
 SaffronCity_MrPsychicsHouse_Text_ExplainAlakazite::
-	.string "You already know, don't you?\n"
-    .string "That stone is an Alakazite.\p"
-    .string "It's unlocks the ultimate psychic\n"
-    .string "potential of an Alakazam!$"
+	.string "Ja ho saps, oi?\n"
+    .string "Aquesta pedra és una Alakazita.\p"
+    .string "Desbloqueja el potencial psíquic\n"
+    .string "definitiu d'un Alakazam!$"
 
 SaffronCity_MrPsychicsHouse_EventScript_NoRoomForTM29::
 	msgbox SaffronCity_MrPsychicsHouse_Text_YouveNoRoom
@@ -47,15 +47,15 @@ SaffronCity_MrPsychicsHouse_EventScript_AlreadyGotTM29::
 	end
 
 SaffronCity_MrPsychicsHouse_Text_YouWantedThis::
-    .string "…Wait! Don't say a word!\p"
-    .string "You wanted this!$"
+    .string "…Espera! No diguis res!\p"
+    .string "Volies això!$"
 
 SaffronCity_MrPsychicsHouse_Text_ExplainTM29::
-    .string "You already know, don't you?\n"
-    .string "TM29 is Psychic.\p"
-    .string "It's an attack that may also lower\n"
-    .string "the target's special stats.$"
+    .string "Ja ho saps, oi?\n"
+    .string "La MT29 és Psíquic.\p"
+    .string "És un atac que també pot baixar\n"
+    .string "les estadístiques especials.$"
 
 SaffronCity_MrPsychicsHouse_Text_YouveNoRoom::
-    .string "Where do you plan to put this?\n"
-    .string "You've no room.$"
+    .string "On penses posar-ho?\n"
+    .string "No tens espai.$"

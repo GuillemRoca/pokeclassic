@@ -6,8 +6,8 @@ SSAnne_1F_Room2_EventScript_Woman::
 	end
 
 SSAnne_1F_Room2_Text_CruisingAroundWorld::
-    .string "We are cruising around the world,\n"
-    .string "my children and I.$"
+    .string "Estem fent un creuer pel món,\n"
+    .string "els meus fills i jo.$"
 
 
 SSAnne_1F_Room2_EventScript_Ann::
@@ -16,17 +16,17 @@ SSAnne_1F_Room2_EventScript_Ann::
 	end
 
 SSAnne_1F_Room2_Text_AnnIntro::
-    .string "I collected these Pokémon\n"
-    .string "from all around the world!$"
+    .string "He col·leccionat aquests Pokémon\n"
+    .string "d'arreu del món!$"
 
 SSAnne_1F_Room2_Text_AnnDefeat::
     .string "Oh, no!\n"
-    .string "I went around the world for these!$"
+    .string "He viatjat pel món per tenir-los!$"
 
 SSAnne_1F_Room2_Text_AnnPostBattle::
-    .string "You hurt my poor Pokémon!\p"
-    .string "I demand that you heal them at a\n"
-    .string "Pokémon Center!$"
+    .string "Has fet mal als meus Pokémon!\p"
+    .string "Exigeixo que els curis a un\n"
+    .string "Centre Pokémon!$"
 
 
 SSAnne_1F_Room2_EventScript_Tyler::
@@ -35,18 +35,18 @@ SSAnne_1F_Room2_EventScript_Tyler::
 	end
 
 SSAnne_1F_Room2_Text_TylerIntro::
-    .string "I love Pokémon!\n"
-    .string "Do you?$"
+    .string "M'encanten els Pokémon!\n"
+    .string "A tu també?$"
 
 SSAnne_1F_Room2_Text_TylerDefeat::
-    .string "Wow! \n"
-    .string "You're great!$"
+    .string "Uau! \n"
+    .string "Ets genial!$"
 
 SSAnne_1F_Room2_Text_TylerPostBattle::
-    .string "Listen, listen!\n"
-    .string "Let me be your friend, okay?\p"
-    .string "Then we can trade Pokémon and\n"
-    .string "do stuff.$"
+    .string "Escolta, escolta!\n"
+    .string "Deixa'm ser el teu amic, va?\p"
+    .string "Així podrem intercanviar Pokémon\n"
+    .string "i fer coses.$"
 
 SSAnne_1F_Room2_EventScript_ItemTM31::
     finditem ITEM_TM31, 1

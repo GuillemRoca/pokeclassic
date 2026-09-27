@@ -22,14 +22,14 @@ PokemonTower_4F_EventScript_Paula::
 	end
 
 PokemonTower_4F_Text_PaulaIntro::
-    .string "Ghost! No!\n"
+    .string "Fantasma! No!\n"
     .string "Kwaaah!$"
 
 PokemonTower_4F_Text_PaulaDefeat::
-    .string "Where is the ghost?$"
+    .string "On és el fantasma?$"
 
 PokemonTower_4F_Text_PaulaPostBattle::
-    .string "I must have been dreaming…$"
+    .string "Devia estar somiant…$"
 
 PokemonTower_4F_EventScript_Laurel::
 	trainerbattle_single TRAINER_CHANNELER_LAUREL, PokemonTower_4F_Text_LaurelIntro, PokemonTower_4F_Text_LaurelDefeat
@@ -37,15 +37,15 @@ PokemonTower_4F_EventScript_Laurel::
 	end
 
 PokemonTower_4F_Text_LaurelIntro::
-    .string "Be cursed with me!\n"
+    .string "Sigues maleït amb mi!\n"
     .string "Kwaaah!$"
 
 PokemonTower_4F_Text_LaurelDefeat::
-    .string "What!$"
+    .string "Què!$"
 
 PokemonTower_4F_Text_LaurelPostBattle::
-    .string "We can't determine the identity of\n"
-    .string "the ghosts…$"
+    .string "No podem determinar la identitat\n"
+    .string "dels fantasmes…$"
 
 PokemonTower_4F_EventScript_Jody::
 	trainerbattle_single TRAINER_CHANNELER_JODY, PokemonTower_4F_Text_JodyIntro, PokemonTower_4F_Text_JodyDefeat
@@ -54,12 +54,12 @@ PokemonTower_4F_EventScript_Jody::
 
 PokemonTower_4F_Text_JodyIntro::
     .string "Huhuhu…\n"
-    .string "Beat me not!$"
+    .string "No em pegueu!$"
 
 PokemonTower_4F_Text_JodyDefeat::
-    .string "Huh?\n"
-    .string "Who? What?$"
+    .string "Eh?\n"
+    .string "Qui? Què?$"
 
 PokemonTower_4F_Text_JodyPostBattle::
-    .string "May the departed Pokémon rest in\n"
-    .string "peace…$"
+    .string "Que els Pokémon difunts\n"
+    .string "descansin en pau…$"

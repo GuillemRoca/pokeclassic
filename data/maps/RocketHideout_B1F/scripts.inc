@@ -17,16 +17,16 @@ RocketHideout_B1F_EventScript_Grunt1::
 	end
 
 RocketHideout_B1F_Text_Grunt1Intro::
-    .string "Who are you?\n"
-    .string "How did you get here?$"
+    .string "Qui ets?\n"
+    .string "Com has arribat aquí?$"
 
 RocketHideout_B1F_Text_Grunt1Defeat::
-    .string "Oww!\n"
-    .string "Beaten!$"
+    .string "Au!\n"
+    .string "Derrotat!$"
 
 RocketHideout_B1F_Text_Grunt1PostBattle::
-    .string "Blast it… You're dissing Team\n"
-    .string "Rocket, aren't you?$"
+    .string "Maleït siguis… Estàs menyspreant\n"
+    .string "l'Equip Rocket, oi?$"
 
 RocketHideout_B1F_EventScript_Grunt2::
 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_9, RocketHideout_B1F_Text_Grunt2Intro, RocketHideout_B1F_Text_Grunt2Defeat
@@ -34,15 +34,15 @@ RocketHideout_B1F_EventScript_Grunt2::
 	end
 
 RocketHideout_B1F_Text_Grunt2Intro::
-    .string "You broke into TEAM ROCKET's\n"
-    .string "operation? What nerve!$"
+    .string "Has entrat a l'operació de\n"
+    .string "l'EQUIP ROCKET? Quina barra!$"
 
 RocketHideout_B1F_Text_Grunt2Defeat::
-    .string "Boom!$"
+    .string "Bum!$"
 
 RocketHideout_B1F_Text_Grunt2PostBattle::
-    .string "You're not going to get away with\n"
-    .string "this, brat!$"
+    .string "No te'n sortiràs amb la teva,\n"
+    .string "marrec!$"
 
 RocketHideout_B1F_EventScript_Grunt3::
 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_10, RocketHideout_B1F_Text_Grunt3Intro, RocketHideout_B1F_Text_Grunt3Defeat
@@ -50,14 +50,14 @@ RocketHideout_B1F_EventScript_Grunt3::
 	end
 
 RocketHideout_B1F_Text_Grunt3Intro::
-    .string "Intruder alert!$"
+    .string "Alerta d'intrús!$"
 
 RocketHideout_B1F_Text_Grunt3Defeat::
-    .string "I can't do it!$"
+    .string "No puc!$"
 
 RocketHideout_B1F_Text_Grunt3PostBattle::
-    .string "Cubone? Humph!\n"
-    .string "I don't know where it is.$"
+    .string "Cubone? Bah!\n"
+    .string "No sé on és.$"
 
 RocketHideout_B1F_EventScript_Grunt4::
 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_11, RocketHideout_B1F_Text_Grunt4Intro, RocketHideout_B1F_Text_Grunt4Defeat
@@ -65,14 +65,14 @@ RocketHideout_B1F_EventScript_Grunt4::
 	end
 
 RocketHideout_B1F_Text_Grunt4Intro::
-    .string "Why did you come here?$"
+    .string "Per què has vingut aquí?$"
 
 RocketHideout_B1F_Text_Grunt4Defeat::
-    .string "This won't do!$"
+    .string "Això no pot ser!$"
 
 RocketHideout_B1F_Text_Grunt4PostBattle::
-    .string "Okay, I'll talk…\n"
-    .string "Take the elevator to see my Boss.$"
+    .string "D'acord, parlaré…\n"
+    .string "Agafa l'ascensor per veure el Cap.$"
 
 RocketHideout_B1F_EventScript_Grunt5::
 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_12, RocketHideout_B1F_Text_Grunt5Intro, RocketHideout_B1F_Text_Grunt5Defeat, RocketHideout_B1F_EventScript_DefeatedGrunt5
@@ -80,14 +80,14 @@ RocketHideout_B1F_EventScript_Grunt5::
 	end
 
 RocketHideout_B1F_Text_Grunt5Intro::
-    .string "Are you lost, you little mouse?$"
+    .string "T'has perdut, ratolinet?$"
 
 RocketHideout_B1F_Text_Grunt5Defeat::
-    .string "Why…?$"
+    .string "Per què…?$"
 
 RocketHideout_B1F_Text_Grunt5PostBattle::
-    .string "Uh-oh, that ruckus somehow opened\n"
-    .string "the door!$"
+    .string "Oh, no, el rebombori ha obert\n"
+    .string "la porta!$"
 
 RocketHideout_B1F_EventScript_DefeatedGrunt5::
 	call RocketHideout_B1F_EventScript_RemoveBarrier
@@ -128,10 +128,10 @@ RocketHideout_B1F_EventScript_ItemHyperPotion::
 
 
 RocketHideout_Burglars_Text_GetTM::
-    .string "Team Rocket left a lot of good\n"
-    .string "loot behind when they left.\p"
-    .string "Here, take this.\n"
-    .string "There's plenty to go around!$"
+    .string "L'Equip Rocket va deixar molt\n"
+    .string "de botí quan van marxar.\p"
+    .string "Aquí tens, agafa.\n"
+    .string "N'hi ha de sobres!$"
 
 RocketHideout_Burglars_TM13::
     trainerbattle_single TRAINER_BURGLAR_TYLER, RocketHideout_Burglars_Text_BurglarIntro1, RocketHideout_Burglars_Text_BurglarDefeat1
@@ -145,16 +145,15 @@ RocketHideout_Burglars_EventScript_GotTM13::
     end
 
 RocketHideout_Burglars_Text_BurglarIntro1::
-    .string "Hey! I got here first.\n"
-    .string "Finders keepers!$"
+    .string "Ei! Jo hi he arribat primer.\n"
+    .string "Qui ho troba se'l queda!$"
 
 RocketHideout_Burglars_Text_BurglarDefeat1::
-    .string "Losers weepers...$"
+    .string "Qui perd, plora...$"
 
 RocketHideout_Burglars_Text_BurglarPostBattle1::
-    .string "Some of my buddies are here, too.\n"
-    .string "It was too hard to pass up!$"
-
+    .string "Alguns dels meus col·legues\n"
+    .string "també hi són. Era massa temptador!$"
 
 
 RocketHideout_Burglars_TM23::
@@ -169,14 +168,14 @@ RocketHideout_Burglars_EventScript_GotTM23::
     end
 
 RocketHideout_Burglars_Text_BurglarIntro2::
-    .string "Let's see...what do we have here?$"
+    .string "A veure...què tenim per aquí?$"
 
 RocketHideout_Burglars_Text_BurglarDefeat2::
-    .string "No! I wanted that one!$"
+    .string "No! Jo el volia!$"
 
 RocketHideout_Burglars_Text_BurglarPostBattle2::
-    .string "You never know what you're gonna\n"
-    .string "find when you break into a place.$"
+    .string "Mai saps què trobaràs quan\n"
+    .string "entres en un lloc.$"
 
 
 RocketHideout_Burglars_TM24::
@@ -191,15 +190,15 @@ RocketHideout_Burglars_EventScript_GotTM24::
     end
 
 RocketHideout_Burglars_Text_BurglarIntro3::
-    .string "Whoa, hey, are you stealing that?\n"
-    .string "That's not very nice!$"
+    .string "Uau, ei, estàs robant això?\n"
+    .string "Això no és gaire bonic!$"
 
 RocketHideout_Burglars_Text_BurglarDefeat3::
-    .string "What'd you do that for?$"
+    .string "Per què ho has fet?$"
 
 RocketHideout_Burglars_Text_BurglarPostBattle3::
-    .string "Oh, me? I'm not stealing this.\n"
-    .string "I'm just borrowing it!$"
+    .string "Oh, jo? Jo no robo això.\n"
+    .string "Només me'l deixo!$"
 
 
 RocketHideout_Burglars_TM30::
@@ -214,15 +213,15 @@ RocketHideout_Burglars_EventScript_GotTM30::
     end
 
 RocketHideout_Burglars_Text_BurglarIntro4::
-    .string "Let's see...what can I find in\n"
-    .string "here today?$"
+    .string "A veure...què puc trobar\n"
+    .string "aquí avui?$"
 
 RocketHideout_Burglars_Text_BurglarDefeat4::
-    .string "Nothing!$"
+    .string "Res!$"
 
 RocketHideout_Burglars_Text_BurglarPostBattle4::
-    .string "What? Get an honest job?\n"
-    .string "In this economy?$"
+    .string "Què? Trobar una feina honesta?\n"
+    .string "Amb aquesta economia?$"
 
 RocketHideout_Burglars_TM35::
     trainerbattle_single TRAINER_BURGLAR_KYLE, RocketHideout_Burglars_Text_BurglarIntro5, RocketHideout_Burglars_Text_BurglarDefeat5
@@ -236,14 +235,14 @@ RocketHideout_Burglars_EventScript_GotTM35::
     end
 
 RocketHideout_Burglars_Text_BurglarIntro5::
-    .string "Stealing is cool!$"
+    .string "Robar mola!$"
 
 RocketHideout_Burglars_Text_BurglarDefeat5::
-    .string "Losing is not!$"
+    .string "Perdre no!$"
 
 RocketHideout_Burglars_Text_BurglarPostBattle5::
-    .string "I just love stealing so much.\n"
-    .string "Its the only thing I love!$"
+    .string "M'encanta robar.\n"
+    .string "És l'única cosa que m'agrada!$"
 
 
 RocketHideout_Burglars_TM36::
@@ -258,11 +257,11 @@ RocketHideout_Burglars_EventScript_GotTM36::
     end
 
 RocketHideout_Burglars_Text_BurglarIntro6::
-    .string "Whoa! This looks's expensive!$"
+    .string "Uau! Això sembla car!$"
 
 RocketHideout_Burglars_Text_BurglarDefeat6::
-    .string "Aw man, it's just junk!$"
+    .string "Ah, bah, si és brossa!$"
 
 RocketHideout_Burglars_Text_BurglarPostBattle6::
-    .string "I never seem to find anything good.$"
+    .string "No semblo trobar mai res de bo.$"
 

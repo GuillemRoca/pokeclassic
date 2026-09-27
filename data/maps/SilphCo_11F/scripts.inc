@@ -52,26 +52,29 @@ SilphCo_11F_EventScript_PresidentPostgame::
 	end
 
 SilphCo_11F_Text_WhatAGreatBattle::
-	.string "President: I see I still have\n"
-	.string "room to improve!\p"
-	.string "But you won't have to worry about\n"
-	.string "rescuing me anymore!\p"
-	.string "Please, take this as a reward.$"
+	.string "President: Veig que encara tinc\n"
+	.string "marge per millorar!\p"
+	.string "Però ja no hauràs de preocupar-te\n"
+	.string "de rescatar-me més!\p"
+	.string "Si us plau, accepta això com a\n"
+	.string "recompensa.$"
 
 SilphCo_11F_Text_PrezDefeat::
-	.string "It seems even a President is no\n"
-	.string "match for a Champion!$"	
+	.string "Sembla que ni un President pot\n"
+	.string "igualar un Campió!$"
 
 SilphCo_11F_Text_PracticeBattling::
-	.string "President: Ah, hello {PLAYER}!\p"
-	.string "Come to check up on me?\p"
-	.string "Hoho..well, don't worry. There's\n"
-	.string "been no sign of Team Rocket here.\p"
-	.string "One can never be too careful though,\n"
-	.string "so I've started to train my own\l"
-	.string "Pokémon for protection!\p"
-	.string "Say...since you came all this way,\n"
-	.string "how about a battle?$"
+	.string "President: Ah, hola {PLAYER}!\p"
+	.string "Véns a veure com estic?\p"
+	.string "Hoho...bé, no et preocupis. No\n"
+	.string "hi ha hagut cap senyal de l'Equip\l"
+	.string "Rocket aquí.\p"
+	.string "Mai no es pot ser massa prudent,\n"
+	.string "així que he començat a entrenar\l"
+	.string "els meus propis Pokémon per\l"
+	.string "protegir-me!\p"
+	.string "Escolta...ja que has vingut fins\n"
+	.string "aquí, què tal un combat?$"
 
 SilphCo_11F_EventScript_DeclinePrezBattle::
 	msgbox SilphCo_11F_Text_IUnderstand, MSGBOX_NPC
@@ -79,27 +82,27 @@ SilphCo_11F_EventScript_DeclinePrezBattle::
 	end
 
 SilphCo_11F_Text_IUnderstand::
-	.string "I understand. Things must be busy\n"
-	.string "for a Champion.$"
+	.string "Ho entenc. Les coses han d'anar\n"
+	.string "molt atrafegades per a un Campió.$"
 
 SilphCo_11F_EventScript_PresidentPostgamePostBattle::
 	msgbox SilphCo_11F_Text_TheseRocketsPunks, MSGBOX_NPC
 	end
 
 SilphCo_11F_Text_TheseRocketsPunks::
-	.string "President: Silph Co. is trying\n"
-	.string "to make the world a better place\l"
-	.string "for both people and Pokémon.\p"
-	.string "But punks like Team Rocket will\n"
-	.string "never understand.$"
+	.string "President: Silph S.A. intenta\n"
+	.string "fer del món un lloc millor tant\l"
+	.string "per a persones com per a Pokémon.\p"
+	.string "Però brètols com l'Equip Rocket\n"
+	.string "mai ho entendran.$"
 
 SilphCo_11F_EventScript_PresidentHostage::
 	msgbox SilphCo_11F_Text_TheseRockets, MSGBOX_NPC
 	end
 
 SilphCo_11F_Text_TheseRockets::
-	.string "President: I've had enough of\n" 
-	.string "these Rockets!$"
+	.string "President: Ja n'hi ha prou\n"
+	.string "d'aquests Rockets!$"
 
 SilphCo_11F_EventScript_NoRoomForMasterBall::
 	msgbox SilphCo_11F_Text_YouHaveNoRoomForThis
@@ -123,13 +126,14 @@ SilphCo_11F_EventScript_SecretaryPostbattle::
 	end
 
 SilphCo_11F_Text_PrezTeam::
-	.string "After seeing you battle Team Rocket\n"
-	.string "twice, the President has become\l"
-	.string "obsessed with Pokémon battles.\p"
-	.string "He spends all his time researching\n"
-	.string "new moves...\p"
-	.string "Which means I have to answer all his\n"
-	.string "emails!$"
+	.string "Després de veure't lluitar contra\n"
+	.string "l'Equip Rocket dues vegades, el\l"
+	.string "President s'ha obsessionat amb\l"
+	.string "els combats Pokémon.\p"
+	.string "Es passa tot el temps investigant\n"
+	.string "nous moviments...\p"
+	.string "La qual cosa vol dir que jo he de\n"
+	.string "respondre tots els seus correus!$"
 
 SilphCo_11F_EventScript_HappeningAgain::
 	msgbox SilphCo_11F_Text_HappeningAgain, MSGBOX_NPC
@@ -140,14 +144,15 @@ SilphCo_11F_EventScript_SecretaryPostgame::
 	end
 
 SilphCo_11F_Text_NotWhatIExpected::
-	.string "This job is not what I expected.\n"
-	.string "I'm a secretary, not a bodyguard.\p"
-	.string "I'm thinking about asking for\n"
-	.string "a raise!$"
+	.string "Aquesta feina no és el que\n"
+	.string "m'esperava. Sóc secretària,\l"
+	.string "no guardaespatlles.\p"
+	.string "Estic pensant a demanar un\n"
+	.string "augment!$"
 
 SilphCo_11F_Text_HappeningAgain::
-	.string "Aiiieee!! I can't believe it's\n"
-	.string "happening again! Help us!$"
+	.string "Aiiieee!! No puc creure que\n"
+	.string "torni a passar! Ajudeu-nos!$"
 
 SilphCo_11F_EventScript_GiovanniTriggerLeft::
 	lockall
@@ -246,22 +251,25 @@ SilphCo_11F_EventScript_JessieJames::
 	end
 
 SilphCo_11F_Text_StopYouOnceAndForAll::
-	.string "James: Well, look who it is.\n"
-	.string "Jessie: The twerp is right on time.\p"
-	.string "Jessie: We knew you'd be coming.\n"
-	.string "James: But this is as far as you go.\l"
-	.string "Jessie: Our Boss is in a meeting.\n"
-	.string "James: So you'll deal with us!$"
+	.string "James: Vaja, mira qui és.\n"
+	.string "Jessie: El marrec ha arribat\l"
+	.string "puntualment.\p"
+	.string "Jessie: Sabíem que vindries.\n"
+	.string "James: Però fins aquí has arribat.\l"
+	.string "Jessie: El nostre Cap té reunió.\n"
+	.string "James: Així que t'enfrontaràs\l"
+	.string "a nosaltres!$"
 
 SilphCo_11F_Text_JessieJamesDefeat::
-	.string "Jessie: Argh! I hate kids!\p"
-	.string "James: Same as always...$"
+	.string "Jessie: Argh! Odio els nens!\p"
+	.string "James: Com sempre...$"
 
 SilphCo_11F_Text_JessieJamesPostBattle::
-	.string "Jessie: We've failed the boss.\n"
-	.string "James: This was our last chance!\p"
-	.string "Jessie & James: Looks like we'll\n"
-	.string "be blasting off again!$"
+	.string "Jessie: Hem fallat al cap.\n"
+	.string "James: Era la nostra última\l"
+	.string "oportunitat!\p"
+	.string "Jessie i James: Sembla que\n"
+	.string "tornarem a sortir volant!$"
 
 Movement_JessieJamesApproachPlayer:
 	walk_left
@@ -289,88 +297,91 @@ SilphCo_11F_EventScript_Grunt2::
 	end
 
 SilphCo_11F_Text_ThanksForSavingMe::
-    .string "President: Oh, dear child!\n"
-    .string "Thank you for saving Silph.\p"
-    .string "I will never forget you saved us in\n"
-    .string "our moment of peril.\p"
-    .string "I have to thank you in some way.\p"
-    .string "Because I am rich, I can give you\n"
-    .string "anything.\p"
-    .string "Here, maybe this will do.$"
+    .string "President: Oh, estimat nen!\n"
+    .string "Gràcies per salvar Silph.\p"
+    .string "Mai oblidaré que ens vas salvar\n"
+    .string "en el nostre moment de perill.\p"
+    .string "T'ho he d'agrair d'alguna manera.\p"
+    .string "Com que sóc ric, et puc donar\n"
+    .string "el que vulguis.\p"
+    .string "Potser això et servirà.$"
 
 SilphCo_11F_Text_ObtainedMasterBallFromPresident::
-    .string "{PLAYER} obtained a Master Ball\n"
-    .string "from the President!$"
+    .string "{PLAYER} ha obtingut una Master\n"
+    .string "Ball del President!$"
 
 SilphCo_11F_Text_ThatsOurSecretPrototype::
-    .string "President: You can't buy that\n"
-    .string "anywhere.\p"
-    .string "It's our secret prototype Master\n"
-    .string "Ball.\p"
-    .string "It will catch any Pokémon without\n"
-    .string "fail!\p"
-    .string "You should be quiet about using it,\n"
-    .string "though.$"
+    .string "President: Això no es pot comprar\n"
+    .string "enlloc.\p"
+    .string "És el nostre prototip secret de\n"
+    .string "Master Ball.\p"
+    .string "Capturarà qualsevol Pokémon\n"
+    .string "sense falta!\p"
+    .string "Però hauries de ser discret\n"
+    .string "sobre el seu ús.$"
 
 SilphCo_11F_Text_YouHaveNoRoomForThis::
-    .string "You have no room for this.$"
+    .string "No tens espai per a això.$"
 
 SilphCo_11F_Text_ThanksForRescuingUs::
-    .string "Secretary: Thank you for rescuing\n"
-    .string "all of us.\p"
-    .string "We, from the President down,\n"
-    .string "are indebted to you.$"
+    .string "Secretària: Gràcies per\n"
+    .string "rescatar-nos a tots.\p"
+    .string "Nosaltres, des del President\n"
+    .string "avall, t'estem en deute.$"
 
 SilphCo_11F_Text_GiovanniIntro::
     .string "Ah, {PLAYER}!\n"
-    .string "So we meet again!\p"
-    .string "The President and I are discussing\n"
-    .string "a vital business proposition.\p"
-    .string "Keep your nose out of grown-up\n"
-    .string "matters…\p"
-    .string "Or, experience a world of pain!$"
+    .string "Ens tornem a trobar!\p"
+    .string "El President i jo estem discutint\n"
+    .string "una proposta de negoci vital.\p"
+    .string "No fiquis el nas en assumptes\n"
+    .string "d'adults…\p"
+    .string "O experimenta un món de dolor!$"
 
 SilphCo_11F_Text_GiovanniDefeat::
     .string "Arrgh!!\n"
-    .string "I lost again!?$"
+    .string "He tornat a perdre!?$"
 
 SilphCo_11F_Text_GiovanniPostBattle::
-    .string "Blast it all!\n"
-    .string "You ruined our plans for Silph!\p"
-    .string "But, Team Rocket will never fall!\p"
-    .string "{PLAYER}! Never forget that all\n"
-    .string "Pokémon exist for Team Rocket!\p"
-    .string "I must go, but I shall return!$"
+    .string "Maleït sigui!\n"
+    .string "Has arruïnat els nostres plans\l"
+    .string "per a Silph!\p"
+    .string "Però l'Equip Rocket mai caurà!\p"
+    .string "{PLAYER}! No oblidis mai que tots\n"
+    .string "els Pokémon existeixen per a\l"
+    .string "l'Equip Rocket!\p"
+    .string "Me n'he d'anar, però tornaré!$"
 
 SilphCo_11F_Text_Grunt2Intro::
-    .string "Stop right there!\n"
-    .string "Don't you move!$"
+    .string "Para aquí!\n"
+    .string "No et moguis!$"
 
 SilphCo_11F_Text_Grunt2Defeat::
-    .string "Don't…\n"
-    .string "Please!$"
+    .string "No…\n"
+    .string "Si us plau!$"
 
 SilphCo_11F_Text_Grunt2PostBattle::
-    .string "So, you want to see my Boss?$"
+    .string "Vols veure el meu Cap?$"
 
 SilphCo_11F_Text_Grunt1Intro::
-    .string "Halt! Do you have an appointment\n"
-    .string "with my Boss?$"
+    .string "Alt! Tens cita amb el\n"
+    .string "meu Cap?$"
 
 SilphCo_11F_Text_Grunt1Defeat::
     .string "Gaah!\n"
-    .string "Demolished!$"
+    .string "Demolit!$"
 
 SilphCo_11F_Text_Grunt1PostBattle::
-    .string "Watch your step…\n"
-    .string "My Boss likes his Pokémon tough!$"
+    .string "Vigila on trepitges…\n"
+    .string "Al meu Cap li agraden els\l"
+    .string "Pokémon durs!$"
 
 SilphCo_11F_Text_MonitorHasMonsOnIt::
-    .string "The monitor has Pokémon on it!$"
+    .string "El monitor mostra Pokémon!$"
 
 SilphCo_11F_Text_FloorSign::
-    .string "Silph Co. Head Office\n"
-    .string "11F$"
+    .string "Seu Central de Silph S.A.\n"
+    .string "11è pis$"
 
 
 @Postgame
@@ -412,31 +423,35 @@ SilphCo_11F_EventScript_PostgameRocket::
 	end
 
 SilphCo_11F_Text_ThatsEnoughFromYou::
-	.string "Looker: That's enough!\p"
-	.string "We've heard it all before.\p"
-	.string "That's the problem with you\n"
-	.string "Rockets. It's all about one\l"
-	.string "thing...power!\p"
-	.string "That's why you'll always lose\n"
-	.string "to someone like {PLAYER}.\p"
-	.string "They know what it truly means\n"
-	.string "to live alongside Pokémon.\p"
+	.string "Looker: Prou!\p"
+	.string "Ja ho hem sentit tot abans.\p"
+	.string "Aquest és el vostre problema,\n"
+	.string "Rockets. Tot gira al voltant\l"
+	.string "d'una sola cosa...el poder!\p"
+	.string "Per això sempre perdreu contra\n"
+	.string "algú com {PLAYER}.\p"
+	.string "Ell sap què significa realment\n"
+	.string "viure al costat dels Pokémon.\p"
 	.string "...\p"
-	.string "You called Giovanni weak, but I\n"
-	.string "think even he knew that at the end.$"
+	.string "Has dit que Giovanni era feble,\n"
+	.string "però crec que fins i tot ell ho\l"
+	.string "sabia al final.$"
 
 SilphCo_11F_Text_RocketWellNeverStop::
 	.string "Rocket: ...\p"
-	.string "Maybe so...\p"
-	.string "But we'll never stop!\p"
-	.string "Team Rocket will rise again!$"
+	.string "Potser sí...\p"
+	.string "Però mai no pararem!\p"
+	.string "L'Equip Rocket tornarà a\n"
+	.string "alçar-se!$"
 
 SilphCo_11F_Text_TakingYouIn::
-	.string "Looker: We'll see about that.\p"
-	.string "{PLAYER}! I'm taking this Rocket in.\p"
-	.string "Thanks for all your help here.\n"
-	.string "You should come see me the next\n"
-	.string "time you're in Celadon City.$"
+	.string "Looker: Ja ho veurem.\p"
+	.string "{PLAYER}! M'emporto aquest\n"
+	.string "Rocket.\p"
+	.string "Gràcies per tota la teva ajuda\n"
+	.string "aquí. Hauries de venir a veure'm\n"
+	.string "la propera vegada que siguis a\n"
+	.string "Ciutat Celadon.$"
 
 SilphCo_11F_EventScript_LookerMovement1::
 	applymovement LOCALID_LOOKER, SilphCo_11F_LookerMovement_Approach1
@@ -490,7 +505,7 @@ SilphCo_11F_EventScript_LookerMovement3::
 SilphCo_11F_RocketMovement_Exit1::
 	walk_right
 SilphCo_11F_LookerMovement_Exit1::
-	walk_right	
+	walk_right
 	walk_right
 	walk_down
 	walk_down
@@ -512,7 +527,7 @@ SilphCo_11F_LookerMovement_Exit1::
 SilphCo_11F_RocketMovement_Exit2::
 	walk_left
 SilphCo_11F_LookerMovement_Exit2::
-	walk_left	
+	walk_left
 	walk_left
 	walk_down
 	walk_down
@@ -531,30 +546,29 @@ SilphCo_11F_EventScript_LookerMovement4::
 
 
 SilphCo_11F_Text_GiovanniWasWeak::
-	.string "Rocket: Ha! You actually\n"
-	.string "showed up?\p"
-	.string "What? The big bad champion\n"
-	.string "of Kanto thinks he's going to\l"
-	.string "take me down?\p"
-	.string "Well, listen up, kid.\p"
-	.string "Giovanni was weak!\p"
-	.string "He let some chump like you\n"
-	.string "push him around!\p"
-	.string "Under my leadership, Team\n"
-	.string "Rocket won't roll over just\l"
-	.string "because some kid stands in our\l"
-	.string "way!\p"
-	.string "Say hello to the new Team Rocket!$"
+	.string "Rocket: Ha! De debò has\n"
+	.string "aparegut?\p"
+	.string "Què? El gran campió de Kanto\n"
+	.string "es pensa que em derrotarà?\p"
+	.string "Bé, escolta bé, nen.\p"
+	.string "Giovanni era feble!\p"
+	.string "Va deixar que un don ningú com\n"
+	.string "tu li passés per sobre!\p"
+	.string "Sota el meu lideratge, l'Equip\n"
+	.string "Rocket no es rendiria només\l"
+	.string "perquè un nen s'interposa!\p"
+	.string "Saluda al nou Equip Rocket!$"
 
 SilphCo_11F_Text_RocketLeaderDefeat::
-	.string "What?! Am I weaker than Giovanni?\p"
+	.string "Què?! Sóc més feble que\n"
+	.string "Giovanni?\p"
 
 SilphCo_11F_Text_HowCouldThisHappen::
-	.string "I can't believe it...\p"
-	.string "This was supposed to be our big\n"
-	.string "comeback!\p"
-	.string "We thought Giovanni was weak...\n"
-	.string "but you're just too good!$"
+	.string "No m'ho puc creure...\p"
+	.string "Això havia de ser el nostre gran\n"
+	.string "retorn!\p"
+	.string "Pensàvem que Giovanni era\n"
+	.string "feble... però tu ets massa bo!$"
 
 
 

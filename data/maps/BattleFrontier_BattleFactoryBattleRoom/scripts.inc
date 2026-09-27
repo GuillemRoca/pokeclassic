@@ -241,71 +241,71 @@ BattleFrontier_BattleFactoryBattleRoom_EventScript_ScientistsFaceBattle::
 	return
 
 BattleFrontier_BattleFactoryBattleRoom_Text_GetAMoveOn:
-	.string "Hey, hey!\n"
-	.string "Get a move on!$"
+	.string "Ei, ei!\n"
+	.string "Mou-te!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_NolandImFactoryHead:
-	.string "Hey, my name's Noland!\n"
-	.string "I'm basically in charge of this place,\l"
-	.string "which is why I'm the Factory Head!\p"
-	.string "I had a look at your Battle Swap data.\p"
-	.string "You seem to have the right idea,\n"
-	.string "but you're still square in your head!\p"
-	.string "Listen up, okay? Knowledge isn't only\n"
-	.string "about reading books or doing desk work.\p"
-	.string "Just doing that sort of thing…\n"
-	.string "It may as well be useless!\p"
-	.string "You have to experience things with\n"
-	.string "your heart and your body, understand?\p"
-	.string "I'll take you on under the same\n"
-	.string "conditions as you.\p"
-	.string "I'll be using rental Pokémon, too!$"
+	.string "Ei, em dic Noland!\n"
+	.string "Bàsicament estic al càrrec d'aquí,\l"
+	.string "per això sóc el Cap de la Fàbrica!\p"
+	.string "He mirat les teves dades d'Intercanvi.\p"
+	.string "Sembla que tens la idea correcta,\n"
+	.string "però encara ets massa quadrat!\p"
+	.string "Escolta, d'acord? El coneixement no és\n"
+	.string "només llegir llibres o treballar a taula.\p"
+	.string "Només fer això…\n"
+	.string "Tant se val si és inútil!\p"
+	.string "Has d'experimentar les coses amb\n"
+	.string "el cor i el cos, entens?\p"
+	.string "T'enfrontaré en les mateixes\n"
+	.string "condicions que tu.\p"
+	.string "Jo també usaré Pokémon de lloguer!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_ShakeOutKnowledgeBringItOn:
-	.string "Shake out every last bit of your\n"
-	.string "knowledge and bring it on!$"
+	.string "Treu tot el coneixement que tinguis\n"
+	.string "i vine a per mi!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_NolandLetsSeeFrontierPass:
-	.string "Noland: Smart going!\n"
-	.string "Let's see your Frontier Pass.$"
+	.string "Noland: Ben jugat!\n"
+	.string "Deixa'm veure el teu Passi de Frontera.$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_ReceivedKnowledgeSymbol:
-	.string "The Knowledge Symbol was embossed\n"
-	.string "on the Frontier Pass!$"
+	.string "El Símbol de Coneixement s'ha gravat\n"
+	.string "al Passi de Frontera!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_NextTimeNoHoldsBarred:
 	.string "Heh…\n"
-	.string "You're a pretty bright spark…\p"
-	.string "Next time, I'll come after you hard.\n"
-	.string "No holds barred, understand?\p"
-	.string "You keep up your studies!$"
+	.string "Ets bastant llest/a…\p"
+	.string "El proper cop, aniré a per tu amb tot.\n"
+	.string "Sense contemplacions, entens?\p"
+	.string "Segueix estudiant!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_HarderLookThanLastTime:
-	.string "Noland: Hey, hey! How's it going?\n"
-	.string "You keeping up with your studies?\p"
+	.string "Noland: Ei, ei! Com va?\n"
+	.string "Segueixes estudiant?\p"
 	.string "…Oh?\p"
-	.string "You've taken on a harder look than\n"
-	.string "the last time I saw you.\p"
-	.string "Now, this should be fun!\n"
-	.string "I'm getting excited, hey!$"
+	.string "Tens una mirada més dura que\n"
+	.string "l'últim cop que et vaig veure.\p"
+	.string "Això serà divertit!\n"
+	.string "M'estic emocionant, ei!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_AllRightBringItOn:
-	.string "All right!\n"
-	.string "Bring it on!$"
+	.string "D'acord!\n"
+	.string "Vine!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_OutOfMyLeagueLetsSeePass:
-	.string "Noland: What the…\n"
-	.string "You're getting out of my league!\p"
-	.string "Sheesh!\n"
-	.string "Let's see that Frontier Pass!$"
+	.string "Noland: Què…\n"
+	.string "Em superes!\p"
+	.string "Caram!\n"
+	.string "Deixa'm veure el Passi de Frontera!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_KnowledgeSymbolTookGoldenShine:
-	.string "The Knowledge Symbol took on\n"
-	.string "a golden shine!$"
+	.string "El Símbol de Coneixement ha adquirit\n"
+	.string "una brillantor daurada!$"
 
 BattleFrontier_BattleFactoryBattleRoom_Text_LastTimeILoseToYou:
-	.string "Pfft, man!\p"
-	.string "That's absolutely the last time\n"
-	.string "I lose to you!\p"
-	.string "We have to do this again, hey?$"
+	.string "Buf, home!\p"
+	.string "Aquesta és absolutament l'última\n"
+	.string "vegada que perdo contra tu!\p"
+	.string "Ho hem de tornar a fer, eh?$"
 

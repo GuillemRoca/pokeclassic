@@ -1,918 +1,918 @@
 @ Contest move effect descriptions
 
 gText_HighlyAppealingMove::
-	.string "A highly appealing move.$"
+	.string "Un moviment molt atractiu.$"
 
 gText_UserMoreEasilyStartled::
-	.string "After this move, the user is\n"
-	.string "more easily startled.$"
+	.string "Després d'aquest moviment,\n"
+	.string "l'usuari es pertorba més fàcilment.$"
 
 gText_GreatAppealButNoMoreToEnd::
-	.string "Makes a great appeal, but\n"
-	.string "allows no more to the end.$"
+	.string "Fa una gran actuació, però\n"
+	.string "no en pot fer cap més al final.$"
 
 gText_UsedRepeatedlyWithoutBoringJudge::
-	.string "Can be repeatedly used\n"
-	.string "without boring the Judge.$"
+	.string "Es pot usar repetidament\n"
+	.string "sense avorriment del Jutge.$"
 
 gText_AvoidStartledByOthersOnce::
-	.string "Can avoid being startled\n"
-	.string "by others once.$"
+	.string "Pot evitar ser pertorbat\n"
+	.string "pels altres una vegada.$"
 
 gText_AvoidStartledByOthers::
-	.string "Can avoid being startled\n"
-	.string "by others.$"
+	.string "Pot evitar ser pertorbat\n"
+	.string "pels altres.$"
 
 gText_AvoidStartledByOthersLittle::
-	.string "Can avoid being startled\n"
-	.string "by others a little.$"
+	.string "Pot evitar ser pertorbat\n"
+	.string "pels altres una mica.$"
 
 gText_UserLessLikelyStartled::
-	.string "After this move, the user is\n"
-	.string "less likely to be startled.$"
+	.string "Després d'aquest moviment,\n"
+	.string "l'usuari es pertorba menys.$"
 
 gText_SlightlyStartleFrontMon::
-	.string "Slightly startles the\n"
-	.string "Pokémon in front.$"
+	.string "Pertorba lleugerament el\n"
+	.string "Pokémon del davant.$"
 
 gText_SlightlyStartleAppealed::
-	.string "Slightly startles those\n"
-	.string "that have made appeals.$"
+	.string "Pertorba lleugerament els\n"
+	.string "que han actuat.$"
 
 gText_StartleAppealedBeforeUser::
-	.string "Startles the Pokémon that\n"
-	.string "appealed before the user.$"
+	.string "Pertorba el Pokémon que\n"
+	.string "ha actuat abans que l'usuari.$"
 
 gText_StartleAllAppealed::
-	.string "Startles all Pokémon that\n"
-	.string "have done their appeals.$"
+	.string "Pertorba tots els Pokémon\n"
+	.string "que han actuat.$"
 
 gText_BadlyStartleFrontMon::
-	.string "Badly startles the\n"
-	.string "Pokémon in front.$"
+	.string "Pertorba molt el\n"
+	.string "Pokémon del davant.$"
 
 gText_BadlyStartleAppealed::
-	.string "Badly startles those that\n"
-	.string "have made appeals.$"
+	.string "Pertorba molt els que\n"
+	.string "han actuat.$"
 
 gText_StartleAppealedBeforeUser2::
-	.string "Startles the Pokémon that\n"
-	.string "appealed before the user.$"
+	.string "Pertorba el Pokémon que\n"
+	.string "ha actuat abans que l'usuari.$"
 
 gText_StartleAllAppealed2::
-	.string "Startles all Pokémon that\n"
-	.string "have done their appeals.$"
+	.string "Pertorba tots els Pokémon\n"
+	.string "que han actuat.$"
 
 gText_ShiftJudgesAttentionFromOthers::
-	.string "Shifts the Judge's\n"
-	.string "attention from others.$"
+	.string "Desvia l'atenció del\n"
+	.string "Jutge dels altres.$"
 
 gText_StartleMonHasJudgesAttention::
-	.string "Startles the Pokémon that\n"
-	.string "has the Judge's attention.$"
+	.string "Pertorba el Pokémon que\n"
+	.string "té l'atenció del Jutge.$"
 
 gText_JamOthersMissesTurn::
-	.string "Jams the others, and misses\n"
-	.string "one turn of appeals.$"
+	.string "Bloqueja els altres i\n"
+	.string "perd un torn d'actuació.$"
 
 gText_StartleMonsMadeSameTypeAppeal::
-	.string "Startles Pokémon that\n"
-	.string "made a same-type appeal.$"
+	.string "Pertorba Pokémon que\n"
+	.string "han fet una actuació del mateix tipus.$"
 
 gText_BadlyStartleCoolAppeals::
-	.string "Badly startles Pokémon\n"
-	.string "that made Cool appeals.$"
+	.string "Pertorba molt els Pokémon\n"
+	.string "amb actuació de Gràcia.$"
 
 gText_BadlyStartleBeautyAppeals::
-	.string "Badly startles Pokémon\n"
-	.string "that made Beauty appeals.$"
+	.string "Pertorba molt els Pokémon\n"
+	.string "amb actuació de Bellesa.$"
 
 gText_BadlyStartleCuteAppeals::
-	.string "Badly startles Pokémon\n"
-	.string "that made Cute appeals.$"
+	.string "Pertorba molt els Pokémon\n"
+	.string "amb actuació de Tendresa.$"
 
 gText_BadlyStartleSmartAppeals::
-	.string "Badly startles Pokémon\n"
-	.string "that made Smart appeals.$"
+	.string "Pertorba molt els Pokémon\n"
+	.string "amb actuació de Saviesa.$"
 
 gText_BadlyStartleToughAppeals::
-	.string "Badly startles Pokémon\n"
-	.string "that made Tough appeals.$"
+	.string "Pertorba molt els Pokémon\n"
+	.string "amb actuació de Potència.$"
 
 gText_MakeMonAfterUserNervous::
-	.string "Makes one Pokémon after\n"
-	.string "the user nervous.$"
+	.string "Posa nerviós un Pokémon\n"
+	.string "després de l'usuari.$"
 
 gText_MakeAllMonsAfterUserNervous::
-	.string "Makes all Pokémon after\n"
-	.string "the user nervous.$"
+	.string "Posa nerviosos tots els\n"
+	.string "Pokémon després de l'usuari.$"
 
 gText_WorsenConditionOfThoseMadeAppeals::
-	.string "Worsens the condition of\n"
-	.string "those that made appeals.$"
+	.string "Empitjora la condició dels\n"
+	.string "que han actuat.$"
 
 gText_BadlyStartleMonsGoodCondition::
-	.string "Badly startles Pokémon in\n"
-	.string "good condition.$"
+	.string "Pertorba molt els Pokémon\n"
+	.string "en bona condició.$"
 
 gText_AppealGreatIfPerformedFirst::
-	.string "The appeal works great if\n"
-	.string "performed first.$"
+	.string "L'actuació funciona molt bé\n"
+	.string "si es fa la primera.$"
 
 gText_AppealGreatIfPerformedLast::
-	.string "The appeal works great if\n"
-	.string "performed last.$"
+	.string "L'actuació funciona molt bé\n"
+	.string "si es fa l'última.$"
 
 gText_AppealAsGoodAsThoseBeforeIt::
-	.string "Makes the appeal as good\n"
-	.string "as those before it.$"
+	.string "Fa l'actuació tan bona\n"
+	.string "com les anteriors.$"
 
 gText_AppealAsGoodAsOneBeforeIt::
-	.string "Makes the appeal as good\n"
-	.string "as the one before it.$"
+	.string "Fa l'actuació tan bona\n"
+	.string "com l'anterior.$"
 
 gText_AppealBetterLaterItsPerformed::
-	.string "The appeal works better\n"
-	.string "the later it is performed.$"
+	.string "L'actuació funciona millor\n"
+	.string "com més tard es fa.$"
 
 gText_AppealVariesDependingOnTiming::
-	.string "The appeal's quality varies\n"
-	.string "depending on its timing.$"
+	.string "La qualitat de l'actuació\n"
+	.string "varia segons el moment.$"
 
 gText_WorksWellIfSameTypeAsBefore::
-	.string "Works well if it's the same\n"
-	.string "type as the one before.$"
+	.string "Funciona bé si és del\n"
+	.string "mateix tipus que l'anterior.$"
 
 gText_WorksWellIfDifferentTypeAsBefore::
-	.string "Works well if different in\n"
-	.string "type than the one before.$"
+	.string "Funciona bé si és d'un\n"
+	.string "tipus diferent a l'anterior.$"
 
 gText_AffectedByAppealInFront::
-	.string "Affected by how well the\n"
-	.string "appeal in front goes.$"
+	.string "Afectat per com va\n"
+	.string "l'actuació del davant.$"
 
 gText_UpsConditionHelpsPreventNervousness::
-	.string "Ups the user's condition.\n"
-	.string "Helps prevent nervousness.$"
+	.string "Millora la condició de\n"
+	.string "l'usuari. Prevé el nerviosisme.$"
 
 gText_AppealWorksWellIfConditionGood::
-	.string "The appeal works well if the\n"
-	.string "user's condition is good.$"
+	.string "L'actuació funciona bé\n"
+	.string "si la condició de l'usuari és bona.$"
 
 gText_NextAppealMadeEarlier::
-	.string "The next appeal can be\n"
-	.string "made earlier next turn.$"
+	.string "La propera actuació es\n"
+	.string "pot fer abans al proper torn.$"
 
 gText_NextAppealMadeLater::
-	.string "The next appeal can be\n"
-	.string "made later next turn.$"
+	.string "La propera actuació es\n"
+	.string "pot fer més tard al proper torn.$"
 
 gText_TurnOrderMoreEasilyScrambled::
-	.string "Makes the next turn's order\n"
-	.string "more easily scrambled.$"
+	.string "Facilita que l'ordre del\n"
+	.string "proper torn es barregi.$"
 
 gText_ScrambleOrderOfNextAppeals::
-	.string "Scrambles the order of\n"
-	.string "appeals on the next turn.$"
+	.string "Barreja l'ordre de les\n"
+	.string "actuacions al proper torn.$"
 
 gText_AppealExcitesAudienceInAnyContest::
-	.string "An appeal that excites the\n"
-	.string "audience in any Contest.$"
+	.string "Una actuació que emociona\n"
+	.string "el públic en qualsevol Concurs.$"
 
 gText_BadlyStartlesMonsGoodAppeals::
-	.string "Badly startles all Pokémon\n"
-	.string "that made good appeals.$"
+	.string "Pertorba molt tots els\n"
+	.string "Pokémon amb bones actuacions.$"
 
 gText_AppealBestMoreCrowdExcited::
-	.string "The appeal works best the\n"
-	.string "more the crowd is excited.$"
+	.string "L'actuació funciona millor\n"
+	.string "com més emocionat és el públic.$"
 
 gText_TemporarilyStopCrowdExcited::
-	.string "Temporarily stops the\n"
-	.string "crowd from growing excited.$"
+	.string "Atura temporalment que\n"
+	.string "el públic s'emocioni.$"
 
 @ Strings for new Summary Screen
 
 gText_FourLine_HighlyAppealingMove::
-	.string "A highly appealing\nmove.$"
+	.string "Un moviment\nmolt atractiu.$"
 
 gText_FourLine_UserMoreEasilyStartled::
-	.string "After this move,\nthe user is\nmore easily\nstartled.$"
+	.string "Després d'aquest\nmoviment, l'usuari\nes pertorba\nmés fàcilment.$"
 
 gText_FourLine_GreatAppealButNoMoreToEnd::
-	.string "Makes a great\nappeal, but\nallows no\nmore to the end.$"
+	.string "Gran actuació,\nperò no en\npot fer més\nal final.$"
 
 gText_FourLine_UsedRepeatedlyWithoutBoringJudge::
-	.string "Can be repeatedly\nused without\nboring the JUDGE.$"
+	.string "Es pot usar\nrepetidament\nsense avorriment\ndel JUTGE.$"
 
 gText_FourLine_AvoidStartledByOthersOnce::
-	.string "Can avoid being\nstartled\nby others once.$"
+	.string "Pot evitar\nser pertorbat\npels altres\nuna vegada.$"
 
 gText_FourLine_AvoidStartledByOthers::
-	.string "Can avoid being\nstartled\nby others.$"
+	.string "Pot evitar\nser pertorbat\npels altres.$"
 
 gText_FourLine_AvoidStartledByOthersLittle::
-	.string "Can avoid being\nstartled\nby others a little.$"
+	.string "Pot evitar\nser pertorbat\npels altres\nuna mica.$"
 
 gText_FourLine_UserLessLikelyStartled::
-	.string "After this move,\nthe user is less\nlikely to\nbe startled.$"
+	.string "Després d'aquest\nmoviment, l'usuari\nes pertorba\nmenys.$"
 
 gText_FourLine_SlightlyStartleFrontMon::
-	.string "Slightly startles\nthe POKéMON\nin front.$"
+	.string "Pertorba\nlleugerament el\nPOKéMON\ndel davant.$"
 
 gText_FourLine_SlightlyStartleAppealed::
-	.string "Slightly startles\nthose that have\nmade appeals.$"
+	.string "Pertorba\nlleugerament els\nque han\nactuat.$"
 
 gText_FourLine_StartleAppealedBeforeUser::
-	.string "Startles the\nPOKéMON that\nappealed before\nthe user.$"
+	.string "Pertorba el\nPOKéMON que\nha actuat\nabans que l'usuari.$"
 
 gText_FourLine_StartleAllAppealed::
-	.string "Startles all\nPOKéMON that\nhave done\ntheir appeals.$"
+	.string "Pertorba tots\nels POKéMON\nque han\nactuat.$"
 
 gText_FourLine_BadlyStartleFrontMon::
-	.string "Badly startles\nthe POKéMON\nin front.$"
+	.string "Pertorba molt\nel POKéMON\ndel davant.$"
 
 gText_FourLine_BadlyStartleAppealed::
-	.string "Badly startles\nthose that\nhave made appeals.$"
+	.string "Pertorba molt\nels que\nhan actuat.$"
 
 gText_FourLine_StartleAppealedBeforeUser2::
-	.string "Startles the\nPOKéMON that\nappealed before\nthe user.$"
+	.string "Pertorba el\nPOKéMON que\nha actuat\nabans que l'usuari.$"
 
 gText_FourLine_StartleAllAppealed2::
-	.string "Startles all\nPOKéMON that\nhave done\ntheir appeals.$"
+	.string "Pertorba tots\nels POKéMON\nque han\nactuat.$"
 
 gText_FourLine_ShiftJudgesAttentionFromOthers::
-	.string "Shifts the\nJUDGE's attention\nfrom others.$"
+	.string "Desvia l'atenció\ndel JUTGE\ndels altres.$"
 
 gText_FourLine_StartleMonHasJudgesAttention::
-	.string "Startles the\nPOKéMON that\nhas the\nJUDGE's attention.$"
+	.string "Pertorba el\nPOKéMON que\nté l'atenció\ndel JUTGE.$"
 
 gText_FourLine_JamOthersMissesTurn::
-	.string "Jams the others,\nand misses one\nturn of appeals.$"
+	.string "Bloqueja els\naltres i perd\nun torn\nd'actuació.$"
 
 gText_FourLine_StartleMonsMadeSameTypeAppeal::
-	.string "Startles POKéMON\nthat made a\nsame-type appeal.$"
+	.string "Pertorba POKéMON\nque han fet\nuna actuació\ndel mateix tipus.$"
 
 gText_FourLine_BadlyStartleCoolAppeals::
-	.string "Badly startles\nPOKéMON\nthat made\nCOOL appeals.$"
+	.string "Pertorba molt\nPOKéMON\namb actuació\nde GRÀCIA.$"
 
 gText_FourLine_BadlyStartleBeautyAppeals::
-	.string "Badly startles\nPOKéMON\nthat made\nBEAUTY appeals.$"
+	.string "Pertorba molt\nPOKéMON\namb actuació\nde BELLESA.$"
 
 gText_FourLine_BadlyStartleCuteAppeals::
-	.string "Badly startles\nPOKéMON\nthat made\nCUTE appeals.$"
+	.string "Pertorba molt\nPOKéMON\namb actuació\nde TENDRESA.$"
 
 gText_FourLine_BadlyStartleSmartAppeals::
-	.string "Badly startles\nPOKéMON\nthat made\nSMART appeals.$"
+	.string "Pertorba molt\nPOKéMON\namb actuació\nde SAVIESA.$"
 
 gText_FourLine_BadlyStartleToughAppeals::
-	.string "Badly startles\nPOKéMON\nthat made\nTOUGH appeals.$"
+	.string "Pertorba molt\nPOKéMON\namb actuació\nde POTÈNCIA.$"
 
 gText_FourLine_MakeMonAfterUserNervous::
-	.string "Makes one\nPOKéMON after\nthe user nervous.$"
+	.string "Posa nerviós\nun POKéMON\ndesprés\nde l'usuari.$"
 
 gText_FourLine_MakeAllMonsAfterUserNervous::
-	.string "Makes all\nPOKéMON after\nthe user nervous.$"
+	.string "Posa nerviosos\ntots els POKéMON\ndesprés\nde l'usuari.$"
 
 gText_FourLine_WorsenConditionOfThoseMadeAppeals::
-	.string "Worsens the\ncondition of\nthose that\nmade appeals.$"
+	.string "Empitjora la\ncondició dels\nque han\nactuat.$"
 
 gText_FourLine_BadlyStartleMonsGoodCondition::
-	.string "Badly startles\nPOKéMON in\ngood condition.$"
+	.string "Pertorba molt\nPOKéMON en\nbona condició.$"
 
 gText_FourLine_AppealGreatIfPerformedFirst::
-	.string "The appeal works\ngreat if\nperformed first.$"
+	.string "L'actuació\nfunciona molt bé\nsi es fa\nla primera.$"
 
 gText_FourLine_AppealGreatIfPerformedLast::
-	.string "The appeal works\ngreat if\nperformed last.$"
+	.string "L'actuació\nfunciona molt bé\nsi es fa\nl'última.$"
 
 gText_FourLine_AppealAsGoodAsThoseBeforeIt::
-	.string "Makes the appeal\nas good as\nthose before it.$"
+	.string "Fa l'actuació\ntan bona com\nles anteriors.$"
 
 gText_FourLine_AppealAsGoodAsOneBeforeIt::
-	.string "Makes the appeal\nas good as the\none before it.$"
+	.string "Fa l'actuació\ntan bona com\nl'anterior.$"
 
 gText_FourLine_AppealBetterLaterItsPerformed::
-	.string "The appeal\nworks better\nthe later\nit is performed.$"
+	.string "L'actuació\nfunciona millor\ncom més tard\nes fa.$"
 
 gText_FourLine_AppealVariesDependingOnTiming::
-	.string "The appeal's\nquality varies\ndepending on\nits timing.$"
+	.string "La qualitat\nde l'actuació\nvaria segons\nel moment.$"
 
 gText_FourLine_WorksWellIfSameTypeAsBefore::
-	.string "Works well if\nit's the same\ntype as the\none before.$"
+	.string "Funciona bé\nsi és del\nmateix tipus que\nl'anterior.$"
 
 gText_FourLine_WorksWellIfDifferentTypeAsBefore::
-	.string "Works well if\ndifferent in\ntype than the\none before.$"
+	.string "Funciona bé\nsi és d'un\ntipus diferent\na l'anterior.$"
 
 gText_FourLine_AffectedByAppealInFront::
-	.string "Affected by\nhow well the\nappeal in\nfront goes.$"
+	.string "Afectat per\ncom va\nl'actuació\ndel davant.$"
 
 gText_FourLine_UpsConditionHelpsPreventNervousness::
-	.string "Ups the\nuser's condition.\nHelps prevent\nnervousness.$"
+	.string "Millora la\ncondició de\nl'usuari.\nPrevé el nerviosisme.$"
 
 gText_FourLine_AppealWorksWellIfConditionGood::
-	.string "The appeal works\nwell if the\nuser's condition\nis good.$"
+	.string "L'actuació funciona\nbé si la\ncondició de l'usuari\nés bona.$"
 
 gText_FourLine_NextAppealMadeEarlier::
-	.string "The next appeal\ncan be\nmade earlier\nnext turn.$"
+	.string "La propera\nactuació es pot\nfer abans\nal proper torn.$"
 
 gText_FourLine_NextAppealMadeLater::
-	.string "The next appeal\ncan be\nmade later\nnext turn.$"
+	.string "La propera\nactuació es pot\nfer més tard\nal proper torn.$"
 
 gText_FourLine_TurnOrderMoreEasilyScrambled::
-	.string "Makes the next\nturn's order\nmore easily\nscrambled.$"
+	.string "Facilita que\nl'ordre del\nproper torn\nes barregi.$"
 
 gText_FourLine_ScrambleOrderOfNextAppeals::
-	.string "Scrambles the\norder of\nappeals on\nthe next turn.$"
+	.string "Barreja l'ordre\nde les\nactuacions al\nproper torn.$"
 
 gText_FourLine_AppealExcitesAudienceInAnyContest::
-	.string "An appeal that\nexcites the\naudience in\nany CONTEST.$"
+	.string "Una actuació\nque emociona\nel públic en\nqualsevol CONCURS.$"
 
 gText_FourLine_BadlyStartlesMonsGoodAppeals::
-	.string "Badly startles\nall POKéMON\nthat made\ngood appeals.$"
+	.string "Pertorba molt\ntots els POKéMON\namb bones\nactuacions.$"
 
 gText_FourLine_AppealBestMoreCrowdExcited::
-	.string "The appeal\nworks best the\nmore the crowd\nis excited.$"
+	.string "L'actuació\nfunciona millor\ncom més emocionat\nés el públic.$"
 
 gText_FourLine_TemporarilyStopCrowdExcited::
-	.string "Temporarily\nstops the\ncrowd from\ngrowing excited.$"
+	.string "Atura\ntemporalment\nque el públic\ns'emocioni.$"
 
 @ Unused move names
 
 gText_RainDance::
-	.string "Rain Dance$"
+	.string "Dansa Pluja$"
 
 gText_Rage::
-	.string "Rage$"
+	.string "Fúria$"
 
 gText_FocusEnergy::
-	.string "Focus Energy$"
+	.string "Concentrar-se$"
 
 gText_Hypnosis::
-	.string "Hypnosis$"
+	.string "Hipnosi$"
 
 gText_Softboiled::
-	.string "Softboiled$"
+	.string "Ou Bullit$"
 
 gText_HornAttack::
-	.string "Horn Attack$"
+	.string "Atac Banya$"
 
 gText_SwordsDance::
-	.string "Swords Dance$"
+	.string "Dansa Espases$"
 
 gText_Conversion::
-	.string "Conversion$"
+	.string "Conversió$"
 
 gText_SunnyDay::
-	.string "Sunny Day$"
+	.string "Dia Clar$"
 
 gText_Rest2::
-	.string "Rest$"
+	.string "Descans$"
 
 gText_Vicegrip::
-	.string "Vicegrip$"
+	.string "Presa Forta$"
 
 gText_DefenseCurl::
-	.string "Defense Curl$"
+	.string "Enduriment$"
 
 gText_LockOn::
-	.string "Lock-On$"
+	.string "Punt de Mira$"
 
 @ Contest type names
 
 gContestMoveTypeCoolText::
-	.string "Cool$"
+	.string "Gràcia$"
 
 gContestMoveTypeBeautyText::
-	.string "Beauty$"
+	.string "Bellesa$"
 
 gContestMoveTypeCuteText::
-	.string "Cute$"
+	.string "Tendresa$"
 
 gContestMoveTypeSmartText::
-	.string "Smart$"
+	.string "Saviesa$"
 
 gContestMoveTypeToughText::
-	.string "Tough$"
+	.string "Potència$"
 
 gText_AppealNumWhichMoveWillBePlayed::
-	.string "Appeal no. {STR_VAR_1}!\n"
-	.string "Which move will be played?$"
+	.string "Actuació núm. {STR_VAR_1}!\n"
+	.string "Quin moviment es farà?$"
 
 gText_AppealNumButItCantParticipate::
-	.string "Appeal no. {STR_VAR_1}!\n"
-	.string "But it can't participate!$"
+	.string "Actuació núm. {STR_VAR_1}!\n"
+	.string "Però no pot participar!$"
 
 gText_MonAppealedWithMove::
-	.string "{STR_VAR_1} appealed with\n"
+	.string "{STR_VAR_1} ha actuat amb\n"
 	.string "{STR_VAR_2}!$"
 
 gText_MonWasWatchingOthers::
-	.string "{STR_VAR_1} was watching\n"
-	.string "the others.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{STR_VAR_1} estava observant\n"
+	.string "els altres.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_AllOutOfAppealTime::
-	.string "We're all out of\n"
-	.string "Appeal Time!{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "S'ha acabat el\n"
+	.string "Temps d'Actuació!{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 @ Unused appeal result texts
 
 gText_ButAppealWasJammed::
-	.string "But the appeal was\n"
-	.string "jammed.$"
+	.string "Però l'actuació va\n"
+	.string "ser bloquejada.$"
 
 gText_FollowedAnotherMonsLead::
-	.string "It followed another\n"
-	.string "Pokémon's lead.$"
+	.string "Va seguir l'exemple\n"
+	.string "d'un altre Pokémon.$"
 
 gText_ButItMessedUp::
-	.string "But it messed up.$"
+	.string "Però s'ha equivocat.$"
 
 gText_WentBetterThanUsual::
-	.string "It went better than\n"
-	.string "usual.$"
+	.string "Va anar millor\n"
+	.string "que de costum.$"
 
 gText_JudgeLookedAwayForSomeReason::
-	.string "The Judge looked away\n"
-	.string "for some reason.$"
+	.string "El Jutge ha mirat cap\n"
+	.string "a un altre costat.$"
 
 gText_WorkedHardToBuildOnPastMistakes::
-	.string "It worked hard to build on\n"
-	.string "past mistakes.$"
+	.string "Ha treballat per superar\n"
+	.string "els errors passats.$"
 
 gText_CantMakeAnyMoreMoves::
-	.string "It can't make any more\n"
-	.string "moves.$"
+	.string "Ja no pot fer\n"
+	.string "cap més moviment.$"
 
 gText_WorkedFrighteninglyWell::
-	.string "It worked frighteningly\n"
-	.string "well.$"
+	.string "Ha funcionat\n"
+	.string "esplèndidament.$"
 
 gText_WorkedHardAsStandoutMon::
-	.string "It worked as hard as the\n"
-	.string "standout Pokémon.$"
+	.string "Ha treballat tan dur\n"
+	.string "com el Pokémon destacat.$"
 
 gText_JudgedLookedOnExpectantly::
-	.string "The Judge looked on\n"
-	.string "expectantly.$"
+	.string "El Jutge ho ha mirat\n"
+	.string "amb expectació.$"
 
 gText_WorkedRatherWell::
-	.string "It worked rather well.$"
+	.string "Ha funcionat força bé.$"
 
 gText_WorkedLittleBetterThanUsual::
-	.string "It worked a little better\n"
-	.string "than usual.$"
+	.string "Ha funcionat una mica\n"
+	.string "millor que de costum.$"
 
 @ Round result texts
 
 gText_MonFailedToStandOutAtAll::
-	.string "{STR_VAR_1} failed to\n"
-	.string "stand out at all…{PAUSE_UNTIL_PRESS}$"
+	.string "{STR_VAR_1} no ha\n"
+	.string "destacat gens…{PAUSE_UNTIL_PRESS}$"
 
 gText_MonDidntStandOutVeryMuch::
-	.string "{STR_VAR_1} didn't stand\n"
-	.string "out very much…{PAUSE_UNTIL_PRESS}$"
+	.string "{STR_VAR_1} no ha\n"
+	.string "destacat gaire…{PAUSE_UNTIL_PRESS}$"
 
 gText_MonCaughtALittleAttention::
-	.string "{STR_VAR_1} caught a\n"
-	.string "little attention.{PAUSE_UNTIL_PRESS}$"
+	.string "{STR_VAR_1} ha captat\n"
+	.string "una mica d'atenció.{PAUSE_UNTIL_PRESS}$"
 
 gText_MonAttractedALotOfAttention::
-	.string "{STR_VAR_1} attracted a\n"
-	.string "lot of attention.{PAUSE_UNTIL_PRESS}$"
+	.string "{STR_VAR_1} ha atret\n"
+	.string "molta atenció.{PAUSE_UNTIL_PRESS}$"
 
 gText_MonCommandedTotalAttention::
-	.string "{STR_VAR_1} commanded\n"
-	.string "total attention.{PAUSE_UNTIL_PRESS}$"
+	.string "{STR_VAR_1} ha acaparat\n"
+	.string "tota l'atenció.{PAUSE_UNTIL_PRESS}$"
 
 gText_MonHasntMadeItsAppeal::
-	.string "{STR_VAR_1} hasn't made\n"
-	.string "its appeal.{PAUSE_UNTIL_PRESS}$"
+	.string "{STR_VAR_1} no ha\n"
+	.string "actuat.{PAUSE_UNTIL_PRESS}$"
 
 @ Unused
 gText_AnticipationSwelledForMonsAppealNext2::
-	.string "Anticipation swelled for\n"
-	.string "{STR_VAR_1}'s appeal next.$"
+	.string "Anticipació creixent per\n"
+	.string "la propera actuació de {STR_VAR_1}.$"
 
 gText_EmptyContestString::
 	.string "$"
 
 gText_JudgesViewsOnMonHeldFirm::
-	.string "The Judge 's views on\n"
-	.string "{STR_VAR_1} held firm.$"
+	.string "L'opinió del Jutge sobre\n"
+	.string "{STR_VAR_1} s'ha mantingut.$"
 
 gText_MonsXChangedPerceptions::
-	.string "{STR_VAR_1}'s {STR_VAR_3}\n"
-	.string "changed perceptions.$"
+	.string "La {STR_VAR_3} de\n"
+	.string "{STR_VAR_1} ha canviat percepcions.$"
 
 gText_MonsAppealEffectWoreOff::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "effect wore off.$"
+	.string "L'efecte de l'actuació\n"
+	.string "de {STR_VAR_1} ha passat.$"
 
 gText_SpecialAppealsEffectWoreOff::
-	.string "The special appeal's\n"
-	.string "effect wore off.$"
+	.string "L'efecte de l'actuació\n"
+	.string "especial ha passat.$"
 
 gText_EveryonesAppealsMadeToLookSame::
-	.string "Everyone's appeals were\n"
-	.string "made to look the same.$"
+	.string "Totes les actuacions han\n"
+	.string "quedat iguals.$"
 
 gText_CheapenedMonsAppeal::
-	.string "It cheapened\n"
-	.string "{STR_VAR_2}'s appeal.$"
+	.string "Ha devaluat\n"
+	.string "l'actuació de {STR_VAR_2}.$"
 
 gText_CheapenedAppealOfThoseAhead::
-	.string "It cheapened the appeal\n"
-	.string "of those ahead.$"
+	.string "Ha devaluat l'actuació\n"
+	.string "dels que anaven davant.$"
 
 gText_StoleAttentionAwayFromMon::
-	.string "It stole attention away\n"
-	.string "from {STR_VAR_2}.$"
+	.string "Ha robat l'atenció\n"
+	.string "de {STR_VAR_2}.$"
 
 gText_CheapenedMonsAppeal2::
-	.string "It cheapened\n"
-	.string "{STR_VAR_2}'s appeal.$"
+	.string "Ha devaluat\n"
+	.string "l'actuació de {STR_VAR_2}.$"
 
 gText_SeverelyCheapenedOtherAppeals::
-	.string "It severely cheapened\n"
-	.string "other appeals.$"
+	.string "Ha devaluat greument\n"
+	.string "les altres actuacions.$"
 
 gText_AnticipationSwelledForMonsAppealNext::
-	.string "Anticipation swelled for\n"
-	.string "{STR_VAR_1}'s appeal next.$"
+	.string "Anticipació creixent per\n"
+	.string "la propera actuació de {STR_VAR_1}.$"
 
 gText_CheapenedAppealOfThoseAhead2::
-	.string "It cheapened the appeal\n"
-	.string "of those ahead.$"
+	.string "Ha devaluat l'actuació\n"
+	.string "dels que anaven davant.$"
 
 gText_CheapenedJudgesFavoriteAppeal::
-	.string "It cheapened the Judge's\n"
-	.string "favorite appeal.$"
+	.string "Ha devaluat l'actuació\n"
+	.string "preferida del Jutge.$"
 
 gText_AppealsOfOthersCheapenedByHalf::
-	.string "The appeals of others\n"
-	.string "were cheapened by half.$"
+	.string "Les actuacions dels altres\n"
+	.string "s'han devaluat a la meitat.$"
 
 gText_StoodOutToMakeUpForBeingJammed::
-	.string "It stood out to make up\n"
-	.string "for being jammed.$"
+	.string "Ha destacat per compensar\n"
+	.string "haver estat bloquejat.$"
 
 gText_CantParticipateInAppealsAnyMore::
-	.string "It can't participate in\n"
-	.string "appeals any more.$"
+	.string "Ja no pot participar\n"
+	.string "en cap actuació.$"
 
 gText_TouchedJudgeForFantasticAppeal::
-	.string "It touched the Judge for\n"
-	.string "a fantastic appeal.$"
+	.string "Ha commogut el Jutge\n"
+	.string "amb una actuació fantàstica.$"
 
 gText_AnticipationRoseForUpcomingAppeals::
-	.string "Anticipation rose for\n"
-	.string "upcoming appeals.$"
+	.string "Ha crescut l'anticipació\n"
+	.string "per les properes actuacions.$"
 
 gText_StoodOutAsMuchAsSpecialAppeals::
-	.string "It stood out as much as\n"
-	.string "special appeals.$"
+	.string "Ha destacat tant com\n"
+	.string "les actuacions especials.$"
 
 gText_StoodOutAsMuchAsMon::
-	.string "It stood out as much as\n"
+	.string "Ha destacat tant com\n"
 	.string "{STR_VAR_1}.$"
 
 gText_JammedAppealsMadeEvenLessNoticeable::
-	.string "Jammed appeals were made\n"
-	.string "even less noticeable.$"
+	.string "Les actuacions bloquejades\n"
+	.string "han quedat encara menys notables.$"
 
 gText_EveryonesAppealsMadeSame::
-	.string "Everyone's appeals were\n"
-	.string "made the same.$"
+	.string "Totes les actuacions han\n"
+	.string "quedat iguals.$"
 
 @ Appeal result texts
 
 gText_BecameMoreConsciousOfOtherMons::
-	.string "It became more conscious\n"
-	.string "of the other Pokémon.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "Ha pres més consciència\n"
+	.string "dels altres Pokémon.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonCantMakeAnAppealAfterThis::
-	.string "{STR_VAR_1} can't make an\n"
-	.string "appeal after this.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{STR_VAR_1} no pot actuar\n"
+	.string "després d'això.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_SettledDownJustLittleBit::
-	.string "It settled down just a\n"
-	.string "little bit.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "S'ha calmat\n"
+	.string "una mica.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_BecameObliviousToOtherMons::
-	.string "It became oblivious to\n"
-	.string "the other Pokémon.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "Ha deixat de prestar\n"
+	.string "atenció als altres Pokémon.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_BecameLessAwareOfOtherMons::
-	.string "It became less aware of\n"
-	.string "the other Pokémon.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "S'ha tornat menys conscient\n"
+	.string "dels altres Pokémon.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_StoppedCaringAboutOtherMons::
-	.string "It stopped caring about\n"
-	.string "other Pokémon much.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "Ha deixat de preocupar-se\n"
+	.string "dels altres Pokémon.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_TriedToStartleOtherMons::
-	.string "It tried to startle the\n"
-	.string "other Pokémon.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "Ha intentat pertorbar\n"
+	.string "els altres Pokémon.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_TriedToDazzleOthers::
-	.string "It tried to dazzle the\n"
-	.string "others.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "Ha intentat impressionar\n"
+	.string "els altres.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_JudgeLookedAwayFromMon::
-	.string "The Judge looked away\n"
-	.string "from {STR_VAR_1}.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "El Jutge ha mirat\n"
+	.string "cap a un altre costat de {STR_VAR_1}.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_TriedToUnnerveNextMon::
-	.string "It tried to unnerve the\n"
-	.string "next Pokémon.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "Ha intentat posar nerviós\n"
+	.string "el proper Pokémon.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonBecameNervous::
-	.string "{STR_VAR_1} became\n"
-	.string "nervous.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{STR_VAR_1} s'ha\n"
+	.string "posat nerviós.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_AppealTriedToUnnerveWaitingMons::
-	.string "The appeal tried to\n"
-	.string "unnerve waiting Pokémon.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "L'actuació ha intentat\n"
+	.string "posar nerviosos els que esperen.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_TauntedMonsDoingWell::
-	.string "It taunted Pokémon\n"
-	.string "doing well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "Ha provocat els Pokémon\n"
+	.string "que anaven bé.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonRegainedItsForm::
-	.string "{STR_VAR_1} regained its\n"
-	.string "form.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "{STR_VAR_1} ha recuperat\n"
+	.string "la seva forma.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_TriedToJamMonDoingWell::
-	.string "It tried to jam Pokémon\n"
-	.string "doing well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "Ha intentat bloquejar\n"
+	.string "els Pokémon que anaven bé.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_StandoutMonHustledEvenMore::
-	.string "The standout {STR_VAR_1}\n"
-	.string "hustled even more.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "El destacat {STR_VAR_1}\n"
+	.string "s'ha esforçat encara més.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_LargelyUnnoticedMonWorkedHard::
-	.string "The largely unnoticed\n"
-	.string "{STR_VAR_1} worked hard.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "El poc notat\n"
+	.string "{STR_VAR_1} s'ha esforçat molt.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_WorkedAsMuchAsMonBefore::
-	.string "It worked as much as\n"
-	.string "Pokémon before it.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "S'ha esforçat tant com\n"
+	.string "el Pokémon anterior.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealDidNotGoWell::
-	.string "{STR_VAR_1}'s appeal did\n"
-	.string "not go well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "L'actuació de {STR_VAR_1}\n"
+	.string "no ha anat bé.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_WorkedAsMuchAsPrecedingMon::
-	.string "It worked as much as the\n"
-	.string "preceding Pokémon.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "S'ha esforçat tant com\n"
+	.string "el Pokémon precedent.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealDidNotGoWell2::
-	.string "{STR_VAR_1}'s appeal did\n"
-	.string "not go well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "L'actuació de {STR_VAR_1}\n"
+	.string "no ha anat bé.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealDidNotGoWell3::
-	.string "{STR_VAR_1}'s appeal did\n"
-	.string "not go well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "L'actuació de {STR_VAR_1}\n"
+	.string "no ha anat bé.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentSlightlyWell::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went slightly well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "L'actuació de {STR_VAR_1}\n"
+	.string "ha anat una mica bé.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentPrettyWell::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went pretty well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "L'actuació de {STR_VAR_1}\n"
+	.string "ha anat força bé.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentExcellently::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went excellently.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "L'actuació de {STR_VAR_1}\n"
+	.string "ha anat excel·lentment.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWasDud::
-	.string "{STR_VAR_1}'s appeal was\n"
-	.string "a dud.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "L'actuació de {STR_VAR_1}\n"
+	.string "ha estat un fracàs.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealDidNotWorkVeryWell::
-	.string "{STR_VAR_1}'s appeal did\n"
-	.string "not work very well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "L'actuació de {STR_VAR_1}\n"
+	.string "no ha funcionat gaire bé.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentSlightlyWell2::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went slightly well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "L'actuació de {STR_VAR_1}\n"
+	.string "ha anat una mica bé.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentPrettyWell2::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went pretty well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "L'actuació de {STR_VAR_1}\n"
+	.string "ha anat força bé.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentVeryWell::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went very well.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "L'actuació de {STR_VAR_1}\n"
+	.string "ha anat molt bé.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsAppealWentExcellently2::
-	.string "{STR_VAR_1}'s appeal\n"
-	.string "went excellently.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "L'actuació de {STR_VAR_1}\n"
+	.string "ha anat excel·lentment.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_SameTypeAsOneBeforeGood::
-	.string "It's the same type as the\n"
-	.string "Pokémon before--good!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "És del mateix tipus que\n"
+	.string "el Pokémon anterior, bé!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_NotSameTypeAsOneBeforeGood::
-	.string "It's not the same type as\n"
-	.string "the one before--good!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "No és del mateix tipus que\n"
+	.string "l'anterior, bé!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_StoodOutMuchMoreThanMonBefore::
-	.string "It stood out much more\n"
-	.string "than the Pokémon before.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "Ha destacat molt més\n"
+	.string "que el Pokémon anterior.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_DidntDoAsWellAsMonBefore::
-	.string "It didn't do as well as the\n"
-	.string "Pokémon before.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "No ho ha fet tan bé\n"
+	.string "com el Pokémon anterior.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsConditionRoseAboveUsual::
-	.string "{STR_VAR_1}'s condition\n"
-	.string "rose above usual.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "La condició de {STR_VAR_1}\n"
+	.string "ha pujat per sobre de l'habitual.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MonsHotStatusMadeGreatAppeal::
-	.string "{STR_VAR_1}'s hot status\n"
-	.string "made it a great appeal!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "L'estat ardent de {STR_VAR_1}\n"
+	.string "ha fet una gran actuació!{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MovedUpInLineForNextAppeal::
-	.string "It moved up in line for\n"
-	.string "the next appeal.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "Ha avançat en la cua\n"
+	.string "per a la propera actuació.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_MovedBackInLineForNextAppeal::
-	.string "It moved back in line once\n"
-	.string "for the next appeal.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "Ha endarrerit una posició\n"
+	.string "per a la propera actuació.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_ScrambledUpOrderForNextTurn::
-	.string "It scrambled up the\n"
-	.string "order for the next turn.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
+	.string "Ha barrejat\n"
+	.string "l'ordre del proper torn.{PAUSE 15}{PAUSE 15}{PAUSE 15}{PAUSE 15}$"
 
 gText_JudgeLookedAtMonExpectantly::
-	.string "The Judge looked at\n"
-	.string "{STR_VAR_1} expectantly.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "El Jutge ha mirat\n"
+	.string "{STR_VAR_1} amb expectació.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_AppealComboWentOverWell::
-	.string "The appeal combo went\n"
-	.string "over well.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "La combinació d'actuació\n"
+	.string "ha anat bé.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_AppealComboWentOverVeryWell::
-	.string "The appeal combo went\n"
-	.string "over very well.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "La combinació d'actuació\n"
+	.string "ha anat molt bé.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_AppealComboWentOverExcellently::
-	.string "The appeal combo went\n"
-	.string "over excellently.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "La combinació d'actuació\n"
+	.string "ha anat excel·lentment.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_MonManagedToAvertGaze::
-	.string "{STR_VAR_1} managed to\n"
-	.string "avert its gaze.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{STR_VAR_1} ha aconseguit\n"
+	.string "desviar la mirada.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_MonManagedToAvoidSeeingIt::
-	.string "{STR_VAR_1} managed to\n"
-	.string "avoid seeing it.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{STR_VAR_1} ha aconseguit\n"
+	.string "evitar veure-ho.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_MonIsntFazedByThatSortOfThing::
-	.string "{STR_VAR_1} isn't fazed\n"
-	.string "by that sort of thing.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{STR_VAR_1} no es\n"
+	.string "pertorba per això.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_MonBecameALittleDistracted::
-	.string "{STR_VAR_1} became a\n"
-	.string "little distracted.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{STR_VAR_1} s'ha\n"
+	.string "distret una mica.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_TriedToStartleOtherPokemon::
-	.string "It tried to startle the\n"
-	.string "other Pokémon.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "Ha intentat pertorbar\n"
+	.string "els altres Pokémon.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_MonLookedDownOutOfDistraction::
-	.string "{STR_VAR_1} looked down\n"
-	.string "out of distraction.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{STR_VAR_1} ha mirat avall\n"
+	.string "per la distracció.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_MonTurnedBackOutOfDistraction::
-	.string "{STR_VAR_1} turned back\n"
-	.string "out of distraction.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{STR_VAR_1} s'ha girat\n"
+	.string "per la distracció.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_MonCouldntHelpUtteringCry::
-	.string "{STR_VAR_1} couldn't help\n"
-	.string "uttering a cry.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{STR_VAR_1} no ha pogut\n"
+	.string "evitar un crit.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_MonCouldntHelpLeapingUp::
-	.string "{STR_VAR_1} couldn't help\n"
-	.string "leaping up.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{STR_VAR_1} no ha pogut\n"
+	.string "evitar saltar.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_MonTrippedOutOfDistraction::
-	.string "{STR_VAR_1} tripped over\n"
-	.string "out of distraction.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{STR_VAR_1} ha ensopegat\n"
+	.string "per la distracció.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_MonWasTooNervousToMove::
-	.string "{STR_VAR_1} was too\n"
-	.string "nervous to move.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{STR_VAR_1} estava massa\n"
+	.string "nerviós per moure's.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_ButItMessedUp2::
-	.string "But it messed up.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "Però s'ha equivocat.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_ButItFailedToMakeTargetNervous::
-	.string "But it failed to make\n"
-	.string "the target nervous.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "Però no ha aconseguit\n"
+	.string "posar l'objectiu nerviós.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_ButItFailedToMakeAnyoneNervous::
-	.string "But it failed to make\n"
-	.string "anyone nervous.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "Però no ha aconseguit\n"
+	.string "posar ningú nerviós.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_ButItWasIgnored::
-	.string "But it was ignored…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "Però ha estat ignorat…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_CouldntImproveItsCondition::
-	.string "But it couldn't improve\n"
-	.string "its condition…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "Però no ha pogut\n"
+	.string "millorar la seva condició…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_BadConditionResultedInWeakAppeal::
-	.string "Its bad condition\n"
-	.string "resulted in a weak appeal.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "La seva mala condició\n"
+	.string "ha resultat en una actuació feble.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_MonWasUnaffected::
-	.string "{STR_VAR_1} was\n"
-	.string "unaffected.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{STR_VAR_1} no ha\n"
+	.string "resultat afectat.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_RepeatedAppeal::
-	.string "{STR_VAR_1} disappointed\n"
-	.string "by repeating an appeal.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{STR_VAR_1} ha decepcionat\n"
+	.string "repetint una actuació.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_MonsXWentOverGreat::
-	.string "{STR_VAR_1}'s {STR_VAR_3}\n"
-	.string "went over great.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "La {STR_VAR_3}\n"
+	.string "de {STR_VAR_1} ha anat genial.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_MonsXDidntGoOverWell::
-	.string "{STR_VAR_1}'s {STR_VAR_3}\n"
-	.string "didn't go over well here…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "La {STR_VAR_3}\n"
+	.string "de {STR_VAR_1} no ha funcionat bé…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_MonsXGotTheCrowdGoing::
-	.string "{STR_VAR_1}'s {STR_VAR_3}\n"
-	.string "got the crowd going.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "La {STR_VAR_3}\n"
+	.string "de {STR_VAR_1} ha animat el públic.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_MonCantAppealNextTurn::
-	.string "{STR_VAR_1} can't appeal\n"
-	.string "next turn…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{STR_VAR_1} no pot actuar\n"
+	.string "el proper torn…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_AttractedCrowdsAttention::
-	.string "It attracted the crowd's\n"
-	.string "attention.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "Ha atret l'atenció\n"
+	.string "del públic.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_CrowdContinuesToWatchMon::
-	.string "The crowd continues to\n"
-	.string "watch {STR_VAR_3}.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "El públic continua\n"
+	.string "observant {STR_VAR_3}.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_MonsMoveIsIgnored::
-	.string "{STR_VAR_1}'s\n"
-	.string "{STR_VAR_2} is ignored.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "{STR_VAR_2}\n"
+	.string "de {STR_VAR_1} és ignorat.{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
 
 gText_Contest_Shyness::
-	.string "shyness$"
+	.string "timidesa$"
 
 gText_Contest_Anxiety::
-	.string "anxiety$"
+	.string "ansietat$"
 
 gText_Contest_Laziness::
-	.string "laziness$"
+	.string "mandra$"
 
 gText_Contest_Hesitancy::
-	.string "hesitancy$"
+	.string "indecisió$"
 
 gText_Contest_Fear::
-	.string "fear$"
+	.string "por$"
 
 gText_Contest_Coolness::
-	.string "coolness$"
+	.string "gràcia$"
 
 gText_Contest_Beauty::
-	.string "beauty$"
+	.string "bellesa$"
 
 gText_Contest_Cuteness::
-	.string "cuteness$"
+	.string "tendresa$"
 
 gText_Contest_Smartness::
-	.string "smartness$"
+	.string "saviesa$"
 
 gText_Contest_Toughness::
-	.string "toughness$"
+	.string "potència$"
 
 @ Unused
 gText_Tension::
-	.string "Tension$"
+	.string "Tensió$"
 
 gText_CoolMove::
-	.string "Cool Move$"
+	.string "Moviment de Gràcia$"
 
 gText_BeautyMove::
-	.string "Beauty Move$"
+	.string "Moviment de Bellesa$"
 
 gText_CuteMove::
-	.string "Cute Move$"
+	.string "Moviment de Tendresa$"
 
 gText_SmartMove::
-	.string "Smart Move$"
+	.string "Moviment de Saviesa$"
 
 gText_ToughMove::
-	.string "Tough Move$"
+	.string "Moviment de Potència$"
 
 gText_3QuestionMarks::
 	.string "???$"

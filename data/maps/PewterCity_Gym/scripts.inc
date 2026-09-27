@@ -28,26 +28,27 @@ PewterCity_Gym_EventScript_ChallengeBrock::
 	end
 
 PewterCity_Gym_Text_BrockSpeech::
-	.string "So, you're here. I'm Brock.\n"
-    .string "I'm Pewter's Gym Leader.\p"
-    .string "My rock-hard willpower is evident\n"
-    .string "even in my Pokémon.\p"
-    .string "My Pokémon are all rock hard, and\n"
-    .string "have true-grit determination.\p"
-    .string "That's right - my Pokémon are all\n"
-    .string "the Rock type!\p"
-    .string "Fuhaha! You're going to challenge\n"
-    .string "me knowing that you'll lose?\p"
-    .string "That's the trainer's honor that\n"
-    .string "compels you to challenge me.$"
+	.string "Així que ets aquí. Sóc Brock.\n"
+    .string "Sóc el Líder del Gimnàs de Pewter.\p"
+    .string "La meva voluntat de ferro es\n"
+    .string "reflecteix en els meus Pokémon.\p"
+    .string "Els meus Pokémon són durs com\n"
+    .string "la roca i tenen una determinació\l"
+    .string "autèntica.\p"
+    .string "Així és, tots els meus Pokémon\n"
+    .string "són de tipus Roca!\p"
+    .string "Fuhaha! Vens a desafiar-me\n"
+    .string "sabent que perdràs?\p"
+    .string "És l'honor d'Entrenador el que\n"
+    .string "t'obliga a desafiar-me.$"
 
 PewterCity_Gym_Text_BrockIntro::
-    .string "Fine, then!\n"
-    .string "Show me your best!$"
+    .string "Molt bé, doncs!\n"
+    .string "Demostra'm el que vals!$"
 
 PewterCity_Gym_Text_BrockDefeat::
-    .string "I took you for granted, and so\n"
-    .string "I lost.$"
+    .string "Et vaig subestimar, i per això\n"
+    .string "he perdut.$"
 
 PewterCity_Gym_EventScript_DefeatedBrockGetBadge::
 	msgbox PewterCity_Gym_Text_GetBadgeFromBrock, MSGBOX_DEFAULT
@@ -65,21 +66,21 @@ PewterCity_Gym_EventScript_DefeatedBrockGetBadge::
 	end
 
 PewterCity_Gym_Text_GetBadgeFromBrock::
-	.string "As proof of your victory, I confer\n"
-    .string "on you this…the official Pokémon\l"
-    .string "League Boulder Badge.$"
+	.string "Com a prova de la teva victòria,\n"
+    .string "et concedeixo això… la Medalla\l"
+    .string "Roca oficial de la Lliga Pokémon.$"
 
 PewterCity_Gym_Text_ReceivedBadge::
-	.string "{PLAYER} received the Boulder\n"
-    .string "Badge from Brock!$"
+	.string "{PLAYER} ha rebut la Medalla\n"
+    .string "Roca de Brock!$"
 
 PewterCity_Gym_Text_ExplainBadge::
-	.string "Just having the Boulder Badge makes\n"
-    .string "your Pokémon more powerful.\p"
-    .string "It also enables the use of the\n"
-    .string "move Flash outside of battle.\p"
-    .string "Of course, a Pokémon must know the\n"
-    .string "move Flash to use it.$"
+	.string "Només tenir la Medalla Roca fa\n"
+    .string "els teus Pokémon més poderosos.\p"
+    .string "També permet usar el moviment\n"
+    .string "Flash fora de combat.\p"
+    .string "Per descomptat, un Pokémon ha de\n"
+    .string "conèixer Flash per usar-lo.$"
 
 PewterCity_Gym_EventScript_GetTM::
 	msgbox PewterCity_Gym_Text_TakeThisWithYou, MSGBOX_DEFAULT
@@ -95,21 +96,21 @@ PewterCity_Gym_EventScript_GetTM::
 	end
 
 PewterCity_Gym_Text_TakeThisWithYou::
-    .string "Wait!\n"
-    .string "Take this with you.$"
+    .string "Espera!\n"
+    .string "Emporta't això.$"
 
 PewterCity_Gym_Text_ReceivedTMFromBrock::
-    .string "{PLAYER} received TM39\n"
-    .string "from Brock.$"
+    .string "{PLAYER} ha rebut la MT39\n"
+    .string "de Brock.$"
 
 PewterCity_Gym_Text_ExplainTM::
-    .string "A TM, Technical Machine, contains a\n"
-    .string "technique for Pokémon.\p"
-    .string "Using a TM teaches the move it\n"
-    .string "contains to a Pokémon.\p"
-    .string "TM39 contains Rock Tomb.\p"
-    .string "It hurls boulders at the foe and\n"
-    .string "lowers its speed.$"
+    .string "Una MT, Màquina Tècnica, conté\n"
+    .string "una tècnica per a Pokémon.\p"
+    .string "Usar una MT ensenya el moviment\n"
+    .string "que conté a un Pokémon.\p"
+    .string "La MT39 conté Tomba Roca.\p"
+    .string "Llança roques a l'enemic i\n"
+    .string "redueix la seva velocitat.$"
 
 PewterCity_Gym_EventScript_NoRoomForTM::
 	msgbox PewterCity_Gym_Text_NoRoomForTM, MSGBOX_DEFAULT
@@ -117,7 +118,7 @@ PewterCity_Gym_EventScript_NoRoomForTM::
 	end
 
 PewterCity_Gym_Text_NoRoomForTM::
-    .string "You don't have room for this.$"
+    .string "No tens espai per a això.$"
 
 PewterCity_Gym_EventScript_LeaderPostBattle::
 	lock
@@ -128,13 +129,13 @@ PewterCity_Gym_EventScript_LeaderPostBattle::
 	end
 
 PewterCity_Gym_Text_LeaderPostBattle::
-    .string "There are all kinds of trainers in\n"
-    .string "this huge world of ours.\p"
-    .string "You appear to be very gifted as a\n"
-    .string "Pokémon Trainer.\p"
-    .string "So let me make a suggestion.\p"
-    .string "Go to the Gym in Cerulean and test\n"
-    .string "your abilities.$"
+    .string "Hi ha tota mena d'Entrenadors en\n"
+    .string "aquest gran món nostre.\p"
+    .string "Sembla que tens molt de talent\n"
+    .string "com a Entrenador Pokémon.\p"
+    .string "Deixa'm fer-te un suggeriment.\p"
+    .string "Vés al Gimnàs de Cerulean i posa\n"
+    .string "a prova les teves habilitats.$"
 
 PewterCity_Gym_EventScript_LeaderPostBattleGameClear::
 	msgbox PewterCity_Gym_Text_PostBattleGameClear, MSGBOX_DEFAULT
@@ -142,8 +143,8 @@ PewterCity_Gym_EventScript_LeaderPostBattleGameClear::
 	end
 
 PewterCity_Gym_Text_PostBattleGameClear::
-	.string "You've come a long way since\n"
-	.string "you earned your Boulder Badge, {PLAYER}!$"
+	.string "Has avançat molt des que vas\n"
+	.string "guanyar la Medalla Roca, {PLAYER}!$"
 
 PewterCity_Gym_EventScript_RematchLeader::
 	msgbox PewterCity_Gym_Text_RematchLeader, MSGBOX_YESNO
@@ -153,10 +154,11 @@ PewterCity_Gym_EventScript_RematchLeader::
 	end
 
 PewterCity_Gym_Text_RematchLeader::
-	.string "...You sure look different from when we\n" 
-	.string "first met!\p" 
-	.string "...Please allow me the privilege of facing\n" 
-	.string "you in battle once again!$" 
+	.string "…Tens un aspecte molt diferent\n"
+	.string "de quan ens vam conèixer!\p"
+	.string "…Si us plau, concedeix-me el\n"
+	.string "privilegi de combatre una altra\l"
+	.string "vegada!$"
 
 PewterCity_Gym_EventScript_DeclineRematch::
 	msgbox PewterCity_Gym_Text_DeclineRematch, MSGBOX_DEFAULT
@@ -164,7 +166,7 @@ PewterCity_Gym_EventScript_DeclineRematch::
 	end
 
 PewterCity_Gym_Text_DeclineRematch::
-	.string "I see...$"
+	.string "Ja veig…$"
 
 PewterCity_Gym_EventScript_PostgameRematch::
 	msgbox PewterCity_Gym_Text_RematchMode, MSGBOX_YESNO
@@ -173,24 +175,24 @@ PewterCity_Gym_EventScript_PostgameRematch::
 	end
 
 PewterCity_Gym_Text_RematchMode::
-	.string "Now that you're the champion,\n"
-	.string "would you like to go all out?$"
+	.string "Ara que ets el Campió,\n"
+	.string "vols anar amb tot?$"
 
 PewterCity_Gym_EventScript_LeaderRematch_OriginalTeam::
 	trainerbattle_single LEADER_REMATCH_BROCK_ORIGINAL, PewterCity_Gym_Text_RematchOriginal, PewterCity_Gym_Text_RematchDefeat, PewterCity_Gym_EventScript_DefeatedLeaderRematch
 	end
 
 PewterCity_Gym_Text_RematchOriginal::
-	.string "Alright, {PLAYER}!\n"
-	.string "Let's relive our first battle!$"
+	.string "D'acord, {PLAYER}!\n"
+	.string "Revivim el nostre primer combat!$"
 
 PewterCity_Gym_EventScript_LeaderRematch_PostGameTeam::
 	trainerbattle_single LEADER_REMATCH_BROCK_POSTGAME, PewterCity_Gym_Text_RematchPostgame, PewterCity_Gym_Text_RematchDefeat, PewterCity_Gym_EventScript_DefeatedLeaderRematch
 	end
 
 PewterCity_Gym_Text_RematchPostgame::
-	.string "Allow me to show you the true rock-hard\n" 
-	.string "strength of my Pokémon!$"
+	.string "Deixa'm mostrar-te la veritable\n"
+	.string "força de roca dels meus Pokémon!$"
 
 PewterCity_Gym_EventScript_DefeatedLeaderRematch::
 	setflag FLAG_DAILY_BROCK_REMATCH
@@ -198,7 +200,7 @@ PewterCity_Gym_EventScript_DefeatedLeaderRematch::
 	end
 
 PewterCity_Gym_Text_RematchDefeat::
-	.string "I knew you were strong, but this...$"
+	.string "Sabia que eres fort, però això…$"
 
 PewterCity_Gym_EventScript_Liam::
 	trainerbattle_single TRAINER_CAMPER_LIAM, PewterCity_Gym_Text_LiamIntro, PewterCity_Gym_Text_LiamDefeat
@@ -206,18 +208,18 @@ PewterCity_Gym_EventScript_Liam::
 	end
 
 PewterCity_Gym_Text_LiamIntro::
-    .string "Stop right there, kid!\p"
-    .string "You're ten thousand light-years \n"
-    .string "from facing Brock!$"
+    .string "Para aquí, nen!\p"
+    .string "Estàs a deu mil anys llum\n"
+    .string "d'enfrontar-te a Brock!$"
 
 PewterCity_Gym_Text_LiamDefeat::
-    .string "Darn!\p"
-    .string "Light-years isn't time…\n"
-    .string "It measures distance!$"
+    .string "Ostres!\p"
+    .string "Els anys llum no mesuren temps…\n"
+    .string "Mesuren distància!$"
 
 PewterCity_Gym_Text_LiamPostBattle::
-    .string "You're pretty hot.\n"
-    .string "…But not as hot as Brock!$"
+    .string "Ets bastant bo.\n"
+    .string "…Però no tant com Brock!$"
 
 PewterCity_Gym_EventScript_ScottTrigger1::
 	call PewterCity_Gym_EventScript_ScottTriggered
@@ -264,7 +266,7 @@ PewterCity_Gym_EventScript_ScottTriggered::
 	return
 
 PewterCity_Gym_Text_HeyWaitUp::
-	.string "Hey kid! Wait up!$"
+	.string "Ei, nen! Espera!$"
 
 PewterCity_Gym_EventScript_Scott::
 	lock
@@ -277,13 +279,13 @@ PewterCity_Gym_EventScript_Scott::
 	end
 
 PewterCity_Gym_Text_LetMeTakeYouToTheTop::
-    .string "Hiya!\n"
-    .string "Do you want to dream big?\p"
-    .string "Do you dare to dream of becoming\n"
-    .string "the Pokémon champ?\p"
-    .string "I'm no trainer, but I can advise\n"
-    .string "you on how to win.\p"
-    .string "Let me take you to the top!$"
+    .string "Hola!\n"
+    .string "Vols somiar en gran?\p"
+    .string "Gosaries somiar en ser\n"
+    .string "el Campió Pokémon?\p"
+    .string "Jo no sóc Entrenador, però et\n"
+    .string "puc aconsellar per guanyar.\p"
+    .string "Deixa que et porti al cim!$"
 
 PewterCity_Gym_EventScript_GymGuyTakeMeToTop::
 	msgbox PewterCity_Gym_Text_LetsGetHappening, MSGBOX_DEFAULT
@@ -291,8 +293,8 @@ PewterCity_Gym_EventScript_GymGuyTakeMeToTop::
 	end
 
 PewterCity_Gym_Text_LetsGetHappening::
-    .string "All right!\n"
-    .string "Let's get happening!$"
+    .string "Molt bé!\n"
+    .string "Comencem!$"
 
 PewterCity_Gym_EventScript_GymGuyDontTakeMeToTop::
 	msgbox PewterCity_Gym_Text_ItsFreeLetsGetHappening, MSGBOX_DEFAULT
@@ -300,8 +302,8 @@ PewterCity_Gym_EventScript_GymGuyDontTakeMeToTop::
 	end
 
 PewterCity_Gym_Text_ItsFreeLetsGetHappening::
-    .string "It's a free service!\n"
-    .string "Let's get happening!$"
+    .string "És un servei gratuït!\n"
+    .string "Comencem!$"
 
 PewterCity_Gym_EventScript_GymGuyAdvice::
 	msgbox PewterCity_Gym_Text_TryDifferentPartyOrders, MSGBOX_DEFAULT
@@ -309,12 +311,12 @@ PewterCity_Gym_EventScript_GymGuyAdvice::
 	end
 
 PewterCity_Gym_Text_TryDifferentPartyOrders::
-    .string "The first Pokémon out in a match is\n"
-    .string "at the left of the Pokémon List.\p"
-    .string "By changing the order of Pokémon,\n"
-    .string "you may gain an advantage.\p"
-    .string "Try different orders to suit your\n"
-    .string "opponent's party.$"
+    .string "El primer Pokémon en un combat és\n"
+    .string "el de l'esquerra de la Llista.\p"
+    .string "Canviant l'ordre dels Pokémon,\n"
+    .string "pots tenir avantatge.\p"
+    .string "Prova ordres diferents segons\n"
+    .string "l'equip del teu rival.$"
 
 
 PewterCity_Gym_EventScript_GymGuyPostVictory::
@@ -323,7 +325,7 @@ PewterCity_Gym_EventScript_GymGuyPostVictory::
 	end
 
 PewterCity_Gym_Text_YoureChampMaterial::
-    .string "You're Pokémon champ material!$"
+    .string "Tens fusta de Campió Pokémon!$"
 
 PewterCity_Gym_EventScript_ThatWasReallySomething::
 	msgbox PewterCity_Gym_Text_ThatWasReallySomething, MSGBOX_DEFAULT
@@ -338,15 +340,15 @@ PewterCity_Gym_EventScript_ThatWasReallySomething::
 	end
 
 PewterCity_Gym_Text_ThatWasReallySomething::
-    .string "Wow, that was really something!\p"
-    .string "It may have only been your first\n"
-    .string "Gym Badge, but I have a sense for\l"
-    .string "this kind of thing.\p"
-    .string "You've got what it takes!\p"
-    .string "Listen, I'm searching across Kanto\n"
-    .string "for talented trainers.\p"
-    .string "Let me give you my number.\n"
-    .string "It might come in handy!$"
+    .string "Uau, això ha estat increïble!\p"
+    .string "Potser era només la teva primera\n"
+    .string "Medalla de Gimnàs, però tinc olfacte\l"
+    .string "per aquestes coses.\p"
+    .string "Tens el que cal!\p"
+    .string "Escolta, estic buscant per tot\n"
+    .string "Kanto Entrenadors amb talent.\p"
+    .string "Deixa'm donar-te el meu número.\n"
+    .string "Et pot ser útil!$"
 
 PewterCity_Gym_EventScript_GymStatue::
 	lockall
@@ -356,9 +358,9 @@ PewterCity_Gym_EventScript_GymStatue::
 	end
 
 PewterCity_Gym_Text_GymStatue::
-    .string "Pewter Pokémon Gym\n"
-    .string "Leader: Brock\p"
-    .string "Winning Trainers:\n"
+    .string "Gimnàs Pokémon de Pewter\n"
+    .string "Líder: Brock\p"
+    .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}$"
 
 PewterCity_Gym_EventScript_GymStatuePostVictory::
@@ -367,7 +369,7 @@ PewterCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 PewterCity_Gym_Text_GymStatuePlayerWon::
-    .string "Pewter Pokémon Gym\n"
-    .string "Leader: Brock\p"
-    .string "Winning Trainers:\n"
+    .string "Gimnàs Pokémon de Pewter\n"
+    .string "Líder: Brock\p"
+    .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}, {PLAYER}$"

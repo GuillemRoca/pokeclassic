@@ -23,20 +23,20 @@ Route4_EventScript_Boy::
 	end
 
 Route4_Text_PeopleLikeAndRespectBrock::
-    .string "Oh, wow, that's the Boulder Badge!\n"
-    .string "You got it from Brock, didn't you?\p"
-    .string "Brock is cool. He's not just tough.\n"
-    .string "People like and respect him.\p"
-    .string "I want to become a Gym Leader\n"
-    .string "like him.$"
+    .string "Oh, uau, la Medalla Roca!\n"
+    .string "L'has aconseguit de Brock, oi?\p"
+    .string "Brock mola. No és només fort.\n"
+    .string "La gent l'aprecia i el respecta.\p"
+    .string "Vull ser un Líder de Gimnàs\n"
+    .string "com ell.$"
 
 Route4_EventScript_Woman::
 	msgbox Route4_Text_TrippedOverGeodude, MSGBOX_NPC
 	end
 
 Route4_Text_TrippedOverGeodude::
-    .string "Ouch! I tripped over a rocky\n"
-    .string "Pokémon, Geodude!$"
+    .string "Ai! He ensopegat amb un Pokémon\n"
+    .string "de roca, Geodude!$"
 
 Route4_EventScript_MtMoonSign::
 	msgbox Route4_Text_MtMoonEntrance, MSGBOX_SIGN
@@ -44,15 +44,15 @@ Route4_EventScript_MtMoonSign::
 
 Route4_Text_MtMoonEntrance::
     .string "Mt. Moon\n"
-    .string "Tunnel Entrance$"
+    .string "Entrada del Túnel$"
 
 Route4_EventScript_RouteSign::
 	msgbox Route4_Text_RouteSign, MSGBOX_SIGN
 	end
 
 Route4_Text_RouteSign::
-    .string "Route 4\n"
-    .string "Mt. Moon - Cerulean City$"
+    .string "Ruta 4\n"
+    .string "Mt. Moon - Ciutat Cerúlia$"
 
 Route4_EventScript_Crissy::
     trainerbattle_single TRAINER_LASS_ROBIN, Route4_Text_CrissyIntro, Route4_Text_CrissyDefeat
@@ -60,16 +60,17 @@ Route4_EventScript_Crissy::
     end
 
 Route4_Text_CrissyIntro::
-    .string "I came to MT. MOON in search of\n"
-    .string "mushroom Pokémon.$"
+    .string "He vingut a MT. MOON a buscar\n"
+    .string "Pokémon bolet.$"
 
 Route4_Text_CrissyDefeat::
-    .string "After all I did to catch them!$"
+    .string "Després de tot el que he fet\n"
+    .string "per atrapar-los!$"
 
 Route4_Text_CrissyPostBattle::
-    .string "There might not be any more\n"
-    .string "mushrooms here.\p"
-    .string "I think I got them all.$"
+    .string "Potser ja no queden més bolets\n"
+    .string "aquí.\p"
+    .string "Crec que me'ls he endut tots.$"
 
 Route4_EventScript_ItemTM05::
 	finditem ITEM_TM05, 1
@@ -182,32 +183,32 @@ Movement_LookerExit:
 	step_end
 
 Route4_Text_StopRightThere::
-	.string "???: Stop right there!\p"
-	.string "You thought you could escape\n"
-	.string "the International Police?\p"
-	.string "Well, I'll always be one step\n"
-	.string "ahead of your plans, Team Rocket!$"
+	.string "???: Quiets aquí!\p"
+	.string "Pensàveu que podríeu escapar\n"
+	.string "de la Policia Internacional?\p"
+	.string "Sempre aniré un pas per davant\n"
+	.string "dels vostres plans, Equip Rocket!$"
 
 Route4_Text_TeamRocketFossils::
-	.string "Ha! You're saying your not\n"
-	.string "with Team Rocket?\p"
-	.string "Then how do you explain that\n"
-	.string "fossil you're carrying?\p"
-	.string "We know Team Rocket is seeking\n"
-	.string "rare fossils to sell on the\l"
-	.string "black market!\p"
+	.string "Ha! Dius que no ets del\n"
+	.string "Equip Rocket?\p"
+	.string "I com expliques aquest fòssil\n"
+	.string "que portes?\p"
+	.string "Sabem que l'Equip Rocket busca\n"
+	.string "fòssils rars per vendre'ls al\l"
+	.string "mercat negre!\p"
 	.string "...\n"
 	.string "......\l"
 	.string "...........oh.\p"
-	.string "So you're saying you stopped them?\n"
-	.string "And they already fled Mt. Moon?\p"
-	.string "Blast! How did we miss them!\p"
-	.string "I'm sorry for the misunderstanding.\p"
-	.string "My name is Looker - since you already\n"
-	.string "stopped Team Rocket once, maybe we can\l"
-	.string "help each other out.\p"
-	.string "Here's my Cell Phone number - call me\n"
-	.string "if you learn anything about Team Rocket!$"
+	.string "Dius que els has aturat?\n"
+	.string "I que ja han fugit de Mt. Moon?\p"
+	.string "Llamps! Com se'ns han escapat!\p"
+	.string "Perdona pel malentès.\p"
+	.string "Em dic Looker - ja que has aturat\n"
+	.string "l'Equip Rocket un cop, potser podem\l"
+	.string "ajudar-nos mútuament.\p"
+	.string "Aquí tens el meu número de mòbil -\n"
+	.string "truca'm si saps res de l'Equip Rocket!$"
 
 Route4_EventScript_PixieDust::
 	finditem ITEM_PIXIE_DUST, 1

@@ -6,25 +6,25 @@ SSAnne_Deck_EventScript_Youngster::
 	end
 
 SSAnne_Deck_Text_ShipDepartingSoon::
-    .string "The party's over.\n"
-    .string "The ship will be departing soon.$"
+    .string "La festa s'ha acabat.\n"
+    .string "El vaixell zarparà aviat.$"
 
 SSAnne_Deck_EventScript_BaldingMan::
 	msgbox SSAnne_Deck_Text_FeelSeasick, MSGBOX_NPC
 	end
 
 SSAnne_Deck_Text_FeelSeasick::
-    .string "Urf… I feel ill…\p"
-    .string "I got seasick, so I stepped out to\n"
-    .string "get some air…$"
+    .string "Uff… Em trobo malament…\p"
+    .string "M'he marejat, així que he sortit\n"
+    .string "a prendre l'aire…$"
 
 SSAnne_Deck_EventScript_Sailor::
 	msgbox SSAnne_Deck_Text_ScrubbingDecksHardWork, MSGBOX_NPC
 	end
 
 SSAnne_Deck_Text_ScrubbingDecksHardWork::
-    .string "Whew!\n"
-    .string "Scrubbing decks is hard work!$"
+    .string "Uf!\n"
+    .string "Fregar la coberta és dur!$"
 
 SSAnne_Deck_EventScript_Edmond::
 	trainerbattle_single TRAINER_SAILOR_EDMOND, SSAnne_Deck_Text_EdmondIntro, SSAnne_Deck_Text_EdmondDefeat
@@ -32,15 +32,15 @@ SSAnne_Deck_EventScript_Edmond::
 	end
 
 SSAnne_Deck_Text_EdmondIntro::
-    .string "Hey, matey!\p"
-    .string "Let's do a little jig!$"
+    .string "Ei, company!\p"
+    .string "Fem un petit ball!$"
 
 SSAnne_Deck_Text_EdmondDefeat::
-    .string "You're impressive!$"
+    .string "Ets impressionant!$"
 
 SSAnne_Deck_Text_EdmondPostBattle::
-    .string "How many kinds of Pokémon do you\n"
-    .string "think there are in this big world?$"
+    .string "Quantes espècies de Pokémon creus\n"
+    .string "que hi ha en aquest gran món?$"
 
 SSAnne_Deck_EventScript_Trevor::
 	trainerbattle_single TRAINER_SAILOR_TREVOR, SSAnne_Deck_Text_TrevorIntro, SSAnne_Deck_Text_TrevorDefeat
@@ -48,12 +48,13 @@ SSAnne_Deck_EventScript_Trevor::
 	end
 
 SSAnne_Deck_Text_TrevorIntro::
-    .string "Ahoy, there!\n"
-    .string "Are you seasick?$"
+    .string "Ep, aquí!\n"
+    .string "Estàs marejat?$"
 
 SSAnne_Deck_Text_TrevorDefeat::
-    .string "I was just careless!$"
+    .string "He estat descuidat!$"
 
 SSAnne_Deck_Text_TrevorPostBattle::
-    .string "My pa said there are 100 kinds of\n"
-    .string "Pokémon. I think there are more.$"
+    .string "El meu pare diu que hi ha 100\n"
+    .string "espècies de Pokémon. Jo crec\l"
+    .string "que n'hi ha més.$"

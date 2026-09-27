@@ -24,8 +24,8 @@ EventScript_RepelWoreOff_End:
 	end
 
  Text_RepelWoreOff:
-	.string "REPEL's effect wore off…$"
+	.string "L'efecte del REPEL·LENT s'ha esgotat…$"
 
 Text_RepelWoreOff_UseAnother:
-	.string "REPEL's effect wore off…\n"
-	.string "Use another?$"
+	.string "L'efecte del REPEL·LENT s'ha esgotat…\n"
+	.string "Vols fer-ne servir un altre?$"

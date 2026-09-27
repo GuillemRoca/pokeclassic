@@ -19,16 +19,16 @@ Route15_WestEntrance_2F_EventScript_RightBinoculars::
 	end
 
 Route15_WestEntrance_2F_Text_LargeShiningBird::
-    .string "Let's see what the binoculars have\n"
-    .string "to show…\p"
-    .string "A large, shining bird is flying\n"
-    .string "toward the sea.$"
+    .string "A veure què mostren els\n"
+    .string "prismàtics…\p"
+    .string "Un gran ocell brillant vola\n"
+    .string "cap al mar.$"
 
 Route15_WestEntrance_2F_Text_SmallIslandOnHorizon::
-    .string "Let's see what the binoculars have\n"
-    .string "to show…\p"
-    .string "It looks like a small island on\n"
-    .string "the horizon!$"
+    .string "A veure què mostren els\n"
+    .string "prismàtics…\p"
+    .string "Sembla una petita illa a\n"
+    .string "l'horitzó!$"
 
 @Aide Gift 5
 Route15_WestEntrance_2F_EventScript_Aide::
@@ -52,12 +52,12 @@ Route15_WestEntrance_2F_EventScript_Aide::
 
 Route15_WestEntrance_2F_Text_GiveReward::
     .string "{PLAYER}!\p"
-    .string "You're really on a roll.\p"
-    .string "As your journey continues, \n"
-    .string "raising Pokémon may get harder,\l"
-    .string "especially if your team changes!\p"
-    .string "So we came up with a device that\n"
-    .string "might make raising Pokémon easier.$"
+    .string "Vas llançat.\p"
+    .string "A mesura que avanci el viatge,\n"
+    .string "criar Pokémon pot ser més difícil,\l"
+    .string "sobretot si canvies d'equip!\p"
+    .string "Així que hem creat un dispositiu\n"
+    .string "que pot facilitar la cria.$"
 
 Route15_WestEntrance_2F_EventScript_AlreadyGotReward::
     msgbox Route15_WestEntrance_2F_Text_ExplainReward, MSGBOX_DEFAULT
@@ -65,9 +65,10 @@ Route15_WestEntrance_2F_EventScript_AlreadyGotReward::
     end
 
 Route15_WestEntrance_2F_Text_ExplainReward::
-    .string "You can turn Exp. Share on in you\n"
-    .string "Key Items bag.\p"
-    .string "It spreads EXP. Points to Pokémon\n"
-    .string "in your party, even if they didn't\l"
-    .string "participate in the battle.\p"
-    .string "You can turn it off at any time, too!$"
+    .string "Pots activar el Rep. Exp. a la\n"
+    .string "bossa d'Objectes Clau.\p"
+    .string "Reparteix punts d'EXP. als\n"
+    .string "Pokémon del teu equip, encara\l"
+    .string "que no hagin participat en\l"
+    .string "el combat.\p"
+    .string "El pots desactivar quan vulguis!$"

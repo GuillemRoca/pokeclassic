@@ -32,31 +32,31 @@ PokemonMansion_B1F_EventScript_Ivan::
 
 PokemonMansion_B1F_Text_LewisIntro::
     .string "Uh-oh…\n"
-    .string "Where am I now?$"
+    .string "On soc ara?$"
 
 PokemonMansion_B1F_Text_LewisDefeat::
-    .string "Awooh!$"
+    .string "Auuu!$"
 
 PokemonMansion_B1F_Text_LewisPostBattle::
-    .string "You can find stuff lying around.\n"
-    .string "The residents must've left them.$"
+    .string "Pots trobar coses pel terra.\n"
+    .string "Els residents les devien deixar.$"
 
 PokemonMansion_B1F_Text_IvanIntro::
-    .string "This place is ideal for a lab.\n"
-    .string "Look at all this space.$"
+    .string "Aquest lloc és ideal per a un lab.\n"
+    .string "Mira tot aquest espai.$"
 
 PokemonMansion_B1F_Text_IvanDefeat::
-    .string "What was that for?$"
+    .string "Per què ho has fet?$"
 
 PokemonMansion_B1F_Text_IvanPostBattle::
-    .string "I like it here.\n"
-    .string "It's conducive to my studies.$"
+    .string "M'agrada ser aquí.\n"
+    .string "És propici per als meus estudis.$"
 
 PokemonMansion_B1F_Text_MewtwoIsFarTooPowerful::
-    .string "Diary: Sept. 1\n"
-    .string "Mewtwo is far too powerful.\p"
-    .string "We have failed to curb its vicious\n"
-    .string "tendencies…$"
+    .string "Diari: 1 de setembre\n"
+    .string "Mewtwo és massa poderós.\p"
+    .string "No hem aconseguit frenar les\n"
+    .string "seves tendències violentes…$"
 
 PokemonMansion_B1F_EventScript_ItemTM22::
 	finditem ITEM_TM22, 1
@@ -88,10 +88,10 @@ PokemonMansion_B1F_EventScript_SkipOldSeaMap::
 	end
 
 PokemonMansion_B1F_Text_OldMap::
-	.string "It's an old map...\p"
-	.string "There's an island you don't\n"
-	.string "recognize on it.$"
+	.string "És un mapa antic...\p"
+	.string "Hi ha una illa que no\n"
+	.string "reconeixes.$"
 
 PokemonMansion_B1F_Text_SomethingHidden::
-	.string "There's something hidden\n"
-	.string "behind the frame!$"
+	.string "Hi ha alguna cosa amagada\n"
+	.string "darrere del marc!$"

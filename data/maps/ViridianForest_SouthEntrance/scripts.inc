@@ -6,15 +6,15 @@ Route2_ViridianForest_SouthEntrance_EventScript_Woman1::
 	end
 
 Route2_ViridianForest_SouthEntrance_Text_ForestIsMaze::
-    .string "Are you going to Viridian Forest?\n"
-    .string "It's a natural maze in there.\l"
-    .string "Be careful you don't get lost.$"
+    .string "Vas cap al Bosc Viridian?\n"
+    .string "És un laberint natural, allà dins.\l"
+    .string "Ves amb compte de no perdre't.$"
 
 Route2_ViridianForest_SouthEntrance_EventScript_Woman2::
 	msgbox Route2_ViridianForest_SouthEntrance_Text_RattataHasWickedBite, MSGBOX_NPC
 	end
 
 Route2_ViridianForest_SouthEntrance_Text_RattataHasWickedBite::
-    .string "Rattata may be small, but don't\n"
-    .string "underestimate its wicked bite.\p"
-    .string "Have you caught one already?$"
+    .string "Rattata pot ser petit, però no\n"
+    .string "subestimis la seva mossegada.\p"
+    .string "Ja n'has atrapat un?$"

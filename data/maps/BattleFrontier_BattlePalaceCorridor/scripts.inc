@@ -122,30 +122,31 @@ BattleFrontier_BattlePalaceCorridor_Movement_AttendantEnterBattleRoom:
 	step_end
 
 BattleFrontier_BattlePalaceCorridor_Text_PeopleAndMonAreSame:
-	.string "People and Pokémon, they are but\n"
-	.string "the same…\p"
-	.string "Their individual nature makes them\n"
-	.string "good at certain things, and not good\l"
-	.string "at others.$"
+	.string "Les persones i els Pokémon no\n"
+	.string "són tan diferents…\p"
+	.string "La seva naturalesa individual els fa\n"
+	.string "bons en certes coses, i no tan bons\l"
+	.string "en d'altres.$"
 
 BattleFrontier_BattlePalaceCorridor_Text_LetMonDoWhatItLikes:
-	.string "Rather than trying to make a Pokémon\n"
-	.string "do what it dislikes, try to let it do\l"
-	.string "what it likes and is good at doing.\p"
-	.string "Put yourself in the Pokémon's position\n"
-	.string "and consider what moves it would like.$"
+	.string "En comptes de forçar un Pokémon\n"
+	.string "a fer el que no li agrada, deixa'l fer\l"
+	.string "el que li agrada i se li dóna bé.\p"
+	.string "Posa't al lloc del Pokémon\n"
+	.string "i pensa quins moviments li agradarien.$"
 
 BattleFrontier_BattlePalaceCorridor_Text_MonDifferentWhenCornered:
-	.string "A Pokémon's nature is a remarkable\n"
-	.string "thing…\p"
-	.string "Some Pokémon behave in a completely\n"
-	.string "different way when they are cornered.$"
+	.string "La naturalesa d'un Pokémon és\n"
+	.string "una cosa remarcable…\p"
+	.string "Alguns Pokémon es comporten de forma\n"
+	.string "totalment diferent quan estan contra\l"
+	.string "les cordes.$"
 
 BattleFrontier_BattlePalaceCorridor_Text_BeginningToUnderstandNature:
-	.string "Are you beginning to understand how\n"
-	.string "a Pokémon's nature makes it behave?$"
+	.string "Comences a entendre com la\n"
+	.string "naturalesa d'un Pokémon el fa actuar?$"
 
 BattleFrontier_BattlePalaceCorridor_Text_HeartfeltBondBetweenYouAndMons:
-	.string "Ah… I see a strong, heartfelt bond\n"
-	.string "between you and your Pokémon…$"
+	.string "Ah… Veig un vincle fort i sincer\n"
+	.string "entre tu i els teus Pokémon…$"
 

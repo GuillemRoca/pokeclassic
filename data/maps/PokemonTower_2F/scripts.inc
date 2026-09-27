@@ -8,8 +8,8 @@ PokemonTower_2F_EventScript_Channeler::
 	end
 
 PokemonTower_2F_Text_SilphScopeCouldUnmaskGhosts::
-    .string "Even we could not calm the\n"
-    .string "enraged spirit.$"
+    .string "Ni tan sols nosaltres hem pogut\n"
+    .string "calmar l'esperit enfurismat.$"
 
 PokemonTower_2F_EventScript_RivalTriggerRight::
 	lockall
@@ -108,25 +108,25 @@ PokemonTower_2F_Movement_RivalExitDown::
 	step_end
 
 PokemonTower_2F_Text_RivalIntro::
-    .string "{RIVAL}: Hey, {PLAYER}!\n"
-    .string "What brings you here?\l"
-    .string "Is your Pokémon dead?\p"
-    .string "Hey! It's alive!\p"
-    .string "I can at least make them faint!\n"
-    .string "Let's go!$"
+    .string "{RIVAL}: Ei, {PLAYER}!\n"
+    .string "Què fas aquí?\l"
+    .string "El teu Pokémon ha mort?\p"
+    .string "Ei! És viu!\p"
+    .string "Almenys puc fer-los caure!\n"
+    .string "Anem!$"
 
 PokemonTower_2F_Text_RivalDefeat::
-    .string "What?\n"
-    .string "You stinker!\p"
-    .string "I took it easy on you, too!$"
+    .string "Què?\n"
+    .string "Ets un trapella!\p"
+    .string "Hi he anat suau, eh!$"
 
 PokemonTower_2F_Text_RivalPostBattle::
-    .string "How's your Pokédex coming?\n"
-    .string "I just caught a Cubone!\p"
-    .string "I can't find the bigger Marowak.\n"
-    .string "Where could they be?\p"
-    .string "I bet there aren't any left!\p"
-    .string "Well, I better get going.\n"
-    .string "I've got a lot to accomplish,\l"
-    .string "unlike you.\p"
-    .string "Smell ya later!$"
+    .string "Com va la teva Pokédex?\n"
+    .string "Jo acabo d'atrapar un Cubone!\p"
+    .string "No trobo el Marowak gran.\n"
+    .string "On deuen ser?\p"
+    .string "Aposto que ja no en queden!\p"
+    .string "Bé, me'n vaig.\n"
+    .string "Tinc molt a fer,\l"
+    .string "no com tu.\p"
+    .string "Ja ens veurem!$"

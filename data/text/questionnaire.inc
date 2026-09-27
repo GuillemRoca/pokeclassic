@@ -1,43 +1,43 @@
 Questionnaire_Text_FillOut::
-	.string "There is a questionnaire.\n"
-	.string "Would you like to fill it out?$"
+	.string "Hi ha un qüestionari.\n"
+	.string "Vols emplenar-lo?$"
 
 Questionnaire_Text_ThankYou::
-	.string "Thank you for taking the time to\n"
-	.string "fill out our questionnaire.\p"
-	.string "Your feedback will be used for\n"
-	.string "future reference.$"
+	.string "Gràcies per prendre't el temps\n"
+	.string "d'emplenar el nostre qüestionari.\p"
+	.string "Els teus comentaris seran\n"
+	.string "considerats en el futur.$"
 
 Questionnaire_Text_YouKnowThoseWordsGift::
-	.string "Oh, hello!\n"
-	.string "You know those words?\p"
-	.string "That means you must know about\n"
-	.string "the Mystery Gift.\p"
-	.string "From now on, you should be\n"
-	.string "receiving Mystery Gifts!$"
+	.string "Oh, hola!\n"
+	.string "Coneixes aquestes paraules?\p"
+	.string "Llavors deus saber del\n"
+	.string "Regal Misteriós.\p"
+	.string "A partir d'ara, hauries de\n"
+	.string "rebre Regals Misteriosos!$"
 
 Questionnaire_Text_YouCanAccessMysteryGift::
-	.string "Once you save your game, you can\n"
-	.string "access the Mystery Gift.$"
+	.string "Un cop desats el joc, podràs\n"
+	.string "accedir al Regal Misteriós.$"
 
 Questionnaire_Text_YouKnowThoseWordsEvent::
-	.string "Oh, hello!\n"
-	.string "You know those words?\p"
-	.string "That means you must know about\n"
-	.string "the Mystery Event.$"
+	.string "Oh, hola!\n"
+	.string "Coneixes aquestes paraules?\p"
+	.string "Llavors deus saber de\n"
+	.string "l'Esdeveniment Misteriós.$"
 
 Questionnaire_Text_YouCanAccessMysteryEvent::
-	.string "Once you save your game, you can\n"
-	.string "access the Mystery Event.$"
+	.string "Un cop desats el joc, podràs\n"
+	.string "accedir a l'Esdeveniment Misteriós.$"
 
 MysteryGift_Text_TheresATicketForYou::
-	.string "Thank you for using the Mystery\n"
-	.string "Event System.\p"
-	.string "You must be {PLAYER}.\n"
-	.string "There is a ticket here for you.$"
+	.string "Gràcies per usar el Sistema\n"
+	.string "d'Esdeveniment Misteriós.\p"
+	.string "Deus ser {PLAYER}.\n"
+	.string "Hi ha un tiquet aquí per a tu.$"
 
 MysteryGift_Text_TryUsingItAtLilycovePort::
-	.string "It appears to be for use at\n"
-	.string "the Lilycove City port.\p"
-	.string "Why not give it a try and see what\n"
-	.string "it is about?$"
+	.string "Sembla que és per usar-lo al\n"
+	.string "port de Lilycove.\p"
+	.string "Per què no el proves per veure\n"
+	.string "de què es tracta?$"

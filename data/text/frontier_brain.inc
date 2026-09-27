@@ -1,90 +1,90 @@
 @ Battle Tower
 gText_AnabelWonSilver::
-	.string "It's very disappointing…$"
+	.string "És molt decebedor…$"
 
 gText_AnabelDefeatSilver::
-	.string "Okay, I understand…$"
+	.string "D'acord, ho entenc…$"
 
 gText_AnabelWonGold::
-	.string "I'm terribly sorry…$"
+	.string "Ho sento moltíssim…$"
 
 gText_AnabelDefeatGold::
-	.string "Thank you…$"
+	.string "Gràcies…$"
 
 @ Battle Dome
 gText_TuckerWonSilver::
-	.string "Ahahaha! Aren't you embarrassed?\n"
-	.string "Everyone's watching!$"
+	.string "Ahahaha! No t'avergonyeixes?\n"
+	.string "Tothom ho mira!$"
 
 gText_TuckerDefeatSilver::
 	.string "Grr…\n"
-	.string "What the…$"
+	.string "Però, com…$"
 
 gText_TuckerWonGold::
-	.string "My Dome Ace title isn't just for show!$"
+	.string "El meu títol d'As del Domo no és per a res!$"
 
 gText_TuckerDefeatGold::
 	.string "Ahahaha!\n"
-	.string "You're inspiring!$"
+	.string "Ets inspirador!$"
 
 @ Battle Factory
 gText_NolandWonSilver::
-	.string "Way to work!\n"
-	.string "That was a good lesson, eh?$"
+	.string "Molt bé!\n"
+	.string "Això ha estat una bona lliçó, oi?$"
 
 gText_NolandDefeatSilver::
-	.string "Good job!\n"
-	.string "You know what you're doing!$"
+	.string "Bona feina!\n"
+	.string "Saps el que fas!$"
 
 gText_NolandWonGold::
-	.string "Hey, hey, hey!\n"
-	.string "You're finished already?$"
+	.string "Ei, ei, ei!\n"
+	.string "Ja has acabat?$"
 
 gText_NolandDefeatGold::
-	.string "What happened here?$"
+	.string "Però, com ha passat?$"
 
 @ Battle Pike
 gText_LucyWonSilver::
-	.string "Humph…$"
+	.string "Humf…$"
 
 gText_LucyDefeatSilver::
 	.string "Urk…$"
 
 gText_LucyWonGold::
-	.string "Hah!$"
+	.string "Ha!$"
 
 gText_LucyDefeatGold::
-	.string "Darn!$"
+	.string "Maleïda!$"
 
 @ Battle Arena
 gText_GretaWonSilver::
-	.string "Oh, come on!\n"
-	.string "You have to try harder than that!$"
+	.string "Au va!\n"
+	.string "Has d'esforçar-te més que això!$"
 
 gText_GretaDefeatSilver::
-	.string "No way!\n"
-	.string "Good job!$"
+	.string "No pot ser!\n"
+	.string "Bona feina!$"
 
 gText_GretaWonGold::
 	.string "Heheh!\n"
-	.string "What did you expect?$"
+	.string "Que esperaves?$"
 
 gText_GretaDefeatGold::
-	.string "Huh?\n"
-	.string "Are you serious?!$"
+	.string "Com?\n"
+	.string "Va en serio?!$"
 
 @ Battle Palace
 gText_SpenserWonSilver::
-	.string "Your Pokémon are wimpy because\n"
-	.string "you're wimpy as a Trainer!$"
+	.string "Els teus Pokémon són febles\n"
+	.string "perquè tu ets un Entrenador feble!$"
 
 gText_SpenserDefeatSilver::
 	.string "Ah…\n"
-	.string "Now this is something else…$"
+	.string "Això sí que és una altra cosa…$"
 
 gText_SpenserWonGold::
 	.string "Gwahahaha!\n"
-	.string "My brethren, we have nothing to fear!$"
+	.string "Germans, no tenim res a témer!$"
 
 gText_SpenserDefeatGold::
 	.string "Gwah!\n"
@@ -92,17 +92,17 @@ gText_SpenserDefeatGold::
 
 @ Battle Pyramid
 gText_BrandonWonSilver::
-	.string "Hey! What's wrong with you!\n"
-	.string "Let's see some effort! Get up!$"
+	.string "Ei! Però, que et passa!\n"
+	.string "Fes un esforç! Aixeca't!$"
 
 gText_BrandonDefeatSilver::
-	.string "That's it! You've done great!\n"
-	.string "You've worked hard for this!$"
+	.string "Molt bé! Ho has fet genial!\n"
+	.string "T'ho has guanyat!$"
 
 gText_BrandonWonGold::
-	.string "Hey! Don't you give up now!\n"
-	.string "Get up! Don't lose faith in yourself!$"
+	.string "Ei! No et rendeixis ara!\n"
+	.string "Aixeca't! No perdis la fe en tu!$"
 
 gText_BrandonDefeatGold::
-	.string "That's it! You've done it!\n"
-	.string "You kept working for this!$"
+	.string "Molt bé! Ho has aconseguit!\n"
+	.string "Has persistit fins al final!$"

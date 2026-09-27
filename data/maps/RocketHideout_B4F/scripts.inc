@@ -56,30 +56,31 @@ RocketHideout_B4F_EventScript_Giovanni::
 	end
 
 RocketHideout_B4F_Text_GiovanniIntro::
-    .string "???: So! I must say, I am impressed\n"
-    .string "you got here.\p"
-    .string "Team Rocket captures Pokémon from\n"
-    .string "around the world.\p"
-    .string "They're important tools for keeping\n"
-    .string "our criminal enterprise going.\p"
-    .string "I am the leader, Giovanni!\p"
-    .string "For your insolence, you will feel a\n"
-    .string "world of pain!$"
+    .string "???: Bé! He de dir que estic\n"
+    .string "impressionat que hagis arribat\l"
+    .string "aquí.\p"
+    .string "L'Equip Rocket captura Pokémon\n"
+    .string "d'arreu del món.\p"
+    .string "Són eines importants per mantenir\n"
+    .string "la nostra empresa criminal.\p"
+    .string "Sóc el líder, Giovanni!\p"
+    .string "Per la teva insolència, sentiràs\n"
+    .string "un món de dolor!$"
 
 RocketHideout_B4F_Text_GiovanniDefeat::
-    .string "What!\n"
-    .string "This can't be!$"
+    .string "Què!\n"
+    .string "Això no pot ser!$"
 
 RocketHideout_B4F_Text_GiovanniPostBattle::
-    .string "Giovanni: I see that you raise\n"
-    .string "Pokémon with utmost care.\p"
-    .string "A child like you would never\n"
-    .string "understand what I hope to achieve.\p"
-    .string "I shall step aside this time, and\n"
-    .string "release this Cubone back to you.$"
+    .string "Giovanni: Veig que cries els teus\n"
+    .string "Pokémon amb molta cura.\p"
+    .string "Un nen com tu mai entendria el\n"
+    .string "que espero aconseguir.\p"
+    .string "Em faré enrere aquest cop, i\n"
+    .string "alliberaré aquest Cubone.$"
 
 RocketHideout_B4F_Text_MeetAgain::
-    .string "I hope we meet again…$"
+    .string "Espero que ens tornem a trobar…$"
 
 RocketHideout_B4F_EventScript_Grunt1::
 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_18, RocketHideout_B4F_Text_Grunt1Intro, RocketHideout_B4F_Text_Grunt1Defeat, RocketHideout_B4F_EventScript_DefeatedGrunt1
@@ -88,8 +89,8 @@ RocketHideout_B4F_EventScript_Grunt1::
 	end
 
 RocketHideout_B4F_Text_Grunt1Intro::
-    .string "The elevator doesn't work?\n"
-    .string "Who has the Lift Key?$"
+    .string "L'ascensor no funciona?\n"
+    .string "Qui té la Clau de l'Ascensor?$"
 
 RocketHideout_B4F_Text_Grunt1Defeat::
     .string "No!$"
@@ -103,7 +104,8 @@ RocketHideout_B4F_EventScript_DefeatedGrunt1::
 
 RocketHideout_B4F_Text_Grunt1PostBattle::
     .string "Oh, no!\n"
-    .string "I dropped the Lift Key!$"
+    .string "Se m'ha caigut la Clau de\l"
+    .string "l'Ascensor!$"
 
 RocketHideout_B4F_EventScript_LiftKey::
 	lock
@@ -122,14 +124,14 @@ RocketHideout_B4F_EventScript_Grunt2::
 	end
 
 RocketHideout_B4F_Text_Grunt2Intro::
-    .string "I know you!\n"
-    .string "You ruined our plans at Mt. Moon!$"
+    .string "Et conec!\n"
+    .string "Vas arruïnar els plans al Mt. Moon!$"
 
 RocketHideout_B4F_Text_Grunt2Defeat::
-    .string "Burned again!$"
+    .string "Un altre cop cremat!$"
 
 RocketHideout_B4F_Text_Grunt2PostBattle::
-    .string "Do you have something against Team\n"
+    .string "Tens alguna cosa contra l'Equip\n"
     .string "Rocket?$"
 
 RocketHideout_B4F_EventScript_DefeatedGrunt2::
@@ -151,16 +153,16 @@ RocketHideout_B4F_EventScript_Grunt3::
 	end
 
 RocketHideout_B4F_Text_Grunt3Intro::
-    .string "How can you not see the beauty of\n"
-    .string "our evil?$"
+    .string "Com pots no veure la bellesa\n"
+    .string "de la nostra maldat?$"
 
 RocketHideout_B4F_Text_Grunt3Defeat::
-    .string "Boss!\n"
-    .string "I'm sorry I failed you!$"
+    .string "Cap!\n"
+    .string "Perdoni, t'he fallat!$"
 
 RocketHideout_B4F_Text_Grunt3PostBattle::
-    .string "You may have beaten me, but\n"
-    .string "more of us are coming!$"
+    .string "Potser m'has derrotat, però\n"
+    .string "en vindran més!$"
 
 RocketHideout_B4F_EventScript_DefeatedGrunt3::
 	setvar NUM_DOOR_GRUNTS_DEFEATED, 0
@@ -179,16 +181,16 @@ RocketHideout_B4F_EventScript_Jessie::
 	end
 
 RocketHideout_B4F_Text_JessieIntro::
-	.string "Jessie: You're that twerp that\n"
-	.string "keeps interrupting our schemes!$"
+	.string "Jessie: Ets aquell marrec que no\n"
+	.string "para d'interrompre els plans!$"
 
 RocketHideout_B4F_Text_JessieDefeat::
 	.string "Jessie: No! No! No!$"
 
 RocketHideout_B4F_Text_JessiePostBattle::
-	.string "Jessie: You may have defeated\n"
-	.string "me again, but the Boss will\l"
-	.string "finally get rid of you for good.$"
+	.string "Jessie: Potser m'has derrotat\n"
+	.string "un altre cop, però el Cap\l"
+	.string "s'encarregarà de tu per sempre.$"
 
 RocketHideout_B4F_EventScript_James::
 	trainerbattle_single TRAINER_ROCKET_HIDEOUT_JAMES, RocketHideout_B4F_Text_JamesIntro, RocketHideout_B4F_Text_JamesDefeat
@@ -196,17 +198,17 @@ RocketHideout_B4F_EventScript_James::
 	end
 
 RocketHideout_B4F_Text_JamesIntro::
-	.string "James: You're starting to take\n"
-	.string "the fun out of all of this.$"
+	.string "James: Comences a treure la gràcia\n"
+	.string "a tot això.$"
 
 RocketHideout_B4F_Text_JamesDefeat::
-	.string "James: This is really starting\n"
-	.string "to get to me!$"
+	.string "James: Això realment comença\n"
+	.string "a afectar-me!$"
 
 RocketHideout_B4F_Text_JamesPostBattle::
-	.string "James: For what it's worth, I\n"
-	.string "am sorry about what happened to\l"
-	.string "that Cubone's mother...$"
+	.string "James: Per cert, sento molt\n"
+	.string "el que li va passar a la mare\l"
+	.string "d'aquell Cubone...$"
 
 RocketHideout_B4F_EventScript_DrawMapForBarrierRemoval::
 	playse SE_UNLOCK

@@ -247,18 +247,18 @@ static const u16 sUnused_Pal[] = INCBIN_U16("graphics/berry_blender/unused.gbapa
 static const u16 sEmpty_Pal[16 * 14] = {0};
 
 // unused text
-static const u8 sUnusedText_YesNo[] = _("Yes\nNo");
+static const u8 sUnusedText_YesNo[] = _("Sí\nNo");
 static const u8 sUnusedText_2[] = _("▶");
 static const u8 sUnusedText_Space[] = _(" ");
-static const u8 sUnusedText_Terminating[] = _("Terminating.");
-static const u8 sUnusedText_LinkPartnerNotFound[] = _("Link partner(s) not found.\nPlease try again.\p");
+static const u8 sUnusedText_Terminating[] = _("Finalitzant.");
+static const u8 sUnusedText_LinkPartnerNotFound[] = _("No s'han trobat companys.\nTorna-ho a provar.\p");
 
-static const u8 sText_BerryBlenderStart[] = _("Starting up the Berry Blender.\pPlease select a Berry from your Bag\nto put in the Berry Blender.\p");
+static const u8 sText_BerryBlenderStart[] = _("S'inicia el Barrejador de Baies.\pSi us plau, tria una Baia de la\nMotxilla per posar-la al Barrejador.\p");
 static const u8 sText_NewParagraph[] = _("\p");
-static const u8 sText_WasMade[] = _(" was made!");
+static const u8 sText_WasMade[] = _(" s'ha creat!");
 static const u8 sText_Expert[] = _("Expert");
-static const u8 sText_Youngster[] = _("Youngster");
-static const u8 sText_Lass[] = _("Lass");
+static const u8 sText_Youngster[] = _("Jovenet");
+static const u8 sText_Lass[] = _("Noieta");
 static const u8 sText_Daisy[] = _("Daisy");
 
 static const u8* const sBlenderOpponentsNames[] =
@@ -269,28 +269,28 @@ static const u8* const sBlenderOpponentsNames[] =
     [BLENDER_DAISY] = sText_Daisy
 };
 
-static const u8 sText_PressAToStart[] = _("Press the A Button to start.");
-static const u8 sText_PleaseWaitAWhile[] = _("Please wait a while.");
-static const u8 sText_CommunicationStandby[] = _("Communication standby…");
-static const u8 sText_WouldLikeToBlendAnotherBerry[] = _("Would you like to blend another Berry?");
-static const u8 sText_RunOutOfBerriesForBlending[] = _("You've run out of Berries for\nblending in the Berry Blender.\p");
-static const u8 sText_YourPokeblockCaseIsFull[] = _("Your {POKEBLOCK} Case is full.\p");
-static const u8 sText_HasNoBerriesToPut[] = _(" has no Berries to put in\nthe Berry Blender.");
-static const u8 sText_ApostropheSPokeblockCaseIsFull[] = _("'s {POKEBLOCK} Case is full.\p");
-static const u8 sText_BlendingResults[] = _("Results of blending");
-static const u8 sText_BerryUsed[] = _("Berry used");
-static const u8 sText_SpaceBerry[] = _(" Berry");
-static const u8 sText_Time[] = _("Time:");
+static const u8 sText_PressAToStart[] = _("Prem el botó A per començar.");
+static const u8 sText_PleaseWaitAWhile[] = _("Si us plau, espera una mica.");
+static const u8 sText_CommunicationStandby[] = _("Comunicació en espera…");
+static const u8 sText_WouldLikeToBlendAnotherBerry[] = _("Vols barrejar una altra Baia?");
+static const u8 sText_RunOutOfBerriesForBlending[] = _("T'has quedat sense Baies per\nbarrejar al Barrejador de Baies.\p");
+static const u8 sText_YourPokeblockCaseIsFull[] = _("L'estoig de {POKEBLOCK} és ple.\p");
+static const u8 sText_HasNoBerriesToPut[] = _(" no té Baies per posar\nal Barrejador de Baies.");
+static const u8 sText_ApostropheSPokeblockCaseIsFull[] = _(": l'estoig de {POKEBLOCK} és ple.\p");
+static const u8 sText_BlendingResults[] = _("Resultats de la barreja");
+static const u8 sText_BerryUsed[] = _("Baia usada");
+static const u8 sText_SpaceBerry[] = _(" Baia");
+static const u8 sText_Time[] = _("Temps:");
 static const u8 sText_Min[] = _(" min. ");
-static const u8 sText_Sec[] = _(" sec.");
-static const u8 sText_MaximumSpeed[] = _("Maximum speed");
+static const u8 sText_Sec[] = _(" seg.");
+static const u8 sText_MaximumSpeed[] = _("Velocitat màxima");
 static const u8 sText_RPM[] = _(" RPM");
 static const u8 sText_Dot[] = _(".");
 static const u8 sText_NewLine[] = _("\n");
 static const u8 sText_Space[] = _(" ");
-static const u8 sText_Ranking[] = _("Ranking");
-static const u8 sText_TheLevelIs[] = _("The level is ");
-static const u8 sText_TheFeelIs[] = _(", and the feel is ");
+static const u8 sText_Ranking[] = _("Classificació");
+static const u8 sText_TheLevelIs[] = _("El nivell és ");
+static const u8 sText_TheFeelIs[] = _(", i la textura és ");
 static const u8 sText_Dot2[] = _(".");
 
 static const struct BgTemplate sBgTemplates[3] =

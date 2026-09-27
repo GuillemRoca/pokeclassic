@@ -7,14 +7,15 @@ CeruleanCity_House5_EventScript_BadgeGuy::
 	end
 
 CeruleanCity_House5_Text_BadgesHaveAmazingSecrets::
-	.string "Badges are more than just a cool pin!\p"
-	.string "A badge certifies a Trainer to use\n"
-	.string "certain Hidden Moves, like Flash or\l"
-	.string "Fly.\p"
-	.string "Pokémon seem to understand their\n"
-	.string "importance as well.\p"
-	.string "Higher level Pokémon won't obey you\n"
-	.string "if you don't have enough badges!$"
+	.string "Les Medalles són més que una\n"
+	.string "insígnia bonica!\p"
+	.string "Una Medalla certifica un Entrenador\n"
+	.string "per usar certs Moviments Ocults,\l"
+	.string "com Flash o Volar.\p"
+	.string "Els Pokémon semblen entendre la\n"
+	.string "seva importància també.\p"
+	.string "Els Pokémon de nivell alt no\n"
+	.string "t'obeiran si no tens prou medalles!$"
 
 CeruleanCity_House5_EventScript_BadgeSign::
 	msgbox CeruleanCity_House5_Text_BadgeSign, MSGBOX_SIGN
@@ -22,5 +23,5 @@ CeruleanCity_House5_EventScript_BadgeSign::
 	end
 
 CeruleanCity_House5_Text_BadgeSign::
-	.string "Official Pokémon League\n"
-	.string "Badge Expert Certification$"
+	.string "Lliga Pokémon Oficial\n"
+	.string "Certificació d'Expert en Medalles$"

@@ -6,26 +6,26 @@ CeladonCity_Condominiums_3F_EventScript_Programmer::
 	end
 
 CeladonCity_Condominiums_3F_Text_ImTheProgrammer::
-    .string "Me?\n"
-    .string "I'm the Photographer!$"
+    .string "Jo?\n"
+    .string "Sóc el Fotògraf!$"
 
 CeladonCity_Condominiums_3F_EventScript_GraphicArtist::
 	msgbox CeladonCity_Condominiums_3F_Text_ImTheGraphicArtist, MSGBOX_NPC
 	end
 
 CeladonCity_Condominiums_3F_Text_ImTheGraphicArtist::
-    .string "I'm the graphic designer!\n"
-    .string "Do you like PokéMon Journal?$"
+    .string "Sóc el dissenyador gràfic!\n"
+    .string "T'agrada el Diari Pokémon?$"
 
 CeladonCity_Condominiums_3F_EventScript_Writer::
 	msgbox CeladonCity_Condominiums_3F_Text_IWroteTheStory, MSGBOX_NPC
 	end
 
 CeladonCity_Condominiums_3F_Text_IWroteTheStory::
-    .string "I write the articles!\n"
-    .string "Isn't Erika cute?\p"
-    .string "I like Misty a lot, too!\n"
-    .string "Oh, and Sabrina, I like her!$"
+    .string "Jo escric els articles!\n"
+    .string "No trobes que l'Erika és maca?\p"
+    .string "La Misty també m'agrada molt!\n"
+    .string "Oh, i la Sabrina, m'encanta!$"
 
 CeladonCity_Condominiums_3F_EventScript_Designer::
 	lock
@@ -38,13 +38,13 @@ CeladonCity_Condominiums_3F_EventScript_Designer::
 	end
 
 CeladonCity_Condominiums_3F_Text_ImGameDesignerShowMeFinishedPokedex::
-    .string "I'm the Editor!\p"
-    .string "You're working on the Pokédex?\n"
-    .string "Is that right?\p"
-    .string "Filling up your Pokédex is tough,\n"
-    .string "but don't quit!\p"
-    .string "When you finish, come tell me!\p"
-    .string "We'll write an article about you!$"
+    .string "Sóc l'Editor!\p"
+    .string "Estàs treballant en la Pokédex?\n"
+    .string "És cert?\p"
+    .string "Completar la Pokédex és difícil,\n"
+    .string "però no ho deixis!\p"
+    .string "Quan acabis, vine a dir-m'ho!\p"
+    .string "Escriurem un article sobre tu!$"
 
 CeladonCity_Condominiums_3F_EventScript_CompletedPokedex::
 	goto CeladonCity_Condominiums_3F_EventScript_ShowDiploma
@@ -60,9 +60,9 @@ CeladonCity_Condominiums_3F_EventScript_ShowDiploma::
 	end
 
 CeladonCity_Condominiums_3F_Text_CompletedPokedexCongratulations::
-    .string "Wow! Excellent!\n"
-    .string "You completed your Pokédex!\l"
-    .string "Congratulations!\l"
+    .string "Uau! Excel·lent!\n"
+    .string "Has completat la Pokédex!\l"
+    .string "Felicitats!\l"
     .string "…$"
 
 CeladonCity_Condominiums_3F_EventScript_DevelopmentRoomSign::
@@ -70,29 +70,30 @@ CeladonCity_Condominiums_3F_EventScript_DevelopmentRoomSign::
 	end
 
 CeladonCity_Condominiums_3F_Text_GameFreakDevelopmentRoom::
-    .string "POKéMON JOURNAL HQ$"
+    .string "SEU DEL DIARI POKéMON$"
 
 CeladonCity_Condominiums_3F_EventScript_Computer1::
 	msgbox CeladonCity_Condominiums_3F_Text_ItsTheGameProgram, MSGBOX_SIGN
 	end
 
 CeladonCity_Condominiums_3F_Text_ItsTheGameProgram::
-    .string "It's an exposé on Team Rocket!\p"
-    .string "Looks like they had someone embedded\n"
-    .string "in the organization!$"
+    .string "És un reportatge sobre el Team\n"
+    .string "Rocket!\p"
+    .string "Sembla que tenien algú infiltrat\n"
+    .string "a l'organització!$"
 
 CeladonCity_Condominiums_3F_EventScript_Computer2::
 	msgbox CeladonCity_Condominiums_3F_Text_SomeonesPlayingGame, MSGBOX_SIGN
 	end
 
 CeladonCity_Condominiums_3F_Text_SomeonesPlayingGame::
-    .string "Someone's playing a game instead of\n"
-    .string "working!$"
+    .string "Algú està jugant a un joc en\n"
+    .string "comptes de treballar!$"
 
 CeladonCity_Condominiums_3F_EventScript_Computer3::
 	msgbox CeladonCity_Condominiums_3F_Text_ItsScriptBetterNotLookAtEnding, MSGBOX_SIGN
 	end
 
 CeladonCity_Condominiums_3F_Text_ItsScriptBetterNotLookAtEnding::
-    .string "It's the next issue!\n"
-    .string "Professor Oak is on the cover!$"
+    .string "És el proper número!\n"
+    .string "El Professor Oak és a la portada!$"

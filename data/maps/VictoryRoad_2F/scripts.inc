@@ -57,16 +57,16 @@ VictoryRoad_2F_EventScript_Dawson::
 	end
 
 VictoryRoad_2F_Text_DawsonIntro::
-    .string "If you can get through here,\n"
-    .string "you can go meet the Elite Four.$"
+    .string "Si passes per aquí, podràs\n"
+    .string "enfrontar-te a l'Alt Comandament.$"
 
 VictoryRoad_2F_Text_DawsonDefeat::
     .string "No!\n"
-    .string "Unbelievable!$"
+    .string "Increïble!$"
 
 VictoryRoad_2F_Text_DawsonPostBattle::
-    .string "I can beat you when it comes to\n"
-    .string "knowledge about Pokémon!$"
+    .string "Et puc guanyar quan es tracta\n"
+    .string "de coneixements sobre Pokémon!$"
 
 VictoryRoad_2F_EventScript_Daisuke::
 	trainerbattle_single TRAINER_BLACK_BELT_DAISUKE, VictoryRoad_2F_Text_DaisukeIntro, VictoryRoad_2F_Text_DaisukeDefeat
@@ -74,15 +74,15 @@ VictoryRoad_2F_EventScript_Daisuke::
 	end
 
 VictoryRoad_2F_Text_DaisukeIntro::
-    .string "This here is Victory Road.\n"
-    .string "It's the final test for trainers!$"
+    .string "Això és el Camí de la Victòria.\n"
+    .string "La prova final per als entrenadors!$"
 
 VictoryRoad_2F_Text_DaisukeDefeat::
-    .string "Atcho!$"
+    .string "Atxó!$"
 
 VictoryRoad_2F_Text_DaisukePostBattle::
-    .string "If you get stuck, try moving some\n"
-    .string "boulders around.$"
+    .string "Si t'encalles, prova de moure\n"
+    .string "algunes roques.$"
 
 VictoryRoad_2F_EventScript_Nelson::
 	trainerbattle_single TRAINER_JUGGLER_NELSON, VictoryRoad_2F_Text_NelsonIntro, VictoryRoad_2F_Text_NelsonDefeat
@@ -90,14 +90,14 @@ VictoryRoad_2F_EventScript_Nelson::
 	end
 
 VictoryRoad_2F_Text_NelsonIntro::
-    .string "Ah, so you wish to challenge the\n"
-    .string "Elite Four?$"
+    .string "Ah, així que vols desafiar\n"
+    .string "l'Alt Comandament?$"
 
 VictoryRoad_2F_Text_NelsonDefeat::
-    .string "You got me!$"
+    .string "M'has enxampat!$"
 
 VictoryRoad_2F_Text_NelsonPostBattle::
-    .string "{RIVAL} also came through here.$"
+    .string "{RIVAL} també va passar per aquí.$"
 
 VictoryRoad_2F_EventScript_Gregory::
 	trainerbattle_single TRAINER_JUGGLER_GREGORY, VictoryRoad_2F_Text_GregoryIntro, VictoryRoad_2F_Text_GregoryDefeat
@@ -105,14 +105,16 @@ VictoryRoad_2F_EventScript_Gregory::
 	end
 
 VictoryRoad_2F_Text_GregoryIntro::
-    .string "Is Victory Road too tough?$"
+    .string "El Camí de la Victòria és massa\n"
+    .string "dur?$"
 
 VictoryRoad_2F_Text_GregoryDefeat::
-    .string "Well done!$"
+    .string "Ben fet!$"
 
 VictoryRoad_2F_Text_GregoryPostBattle::
-    .string "Many trainers give up their\n"
-    .string "challenge here and go home.$"
+    .string "Molts entrenadors abandonen el\n"
+    .string "seu desafiament aquí i tornen\l"
+    .string "a casa.$"
 
 VictoryRoad_2F_EventScript_Vincent::
 	trainerbattle_single TRAINER_TAMER_VINCENT, VictoryRoad_2F_Text_VincentIntro, VictoryRoad_2F_Text_VincentDefeat
@@ -120,15 +122,15 @@ VictoryRoad_2F_EventScript_Vincent::
 	end
 
 VictoryRoad_2F_Text_VincentIntro::
-    .string "Come on!\n"
-    .string "I'll whip you!$"
+    .string "Vine!\n"
+    .string "Et donaré una pallissa!$"
 
 VictoryRoad_2F_Text_VincentDefeat::
-    .string "I got whipped!$"
+    .string "M'han derrotat!$"
 
 VictoryRoad_2F_Text_VincentPostBattle::
-    .string "You earned the right to be on\n"
-    .string "Victory Road…$"
+    .string "T'has guanyat el dret de ser al\n"
+    .string "Camí de la Victòria…$"
 
 VictoryRoad_2F_EventScript_ItemTM37::
 	finditem ITEM_TM37, 1

@@ -73,78 +73,79 @@ SilphCo_5F_EventScript_Dalton::
 	end
 
 SilphCo_5F_Text_RocketsInUproarAboutIntruder::
-    .string "Team Rocket is in an uproar over\n"
-    .string "some intruder.\p"
-    .string "That's you, right?$"
+    .string "L'Equip Rocket està revolucionat\n"
+    .string "per un intrús.\p"
+    .string "Ets tu, oi?$"
 
 SilphCo_5F_Text_YoureOurHeroThankYou::
-    .string "Team Rocket took off!\n"
-    .string "You're our hero! Thank you!$"
+    .string "L'Equip Rocket ha fugit!\n"
+    .string "Ets el nostre heroi! Gràcies!$"
 
 SilphCo_5F_Text_Grunt1Intro::
-    .string "I heard a kid was wandering\n"
-    .string "around.$"
+    .string "He sentit que un nen voltava\n"
+    .string "per aquí.$"
 
 SilphCo_5F_Text_Grunt1Defeat::
-    .string "Boom!$"
+    .string "Bum!$"
 
 SilphCo_5F_Text_Grunt1PostBattle::
-    .string "It's not smart to pick a fight with\n"
-    .string "Team Rocket!$"
+    .string "No és intel·ligent buscar brega\n"
+    .string "amb l'Equip Rocket!$"
 
 SilphCo_5F_Text_BeauIntro::
-    .string "We study Poké Ball technology on\n"
-    .string "this floor.$"
+    .string "Estudiem tecnologia de Poké Ball\n"
+    .string "en aquest pis.$"
 
 SilphCo_5F_Text_BeauDefeat::
-    .string "Dang!\n"
-    .string "Blast it!$"
+    .string "Llamps!\n"
+    .string "Maleït sigui!$"
 
 SilphCo_5F_Text_BeauPostBattle::
-    .string "We worked on the ultimate Poké\n"
-    .string "Ball which would catch anything.$"
+    .string "Treballàvem en la Poké Ball\n"
+    .string "definitiva que ho capturaria tot.$"
 
 SilphCo_5F_Text_DaltonIntro::
-    .string "Whaaat?\p"
-    .string "There shouldn't be any children\n"
-    .string "here!$"
+    .string "Quèè?\p"
+    .string "No hi hauria d'haver cap nen\n"
+    .string "aquí!$"
 
 SilphCo_5F_Text_DaltonDefeat::
-    .string "Oh, goodness!$"
+    .string "Oh, mare meva!$"
 
 SilphCo_5F_Text_DaltonPostBattle::
-    .string "You're only on 5F.\n"
-    .string "It's a long way to my Boss!$"
+    .string "Només ets al 5è pis.\n"
+    .string "Queda molt fins al meu Cap!$"
 
 SilphCo_5F_Text_Grunt2Intro::
-    .string "Show Team Rocket a little respect!$"
+    .string "Mostra una mica de respecte\n"
+    .string "per l'Equip Rocket!$"
 
 SilphCo_5F_Text_Grunt2Defeat::
-    .string "Cough…\n"
-    .string "Cough…$"
+    .string "Tos…\n"
+    .string "Tos…$"
 
 SilphCo_5F_Text_Grunt2PostBattle::
-    .string "Which reminds me.\p"
-    .string "Koffing evolves into Weezing!$"
+    .string "Ara que ho penso.\p"
+    .string "Koffing evoluciona a Weezing!$"
 
 SilphCo_5F_Text_PorygonFirstVRMon::
-    .string "It's a Pokémon Report!\p"
-    .string "In rare cases, some Pokémon\n"
-    .string "may have different abilities.$"
+    .string "És un Informe Pokémon!\p"
+    .string "En casos rars, alguns Pokémon\n"
+    .string "poden tenir habilitats diferents.$"
 
 SilphCo_5F_Text_Over350TechniquesConfirmed::
-    .string "It's a Pokémon Report!\p"
-    .string "Over 350 Pokémon techniques have\n"
-    .string "been confirmed.$"
+    .string "És un Informe Pokémon!\p"
+    .string "S'han confirmat més de 350\n"
+    .string "tècniques Pokémon.$"
 
 SilphCo_5F_Text_SomeMonsEvolveWhenTraded::
-    .string "It's a Pokémon Report!\p"
-    .string "Some Pokémon have been confirmed\n"
-    .string "to evolve when they are traded.$"
+    .string "És un Informe Pokémon!\p"
+    .string "S'ha confirmat que alguns Pokémon\n"
+    .string "evolucionen en ser intercanviats.$"
 
 SilphCo_5F_Text_FloorSign::
-    .string "Silph Co. Head Office\n"
-    .string "5F$"
+    .string "Seu Central de Silph S.A.\n"
+    .string "5è pis$"
 
 SilphCo_5F_EventScript_Scientist::
 	lock
@@ -154,9 +155,9 @@ SilphCo_5F_EventScript_Scientist::
 	end
 
 SilphCo_5F_Text_RocketBossLookingForStrongMons::
-    .string "Those thugs that took over our\n"
-    .string "building…\p"
-    .string "Their Boss said he was looking for\n"
-    .string "strong Pokémon.\p"
-    .string "I hope our President managed to\n"
-    .string "avoid trouble…$"
+    .string "Aquells brètols que han ocupat\n"
+    .string "el nostre edifici…\p"
+    .string "El seu Cap deia que buscava\n"
+    .string "Pokémon forts.\p"
+    .string "Espero que el nostre President\n"
+    .string "hagi evitat problemes…$"

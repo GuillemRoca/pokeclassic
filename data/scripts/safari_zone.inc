@@ -72,25 +72,25 @@ SafariZone_EventScript_PokeblockPresent::
 	end
 
 SafariZone_Text_WouldYouLikeToExit:
-	.string "Would you like to exit the Safari\n"
-	.string "Zone right now?$"
+	.string "Vols sortir de la Zona Safari\n"
+	.string "ara mateix?$"
 
 SafariZone_Text_TimesUp:
-	.string "Ding-dong! Time's up!\n"
-	.string "Your Safari Game is over.$"
+	.string "Ding-dong! S'ha acabat el temps!\n"
+	.string "El teu Joc Safari ha acabat.$"
 
 SafariZone_Text_OutOfBalls:
-	.string "You've run out of Safari Balls.\n"
-	.string "Your Safari Game is over.$"
+	.string "T'has quedat sense Safari Balls.\n"
+	.string "El teu Joc Safari ha acabat.$"
 
 SafariZone_Text_PlacePokeblockOnFeeder:
-	.string "Would you like to place a {POKEBLOCK}\n"
-	.string "on the {POKEBLOCK} Feeder?$"
+	.string "Vols posar un {POKEBLOCK}\n"
+	.string "al Dispensador de {POKEBLOCK}?$"
 
 SafariZone_Text_PokeblockStillHere:
-	.string "The {STR_VAR_1} you left\n"
-	.string "before is still here.$"
+	.string "El {STR_VAR_1} que vas deixar\n"
+	.string "abans encara hi és.$"
 
 SafariZone_Text_PokeblockWasPlaced:
-	.string "The {STR_VAR_1} was placed\n"
-	.string "on the {POKEBLOCK} Feeder.$"
+	.string "El {STR_VAR_1} s'ha posat\n"
+	.string "al Dispensador de {POKEBLOCK}.$"

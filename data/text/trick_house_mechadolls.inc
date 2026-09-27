@@ -53,13 +53,13 @@ gTrickHouse_Mechadoll_Carvanha::
 	.string "Carvanha$"
 
 gTrickHouse_Mechadoll_BurnHeal::
-	.string "Burn Heal$"
+	.string "Remei Cremada$"
 
 gTrickHouse_Mechadoll_HarborMail::
-	.string "Harbor Mail$"
+	.string "Carta Port$"
 
 gTrickHouse_Mechadoll_SamePrice::
-	.string "Same price$"
+	.string "Mateix preu$"
 
 gTrickHouse_Mechadoll_60Yen::
 	.string "¥60$"
@@ -68,37 +68,37 @@ gTrickHouse_Mechadoll_55Yen::
 	.string "¥55$"
 
 gTrickHouse_Mechadoll_Nothing::
-	.string "Nothing$"
+	.string "Res$"
 
 gTrickHouse_Mechadoll_CostMore::
-	.string "They will cost more.$"
+	.string "Costaran més.$"
 
 gTrickHouse_Mechadoll_CostLess::
-	.string "They will cost less.$"
+	.string "Costaran menys.$"
 
 gTrickHouse_Mechadoll_SamePrice2::
-	.string "Same price$"
+	.string "Mateix preu$"
 
 gTrickHouse_Mechadoll_Male::
-	.string "Male$"
+	.string "Mascle$"
 
 gTrickHouse_Mechadoll_Female::
-	.string "Female$"
+	.string "Femella$"
 
 gTrickHouse_Mechadoll_Neither::
-	.string "Neither$"
+	.string "Cap dels dos$"
 
 gTrickHouse_Mechadoll_ElderlyMen::
-	.string "Elderly men$"
+	.string "Homes grans$"
 
 gTrickHouse_Mechadoll_ElderlyLadies::
-	.string "Elderly ladies$"
+	.string "Dones grans$"
 
 gTrickHouse_Mechadoll_SameNumber::
-	.string "Same number$"
+	.string "Mateix nombre$"
 
 gTrickHouse_Mechadoll_None::
-	.string "None$"
+	.string "Cap$"
 
 gTrickHouse_Mechadoll_One::
 	.string "1$"

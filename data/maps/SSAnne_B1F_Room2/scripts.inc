@@ -7,14 +7,15 @@ SSAnne_B1F_Room2_EventScript_Huey::
 	end
 
 SSAnne_B1F_Room2_Text_HueyIntro::
-    .string "Even us sailors have Pokémon, too!$"
+    .string "Fins i tot els mariners tenim\n"
+    .string "Pokémon!$"
 
 SSAnne_B1F_Room2_Text_HueyDefeat::
-    .string "Okay, you're not bad.$"
+    .string "D'acord, no estàs gens malament.$"
 
 SSAnne_B1F_Room2_Text_HueyPostBattle::
-    .string "We caught all our Pokémon while\n"
-    .string "we were out at sea.$"
+    .string "Hem capturat tots els nostres\n"
+    .string "Pokémon mentre érem a alta mar.$"
 
 SSAnne_B1F_Room2_EventScript_ItemTM44::
 	finditem ITEM_TM44, 1

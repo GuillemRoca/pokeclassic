@@ -28,20 +28,21 @@ CinnabarIsland_PokemonCenter_1F_EventScript_Youngster::
 	end
 
 CinnabarIsland_PokemonCenter_1F_Text_CinnabarGymLocked::
-    .string "The Gym Leader's friend used to\n"
-    .string "live in that burned-out mansion.\p"
-    .string "At least that's what they say.$"
+    .string "L'amic del Líder del Gimnàs vivia\n"
+    .string "en aquella mansió cremada.\p"
+    .string "Almenys això diuen.$"
 
 CinnabarIsland_PokemonCenter_1F_Text_VisitUnionRoom::
-    .string "Do you have lots of friends?\p"
-    .string "Getting older can be lonely, so\n"
-    .string "its important to try new things\l"
-    .string "every once in a while.\p"
-    .string "Who knows, you may end up making\n"
-    .string "new friends.$"
+    .string "Tens molts amics?\p"
+    .string "Fer-se gran pot ser solitari, així\n"
+    .string "que és important provar coses noves\l"
+    .string "de tant en tant.\p"
+    .string "Qui sap, potser acabaràs fent\n"
+    .string "nous amics.$"
 
 CinnabarIsland_PokemonCenter_1F_Text_EvolutionCanWaitForNewMoves::
-    .string "Pokémon can still learn techniques\n"
-    .string "after canceling evolution.\p"
-    .string "Evolution can wait until new moves\n"
-    .string "have been learned.$"
+    .string "Els Pokémon poden aprendre\n"
+    .string "tècniques després de cancel·lar\l"
+    .string "l'evolució.\p"
+    .string "L'evolució pot esperar fins que\n"
+    .string "s'hagin après nous moviments.$"

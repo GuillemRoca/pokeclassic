@@ -27,17 +27,17 @@ RockTunnel_B1F_EventScript_Sofia::
 	end
 
 RockTunnel_B1F_Text_SofiaIntro::
-    .string "Do you know how you can avoid\n"
-    .string "getting lost in the mountains?\p"
-    .string "You can bend twigs as trail\n"
-    .string "markers.$"
+    .string "Saps com evitar perdre't\n"
+    .string "a la muntanya?\p"
+    .string "Pots doblegar branques com a\n"
+    .string "marques del camí.$"
 
 RockTunnel_B1F_Text_SofiaDefeat::
     .string "Ohhh!\n"
-    .string "I did my best!$"
+    .string "Ho he donat tot!$"
 
 RockTunnel_B1F_Text_SofiaPostBattle::
-    .string "I want to go home!$"
+    .string "Vull tornar a casa!$"
 
 RockTunnel_B1F_EventScript_Martha::
 	trainerbattle_single TRAINER_PICNICKER_MARTHA, RockTunnel_B1F_Text_MarthaIntro, RockTunnel_B1F_Text_MarthaDefeat
@@ -45,16 +45,16 @@ RockTunnel_B1F_EventScript_Martha::
 	end
 
 RockTunnel_B1F_Text_MarthaIntro::
-    .string "I don't often come here, but I will\n"
-    .string "battle you.$"
+    .string "No vinc sovint per aquí, però\n"
+    .string "combatré amb tu.$"
 
 RockTunnel_B1F_Text_MarthaDefeat::
     .string "Oh!\n"
-    .string "I lost!$"
+    .string "He perdut!$"
 
 RockTunnel_B1F_Text_MarthaPostBattle::
-    .string "I like tiny Pokémon.\n"
-    .string "Big ones are too scary!$"
+    .string "M'agraden els Pokémon petits.\n"
+    .string "Els grans fan massa por!$"
 
 RockTunnel_B1F_EventScript_Dudley::
 	trainerbattle_single TRAINER_HIKER_DUDLEY, RockTunnel_B1F_Text_DudleyIntro, RockTunnel_B1F_Text_DudleyDefeat
@@ -63,15 +63,15 @@ RockTunnel_B1F_EventScript_Dudley::
 
 RockTunnel_B1F_Text_DudleyIntro::
     .string "Hahaha!\n"
-    .string "Can you beat my power?$"
+    .string "Pots superar el meu poder?$"
 
 RockTunnel_B1F_Text_DudleyDefeat::
-    .string "Oops!\n"
-    .string "Outmuscled!$"
+    .string "Ups!\n"
+    .string "Superat en força!$"
 
 RockTunnel_B1F_Text_DudleyPostBattle::
-    .string "I go for power because I hate\n"
-    .string "thinking.$"
+    .string "Prefereixo la força perquè\n"
+    .string "odio pensar.$"
 
 RockTunnel_B1F_EventScript_Allen::
 	trainerbattle_single TRAINER_HIKER_ALLEN, RockTunnel_B1F_Text_AllenIntro, RockTunnel_B1F_Text_AllenDefeat
@@ -79,16 +79,16 @@ RockTunnel_B1F_EventScript_Allen::
 	end
 
 RockTunnel_B1F_Text_AllenIntro::
-    .string "My Pokémon techniques will leave\n"
-    .string "you crying!$"
+    .string "Les meves tècniques Pokémon\n"
+    .string "et faran plorar!$"
 
 RockTunnel_B1F_Text_AllenDefeat::
-    .string "I give!\n"
-    .string "You're a better technician!$"
+    .string "Em rendeixo!\n"
+    .string "Ets millor tècnic!$"
 
 RockTunnel_B1F_Text_AllenPostBattle::
-    .string "In mountains, you'll often find\n"
-    .string "Rock-type Pokémon.$"
+    .string "A les muntanyes sovint trobaràs\n"
+    .string "Pokémon de tipus Roca.$"
 
 RockTunnel_B1F_EventScript_Eric::
 	trainerbattle_single TRAINER_HIKER_ERIC, RockTunnel_B1F_Text_EricIntro, RockTunnel_B1F_Text_EricDefeat
@@ -96,14 +96,14 @@ RockTunnel_B1F_EventScript_Eric::
 	end
 
 RockTunnel_B1F_Text_EricIntro::
-    .string "Hit me with your best shot!$"
+    .string "Dona'm tot el que tens!$"
 
 RockTunnel_B1F_Text_EricDefeat::
-    .string "Fire away!$"
+    .string "Endavant!$"
 
 RockTunnel_B1F_Text_EricPostBattle::
-    .string "I'll raise my Pokémon to beat\n"
-    .string "yours, kid.$"
+    .string "Criaré els meus Pokémon per\n"
+    .string "guanyar els teus, nen.$"
 
 RockTunnel_B1F_EventScript_Cooper::
 	trainerbattle_single TRAINER_POKEMANIAC_COOPER, RockTunnel_B1F_Text_CooperIntro, RockTunnel_B1F_Text_CooperDefeat
@@ -111,16 +111,16 @@ RockTunnel_B1F_EventScript_Cooper::
 	end
 
 RockTunnel_B1F_Text_CooperIntro::
-    .string "You have a Pokédex?\n"
-    .string "I want one, too.$"
+    .string "Tens una Pokédex?\n"
+    .string "Jo també en vull una.$"
 
 RockTunnel_B1F_Text_CooperDefeat::
-    .string "Shoot!\n"
-    .string "I am so jealous!$"
+    .string "Caram!\n"
+    .string "Quina enveja!$"
 
 RockTunnel_B1F_Text_CooperPostBattle::
-    .string "When you finish your Pokédex,\n"
-    .string "can I have it?$"
+    .string "Quan acabis la teva Pokédex,\n"
+    .string "me la pots donar?$"
 
 RockTunnel_B1F_EventScript_Steve::
 	trainerbattle_single TRAINER_POKEMANIAC_STEVE, RockTunnel_B1F_Text_SteveIntro, RockTunnel_B1F_Text_SteveDefeat
@@ -128,16 +128,16 @@ RockTunnel_B1F_EventScript_Steve::
 	end
 
 RockTunnel_B1F_Text_SteveIntro::
-    .string "Um… Do you know about Pokémon\n"
-    .string "cosplay?$"
+    .string "Mmm… Saps sobre el cosplay\n"
+    .string "Pokémon?$"
 
 RockTunnel_B1F_Text_SteveDefeat::
-    .string "Well, that's that.$"
+    .string "Bé, és el que hi ha.$"
 
 RockTunnel_B1F_Text_StevePostBattle::
-    .string "Pokémon cosplay is dressing up as\n"
-    .string "Pokémon for fun.\p"
-    .string "Clefairy is a favorite.$"
+    .string "El cosplay Pokémon és disfressar-se\n"
+    .string "de Pokémon per diversió.\p"
+    .string "Clefairy és un dels favorits.$"
 
 RockTunnel_B1F_EventScript_Winston::
 	trainerbattle_single TRAINER_POKEMANIAC_WINSTON, RockTunnel_B1F_Text_WinstonIntro, RockTunnel_B1F_Text_WinstonDefeat
@@ -145,16 +145,16 @@ RockTunnel_B1F_EventScript_Winston::
 	end
 
 RockTunnel_B1F_Text_WinstonIntro::
-    .string "I draw illustrations of Pokémon\n"
-    .string "when I'm home.$"
+    .string "Dibuixo il·lustracions de Pokémon\n"
+    .string "quan soc a casa.$"
 
 RockTunnel_B1F_Text_WinstonDefeat::
-    .string "Whew…\n"
-    .string "I'm exhausted…$"
+    .string "Uf…\n"
+    .string "Estic esgotat…$"
 
 RockTunnel_B1F_Text_WinstonPostBattle::
-    .string "I'm an artist, not a fighter.\n"
-    .string "I'll go home to draw.$"
+    .string "Sóc artista, no lluitador.\n"
+    .string "Me'n vaig a casa a dibuixar.$"
 
 RockTunnel_B1F_EventScript_HelmetGuy::
     lock
@@ -166,11 +166,12 @@ RockTunnel_B1F_EventScript_HelmetGuy::
     end
 
 RockTunnel_B1F_Text_Helmet::
-    .string "I was checking out the tunnel here\n"
-    .string "when a Geodude used Self Destruct!\p"
-    .string "It caused a small cave in.\n"
-    .string "Good thing I was wearing a helmet.\p"
-    .string "Here, you should take one too!$"
+    .string "Estava explorant el túnel quan\n"
+    .string "un Geodude va usar Autodestrucció!\p"
+    .string "Va causar un petit esfondrament.\n"
+    .string "Sort que portava casc.\p"
+    .string "Aquí tens, tu també n'hauries\n"
+    .string "de portar un!$"
 
 RockTunnel_B1F_EventScript_HelmetGuy2::
     lock
@@ -179,5 +180,6 @@ RockTunnel_B1F_EventScript_HelmetGuy2::
     end
 
 RockTunnel_B1F_Text_Helmet2::
-    .string "Sometimes, rocks will contain items.\n"
-    .string "But they could also contian Pokémon!$"
+    .string "De vegades, les roques contenen\n"
+    .string "objectes. Però també podrien\l"
+    .string "contenir Pokémon!$"

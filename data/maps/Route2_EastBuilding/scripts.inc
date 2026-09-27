@@ -22,12 +22,13 @@ Route2_EastBuilding_EventScript_Aide::
 	end
 
 Route2_EastBuilding_Text_GiveHM05::
-    .string "Hi! Thanks for meeting me, {PLAYER}.\p"
-    .string "We've been monitoring your progress\n"
-    .string "back at the lab! You're doing great!\p"
-    .string "I'm here to deliver your reward.\p"
-    .string "Professor Oak entrusted me with\n"
-    .string "HM05 for you.$"
+    .string "Hola! Gràcies per venir, {PLAYER}.\p"
+    .string "Hem estat seguint el teu progrés\n"
+    .string "des del laboratori! Vas molt bé!\p"
+    .string "Sóc aquí per lliurar-te la\n"
+    .string "recompensa.\p"
+    .string "El Professor Oak m'ha confiat\n"
+    .string "la MO05 per a tu.$"
 
 Route2_EastBuilding_EventScript_AlreadyGotHM05::
 	msgbox Route2_EastBuilding_Text_ExplainHM05, MSGBOX_DEFAULT
@@ -35,10 +36,10 @@ Route2_EastBuilding_EventScript_AlreadyGotHM05::
 	end
 
 Route2_EastBuilding_Text_ExplainHM05::
-    .string "HM05 contains the hidden move\n"
+    .string "La MO05 conté el moviment ocult\n"
     .string "Flash.\p"
-    .string "Flash lights up even the darkest\n"
-    .string "of caves and dungeons.$"
+    .string "Flash il·lumina fins i tot les\n"
+    .string "coves més fosques.$"
 
 Route2_EastBuilding_EventScript_AideNextLocation::
 	setflag FLAG_QUEUE_AIDE_CALL
@@ -50,5 +51,5 @@ Route2_EastBuilding_EventScript_Rocker::
 	end
 
 Route2_EastBuilding_Text_CanGetThroughRockTunnel::
-    .string "Once a Pokémon learns Flash, you\n"
-    .string "can get through Rock Tunnel.$"
+    .string "Quan un Pokémon aprèn Flash, pots\n"
+    .string "travessar el Túnel Roca.$"

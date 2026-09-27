@@ -40,38 +40,40 @@ SilphCo_3F_EventScript_Grunt::
 	end
 
 SilphCo_3F_Text_WhatAmIToDo::
-    .string "I work for Silph Co.\n"
-    .string "What am I to do?$"
+    .string "Treballo per Silph S.A.\n"
+    .string "Què he de fer?$"
 
 SilphCo_3F_Text_YouAndYourMonsSavedUs::
     .string "{PLAYER}!\n"
-    .string "You and your Pokémon saved us!$"
+    .string "Tu i els teus Pokémon ens heu\l"
+    .string "salvat!$"
 
 SilphCo_3F_Text_GruntIntro::
-    .string "Quit messing with us, kid!$"
+    .string "Deixa de molestar-nos, nen!$"
 
 SilphCo_3F_Text_GruntDefeat::
-    .string "I give up!$"
+    .string "Em rendeixo!$"
 
 SilphCo_3F_Text_GruntPostBattle::
-    .string "A hint? You can open doors with\n"
-    .string "a Card Key!$"
+    .string "Una pista? Pots obrir portes amb\n"
+    .string "una Clau Targeta!$"
 
 SilphCo_3F_Text_JoseIntro::
-    .string "I support Team Rocket more than\n"
-    .string "I support Silph Co.!$"
+    .string "Dono més suport a l'Equip Rocket\n"
+    .string "que a Silph S.A.!$"
 
 SilphCo_3F_Text_JoseDefeat::
-    .string "You really got me!$"
+    .string "M'has pillat de debò!$"
 
 SilphCo_3F_Text_JosePostBattle::
-    .string "Humph…\p"
-    .string "Team Rocket said that if I helped\n"
-    .string "them, they'd let me study Pokémon.$"
+    .string "Bah…\p"
+    .string "L'Equip Rocket va dir que si els\n"
+    .string "ajudava, em deixarien estudiar\l"
+    .string "Pokémon.$"
 
 SilphCo_3F_Text_FloorSign::
-    .string "Silph Co. Head Office\n"
-    .string "3F$"
+    .string "Seu Central de Silph S.A.\n"
+    .string "3r pis$"
 
 SilphCo_3F_EventScript_PostgameGrunt4::
 	trainerbattle_single TRAINER_POSTGAME_ROCKET_4, SilphCo_3F_Text_PostgameGrunt4Intro, SilphCo_3F_Text_PostgameGrunt4Defeat
@@ -79,13 +81,14 @@ SilphCo_3F_EventScript_PostgameGrunt4::
 	end
 
 SilphCo_3F_Text_PostgameGrunt4Intro::
-    .string "Rockets never say die!$"
+    .string "Els Rockets mai ens rendim!$"
 
 SilphCo_3F_Text_PostgameGrunt4Defeat::
-    .string "We're dead!$"
+    .string "Estem acabats!$"
 
 SilphCo_3F_Text_PostgameGrunt4PostBattle::
-    .string "This was our last shot.\p"
-    .string "The Boss has taken the Silph\n"
-    .string "Co President hostage again.\p"
-    .string "There's no coming back from this!$"
+    .string "Aquesta era la nostra última\n"
+    .string "oportunitat.\p"
+    .string "El Cap ha tornat a prendre\n"
+    .string "ostatge el President de Silph.\p"
+    .string "No hi ha marxa enrere!$"

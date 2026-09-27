@@ -20,27 +20,27 @@ FuchsiaCity_PokemonCenter_1F_EventScript_Man::
 	end
 
 FuchsiaCity_PokemonCenter_1F_Text_CantBecomeGoodTrainerWithOneMon::
-    .string "You can't become a good Trainer\n"
-    .string "with just one strong Pokémon.\p"
-    .string "But raising many Pokémon evenly\n"
-    .string "is no easy task, either.$"
+    .string "No pots ser un bon Entrenador\n"
+    .string "amb un sol Pokémon fort.\p"
+    .string "Però criar molts Pokémon de forma\n"
+    .string "equilibrada tampoc és fàcil.$"
 
 FuchsiaCity_PokemonCenter_1F_EventScript_CooltrainerF::
 	msgbox FuchsiaCity_PokemonCenter_1F_Text_PokemonLeagueWestOfViridian, MSGBOX_NPC
 	end
 
 FuchsiaCity_PokemonCenter_1F_Text_PokemonLeagueWestOfViridian::
-    .string "There's a narrow trail west of\n"
-    .string "Viridian City.\p"
-    .string "It goes to the Pokémon League HQ.\n"
-    .string "The HQ governs all Trainers.$"
+    .string "Hi ha un camí estret a l'oest\n"
+    .string "de Ciutat Viridian.\p"
+    .string "Porta a la Seu de la Lliga Pokémon.\n"
+    .string "La Seu governa tots els Entrenadors.$"
 
 FuchsiaCity_PokemonCenter_1F_EventScript_Youngster::
 	msgbox FuchsiaCity_PokemonCenter_1F_Text_VisitSafariZoneForPokedex, MSGBOX_NPC
 	end
 
 FuchsiaCity_PokemonCenter_1F_Text_VisitSafariZoneForPokedex::
-    .string "If you're working on a PokéDex,\n"
-    .string "visit the Safari Zone.\p"
-    .string "All sorts of rare Pokémon breed\n"
-    .string "there.$"
+    .string "Si estàs treballant en la Pokédex,\n"
+    .string "visita la Zona Safari.\p"
+    .string "Tota mena de Pokémon rars\n"
+    .string "es crien allà.$"

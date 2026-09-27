@@ -15,12 +15,12 @@ EventScript_Dresser::
 	end
 
 Text_ChangeClothes:
-	.string "It's full of clean clothes!\p"
-	.string "Would you like to change?$"
+	.string "Està ple de roba neta!\p"
+	.string "Vols canviar-te?$"
 
 Text_ChooseRegionStyle:
-	.string "Which drawer do you want to\n"
-	.string "to choose an outfit from?$"
+	.string "De quin calaix vols\n"
+	.string "triar un vestit?$"
 
 EventScript_CloseDresser::
 	closemessage
@@ -35,8 +35,8 @@ EventScript_Dresser_Exit::
 	end
 
 Text_ChangeClothes_Cancel:
-	.string "Would you like to keep\n"
-	.string "your current outfit?$"
+	.string "Vols mantenir\n"
+	.string "el teu vestit actual?$"
 
 EventScript_Dresser_Loop::
 	message Text_ChooseRegionStyle
@@ -51,8 +51,8 @@ EventScript_Dresser_Loop::
 	end
 
 Text_ChooseOutfit:
-	.string "There are lots of options!\n"
-	.string "Choose a style!$"
+	.string "Hi ha moltes opcions!\n"
+	.string "Tria un estil!$"
 
 EventScript_KantoCostumes::
 	msgbox Text_ChooseOutfit
@@ -212,7 +212,7 @@ EventScript_Dresser_Finish::
 	end
 
 Text_ChangeClothes_Confirm:
-	.string "Wear this outfit?$"
+	.string "Portar aquest vestit?$"
 
 Text_ChangeClothes_Finished:
-	.string "Lookin' good!$"
+	.string "Queda genial!$"

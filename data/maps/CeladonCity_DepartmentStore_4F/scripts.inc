@@ -6,31 +6,31 @@ CeladonCity_DepartmentStore_4F_EventScript_Man::
 	end
 
 CeladonCity_DepartmentStore_4F_Text_GettingPokeDollAsPresent::
-    .string "I'm getting a present for my\n"
-    .string "girlfriend.\p"
-    .string "I guess a Poké Doll will be it.\n"
-    .string "It's the popular thing.$"
+    .string "Busco un regal per a la meva\n"
+    .string "xicota.\p"
+    .string "Suposo que serà una Poké Doll.\n"
+    .string "És el que es porta.$"
 
 CeladonCity_DepartmentStore_4F_EventScript_Youngster::
 	msgbox CeladonCity_DepartmentStore_4F_Text_CanRunAwayWithPokeDoll, MSGBOX_NPC
 	end
 
 CeladonCity_DepartmentStore_4F_Text_CanRunAwayWithPokeDoll::
-    .string "I heard something useful.\p"
-    .string "If a wild Pokémon appears, you can\n"
-    .string "distract it with a Poké Doll.\p"
-    .string "You can run away while the wild\n"
-    .string "Pokémon is distracted.$"
+    .string "He sentit una cosa útil.\p"
+    .string "Si apareix un Pokémon salvatge,\n"
+    .string "pots distreure'l amb una Poké Doll.\p"
+    .string "Pots fugir mentre el Pokémon\n"
+    .string "salvatge està distret.$"
 
 CeladonCity_DepartmentStore_4F_EventScript_FloorSign::
 	msgbox CeladonCity_DepartmentStore_4F_Text_FloorSign, MSGBOX_SIGN
 	end
 
 CeladonCity_DepartmentStore_4F_Text_FloorSign::
-    .string "Express yourself with gifts!\n"
-    .string "4F: Wise Man Gifts\p"
-    .string "Evolution Special!\n"
-    .string "Element Stones on sale now!$"
+    .string "Expressa't amb regals!\n"
+    .string "4F: Regals del Savi\p"
+    .string "Especial Evolució!\n"
+    .string "Pedres Elementals en oferta!$"
 
 CeladonCity_DepartmentStore_4F_EventScript_Clerk::
 	lock

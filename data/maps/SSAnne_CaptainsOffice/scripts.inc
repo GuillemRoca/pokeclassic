@@ -29,37 +29,38 @@ SSAnne_CaptainsOffice_EventScript_Captain::
 	end
 
 SSAnne_CaptainsOffice_Text_CaptainIFeelSeasick::
-    .string "Captain: Ooargh…\n"
-    .string "I feel hideous…\l"
-    .string "Urrp! Seasick…$"
+    .string "Capità: Ooargh…\n"
+    .string "Em trobo fatal…\l"
+    .string "Urrp! Marejat…$"
 
 SSAnne_CaptainsOffice_Text_RubbedCaptainsBack::
-    .string "{PLAYER} rubbed the Captain's\n"
-    .string "back!\p"
-    .string "Rub-rub…\n"
-    .string "Rub-rub-rub…$"
+    .string "{PLAYER} va fregar l'esquena\n"
+    .string "del Capità!\p"
+    .string "Frega-frega…\n"
+    .string "Frega-frega-frega…$"
 
 SSAnne_CaptainsOffice_Text_ThankYouHaveHMForCut::
-    .string "Captain: Whew! Thank you!\n"
-    .string "I'm feeling much better now.\p"
-    .string "You want to see my hidden cut\n"
-    .string "technique?\p"
-    .string "I could show you my prized cut\n"
-    .string "technique if I weren't so ill…\p"
-    .string "I know! You can have this!\n"
-    .string "This Hidden Machine!\p"
-    .string "Teach cut to your Pokémon, and\n"
-    .string "you can see it cut anytime!$"
+    .string "Capità: Uf! Gràcies!\n"
+    .string "Em trobo molt millor ara.\p"
+    .string "Vols veure la meva tècnica\n"
+    .string "secreta de tall?\p"
+    .string "Podria ensenyar-te la meva\n"
+    .string "tècnica si no estigués tan\l"
+    .string "malalt…\p"
+    .string "Ja ho sé! Pots tenir això!\n"
+    .string "Aquesta Màquina Oculta!\p"
+    .string "Ensenya tall al teu Pokémon,\n"
+    .string "i podràs veure'l tallar sempre!$"
 
 SSAnne_CaptainsOffice_Text_ObtainedHM01FromCaptain::
-    .string "{PLAYER} obtained HM01\n"
-    .string "from the Captain!$"
+    .string "{PLAYER} ha obtingut la MO01\n"
+    .string "del Capità!$"
 
 SSAnne_CaptainsOffice_Text_ExplainCut::
-    .string "Using cut, you can chop down\n"
-    .string "small trees.\p"
-    .string "Why not try it with the trees\n"
-    .string "around Vermilion City?$"
+    .string "Amb tall, pots tallar arbres\n"
+    .string "petits.\p"
+    .string "Per què no ho proves amb els\n"
+    .string "arbres de Ciutat Vermilion?$"
 
 SSAnne_CaptainsOffice_EventScript_NoRoomForCut::
 	msgbox SSAnne_CaptainsOffice_Text_YouHaveNoRoomForThis
@@ -71,9 +72,9 @@ SSAnne_CaptainsOffice_EventScript_NoRoomForCut::
 
 SSAnne_CaptainsOffice_Text_YouHaveNoRoomForThis::
     .string "Oh, no!\n"
-    .string "You have no room for this!\p"
-    .string "Oh no, I feel another wave\n"
-    .string "coming on --- HURGH!!$"
+    .string "No tens espai per a això!\p"
+    .string "Oh no, sento una altra onada\n"
+    .string "que ve --- HURGH!!$"
 
 SSAnne_CaptainsOffice_EventScript_AlreadyGotCut::
 	applymovement LOCALID_CAPTAIN, Common_Movement_FacePlayer
@@ -83,25 +84,25 @@ SSAnne_CaptainsOffice_EventScript_AlreadyGotCut::
 	end
 
 SSAnne_CaptainsOffice_Text_SSAnneWillSetSailSoon::
-    .string "Captain: …Whew!\p"
-    .string "Now that I'm not sick anymore,\n"
-    .string "I guess it's time.\p"
-    .string "The S.S. Anne will set sail soon!\p"
-    .string "Farewell, until our return to\n"
-    .string "Vermilion City!$"
+    .string "Capità: …Uf!\p"
+    .string "Ara que ja no estic malalt,\n"
+    .string "suposo que és l'hora.\p"
+    .string "L'SS Anna zarparà aviat!\p"
+    .string "Adéu, fins al nostre retorn a\n"
+    .string "Ciutat Vermilion!$"
 
 SSAnne_CaptainsOffice_EventScript_TrashCan::
 	msgbox SSAnne_CaptainsOffice_Text_YuckShouldntHaveLooked, MSGBOX_SIGN
 	end
 
 SSAnne_CaptainsOffice_Text_YuckShouldntHaveLooked::
-    .string "Yuck!\n"
-    .string "Shouldn't have looked!$"
+    .string "Ecs!\n"
+    .string "No hauria d'haver mirat!$"
 
 SSAnne_CaptainsOffice_EventScript_Book::
 	msgbox SSAnne_CaptainsOffice_Text_HowToConquerSeasickness, MSGBOX_SIGN
 	end
 
 SSAnne_CaptainsOffice_Text_HowToConquerSeasickness::
-    .string "How to Conquer Seasickness…\n"
-    .string "The Captain's reading this!$"
+    .string "Com Superar el Mareig…\n"
+    .string "El Capità està llegint això!$"

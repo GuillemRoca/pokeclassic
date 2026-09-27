@@ -15,16 +15,16 @@ CeladonCity_GameCorner_PrizeRoom_EventScript_BaldingMan::
 	end
 
 CeladonCity_GameCorner_PrizeRoom_Text_FancyThatPorygon::
-    .string "I sure do fancy those big plushies!\n"
-    .string "But, it's hard to win at slots!$"
+    .string "M'encanten aquells peluixos grans!\n"
+    .string "Però és difícil guanyar a les slots!$"
 
 CeladonCity_GameCorner_PrizeRoom_EventScript_OldMan::
 	msgbox CeladonCity_GameCorner_PrizeRoom_Text_RakedItInToday, MSGBOX_NPC
 	end
 
 CeladonCity_GameCorner_PrizeRoom_Text_RakedItInToday::
-    .string "Gahaha! I raked it in today!\n"
-    .string "If only every day were like this…$"
+    .string "Gahaha! Avui ho he arrasat!\n"
+    .string "Si cada dia fos com avui…$"
 
 
 CeladonCity_GameCorner_EventScript_PrizeCornerBigDolls::
@@ -37,9 +37,9 @@ CeladonCity_GameCorner_EventScript_PrizeCornerBigDolls::
 	end
 
 CeladonCity_GameCorner_Text_ExchangeCoinsForPrizes:
-	.string "Welcome.\p"
-	.string "You can exchange your Coins for\n"
-	.string "prizes here.$"
+	.string "Benvingut.\p"
+	.string "Pots canviar les teves Monedes\n"
+	.string "per premis aquí.$"
 
 CeladonCity_GameCorner_EventScript_ChooseBigDollPrizeMessage::
 	message CeladonCity_GameCorner_Text_WhichPrize
@@ -49,7 +49,7 @@ CeladonCity_GameCorner_EventScript_ChooseBigDollPrizeMessage::
 	goto CeladonCity_GameCorner_EventScript_ChooseBigDollPrize
 
 CeladonCity_GameCorner_Text_WhichPrize:
-	.string "Which prize would you like?$"
+	.string "Quin premi voldries?$"
 
 CeladonCity_GameCorner_EventScript_ChooseBigDollPrize::
 	multichoice 12, 0, MULTI_GAME_CORNER_BIG_DOLLS, FALSE
@@ -196,7 +196,7 @@ CeladonCity_GameCorner_EventScript_ConfirmBigDollPrize::
 
 
 CeladonCity_GameCorner_Text_SoYourChoiceIsX:
-	.string "So your choice is {STR_VAR_1}?$"
+	.string "La teva elecció és {STR_VAR_1}?$"
 
 CeladonCity_GameCorner_EventScript_NotEnoughCoinsForBigDoll::
 	msgbox CeladonCity_GameCorner_Text_NotEnoughCoins, MSGBOX_DEFAULT
@@ -215,14 +215,14 @@ CeladonCity_GameCorner_EventScript_CancelBigDollSelect::
 	end
 
 CeladonCity_GameCorner_Text_SendToYourHomePC:
-	.string "Thank you!\n"
-	.string "We'll send it to your PC at home.$"
+	.string "Gràcies!\n"
+	.string "L'enviarem al teu PC de casa.$"
 
 CeladonCity_GameCorner_Text_NotEnoughCoins:
-	.string "You don't have enough coins.$"
+	.string "No tens prou monedes.$"
 
 CeladonCity_GameCorner_Text_SeeYouAgain:
-	.string "See you again!$"
+	.string "Fins aviat!$"
 
 CeladonCity_GameCorner_EventScript_PrizeCornerDolls::
 	lock

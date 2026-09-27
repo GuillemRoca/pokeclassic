@@ -26,15 +26,15 @@ PokemonMansion_1F_EventScript_Ted::
 	end
 
 PokemonMansion_1F_Text_TedIntro::
-    .string "Who are you?\n"
-    .string "There shouldn't be anyone here.$"
+    .string "Qui ets?\n"
+    .string "Aquí no hi hauria de ser ningú.$"
 
 PokemonMansion_1F_Text_TedDefeat::
-    .string "Ouch!$"
+    .string "Au!$"
 
 PokemonMansion_1F_Text_TedPostBattle::
-    .string "A key? I don't know what you're\n"
-    .string "talking about.$"
+    .string "Una clau? No sé de què\n"
+    .string "em parles.$"
 
 PokemonMansion_1F_EventScript_Johnson::
 	trainerbattle_single TRAINER_YOUNGSTER_JOHNSON, PokemonMansion_1F_Text_JohnsonIntro, PokemonMansion_1F_Text_JohnsonDefeat
@@ -42,17 +42,17 @@ PokemonMansion_1F_EventScript_Johnson::
 	end
 
 PokemonMansion_1F_Text_JohnsonIntro::
-    .string "W-w-waah! You startled me!\n"
-    .string "I thought you were a ghost.$"
+    .string "A-a-aah! M'has espantat!\n"
+    .string "Pensava que eres un fantasma.$"
 
 PokemonMansion_1F_Text_JohnsonDefeat::
-    .string "Tch!\n"
-    .string "I can't get any wins.$"
+    .string "Tsc!\n"
+    .string "No guanyo cap combat.$"
 
 PokemonMansion_1F_Text_JohnsonPostBattle::
-    .string "I was exploring here by myself,\n"
-    .string "but I feel spooked.\p"
-    .string "I ought to go soon.$"
+    .string "Estava explorant aquí sol,\n"
+    .string "però tinc mala espina.\p"
+    .string "Hauria de marxar aviat.$"
 
 PokemonMansion_1F_EventScript_ItemEscapeRope::
 	finditem ITEM_ESCAPE_ROPE, 1

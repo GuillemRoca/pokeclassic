@@ -1,85 +1,86 @@
 BerryBlender_Text_BlendWithTheBlendMaster:
-	.string "Blend Master: Indeed I am!\n"
-	.string "The Blend Master am I!\p"
-	.string "Blend with me, and you shall witness\n"
-	.string "the mastery I bring to blending!$"
+	.string "Mestre Barrejador: En efecte!\n"
+	.string "Jo sóc el Mestre Barrejador!\p"
+	.string "Barreja amb mi i veuràs\n"
+	.string "la maestria que aporto a la barreja!$"
 
 BerryBlender_Text_SeeMyMasteryInAction:
-	.string "Blend Master: Hmmm! So, you wish to\n"
-	.string "see my mastery in action?$"
+	.string "Mestre Barrejador: Hmm! Llavors,\n"
+	.string "vols veure la meva maestria en acció?$"
 
 BerryBlender_Text_TooBusyNowIsee:
-	.string "Hmmm!\p"
-	.string "So, you are too busy now, I see!\p"
-	.string "But fear not!\n"
-	.string "I shall be here all day!\l"
-	.string "Hurry back from your errand!$"
+	.string "Hmm!\p"
+	.string "Sembla que ara ets massa ocupat!\p"
+	.string "Però no temis!\n"
+	.string "Aquí estaré tot el dia!\l"
+	.string "Torna ràpid del teu encàrrec!$"
 
 BerryBlender_Text_BlendMasterNoBerries:
-	.string "Hmmm!\p"
-	.string "You haven't got a single Berry!\p"
-	.string "I shall be here all day!\n"
-	.string "Hurry back with some Berries!$"
+	.string "Hmm!\p"
+	.string "No tens ni una sola Baia!\p"
+	.string "Aquí estaré tot el dia!\n"
+	.string "Torna ràpid amb algunes Baies!$"
 
 BerryBlender_Text_BlendMasterKnowHowToMakePokeblocks:
-	.string "Of course!\n"
-	.string "Of course!\p"
-	.string "Incidentally…\n"
-	.string "You do know how to blend {POKEBLOCK}S\l"
-	.string "from Berries?$"
+	.string "Per descomptat!\n"
+	.string "Per descomptat!\p"
+	.string "Per cert…\n"
+	.string "Saps com barrejar {POKEBLOCK}S\l"
+	.string "a partir de Baies?$"
 
 BerryBlender_Text_BlendMasterExplainBerryBlending:
-	.string "Hmmm!\p"
-	.string "Ah, but it is a simple process!\p"
-	.string "When the Blender's arrow comes to\n"
-	.string "your marker, just press the A Button.\p"
-	.string "That's all you have to do.\p"
-	.string "When you see how precisely I press\n"
-	.string "the A Button, you will understand.$"
+	.string "Hmm!\p"
+	.string "Però és un procés senzill!\p"
+	.string "Quan la fletxa de la Batedora arribi\n"
+	.string "al teu marcador, prem el Botó A.\p"
+	.string "Això és tot el que has de fer.\p"
+	.string "Quan vegis amb quina precisió\n"
+	.string "premo el Botó A, entendràs.$"
 
 BerryBlender_Text_BlendMasterLetsBerryBlender:
-	.string "Fine!\p"
-	.string "Let's get started, then!\p"
-	.string "All together with the Blend Master,\n"
-	.string "let's Berry Blender!$"
+	.string "Molt bé!\p"
+	.string "Comencem, doncs!\p"
+	.string "Tots junts amb el Mestre Barrejador,\n"
+	.string "anem a la Batedora de Baies!$"
 
 BerryBlender_Text_BlendMasterNoPokeblockCase:
-	.string "Hmmm!\p"
-	.string "You don't appear to have gotten\n"
-	.string "the {POKEBLOCK} Case!\p"
-	.string "I shall be here all day!\n"
-	.string "Obtain the {POKEBLOCK} Case and hurry back!$"
+	.string "Hmm!\p"
+	.string "No sembla que tinguis la\n"
+	.string "Capseta de {POKEBLOCK}!\p"
+	.string "Aquí estaré tot el dia!\n"
+	.string "Aconsegueix la Capseta i torna ràpid!$"
 
 BerryBlender_Text_BlendMasterPokeblockCaseFull:
-	.string "Hmmm!\p"
-	.string "Your {POKEBLOCK} Case appears to be full!\p"
-	.string "I shall be here all day!\n"
-	.string "Use some {POKEBLOCK}S and hurry back!$"
+	.string "Hmm!\p"
+	.string "La teva Capseta de {POKEBLOCK} sembla plena!\p"
+	.string "Aquí estaré tot el dia!\n"
+	.string "Usa alguns {POKEBLOCK}S i torna ràpid!$"
 
 BerryBlender_Text_WhoaAwesome:
-	.string "Whoa!\n"
-	.string "Awesome!$"
+	.string "Vaja!\n"
+	.string "Increïble!$"
 
 BerryBlender_Text_WickedlyFast:
-	.string "Wickedly fast!$"
+	.string "Velocíssim!$"
 
 BerryBlender_Text_WhatAnExpert:
-	.string "What an expert!$"
+	.string "Quin expert!$"
 
 BerryBlender_Text_MadeAmazingPokeblocksWithMaster:
-	.string "When I blended with the Master,\n"
-	.string "we made amazing {POKEBLOCK}S!$"
+	.string "Quan vaig barrejar amb el Mestre,\n"
+	.string "vam fer {POKEBLOCK}S increïbles!$"
 
 BerryBlender_Text_QualitiesOfBlendMaster:
-	.string "Eyes that track the arrow with\n"
-	.string "machinelike intensity…\p"
-	.string "A hand that taps the A Button\n"
-	.string "with clockwork-like precision…\p"
-	.string "Possessing these qualities makes\n"
-	.string "the Blend Master truly great.$"
+	.string "Ulls que segueixen la fletxa\n"
+	.string "amb intensitat maquinal…\p"
+	.string "Una mà que prem el Botó A\n"
+	.string "amb precisió de rellotge…\p"
+	.string "Tenir aquestes qualitats fa\n"
+	.string "el Mestre Barrejador realment gran.$"
 
 BerryBlender_Text_MasterWorksOnSkillsInMountains:
-	.string "The Blend Master's supposed to work\n"
-	.string "on his skills deep in the mountains.\p"
-	.string "Sometimes, he comes to Lilycove\n"
-	.string "to blend Berries all day long.$"
+	.string "Se suposa que el Mestre Barrejador\n"
+	.string "treballa les seves habilitats a les\l"
+	.string "muntanyes.\p"
+	.string "De vegades, ve a Lilycove\n"
+	.string "a barrejar Baies tot el dia.$"

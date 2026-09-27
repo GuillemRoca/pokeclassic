@@ -12,7 +12,7 @@ Route8_WestEntrance_EventScript_Guard::
 	end
 
 Route8_WestEntrance_Text_HiHowsItGoing::
-    .string "Hi, how's it going?$"
+    .string "Hola, com va?$"
 
 Route8_WestEntrance_EventScript_RoadsClosed::
 	msgbox Route8_WestEntrance_Text_RoadsClosed, MSGBOX_NPC
@@ -20,9 +20,9 @@ Route8_WestEntrance_EventScript_RoadsClosed::
 	end
 
 Route8_WestEntrance_Text_RoadsClosed::
-    .string "Oh, by the way, the road's closed.\p"
-    .string "The International Police are on\n"
-    .string "the hunt for Team Rocket!$"
+    .string "Ah, per cert, el camí és tancat.\p"
+    .string "La Policia Internacional està\n"
+    .string "buscant l'Equip Rocket!$"
 
 Route8_WestEntrance_EventScript_GuardThirsty::
 	msgbox Route8_WestEntrance_Text_ThirstyOnGuardDuty, MSGBOX_NPC
@@ -53,12 +53,12 @@ GateGuard_GiveStone::
 	end
 
 GateGuard_Text_FoundThis::
-	.string "Hey, since you shared your\n"
-	.string "Tea with me, why don't you\l"
-	.string "take this?\p"
-	.string "It's been in the Lost & Found\n"
-	.string "forever, I don't think anyone\l"
-	.string "is going to claim it!$"
+	.string "Ei, ja que has compartit el teu\n"
+	.string "te amb mi, per què no agafes\l"
+	.string "això?\p"
+	.string "Fa temps que és a Objectes\n"
+	.string "Perduts. No crec que ningú\l"
+	.string "el reclami!$"
 
 GateGuard_ResetSnorlax1::
 	goto_if_unset FLAG_HIDE_ROUTE12_SNORLAX, GateGuard_GiveNugget
@@ -68,11 +68,12 @@ GateGuard_ResetSnorlax1::
 	end
 
 GateGuard_Text_SnorlaxLavender:
-	.string "Oh, did you hear?\p"
-	.string "A huge Pokémon was seen\n"
-	.string "sleeping in the road near\l"
-	.string "Lavender Town!\p"
-	.string "I wish I could nap like that.$"
+	.string "Oh, ho has sentit?\p"
+	.string "Han vist un Pokémon enorme\n"
+	.string "dormint al camí prop de\l"
+	.string "Poble Lavanda!\p"
+	.string "M'agradaria fer migdiades\n"
+	.string "així.$"
 
 GateGuard_ResetSnorlax2::
 	goto_if_unset FLAG_HIDE_ROUTE16_SNORLAX, GateGuard_GiveStone
@@ -82,31 +83,32 @@ GateGuard_ResetSnorlax2::
 	end
 
 GateGuard_Text_SnorlaxCyclingRoad::
-	.string "Oh, did you hear?\p"
-	.string "A huge Pokémon was seen\n"
-	.string "sleeping in the road near\l"
-	.string "Celadon City!\p"
-	.string "I wish I could nap like that.$"
+	.string "Oh, ho has sentit?\p"
+	.string "Han vist un Pokémon enorme\n"
+	.string "dormint al camí prop de\l"
+	.string "Ciutat Celadó!\p"
+	.string "M'agradaria fer migdiades\n"
+	.string "així.$"
 
 Route8_WestEntrance_Text_ThirstyOnGuardDuty::
-    .string "I'm on guard duty.\n"
-    .string "Gee, I'm thirsty, though!$"
+    .string "Estic de guàrdia.\n"
+    .string "Ui, quina set que tinc!$"
 
 Route8_WestEntrance_Text_ThatTeaLooksTasty::
-    .string "Oh, that tea…\n"
-    .string "It looks awfully tasty…$"
+    .string "Oh, aquell te…\n"
+    .string "Té una pinta tan bona…$"
 
 Route8_WestEntrance_Text_ThanksIllShareTeaWithGuards::
-    .string "Huh? I can have this drink?\n"
-    .string "Gee, thanks!\l"
+    .string "Eh? Me'l puc quedar?\n"
+    .string "Gràcies!\l"
     .string "… …\l"
-    .string "Glug, glug…\l"
+    .string "Glup, glup…\l"
     .string "… …\l"
     .string "Gulp…\l"
     .string "… …\l"
-    .string "That really hits the spot!…\p"
-    .string "I'll share this tea with the other\n"
-    .string "guards!$"
+    .string "Això sí que m'ha anat bé!…\p"
+    .string "Compartiré aquest te amb els\n"
+    .string "altres guàrdies!$"
 
 Route8_WestEntrance_EventScript_DenyGuard::
 	msgbox Route8_WestEntrance_Text_ThatsAShame, MSGBOX_NPC
@@ -114,8 +116,8 @@ Route8_WestEntrance_EventScript_DenyGuard::
 	end
 
 Route8_WestEntrance_Text_ThatsAShame::
-	.string "Oh, that's a shame.\n"
-	.string "I sure could use a drink...$"
+	.string "Oh, quina llàstima.\n"
+	.string "Bé m'aniria una beguda...$"
 
 Route8_WestEntrance_EventScript_GuardSmallTalk::
 	goto_if_unset FLAG_DELIVERED_ROCKET_PLANS, Route8_WestEntrance_EventScript_RoadsClosed
@@ -130,9 +132,9 @@ Route8_WestEntrance_EventScript_Jenny::
 	end
 
 Route8_WestEntrance_Text_TipAboutTeamRocket::
-	.string "We received a tip that Team Rocket\n"
-	.string "may be passing this way, so we can't\l"
-	.string "let anyone through right now.$"
+	.string "Hem rebut una pista que el Team\n"
+	.string "Rocket podria passar per aquí, així\l"
+	.string "que no podem deixar passar ningú.$"
 
 Route8_WestEntrance_EventScript_DeliverRocketPlans::
 	removeitem ITEM_ROCKET_PLANS
@@ -151,14 +153,14 @@ Route8_WestEntrance_EventScript_DeliverRocketPlans::
 	end
 
 Route8_WestEntrance_Text_DeliverRocketPlans::
-	.string "What? You've found some of Team\n"
-	.string "Rocket's plans?\p"
-	.string "This better not be a prank, kid.\p"
-	.string "I'll have to see those...\n"
+	.string "Què? Has trobat plans del\n"
+	.string "Equip Rocket?\p"
+	.string "Més val que no sigui una broma.\p"
+	.string "Els hauré de veure...\n"
 	.string "... ... ...\p"
-	.string "These appear to be authentic!\p"
-	.string "I need to deliver these to the\n"
-	.string "Inspector right away!$"
+	.string "Semblen autèntics!\p"
+	.string "He de portar-los a l'Inspector\n"
+	.string "immediatament!$"
 
 Route8_WestEntrance_Movement_JennyExit:
 	face_left

@@ -58,7 +58,7 @@ BattleTower_Entrance_BattleTowerCutscene::
 	applymovement LOCALID_SCOTT, BTCutscene_ScottLeave
 	waitmovement 1
 	turnobject OBJ_EVENT_ID_PLAYER, DIR_SOUTH
-	msgbox BattleTower_Entrance_ThisIsIt, MSGBOX_DEFAULT	
+	msgbox BattleTower_Entrance_ThisIsIt, MSGBOX_DEFAULT
 	waitmessage
 	closemessage
 	applymovement LOCALID_SCOTT, BTCutscene_ScottExit
@@ -94,59 +94,59 @@ BTCutscene_ScottExit::
 
 
 BattleTower_Entrance_YouMadeIt::
-	.string "Scott: There you are, Champ!\p"
-	.string "You've finally made it to the\n"
-	.string "big Leagues.\p"
-	.string "What? You don't know what this\n"
-	.string "place is?\p"
-	.string "This is my pride and joy!\p"
-	.string "I wasn't watching your progress\n"
-	.string "in the League just for fun, you know.\p"
-	.string "I've been scouting out the best\n"
-	.string "Pokémon Trainers in Kanto and\l"
-	.string "inviting them to this place...\p"
-	.string "the Battle Tower!$"
+	.string "Scott: Aquí ets, Campió!\p"
+	.string "Per fi has arribat a les grans\n"
+	.string "Lligues.\p"
+	.string "Què? No saps què és aquest lloc?\p"
+	.string "Això és el meu orgull!\p"
+	.string "No observava el teu progrés\n"
+	.string "a la Lliga només per diversió.\p"
+	.string "He estat buscant els millors\n"
+	.string "Entrenadors Pokémon de Kanto i\l"
+	.string "convidant-los a aquest lloc...\p"
+	.string "la Torre de Combat!$"
 
 BattleTower_Entrance_LetMeExplain::
-	.string "Scott: Let me explain.\p"
-	.string "In the Pokémon League, you make\n"
-	.string "your way up the ranks by battling\l"
-	.string "other trainers in normal matches, right?\p"
-	.string "Well, now that you're a Champion, those\n"
-	.string "battles might not be enough of a\l"
-	.string "challenge for you anymore.\p"
-	.string "Only the best trainers from Kanto can\n"
-	.string "enter the Battle Tower - so everyone\l"
-	.string "you meet is at the top of their game!\p"
-	.string "And to top it off, we have different\n"
-	.string "rules and regulations than the\l"
-	.string "League, too!\p"
-	.string "There's all sorts of ways you can battle\n"
-	.string "here!.\p" 
-	.string "It's every trainer's dream!\p"
-	.string "Now that you're here, you'll need one\n"
-	.string "one of these!$"
+	.string "Scott: Deixa'm explicar.\p"
+	.string "A la Lliga Pokémon, puges de rang\n"
+	.string "combatent altres Entrenadors en\l"
+	.string "combats normals, oi?\p"
+	.string "Ara que ets Campió, potser\n"
+	.string "aquells combats ja no són prou\l"
+	.string "desafiament per a tu.\p"
+	.string "Només els millors Entrenadors de\n"
+	.string "Kanto poden entrar a la Torre:\l"
+	.string "tothom que trobis és al seu millor!\p"
+	.string "I a més, tenim regles i normes\n"
+	.string "diferents de la Lliga!\p"
+	.string "Hi ha moltes maneres de combatre\n"
+	.string "aquí!.\p"
+	.string "És el somni de tot Entrenador!\p"
+	.string "Ara que ets aquí, necessitaràs\n"
+	.string "una d'aquestes!$"
 
 BattleTower_Entrance_GotFrontierPass::
-	.string "{PLAYER} got a Tower Pass from\n"
-	.string "Scott!$"
+	.string "{PLAYER} ha rebut un Passi de la\n"
+	.string "Torre de l'Scott!$"
 
 BattleTower_Entrance_GreatToSeeYouHere:
-	.string "Scott: It's great to see you here,\n"
-	.string "it really is!\p"
-	.string "Naturally, I hope you'll also experience\n"
-	.string "the pure essence of battling.$"
+	.string "Scott: Quina alegria veure't aquí,\n"
+	.string "de veritat!\p"
+	.string "Naturalment, espero que també\n"
+	.string "experimentis l'essència pura\l"
+	.string "del combat.$"
 
 BattleTower_Entrance_ThisIsIt::
-	.string "Scott: This is it, champ.\p"
-	.string "Your whole career- this is what\n"
-	.string "it's been building up to.\p"
-	.string "The best battles of your life are\n"
-	.string "up that elevator.\p"
-	.string "It's been a blast watching you get\n"
-	.string "get here!\p"
-	.string "I'd probably have to go around the\n"
-	.string "world to find another trainer like you...$"
+	.string "Scott: Això és tot, campió.\p"
+	.string "Tota la teva carrera: per a això\n"
+	.string "ha estat.\p"
+	.string "Els millors combats de la teva\n"
+	.string "vida són allà dalt.\p"
+	.string "Ha estat genial veure't arribar\n"
+	.string "fins aquí!\p"
+	.string "Hauria de recórrer el món per\n"
+	.string "trobar un altre Entrenador\l"
+	.string "com tu...$"
 
 BattleTower_Entrance_CoolTrainerM::
 	lock
@@ -156,10 +156,10 @@ BattleTower_Entrance_CoolTrainerM::
 	end
 
 BattleTower_Entrance_Text_CoolTrainerM::
-	.string "I thought I was doing well, but I\n"
-	.string "couldn't keep up my streak!\p"
-	.string "I was hoping to earn more BP for\n"
-	.string "some training items!$"
+	.string "Pensava que m'anava bé, però\n"
+	.string "no vaig poder mantenir la ratxa!\p"
+	.string "Esperava guanyar més BP per\n"
+	.string "objectes d'entrenament!$"
 
 BattleTower_Entrance_CoolTrainerF::
 	lock
@@ -169,9 +169,11 @@ BattleTower_Entrance_CoolTrainerF::
 	end
 
 BattleTower_Entrance_Text_CoolTrainerF::
-	.string "I spent my BP on these weird mints.\p"
-	.string "My Pokémon started acting different\n"
-	.string "when I gave one to them!$"
+	.string "He gastat els meus BP en mentes\n"
+	.string "estranyes.\p"
+	.string "Els meus Pokémon van començar\n"
+	.string "a actuar diferent quan els en\l"
+	.string "vaig donar una!$"
 
 BattleTower_Entrance_BattleGirl::
 	lock
@@ -188,15 +190,15 @@ BattleTower_Entrance_BattleGirlDisagree::
 	end
 
 BattleTower_Entrance_Text_BattleGirl::
-	.string "Double Battles are the ultimate\n"
-	.string "test of a Trainer's skills!\p"
-	.string "Wouldn't you agree?$"
+	.string "Els Combats Dobles són la prova\n"
+	.string "definitiva d'un Entrenador!\p"
+	.string "No hi estàs d'acord?$"
 
 BattleTower_Entrance_Text_BattleGirlYes::
-	.string "I knew you'd agree.$"
+	.string "Sabia que hi estaries d'acord.$"
 
 BattleTower_Entrance_Text_BattleGirlNo::
-	.string "Oh, so you're taking his side?$"
+	.string "Oh, li dones la raó a ell?$"
 
 BattleTower_Entrance_BlackBelt::
 	lock
@@ -213,15 +215,15 @@ BattleTower_Entrance_BlackBeltDisagree::
 	end
 
 BattleTower_Entrance_Text_BlackBelt::
-	.string "Single Battles are the ultimate\n"
-	.string "test of a Trainer's skills!\p"
-	.string "Wouldn't you agree?$"
+	.string "Els Combats Individuals són la\n"
+	.string "prova definitiva d'un Entrenador!\p"
+	.string "No hi estàs d'acord?$"
 
 BattleTower_Entrance_Text_BlackBeltYes::
-	.string "I knew you'd agree.$"
+	.string "Sabia que hi estaries d'acord.$"
 
 BattleTower_Entrance_Text_BlackBeltNo::
-	.string "Oh, so you're taking her side?$"
+	.string "Oh, li dones la raó a ella?$"
 
 
 
@@ -256,11 +258,11 @@ Movement_LeaveKiosk:
 	step_end
 
 BattleTower_Entrance_Text_DidntSaveBeforeQuitting:
-	.string "Excuse me!\p"
-	.string "You didn't save before you quit your\n"
-	.string "challenge last time.\p"
-	.string "Because of that, your challenge so far\n"
-	.string "has been disqualified. Sorry!$"
+	.string "Disculpa!\p"
+	.string "No vas desar abans de sortir\n"
+	.string "del desafiament l'última vegada.\p"
+	.string "Per això, el teu desafiament ha\n"
+	.string "estat desqualificat. Ho sento!$"
 
 BattleTower_Entrance_EventScript_WonChallenge::
 	lock
@@ -272,8 +274,8 @@ BattleTower_Entrance_EventScript_WonChallenge::
 	goto BattleTower_Entrance_EventScript_GiveRibbons
 
 BattleTower_Entrance_Text_CongratsBeatenSeven:
-	.string "Congratulations!\n"
-	.string "You've beaten all seven Trainers!\p"
+	.string "Felicitats!\n"
+	.string "Has derrotat els set Entrenadors!\p"
 	.string "$"
 
 BattleTower_Entrance_EventScript_DefeatedMaiden::
@@ -301,9 +303,9 @@ BattleTower_Entrance_EventScript_LookForwardToChallenge::
 	end
 
 BattleTower_Entrance_Text_CongratsDefeatedMaiden:
-	.string "Congratulations!\n"
-	.string "You have defeated the Salon Maiden\l"
-	.string "and swept seven Trainers!$"
+	.string "Felicitats!\n"
+	.string "Has derrotat la Dama del Saló\l"
+	.string "i has escombrat set Entrenadors!$"
 
 BattleTower_Entrance_EventScript_LostChallenge::
 	goto_if_ne BattleTower_Entrance_EventScript_CancelWinStreak
@@ -346,9 +348,9 @@ BattleTower_Entrance_EventScript_BattleTowerAttendant::
 	end
 
 BattleTower_Entrance_Text_ChallengeBattleTower::
-	.string "Oh! Are you interested in challenging\n"
-	.string "the Battle Tower?\p"
-	.string "Please come around to the front if so!$"
+	.string "Oh! T'interessa desafiar\n"
+	.string "la Torre de Combat?\p"
+	.string "Vine per davant, si us plau!$"
 
 BattleTower_Entrance_EventScript_BattleTowerTrigger::
 	lock
@@ -381,22 +383,22 @@ BattleTower_Entrance_EventScript_BattleTowerBlocker::
 	end
 
 BattleTower_Entrance_Text_ChallengeBattleTowerBlocker::
-	.string "Oh! Are you interested in challenging\n"
-	.string "the Battle Tower?\p"
-	.string "Please come speak to me if so!$"
+	.string "Oh! T'interessa desafiar\n"
+	.string "la Torre de Combat?\p"
+	.string "Vine a parlar amb mi, si us plau!$"
 
 BattleFrontier_Movement_PlayerFaceTowerKiosk::
 	face_left
 	step_end
 
 BattleTower_Entrance_Text_TowerWelcome:
-	.string "Welcome to the Battle Tower,\n"
-	.string "where the talents of Trainers\l"
-	.string "are put to the test!\p"
-	.string "I'll be your guide to the\n"
-	.string "Battle Rooms.\p"
-	.string "Which type of challenge will\n"
-	.string "you be participating in today?$"
+	.string "Benvingut a la Torre de Combat,\n"
+	.string "on el talent dels Entrenadors\l"
+	.string "és posat a prova!\p"
+	.string "Seré la teva guia a les\n"
+	.string "Sales de Combat.\p"
+	.string "En quin tipus de desafiament\n"
+	.string "participaràs avui?$"
 
 BattleTower_Entrance_EventScript_ExplainChallenge::
 	msgbox BattleTower_Entrance_Text_ExplainChallenge, MSGBOX_DEFAULT
@@ -405,21 +407,20 @@ BattleTower_Entrance_EventScript_ExplainChallenge::
 	end
 
 BattleTower_Entrance_Text_ExplainChallenge:
-	.string "The Battle Tower is a facility where\n"
-	.string "two types of battles are waged--\l"
-	.string "Single Battle and Double Battles.\p"
-	.string "For each of these types, there are\n"
-	.string "separate Battle Rooms.\p"
-	.string "Depending on the Battle Room you are\n"
-	.string "entering, you will be required to take\l"
-	.string "a certain number of Pokémon.\p"
-	.string "The Single Battle mode requires\n"
-	.string "three Pokémon, and the Double Battle\l"
-	.string "mode requires four.$"
+	.string "La Torre de Combat és una\n"
+	.string "instal·lació amb dos tipus de\l"
+	.string "combat: Individual i Doble.\p"
+	.string "Per a cada tipus, hi ha Sales\n"
+	.string "de Combat separades.\p"
+	.string "Segons la Sala, necessitaràs\n"
+	.string "un cert nombre de Pokémon.\p"
+	.string "El mode Individual requereix\n"
+	.string "tres Pokémon, i el Doble en\l"
+	.string "requereix quatre.$"
 
 BattleTower_Entrance_Text_WhichLevelMode:
-	.string "Which level mode will you be\n"
-	.string "challenging today?$"
+	.string "Quin mode de nivell desafiaràs\n"
+	.string "avui?$"
 
 BattleTower_Entrance_EventScript_TryEnterSinglesChallenge::
 	setvar VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_SINGLES
@@ -653,131 +654,132 @@ BattleFrontier_EventScript_GetLvlMode::
 	return
 
 BattleTower_Entrance_Text_HereAreSomeRibbons:
-	.string "Here are some Ribbons for beating\n"
-	.string "seven tough Trainers in a row.\p"
-	.string "{PLAYER} received some Ribbons!$"
+	.string "Aquí tens unes Cintes per derrotar\n"
+	.string "set Entrenadors durs seguits.\p"
+	.string "{PLAYER} ha rebut unes Cintes!$"
 
 BattleTower_Entrance_Text_PutRibbonOnMons:
-	.string "{PLAYER} put the Ribbons on\n"
-	.string "the challenger Pokémon.$"
+	.string "{PLAYER} ha posat les Cintes\n"
+	.string "als Pokémon participants.$"
 
 BattleTower_Entrance_Text_LookForwardToAnotherChallenge:
-	.string "We look forward to seeing you on\n"
-	.string "another challenge!$"
+	.string "Esperem veure't en un altre\n"
+	.string "desafiament!$"
 
 BattleTower_Entrance_Text_OkayToSaveBeforeEntering:
-	.string "Before entering a Battle Room, your\n"
-	.string "progress must be saved. Is that okay?$"
+	.string "Abans d'entrar a la Sala de Combat,\n"
+	.string "s'ha de desar el progrés. D'acord?$"
 
 BattleTower_Entrance_Text_ShowYouToBattleRoom:
-	.string "I will now show you to the\n"
-	.string "{STR_VAR_1} Battle Room.$"
+	.string "Ara t'acompanyaré a la Sala\n"
+	.string "de Combat {STR_VAR_1}.$"
 
 BattleTower_Entrance_Text_NotEnoughValidMonsLv50Singles:
-	.string "Excuse me!\p"
-	.string "You don't have three eligible Pokémon.\p"
-	.string "You must have three different Pokémon\n"
-	.string "of Level 50 or less to enter.\p"
-	.string "They also must be holding different\n"
-	.string "kinds of items.\p"
-	.string "Also, Eggs are ineligible.\p"
-	.string "Please come see me when you are ready.$"
+	.string "Disculpa!\p"
+	.string "No tens tres Pokémon vàlids.\p"
+	.string "Necessites tres Pokémon diferents\n"
+	.string "de Nivell 50 o inferior.\p"
+	.string "També han de portar objectes\n"
+	.string "diferents.\p"
+	.string "A més, els Ous no són vàlids.\p"
+	.string "Vine quan estiguis preparat.$"
 
 BattleTower_Entrance_Text_NotEnoughValidMonsLvOpenSingles:
-	.string "Excuse me!\p"
-	.string "You don't have three eligible Pokémon.\p"
-	.string "You must have three different Pokémon\n"
-	.string "to enter.\p"
-	.string "They also must be holding different\n"
-	.string "kinds of items.\p"
-	.string "Also, Eggs are ineligible.\p"
-	.string "Please come see me when you are ready.$"
+	.string "Disculpa!\p"
+	.string "No tens tres Pokémon vàlids.\p"
+	.string "Necessites tres Pokémon\n"
+	.string "diferents per entrar.\p"
+	.string "També han de portar objectes\n"
+	.string "diferents.\p"
+	.string "A més, els Ous no són vàlids.\p"
+	.string "Vine quan estiguis preparat.$"
 
 BattleTower_Entrance_Text_NotEnoughValidMonsLv50Doubles:
-	.string "Excuse me!\p"
-	.string "You don't have four eligible Pokémon.\p"
-	.string "You must have four different Pokémon\n"
-	.string "of Level 50 or less to enter.\p"
-	.string "They also must be holding different\n"
-	.string "kinds of items.\p"
-	.string "Also, Eggs are ineligible.\p"
-	.string "Please come see me when you are ready.$"
+	.string "Disculpa!\p"
+	.string "No tens quatre Pokémon vàlids.\p"
+	.string "Necessites quatre Pokémon\n"
+	.string "diferents de Nivell 50 o inferior.\p"
+	.string "També han de portar objectes\n"
+	.string "diferents.\p"
+	.string "A més, els Ous no són vàlids.\p"
+	.string "Vine quan estiguis preparat.$"
 
 BattleTower_Entrance_Text_NotEnoughValidMonsLvOpenDoubles:
-	.string "Excuse me!\p"
-	.string "You don't have four eligible Pokémon.\p"
-	.string "You must have four different Pokémon\n"
-	.string "to enter.\p"
-	.string "They also must be holding different\n"
-	.string "kinds of items.\p"
-	.string "Also, Eggs are ineligible.\p"
-	.string "Please come see me when you are ready.$"
+	.string "Disculpa!\p"
+	.string "No tens quatre Pokémon vàlids.\p"
+	.string "Necessites quatre Pokémon\n"
+	.string "diferents per entrar.\p"
+	.string "També han de portar objectes\n"
+	.string "diferents.\p"
+	.string "A més, els Ous no són vàlids.\p"
+	.string "Vine quan estiguis preparat.$"
 
 BattleTower_Entrance_Text_SelectThreeMons:
-	.string "Now please select the three Pokémon\n"
-	.string "that are to be entered.$"
+	.string "Ara selecciona els tres Pokémon\n"
+	.string "que vols inscriure.$"
 
 BattleTower_Entrance_Text_PleaseSelectFourMons:
-	.string "Now please select the four Pokémon\n"
-	.string "that are to be entered.$"
+	.string "Ara selecciona els quatre Pokémon\n"
+	.string "que vols inscriure.$"
 
 BattleTower_Entrance_Text_PleaseSelectTwoMons:
-	.string "Now please select the two Pokémon\n"
-	.string "that are to be entered.$"
+	.string "Ara selecciona els dos Pokémon\n"
+	.string "que vols inscriure.$"
 
 BattleTower_Entrance_Text_SaveGameBeforeShowingIn:
-	.string "I will save the game before\n"
-	.string "showing you in. Please wait.$"
+	.string "Desaré la partida abans\n"
+	.string "d'acompanyar-te. Espera.$"
 
 BattleTower_Entrance_Text_AwardYouTheseBattlePoints:
-	.string "In recognition of your infinite talent,\n"
-	.string "we award you these Battle Point(s).$"
+	.string "En reconeixement del teu talent\n"
+	.string "infinit, t'atorguem aquests\l"
+	.string "Punt(s) de Combat.$"
 
 BattleFrontier_Text_ObtainedXBattlePoints:
-	.string "{PLAYER} obtained {STR_VAR_1} Battle Point(s).$"
+	.string "{PLAYER} ha obtingut {STR_VAR_1} Punt(s) de Combat.$"
 
 BattleTower_Entrance_Text_ReceivedPrize:
-	.string "{PLAYER} received the prize\n"
+	.string "{PLAYER} ha rebut el premi\n"
 	.string "{STR_VAR_1}.$"
 
 BattleTower_Entrance_Text_ThankYouForPlaying:
-	.string "Thank you for playing!\p"
+	.string "Gràcies per participar!\p"
 	.string "$"
 
 BattleTower_Entrance_Text_WeveBeenWaitingForYou:
-	.string "We've been waiting for you!\p"
+	.string "T'estàvem esperant!\p"
 	.string "$"
 
 BattleTower_Entrance_Text_ProgressWillBeSaved:
-	.string "Before entering a Battle Room, your\n"
-	.string "progress will be saved. Please wait.$"
+	.string "Abans d'entrar a la Sala de Combat,\n"
+	.string "es desarà el progrés. Espera.$"
 
 BattleTower_Entrance_Text_AboutToFace50thTrainer:
-	.string "You're finally about to face the\n"
-	.string "50th Trainer.\p"
-	.string "From here on, every time you beat seven\n"
-	.string "Trainers in a row, your Pokémon will\l"
-	.string "receive a commemorative Ribbon.\p"
-	.string "Good luck!$"
+	.string "Estàs a punt d'enfrontar-te\n"
+	.string "al 50è Entrenador.\p"
+	.string "D'ara endavant, cada cop que\n"
+	.string "guanyis set Entrenadors seguits,\l"
+	.string "els teus Pokémon rebran una Cinta\l"
+	.string "commemorativa.\p"
+	.string "Bona sort!$"
 
 BattleTower_Entrance_EventScript_Woman::
 	msgbox BattleTower_Entrance_Text_WinsInRowRecorded, MSGBOX_NPC
 	end
 
 BattleTower_Entrance_Text_WinsInRowRecorded:
-	.string "The number of matches you win in a row\n"
-	.string "is recorded.\p"
-	.string "I'd better not get beaten in\n"
-	.string "an embarrassing way!$"
+	.string "El nombre de victòries seguides\n"
+	.string "es registra.\p"
+	.string "Millor que no perdi d'una manera\n"
+	.string "vergonyosa!$"
 
 BattleTower_Entrance_EventScript_Boy::
 	msgbox BattleTower_Entrance_Text_CanLeaveUntilLossOrSevenWins, MSGBOX_NPC
 	end
 
 BattleTower_Entrance_Text_CanLeaveUntilLossOrSevenWins:
-	.string "Once you've entered the Battle Tower,\n"
-	.string "you can't leave until you either lose\l"
-	.string "or you beat seven Trainers in a row.\p"
-	.string "You'd best be certain that you're up\n"
-	.string "to the challenge.$"
-
+	.string "Un cop has entrat a la Torre de\n"
+	.string "Combat, no pots sortir fins que\l"
+	.string "perdis o guanyis set seguits.\p"
+	.string "Més val que estiguis segur que\n"
+	.string "estàs a l'alçada.$"

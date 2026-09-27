@@ -6,12 +6,13 @@ ViridianCity_House_EventScript_BaldingMan::
 	msgbox ViridianCity_House_Text_NicknamingIsFun, MSGBOX_NPC
 	release
 	end
-	
+
 ViridianCity_House_Text_NicknamingIsFun::
-    .string "Coming up with nicknames is fun,\n"
-    .string "but it's not so easy to do.\p"
-    .string "Clever names are nice, but simple\n"
-    .string "names are easier to remember.$"
+    .string "Inventar malnoms és divertit,\n"
+    .string "però no és tan fàcil.\p"
+    .string "Els noms enginyosos estan bé,\n"
+    .string "però els simples són més fàcils\l"
+    .string "de recordar.$"
 
 ViridianCity_House_EventScript_LittleGirl::
 	lock
@@ -21,7 +22,8 @@ ViridianCity_House_EventScript_LittleGirl::
 	end
 
 ViridianCity_House_Text_MyDaddyLovesMonsToo::
-    .string "My daddy loves Pokémon, too.$"
+    .string "El meu papa també estima els\n"
+    .string "Pokémon.$"
 
 ViridianCity_House_EventScript_Speary::
 	lock
@@ -42,4 +44,4 @@ ViridianCity_House_EventScript_NicknameSign::
 
 ViridianCity_House_Text_SpearowNameSpeary::
     .string "Spearow\n"
-    .string "Name: Speary$"
+    .string "Nom: Speary$"

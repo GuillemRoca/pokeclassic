@@ -6,7 +6,7 @@ CeladonCity_Condominiums_2F_EventScript_MeetingRoomSign::
 	end
 
 CeladonCity_Condominiums_2F_Text_GameFreakMeetingRoom::
-    .string "Pokémon Journal Meeting Room$"
+    .string "Sala de Reunions del Diari Pokémon$"
 
 CeladonCity_Condominiums_2F_EventScript_PokemonJournalErika::
 	msgbox PokemonJournal_Text_SpecialFeatureErika, MSGBOX_SIGN
@@ -14,9 +14,9 @@ CeladonCity_Condominiums_2F_EventScript_PokemonJournalErika::
 	end
 
 PokemonJournal_Text_SpecialFeatureErika::
-	.string "Pokémon Journal:\p"
-	.string "Special Feature: Celadon Gym\n"
-	.string "Leader Erika!\p"
-	.string "Rumor has it that if you peek into\n"
-	.string "Celadon Gym, you can often\l"
-	.string "see Erika snoozing.$"
+	.string "Diari Pokémon:\p"
+	.string "Reportatge: Líder del Gimnàs\n"
+	.string "de Celadon, Erika!\p"
+	.string "Diuen que si espies el Gimnàs\n"
+	.string "de Celadon, sovint pots veure\l"
+	.string "l'Erika fent la migdiada.$"

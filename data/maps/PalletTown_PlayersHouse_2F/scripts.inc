@@ -251,28 +251,28 @@ MomGoesDownstairs:
 	step_end
 
 PalletTown_PlayersHouse_2F_Text_WeHaveAVisitor:
-	.string "Mom: {PLAYER}! I should have\p"
-	.string "known I'd find you playing\n"
-	.string "games up here again.\p"
-	.string "You should head downstairs.\n"
-	.string "Someone is here to see you!$"
+	.string "Mare: {PLAYER}! Ja m'ho imaginava\p"
+	.string "que et trobaria jugant aquí\n"
+	.string "a dalt un altre cop.\p"
+	.string "Hauries de baixar.\n"
+	.string "Algú ha vingut a veure't!$"
 
 PalletTown_PlayersHouse_2F_Text_LookAtTheTime:
-	.string "Mom: {PLAYER}! There you are!\p"
-	.string "Have you been playing games\n"
-	.string "up here this whole time?\p"
-	.string "Weren't you supposed to meet\n"
-	.string "Professor Oak at his lab today?\p"
-	.string "Do you even know what time it is?$"
+	.string "Mare: {PLAYER}! Aquí estàs!\p"
+	.string "Has estat jugant aquí a dalt\n"
+	.string "tot aquest temps?\p"
+	.string "No havies de trobar-te amb el\n"
+	.string "Professor Oak al seu lab avui?\p"
+	.string "Saps tan sols quina hora és?$"
 
 PalletTown_PlayersHouse_2F_Text_GoingToBeLate:
-	.string "You should hurry over to the lab,\n"
-	.string "you're going to miss the Professor!$"
+	.string "Hauries d'anar cap al laboratori,\n"
+	.string "que no hi arribaràs a temps!$"
 
 PalletTown_PlayersHouse_2F_Text_FoldedYourLaundry:
-	.string "Oh! If you want to change your\n"
-	.string "clothes before you go out, \l"
-	.string "I put your laundry in your dresser.$"
+	.string "Oh! Si vols canviar-te de roba\n"
+	.string "abans de sortir,\l"
+	.string "t'he posat la roba a la calaixera.$"
 
 
 PlayersHouse_2F_EventScript_PC::
@@ -314,5 +314,5 @@ PlayersHouse_2F_EventScript_Console::
 	end
 
 PlayersHouse_2F_Text_Console:
-	.string "It's an old game console.\p"
-	.string "Retro-gaming is all the rage!$"
+	.string "És una consola de jocs antiga.\p"
+	.string "El retro-gaming fa furor!$"

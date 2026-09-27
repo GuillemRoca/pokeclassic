@@ -20,28 +20,29 @@ LavenderTown_PokemonCenter_1F_EventScript_Gentleman::
 	end
 
 LavenderTown_PokemonCenter_1F_Text_RocketsDoAnythingForMoney::
-    .string "Team Rocket will do anything for\n"
-    .string "the sake of money!\p"
-    .string "There is no job too dirty, no deed\n"
-    .string "too heinous, no crime too wicked!$"
+    .string "L'Equip Rocket farà qualsevol\n"
+    .string "cosa per diners!\p"
+    .string "No hi ha feina massa bruta, ni\n"
+    .string "acte massa vil, ni crim massa\l"
+    .string "malvat!$"
 
 LavenderTown_PokemonCenter_1F_EventScript_Lass::
 	msgbox LavenderTown_PokemonCenter_1F_Text_CubonesMotherKilledByRockets, MSGBOX_NPC
 	end
 
 LavenderTown_PokemonCenter_1F_Text_CubonesMotherKilledByRockets::
-    .string "I saw a Cubone's mother trying to\n"
-    .string "escape from Team Rocket.\p"
-    .string "She was killed trying to get away…$"
+    .string "Vaig veure la mare d'un Cubone\n"
+    .string "intentant escapar de l'Equip Rocket.\p"
+    .string "La van matar mentre intentava fugir…$"
 
 LavenderTown_PokemonCenter_1F_EventScript_Youngster::
 	msgbox LavenderTown_PokemonCenter_1F_Text_PeoplePayForCuboneSkulls, MSGBOX_NPC
 	end
 
 LavenderTown_PokemonCenter_1F_Text_PeoplePayForCuboneSkulls::
-    .string "You know how the Cubone species\n"
-    .string "wears skulls, right?\p"
-    .string "People will pay a lot for one.$"
+    .string "Saps que l'espècie Cubone porta\n"
+    .string "cranis, oi?\p"
+    .string "La gent paga molt per un.$"
 
 LavenderTown_PokemonCenter_1F_EventScript_BaldingMan::
 	msgbox LavenderTown_PokemonCenter_1F_Text_HearMrFujiNotFromAroundHere, MSGBOX_NPC
@@ -49,6 +50,6 @@ LavenderTown_PokemonCenter_1F_EventScript_BaldingMan::
 	end
 
 LavenderTown_PokemonCenter_1F_Text_HearMrFujiNotFromAroundHere::
-    .string "I recently moved to this town.\p"
-    .string "I hear that Mr. Fuji's not from\n"
-    .string "these parts originally, either.$"
+    .string "Fa poc que visc en aquesta ciutat.\p"
+    .string "He sentit que el Sr. Fuji tampoc\n"
+    .string "és d'aquí originalment.$"

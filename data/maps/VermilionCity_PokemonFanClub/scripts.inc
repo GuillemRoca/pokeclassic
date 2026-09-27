@@ -22,11 +22,16 @@ VermilionCity_PokemonFanClub_EventScript_AlreadyHeardStory::
 	end
 
 VermilionCity_PokemonFanClub_Text_DidntComeToSeeAboutMonsAgain::
-    .string "Hello, {PLAYER}!\p"
-    .string "Did you come see me about my\n"
-    .string "Pokémon again?\p"
+    .string "Hola, {PLAYER}!\p"
+
+    .string "Has vingut a veure'm pels meus\n"
+
+    .string "Pokémon, una altra vegada?\p"
+
     .string "No?\n"
-    .string "Too bad!$"
+
+    .string "Quina llàstima!$"
+
 
 VermilionCity_PokemonFanClub_DailyReward::
 	specialvar VAR_RESULT, GetLeadMonFriendshipScore
@@ -44,25 +49,40 @@ VermilionCity_PokemonFanClub_DailyReward::
 	return
 
 VermilionCity_PokemonFanClub_Text_TruePokeFan::
-	.string "I can tell you take excellent\n"
-	.string "care of your Pokémon!\p"
-	.string "You are a true PokéFan!\p"
-	.string "Please, take this and share it\n"
-	.string "with your Pokémon!$"
+	.string "Puc veure que tens molta cura\n"
+
+	.string "dels teus Pokémon!\p"
+
+	.string "Ets un autèntic PokéFan!\p"
+
+	.string "Si us plau, pren això i\n"
+
+	.string "comparteix-ho amb els teus\l"
+
+	.string "Pokémon!$"
+
 
 VermilionCity_PokemonFanClub_Text_DidYouComeToHearAboutMyMons::
-    .string "I chair the Pokémon Fan Club!\p"
-    .string "I raise more than a hundred\n"
-    .string "Pokémon!\p"
-    .string "I'm very fussy when it comes to\n"
-    .string "Pokémon! I surely am!\p"
-    .string "So…\p"
-    .string "Did you come visit to hear about\n"
-    .string "my Pokémon?$"
+    .string "Presideixo el Club de Fans Pokémon!\p"
+
+    .string "Crio més de cent Pokémon!\p"
+
+    .string "Sóc molt exigent quan es tracta\n"
+
+    .string "de Pokémon! De debò que sí!\p"
+
+    .string "Així que…\p"
+
+    .string "Has vingut a escoltar coses sobre\n"
+
+    .string "els meus Pokémon?$"
+
 
 VermilionCity_PokemonFanClub_Text_ComeBackToHearStory::
-    .string "Oh. Come back when you want to\n"
-    .string "hear my story!$"
+    .string "Oh. Torna quan vulguis escoltar\n"
+
+    .string "la meva història!$"
+
 
 VermilionCity_PokemonFanClub_EventScript_ChairmanStory::
 	msgbox VermilionCity_PokemonFanClub_Text_ChairmansStory
@@ -78,20 +98,34 @@ VermilionCity_PokemonFanClub_EventScript_ChairmanStory::
 	end
 
 VermilionCity_PokemonFanClub_Text_ChairmansStory::
-    .string "Good!\n"
-    .string "Then listen up!\p"
-    .string "My favorite Rapidash…\p"
-    .string "It's…cute…lovely…smart… \n"
-    .string "plus…amazing…you think so?…\l"
-    .string "oh yes…it's…stunning…\l"
-    .string "kindly…love it!\p"
-    .string "Hug it…when…sleeping…warm\n"
-    .string "and cuddly…spectacular…\l"
-    .string "ravishing…\l"
-    .string "…Oops! Look at the time!\l"
-    .string "I kept you too long!\p"
-    .string "Thanks for hearing me out!\n"
-    .string "I want you to have this!$"
+    .string "Bé!\n"
+
+    .string "Doncs escolta!\p"
+
+    .string "El meu Rapidash favorit…\p"
+
+    .string "És…bufó…adorable…llest…\n"
+
+    .string "a més…increïble…no creus?…\l"
+
+    .string "oh sí…és…impressionant…\l"
+
+    .string "amable…l'estimo!\p"
+
+    .string "Abraçar-lo…quan dorm…calent\n"
+
+    .string "i tendre…espectacular…\l"
+
+    .string "fascinant…\l"
+
+    .string "…Vaja! Mira quina hora és!\l"
+
+    .string "T'he entretingut massa!\p"
+
+    .string "Gràcies per escoltar-me!\n"
+
+    .string "Vull que tinguis això!$"
+
 
 VermilionCity_PokemonFanClub_EventScript_NoRoomForBikeVoucher::
 	msgbox VermilionCity_PokemonFanClub_Text_MakeRoomForThis
@@ -99,21 +133,34 @@ VermilionCity_PokemonFanClub_EventScript_NoRoomForBikeVoucher::
 	end
 
 VermilionCity_PokemonFanClub_Text_MakeRoomForThis::
-    .string "Make room for this!$"
+    .string "Fes espai per a això!$"
+
 
 VermilionCity_PokemonFanClub_Text_ReceivedBikeVoucherFromChairman::
-    .string "{PLAYER} received a Bike Voucher\n"
-    .string "from the Chairman.$"
+    .string "{PLAYER} ha rebut un Val de Bici\n"
+
+    .string "del President.$"
+
 
 VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher::
-    .string "Take that Bike Voucher to the\n"
-    .string "Bike Shop in Cerulean City.\p"
-    .string "Exchange that for a Bicylce\n"
-    .string "free of charge!\p"
-    .string "Don't worry, my favorite Fearow\n"
-    .string "will fly me anywhere I need to go.\p"
-    .string "So, I have no need for a Bicycle.\p"
-    .string "I hope you like cycling!$"
+    .string "Porta el Val de Bici a la\n"
+
+    .string "Botiga de Bicis de Cerulean.\p"
+
+    .string "Canvia'l per una Bicicleta\n"
+
+    .string "totalment gratis!\p"
+
+    .string "No et preocupis, el meu Fearow\n"
+
+    .string "favorit em porta volant on calgui.\p"
+
+    .string "Així que no necessito cap\n"
+
+    .string "Bicicleta.\p"
+
+    .string "Espero que t'agradi anar en bici!$"
+
 
 VermilionCity_PokemonFanClub_EventScript_WorkerF::
 	lock
@@ -129,14 +176,20 @@ VermilionCity_PokemonFanClub_EventScript_WorkerFGameClear::
 	end
 
 VermilionCity_PokemonFanClub_Text_ChairmanReallyAdoresHisMons::
-    .string "Our Chairman really does adore his\n"
-    .string "Pokémon.\p"
-    .string "But the person who is most liked by\n"
-    .string "Pokémon is Daisy, I think.$"
+    .string "El nostre President de debò que\n"
+
+    .string "adora els seus Pokémon.\p"
+
+    .string "Però la persona que més agrada\n"
+
+    .string "als Pokémon és la Daisy, crec.$"
+
 
 VermilionCity_PokemonFanClub_Text_ChairmanVeryVocalAboutPokemon::
-    .string "Our Chairman is very vocal about\n"
-    .string "Pokémon.$"
+    .string "El nostre President és molt\n"
+
+    .string "entusiasta amb els Pokémon.$"
+
 
 VermilionCity_PokemonFanClub_EventScript_Woman::
 	lock
@@ -151,10 +204,14 @@ VermilionCity_PokemonFanClub_EventScript_Woman::
 	end
 
 VermilionCity_PokemonFanClub_Text_AdoreMySeel::
-    .string "I just adore my Seel!\n"
-    .string "It's so lovable!\p"
-    .string "It squeals, “Kyuuuh,” when I\n"
-    .string "hug it!$"
+    .string "Adoro el meu Seel!\n"
+
+    .string "És tan adorable!\p"
+
+    .string "Fa “Kyuuuh” quan\n"
+
+    .string "l'abraço!$"
+
 
 VermilionCity_PokemonFanClub_EventScript_WomanSpokeToFatMan::
 	msgbox VermilionCity_PokemonFanClub_Text_SeelFarMoreAttractive
@@ -166,9 +223,12 @@ VermilionCity_PokemonFanClub_EventScript_WomanSpokeToFatMan::
 	end
 
 VermilionCity_PokemonFanClub_Text_SeelFarMoreAttractive::
-    .string "Oh, dear!\p"
-    .string "My Seel is far more attractive.\n"
-    .string "By double, I would say.$"
+    .string "Oh, mare!\p"
+
+    .string "El meu Seel és molt més atractiu.\n"
+
+    .string "El doble, diria jo.$"
+
 
 VermilionCity_PokemonFanClub_EventScript_FatMan::
 	lock
@@ -183,8 +243,10 @@ VermilionCity_PokemonFanClub_EventScript_FatMan::
 	end
 
 VermilionCity_PokemonFanClub_Text_AdmirePikachusTail::
-    .string "Won't you admire my Pikachu's\n"
-    .string "adorable tail?$"
+    .string "No vols admirar l'adorable cua\n"
+
+    .string "del meu Pikachu?$"
+
 
 VermilionCity_PokemonFanClub_EventScript_FatManSpokeToWoman::
 	msgbox VermilionCity_PokemonFanClub_Text_PikachuTwiceAsCute
@@ -196,9 +258,12 @@ VermilionCity_PokemonFanClub_EventScript_FatManSpokeToWoman::
 	end
 
 VermilionCity_PokemonFanClub_Text_PikachuTwiceAsCute::
-    .string "Humph!\p"
-    .string "My Pikachu is twice as cute as\n"
-    .string "that one!$"
+    .string "Bah!\p"
+
+    .string "El meu Pikachu és el doble de\n"
+
+    .string "bufó que aquell!$"
+
 
 VermilionCity_PokemonFanClub_EventScript_Pikachu::
 	lock
@@ -213,6 +278,7 @@ VermilionCity_PokemonFanClub_EventScript_Pikachu::
 VermilionCity_PokemonFanClub_Text_Pikachu::
     .string "Pikachu: Chu! Pikachu!$"
 
+
 VermilionCity_PokemonFanClub_EventScript_Seel::
 	lock
 	faceplayer
@@ -226,17 +292,23 @@ VermilionCity_PokemonFanClub_EventScript_Seel::
 VermilionCity_PokemonFanClub_Text_Seel::
     .string "Seel: Kyuoo!$"
 
+
 VermilionCity_PokemonFanClub_EventScript_RulesSign1::
 	msgbox VermilionCity_PokemonFanClub_Text_ListenPolitelyToOtherTrainers, MSGBOX_SIGN
 	end
 
 VermilionCity_PokemonFanClub_Text_ListenPolitelyToOtherTrainers::
-    .string "Let's all listen politely to other\n"
-    .string "trainers!$"
+    .string "Escoltem educadament els altres\n"
+
+    .string "entrenadors!$"
+
 
 VermilionCity_PokemonFanClub_EventScript_RulesSign2::
 	msgbox VermilionCity_PokemonFanClub_Text_SomeoneBragsBragBack, MSGBOX_SIGN
 	end
 
 VermilionCity_PokemonFanClub_Text_SomeoneBragsBragBack::
-    .string "If someone brags, brag right back!$"
+    .string "Si algú presumeix, presumeix tu\n"
+
+    .string "també!$"
+

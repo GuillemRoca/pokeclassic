@@ -12,12 +12,12 @@ CinnabarIsland_House_Woman::
 	end
 
 CinnabarIsland_House_Text_MissesSailing::
-	.string "My father was once a great\n"
-	.string "Sea Captain.\p"
-	.string "But he hasn't been himself since\n"
-	.string "he retired.\p"
-	.string "He spends his time looking\n"
-	.string "longingly at the sea...$"
+	.string "El meu pare va ser un gran\n"
+	.string "Capità de Mar.\p"
+	.string "Però no és el mateix des que\n"
+	.string "es va jubilar.\p"
+	.string "Es passa el temps mirant\n"
+	.string "el mar amb enyorança...$"
 
 CinnabarIsland_House_Woman2::
 	msgbox CinnabarIsland_House_Text_Wonderful, MSGBOX_NPC
@@ -25,9 +25,9 @@ CinnabarIsland_House_Woman2::
 	end
 
 CinnabarIsland_House_Text_Wonderful::
-	.string "This is wonderful!\p"
-	.string "I haven't seen my father this\n"
-	.string "excited in ages!$"
+	.string "Això és meravellós!\p"
+	.string "Feia temps que no veia el meu\n"
+	.string "pare tan emocionat!$"
 
 CinnabarIsland_House_SeaCaptain::
 	lock
@@ -90,20 +90,20 @@ Movement_CaptainExit2::
 
 
 CinnabarIsland_House_Text_WhatsThatYeGot::
-	.string "Aye!\p"
-	.string "What's that ye got there, kiddo?\p"
+	.string "Apa!\p"
+	.string "Què tens aquí, nano?\p"
 	.string "..."
-	.string "It's an Old Sea Map!\p"
-	.string "Say...I've been around the world\n"
-	.string "more times than there are Pokémon,\l"
-	.string "and I dare say I've never seen that\l"
-	.string "there island on this map!\p"
+	.string "És un Vell Mapa Marí!\p"
+	.string "Escolta...he donat la volta al\n"
+	.string "món més cops dels que hi ha\l"
+	.string "Pokémon, i goso dir que mai he\l"
+	.string "vist aquella illa d'aquest mapa!\p"
 	.string "...\p"
-	.string "What's that? You want me to sail ya\n"
-	.string "there?\p"
+	.string "Què? Vols que t'hi porti\n"
+	.string "navegant?\p"
 	.string "...\p"
-	.string "Let's do it! One last adventure for\n"
-	.string "this old Sea Captain!$"
+	.string "Fem-ho! Una última aventura per\n"
+	.string "a aquest vell Capità de Mar!$"
 
 CinnabarIsland_House_SeaCaptain_Grumpy::
 	msgbox CinnabarIsland_House_Text_Grumpy, MSGBOX_NPC
@@ -112,9 +112,9 @@ CinnabarIsland_House_SeaCaptain_Grumpy::
 
 CinnabarIsland_House_Text_WhatsLeft::
 	.string "Hrmmph...\p"
-	.string "I've explored every corner\n"
-	.string "of the world...\p"
-	.string "What's left for me to do...$"
+	.string "He explorat cada racó\n"
+	.string "del món...\p"
+	.string "Què em queda per fer...$"
 
 CinnabarIsland_House_Text_Grumpy::
 	.string "Hrmmph...$"

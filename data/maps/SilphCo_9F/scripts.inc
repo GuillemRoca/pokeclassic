@@ -45,48 +45,48 @@ SilphCo_9F_EventScript_Grunt2::
 	end
 
 SilphCo_9F_Text_YouShouldTakeQuickNap::
-    .string "You look tired.\n"
-    .string "You should take a quick nap.$"
+    .string "Sembles cansat.\n"
+    .string "Hauries de fer una migdiada.$"
 
 SilphCo_9F_Text_DontGiveUp::
-    .string "Don't give up!$"
+    .string "No et rendeixis!$"
 
 SilphCo_9F_Text_ThankYouSoMuch::
-    .string "Thank you so much.$"
+    .string "Moltes gràcies.$"
 
 SilphCo_9F_Text_Grunt1Intro::
-    .string "Your Pokémon seem to adore you,\n"
-    .string "kid!$"
+    .string "Els teus Pokémon sembla que\n"
+    .string "t'adoren, nen!$"
 
 SilphCo_9F_Text_Grunt1Defeat::
     .string "Ghaaah!$"
 
 SilphCo_9F_Text_Grunt1PostBattle::
-    .string "If I had started as a trainer at\n"
-    .string "your age…$"
+    .string "Si hagués començat com a\n"
+    .string "entrenador a la teva edat…$"
 
 SilphCo_9F_Text_EdIntro::
-    .string "Your Pokémon have weak points!\n"
-    .string "I can nail them!$"
+    .string "Els teus Pokémon tenen punts\n"
+    .string "febles! Puc aprofitar-los!$"
 
 SilphCo_9F_Text_EdDefeat::
-    .string "You hammered me!$"
+    .string "M'has clavat!$"
 
 SilphCo_9F_Text_EdPostBattle::
-    .string "Exploiting weak spots does work.\n"
-    .string "Think about type advantages.$"
+    .string "Explotar punts febles funciona.\n"
+    .string "Pensa en avantatges de tipus.$"
 
 SilphCo_9F_Text_Grunt2Intro::
-    .string "I am one of the four Rocket\n"
-    .string "Brothers!$"
+    .string "Sóc un dels quatre Germans\n"
+    .string "Rocket!$"
 
 SilphCo_9F_Text_Grunt2Defeat::
     .string "Warg!\n"
-    .string "Brothers, I lost!$"
+    .string "Germans, he perdut!$"
 
 SilphCo_9F_Text_Grunt2PostBattle::
-    .string "My brothers will avenge me!$"
+    .string "Els meus germans em venjaran!$"
 
 SilphCo_9F_Text_FloorSign::
-    .string "Silph Co. Head Office\n"
-    .string "9F$"
+    .string "Seu Central de Silph S.A.\n"
+    .string "9è pis$"

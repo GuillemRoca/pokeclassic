@@ -30,37 +30,37 @@ PokemonMansion_2F_EventScript_Arnie::
 	end
 
 PokemonMansion_Text_PressSecretSwitch::
-    .string "A secret switch!\p"
-    .string "Press it?$"
+    .string "Un interruptor secret!\p"
+    .string "El prems?$"
 
 PokemonMansion_Text_WhoWouldnt::
-    .string "Who wouldn't?$"
+    .string "Qui no ho faria?$"
 
 PokemonMansion_Text_NotQuiteYet::
-    .string "Not quite yet!$"
+    .string "Encara no!$"
 
 PokemonMansion_1F_Text_ArnieIntro::
-    .string "I can't get out!\n"
-    .string "This old place is one big puzzle.$"
+    .string "No puc sortir!\n"
+    .string "Aquest lloc és un gran trencaclosques.$"
 
 PokemonMansion_1F_Text_ArnieDefeat::
     .string "Oh, no!\n"
-    .string "My bag of loot!$"
+    .string "La meva bossa de botí!$"
 
 PokemonMansion_1F_Text_ArniePostBattle::
-    .string "The switches here open and close\n"
-    .string "alternating sets of doors.$"
+    .string "Els interruptors d'aquí obren i\n"
+    .string "tanquen grups alterns de portes.$"
 
 PokemonMansion_1F_Text_NewMonDiscoveredInGuyanaJungle::
-    .string "Diary: July 5\n"
-    .string "Guyana, South America\p"
-    .string "A new Pokémon was discovered deep\n"
-    .string "in the jungle.$"
+    .string "Diari: 5 de juliol\n"
+    .string "Guaiana, Sud-amèrica\p"
+    .string "S'ha descobert un nou Pokémon\n"
+    .string "a les profunditats de la selva.$"
 
 PokemonMansion_1F_Text_ChristenedDiscoveredMonMew::
-    .string "Diary: July 10\n"
-    .string "We christened the newly discovered\l"
-    .string "Pokémon, Mew.$"
+    .string "Diari: 10 de juliol\n"
+    .string "Hem batejat el Pokémon recentment\l"
+    .string "descobert com a Mew.$"
 
 PokemonMansion_2F_EventScript_ItemZinc::
 	finditem ITEM_ZINC, 1

@@ -1,4 +1,4 @@
-.set LOCALID_FUGITIVE, 6 
+.set LOCALID_FUGITIVE, 6
 
 Route18_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, Route18_OnTransition
@@ -42,14 +42,15 @@ Route18_EventScript_Ramiro::
 
 Route18_Text_RamiroIntro::
     .string "Kurukkoo!\n"
-    .string "How do you like my birdcall?$"
+    .string "Què et sembla el meu cant d'ocell?$"
 
 Route18_Text_RamiroDefeat::
-    .string "I had to bug you!$"
+    .string "T'havia de molestar!$"
 
 Route18_Text_RamiroPostBattle::
-    .string "I collect sea POKéMON on weekends\n"
-    .string "because the sea is so close.$"
+    .string "Col·lecciono Pokémon de mar els\n"
+    .string "caps de setmana perquè el mar\l"
+    .string "és molt a prop.$"
 
 Route18_EventScript_Jacob::
 	trainerbattle_single TRAINER_BIRD_KEEPER_JACOB, Route18_Text_JacobIntro, Route18_Text_JacobDefeat
@@ -57,23 +58,23 @@ Route18_EventScript_Jacob::
 	end
 
 Route18_Text_JacobIntro::
-    .string "This is my turf!\n"
-    .string "Get out of here!$"
+    .string "Aquest és el meu territori!\n"
+    .string "Fora d'aquí!$"
 
 Route18_Text_JacobDefeat::
-    .string "Darn!$"
+    .string "Llamps!$"
 
 Route18_Text_JacobPostBattle::
-    .string "This is my fave area for catching\n"
-    .string "Pokémon.$"
+    .string "Aquesta és la meva zona preferida\n"
+    .string "per atrapar Pokémon.$"
 
 Route18_Text_RouteSign::
-    .string "Route 18\n"
-    .string "Celadon City - Fuchsia City $"
+    .string "Ruta 18\n"
+    .string "Ciutat Celadó - Ciutat Fúcsia $"
 
 Route18_Text_CyclingRoadSign::
-    .string "Cycling Road\n"
-    .string "No pedestrians permitted!$"
+    .string "Carril Bici\n"
+    .string "No es permeten vianants!$"
 
 Route18_EventScript_Wilton::
 	trainerbattle_single REMATCHABLE_TRAINER_BIRD_KEEPER_WILTON_1, Route18_Text_WiltonIntro, Route18_Text_WiltonDefeat, Route18_EventScript_RegisterWiltonAfterBattle
@@ -84,14 +85,14 @@ Route18_EventScript_Wilton::
 	end
 
 Route18_Text_WiltonIntro::
-    .string "I always check every grassy area\n"
-    .string "for new Pokémon.$"
+    .string "Sempre reviso cada zona d'herba\n"
+    .string "buscant Pokémon nous.$"
 
 Route18_Text_WiltonDefeat::
-    .string "Tch!$"
+    .string "Tsc!$"
 
 Route18_Text_WiltonPostBattle::
-    .string "I wish I had a bike!$"
+    .string "M'agradaria tenir una bici!$"
 
 Route18_EventScript_RegisterWiltonAfterBattle::
 	special PlayerFaceTrainerAfterBattle
@@ -102,9 +103,9 @@ Route18_EventScript_RegisterWiltonAfterBattle::
 	end
 
 Route18_Text_WiltonRegister:
-	.string "You're working on a PokéDex?\p"
-	.string "Call me if you find any good\l"
-	.string "spots to catch Pokémon!"
+	.string "Estàs fent una PokéDex?\p"
+	.string "Truca'm si trobes bons llocs\l"
+	.string "per atrapar Pokémon!"
 
 Route18_EventScript_WiltonRematch::
 	trainerbattle_rematch REMATCHABLE_TRAINER_BIRD_KEEPER_WILTON_1, Route18_Text_WiltonRematchIntro, Route18_Text_WiltonDefeat
@@ -112,12 +113,12 @@ Route18_EventScript_WiltonRematch::
 	end
 
 Route18_Text_WiltonRematchIntro::
-	.string "Hey {PLAYER}!\n"
-	.string "Catch any rare Pokémon?$"
+	.string "Ei, {PLAYER}!\n"
+	.string "Has atrapat Pokémon rars?$"
 
 Route18_Text_WiltonRematchPostBattle::
-	.string "If I had a bike, I could go\n"
-	.string "search for Pokémon anywhere!$"
+	.string "Si tingués una bici, podria anar\n"
+	.string "a buscar Pokémon a tot arreu!$"
 
 Route18_RocketFugitive::
     trainerbattle_single TRAINER_FUGITIVE_M, RocketFugitive_Text_Intro, RocketFugitive_Text_Defeat

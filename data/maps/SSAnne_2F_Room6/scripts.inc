@@ -6,8 +6,8 @@ SSAnne_2F_Room6_EventScript_Woman1::
 	end
 
 SSAnne_2F_Room6_Text_CaptainIsAwfullySick::
-    .string "The Captain looked awfully sick.\n"
-    .string "He was all pale.$"
+    .string "El Capità tenia molt mala cara.\n"
+    .string "Estava tot pàl·lid.$"
 
 
 SSAnne_2F_Room6_EventScript_Woman2::
@@ -15,4 +15,5 @@ SSAnne_2F_Room6_EventScript_Woman2::
 	end
 
 SSAnne_2F_Room6_Text_ManyPeopleGetSeasick::
-    .string "I hear many people get seasick.$"
+    .string "He sentit que molta gent es\n"
+    .string "mareja al mar.$"

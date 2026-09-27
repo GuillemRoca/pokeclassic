@@ -22,15 +22,15 @@ Route21_South_EventScript_Johan::
 	end
 
 Route21_South_Text_JohanIntro::
-    .string "Watch me juggle all these\n"
-    .string "Poké Balls!$"
+    .string "Mira com faig malabars amb\n"
+    .string "totes aquestes Poké Balls!$"
 
 Route21_South_Text_JohanDefeat::
-    .string "I dropped my balls...$"
+    .string "Se m'han caigut les boles...$"
 
 Route21_South_Text_JohanPostBattle::
-    .string "Only the strongest trainers\n"
-    .string "can make it to the Elite Four.$"
+    .string "Només els entrenadors més forts\n"
+    .string "arriben a l'Alt Comandament.$"
 
 Route21_South_EventScript_RegisterJohanAfterBattle::
 	special PlayerFaceTrainerAfterBattle
@@ -41,9 +41,9 @@ Route21_South_EventScript_RegisterJohanAfterBattle::
 	end
 
 Route21_South_Text_JohanRegister:
-	.string "I teleported out here..\p"
-	.string "but  I'm out of PP...\p"
-	.string "Can I call you for a ride later?$"
+	.string "M'he teletransportat aquí..\p"
+	.string "però no em queden PP...\p"
+	.string "Et puc trucar per tornar?$"
 
 Route21_South_EventScript_JohanRematch::
 	trainerbattle_rematch REMATCHABLE_TRAINER_JUGGLER_JOHAN_1, Route21_South_Text_JohanRematchIntro, Route21_South_Text_JohanDefeat
@@ -51,14 +51,14 @@ Route21_South_EventScript_JohanRematch::
 	end
 
 Route21_South_Text_JohanRematchIntro::
-	.string "I've been practicing my juggling!$"
+	.string "He estat practicant malabars!$"
 
 Route21_South_Text_JohanRematchPostBattle::
-	.string "If I didn't drop out of school, I\n"
-	.string "could have been working for Silph!\p"
-	.string "But would I have been happy if I\n"
-	.string "wasn't out here juggling balls?\p"
-	.string "Who knows...$"
+	.string "Si no hagués deixat els estudis,\n"
+	.string "podria treballar a Silph!\p"
+	.string "Però hauria estat feliç si no\n"
+	.string "estigués aquí fent malabars?\p"
+	.string "Qui ho sap...$"
 
 
 Route21_South_EventScript_Claude::
@@ -67,16 +67,16 @@ Route21_South_EventScript_Claude::
 	end
 
 Route21_South_Text_ClaudeIntro::
-	.string "Hey, don't scare away the fish!$"
+	.string "Ei, no espantis els peixos!$"
 
 Route21_South_Text_ClaudeDefeat::
-	.string "Sorry! I'm just so frustrated from\n"
-	.string "not catching anything.$"
+	.string "Perdona! Estic frustrat de\n"
+	.string "no pescar res.$"
 
 Route21_South_Text_ClaudePostBattle::
-	.string "Sheesh, I haven't caught a thing.\n"
-	.string "Could this place actually be a\l"
-	.string "giant pool or something?$"
+	.string "No he pescat res de res.\n"
+	.string "Potser això és en realitat\l"
+	.string "una piscina gegant?$"
 
 Route21_South_EventScript_Nolan::
 	trainerbattle_single TRAINER_FISHERMAN_NOLAN, Route21_South_Text_NolanIntro, Route21_South_Text_NolanDefeat
@@ -84,14 +84,14 @@ Route21_South_EventScript_Nolan::
 	end
 
 Route21_South_Text_NolanIntro::
-	.string "Keep me company till I get a hit.$"
+	.string "Fes-me companyia fins que piqui.$"
 
 Route21_South_Text_NolanDefeat::
-	.string "That burned some time.$"
+	.string "Això ha cremat una mica de temps.$"
 
 Route21_South_Text_NolanPostBattle::
-	.string "Oh wait!\n"
-	.string "I got a bite! Yeah!$"
+	.string "Oh, espera!\n"
+	.string "Tinc picada! Sí!$"
 
 Route21_South_EventScript_Jack::
 	trainerbattle_single TRAINER_SWIMMER_MALE_JACK, Route21_South_Text_JackIntro, Route21_South_Text_JackDefeat
@@ -99,14 +99,14 @@ Route21_South_EventScript_Jack::
 	end
 
 Route21_South_Text_JackIntro::
-	.string "I caught my Pokémon at sea.$"
+	.string "He atrapat els Pokémon al mar.$"
 
 Route21_South_Text_JackDefeat::
-	.string "Diver!!\n"
-	.string "Down!!$"
+	.string "Immersió!!\n"
+	.string "Avall!!$"
 
 Route21_South_Text_JackPostBattle::
-	.string "Where'd you catch your Pokémon?$"
+	.string "On has atrapat els teus Pokémon?$"
 
 Route21_South_EventScript_Jerome::
 	trainerbattle_single TRAINER_SWIMMER_MALE_JEROME, Route21_South_Text_JeromeIntro, Route21_South_Text_JeromeDefeat
@@ -114,15 +114,16 @@ Route21_South_EventScript_Jerome::
 	end
 
 Route21_South_Text_JeromeIntro::
-	.string "Right now, I'm in a triathlon meet.$"
+	.string "Ara estic en un triatló.$"
 
 Route21_South_Text_JeromeDefeat::
-	.string "Pant…\n"
-	.string "Pant… Pant…$"
+	.string "Buf…\n"
+	.string "Buf… Buf…$"
 
 Route21_South_Text_JeromePostBattle::
-	.string "I'm beat! But, I still have the\n"
-	.string "bike race and marathon left!$"
+	.string "Estic destrossat! Però encara\n"
+	.string "em queden la cursa de bici\l"
+	.string "i la marató!$"
 
 Route21_South_EventScript_Roland::
 	trainerbattle_single TRAINER_SWIMMER_MALE_ROLAND, Route21_South_Text_RolandIntro, Route21_South_Text_RolandDefeat
@@ -131,14 +132,14 @@ Route21_South_EventScript_Roland::
 
 Route21_South_Text_RolandIntro::
 	.string "Ahh!\n"
-	.string "Feel the sun and the wind!$"
+	.string "Sent el sol i el vent!$"
 
 Route21_South_Text_RolandDefeat::
-	.string "Yow!\n"
-	.string "I lost!$"
+	.string "Au!\n"
+	.string "He perdut!$"
 
 Route21_South_Text_RolandPostBattle::
-	.string "I'm sunburnt to a crisp!$"
+	.string "Estic cremat pel sol!$"
 
 Route21S_RocketFugitive::
     trainerbattle_single TRAINER_FUGITIVE_F, RocketFugitive_Text_Intro, RocketFugitive_Text_Defeat

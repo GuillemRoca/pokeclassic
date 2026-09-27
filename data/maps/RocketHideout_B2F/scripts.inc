@@ -7,16 +7,16 @@ RocketHideout_B2F_EventScript_Grunt::
 	end
 
 RocketHideout_B2F_Text_GruntIntro::
-    .string "Yeah, we killed that Cubone's\n"
-    .string "mother. What's it to you, kid?$"
+    .string "Sí, vam matar la mare d'aquell\n"
+    .string "Cubone. Què et sembla, nen?$"
 
 RocketHideout_B2F_Text_GruntDefeat::
-    .string "I surrender!$"
+    .string "Em rendeixo!$"
 
 RocketHideout_B2F_Text_GruntPostBattle::
-    .string "The Team Rocket HQ has four\n"
-    .string "underground floors.\p"
-    .string "Think you can reach the Boss?$"
+    .string "La base de l'Equip Rocket té\n"
+    .string "quatre pisos subterranis.\p"
+    .string "Creus que pots arribar al Cap?$"
 
 RocketHideout_B2F_EventScript_ItemXSpeed::
     finditem ITEM_X_SPEED, 1

@@ -20,31 +20,31 @@ VermilionCity_PokemonCenter_1F_EventScript_Man::
 	end
 
 VermilionCity_PokemonCenter_1F_Text_PoisonedMonFaintedWhileWalking::
-    .string "My Pokémon was poisoned!\n"
-    .string "It fainted while we were walking!$"
+    .string "El meu Pokémon estava enverinat!\n"
+    .string "Va caure mentre caminàvem!$"
 
 VermilionCity_PokemonCenter_1F_EventScript_Hiker::
 	msgbox VermilionCity_PokemonCenter_1F_Text_TrainerMonsStrongerThanWild, MSGBOX_NPC
 	end
 
 VermilionCity_PokemonCenter_1F_Text_TrainerMonsStrongerThanWild::
-    .string "Even if they are the same level,\n"
-    .string "Pokémon can have very different\l"
-    .string "stats and abilities.\p"
-    .string "A Pokémon raised by a trainer is\n"
-    .string "stronger than one in the wild.$"
+    .string "Encara que siguin del mateix nivell,\n"
+    .string "els Pokémon poden tenir\l"
+    .string "estadístiques molt diferents.\p"
+    .string "Un Pokémon criat per un entrenador\n"
+    .string "és més fort que un salvatge.$"
 
 VermilionCity_PokemonCenter_1F_EventScript_Youngster::
 	msgbox VermilionCity_PokemonCenter_1F_Text_AllMonWeakToSpecificTypes, MSGBOX_NPC
 	end
 
 VermilionCity_PokemonCenter_1F_Text_AllMonWeakToSpecificTypes::
-    .string "It is true that a higher-level\n"
-    .string "Pokémon will be more powerful…\p"
-    .string "But, all Pokémon will have weak\n"
-    .string "points against specific types.\p"
-    .string "So, there appears to be no\n"
-    .string "universally strong Pokémon.$"
+    .string "És cert que un Pokémon de nivell\n"
+    .string "més alt serà més poderós…\p"
+    .string "Però tots els Pokémon tindran\n"
+    .string "punts febles contra certs tipus.\p"
+    .string "Així que sembla que no hi ha cap\n"
+    .string "Pokémon universalment fort.$"
 
 VermilionCity_PokemonCenter_1F_EventScript_RematchWoman::
 	msgbox VermilionCity_PokemonCenter_1F_Text_UrgeToBattleSomeoneAgain, MSGBOX_NPC
@@ -52,11 +52,11 @@ VermilionCity_PokemonCenter_1F_EventScript_RematchWoman::
 	end
 
 VermilionCity_PokemonCenter_1F_Text_UrgeToBattleSomeoneAgain::
-    .string "The urge to battle with someone\n"
-    .string "you've tangled with before…\p"
-    .string "Have you ever had that urge?\n"
-    .string "I'm sure you have.\p"
-    .string "I wanted to battle certain people\n"
-    .string "again over and over, too.\p"
-    .string "I should give some trainers a call\n"
-    .string "on my Cell Phone!$"
+    .string "Les ganes de combatre amb algú\n"
+    .string "amb qui ja t'has enfrontat…\p"
+    .string "Has tingut mai aquesta sensació?\n"
+    .string "Segur que sí.\p"
+    .string "Jo també volia combatre amb\n"
+    .string "certes persones una i altra vegada.\p"
+    .string "Hauria de trucar a uns entrenadors\n"
+    .string "amb el meu Mòbil!$"

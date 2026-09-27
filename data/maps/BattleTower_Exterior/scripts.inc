@@ -7,7 +7,7 @@ BattleTower_Exterior_CoolTrainer1::
 	end
 
 BattleTower_Exterior_Text_WaitInLine::
-	.string "Hey! You need to wait in line!$"
+	.string "Ei! Has de fer cua!$"
 
 BattleTower_Exterior_CoolTrainer2::
 	msgbox BattleTower_Exterior_Text_LineIsntMoving, MSGBOX_NPC
@@ -15,8 +15,8 @@ BattleTower_Exterior_CoolTrainer2::
 	end
 
 BattleTower_Exterior_Text_LineIsntMoving::
-	.string "Ugh, this line hasn't moved in\n"
-	.string "ages!$"
+	.string "Uf, aquesta cua no es mou\n"
+	.string "des de fa segles!$"
 
 BattleTower_Exterior_Trainer3::
 	msgbox BattleTower_Exterior_Text_BeatElite, MSGBOX_NPC
@@ -24,8 +24,8 @@ BattleTower_Exterior_Trainer3::
 	end
 
 BattleTower_Exterior_Text_BeatElite::
-	.string "Only the best trainers are invited\n"
-	.string "to the Battle Tower!$"
+	.string "Només els millors Entrenadors són\n"
+	.string "convidats a la Torre de Combat!$"
 
 
 BattleTower_Exterior_Jenny::
@@ -35,12 +35,12 @@ BattleTower_Exterior_Jenny::
 	end
 
 BattleTower_Exterior_Text_AirTraffic::
-	.string "There's so much interest in the\n"
-	.string "Battle Tower.\p"
-	.string "I've been stationed here to handle\n"
-	.string "the crowd.\p"
-	.string "And we're not allowing anyone to Fly\n"
-	.string "here unless they have a Tower Pass.$"
+	.string "Hi ha molt interès per la\n"
+	.string "Torre de Combat.\p"
+	.string "M'han posat aquí per gestionar\n"
+	.string "la multitud.\p"
+	.string "I no permetem que ningú hi voli\n"
+	.string "sense un Passi de la Torre.$"
 
 BattleTower_Exterior_Jenny2::
 	msgbox BattleTower_Exterior_Text_TowerPass, MSGBOX_NPC
@@ -48,8 +48,8 @@ BattleTower_Exterior_Jenny2::
 	end
 
 BattleTower_Exterior_Text_TowerPass::
-	.string "Oh! You have a Tower Pass.\n"
-	.string "You're authorized to Fly here now!$"
+	.string "Oh! Tens un Passi de la Torre.\n"
+	.string "Ara estàs autoritzat a volar aquí!$"
 
 BattleTower_Exterior_Lass::
 	msgbox BattleTower_Exterior_Text_OnAStreak, MSGBOX_NPC
@@ -57,12 +57,12 @@ BattleTower_Exterior_Lass::
 	end
 
 BattleTower_Exterior_Text_OnAStreak::
-	.string "I'm on a win streak at the Battle\n"
-	.string "Tower.\p"
-	.string "Poliwrath and I came out here for\n"
-	.string "some fresh air.\p"
-	.string "It's important to rest.\n"
-	.string "You don't want to get psyched out!$"
+	.string "Tinc una ratxa de victòries a la\n"
+	.string "Torre de Combat.\p"
+	.string "Poliwrath i jo hem sortit a\n"
+	.string "prendre l'aire.\p"
+	.string "És important descansar.\n"
+	.string "No vols posar-te nerviós/a!$"
 
 BattleTower_Exterior_Poliwrath::
 	playmoncry SPECIES_POLIWRATH, CRY_MODE_NORMAL
@@ -71,8 +71,8 @@ BattleTower_Exterior_Poliwrath::
 	end
 
 BattleTower_Exterior_Text_Poliwrath::
-	.string "Poliwrath looks at you.\n"
-	.string "It's filled with determination.$"
+	.string "Poliwrath et mira.\n"
+	.string "Està ple de determinació.$"
 
 BattleTower_Exterior_Youngster::
 	lock
@@ -82,10 +82,10 @@ BattleTower_Exterior_Youngster::
 	end
 
 BattleTower_Exterior_Text_BattleTower::
-	.string "This Battle Tower is pretty sweet,\n" 
-	.string "right?\p"
-	.string "I hear the owner is obssessed with\n"
-	.string "finding the strongest trainers!$"
+	.string "Aquesta Torre de Combat està\n"
+	.string "molt bé, oi?\p"
+	.string "He sentit que el propietari està\n"
+	.string "obsessionat amb trobar els més forts!$"
 
 BattleTower_Exterior_Punk::
 	lockall
@@ -99,9 +99,9 @@ BattleTower_Exterior_Punk::
 	end
 
 BattleTower_Exterior_Text_GotCarded::
-	.string "I can't believe it!\p"
-	.string "I yelled at the referee and she gave\n"
-	.string "me one of these!$"
+	.string "No m'ho puc creure!\p"
+	.string "Vaig cridar a l'àrbitre i em va\n"
+	.string "donar una d'aquestes!$"
 
 BattleTower_Exterior_Punk2::
 	lockall
@@ -110,20 +110,20 @@ BattleTower_Exterior_Punk2::
 	end
 
 BattleTower_Exterior_Text_KickedOut::
-	.string "I can't believe they kicked me out\n"
-	.string "just because I cheated!$"
+	.string "No em puc creure que m'hagin tret\n"
+	.string "només perquè he fet trampes!$"
 
 BattleTower_Exterior_BattleTowerSign::
 	msgbox BattleTower_Exterior_Text_BattleTowerSign, MSGBOX_SIGN
 	end
 
 BattleTower_Exterior_Text_BattleTowerSign::
-    .string "The Kanto Battle Tower!\n"
-    .string "Rise to the top!$"
+    .string "La Torre de Combat de Kanto!\n"
+    .string "Arriba fins al cim!$"
 
 BattleTower_Exterior_BattleTowerHouse::
 	msgbox BattleTower_Exterior_Text_BattleTowerHouse, MSGBOX_SIGN
 	end
 
 BattleTower_Exterior_Text_BattleTowerHouse::
-    .string "Scott's House$"
+    .string "Casa de l'Scott$"

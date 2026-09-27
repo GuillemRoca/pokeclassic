@@ -13,7 +13,7 @@ CeruleanCity_House4_EventScript_NoNews::
 	end
 
 CeruleanCity_House4_Text_NothingEntertaining::
-    .string "Sigh…\n"
-    .string "Too much time, too little to do…\p"
-    .string "Is nothing entertaining happening\n"
-    .string "anywhere?$"
+    .string "Sospir…\n"
+    .string "Massa temps, massa poc a fer…\p"
+    .string "No passa res entretingut\n"
+    .string "enlloc?$"

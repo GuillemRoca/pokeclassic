@@ -44,46 +44,48 @@ SilphCo_8F_EventScript_Grunt2::
 	end
 
 SilphCo_8F_Text_WonderIfSilphIsFinished::
-    .string "I wonder if Silph is finished…$"
+    .string "Em pregunto si Silph s'ha\n"
+    .string "acabat…$"
 
 SilphCo_8F_Text_ThanksForSavingUs::
-    .string "Thanks for saving us!$"
+    .string "Gràcies per salvar-nos!$"
 
 SilphCo_8F_Text_Grunt1Intro::
-    .string "That's as far as you'll go!$"
+    .string "Fins aquí has arribat!$"
 
 SilphCo_8F_Text_Grunt1Defeat::
-    .string "Not enough grit!$"
+    .string "No n'hi ha prou!$"
 
 SilphCo_8F_Text_Grunt1PostBattle::
-    .string "If you don't turn back…\n"
-    .string "I'll call for backup!$"
+    .string "Si no tornes enrere…\n"
+    .string "Demanaré reforços!$"
 
 SilphCo_8F_Text_ParkerIntro::
-    .string "You're causing us problems!$"
+    .string "Ens estàs causant problemes!$"
 
 SilphCo_8F_Text_ParkerDefeat::
-    .string "Huh?\n"
-    .string "I lost?$"
+    .string "Eh?\n"
+    .string "He perdut?$"
 
 SilphCo_8F_Text_ParkerPostBattle::
-    .string "So, what do you think of Silph\n"
-    .string "Building's maze?$"
+    .string "Bé, què et sembla el laberint\n"
+    .string "de l'Edifici Silph?$"
 
 SilphCo_8F_Text_Grunt2Intro::
-    .string "I am one of the four Rocket\n"
-    .string "Brothers!$"
+    .string "Sóc un dels quatre Germans\n"
+    .string "Rocket!$"
 
 SilphCo_8F_Text_Grunt2Defeat::
-    .string "Whoo!\n"
-    .string "Oh, Brothers!$"
+    .string "Uuh!\n"
+    .string "Oh, Germans!$"
 
 SilphCo_8F_Text_Grunt2PostBattle::
-    .string "I'll leave you up to my brothers.$"
+    .string "Et deixo en mans dels meus\n"
+    .string "germans.$"
 
 SilphCo_8F_Text_FloorSign::
-    .string "Silph Co. Head Office\n"
-    .string "8F$"
+    .string "Seu Central de Silph S.A.\n"
+    .string "8è pis$"
 
 SilphCo_8F_EventScript_Scientist::
 	lock
@@ -93,9 +95,9 @@ SilphCo_8F_EventScript_Scientist::
 	end
 
 SilphCo_8F_Text_ToRocketBossMonsAreTools::
-    .string "Team Rocket's Boss is terribly\n"
-    .string "cruel!\p"
-    .string "To him, Pokémon are just tools to\n"
-    .string "be used.\p"
-    .string "What will happen if that tyrant\n"
-    .string "takes over our company…$"
+    .string "El Cap de l'Equip Rocket és\n"
+    .string "terriblement cruel!\p"
+    .string "Per a ell, els Pokémon són\n"
+    .string "només eines.\p"
+    .string "Què passarà si aquell tirà\n"
+    .string "s'apodera de la nostra empresa…$"

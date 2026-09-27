@@ -38,11 +38,11 @@ FarawayIsland_Entrance_EventScript_Sailor::
 	end
 
 FarawayIsland_Entrance_Text_Return:
-    .string "This was quite a journey!\p"
-	.string "It's been a long time since I've\n"
-	.string "had a chance to sail somewhere new.\n"
-	.string "Have you already explored the island?\p"
-	.string "Do you want to return to Cinnabar?$"
+    .string "Ha estat tot un viatge!\p"
+	.string "Feia molt que no tenia l'ocasió\n"
+	.string "de navegar a un lloc nou.\n"
+	.string "Ja has explorat l'illa?\p"
+	.string "Vols tornar a Cinnabar?$"
 
 FarawayIsland_Entrance_EventScript_AsYouLike::
 	msgbox EventTicket_Text_AsYouLike, MSGBOX_DEFAULT

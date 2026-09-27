@@ -18,7 +18,7 @@ Route11_EventScript_DiglettsCaveSign::
 	end
 
 Route11_Text_DiglettsCave::
-    .string "Diglett's Cave$"
+    .string "Cova Diglett$"
 
 Route11_EventScript_Hugo::
 	trainerbattle_single REMATCHABLE_TRAINER_GAMBLER_HUGO_1, Route11_Text_HugoIntro, Route11_Text_HugoDefeat, Route11_EventScript_RegisterHugoAfterBattle
@@ -29,15 +29,15 @@ Route11_EventScript_Hugo::
 	end
 
 Route11_Text_HugoIntro::
-    .string "Win, lose, or draw!$"
+    .string "Guanyar, perdre o empatar!$"
 
 Route11_Text_HugoDefeat::
-    .string "Atcha!\n"
-    .string "Didn't go my way!$"
+    .string "Atxa!\n"
+    .string "No ha anat bé!$"
 
 Route11_Text_HugoPostBattle::
-    .string "Pokémon is life!\n"
-    .string "And to live is to play games!$"
+    .string "Pokémon és vida!\n"
+    .string "I viure és jugar!$"
 
 Route11_EventScript_RegisterHugoAfterBattle::
 	special PlayerFaceTrainerAfterBattle
@@ -48,8 +48,8 @@ Route11_EventScript_RegisterHugoAfterBattle::
 	end
 
 Route11_Text_HugoRegister:
-	.string "Hey, how about rematch sometime?\n"
-	.string "Maybe I'll have better luck.$"
+	.string "Ei, fem la revenja algun dia?\n"
+	.string "Potser tindré més sort.$"
 
 Route11_EventScript_HugoRematch::
 	trainerbattle_rematch REMATCHABLE_TRAINER_GAMBLER_HUGO_1, Route11_Text_HugoRematchIntro, Route11_Text_HugoDefeat
@@ -57,11 +57,11 @@ Route11_EventScript_HugoRematch::
 	end
 
 Route11_Text_HugoRematchIntro::
-	.string "Win, lose, or draw!\n"
-	.string "Now for our rematch!$"
+	.string "Guanyar, perdre o empatar!\n"
+	.string "Ara, la revenja!$"
 
 Route11_Text_HugoRematchPostBattle::
-	.string "Ouch! There goes my streak.$"
+	.string "Au! Se m'ha acabat la ratxa.$"
 
 Route11_EventScript_Jasper::
 	trainerbattle_single TRAINER_GAMBLER_JASPER, Route11_Text_JasperIntro, Route11_Text_JasperDefeat
@@ -69,15 +69,15 @@ Route11_EventScript_Jasper::
 	end
 
 Route11_Text_JasperIntro::
-    .string "Competition!\n"
-    .string "I can't get enough!$"
+    .string "Competició!\n"
+    .string "No en tinc mai prou!$"
 
 Route11_Text_JasperDefeat::
-    .string "I had a chance!$"
+    .string "Hi era a prop!$"
 
 Route11_Text_JasperPostBattle::
-    .string "You can't be a coward in the world\n"
-    .string "of Pokémon!$"
+    .string "No pots ser un covard al món\n"
+    .string "dels Pokémon!$"
 
 Route11_EventScript_Bernie::
 	trainerbattle_single REMATCHABLE_TRAINER_ENGINEER_BERNIE_1, Route11_Text_BernieIntro, Route11_Text_BernieDefeat, Route11_EventScript_RegisterBernieAfterBattle
@@ -88,14 +88,14 @@ Route11_EventScript_Bernie::
 	end
 
 Route11_Text_BernieIntro::
-    .string "Watch out for live wires!$"
+    .string "Compte amb els cables vius!$"
 
 Route11_Text_BernieDefeat::
-    .string "Whoa!\n"
-    .string "You spark plug!$"
+    .string "Uau!\n"
+    .string "Quina espurna!$"
 
 Route11_Text_BerniePostBattle::
-    .string "Well, better get back to work.$"
+    .string "Bé, millor que torni a la feina.$"
 
 Route11_EventScript_RegisterBernieAfterBattle::
 	special PlayerFaceTrainerAfterBattle
@@ -106,8 +106,8 @@ Route11_EventScript_RegisterBernieAfterBattle::
 	end
 
 Route11_Text_BernieRegister:
-	.string "Next time I take a break, let's\n"
-	.string "have a rematch.$"
+	.string "El proper cop que faci una pausa,\n"
+	.string "fem la revenja.$"
 
 Route11_EventScript_BernieRematch::
 	trainerbattle_rematch REMATCHABLE_TRAINER_ENGINEER_BERNIE_1, Route11_Text_BernieRematchIntro, Route11_Text_BernieDefeat
@@ -115,11 +115,11 @@ Route11_EventScript_BernieRematch::
 	end
 
 Route11_Text_BernieRematchIntro::
-	.string "Whoo! Time for a break.\n"
-	.string "How about a rematch?$"
+	.string "Uixi! Hora de la pausa.\n"
+	.string "Fem la revenja?$"
 
 Route11_Text_BernieRematchPostBattle::
-	.string "Well, back to the grind.$"
+	.string "Bé, de tornada a la rutina.$"
 
 Route11_EventScript_Braxton::
 	trainerbattle_single TRAINER_ENGINEER_BRAXTON, Route11_Text_BraxtonIntro, Route11_Text_BraxtonDefeat
@@ -127,14 +127,15 @@ Route11_EventScript_Braxton::
 	end
 
 Route11_Text_BraxtonIntro::
-    .string "Careful!\n"
-    .string "I'm laying down some cables!$"
+    .string "Compte!\n"
+    .string "Estic estirant cables!$"
 
 Route11_Text_BraxtonDefeat::
-    .string "That was electric!$"
+    .string "Ha estat electritzant!$"
 
 Route11_Text_BraxtonPostBattle::
-    .string "Spread the word to save energy!$"
+    .string "Escampeu la veu d'estalviar\n"
+    .string "energia!$"
 
 Route11_EventScript_Eddie::
 	trainerbattle_single TRAINER_YOUNGSTER_EDDIE, Route11_Text_EddieIntro, Route11_Text_EddieDefeat
@@ -142,15 +143,15 @@ Route11_EventScript_Eddie::
 	end
 
 Route11_Text_EddieIntro::
-    .string "Let's go, but don't cheat!$"
+    .string "Va, però sense trampes!$"
 
 Route11_Text_EddieDefeat::
-    .string "Huh?\n"
-    .string "That's not right!$"
+    .string "Eh?\n"
+    .string "Això no és just!$"
 
 Route11_Text_EddiePostBattle::
-    .string "I did my best.\n"
-    .string "I have no regrets.$"
+    .string "Ho he donat tot.\n"
+    .string "No me'n penedeixo.$"
 
 Route11_EventScript_Dillon::
 	trainerbattle_single TRAINER_YOUNGSTER_DILLON, Route11_Text_DillonIntro, Route11_Text_DillonDefeat
@@ -158,16 +159,16 @@ Route11_EventScript_Dillon::
 	end
 
 Route11_Text_DillonIntro::
-    .string "I just became a trainer.\n"
-    .string "But, I think I can win.$"
+    .string "Acabo de ser entrenador.\n"
+    .string "Però crec que puc guanyar.$"
 
 Route11_Text_DillonDefeat::
-    .string "My Pokémon couldn't win…\n"
-    .string "Haven't they grown enough?$"
+    .string "Els meus Pokémon no han pogut…\n"
+    .string "No han crescut prou?$"
 
 Route11_Text_DillonPostBattle::
-    .string "What now?\n"
-    .string "Leave me alone!$"
+    .string "I ara què?\n"
+    .string "Deixa'm en pau!$"
 
 Route11_EventScript_Yasu::
 	trainerbattle_single TRAINER_YOUNGSTER_YASU, Route11_Text_YasuIntro, Route11_Text_YasuDefeat
@@ -175,18 +176,19 @@ Route11_EventScript_Yasu::
 	end
 
 Route11_Text_YasuIntro::
-    .string "I'm the best in my class.\n"
-    .string "I train every morning.$"
+    .string "Sóc el millor de la meva classe.\n"
+    .string "Entreno cada matí.$"
 
 Route11_Text_YasuDefeat::
-    .string "Darn!\n"
-    .string "My Pokémon need to be stronger!$"
+    .string "Llamps!\n"
+    .string "Els meus Pokémon han de ser\l"
+    .string "més forts!$"
 
 Route11_Text_YasuPostBattle::
-    .string "There's a fat Pokémon that comes\n"
-    .string "down from the mountains.\p"
-    .string "I bet it'd be strong if you can\n"
-    .string "catch it.$"
+    .string "Hi ha un Pokémon gras que baixa\n"
+    .string "de les muntanyes.\p"
+    .string "Segur que seria fort si\n"
+    .string "l'atrapes.$"
 
 Route11_EventScript_Dave::
 	trainerbattle_single TRAINER_YOUNGSTER_DAVE, Route11_Text_DaveIntro, Route11_Text_DaveDefeat
@@ -194,16 +196,16 @@ Route11_EventScript_Dave::
 	end
 
 Route11_Text_DaveIntro::
-    .string "I raised my Pokémon carefully.\n"
-    .string "They should be ready by now!$"
+    .string "He criat els meus Pokémon amb\n"
+    .string "cura. Ja haurien d'estar a punt!$"
 
 Route11_Text_DaveDefeat::
-    .string "Bye-bye!\n"
-    .string "Thank you, and good-bye!$"
+    .string "Adéu!\n"
+    .string "Gràcies i adéu!$"
 
 Route11_Text_DavePostBattle::
-    .string "Tch…\n"
-    .string "I better go find stronger ones!$"
+    .string "Tsc…\n"
+    .string "Millor que en busqui de més forts!$"
 
 Route11_EventScript_Dirk::
 	trainerbattle_single TRAINER_GAMBLER_DIRK, Route11_Text_DirkIntro, Route11_Text_DirkDefeat
@@ -212,13 +214,13 @@ Route11_EventScript_Dirk::
 
 Route11_Text_DirkIntro::
     .string "Fwahaha!\n"
-    .string "I have never lost!$"
+    .string "No he perdut mai!$"
 
 Route11_Text_DirkDefeat::
-    .string "My first loss!$"
+    .string "La meva primera derrota!$"
 
 Route11_Text_DirkPostBattle::
-    .string "You were just lucky, that's all.$"
+    .string "Només has tingut sort, res més.$"
 
 Route11_EventScript_Darian::
 	trainerbattle_single TRAINER_GAMBLER_DARIAN, Route11_Text_DarianIntro, Route11_Text_DarianDefeat
@@ -226,13 +228,13 @@ Route11_EventScript_Darian::
 	end
 
 Route11_Text_DarianIntro::
-    .string "I have never won before…$"
+    .string "No he guanyat mai…$"
 
 Route11_Text_DarianDefeat::
-    .string "I saw this coming…$"
+    .string "Ja m'ho veia venir…$"
 
 Route11_Text_DarianPostBattle::
-    .string "I was unlucky, as always.$"
+    .string "He tingut mala sort, com sempre.$"
 
 
 Route11_EventScript_ItemGreatBall::
