@@ -364,7 +364,7 @@ PalletTown_ProfessorOaksLab_Text_RivalLetsCheckOutMons::
 
 PalletTown_ProfessorOaksLab_Text_RivalBattleIntro::
     .string "Posem a prova els nostres Pokémon!\p"
-    .string "Vinga, que et reto!$"
+    .string "Vinga, que et repto!$"
 
 PalletTown_ProfessorOaksLab_Text_RivalDefeated::
     .string "{RIVAL}: QUÈ?\n"
@@ -882,8 +882,8 @@ PalletTown_ProfessorOaksLab_Text_CatchingCharmReward::
 	.string "la Pokédex!$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedCatchingCharm::
-	.string "{PLAYER} ha obtingut el\n"
-	.string "Amulet de Captura!"
+	.string "{PLAYER} ha obtingut\n"
+	.string "l'Amulet de Captura!"
 
 PalletTown_ProfessorOaksLab_EventScript_GetOvalCharm::
 	goto_if_unset FLAG_CLEARED_SECRET_BATTLE, PalletTown_ProfessorOaksLab_EventScript_CedarCheckNext
@@ -907,8 +907,8 @@ PalletTown_ProfessorOaksLab_Text_OvalCharmReward::
 	.string "Pokémon!$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedOvalCharm::
-	.string "{PLAYER} ha obtingut el\n"
-	.string "Amulet Oval!"
+	.string "{PLAYER} ha obtingut\n"
+	.string "l'Amulet Oval!"
 
 PalletTown_ProfessorOaksLab_EventScript_GetShinyCharm::
 	specialvar VAR_RESULT, HasAllHoennMons
@@ -934,8 +934,8 @@ PalletTown_ProfessorOaksLab_Text_ShinyCharmReward::
 	.string "trobar-los!$"
 
 PalletTown_ProfessorOaksLab_Text_ReceivedShinyCharm::
-	.string "{PLAYER} ha obtingut el\n"
-	.string "Amulet Brillant!"
+	.string "{PLAYER} ha obtingut\n"
+	.string "l'Amulet Brillant!"
 
 Cedar_CheckCharms::
 	goto_if_unset FLAG_RECEIVED_CATCHING_CHARM, Common_EventScript_Return

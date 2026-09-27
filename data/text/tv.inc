@@ -5804,7 +5804,7 @@ TVSecretBaseSecrets_Text_UsedSolidBoard::
 	.string "la Taula Sòlida.\p"
 
 
-	.string "El visitant mira avall tot el rato.\p"
+	.string "El visitant mira avall tota l'estona.\p"
 
 
 	.string "El visitant resulta ser tímid\n"
