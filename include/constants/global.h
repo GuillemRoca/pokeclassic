@@ -111,7 +111,7 @@
 #define WONDER_NEWS_TEXT_LENGTH 40
 #define WONDER_CARD_BODY_TEXT_LINES 4
 #define WONDER_NEWS_BODY_TEXT_LINES 10
-#define TYPE_NAME_LENGTH 6
+#define TYPE_NAME_LENGTH 8 // full Catalan names ("Fantasma", "Elèctric")
 
 #define MAX_STAMP_CARD_STAMPS 7
 

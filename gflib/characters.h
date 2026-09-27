@@ -262,6 +262,12 @@
 #define PLACEHOLDER_ID_MAXIE         0xB
 #define PLACEHOLDER_ID_KYOGRE        0xC
 #define PLACEHOLDER_ID_GROUDON       0xD
+// Gendered text choice, expanded by StringExpandPlaceholders:
+// "{MASC}Benvingut{FEM}Benvinguda{ENDG}" keeps one branch, chosen from the
+// player's current outfit (see IsPlayerTextFemale).
+#define PLACEHOLDER_ID_MASC          0xE
+#define PLACEHOLDER_ID_FEM           0xF
+#define PLACEHOLDER_ID_ENDG          0x10
 
 // battle placeholders are located in battle_message.h
 

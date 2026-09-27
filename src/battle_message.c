@@ -1867,7 +1867,9 @@ const u8 gText_LinkStandby[] = _("{PAUSE 16}Connexió en espera…");
 const u8 gText_BattleMenu[] = _("Lluitar{CLEAR_TO 56}Motxil{SKIP 87}l{SKIP 90}a\nPokémon{CLEAR_TO 56}Fugir");
 const u8 gText_SafariZoneMenu[] = _("Ball{CLEAR_TO 56}{POKEBLOCK}\nAvançar{CLEAR_TO 56}Fugir");
 const u8 gText_MoveInterfacePP[] = _("PU ");
-const u8 gText_MoveInterfaceType[] = _("Tipus/");
+// No "Tipus/" label: "Tipus/Fantasma" does not fit the 64 px move-type window,
+// and the type name alone is unambiguous there.
+const u8 gText_MoveInterfaceType[] = _("");
 const u8 gText_MoveInterfacePpType[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}PU\nTipus/");
 const u8 gText_MoveInterfaceDynamicColors[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}");
 const u8 gText_WhichMoveToForget4[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}Quin moviment\nvols oblidar?");

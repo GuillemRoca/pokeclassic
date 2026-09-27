@@ -51,10 +51,21 @@ def inc_lines(text):
     return [l for m in msgs for l in re.split(r'\\[nlp]|\$', m) if l.strip()]
 
 
+GENDER = re.compile(r'\{MASC\}(.*?)\{FEM\}(.*?)\{ENDG\}')
+
+
+def gender_variants(line):
+    """Both renderings of a {MASC}m{FEM}f{ENDG} line (one if it has none)."""
+    return [GENDER.sub(r'\1', line), GENDER.sub(r'\2', line)]
+
+
 def text_width(line):
-    """Pixel width with placeholders ({PLAYER}, {STR_VAR_1}, ...) counted as 0."""
-    line = re.sub(r'\{[^}]*\}', '', line)
-    return sum(W_NORMAL[b] for b in encode(line) if b < len(W_NORMAL))
+    """Pixel width with placeholders ({PLAYER}, {STR_VAR_1}, ...) counted as 0.
+    Gendered text is measured on its wider branch."""
+    def width(l):
+        l = re.sub(r'\{[^}]*\}', '', l)
+        return sum(W_NORMAL[b] for b in encode(l) if b < len(W_NORMAL))
+    return max(width(v) for v in gender_variants(line))
 
 
 def audit_inc(report=True):

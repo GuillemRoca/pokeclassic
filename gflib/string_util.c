@@ -332,6 +332,37 @@ u8 *ConvertIntToHexStringN(u8 *dest, s32 value, enum StringConvertMode mode, u8 
     return dest;
 }
 
+// Female outfits make gendered text use its feminine branch, since the
+// intro never asks for the player's gender in this game.
+bool32 IsPlayerTextFemale(void)
+{
+    switch (gSaveBlock2Ptr->costumeId)
+    {
+    case LEAF_COSTUME:
+    case LYRA_COSTUME:
+    case KRIS_COSTUME:
+    case MAY_COSTUME:
+    case DAWN_COSTUME:
+    case DAWN_PLATINUM_COSTUME:
+        return TRUE;
+    }
+    return gSaveBlock2Ptr->playerGender == FEMALE;
+}
+
+// Returns the position just after PLACEHOLDER_BEGIN + marker, or the EOS
+static const u8 *SkipToGenderMarker(const u8 *src, u8 marker)
+{
+    while (*src != EOS)
+    {
+        if (src[0] == PLACEHOLDER_BEGIN && src[1] == marker)
+            return src + 2;
+        if (src[0] == PLACEHOLDER_BEGIN || src[0] == EXT_CTRL_CODE_BEGIN)
+            src++; // don't mistake an argument byte for a marker
+        src++;
+    }
+    return src;
+}
+
 u8 *StringExpandPlaceholders(u8 *dest, const u8 *src)
 {
     for (;;)
@@ -344,6 +375,15 @@ u8 *StringExpandPlaceholders(u8 *dest, const u8 *src)
         {
         case PLACEHOLDER_BEGIN:
             placeholderId = *src++;
+            if (placeholderId == PLACEHOLDER_ID_MASC || placeholderId == PLACEHOLDER_ID_FEM)
+            {
+                // {MASC}m{FEM}f{ENDG}: skip the branch that doesn't apply
+                if ((placeholderId == PLACEHOLDER_ID_MASC) == IsPlayerTextFemale())
+                    src = SkipToGenderMarker(src, placeholderId == PLACEHOLDER_ID_MASC ? PLACEHOLDER_ID_FEM : PLACEHOLDER_ID_ENDG);
+                break;
+            }
+            if (placeholderId == PLACEHOLDER_ID_ENDG)
+                break;
             expandedString = GetExpandedPlaceholder(placeholderId);
             dest = StringExpandPlaceholders(dest, expandedString);
             break;

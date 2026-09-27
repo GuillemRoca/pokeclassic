@@ -1373,6 +1373,10 @@ static const struct SearchOptionText sDexSearchColorOptions[] =
     {},
 };
 
+// The search screen's type slots are ~43 px wide, too narrow for these two
+static const u8 sText_DexSearchTypeGhost[] = _("Fantas.");
+static const u8 sText_DexSearchTypeElectric[] = _("Elèctr.");
+
 static const struct SearchOptionText sDexSearchTypeOptions[NUMBER_OF_MON_TYPES + 1] = // + 2 for "None" and terminator, - 1 for Mystery
 {
     {gText_DexEmptyString, gText_DexSearchTypeNone},
@@ -1383,12 +1387,12 @@ static const struct SearchOptionText sDexSearchTypeOptions[NUMBER_OF_MON_TYPES +
     {gText_DexEmptyString, gTypeNames[TYPE_GROUND]},
     {gText_DexEmptyString, gTypeNames[TYPE_ROCK]},
     {gText_DexEmptyString, gTypeNames[TYPE_BUG]},
-    {gText_DexEmptyString, gTypeNames[TYPE_GHOST]},
+    {gText_DexEmptyString, sText_DexSearchTypeGhost},
     {gText_DexEmptyString, gTypeNames[TYPE_STEEL]},
     {gText_DexEmptyString, gTypeNames[TYPE_FIRE]},
     {gText_DexEmptyString, gTypeNames[TYPE_WATER]},
     {gText_DexEmptyString, gTypeNames[TYPE_GRASS]},
-    {gText_DexEmptyString, gTypeNames[TYPE_ELECTRIC]},
+    {gText_DexEmptyString, sText_DexSearchTypeElectric},
     {gText_DexEmptyString, gTypeNames[TYPE_PSYCHIC]},
     {gText_DexEmptyString, gTypeNames[TYPE_ICE]},
     {gText_DexEmptyString, gTypeNames[TYPE_DRAGON]},
@@ -4146,95 +4150,28 @@ static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
     PrintInfoScreenText(description, GetStringCenterAlignXOffset(FONT_NORMAL, description, 0xF0), 0x5F);
 }
 
-static void PrintMonHeight(u16 height, u8 left, u8 top)
+// Catalan uses metric units and a decimal comma. Heights are stored in
+// decimetres and weights in hectograms, so both print as "<int>,<tenths>".
+static void PrintMonMetric(u16 tenths, const u8 *unit, u8 left, u8 top)
 {
     u8 buffer[16];
-    u32 inches, feet;
-    u8 i = 0;
+    u8 *str;
 
-    inches = (height * 10000) / 254;
-    if (inches % 10 >= 5)
-        inches += 10;
-    feet = inches / 120;
-    inches = (inches - (feet * 120)) / 10;
-
-    buffer[i++] = EXT_CTRL_CODE_BEGIN;
-    buffer[i++] = EXT_CTRL_CODE_CLEAR_TO;
-    if (feet / 10 == 0)
-    {
-        buffer[i++] = 18;
-        buffer[i++] = feet + CHAR_0;
-    }
-    else
-    {
-        buffer[i++] = 12;
-        buffer[i++] = feet / 10 + CHAR_0;
-        buffer[i++] = (feet % 10) + CHAR_0;
-    }
-    buffer[i++] = CHAR_SGL_QUOTE_RIGHT;
-    buffer[i++] = (inches / 10) + CHAR_0;
-    buffer[i++] = (inches % 10) + CHAR_0;
-    buffer[i++] = CHAR_DBL_QUOTE_RIGHT;
-    buffer[i++] = EOS;
+    str = ConvertIntToDecimalStringN(buffer, tenths / 10, STR_CONV_MODE_RIGHT_ALIGN, 3);
+    *str++ = CHAR_COMMA;
+    str = ConvertIntToDecimalStringN(str, tenths % 10, STR_CONV_MODE_LEFT_ALIGN, 1);
+    StringCopy(str, unit);
     PrintInfoScreenText(buffer, left, top);
+}
+
+static void PrintMonHeight(u16 height, u8 left, u8 top)
+{
+    PrintMonMetric(height, gText_UnitMetres, left, top);
 }
 
 static void PrintMonWeight(u16 weight, u8 left, u8 top)
 {
-    u8 buffer[16];
-    bool8 output;
-    u8 i;
-    u32 lbs = (weight * 100000) / 4536;
-
-    if (lbs % 10u >= 5)
-        lbs += 10;
-    i = 0;
-    output = FALSE;
-
-    if ((buffer[i] = (lbs / 100000) + CHAR_0) == CHAR_0 && !output)
-    {
-        buffer[i++] = CHAR_SPACER;
-    }
-    else
-    {
-        output = TRUE;
-        i++;
-    }
-
-    lbs %= 100000;
-    if ((buffer[i] = (lbs / 10000) + CHAR_0) == CHAR_0 && !output)
-    {
-        buffer[i++] = CHAR_SPACER;
-    }
-    else
-    {
-        output = TRUE;
-        i++;
-    }
-
-    lbs %= 10000;
-    if ((buffer[i] = (lbs / 1000) + CHAR_0) == CHAR_0 && !output)
-    {
-        buffer[i++] = CHAR_SPACER;
-    }
-    else
-    {
-        output = TRUE;
-        i++;
-    }
-
-    lbs %= 1000;
-    buffer[i++] = (lbs / 100) + CHAR_0;
-    lbs %= 100;
-    buffer[i++] = CHAR_PERIOD;
-    buffer[i++] = (lbs / 10) + CHAR_0;
-    buffer[i++] = CHAR_SPACE;
-    buffer[i++] = CHAR_l;
-    buffer[i++] = CHAR_b;
-    buffer[i++] = CHAR_s;
-    buffer[i++] = CHAR_PERIOD;
-    buffer[i++] = EOS;
-    PrintInfoScreenText(buffer, left, top);
+    PrintMonMetric(weight, gText_UnitKilograms, left, top);
 }
 
 const u8 *GetPokedexCategoryName(u16 dexNum) // unused

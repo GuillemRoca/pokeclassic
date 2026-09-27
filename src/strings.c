@@ -108,19 +108,21 @@ const u8 gText_RivalNameSatoru[] = _("Satoru");
 const u8 gText_RivalNameKen[] = _("Ken");
 
 const u8 gText_ThisIsAPokemon[] = _("Aquest món…{PAUSE 96}\p");
-const u8 gText_5MarksPokemon[] = _("????? Pokémon");
-const u8 gText_UnkHeight[] = _("{CLEAR_TO 0x0C}??'??”");
-const u8 gText_UnkWeight[] = _("????.? lbs.");
+const u8 gText_5MarksPokemon[] = _("Pokémon ?????");
+const u8 gText_UnkHeight[] = _("{CLEAR_TO 0x06}??,? m");
+const u8 gText_UnitMetres[] = _(" m");
+const u8 gText_UnitKilograms[] = _(" kg");
+const u8 gText_UnkWeight[] = _("???,? kg");
 const u8 gText_EmptyPkmnCategory[] = _("                       Pokémon"); // Unused
 const u8 gText_EmptyHeight[] = _("{CLEAR_TO 0x0C}    '    ”"); // Unused
-const u8 gText_EmptyWeight[] = _("        .   lbs."); // Unused
+const u8 gText_EmptyWeight[] = _("      ,   kg"); // Unused
 const u8 gText_EmptyPokedexInfo1[] = _(""); // Unused
 const u8 gText_CryOf[] = _("Crit de");
 const u8 gText_EmptyPokedexInfo2[] = _(""); // Unused
 const u8 gText_SizeComparedTo[] = _("Mida comparada amb ");
 const u8 gText_PokedexRegistration[] = _("Registre a la Pokédex completat.");
-const u8 gText_HTHeight[] = _("AL");
-const u8 gText_WTWeight[] = _("PE");
+const u8 gText_HTHeight[] = _("Alç.");
+const u8 gText_WTWeight[] = _("Pes");
 const u8 gText_SearchingPleaseWait[] = _("Cercant…\nEspera.");
 const u8 gText_SearchCompleted[] = _("Cerca completada.");
 const u8 gText_NoMatchingPkmnWereFound[] = _("No s'ha trobat cap Pokémon.");
@@ -316,7 +318,7 @@ const u8 gText_NumberItem_TMBerry[] = _("{NO}{STR_VAR_1}{CLEAR 0x07}{STR_VAR_2}"
 const u8 gText_NumberItem_HM[] = _("{CLEAR_TO 0x11}{STR_VAR_1}{CLEAR 0x05}{STR_VAR_2}");
 const u8 gText_SizeSlash[] = _("Mida /");
 const u8 gText_FirmSlash[] = _("Fermesa /");
-const u8 gText_Var1DotVar2[] = _("{STR_VAR_1}.{STR_VAR_2}”");
+const u8 gText_Var1DotVar2[] = _("{STR_VAR_1},{STR_VAR_2} cm");
 
 // Berry firmness strings
 const u8 gBerryFirmnessString_VerySoft[] = _("Molt tova");
