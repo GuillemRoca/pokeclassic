@@ -254,8 +254,8 @@ per coherència i perquè el text hi càpiga. Vegeu [TOOLING.md](TOOLING.md).
 |--------|--------|
 | Paralysis / Paralyzed | Paràlisi / Paralitzat |
 | Sleep / Asleep | Son / Adormit |
-| Poison / Poisoned | Verí / Enverienat |
-| Badly poisoned | Molt enverienat |
+| Poison / Poisoned | Verí / Enverinat |
+| Badly poisoned | Molt enverinat |
 | Burn / Burned | Cremada / Cremat |
 | Freeze / Frozen | Gel / Gelat |
 | Confusion / Confused | Confusió / Confós |
