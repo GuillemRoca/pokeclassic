@@ -21,6 +21,20 @@ Terminologia acordada per a la localització al català del joc PokeClassic (rec
 
 ---
 
+## Gènere del jugador
+
+La introducció no pregunta el gènere: el joc el dedueix del vestit (Leaf, Lyra,
+Kris, May i Dawn són noies). Als textos de guió (`.inc`) les paraules que
+concorden amb el jugador s'escriuen amb la marca de tria:
+
+    {MASC}Benvingut{FEM}Benvinguda{ENDG} al Centre Pokémon!
+
+- Només per al jugador (no per al rival, l'Oak, altres PNJ ni Pokémon).
+- La branca masculina és el text original; la tria, tan curta com es pugui.
+- Cap `\n`, `\l`, `\p` ni `$` dins d'una branca.
+- **No** es pot fer servir a `src/*.c` (combat i menús no expandeixen la marca).
+- Si hi ha una formulació neutra natural ("Et donem la benvinguda"), millor.
+
 ## Formes curtes obligatòries
 
 Els quadres de text del GBA són estrets, així que aquestes formes s'usen sempre,
@@ -227,6 +241,9 @@ per coherència i perquè el text hi càpiga. Vegeu [TOOLING.md](TOOLING.md).
 | Quirky | Peculiar |
 
 ### Tipus
+
+Noms complets al text (`gTypeNames`, fins a 8 caràcters). Les insígnies
+gràfiques (32 px) abreugen com l'anglès: VOLAD., FANTAS, ELÈCTR.
 
 | Anglès | Català |
 |--------|--------|
