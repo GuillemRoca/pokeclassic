@@ -47,7 +47,7 @@ PewterCity_Gym_Text_BrockIntro::
     .string "Demostra'm el que vals!$"
 
 PewterCity_Gym_Text_BrockDefeat::
-    .string "Et vaig subestimar, i per això\n"
+    .string "T'he subestimat, i per això\n"
     .string "he perdut.$"
 
 PewterCity_Gym_EventScript_DefeatedBrockGetBadge::
@@ -75,12 +75,12 @@ PewterCity_Gym_Text_ReceivedBadge::
     .string "Roca de Brock!$"
 
 PewterCity_Gym_Text_ExplainBadge::
-	.string "Només tenir la Medalla Roca fa\n"
-    .string "els teus Pokémon més poderosos.\p"
+	.string "El simple fet de tenir la Medalla\n"
+    .string "Roca fa més forts els teus Pokémon.\p"
     .string "També permet usar el moviment\n"
-    .string "Flash fora de combat.\p"
+    .string "Llampec fora de combat.\p"
     .string "Per descomptat, un Pokémon ha de\n"
-    .string "conèixer Flash per usar-lo.$"
+    .string "conèixer Llampec per usar-lo.$"
 
 PewterCity_Gym_EventScript_GetTM::
 	msgbox PewterCity_Gym_Text_TakeThisWithYou, MSGBOX_DEFAULT
@@ -106,9 +106,9 @@ PewterCity_Gym_Text_ReceivedTMFromBrock::
 PewterCity_Gym_Text_ExplainTM::
     .string "Una MT, Màquina Tècnica, conté\n"
     .string "una tècnica per a Pokémon.\p"
-    .string "Usar una MT ensenya el moviment\n"
-    .string "que conté a un Pokémon.\p"
-    .string "La MT39 conté Tomba Roca.\p"
+    .string "Si uses una MT, un Pokémon aprèn\n"
+    .string "el moviment que conté.\p"
+    .string "La MT39 conté Tomba de Roca.\p"
     .string "Llança roques a l'enemic i\n"
     .string "redueix la seva velocitat.$"
 
@@ -157,8 +157,8 @@ PewterCity_Gym_Text_RematchLeader::
 	.string "…Tens un aspecte molt diferent\n"
 	.string "de quan ens vam conèixer!\p"
 	.string "…Si us plau, concedeix-me el\n"
-	.string "privilegi de combatre una altra\l"
-	.string "vegada!$"
+	.string "privilegi de tornar a combatre\l"
+	.string "amb tu!$"
 
 PewterCity_Gym_EventScript_DeclineRematch::
 	msgbox PewterCity_Gym_Text_DeclineRematch, MSGBOX_DEFAULT
@@ -284,7 +284,7 @@ PewterCity_Gym_Text_LetMeTakeYouToTheTop::
     .string "Gosaries somiar en ser\n"
     .string "el Campió Pokémon?\p"
     .string "Jo no sóc Entrenador, però et\n"
-    .string "puc aconsellar per guanyar.\p"
+    .string "puc donar consells per guanyar.\p"
     .string "Deixa que et porti al cim!$"
 
 PewterCity_Gym_EventScript_GymGuyTakeMeToTop::

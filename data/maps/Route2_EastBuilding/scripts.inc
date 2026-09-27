@@ -37,8 +37,8 @@ Route2_EastBuilding_EventScript_AlreadyGotHM05::
 
 Route2_EastBuilding_Text_ExplainHM05::
     .string "La MO05 conté el moviment ocult\n"
-    .string "Flash.\p"
-    .string "Flash il·lumina fins i tot les\n"
+    .string "Llampec.\p"
+    .string "Llampec il·lumina fins i tot les\n"
     .string "coves més fosques.$"
 
 Route2_EastBuilding_EventScript_AideNextLocation::
@@ -51,5 +51,5 @@ Route2_EastBuilding_EventScript_Rocker::
 	end
 
 Route2_EastBuilding_Text_CanGetThroughRockTunnel::
-    .string "Quan un Pokémon aprèn Flash, pots\n"
-    .string "travessar el Túnel Roca.$"
+    .string "Quan un Pokémon aprèn Llampec, pots\n"
+    .string "travessar el Túnel Rocós.$"

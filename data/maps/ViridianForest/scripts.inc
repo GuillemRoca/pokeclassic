@@ -18,7 +18,7 @@ ViridianForest_EventScript_Youngster::
 ViridianForest_Text_FriendsItchingToBattle::
     .string "He vingut aquí amb uns amics per\n"
     .string "atrapar Pokémon Insecte!\p"
-    .string "Tots estan desitjant fer\n"
+    .string "Tots es moren de ganes de fer\n"
     .string "combats Pokémon!$"
 
 ViridianForest_EventScript_Boy::
@@ -29,8 +29,8 @@ ViridianForest_Text_RanOutOfPokeBalls::
     .string "Estava llançant Poké Balls per\n"
     .string "atrapar Pokémon, i se m'han\l"
     .string "acabat.\p"
-    .string "Per això mai no pots tenir\n"
-    .string "massa Poké Balls.$"
+    .string "Per això mai no en tens prou,\n"
+    .string "de Poké Balls.$"
 
 ViridianForest_EventScript_Rick::
 	trainerbattle_single TRAINER_BUG_CATCHER_RICK, ViridianForest_Text_RickIntro, ViridianForest_Text_RickDefeat
@@ -46,7 +46,7 @@ ViridianForest_Text_RickDefeat::
     .string "No!\nEl Caterpie no ha pogut!$"
 
 ViridianForest_Text_RickPostBattle::
-    .string "Xut! Espantaràs els insectes.\n"
+    .string "Xst! Espantaràs els insectes.\n"
     .string "Un altre cop, d'acord?$"
 
 ViridianForest_EventScript_Doug::
@@ -78,8 +78,8 @@ ViridianForest_Text_SammyIntro::
     .string "Quina pressa! Per què corres?$"
 
 ViridianForest_Text_SammyDefeat::
-    .string "Em renyo!\n"
-    .string "Ets bo en això!$"
+    .string "Em rendeixo!\n"
+    .string "Se't dona molt bé!$"
 
 ViridianForest_Text_SammyPostBattle::
     .string "A vegades, pots trobar coses\n"
@@ -94,7 +94,7 @@ ViridianForest_EventScript_Anthony::
 
 ViridianForest_Text_AnthonyIntro::
     .string "Potser sóc petit, però no\n"
-    .string "m'agradarà si et contens!$"
+    .string "em tinguis gens de pietat!$"
 
 ViridianForest_Text_AnthonyDefeat::
     .string "Oh, vaja.\n"
@@ -136,8 +136,8 @@ ViridianForest_EventScript_TrainerTips2::
 
 ViridianForest_Text_UseAntidoteForPoison::
     .string "Consells d'Entrenador:\p"
-    .string "Contra el verí, usa Antídot!\n"
-    .string "Compra'ls a la Botiga Pokémon!$"
+    .string "Contra el verí, usa un Antídot!\n"
+    .string "El trobaràs a la Botiga Pokémon!$"
 
 ViridianForest_EventScript_TrainerTips3::
 	msgbox ViridianForest_Text_ContactOakViaPCToRatePokedex, MSGBOX_SIGN
@@ -146,7 +146,7 @@ ViridianForest_EventScript_TrainerTips3::
 ViridianForest_Text_ContactOakViaPCToRatePokedex::
     .string "Consells d'Entrenador:\p"
     .string "Pots trucar al Prof. Oak amb\n"
-    .string "el teu Mòbil per avaluar la\l"
+    .string "el teu Mòbil perquè t'avaluï la\l"
     .string "teva Pokédex!$"
 
 ViridianForest_EventScript_TrainerTips4::
@@ -176,7 +176,7 @@ ViridianForest_EventScript_ExitSign::
 
 ViridianForest_Text_LeavingViridianForest::
     .string "Sortida del Bosc Viridià\n"
-    .string "Ciutat Pedrera Endavant$"
+    .string "Cap a Ciutat Pedrera$"
 
 ViridianForest_EventScript_ItemPotion::
 	finditem ITEM_POTION, 1

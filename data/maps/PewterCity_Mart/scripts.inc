@@ -40,7 +40,7 @@ PewterCity_Mart_EventScript_Boy::
 	end
 
 PewterCity_Mart_Text_GoodThingsIfRaiseMonsDiligently::
-    .string "Coses bones poden passar si\n"
+    .string "Poden passar coses bones si\n"
     .string "cries Pokémon amb dedicació.\p"
     .string "Fins i tot els febles et poden\n"
-    .string "sorprendre si no et rendeixes.$"
+    .string "sorprendre si no els abandones.$"

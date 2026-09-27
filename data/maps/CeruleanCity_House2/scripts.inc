@@ -18,7 +18,7 @@ CeruleanCity_House2_Text_RocketsStoleTMForDig::
     .string "als Pokémon a cavar forats!\p"
     .string "La volia usar amb un Mankey\n"
     .string "o un Sandshrew…\p"
-    .string "Allò em va costar una fortuna!$"
+    .string "Em va costar un ull de la cara!$"
 
 CeruleanCity_House2_EventScript_HikerGotTM28::
 	msgbox CeruleanCity_House2_Text_TeachDiglettDigWithoutTM
@@ -27,8 +27,8 @@ CeruleanCity_House2_EventScript_HikerGotTM28::
 
 CeruleanCity_House2_Text_TeachDiglettDigWithoutTM::
     .string "El que s'ha perdut, s'ha perdut.\p"
-    .string "He decidit ensenyar a Diglett\n"
-    .string "a Cavar sense MT.$"
+    .string "He decidit ensenyar Excavar\n"
+    .string "a Diglett sense cap MT.$"
 
 CeruleanCity_House2_EventScript_Lass::
 	msgbox CeruleanCity_House2_Text_TeamRocketTryingToDigIntoNoGood, MSGBOX_NPC
@@ -36,7 +36,7 @@ CeruleanCity_House2_EventScript_Lass::
 
 CeruleanCity_House2_Text_TeamRocketTryingToDigIntoNoGood::
     .string "L'Equip Rocket deu estar intentant\n"
-    .string "Cavar per fer de les seves!$"
+    .string "Excavar per fer de les seves!$"
 
 CeruleanCity_House2_EventScript_WallHole::
 	msgbox CeruleanCity_House2_Text_TeamRocketLeftWayOut, MSGBOX_SIGN

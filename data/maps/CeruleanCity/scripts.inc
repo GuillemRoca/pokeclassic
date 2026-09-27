@@ -44,7 +44,7 @@ CeruleanCity_EventScript_CitySign::
 
 CeruleanCity_Text_CitySign::
     .string "Ciutat Cerúlia\n"
-    .string "Una aura blava i misteriosa.$"
+    .string "L'envolta una misteriosa aura blava.$"
 
 CeruleanCity_EventScript_TrainerTips::
 	msgbox CeruleanCity_Text_TrainerTipsHeldItems, MSGBOX_SIGN
@@ -72,7 +72,7 @@ CeruleanCity_EventScript_GymSign::
 	end
 
 CeruleanCity_Text_GymSign::
-    .string "Gimnàs Pokémon de Cerúlia\n"
+    .string "Gimnàs Pokémon de Ciutat Cerúlia\n"
     .string "Líder: Misty\l"
     .string "La Sirena Intrèpida!$"
 
@@ -86,7 +86,7 @@ CeruleanCity_EventScript_Police::
 	end
 
 CeruleanCity_Text_PeopleHereWereRobbed::
-    .string "Aquí han robat la gent.\p"
+    .string "La gent d'aquí ha patit robatoris.\p"
     .string "És evident que l'Equip Rocket\n"
     .string "està darrere d'aquest crim!\p"
     .string "La nostra Policia té problemes\n"
@@ -104,11 +104,11 @@ CeruleanCity_EventScript_LittleBoy::
 
 CeruleanCity_Text_IfSlowbroWasntThereCouldCutTree::
     .string "Si aquell Slowbro no hi fos,\n"
-    .string "podries Tallar l'arbret.\p"
+    .string "podries fer servir Tall amb l'arbret.\p"
     .string "Així podries arribar\n"
     .string "a l'altre costat.\p"
-    .string "Crec que hi ha una altra\n"
-    .string "manera, però.$"
+    .string "Però crec que hi ha un camí\n"
+    .string "per vorejar-lo.$"
 
 CeruleanCity_EventScript_LittleBoySlowbroMoved::
 	msgbox CeruleanCity_Text_YouCanCutDownSmallTrees, MSGBOX_DEFAULT
@@ -116,12 +116,12 @@ CeruleanCity_EventScript_LittleBoySlowbroMoved::
 	end
 
 CeruleanCity_Text_YouCanCutDownSmallTrees::
-    .string "Sabies que pots Tallar\n"
-    .string "els arbrets?\p"
-    .string "Fins i tot l'arbret davant\n"
-    .string "de la botiga es pot Tallar.\p"
-    .string "Crec que hi ha una altra\n"
-    .string "manera, però.$"
+    .string "Sabies que pots tallar els\n"
+    .string "arbrets amb Tall?\p"
+    .string "Fins i tot l'arbret de davant\n"
+    .string "de la botiga es pot tallar.\p"
+    .string "Però crec que hi ha un camí\n"
+    .string "per vorejar-lo.$"
 
 CeruleanCity_EventScript_BaldingMan::
 	msgbox CeruleanCity_Text_PokemonEncyclopediaAmusing, MSGBOX_NPC
@@ -129,7 +129,7 @@ CeruleanCity_EventScript_BaldingMan::
 
 CeruleanCity_Text_PokemonEncyclopediaAmusing::
     .string "Fas una enciclopèdia sobre\n"
-    .string "Pokémon? Sona divertit.$"
+    .string "Pokémon? Sembla divertit.$"
 
 CeruleanCity_EventScript_Youngster::
 	msgbox CeruleanCity_Text_TrainerLifeIsToughIsntIt, MSGBOX_NPC
@@ -150,7 +150,7 @@ CeruleanCity_EventScript_Woman::
 	end
 
 CeruleanCity_Text_WantBrightRedBicycle::
-    .string "Vull una bicicleta vermella.\p"
+    .string "Vull una bicicleta vermella i lluent.\p"
     .string "Me la guardaré a casa, així no\n"
     .string "s'embruta.$"
 
@@ -160,8 +160,8 @@ CeruleanCity_EventScript_CeruleanCaveGuard::
 
 CeruleanCity_Text_ThisIsCeruleanCave::
     .string "Això és la Cova Cerúlia.\p"
-    .string "Hi viuen Pokémon molt forts\n"
-    .string "allà dins.\p"
+    .string "Allà dins hi viuen Pokémon\n"
+    .string "molt forts.\p"
     .string "Cal un Entrenador molt especial\n"
     .string "per poder-hi entrar.\p"
     .string "Com de fort?\n"
@@ -200,7 +200,7 @@ CeruleanCity_Text_SlowbroUseSonicboom::
     .string "Fes servir Explosió Sònica!$"
 
 CeruleanCity_Text_SlowbroPayAttention::
-    .string "Vinga, Slowbro, para atenció!$"
+    .string "Vinga, Slowbro, fes atenció!$"
 
 CeruleanCity_EventScript_SlowbroLass2::
 	msgbox CeruleanCity_Text_SlowbroPunch, MSGBOX_DEFAULT
@@ -224,7 +224,7 @@ CeruleanCity_EventScript_SlowbroLass3::
 	end
 
 CeruleanCity_Text_SlowbroWithdraw::
-    .string "Slowbro, REFUGI!$"
+    .string "Slowbro, REPLEGADA!$"
 
 CeruleanCity_Text_HardToControlMonsObedience::
     .string "No! Això no!\n"
@@ -331,10 +331,10 @@ CeruleanCity_EventScript_RivalDefeated::
 
 CeruleanCity_Text_RivalAppears::
     .string "{RIVAL}: Ei! {PLAYER}!\p"
-    .string "Encara vas arrossegant-te\n"
+    .string "Encara vas donant voltes\n"
     .string "per aquí?\p"
     .string "Jo vaig genial! He atrapat\n"
-    .string "un munt de Pokémon forts!$"
+    .string "un munt de Pokémon forts i llestos!$"
 
 CeruleanCity_Text_RivalIntro::
     .string "Deixa'm veure què has atrapat,\n"
@@ -369,8 +369,8 @@ CeruleanCity_Text_OhRightLittlePresentAsFavor::
     .string "No necessito tots dos, així que\n"
     .string "pots quedar-te'n un.\p"
     .string "No, de debò.\p"
-    .string "Te'l dono com a favor, ja que\n"
-    .string "sempre vas al meu darrere.$"
+    .string "Te'l dono per fer-te un favor, ja que\n"
+    .string "sempre vas a remolc meu.$"
 
 CeruleanCity_Text_ObtainedPokeblockCase::
 	.string "Has obtingut un Estoig PokéBloc!\p"
@@ -489,7 +489,7 @@ CeruleanCity_Text_GruntIntro::
     .string "No em creus?$"
 
 CeruleanCity_Text_GruntDefeat::
-    .string "Reclu: Para! Em rendeixo!\n"
+    .string "Recluta: Para! Em rendeixo!\n"
     .string "Me n'aniré discretament!$"
 
 CeruleanCity_EventScript_GruntDefeated::

@@ -50,7 +50,7 @@ ViridianCity_Gym_Text_GiovanniPostBattle::
     .string "s'ha acabat per sempre!\p"
     .string "Quant a mi, em dedicaré\n"
     .string "a entrenar de nou.\p"
-    .string "Retrobem-nos algun dia!\n"
+    .string "Ja ens retrobarem algun dia!\n"
     .string "Adéu!$"
 
 ViridianCity_Gym_Text_GiovanniDefeat::
@@ -101,9 +101,9 @@ ViridianCity_Gym_EventScript_GiveTM26::
 	end
 
 ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis::
-    .string "La Medalla Terra fa que Pokémon\n"
-    .string "de qualsevol nivell obeixin\l"
-    .string "sense qüestionar.\p"
+    .string "La Medalla Terra fa que els Pokémon\n"
+    .string "de qualsevol nivell t'obeeixin\l"
+    .string "sense discutir.\p"
     .string "És la prova del teu domini com\n"
     .string "a Entrenador Pokémon.\p"
     .string "Amb ella, pots desafiar la\n"
@@ -124,8 +124,8 @@ ViridianCity_Gym_EventScript_NoRoomForTM26::
 ViridianCity_Gym_Text_ExplainTM26::
     .string "La MT26 conté Terratrèmol.\p"
     .string "És un atac poderós que causa\n"
-    .string "un tremolor massiu.\p"
-    .string "El vaig crear quan dirigia el\n"
+    .string "un terratrèmol enorme.\p"
+    .string "La vaig crear quan dirigia el\n"
     .string "Gimnàs d'aquí, fa molt de temps…$"
 
 ViridianCity_Gym_Text_YouDoNotHaveSpace::
@@ -148,7 +148,7 @@ ViridianCity_Gym_Text_JasonDefeat::
     .string "Esteu en perfecta harmonia!$"
 
 ViridianCity_Gym_Text_JasonPostBattle::
-    .string "Saps la identitat del nostre\n"
+    .string "Saps qui és el nostre\n"
     .string "Líder de Gimnàs?$"
 
 ViridianCity_Gym_EventScript_Cole::
@@ -157,8 +157,8 @@ ViridianCity_Gym_EventScript_Cole::
 	end
 
 ViridianCity_Gym_Text_ColeIntro::
-    .string "Els teus Pokémon s'acovardiran\n"
-    .string "amb el sonar del meu fuet!$"
+    .string "Els teus Pokémon tremolaran en\n"
+    .string "sentir l'espetec del meu fuet!$"
 
 ViridianCity_Gym_Text_ColeDefeat::
     .string "Au!\n"
@@ -189,8 +189,8 @@ ViridianCity_Gym_EventScript_Kiyo::
 	end
 
 ViridianCity_Gym_Text_KiyoIntro::
-    .string "El karate és la forma definitiva\n"
-    .string "d'arts marcials!$"
+    .string "El karate és l'art marcial\n"
+    .string "definitiu!$"
 
 ViridianCity_Gym_Text_KiyoDefeat::
     .string "Aiyah!$"
@@ -213,7 +213,7 @@ ViridianCity_Gym_Text_TakashiDefeat::
 
 ViridianCity_Gym_Text_TakashiPostBattle::
     .string "La Lliga Pokémon?\n"
-    .string "Tu? No et passis!$"
+    .string "Tu? No te la creguis!$"
 
 ViridianCity_Gym_EventScript_Samuel::
 	trainerbattle_single TRAINER_COOLTRAINER_SAMUEL, ViridianCity_Gym_Text_SamuelIntro, ViridianCity_Gym_Text_SamuelDefeat
@@ -245,10 +245,10 @@ ViridianCity_Gym_Text_YujiIntro::
     .string "forces!$"
 
 ViridianCity_Gym_Text_YujiDefeat::
-    .string "M'he quedat sense forces!$"
+    .string "Se m'ha acabat la benzina!$"
 
 ViridianCity_Gym_Text_YujiPostBattle::
-    .string "Necessitaràs poder per seguir\n"
+    .string "Necessitaràs molta força per seguir\n"
     .string "el ritme del nostre Líder.$"
 
 ViridianCity_Gym_EventScript_Warren::
@@ -257,8 +257,8 @@ ViridianCity_Gym_EventScript_Warren::
 	end
 
 ViridianCity_Gym_Text_WarrenIntro::
-    .string "Els veritablement talentosos\n"
-    .string "guanyen amb estil.$"
+    .string "Qui té talent de veritat\n"
+    .string "guanya amb estil.$"
 
 ViridianCity_Gym_Text_WarrenDefeat::
     .string "He perdut el control!$"
@@ -279,7 +279,7 @@ ViridianCity_Gym_EventScript_GymGuy::
 ViridianCity_Gym_Text_GymGuyAdvice::
     .string "Ei!\n"
     .string "Futur campió!\p"
-    .string "Ni jo conec la identitat del\n"
+    .string "Ni tan sols jo sé qui és el\n"
     .string "Líder de Viridiana.\p"
     .string "Però una cosa és segura.\n"
     .string "Aquest serà el més dur de tots\l"
@@ -359,9 +359,9 @@ ViridianCity_Gym_Text_RematchLeader::
 	.string "I tu, què hi fas aquí?\n"
 	.string "Has vingut a refregar-m'ho?\p"
 	.string "Doncs t'has equivocat!\p"
-	.string "No creguis que et deixaré\n"
-	.string "aparèixer sense desafiar-te a\l"
-	.string "un combat!$"
+	.string "No et pensis que et deixaré\n"
+	.string "presentar-te aquí sense desafiar-te\l"
+	.string "a un combat!$"
 
 ViridianCity_Gym_EventScript_RivalJolteon::
 	trainerbattle_single TRAINER_RIVAL_POSTGAME_JOLTEON, ViridianCity_Gym_Text_RivalIntro, ViridianCity_Gym_Text_RivalDefeat, ViridianCity_Gym_EventScript_DefeatedRival
@@ -378,7 +378,7 @@ ViridianCity_Gym_EventScript_RivalVaporeon::
 ViridianCity_Gym_Text_RivalIntro::
 	.string "D'acord!\n"
 	.string "Fa temps que no ho dono tot.\p"
-	.string "Demostraré que segueixo sent\n"
+	.string "Demostraré que encara sóc\n"
 	.string "el millor!$"
 
 ViridianCity_Gym_Text_RivalDefeat::
@@ -416,9 +416,9 @@ ViridianCity_Gym_Text_FoundThis::
 	.string "Oh, quasi m'oblido!\p"
 	.string "He trobat això quan estava\n"
 	.string "explorant aquest lloc.\p"
-	.string "Tant com odio recompensar-te,\n"
+	.string "Tot i que odio haver-te de premiar,\n"
 	.string "ja tinc aquesta MT.\p"
-	.string "Hauries d'agafar-lo.$"
+	.string "Val més que te la quedis tu.$"
 
 ViridianCity_Gym_Text_ReceivedTM26FromRival::
     .string "{PLAYER} ha rebut la MT26\n"
@@ -432,8 +432,8 @@ ViridianCity_Gym_EventScript_NoRoomForTM262::
 ViridianCity_Gym_Text_RivalExplainTM26::
     .string "La MT26 conté Terratrèmol.\p"
     .string "És un atac poderós que causa\n"
-    .string "un tremolor massiu.$"
+    .string "un terratrèmol enorme.$"
 
 ViridianCity_Gym_Text_YouDoNotHaveSpace2::
     .string "Oh, no tens espai per a això?\p"
-    .string "Llàstima! Me'l quedo. Ha!$"
+    .string "Llàstima! Me la quedo. Ha!$"

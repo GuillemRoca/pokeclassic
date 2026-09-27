@@ -83,11 +83,11 @@ ViridianCity_EventScripts_TeamRocketRumor::
 	end
 
 ViridianCity_Text_InvestigatingTeamRocket:
-	.string "Agent: Estem investigant un rumor\n"
-	.string "que l'Equip Rocket ha estat vist\l"
-	.string "en aquesta zona.\p"
+	.string "Agent: Investiguem un rumor segons\n"
+	.string "el qual s'ha vist l'Equip Rocket\l"
+	.string "per aquesta zona.\p"
 	.string "No podem deixar passar ningú fins\n"
-	.string "que completem la nostra cerca.$"
+	.string "que no acabem l'escorcoll.$"
 
 ViridianCity_EventScripts_ReturnJennyToPosition1::
 	applymovement LOCALID_OFFICER, Movement_JennyStepsRight
@@ -121,14 +121,14 @@ ViridianCity_EventScript_CitySign::
 
 ViridianCity_Text_CitySign::
     .string "Ciutat Viridiana\n"
-    .string "El Paradís Eternament Verd$"
+    .string "El paradís sempre verd$"
 
 ViridianCity_EventScript_GymSign::
 	msgbox ViridianCity_Text_GymSign, MSGBOX_SIGN
 	end
 
 ViridianCity_Text_GymSign::
-    .string "Gimnàs Pokémon de Viridiana$"
+    .string "Gimnàs Pokémon de Ciutat Viridiana$"
 
 ViridianCity_EventScript_TrainerTips1::
 	msgbox ViridianCity_Text_CatchMonsForEasierBattles, MSGBOX_SIGN
@@ -149,8 +149,8 @@ ViridianCity_Text_MovesLimitedByPP::
     .string "Consells d'Entrenador:\p"
     .string "Els moviments de combat dels\n"
     .string "Pokémon estan limitats pels\l"
-    .string "Punts de Poder (PP).\p"
-    .string "Per recuperar PP, fes descansar\n"
+    .string "Punts d'Ús (PU).\p"
+    .string "Per recuperar PU, fes descansar\n"
     .string "els teus Pokémon a un Centre\l"
     .string "Pokémon.$"
 
@@ -188,7 +188,7 @@ ViridianCity_EventScript_OldMan::
 ViridianCity_Text_GymClosedWonderWhoLeaderIs::
     .string "Aquest Gimnàs Pokémon sempre\n"
     .string "està tancat.\p"
-    .string "Em pregunto qui és el líder?$"
+    .string "Qui deu ser el líder?$"
 
 ViridianCity_EventScript_OldManGymLeaderReturned::
 	msgbox ViridianCity_Text_ViridiansGymLeaderReturned, MSGBOX_DEFAULT
@@ -207,10 +207,10 @@ ViridianCity_EventScript_Boy::
 	end
 
 ViridianCity_Text_CanCarryMonsAnywhere::
-    .string "Aquestes Poké Balls a la cintura!\n"
+    .string "Portes Poké Balls a la cintura!\n"
     .string "Tens Pokémon, oi?\p"
     .string "És genial que puguis portar i\n"
-    .string "usar Pokémon en qualsevol moment.$"
+    .string "usar Pokémon a tothora i arreu.$"
 
 ViridianCity_EventScript_Woman::
 	lock
@@ -252,7 +252,7 @@ ViridianCity_EventScript_Youngster::
 	end
 
 ViridianCity_Text_WantToKnowAboutCaterpillarMons::
-    .string "Vols saber sobre els dos tipus\n"
+    .string "Vols saber coses dels dos tipus\n"
     .string "de Pokémon eruga?$"
 
 ViridianCity_EventScript_YoungsterExplainCaterpillars::
@@ -266,7 +266,7 @@ ViridianCity_Text_ExplainCaterpieWeedle::
     .string "Caterpie no té verí,\n"
     .string "però Weedle sí.\p"
     .string "Vigila que els teus Pokémon no\n"
-    .string "siguin punxats pel Fibló Verinós\l"
+    .string "siguin punxats pel Fibló Verí\l"
     .string "de Weedle.$"
 
 ViridianCity_EventScript_YoungsterDeclineExplanation::

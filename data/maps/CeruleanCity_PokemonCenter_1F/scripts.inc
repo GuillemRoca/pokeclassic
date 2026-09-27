@@ -37,7 +37,7 @@ CeruleanCity_PokemonCenter_1F_Text_BillNumber::
 	.string "Oh, has conegut en Bill!\n"
 	.string "I fins i tot t'ha donat el\l"
 	.string "seu número de mòbil!\p"
-	.string "Uau, és molt accessible!$"
+	.string "Uau, que proper que és!$"
 
 CeruleanCity_PokemonCenter_1F_EventScript_Rocker::
 	goto_if_set FLAG_REGISTERED_BILL, CeruleanCity_PokemonCenter_1F_EventScript_IsItTrueAboutBill
@@ -70,7 +70,7 @@ CeruleanCity_PokemonCenter_1F_EventScript_Youngster::
 
 CeruleanCity_PokemonCenter_1F_Text_BillCollectsRareMons::
     .string "En Bill té molts Pokémon!\n"
-    .string "Col·lecciona els rars, també!$"
+    .string "I també en col·lecciona de rars!$"
 
 CeruleanCity_PokemonCenter_1F_EventScript_Lass::
 	msgbox CeruleanCity_PokemonCenter_1F_Text_TryTradingUpstairs, MSGBOX_NPC

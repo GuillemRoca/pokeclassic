@@ -33,8 +33,8 @@ MtMoon_1F_EventScript_Josh::
 	end
 
 MtMoon_1F_Text_JoshIntro::
-    .string "Has vingut a explorar la cova\n"
-    .string "també?$"
+    .string "Tu també has vingut a explorar\n"
+    .string "la cova?$"
 
 MtMoon_1F_Text_JoshDefeat::
     .string "Perdre fa ràbia!\n"
@@ -106,7 +106,7 @@ MtMoon_1F_Text_KentIntro::
     .string "I tu, què?$"
 
 MtMoon_1F_Text_KentDefeat::
-    .string "M'has pillat!$"
+    .string "M'has enxampat!$"
 
 MtMoon_1F_Text_KentPostBattle::
     .string "Els he vist!\n"
@@ -119,13 +119,13 @@ MtMoon_1F_EventScript_Robby::
 
 MtMoon_1F_Text_RobbyIntro::
     .string "Has de travessar aquesta cova\n"
-    .string "per arribar a Ciutat Celeste.$"
+    .string "per arribar a Ciutat Cerúlia.$"
 
 MtMoon_1F_Text_RobbyDefeat::
     .string "He perdut.$"
 
 MtMoon_1F_Text_RobbyPostBattle::
-    .string "Zubat és dur!\n"
+    .string "Zubat és dur de pelar!\n"
     .string "Però si en captures un, podràs\l"
     .string "comptar-hi.$"
 
@@ -136,7 +136,7 @@ MtMoon_1F_EventScript_BaldingMan::
 
 MtMoon_1F_Text_BrockHelpsExcavateFossils::
     .string "Hola, estic excavant fòssils\n"
-    .string "aquí al Mont Moon.\p"
+    .string "aquí, sota el Mont Lluna.\p"
     .string "De vegades, en Brock del Gimnàs\n"
     .string "de Pedrera m'ajuda.$"
 

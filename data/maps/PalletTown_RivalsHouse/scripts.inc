@@ -126,9 +126,9 @@ PalletTown_RivalsHouse_EventScript_GroomMon:: @TODO
 
 PalletTown_RivalsHouse_Text_LikeMeToGroomMon::
     .string "Daisy: Hola, {PLAYER}!\n"
-    .string "Quin bon moment.\p"
+    .string "Arribes en bon moment.\p"
     .string "Estic a punt de prendre un te.\n"
-    .string "Vols unir-t'hi?\p"
+    .string "En vols una tassa?\p"
     .string "Oh, mira.\n"
     .string "Els teus Pokémon estan una mica\l"
     .string "bruts.\p"
@@ -141,10 +141,10 @@ PalletTown_RivalsHouse_EventScript_DeclineGrooming::
 
 PalletTown_RivalsHouse_Text_DontNeedAnyGrooming::
     .string "No necessites que els pentini?\n"
-    .string "D'acord, prendrem te.$"
+    .string "D'acord, doncs només prendrem te.$"
 
 PalletTown_RivalsHouse_Text_GroomWhichOne::
-    .string "Quin hauria de pentinar?$"
+    .string "Quin vols que pentini?$"
 
 PalletTown_RivalsHouse_EventScript_CantGroomEgg::
 	msgbox PalletTown_RivalsHouse_Text_CantGroomAnEgg, MSGBOX_DEFAULT
@@ -160,7 +160,7 @@ PalletTown_RivalsHouse_Text_LookingNiceInNoTime::
     .string "en un tres i no res.$"
 
 PalletTown_RivalsHouse_Text_ThereYouGoAllDone::
-    .string "{STR_VAR_1} sembla somiar despert…\p"
+    .string "{STR_VAR_1} sembla feliç i embadalit…\p"
     .string "Daisy: Ja està! Tot fet.\n"
     .string "Veus? No queda bonic?\p"
     .string "Hihi…\n"
@@ -181,7 +181,7 @@ PalletTown_RivalsHouse_EventScript_RateMonFriendship::
 	end
 
 PalletTown_RivalsHouse_Text_MayISeeFirstMon::
-    .string "Daisy: Els teus Pokémon t'estimen\n"
+    .string "Daisy: Els Pokémon acaben estimant-te\n"
     .string "si els cries amb amor.\p"
     .string "Per exemple, {PLAYER}, puc veure\n"
     .string "el teu primer Pokémon?$"
@@ -194,8 +194,8 @@ PalletTown_RivalsHouse_EventScript_MonFriendshipLowest::
 PalletTown_RivalsHouse_Text_WhyWouldMonHateYouSoMuch::
     .string "…Mmm, no m'és fàcil dir-te\n"
     .string "això, però…\p"
-    .string "Hi ha alguna raó per la qual\n"
-    .string "el teu Pokémon t'odiaria tant?$"
+    .string "Hi ha cap motiu perquè el teu\n"
+    .string "Pokémon t'odiï tant?$"
 
 PalletTown_RivalsHouse_EventScript_MonFriendshipLower::
 	msgbox PalletTown_RivalsHouse_Text_DontLikeWayItGlaresAtYou, MSGBOX_DEFAULT
@@ -206,7 +206,7 @@ PalletTown_RivalsHouse_Text_DontLikeWayItGlaresAtYou::
     .string "{PLAYER}, no m'agrada com\n"
     .string "et mira de reüll.\p"
     .string "Podries provar de ser una mica\n"
-    .string "més amable?$"
+    .string "més amable amb ell?$"
 
 PalletTown_RivalsHouse_EventScript_MonFriendshipLow::
 	msgbox PalletTown_RivalsHouse_Text_NotFamiliarWithYouYet, MSGBOX_DEFAULT

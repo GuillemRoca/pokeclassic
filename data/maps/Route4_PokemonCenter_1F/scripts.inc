@@ -37,8 +37,8 @@ Route4_PokemonCenter_1F_EventScript_Gentleman::
 Route4_PokemonCenter_1F_Text_TeamRocketAttacksCerulean::
     .string "L'Equip Rocket ataca ciutadans\n"
     .string "de Cerúlia…\p"
-    .string "No passa un dia sense que l'\n"
-    .string "Equip Rocket surti a les notícies.$"
+    .string "No passa ni un dia sense que\n"
+    .string "l'Equip Rocket surti a les notícies.$"
 
 Route4_PokemonCenter_1F_EventScript_Youngster::
 	msgbox Route4_PokemonCenter_1F_Text_ShouldStoreMonsUsingPC, MSGBOX_NPC
@@ -58,9 +58,9 @@ Route4_PokemonCenter_1F_EventScript_Newspaper::
 
 Route4_PokemonCenter_1F_Text_Newspaper::
     .string "És un diari.\n"
-    .string "EL TEAM ROCKET ATACA CIUTADANS\p"
-    .string "DE CERULEAN!\p"
-    .string "...diversos robatoris reportats\n"
+    .string "L'EQUIP ROCKET ATACA CIUTADANS\p"
+    .string "DE CERÚLIA!\p"
+    .string "...es denuncien diversos robatoris\n"
     .string "...activitat de bandes en augment...\l"
     .string "La Policia Internacional podria\l"
     .string "intervenir-hi...$"
@@ -149,7 +149,7 @@ Route4_PokemonCenter_1F_EventScript_DeclineMagikarp::
 
 Route4_PokemonCenter_1F_Text_OnlyDoingThisAsFavorToYou::
     .string "No? Dius que no? Només ho faig\n"
-    .string "com un favor per a tu!$"
+    .string "per fer-te un favor!$"
 
 Route4_PokemonCenter_1F_EventScript_NotEnoughMoney::
 	msgbox Route4_PokemonCenter_1F_Text_YoullNeedMoreMoney, MSGBOX_DEFAULT
@@ -167,4 +167,4 @@ Route4_PokemonCenter_1F_EventScript_AlreadyBoughtMagikarp::
 
 Route4_PokemonCenter_1F_Text_IDontGiveRefunds::
     .string "Home: Bé, no faig devolucions.\n"
-    .string "Sabies què compràveu!$"
+    .string "Sabies què compraves!$"

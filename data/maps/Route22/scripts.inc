@@ -81,8 +81,8 @@ Route22_EventScript_EarlyRivalBattleLost::
 
 Route22_Text_EarlyRivalVictory:
 	.string "{RIVAL}: Hahaha! {PLAYER}!\p"
-	.string "Això és tot? No m'arribes ni\n"
-	.string "a la sola, amic!\p"
+	.string "Això és tot? No m'arribes ni a la\n"
+	.string "sola de la sabata, col·lega!\p"
 	.string "Ves a entrenar més! Perdedor!$"
 
 Route22_EventScript_EarlyRivalPostBattle::
@@ -98,11 +98,11 @@ Route22_EventScript_EarlyRivalPostBattle::
 
 Route22_Text_EarlyRivalPostBattle::
 	.string "He sentit que la Lliga Pokémon\n"
-	.string "està plena d'Entrenadors durs.\p"
+	.string "està plena d'Entrenadors molt forts.\p"
 	.string "He de trobar la manera de\n"
 	.string "superar-los.\p"
-	.string "Tu hauries de deixar de fer\n"
-	.string "el mandrós i posar-te en marxa!$"
+	.string "Tu hauries de deixar de perdre\n"
+	.string "el temps i posar-te en marxa!$"
 
 Movement_RivalApproach:
 	walk_right
@@ -184,7 +184,7 @@ Route22_Text_LateRivalPostBattle::
 	.string "Això m'ha desentumit.\n"
 	.string "Estic llest per a la Lliga!\p"
 	.string "{PLAYER}, necessites més pràctica.\p"
-	.string "Però, ja ho saps!\n"
+	.string "Però això ja ho saps!\n"
 	.string "Me'n vaig. Ens veiem!$"
 
 Route22_EventScript_LeagueGateSign::

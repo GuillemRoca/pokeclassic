@@ -262,11 +262,11 @@ PalletTown_PlayersHouse_2F_Text_LookAtTheTime:
 	.string "Has estat jugant aquí a dalt\n"
 	.string "tot aquest temps?\p"
 	.string "No havies de trobar-te amb el\n"
-	.string "Professor Oak al seu lab avui?\p"
-	.string "Saps tan sols quina hora és?$"
+	.string "Professor Oak al laboratori avui?\p"
+	.string "Tens idea de quina hora és?$"
 
 PalletTown_PlayersHouse_2F_Text_GoingToBeLate:
-	.string "Hauries d'anar cap al laboratori,\n"
+	.string "Afanya't a anar al laboratori,\n"
 	.string "que no hi arribaràs a temps!$"
 
 PalletTown_PlayersHouse_2F_Text_FoldedYourLaundry:
@@ -315,4 +315,4 @@ PlayersHouse_2F_EventScript_Console::
 
 PlayersHouse_2F_Text_Console:
 	.string "És una consola de jocs antiga.\p"
-	.string "El retro-gaming fa furor!$"
+	.string "Els jocs retro fan furor!$"

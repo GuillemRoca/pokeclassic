@@ -25,7 +25,7 @@ CeruleanCity_BikeShop_EventScript_Clerk::
 
 CeruleanCity_BikeShop_Text_WelcomeToBikeShop::
     .string "Hola!\n"
-    .string "Benvingut a la nostra Botiga Bici.\p"
+    .string "Benvingut a la Botiga de Bicicletes.\p"
     .string "Tenim la Bicicleta perfecta\n"
     .string "per a tu!$"
 
@@ -57,7 +57,7 @@ CeruleanCity_BikeShop_EventScript_AlreadyGotBicycle::
 CeruleanCity_BikeShop_Text_HowDoYouLikeNewBicycle::
     .string "Què tal la teva nova Bicicleta?\n"
     .string "T'agrada com va?\p"
-    .string "La pots portar per la Ruta\n"
+    .string "La pots portar pel Camí\n"
     .string "Ciclista i fins i tot a coves!$"
 
 CeruleanCity_BikeShop_EventScript_ExchangeBikeVoucher::

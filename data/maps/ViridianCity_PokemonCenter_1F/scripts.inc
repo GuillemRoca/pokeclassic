@@ -30,7 +30,7 @@ ViridianCity_PokemonCenter_1F_EventScript_Youngster::
 
 ViridianCity_PokemonCenter_1F_Text_PokeCentersHealMons::
     .string "Els Centres Pokémon curen els teus\n"
-    .string "Pokémon cansats, ferits o debilitats.\p"
+    .string "Pokémon cansats, ferits o desmaiats.\p"
     .string "Deixen tots els Pokémon\n"
     .string "completament sans.$"
 

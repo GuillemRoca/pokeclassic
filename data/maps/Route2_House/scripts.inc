@@ -6,10 +6,10 @@ Route2_House_EventScript_Scientist::
 	end
 
 Route2_House_Text_FaintedMonsCanUseFieldMoves::
-    .string "Un Pokémon debilitat simplement\n"
+    .string "Un Pokémon desmaiat simplement\n"
     .string "no té energia per combatre.\p"
     .string "Però pot fer servir moviments com\n"
-    .string "Tallar fora de combat.$"
+    .string "Tall fora de combat.$"
 
 Route2_House_EventScript_Reyley::
 	lock

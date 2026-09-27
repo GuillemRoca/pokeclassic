@@ -60,8 +60,8 @@ PewterCity_EventScript_FatMan::
 	end
 
 PewterCity_Text_BrockOnlySeriousTrainerHere::
-    .string "No hi ha gaires Entrenadors\n"
-    .string "seriosos de Pokémon aquí.\p"
+    .string "Aquí no hi ha gaires Entrenadors\n"
+    .string "Pokémon seriosos.\p"
     .string "Són tots com Caçainsectes,\n"
     .string "saps, només aficionats.\p"
     .string "Però Brock, del Gimnàs de Pedrera,\n"
@@ -431,7 +431,7 @@ PewterCity_Text_DoYouKnowWhatImDoing::
     .string "Saps què estic fent?$"
 
 PewterCity_Text_SprayingRepelToKeepWildMonsOut::
-    .string "Estic ruixant Repel per mantenir\n"
+    .string "Estic ruixant Repel·lent per mantenir\n"
     .string "els Pokémon salvatges fora del\l"
     .string "meu jardí!$"
 
@@ -452,7 +452,7 @@ PewterCity_Text_ClefairyCameFromMoon::
     .string "Clefairy va venir de la lluna.\n"
     .string "Això diuen els rumors.\p"
     .string "Van aparèixer després que les\n"
-    .string "Pedres Lluna caiguessin al\l"
+    .string "Pedres Lunars caiguessin al\l"
     .string "Mont Lluna.$"
 
 
@@ -1158,7 +1158,7 @@ PewterCity_EventScript_CitySign::
 
 PewterCity_Text_CitySign::
     .string "Ciutat Pedrera\n"
-    .string "Una Ciutat de Pedra Grisa$"
+    .string "Una ciutat gris com la pedra$"
 
 PewterCity_EventScript_PoliceNotice::
 	msgbox PewterCity_Text_CallPoliceIfInfoOnThieves, MSGBOX_SIGN
@@ -1166,8 +1166,8 @@ PewterCity_EventScript_PoliceNotice::
 
 PewterCity_Text_CallPoliceIfInfoOnThieves::
     .string "AVÍS!\p"
-    .string "Lladres han estat robant fòssils\n"
-    .string "de Pokémon al Mont Lluna.\p"
+    .string "Uns lladres han robat fòssils\n"
+    .string "de Pokémon del Mont Lluna.\p"
     .string "Si us plau, truqueu a la Policia\n"
     .string "de Pedrera si teniu informació.$"
 
@@ -1176,7 +1176,7 @@ PewterCity_EventScript_MuseumSign::
 	end
 
 PewterCity_Text_MuseumOfScience::
-    .string "Museu de Ciències de Pedrera$"
+    .string "Museu de Ciències de Ciutat Pedrera$"
 
 PewterCity_EventScript_GymSign::
 	lockall
@@ -1185,9 +1185,9 @@ PewterCity_EventScript_GymSign::
 	end
 
 PewterCity_Text_GymSign::
-    .string "Gimnàs Pokémon de Pedrera\n"
+    .string "Gimnàs Pokémon de Ciutat Pedrera\n"
     .string "Líder: Brock\l"
-    .string "L'Entrenador Pokémon de Roca!$"
+    .string "L'Entrenador Pokémon sòlid com una roca!$"
 
 
 PewterCity_EventScript_SlowpokeLady::

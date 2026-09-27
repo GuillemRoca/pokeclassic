@@ -119,9 +119,9 @@ PalletTown_Text_WhatACutePokemon:
 
 PalletTown_Text_CallMeSometime:
 	.string "El teu PokéGear té una app de mapa,\n"
-	.string "així que no t'hauríes de perdre mai.\p"
-	.string "Ja he registrat el meu número\n"
-	.string "al teu Mòbil, també.\p"
+	.string "així que no t'hauries de perdre mai.\p"
+	.string "També he registrat el meu número\n"
+	.string "al teu Mòbil.\p"
 	.string "No t'oblidis de la teva mare durant\n"
 	.string "les aventures. Truca'm de tant en tant!$"
 
@@ -309,7 +309,7 @@ PalletTown_EventScript_TownSign::
 	end
 
 PalletTown_Text_TownSign::
-    .string "Pallet Town\n"
+    .string "Poble Paleta\n"
     .string "Tons d'aventura t'esperen!$"
 
 PalletTown_EventScript_TrainerTips::
@@ -329,7 +329,7 @@ PalletTown_EventScript_OaksLabSign::
 	end
 
 PalletTown_Text_OakPokemonResearchLab::
-    .string "Laboratori d'Estudis Pokémon d'Oak$"
+    .string "Laboratori Pokémon del Prof. Oak$"
 
 PalletTown_EventScript_Lady::
 	lock
@@ -360,8 +360,8 @@ PalletTown_EventScript_FatMan::
 
 PalletTown_Text_CanStoreItemsAndMonsInPC::
     .string "La tecnologia és increïble!\p"
-    .string "Ara pots emmagatzemar i recuperar\n"
-    .string "objectes i Pokémon via PC.$"
+    .string "Ara pots desar i recuperar objectes\n"
+    .string "i Pokémon en forma de dades al PC.$"
 
 PalletTown_EventScript_PlayersHouseSign::
 	msgbox PalletTown_Text_PlayersHouse, MSGBOX_SIGN

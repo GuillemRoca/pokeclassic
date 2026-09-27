@@ -117,7 +117,7 @@ Route25_Text_WayneIntro::
     .string "Primer, lluitem!$"
 
 Route25_Text_WayneDefeat::
-    .string "Ets alguna cosa.$"
+    .string "Ets de categoria!$"
 
 Route25_Text_WaynePostBattle::
     .string "El camí de baix és una drecera\n"
@@ -130,14 +130,14 @@ Route25_EventScript_Dan::
 
 Route25_Text_DanIntro::
     .string "El pare em va portar a una\n"
-    .string "gran festa al S.S. Anne\l"
+    .string "gran festa al SS Anna\l"
     .string "a Ciutat Vermella.$"
 
 Route25_Text_DanDefeat::
     .string "No estic enfadat!$"
 
 Route25_Text_DanPostBattle::
-    .string "Al S.S. Anne vaig veure\n"
+    .string "Al SS Anna vaig veure\n"
     .string "entrenadors de tot el món.$"
 
 Route25_EventScript_Kelsey::
@@ -180,7 +180,7 @@ Route25_EventScript_Flint::
 	end
 
 Route25_Text_FlintIntro::
-    .string "Sóc un tio genial.\n"
+    .string "Sóc un noi molt guai.\n"
     .string "Tinc xicota!$"
 
 Route25_Text_FlintDefeat::
@@ -197,13 +197,13 @@ Route25_EventScript_Chad::
 
 Route25_Text_ChadIntro::
     .string "Tenia un pressentiment…\n"
-    .string "Sabia que havia de lluitar!$"
+    .string "Sabia que havia de lluitar amb tu!$"
 
 Route25_Text_ChadDefeat::
     .string "Sabia que perdria!$"
 
 Route25_Text_ChadPostBattle::
-    .string "Si el teu Pokémon es confon,\n"
+    .string "Si el teu Pokémon queda confós,\n"
     .string "canvia'l.\p"
     .string "És una bona tàctica.$"
 

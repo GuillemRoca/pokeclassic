@@ -9,11 +9,11 @@ CeruleanCity_House5_EventScript_BadgeGuy::
 CeruleanCity_House5_Text_BadgesHaveAmazingSecrets::
 	.string "Les Medalles són més que una\n"
 	.string "insígnia bonica!\p"
-	.string "Una Medalla certifica un Entrenador\n"
-	.string "per usar certs Moviments Ocults,\l"
-	.string "com Flash o Volar.\p"
-	.string "Els Pokémon semblen entendre la\n"
-	.string "seva importància també.\p"
+	.string "Una Medalla autoritza un Entrenador\n"
+	.string "a usar alguns Moviments Ocults,\l"
+	.string "com Llampec o Vol.\p"
+	.string "Sembla que els Pokémon també\n"
+	.string "en comprenen la importància.\p"
 	.string "Els Pokémon de nivell alt no\n"
 	.string "t'obeiran si no tens prou medalles!$"
 
@@ -23,5 +23,5 @@ CeruleanCity_House5_EventScript_BadgeSign::
 	end
 
 CeruleanCity_House5_Text_BadgeSign::
-	.string "Lliga Pokémon Oficial\n"
-	.string "Certificació d'Expert en Medalles$"
+	.string "Certificat oficial de la Lliga Pokémon\n"
+	.string "Expert en Medalles$"

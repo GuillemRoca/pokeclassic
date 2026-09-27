@@ -49,7 +49,7 @@ PalletTown_PlayersHouse_1F_EventScript_BetterHurry::
 	end
 
 PalletTown_PlayersHouse_1F_Text_BetterHurry:
-	.string "Mare: No voldràs perdre't\n"
+	.string "Mare: No arribis tard a veure\n"
 
 
 	.string "el Professor Oak!\p"
@@ -193,10 +193,10 @@ PlayersHouse_1F_Text_SomethingAmazing::
 	.string "Estava investigant per a la meva\n"
 
 
-	.string "col·lecció Pokémon, quan un dels\l"
+	.string "col·lecció Pokémon quan un dels meus\l"
 
 
-	.string "meus escàners va captar un senyal.\p"
+	.string "escàners va captar un senyal estrany.\p"
 
 
 	.string "Sembla que alguns Pokémon poden\n"
@@ -214,7 +214,7 @@ PlayersHouse_1F_Text_SomethingAmazing::
 	.string "Mira, vaig trobar l'origen del senyal\n"
 
 
-	.string "a prop de la Cabana del Mar.\p"
+	.string "a prop de la Caseta del Mar.\p"
 
 
 	.string "Era una pedra estranya que no havia\n"
@@ -237,7 +237,7 @@ PlayersHouse_1F_Text_SomethingAmazing::
 
 
 PlayersHouse_1F_Text_GetMegaRing::
-	.string "Bill t'ha donat un Mega Anell!$"
+	.string "Bill t'ha donat un Anell Mega!$"
 
 
 
@@ -251,10 +251,10 @@ PlayersHouse_1F_Text_FindMegaStones::
 	.string "per Kanto.\p"
 
 
-	.string "Ara que tens el Mega Anell,\n"
+	.string "Ara que tens l'Anell Mega,\n"
 
 
-	.string "les hauríes de poder veure!\p"
+	.string "les hauries de poder veure!\p"
 
 
 	.string "Haurem de trobar una Mega Pedra\n"
@@ -347,7 +347,7 @@ PlayersHouse_1F_Text_FollowerOptions::
 	.string "L'opció de Seguidor a les Opcions\n"
 
 
-	.string "ara es pot posar en mode Tots!\p"
+	.string "ara es pot posar en mode Qualsevol!\p"
 
 
 	.string "Quan estigui seleccionat, el teu\n"

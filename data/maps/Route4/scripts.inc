@@ -24,7 +24,7 @@ Route4_EventScript_Boy::
 
 Route4_Text_PeopleLikeAndRespectBrock::
     .string "Oh, uau, la Medalla Roca!\n"
-    .string "L'has aconseguit de Brock, oi?\p"
+    .string "Te l'ha donat Brock, oi?\p"
     .string "Brock mola. No és només fort.\n"
     .string "La gent l'aprecia i el respecta.\p"
     .string "Vull ser un Líder de Gimnàs\n"
@@ -43,7 +43,7 @@ Route4_EventScript_MtMoonSign::
 	end
 
 Route4_Text_MtMoonEntrance::
-    .string "Mt. Moon\n"
+    .string "Mont Lluna\n"
     .string "Entrada del Túnel$"
 
 Route4_EventScript_RouteSign::
@@ -60,7 +60,7 @@ Route4_EventScript_Crissy::
     end
 
 Route4_Text_CrissyIntro::
-    .string "He vingut a MT. MOON a buscar\n"
+    .string "He vingut al MONT LLUNA a buscar\n"
     .string "Pokémon bolet.$"
 
 Route4_Text_CrissyDefeat::
@@ -190,8 +190,8 @@ Route4_Text_StopRightThere::
 	.string "dels vostres plans, Equip Rocket!$"
 
 Route4_Text_TeamRocketFossils::
-	.string "Ha! Dius que no ets del\n"
-	.string "Equip Rocket?\p"
+	.string "Ha! Dius que no ets de\n"
+	.string "l'Equip Rocket?\p"
 	.string "I com expliques aquest fòssil\n"
 	.string "que portes?\p"
 	.string "Sabem que l'Equip Rocket busca\n"

@@ -16,5 +16,5 @@ Route2_ViridianForest_SouthEntrance_EventScript_Woman2::
 
 Route2_ViridianForest_SouthEntrance_Text_RattataHasWickedBite::
     .string "Rattata pot ser petit, però no\n"
-    .string "subestimis la seva mossegada.\p"
+    .string "subestimis la seva mossegada ferotge.\p"
     .string "Ja n'has atrapat un?$"

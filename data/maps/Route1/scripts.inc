@@ -81,8 +81,8 @@ Movement_OakApproaches2:
 	step_end
 
 Route1_Text_OakGrassUnsafe::
-    .string "OAK: És perillós!\n"
-    .string "Hi ha Pokémon salvatges a l'herba!$"
+    .string "Oak: És perillós!\n"
+    .string "Hi ha Pokémon salvatges a l'herba alta!\pNecessites un Pokémon propi\nper protegir-te.$"
 
 Movement_PikachuApproaches1:
 	walk_down
@@ -125,7 +125,7 @@ Route1_EventScript_PikachuEncounter::
 	end
 
 Route1_Text_ThatWasClose::
-    .string "Oak: Per poc!\n"
+    .string "Oak: Ha anat d'un pèl!\n"
     .string "Però és estrany...\p"
     .string "No és gaire habitual veure\n"
     .string "Pikachu per aquesta zona...\p"
@@ -166,9 +166,9 @@ Route1_EventScript_Boy::
 	end
 
 Route1_Text_CanJumpFromLedges::
-    .string "Veus aquells barrancs al camí?\p"
+    .string "Veus aquests desnivells del camí?\p"
     .string "Fa una mica de por, però pots\n"
-    .string "saltar-los.\p"
+    .string "baixar-los d'un salt.\p"
     .string "Pots tornar a Poble Paleta\n"
     .string "més ràpid per aquí.$"
 

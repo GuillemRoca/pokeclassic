@@ -75,7 +75,7 @@ ViridianCity_School_Text_NotebookSecondPage::
 ViridianCity_School_Text_NotebookThirdPage::
     .string "Tercera pàgina…\p"
     .string "Els Entrenadors Pokémon busquen\n"
-    .string "altres per a combats Pokémon.\p"
+    .string "rivals per combatre amb Pokémon.\p"
     .string "Per als Entrenadors, el gust de\n"
     .string "la victòria és dolç.\p"
     .string "Els combats es lliuren\n"
@@ -150,7 +150,7 @@ ViridianCity_School_Text_ExplainBurn::
     .string "Una cremada redueix l'Atac.\n"
     .string "També causa pèrdua contínua de PS.\p"
     .string "La cremada perdura després del\n"
-    .string "combat. Usa Curacremades.$"
+    .string "combat. Usa una Cura Cremades.$"
 
 ViridianCity_School_EventScript_ReadPoison::
 	msgbox ViridianCity_School_Text_ExplainPoison
@@ -173,7 +173,7 @@ ViridianCity_School_Text_ExplainFreeze::
     .string "totalment immòbil.\p"
     .string "Segueix congelat fins i tot\n"
     .string "després del combat.\p"
-    .string "Usa Antigel per descongelar\n"
+    .string "Usa una Cura Gel per descongelar\n"
     .string "el Pokémon que pateix.$"
 
 ViridianCity_School_EventScript_ReadParalysis::
@@ -186,7 +186,7 @@ ViridianCity_School_Text_ExplainParalysis::
     .string "i pot impedir que el Pokémon es\l"
     .string "mogui.\p"
     .string "La paràlisi persisteix després\n"
-    .string "dels combats. Usa Antiparalític.$"
+    .string "dels combats. Usa una Cura Paràlisi.$"
 
 ViridianCity_School_EventScript_ExitBlackboard::
 	closemessage
@@ -219,4 +219,4 @@ PokemonJournal_Text_SpecialFeatureDaisyOak::
 	.string "Especial Concursos!\p"
 	.string "La Gran Campiona del Concurs\n"
 	.string "Pokémon de Primavera és la Daisy\l"
-	.string "Oak de Poble Palette!$"
+	.string "Oak de Poble Paleta!$"

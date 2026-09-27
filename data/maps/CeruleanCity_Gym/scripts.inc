@@ -69,12 +69,12 @@ CeruleanCity_Gym_Text_ReceivedBadge::
 
 CeruleanCity_Gym_Text_ExplainBadge::
 	.string "La Medalla Cascada fa que tots\n"
-    .string "els Pokémon fins a Nv. 30 obeixin.\p"
+    .string "els Pokémon fins a Nv. 30 obeeixin.\p"
     .string "Això inclou els que has obtingut\n"
     .string "per intercanvi.\p"
     .string "A més, ara pots fer servir\n"
-    .string "Tallar fora de combat.\p"
-    .string "Pots Tallar arbrets per obrir\n"
+    .string "Tall fora de combat.\p"
+    .string "Amb Tall pots tallar arbrets i obrir\n"
     .string "nous camins.$"
 
 CeruleanCity_Gym_EventScript_GetTM::
@@ -187,7 +187,7 @@ CeruleanCity_Gym_EventScript_LeaderRematch_PostGameTeam::
 
 CeruleanCity_Gym_Text_RematchPostgame::
 	.string "Els meus adorables Pokémon estan\n"
-	.string "preparats per enfrontar-te!\p"
+	.string "preparats per plantar-te cara!\p"
 	.string "L'ofensiva definitiva de\n"
 	.string "Pokémon de tipus Aigua!\p"
 	.string "Espero que estiguis preparat!$"
@@ -198,7 +198,7 @@ CeruleanCity_Gym_EventScript_DefeatedLeaderRematch::
 	end
 
 CeruleanCity_Gym_Text_RematchDefeat::
-	.string "Hmph! Que molest!$"
+	.string "Hmph! Quina ràbia!$"
 
 
 CeruleanCity_Gym_EventScript_PrepDexNavCall::
@@ -220,8 +220,8 @@ CeruleanCity_Gym_Text_DianaDefeat::
 
 CeruleanCity_Gym_Text_DianaPostBattle::
     .string "Has d'enfrontar-te a altres\n"
-    .string "Entrenadors per saber com\l"
-    .string "de bo ets realment.$"
+    .string "Entrenadors per saber quin és\l"
+    .string "el teu nivell real.$"
 
 CeruleanCity_Gym_EventScript_Luis::
 	trainerbattle_single TRAINER_SWIMMER_MALE_LUIS, CeruleanCity_Gym_Text_LuisIntro, CeruleanCity_Gym_Text_LuisDefeat
@@ -238,7 +238,7 @@ CeruleanCity_Gym_Text_LuisDefeat::
 
 CeruleanCity_Gym_Text_LuisPostBattle::
     .string "La Misty és una Entrenadora que\n"
-    .string "seguirà millorant.\p"
+    .string "no pararà de millorar.\p"
     .string "No perdrà contra algú com tu!$"
 
 CeruleanCity_Gym_EventScript_GymGuy::

@@ -69,10 +69,10 @@ CeruleanCity_House1_EventScript_GrowAVariety::
 	end
 
 CeruleanCity_House1_Text_GrowAVariety::
-	.string "Hi ha tot tipus de baies.\p"
+	.string "Hi ha tota mena de baies.\p"
 	.string "I no totes tenen els mateixos\n"
 	.string "efectes!\p"
-	.string "Prova de cultivar-ne de vàries!$"
+	.string "Prova de cultivar-ne de diverses!$"
 
 CeruleanCity_House1_EventScript_GetWailmerPail::
 	msgbox CeruleanCity_House1_Text_WifeAndIGrowBerries, MSGBOX_DEFAULT
@@ -115,4 +115,4 @@ CeruleanCity_House1_EventScript_BagFull::
 
 CeruleanCity_House1_Text_MaybeLater::
  .string "Vaja - la motxilla és plena.\p"
- .string "Potser torna més tard?$"
+ .string "Per què no tornes més tard?$"

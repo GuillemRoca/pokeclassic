@@ -25,7 +25,7 @@ MtMoon_B2F_EventScript_Grunt1::
 MtMoon_B2F_Text_Grunt1Intro::
     .string "Nosaltres, l'Equip Rocket, trobarem\n"
     .string "els fòssils!\p"
-    .string "Reviure Pokémon d'ells ens farà\n"
+    .string "Reviure'n Pokémon ens farà\n"
     .string "guanyar una fortuna!$"
 
 MtMoon_B2F_Text_Grunt1Defeat::
@@ -52,8 +52,8 @@ MtMoon_B2F_Text_Grunt2Defeat::
 
 MtMoon_B2F_Text_Grunt2PostBattle::
     .string "Maleït siguis!\n"
-    .string "Els meus companys no permetran\l"
-    .string "això!$"
+    .string "Els meus companys no ho\l"
+    .string "deixaran passar!$"
 
 MtMoon_B2F_EventScript_Grunt3::
 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_3, MtMoon_B2F_Text_Grunt3Intro, MtMoon_B2F_Text_Grunt3Defeat
@@ -61,7 +61,7 @@ MtMoon_B2F_EventScript_Grunt3::
 	end
 
 MtMoon_B2F_Text_Grunt3Intro::
-    .string "Estem fent un gran cop aquí!\n"
+    .string "Estem preparant un gran cop!\n"
     .string "Fes el camp, nen!$"
 
 MtMoon_B2F_Text_Grunt3Defeat::
@@ -123,7 +123,7 @@ MtMoon_B2F_Text_MiguelDefeat::
 
 MtMoon_B2F_Text_WellEachTakeAFossil::
     .string "Ens agafarem un fòssil cadascú!\n"
-    .string "Sense ser cobdiciós!$"
+    .string "Res de ser cobdiciosos!$"
 
 MtMoon_B2F_EventScript_MiguelFossilPicked::
 	msgbox MtMoon_B2F_Text_LabOnCinnabarRegeneratesFossils, MSGBOX_DEFAULT

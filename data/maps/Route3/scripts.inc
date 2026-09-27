@@ -27,7 +27,7 @@ Route3_EventScript_RouteSign::
 
 Route3_Text_RouteSign::
     .string "Ruta 3\n"
-    .string "Mont Lluna al davant$"
+    .string "Cap al Mont Lluna$"
 
 Route3_EventScript_Janice::
 	trainerbattle_single REMATCHABLE_TRAINER_LASS_JANICE_1, Route3_Text_JaniceIntro, Route3_Text_JaniceDefeat, Route3_EventScript_RegisterJaniceAfterBattle
@@ -45,7 +45,7 @@ Route3_Text_JaniceDefeat::
     .string "Ets dolent!$"
 
 Route3_Text_JanicePostBattle::
-    .string "No hauríes de mirar si no vols\n"
+    .string "No hauries de mirar si no vols\n"
     .string "combatre!$"
 
 Route3_EventScript_RegisterJaniceAfterBattle::
@@ -71,7 +71,7 @@ Route3_Text_JaniceRematchIntro::
 
 Route3_Text_JaniceRematchPostBattle::
 	.string "Odio els entrenadors dolents com tu!\n"
-	.string "Algun dia t'ensenyaré!$"
+	.string "Algun dia et donaré una lliçó!$"
 
 
 Route3_EventScript_Colton::
@@ -180,7 +180,7 @@ Route3_EventScript_Sally::
 
 Route3_Text_SallyIntro::
     .string "Aquella mirada que m'has fet…\n"
-    .string "Què intrigant!$"
+    .string "Que intrigant!$"
 
 Route3_Text_SallyDefeat::
     .string "Sigues amable!$"
@@ -218,5 +218,5 @@ Route3_Text_RobinDefeat::
     .string "Ja està?$"
 
 Route3_Text_RobinPostBattle::
-    .string "La Ruta 4 és al peu de\n"
-    .string "Mt. Moon.$"
+    .string "La Ruta 4 és al peu del\n"
+    .string "Mont Lluna.$"

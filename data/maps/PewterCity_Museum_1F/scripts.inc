@@ -176,7 +176,7 @@ PewterCity_Museum_1F_EventScript_AlreadyGotOldAmber::
 
 PewterCity_Museum_1F_Text_GetOldAmberChecked::
     .string "Xst!\n"
-    .string "Fes examinar l'Ambre Antic!$"
+    .string "Fes examinar l'Ambre Vell!$"
 
 PewterCity_Museum_1F_EventScript_WowThatsAerodactyl::
 	msgbox PewterCity_Museum_1F_Text_WowThatsAerodactyl, MSGBOX_DEFAULT
@@ -245,7 +245,7 @@ PewterCity_Museum_1F_Text_WantYouToGetAmberExamined::
     .string "un laboratori Pokémon.$"
 
 PewterCity_Museum_1F_Text_ReceivedOldAmber::
-    .string "{PLAYER} ha rebut l'Ambre Antic\n"
+    .string "{PLAYER} ha rebut l'Ambre Vell\n"
     .string "del científic.$"
 
 PewterCity_Museum_1F_EventScript_NoRoomForOldAmber::
@@ -262,7 +262,7 @@ PewterCity_Museum_1F_EventScript_OldAmber::
 
 PewterCity_Museum_1F_Text_BeautifulPieceOfAmber::
     .string "Hi ha un bonic tros d'ambre\n"
-    .string "d'un clar color daurat.$"
+    .string "d'un color daurat translúcid.$"
 
 PewterCity_Museum_1F_EventScript_OldMan::
 	msgbox PewterCity_Museum_1F_Text_ShouldBeGratefulForLongLife, MSGBOX_NPC
@@ -283,7 +283,7 @@ PokemonJournal_Text_SpecialFeatureBrock::
 	.string "Diari Pokémon\p"
 	.string "Especial: Brock, Líder del\n"
 	.string "Gimnàs de Pedrera!\p"
-	.string "Brock rarament riu, però diuen\n"
+	.string "Brock gairebé mai no riu, però diuen\n"
 	.string "que si comença no pot parar.$"
 
 

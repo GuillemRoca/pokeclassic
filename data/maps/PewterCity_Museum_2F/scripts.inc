@@ -6,7 +6,7 @@ PewterCity_Museum_2F_EventScript_Man::
 	end
 
 PewterCity_Museum_1F_Text_WhatsSpecialAboutMoonStone::
-    .string "Pedra Lluna, eh?\p"
+    .string "Una Pedra Lunar, eh?\p"
     .string "Què té d'especial?\n"
     .string "A mi em sembla una pedra normal.$"
 
@@ -44,7 +44,7 @@ PewterCity_Museum_2F_EventScript_BaldingMan::
 	end
 
 PewterCity_Museum_1F_Text_PikachuSoonIPromise::
-    .string "Sí, un Pikachu aviat, ho prometo!$"
+    .string "Sí, aviat tindràs un Pikachu,\nt'ho prometo!$"
 
 PewterCity_Museum_2F_EventScript_SpaceShuttle::
 	msgbox PewterCity_Museum_1F_Text_SpaceShuttle, MSGBOX_SIGN
@@ -60,5 +60,5 @@ PewterCity_Museum_2F_EventScript_MoonStone::
 PewterCity_Museum_1F_Text_MeteoriteThatFellOnMtMoon::
     .string "Un meteorit que va caure al\n"
     .string "Mont Lluna. Es creu que és una\l"
-    .string "Pedra Lluna.$"
+    .string "Pedra Lunar.$"
 

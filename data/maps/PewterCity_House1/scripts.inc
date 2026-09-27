@@ -9,7 +9,7 @@ PewterCity_House1_EventScript_BaldingMan::
 
 PewterCity_House1_Text_TradeMonsAreFinicky::
     .string "El nostre Pokémon és de fora, així\n"
-    .string "que és capritxós i difícil.\p"
+    .string "que és capritxós i difícil de portar.\p"
     .string "Un Pokémon de fora és un que\n"
     .string "obtens en un intercanvi.\p"
     .string "Creix ràpid, però pot ignorar un\n"
