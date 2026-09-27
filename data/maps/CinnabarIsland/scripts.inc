@@ -23,7 +23,7 @@ CinnabarIsland_EventScript_Woman::
 	end
 
 CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab::
-    .string "El Blaine del Gimnàs Cinnabar és\n"
+    .string "El Blaine del Gimnàs Cinabri és\n"
     .string "força peculiar.\p"
     .string "Viu a l'illa des de molt abans\n"
     .string "que construïssin el LAB.$"
@@ -55,7 +55,7 @@ CinnabarIsland_EventScript_IslandSign::
 	end
 
 CinnabarIsland_Text_IslandSign::
-    .string "Illa Cinnabar\n"
+    .string "Illa Cinabri\n"
     .string "La Ciutat Fogosa del Desig Ardent$"
 
 CinnabarIsland_EventScript_PokemonLabSign::
@@ -80,7 +80,7 @@ CinnabarIsland_EventScript_GymSign::
 	end
 
 CinnabarIsland_Text_GymSign::
-    .string "Gimnàs Pokémon d'Illa Cinnabar\n"
+    .string "Gimnàs Pokémon d'Illa Cinabri\n"
     .string "Líder: Blaine\l"
     .string "El Mestre dels Qüestionaris!$"
 

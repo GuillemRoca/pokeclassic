@@ -451,7 +451,7 @@ SilphCo_11F_Text_TakingYouIn::
 	.string "Gràcies per tota la teva ajuda\n"
 	.string "aquí. Hauries de venir a veure'm\n"
 	.string "la propera vegada que siguis a\n"
-	.string "Ciutat Celadon.$"
+	.string "Ciutat Celadó.$"
 
 SilphCo_11F_EventScript_LookerMovement1::
 	applymovement LOCALID_LOOKER, SilphCo_11F_LookerMovement_Approach1

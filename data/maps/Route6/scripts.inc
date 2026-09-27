@@ -30,7 +30,7 @@ Route6_Text_KeigoDefeat::
 
 Route6_Text_KeigoPostBattle::
     .string "M'agraden els insectes, així que\n"
-    .string "tornaré al Bosc Viridian.$"
+    .string "tornaré al Bosc Viridià.$"
 
 Route6_EventScript_RegisterKeigoAfterBattle::
 	special PlayerFaceTrainerAfterBattle

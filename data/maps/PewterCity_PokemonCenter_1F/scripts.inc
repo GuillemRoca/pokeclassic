@@ -21,7 +21,7 @@ PewterCity_PokemonCenter_1F_EventScript_Gentleman::
 
 PewterCity_PokemonCenter_1F_Text_TeamRocketMtMoonImOnPhone::
     .string "Què!?\p"
-    .string "L'Equip Rocket és al Mt. Moon?\n"
+    .string "L'Equip Rocket és al Mont Lluna?\n"
     .string "Eh?\p"
     .string "Estic al telèfon!\n"
     .string "Fora d'aquí!$"

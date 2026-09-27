@@ -15,15 +15,15 @@ gText_Birch_MainSpeech::
     .string "…està habitat arreu per\n"
     .string "criatures anomenades Pokémon.\p"
     .string "Per a algunes persones, els Pokémon\n"
-    .string "són mascotes. Altres els usen per\l"
-    .string "barallar.\p"
+    .string "són mascotes. Altres els fan servir\l"
+    .string "per lluitar.\p"
     .string "Quant a mi…\p"
-    .string "Estudio els Pokémon professionalment.\p"
+    .string "Em dedico a estudiar els Pokémon.\p"
     .string "$"
 
 gText_Birch_AndYouAre::
-    .string "Però primer, explica'm una mica\n"
-    .string "sobre tu.\p$"
+    .string "Però primer, parla'm una mica\n"
+    .string "de tu.\p$"
 
 gText_Birch_BoyOrGirl::
 	.string "Ets un noi?\n"
@@ -53,7 +53,7 @@ gText_Birch_YourePlayer::
 gText_Birch_AreYouReady::
     .string "{PLAYER}!\p"
     .string "La teva pròpia llegenda Pokémon\n"
-    .string "està a punt de desplegarse!\p"
+    .string "està a punt de desplegar-se!\p"
     .string "Un món de somnis i aventures\n"
     .string "amb Pokémon t'espera! Endavant!\p"
     .string "$"

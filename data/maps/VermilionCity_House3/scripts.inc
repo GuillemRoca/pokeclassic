@@ -7,7 +7,7 @@ VermilionCity_House3_EventScript_Boy::
 
 VermilionCity_House3_Text_PidgeyFlyLetterToSaffron::
     .string "Estic fent que el meu Pidgey porti\n"
-    .string "una carta a Saffron, al nord.$"
+    .string "una carta a Safrà, al nord.$"
 
 VermilionCity_House3_EventScript_Lass::
 	msgbox VermilionCity_House3_Text_SendMyPidgeyToUnionRoom, MSGBOX_NPC
@@ -42,4 +42,4 @@ VermilionCity_House3_Text_DearPippiLetter::
     .string "espero veure't aviat.\p"
     .string "He sentit un rumor que el Team\n"
     .string "Rocket es dirigia a Ciutat Safrà.\p"
-    .string "Vermilion sembla segura.$"
+    .string "Vermella sembla segura.$"

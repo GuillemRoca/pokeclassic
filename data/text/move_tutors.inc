@@ -21,7 +21,7 @@ MoveTutor_Text_SwaggerWhichMon:
 	.string "aprendre Fanfarroneig?$"
 
 MoveTutor_Text_SwaggerTaught:
-	.string "De ara en endavant lloaré el meu\n"
+	.string "D'ara endavant lloaré el meu\n"
 	.string "Pokémon sense arrogància.$"
 
 MoveTutor_Text_RolloutTeach:

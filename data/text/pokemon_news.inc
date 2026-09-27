@@ -173,7 +173,7 @@ gPokeNewsTextGameCorner_Ongoing::
 	.string "i la Ruleta?\p"
 
 
-	.string "Al Saló de Jocs a Mauville City.\n"
+	.string "Al Saló de Jocs a Ciutat Mauville.\n"
 
 
 	.string "Aquest és el lloc!\p"
@@ -211,7 +211,7 @@ gPokeNewsTextGameCorner_Ending::
 	.string "El temps és limitat i gairebé s'acaba.\n"
 
 
-	.string "El lloc és Mauville City.\p"
+	.string "El lloc és Ciutat Mauville.\p"
 
 
 	.string "Això és tot per a les Notícies Pokémon.$"

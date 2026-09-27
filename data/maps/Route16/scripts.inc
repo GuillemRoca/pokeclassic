@@ -108,8 +108,8 @@ Route16_Text_HideoDefeat::
 Route16_Text_HideoPostBattle::
     .string "Sempre estarem per aquí tant\n"
     .string "si t'agrada com si no.\p"
-    .string "Pots desviar-te a Vermilion\n"
-    .string "des de Fuchsia per la costa.$"
+    .string "Pots desviar-te a Vermella\n"
+    .string "des de Fúcsia per la costa.$"
 
 Route16_EventScript_RegisterHideoAfterBattle::
 	special PlayerFaceTrainerAfterBattle

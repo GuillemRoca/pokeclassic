@@ -25,7 +25,7 @@ Route25_EventScript_Man::
 
 Route25_Text_AreYouHereAlone::
     .string "Hola, ets aquí sol?\p"
-    .string "Si ets al cap de Cerulean…\n"
+    .string "Si ets al cap de Cerúlia…\n"
     .string "Hauria de ser en parella.$"
 
 Route25_EventScript_Beauty::
@@ -49,7 +49,7 @@ Route25_EventScript_Franklin::
 	end
 
 Route25_Text_FranklinIntro::
-    .string "Acabo de baixar del Mt. Moon,\n"
+    .string "Acabo de baixar del Mont Lluna,\n"
     .string "però encara tinc energia!$"
 
 Route25_Text_FranklinDefeat::
@@ -121,7 +121,7 @@ Route25_Text_WayneDefeat::
 
 Route25_Text_WaynePostBattle::
     .string "El camí de baix és una drecera\n"
-    .string "cap a Ciutat Cerulean.$"
+    .string "cap a Ciutat Cerúlia.$"
 
 Route25_EventScript_Dan::
 	trainerbattle_single TRAINER_YOUNGSTER_DAN, Route25_Text_DanIntro, Route25_Text_DanDefeat
@@ -131,7 +131,7 @@ Route25_EventScript_Dan::
 Route25_Text_DanIntro::
     .string "El pare em va portar a una\n"
     .string "gran festa al S.S. Anne\l"
-    .string "a Ciutat Vermilion.$"
+    .string "a Ciutat Vermella.$"
 
 Route25_Text_DanDefeat::
     .string "No estic enfadat!$"
@@ -220,7 +220,7 @@ Route25_Text_HaleyDefeat::
     .string "Ja no tinc tanta enveja!$"
 
 Route25_Text_HaleyPostBattle::
-    .string "Vens del Mt. Moon?\n"
+    .string "Vens del Mont Lluna?\n"
     .string "Em pots donar un Clefairy?$"
 
 

@@ -6,7 +6,7 @@ Route2_ViridianForest_SouthEntrance_EventScript_Woman1::
 	end
 
 Route2_ViridianForest_SouthEntrance_Text_ForestIsMaze::
-    .string "Vas cap al Bosc Viridian?\n"
+    .string "Vas cap al Bosc Viridià?\n"
     .string "És un laberint natural, allà dins.\l"
     .string "Ves amb compte de no perdre't.$"
 

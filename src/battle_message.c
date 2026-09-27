@@ -77,10 +77,10 @@ static const u8 sText_ItDoesntAffect[] = _("No afecta\n{B_DEF_NAME_WITH_PREFIX}�
 static const u8 sText_AttackerFainted[] = _("{B_ATK_NAME_WITH_PREFIX}\nes va desmaiar!\p");
 static const u8 sText_TargetFainted[] = _("{B_DEF_NAME_WITH_PREFIX}\nes va desmaiar!\p");
 static const u8 sText_PlayerGotMoney[] = _("{B_PLAYER_NAME} ha guanyat\n¥{B_BUFF1} per la victòria!\p");
-static const u8 sText_PlayerLostToEnemyTrainer[] = _("{B_PLAYER_NAME} no té\nPOKéMON disponibles!\pEl jugador ha perdut contra\n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}!{PAUSE_UNTIL_PRESS}");
+static const u8 sText_PlayerLostToEnemyTrainer[] = _("{B_PLAYER_NAME} no té\nPokémon disponibles!\pEl jugador ha perdut contra\n{B_TRAINER1_CLASS} {B_TRAINER1_NAME}!{PAUSE_UNTIL_PRESS}");
 static const u8 sText_PlayerPaidPrizeMoney[] = _("{B_PLAYER_NAME} ha pagat ¥{B_BUFF1}\nde recompensa…\p… … … …\p{B_PLAYER_NAME} va ser derrotat!{PAUSE_UNTIL_PRESS}");
 static const u8 sText_PlayerPaidPrizeMoneyNoWhiteout[] = _("{B_PLAYER_NAME} ha pagat ¥{B_BUFF1}\nde recompensa…\p… … … …{PAUSE_UNTIL_PRESS}");
-static const u8 sText_PlayerWhiteout[] = _("{B_PLAYER_NAME} no té\nPOKéMON disponibles!\p");
+static const u8 sText_PlayerWhiteout[] = _("{B_PLAYER_NAME} no té\nPokémon disponibles!\p");
 #if B_WHITEOUT_MONEY >= GEN_4
 static const u8 sText_PlayerWhiteout2[] = _("{B_PLAYER_NAME} ha entrat en pànic\ni ha perdut ¥{B_BUFF1}…\p… … … …\p{B_PLAYER_NAME} va ser derrotat!{PAUSE_UNTIL_PRESS}");
 #else

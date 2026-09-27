@@ -318,7 +318,7 @@ CeladonCity_DepartmentStore_Roof_Text_ExplainTM20::
     .string "La MT20 conté Salvaguarda.\p"
     .string "És un moviment que prevé\n"
     .string "problemes d'estat als teus\l"
-    .string "POKéMON.$"
+    .string "Pokémon.$"
 
 CeladonCity_DepartmentStore_Roof_Text_YayLemonadeHaveThis::
     .string "Bé!\p"

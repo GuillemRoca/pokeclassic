@@ -16,7 +16,7 @@ CeladonCity_Condominiums_2F_EventScript_PokemonJournalErika::
 PokemonJournal_Text_SpecialFeatureErika::
 	.string "Diari Pokémon:\p"
 	.string "Reportatge: Líder del Gimnàs\n"
-	.string "de Celadon, Erika!\p"
+	.string "de Celadó, Erika!\p"
 	.string "Diuen que si espies el Gimnàs\n"
-	.string "de Celadon, sovint pots veure\l"
+	.string "de Celadó, sovint pots veure\l"
 	.string "l'Erika fent la migdiada.$"

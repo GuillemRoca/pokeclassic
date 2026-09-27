@@ -75,7 +75,7 @@ SaffronCity_EventScript_RocketGrunt4::
 	end
 
 SaffronCity_Text_SaffronBelongsToTeamRocket::
-    .string "Saffron pertany a l'Equip Rocket!$"
+    .string "Safrà pertany a l'Equip Rocket!$"
 
 SaffronCity_EventScript_RocketGrunt5::
 	msgbox SaffronCity_Text_CriminalLifeMakesMeFeelAlive, MSGBOX_NPC
@@ -140,7 +140,7 @@ SaffronCity_EventScript_Lass::
 SaffronCity_Text_PeopleComingBackToSaffron::
     .string "La gent va fugir en massa d'aquí\n"
     .string "quan van arribar els Rockets.\p"
-    .string "Haurien de tornar a Saffron\n"
+    .string "Haurien de tornar a Safrà\n"
     .string "ben aviat.$"
 
 SaffronCity_EventScript_Boy::
@@ -182,7 +182,7 @@ SaffronCity_EventScript_GymSign::
 	end
 
 SaffronCity_Text_GymSign::
-    .string "Gimnàs Pokémon de Saffron\n"
+    .string "Gimnàs Pokémon de Safrà\n"
     .string "Líder: Sabrina\l"
     .string "La Mestra dels Pokémon Psíquics!$"
 
@@ -191,7 +191,7 @@ SaffronCity_EventScript_CitySign::
 	end
 
 SaffronCity_Text_CitySign::
-    .string "Ciutat Saffron\n"
+    .string "Ciutat Safrà\n"
     .string "Terra Daurada del Comerç$"
 
 SaffronCity_EventScript_DojoSign::

@@ -316,8 +316,8 @@ static const u8 *const sBattleDeclinedTexts[GENDER_COUNT] = {
     sText_BattleDeclinedFemale
 };
 
-ALIGNED(4) static const u8 sText_ShowTrainerCardDeclinedMale[] = _("Eh? La meva Targeta…\nOn l'he posat?\lPerdona! Te la ensenyaré un altre dia!\p");
-ALIGNED(4) static const u8 sText_ShowTrainerCardDeclinedFemale[] = _("Oh? On he posat la meva\nTargeta d'Entrenador?…\lPerdona! Te la ensenyaré més tard!\p");
+ALIGNED(4) static const u8 sText_ShowTrainerCardDeclinedMale[] = _("Eh? La meva Targeta…\nOn l'he posat?\lPerdona! Te l'ensenyaré un altre dia!\p");
+ALIGNED(4) static const u8 sText_ShowTrainerCardDeclinedFemale[] = _("Oh? On he posat la meva\nTargeta d'Entrenador?…\lPerdona! Te l'ensenyaré més tard!\p");
 
 static const u8 *const sShowTrainerCardDeclinedTexts[GENDER_COUNT] = {
     sText_ShowTrainerCardDeclinedMale,

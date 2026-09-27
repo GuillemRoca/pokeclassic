@@ -49,7 +49,7 @@ SafariZone_North_RestHouse_EventScript_BaldingMan::
 SafariZone_North_RestHouse_Text_KogaPatrolsSafariEverySoOften::
     .string "La Zona Safari és enorme, no\n"
     .string "trobes?\p"
-    .string "El Líder del Gimnàs de Fuchsia,\n"
+    .string "El Líder del Gimnàs de Fúcsia,\n"
     .string "Koga, patrulla els terrenys\l"
     .string "de tant en tant.\p"
     .string "Gràcies a ell, podem jugar aquí\n"

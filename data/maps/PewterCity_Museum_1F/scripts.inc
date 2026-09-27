@@ -282,7 +282,7 @@ PewterCity_Museum_1F_EventScript_PokemonJournalBrock::
 PokemonJournal_Text_SpecialFeatureBrock::
 	.string "Diari Pokémon\p"
 	.string "Especial: Brock, Líder del\n"
-	.string "Gimnàs de Pewter!\p"
+	.string "Gimnàs de Pedrera!\p"
 	.string "Brock rarament riu, però diuen\n"
 	.string "que si comença no pot parar.$"
 

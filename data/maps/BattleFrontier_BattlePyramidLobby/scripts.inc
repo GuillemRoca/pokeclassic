@@ -565,11 +565,11 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainBattlePyramid:
 
 	.string "Durant l'ascens, se't donarà\n"
 
-	.string "una Bossa de Combat per objectes.\p"
+	.string "una Motxilla de Combat per objectes.\p"
 
 	.string "Si fracasses, qualsevol objecte\n"
 
-	.string "de la Bossa de Combat desapareix.\p"
+	.string "de la Motxilla de Combat desapareix.\p"
 
 	.string "Si vols interrompre el desafiament,\n"
 
@@ -649,13 +649,13 @@ BattleFrontier_BattlePyramidLobby_Text_ShowYouIntoPyramid:
 
 
 BattleFrontier_BattlePyramidLobby_Text_WeWillHoldBagForSafekeeping:
-	.string "Guardarem la teva Bossa per\n"
+	.string "Guardarem la teva Motxilla per\n"
 
 	.string "seguretat, {PLAYER}, mentre explores.$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_PleaseTakePreviousBattleBag:
-	.string "A canvi, pren aquesta Bossa de\n"
+	.string "A canvi, pren aquesta Motxilla de\n"
 
 	.string "Combat, la que vas usar abans.$"
 
@@ -663,13 +663,13 @@ BattleFrontier_BattlePyramidLobby_Text_PleaseTakePreviousBattleBag:
 BattleFrontier_BattlePyramidLobby_Text_PleaseTakeThisBattleBag:
 	.string "A canvi, pren aquesta\n"
 
-	.string "Bossa de Combat.$"
+	.string "Motxilla de Combat.$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_ExchangedBagForBattleBag:
-	.string "{PLAYER} ha canviat la Bossa per\n"
+	.string "{PLAYER} ha canviat la Motxilla per\n"
 
-	.string "la Bossa de Combat.$"
+	.string "la Motxilla de Combat.$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_StepOnFloorPanel:
@@ -695,11 +695,11 @@ BattleFrontier_BattlePyramidLobby_Text_DidntSaveBeforeQuittingTakeBag:
 
 	.string "estat desqualificat, ho sento.\p"
 
-	.string "Aquí tens la Bossa que\n"
+	.string "Aquí tens la Motxilla que\n"
 
 	.string "guardàvem per a tu.\p"
 
-	.string "{PLAYER} ha recuperat la Bossa.$"
+	.string "{PLAYER} ha recuperat la Motxilla.$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_YouveConqueredPyramid:
@@ -725,17 +725,17 @@ BattleFrontier_BattlePyramidLobby_Text_MonHoldingItemCannotTake:
 BattleFrontier_BattlePyramidLobby_Text_HeldItemsMovedToBag:
 	.string "Tots els objectes dels teus Pokémon\n"
 
-	.string "es mouran a la Bossa de Combat, {PLAYER}.$"
+	.string "es mouran a la Motxilla de Combat, {PLAYER}.$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_BagCannotHoldPickItemsToKeep:
-	.string "La Bossa de Combat no pot guardar\n"
+	.string "La Motxilla de Combat no pot guardar\n"
 
 	.string "tots els objectes, ho sento.\p"
 
 	.string "Tria els objectes que vols guardar\n"
 
-	.string "a la Bossa i amb els teus Pokémon.$"
+	.string "a la Motxilla i amb els teus Pokémon.$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_LeastOneMonHoldingItem:
@@ -747,7 +747,7 @@ BattleFrontier_BattlePyramidLobby_Text_LeastOneMonHoldingItem:
 BattleFrontier_BattlePyramidLobby_Text_PickItemsToKeep:
 	.string "Tria els objectes que vols guardar\n"
 
-	.string "a la Bossa i amb els teus Pokémon.$"
+	.string "a la Motxilla i amb els teus Pokémon.$"
 
 
 @ Unused
@@ -758,13 +758,13 @@ BattleFrontier_BattlePyramidLobby_Text_ReturnedEverythingMonsHeld:
 
 
 BattleFrontier_BattlePyramidLobby_Text_UsedBattleBagWillBeKept:
-	.string "La Bossa de Combat que has usat\n"
+	.string "La Motxilla de Combat que has usat\n"
 
 	.string "es guardarà pel pròxim desafiament.\p"
 
-	.string "{PLAYER} ha lliurat la Bossa de Combat\n"
+	.string "{PLAYER} ha lliurat la Motxilla de Combat\n"
 
-	.string "per recuperar la Bossa.$"
+	.string "per recuperar la Motxilla.$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_RecordResultsWait:
@@ -791,21 +791,21 @@ BattleFrontier_BattlePyramidLobby_Text_ReceivedPrizeItem:
 BattleFrontier_BattlePyramidLobby_Text_BagIsFull:
 	.string "…Ah…\n"
 
-	.string "La teva Bossa sembla plena.\p"
+	.string "La teva Motxilla sembla plena.\p"
 
 	.string "Torna quan hagis organitzat\n"
 
-	.string "el contingut de la Bossa.$"
+	.string "el contingut de la Motxilla.$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_DisappointingHereIsBag:
 	.string "Quina llàstima…\p"
 
-	.string "Aquí tens la Bossa que\n"
+	.string "Aquí tens la Motxilla que\n"
 
 	.string "guardàvem per a tu.\p"
 
-	.string "{PLAYER} ha recuperat la Bossa.$"
+	.string "{PLAYER} ha recuperat la Motxilla.$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_LookForwardToNextChallenge:
@@ -1126,7 +1126,7 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainMazeRules:
 
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainBagRules:
-	.string "La Bossa de Combat fa de Bossa\n"
+	.string "La Motxilla de Combat fa de Motxilla\n"
 
 	.string "mentre ets a la Piràmide.\p"
 
@@ -1140,7 +1140,7 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainBagRules:
 
 	.string "unitats de deu tipus d'objectes.\p"
 
-	.string "El contingut de la Bossa de Combat\n"
+	.string "El contingut de la Motxilla de Combat\n"
 
 	.string "es perd si fracasses a la cerca.$"
 

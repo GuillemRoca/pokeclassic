@@ -357,7 +357,7 @@ Route25_SeaCottage_EventScript_BillGoToSSAnne::
 
 Route25_SeaCottage_Text_SSAnnePartyYouGoInstead::
     .string "Bill: El creuer S.S. Anne\n"
-    .string "és a Ciutat Vermilion.\p"
+    .string "és a Ciutat Vermella.\p"
     .string "He sentit que hi ha molts\n"
     .string "entrenadors a bord.\p"
     .string "Em van convidar a la seva festa,\n"

@@ -78,7 +78,7 @@ Movement_RocketDuoEnters:
 
 PokemonTower_7F_RocketDuoIntro::
 	.string "James: T'hem perseguit des de\n"
-	.string "Celadon per recuperar els plans!\p"
+	.string "Celadó per recuperar els plans!\p"
 	.string "Jessie: Hauries d'haver-los donat\n"
 	.string "a la Policia Internacional quan\l"
 	.string "en tenies l'oportunitat.\p"

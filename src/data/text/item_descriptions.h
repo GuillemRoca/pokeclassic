@@ -918,7 +918,7 @@ static const u8 sSilkScarfDesc[] = _(
 static const u8 sUpGradeDesc[] = _(
     "Una caixa peculiar\n"
     "fabricada per\n"
-    "Silph Co.");
+    "Silph S.A.");
 
 static const u8 sShellBellDesc[] = _(
     "Objecte retingut:\n"
@@ -1432,7 +1432,7 @@ static const u8 sPokeFluteDesc[] = _(
 static const u8 sSecretKeyDesc[] = _(
     "La clau de l'entrada\n"
     "del Gimnàs de\n"
-    "l'Illa Cinnabar.");
+    "l'Illa Cinabri.");
 
 static const u8 sBikeVoucherDesc[] = _(
     "Un val per obtenir\n"
@@ -1452,7 +1452,7 @@ static const u8 sOldAmberDesc[] = _(
 static const u8 sCardKeyDesc[] = _(
     "Una clau en targeta\n"
     "usada a l'oficina\n"
-    "de Silph Co.");
+    "de Silph S.A.");
 
 static const u8 sLiftKeyDesc[] = _(
     "Una clau d'ascensor\n"
@@ -1516,7 +1516,7 @@ static const u8 sTriPassDesc[] = _(
 
 static const u8 sRainbowPassDesc[] = _(
     "Transbordadors\n"
-    "a Vermilion i\n"
+    "a Vermella i\n"
     "les Illes Sevii.");
 
 static const u8 sTeaDesc[] = _(

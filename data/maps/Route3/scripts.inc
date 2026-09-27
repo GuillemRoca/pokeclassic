@@ -18,7 +18,7 @@ Route3_EventScript_Youngster::
 Route3_Text_TunnelFromCeruleanTiring::
     .string "Buf… Millor que descansi…\n"
     .string "Ai…\p"
-    .string "Aquell túnel des de Cerulean\n"
+    .string "Aquell túnel des de Cerúlia\n"
     .string "et deixa fet pols!$"
 
 Route3_EventScript_RouteSign::
@@ -27,7 +27,7 @@ Route3_EventScript_RouteSign::
 
 Route3_Text_RouteSign::
     .string "Ruta 3\n"
-    .string "Mt. Moon al davant$"
+    .string "Mont Lluna al davant$"
 
 Route3_EventScript_Janice::
 	trainerbattle_single REMATCHABLE_TRAINER_LASS_JANICE_1, Route3_Text_JaniceIntro, Route3_Text_JaniceDefeat, Route3_EventScript_RegisterJaniceAfterBattle
@@ -81,7 +81,7 @@ Route3_EventScript_Colton::
 
 Route3_Text_ColtonIntro::
     .string "Ei! Has combatut el meu amic al\n"
-    .string "Bosc Viridian!$"
+    .string "Bosc Viridià!$"
 
 Route3_Text_ColtonDefeat::
     .string "A mi també m'has guanyat!$"

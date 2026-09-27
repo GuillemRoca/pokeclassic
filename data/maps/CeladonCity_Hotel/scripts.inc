@@ -17,7 +17,7 @@ CeladonCity_Hotel_EventScript_Beauty::
 CeladonCity_Hotel_Text_OnVacationWithBrotherAndBoyfriend::
     .string "Estic de vacances amb el meu\n"
     .string "germà i el meu xicot.\p"
-    .string "Celadon és una ciutat molt bonica!$"
+    .string "Celadó és una ciutat molt bonica!$"
 
 CeladonCity_Hotel_EventScript_BeautyBoyfriend::
 	msgbox CeladonCity_Hotel_Text_WhyDidSheBringBrother, MSGBOX_NPC

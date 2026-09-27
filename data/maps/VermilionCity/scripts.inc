@@ -28,7 +28,7 @@ VermilionCity_EventScript_CitySign::
 	end
 
 VermilionCity_Text_CitySign::
-    .string "Ciutat Vermilion\n"
+    .string "Ciutat Vermella\n"
     .string "El Port de les Postes de Sol$"
 
 @TODO: Change text depending on Snorlax State
@@ -42,7 +42,7 @@ VermilionCity_Text_SnorlaxBlockingRoute12::
     .string "per un Pokémon adormit.\p"
     .string "Desvia't pel Túnel Roca cap a\n"
     .string "Poble Lavanda.\p"
-    .string "Policia de Vermilion$"
+    .string "Policia de Vermella$"
 
 VermilionCity_EventScript_PokemonFanClubSign::
 	msgbox VermilionCity_Text_PokemonFanClubSign, MSGBOX_SIGN
@@ -59,7 +59,7 @@ VermilionCity_EventScript_GymSign::
 	end
 
 VermilionCity_Text_GymSign::
-    .string "Gimnàs Pokémon de Vermilion\n"
+    .string "Gimnàs Pokémon de Vermella\n"
     .string "Líder: Lt. Surge\l"
     .string "El Lloctinent Llampec!$"
 
@@ -68,7 +68,7 @@ VermilionCity_EventScript_HarborSign::
 	end
 
 VermilionCity_Text_VermilionHarbor::
-    .string "Port de Vermilion$"
+    .string "Port de Vermella$"
 
 VermilionCity_EventScript_ProfOakTrigger1::
 	lockall
@@ -239,7 +239,7 @@ VermilionCity_EventScript_OldMan1SSAnneLeft::
 
 VermilionCity_Text_SSAnneHasDepartedForYear::
     .string "Així que el S.S. Anne ha marxat?\p"
-    .string "Tornarà a Vermilion cap a\n"
+    .string "Tornarà a Vermella cap a\n"
     .string "aquesta època l'any que ve.$"
 
 VermilionCity_EventScript_Woman::
@@ -285,7 +285,7 @@ VermilionCity_EventScript_Sailor::
 VermilionCity_Text_SSAnneVisitsOnceAYear::
     .string "El S.S. Anne és un famós creuer\n"
     .string "de luxe.\p"
-    .string "Visita Vermilion un cop l'any.$"
+    .string "Visita Vermella un cop l'any.$"
 
 VermilionCity_EventScript_FerrySailor::
 	lock
@@ -563,7 +563,7 @@ VermilionCity_Text_SquirtleIsAMenace::
 	.string "Agent: Enrere, ciutadà!\p"
 	.string "Aquest Squirtle és un perillós!\p"
 	.string "Ha estat cometent delictes per\n"
-	.string "tota Ciutat Vermilion!\p"
+	.string "tota Ciutat Vermella!\p"
 	.string "L'he acorralat, però espero\n"
 	.string "reforços per endur-me'l!$"
 

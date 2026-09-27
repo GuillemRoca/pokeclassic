@@ -42,7 +42,7 @@ FarawayIsland_Entrance_Text_Return:
 	.string "Feia molt que no tenia l'ocasió\n"
 	.string "de navegar a un lloc nou.\n"
 	.string "Ja has explorat l'illa?\p"
-	.string "Vols tornar a Cinnabar?$"
+	.string "Vols tornar a Cinabri?$"
 
 FarawayIsland_Entrance_EventScript_AsYouLike::
 	msgbox EventTicket_Text_AsYouLike, MSGBOX_DEFAULT

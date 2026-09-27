@@ -175,8 +175,8 @@ ViridianForest_EventScript_ExitSign::
 	end
 
 ViridianForest_Text_LeavingViridianForest::
-    .string "Sortida del Bosc Viridian\n"
-    .string "Ciutat Pewter Endavant$"
+    .string "Sortida del Bosc Viridià\n"
+    .string "Ciutat Pedrera Endavant$"
 
 ViridianForest_EventScript_ItemPotion::
 	finditem ITEM_POTION, 1

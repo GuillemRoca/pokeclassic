@@ -279,7 +279,7 @@ CeruleanCity_Gym_EventScript_GymStatue::
 	end
 
 CeruleanCity_Gym_Text_GymStatue::
-    .string "Gimnàs Pokémon de Cerulean\n"
+    .string "Gimnàs Pokémon de Cerúlia\n"
     .string "Líder: Misty\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}$"
@@ -290,7 +290,7 @@ CeruleanCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 CeruleanCity_Gym_Text_GymStatuePlayerWon::
-    .string "Gimnàs Pokémon de Cerulean\n"
+    .string "Gimnàs Pokémon de Cerúlia\n"
     .string "Líder: Misty\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}, {PLAYER}$"

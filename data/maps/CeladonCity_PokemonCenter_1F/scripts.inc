@@ -31,7 +31,7 @@ CeladonCity_PokemonCenter_1F_EventScript_CooltrainerF::
 	end
 
 CeladonCity_PokemonCenter_1F_Text_RodeHereFromFuchsia::
-    .string "He vingut des de Fuchsia.\p"
+    .string "He vingut des de Fúcsia.\p"
     .string "El Camí Ciclista és pujada,\n"
     .string "així que estic esgotada.$"
 
@@ -147,7 +147,7 @@ Looker_Text_CinnabarIsland::
 	.string "Hi ha informes d'un altre fugitiu\n"
 	.string "Rocket a Kanto.\p"
 	.string "La intel·ligència suggereix que\n"
-	.string "és a prop d'Illa Cinnabar.\p"
+	.string "és a prop d'Illa Cinabri.\p"
 	.string "Enviaré el meu equip, però si\n"
 	.string "ets per la zona, t'agrairia\l"
 	.string "que ens ajudessis.$"
@@ -429,7 +429,7 @@ Looker_Text_PalletTown::
 	.string "Hi ha informes d'un altre fugitiu\n"
 	.string "Rocket a Kanto.\p"
 	.string "La intel·ligència suggereix que\n"
-	.string "és a prop de Pallet Town.\p"
+	.string "és a prop de Poble Paleta.\p"
 	.string "Enviaré el meu equip, però si\n"
 	.string "ets per la zona, t'agrairia\l"
 	.string "que ens ajudessis.$"

@@ -27,7 +27,7 @@ Route2_EventScript_DiglettsCaveSign::
 	end
 
 Route2_Text_DiglettsCave::
-    .string "Cova Diglett$"
+    .string "Cova de Diglett$"
 
 Route2_FindItem_Ether::
 	finditem ITEM_ETHER, 1

@@ -29,7 +29,7 @@ PewterCity_Gym_EventScript_ChallengeBrock::
 
 PewterCity_Gym_Text_BrockSpeech::
 	.string "Així que ets aquí. Sóc Brock.\n"
-    .string "Sóc el Líder del Gimnàs de Pewter.\p"
+    .string "Sóc el Líder del Gimnàs de Pedrera.\p"
     .string "La meva voluntat de ferro es\n"
     .string "reflecteix en els meus Pokémon.\p"
     .string "Els meus Pokémon són durs com\n"
@@ -134,7 +134,7 @@ PewterCity_Gym_Text_LeaderPostBattle::
     .string "Sembla que tens molt de talent\n"
     .string "com a Entrenador Pokémon.\p"
     .string "Deixa'm fer-te un suggeriment.\p"
-    .string "Vés al Gimnàs de Cerulean i posa\n"
+    .string "Vés al Gimnàs de Cerúlia i posa\n"
     .string "a prova les teves habilitats.$"
 
 PewterCity_Gym_EventScript_LeaderPostBattleGameClear::
@@ -358,7 +358,7 @@ PewterCity_Gym_EventScript_GymStatue::
 	end
 
 PewterCity_Gym_Text_GymStatue::
-    .string "Gimnàs Pokémon de Pewter\n"
+    .string "Gimnàs Pokémon de Pedrera\n"
     .string "Líder: Brock\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}$"
@@ -369,7 +369,7 @@ PewterCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 PewterCity_Gym_Text_GymStatuePlayerWon::
-    .string "Gimnàs Pokémon de Pewter\n"
+    .string "Gimnàs Pokémon de Pedrera\n"
     .string "Líder: Brock\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}, {PLAYER}$"

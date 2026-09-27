@@ -132,7 +132,7 @@ Route8_Text_MeganDefeat::
     .string "Pokémon bufons!$"
 
 Route8_Text_MeganPostBattle::
-    .string "La policia de Saffron no ens\n"
+    .string "La policia de Safrà no ens\n"
     .string "deixa passar.\p"
     .string "Sé que fan la seva feina, però\n"
     .string "em sembla injust.$"
@@ -170,7 +170,7 @@ Route8_Text_LesliePostBattle::
     .string "Tenia previst sortir a prendre\n"
     .string "l'aire, però…\p"
     .string "Estem atrapats aquí per culpa\n"
-    .string "de les portes de Saffron.$"
+    .string "de les portes de Safrà.$"
 
 Route8_EventScript_Stan::
 	trainerbattle_single TRAINER_GAMBLER_STAN, Route8_Text_StanIntro, Route8_Text_StanDefeat

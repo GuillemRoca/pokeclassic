@@ -16,7 +16,7 @@ FallarborTown_BattleTentLobby_Text_ExplainFallarborTent:
 	.string "Tots els participants entren\n"
 	.string "amb un equip de tres Pokémon.\p"
 	.string "Els tres Pokémon s'han d'ordenar\n"
-	.string "en l'ordre en que apareixeran.\p"
+	.string "en l'ordre en què apareixeran.\p"
 	.string "Durant la batalla, els Pokémon\n"
 	.string "sortiran d'un en un en l'ordre\l"
 	.string "predeterminat.\p"
@@ -357,7 +357,7 @@ SlateportCity_BattleTentLobby_Text_ExplainSwapNotes:
 	.string "Pokémon que rebreu.\p"
 	.string "Segon, els Pokémon del vostre equip\n"
 	.string "estan ordenats en seqüència, segons\l"
-	.string "l'ordre en que els vau llogar.\p"
+	.string "l'ordre en què els vau llogar.\p"
 	.string "Aquesta seqüència no canvia\n"
 	.string "ni tan sols en fer intercanvis.$"
 
@@ -431,7 +431,7 @@ VerdanturfTown_BattleTentLobby_Text_ExplainUnderpoweredRules:
 VerdanturfTown_BattleTentLobby_Text_ExplainWhenInDangerRules:
 	.string "Segons la seva naturalesa, un Pokémon\n"
 	.string "pot començar a usar moviments que\l"
-	.string "no encaixen quan está en dificultats.\p"
+	.string "no encaixen quan està en dificultats.\p"
 	.string "Si un Pokémon comença a comportar-se\n"
 	.string "de forma estranya en un moment\l"
 	.string "crític, observeu-lo amb atenció.$"

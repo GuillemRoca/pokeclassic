@@ -440,7 +440,7 @@ Route24_Text_YouFool:
 	.string "James: Imbècil!\p"
 	.string "Jessie: Aquest és el marrec\n"
 	.string "que va arruïnar els nostres\l"
-	.string "plans al Mt. Moon!\p"
+	.string "plans al Mont Lluna!\p"
 	.string "James: Segurament ha portat\n"
 	.string "la Policia Internacional\l"
 	.string "fins a nosaltres!$"

@@ -1,7 +1,7 @@
 const u8 gText_MatchCallLass_Janice_Strategy[] = _("Et demostraré el meu valor!");
 const u8 gText_MatchCallLass_Janice_Pokemon[] = _("M'encanten els Pokémon macos!");
 const u8 gText_MatchCallLass_Janice_Intro1[] = _("Després d'un combat, sempre");
-const u8 gText_MatchCallLass_Janice_Intro2[] = _("me bany amb els meus Pokémon.");
+const u8 gText_MatchCallLass_Janice_Intro2[] = _("em banyo amb els meus Pokémon.");
 
 const u8 gText_MatchCallYoungster_Ben_Strategy[] = _("M'agraden els pantalons curts!");
 const u8 gText_MatchCallYoungster_Ben_Pokemon[] = _("M'encanten els Pokémon guais!");

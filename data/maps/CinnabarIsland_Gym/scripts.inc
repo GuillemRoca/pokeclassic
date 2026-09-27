@@ -802,7 +802,7 @@ CinnabarIsland_Gym_EventScript_ChallengeLeader::
 CinnabarIsland_Gym_Text_LeaderSpeech::
     .string "Ha!\p"
     .string "Sóc en Blaine, el Líder\n"
-    .string "ardent del Gimnàs Cinnabar!\p"
+    .string "ardent del Gimnàs Cinabri!\p"
     .string "Els meus Pokémon de Foc són\n"
     .string "durs i plens de calor intensa!\p"
     .string "Incineren tots els desafiants!$"
@@ -944,7 +944,7 @@ CinnabarIsland_Gym_EventScript_LeaderRematch_PostGameTeam::
 	end
 
 CinnabarIsland_Gym_Text_RematchPostgame::
-	.string "El volcà de l'Illa Cinnabar sembla\n"
+	.string "El volcà de l'Illa Cinabri sembla\n"
 	.string "molt actiu avui!\p"
 	.string "Això vol dir que els meus Pokémon\n"
 	.string "de Foc estaran en plena forma\l"
@@ -972,13 +972,13 @@ CinnabarIsland_Gym_Text_GymGuyPostVictory::
     .string "Has vençut aquell fogós!$"
 
 CinnabarIsland_Gym_Text_GymStatue::
-    .string "Gimnàs Pokémon de Cinnabar\n"
+    .string "Gimnàs Pokémon de Cinabri\n"
     .string "Líder: Blaine\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}$"
 
 CinnabarIsland_Gym_Text_GymStatuePlayerWon::
-    .string "Gimnàs Pokémon de Cinnabar\n"
+    .string "Gimnàs Pokémon de Cinabri\n"
     .string "Líder: Blaine\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}, {PLAYER}$"

@@ -40,7 +40,7 @@ Route20_EventScript_SeafoamIslandsSign::
 	end
 
 Route20_Text_SeafoamIslands::
-    .string "Illes Seafoam$"
+    .string "Illes Escuma$"
 
 Route20_EventScript_Barry::
 	trainerbattle_single TRAINER_SWIMMER_MALE_BARRY, Route20_Text_BarryIntro, Route20_Text_BarryDefeat
@@ -133,7 +133,7 @@ Route20_EventScript_Melissa::
 	end
 
 Route20_Text_MelissaIntro::
-    .string "Cinnabar, a l'oest, té un\n"
+    .string "Cinabri, a l'oest, té un\n"
     .string "laboratori de Pokémon.\p"
     .string "El meu pare hi treballa.$"
 
@@ -142,7 +142,7 @@ Route20_Text_MelissaDefeat::
     .string "Se suposa que has d'esperar!$"
 
 Route20_Text_MelissaPostBattle::
-    .string "Cinnabar és una illa volcànica.\p"
+    .string "Cinabri és una illa volcànica.\p"
     .string "He sentit que va sorgir del mar\n"
     .string "quan un volcà va erupcionar.$"
 
@@ -152,7 +152,7 @@ Route20_EventScript_Shirley::
 	end
 
 Route20_Text_ShirleyIntro::
-    .string "Seafoam és un lloc tranquil.\n"
+    .string "Escuma és un lloc tranquil.\n"
     .string "Estic de vacances.$"
 
 Route20_Text_ShirleyDefeat::
@@ -169,14 +169,14 @@ Route20_EventScript_Missy::
 
 Route20_Text_MissyIntro::
     .string "He vingut nedant des de l'Illa\n"
-    .string "Cinnabar. No ha estat fàcil.$"
+    .string "Cinabri. No ha estat fàcil.$"
 
 Route20_Text_MissyDefeat::
     .string "Quina decepció!$"
 
 Route20_Text_MissyPostBattle::
     .string "Els Pokémon han pres una\n"
-    .string "mansió abandonada a Cinnabar.\p"
+    .string "mansió abandonada a Cinabri.\p"
     .string "Ara l'anomenen la Mansió\n"
     .string "Pokémon.$"
 
@@ -192,7 +192,7 @@ Route20_Text_IreneDefeat::
     .string "Sense pietat!$"
 
 Route20_Text_IrenePostBattle::
-    .string "Seafoam era una sola illa en\n"
+    .string "Escuma era una sola illa en\n"
     .string "el passat llunyà.$"
 
 Route20_EventScript_Roger::
@@ -251,7 +251,7 @@ Route20_Text_MistyTrainsHere::
     .string "Entrenadors forts i Pokémon\n"
     .string "d'Aigua són habituals aquí.\p"
     .string "Diuen que Misty del Gimnàs\n"
-    .string "de Cerulean entrena aquí.$"
+    .string "de Cerúlia entrena aquí.$"
 
 Route20_RocketFugitive::
     trainerbattle_single TRAINER_FUGITIVE_M, RocketFugitive_Text_Intro, RocketFugitive_Text_Defeat

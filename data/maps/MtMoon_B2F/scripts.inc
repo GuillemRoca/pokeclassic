@@ -131,7 +131,7 @@ MtMoon_B2F_EventScript_MiguelFossilPicked::
 	end
 
 MtMoon_B2F_Text_LabOnCinnabarRegeneratesFossils::
-    .string "Lluny d'aquí, a l'Illa Cinnabar,\n"
+    .string "Lluny d'aquí, a l'Illa Cinabri,\n"
     .string "hi ha un Laboratori Pokémon.\p"
     .string "Fan recerca sobre la regeneració\n"
     .string "de fòssils.$"

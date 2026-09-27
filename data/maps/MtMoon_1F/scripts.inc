@@ -90,10 +90,10 @@ MtMoon_1F_Text_JovanIntro::
     .string "No m'agafis per sorpresa!$"
 
 MtMoon_1F_Text_JovanDefeat::
-    .string "Els meus POKéMON no serveixen!$"
+    .string "Els meus Pokémon no serveixen!$"
 
 MtMoon_1F_Text_JovanPostBattle::
-    .string "He de trobar POKéMON més forts.\n"
+    .string "He de trobar Pokémon més forts.\n"
     .string "On deuen ser?$"
 
 MtMoon_1F_EventScript_Kent::
@@ -138,7 +138,7 @@ MtMoon_1F_Text_BrockHelpsExcavateFossils::
     .string "Hola, estic excavant fòssils\n"
     .string "aquí al Mont Moon.\p"
     .string "De vegades, en Brock del Gimnàs\n"
-    .string "de Pewter m'ajuda.$"
+    .string "de Pedrera m'ajuda.$"
 
 MtMoon_1F_EventScript_ItemParalyzeHeal::
 	finditem ITEM_PARALYZE_HEAL, 1

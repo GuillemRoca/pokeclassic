@@ -70,7 +70,7 @@ CeladonCity_EventScript_Woman::
 	end
 
 CeladonCity_Text_GameCornerIsBadForCitysImage::
-    .string "Celadon s'enorgulleix dels seus\n"
+    .string "Celadó s'enorgulleix dels seus\n"
     .string "esforços per mantenir la ciutat\l"
     .string "bonica.\p"
     .string "Per això la nova Sala de Jocs és\n"
@@ -101,7 +101,7 @@ CeladonCity_Text_KidnappedPokemon::
     .string "L'Equip Rocket ha estat segrestant\n"
     .string "Pokémon.\p"
     .string "He perseguit un Reclu Rocket amb\n"
-    .string "un Cubone des de Lavender!\p"
+    .string "un Cubone des de Lavanda!\p"
     .string "Van venir corrents cap aquí,\n"
     .string "n'estic segur.\p"
     .string "Però el vaig perdre de vista!\n"
@@ -159,7 +159,7 @@ CeladonCity_EventScript_GymSign::
 	end
 
 CeladonCity_Text_GymSign::
-    .string "Gimnàs Pokémon de Celadon\n"
+    .string "Gimnàs Pokémon de Celadó\n"
     .string "Líder: Erika\l"
     .string "La Princesa Amant de la Natura!$"
 
@@ -168,7 +168,7 @@ CeladonCity_EventScript_CitySign::
 	end
 
 CeladonCity_Text_CitySign::
-    .string "Ciutat Celadon\n"
+    .string "Ciutat Celadó\n"
     .string "La Ciutat dels Somnis Irisats$"
 
 CeladonCity_EventScript_DeptStoreSign::
@@ -177,14 +177,14 @@ CeladonCity_EventScript_DeptStoreSign::
 
 CeladonCity_Text_DeptStoreSign::
     .string "Troba el que necessites als\n"
-    .string "Grans Magatzems de Celadon!$"
+    .string "Grans Magatzems de Celadó!$"
 
 CeladonCity_EventScript_MansionSign::
 	msgbox CeladonCity_Text_MansionSign, MSGBOX_SIGN
 	end
 
 CeladonCity_Text_MansionSign::
-    .string "Mansió Celadon$"
+    .string "Mansió Celadó$"
 
 CeladonCity_EventScript_TrainerTips1::
 	msgbox CeladonCity_Text_ExplainXAccuracyDireHit, MSGBOX_SIGN
@@ -197,7 +197,7 @@ CeladonCity_Text_ExplainXAccuracyDireHit::
     .string "Dire Hit augmenta la probabilitat\n"
     .string "de cops crítics.\p"
     .string "Aconsegueix els teus objectes als\n"
-    .string "Grans Magatzems de Celadon!$"
+    .string "Grans Magatzems de Celadó!$"
 
 CeladonCity_EventScript_TrainerTips2::
 	msgbox CeladonCity_Text_GuardSpecProtectsFromStatus, MSGBOX_SIGN
@@ -209,7 +209,7 @@ CeladonCity_Text_GuardSpecProtectsFromStatus::
     .string "de moviments que redueixen\l"
     .string "estadístiques en combat.\p"
     .string "Aconsegueix els teus objectes als\n"
-    .string "Grans Magatzems de Celadon!$"
+    .string "Grans Magatzems de Celadó!$"
 
 CeladonCity_EventScript_PrizeExchangeSign::
 	msgbox CeladonCity_Text_PrizeExchangeSign, MSGBOX_SIGN

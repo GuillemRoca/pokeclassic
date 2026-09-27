@@ -108,7 +108,7 @@ FuchsiaCity_WardensHouse_EventScript_PokemonJournalKoga::
 PokemonJournal_Text_SpecialFeatureKoga::
 	.string "Diari Pokémon:\p"
 	.string "Reportatge: Líder del Gimnàs\n"
-	.string "de Fuchsia, Koga!\p"
+	.string "de Fúcsia, Koga!\p"
 	.string "Es diu que Koga té un coneixement\n"
 	.string "profund de la medicina.\p"
 	.string "Fins i tot prepara medicines per\n"

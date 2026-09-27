@@ -52,7 +52,7 @@ Route4_EventScript_RouteSign::
 
 Route4_Text_RouteSign::
     .string "Ruta 4\n"
-    .string "Mt. Moon - Ciutat Cerúlia$"
+    .string "Mont Lluna - Ciutat Cerúlia$"
 
 Route4_EventScript_Crissy::
     trainerbattle_single TRAINER_LASS_ROBIN, Route4_Text_CrissyIntro, Route4_Text_CrissyDefeat
@@ -201,7 +201,7 @@ Route4_Text_TeamRocketFossils::
 	.string "......\l"
 	.string "...........oh.\p"
 	.string "Dius que els has aturat?\n"
-	.string "I que ja han fugit de Mt. Moon?\p"
+	.string "I que ja han fugit del Mont Lluna?\p"
 	.string "Llamps! Com se'ns han escapat!\p"
 	.string "Perdona pel malentès.\p"
 	.string "Em dic Looker - ja que has aturat\n"

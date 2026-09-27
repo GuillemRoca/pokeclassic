@@ -43,7 +43,7 @@ CeruleanCity_EventScript_CitySign::
 	end
 
 CeruleanCity_Text_CitySign::
-    .string "Ciutat Cerulean\n"
+    .string "Ciutat Cerúlia\n"
     .string "Una aura blava i misteriosa.$"
 
 CeruleanCity_EventScript_TrainerTips::
@@ -72,7 +72,7 @@ CeruleanCity_EventScript_GymSign::
 	end
 
 CeruleanCity_Text_GymSign::
-    .string "Gimnàs Pokémon de Cerulean\n"
+    .string "Gimnàs Pokémon de Cerúlia\n"
     .string "Líder: Misty\l"
     .string "La Sirena Intrèpida!$"
 
@@ -159,7 +159,7 @@ CeruleanCity_EventScript_CeruleanCaveGuard::
 	end
 
 CeruleanCity_Text_ThisIsCeruleanCave::
-    .string "Això és la Cova Cerulean.\p"
+    .string "Això és la Cova Cerúlia.\p"
     .string "Hi viuen Pokémon molt forts\n"
     .string "allà dins.\p"
     .string "Cal un Entrenador molt especial\n"

@@ -218,67 +218,67 @@ gText_FourLine_UserLessLikelyStartled::
 	.string "Després d'aquest\nmoviment, l'usuari\nes pertorba\nmenys.$"
 
 gText_FourLine_SlightlyStartleFrontMon::
-	.string "Pertorba\nlleugerament el\nPOKéMON\ndel davant.$"
+	.string "Pertorba\nlleugerament el\nPokémon\ndel davant.$"
 
 gText_FourLine_SlightlyStartleAppealed::
 	.string "Pertorba\nlleugerament els\nque han\nactuat.$"
 
 gText_FourLine_StartleAppealedBeforeUser::
-	.string "Pertorba el\nPOKéMON que\nha actuat\nabans que l'usuari.$"
+	.string "Pertorba el\nPokémon que\nha actuat\nabans que l'usuari.$"
 
 gText_FourLine_StartleAllAppealed::
-	.string "Pertorba tots\nels POKéMON\nque han\nactuat.$"
+	.string "Pertorba tots\nels Pokémon\nque han\nactuat.$"
 
 gText_FourLine_BadlyStartleFrontMon::
-	.string "Pertorba molt\nel POKéMON\ndel davant.$"
+	.string "Pertorba molt\nel Pokémon\ndel davant.$"
 
 gText_FourLine_BadlyStartleAppealed::
 	.string "Pertorba molt\nels que\nhan actuat.$"
 
 gText_FourLine_StartleAppealedBeforeUser2::
-	.string "Pertorba el\nPOKéMON que\nha actuat\nabans que l'usuari.$"
+	.string "Pertorba el\nPokémon que\nha actuat\nabans que l'usuari.$"
 
 gText_FourLine_StartleAllAppealed2::
-	.string "Pertorba tots\nels POKéMON\nque han\nactuat.$"
+	.string "Pertorba tots\nels Pokémon\nque han\nactuat.$"
 
 gText_FourLine_ShiftJudgesAttentionFromOthers::
 	.string "Desvia l'atenció\ndel JUTGE\ndels altres.$"
 
 gText_FourLine_StartleMonHasJudgesAttention::
-	.string "Pertorba el\nPOKéMON que\nté l'atenció\ndel JUTGE.$"
+	.string "Pertorba el\nPokémon que\nté l'atenció\ndel JUTGE.$"
 
 gText_FourLine_JamOthersMissesTurn::
 	.string "Bloqueja els\naltres i perd\nun torn\nd'actuació.$"
 
 gText_FourLine_StartleMonsMadeSameTypeAppeal::
-	.string "Pertorba POKéMON\nque han fet\nuna actuació\ndel mateix tipus.$"
+	.string "Pertorba Pokémon\nque han fet\nuna actuació\ndel mateix tipus.$"
 
 gText_FourLine_BadlyStartleCoolAppeals::
-	.string "Pertorba molt\nPOKéMON\namb actuació\nde GRÀCIA.$"
+	.string "Pertorba molt\nPokémon\namb actuació\nde GRÀCIA.$"
 
 gText_FourLine_BadlyStartleBeautyAppeals::
-	.string "Pertorba molt\nPOKéMON\namb actuació\nde BELLESA.$"
+	.string "Pertorba molt\nPokémon\namb actuació\nde BELLESA.$"
 
 gText_FourLine_BadlyStartleCuteAppeals::
-	.string "Pertorba molt\nPOKéMON\namb actuació\nde TENDRESA.$"
+	.string "Pertorba molt\nPokémon\namb actuació\nde TENDRESA.$"
 
 gText_FourLine_BadlyStartleSmartAppeals::
-	.string "Pertorba molt\nPOKéMON\namb actuació\nde SAVIESA.$"
+	.string "Pertorba molt\nPokémon\namb actuació\nde SAVIESA.$"
 
 gText_FourLine_BadlyStartleToughAppeals::
-	.string "Pertorba molt\nPOKéMON\namb actuació\nde POTÈNCIA.$"
+	.string "Pertorba molt\nPokémon\namb actuació\nde POTÈNCIA.$"
 
 gText_FourLine_MakeMonAfterUserNervous::
-	.string "Posa nerviós\nun POKéMON\ndesprés\nde l'usuari.$"
+	.string "Posa nerviós\nun Pokémon\ndesprés\nde l'usuari.$"
 
 gText_FourLine_MakeAllMonsAfterUserNervous::
-	.string "Posa nerviosos\ntots els POKéMON\ndesprés\nde l'usuari.$"
+	.string "Posa nerviosos\ntots els Pokémon\ndesprés\nde l'usuari.$"
 
 gText_FourLine_WorsenConditionOfThoseMadeAppeals::
 	.string "Empitjora la\ncondició dels\nque han\nactuat.$"
 
 gText_FourLine_BadlyStartleMonsGoodCondition::
-	.string "Pertorba molt\nPOKéMON en\nbona condició.$"
+	.string "Pertorba molt\nPokémon en\nbona condició.$"
 
 gText_FourLine_AppealGreatIfPerformedFirst::
 	.string "L'actuació\nfunciona molt bé\nsi es fa\nla primera.$"
@@ -329,7 +329,7 @@ gText_FourLine_AppealExcitesAudienceInAnyContest::
 	.string "Una actuació\nque emociona\nel públic en\nqualsevol CONCURS.$"
 
 gText_FourLine_BadlyStartlesMonsGoodAppeals::
-	.string "Pertorba molt\ntots els POKéMON\namb bones\nactuacions.$"
+	.string "Pertorba molt\ntots els Pokémon\namb bones\nactuacions.$"
 
 gText_FourLine_AppealBestMoreCrowdExcited::
 	.string "L'actuació\nfunciona millor\ncom més emocionat\nés el públic.$"

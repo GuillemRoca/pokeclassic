@@ -5,6 +5,6 @@ UndergroundPath_EastEntrance_EventScript_Woman::
 	end
 
 UndergroundPath_EastEntrance_Text_DoYouGoToCeladonDeptStore::
-    .string "Els Grans Magatzems de Celadon\n"
+    .string "Els Grans Magatzems de Celadó\n"
     .string "tenen una gran selecció.\p"
     .string "Hi vas sovint?$"

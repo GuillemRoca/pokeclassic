@@ -32,7 +32,7 @@ CeladonCity_Gym_Text_LeaderSpeech::
     .string "…Oh, vaja…\n"
     .string "M'he quedat adormida. Benvingut.\p"
     .string "Em dic Erika.\n"
-    .string "Sóc la Líder del Gimnàs Celadon.\p"
+    .string "Sóc la Líder del Gimnàs Celadó.\p"
     .string "Sóc estudiant de l'art de\n"
     .string "l'arranjament floral.\p"
     .string "Els meus Pokémon són únicament\n"
@@ -324,7 +324,7 @@ CeladonCity_Gym_EventScript_Mary::
 	end
 
 CeladonCity_Gym_Text_MaryIntro::
-    .string "Benvingut al Gimnàs Celadon!\p"
+    .string "Benvingut al Gimnàs Celadó!\p"
     .string "Millor que no subestimis\n"
     .string "les senyores d'aquí.$"
 
@@ -344,7 +344,7 @@ CeladonCity_Gym_EventScript_GymStatue::
 	end
 
 CeladonCity_Gym_Text_GymStatue::
-    .string "Gimnàs POKémon de Celadon\n"
+    .string "Gimnàs Pokémon de Celadó\n"
     .string "Líder: Erika\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}$"
@@ -355,7 +355,7 @@ CeladonCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 CeladonCity_Gym_Text_GymStatuePlayerWon::
-    .string "Gimnàs POKémon de Celadon\n"
+    .string "Gimnàs Pokémon de Celadó\n"
     .string "Líder: Erika\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}, {PLAYER}$"

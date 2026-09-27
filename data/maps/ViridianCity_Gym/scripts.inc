@@ -221,7 +221,7 @@ ViridianCity_Gym_EventScript_Samuel::
 	end
 
 ViridianCity_Gym_Text_SamuelIntro::
-    .string "El Gimnàs de Viridian va estar\n"
+    .string "El Gimnàs de Viridiana va estar\n"
     .string "tancat molt de temps.\p"
     .string "Però ara, el nostre Líder ha\n"
     .string "tornat!$"
@@ -280,7 +280,7 @@ ViridianCity_Gym_Text_GymGuyAdvice::
     .string "Ei!\n"
     .string "Futur campió!\p"
     .string "Ni jo conec la identitat del\n"
-    .string "Líder de Viridian.\p"
+    .string "Líder de Viridiana.\p"
     .string "Però una cosa és segura.\n"
     .string "Aquest serà el més dur de tots\l"
     .string "els Líders de Gimnàs.\p"
@@ -295,7 +295,7 @@ ViridianCity_Gym_EventScript_GymGuyPostVictory::
 
 ViridianCity_Gym_Text_GymGuyPostVictory::
     .string "Estic al·lucinat! En Giovanni era\n"
-    .string "el Líder del Gimnàs de Viridian?$"
+    .string "el Líder del Gimnàs de Viridiana?$"
 
 ViridianCity_Gym_EventScript_GymStatue::
 	lockall
@@ -305,7 +305,7 @@ ViridianCity_Gym_EventScript_GymStatue::
 	end
 
 ViridianCity_Gym_Text_GymStatue::
-    .string "Gimnàs Pokémon de Viridian\n"
+    .string "Gimnàs Pokémon de Viridiana\n"
     .string "Líder: ?\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}$"
@@ -316,7 +316,7 @@ ViridianCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 ViridianCity_Gym_Text_GymStatuePlayerWon::
-    .string "Gimnàs Pokémon de Viridian\n"
+    .string "Gimnàs Pokémon de Viridiana\n"
     .string "Líder: ?\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}, {PLAYER}$"

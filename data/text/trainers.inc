@@ -4465,7 +4465,7 @@ Route119_Text_RachelDefeat:
 Route119_Text_RachelPostBattle:
 	.string "Em preguntes si el para-sol pesa?\n"
 
-	.string "La teva Bossa porta més trastos\l"
+	.string "La teva Motxilla porta més trastos\l"
 
 	.string "que no porto jo.$"
 
@@ -5025,7 +5025,7 @@ Route121_Text_CalePostBattle:
 
 	.string "Són carretera amunt.\n"
 
-	.string "M'agradaria tenir una Bossa com\l"
+	.string "M'agradaria tenir una Motxilla com\l"
 
 	.string "la teva.$"
 
@@ -5823,7 +5823,7 @@ Route125_Text_TanyaDefeat:
 Route125_Text_TanyaPostBattle:
 	.string "Uf…\n"
 
-	.string "Cap on queda Mossdeep City?$"
+	.string "Cap on queda Ciutat Mossdeep?$"
 
 
 Route125_Text_SharonIntro:
@@ -6009,7 +6009,7 @@ Route126_Text_BarryPostBattle:
 Route126_Text_DeanIntro:
 	.string "Aquesta muntanya blanca de roca\n"
 
-	.string "imponent és Sootopolis City.$"
+	.string "imponent és Ciutat Sootopolis.$"
 
 
 Route126_Text_DeanDefeat:
@@ -6329,7 +6329,7 @@ Route127_Text_AthenaPostBattle:
 
 
 Route128_Text_IsaiahIntro:
-	.string "Ever Grande City encara queda\n"
+	.string "Ciutat Ever Grande encara queda\n"
 
 	.string "molt lluny…$"
 
@@ -6357,7 +6357,7 @@ Route128_Text_IsaiahRegister:
 Route128_Text_IsaiahRematchIntro:
 	.string "Encara em sento bé. Seguiré nedant\n"
 
-	.string "cap a Ever Grande City.$"
+	.string "cap a Ciutat Ever Grande.$"
 
 
 Route128_Text_IsaiahRematchDefeat:
@@ -6365,9 +6365,9 @@ Route128_Text_IsaiahRematchDefeat:
 
 
 Route128_Text_IsaiahPostRematch:
-	.string "Algun dia arribaré a Ever Grande\n"
+	.string "Algun dia arribaré a Ciutat Ever\n"
 
-	.string "City on algun dia guanyaré…$"
+	.string "Grande, on algun dia guanyaré…$"
 
 
 Route128_Text_KatelynIntro:

@@ -22,7 +22,7 @@ MatchCall_Text_ScottBusy::
 
 MatchCall_Text_ScottCerulean::
 	.string "Scott: Ei! Campió en potència!\p"
-	.string "Has arribat a Cerulean City!\p"
+	.string "Has arribat a Ciutat Cerúlia!\p"
 	.string "Vas a desafiar la Misty?\n"
 	.string "Millor que portis el banyador! Ha!\p"
 	.string "Veurem si tenia raó\n"
@@ -37,7 +37,7 @@ MatchCall_Text_ScottGotBadge2::
 MatchCall_Text_ScottVermilion::
 	.string "Scott: Ei! Campió en potència!\p"
 	.string "He sentit que has arribat\n"
-	.string "a Vermilion City!\p"
+	.string "a Ciutat Vermella!\p"
 	.string "Vas a enfrontar-te al Tnt. Surge?\p"
 	.string "Genial! Ho estaré mirant!$"
 
@@ -49,7 +49,7 @@ MatchCall_Text_ScottGotBadge3::
 
 MatchCall_Text_ScottCeladon::
 	.string "Scott: Ei! Campió en potència!\p"
-	.string "Llavors has arribat a Celadon!\p"
+	.string "Llavors has arribat a Celadó!\p"
 	.string "Potser faré un descans del\n"
 	.string "casino i veuré el teu combat!$"
 
@@ -62,7 +62,7 @@ MatchCall_Text_ScottGotBadge4::
 
 MatchCall_Text_ScottSaffron::
 	.string "Scott: Ei! Campió en potència!\p"
-	.string "Esperava veure't a Saffron,\n"
+	.string "Esperava veure't a Safrà,\n"
 	.string "però hi havia soldats\l"
 	.string "de l'Equip Rocket pertot!\p"
 	.string "En sabies alguna cosa?$"
@@ -76,7 +76,7 @@ MatchCall_Text_ScottGotBadge5::
 
 MatchCall_Text_ScottFuchsia::
 	.string "Scott: Ei! Campió en potència!\p"
-	.string "Que dius? Ets a Fuchsia City\n"
+	.string "Que dius? Ets a Ciutat Fúcsia\n"
 	.string "també?\p"
 	.string "Com?\n"
 	.string "Sí! Sóc a la Zona Safari!\p"
@@ -97,7 +97,7 @@ MatchCall_Text_ScottGotBadge6::
 
 MatchCall_Text_ScottCinnabar::
 	.string "Scott: Ei! Campió en potència!\p"
-	.string "Vas a Cinnabar Island\n"
+	.string "Vas a Illa Cinabri\n"
 	.string "per enfrontar-te al Blaine?\p"
 	.string "Ens veiem allà!$"
 
@@ -113,7 +113,7 @@ MatchCall_Text_ScottFinalBadge::
 	.string "Doncs, només queda\n"
 	.string "una medalla!\p"
 	.string "Has sentit que el Líder\n"
-	.string "del Gimnàs de Viridian\l"
+	.string "del Gimnàs de Viridiana\l"
 	.string "ha tornat?\p"
 	.string "Ningú sap gaire cosa d'ell,\n"
 	.string "això promet ser interessant.$"
@@ -180,7 +180,7 @@ MatchCall_Text_Mom1::
 MatchCall_Text_Mom2::
 	.string "Mare: He sentit que un home\n"
 	.string "molt intel·ligent viu\l"
-	.string "prop de Cerulean City.\p"
+	.string "prop de Ciutat Cerúlia.\p"
 	.string "Em pregunto quant guanya\n"
 	.string "un Pokemaníac...\p"
 	.string "Creus que guanya més\n"
@@ -198,7 +198,7 @@ MatchCall_Text_Mom3::
 	.string "del dia a dia.$"
 
 MatchCall_Text_Mom4::
-	.string "Mare: Lavender Town…\n"
+	.string "Mare: Poble Lavanda…\n"
 	.string "Quin lloc tan trist…\p"
 	.string "Quan penso en tots aquells\n"
 	.string "Pokémon…\p"
@@ -214,11 +214,11 @@ MatchCall_Text_Mom5::
 	.string "Potser podria guardar\n"
 	.string "els teus diners per tu!\p"
 	.string "Oh? Tens por que me'ls gastés\n"
-	.string "als Grans Magatzems Celadon?\p"
+	.string "als Grans Magatzems Celadó?\p"
 	.string "Quina impertinència!$"
 
 MatchCall_Text_Mom6::
-	.string "Mare: Oh, has visitat Fuchsia?\p"
+	.string "Mare: Oh, has visitat Fúcsia?\p"
 	.string "De jove m'encantava visitar\n"
 	.string "la Zona Safari!\p"
 	.string "M'encantava el Joc Safari,\n"
@@ -228,12 +228,12 @@ MatchCall_Text_Mom6::
 MatchCall_Text_Mom7::
 	.string "Mare: Oh, {PLAYER}!\p"
 	.string "Acabo de veure les notícies.\n"
-	.string "L'Equip Rocket ha atacat Saffron!\p"
+	.string "L'Equip Rocket ha atacat Safrà!\p"
 	.string "En quin món vivim.\n"
 	.string "Para esment!$"
 
 MatchCall_Text_Mom8::
-	.string "Mare: Has visitat Cinnabar Island?\p"
+	.string "Mare: Has visitat Illa Cinabri?\p"
 	.string "De jove, els meus amics i jo\n"
 	.string "hi anàvem nedant!\p"
 	.string "Teníem massa por d'entrar a\n"
@@ -253,7 +253,7 @@ MatchCall_Text_Mom9::
 MatchCall_Text_MomGameClear::
 	.string "Mare: {PLAYER}…\n"
 	.string "Sembla que va ser ahir que\n"
-	.string "vas sortir de Pallet Town,\l"
+	.string "vas sortir de Poble Paleta,\l"
 	.string "i ara has recorregut Kanto!\p"
 	.string "Qui hauria dit que tindries\n"
 	.string "aquesta aventura amb els\l"
@@ -292,13 +292,13 @@ MatchCall_Text_Rival3::
 MatchCall_Text_Rival4::
 	.string "{RIVAL}: Oh, {PLAYER}.\p"
 	.string "He sentit un rumor que\n"
-	.string "vas caure del SS Anne.\p"
+	.string "vas caure del SS Anna.\p"
 	.string "Suposo que era massa bonic\n"
 	.string "per ser veritat.$"
 
 MatchCall_Text_Rival5::
 	.string "{RIVAL}: Ei, {PLAYER}.\p"
-	.string "Has arribat a Celadon?\p"
+	.string "Has arribat a Celadó?\p"
 	.string "Hi ha un gran restaurant,\n"
 	.string "però no deixen entrar\l"
 	.string "als perdedors com tu! Ha!$"
@@ -346,7 +346,7 @@ MatchCall_Text_AideIntro::
 	.string "Hola? Ah, {PLAYER}!\p"
 	.string "Sóc en Cedar! Sóc un dels\n"
 	.string "ajudants del professor!\p"
-	.string "Ens vam conèixer a Pallet Town,\n"
+	.string "Ens vam conèixer a Poble Paleta,\n"
 	.string "ho recordes?\p"
 	.string "Sí, sí! Molt bé!\p"
 	.string "El professor em va donar\n"
@@ -555,7 +555,7 @@ MatchCall_Text_LookerIntro::
 MatchCall_Text_LookerCeladon::
 	.string "Looker: Hola, {PLAYER}!\p"
 	.string "Amb la seva operació\n"
-	.string "de reclutament a Cerulean\l"
+	.string "de reclutament a Cerúlia\l"
 	.string "tancada, hem de trobar\l"
 	.string "on s'amaga l'Equip Rocket.\p"
 	.string "El meu instint diu\n"
@@ -568,7 +568,7 @@ MatchCall_Text_LookerRocketHideout::
 	.string "Looker: Oh, ets tu, {PLAYER}.\n"
 	.string "Gràcies per l'avís sobre\l"
 	.string "l'amagatall de l'Equip\l"
-	.string "Rocket a Celadon.\p"
+	.string "Rocket a Celadó.\p"
 	.string "Això segur que alentirà\n"
 	.string "la seva operació una estona!$"
 
@@ -578,7 +578,7 @@ MatchCall_Text_LookerSaffron::
 	.string "Hem interceptat alguns plans\n"
 	.string "de l'Equip Rocket, i sembla\l"
 	.string "que el seu proper moviment\l"
-	.string "serà a Saffron City!\p"
+	.string "serà a Ciutat Safrà!\p"
 	.string "...que!?\p"
 	.string "Que ja hi són?\n"
 	.string "Hem tornat a arribar tard!\p"
@@ -588,7 +588,7 @@ MatchCall_Text_LookerSilphCo::
 	.string "Looker: {PLAYER}, gràcies.\p"
 	.string "No hem agafat el seu líder,\n"
 	.string "però almenys hem salvat\l"
-	.string "Saffron City.\p"
+	.string "Ciutat Safrà.\p"
 	.string "Aviat trobarem qui dóna\n"
 	.string "les ordres.\p"
 	.string "Els dies de l'Equip Rocket\n"
@@ -617,18 +617,18 @@ MatchCall_Text_LookerPostgameReady::
 	.string "Looker: {PLAYER}!\p"
 	.string "És una emergència!\p"
 	.string "L'Equip Rocket ha tornat\n"
-	.string "a Saffron City!\p"
+	.string "a Ciutat Safrà!\p"
 	.string "Han pres el President de\n"
-	.string "la Silph Co. com a ostatge\l"
+	.string "la Silph S.A. com a ostatge\l"
 	.string "un altre cop...\p"
 	.string "...i hi ha alguna cosa més...\p"
 	.string "T'ho diré quan vagis aquí.\p"
-	.string "Vine a veure'm a Saffron\n"
+	.string "Vine a veure'm a Safrà\n"
 	.string "de seguida.$"
 
 MatchCall_Text_LookerPostgameWaiting::
 	.string "Looker: {PLAYER}!\p"
-	.string "Vine ràpid a Saffron City!$"
+	.string "Vine ràpid a Ciutat Safrà!$"
 
 MatchCall_Text_LookerPostgameCompleted::
 	.string "Looker: L'Equip Rocket!\p"
@@ -664,7 +664,7 @@ MatchCall_Text_Bill2::
 	.string "idees noves!\p"
 	.string "Passa pel lab la propera\n"
 	.string "vegada que siguis a\l"
-	.string "Cerulean i te les ensenyaré!$"
+	.string "Cerúlia i te les ensenyaré!$"
 
 MatchCall_Text_Bill3::
 	.string "Bill: Ei, {PLAYER}!\p"
@@ -676,7 +676,7 @@ MatchCall_Text_Bill4::
 	.string "Bill: Ei, {PLAYER}!\p"
 	.string "Vaja! El líder de l'Equip\n"
 	.string "Rocket era el líder del\l"
-	.string "Gimnàs de Viridian, també?\p"
+	.string "Gimnàs de Viridiana, també?\p"
 	.string "La xarxa estava plena de\n"
 	.string "teories, però no crec\l"
 	.string "que ningú ho hagués endevinat!\p"
@@ -814,7 +814,7 @@ MatchCall_DifferentRouteBattleRequestText2::
 	.string "T'ho voldria mostrar,\l"
 	.string "{PLAYER}{KUN}.\p"
 	.string "Ara sóc a {STR_VAR_2},\n"
-	.string "lluitems si ets a prop.\p"
+	.string "lluitem si ets a prop.\p"
 	.string "Espero veure't aviat!$"
 
 MatchCall_BattleFrontierStreakText2::
@@ -932,7 +932,7 @@ MatchCall_PositiveBattleText4::
 	.string "i el meu {STR_VAR_2}\l"
 	.string "va ser increïble!\p"
 	.string "La propera vegada que\n"
-	.string "lluitems, {PLAYER},\l"
+	.string "lluitem, {PLAYER},\l"
 	.string "no seré jo el que perdi!$"
 
 MatchCall_SameRouteBattleRequestText4::
@@ -1003,7 +1003,7 @@ MatchCall_PositiveBattleText5::
 	.string "Com et van les coses?\p"
 	.string "Estic en una gran ratxa.\n"
 	.string "Acabo de guanyar una batalla.\p"
-	.string "Quan lluitems la propera\n"
+	.string "Quan lluitem la propera\n"
 	.string "vegada, no perdré!$"
 
 MatchCall_SameRouteBattleRequestText5::
@@ -1213,7 +1213,7 @@ MatchCall_PersonalizedText14::
 	.string "els meus Pokémon\l"
 	.string "amb tu com a objectiu.\p"
 	.string "No tinc intenció de perdre\n"
-	.string "quan lluitems altra vegada.\p"
+	.string "quan lluitem altra vegada.\p"
 	.string "No és genial tenir amics\n"
 	.string "entrenadors?\l"
 	.string "Fins la propera!$"
@@ -1249,7 +1249,7 @@ MatchCall_PersonalizedText16::
 MatchCall_PersonalizedText17::
 	.string "Oh, sóc {STR_VAR_1}, hola.\p"
 	.string "He estat nedant molt però\n"
-	.string "no arribo a Cinnabar.\p"
+	.string "no arribo a Cinabri.\p"
 	.string "Potser estic donant voltes.\p"
 	.string "No, no, no pot ser.\n"
 	.string "Wahahaha.\l"

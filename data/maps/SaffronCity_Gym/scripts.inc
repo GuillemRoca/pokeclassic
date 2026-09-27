@@ -60,7 +60,7 @@ SaffronCity_Gym_Text_CameronDefeat::
 
 SaffronCity_Gym_Text_CameronPostBattle::
     .string "Hi havia dos Gimnasos Pokémon\n"
-    .string "a Saffron.\p"
+    .string "a Safrà.\p"
     .string "El Dojo de Lluita del costat va\n"
     .string "perdre l'estatus de Gimnàs.\p"
     .string "Els vam esclafar quan es va\n"
@@ -72,7 +72,7 @@ SaffronCity_Gym_EventScript_Preston::
 	end
 
 SaffronCity_Gym_Text_PrestonIntro::
-    .string "El Gimnàs Pokémon de Saffron és\n"
+    .string "El Gimnàs Pokémon de Safrà és\n"
     .string "famós per entrenar psíquics.\p"
     .string "Vols veure Sabrina, oi?\n"
     .string "Ho puc notar!$"
@@ -379,7 +379,7 @@ SaffronCity_Gym_EventScript_GymStatue::
 	end
 
 SaffronCity_Gym_Text_GymStatue::
-    .string "Gimnàs Pokémon de Saffron\n"
+    .string "Gimnàs Pokémon de Safrà\n"
     .string "Líder: Sabrina\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}$"
@@ -390,7 +390,7 @@ SaffronCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 SaffronCity_Gym_Text_GymStatuePlayerWon::
-    .string "Gimnàs Pokémon de Saffron\n"
+    .string "Gimnàs Pokémon de Safrà\n"
     .string "Líder: Sabrina\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}, {PLAYER}$"

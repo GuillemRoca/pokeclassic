@@ -117,7 +117,7 @@ SecretBase_Text_Trainer2Intro:
     .string "m'agrada més un lloc com aquest.\p"
     .string "M'agrada perquè ve tot tipus\n"
     .string "de gent a visitar-me.\p"
-    .string "Así doncs, vols batallar?$"
+    .string "Així doncs, vols batallar?$"
 
 SecretBase_Text_Trainer2AcceptBattle:
     .string "Molt bé!$"

@@ -113,5 +113,5 @@ CeladonCity_Condominiums_1F_EventScript_SuiteSign::
 	end
 
 CeladonCity_Condominiums_1F_Text_ManagersSuite::
-    .string "Mansió Celadon\n"
+    .string "Mansió Celadó\n"
     .string "Suite del Director$"

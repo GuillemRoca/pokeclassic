@@ -353,7 +353,7 @@ VermilionCity_Gym_Text_PostBattleGameClear::
 	.string "he de tancar, nano!\p"
 	.string "És el primer cop que em sento\n"
 	.string "així des que vaig començar com\l"
-	.string "a Líder de Gimnàs de Vermilion.$"
+	.string "a Líder de Gimnàs de Vermella.$"
 
 VermilionCity_Gym_EventScript_RematchLeader::
 	msgbox VermilionCity_Gym_Text_RematchLeader, MSGBOX_YESNO
@@ -517,7 +517,7 @@ VermilionCity_Gym_EventScript_GymStatue::
 	end
 
 VermilionCity_Gym_Text_GymStatue::
-    .string "Gimnàs Pokémon de Vermilion\n"
+    .string "Gimnàs Pokémon de Vermella\n"
     .string "Líder: Lt. Surge\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}$"
@@ -528,7 +528,7 @@ VermilionCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 VermilionCity_Gym_Text_GymStatuePlayerWon::
-    .string "Gimnàs Pokémon de Vermilion\n"
+    .string "Gimnàs Pokémon de Vermella\n"
     .string "Líder: Lt. Surge\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}, {PLAYER}$"

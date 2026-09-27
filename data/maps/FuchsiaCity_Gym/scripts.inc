@@ -218,7 +218,7 @@ FuchsiaCity_Gym_EventScript_Phil::
 FuchsiaCity_Gym_Text_PhilIntro::
     .string "Para aquí!\p"
     .string "Les famoses parets invisibles\n"
-    .string "del Gimnàs Fuchsia et frustren?$"
+    .string "del Gimnàs Fúcsia et frustren?$"
 
 FuchsiaCity_Gym_Text_PhilDefeat::
     .string "Uau!\n"
@@ -335,7 +335,7 @@ FuchsiaCity_Gym_EventScript_GymGuy::
 FuchsiaCity_Gym_Text_GymGuyAdvice::
     .string "Ei!\n"
     .string "Futur campió!\p"
-    .string "El Gimnàs Fuchsia és un lloc\n"
+    .string "El Gimnàs Fúcsia és un lloc\n"
     .string "ple de trampes. Està ple\l"
     .string "de parets invisibles!\p"
     .string "Koga pot semblar a prop, però\n"
@@ -365,13 +365,13 @@ FuchsiaCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 FuchsiaCity_Gym_Text_GymStatue::
-    .string "Gimnàs Pokémon de Fuchsia\n"
+    .string "Gimnàs Pokémon de Fúcsia\n"
     .string "Líder: Koga\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}$"
 
 FuchsiaCity_Gym_Text_GymStatuePlayerWon::
-    .string "Gimnàs Pokémon de Fuchsia\n"
+    .string "Gimnàs Pokémon de Fúcsia\n"
     .string "Líder: Koga\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}, {PLAYER}$"
