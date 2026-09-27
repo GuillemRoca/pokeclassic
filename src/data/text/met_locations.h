@@ -70,12 +70,12 @@ const u8 *const gRegionStringPointers[] =
 	[REGION_ORRE]    = sRegionString_Orre,
 };
 
-const u8 gText_TrainerMemo_Standard[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1} naturalesa.\n\n{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 5}{DYNAMIC 1}\nTrobat al {LV_2}{DYNAMIC 3}.\n\n{DYNAMIC 6}\n{DYNAMIC 7}");
-const u8 gText_TrainerMemo_Hatched[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1} naturalesa.\n\n{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 5}{DYNAMIC 1}\nNascut al {LV_2}{DYNAMIC 3}.\n\n{DYNAMIC 6}\n{DYNAMIC 7}");
-const u8 gText_TrainerMemo_Trade[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1} naturalesa.\n\nObtingut en {DYNAMIC 0}un intercanvi{DYNAMIC 1}.\n\n\n{DYNAMIC 6}\n{DYNAMIC 7}");
-const u8 gText_TrainerMemo_Fateful[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1} naturalesa.\n\nObtingut en una\n{DYNAMIC 0}trobada del destí{DYNAMIC 1} al {LV_2}{DYNAMIC 3}.\n{DYNAMIC 6}\n{DYNAMIC 7}");
-const u8 gText_TrainerMemo_Untrusted[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1} naturalesa.\n\n{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 5}{DYNAMIC 1}\nAparentment trobat al {LV_2}{DYNAMIC 3}.\n\n{DYNAMIC 6}\n{DYNAMIC 7}");
-const u8 gText_TrainerMemo_HatchedUntrusted[] = _("{DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1} naturalesa.\n\n{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 5}{DYNAMIC 1}\nAparentment nascut al {LV_2}{DYNAMIC 3}.\n\n{DYNAMIC 6}\n{DYNAMIC 7}");
+const u8 gText_TrainerMemo_Standard[] = _("Naturalesa {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}.\n\n{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 5}{DYNAMIC 1}\nTrobat al nivell {DYNAMIC 3}.\n\n{DYNAMIC 6}\n{DYNAMIC 7}");
+const u8 gText_TrainerMemo_Hatched[] = _("Naturalesa {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}.\n\n{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 5}{DYNAMIC 1}\nNascut al nivell {DYNAMIC 3}.\n\n{DYNAMIC 6}\n{DYNAMIC 7}");
+const u8 gText_TrainerMemo_Trade[] = _("Naturalesa {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}.\n\nObtingut en {DYNAMIC 0}un intercanvi{DYNAMIC 1}.\n\n\n{DYNAMIC 6}\n{DYNAMIC 7}");
+const u8 gText_TrainerMemo_Fateful[] = _("Naturalesa {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}.\n\nObtingut en una\n{DYNAMIC 0}trobada del destí{DYNAMIC 1} al {LV_2}{DYNAMIC 3}.\n{DYNAMIC 6}\n{DYNAMIC 7}");
+const u8 gText_TrainerMemo_Untrusted[] = _("Naturalesa {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}.\n\n{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 5}{DYNAMIC 1}\nAparentment trobat al {LV_2}{DYNAMIC 3}.\n\n{DYNAMIC 6}\n{DYNAMIC 7}");
+const u8 gText_TrainerMemo_HatchedUntrusted[] = _("Naturalesa {DYNAMIC 0}{DYNAMIC 2}{DYNAMIC 1}.\n\n{DYNAMIC 0}{DYNAMIC 4}{DYNAMIC 5}{DYNAMIC 1}\nAparentment nascut al {LV_2}{DYNAMIC 3}.\n\n{DYNAMIC 6}\n{DYNAMIC 7}");
 #if CONFIG_DECAPITALIZE_MET_LOCATION_STRINGS
 const u8 gText_TrainerMemo_EggFromDayCare[] = _("Un Ou Pokémon estrany trobat\nper {DYNAMIC 0}la parella de la Guarderia{DYNAMIC 1}.\n\n\n“La Guarda de l'Ou”\n{DYNAMIC 2}");
 const u8 gText_TrainerMemo_EggTraded[] = _("Un Ou Pokémon peculiar\nobtingut en un intercanvi.\n\n\n“La Guarda de l'Ou”\n{DYNAMIC 2}");

@@ -1043,7 +1043,8 @@ const u8 sText_Defense[] = _("Defensa");
 const u8 sText_SpecialAttack[] = _("Atac Esp.");
 const u8 sText_SpecialDefense[] = _("Def. Esp.");
 const u8 sText_Speed[] = _("Velocitat");
-const u8 sText_Ability[] = _("Habilitat");
+// 48 px in a ~44 px label slot: kern 1 px before i, l, i and t (SKIP is absolute x)
+const u8 sText_Ability[] = _("Hab{SKIP 17}i{SKIP 20}l{SKIP 23}i{SKIP 26}tat");
 const u8 sText_Sheen[] = _("Brillantor");
 const u8 sText_Cool[] = _("Genial");
 const u8 sText_Beauty[] = _("Bellesa");
