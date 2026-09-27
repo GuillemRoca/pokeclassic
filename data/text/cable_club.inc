@@ -21,7 +21,7 @@ CableClub_Text_TradeUsingLinkCable::
 
 
 CableClub_Text_BattleUsingLinkCable::
-	.string "Pots batallar amb un altre\n"
+	.string "Pots lluitar contra un altre\n"
 
 	.string "Entrenador usant un cable\l"
 
@@ -42,7 +42,7 @@ CableClub_Text_CloseThisMenu:
 
 
 CableClub_Text_NeedTwoMonsForDoubleBattle:
-	.string "Per a una Batalla Doble, has\n"
+	.string "Per a un Combat Doble, has\n"
 
 	.string "de tenir almenys dos Pokémon.$"
 
@@ -137,13 +137,13 @@ CableClub_Text_IncorrectNumberOfParticipants:
 
 
 CableClub_Text_CantSingleBattleWithXPlayers:
-	.string "La Batalla Individual no es pot\n"
+	.string "El Combat Individual no es pot\n"
 
 	.string "jugar amb {STR_VAR_1} jugadors.$"
 
 
 CableClub_Text_CantDoubleBattleWithXPlayers:
-	.string "La Batalla Doble no es pot\n"
+	.string "El Combat Doble no es pot\n"
 
 	.string "jugar amb {STR_VAR_1} jugadors.$"
 
@@ -175,29 +175,29 @@ Text_TerminateLinkPleaseWait:
 
 
 CableClub_Text_TooBusyToNotice:
-	.string "Aquest Entrenador és massa ocupat\n"
+	.string "Aquest Entrenador està massa ocupat\n"
 
 	.string "per a adonar-se'n…$"
 
 
 CableClub_Text_GotToLookAtTrainerCard:
-	.string "Genial! He pogut veure el Carnet\n"
+	.string "Genial! He pogut veure la Targeta\n"
 
 	.string "d'Entrenador de {STR_VAR_1}!$"
 
 
 CableClub_Text_GotToLookAtColoredTrainerCard:
-	.string "Genial! He pogut veure el Carnet\n"
+	.string "Genial! He pogut veure la Targeta\n"
 
 	.string "d'Entrenador de {STR_VAR_1}!\p"
 
-	.string "És un carnet {STR_VAR_2}!$"
+	.string "És una targeta de color {STR_VAR_2}!$"
 
 
 BattleColosseum_2P_Text_TakePlaceStartBattle:
 	.string "Col·loca't al teu lloc i\n"
 
-	.string "comença la batalla.$"
+	.string "comença el combat.$"
 
 
 TradeCenter_Text_TakeSeatStartTrade:
@@ -211,7 +211,7 @@ RecordCorner_Text_ThanksForComing:
 
 
 CableClub_Text_TrainerCardDataOverwritten:
-	.string "Les dades del Carnet d'Entrenador\n"
+	.string "Les dades de la Targeta d'Entrenador\n"
 
 	.string "seran sobreescrites.$"
 
@@ -237,7 +237,7 @@ CableClub_Text_OtherTrainerNotReady:
 CableClub_Text_YouHaveAMonThatCantBeTaken:
 	.string "Tens almenys un Pokémon\n"
 
-	.string "que no pot ser agafat.$"
+	.string "que no et pots endur.$"
 
 
 RecordCorner_Text_TakeSeatAndWait:
@@ -295,7 +295,7 @@ CableClub_Text_YouMayTradeHere::
 
 
 CableClub_Text_YouMayBattleHere::
-	.string "Aquí pots batallar amb\n"
+	.string "Aquí pots lluitar contra\n"
 
 	.string "els teus amics.$"
 
@@ -326,7 +326,7 @@ CableClub_Text_CancelSelectedItem::
 
 @ Unused
 CableClub_Text_WhichBattleMode:
-	.string "Quin mode de batalla vols?$"
+	.string "Quin mode de combat vols?$"
 
 
 @ Unused
@@ -335,7 +335,7 @@ CableClub_Text_ReturnsToPreviousStep:
 
 
 CableClub_Text_NeedBerryForBerryCrush:
-	.string "Per usar el servei Tritura-Baies,\n"
+	.string "Per usar el servei Esberlabaia,\n"
 
 	.string "has de tenir almenys una Baia.$"
 
@@ -357,20 +357,20 @@ CableClub_Text_UnionRoomAdapterNotConnected:
 
 	.string "Club Sense Fils Pokémon.\p"
 
-	.string "Malauradament, el vostre\n"
+	.string "Malauradament, el teu\n"
 
 	.string "Adaptador Sense Fils no\l"
 
 	.string "està connectat correctament.\p"
 
-	.string "Torneu aviat.$"
+	.string "Torna aviat.$"
 
 
 @ Unused
 CableClub_Text_OhExcuseMe:
 	.string "Oh…\n"
 
-	.string "Perdoneu!$"
+	.string "Perdona!$"
 
 
 CableClub_Text_PlayerIsWaiting:
@@ -394,7 +394,7 @@ MossdeepCity_GameCorner_1F_Text_PokemonJumpInfo:
 
 	.string "Fes que el teu Pokémon salti\n"
 
-	.string "la corda de Fuet Planta amb\l"
+	.string "la corda de Fuet Liana amb\l"
 
 	.string "el Botó A.\p"
 
@@ -410,9 +410,9 @@ MossdeepCity_GameCorner_1F_Text_PokemonJumpInfo:
 
 	.string "per a saltar.\p"
 
-	.string "Com a resultat, aquells Pokémon\n"
+	.string "Per això, aquests Pokémon\n"
 
-	.string "no poden participar.\p"
+	.string "no hi poden participar.\p"
 
 	.string "Passen coses bones si tothom\n"
 
@@ -420,15 +420,15 @@ MossdeepCity_GameCorner_1F_Text_PokemonJumpInfo:
 
 
 MossdeepCity_GameCorner_1F_Text_DodrioBerryPickingInfo:
-	.string "“Recol·lecta de Baies de Dodrio”\p"
+	.string "“Recol·lecció de Baies de Dodrio”\p"
 
 	.string "Ordena els tres caps de Dodrio\n"
 
 	.string "per agafar Baies que cauen.\p"
 
-	.string "Prem dreta, amunt o esquerra al\n"
+	.string "Prem dreta, amunt o esquerra a la\n"
 
-	.string "{PLUS} Control per moure els caps.\p"
+	.string "{PLUS} Creueta per moure els caps.\p"
 
 	.string "Per a jugar, has de tenir\n"
 
@@ -476,7 +476,7 @@ MossdeepCity_GameCorner_1F_Text_EnterWhichPokemon:
 
 
 MossdeepCity_GameCorner_1F_Text_AllGoodToGo:
-	.string "D'acord, ja ho tens tot!\n"
+	.string "D'acord, ja estàs a punt!\n"
 
 	.string "Que no et guanyin els altres!$"
 
@@ -515,7 +515,7 @@ MossdeepCity_GameCorner_1F_Text_ShortJumpingPokemonAllowed:
 
 
 MossdeepCity_GameCorner_1F_Text_OnlyDodrioAllowed:
-	.string "Recol·lecta de Baies de Dodrio\n"
+	.string "Recol·lecció de Baies de Dodrio\n"
 
 	.string "és un joc exclusiu per a Dodrio.$"
 
@@ -544,7 +544,7 @@ CableClub_Text_TradePokemon:
 
 
 CableClub_Text_PlayWhichBattleMode:
-	.string "En quin mode de batalla\n"
+	.string "En quin mode de combat\n"
 
 	.string "vols jugar?$"
 
@@ -558,13 +558,13 @@ CableClub_Text_AccessRecordCorner:
 CableClub_Text_UseBerryCrush:
 	.string "Vols usar el Sistema\n"
 
-	.string "Tritura-Baies?$"
+	.string "Esberlabaia?$"
 
 
 CableClub_Text_ExplainBattleModes:
-	.string "Hi ha tres modes de batalla.\p"
+	.string "Hi ha tres modes de combat.\p"
 
-	.string "La Batalla Individual és per a\n"
+	.string "El Combat Individual és per a\n"
 
 	.string "dos Entrenadors amb un o\l"
 
@@ -572,9 +572,9 @@ CableClub_Text_ExplainBattleModes:
 
 	.string "Cada Entrenador pot tenir un\n"
 
-	.string "Pokémon en batalla alhora.\p"
+	.string "Pokémon en combat alhora.\p"
 
-	.string "La Batalla Doble és per a dos\n"
+	.string "El Combat Doble és per a dos\n"
 
 	.string "Entrenadors amb dos o més\l"
 
@@ -582,9 +582,9 @@ CableClub_Text_ExplainBattleModes:
 
 	.string "Cada Entrenador traurà dos\n"
 
-	.string "Pokémon en batalla alhora.\p"
+	.string "Pokémon en combat alhora.\p"
 
-	.string "La Batalla Multi és per a quatre\n"
+	.string "El Combat Múltiple és per a quatre\n"
 
 	.string "Entrenadors amb un o més\l"
 
@@ -592,7 +592,7 @@ CableClub_Text_ExplainBattleModes:
 
 	.string "Cada Entrenador pot tenir un\n"
 
-	.string "Pokémon en batalla alhora.$"
+	.string "Pokémon en combat alhora.$"
 
 
 CableClub_Text_ChooseGroupLeaderOfTwo:
@@ -650,11 +650,11 @@ CableClub_Text_UnionRoomInfo:
 
 	.string "com intercanviar salutacions.\p"
 
-	.string "Pots entrar dos Pokémon fins\n"
+	.string "Pots inscriure dos Pokémon de fins\n"
 
-	.string "al Nv. 30 per a una batalla.\p"
+	.string "al Nv. 30 en un combat un contra un.\p"
 
-	.string "Pots participar en un xat amb\n"
+	.string "Pots participar en un xat de\n"
 
 	.string "dues a cinc persones.\p"
 
@@ -706,15 +706,15 @@ CableClub_Text_ExplainWirelessClubFirstTime:
 
 	.string "Amb ells, pots fer coses com\n"
 
-	.string "xatejar, batallar i intercanviar.\p"
+	.string "xatejar, lluitar i intercanviar.\p"
 
 	.string "Segon, la sala de la dreta\n"
 
 	.string "és el Racó Directe.\p"
 
-	.string "Pots intercanviar o batallar\n"
+	.string "Pots intercanviar Pokémon o lluitar\n"
 
-	.string "Pokémon amb els teus amics\l"
+	.string "amb els teus amics\l"
 
 	.string "en aquesta sala.\p"
 
@@ -748,7 +748,7 @@ CableClub_Text_AskAboutLinking:
 
 
 CableClub_Text_ExplainWirelessClub:
-	.string "Et deixo explicar com funciona\n"
+	.string "T'explicaré com funciona\n"
 
 	.string "el Club Sense Fils Pokémon.\p"
 
@@ -768,15 +768,15 @@ CableClub_Text_ExplainWirelessClub:
 
 	.string "Amb ells, pots fer coses com\n"
 
-	.string "xatejar, batallar i intercanviar.\p"
+	.string "xatejar, lluitar i intercanviar.\p"
 
 	.string "Segon, la sala de la dreta\n"
 
 	.string "és el Racó Directe.\p"
 
-	.string "Pots intercanviar o batallar\n"
+	.string "Pots intercanviar Pokémon o lluitar\n"
 
-	.string "Pokémon amb els teus amics\l"
+	.string "amb els teus amics\l"
 
 	.string "en aquesta sala.\p"
 
