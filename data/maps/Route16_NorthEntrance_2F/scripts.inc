@@ -63,7 +63,7 @@ Route16_NorthEntrance_2F_Text_GiveReward::
     .string "M'alegro que m'hagis pogut\n"
     .string "trobar!\p"
     .string "Entre el Snorlax adormit i\n"
-    .string "els Ciclistes que fan por, no\l"
+    .string "els Motoristes que fan por, no\l"
     .string "sabia si ens trobaríem!\p"
     .string "La vida d'Entrenador deu ser\n"
     .string "dura, espero que això t'ajudi\l"

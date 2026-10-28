@@ -70,7 +70,7 @@ Route17_EventScript_Billy::
 	end
 
 Route17_Text_BillyIntro::
-    .string "Som Ciclistes!\n"
+    .string "Som Motoristes!\n"
     .string "Les carreteres són nostres, tio!$"
 
 Route17_Text_BillyDefeat::

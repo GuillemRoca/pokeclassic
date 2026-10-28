@@ -121,7 +121,7 @@ Route16_EventScript_RegisterHideoAfterBattle::
 
 Route16_Text_HideoRegister:
 	.string "Ei, ja que has xocat amb la meva\n"
-	.string "bici, m'ho hauràs de compensar.\p"
+	.string "moto, m'ho hauràs de compensar.\p"
 	.string "Acceptaré una revenja com a pagament.$"
 
 Route16_EventScript_HideoRematch::
