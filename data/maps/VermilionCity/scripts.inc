@@ -581,7 +581,7 @@ VermilionCity_EventScript_JennyGaveSquirtle::
 	end
 
 VermilionCity_Text_JennyGaveSquirtle::
-	.string "Primer van ser Motards i Lladres,\n"
+	.string "Primer van ser Ciclistes i Lladres,\n"
 	.string "i després l'Equip Rocket.\p"
 	.string "Aquesta feina ja és prou difícil\n"
 	.string "sense que els Pokémon també\l"

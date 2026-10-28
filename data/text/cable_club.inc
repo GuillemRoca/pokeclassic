@@ -652,7 +652,7 @@ CableClub_Text_UnionRoomInfo:
 
 	.string "Pots inscriure dos Pokémon de fins\n"
 
-	.string "al Nv. 30 en un combat un contra un.\p"
+	.string "al Niv. 30 en un combat un contra un.\p"
 
 	.string "Pots participar en un xat de\n"
 

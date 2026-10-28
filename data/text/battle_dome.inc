@@ -155,7 +155,7 @@ BattleDome_Text_EmphasizesHPAndSpeed::
 	.string "Prioritza PS i Velocitat.$"
 
 BattleDome_Text_EmphasizesHPAndSpAtk::
-	.string "Prioritza PS i At. Esp.$"
+	.string "Prioritza PS i Atac Esp.$"
 
 BattleDome_Text_EmphasizesHPAndSpDef::
 	.string "Prioritza PS i Def. Esp.$"
@@ -167,7 +167,7 @@ BattleDome_Text_EmphasizesAtkAndSpeed::
 	.string "Prioritza Atac i Velocitat.$"
 
 BattleDome_Text_EmphasizesAtkAndSpAtk::
-	.string "Prioritza Atac i At. Esp.$"
+	.string "Prioritza Atac i Atac Esp.$"
 
 BattleDome_Text_EmphasizesAtkAndSpDef::
 	.string "Prioritza Atac i Def. Esp.$"
@@ -176,19 +176,19 @@ BattleDome_Text_EmphasizesDefAndSpeed::
 	.string "Prioritza Defensa i Velocitat.$"
 
 BattleDome_Text_EmphasizesDefAndSpAtk::
-	.string "Prioritza Defensa i At. Esp.$"
+	.string "Prioritza Defensa i Atac Esp.$"
 
 BattleDome_Text_EmphasizesDefAndSpDef::
 	.string "Prioritza Defensa i Def. Esp.$"
 
 BattleDome_Text_EmphasizesSpeedAndSpAtk::
-	.string "Prioritza Velocitat i At. Esp.$"
+	.string "Prioritza Velocitat i Atac Esp.$"
 
 BattleDome_Text_EmphasizesSpeedAndSpDef::
 	.string "Prioritza Velocitat i Def. Esp.$"
 
 BattleDome_Text_EmphasizesSpAtkAndSpDef::
-	.string "Prioritza At. Esp. i Def. Esp.$"
+	.string "Prioritza Atac Esp. i Def. Esp.$"
 
 BattleDome_Text_EmphasizesHP::
 	.string "Prioritza els PS.$"
@@ -203,7 +203,7 @@ BattleDome_Text_EmphasizesSpeed::
 	.string "Prioritza la Velocitat.$"
 
 BattleDome_Text_EmphasizesSpAtk::
-	.string "Prioritza l'At. Esp.$"
+	.string "Prioritza l'Atac Esp.$"
 
 BattleDome_Text_EmphasizesSpDef::
 	.string "Prioritza la Def. Esp.$"
@@ -218,7 +218,7 @@ BattleDome_Text_NeglectsHPAndSpeed::
 	.string "Descuida PS i Velocitat.$"
 
 BattleDome_Text_NeglectsHPAndSpAtk::
-	.string "Descuida PS i At. Esp.$"
+	.string "Descuida PS i Atac Esp.$"
 
 BattleDome_Text_NeglectsHPAndSpDef::
 	.string "Descuida PS i Def. Esp.$"
@@ -230,7 +230,7 @@ BattleDome_Text_NeglectsAtkAndSpeed::
 	.string "Descuida Atac i Velocitat.$"
 
 BattleDome_Text_NeglectsAtkAndSpAtk::
-	.string "Descuida Atac i At. Esp.$"
+	.string "Descuida Atac i Atac Esp.$"
 
 BattleDome_Text_NeglectsAtkAndSpDef::
 	.string "Descuida Atac i Def. Esp.$"
@@ -239,19 +239,19 @@ BattleDome_Text_NeglectsDefAndSpeed::
 	.string "Descuida Defensa i Velocitat.$"
 
 BattleDome_Text_NeglectsDefAndSpAtk::
-	.string "Descuida Defensa i At. Esp.$"
+	.string "Descuida Defensa i Atac Esp.$"
 
 BattleDome_Text_NeglectsDefAndSpDef::
 	.string "Descuida Defensa i Def. Esp.$"
 
 BattleDome_Text_NeglectsSpeedAndSpAtk::
-	.string "Descuida Velocitat i At. Esp.$"
+	.string "Descuida Velocitat i Atac Esp.$"
 
 BattleDome_Text_NeglectsSpeedAndSpDef::
 	.string "Descuida Velocitat i Def. Esp.$"
 
 BattleDome_Text_NeglectsSpAtkAndSpDef::
-	.string "Descuida At. Esp. i Def. Esp.$"
+	.string "Descuida Atac Esp. i Def. Esp.$"
 
 BattleDome_Text_NeglectsHP::
 	.string "Descuida els PS.$"
@@ -266,7 +266,7 @@ BattleDome_Text_NeglectsSpeed::
 	.string "Descuida la Velocitat.$"
 
 BattleDome_Text_NeglectsSpAtk::
-	.string "Descuida l'At. Esp.$"
+	.string "Descuida l'Atac Esp.$"
 
 BattleDome_Text_NeglectsSpDef::
 	.string "Descuida la Def. Esp.$"

@@ -223,7 +223,7 @@ static const u8 *const sAwaitingResponseTexts[] = {
 ALIGNED(4) static const u8 sText_ShowTrainerCard[] = _("L'altre Entrenador t'ha ensenyat\nla seva Targeta d'Entrenador.\pVols ensenyar la teva\nTargeta d'Entrenador?");
 ALIGNED(4) static const u8 sText_BattleChallenge[] = _("L'altre Entrenador et desafia\na un combat.\pAcceptes el desafiament\nde combat?");
 ALIGNED(4) static const u8 sText_ChatInvitation[] = _("L'altre Entrenador et convida\na xatejar.\pAcceptes la invitació\na xatejar?");
-ALIGNED(4) static const u8 sText_OfferToTradeMon[] = _("Hi ha una oferta per intercanviar\nel teu Nv. {DYNAMIC 0} {DYNAMIC 1}\pa canvi d'un\nNv. {DYNAMIC 2} {DYNAMIC 3}.\pAcceptes l'oferta\nd'intercanvi?");
+ALIGNED(4) static const u8 sText_OfferToTradeMon[] = _("Hi ha una oferta per intercanviar\nel teu Niv. {DYNAMIC 0} {DYNAMIC 1}\pa canvi d'un\nNiv. {DYNAMIC 2} {DYNAMIC 3}.\pAcceptes l'oferta\nd'intercanvi?");
 ALIGNED(4) static const u8 sText_OfferToTradeEgg[] = _("Hi ha una oferta per intercanviar\nel teu Ou registrat.\lAcceptes l'oferta d'intercanvi?");
 ALIGNED(4) static const u8 sText_ChatDropped[] = _("El xat s'ha tancat.\p");
 ALIGNED(4) static const u8 sText_OfferDeclined1[] = _("Has rebutjat l'oferta.\p");
@@ -333,8 +333,8 @@ static const u8 *const sIfYouWantToDoSomethingTexts[GENDER_COUNT] = {
 };
 
 ALIGNED(4) static const u8 sText_TrainerBattleBusy[] = _("Ui! Perdona, he de fer una\naltra cosa.\lUn altre dia, d'acord?\p");
-ALIGNED(4) static const u8 sText_NeedTwoMonsOfLevel30OrLower1[] = _("Per combatre, necessites dos\nPokémon per sota del\lNv. 30.\p");
-ALIGNED(4) static const u8 sText_NeedTwoMonsOfLevel30OrLower2[] = _("Per combatre, necessites dos\nPokémon per sota del Nv. 30.\p");
+ALIGNED(4) static const u8 sText_NeedTwoMonsOfLevel30OrLower1[] = _("Per combatre, necessites dos\nPokémon per sota del\lNiv. 30.\p");
+ALIGNED(4) static const u8 sText_NeedTwoMonsOfLevel30OrLower2[] = _("Per combatre, necessites dos\nPokémon per sota del Niv. 30.\p");
 
 ALIGNED(4) static const u8 sText_DeclineChatMale[] = _("Ah, d'acord.\nVine quan vulguis, eh?\p");
 ALIGNED(4) static const u8 stext_DeclineChatFemale[] = _("Oh…\nVine quan vulguis.\p");
@@ -453,7 +453,7 @@ ALIGNED(4) static const u8 sText_WhichMonWillYouOffer[] = _("Quin dels teus Pok�
 ALIGNED(4) static const u8 sText_RegistrationCanceled[] = _("El registre s'ha cancel·lat.\p");
 ALIGNED(4) static const u8 sText_RegistraionCompleted[] = _("El registre s'ha completat.\p");
 ALIGNED(4) static const u8 sText_TradeCanceled[] = _("L'intercanvi s'ha cancel·lat.\p");
-ALIGNED(4) static const u8 sText_CancelRegistrationOfMon[] = _("Cancel·lar el registre del teu\nNv. {STR_VAR_2} {STR_VAR_1}?");
+ALIGNED(4) static const u8 sText_CancelRegistrationOfMon[] = _("Cancel·lar el registre del teu\nNiv. {STR_VAR_2} {STR_VAR_1}?");
 ALIGNED(4) static const u8 sText_CancelRegistrationOfEgg[] = _("Cancel·lar el registre del\nteu Ou?");
 ALIGNED(4) static const u8 sText_RegistrationCanceled2[] = _("El registre s'ha cancel·lat.\p");
 ALIGNED(4) static const u8 sText_TradeTrainersWillBeListed[] = _("Es llistaran els Entrenadors que\nvolen fer un intercanvi."); // unused
@@ -492,8 +492,8 @@ ALIGNED(4) static const u8 sText_ChooseLeaderBeautyContest[] = _("Concurs de Bel
 ALIGNED(4) static const u8 sText_ChooseLeaderCuteContest[] = _("Concurs de Dolçor!\nTria el Líder.");
 ALIGNED(4) static const u8 sText_ChooseLeaderSmartContest[] = _("Concurs d'Enginy!\nTria el Líder.");
 ALIGNED(4) static const u8 sText_ChooseLeaderToughContest[] = _("Concurs de Duresa!\nTria el Líder.");
-ALIGNED(4) static const u8 sText_ChooseLeaderBattleTowerLv50[] = _("Torre de Combat Nv. 50!\nTria el Líder.");
-ALIGNED(4) static const u8 sText_ChooseLeaderBattleTowerOpenLv[] = _("Torre de Combat Nv. Lliure!\nTria el Líder.");
+ALIGNED(4) static const u8 sText_ChooseLeaderBattleTowerLv50[] = _("Torre de Combat Niv. 50!\nTria el Líder.");
+ALIGNED(4) static const u8 sText_ChooseLeaderBattleTowerOpenLv[] = _("Torre de Combat Niv. Lliure!\nTria el Líder.");
 
 static const u8 *const sChooseTrainerTexts[NUM_LINK_GROUP_TYPES] =
 {
@@ -562,7 +562,7 @@ ALIGNED(4) static const u8 sText_CuteContest[] = _("Concurs Dolçor");
 ALIGNED(4) static const u8 sText_SmartContest[] = _("Concurs Enginy");
 ALIGNED(4) static const u8 sText_ToughContest[] = _("Concurs Duresa");
 ALIGNED(4) static const u8 sText_BattleTowerLv50[] = _("Torre Combat NV. 50");
-ALIGNED(4) static const u8 sText_BattleTowerOpenLv[] = _("Torre Combat Nv. Lliure");
+ALIGNED(4) static const u8 sText_BattleTowerOpenLv[] = _("Torre Combat Niv. Lliure");
 ALIGNED(4) static const u8 sText_ItsNormalCard[] = _("És una Targeta Normal.");
 ALIGNED(4) static const u8 sText_ItsBronzeCard[] = _("És una Targeta de Bronze!");
 ALIGNED(4) static const u8 sText_ItsCopperCard[] = _("És una Targeta de Coure!");

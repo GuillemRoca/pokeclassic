@@ -390,7 +390,7 @@ BattleFrontier_ExchangeServiceCorner_Text_ProteinDesc::
 	.string "Pokémon.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_CalciumDesc::
-	.string "Puja l'At. Esp. d'un\n"
+	.string "Puja l'Atac Esp. d'un\n"
 	.string "Pokémon.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_IronDesc::
@@ -858,7 +858,7 @@ BattleFrontier_ExchangeServiceCorner_Text_RazorClaw::
     .string "probabilitat de cop crític.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ChoiceSpecs::
-    .string "Puja l'At. Esp., però només\n"
+    .string "Puja l'Atac Esp., però només\n"
     .string "permet un moviment.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ChoiceScarf::
@@ -908,7 +908,7 @@ BattleFrontier_ExchangeServiceCorner_Text_PowerWeight::
 
 BattleFrontier_ExchangeServiceCorner_Text_PowerLens::
     .string "Objecte que potencia el creixement\n"
-	.string "de l'At. Esp., però baixa la Velocitat.$"
+	.string "de l'Atac Esp., però baixa la Velocitat.$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_HoldItemClerk2::
 	lock
@@ -1279,7 +1279,7 @@ BattleFrontier_ExchangeServiceCorner_Text_DEFCandy::
     .string "Puja la Defensa base d'un Pokémon.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_SPATKCandy::
-   .string  "Puja l'At. Esp. base d'un Pokémon.$"
+   .string  "Puja l'Atac Esp. base d'un Pokémon.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_SPDEFCandy::
     .string "Puja la Def. Esp. base d'un Pokémon.$"

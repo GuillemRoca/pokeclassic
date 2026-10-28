@@ -69,7 +69,7 @@ CeruleanCity_Gym_Text_ReceivedBadge::
 
 CeruleanCity_Gym_Text_ExplainBadge::
 	.string "La Medalla Cascada fa que tots\n"
-    .string "els Pokémon fins a Nv. 30 obeeixin.\p"
+    .string "els Pokémon fins a Niv. 30 obeeixin.\p"
     .string "Això inclou els que has obtingut\n"
     .string "per intercanvi.\p"
     .string "A més, ara pots fer servir\n"

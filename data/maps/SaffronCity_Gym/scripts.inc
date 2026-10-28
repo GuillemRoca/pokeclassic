@@ -206,7 +206,7 @@ SaffronCity_Gym_Text_ExplainBadge::
     .string "La Medalla Pantà permet als teus\n"
     .string "Pokémon usar Trencar Roca.\p"
     .string "També farà que els Pokémon fins\n"
-    .string "a Nv. 70 t'obeeixin.\p"
+    .string "a Niv. 70 t'obeeixin.\p"
     .string "Els Pokémon més forts es tornaran\n"
     .string "salvatges, ignorant les teves\l"
     .string "ordres en combat.\p"
@@ -236,7 +236,7 @@ SaffronCity_Gym_Text_ReceivedTM::
 SaffronCity_Gym_Text_ExplainTM::
     .string "La MT04 és Calma Mental.\p"
     .string "Fa que el Pokémon es concentri\n"
-    .string "per pujar At. Esp. i Def. Esp.$"
+    .string "per pujar Atac Esp. i Def. Esp.$"
 
 SaffronCity_Gym_EventScript_NoRoomForTM::
 	msgbox SaffronCity_Gym_Text_NoRoomForTM, MSGBOX_DEFAULT

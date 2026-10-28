@@ -250,7 +250,7 @@ Route8_EventScript_Ricardo::
 	end
 
 Route8_Text_RicardoIntro::
-    .string "La meva moto va malament, tio.$"
+    .string "La meva bici va malament, tio.$"
 
 Route8_Text_RicardoDefeat::
     .string "Ai, tio.\n"
