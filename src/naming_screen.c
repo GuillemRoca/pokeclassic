@@ -1747,9 +1747,23 @@ static void DrawNormalTextEntryBox(void)
 static void DrawMonTextEntryBox(void)
 {
     u8 buffer[32];
+    const u8 *src = sNamingScreen->template->title;
+    u8 *dest = buffer;
 
-    StringCopy(buffer, gSpeciesNames[sNamingScreen->monSpecies]);
-    StringAppendN(buffer, sNamingScreen->template->title, 15);
+    // Put the species name where the title has {STR_VAR_1}, so translations can place it anywhere
+    while (*src != EOS)
+    {
+        if (src[0] == PLACEHOLDER_BEGIN && src[1] == PLACEHOLDER_ID_STRING_VAR_1)
+        {
+            dest = StringCopy(dest, gSpeciesNames[sNamingScreen->monSpecies]);
+            src += 2;
+        }
+        else
+        {
+            *dest++ = *src++;
+        }
+    }
+    *dest = EOS;
     FillWindowPixelBuffer(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX], PIXEL_FILL(1));
     AddTextPrinterParameterized(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX], FONT_NORMAL, buffer, 8, 1, 0, 0);
     PutWindowTilemap(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX]);
