@@ -166,7 +166,7 @@ per coherència i perquè el text hi càpiga. Vegeu [TOOLING.md](TOOLING.md).
 | Hiker | Senderista |
 | Fisherman | Pescador |
 | Sailor | Mariner |
-| Biker | Ciclista |
+| Biker | Motorista (moto; mai "Ciclista") |
 | Burglar | Lladre |
 | Cooltrainer | Entrenador Cool |
 | Expert | Expert |
