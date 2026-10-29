@@ -44,7 +44,7 @@ per coherència i perquè el text hi càpiga. Vegeu [TOOLING.md](TOOLING.md).
 |--------------|-------------|
 | estadística / estadístiques | estad. |
 | Velocitat | Vel. |
-| Nivell | Niv. (mai "Nv.") |
+| Nivell | Niv. (mai "Nv."); els símbols {LV} i {LV_2} dibuixen "Niv" |
 | Atac Especial | Atac Esp. (mai "At. Esp.") |
 | Defensa | Def. |
 | Augmenta la X | Puja la X |

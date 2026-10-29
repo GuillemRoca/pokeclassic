@@ -1084,18 +1084,31 @@ static void UpdateLvlInHealthbox(u8 healthboxSpriteId, u8 lvl)
      || gBattleStruct->mega.primalRevertedPartyIds[GetBattlerSide(battler)] & gBitTable[gBattlerPartyIndexes[battler]])
     {
         objVram = ConvertIntToDecimalStringN(text, lvl, STR_CONV_MODE_LEFT_ALIGN, 3);
-        xPos = 5 * (3 - (objVram - (text + 2))) - 1;
+        xPos = 5 * (3 - (objVram - (text + 2)));
     }
     else
     {
         text[0] = CHAR_EXTRA_SYMBOL;
         text[1] = CHAR_LV_2;
 
-        objVram = ConvertIntToDecimalStringN(text + 2, lvl, STR_CONV_MODE_LEFT_ALIGN, 3);
-        xPos = 5 * (3 - (objVram - (text + 2)));
+        // The "Niv" symbol is 11 px and each digit 5 px, right-aligned in the 24 px level area.
+        // Level 100 doesn't fit, so its digits start 1 px earlier (the '1' has a blank first
+        // column) and only the last digit's shadow column is cut off.
+        if (lvl >= 100)
+        {
+            text[2] = EXT_CTRL_CODE_BEGIN;
+            text[3] = EXT_CTRL_CODE_SKIP;
+            text[4] = 10;
+            ConvertIntToDecimalStringN(text + 5, lvl, STR_CONV_MODE_LEFT_ALIGN, 3);
+            xPos = 0;
+        }
+        else
+        {
+            objVram = ConvertIntToDecimalStringN(text + 2, lvl, STR_CONV_MODE_LEFT_ALIGN, 3);
+            xPos = 23 - 11 - 5 * (objVram - (text + 2));
+        }
     }
 
-    xPos = 5 * (3 - (objVram - (text + 2)));
     windowTileData = AddTextPrinterAndCreateWindowOnHealthbox(text, xPos, 3, 2, &windowId);
     spriteTileNum = gSprites[healthboxSpriteId].oam.tileNum * TILE_SIZE_4BPP;
 
