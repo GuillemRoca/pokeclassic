@@ -1,15 +1,26 @@
 # Catalan translation — verification tooling
 
-Two checks that catch the failure modes a translation of this size runs into.
-Both compare only against strings this branch actually changed, so untouched
-English text is never reported. Run them from the repo root.
+Three checks that catch the failure modes a translation of this size runs into.
+The width audits compare only against strings this branch actually changed, so
+untouched English text is never reported. Run them from the repo root.
 
 ```sh
-python3 translation/check_name_limits.py   # build-breaking: names vs array bounds
-python3 translation/audit_box_widths.py    # cosmetic: text vs its on-screen box
+python3 translation/check_name_limits.py     # build-breaking: names vs array bounds
+python3 translation/audit_box_widths.py      # cosmetic: C strings vs their window
+python3 translation/audit_script_widths.py   # cosmetic: script dialogue vs message box
 ```
 
-Both exit non-zero when something is wrong, so they can be wired into CI.
+All three exit non-zero when something is wrong, so they can be wired into CI.
+
+### The English base
+
+"Changed" means different from the untranslated English tree. The scripts look
+for it at `main`, then `origin/main`; set `TRANSLATION_BASE=<ref>` to use
+something else. A fresh clone usually has only `origin/main`
+(`git fetch origin main` if not even that). The scripts stop with an error when
+no base can be read: before this was handled, a clone without a local `main`
+compared every file against an empty string, and both audits reported
+`0` without checking anything.
 
 ## `check_name_limits.py` — fixed-size name tables
 
@@ -45,6 +56,13 @@ template that actually draws that text:
 | ability description | 144 px, single line | `PSS_LABEL_PANE_RIGHT` w=19 at x=8 |
 | battle message | 208 px | `B_WIN_MSG` w=26 |
 | overworld / UI msgbox | 208 px | standard text box w=26 |
+| 4-line move description | 110 px × 4 lines | `PSS_LABEL_PANE_LEFT_MOVE` w=14 at x=2 (summary screen) |
+| 2-line move description | 128 px, `FONT_NARROW` | Move Relearner window 0, w=16 |
+
+`move_descriptions.h` mixes both kinds of description, so they are matched by
+symbol name (`sMoveFourLineDescription_*` vs `s*Description`). Some English
+expansion-move descriptions already overflow these windows; a move description
+only fails when it is over the limit **and** wider than its English source.
 
 Useful invocations:
 
@@ -83,6 +101,27 @@ everywhere. Also recorded in [`glossary_ca.md`](glossary_ca.md).
 | `en un moment crític` | `en perill` |
 | `en fer contacte` | `al contacte` |
 | `Objecte retingut que …` | `Objecte retingut: …` |
+
+## `audit_script_widths.py` — script dialogue
+
+Most of the game's text is in map scripts (`data/maps/*/scripts.inc`) and the
+shared `data/text/*.inc` / `data/scripts/*.inc` files, all drawn in the standard
+overworld message box. `audit_box_widths.py` does not look at them; this does.
+
+- Box: `sStandardTextBox_WindowTemplates` is 27 tiles = **216 px**. Lines over
+  216 px are overflows and fail the check. 209–216 px is reported as *tight*
+  (renders, but leaves no margin); 208 px is the target, same as battle text.
+- Every `$`-terminated message is split on `\n`, `\l` and `\p`; each rendered
+  line is measured.
+- Placeholders are measured with representative text: `{PLAYER}`/`{RIVAL}` as a
+  7-letter name, `{STR_VAR_n}` as a 9-letter species name.
+- The Battle Dome tourney-info strings (`BattleDome_Text_Potential*`,
+  `…Style*`, `…TrainerWon*`) are drawn in their own window and are skipped.
+
+```sh
+python3 translation/audit_script_widths.py -v                     # every line over 208 px
+python3 translation/audit_script_widths.py -v data/maps/Route1    # one map, or any path
+```
 
 ### Known limitation of the audit
 

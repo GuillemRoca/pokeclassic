@@ -7,6 +7,12 @@ Terminologia acordada per a la localització al català del joc PokeClassic (rec
 ## Regles generals
 
 - Registre informal ("tu", no "vostè").
+- Accents diacrítics segons la norma de l'IEC de 2016: **soc**, **dona** (verb),
+  **venen**, **vens**, **os**… (no "sóc", "dóna", "vénen"). Es mantenen els 15
+  diacrítics vigents: bé, déu, és, mà, més, món, pèl, què, sé, sí, sòl, són, té, ús, vós.
+- **Entrenador** amb majúscula quan és el rol del joc (com l'anglès *Trainer*);
+  en minúscula només en sentit genèric.
+- **la Pokédex** (femení): "la teva Pokédex", "completar la Pokédex".
 - Gènere per defecte dels Pokémon: masculí, excepte espècies exclusivament femenines (Chansey, Blissey, Nidoqueen, Nidorina, etc.).
 - Ela geminada: usar `·` (ja disponible al charmap com a byte AF): col·legi, intel·ligent, etc.
 - Majúscules accentuades: usar-les (À, È, É, Í, Ï, Ò, Ó, Ú, Ü, Ç).
@@ -15,6 +21,8 @@ Terminologia acordada per a la localització al català del joc PokeClassic (rec
   l'amplada real en píxels amb `python3 translation/audit_box_widths.py` (vegeu
   [TOOLING.md](TOOLING.md)). Límits: 109 px les descripcions de motxilla,
   144 px les d'habilitat, 208 px els missatges de combat i les caixes de text.
+  La caixa de diàleg dels scripts fa 216 px (objectiu 208 px); comprova-la amb
+  `python3 translation/audit_script_widths.py -v`.
 - Les descripcions d'habilitat **no es poden partir en dues línies**: el plafó és
   una sola línia de 144 px (uns 26 caràcters). Cal escriure-les curtes, com fa
   l'anglès original.
@@ -127,7 +135,22 @@ per coherència i perquè el text hi càpiga. Vegeu [TOOLING.md](TOOLING.md).
 | Power Plant | Central Elèctrica |
 | SS Anne | SS Anna |
 | Victory Road | Camí de la Victòria |
+| Seafoam Islands | Illes Escuma |
+| Cerulean Cave | Cova Cerúlia |
+| Diglett's Cave | Cova de Diglett |
+| Underground Path | Camí Subterrani |
+| Pokémon Mansion | Mansió Pokémon |
+| Rocket Hideout | Amagatall Rocket |
+| Mt. Battle | Mont Combat |
 
+Els noms de lloc dels diàlegs i dels cartells han de coincidir **exactament** amb
+els del mapa (`src/data/region_map/region_map_entries.h`): "Ciutat Cerúlia", mai
+"Ciutat Cerulean" ni "Cerulean City". Aplica l'apòstrof: "de l'Equip Rocket",
+"d'Escuma". Els llocs de Hoenn que encara apareixen conserven el nom anglès amb
+"Ciutat"/"Poble"/"Mont" al davant, com al mapa: Ciutat Mauville, Mont Pyre.
+
+**Plantes d'edifici:** 1F → **P1**, 11F → **P11**, B1F → **S1** (soterrani). L'ascensor
+i els directoris dels grans magatzems han de coincidir.
 ### Organitzacions
 
 | Anglès | Català |
@@ -254,8 +277,8 @@ per coherència i perquè el text hi càpiga. Vegeu [TOOLING.md](TOOLING.md).
 |--------|--------|
 | Paralysis / Paralyzed | Paràlisi / Paralitzat |
 | Sleep / Asleep | Son / Adormit |
-| Poison / Poisoned | Verí / Enverienat |
-| Badly poisoned | Molt enverienat |
+| Poison / Poisoned | Verí / Enverinat |
+| Badly poisoned | Molt enverinat |
 | Burn / Burned | Cremada / Cremat |
 | Freeze / Frozen | Gel / Gelat |
 | Confusion / Confused | Confusió / Confós |
@@ -359,6 +382,26 @@ Els noms de Pokémon mantenen les seves formes originals en anglès/japonès. No
 _(La llista completa de decisions per espècie es completarà durant la Fase 2, espècie per espècie.)_
 
 ---
+
+## Decisions de terminologia
+
+| Anglès | Català | Nota |
+|--------|--------|------|
+| OT (Original Trainer) | EO | Pantalla de resum; `EO/` als menús. |
+| ID No. | Núm. ID | |
+| Pokédex No. / No. | Núm. Pokédex / Núm. | "núm." és l'abreviatura de l'IEC (no "n.º"). |
+| HP / PP (etiquetes) | PS / PU | Iguals a combat. |
+| BP (Battle Points) | BP | Es manté: "PC" es confondria amb l'ordinador. En text complet: "Punts de Combat". |
+| critical-hit ratio | taxa de cop crític | Femení ("alta taxa"), no "ratio". |
+| hatch / hatched | descloure's / nascut | "L'ou es desclou", "Aviat es desclourà"; no "eclosionar". |
+| quiz | pregunta | No "quiz". |
+| Pokéblock Case | Estoig {POKEBLOCK} | Un sol nom: no "Capseta", no "PokéBloc". |
+| Mega Stones | -ita | Venusaurita, Charizardita X, Alakazamita, Mewtwoita X… |
+| PokéNav | PokéGear / DexNav | El joc té PokéGear (menú) i DexNav; no existeix el PokéNav. |
+| Wireless (Adapter) | Sense Fils | "Adaptador Sense Fils", plural. |
+| slots (slot machines) | escurabutxaques | |
+| Elite (adjectiu) | d'elit | "Elite Four" continua sent Alt Comandament. |
+| Speaker tags | Oak:, Bill:, Mare: | Capitalització normal, no "OAK:". |
 
 ## Notes d'estil
 
