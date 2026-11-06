@@ -48,7 +48,7 @@ PokemonTower_5F_EventScript_Tammy::
 	end
 
 PokemonTower_5F_Text_TammyIntro::
-    .string "Dóna…me…\n"
+    .string "Dona…me…\n"
     .string "el…teu…tot…$"
 
 PokemonTower_5F_Text_TammyDefeat::

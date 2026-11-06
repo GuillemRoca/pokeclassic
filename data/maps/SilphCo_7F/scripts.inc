@@ -330,7 +330,7 @@ SilphCo_7F_Text_JoshuaPostBattle::
     .string "entrenador hàbil!$"
 
 SilphCo_7F_Text_Grunt1Intro::
-    .string "Sóc un dels quatre Germans\n"
+    .string "Soc un dels quatre Germans\n"
     .string "Rocket!$"
 
 SilphCo_7F_Text_Grunt1Defeat::
@@ -378,7 +378,7 @@ SilphCo_7F_Text_RivalPostBattle::
     .string "Consultant la meva Pokédex,\n"
     .string "començo a veure què és fort i\l"
     .string "com evolucionen!\p"
-    .string "Sóc un geni o què?\p"
+    .string "Soc un geni o què?\p"
     .string "Vaig a la Lliga Pokémon a fer\n"
     .string "fora l'Alt Comandament.\p"
     .string "Seré l'Entrenador més poderós\n"

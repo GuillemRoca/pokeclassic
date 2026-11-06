@@ -1,7 +1,7 @@
 const u8 gEasyChatWord_Meets[] = _("Troba");
 const u8 gEasyChatWord_Concede[] = _("Cedeix");
 const u8 gEasyChatWord_Give[] = _("Donar");
-const u8 gEasyChatWord_Gives[] = _("Dóna");
+const u8 gEasyChatWord_Gives[] = _("Dona");
 const u8 gEasyChatWord_Played[] = _("Va Jugar");
 const u8 gEasyChatWord_Plays[] = _("Juga");
 const u8 gEasyChatWord_Collect[] = _("Recollir");

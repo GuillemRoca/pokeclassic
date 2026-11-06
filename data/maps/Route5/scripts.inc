@@ -67,7 +67,7 @@ Route5_EventScript_DaycareWoman::
 	end
 
 Route5_Text_GoInsideIfYoudLikeMeToRaiseMon:
-	.string "Sóc voluntària a la Guarderia.\p"
+	.string "Soc voluntària a la Guarderia.\p"
 
 	.string "Entrenadors de tot Kanto ens\n"
 

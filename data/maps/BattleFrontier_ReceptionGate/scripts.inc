@@ -299,7 +299,7 @@ BattleFrontier_ReceptionGate_EventScript_ExitFrontierPassGuide::
 	end
 
 BattleFrontier_ReceptionGate_Text_FirstTimeHereThisWay:
-	.string "És la primera vegada que véns?\n"
+	.string "És la primera vegada que vens?\n"
 	.string "Si us plau, vine per aquí!$"
 
 BattleFrontier_ReceptionGate_Text_WelcomeToBattleFrontier:
@@ -347,7 +347,7 @@ BattleFrontier_ReceptionGate_Text_ScottGreatToSeeYouHere:
 	.string "temps.$"
 
 BattleFrontier_ReceptionGate_Text_YourGuideToFacilities:
-	.string "Sóc la teva guia de les diverses\n"
+	.string "Soc la teva guia de les diverses\n"
 	.string "instal·lacions de la Frontera.$"
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhich2:
@@ -419,7 +419,7 @@ BattleFrontier_ReceptionGate_Text_ExchangeCornerInfo:
 	.string "per premis fabulosos allà.$"
 
 BattleFrontier_ReceptionGate_Text_YourGuideToRules:
-	.string "Sóc la teva guia de les regles\n"
+	.string "Soc la teva guia de les regles\n"
 	.string "bàsiques comunes a tots els\l"
 	.string "desafiaments de les instal·lacions\l"
 	.string "de la Frontera de Combat.$"
@@ -472,7 +472,7 @@ BattleFrontier_ReceptionGate_Text_HoldItemsInfo:
 	.string "portin objectes diferents.$"
 
 BattleFrontier_ReceptionGate_Text_YourGuideToFrontierPass:
-	.string "Sóc la teva guia del Passi de Frontera.$"
+	.string "Soc la teva guia del Passi de Frontera.$"
 
 BattleFrontier_ReceptionGate_Text_LearnAboutWhich1:
 	.string "De què vols saber-ne més?$"

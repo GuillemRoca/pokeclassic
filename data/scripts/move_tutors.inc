@@ -177,7 +177,7 @@ MoveTutor_Text_MimicTaught::
     .string "{PLAYER}: Perdona?\p"
     .string "{PLAYER}: És tan divertit imitar\n"
     .string "cada moviment meu?\p"
-    .string "IMITADORA: I tant!\n"
+    .string "Imitadora: I tant!\n"
     .string "És genial!$"
 
 MoveTutor_Substitute::

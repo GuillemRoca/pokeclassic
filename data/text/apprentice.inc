@@ -1407,7 +1407,7 @@ gText_ApprenticeMonFirstThanks8::
 gText_ApprenticeWhichMonFirst9::
 	.string "Hola, hola!\n"
 	.string "El meu mentor, {PLAYER}{KUN}!\l"
-	.string "Dóna'm el teu savi consell avui!\p"
+	.string "Dona'm el teu savi consell avui!\p"
 	.string "Mira, he reunit un equip de\n"
 	.string "tres Pokémon. Fins aquí bé.\p"
 	.string "Però l'ordre de combat de l'equip\n"
@@ -1641,7 +1641,7 @@ gText_ApprenticeWhichMon5::
 	.string "hauria d'usar.\p"
 	.string "Saps que {STR_VAR_1} semblen forts?\n"
 	.string "Però {STR_VAR_2} també impressionen.\p"
-	.string "{PLAYER}{KUN}, dóna'm un bon consell!\n"
+	.string "{PLAYER}{KUN}, dona'm un bon consell!\n"
 	.string "Quin seria bo per a mi?$"
 
 gText_ApprenticeMonThanks5::
@@ -1945,7 +1945,7 @@ gText_ApprenticeWhichMove5::
 	.string "ha d'aprendre el meu {STR_VAR_1}!\p"
 	.string "{STR_VAR_2} sembla bo, oi?\n"
 	.string "Però {STR_VAR_3} també és decent.\p"
-	.string "{PLAYER}{KUN}, dóna'm un bon consell!\n"
+	.string "{PLAYER}{KUN}, dona'm un bon consell!\n"
 	.string "Quin moviment seria bo per a mi?$"
 
 gText_ApprenticeMoveThanks5::

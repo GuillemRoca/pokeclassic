@@ -22,7 +22,7 @@ CeladonCity_DepartmentStore_5F_EventScript_Sailor::
 	end
 
 CeladonCity_DepartmentStore_5F_Text_HereForStatEnhancers::
-    .string "Sóc aquí pels potenciadors\n"
+    .string "Soc aquí pels potenciadors\n"
     .string "d'estadístiques Pokémon.\p"
     .string "Protein augmenta el poder\n"
     .string "d'Atac base.\p"

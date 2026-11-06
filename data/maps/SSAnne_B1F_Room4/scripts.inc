@@ -32,4 +32,4 @@ SSAnne_B1F_Room4_Text_DuncanDefeat::
 
 SSAnne_B1F_Room4_Text_DuncanPostBattle::
     .string "Has vist el Guru de la Pesca a\n"
-    .string "Ciutat Vermilion?$"
+    .string "Ciutat Vermella?$"

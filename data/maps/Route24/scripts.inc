@@ -440,7 +440,7 @@ Route24_Text_YouFool:
 	.string "James: Imbècil!\p"
 	.string "Jessie: Aquest és el marrec\n"
 	.string "que va arruïnar els nostres\l"
-	.string "plans al Mt. Moon!\p"
+	.string "plans al Mont Lluna!\p"
 	.string "James: Segurament ha portat\n"
 	.string "la Policia Internacional\l"
 	.string "fins a nosaltres!$"
@@ -457,7 +457,7 @@ Route24_EventScript_BattleJessieJames::
 
 Route24_Text_RocketDuoIntro:
 	.string "Jessie: Per vèncer-nos al\n"
-	.string "Mt. Moon...\p"
+	.string "Mont Lluna...\p"
 	.string "James: Et farem quedar\n"
 	.string "com un bufó!\p"
 	.string "Jessie: Prepara't per als\n"
@@ -668,7 +668,7 @@ Route24_EventScript_AliPostBattle::
 	end
 
 Route24_Text_AliIntro::
-    .string "Sóc la segona!\n"
+    .string "Soc la segona!\n"
     .string "Ara la cosa es posa seriosa!$"
 
 Route24_Text_AliDefeat::
@@ -715,7 +715,7 @@ Route24_EventScript_ReliPostBattle::
 	end
 
 Route24_Text_ReliIntro::
-    .string "Sóc la Nº 4!\n"
+    .string "Soc la Nº 4!\n"
     .string "Estàs cansat?$"
 
 Route24_Text_ReliDefeat::
@@ -738,7 +738,7 @@ Route24_EventScript_EthanPostBattle::
 	end
 
 Route24_Text_EthanIntro::
-    .string "D'acord! Sóc el Nº 5!\n"
+    .string "D'acord! Soc el Nº 5!\n"
     .string "T'aixafaré!$"
 
 Route24_Text_EthanDefeat::

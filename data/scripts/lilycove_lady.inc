@@ -530,7 +530,7 @@ LilycoveCity_PokemonCenter_1F_EventScript_Pikachu::
 	end
 
 LilycoveCity_PokemonCenter_1F_Text_ImTheFavorLady:
-	.string "Sóc la Senyora dels Favors…$"
+	.string "Soc la Senyora dels Favors…$"
 
 
 LilycoveCity_PokemonCenter_1F_Text_ObsessedWithThing:
@@ -656,7 +656,7 @@ LilycoveCity_PokemonCenter_1F_Text_YouDontHaveSpaceForIt:
 
 
 LilycoveCity_PokemonCenter_1F_Text_ImTheQuizLady:
-	.string "Sóc la Senyora dels Qüestionaris!\n"
+	.string "Soc la Senyora dels Qüestionaris!\n"
 
 	.string "M'encanten els qüestionaris!$"
 
@@ -824,7 +824,7 @@ LilycoveCity_PokemonCenter_1F_Text_IllLookForAChallenger:
 
 
 LilycoveCity_PokemonCenter_1F_Text_ImTheContestLady:
-	.string "Sóc la Senyora dels Concursos!\n"
+	.string "Soc la Senyora dels Concursos!\n"
 
 	.string "M'encanten els Concursos!$"
 

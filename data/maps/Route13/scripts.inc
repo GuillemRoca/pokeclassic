@@ -159,7 +159,7 @@ Route13_EventScript_Susie::
 	end
 
 Route13_Text_SusieIntro::
-    .string "Em diuen que sóc bona per ser\n"
+    .string "Em diuen que soc bona per ser\n"
     .string "una nena.$"
 
 Route13_Text_SusieDefeat::

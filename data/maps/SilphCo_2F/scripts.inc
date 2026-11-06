@@ -22,7 +22,7 @@ SilphCo_2F_EventScript_Connor::
 
 SilphCo_2F_Text_ConnorIntro::
     .string "Ajuda!\n"
-    .string "Sóc un empleat de Silph.$"
+    .string "Soc un empleat de Silph.$"
 
 SilphCo_2F_Text_ConnorDefeat::
     .string "Com has sabut que era\n"

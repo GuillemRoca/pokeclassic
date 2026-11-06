@@ -41,7 +41,7 @@ SaffronCity_Dojo_OffenseMaster::
 	end
 
 SaffronCity_Dojo_Text_IAmTheOffenseMaster::
-	.string "Sóc el Mestre de l'Ofensiva.\p"
+	.string "Soc el Mestre de l'Ofensiva.\p"
 	.string "Els meus alumnes han dominat\n"
 	.string "l'art de l'ofensiva, i els seus\l"
 	.string "Pokémon ho reflecteixen.$"
@@ -136,7 +136,7 @@ SaffronCity_Dojo_DefenseMaster::
 	end
 
 SaffronCity_Dojo_Text_IAmTheDefenseMaster::
-	.string "Sóc el Mestre de la Defensa.\p"
+	.string "Soc el Mestre de la Defensa.\p"
 	.string "Els meus alumnes han dominat\n"
 	.string "l'art de la defensa, i els seus\l"
 	.string "Pokémon ho reflecteixen.$"

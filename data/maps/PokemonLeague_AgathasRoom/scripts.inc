@@ -85,7 +85,7 @@ PokemonLeague_AgathasRoom_EventScript_PostBattle2::
 	end
 
 PokemonLeague_AgathasRoom_Text_Intro::
-    .string "Sóc l'Agatha de l'Alt Comandament.\p"
+    .string "Soc l'Agatha de l'Alt Comandament.\p"
     .string "He sentit que l'Oak s'ha interessat\n"
     .string "molt per tu, nen.\p"
     .string "Aquell vell tòtil va ser dur i\n"
@@ -103,7 +103,7 @@ PokemonLeague_AgathasRoom_Text_Intro2::
     .string "Així que has vingut!\p"
     .string "No és propi de mi perdre\n"
     .string "una vegada rere l'altra.\p"
-    .string "Dóna-ho tot en aquest combat!$"
+    .string "Dona-ho tot en aquest combat!$"
 
 PokemonLeague_AgathasRoom_Text_Defeat::
     .string "Oh, vaja!\n"

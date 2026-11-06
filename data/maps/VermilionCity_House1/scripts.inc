@@ -12,7 +12,7 @@ VermilionCity_House1_EventScript_FishingGuru::
 	end
 
 VermilionCity_House1_Text_ImFishingGuruDoYouLikeToFish::
-    .string "Sóc el Gurú de la Pesca!\p"
+    .string "Soc el Gurú de la Pesca!\p"
     .string "M'encanta pescar!\n"
     .string "No puc viure sense fer-ho.\p"
     .string "Digues, a tu t'agrada pescar?$"

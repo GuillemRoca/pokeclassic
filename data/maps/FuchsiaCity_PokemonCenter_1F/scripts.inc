@@ -31,7 +31,7 @@ FuchsiaCity_PokemonCenter_1F_EventScript_CooltrainerF::
 
 FuchsiaCity_PokemonCenter_1F_Text_PokemonLeagueWestOfViridian::
     .string "Hi ha un camí estret a l'oest\n"
-    .string "de Ciutat Viridian.\p"
+    .string "de Ciutat Viridiana.\p"
     .string "Porta a la Seu de la Lliga Pokémon.\n"
     .string "La Seu governa tots els Entrenadors.$"
 

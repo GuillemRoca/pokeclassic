@@ -12,7 +12,7 @@ Route12_FishingHouse_EventScript_FishingGuruBrother::
 	end
 
 Route12_FishingHouse_Text_DoYouLikeToFish::
-    .string "Sóc el germà petit del Guru\n"
+    .string "Soc el germà petit del Guru\n"
     .string "de la Pesca.\p"
     .string "M'encanta pescar!\n"
     .string "No puc viure sense!\p"

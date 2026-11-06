@@ -49,9 +49,9 @@ SaffronCity_PokemonCenter_2F_BlackBelt2::
 SaffronCity_PokemonCenter_2F_Text_Unworthy::
 	.string "Estic avergonyit.\p"
 	.string "Quan l'Equip Rocket va atacar\n"
-	.string "Ciutat Saffron, no vaig poder\l"
+	.string "Ciutat Safrà, no vaig poder\l"
 	.string "aturar-los.\p"
-	.string "No sóc digne d'això.$"
+	.string "No soc digne d'això.$"
 
 SaffronCity_PokemonCenter_2F_Text_Unworthy2::
 	.string "He de tornar al Dojo.\n"

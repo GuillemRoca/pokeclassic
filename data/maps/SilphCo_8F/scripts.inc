@@ -72,7 +72,7 @@ SilphCo_8F_Text_ParkerPostBattle::
     .string "de l'Edifici Silph?$"
 
 SilphCo_8F_Text_Grunt2Intro::
-    .string "Sóc un dels quatre Germans\n"
+    .string "Soc un dels quatre Germans\n"
     .string "Rocket!$"
 
 SilphCo_8F_Text_Grunt2Defeat::

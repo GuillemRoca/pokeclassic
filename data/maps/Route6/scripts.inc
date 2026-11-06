@@ -30,7 +30,7 @@ Route6_Text_KeigoDefeat::
 
 Route6_Text_KeigoPostBattle::
     .string "M'agraden els insectes, així que\n"
-    .string "tornaré al Bosc Viridian.$"
+    .string "tornaré al Bosc Viridià.$"
 
 Route6_EventScript_RegisterKeigoAfterBattle::
 	special PlayerFaceTrainerAfterBattle
@@ -105,7 +105,7 @@ Route6_Text_ElijahDefeat::
 
 Route6_Text_ElijahPostBattle::
     .string "Els meus Pokémon són febles?\n"
-    .string "O sóc jo que sóc dolent?\l"
+    .string "O soc jo que soc dolent?\l"
     .string "Tu què creus?$"
 
 Route6_EventScript_Isabelle::

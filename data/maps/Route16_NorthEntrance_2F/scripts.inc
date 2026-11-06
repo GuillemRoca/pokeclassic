@@ -25,7 +25,7 @@ Route16_NorthEntrance_2F_Text_ItsCeladonDeptStore::
     .string "A veure què mostren els\n"
     .string "prismàtics…\p"
     .string "Són els Grans Magatzems\n"
-    .string "de Celadon!$"
+    .string "de Celadó!$"
 
 Route16_NorthEntrance_2F_EventScript_RightBinoculars::
 	msgbox Route16_NorthEntrance_2F_Text_LongPathOverWater, MSGBOX_SIGN

@@ -1,7 +1,7 @@
 FallarborTown_BattleTentLobby_Text_WelcomeToBattleTent:
 	.string "Us dono la benvinguda a la\n"
 	.string "Carpa de Batalla de Fallabor!\p"
-	.string "Sóc el vostre guia del Torneig KO!$"
+	.string "Soc el vostre guia del Torneig KO!$"
 
 FallarborTown_BattleTentLobby_Text_TakeChallenge:
 	.string "Ara, voleu acceptar el repte\n"
@@ -220,7 +220,7 @@ VerdanturfTown_BattleTentLobby_Text_PresentYouWithPrize:
 SlateportCity_BattleTentLobby_Text_WelcomeToBattleTent:
 	.string "Benvinguts a la Carpa de Batalla\n"
 	.string "de Slateport!\p"
-	.string "Sóc el vostre guia del Torneig\n"
+	.string "Soc el vostre guia del Torneig\n"
 	.string "d'Intercanvi de Batalla.$"
 
 SlateportCity_BattleTentLobby_Text_TakeChallenge:

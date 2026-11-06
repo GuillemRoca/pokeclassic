@@ -1074,7 +1074,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_TuckerSilverIntro:
 	.string "Aposto que tremoles de la tensió\n"
 	.string "de poder lluitar contra mi!\p"
 	.string "Però no et preocupis per res!\p"
-	.string "Sóc l'estrella núm. 1 del Domo!\n"
+	.string "Soc l'estrella núm. 1 del Domo!\n"
 	.string "Jo, Tucker l'As del Domo, et banyaré\l"
 	.string "amb la meva brillantor!$"
 
@@ -1122,7 +1122,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_TuckerGoldIntro:
 	.string "El rugit del públic…\l"
 	.string "La seva calor d'emoció…\l"
 	.string "Aquest és un lloc meravellós…\p"
-	.string "Pel públic, sóc l'As del Domo…\n"
+	.string "Pel públic, soc l'As del Domo…\n"
 	.string "Represento les seves esperances…\l"
 	.string "No puc desaparèixer mai de la seva vista…\p"
 	.string "He de cremar!\n"

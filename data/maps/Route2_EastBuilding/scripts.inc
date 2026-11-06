@@ -25,7 +25,7 @@ Route2_EastBuilding_Text_GiveHM05::
     .string "Hola! Gràcies per venir, {PLAYER}.\p"
     .string "Hem estat seguint el teu progrés\n"
     .string "des del laboratori! Vas molt bé!\p"
-    .string "Sóc aquí per lliurar-te la\n"
+    .string "Soc aquí per lliurar-te la\n"
     .string "recompensa.\p"
     .string "El Professor Oak m'ha confiat\n"
     .string "la MO05 per a tu.$"

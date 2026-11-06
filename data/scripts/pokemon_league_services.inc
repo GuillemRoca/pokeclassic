@@ -211,7 +211,7 @@ PkmnLeague_Services_LastMonWithSurf::
 
 PkmnLeague_Services_Text_ICanMakeMonForgetMove:
 	.string "Eh… Oh, sí!\n"
-	.string "Sóc alumne de l'Oblidador.\p"
+	.string "Soc alumne de l'Oblidador.\p"
 	.string "Puc fer que els Pokémon oblidin\n"
 	.string "els seus moviments.\p"
 	.string "Vols que ho faci?$"
@@ -295,7 +295,7 @@ PkmnLeague_Services_EventScript_CantTeachEgg::
 	end
 
 PkmnLeague_Services_Text_ImTheMoveTutor:
-	.string "Sóc un Tutor de Moviments.\p"
+	.string "Soc un Tutor de Moviments.\p"
 	.string "Conec tots els moviments que els\n"
 	.string "Pokémon aprenen, tots ells, i puc\l"
 	.string "ensenyar-los-hi.\p"

@@ -45,7 +45,7 @@ Movement_PlayerApproachCounter:
 
 ViridianCity_Mart_Text_YouCameFromPallet::
     .string "Ei!\n"
-    .string "Véns de Poble Palette?$"
+    .string "Vens de Poble Palette?$"
 
 ViridianCity_Mart_Text_TakeThisToProfOak::
     .string "Coneixes el Professor Oak, oi?\p"

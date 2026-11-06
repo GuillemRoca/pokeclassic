@@ -119,7 +119,7 @@ PalletTown_Text_WhatACutePokemon:
 
 PalletTown_Text_CallMeSometime:
 	.string "El teu PokéGear té una app de mapa,\n"
-	.string "així que no t'hauríes de perdre mai.\p"
+	.string "així que no t'hauries de perdre mai.\p"
 	.string "Ja he registrat el meu número\n"
 	.string "al teu Mòbil, també.\p"
 	.string "No t'oblidis de la teva mare durant\n"
@@ -309,7 +309,7 @@ PalletTown_EventScript_TownSign::
 	end
 
 PalletTown_Text_TownSign::
-    .string "Pallet Town\n"
+    .string "Poble Paleta\n"
     .string "Tons d'aventura t'esperen!$"
 
 PalletTown_EventScript_TrainerTips::

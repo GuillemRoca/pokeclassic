@@ -14,7 +14,7 @@ SaffronCity_CopycatsHouse_2F_EventScript_Doduo::
 SaffronCity_CopycatsHouse_2F_Text_Doduo::
     .string "Doduo: Giiih!\p"
     .string "Bonic mirall, mira'm,\n"
-    .string "mira que bonic que sóc?$"
+    .string "mira que bonic que soc?$"
 
 SaffronCity_CopycatsHouse_2F_EventScript_Doll::
 	lock

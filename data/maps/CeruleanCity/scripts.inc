@@ -43,7 +43,7 @@ CeruleanCity_EventScript_CitySign::
 	end
 
 CeruleanCity_Text_CitySign::
-    .string "Ciutat Cerulean\n"
+    .string "Ciutat Cerúlia\n"
     .string "Una aura blava i misteriosa.$"
 
 CeruleanCity_EventScript_TrainerTips::
@@ -72,7 +72,7 @@ CeruleanCity_EventScript_GymSign::
 	end
 
 CeruleanCity_Text_GymSign::
-    .string "Gimnàs Pokémon de Cerulean\n"
+    .string "Gimnàs Pokémon de Cerúlia\n"
     .string "Líder: Misty\l"
     .string "La Sirena Intrèpida!$"
 
@@ -159,7 +159,7 @@ CeruleanCity_EventScript_CeruleanCaveGuard::
 	end
 
 CeruleanCity_Text_ThisIsCeruleanCave::
-    .string "Això és la Cova Cerulean.\p"
+    .string "Això és la Cova Cerúlia.\p"
     .string "Hi viuen Pokémon molt forts\n"
     .string "allà dins.\p"
     .string "Cal un Entrenador molt especial\n"
@@ -485,7 +485,7 @@ CeruleanCity_Text_GruntIntro::
     .string "No és casa teva!\p"
     .string "…Eh?\n"
     .string "Jo?\p"
-    .string "Sóc un simple vianant!\n"
+    .string "Soc un simple vianant!\n"
     .string "No em creus?$"
 
 CeruleanCity_Text_GruntDefeat::
@@ -737,7 +737,7 @@ CeruleanCity_EventScript_BillCallsPlayer::
 
 CeruleanCity_Text_DexNavCall::
 	.string "???: Ei, ets {PLAYER}?\p"
-	.string "Bill: Sí, sóc en Bill!\p"
+	.string "Bill: Sí, soc en Bill!\p"
 	.string "He hagut d'enviar un correu al\n"
 	.string "Prof. Oak per aconseguir el teu\l"
 	.string "número. Espero que no et molesti!\p"

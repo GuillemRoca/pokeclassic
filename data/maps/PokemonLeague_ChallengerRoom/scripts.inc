@@ -248,7 +248,7 @@ TitleMatch_Liz::
 	end
 
 TitleMatch_Text_LizIntro::
-	.string "Sóc un geni.$"
+	.string "Soc un geni.$"
 
 TitleMatch_Text_LizDefeated::
 	.string "Oh, no!$"

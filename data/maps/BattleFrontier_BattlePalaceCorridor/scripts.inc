@@ -131,7 +131,7 @@ BattleFrontier_BattlePalaceCorridor_Text_PeopleAndMonAreSame:
 BattleFrontier_BattlePalaceCorridor_Text_LetMonDoWhatItLikes:
 	.string "En comptes de forçar un Pokémon\n"
 	.string "a fer el que no li agrada, deixa'l fer\l"
-	.string "el que li agrada i se li dóna bé.\p"
+	.string "el que li agrada i se li dona bé.\p"
 	.string "Posa't al lloc del Pokémon\n"
 	.string "i pensa quins moviments li agradarien.$"
 

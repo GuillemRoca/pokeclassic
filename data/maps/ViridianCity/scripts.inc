@@ -120,7 +120,7 @@ ViridianCity_EventScript_CitySign::
 	end
 
 ViridianCity_Text_CitySign::
-    .string "Ciutat Viridian\n"
+    .string "Ciutat Viridiana\n"
     .string "El Paradís Eternament Verd$"
 
 ViridianCity_EventScript_GymSign::
@@ -128,7 +128,7 @@ ViridianCity_EventScript_GymSign::
 	end
 
 ViridianCity_Text_GymSign::
-    .string "Gimnàs Pokémon de Viridian$"
+    .string "Gimnàs Pokémon de Viridiana$"
 
 ViridianCity_EventScript_TrainerTips1::
 	msgbox ViridianCity_Text_CatchMonsForEasierBattles, MSGBOX_SIGN
@@ -168,7 +168,7 @@ ViridianCity_EventScript_GymDoorLocked::
 	end
 
 ViridianCity_Text_GymDoorsAreLocked::
-    .string "Les portes del Gimnàs de Viridian\n"
+    .string "Les portes del Gimnàs de Viridiana\n"
     .string "estan tancades…$"
 
 ViridianCity_Movement_StepAside::
@@ -196,7 +196,7 @@ ViridianCity_EventScript_OldManGymLeaderReturned::
 	end
 
 ViridianCity_Text_ViridiansGymLeaderReturned::
-    .string "El Líder del Gimnàs de Viridian\n"
+    .string "El Líder del Gimnàs de Viridiana\n"
     .string "ha tornat!$"
 
 ViridianCity_EventScript_Boy::
@@ -220,10 +220,10 @@ ViridianCity_EventScript_Woman::
 	end
 
 ViridianCity_Text_GoShoppingInPewterOccasionally::
-    .string "Vaig a comprar a Ciutat Pewter\n"
+    .string "Vaig a comprar a Ciutat Pedrera\n"
     .string "de tant en tant.\p"
     .string "Haig d'agafar el camí sinuós del\n"
-    .string "Bosc Viridian quan hi vaig.$"
+    .string "Bosc Viridià quan hi vaig.$"
 
 ViridianCity_EventScript_OldMan2::
 	lock

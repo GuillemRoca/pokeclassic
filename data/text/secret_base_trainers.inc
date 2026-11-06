@@ -90,7 +90,7 @@ SecretBase_Text_Trainer6Intro:
     .string "Benvingut al meu Lab Pokémon.\p"
     .string "Porto a terme recerca sobre la\n"
     .string "batalla en secret.\p"
-    .string "Vols veure com de fort sóc?$"
+    .string "Vols veure com de fort soc?$"
 
 SecretBase_Text_Trainer6AcceptBattle:
     .string "Hi posaré totes les meves forces!$"

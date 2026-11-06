@@ -42,7 +42,7 @@ SilphCo_1F_EventScript_PostgameGrunt2::
 SilphCo_1F_Text_PostgameGrunt2Intro::
     .string "A diferència d'alguns, nosaltres\n"
     .string "no vam fugir quan Giovanni va\l"
-    .string "ser derrotat a Viridian.$"
+    .string "ser derrotat a Viridiana.$"
 
 SilphCo_1F_Text_PostgameGrunt2Defeat::
     .string "Potser hauria de plegar...$"

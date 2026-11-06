@@ -87,7 +87,7 @@ MauvilleCity_PokemonCenter_1F_EventScript_TeachWord::
 
 @ Trader
 MauvilleCity_PokemonCenter_1F_Text_WantToTradeDecor:
-	.string "Hola, sóc el Comerciant.\n"
+	.string "Hola, soc el Comerciant.\n"
 
 	.string "Vols intercanviar decoracions?$"
 
@@ -264,7 +264,7 @@ MauvilleCity_PokemonCenter_1F_EventScript_NoRoomForDecor::
 
 @ Storyteller
 MauvilleCity_PokemonCenter_1F_Text_WillYouHearMyTale:
-	.string "Sóc el Contacontes.\n"
+	.string "Soc el Contacontes.\n"
 
 	.string "T'explicaré històries\l"
 
@@ -1214,7 +1214,7 @@ MauvilleCity_PokemonCenter_1F_EventScript_StorytellerEnd::
 
 @ Giddy
 MauvilleCity_PokemonCenter_1F_Text_HearMyStory:
-	.string "Sóc en Xalat!\n"
+	.string "Soc en Xalat!\n"
 
 	.string "Tinc una història fascinant!\p"
 
@@ -1286,7 +1286,7 @@ MauvilleCity_PokemonCenter_1F_EventScript_ToldEnoughTales::
 	end
 
 MauvilleCity_PokemonCenter_1F_Text_WouldYouLikeToHearMySong:
-	.string "Hola, sóc el Bard.\n"
+	.string "Hola, soc el Bard.\n"
 
 	.string "Vols escoltar la meva cançó?$"
 

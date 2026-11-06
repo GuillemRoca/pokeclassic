@@ -77,7 +77,7 @@ SilphCo_9F_Text_EdPostBattle::
     .string "Pensa en avantatges de tipus.$"
 
 SilphCo_9F_Text_Grunt2Intro::
-    .string "Sóc un dels quatre Germans\n"
+    .string "Soc un dels quatre Germans\n"
     .string "Rocket!$"
 
 SilphCo_9F_Text_Grunt2Defeat::

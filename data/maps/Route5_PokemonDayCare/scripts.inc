@@ -367,7 +367,7 @@ Route5_PokemonDayCare_EventScript_TwoMonsInDaycare::
 	end
 
 Route5_PokemonDayCare_Text_WouldYouLikeUsToRaiseAMon:
-	.string "Sóc l'amo de la Guarderia.\p"
+	.string "Soc l'amo de la Guarderia.\p"
 	.string "Podem cuidar Pokémon per tu.\p"
 	.string "Vols que en cuidem algun?$"
 

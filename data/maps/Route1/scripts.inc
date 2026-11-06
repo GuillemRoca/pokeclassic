@@ -81,7 +81,7 @@ Movement_OakApproaches2:
 	step_end
 
 Route1_Text_OakGrassUnsafe::
-    .string "OAK: És perillós!\n"
+    .string "Oak: És perillós!\n"
     .string "Hi ha Pokémon salvatges a l'herba!$"
 
 Movement_PikachuApproaches1:

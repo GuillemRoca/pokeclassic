@@ -20,7 +20,7 @@ Route12_EventScript_RouteSign::
 
 Route12_Text_RouteSign::
     .string "Ruta 12 \n"
-    .string "Nord cap a Lavender$"
+    .string "Nord cap a Lavanda$"
 
 Route12_EventScript_FishingSign::
 	msgbox Route12_Text_SportfishingArea, MSGBOX_SIGN

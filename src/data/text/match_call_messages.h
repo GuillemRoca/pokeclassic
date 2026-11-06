@@ -60,10 +60,10 @@ const u8 gText_MatchCallSuperNerd_Aidan_Intro2[] = _("com estudiar...");
 
 const u8 gText_MatchCallBiker_Hideo_Strategy[] = _("T'he fet esperar, oi?");
 const u8 gText_MatchCallBiker_Hideo_Pokemon[] = _("M'encanten els Pokémon serp.");
-const u8 gText_MatchCallBiker_Hideo_Intro1[] = _("No sóc un heroi, només un vell");
+const u8 gText_MatchCallBiker_Hideo_Intro1[] = _("No soc un heroi, només un vell");
 const u8 gText_MatchCallBiker_Hideo_Intro2[] = _("entrenador Pokémon...");
 
-const u8 gText_MatchCallCueBall_Koji_Strategy[] = _("Dóna'm la bici!");
+const u8 gText_MatchCallCueBall_Koji_Strategy[] = _("Dona'm la bici!");
 const u8 gText_MatchCallCueBall_Koji_Pokemon[] = _("M'encanten els Pokémon ràpids.");
 const u8 gText_MatchCallCueBall_Koji_Intro1[] = _("Comprar-me la bici?");
 const u8 gText_MatchCallCueBall_Koji_Intro2[] = _("Amb aquesta economia?");

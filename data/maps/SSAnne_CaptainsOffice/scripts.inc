@@ -60,7 +60,7 @@ SSAnne_CaptainsOffice_Text_ExplainCut::
     .string "Amb tall, pots tallar arbres\n"
     .string "petits.\p"
     .string "Per què no ho proves amb els\n"
-    .string "arbres de Ciutat Vermilion?$"
+    .string "arbres de Ciutat Vermella?$"
 
 SSAnne_CaptainsOffice_EventScript_NoRoomForCut::
 	msgbox SSAnne_CaptainsOffice_Text_YouHaveNoRoomForThis
@@ -89,7 +89,7 @@ SSAnne_CaptainsOffice_Text_SSAnneWillSetSailSoon::
     .string "suposo que és l'hora.\p"
     .string "L'SS Anna zarparà aviat!\p"
     .string "Adéu, fins al nostre retorn a\n"
-    .string "Ciutat Vermilion!$"
+    .string "Ciutat Vermella!$"
 
 SSAnne_CaptainsOffice_EventScript_TrashCan::
 	msgbox SSAnne_CaptainsOffice_Text_YuckShouldntHaveLooked, MSGBOX_SIGN

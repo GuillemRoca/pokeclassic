@@ -316,13 +316,13 @@ BattleFrontier_OutsideEast_Text_OnceBeatGymLeader:
 	.string "a intentar-ho.$"
 
 BattleFrontier_OutsideEast_Text_FastOnBikeAndBattles:
-	.string "Sóc ràpida amb la Bici, i també\n"
+	.string "Soc ràpida amb la Bici, i també\n"
 	.string "combatent.\p"
 	.string "Guanyo combats en un obrir\n"
 	.string "i tancar d'ulls!$"
 
 BattleFrontier_OutsideEast_Text_BetterThanDaddyAtPokemon:
-	.string "Sóc millor que el meu papa\n"
+	.string "Soc millor que el meu papa\n"
 	.string "als Pokémon.$"
 
 BattleFrontier_OutsideEast_Text_GoRackUpSomeWinsForDaddy:

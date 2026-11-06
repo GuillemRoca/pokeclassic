@@ -356,7 +356,7 @@ BattleFrontier_BattleArenaLobby_Text_WelcomeToBattleArena:
 	.string "On l'esperit combatiu dels\n"
 	.string "Entrenadors es posa a prova!\p"
 	.string "Benvingut a l'Arena de Combat!\p"
-	.string "Sóc la teva guia al Torneig KO Fix!$"
+	.string "Soc la teva guia al Torneig KO Fix!$"
 
 BattleFrontier_BattleArenaLobby_Text_WishToTakeChallenge:
 	.string "Vols acceptar el repte\n"

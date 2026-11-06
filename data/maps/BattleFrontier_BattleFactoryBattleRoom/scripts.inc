@@ -247,7 +247,7 @@ BattleFrontier_BattleFactoryBattleRoom_Text_GetAMoveOn:
 BattleFrontier_BattleFactoryBattleRoom_Text_NolandImFactoryHead:
 	.string "Ei, em dic Noland!\n"
 	.string "Bàsicament estic al càrrec d'aquí,\l"
-	.string "per això sóc el Cap de la Fàbrica!\p"
+	.string "per això soc el Cap de la Fàbrica!\p"
 	.string "He mirat les teves dades d'Intercanvi.\p"
 	.string "Sembla que tens la idea correcta,\n"
 	.string "però encara ets massa quadrat!\p"

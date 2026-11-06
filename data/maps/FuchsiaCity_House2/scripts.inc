@@ -36,7 +36,7 @@ FuchsiaCity_House2_EventScript_NoRoomForGoodRod::
 	end
 
 FuchsiaCity_House2_Text_DoYouLikeToFish::
-    .string "Sóc el germà gran del Guru\n"
+    .string "Soc el germà gran del Guru\n"
     .string "de la Pesca.\p"
     .string "M'encanta pescar!\n"
     .string "No puc viure sense!\p"

@@ -76,7 +76,7 @@ PalletTown_ProfessorOaksLab_Text_TakeStarter::
     .string "Ah, és veritat, et vaig dir que\n"
     .string "vinguessis! Espera't!\p"
     .string "Mira, {PLAYER}.\p"
-    .string "Hi ha una Pokéball a la taula.\p"
+    .string "Hi ha una Poké Ball a la taula.\p"
     .string "Quan era jove, era un Entrenador\n"
     .string "de Pokémon de debò.\p"
     .string "Però ara, de gran, estudio els\n"
@@ -299,7 +299,7 @@ PalletTown_ProfessorOaksLab_Text_PikachuFromEarlier:
 
 PalletTown_ProfessorOaksLab_Text_PikachuBrokeFree:
 	.string "Oak: Increïble!\p"
-	.string "Ha sortit de la Pokéball!$"
+	.string "Ha sortit de la Poké Ball!$"
 
 PalletTown_ProfessorOaksLab_Text_PikachuWantsToFollow:
 	.string "Oak: Sembla que li has despertat\n"
@@ -384,7 +384,7 @@ PalletTown_ProfessorOaksLab_EventScript_RivalBattleLost::
 
 PalletTown_ProfessorOaksLab_Text_RivalVictory::
     .string "{RIVAL}: Sí!\n"
-    .string "Sóc el millor o què?$"
+    .string "Soc el millor o què?$"
 
 PalletTown_ProfessorOaksLab_EventScript_RivalBattleWon::
 	addvar VAR_RIVAL_WINRATE, 1
@@ -951,7 +951,7 @@ PalletTown_ProfessorOaksLab_EventScript_CedarAllItems::
 
 PalletTown_ProfessorOaksLab_Text_CedarHiPlayer:
 	.string "Cedar: Hola, {PLAYER}!\n"
-	.string "Véns a veure el Prof.?\p"
+	.string "Vens a veure el Prof.?\p"
 	.string "Oh? Has vingut a veure'm?$"
 
 PalletTown_ProfessorOaksLab_Text_MaybeMoreItems::
@@ -1016,7 +1016,7 @@ PalletTown_ProfessorOaksLab_EventScript_GoTakePokeball::
 
 PalletTown_ProfessorOaksLab_Text_TakeMyPokemon::
     .string "Oak: Ara, {PLAYER}.\p"
-    .string "Dins d'aquella Pokéball hi ha\n"
+    .string "Dins d'aquella Poké Ball hi ha\n"
     .string "un dels meus Pokémon.\p"
     .string "Si us plau, cuida'l bé!$"
 

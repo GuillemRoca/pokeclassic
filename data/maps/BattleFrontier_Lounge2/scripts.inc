@@ -112,7 +112,7 @@ BattleFrontier_Lounge2_EventScript_TriathleteF::
 
 BattleFrontier_Lounge2_Text_FrontierManiacIntro::
 	.string "Hola! Pel que fa a notícies sobre\n"
-	.string "la Frontera de Combat, sóc el nº 1.\p"
+	.string "la Frontera de Combat, soc el nº 1.\p"
 	.string "Pots pensar en mi com\n"
 	.string "el Fanàtic de la Frontera.\p"
 	.string "Només per confirmar, ets Entrenador/a,\n"

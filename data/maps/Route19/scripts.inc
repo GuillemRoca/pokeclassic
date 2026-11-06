@@ -19,7 +19,7 @@ Route19_EventScript_RouteSign::
 
 Route19_Text_RouteSign::
     .string "Ruta Marítima 19\n"
-    .string "Ciutat Fúcsia - Illes Seafoam$"
+    .string "Ciutat Fúcsia - Illes Escuma$"
 
 Route19_EventScript_Richie::
 	trainerbattle_single REMATCHABLE_TRAINER_TUBER_RICHIE_1, Route19_Text_RichieIntro, Route19_Text_RichieDefeat, Route19_EventScript_RegisterRichieAfterBattle
@@ -177,8 +177,8 @@ Route19_Text_AnyaDefeat::
 
 Route19_Text_AnyaPostBattle::
     .string "Encara queda molt per arribar\n"
-    .string "a les Illes Seafoam…\p"
-    .string "Vull tornar a Fuchsia…$"
+    .string "a les Illes Escuma…\p"
+    .string "Vull tornar a Fúcsia…$"
 
 Route19_EventScript_Alice::
 	trainerbattle_single TRAINER_SWIMMER_FEMALE_ALICE, Route19_Text_AliceIntro, Route19_Text_AliceDefeat
@@ -194,7 +194,7 @@ Route19_Text_AliceDefeat::
 
 Route19_Text_AlicePostBattle::
     .string "El meu xicot volia nedar fins\n"
-    .string "a les Illes Seafoam.$"
+    .string "a les Illes Escuma.$"
 
 Route19_EventScript_Connie::
 	trainerbattle_single TRAINER_SWIMMER_FEMALE_CONNIE, Route19_Text_ConnieIntro, Route19_Text_ConnieDefeat

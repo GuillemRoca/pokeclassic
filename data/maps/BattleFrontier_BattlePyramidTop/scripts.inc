@@ -259,8 +259,8 @@ BattleFrontier_BattlePyramidTop_Text_ExplorationsAreGrandestAdventure:
 BattleFrontier_BattlePyramidTop_Text_ImPyramidKingBrandon:
 	.string "Aah, sí, aquesta vida és grandiosa!\n"
 	.string "Grandiosa, sí! Eh?\p"
-	.string "Sóc en Brandon!\p"
-	.string "Sóc el Rei de la Piràmide, cosa\n"
+	.string "Soc en Brandon!\p"
+	.string "Soc el Rei de la Piràmide, cosa\n"
 	.string "que vol dir que mano aquí.\p"
 	.string "La majoria em diuen el cap!\p"
 	.string "Que hagis vingut aquí vol dir que\n"

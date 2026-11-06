@@ -7,7 +7,7 @@ SSAnne_1F_Corridor_EventScript_WorkerM::
 
 SSAnne_1F_Corridor_Text_LeStrongSilentType::
     .string "Bonjour!\n"
-    .string "Sóc le cambrer d'aquest vaixell!\p"
+    .string "Soc le cambrer d'aquest vaixell!\p"
     .string "Estaré encantat de servir-te\n"
     .string "el que vulguis!\p"
     .string "… … …\n"

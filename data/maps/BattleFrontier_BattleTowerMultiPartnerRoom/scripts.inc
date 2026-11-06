@@ -298,7 +298,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_ThankYouForChoosingPartner::
 	.string "Combat Múltiple.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Intro::
-	.string "Sóc l'aprenent núm. {STR_VAR_2}\n"
+	.string "Soc l'aprenent núm. {STR_VAR_2}\n"
 	.string "de {STR_VAR_1}.\n"
 	.string "Pots dir-me {STR_VAR_3}!$"
 
@@ -319,7 +319,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice1Reject::
 	.string "{PLAYER}…$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice2Intro::
-	.string "Sóc l'aprenent núm. {STR_VAR_2}\n"
+	.string "Soc l'aprenent núm. {STR_VAR_2}\n"
 	.string "de {STR_VAR_1}.\n"
 	.string "Em dic {STR_VAR_3}.$"
 
@@ -340,7 +340,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_UnusedApprentice2Reject::
 	.string "equip amb tu…$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice1Intro::
-	.string "Em… em dic {STR_VAR_3}, i sóc\n"
+	.string "Em… em dic {STR_VAR_3}, i soc\n"
 	.string "l'aprenent núm. {STR_VAR_2} de {STR_VAR_1}.\p"
 	.string "Snif…\p"
 	.string "Perdona!\n"
@@ -368,8 +368,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice1Reject::
 	.string "Snif… Buaaaaah!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice2Intro::
-	.string "Ei, hola! Sóc {STR_VAR_3}!\n"
-	.string "Sóc l'aprenent núm. {STR_VAR_2} de {STR_VAR_1}!$"
+	.string "Ei, hola! Soc {STR_VAR_3}!\n"
+	.string "Soc l'aprenent núm. {STR_VAR_2} de {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice2Mon1::
 	.string "{STR_VAR_3} em va recomanar l'equip.\n"
@@ -390,7 +390,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice2Reject::
 	.string "Volia fer equip, {PLAYER}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice3Intro::
-	.string "Sóc {STR_VAR_3}, l'aprenent núm. {STR_VAR_2}\n"
+	.string "Soc {STR_VAR_3}, l'aprenent núm. {STR_VAR_2}\n"
 	.string "del famós {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice3Mon1::
@@ -414,8 +414,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice3Reject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice4Intro::
 	.string "Em… estic molt content que\n"
 	.string "t'hagis aturat a parlar amb mi.\p"
-	.string "Sóc {STR_VAR_3}.\n"
-	.string "Sóc l'aprenent núm. {STR_VAR_2} de {STR_VAR_1}…$"
+	.string "Soc {STR_VAR_3}.\n"
+	.string "Soc l'aprenent núm. {STR_VAR_2} de {STR_VAR_1}…$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice4Mon1::
 	.string "{STR_VAR_3} em va aconsellar.\n"
@@ -441,8 +441,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice4Reject::
 	.string "Ja sabia que no era prou bo…$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice5Intro::
-	.string "Hola, sóc {STR_VAR_3}.\n"
-	.string "Sóc l'aprenent núm. {STR_VAR_2} de {STR_VAR_1}!$"
+	.string "Hola, soc {STR_VAR_3}.\n"
+	.string "Soc l'aprenent núm. {STR_VAR_2} de {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice5Mon1::
 	.string "{STR_VAR_3} em va dir que seria bo\n"
@@ -465,10 +465,10 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice5Reject::
 	.string "No saps jutjar la gent!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Intro::
-	.string "Sóc {STR_VAR_3} i sóc un Triatleta.\n"
+	.string "Soc {STR_VAR_3} i soc un Triatleta.\n"
 	.string "Estic ocupat cada dia entre córrer,\l"
 	.string "entrenar i rappejar.\p"
-	.string "També sóc l'aprenent\n"
+	.string "També soc l'aprenent\n"
 	.string "núm. {STR_VAR_2} de {STR_VAR_1}.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Mon1::
@@ -494,7 +494,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Reject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Intro::
 	.string "Ei!\n"
 	.string "Què tal?\p"
-	.string "Sóc {STR_VAR_3}, l'aprenent\n"
+	.string "Soc {STR_VAR_3}, l'aprenent\n"
 	.string "núm. {STR_VAR_2} de {STR_VAR_1}. Encantat!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Mon1::
@@ -518,7 +518,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice7Reject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Intro::
 	.string "Permet que em presenti.\n"
-	.string "Sóc {STR_VAR_3}.\p"
+	.string "Soc {STR_VAR_3}.\p"
 	.string "Serveixo com a aprenent\n"
 	.string "núm. {STR_VAR_2} de {STR_VAR_1}.$"
 
@@ -544,7 +544,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice8Reject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Intro::
 	.string "Ui! M'has parlat!\n"
 	.string "Jo… estic emocionadíssim!\p"
-	.string "Sóc {STR_VAR_3}! Sóc l'aprenent\n"
+	.string "Soc {STR_VAR_3}! Soc l'aprenent\n"
 	.string "núm. {STR_VAR_2} de {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Mon1::
@@ -567,7 +567,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice9Reject::
 	.string "Però això et fa més guai…$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice10Intro::
-	.string "Iehu! Sóc l'aprenent\n"
+	.string "Iehu! Soc l'aprenent\n"
 	.string "núm. {STR_VAR_2} de {STR_VAR_1}!\p"
 	.string "Em dic {STR_VAR_3}, hola, hola!$"
 
@@ -595,8 +595,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Intro::
 	.string "… … … … … …\n"
 	.string "Només era broma!\p"
 	.string "La gent em diu {STR_VAR_3} i jo també!\n"
-	.string "Sóc el milèsim aprenent de {STR_VAR_1}!\l"
-	.string "En realitat, sóc el núm. {STR_VAR_2}!$"
+	.string "Soc el milèsim aprenent de {STR_VAR_1}!\l"
+	.string "En realitat, soc el núm. {STR_VAR_2}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Mon1::
 	.string "{STR_VAR_3} em va aconsellar.\n"
@@ -623,9 +623,9 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Reject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Intro::
 	.string "Ei, estic a tope de ritme!\n"
 	.string "Pokémon, sota el meu control!\p"
-	.string "Sóc {STR_VAR_3}, el Mariner rapper.\n"
+	.string "Soc {STR_VAR_3}, el Mariner rapper.\n"
 	.string "No em confonguis amb un ploramiques!\p"
-	.string "Sóc l'aprenent núm. {STR_VAR_2} de {STR_VAR_1}.\n"
+	.string "Soc l'aprenent núm. {STR_VAR_2} de {STR_VAR_1}.\n"
 	.string "No em subestimis!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Mon1::
@@ -650,8 +650,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Reject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Intro::
 	.string "Iuhuuu!\n"
 	.string "Oh, no fugis! Només m'ho passava bé!\p"
-	.string "Hola! Sóc {STR_VAR_3}!\n"
-	.string "Sóc l'aprenent núm. {STR_VAR_2} de {STR_VAR_1}!$"
+	.string "Hola! Soc {STR_VAR_3}!\n"
+	.string "Soc l'aprenent núm. {STR_VAR_2} de {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice13Mon1::
 	.string "{STR_VAR_3} em va dir què fer.\n"
@@ -679,7 +679,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Intro::
 	.string "Tos!\p"
 	.string "Oh, perdona, tinc un refredat.\n"
 	.string "Els meus Pokémon estan bé, però.\p"
-	.string "Em dic {STR_VAR_3}, sóc l'aprenent\n"
+	.string "Em dic {STR_VAR_3}, soc l'aprenent\n"
 	.string "núm. {STR_VAR_2} de {STR_VAR_1}. Tos!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Mon1::
@@ -708,8 +708,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice14Reject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Intro::
 	.string "Oh, hola!\n"
 	.string "Estic molt nerviós.\p"
-	.string "Sóc {STR_VAR_3}.\n"
-	.string "Sóc l'aprenent núm. {STR_VAR_2} de {STR_VAR_1}.$"
+	.string "Soc {STR_VAR_3}.\n"
+	.string "Soc l'aprenent núm. {STR_VAR_2} de {STR_VAR_1}.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Mon1::
 	.string "{STR_VAR_3} va dir que anirà bé:\n"
@@ -730,8 +730,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice15Reject::
 	.string "Ja em fa prou vergonya…$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Intro::
-	.string "Sóc {STR_VAR_3}, sense mentir.\n"
-	.string "Sóc l'aprenent núm. {STR_VAR_2} de {STR_VAR_1}.$"
+	.string "Soc {STR_VAR_3}, sense mentir.\n"
+	.string "Soc l'aprenent núm. {STR_VAR_2} de {STR_VAR_1}.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Mon1::
 	.string "{STR_VAR_3} va recomanar el meu equip.\p"
@@ -755,7 +755,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice16Reject::
 	.string "Això és una broma, per tu?$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassIntro::
-	.string "Sóc {STR_VAR_1}, i sóc una Noia!$"
+	.string "Soc {STR_VAR_1}, i soc una Noia!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassMon1::
 	.string "El que tinc és un {STR_VAR_2}\n"
@@ -776,7 +776,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_LassReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterIntro::
 	.string "Hola!\p"
-	.string "Sóc el Jovenet {STR_VAR_1}!$"
+	.string "Soc el Jovenet {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterMon1::
 	.string "Vols saber què tinc?\n"
@@ -797,7 +797,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerIntro::
 	.string "Uepa!\n"
-	.string "Sóc l'Excursionista {STR_VAR_1}!$"
+	.string "Soc l'Excursionista {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerMon1::
 	.string "Saps què porto?\n"
@@ -818,7 +818,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyIntro::
 	.string "Hola!\n"
-	.string "Sóc {STR_VAR_1}, i sóc una Bellesa!$"
+	.string "Soc {STR_VAR_1}, i soc una Bellesa!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyMon1::
 	.string "Saps què he estat criant?\n"
@@ -840,8 +840,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BeautyReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanIntro::
 	.string "Ep!\p"
-	.string "Saps qui sóc?\n"
-	.string "Sóc {STR_VAR_1}, el Pescador!$"
+	.string "Saps qui soc?\n"
+	.string "Soc {STR_VAR_1}, el Pescador!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanMon1::
 	.string "Porto un equip d'un\n"
@@ -862,7 +862,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_FishermanReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyIntro::
 	.string "Encantada de conèixer-te.\n"
-	.string "Sóc {STR_VAR_1}, una Dama.$"
+	.string "Soc {STR_VAR_1}, una Dama.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyMon1::
 	.string "M'acompanyen un equip d'un\n"
@@ -882,7 +882,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_LadyReject::
 	.string "haver-me triat com a parella.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFIntro::
-	.string "Sóc la Triatleta {STR_VAR_1}!$"
+	.string "Soc la Triatleta {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFMon1::
 	.string "El que tinc…\n"
@@ -904,7 +904,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteFReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherIntro::
 	.string "Epa!\n"
-	.string "Sóc el Caçainsectes {STR_VAR_1}!$"
+	.string "Soc el Caçainsectes {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherMon1::
 	.string "Mira què tinc!\n"
@@ -926,7 +926,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugCatcherReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMIntro::
 	.string "Bon dia!\n"
-	.string "Sóc l'Estudiant {STR_VAR_1}!$"
+	.string "Soc l'Estudiant {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMMon1::
 	.string "El que he estat criant és un\n"
@@ -949,7 +949,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidMReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyIntro::
 	.string "Ep! Deixa que em presenti!\n"
-	.string "Sóc el Ric {STR_VAR_1}!$"
+	.string "Soc el Ric {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyMon1::
 	.string "Endevina què tinc!\n"
@@ -971,7 +971,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_RichBoyReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltIntro::
 	.string "Hiiah!\n"
-	.string "Sóc el Cinturó Negre {STR_VAR_1}.$"
+	.string "Soc el Cinturó Negre {STR_VAR_1}.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltMon1::
 	.string "Com a companys, tinc\n"
@@ -993,7 +993,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BlackBeltReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFIntro::
 	.string "Hola!\n"
-	.string "Sóc {STR_VAR_1}, i sóc una Nedadora!$"
+	.string "Soc {STR_VAR_1}, i soc una Nedadora!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFMon1::
 	.string "Et diré què tinc.\n"
@@ -1013,7 +1013,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberFReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacIntro::
 	.string "Salutacions…\n"
-	.string "Sóc la Bruixa {STR_VAR_1}…$"
+	.string "Soc la Bruixa {STR_VAR_1}…$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacMon1::
 	.string "Porto amb mi un {STR_VAR_2} que\n"
@@ -1032,8 +1032,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_HexManiacReject::
 	.string "Desitjava tant unir-me a tu…$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMIntro::
-	.string "Com estàs? Sóc {STR_VAR_1},\n"
-	.string "i sóc un Criador Pokémon!$"
+	.string "Com estàs? Soc {STR_VAR_1},\n"
+	.string "i soc un Criador Pokémon!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMMon1::
 	.string "Estic criant una bona parella!\n"
@@ -1055,7 +1055,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederMReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFIntro::
 	.string "Hola!\n"
-	.string "Sóc la Triatleta {STR_VAR_1}!$"
+	.string "Soc la Triatleta {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFMon1::
 	.string "Vols saber amb què corro?\n"
@@ -1077,7 +1077,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteFReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMIntro::
 	.string "Ei! Em dic {STR_VAR_1}!\n"
-	.string "Sóc un Triatleta!$"
+	.string "Soc un Triatleta!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMMon1::
 	.string "Corro amb el meu equip resistent:\n"
@@ -1097,7 +1097,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_RunningTriathleteMReject::
 	.string "parella teva…$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlIntro::
-	.string "Sóc la Lluitadora {STR_VAR_1}!$"
+	.string "Soc la Lluitadora {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlMon1::
 	.string "He estat endurint un\n"
@@ -1118,7 +1118,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BattleGirlReject::
 	.string "l'equip definitiu…$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMIntro::
-	.string "Sóc el Triatleta {STR_VAR_1}!$"
+	.string "Soc el Triatleta {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMMon1::
 	.string "He estat corrent amb un {STR_VAR_2}\n"
@@ -1140,7 +1140,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CyclingTriathleteMReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMIntro::
 	.string "Jo?\n"
-	.string "Sóc el Nedador {STR_VAR_1}!$"
+	.string "Soc el Nedador {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMMon1::
 	.string "Què porto?\n"
@@ -1162,7 +1162,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_TuberMReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristIntro::
 	.string "Iuhu!\n"
-	.string "Sóc el Guitarrista {STR_VAR_1}!$"
+	.string "Soc el Guitarrista {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristMon1::
 	.string "Mira el meu seguici!\n"
@@ -1183,7 +1183,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_GuitaristReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanIntro::
 	.string "Encantat de conèixer-te.\n"
-	.string "Sóc {STR_VAR_1}, un Cavaller.$"
+	.string "Soc {STR_VAR_1}, un Cavaller.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanMon1::
 	.string "M'acompanyen el meu fidel\n"
@@ -1204,8 +1204,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_GentlemanReject::
 	.string "oportunitat…$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMIntro::
-	.string "Hola, sóc {STR_VAR_1},\n"
-	.string "i sóc un Pokéfan.$"
+	.string "Hola, soc {STR_VAR_1},\n"
+	.string "i soc un Pokéfan.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMMon1::
 	.string "Ara porto un {STR_VAR_2}\n"
@@ -1226,7 +1226,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanMReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMIntro::
 	.string "Hm!\n"
-	.string "Sóc {STR_VAR_1}, i sóc un Expert!$"
+	.string "Soc {STR_VAR_1}, i soc un Expert!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMMon1::
 	.string "Els Pokémon que he endurit són\n"
@@ -1247,7 +1247,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertMReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFIntro::
 	.string "Hola, hola.\n"
-	.string "Sóc {STR_VAR_1}, i sóc una Experta.$"
+	.string "Soc {STR_VAR_1}, i soc una Experta.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFMon1::
 	.string "He criat els meus Pokémon a fons.\n"
@@ -1267,7 +1267,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_ExpertFReject::
 	.string "cop que ens veiem.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerIntro::
-	.string "Sóc el Domadragons {STR_VAR_1}!$"
+	.string "Soc el Domadragons {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerMon1::
 	.string "L'equip que he estat endurint és\n"
@@ -1287,7 +1287,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerReject::
 	.string "més fortes que jo!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperIntro::
-	.string "Sóc l'Ornitòleg {STR_VAR_1}!$"
+	.string "Soc l'Ornitòleg {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperMon1::
 	.string "Quins Pokémon tinc?\n"
@@ -1307,7 +1307,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BirdKeeperReject::
 	.string "Quina decepció.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyIntro::
-	.string "Sóc el Noi Ninja {STR_VAR_1}!$"
+	.string "Soc el Noi Ninja {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyMon1::
 	.string "El meu equip Pokémon és un\n"
@@ -1327,7 +1327,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyIntro::
 	.string "Hola!\n"
-	.string "Sóc la Dama Parasol {STR_VAR_1}!$"
+	.string "Soc la Dama Parasol {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyMon1::
 	.string "M'escorten el meu {STR_VAR_2}\n"
@@ -1350,7 +1350,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacIntro::
 	.string "Hola.\n"
-	.string "Sóc {STR_VAR_1}, un Entomòleg!$"
+	.string "Soc {STR_VAR_1}, un Entomòleg!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacMon1::
 	.string "He trobat els meus Pokémon, sí.\n"
@@ -1373,7 +1373,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_BugManiacReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorIntro::
 	.string "Ahoi!\n"
-	.string "Sóc el Mariner {STR_VAR_1}!$"
+	.string "Soc el Mariner {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorMon1::
 	.string "Deixa'm ensenyar-te el meu orgull!\n"
@@ -1393,8 +1393,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SailorReject::
 	.string "l'oposició! Quina llàstima!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorIntro::
-	.string "Hola, sóc {STR_VAR_1}.\n"
-	.string "Sóc un Col·leccionista.$"
+	.string "Hola, soc {STR_VAR_1}.\n"
+	.string "Soc un Col·leccionista.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorMon1::
 	.string "Les joies de la meva col·lecció són\n"
@@ -1415,8 +1415,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorReject::
 	.string "No aprècies els meus Pokémon.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMIntro::
-	.string "Hola, sóc {STR_VAR_1}.\n"
-	.string "Sóc un Guarda Pokémon.$"
+	.string "Hola, soc {STR_VAR_1}.\n"
+	.string "Soc un Guarda Pokémon.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMMon1::
 	.string "M'acompanyen un\n"
@@ -1437,7 +1437,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFIntro::
 	.string "Em dic {STR_VAR_1}.\n"
-	.string "Sóc una Guarda Pokémon!$"
+	.string "Soc una Guarda Pokémon!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFMon1::
 	.string "Deixa'm parlar del meu equip. Tinc\n"
@@ -1457,7 +1457,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFReject::
 	.string "el proper cop.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyIntro::
-	.string "Encantada. Sóc {STR_VAR_1}.\n"
+	.string "Encantada. Soc {STR_VAR_1}.\n"
 	.string "Em considero una Dama Aroma.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyMon1::
@@ -1479,8 +1479,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_AromaLadyReject::
 	.string "equip el proper cop que ens veiem.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacIntro::
-	.string "Vols saber qui sóc?\n"
-	.string "Sóc {STR_VAR_1}, l'Erudit de Ruïnes!$"
+	.string "Vols saber qui soc?\n"
+	.string "Soc {STR_VAR_1}, l'Erudit de Ruïnes!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacMon1::
 	.string "Els Pokémon que porto són\n"
@@ -1500,7 +1500,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacReject::
 	.string "Crec que els meus Pokémon són forts…$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMIntro::
-	.string "Sóc l'Entrenador Maco {STR_VAR_1}!$"
+	.string "Soc l'Entrenador Maco {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMMon1::
 	.string "Els Pokémon que tinc ara són un\n"
@@ -1521,7 +1521,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMReject::
 	.string "el millor equip de la història.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFIntro::
-	.string "Sóc l'Entrenadora Maca {STR_VAR_1}!$"
+	.string "Soc l'Entrenadora Maca {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFMon1::
 	.string "L'equip que he estat criant té un\n"
@@ -1542,7 +1542,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacIntro::
 	.string "Epa!\n"
-	.string "Sóc {STR_VAR_1}, el Pokèman!$"
+	.string "Soc {STR_VAR_1}, el Pokèman!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacMon1::
 	.string "Què té un tio com jo?\n"
@@ -1564,7 +1564,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerIntro::
 	.string "Ep!\n"
-	.string "Sóc l'Encenedor {STR_VAR_1}!$"
+	.string "Soc l'Encenedor {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerMon1::
 	.string "Saps què ha cuinat el meu entrenament?\n"
@@ -1584,7 +1584,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerReject::
 	.string "el proper cop que ens trobem.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperIntro::
-	.string "Sóc {STR_VAR_1}, i sóc un Campista!$"
+	.string "Soc {STR_VAR_1}, i soc un Campista!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperMon1::
 	.string "He estat criant un {STR_VAR_2} que\n"
@@ -1605,7 +1605,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerIntro::
 	.string "Hola!\n"
-	.string "Sóc {STR_VAR_1}, una Excursionista!$"
+	.string "Soc {STR_VAR_1}, una Excursionista!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerMon1::
 	.string "Els Pokémon que he portat són\n"
@@ -1625,7 +1625,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerReject::
 	.string "un altre cop.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMIntro::
-	.string "Sóc el Mentalista {STR_VAR_1}!$"
+	.string "Soc el Mentalista {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMMon1::
 	.string "La parella que he criat és\n"
@@ -1645,8 +1645,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicMReject::
 	.string "fer equip amb tu.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFIntro::
-	.string "Sóc {STR_VAR_1}.\n"
-	.string "Sóc una Mentalista.$"
+	.string "Soc {STR_VAR_1}.\n"
+	.string "Soc una Mentalista.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFMon1::
 	.string "Un {STR_VAR_2} amb {STR_VAR_1} i$"
@@ -1666,7 +1666,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PsychicFReject::
 	.string "oportunitat de forjar aliança.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFIntro::
-	.string "Sóc l'Estudiant {STR_VAR_1}!$"
+	.string "Soc l'Estudiant {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFMon1::
 	.string "Un {STR_VAR_2} que usa {STR_VAR_1}$"
@@ -1687,7 +1687,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SchoolKidFReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFIntro::
 	.string "Epa! Em dic {STR_VAR_1}!\n"
-	.string "Sóc una Criadora Pokémon!$"
+	.string "Soc una Criadora Pokémon!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFMon1::
 	.string "Els Pokémon que he criat són un\n"
@@ -1707,8 +1707,8 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnBreederFReject::
 	.string "d'acord?$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFIntro::
-	.string "Sóc {STR_VAR_1}, i estic orgullosa\n"
-	.string "de dir que sóc una Pokéfan.$"
+	.string "Soc {STR_VAR_1}, i estic orgullosa\n"
+	.string "de dir que soc una Pokéfan.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFMon1::
 	.string "Els adorables Pokémon que he criat\n"
@@ -1728,7 +1728,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokefanFReject::
 	.string "millors, ja ho saps. Que molest!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFIntro::
-	.string "Hola, sóc la Nedadora {STR_VAR_1}.$"
+	.string "Hola, soc la Nedadora {STR_VAR_1}.$"
 
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFMon1::
@@ -1749,7 +1749,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerFReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMIntro::
 	.string "Què passa?\n"
-	.string "Sóc {STR_VAR_1}, un Triatleta.$"
+	.string "Soc {STR_VAR_1}, un Triatleta.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMMon1::
 	.string "Tinc un parell de Pokémon decents.\n"
@@ -1769,7 +1769,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMReject::
 	.string "el proper cop, d'acord?$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFIntro::
-	.string "Sóc la Triatleta {STR_VAR_1}!$"
+	.string "Soc la Triatleta {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFMon1::
 	.string "Un {STR_VAR_2} amb {STR_VAR_1} i$"
@@ -1790,7 +1790,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteFReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMIntro::
 	.string "Ei, hola!\n"
-	.string "Sóc {STR_VAR_1}, i sóc un Nedador!$"
+	.string "Soc {STR_VAR_1}, i soc un Nedador!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmerMMon1::
 	.string "Mira què he estat criant!\n"

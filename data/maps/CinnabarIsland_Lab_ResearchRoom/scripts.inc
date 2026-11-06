@@ -26,7 +26,7 @@ CinnabarIsland_PokemonLab_ResearchRoom_Text_LegendaryBirdEmail::
     .string "Moltres.\p"
     .string "El seu parador és desconegut.\p"
     .string "Planem explorar la caverna\n"
-    .string "prop de Cerulean.\p"
+    .string "prop de Cerúlia.\p"
     .string "De: Equip de Recerca Pokémon…$"
 
 CinnabarIsland_PokemonLab_ResearchRoom_Text_AnAmberPipe::

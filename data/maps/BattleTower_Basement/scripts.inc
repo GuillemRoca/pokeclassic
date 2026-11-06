@@ -116,7 +116,7 @@ BattleFactoryLobby_Text_Welcome:
 	.string "Benvingut a la Fàbrica de Combat,\n"
 	.string "on la intel·ligència dels\l"
 	.string "Entrenadors és posada a prova!\p"
-	.string "Sóc la teva guia del Torneig\n"
+	.string "Soc la teva guia del Torneig\n"
 	.string "d'Intercanvi de Combat.\p"
 	.string "En quin tipus de torneig\n"
 	.string "participaràs avui?$"
@@ -474,6 +474,6 @@ BattleTower_Basement_EventScript_FatMan::
 
 BattleTower_Basement_Text_CantFigureOutStaffHints:
 	.string "Saps que el personal d'aquí et\n"
-	.string "dóna pistes sobre el pròxim rival?\p"
-	.string "Doncs, sóc un home fet i dret,\n"
+	.string "dona pistes sobre el pròxim rival?\p"
+	.string "Doncs, soc un home fet i dret,\n"
 	.string "però em costa entendre les pistes.$"

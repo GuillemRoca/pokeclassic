@@ -94,7 +94,7 @@ FarawayIsland_Entrance_Text_SailorReturn:
 	.string "Ja has explorat l'illa?\p"
 
 
-	.string "Vols tornar a Cinnabar?$"
+	.string "Vols tornar a Cinabri?$"
 
 
 

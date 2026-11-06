@@ -296,7 +296,7 @@ BattleFrontier_Lounge7_Text_LeftTutorIntro:
 	.string "… … … … … …\p"
 	.string "Què passa?\n"
 	.string "No em creus.\p"
-	.string "No sóc com la fatxenda aquella de\n"
+	.string "No soc com la fatxenda aquella de\n"
 	.string "allà. Jo tinc talent de debò!\p"
 	.string "Deixa que t'ho demostri.\n"
 	.string "Puc ensenyar als teus Pokémon\l"
@@ -327,13 +327,13 @@ BattleFrontier_Lounge7_Text_HaventGotEnoughPoints:
 	.string "No tens prou Punts de Combat!$"
 
 BattleFrontier_Lounge7_Text_IllTakeBattlePoints:
-	.string "Ja veus com sóc d'hàbil?\n"
+	.string "Ja veus com soc d'hàbil?\n"
 	.string "M'emporto els teus Punts de Combat!$"
 
 BattleFrontier_Lounge7_Text_YouDontWantTo:
 	.string "Què dius?\n"
 	.string "No vols…\p"
-	.string "Si vols veure com sóc d'hàbil,\n"
+	.string "Si vols veure com soc d'hàbil,\n"
 	.string "vine a veure'm quan vulguis!$"
 
 BattleFrontier_Lounge7_Text_RightTutorIntro:
@@ -345,7 +345,7 @@ BattleFrontier_Lounge7_Text_RightTutorIntro:
 	.string "… … … … … …\p"
 	.string "Què passa?\n"
 	.string "No em creus.\p"
-	.string "No sóc com la pallassa aquella de\n"
+	.string "No soc com la pallassa aquella de\n"
 	.string "allà. Jo tinc experiència de debò!\p"
 	.string "Puc demostrar-t'ho.\n"
 	.string "Puc ensenyar als teus Pokémon\l"
@@ -461,7 +461,7 @@ BattleFrontier_Lounge7_Text_EndureDesc::
 BattleFrontier_Lounge7_Text_PsychUpDesc::
 	.string "Copia els efectes\n"
 	.string "de l'enemic i\n"
-	.string "els dóna a l'usuari.$"
+	.string "els dona a l'usuari.$"
 
 BattleFrontier_Lounge7_Text_IcePunchDesc::
 	.string "Un cop gelat\n"

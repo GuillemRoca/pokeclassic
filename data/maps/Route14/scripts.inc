@@ -165,7 +165,7 @@ Route14_EventScript_Beck::
 
 Route14_Text_BeckIntro::
     .string "Venen MTs als Grans Magatzems\n"
-    .string "de Celadon.\p"
+    .string "de Celadó.\p"
     .string "Les MTs no són tan rares, però\n"
     .string "poca gent té MOs.$"
 

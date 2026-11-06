@@ -254,7 +254,7 @@ PlayersHouse_1F_Text_FindMegaStones::
 	.string "Ara que tens el Mega Anell,\n"
 
 
-	.string "les hauríes de poder veure!\p"
+	.string "les hauries de poder veure!\p"
 
 
 	.string "Haurem de trobar una Mega Pedra\n"

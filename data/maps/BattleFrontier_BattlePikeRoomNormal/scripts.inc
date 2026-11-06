@@ -766,12 +766,12 @@ BattleFrontier_BattlePikeRoomNormal_Text_EnjoyRestOfChallenge2:
 	.string "del teu desafiament d'Elecció…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_ImThePikeQueen:
-	.string "Sóc la Lucy…\n"
-	.string "Sóc la llei aquí…\l"
-	.string "Perquè sóc la Reina de la Llança…\p"
+	.string "Soc la Lucy…\n"
+	.string "Soc la llei aquí…\l"
+	.string "Perquè soc la Reina de la Llança…\p"
 	.string "Ja ho saps, però per avançar,\n"
 	.string "m'has de derrotar…\p"
-	.string "…No sóc de conversa buida.\n"
+	.string "…No soc de conversa buida.\n"
 	.string "Afanya't. Vine…$"
 
 BattleFrontier_BattlePikeRoomNormal_Text_HopeYouDidntUseUpLuck:
@@ -794,7 +794,7 @@ BattleFrontier_BattlePikeRoomNormal_Text_LucyYouAgain:
 	.string "Lucy: …Tu un altre cop…\p"
 	.string "… … … … … …\p"
 	.string "…He trepitjat flors i he desafiat\n"
-	.string "tempestes per arribar on sóc…\p"
+	.string "tempestes per arribar on soc…\p"
 	.string "No tinc cap ganes de seguir\n"
 	.string "perdent contra el mateix oponent…\p"
 	.string "… … … … … …\n"

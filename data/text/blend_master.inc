@@ -1,6 +1,6 @@
 BerryBlender_Text_BlendWithTheBlendMaster:
 	.string "Mestre Barrejador: En efecte!\n"
-	.string "Jo sóc el Mestre Barrejador!\p"
+	.string "Jo soc el Mestre Barrejador!\p"
 	.string "Barreja amb mi i veuràs\n"
 	.string "la maestria que aporto a la barreja!$"
 

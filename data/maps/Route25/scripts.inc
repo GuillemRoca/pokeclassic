@@ -25,7 +25,7 @@ Route25_EventScript_Man::
 
 Route25_Text_AreYouHereAlone::
     .string "Hola, ets aquí sol?\p"
-    .string "Si ets al cap de Cerulean…\n"
+    .string "Si ets al cap de Cerúlia…\n"
     .string "Hauria de ser en parella.$"
 
 Route25_EventScript_Beauty::
@@ -49,7 +49,7 @@ Route25_EventScript_Franklin::
 	end
 
 Route25_Text_FranklinIntro::
-    .string "Acabo de baixar del Mt. Moon,\n"
+    .string "Acabo de baixar del Mont Lluna,\n"
     .string "però encara tinc energia!$"
 
 Route25_Text_FranklinDefeat::
@@ -94,7 +94,7 @@ Route25_EventScript_Joey::
 	end
 
 Route25_Text_JoeyIntro::
-    .string "Els entrenadors locals vénen\n"
+    .string "Els entrenadors locals venen\n"
     .string "aquí a practicar.$"
 
 Route25_Text_JoeyDefeat::
@@ -121,7 +121,7 @@ Route25_Text_WayneDefeat::
 
 Route25_Text_WaynePostBattle::
     .string "El camí de baix és una drecera\n"
-    .string "cap a Ciutat Cerulean.$"
+    .string "cap a Ciutat Cerúlia.$"
 
 Route25_EventScript_Dan::
 	trainerbattle_single TRAINER_YOUNGSTER_DAN, Route25_Text_DanIntro, Route25_Text_DanDefeat
@@ -130,14 +130,14 @@ Route25_EventScript_Dan::
 
 Route25_Text_DanIntro::
     .string "El pare em va portar a una\n"
-    .string "gran festa al S.S. Anne\l"
-    .string "a Ciutat Vermilion.$"
+    .string "gran festa al SS Anna\l"
+    .string "a Ciutat Vermella.$"
 
 Route25_Text_DanDefeat::
     .string "No estic enfadat!$"
 
 Route25_Text_DanPostBattle::
-    .string "Al S.S. Anne vaig veure\n"
+    .string "Al SS Anna vaig veure\n"
     .string "entrenadors de tot el món.$"
 
 Route25_EventScript_Kelsey::
@@ -180,7 +180,7 @@ Route25_EventScript_Flint::
 	end
 
 Route25_Text_FlintIntro::
-    .string "Sóc un tio genial.\n"
+    .string "Soc un tio genial.\n"
     .string "Tinc xicota!$"
 
 Route25_Text_FlintDefeat::
@@ -220,7 +220,7 @@ Route25_Text_HaleyDefeat::
     .string "Ja no tinc tanta enveja!$"
 
 Route25_Text_HaleyPostBattle::
-    .string "Vens del Mt. Moon?\n"
+    .string "Vens del Mont Lluna?\n"
     .string "Em pots donar un Clefairy?$"
 
 

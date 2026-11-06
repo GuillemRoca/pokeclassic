@@ -349,7 +349,7 @@ BattleFrontier_OutsideWest_Text_ThisIsBattleTower:
 
 
 BattleFrontier_OutsideWest_Text_MayISeeYourTicket:
-	.string "Hola, véns pel ferri?\n"
+	.string "Hola, vens pel ferri?\n"
 
 
 	.string "Puc veure el teu Tiquet?$"
@@ -410,7 +410,7 @@ BattleFrontier_OutsideWest_Text_ThenWhereWouldYouLikeToGo:
 
 
 BattleFrontier_OutsideWest_Text_BestOutOfAllMyFriends:
-	.string "Sóc el millor de tots els meus amics.\n"
+	.string "Soc el millor de tots els meus amics.\n"
 
 
 	.string "Però aquí…\l"
@@ -564,7 +564,7 @@ BattleFrontier_OutsideWest_Text_LostIllPutOffPikeChallenge:
 
 
 BattleFrontier_OutsideWest_Text_ChooseFishingOverBattling:
-	.string "Crec que sóc l'única persona aquí\n"
+	.string "Crec que soc l'única persona aquí\n"
 
 
 	.string "que, per alguna raó, prefereix\l"

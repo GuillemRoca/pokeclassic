@@ -39,7 +39,7 @@ SSAnne_Kitchen_EventScript_Chef4::
 
 SSAnne_Kitchen_Text_IAmLeChefMainCourseIs::
     .string "Ehem!\n"
-    .string "En efecte, sóc le XEF!\p"
+    .string "En efecte, soc le XEF!\p"
     .string "Le plat principal és$"
 
 SSAnne_Kitchen_EventScript_SalmonDuSalad::

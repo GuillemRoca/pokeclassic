@@ -93,6 +93,6 @@ CeruleanCity_PokemonCenter_1F_EventScript_PokemonJournalMisty::
 PokemonJournal_Text_SpecialFeatureMisty::
 	.string "Diari Pokémon:\p"
 	.string "Reportatge: Misty, Líder del\n"
-	.string "Gimnàs de Cerulean!\p"
+	.string "Gimnàs de Cerúlia!\p"
 	.string "Diuen que la Misty idolatra\n"
 	.string "la Lorelei de l'Alt Comandament.$"

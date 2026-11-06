@@ -7,14 +7,14 @@ CeladonCity_Condominiums_3F_EventScript_Programmer::
 
 CeladonCity_Condominiums_3F_Text_ImTheProgrammer::
     .string "Jo?\n"
-    .string "Sóc el Fotògraf!$"
+    .string "Soc el Fotògraf!$"
 
 CeladonCity_Condominiums_3F_EventScript_GraphicArtist::
 	msgbox CeladonCity_Condominiums_3F_Text_ImTheGraphicArtist, MSGBOX_NPC
 	end
 
 CeladonCity_Condominiums_3F_Text_ImTheGraphicArtist::
-    .string "Sóc el dissenyador gràfic!\n"
+    .string "Soc el dissenyador gràfic!\n"
     .string "T'agrada el Diari Pokémon?$"
 
 CeladonCity_Condominiums_3F_EventScript_Writer::
@@ -38,7 +38,7 @@ CeladonCity_Condominiums_3F_EventScript_Designer::
 	end
 
 CeladonCity_Condominiums_3F_Text_ImGameDesignerShowMeFinishedPokedex::
-    .string "Sóc l'Editor!\p"
+    .string "Soc l'Editor!\p"
     .string "Estàs treballant en la Pokédex?\n"
     .string "És cert?\p"
     .string "Completar la Pokédex és difícil,\n"

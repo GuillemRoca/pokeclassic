@@ -44,7 +44,7 @@ Route16_House_Text_FoundMySecretRetreat::
     .string "Oh, vaja.\n"
     .string "Has trobat el meu refugi secret.\p"
     .string "Si us plau, no diguis a ningú\n"
-    .string "que sóc aquí.\l"
+    .string "que soc aquí.\l"
     .string "T'ho compensaré amb això!$"
 
 Route16_House_Text_ReceivedHM02FromGirl::

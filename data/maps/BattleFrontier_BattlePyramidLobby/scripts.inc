@@ -531,7 +531,7 @@ BattleFrontier_BattlePyramidLobby_Text_WelcomeToBattlePyramid:
 
 	.string "Benvingut a la Piràmide de Combat!\p"
 
-	.string "Sóc el teu guia per a\n"
+	.string "Soc el teu guia per a\n"
 
 	.string "la Cerca de Combat.$"
 

@@ -442,7 +442,7 @@ TrainerHill_Entrance_Text_WhatSortOfTrainersAreAhead:
 
 TrainerHill_Entrance_Text_CantWaitToTestTheWaters:
 	.string "He sentit que Entrenadors forts\n"
-	.string "vénen a aquest Turó d'arreu.\p"
+	.string "venen a aquest Turó d'arreu.\p"
 	.string "No puc esperar per provar sort!\p"
 	.string "Atuiré qualsevol que se'm posi\n"
 	.string "al davant!$"

@@ -1,12 +1,12 @@
 gOakDexRatingText_GoodToSeeYou::
-	.string "OAK: Que alegria veure't, {PLAYER}!\n"
-	.string "Com va el teu Pokédex?\p"
+	.string "Oak: Que alegria veure't, {PLAYER}!\n"
+	.string "Com va la teva Pokédex?\p"
 	.string "Deixa'm fer una ullada.$"
 
 gOakDexRatingText_AreYouCurious::
-	.string "OAK: Quin plaer tenir notícies\n"
+	.string "Oak: Quin plaer tenir notícies\n"
 	.string "teves, {PLAYER}!\p"
-	.string "Com va el teu Pokédex?\p"
+	.string "Com va la teva Pokédex?\p"
 	.string "Mirem-ho...$"
 
 gOakDexRatingText_Cancel::
@@ -90,9 +90,9 @@ gOakDexRatingText_LessThan151::
 	.string "Però no me'ls crec, jo.$"
 
 gOakDexRatingText_LessThan170::
-	.string "Mirant el teu Pokédex, un es pot\n"
+	.string "Mirant la teva Pokédex, un es pot\n"
 	.string "fer una idea molt bona dels\l"
-	.string "Pokémon de la regió Hoenn.$"
+	.string "Pokémon de la regió de Kanto.$"
 
 gOakDexRatingText_LessThan180::
 	.string "Diria que ja et qualifiques com\n"
@@ -100,14 +100,14 @@ gOakDexRatingText_LessThan180::
 	.string "a més!$"
 
 gOakDexRatingText_LessThan190::
-	.string "Amb un Pokédex tan complet,\n"
+	.string "Amb una Pokédex tan completa,\n"
 	.string "ets un professional de veritat!$"
 
 gOakDexRatingText_LessThan200::
 	.string "Estàs molt a prop de completar\n"
-	.string "aquest Pokédex.\l"
+	.string "aquesta Pokédex.\l"
 	.string "Ho noto als ossos!$"
 
 gOakDexRatingText_DexCompleted::
-	.string "El teu Pokédex és completament complet!\n"
+	.string "La teva Pokédex és completa del tot!\n"
 	.string "Enhorabona!!$"

@@ -65,7 +65,7 @@ SilphCo_11F_Text_PrezDefeat::
 
 SilphCo_11F_Text_PracticeBattling::
 	.string "President: Ah, hola {PLAYER}!\p"
-	.string "Véns a veure com estic?\p"
+	.string "Vens a veure com estic?\p"
 	.string "Hoho...bé, no et preocupis. No\n"
 	.string "hi ha hagut cap senyal de l'Equip\l"
 	.string "Rocket aquí.\p"
@@ -145,7 +145,7 @@ SilphCo_11F_EventScript_SecretaryPostgame::
 
 SilphCo_11F_Text_NotWhatIExpected::
 	.string "Aquesta feina no és el que\n"
-	.string "m'esperava. Sóc secretària,\l"
+	.string "m'esperava. Soc secretària,\l"
 	.string "no guardaespatlles.\p"
 	.string "Estic pensant a demanar un\n"
 	.string "augment!$"
@@ -302,7 +302,7 @@ SilphCo_11F_Text_ThanksForSavingMe::
     .string "Mai oblidaré que ens vas salvar\n"
     .string "en el nostre moment de perill.\p"
     .string "T'ho he d'agrair d'alguna manera.\p"
-    .string "Com que sóc ric, et puc donar\n"
+    .string "Com que soc ric, et puc donar\n"
     .string "el que vulguis.\p"
     .string "Potser això et servirà.$"
 
@@ -451,7 +451,7 @@ SilphCo_11F_Text_TakingYouIn::
 	.string "Gràcies per tota la teva ajuda\n"
 	.string "aquí. Hauries de venir a veure'm\n"
 	.string "la propera vegada que siguis a\n"
-	.string "Ciutat Celadon.$"
+	.string "Ciutat Celadó.$"
 
 SilphCo_11F_EventScript_LookerMovement1::
 	applymovement LOCALID_LOOKER, SilphCo_11F_LookerMovement_Approach1
@@ -560,7 +560,7 @@ SilphCo_11F_Text_GiovanniWasWeak::
 	.string "Saluda al nou Equip Rocket!$"
 
 SilphCo_11F_Text_RocketLeaderDefeat::
-	.string "Què?! Sóc més feble que\n"
+	.string "Què?! Soc més feble que\n"
 	.string "Giovanni?\p"
 
 SilphCo_11F_Text_HowCouldThisHappen::

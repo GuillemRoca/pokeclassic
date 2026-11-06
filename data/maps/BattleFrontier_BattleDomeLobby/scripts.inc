@@ -439,7 +439,7 @@ BattleFrontier_BattleDomeLobby_Text_WelcomeSingleBattle:
 
 	.string "Benvingut al Domo de Combat!\p"
 
-	.string "Sóc la teva guia del Torneig\n"
+	.string "Soc la teva guia del Torneig\n"
 
 	.string "de Combat Individual.$"
 
@@ -620,7 +620,7 @@ BattleFrontier_BattleDomeLobby_Text_WelcomeDoubleBattle:
 
 	.string "Benvingut al Domo de Combat!\p"
 
-	.string "Sóc la teva guia del Torneig\n"
+	.string "Soc la teva guia del Torneig\n"
 
 	.string "de Combat Doble.$"
 

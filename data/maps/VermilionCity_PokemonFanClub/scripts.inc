@@ -67,7 +67,7 @@ VermilionCity_PokemonFanClub_Text_DidYouComeToHearAboutMyMons::
 
     .string "Crio més de cent Pokémon!\p"
 
-    .string "Sóc molt exigent quan es tracta\n"
+    .string "Soc molt exigent quan es tracta\n"
 
     .string "de Pokémon! De debò que sí!\p"
 
@@ -145,7 +145,7 @@ VermilionCity_PokemonFanClub_Text_ReceivedBikeVoucherFromChairman::
 VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher::
     .string "Porta el Val de Bici a la\n"
 
-    .string "Botiga de Bicis de Cerulean.\p"
+    .string "Botiga de Bicis de Cerúlia.\p"
 
     .string "Canvia'l per una Bicicleta\n"
 

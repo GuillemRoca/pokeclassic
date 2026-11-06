@@ -140,7 +140,7 @@ SilphCo_6F_Text_ComeWorkForSilphWhenYoureOlder::
     .string "siguis més gran.$"
 
 SilphCo_6F_Text_Grunt1Intro::
-    .string "Sóc un dels quatre Germans\n"
+    .string "Soc un dels quatre Germans\n"
     .string "Rocket!$"
 
 SilphCo_6F_Text_Grunt1Defeat::

@@ -738,7 +738,7 @@ CableClub_Text_ExplainWirelessClubFirstTime:
 CableClub_Text_AskAboutLinking:
 	.string "Hola, {PLAYER}!\p"
 
-	.string "Sóc la Teala, l'encarregada\n"
+	.string "Soc la Teala, l'encarregada\n"
 
 	.string "del 2n pis del Centre Pokémon.\p"
 

@@ -108,8 +108,8 @@ Route16_Text_HideoDefeat::
 Route16_Text_HideoPostBattle::
     .string "Sempre estarem per aquí tant\n"
     .string "si t'agrada com si no.\p"
-    .string "Pots desviar-te a Vermilion\n"
-    .string "des de Fuchsia per la costa.$"
+    .string "Pots desviar-te a Vermella\n"
+    .string "des de Fúcsia per la costa.$"
 
 Route16_EventScript_RegisterHideoAfterBattle::
 	special PlayerFaceTrainerAfterBattle
@@ -146,7 +146,7 @@ Route16_EventScript_Koji::
 
 Route16_Text_KojiIntro::
     .string "Bona Bici!\n"
-    .string "Dóna-me-la!$"
+    .string "Dona-me-la!$"
 
 Route16_Text_KojiDefeat::
     .string "KO!$"
@@ -174,7 +174,7 @@ Route16_EventScript_KojiRematch::
 	end
 
 Route16_Text_KojiRematchIntro::
-	.string "Ei! Dóna'm la bici...\n"
+	.string "Ei! Dona'm la bici...\n"
 	.string "Oh, ets tu, {PLAYER}!$"
 
 Route16_Text_KojiRematchPostBattle::

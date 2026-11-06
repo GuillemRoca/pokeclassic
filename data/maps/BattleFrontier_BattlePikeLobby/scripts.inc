@@ -271,7 +271,7 @@ BattleFrontier_BattlePikeLobby_Text_WelcomeToBattlePike:
 	.string "On la sort dels Entrenadors\n"
 	.string "és posada a prova…\p"
 	.string "Benvingut a la Llança de Combat…\p"
-	.string "Sóc la teva guia de la Llança…$"
+	.string "Soc la teva guia de la Llança…$"
 
 BattleFrontier_BattlePikeLobby_Text_TakeChallenge:
 	.string "Vols acceptar el desafiament\n"

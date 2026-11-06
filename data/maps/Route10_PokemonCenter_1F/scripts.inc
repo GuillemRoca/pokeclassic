@@ -64,7 +64,7 @@ Route10_PokemonCenter_1F_EventScript_Aide::
 Route10_PokemonCenter_1F_Text_GiveReward::
     .string "Oh… {PLAYER}!\n"
     .string "T'estava buscant!\p"
-    .string "Sóc jo, Cedar, l'ajudant\n"
+    .string "Soc jo, Cedar, l'ajudant\n"
     .string "sempre present del Prof. Oak.\p"
     .string "Com va la teva Pokédex?\p"
     .string "Truca al Prof. Oak algun dia\n"
@@ -83,7 +83,7 @@ Route10_PokemonCenter_1F_Text_ExplainReward::
     .string "ajudar a completar la Pokédex.\p"
     .string "Però a vegades no voldràs que\n"
     .string "un Pokémon evolucioni.\p"
-    .string "En aquest cas, dóna la Pedra\n"
+    .string "En aquest cas, dona la Pedra\n"
     .string "Eterna a aquell Pokémon.\p"
     .string "Evitarà l'evolució, segons\n"
     .string "el Professor.$"

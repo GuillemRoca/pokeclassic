@@ -134,10 +134,10 @@ Route25_SeaCottage_EventScript_BillAskForHelp::
 	end
 
 Route25_SeaCottage_Text_ImBillHelpMeOutPal::
-    .string "Hola! Sóc un Pokémon…\n"
-    .string "…No, no ho sóc!\p"
+    .string "Hola! Soc un Pokémon…\n"
+    .string "…No, no ho soc!\p"
     .string "Digues-me Bill!\n"
-    .string "Sóc un autèntic PokéManíac!\p"
+    .string "Soc un autèntic PokéManíac!\p"
     .string "Ei!\n"
     .string "Per què aquesta cara escèptica?\p"
     .string "No t'estic enganyant.\p"
@@ -329,7 +329,7 @@ Route25_SeaCottage_Text_ThanksTakeThis::
 
 Route25_SeaCottage_Text_ReceivedSSTicketFromBill::
     .string "{PLAYER} ha rebut un bitllet\n"
-    .string "del S.S. Anne d'en Bill.$"
+    .string "del SS Anna d'en Bill.$"
 
 Route25_SeaCottage_EventScript_NoRoomForSSTicket::
 	msgbox Route25_SeaCottage_Text_YouveGotTooMuchStuff
@@ -356,8 +356,8 @@ Route25_SeaCottage_EventScript_BillGoToSSAnne::
 	end
 
 Route25_SeaCottage_Text_SSAnnePartyYouGoInstead::
-    .string "Bill: El creuer S.S. Anne\n"
-    .string "és a Ciutat Vermilion.\p"
+    .string "Bill: El creuer SS Anna\n"
+    .string "és a Ciutat Vermella.\p"
     .string "He sentit que hi ha molts\n"
     .string "entrenadors a bord.\p"
     .string "Em van convidar a la seva festa,\n"
@@ -393,7 +393,7 @@ Route25_SeaCottage_Text_ReallyOweYouOne::
 	.string "teletransportador.\p"
 	.string "M'agradaria compensar-t'ho\n"
 	.string "amb alguna cosa més que aquell\l"
-	.string "bitllet del S.S. Anne...$"
+	.string "bitllet del SS Anna...$"
 
 Route25_SeaCottage_Text_IsThatAPokedex::
 	.string "Oh! Això és una Pokédex?\p"

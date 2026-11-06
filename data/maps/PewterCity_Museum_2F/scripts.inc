@@ -59,6 +59,6 @@ PewterCity_Museum_2F_EventScript_MoonStone::
 
 PewterCity_Museum_1F_Text_MeteoriteThatFellOnMtMoon::
     .string "Un meteorit que va caure al\n"
-    .string "Mt. Moon. Es creu que és una\l"
+    .string "Mont Lluna. Es creu que és una\l"
     .string "Pedra Lluna.$"
 

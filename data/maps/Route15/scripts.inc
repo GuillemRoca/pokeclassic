@@ -73,7 +73,7 @@ Route15_Text_GraceDefeat::
 Route15_Text_GracePostBattle::
     .string "Et perdono.\n"
     .string "Ho puc suportar.\l"
-    .string "Ja sóc gran.$"
+    .string "Ja soc gran.$"
 
 Route15_EventScript_Ernest::
 	trainerbattle_single TRAINER_BIKER_ERNEST, Route15_Text_ErnestIntro, Route15_Text_ErnestDefeat
@@ -98,7 +98,7 @@ Route15_EventScript_Alex::
 	end
 
 Route15_Text_AlexIntro::
-    .string "Dóna'm tots els diners quan\n"
+    .string "Dona'm tots els diners quan\n"
     .string "perdis, nano!$"
 
 Route15_Text_AlexDefeat::
@@ -123,7 +123,7 @@ Route15_Text_EdwinDefeat::
 
 Route15_Text_EdwinPostBattle::
     .string "Potser no estic fet per combatre.\n"
-    .string "No sóc del tipus adequat.$"
+    .string "No soc del tipus adequat.$"
 
 Route15_EventScript_Chester::
 	trainerbattle_single TRAINER_BIRD_KEEPER_CHESTER, Route15_Text_ChesterIntro, Route15_Text_ChesterDefeat

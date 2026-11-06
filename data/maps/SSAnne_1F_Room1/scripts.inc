@@ -7,6 +7,6 @@ SSAnne_1F_Room1_EventScript_Gentleman::
 
 SSAnne_1F_Room1_Text_ImAGlobalPoliceAgent::
     .string "Xxt…!\n"
-    .string "Sóc de la Policia Internacional.\p"
+    .string "Soc de la Policia Internacional.\p"
     .string "Segueixo la pista de l'Equip\n"
     .string "Rocket. No tramen res de bo!$"

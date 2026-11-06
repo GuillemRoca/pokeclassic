@@ -75,10 +75,33 @@ def blocks(t, asm):
     return [''.join(re.findall(r'"((?:[^"\\]|\\.)*)"', b))
             for b in re.findall(r'_\(\s*((?:"(?:[^"\\]|\\.)*"\s*)+)\)', t)]
 
+def base_ref():
+    """The untranslated English tree to diff against.
+
+    Override with TRANSLATION_BASE=<ref>. Otherwise the first of `main` and
+    `origin/main` that exists is used. A fresh clone usually only has
+    `origin/main`; looking only at `main` made every comparison empty, so the
+    audits reported 0 problems without checking anything. Fail loudly instead.
+    """
+    cands = [os.environ['TRANSLATION_BASE']] if os.environ.get('TRANSLATION_BASE') else ['main', 'origin/main']
+    for ref in cands:
+        if subprocess.run(['git', 'rev-parse', '--verify', '--quiet', ref + '^{commit}'],
+                          capture_output=True, cwd=ROOT).returncode == 0:
+            return ref
+    sys.exit(f'error: no English base ref found (tried {", ".join(cands)}). '
+             'Run `git fetch origin main` or set TRANSLATION_BASE.')
+
+BASE = None
+
 def orig(p):
-    """The same file as it is on main, to diff translated strings against."""
-    return subprocess.run(['git', 'show', f'main:{p}'],
-                          capture_output=True, text=True, cwd=ROOT).stdout
+    """The same file as it is on the English base, to diff translated strings against."""
+    global BASE
+    if BASE is None:
+        BASE = base_ref()
+    r = subprocess.run(['git', 'show', f'{BASE}:{p}'], capture_output=True, text=True, cwd=ROOT)
+    if r.returncode != 0:
+        sys.exit(f'error: cannot read {p} at {BASE}: {r.stderr.strip()}')
+    return r.stdout
 
 
 # ---- exploratory report: compare each translated line to its English original ----
@@ -92,7 +115,7 @@ TARGETS = [
 ]
 
 def main():
-    changed = subprocess.run(['git', 'diff', '--name-only', 'main..HEAD'],
+    changed = subprocess.run(['git', 'diff', '--name-only', f'{base_ref()}..HEAD'],
                              capture_output=True, text=True, cwd=ROOT).stdout.split()
     print(f'{"file":38s} {"strings":>7s} {"over":>5s}  worst')
     for path, limit, widths, label in TARGETS:

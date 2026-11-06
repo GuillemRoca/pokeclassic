@@ -92,7 +92,7 @@ MoveTutor_Text_SleepTalkTaught:
 MoveTutor_Text_DynamicPunchTeach:
 	.string "Ja no puc més!\p"
 	.string "És completament inútil!\p"
-	.string "Sóc un Entrenador de Combat,\n"
+	.string "Soc un Entrenador de Combat,\n"
 	.string "i no puc guanyar al Gimnàs de\l"
 	.string "Mossdeep per molt que ho intento!\p"
 	.string "Argh! Cop! Cop! Cop!\n"

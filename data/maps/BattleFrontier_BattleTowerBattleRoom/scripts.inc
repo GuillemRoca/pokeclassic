@@ -507,7 +507,7 @@ BattleFrontier_BattleTowerBattleRoom_Text_ReadyForSalonMaiden:
 BattleFrontier_BattleTowerBattleRoom_Text_GreetingsImAnabel:
 	.string "Salutacions…\n"
 	.string "Em dic Anabel.\p"
-	.string "Sóc la Dama del Saló i estic\n"
+	.string "Soc la Dama del Saló i estic\n"
 	.string "a càrrec de la Torre de Combat…\p"
 	.string "He sentit diversos rumors\n"
 	.string "sobre tu…\p"

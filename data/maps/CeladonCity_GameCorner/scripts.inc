@@ -559,7 +559,7 @@ GameCorner_EventScript_FisherAlreadyGotCoins::
 	end
 
 GameCorner_Text_WinsComeAndGo::
-    .string "Les victòries van i vénen.\n"
+    .string "Les victòries van i venen.\n"
     .string "Res no és segur.$"
 
 GameCorner_EventScript_Scientist::
@@ -923,7 +923,7 @@ GameCorner_EventScript_Scott::
 GameCorner_Text_GymGuide::
 	.string "Ei! Tens coses millors a fer,\n"
 	.string "futur campió!\p"
-	.string "La Líder del Gimnàs Celadon és\n"
+	.string "La Líder del Gimnàs Celadó és\n"
 	.string "l'Erika! Fa servir Pokémon\l"
 	.string "de tipus Planta!\p"
 	.string "Pot semblar dòcil, però no\n"

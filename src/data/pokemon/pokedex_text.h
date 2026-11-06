@@ -1445,7 +1445,7 @@ const u8 gMagbyPokedexText[] = _(
     "barrejades amb fum negre.");
 
 const u8 gMiltankPokedexText[] = _(
-    "Dóna més de vint litres de llet al\n"
+    "Dona més de vint litres de llet al\n"
     "dia. La seva llet dolça agrada a\n"
     "grans i petits. Els que no poden\n"
     "beure llet la fan iogurt.");

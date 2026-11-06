@@ -64,7 +64,7 @@ PewterCity_Text_BrockOnlySeriousTrainerHere::
     .string "seriosos de Pokémon aquí.\p"
     .string "Són tots com Caçainsectes,\n"
     .string "saps, només aficionats.\p"
-    .string "Però Brock, del Gimnàs de Pewter,\n"
+    .string "Però Brock, del Gimnàs de Pedrera,\n"
     .string "no és gens així.$"
 
 
@@ -415,7 +415,7 @@ PewterCity_EventScript_CheckedOutMuseum::
 
 PewterCity_Text_WerentThoseFossilsAmazing::
     .string "No eren increïbles aquells fòssils\n"
-    .string "del Mt. Moon?$"
+    .string "del Mont Lluna?$"
 
 PewterCity_EventScript_BugCatcher::
 	lock
@@ -453,7 +453,7 @@ PewterCity_Text_ClefairyCameFromMoon::
     .string "Això diuen els rumors.\p"
     .string "Van aparèixer després que les\n"
     .string "Pedres Lluna caiguessin al\l"
-    .string "Mt. Moon.$"
+    .string "Mont Lluna.$"
 
 
 PewterCity_EventScript_GymGuide::
@@ -1157,7 +1157,7 @@ PewterCity_EventScript_CitySign::
 	end
 
 PewterCity_Text_CitySign::
-    .string "Ciutat Pewter\n"
+    .string "Ciutat Pedrera\n"
     .string "Una Ciutat de Pedra Grisa$"
 
 PewterCity_EventScript_PoliceNotice::
@@ -1167,16 +1167,16 @@ PewterCity_EventScript_PoliceNotice::
 PewterCity_Text_CallPoliceIfInfoOnThieves::
     .string "AVÍS!\p"
     .string "Lladres han estat robant fòssils\n"
-    .string "de Pokémon al Mt. Moon.\p"
+    .string "de Pokémon al Mont Lluna.\p"
     .string "Si us plau, truqueu a la Policia\n"
-    .string "de Pewter si teniu informació.$"
+    .string "de Pedrera si teniu informació.$"
 
 PewterCity_EventScript_MuseumSign::
 	msgbox PewterCity_Text_MuseumOfScience, MSGBOX_SIGN
 	end
 
 PewterCity_Text_MuseumOfScience::
-    .string "Museu de Ciències de Pewter$"
+    .string "Museu de Ciències de Pedrera$"
 
 PewterCity_EventScript_GymSign::
 	lockall
@@ -1185,7 +1185,7 @@ PewterCity_EventScript_GymSign::
 	end
 
 PewterCity_Text_GymSign::
-    .string "Gimnàs Pokémon de Pewter\n"
+    .string "Gimnàs Pokémon de Pedrera\n"
     .string "Líder: Brock\l"
     .string "L'Entrenador Pokémon de Roca!$"
 

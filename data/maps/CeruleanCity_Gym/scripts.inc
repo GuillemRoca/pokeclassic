@@ -69,7 +69,7 @@ CeruleanCity_Gym_Text_ReceivedBadge::
 
 CeruleanCity_Gym_Text_ExplainBadge::
 	.string "La Medalla Cascada fa que tots\n"
-    .string "els Pokémon fins a Nv. 30 obeixin.\p"
+    .string "els Pokémon fins a Nv. 30 obeeixin.\p"
     .string "Això inclou els que has obtingut\n"
     .string "per intercanvi.\p"
     .string "A més, ara pots fer servir\n"
@@ -212,7 +212,7 @@ CeruleanCity_Gym_EventScript_Diana::
 
 CeruleanCity_Gym_Text_DianaIntro::
     .string "Què? Tu?\n"
-    .string "Sóc més que suficient per a tu!\p"
+    .string "Soc més que suficient per a tu!\p"
     .string "La Misty no s'haurà de molestar.$"
 
 CeruleanCity_Gym_Text_DianaDefeat::
@@ -230,7 +230,7 @@ CeruleanCity_Gym_EventScript_Luis::
 
 CeruleanCity_Gym_Text_LuisIntro::
     .string "Splash!\p"
-    .string "Sóc el primer!\n"
+    .string "Soc el primer!\n"
     .string "Som-hi!$"
 
 CeruleanCity_Gym_Text_LuisDefeat::
@@ -279,7 +279,7 @@ CeruleanCity_Gym_EventScript_GymStatue::
 	end
 
 CeruleanCity_Gym_Text_GymStatue::
-    .string "Gimnàs Pokémon de Cerulean\n"
+    .string "Gimnàs Pokémon de Cerúlia\n"
     .string "Líder: Misty\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}$"
@@ -290,7 +290,7 @@ CeruleanCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 CeruleanCity_Gym_Text_GymStatuePlayerWon::
-    .string "Gimnàs Pokémon de Cerulean\n"
+    .string "Gimnàs Pokémon de Cerúlia\n"
     .string "Líder: Misty\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}, {PLAYER}$"

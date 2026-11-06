@@ -111,7 +111,7 @@ Route9_EventScript_Drew::
 
 Route9_Text_DrewIntro::
     .string "Agafo el Túnel Roca per anar\n"
-    .string "a Lavender…$"
+    .string "a Lavanda…$"
 
 Route9_Text_DrewDefeat::
     .string "No estic a l'alçada…$"

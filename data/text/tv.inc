@@ -8,7 +8,7 @@ LilycoveCity_ContestLobby_Text_InterviewRequest:
 	.string "Es nota pel teu Pokémon.\p"
 
 
-	.string "Sóc reporter. Estic fent un reportatge\n"
+	.string "Soc reporter. Estic fent un reportatge\n"
 
 
 	.string "sobre Concursos Pokémon.\p"
@@ -689,7 +689,7 @@ SlateportCity_PokemonFanClub_Text_InterviewRequestHasName:
 	.string "Et puc demanar un favor?\p"
 
 
-	.string "Sóc reporter de TV i estic fent\n"
+	.string "Soc reporter de TV i estic fent\n"
 
 
 	.string "una enquesta sobre Pokémon.\p"
@@ -833,7 +833,7 @@ SlateportCity_PokemonFanClub_Text_InterviewRequest:
 	.string "Saps què?\n"
 
 
-	.string "Sóc reporter de TV.\p"
+	.string "Soc reporter de TV.\p"
 
 
 	.string "Viatjo entrevistant la gent\n"
@@ -1347,7 +1347,7 @@ gTVRecentHappeningsText01::
 	.string "No ha estat instructiu?\p"
 
 
-	.string "La història dóna una idea clara del\n"
+	.string "La història dona una idea clara del\n"
 
 
 	.string "que {STR_VAR_1} ha viscut recentment.\l"
@@ -1361,7 +1361,7 @@ gTVRecentHappeningsText02::
 	.string "“{STR_VAR_3}.” Això\n"
 
 
-	.string "accentua la història i li dóna cos.$"
+	.string "accentua la història i li dona cos.$"
 
 
 
@@ -1369,7 +1369,7 @@ gTVRecentHappeningsText03::
 	.string "“{STR_VAR_3}.”\n"
 
 
-	.string "Això dóna sensació de lloc.\l"
+	.string "Això dona sensació de lloc.\l"
 
 
 	.string "Ens deixa imaginar l'escenari.$"
@@ -1557,7 +1557,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_WhatsYourOpinionOfTrainer::
 	.string "Ei, hola!\p"
 
 
-	.string "Sóc un gran fan de {STR_VAR_1}.\n"
+	.string "Soc un gran fan de {STR_VAR_1}.\n"
 
 
 	.string "Quina és la teva opinió de\l"
@@ -1584,7 +1584,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_HaveYouForgottenTrainer::
 
 
 LilycoveCity_PokemonTrainerFanClub_Text_WhatsYourOpinionOfTrainer2::
-	.string "Sóc un gran fan de {STR_VAR_1}.\n"
+	.string "Soc un gran fan de {STR_VAR_1}.\n"
 
 
 	.string "Quina és la teva opinió de\l"
@@ -1941,7 +1941,7 @@ gTVNameRaterText09::
 	.string "Aquesta lletra és recolzada per la\n"
 
 
-	.string "primera lletra “{STR_VAR_2}”, que li dóna\l"
+	.string "primera lletra “{STR_VAR_2}”, que li dona\l"
 
 
 	.string "una sòlida presència com a nom.$"

@@ -176,7 +176,7 @@ Route11_EventScript_Yasu::
 	end
 
 Route11_Text_YasuIntro::
-    .string "Sóc el millor de la meva classe.\n"
+    .string "Soc el millor de la meva classe.\n"
     .string "Entreno cada matí.$"
 
 Route11_Text_YasuDefeat::
