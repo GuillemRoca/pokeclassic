@@ -148,7 +148,7 @@ PkmnLeague_Services_MustBeElite::
 PkmnLeague_Services_Text_MustBeElite:
 	.string "Ep, para el carro, nen!\p"
 	.string "Jo només treballo amb els\n"
-	.string "Entrenadors d'Èlit.\p"
+	.string "Entrenadors d'Elit.\p"
 	.string "Torna a veure'm quan tinguis\n"
 	.string "unes quantes medalles més.$"
 

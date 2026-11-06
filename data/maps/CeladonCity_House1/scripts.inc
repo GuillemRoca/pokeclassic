@@ -7,8 +7,8 @@ CeladonCity_House1_EventScript_RocketChief::
 
 CeladonCity_House1_Text_SlotsReelInTheDough::
     .string "Hehehe!\p"
-    .string "Les slots ens omplen de pasta,\n"
-    .string "a lo gran!$"
+    .string "Les escurabutxaques ens omplen\n"
+    .string "de pasta a dojo!$"
 
 CeladonCity_House1_EventScript_Rocket1::
 	msgbox CeladonCity_House1_Text_ShippedMonsAsSlotPrizes, MSGBOX_NPC
@@ -18,7 +18,7 @@ CeladonCity_House1_Text_ShippedMonsAsSlotPrizes::
     .string "Cap!\p"
     .string "Avui hem enviat dos mil\n"
     .string "Ninots Pokémon més com a premis\l"
-    .string "de les slots!\p"
+    .string "de les escurabutxaques!\p"
     .string "I també estem buscant compradors\n"
     .string "pels Pokémon que hem segrestat.$"
 

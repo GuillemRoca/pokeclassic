@@ -68,7 +68,7 @@ gContestPaintingCute2::
 	.string "del preciós {STR_VAR_1}$"
 
 gContestPaintingCute3::
-	.string "Fes-nos un guiño!\n"
+	.string "Fes-nos l'ullet!\n"
 	.string "El Pokémon maquet {STR_VAR_1}$"
 
 gContestPaintingSmart1::

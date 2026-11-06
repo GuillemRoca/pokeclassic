@@ -1437,7 +1437,7 @@ Route109_Text_PaulPostBattle:
 
 
 Route109_Text_PaulNotEnoughPokemon:
-	.string "Paul: Estem bogament enamorats.\n"
+	.string "Paul: Estem bojament enamorats.\n"
 
 	.string "Per això fem combatre els nostres\l"
 
@@ -1603,7 +1603,7 @@ Route110_Text_BenjaminRematchPostBattle:
 
 
 Route110_Text_JasmineIntro:
-	.string "He pedalt sense parar.\n"
+	.string "He pedalat sense parar.\n"
 
 	.string "Les meves cuixes són de pedra!$"
 
@@ -1993,7 +1993,7 @@ Route111_Text_IreneIntro:
 
 
 Route111_Text_IreneDefeat:
-	.string "Oh, ets indecemment bo!$"
+	.string "Oh, ets indecentment bo!$"
 
 
 Route111_Text_IrenePostBattle:
@@ -2285,7 +2285,7 @@ Route112_Text_TrentIntro:
 
 
 Route112_Text_TrentDefeat:
-	.string "Au! Se m'han enrampit les cames!$"
+	.string "Au! Se m'han enrampat les cames!$"
 
 
 Route112_Text_TrentPostBattle:
@@ -2301,7 +2301,7 @@ Route112_Text_TrentPostBattle:
 
 
 Route112_Text_TrentRegister:
-	.string "Au, se m'han enrampit les cames.\n"
+	.string "Au, se m'han enrampat les cames.\n"
 
 	.string "Em treus unes benes de la motxilla?\p"
 
@@ -2367,7 +2367,7 @@ Route112_Text_CarolPostBattle:
 Route112_Text_BryantIntro:
 	.string "He atrapat Pokémon calents\n"
 
-	.string "al Camí Ígni! Mira!$"
+	.string "al Camí Ardent! Mira!$"
 
 
 Route112_Text_BryantDefeat:
@@ -3295,7 +3295,7 @@ Route116_Text_JoeyIntro:
 
 
 Route116_Text_JoeyDefeat:
-	.string "Au! Un rascament!\n"
+	.string "Au! Una esgarrapada!\n"
 
 	.string "He de posar-me una tireta!$"
 
@@ -3637,7 +3637,7 @@ Route117_Text_DylanPostBattle:
 Route117_Text_DylanRegister:
 	.string "Els Pokémon també han de ser forts?\n"
 
-	.string "M'agradaria que m'entrenissis!$"
+	.string "M'agradaria que m'entrenessis!$"
 
 
 Route117_Text_DylanRematchIntro:
@@ -4029,7 +4029,7 @@ Route118_Text_DaltonPostBattle:
 
 	.string "Es pot raspejar per treure'n\n"
 
-	.string "una melodia commovdora…$"
+	.string "una melodia commovedora…$"
 
 
 Route118_Text_DaltonRegister:
@@ -5573,7 +5573,7 @@ Route124_Text_GraceIntro:
 
 
 Route124_Text_GraceDefeat:
-	.string "No sabia que eres tan fort!$"
+	.string "No sabia que ets tan fort!$"
 
 
 Route124_Text_GracePostBattle:
@@ -5973,7 +5973,7 @@ Route125_Text_AuronIntro:
 
 
 Route125_Text_AuronDefeat:
-	.string "Oh, no eres tu qui llençava\n"
+	.string "Oh, no ets tu qui llençava\n"
 
 	.string "escombraries al mar.$"
 
@@ -6325,7 +6325,7 @@ Route127_Text_AthenaDefeat:
 Route127_Text_AthenaPostBattle:
 	.string "Quan estic envoltada del mar i cel\n"
 
-	.string "blaus, sembla que el temps s'alenti.$"
+	.string "blaus, sembla que el temps s'alenteixi.$"
 
 
 Route128_Text_IsaiahIntro:
@@ -6461,7 +6461,7 @@ Route128_Text_WayneIntro:
 
 
 Route128_Text_WayneDefeat:
-	.string "Estic desconsollat!$"
+	.string "Estic desconsolat!$"
 
 
 Route128_Text_WaynePostBattle:
@@ -7127,7 +7127,7 @@ Route133_Text_ConorDefeat:
 
 
 Route133_Text_ConorPostBattle:
-	.string "No deixis que els altres et desvïin.\n"
+	.string "No deixis que els altres et desviïn.\n"
 
 	.string "No perdis la direcció quan creixis.$"
 

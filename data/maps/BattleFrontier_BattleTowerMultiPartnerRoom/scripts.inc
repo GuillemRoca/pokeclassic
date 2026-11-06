@@ -383,7 +383,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice2Mon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice2Accept::
 	.string "Bé! Genial!\n"
-	.string "Vaig a registrar-me, vale?$"
+	.string "Vaig a registrar-me, d'acord?$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice2Reject::
 	.string "Ooh, per què?\n"
@@ -467,7 +467,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice5Reject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice6Intro::
 	.string "Soc {STR_VAR_3} i soc un Triatleta.\n"
 	.string "Estic ocupat cada dia entre córrer,\l"
-	.string "entrenar i rappejar.\p"
+	.string "entrenar i fer rap.\p"
 	.string "També soc l'aprenent\n"
 	.string "núm. {STR_VAR_2} de {STR_VAR_1}.$"
 
@@ -595,7 +595,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Intro::
 	.string "… … … … … …\n"
 	.string "Només era broma!\p"
 	.string "La gent em diu {STR_VAR_3} i jo també!\n"
-	.string "Soc el milèsim aprenent de {STR_VAR_1}!\l"
+	.string "Soc el mil·lèsim aprenent de {STR_VAR_1}!\l"
 	.string "En realitat, soc el núm. {STR_VAR_2}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Mon1::
@@ -789,7 +789,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterAccept::
 	.string "Bé!\n"
-	.string "Vaig a registrar-me, vale?$"
+	.string "Vaig a registrar-me, d'acord?$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterReject::
 	.string "Oh! Si fessis equip amb els meus\n"
@@ -1280,7 +1280,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerAccept::
 	.string "D'acord, ho donaré tot!\n"
-	.string "Vaig a registrar-me, vale?$"
+	.string "Vaig a registrar-me, d'acord?$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_DragonTamerReject::
 	.string "No trobaràs gaires parelles\n"
@@ -1412,7 +1412,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorAccept::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorReject::
 	.string "Bé, és decebedor.\n"
-	.string "No aprècies els meus Pokémon.$"
+	.string "No aprecies els meus Pokémon.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMIntro::
 	.string "Hola, soc {STR_VAR_1}.\n"
@@ -1433,7 +1433,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMAccept::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMReject::
 	.string "El proper cop, tria els meus\n"
-	.string "Pokémon, vale?$"
+	.string "Pokémon, d'acord?$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFIntro::
 	.string "Em dic {STR_VAR_1}.\n"
@@ -1762,7 +1762,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMMon2Ask::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMAccept::
 	.string "Molt bé!\n"
-	.string "Espera't mentre em registro, vale?$"
+	.string "Espera't mentre em registro, d'acord?$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_SwimmingTriathleteMReject::
 	.string "Espero que em deixis unir-me\n"

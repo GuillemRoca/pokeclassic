@@ -200,7 +200,7 @@ PewterCity_Gym_EventScript_DefeatedLeaderRematch::
 	end
 
 PewterCity_Gym_Text_RematchDefeat::
-	.string "Sabia que eres fort, però això…$"
+	.string "Sabia que ets fort, però això…$"
 
 PewterCity_Gym_EventScript_Liam::
 	trainerbattle_single TRAINER_CAMPER_LIAM, PewterCity_Gym_Text_LiamIntro, PewterCity_Gym_Text_LiamDefeat

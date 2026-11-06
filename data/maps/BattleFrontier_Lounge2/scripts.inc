@@ -229,7 +229,7 @@ BattleFrontier_Lounge2_Text_PikeQueenSilverMons::
 	.string "Quan està de bon humor, diuen que\n"
 	.string "usa aquests tres Pokémon:\p"
 	.string "Un Pokémon Serp Ullal de tipus Verí,\n"
-	.string "un Pokémon Florit de tipus Bicho/Roca,\l"
+	.string "un Pokémon Florit de tipus Insecte/Roca,\l"
 	.string "i un Pokémon Tendre de tipus Aigua.$"
 
 BattleFrontier_Lounge2_Text_PikeQueenGoldMons::
@@ -255,9 +255,9 @@ BattleFrontier_Lounge2_Text_ArenaTycoonSilverMons::
 	.string "l'Arena?\p"
 	.string "Quan avalua l'habilitat de l'enemic,\n"
 	.string "sembla que usa aquests Pokémon:\p"
-	.string "Un Pokémon Banya de tipus Bicho/Lluita,\n"
+	.string "Un Pokémon Banya de tipus Insecte/Lluita,\n"
 	.string "un Pokémon Lluna de tipus Fosc,\l"
-	.string "i un Pokémon Muda de tipus Bicho/Fantasma.$"
+	.string "i un Pokémon Muda de tipus Insecte/Fantasma.$"
 
 BattleFrontier_Lounge2_Text_ArenaTycoonGoldMons::
 	.string "Has combatut contra el Magnat de\n"

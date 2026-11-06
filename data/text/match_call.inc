@@ -123,7 +123,7 @@ MatchCall_Text_ScottPkmnLeague::
 	.string "Vaja! Les vuit medalles!\p"
 	.string "Des que et vaig veure\n"
 	.string "enfrontar-te al Brock,\l"
-	.string "sabia que eres diferent.\p"
+	.string "sabia que ets diferent.\p"
 	.string "Però serà suficient per\n"
 	.string "vèncer l'Elit Quatre?$"
 
@@ -889,21 +889,21 @@ MatchCall_DifferentRouteBattleRequestText3::
 MatchCall_BattleFrontierStreakText3::
 	.string "Ei, {PLAYER}!\n"
 	.string "Soc jo, {STR_VAR_1}.\p"
-	.string "He sentit que has arrassat\n"
+	.string "He sentit que has arrasat\n"
 	.string "a {STR_VAR_2}!\p"
 	.string "Una ratxa de {STR_VAR_3}...\n"
 	.string "Això és un gran rècord, oi?\p"
-	.string "Hauré d'espabilar jo també!\n"
+	.string "Hauré d'espavilar jo també!\n"
 	.string "Fins aviat!$"
 
 MatchCall_BattleFrontierRecordStreakText3::
 	.string "Ei, {PLAYER}!\n"
 	.string "Soc jo, {STR_VAR_1}.\p"
-	.string "He sentit que has arrassat\n"
+	.string "He sentit que has arrasat\n"
 	.string "a {STR_VAR_2}!\p"
 	.string "Una ratxa de {STR_VAR_3}...\n"
 	.string "Això és un gran rècord, oi?\p"
-	.string "Hauré d'espabilar jo també!\n"
+	.string "Hauré d'espavilar jo també!\n"
 	.string "Fins aviat!$"
 
 @MC Group 4
@@ -941,7 +941,7 @@ MatchCall_SameRouteBattleRequestText4::
 	.string "Com estan els teus Pokémon?\p"
 	.string "Oh, de debò? Ets a\n"
 	.string "{STR_VAR_2}?\p"
-	.string "Doncs, millor que revanxem.\p"
+	.string "Doncs, millor que fem la revenja.\p"
 	.string "Puc esperar, és clar.\n"
 	.string "Fins aviat!$"
 
@@ -1172,7 +1172,7 @@ MatchCall_PersonalizedText10::
 	.string "Oh, el meu estimat\n"
 	.string "{STR_VAR_2} vol\l"
 	.string "un {POKEBLOCK}!\p"
-	.string "Quin cucufeta tan adorable!\p"
+	.string "Quin cuquet tan adorable!\p"
 	.string "Ho sento, no puc parlar!\n"
 	.string "Explica-m'ho la propera!$"
 
@@ -1193,7 +1193,7 @@ MatchCall_PersonalizedText12::
 	.string "s'apropa, de vegades\l"
 	.string "ho presento d'alguna manera.\p"
 	.string "Has passat prop, {PLAYER}{KUN}?\n"
-	.string "Potser eres tu.\p"
+	.string "Potser ets tu.\p"
 	.string "T'esperaré que vinguis.\n"
 	.string "Adéu!$"
 

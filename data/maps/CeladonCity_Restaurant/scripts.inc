@@ -37,8 +37,8 @@ CeladonCity_Restaurant_EventScript_CoinCaseMan::
 CeladonCity_Restaurant_Text_TakeThisImBusted::
     .string "Endavant! Riu-te'n!\n"
     .string "Estic completament arruïnat!\p"
-    .string "S'han acabat les slots per a mi!\n"
-    .string "Seguiré el bon camí!\p"
+    .string "S'han acabat les escurabutxaques!\n"
+    .string "Ara seguiré el bon camí!\p"
     .string "Té!\n"
     .string "Ja no necessitaré més això!$"
 
@@ -79,4 +79,4 @@ CeladonCity_Restaurant_EventScript_FatMan::
 CeladonCity_Restaurant_Text_ManLostItAllAtSlots::
     .string "Nyam…\p"
     .string "L'home d'aquella taula s'ho ha\n"
-    .string "jugat tot a les slots.$"
+    .string "jugat tot a les escurabutxaques.$"

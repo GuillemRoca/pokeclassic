@@ -62,7 +62,7 @@ Route14_EventScript_Isaac::
 
 Route14_Text_IsaacIntro::
     .string "Necessito matar el temps.\n"
-    .string "Calla i combateix.$"
+    .string "Calla i lluita.$"
 
 Route14_Text_IsaacDefeat::
     .string "Què?\n"

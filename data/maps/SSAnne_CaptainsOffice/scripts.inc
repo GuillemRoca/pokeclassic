@@ -87,7 +87,7 @@ SSAnne_CaptainsOffice_Text_SSAnneWillSetSailSoon::
     .string "Capità: …Uf!\p"
     .string "Ara que ja no estic malalt,\n"
     .string "suposo que és l'hora.\p"
-    .string "L'SS Anna zarparà aviat!\p"
+    .string "L'SS Anna salparà aviat!\p"
     .string "Adéu, fins al nostre retorn a\n"
     .string "Ciutat Vermella!$"
 

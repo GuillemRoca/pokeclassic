@@ -78,7 +78,7 @@ FallarborTown_BattleTentLobby_Text_DidntSaveBeforeQuitting:
 	.string "No heu desat el joc abans\n"
 	.string "d'apagar, oi?\p"
 	.string "Malauradament, això ha resultat\n"
-	.string "en la vostra descalificació\l"
+	.string "en la vostra desqualificació\l"
 	.string "del repte.\p"
 	.string "Per descomptat, podeu començar\n"
 	.string "un repte nou.$"
@@ -148,7 +148,7 @@ VerdanturfTown_BattleTentLobby_Text_ExplainVerdanturfTent:
 	.string "Si voleu interrompre el repte,\n"
 	.string "deseu el joc, si us plau.\p"
 	.string "Si no deseu abans d'interrompre,\n"
-	.string "sereu descalificats.$"
+	.string "sereu desqualificats.$"
 
 VerdanturfTown_BattleTentLobby_Text_ReturnFortified:
 	.string "Quan hàgiu enfortit el cor\n"
@@ -245,7 +245,7 @@ SlateportCity_BattleTentLobby_Text_ExplainSlateportTent:
 	.string "Si voleu interrompre el repte,\n"
 	.string "deseu el joc, si us plau.\p"
 	.string "Si no deseu abans d'interrompre,\n"
-	.string "sereu descalificats.$"
+	.string "sereu desqualificats.$"
 
 SlateportCity_BattleTentLobby_Text_LookForwardToNextVisit:
 	.string "Esperem la vostra propera visita.$"
@@ -307,7 +307,7 @@ SlateportCity_BattleTentLobby_Text_DidntSaveBeforeQuitting:
 	.string "Ho sento, però no vau desar\n"
 	.string "abans de deixar de jugar.\p"
 	.string "Com a resultat, heu estat\n"
-	.string "descalificats del repte.$"
+	.string "desqualificats del repte.$"
 
 @ Unused
 SlateportCity_BattleTentLobby_Text_ReturnPersonalMons:
@@ -330,7 +330,7 @@ SlateportCity_BattleTentLobby_Text_ReadWhichHeading:
 SlateportCity_BattleTentLobby_Text_ExplainBasicRules:
 	.string "En un event de Batalla d'Intercanvi,\n"
 	.string "només podeu usar tres Pokémon.\p"
-	.string "Tant si llogeu com si intercanvieu,\n"
+	.string "Tant si llogueu com si intercanvieu,\n"
 	.string "el vostre equip no pot tenir dos\l"
 	.string "o més Pokémon de la mateixa espècie.$"
 
@@ -431,7 +431,7 @@ VerdanturfTown_BattleTentLobby_Text_ExplainUnderpoweredRules:
 VerdanturfTown_BattleTentLobby_Text_ExplainWhenInDangerRules:
 	.string "Segons la seva naturalesa, un Pokémon\n"
 	.string "pot començar a usar moviments que\l"
-	.string "no encaixen quan está en dificultats.\p"
+	.string "no encaixen quan està en dificultats.\p"
 	.string "Si un Pokémon comença a comportar-se\n"
 	.string "de forma estranya en un moment\l"
 	.string "crític, observeu-lo amb atenció.$"

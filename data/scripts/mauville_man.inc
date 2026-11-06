@@ -322,7 +322,7 @@ MauvilleCity_PokemonCenter_1F_Text_CouldThereBeOtherLegends:
 MauvilleCity_PokemonCenter_1F_Text_HaveYouAnyLegendaryTales:
 	.string "Ets Entrenador?\p"
 
-	.string "Doncs digue'm, tens alguna\n"
+	.string "Doncs digues-me, tens alguna\n"
 
 	.string "història ni que sigui\l"
 
@@ -537,7 +537,7 @@ MauvilleCity_PokemonCenter_1F_Text_EggsHatchedTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_EggsHatchedAction::
-	.string "Ha fet eclosionar Ous$"
+	.string "Ha fet descloure Ous$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_EggsHatchedStory::
@@ -545,7 +545,7 @@ MauvilleCity_PokemonCenter_1F_Text_EggsHatchedStory::
 
 	.string "Entrenador anomenat {STR_VAR_3}.\p"
 
-	.string "Ha fet eclosionar {STR_VAR_1} Pokémon\n"
+	.string "Ha fet descloure {STR_VAR_1} Pokémon\n"
 
 	.string "dels Ous!\p"
 

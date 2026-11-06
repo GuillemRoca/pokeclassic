@@ -24,7 +24,7 @@ const u8 gText_MatchCallBugCatcher_Keigo_Intro1[] = _("Aniré a qualsevol lloc p
 const u8 gText_MatchCallBugCatcher_Keigo_Intro2[] = _("trobar Pokémon insecte guais!");
 
 const u8 gText_MatchCallGambler_Hugo_Strategy[] = _("Guanya, perd o empata!");
-const u8 gText_MatchCallGambler_Hugo_Pokemon[] = _("M'encanten els Pokémon sortuts!");
+const u8 gText_MatchCallGambler_Hugo_Pokemon[] = _("M'encanten els Pokémon sortosos!");
 const u8 gText_MatchCallGambler_Hugo_Intro1[] = _("Pokémon és la vida! I viure");
 const u8 gText_MatchCallGambler_Hugo_Intro2[] = _("és jugar!");
 
@@ -88,7 +88,7 @@ const u8 gText_MatchCallDragonTamer_Roger_Pokemon[] = _("M'encanten els Pokémon
 const u8 gText_MatchCallDragonTamer_Roger_Intro1[] = _("Els Pokémon Drac són els");
 const u8 gText_MatchCallDragonTamer_Roger_Intro2[] = _("Pokémon més poderosos!");
 
-const u8 gText_MatchCallJuggler_Johan_Strategy[] = _("Continua malabaran!");
+const u8 gText_MatchCallJuggler_Johan_Strategy[] = _("Continua fent malabars!");
 const u8 gText_MatchCallJuggler_Johan_Pokemon[] = _("M'encanten Pokémon estranys.");
 const u8 gText_MatchCallJuggler_Johan_Intro1[] = _("Vaig deixar l'escola per");
 const u8 gText_MatchCallJuggler_Johan_Intro2[] = _("perseguir el meu somni!");

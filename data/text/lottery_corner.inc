@@ -58,7 +58,7 @@ LilycoveCity_DepartmentStore_1F_Text_FourDigitsMatched:
 LilycoveCity_DepartmentStore_1F_Text_AllFiveDigitsMatched:
 	.string "Mare meva, han coincidit els cinc\n"
 	.string "dígits!\p"
-	.string "Has guanyat el premi gordo!\n"
+	.string "Has guanyat el premi gros!\n"
 	.string "Has guanyat {STR_VAR_1}!$"
 
 LilycoveCity_DepartmentStore_1F_Text_NoRoomForThis:

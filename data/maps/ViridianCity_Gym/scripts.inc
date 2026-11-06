@@ -344,7 +344,7 @@ ViridianCity_Gym_Text_RivalSpeech::
 	.string "Quan vaig començar aquest viatge,\n"
 	.string "de veritat creia que era el millor\l"
 	.string "de tots...\p"
-	.string "Però tu sempre eres allà, just\n"
+	.string "Però tu sempre ets allà, just\n"
 	.string "darrere meu...i em vaig descuidar.\p"
 	.string "Necessito temps per reflexionar.\n"
 	.string "Qui sap...\p"

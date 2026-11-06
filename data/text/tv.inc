@@ -1857,7 +1857,7 @@ gTVNameRaterText03::
 	.string "Si es cria bé, la singularitat\n"
 
 
-	.string "d'aquest Pokémon floirà!$"
+	.string "d'aquest Pokémon florirà!$"
 
 
 
@@ -5736,7 +5736,7 @@ TVSecretBaseSecrets_Text_UsedSpinMat::
 	.string "Sembla que el visitant està marejat!\p"
 
 
-	.string "El visitant es tambaleja!\n"
+	.string "El visitant trontolla!\n"
 
 
 	.string "Compte!$"

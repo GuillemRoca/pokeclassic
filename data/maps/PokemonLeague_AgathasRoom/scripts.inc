@@ -92,7 +92,7 @@ PokemonLeague_AgathasRoom_Text_Intro::
     .string "atractiu en el seu dia.\p"
     .string "Però això va ser fa dècades.\n"
     .string "Ara és l'ombra del que va ser.\p"
-    .string "Ara només vol trastegar amb\n"
+    .string "Ara només vol trastejar amb\n"
     .string "la seva Pokédex.\p"
     .string "S'equivoca.\n"
     .string "Els Pokémon són per combatre!\p"

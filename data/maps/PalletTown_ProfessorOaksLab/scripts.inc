@@ -960,7 +960,7 @@ PalletTown_ProfessorOaksLab_Text_MaybeMoreItems::
 	.string "M'encantaria seguir sentint\n"
 	.string "les teves aventures, però!\p"
 	.string "Si tens alguna fita important\n"
-	.string "per explicar-me, podria convencer\l"
+	.string "per explicar-me, podria convèncer\l"
 	.string "el Prof. Oak de donar-te alguna\l"
 	.string "cosa bona!$"
 

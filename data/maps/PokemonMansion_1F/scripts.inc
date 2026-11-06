@@ -43,7 +43,7 @@ PokemonMansion_1F_EventScript_Johnson::
 
 PokemonMansion_1F_Text_JohnsonIntro::
     .string "A-a-aah! M'has espantat!\n"
-    .string "Pensava que eres un fantasma.$"
+    .string "Pensava que ets un fantasma.$"
 
 PokemonMansion_1F_Text_JohnsonDefeat::
     .string "Tsc!\n"

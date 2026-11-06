@@ -159,7 +159,7 @@ Route9_EventScript_Brice::
 
 Route9_Text_BriceIntro::
     .string "Hahaha!\n"
-    .string "Ets un durillo!$"
+    .string "Ets dur de pelar!$"
 
 Route9_Text_BriceDefeat::
     .string "Què dius?$"

@@ -35,7 +35,7 @@ static const u8 sHappyMsg13[] = _("El teu Pokémon s'ha estirat\ni s'ha relaxat.
 static const u8 sHappyMsg14[] = _("{STR_VAR_1} sembla que vol\nanar al davant!");
 static const u8 sHappyMsg15[] = _("{STR_VAR_1} s'esforça per\nseguir-te el ritme.");
 static const u8 sHappyMsg16[] = _("{STR_VAR_1} s'arrecera a tu\namb entusiasme!");
-static const u8 sHappyMsg17[] = _("{STR_VAR_1} rebosa de vida!");
+static const u8 sHappyMsg17[] = _("{STR_VAR_1} vessa vitalitat!");
 static const u8 sHappyMsg18[] = _("{STR_VAR_1} sembla molt feliç!");
 static const u8 sHappyMsg19[] = _("{STR_VAR_1} és tan feliç que\nno pot estar quiet!");
 static const u8 sHappyMsg20[] = _("{STR_VAR_1} ha fet un cap lent.");
@@ -48,7 +48,7 @@ static const u8 sHappyMsg26[] = _("{STR_VAR_1} et fa una mirada feliç\ni un som
 static const u8 sHappyMsg27[] = _("El teu Pokémon ensuma\nl'aroma de les flors.");
 static const u8 sHappyMsg28[] = _("{STR_VAR_1} sembla molt content\nde veure't!");
 static const u8 sHappyMsg29[] = _("{STR_VAR_1} s'ha girat cap aquí\ni ha somrigut.");
-static const u8 sHappyMsg30[] = _("{STR_VAR_1} s'ha arreconat a tu\namb entusiasme!");
+static const u8 sHappyMsg30[] = _("{STR_VAR_1} s'ha arrapat a tu\namb entusiasme!");
   // Conditional messages begin here, index 31
 static const u8 sHappyMsg31[] = _("El teu Pokémon sembla feliç\npel bon temps.");
 
@@ -177,7 +177,7 @@ const struct FollowerMsgInfo gFollowerPensiveMessages[] = {
 };
 
 // All 'love' messages are unconditional
-static const u8 sLoveMsg00[] = _("{STR_VAR_1} de sobte ha começat\na caminar més a prop!");
+static const u8 sLoveMsg00[] = _("{STR_VAR_1} de sobte ha començat\na caminar més a prop!");
 static const u8 sLoveMsg01[] = _("Les galtes de {STR_VAR_1}\nes tornen rosades!");
 static const u8 sLoveMsg02[] = _("Vaja! {STR_VAR_1} de sobte\net ha abraçat!");
 static const u8 sLoveMsg03[] = _("Vaja! {STR_VAR_1} de sobte\nté ganes de jugar!");
@@ -209,7 +209,7 @@ static const u8 sSurpriseMsg03[] = _("{STR_VAR_1} s'inclina cap avall.");
 static const u8 sSurpriseMsg04[] = _("El teu Pokémon ha ensopegat\ni gairebé ha caigut!");
 static const u8 sSurpriseMsg05[] = _("{STR_VAR_1} sent alguna cosa\ni udola!");
 static const u8 sSurpriseMsg06[] = _("{STR_VAR_1} sembla renovat!");
-static const u8 sSurpriseMsg07[] = _("{STR_VAR_1} de sobte s'ha girat\ni ha começat a bordar!");
+static const u8 sSurpriseMsg07[] = _("{STR_VAR_1} de sobte s'ha girat\ni ha començat a bordar!");
 static const u8 sSurpriseMsg08[] = _("{STR_VAR_1} de sobte s'ha girat!");
 static const u8 sSurpriseMsg09[] = _("El teu Pokémon s'ha sorprès\nque li parlessis de sobte!");
 static const u8 sSurpriseMsg10[] = _("Snif snif, fa una olor\nmolt bona!");
@@ -219,7 +219,7 @@ static const u8 sSurpriseMsg13[] = _("{STR_VAR_1} corre perill\nde caure.");
 static const u8 sSurpriseMsg14[] = _("{STR_VAR_1} camina\namb precaució.");
 static const u8 sSurpriseMsg15[] = _("{STR_VAR_1} es posa tens\nde nerviosisme.");
 static const u8 sSurpriseMsg16[] = _("{STR_VAR_1} ha notat alguna cosa\nrara i s'ha sorprès!");
-static const u8 sSurpriseMsg17[] = _("{STR_VAR_1} s'ha espantat i\ns'ha arreconat a tu!");
+static const u8 sSurpriseMsg17[] = _("{STR_VAR_1} s'ha espantat i\ns'ha arrapat a tu!");
 static const u8 sSurpriseMsg18[] = _("{STR_VAR_1} nota una presència\ninusual...");
 static const u8 sSurpriseMsg19[] = _("{STR_VAR_1} es posa tens\nde nerviosisme.");
   // Conditional messages, index 20
@@ -260,11 +260,11 @@ const struct FollowerMsgInfo gFollowerCuriousMessages[] = {
 // Unconditional music messages
 static const u8 sMusicMsg00[] = _("{STR_VAR_1} fa gala\nde la seva agilitat!");
 static const u8 sMusicMsg01[] = _("{STR_VAR_1} es mou\namb alegria!");
-static const u8 sMusicMsg02[] = _("Vaja! {STR_VAR_1} de sobte\nha começat a ballar d'alegria!");
+static const u8 sMusicMsg02[] = _("Vaja! {STR_VAR_1} de sobte\nha començat a ballar d'alegria!");
 static const u8 sMusicMsg03[] = _("{STR_VAR_1} et segueix\namb constància!");
 static const u8 sMusicMsg04[] = _("{STR_VAR_1} sembla que vol\njugar amb tu.");
 static const u8 sMusicMsg05[] = _("{STR_VAR_1} salta content.");
-static const u8 sMusicMsg06[] = _("{STR_VAR_1} canta i tarareja.");
+static const u8 sMusicMsg06[] = _("{STR_VAR_1} canta i taral·leja.");
 static const u8 sMusicMsg07[] = _("{STR_VAR_1} et mossega els peus!");
 static const u8 sMusicMsg08[] = _("{STR_VAR_1} es gira i et mira.");
 static const u8 sMusicMsg09[] = _("{STR_VAR_1} s'esforça per mostrar\nla seva gran força!");

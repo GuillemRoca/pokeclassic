@@ -2,11 +2,11 @@ BerryBlender_Text_BlendWithTheBlendMaster:
 	.string "Mestre Barrejador: En efecte!\n"
 	.string "Jo soc el Mestre Barrejador!\p"
 	.string "Barreja amb mi i veuràs\n"
-	.string "la maestria que aporto a la barreja!$"
+	.string "la mestria que aporto a la barreja!$"
 
 BerryBlender_Text_SeeMyMasteryInAction:
 	.string "Mestre Barrejador: Hmm! Llavors,\n"
-	.string "vols veure la meva maestria en acció?$"
+	.string "vols veure la meva mestria en acció?$"
 
 BerryBlender_Text_TooBusyNowIsee:
 	.string "Hmm!\p"

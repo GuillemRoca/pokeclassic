@@ -121,8 +121,8 @@ CeladonCity_EventScript_OldMan::
 	end
 
 CeladonCity_Text_BlewItAllAtSlots::
-    .string "Ai…\n"
-    .string "M'ho he jugat tot a les slots!\p"
+    .string "Ai… M'ho he jugat tot\n"
+    .string "a les escurabutxaques!\p"
     .string "Sabia que hauria d'haver canviat\n"
     .string "les Monedes per premis!$"
 

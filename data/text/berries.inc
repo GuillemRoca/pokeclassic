@@ -79,7 +79,7 @@ LilycoveCity_Text_BerrySuitsYou:
 	.string "el vestit m'escau perfectament,\p"
 	.string "una brisa fresca escau al mar.\p"
 	.string "I a tu, una Baia t'escau\n"
-	.string "perfectament… Per qué serà?$"
+	.string "perfectament… Per què serà?$"
 
 LilycoveCity_Text_BecauseYoureTrainer:
 	.string "Pensant-hi bé…\p"
@@ -98,7 +98,7 @@ Route123_BerryMastersHouse_Text_YoureDeservingOfBerry:
 	.string "Te la mereixes!$"
 
 Route123_BerryMastersHouse_Text_WhyBeStingyTakeAnother:
-	.string "Per qué ser gasiu?\n"
+	.string "Per què ser gasiu?\n"
 	.string "Pren-ne una altra!$"
 
 Route123_BerryMastersHouse_Text_VisitPrettyPetalFlowerShop:
@@ -158,7 +158,7 @@ Route104_PrettyPetalFlowerShop_Text_BerriesExplanation:
 	.string "Si agafes Baies, assegura't de\n"
 	.string "plantar-ne una a la terra.\p"
 	.string "Una Baia plantada aviat brotarà,\n"
-	.string "creixerà, florirà belloament,\l"
+	.string "creixerà, florirà bellament,\l"
 	.string "i tornarà a donar Baies.\p"
 	.string "Vull veure el món sencer\n"
 	.string "ple de flors boniques.\l"

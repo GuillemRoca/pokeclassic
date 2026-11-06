@@ -149,7 +149,7 @@ Route10_Text_ClarkIntro::
 Route10_Text_ClarkDefeat::
     .string "Ha-haha!\n"
     .string "No ric!\l"
-    .string "Ha-hay al·lèrgia! Haha-ha-txís!$"
+    .string "Ha-ha-al·lèrgia! Haha-ha-txís!$"
 
 Route10_Text_ClarkPostBattle::
     .string "Haha-ha-txís!\n"

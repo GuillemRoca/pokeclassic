@@ -927,4 +927,4 @@ GameCorner_Text_GymGuide::
 	.string "l'Erika! Fa servir Pokémon\l"
 	.string "de tipus Planta!\p"
 	.string "Pot semblar dòcil, però no\n"
-	.string "t'hi confïis!$"
+	.string "t'hi confiïs!$"

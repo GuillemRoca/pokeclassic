@@ -171,7 +171,7 @@ BerryBlender_Text_DontHavePokeblockCase3:
 
 BerryBlender_Text_SetNewBlenderRecord:
 	.string "D'acord! Avui serà el dia que\n"
-	.string "batiré el rècord de la Batedora!$"
+	.string "batré el rècord de la Batedora!$"
 
 BerryBlender_Text_LookGoodAtBlendingJoinUs:
 	.string "Oh, bonic!\n"

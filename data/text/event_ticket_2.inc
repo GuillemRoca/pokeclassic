@@ -1,5 +1,5 @@
 EventTicket_Text_OldSeaMapTooFar:
-    .string "Qué hi ha, jove?\p"
+    .string "Què hi ha, jove?\p"
 
 
 	.string "Què, ets tu el que se suposa que\n"

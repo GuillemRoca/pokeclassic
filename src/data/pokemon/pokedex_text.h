@@ -305,7 +305,7 @@ const u8 gDiglettPokedexText[] = _(
     "cultivar collites delicioses.");
 
 const u8 gDugtrioPokedexText[] = _(
-    "Com que els trillizos es van\n"
+    "Com que els trigèmins es van\n"
     "separar d'un sol cos, pensen\n"
     "exactament igual. Cooperen per\n"
     "cavar sense fi sota terra.");
@@ -522,7 +522,7 @@ const u8 gSeelPokedexText[] = _(
 
 const u8 gDewgongPokedexText[] = _(
     "Li encanta dormitar sobre gel ben\n"
-    "fred. Veure'l dormint en un glaciar\n"
+    "fred. Veure'l dormint en una glacera\n"
     "va fer creure a un mariner que era\n"
     "una sirena fa molt de temps.");
 
@@ -584,7 +584,7 @@ const u8 gHypnoPokedexText[] = _(
     "El moviment i la brillantor del\n"
     "pèndol d'Hypno adorm l'enemic en\n"
     "una hipnosi profunda. Mentre busca\n"
-    "preses, pul·leix el pèndol.");
+    "preses, poleix el pèndol.");
 
 const u8 gKrabbyPokedexText[] = _(
     "Els Krabby viuen en forats cavats\n"
@@ -827,7 +827,7 @@ const u8 gPorygonPokedexText[] = _(
     "contra còpia i no es pot duplicar.");
 
 const u8 gOmanytePokedexText[] = _(
-    "Un dels Pokémon antics i extincts\n"
+    "Un dels Pokémon antics i extints\n"
     "des de fa temps, regenerat a\n"
     "partir de fòssils. Si l'ataquen,\n"
     "es retira dins la closca dura.");
@@ -1529,7 +1529,7 @@ const u8 gSceptilePokedexText[] = _(
     "cos prenent el sol.");
 
 const u8 gTorchicPokedexText[] = _(
-    "Si l'ataquen, respon escupint boles\n"
+    "Si l'ataquen, respon escopint boles\n"
     "de foc que forma a l'estómac.\n"
     "Torchic no li agrada la foscor\n"
     "perquè no veu l'entorn.");

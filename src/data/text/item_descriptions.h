@@ -305,7 +305,7 @@ static const u8 sGuardSpecDesc[] = _(
     "en combat.");
 
 static const u8 sDireHitDesc[] = _(
-    "Augmenta el ratio\n"
+    "Augmenta la taxa\n"
     "de cop crític\n"
     "durant un combat.");
 
@@ -706,7 +706,7 @@ static const u8 sApicotBerryDesc[] = _(
 
 static const u8 sLansatBerryDesc[] = _(
     "Objecte retingut:\n"
-    "puja el ratio\n"
+    "puja la taxa\n"
     "de cop crític.");
 
 static const u8 sStarfBerryDesc[] = _(
@@ -817,7 +817,7 @@ static const u8 sLuckyEggDesc[] = _(
 
 static const u8 sScopeLensDesc[] = _(
     "Objecte retingut:\n"
-    "millora el ratio\n"
+    "millora la taxa\n"
     "de cop crític.");
 
 static const u8 sMetalCoatDesc[] = _(
@@ -1400,7 +1400,7 @@ static const u8 sHM04Desc[] = _(
 
 static const u8 sHM05Desc[] = _(
     "Llança una potent\n"
-    "ràfaga de llum que\n"
+    "ràfega de llum que\n"
     "redueix la Precisió.");
 
 static const u8 sHM06Desc[] = _(
@@ -1763,7 +1763,7 @@ static const u8 sRockyHelmetDesc[] = _(
 static const u8 sRazorClawDesc[] = _(
     "Una urpa corbada\n"
     "que augmenta el\n"
-    "ratio de cop crític.");
+    "taxa de cop crític.");
 
 static const u8 sRazorFangDesc[] = _(
     "Objecte retingut:\n"

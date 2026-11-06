@@ -29,7 +29,7 @@ ShoalCave_LowTideEntranceRoom_Text_MakeShellBellRightAway:
 ShoalCave_LowTideEntranceRoom_Text_ExplainShellBell:
 	.string "Fes que un Pokémon el dugui.\n"
 	.string "Li encantarà, segur.\p"
-	.string "El tintineig del Campanet Closca…\n"
+	.string "El dring del Campanet Closca…\n"
 	.string "És simplement sublim!\p"
 	.string "Pots obtenir els ingredients cada dia,\n"
 	.string "així que puc fer-ne més.$"

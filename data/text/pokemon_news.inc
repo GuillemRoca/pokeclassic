@@ -21,7 +21,7 @@ gPokeNewsTextSlateport_Upcoming::
 	.string "Tot i que no ha volgut aclarir a\n"
 
 
-	.string "qué anirà a tope, el Gurú de\l"
+	.string "què anirà a tope, el Gurú de\l"
 
 
 	.string "l'Energia ha dit: “Estalvieu.\l"
@@ -68,7 +68,7 @@ gPokeNewsTextSlateport_Ongoing::
 	.string "Visitar Slateport sembla que\n"
 
 
-	.string "val la pena. Per qué no anireu\l"
+	.string "val la pena. Per què no anireu\l"
 
 
 	.string "a comprar fins on podeu?\p"
@@ -109,7 +109,7 @@ gPokeNewsTextSlateport_Ending::
 	.string "li queda força mercaderia.\p"
 
 
-	.string "Per qué no visiteu Slateport per\n"
+	.string "Per què no visiteu Slateport per\n"
 
 
 	.string "fer una agradable compra?\p"

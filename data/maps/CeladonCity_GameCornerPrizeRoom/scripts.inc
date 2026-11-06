@@ -15,8 +15,9 @@ CeladonCity_GameCorner_PrizeRoom_EventScript_BaldingMan::
 	end
 
 CeladonCity_GameCorner_PrizeRoom_Text_FancyThatPorygon::
-    .string "M'encanten aquells peluixos grans!\n"
-    .string "Però és difícil guanyar a les slots!$"
+    .string "M'encanten aquells peluixos grans!\p"
+    .string "Però és difícil guanyar-los a\n"
+    .string "les escurabutxaques!$"
 
 CeladonCity_GameCorner_PrizeRoom_EventScript_OldMan::
 	msgbox CeladonCity_GameCorner_PrizeRoom_Text_RakedItInToday, MSGBOX_NPC

@@ -473,7 +473,7 @@ gText_ApprenticeLevelModeThanks10::
 	.string "D'acord, doncs {STR_VAR_1} és millor!\n"
 	.string "Aniré a l'altre nivell, doncs!\p"
 	.string "És broma!\n"
-	.string "Obeïré el teu ensenyament, mestre!\p"
+	.string "Obeiré el teu ensenyament, mestre!\p"
 	.string "Gràcies, mestre!\n"
 	.string "Espero que continuïs ensenyant-me!$"
 
@@ -1035,7 +1035,7 @@ gText_ApprenticeThanksNoHeldItem10::
 	.string "D'acord, no ha de portar res.\n"
 	.string "Doncs hauria de buscar-li alguna cosa!\p"
 	.string "És broma!\n"
-	.string "Obeïré el teu ensenyament, mestre!\p"
+	.string "Obeiré el teu ensenyament, mestre!\p"
 	.string "Gràcies, mestre!\n"
 	.string "Espero que continuïs ensenyant-me!$"
 
@@ -1043,7 +1043,7 @@ gText_ApprenticeThanksHeldItem10::
 	.string "D'acord, és un {STR_VAR_1}!\n"
 	.string "Li faré portar qualsevol altra cosa!\p"
 	.string "És broma!\n"
-	.string "Obeïré el teu ensenyament, mestre!\p"
+	.string "Obeiré el teu ensenyament, mestre!\p"
 	.string "Gràcies, mestre!\n"
 	.string "Espero que continuïs ensenyant-me!$"
 
@@ -1441,7 +1441,7 @@ gText_ApprenticeMonFirstThanks10::
 	.string "D'acord, has triat el meu {STR_VAR_1}?\n"
 	.string "Faré sortir qualsevol altre primer!\p"
 	.string "És broma!\n"
-	.string "Obeïré el teu ensenyament, mestre!\p"
+	.string "Obeiré el teu ensenyament, mestre!\p"
 	.string "Gràcies, mestre!\n"
 	.string "Espero que continuïs ensenyant-me!$"
 
@@ -1745,7 +1745,7 @@ gText_ApprenticeMonThanks10::
 	.string "D'acord, has triat {STR_VAR_1}?\n"
 	.string "Doncs agafaré l'altre!\p"
 	.string "És broma!\n"
-	.string "Obeïré el teu ensenyament, mestre!\p"
+	.string "Obeiré el teu ensenyament, mestre!\p"
 	.string "Gràcies, mestre!\n"
 	.string "Espero que continuïs ensenyant-me!$"
 
@@ -2045,7 +2045,7 @@ gText_ApprenticeMoveThanks10::
 	.string "D'acord, has triat {STR_VAR_1}?\n"
 	.string "Doncs triaré un altre moviment!\p"
 	.string "És broma!\n"
-	.string "Obeïré el teu ensenyament, mestre!\p"
+	.string "Obeiré el teu ensenyament, mestre!\p"
 	.string "Gràcies, mestre!\n"
 	.string "Espero que continuïs ensenyant-me!$"
 
@@ -2393,7 +2393,7 @@ gText_ApprenticeWinSpeechThanks10::
 	.string "Això hauria de dir, oi?\n"
 	.string "Doncs, m'allunyaré d'això!\p"
 	.string "És broma!\n"
-	.string "Obeïré el teu ensenyament, mestre!\p"
+	.string "Obeiré el teu ensenyament, mestre!\p"
 	.string "Gràcies per ensenyar-me tot aquest\n"
 	.string "temps, mestre!\p"
 	.string "Per fi entenc què és ser\n"
@@ -2497,7 +2497,7 @@ gText_ApprenticeWinSpeechThanks14::
 	.string "Potser estaré massa nerviós…\p"
 	.string "Gràcies, {PLAYER}{KUN}.\n"
 	.string "He de dir adéu ara.\p"
-	.string "Obeïré tot el que m'has ensenyat,\n"
+	.string "Obeiré tot el que m'has ensenyat,\n"
 	.string "{PLAYER}{KUN}, i ho donaré tot.$"
 
 gText_ApprenticePickWinSpeech15::
