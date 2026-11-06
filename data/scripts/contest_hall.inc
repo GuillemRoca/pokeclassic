@@ -1376,7 +1376,7 @@ LilycoveCity_ContestLobby_Text_ReceptionDontHavePokeblockCase:
 	.string "Aquesta és la recepció dels\n"
 	.string "Concursos Pokémon.\p"
 	.string "Oh? Sembla que encara no tens\n"
-	.string "un Estoig de {POKEBLOCK}.\p"
+	.string "un Estoig {POKEBLOCK}.\p"
 	.string "En aquest cas, cal que et donem\n"
 	.string "això!$"
 
@@ -1717,7 +1717,7 @@ LilycoveCity_ContestLobby_Text_PlayerAt4PCounterUseGMode:
 LilycoveCity_ContestLobby_Text_ExplainLinkContest:
 	.string "Aquest és un Concurs per a dos\n"
 	.string "a quatre jugadors connectats amb\l"
-	.string "Adaptador Sense Fil o cable\l"
+	.string "Adaptador Sense Fils o cable\l"
 	.string "GBA Game Link.\p"
 	.string "Primer, els participants han de\n"
 	.string "triar el mode d'entrada.\p"
@@ -1768,7 +1768,7 @@ LilycoveCity_ContestLobby_Text_ExplainGMode:
 LilycoveCity_ContestLobby_Text_NoWirelessAdapterInGMode:
 	.string "Ho sento molt.\p"
 	.string "El Mode G no funciona\n"
-	.string "amb Adaptadors Sense Fil.\p"
+	.string "amb Adaptadors Sense Fils.\p"
 	.string "Selecciona el Mode E o torna-ho\n"
 	.string "a provar amb un cable\l"
 	.string "GBA Game Link.$"

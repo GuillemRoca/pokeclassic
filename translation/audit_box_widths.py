@@ -15,9 +15,9 @@ Usage:
     python3 translation/audit_box_widths.py -v         # list every overflowing string
     python3 translation/audit_box_widths.py dump FILE  # write JSON for scripted fixing
 """
-import sys, os, json
+import sys, os, re, json
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from width_audit import blocks, orig, line_widths, W_NORMAL, ROOT
+from width_audit import blocks, orig, line_widths, W_NORMAL, W_NARROW, ROOT
 
 CFG = [
     ('src/data/text/item_descriptions.h', 109, W_NORMAL, False, 'bag description'),
@@ -25,6 +25,28 @@ CFG = [
     ('src/battle_message.c',              208, W_NORMAL, False, 'battle message'),
     ('src/strings.c',                     208, W_NORMAL, False, 'UI / msgbox'),
 ]
+
+# Tables whose strings are matched by symbol name rather than by position, for
+# files that mix strings drawn in different windows. Some English strings in
+# these tables already overflow their window (pokeemerald-expansion moves), so a
+# string only fails when it is over the limit AND wider than its English source.
+#   4-line move description: summary screen PSS_LABEL_PANE_LEFT_MOVE, w=14 (112px),
+#                            printed at x=2, FONT_NORMAL -> 110
+#   2-line move description: Move Relearner window 0, w=16 (128px), FONT_NARROW -> 128
+NAMED_CFG = [
+    ('src/data/text/move_descriptions.h', r'sMoveFourLineDescription_\w+', 110, W_NORMAL, '4-line move desc'),
+    ('src/data/text/move_descriptions.h', r'(?!sMoveFourLine)s\w+Description', 128, W_NARROW, '2-line move desc'),
+]
+
+NAMED_RE = r'static const u8 ({})\[\]\s*=\s*_\(\s*((?:"(?:[^"\\]|\\.)*"\s*)+)\);'
+
+
+def named_blocks(text, name_re):
+    out = {}
+    for m in re.finditer(NAMED_RE.format(name_re), text):
+        out.setdefault(m.group(1), ''.join(re.findall(r'"((?:[^"\\]|\\.)*)"', m.group(2))))
+    return out
+
 
 def audit(report=True):
     out = {}
@@ -39,7 +61,23 @@ def audit(report=True):
             if w > limit:
                 over.append((w, b))
         over.sort(reverse=True)
-        out[path] = (limit, label, over)
+        out[f'{path} [{label}]'] = (limit, label, over)
+        if report:
+            print(f'{path:38s} limit {limit:3d}px  {label:20s} overflowing: {len(over)}')
+    for path, name_re, limit, widths, label in NAMED_CFG:
+        new = named_blocks(open(f'{ROOT}/{path}', encoding='utf-8', errors='replace').read(), name_re)
+        old = named_blocks(orig(path), name_re)
+        over = []
+        for name, b in new.items():
+            a = old.get(name)
+            if a == b:
+                continue
+            w = max(line_widths(b, widths))
+            en = max(line_widths(a, widths)) if a else 0
+            if w > limit and w > en:
+                over.append((w, f'{name}: {b}'))
+        over.sort(reverse=True)
+        out[f'{path} [{label}]'] = (limit, label, over)
         if report:
             print(f'{path:38s} limit {limit:3d}px  {label:20s} overflowing: {len(over)}')
     return out

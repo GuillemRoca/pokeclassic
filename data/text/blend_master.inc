@@ -45,14 +45,14 @@ BerryBlender_Text_BlendMasterLetsBerryBlender:
 
 BerryBlender_Text_BlendMasterNoPokeblockCase:
 	.string "Hmm!\p"
-	.string "No sembla que tinguis la\n"
-	.string "Capseta de {POKEBLOCK}!\p"
+	.string "No sembla que tinguis\n"
+	.string "l'Estoig {POKEBLOCK}!\p"
 	.string "Aquí estaré tot el dia!\n"
-	.string "Aconsegueix la Capseta i torna ràpid!$"
+	.string "Aconsegueix l'Estoig i torna ràpid!$"
 
 BerryBlender_Text_BlendMasterPokeblockCaseFull:
 	.string "Hmm!\p"
-	.string "La teva Capseta de {POKEBLOCK} sembla plena!\p"
+	.string "El teu Estoig {POKEBLOCK} sembla ple!\p"
 	.string "Aquí estaré tot el dia!\n"
 	.string "Usa alguns {POKEBLOCK}S i torna ràpid!$"
 

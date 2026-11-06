@@ -108,7 +108,7 @@ CeladonCity_DepartmentStore_3F_EventScript_FloorSign::
 	end
 
 CeladonCity_DepartmentStore_3F_Text_TVGameShop::
-    .string "3F: Botiga de Videojocs$"
+    .string "P3: Botiga de Videojocs$"
 
 
 CeladonCity_DepartmentStore_3F_EventScript_Poster::

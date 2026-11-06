@@ -373,9 +373,9 @@ CeruleanCity_Text_OhRightLittlePresentAsFavor::
     .string "sempre vas al meu darrere.$"
 
 CeruleanCity_Text_ObtainedPokeblockCase::
-	.string "Has obtingut un Estoig PokéBloc!\p"
+	.string "Has obtingut un Estoig {POKEBLOCK}!\p"
 	.string "{PLAYER} ha guardat l'Estoig\n"
-	.string "PokéBloc als Obj. Clau.$"
+	.string "{POKEBLOCK} als Obj. Clau.$"
 
 CeruleanCity_Text_ExplainPokeblockSmellYa::
     .string "Un poca-cosa com tu…\n"

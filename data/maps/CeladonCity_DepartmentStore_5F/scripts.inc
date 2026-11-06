@@ -34,7 +34,7 @@ CeladonCity_DepartmentStore_5F_EventScript_FloorSign::
 	end
 
 CeladonCity_DepartmentStore_5F_Text_Drugstore::
-    .string "5F: Parafarmàcia$"
+    .string "P5: Parafarmàcia$"
 
 CeladonCity_DepartmentStore_5F_EventScript_ClerkXItems::
 	lock

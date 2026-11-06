@@ -69,7 +69,7 @@ LavenderTown_EventScript_TrainerTips::
 LavenderTown_Text_TrainerTips::
     .string "Consells d'Entrenador!\n"
     .string "Mantén premut el Botó A per\n"
-    .string "caminar en silenci amb el PokéNav!$"
+    .string "caminar en silenci amb el DexNav!$"
 
 LavenderTown_EventScript_VolunteerHouseSign::
 	msgbox LavenderTown_Text_VolunteerPokemonHouse, MSGBOX_SIGN

@@ -16,11 +16,11 @@ CeladonCity_DepartmentStore_1F_EventScript_LayoutSign::
 	end
 
 CeladonCity_DepartmentStore_1F_Text_FloorDescriptions::
-    .string "1F: Taulell d'Atenció\p"
-    .string "2F: Mercat d'Entrenadors\p"
-    .string "3F: Botiga de Videojocs\p"
-    .string "4F: Regals del Savi\p"
-    .string "5F: Parafarmàcia\p"
+    .string "P1: Taulell d'Atenció\p"
+    .string "P2: Mercat d'Entrenadors\p"
+    .string "P3: Botiga de Videojocs\p"
+    .string "P4: Regals del Savi\p"
+    .string "P5: Parafarmàcia\p"
     .string "Terrat: Màquines Expenedores$"
 
 CeladonCity_DepartmentStore_1F_EventScript_FloorSign::
@@ -28,4 +28,4 @@ CeladonCity_DepartmentStore_1F_EventScript_FloorSign::
 	end
 
 CeladonCity_DepartmentStore_1F_Text_ServiceCounter::
-    .string "1F: Taulell d'Atenció$"
+    .string "P1: Taulell d'Atenció$"

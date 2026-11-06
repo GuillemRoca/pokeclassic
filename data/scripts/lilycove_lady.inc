@@ -852,7 +852,7 @@ LilycoveCity_PokemonCenter_1F_Text_DontHaveAPokeblockCase:
 
 	.string "…Oh, però…\n"
 
-	.string "No tens un Estoig de {POKEBLOCK}?\l"
+	.string "No tens un Estoig {POKEBLOCK}?\l"
 
 	.string "Això no va bé. Un altre cop, doncs!$"
 

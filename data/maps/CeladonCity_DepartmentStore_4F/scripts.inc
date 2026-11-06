@@ -28,7 +28,7 @@ CeladonCity_DepartmentStore_4F_EventScript_FloorSign::
 
 CeladonCity_DepartmentStore_4F_Text_FloorSign::
     .string "Expressa't amb regals!\n"
-    .string "4F: Regals del Savi\p"
+    .string "P4: Regals del Savi\p"
     .string "Especial Evolució!\n"
     .string "Pedres Elementals en oferta!$"
 

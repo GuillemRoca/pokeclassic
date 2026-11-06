@@ -419,7 +419,7 @@ BattleFrontier_BattlePikeLobby_Text_ReadWhichHeading:
 	.string "Quina secció vols llegir?$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainPokenavBagRules:
-	.string "La Motxilla i el PokéNav no es\n"
+	.string "La Motxilla i el PokéGear no es\n"
 	.string "poden usar durant l'Elecció.$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainHeldItemRules:

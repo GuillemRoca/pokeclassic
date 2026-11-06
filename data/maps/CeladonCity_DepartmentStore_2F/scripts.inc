@@ -25,7 +25,7 @@ CeladonCity_DepartmentStore_2F_EventScript_FloorSign::
 CeladonCity_DepartmentStore_2F_Text_FloorSign::
     .string "Objectes de primera per a\n"
     .string "Entrenadors!\p"
-    .string "2F: Mercat d'Entrenadors$"
+    .string "P2: Mercat d'Entrenadors$"
 
 CeladonCity_DepartmentStore_2F_EventScript_ClerkItems::
 	lock

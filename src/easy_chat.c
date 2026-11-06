@@ -1180,9 +1180,11 @@ static const struct SpriteTemplate sSpriteTemplate_ScrollIndicator = {
 };
 
 static const u8 sFooterOptionXOffsets[NUM_FOOTER_TYPES][4] = {
-    [FOOTER_NORMAL] = {16, 111, 196,   0},
-    [FOOTER_QUIZ]   = {16,  78, 130, 160},
-    [FOOTER_ANSWER] = {16,  80, 134, 170},
+    // Spaced for the Catalan labels (Esb. tot / Cancel·lar / D'acord / Pregunta,
+    // Resposta) so each fits the 224px window with 8px left for the cursor.
+    [FOOTER_NORMAL] = {16, 104, 180,   0},
+    [FOOTER_QUIZ]   = {16,  66, 126, 172},
+    [FOOTER_ANSWER] = {16,  66, 126, 172},
 };
 
 static const u8 *const sFooterTextOptions[NUM_FOOTER_TYPES][4] = {
