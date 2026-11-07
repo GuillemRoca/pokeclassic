@@ -225,14 +225,31 @@ out the original files from `origin/main` and run the scripts in this order
 | `make_ps.py ROOT A` | party menu `bg.png`, battle `hpbar.png`, summary `hp_bar.png` | HP bar label: HP → PS |
 | `make_press_start.py ROOT` | `graphics/title_screen/press_start.png` | PRESS START → PREM START (the M is the one from GAMEFREAK). The copyright line stays |
 | `make_naming.py ROOT c` | naming screen `roptions.png`, `rwindow.png` | page tabs MAJ. / min. / altres; buttons SUPR, FET; BOTÓ B. SELECT and START are button names |
+| `make_status.py ROOT` | `interface/status_icons.png`, `battle_interface/status*.png` | status icons ENV, PAR, ADO, GEL, CRE, DES (PKRS stays). The grayscale opponent sheets are written back as 4-bit indexed (gbagfx maps gray g to index 15 − g) |
+| `make_pokedex.py ROOT` | `pokedex/menu.png`, `search_menu.png`, `interface.png`, `area_unknown.png` | tabs ZONA / CRIT / MIDA / TORNAR; list menu A LA LLISTA, INICI LLISTA, FINAL LLISTA, A LA POKéDEX, TANCAR POKéDEX; search buttons CERCAR, CANVI, TORNAR, NOM, COLOR, TIPUS, ORDRE, MODE, FET; sidebar VISTOS, CAPTURATS, KANTO, NACIONAL, CERCAR, MENÚ; ZONA DESCONEGUDA |
+| `make_storage.py ROOT` | `pokemon_storage/menu.png` | DADES PKMN, EQUIP POKéMON, TORNAR, SORTIR |
+| `make_trainer_card.py ROOT` | `trainer_card/card.png` | TARGETA D'ENTRENADOR (in tiles 128-138: tile 139 is both end caps), MEDALLES |
+| `make_bag_shop.py ROOT` | `bag/hm.png`, `shop/money.png`, `bag/check_berry.png` | MO, DINERS, flavours PICANT · SEC · DOLÇ · AMARG · ÀCID |
+| `make_menu_info.py ROOT` | `interface/menu_info.png` | move-info type icons (same labels as the badges); TIPUS, POTÈNCIA, PRECISIÓ, PP, EFECTE |
+
+`tiles.py` holds what the scripts share: tilemap usage (a label may only be
+redrawn in tiles nothing else shows), views that put sprite or tilemap tiles
+back in screen order, the game fonts, and `LearnedLabel`/`relabel`, which only
+draw once the English label has been re-rendered pixel for pixel. Labels that
+are still English on purpose: the copyright line, button names (SELECT, START,
+A, B, L, R), EXP, PP, ID, and `trainer_card/card_fr.png` (only drawn for a
+linked FireRed/LeafGreen player).
 
 Running all of them on the `origin/main` files reproduces the committed images
 byte for byte. EXP (healthbox) is kept: it reads the same in Catalan.
 
-Two layout fixes came out of checking these screens in mGBA: the summary
+Layout fixes that came out of checking these screens in mGBA: the summary
 skills page prints "Habilitat" in `FONT_NARROW` (48 px in the normal font ran
-into the ability box at x=51), and `PrintSummaryMoveName` switches long move
-names to `FONT_NARROW` (Psicopotenciador was cut at the window edge).
+into the ability box at x=51); `PrintSummaryMoveName` switches long move names
+to `FONT_NARROW` (Psicopotenciador was cut at the window edge); the berry tag
+prints its size and firmness values after the longer label (they overlapped
+"Fermesa /"), shows the size in centimetres under `UNITS_METRIC`, and its 64 px
+title says "Etiqueta".
 
 ### Known limitation of the audit
 

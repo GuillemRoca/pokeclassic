@@ -181,17 +181,17 @@ CableClub_Text_TooBusyToNotice:
 
 
 CableClub_Text_GotToLookAtTrainerCard:
-	.string "Genial! He pogut veure el Carnet\n"
+	.string "Genial! He pogut veure la Targeta\n"
 
 	.string "d'Entrenador de {STR_VAR_1}!$"
 
 
 CableClub_Text_GotToLookAtColoredTrainerCard:
-	.string "Genial! He pogut veure el Carnet\n"
+	.string "Genial! He pogut veure la Targeta\n"
 
 	.string "d'Entrenador de {STR_VAR_1}!\p"
 
-	.string "És un carnet {STR_VAR_2}!$"
+	.string "És una targeta {STR_VAR_2}!$"
 
 
 BattleColosseum_2P_Text_TakePlaceStartBattle:
@@ -211,7 +211,7 @@ RecordCorner_Text_ThanksForComing:
 
 
 CableClub_Text_TrainerCardDataOverwritten:
-	.string "Les dades del Carnet d'Entrenador\n"
+	.string "Les dades de la Targeta d'Entrenador\n"
 
 	.string "seran sobreescrites.$"
 

@@ -318,6 +318,7 @@ const u8 gText_NumberItem_HM[] = _("{CLEAR_TO 0x11}{STR_VAR_1}{CLEAR 0x05}{STR_V
 const u8 gText_SizeSlash[] = _("Mida /");
 const u8 gText_FirmSlash[] = _("Fermesa /");
 const u8 gText_Var1DotVar2[] = _("{STR_VAR_1}.{STR_VAR_2}”");
+const u8 gText_Var1CommaVar2Cm[] = _("{STR_VAR_1},{STR_VAR_2} cm");
 
 // Berry firmness strings
 const u8 gBerryFirmnessString_VerySoft[] = _("Molt tova");
@@ -327,7 +328,7 @@ const u8 gBerryFirmnessString_VeryHard[] = _("Molt dura");
 const u8 gBerryFirmnessString_SuperHard[] = _("Superdura");
 
 const u8 gText_NumberVar1Var2[] = _("{NO}{STR_VAR_1} {STR_VAR_2}");
-const u8 gText_BerryTag[] = _("Etiqueta de baia");
+const u8 gText_BerryTag[] = _("Etiqueta"); // 64 px title window
 const u8 gText_RedPokeblock[] = _("{POKEBLOCK} Roig");
 const u8 gText_BluePokeblock[] = _("{POKEBLOCK} Blau");
 const u8 gText_PinkPokeblock[] = _("{POKEBLOCK} Rosa");
@@ -1571,10 +1572,10 @@ const u8 gText_ButtonTypeNormal[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Normal")
 const u8 gText_ButtonTypeLR[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}LR");
 const u8 gText_ButtonTypeLEqualsA[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}L=A");
 const u8 gText_NumPlayerLink[] = _("Enll. {STR_VAR_1}J");
-const u8 gText_BronzeCard[] = _("Bronze");
-const u8 gText_CopperCard[] = _("Coure");
-const u8 gText_SilverCard[] = _("Plata");
-const u8 gText_GoldCard[] = _("Or");
+const u8 gText_BronzeCard[] = _("de bronze");
+const u8 gText_CopperCard[] = _("de coure");
+const u8 gText_SilverCard[] = _("de plata");
+const u8 gText_GoldCard[] = _("d'or");
 const u8 gText_Day[] = _("Dia");
 const u8 gText_Colon3[] = _(":");
 const u8 gText_Confirm2[] = _("Confirmar");

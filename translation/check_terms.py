@@ -46,6 +46,8 @@ TERMS = [
     (r'\bFan Club\b', r'Club de Fans', 'Fan Club'),
     (r'\bName Rater\b', r'Valorador de Noms', 'Name Rater'),
     (r'\bPok[ée] ?Flute\b', r'Pokéflauta|Flauta', 'Poké Flute'),
+    (r'\bTrainer Card\b', r"Targeta d'Entrenador|Targeta", 'Trainer Card'),
+    (r'\bPC\b.*\bBox(es)?\b|\bBOX\b', r'[Cc]aix', 'PC Box'),
 ]
 
 LABEL = re.compile(r'^\s*([A-Za-z_][A-Za-z0-9_]*)::?')

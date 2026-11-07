@@ -405,6 +405,7 @@ _(La llista completa de decisions per espècie es completarà durant la Fase 2, 
 | hatch / hatched | descloure's / nascut | "L'ou es desclou", "Aviat es desclourà"; no "eclosionar". |
 | quiz | pregunta | No "quiz". |
 | Pokéblock Case | Estoig {POKEBLOCK} | Un sol nom: no "Capseta", no "PokéBloc". |
+| Trainer Card | Targeta d'Entrenador | No "Carnet". Colors: "una targeta de bronze / de coure / de plata / d'or". |
 | Mega Stones | -ita | Venusaurita, Charizardita X, Alakazamita, Mewtwoita X… |
 | PokéNav | PokéGear / DexNav | El joc té PokéGear (menú) i DexNav; no existeix el PokéNav. |
 | Wireless (Adapter) | Sense Fils | "Adaptador Sense Fils", plural. |
@@ -454,6 +455,18 @@ _(La llista completa de decisions per espècie es completarà durant la Fase 2, 
 | SELECT / START | SELECT / START | Noms dels botons de la consola: no es tradueixen |
 | EXP | EXP | Igual en català |
 | Insígnies de tipus | INSEC., FANT., ELÈC., PSÍQ.… | Com `gTypeNames`. Concursos: FRESC., BELL., TEND., INTEL., FORÇA |
+| PSN / PAR / SLP / FRZ / BRN / FNT | ENV / PAR / ADO / GEL / CRE / DES | Icones d'estat: enverinat, paralitzat, adormit, gelat, cremat, desmaiat. PKRS es manté |
+| AREA / CRY / SIZE | ZONA / CRIT / MIDA | Pestanyes de la Pokédex ("ÀREA" no hi cap: no hi ha fila per a l'accent). AREA UNKNOWN: ZONA DESCONEGUDA |
+| SEEN / OWN | VISTOS / CAPTURATS | Llista de la Pokédex; HOENN / NATIONAL: KANTO / NACIONAL |
+| BACK TO LIST, LIST TOP, LIST BOTTOM, BACK TO POKéDEX, CLOSE POKéDEX | A LA LLISTA, INICI LLISTA, FINAL LLISTA, A LA POKéDEX, TANCAR POKéDEX | Menú START de la Pokédex |
+| SEARCH, SHIFT, NAME, ORDER, TYPE | CERCAR, CANVI, NOM, ORDRE, TIPUS | Cerca de la Pokédex (COLOR i MODE no canvien; OK: FET) |
+| CANCEL (Pokédex, PC) | TORNAR | Com l'ajuda "ⒷTornar" |
+| CLOSE BOX / PARTY POKéMON / PKMN DATA | SORTIR / EQUIP POKéMON / DADES PKMN | PC ("Sortir de la caixa?") |
+| TRAINER CARD / BADGES | TARGETA D'ENTRENADOR / MEDALLES | Targeta d'entrenador |
+| MONEY | DINERS | Botiga |
+| HM (icona) | MO | Motxilla |
+| TYPE / POWER / ACCURACY | TIPUS / POTÈNCIA / PRECISIÓ | Informació de les MT |
+| SPICY, DRY, SWEET, BITTER, SOUR | PICANT, SEC, DOLÇ, AMARG, ÀCID | Etiqueta de les baies |
 
 ### Medalles i Líders
 
