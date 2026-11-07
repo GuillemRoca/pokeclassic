@@ -134,7 +134,7 @@ per coherència i perquè el text hi càpiga. Vegeu [TOOLING.md](TOOLING.md).
 | Rock Tunnel | Túnel Rocós |
 | Power Plant | Central Elèctrica |
 | SS Anne | SS Anna |
-| Victory Road | Camí de la Victòria |
+| Victory Road | Camí Victòria |
 | Seafoam Islands | Illes Escuma |
 | Cerulean Cave | Cova Cerúlia |
 | Diglett's Cave | Cova de Diglett |
@@ -170,10 +170,10 @@ i els directoris dels grans magatzems han de coincidir.
 | Youngster | Jovenet |
 | Lass | Noieta |
 | Bug Catcher | Caçainsectes |
-| Hiker | Excursionista |
+| Hiker | Senderista |
 | Fisherman | Pescador |
 | Sailor | Mariner |
-| Biker | Ciclista |
+| Biker | Motorista |
 | Burglar | Lladre |
 | Cooltrainer | Entrenador Cool |
 | Expert | Expert |
@@ -186,7 +186,7 @@ i els directoris dels grans magatzems han de coincidir.
 | Super Nerd | Súper Friqui |
 | Juggler | Malabarista |
 | Camper | Campista |
-| Picnicker | Excursionista |
+| Picnicker | Piqueniquera |
 | School Kid | Estudiant |
 | Swimmer | Nedador/a |
 | Beauty | Bellesa |
@@ -241,7 +241,7 @@ i els directoris dels grans magatzems han de coincidir.
 | Modest | Modest |
 | Mild | Suau |
 | Quiet | Tranquil |
-| Bashful | Tímid (vergonyós) |
+| Bashful | Vergonyós |
 | Rash | Impulsiu |
 | Calm | Calmat |
 | Gentle | Gentil |
@@ -306,7 +306,7 @@ i els directoris dels grans magatzems han de coincidir.
 | Full Heal | Cura Total |
 | Escape Rope | Corda d'Escapada |
 | Repel | Repel·lent |
-| HM | MO (Moviment Ocult) |
+| HM | MO (Màquina Oculta, f.: "la MO") |
 | TM | MT (Màquina Tècnica) |
 | Bicycle | Bicicleta |
 | Fishing Rod | Canya de Pescar |
@@ -314,7 +314,7 @@ i els directoris dels grans magatzems han de coincidir.
 | Good Rod | Bona Canya |
 | Super Rod | Supercanya |
 | Surf | Surf |
-| Fly | Volar |
+| Fly | Vol |
 | Strength | Força |
 | Cut | Tall |
 | Flash | Llampec |
@@ -402,6 +402,40 @@ _(La llista completa de decisions per espècie es completarà durant la Fase 2, 
 | slots (slot machines) | escurabutxaques | |
 | Elite (adjectiu) | d'elit | "Elite Four" continua sent Alt Comandament. |
 | Speaker tags | Oak:, Bill:, Mare: | Capitalització normal, no "OAK:". |
+| flinch | retrocedir | "Pot fer retrocedir", "ha retrocedit!" (no "encongir"). |
+| Wild / Foe (prefix) | … salvatge / … rival | Darrere del nom: "Pidgey salvatge". El codi l'afegeix com a sufix. |
+| type names (6 bytes) | Insec., Fant., Elèc., Psíq., Volant | Abreviatures amb punt; al text, el nom complet (tipus Fantasma). |
+| Mail | carta | Com els objectes Carta. |
+| toss (an item) | llençar | No "llançar". |
+| Hail | calabruix | Com el moviment. |
+| units | m, kg, cm | Sistema mètric amb coma decimal: "1,7 m", "6,9 kg". |
+| Itemfinder | Cercaobjectes | |
+| Premier Ball | Premier Ball | Com Ultra Ball, Màster Ball. |
+| Old Sea Map | Mapa Antic | "Mapa Marí Vell" no hi cap (13 bytes). |
+| Cycling Road | Carril Bici | |
+| Sea Cottage | Caseta del Mar | |
+| Charm (Oval/Shiny/Catching) | Amulet … | Com els objectes. |
+| Name Rater | Valorador de Noms | |
+| Quiz Lady | Senyora de les Preguntes | |
+| Apprentice | aprenent / aprenenta | Segons el personatge. |
+| Battle Tent | Carpa de Combat | |
+| Battle Bag | Motxilla de Combat | |
+| Exchange Service Corner | Racó d'Intercanvi | |
+| challenge (Frontier) | repte | No "desafiament". |
+| Frontier symbols | Valentia, Saviesa, Valor, Esperit, Tàctica, Sort, Habilitat | Com al Passi de Frontera. |
+| Contest categories | Frescor, Bellesa, Tendresa, Intel·ligència, Força | |
+| Contest ranks | Normal, Súper, Hiper, Màster | |
+| Judge / appeal | Jutge / actuació | |
+| Drive (items) | Unitat | |
+| nickname | sobrenom | No "malnom". |
+
+### Medalles i Líders
+
+Medalla Roca (Brock), Cascada (Misty), Tro (Lt. Surge), Arc de Sant Martí
+(Erika), Ànima (Koga), Pantà (Sabrina), Volcà (Blaine), Terra (Giovanni).
+Sense article personal: "la Medalla Cascada de Misty", "Soc Blaine". Les MT es
+presenten igual a tot arreu: "La MTxx conté …", amb el nom del moviment de
+`move_names.h`. Rètols: "Gimnàs Pokémon de Ciutat Cerúlia" (d'Illa Cinabri).
 
 ## Notes d'estil
 

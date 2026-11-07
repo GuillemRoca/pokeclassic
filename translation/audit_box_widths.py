@@ -19,11 +19,16 @@ import sys, os, re, json
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from width_audit import blocks, orig, line_widths, W_NORMAL, W_NARROW, ROOT
 
+# (path, limit px, font, asm, label, relative)
+# relative=True: these strings are full of placeholders measured as representative
+# text (width_audit.PLACEHOLDER_TEXT), so a string only fails when it is over the
+# limit AND wider than its English source measured the same way; a long name can
+# overflow the English sentence too, and that is not a translation defect.
 CFG = [
-    ('src/data/text/item_descriptions.h', 109, W_NORMAL, False, 'bag description'),
-    ('src/data/text/abilities.h',         144, W_NORMAL, False, 'ability description'),
-    ('src/battle_message.c',              208, W_NORMAL, False, 'battle message'),
-    ('src/strings.c',                     208, W_NORMAL, False, 'UI / msgbox'),
+    ('src/data/text/item_descriptions.h', 109, W_NORMAL, False, 'bag description', False),
+    ('src/data/text/abilities.h',         144, W_NORMAL, False, 'ability description', False),
+    ('src/battle_message.c',              208, W_NORMAL, False, 'battle message', True),
+    ('src/strings.c',                     208, W_NORMAL, False, 'UI / msgbox', True),
 ]
 
 # Tables whose strings are matched by symbol name rather than by position, for
@@ -50,7 +55,7 @@ def named_blocks(text, name_re):
 
 def audit(report=True):
     out = {}
-    for path, limit, widths, asm, label in CFG:
+    for path, limit, widths, asm, label, relative in CFG:
         new = blocks(open(f'{ROOT}/{path}', encoding='utf-8', errors='replace').read(), asm)
         old = blocks(orig(path), asm)
         over = []
@@ -58,7 +63,7 @@ def audit(report=True):
             if a == b:
                 continue
             w = max(line_widths(b, widths))
-            if w > limit:
+            if w > limit and (not relative or w > max(line_widths(a, widths))):
                 over.append((w, b))
         over.sort(reverse=True)
         out[f'{path} [{label}]'] = (limit, label, over)

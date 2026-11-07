@@ -41,8 +41,11 @@ W_NORMAL = load_widths('gFontNormalLatinGlyphWidths')
 W_NARROW = load_widths('gFontNarrowLatinGlyphWidths')
 W_SHORT  = load_widths('gFontShortLatinGlyphWidths')
 
-def encode(s):
-    """Encode ROM text to bytes; {TOKENS} and escapes resolved via charmap."""
+def encode(s, for_width=False):
+    """Encode ROM text to bytes; {TOKENS} and escapes resolved via charmap.
+
+    for_width=True drops unknown {TOKENS} instead of encoding them as a space,
+    so they measure 0 px."""
     out, i = [], 0
     while i < len(s):
         if s[i] == '{':
@@ -50,7 +53,8 @@ def encode(s):
             tok = s[i+1:j]
             key = tok.split()[0]
             v = CM.get(tok, CM.get(key))
-            if v is None: out.append(0x00)          # unknown control code: ignore
+            if v is None:
+                if not for_width: out.append(0x00)  # unknown control code: ignore
             elif isinstance(v, list): out.extend(v)
             else: out.append(v)
             i = j + 1
@@ -65,14 +69,59 @@ def encode(s):
             i += 1
     return out
 
-def line_widths(s, widths, spacing=0):
-    """Return the pixel width of each rendered line."""
+# Placeholders are measured as representative text, so a line is judged by what
+# it looks like in game rather than by the width of the control bytes. The same
+# table is applied to the English when a check compares against it.
+NAME = 'Jugador'          # 7-letter player / rival / trainer name
+MON = 'Bulbasaur'         # 9-letter species name
+PLACEHOLDER_TEXT = {
+    'PLAYER': NAME, 'RIVAL': NAME, 'KUN': '',
+    'STR_VAR_1': MON, 'STR_VAR_2': MON, 'STR_VAR_3': MON,
+    'B_CURRENT_MOVE': 'Llançaflames', 'B_LAST_MOVE': 'Llançaflames',
+    'B_LAST_ITEM': 'Superpoció',
+    'B_TRAINER1_CLASS': 'Entrenador', 'B_TRAINER2_CLASS': 'Entrenador',
+    'B_BUFF1': 'Velocitat', 'B_BUFF2': 'Velocitat', 'B_BUFF3': 'Velocitat',
+}
+
+def _placeholder(tok):
+    if tok in PLACEHOLDER_TEXT:
+        return PLACEHOLDER_TEXT[tok]
+    if not tok.startswith('B_'):
+        return None
+    if tok.endswith('_NAME_WITH_PREFIX'):
+        return MON + ' salvatge'
+    if 'ABILITY' in tok:
+        return 'Intimidació'
+    if 'MON' in tok or tok.endswith(('ATK_NAME', 'DEF_NAME', 'ACTIVE_NAME', 'ACTIVE_NAME2', 'PARTNER_NAME')) and 'TRAINER' not in tok:
+        return MON
+    if 'NAME' in tok:
+        return NAME
+    if 'PREFIX' in tok or 'TEAM' in tok:
+        return 'rival'
+    return None
+
+def expand_placeholders(s):
+    return re.sub(r'\{([A-Z0-9_]+)\}', lambda m: _placeholder(m.group(1)) if _placeholder(m.group(1)) is not None else m.group(0), s)
+
+def line_widths(s, widths, spacing=0, placeholders=True):
+    """Return the pixel width of each rendered line.
+
+    Control codes (0xFC + id) and unexpanded placeholders (0xFD + id) take no
+    space; placeholders are first replaced by representative text."""
+    if placeholders:
+        s = expand_placeholders(s)
     res, cur = [], 0
-    for b in encode(s):
+    data = encode(s, for_width=True)
+    i = 0
+    while i < len(data):
+        b = data[i]
         if b in (0xFE, 0xFA, 0xFB):   # newline / scroll / paragraph
             res.append(cur); cur = 0
+        elif b in (0xFC, 0xFD):       # control code / placeholder: skip its id byte
+            i += 1
         elif b < len(widths):
             cur += widths[b] + spacing
+        i += 1
     res.append(cur)
     return res
 

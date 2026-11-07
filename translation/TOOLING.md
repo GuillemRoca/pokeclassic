@@ -71,9 +71,26 @@ python3 translation/audit_box_widths.py -v              # every overflowing stri
 python3 translation/audit_box_widths.py dump over.json  # JSON, for scripted re-wrapping
 ```
 
+### How widths are measured
+
+- Glyph widths come from `src/fonts.c`, bytes from `charmap.txt`. The escaped
+  `'\''` entry is parsed, so the apostrophe counts its real 3 px (it used to
+  count 0, under-measuring every elision).
+- Control codes (`{COLOR}`, `{PAUSE}`, `{CLEAR_TO}`…) take no space.
+- Placeholders are replaced by representative text before measuring
+  (`width_audit.PLACEHOLDER_TEXT`): a 7-letter name for `{PLAYER}` and trainer
+  names, `Bulbasaur` for `{STR_VAR_n}` and Pokémon names, `Bulbasaur salvatge`
+  for `{B_*_NAME_WITH_PREFIX}`, `Llançaflames` for moves, `Superpoció` for
+  items, `Intimidació` for abilities.
+- `battle_message.c`, `strings.c` and the move descriptions use a **relative**
+  rule: a string fails only when it is over its limit *and* wider than its
+  English source measured the same way. Long names overflow some English
+  sentences too; that is the engine's limit, not a translation defect.
+
 ### Current state
 
-Both scripts pass: `TOTAL OVER ARRAY LIMIT: 0` and `TOTAL OVERFLOWING: 0`.
+All three scripts pass: `TOTAL OVER ARRAY LIMIT: 0`, `TOTAL OVERFLOWING: 0`, and
+no script line over 216 px.
 
 Getting there meant shortening 181 bag descriptions, 165 ability descriptions and
 4 UI strings. Two things are worth knowing before editing this text again:
@@ -122,6 +139,43 @@ overworld message box. `audit_box_widths.py` does not look at them; this does.
 python3 translation/audit_script_widths.py -v                     # every line over 208 px
 python3 translation/audit_script_widths.py -v data/maps/Route1    # one map, or any path
 ```
+
+### Windows checked by hand
+
+Text the audits cannot attribute to a window was measured against the window
+template that draws it:
+
+| Text | Window | Limit |
+| --- | --- | --- |
+| contest messages during a contest | `WIN_GENERAL_TEXT`, 17 tiles | 136 px |
+| Battle Dome info card (potential, style, win lines) | `sInfoCardWindowTemplates`, 26 tiles | 208 px, 1 line |
+| Lounge 7 move-tutor descriptions | 12 tiles | 96 px × 3 lines |
+| decoration descriptions | 13 tiles | 104 px × 3 lines |
+| characteristics (summary memo) | | 144 px |
+| berry descriptions | | 200 px |
+| PokéGear trainer-list lines (`match_call_messages.h`) | narrow font | 143 px (English max) |
+| met locations in the summary memo | | 137 px |
+| gift ribbon descriptions | | 122 px |
+| easy-chat words | 13-tile word columns | 96 px |
+| Pokédex categories | `char[12]`, x=100 | 11 bytes, 110 px |
+| type names (`gTypeNames`) | battle move-type window | 6 bytes, ~34 px |
+| easy-chat footer options | 28 tiles | 224 px incl. 8 px cursor each |
+
+### Known limitations
+
+- **Battle move names.** The battle move menu prints names in `FONT_NARROW` in
+  8-tile (64 px) windows (`B_WIN_MOVE_NAME_2..4`; slot 1 is 12 tiles). 154
+  Catalan names are wider than 64 px (49 English expansion names are too), so
+  their last letters are clipped in that menu only; everywhere else they are
+  shown in full. Widening the windows to 9 tiles would fit all but 33, but
+  their VRAM blocks (0x318–0x348 on BG0) share addresses with BG1's windows,
+  so it should be done and tested in an emulator, not blind.
+- **Type names** are limited to 6 bytes (`TYPE_NAME_LENGTH`), hence the
+  abbreviations Insec., Fant., Elèc., Psíq.
+- **Region-map popup** is 80 px in the narrow font; "Ciutat EverGrande"
+  (Hoenn, unused here) is 82 px.
+- **Easy-chat word order** (`easy_chat_words_by_letter.h`) is still sorted by
+  the English words.
 
 ### Known limitation of the audit
 
