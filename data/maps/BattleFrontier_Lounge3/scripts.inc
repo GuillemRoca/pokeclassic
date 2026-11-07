@@ -333,84 +333,84 @@ BattleFrontier_Lounge3_Text_ThanksOffYouGo::
 	.string "Au, endavant!$"
 
 BattleFrontier_Lounge3_Text_GetToBattleTowerSingle::
-	.string "Vés a les Sales de Combat\n"
+	.string "Ves a les Sales de Combat\n"
 	.string "Individual de la Torre ràpid!\p"
 	.string "Has de guanyar sí o sí!\n"
 	.string "No ho espatllis!\l"
 	.string "El futur de tots dos en depèn!$"
 
 BattleFrontier_Lounge3_Text_GetToBattleTowerDouble::
-	.string "Vés a les Sales de Combat\n"
+	.string "Ves a les Sales de Combat\n"
 	.string "Doble de la Torre ràpid!\p"
 	.string "Has de guanyar sí o sí!\n"
 	.string "No ho espatllis!\l"
 	.string "El futur de tots dos en depèn!$"
 
 BattleFrontier_Lounge3_Text_GetToBattleTowerMulti::
-	.string "Vés a les Sales de Combat\n"
+	.string "Ves a les Sales de Combat\n"
 	.string "Múltiple de la Torre ràpid!\p"
 	.string "Has de guanyar sí o sí!\n"
 	.string "No ho espatllis!\l"
 	.string "El futur de tots dos en depèn!$"
 
 BattleFrontier_Lounge3_Text_GetToBattleDomeSingle::
-	.string "Vés al Torneig de Combat\n"
+	.string "Ves al Torneig de Combat\n"
 	.string "Individual del Domo ràpid!\p"
 	.string "Has de guanyar sí o sí!\n"
 	.string "No ho espatllis!\l"
 	.string "El futur de tots dos en depèn!$"
 
 BattleFrontier_Lounge3_Text_GetToBattleDomeDouble::
-	.string "Vés al Torneig de Combat\n"
+	.string "Ves al Torneig de Combat\n"
 	.string "Doble del Domo ràpid!\p"
 	.string "Has de guanyar sí o sí!\n"
 	.string "No ho espatllis!\l"
 	.string "El futur de tots dos en depèn!$"
 
 BattleFrontier_Lounge3_Text_GetToBattleFactorySingle::
-	.string "Vés al Torneig d'Intercanvi\n"
+	.string "Ves al Torneig d'Intercanvi\n"
 	.string "Individual de la Fàbrica ràpid!\p"
 	.string "Has de guanyar sí o sí!\n"
 	.string "No ho espatllis!\l"
 	.string "El futur de tots dos en depèn!$"
 
 BattleFrontier_Lounge3_Text_GetToBattleFactoryDouble::
-	.string "Vés al Torneig d'Intercanvi\n"
+	.string "Ves al Torneig d'Intercanvi\n"
 	.string "Doble de la Fàbrica ràpid!\p"
 	.string "Has de guanyar sí o sí!\n"
 	.string "No ho espatllis!\l"
 	.string "El futur de tots dos en depèn!$"
 
 BattleFrontier_Lounge3_Text_GetToBattlePalaceSingle::
-	.string "Vés a les Sales de Combat\n"
+	.string "Ves a les Sales de Combat\n"
 	.string "Individual del Palau ràpid!\p"
 	.string "Has de guanyar sí o sí!\n"
 	.string "No ho espatllis!\l"
 	.string "El futur de tots dos en depèn!$"
 
 BattleFrontier_Lounge3_Text_GetToBattlePalaceDouble::
-	.string "Vés a les Sales de Combat\n"
+	.string "Ves a les Sales de Combat\n"
 	.string "Doble del Palau ràpid!\p"
 	.string "Has de guanyar sí o sí!\n"
 	.string "No ho espatllis!\l"
 	.string "El futur de tots dos en depèn!$"
 
 BattleFrontier_Lounge3_Text_GetToBattleArena::
-	.string "Vés al Torneig KO Fix de\n"
+	.string "Ves al Torneig KO Fix de\n"
 	.string "l'Arena de Combat ràpid!\p"
 	.string "Has de guanyar sí o sí!\n"
 	.string "No ho espatllis!\l"
 	.string "El futur de tots dos en depèn!$"
 
 BattleFrontier_Lounge3_Text_GetToBattlePike::
-	.string "Vés a l'Elecció de Combat\n"
+	.string "Ves a l'Elecció de Combat\n"
 	.string "de la Llança ràpid!\p"
 	.string "Has de guanyar sí o sí!\n"
 	.string "No ho espatllis!\l"
 	.string "El futur de tots dos en depèn!$"
 
 BattleFrontier_Lounge3_Text_GetToBattlePyramid::
-	.string "Vés a la Cerca de Combat\n"
+	.string "Ves a la Cerca de Combat\n"
 	.string "de la Piràmide ràpid!\p"
 	.string "Has de guanyar sí o sí!\n"
 	.string "No ho espatllis!\l"

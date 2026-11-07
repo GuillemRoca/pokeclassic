@@ -144,11 +144,11 @@ PokemonLeague_BrunosRoom_Text_Defeat2::
 
 PokemonLeague_BrunosRoom_Text_PostBattle::
     .string "La meva feina s'ha acabat.\n"
-    .string "Vés a afrontar el proper repte.$"
+    .string "Ves a afrontar el proper repte.$"
 
 PokemonLeague_BrunosRoom_Text_PostBattle2::
 	.string "Ugh! No! Així que el meu\n"
 	.string "entrenament encara és insuficient?\p"
-	.string "...Vés.\p"
+	.string "...Ves.\p"
 	.string "No et preocupis per mi.\n"
 	.string "Continua endavant!$"

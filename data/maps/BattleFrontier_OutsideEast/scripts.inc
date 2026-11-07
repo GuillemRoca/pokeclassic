@@ -327,7 +327,7 @@ BattleFrontier_OutsideEast_Text_BetterThanDaddyAtPokemon:
 
 BattleFrontier_OutsideEast_Text_GoRackUpSomeWinsForDaddy:
 	.string "Au, boniqueta meva!\n"
-	.string "Vés a acumular victòries per al papa!\p"
+	.string "Ves a acumular victòries per al papa!\p"
 	.string "Ets igual que la teva mare,\n"
 	.string "així que dominaràs!$"
 

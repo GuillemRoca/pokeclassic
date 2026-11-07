@@ -32,7 +32,7 @@ CeladonCity_PokemonCenter_1F_EventScript_CooltrainerF::
 
 CeladonCity_PokemonCenter_1F_Text_RodeHereFromFuchsia::
     .string "He vingut des de Fúcsia.\p"
-    .string "El Camí Ciclista és pujada,\n"
+    .string "El Carril Bici fa pujada,\n"
     .string "així que estic esgotada.$"
 
 CeladonCity_PokemonCenter_1F_EventScript_Youngster::
@@ -41,7 +41,7 @@ CeladonCity_PokemonCenter_1F_EventScript_Youngster::
 
 CeladonCity_PokemonCenter_1F_Text_GoToCyclingRoadIfIHadBike::
 	.string "Si tingués una Bicicleta, aniria al\n"
-	.string "Camí Ciclista!$"
+	.string "Carril Bici!$"
 
 CeladonCity_Looker::
 	lock

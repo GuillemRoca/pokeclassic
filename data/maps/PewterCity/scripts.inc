@@ -1134,7 +1134,7 @@ PewterCity_Movement_GymGuideExit::
 
 PewterCity_Text_GoTakeOnBrock::
     .string "Si tens el que cal,\n"
-    .string "vés a enfrontar-te a Brock!$"
+    .string "ves a enfrontar-te a Brock!$"
 
 PewterCity_Text_BrocksLookingForChallengersFollowMe::
     .string "Ets Entrenador, oi?\p"
@@ -1185,7 +1185,7 @@ PewterCity_EventScript_GymSign::
 	end
 
 PewterCity_Text_GymSign::
-	.string "Gimnàs Pokémon de Pedrera\n"
+	.string "Gimnàs Pokémon de Ciutat Pedrera\n"
 	.string "Líder: Brock\l"
 	.string "L'Entrenador Pokémon Dur com la Roca!$"
 

@@ -58,7 +58,7 @@ FuchsiaCity_EventScript_GymSign::
 	end
 
 FuchsiaCity_Text_GymSign::
-    .string "Gimnàs Pokémon de Fúcsia\n"
+    .string "Gimnàs Pokémon de Ciutat Fúcsia\n"
     .string "Líder: Koga\l"
     .string "El Mestre Ninja Verinós$"
 

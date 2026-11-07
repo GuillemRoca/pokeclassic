@@ -413,8 +413,8 @@ BattleFrontier_ReceptionGate_Text_RankingHallInfo:
 	.string "de la Frontera de Combat.$"
 
 BattleFrontier_ReceptionGate_Text_ExchangeCornerInfo:
-	.string "La Cantonada de Serveis d'Intercanvi\n"
-	.string "és a prop de la Torre de Combat.\p"
+	.string "El Racó d'Intercanvi és a prop\n"
+	.string "de la Torre de Combat.\p"
 	.string "Els Punts de Combat guanyats\n"
 	.string "a la Frontera es poden canviar\l"
 	.string "per premis fabulosos allà.$"
@@ -509,5 +509,4 @@ BattleFrontier_ReceptionGate_Text_BattlePointsInfo:
 	.string "combatut brillantment a la\l"
 	.string "Frontera de Combat.\p"
 	.string "Pots canviar-los per premis\n"
-	.string "a la Cantonada de Serveis\l"
-	.string "d'Intercanvi.$"
+	.string "al Racó d'Intercanvi.$"

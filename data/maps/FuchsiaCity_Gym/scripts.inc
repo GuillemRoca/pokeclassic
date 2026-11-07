@@ -367,13 +367,13 @@ FuchsiaCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 FuchsiaCity_Gym_Text_GymStatue::
-    .string "Gimnàs Pokémon de Fúcsia\n"
+    .string "Gimnàs Pokémon de Ciutat Fúcsia\n"
     .string "Líder: Koga\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}$"
 
 FuchsiaCity_Gym_Text_GymStatuePlayerWon::
-    .string "Gimnàs Pokémon de Fúcsia\n"
+    .string "Gimnàs Pokémon de Ciutat Fúcsia\n"
     .string "Líder: Koga\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}, {PLAYER}$"

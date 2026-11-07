@@ -335,7 +335,7 @@ BattleFrontier_Lounge2_Text_DoubleBattleAdvice1::
 	.string "a la Frontera de Combat.$"
 
 BattleFrontier_Lounge2_Text_DoubleBattleAdvice2::
-	.string "Vés amb compte en els combats d'aquí.\p"
+	.string "Ves amb compte en els combats d'aquí.\p"
 	.string "He sentit que hi ha Entrenadors amb\n"
 	.string "estratègies pensades expressament\l"
 	.string "per als Combats Dobles.$"

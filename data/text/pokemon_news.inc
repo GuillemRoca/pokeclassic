@@ -445,7 +445,7 @@ gPokeNewsTextBlendMaster_Ending::
 	.string "no perdis aquesta oportunitat!\l"
 
 
-	.string "Vés a Lilycove ara mateix!\p"
+	.string "Ves a Lilycove ara mateix!\p"
 
 
 	.string "I fins aquí les Notícies Pokémon.$"

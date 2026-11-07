@@ -5671,7 +5671,7 @@ Route124_Text_LilaRoyRegister:
 
 	.string "nosaltres?\l"
 
-	.string "Però vés més fluix, eh?$"
+	.string "Però ves més fluix, eh?$"
 
 
 Route124_Text_RoyNotEnoughMons:

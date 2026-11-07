@@ -315,7 +315,7 @@ PalletTown_ProfessorOaksLab_Text_PikachuJoinedTeam:
 
 PalletTown_ProfessorOaksLab_Text_WhyNotGiveNicknameToMon:
 	.string "Oak: Per què no li poses un\n"
-	.string "malnom al teu nou company?$"
+	.string "sobrenom al teu nou company?$"
 
 PalletTown_ProfessorOaksLab_EventScript_NicknameStarter::
 	setvar VAR_0x8004, 0

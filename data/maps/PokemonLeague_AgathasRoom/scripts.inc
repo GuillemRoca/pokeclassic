@@ -117,7 +117,7 @@ PokemonLeague_AgathasRoom_Text_PostBattle::
 	.string "Ara veig què hi veu aquell\n"
 	.string "vell tòtil en tu.\p"
 	.string "No tinc res més a dir.\n"
-	.string "Au, vés-te'n, criatura!$"
+	.string "Au, ves-te'n, criatura!$"
 
 PokemonLeague_AgathasRoom_Text_PostBattle2::
 	.string "No és estrany que aquell vell\n"
@@ -125,4 +125,4 @@ PokemonLeague_AgathasRoom_Text_PostBattle2::
 	.string "Saps? L'Oak i jo també vam ser\n"
 	.string "bons rivals, com tu i {RIVAL}.\p"
 	.string "Bé, a què esperes?\n"
-	.string "Vés a la següent sala!$"
+	.string "Ves a la següent sala!$"

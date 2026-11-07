@@ -70,7 +70,7 @@ MtMoon_B2F_Text_Grunt3Defeat::
 
 MtMoon_B2F_Text_Grunt3PostBattle::
     .string "Si trobes un fòssil, dona-me'l\n"
-    .string "i vés-te'n!$"
+    .string "i ves-te'n!$"
 
 MtMoon_B2F_EventScript_Grunt4::
 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_4, MtMoon_B2F_Text_Grunt4Intro, MtMoon_B2F_Text_Grunt4Defeat

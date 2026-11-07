@@ -24,7 +24,7 @@ PalletTown_PlayersHouse_1F_Text_BillVisiting::
 	.string "Mare: No sabia que coneixies\n"
 
 
-	.string "el famós PokéManíac, carinyo!\p"
+	.string "el famós Pokémaniàtic, carinyo!\p"
 
 
 	.string "És tot un cavaller!$"

@@ -159,7 +159,7 @@ CeladonCity_EventScript_GymSign::
 	end
 
 CeladonCity_Text_GymSign::
-    .string "Gimnàs Pokémon de Celadó\n"
+    .string "Gimnàs Pokémon de Ciutat Celadó\n"
     .string "Líder: Erika\l"
     .string "La Princesa Amant de la Natura!$"
 

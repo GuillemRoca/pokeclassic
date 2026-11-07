@@ -72,7 +72,7 @@ CeruleanCity_EventScript_GymSign::
 	end
 
 CeruleanCity_Text_GymSign::
-    .string "Gimnàs Pokémon de Cerúlia\n"
+    .string "Gimnàs Pokémon de Ciutat Cerúlia\n"
     .string "Líder: Misty\l"
     .string "La Sirena Intrèpida!$"
 
@@ -352,7 +352,7 @@ CeruleanCity_Text_RivalPostBattle::
 	.string "M'ajudarà molt a omplir\n"
 	.string "la meva Pokédex!\p"
 	.string "Al cap i a la fi, en Bill és\n"
-	.string "famós com a PokéManíac.\p"
+	.string "famós com a Pokémaniàtic.\p"
 	.string "També va inventar el Sistema\n"
 	.string "d'Emmagatzematge Pokémon al PC.\p"
 	.string "Com que fas servir el seu sistema,\n"

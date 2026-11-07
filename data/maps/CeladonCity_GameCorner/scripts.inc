@@ -646,7 +646,7 @@ GameCorner_EventScript_GamblerNoCoinCase::
 	end
 
 GameCorner_Text_DontHaveCoinCase::
-    .string "Ei! Vés a buscar el Moneder\n"
+    .string "Ei! Ves a buscar el Moneder\n"
     .string "per poder guardar-les!$"
 
 
@@ -715,7 +715,7 @@ GameCorner_EventScript_RocketBattle::
 GameCorner_Text_GruntIntro::
     .string "Ei! Què fas!?\n"
     .string "No havies de prémer això!\p"
-    .string "Vés-te'n, o ja veuràs!$"
+    .string "Ves-te'n, o ja veuràs!$"
 
 GameCorner_Text_GruntDefeat::
     .string "Caram!$"

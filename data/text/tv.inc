@@ -3205,7 +3205,7 @@ TrendWatcher_Text_MaleTaughtMePhrase::
 	.string "va ser el que em va ensenyar\l"
 
 
-	.string "{STR_VAR_3}, de Poble Arreleta,\l"
+	.string "{STR_VAR_3}, de Poble Littleroot,\l"
 
 
 	.string "com a última moda…$"
@@ -3219,7 +3219,7 @@ TrendWatcher_Text_FemaleTaughtMePhrase::
 	.string "va ser el que em va ensenyar\l"
 
 
-	.string "{STR_VAR_3}, de Poble Arreleta,\l"
+	.string "{STR_VAR_3}, de Poble Littleroot,\l"
 
 
 	.string "com a última moda…$"

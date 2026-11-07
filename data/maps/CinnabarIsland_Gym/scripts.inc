@@ -976,13 +976,13 @@ CinnabarIsland_Gym_Text_GymGuyPostVictory::
     .string "Has vençut aquell fogós!$"
 
 CinnabarIsland_Gym_Text_GymStatue::
-    .string "Gimnàs Pokémon de Cinabri\n"
+    .string "Gimnàs Pokémon d'Illa Cinabri\n"
     .string "Líder: Blaine\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}$"
 
 CinnabarIsland_Gym_Text_GymStatuePlayerWon::
-    .string "Gimnàs Pokémon de Cinabri\n"
+    .string "Gimnàs Pokémon d'Illa Cinabri\n"
     .string "Líder: Blaine\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}, {PLAYER}$"

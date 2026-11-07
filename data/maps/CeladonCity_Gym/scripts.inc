@@ -344,7 +344,7 @@ CeladonCity_Gym_EventScript_GymStatue::
 	end
 
 CeladonCity_Gym_Text_GymStatue::
-    .string "Gimnàs Pokémon de Celadó\n"
+    .string "Gimnàs Pokémon de Ciutat Celadó\n"
     .string "Líder: Erika\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}$"
@@ -355,7 +355,7 @@ CeladonCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 CeladonCity_Gym_Text_GymStatuePlayerWon::
-    .string "Gimnàs Pokémon de Celadó\n"
+    .string "Gimnàs Pokémon de Ciutat Celadó\n"
     .string "Líder: Erika\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}, {PLAYER}$"
