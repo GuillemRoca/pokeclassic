@@ -3,8 +3,9 @@ const u8 DecorDesc_SMALL_DESK[] = _(
         "per a una persona.");
 
 const u8 DecorDesc_POKEMON_DESK[] = _(
-    "Un escriptori petit amb\n"
-        "forma de Poké Ball.");
+    "Un escriptori petit\n"
+        "amb forma de\n"
+        "Poké Ball.");
 
 const u8 DecorDesc_HEAVY_DESK[] = _(
     "Un escriptori gran\n"
@@ -22,22 +23,22 @@ const u8 DecorDesc_COMFORT_DESK[] = _(
         "decoracions.");
 
 const u8 DecorDesc_PRETTY_DESK[] = _(
-    "Un escriptori enorme\n"
+    "Escriptori enorme\n"
         "de vidre. Hi caben\n"
         "moltes decoracions.");
 
 const u8 DecorDesc_BRICK_DESK[] = _(
-    "Un escriptori enorme\n"
+    "Escriptori enorme\n"
         "de maó. Hi caben\n"
         "moltes decoracions.");
 
 const u8 DecorDesc_CAMP_DESK[] = _(
-    "Un escriptori enorme\n"
+    "Escriptori enorme\n"
         "de troncs. Posa-hi\n"
         "moltes decoracions.");
 
 const u8 DecorDesc_HARD_DESK[] = _(
-    "Un escriptori enorme\n"
+    "Escriptori enorme\n"
         "de roca. Hi caben\n"
         "moltes decoracions.");
 
@@ -46,8 +47,9 @@ const u8 DecorDesc_SMALL_CHAIR[] = _(
         "per a una persona.");
 
 const u8 DecorDesc_POKEMON_CHAIR[] = _(
-    "Una cadira petita amb\n"
-        "forma de Poké Ball.");
+    "Una cadira petita\n"
+        "amb forma de\n"
+        "Poké Ball.");
 
 const u8 DecorDesc_HEAVY_CHAIR[] = _(
     "Una cadira petita\n"
@@ -110,19 +112,19 @@ const u8 DecorDesc_RED_BRICK[] = _(
         "posar decoracions.");
 
 const u8 DecorDesc_YELLOW_BRICK[] = _(
-    "Un maó de color groc.\n"
-        "Posa-hi decoracions\n"
-        "a sobre.");
+    "Un maó de color\n"
+        "groc. S'hi poden\n"
+        "posar decoracions.");
 
 const u8 DecorDesc_BLUE_BRICK[] = _(
-    "Un maó de color blau.\n"
-        "Posa-hi decoracions\n"
-        "a sobre.");
+    "Un maó de color\n"
+        "blau. S'hi poden\n"
+        "posar decoracions.");
 
 const u8 DecorDesc_RED_BALLOON[] = _(
-    "Un globus vermell ple\n"
-        "d'aigua. Rebenta si\n"
-        "el trepitges.");
+    "Un globus vermell\n"
+        "ple d'aigua. Rebenta\n"
+        "si el trepitges.");
 
 const u8 DecorDesc_BLUE_BALLOON[] = _(
     "Un globus blau ple\n"
@@ -135,14 +137,14 @@ const u8 DecorDesc_YELLOW_BALLOON[] = _(
         "el trepitges.");
 
 const u8 DecorDesc_RED_TENT[] = _(
-    "Una tenda roja gran.\n"
-        "T'hi pots amagar\n"
-        "a dins.");
+    "Una tenda gran i\n"
+        "roja. T'hi pots\n"
+        "amagar a dins.");
 
 const u8 DecorDesc_BLUE_TENT[] = _(
-    "Una tenda blava gran.\n"
-        "T'hi pots amagar\n"
-        "a dins.");
+    "Una tenda gran i\n"
+        "blava. T'hi pots\n"
+        "amagar a dins.");
 
 const u8 DecorDesc_SOLID_BOARD[] = _(
     "Col·loca'l sobre un\n"
@@ -150,16 +152,17 @@ const u8 DecorDesc_SOLID_BOARD[] = _(
         "l'altre costat.");
 
 const u8 DecorDesc_SLIDE[] = _(
-    "Usa'l per lliscar\n"
-        "des de la plataforma.");
+    "Usa'l per baixar\n"
+        "lliscant de la\n"
+        "plataforma.");
 
 const u8 DecorDesc_FENCE_LENGTH[] = _(
-    "Una tanca petita que\n"
-        "bloqueja el pas.");
+    "Una tanca petita\n"
+        "que bloqueja el pas.");
 
 const u8 DecorDesc_FENCE_WIDTH[] = _(
-    "Una tanca petita que\n"
-        "bloqueja el pas.");
+    "Una tanca petita\n"
+        "que bloqueja el pas.");
 
 const u8 DecorDesc_TIRE[] = _(
     "Un pneumàtic vell i\n"
@@ -181,19 +184,19 @@ const u8 DecorDesc_BREAKABLE_DOOR[] = _(
         "passar directament.");
 
 const u8 DecorDesc_SAND_ORNAMENT[] = _(
-    "Un ornament de sorra.\n"
-        "S'esmicola si el\n"
-        "toques.");
+    "Un ornament fet de\n"
+        "sorra. S'esmicola si\n"
+        "el toques.");
 
 const u8 DecorDesc_SILVER_SHIELD[] = _(
-    "Premi per 50\n"
-        "victòries seguides a\n"
-        "la Torre de Combat.");
+    "Premi de la Torre de\n"
+        "Combat per 50\n"
+        "victòries seguides.");
 
 const u8 DecorDesc_GOLD_SHIELD[] = _(
-    "Premi per 100\n"
-        "victòries seguides a\n"
-        "la Torre de Combat.");
+    "Premi de la Torre de\n"
+        "Combat per 100\n"
+        "victòries seguides.");
 
 const u8 DecorDesc_GLASS_ORNAMENT[] = _(
     "Una rèplica de vidre\n"
@@ -215,94 +218,94 @@ const u8 DecorDesc_CUTE_TV[] = _(
         "Skitty.");
 
 const u8 DecorDesc_GLITTER_MAT[] = _(
-    "Una catifa estranya\n"
-        "que brilla si la\n"
+    "Una catifa rara que\n"
+        "brilla si la\n"
         "trepitges.");
 
 const u8 DecorDesc_JUMP_MAT[] = _(
-    "Una catifa trampa que\n"
-        "salta quan la\n"
+    "Una catifa trampa\n"
+        "que salta quan la\n"
         "trepitges.");
 
 const u8 DecorDesc_SPIN_MAT[] = _(
-    "Una catifa trampa que\n"
-        "fa girar quan la\n"
+    "Una catifa trampa\n"
+        "que gira quan la\n"
         "trepitges.");
 
 const u8 DecorDesc_C_LOW_NOTE_MAT[] = _(
-    "Una catifa que sona\n"
-        "un Do greu quan la\n"
-        "trepitges.");
+    "Una catifa que fa\n"
+        "sonar un Do greu\n"
+        "quan la trepitges.");
 
 const u8 DecorDesc_D_NOTE_MAT[] = _(
-    "Una catifa que sona\n"
-        "un Re quan la\n"
+    "Una catifa que fa\n"
+        "sonar un Re quan la\n"
         "trepitges.");
 
 const u8 DecorDesc_E_NOTE_MAT[] = _(
-    "Una catifa que sona\n"
-        "un Mi quan la\n"
+    "Una catifa que fa\n"
+        "sonar un Mi quan la\n"
         "trepitges.");
 
 const u8 DecorDesc_F_NOTE_MAT[] = _(
-    "Una catifa que sona\n"
-        "un Fa quan la\n"
+    "Una catifa que fa\n"
+        "sonar un Fa quan la\n"
         "trepitges.");
 
 const u8 DecorDesc_G_NOTE_MAT[] = _(
-    "Una catifa que sona\n"
-        "un Sol quan la\n"
+    "Una catifa que fa\n"
+        "sonar un Sol quan la\n"
         "trepitges.");
 
 const u8 DecorDesc_A_NOTE_MAT[] = _(
-    "Una catifa que sona\n"
-        "un La quan la\n"
+    "Una catifa que fa\n"
+        "sonar un La quan la\n"
         "trepitges.");
 
 const u8 DecorDesc_B_NOTE_MAT[] = _(
-    "Una catifa que sona\n"
-        "un Si quan la\n"
+    "Una catifa que fa\n"
+        "sonar un Si quan la\n"
         "trepitges.");
 
 const u8 DecorDesc_C_HIGH_NOTE_MAT[] = _(
-    "Una catifa que sona\n"
-        "un Do agut quan la\n"
-        "trepitges.");
+    "Una catifa que fa\n"
+        "sonar un Do agut\n"
+        "quan la trepitges.");
 
 const u8 DecorDesc_SURF_MAT[] = _(
-    "Una catifa amb disseny\n"
-        "de Surf. Posa-hi\n"
-        "objectes a sobre.");
+    "Una catifa amb\n"
+        "disseny de Surf.\n"
+        "Posa-hi objectes.");
 
 const u8 DecorDesc_THUNDER_MAT[] = _(
-    "Una catifa amb disseny\n"
-        "de Tro. Posa-hi\n"
-        "objectes a sobre.");
+    "Una catifa amb\n"
+        "disseny de Tro.\n"
+        "Posa-hi objectes.");
 
 const u8 DecorDesc_FIRE_BLAST_MAT[] = _(
-    "Una catifa amb disseny\n"
-        "d'Explosió de Foc.\n"
+    "Una catifa amb\n"
+        "disseny d'Infern.\n"
         "Posa-hi objectes.");
 
 const u8 DecorDesc_POWDER_SNOW_MAT[] = _(
-    "Una catifa amb disseny\n"
-        "de Neu en Pols.\n"
+    "Catifa amb disseny\n"
+        "de Pols de Neu.\n"
         "Posa-hi objectes.");
 
 const u8 DecorDesc_ATTRACT_MAT[] = _(
-    "Una catifa amb disseny\n"
-        "d'Atracció. Posa-hi\n"
-        "objectes a sobre.");
+    "Una catifa amb\n"
+        "disseny d'Atracció.\n"
+        "Posa-hi objectes.");
 
 const u8 DecorDesc_FISSURE_MAT[] = _(
-    "Una catifa amb disseny\n"
-        "de Fissura. Posa-hi\n"
-        "objectes a sobre.");
+    "Una catifa amb\n"
+        "disseny d'Esquerda.\n"
+        "Posa-hi objectes.");
 
 const u8 DecorDesc_SPIKES_MAT[] = _(
-    "Una catifa amb disseny\n"
-        "de Punxes. Posa-hi\n"
-        "objectes a sobre.");
+    "Una catifa amb\n"
+        "disseny de Punxes.\n"
+        "Posa-hi objectes.");
 
 const u8 DecorDesc_BALL_POSTER[] = _(
     "Un pòster petit\n"
@@ -310,12 +313,14 @@ const u8 DecorDesc_BALL_POSTER[] = _(
         "Poké Balls.");
 
 const u8 DecorDesc_GREEN_POSTER[] = _(
-    "Un pòster petit amb\n"
-        "un dibuix de Treecko.");
+    "Un pòster petit\n"
+        "amb un dibuix de\n"
+        "Treecko.");
 
 const u8 DecorDesc_RED_POSTER[] = _(
-    "Un pòster petit amb\n"
-        "un dibuix de Torchic.");
+    "Un pòster petit\n"
+        "amb un dibuix de\n"
+        "Torchic.");
 
 const u8 DecorDesc_BLUE_POSTER[] = _(
     "Un pòster petit amb\n"
@@ -327,24 +332,27 @@ const u8 DecorDesc_CUTE_POSTER[] = _(
 
 const u8 DecorDesc_PIKA_POSTER[] = _(
     "Un pòster gran amb\n"
-        "un dibuix de Pikachu\n"
-        "i Pichu.");
+        "un dibuix de\n"
+        "Pikachu i Pichu.");
 
 const u8 DecorDesc_LONG_POSTER[] = _(
     "Un pòster gran amb\n"
-        "un dibuix de Seviper.");
+        "un dibuix de\n"
+        "Seviper.");
 
 const u8 DecorDesc_SEA_POSTER[] = _(
-    "Un pòster gran amb un\n"
-        "dibuix de Relicanth.");
+    "Un pòster gran amb\n"
+        "un dibuix de\n"
+        "Relicanth.");
 
 const u8 DecorDesc_SKY_POSTER[] = _(
     "Un pòster gran amb\n"
         "un dibuix de Wingull.");
 
 const u8 DecorDesc_KISS_POSTER[] = _(
-    "Un pòster gran amb un\n"
-        "dibuix de Smoochum.");
+    "Un pòster gran amb\n"
+        "un dibuix de\n"
+        "Smoochum.");
 
 const u8 DecorDesc_PICHU_DOLL[] = _(
     "Una nina de Pichu.\n"
@@ -367,17 +375,17 @@ const u8 DecorDesc_TOGEPI_DOLL[] = _(
         "catifa o escriptori.");
 
 const u8 DecorDesc_CYNDAQUIL_DOLL[] = _(
-    "Una nina de Cyndaquil.\n"
+    "Nina de Cyndaquil.\n"
         "Col·loca-la en una\n"
         "catifa o escriptori.");
 
 const u8 DecorDesc_CHIKORITA_DOLL[] = _(
-    "Una nina de Chikorita.\n"
+    "Nina de Chikorita.\n"
         "Col·loca-la en una\n"
         "catifa o escriptori.");
 
 const u8 DecorDesc_TOTODILE_DOLL[] = _(
-    "Una nina de Totodile.\n"
+    "Nina de Totodile.\n"
         "Col·loca-la en una\n"
         "catifa o escriptori.");
 
@@ -392,7 +400,7 @@ const u8 DecorDesc_MEOWTH_DOLL[] = _(
         "catifa o escriptori.");
 
 const u8 DecorDesc_CLEFAIRY_DOLL[] = _(
-    "Una nina de Clefairy.\n"
+    "Nina de Clefairy.\n"
         "Col·loca-la en una\n"
         "catifa o escriptori.");
 
@@ -402,12 +410,12 @@ const u8 DecorDesc_DITTO_DOLL[] = _(
         "catifa o escriptori.");
 
 const u8 DecorDesc_SMOOCHUM_DOLL[] = _(
-    "Una nina de Smoochum.\n"
+    "Nina de Smoochum.\n"
         "Col·loca-la en una\n"
         "catifa o escriptori.");
 
 const u8 DecorDesc_TREECKO_DOLL[] = _(
-    "Una nina de Treecko.\n"
+    "Nina de Treecko.\n"
         "Col·loca-la en una\n"
         "catifa o escriptori.");
 
@@ -482,12 +490,12 @@ const u8 DecorDesc_ROUND_CUSHION[] = _(
         "catifa o escriptori.");
 
 const u8 DecorDesc_KISS_CUSHION[] = _(
-    "Un coixí de Smoochum.\n"
+    "Coixí de Smoochum.\n"
         "Col·loca'l en una\n"
         "catifa o escriptori.");
 
 const u8 DecorDesc_ZIGZAG_CUSHION[] = _(
-    "Un coixí de Zigzagoon.\n"
+    "Coixí de Zigzagoon.\n"
         "Col·loca'l en una\n"
         "catifa o escriptori.");
 
@@ -502,24 +510,24 @@ const u8 DecorDesc_DIAMOND_CUSHION[] = _(
         "catifa o escriptori.");
 
 const u8 DecorDesc_BALL_CUSHION[] = _(
-    "Un coixí de Ball.\n"
+    "Coixí de Poké Ball.\n"
         "Col·loca'l en una\n"
         "catifa o escriptori.");
 
 const u8 DecorDesc_GRASS_CUSHION[] = _(
     "Un coixí amb marca\n"
-        "de planta. Col·loca'l\n"
-        "en catifa o escr.");
+        "de planta. Posa'l en\n"
+        "catifa o escriptori.");
 
 const u8 DecorDesc_FIRE_CUSHION[] = _(
     "Un coixí amb marca\n"
-        "de foc. Col·loca'l\n"
-        "en catifa o escr.");
+        "de foc. Posa'l en\n"
+        "catifa o escriptori.");
 
 const u8 DecorDesc_WATER_CUSHION[] = _(
     "Un coixí amb marca\n"
-        "d'aigua. Col·loca'l\n"
-        "en catifa o escr.");
+        "d'aigua. Posa'l en\n"
+        "catifa o escriptori.");
 
 const u8 DecorDesc_SNORLAX_DOLL[] = _(
     "Una nina gran.\n"

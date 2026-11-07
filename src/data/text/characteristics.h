@@ -25,7 +25,7 @@ static const u8 sCharacteristic23[] = _("Odia perdre.");
 static const u8 sCharacteristic24[] = _("Li agrada relaxar-se.");
 static const u8 sCharacteristic25[] = _("Irascible.");
 static const u8 sCharacteristic26[] = _("Bona perseverança.");
-static const u8 sCharacteristic27[] = _("Ràpid per fugir.");
+static const u8 sCharacteristic27[] = _("Fuig de seguida.");
 static const u8 sCharacteristic28[] = _("Molt primmirat.");
 static const u8 sCharacteristic29[] = _("Una mica tossut.");
 
@@ -34,7 +34,7 @@ static const u8 sFlavorDry[] = _("Li agrada el menjar {COLOR 5}{SHADOW 6}sec{COL
 static const u8 sFlavorSweet[] = _("Li agrada el menjar {COLOR 5}{SHADOW 6}dolç{COLOR 7}{SHADOW 8}.");
 static const u8 sFlavorBitter[] = _("Li agrada el menjar {COLOR 5}{SHADOW 6}amarg{COLOR 7}{SHADOW 8}.");
 static const u8 sFlavorSour[] = _("Li agrada el menjar {COLOR 5}{SHADOW 6}àcid{COLOR 7}{SHADOW 8}.");
-static const u8 sFlavorNeutral[] = _("Menja qualsevol cosa amb gust.");
+static const u8 sFlavorNeutral[] = _("Menja de tot amb gust.");
 
 const u8 *const gCharacteristicPointers[30] =
 {
