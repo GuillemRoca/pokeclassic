@@ -22,7 +22,7 @@ Route23_EventScript_VictoryRoadGateSign::
 	end
 
 Route23_Text_VictoryRoadGateSign::
-    .string "Porta del Camí de la Victòria -\n"
+    .string "Porta del Camí Victòria -\n"
     .string "Lliga Pokémon$"
 
 Route23_EventScript_ItemTM10::

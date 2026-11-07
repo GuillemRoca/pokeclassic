@@ -29,7 +29,8 @@ VermilionCity_EventScript_CitySign::
 
 VermilionCity_Text_CitySign::
     .string "Ciutat Vermella\n"
-    .string "El Port de les Postes de Sol$"
+    .string "El port de les postes de sol\l"
+    .string "exquisides$"
 
 @TODO: Change text depending on Snorlax State
 VermilionCity_EventScript_SnorlaxNotice::
@@ -40,9 +41,9 @@ VermilionCity_Text_SnorlaxBlockingRoute12::
     .string "AVÍS!\p"
     .string "La Ruta 12 pot estar bloquejada\n"
     .string "per un Pokémon adormit.\p"
-    .string "Desvia't pel Túnel Roca cap a\n"
+    .string "Desvia't pel Túnel Rocós cap a\n"
     .string "Poble Lavanda.\p"
-    .string "Policia de Vermella$"
+    .string "Policia de Ciutat Vermella$"
 
 VermilionCity_EventScript_PokemonFanClubSign::
 	msgbox VermilionCity_Text_PokemonFanClubSign, MSGBOX_SIGN
@@ -50,7 +51,8 @@ VermilionCity_EventScript_PokemonFanClubSign::
 
 VermilionCity_Text_PokemonFanClubSign::
     .string "Club de Fans Pokémon\n"
-    .string "Tots els fans Pokémon benvinguts!$"
+    .string "Tots els fans dels Pokémon hi\l"
+    .string "són benvinguts!$"
 
 VermilionCity_EventScript_GymSign::
 	lockall
@@ -59,16 +61,16 @@ VermilionCity_EventScript_GymSign::
 	end
 
 VermilionCity_Text_GymSign::
-    .string "Gimnàs Pokémon de Vermella\n"
+    .string "Gimnàs Pokémon de Ciutat Vermella\n"
     .string "Líder: Lt. Surge\l"
-    .string "El Lloctinent Llampec!$"
+    .string "El Tinent Llampec!$"
 
 VermilionCity_EventScript_HarborSign::
 	msgbox VermilionCity_Text_VermilionHarbor, MSGBOX_SIGN
 	end
 
 VermilionCity_Text_VermilionHarbor::
-    .string "Port de Vermella$"
+    .string "Port de Ciutat Vermella$"
 
 VermilionCity_EventScript_ProfOakTrigger1::
 	lockall
@@ -134,20 +136,19 @@ VermilionCity_Text_VisitedSSAnne::
 	.string "presentació sobre la Pokédex!\p"
 	.string "Què, no sabies que hi seria?\n"
 	.string "Quina llàstima...\p"
-	.string "Oh! Ja ho sé! Tens un Mòbil,\n"
+	.string "Oh! Ja ho sé! Tens mòbil,\n"
 	.string "oi? Et donaré el meu número!\p"
-	.string "Així, podria contactar-te si\n"
-	.string "sorgeix alguna cosa. I si vols,\l"
-	.string "pots trucar-me per avaluar la\l"
-	.string "teva Pokédex mentre ets al\l"
-	.string "camp.$"
+	.string "Així et podré avisar si sorgeix\n"
+	.string "alguna cosa més. I, si vols, pots\l"
+	.string "trucar-me perquè t'avaluï la\l"
+	.string "Pokédex encara que siguis lluny.$"
 
 VermilionCity_Text_EnjoySSAnne::
 	.string "Oak: M'ha agradat veure't!\n"
-	.string "Gaudeix del SS Anna.\p"
-	.string "Hi ha molts entrenadors forts\n"
-	.string "reunint-s'hi, però no et\l"
-	.string "distreguis de la Pokédex!$"
+	.string "Passa-ho bé al SS Anna.\p"
+	.string "S'hi reuneixen molts Entrenadors\n"
+	.string "forts, però que no et distreguin\l"
+	.string "de la Pokédex!$"
 
 VermilionCity_EventScript_OakApproachPlayer1::
 	applymovement LOCALID_OAK, Movement_OakDockEntrance1
@@ -239,7 +240,7 @@ VermilionCity_EventScript_OldMan1SSAnneLeft::
 
 VermilionCity_Text_SSAnneHasDepartedForYear::
     .string "Així que el SS Anna ha marxat?\p"
-    .string "Tornarà a Vermella cap a\n"
+    .string "Tornarà a Ciutat Vermella cap a\n"
     .string "aquesta època l'any que ve.$"
 
 VermilionCity_EventScript_Woman::
@@ -285,7 +286,7 @@ VermilionCity_EventScript_Sailor::
 VermilionCity_Text_SSAnneVisitsOnceAYear::
     .string "El SS Anna és un famós creuer\n"
     .string "de luxe.\p"
-    .string "Visita Vermella un cop l'any.$"
+    .string "Visita Ciutat Vermella un cop l'any.$"
 
 VermilionCity_EventScript_FerrySailor::
 	lock
@@ -308,8 +309,8 @@ VermilionCity_Text_TheShipSetSail::
     .string "El vaixell ha salpat.$"
 
 VermilionCity_EventScript_SSTidalArrived::
-	.string "N'has sentit a parlar?\p"
-	.string "Un nou vaixell, el S.S. Tidal, ha\n"
+	.string "Ho has sentit?\p"
+	.string "Un nou vaixell, el SS Tidal, ha\n"
 	.string "arribat al port!$"
 
 VermilionCity_EventScript_TicketCheckTrigger1::
@@ -346,7 +347,7 @@ VermilionCity_Text_DoYouHaveATicket::
     .string "Disculpa, tens un bitllet?$"
 
 VermilionCity_Text_FlashedSSTicket::
-    .string "{PLAYER} ha ensenyat el BITLLET!$"
+    .string "{PLAYER} ha ensenyat el Bitllet S.S.!$"
 
 VermilionCity_Text_SailorGreat::
     .string "Mariner: Genial!\n"
@@ -388,7 +389,8 @@ VermilionCity_EventScript_NoTicket::
 
 VermilionCity_Text_DontHaveNeededSSTicket::
     .string "Ho sento!\p"
-    .string "Necessites un Bitllet per pujar.$"
+    .string "Necessites el Bitllet S.S. per\n"
+    .string "pujar a bord.$"
 
 VermilionCity_EventScript_MoveSailor1::
 	applymovement LOCALID_SAILOR, Movement_MoveSailor1
@@ -534,16 +536,16 @@ VermilionCity_Text_PlayerFlashedBadge::
 
 VermilionCity_Text_AStrongTrainer::
 	.string "Agent: Oh! Tens la Medalla Tro?\p"
-	.string "Has de ser un entrenador molt fort.\p"
+	.string "Deus ser un Entrenador molt fort.\p"
 	.string "Què dius?\p"
 	.string "Dius que respondràs per aquest\n"
 	.string "Pokémon?\p"
 	.string "...\p"
 	.string "No sé què dirà el meu cap sobre\n"
 	.string "això, però tinc un bon pressentiment\l"
-	.string "sobre tu.\p"
-	.string "Has demostrat les teves habilitats\n"
-	.string "com a entrenador Pokémon.\p"
+	.string "amb tu.\p"
+	.string "Al cap i a la fi, has demostrat\n"
+	.string "que ets un bon Entrenador Pokémon.\p"
 	.string "Potser un bon model a seguir és\n"
 	.string "el que necessita aquest Pokémon!$"
 
@@ -561,7 +563,7 @@ VermilionCity_EventScript_DontGiveSquirtle::
 
 VermilionCity_Text_SquirtleIsAMenace::
 	.string "Agent: Enrere, ciutadà!\p"
-	.string "Aquest Squirtle és un perillós!\p"
+	.string "Aquest Squirtle és un perill públic!\p"
 	.string "Ha estat cometent delictes per\n"
 	.string "tota Ciutat Vermella!\p"
 	.string "L'he acorralat, però espero\n"
@@ -581,8 +583,8 @@ VermilionCity_EventScript_JennyGaveSquirtle::
 	end
 
 VermilionCity_Text_JennyGaveSquirtle::
-	.string "Primer van ser Motards i Lladres,\n"
-	.string "i després l'Equip Rocket.\p"
+	.string "Primer van ser els Ciclistes i els\n"
+	.string "Lladres, i després l'Equip Rocket.\p"
 	.string "Aquesta feina ja és prou difícil\n"
 	.string "sense que els Pokémon també\l"
 	.string "es dediquin al crim!$"

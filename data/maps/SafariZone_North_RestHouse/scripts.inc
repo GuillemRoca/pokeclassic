@@ -24,7 +24,7 @@ SafariZone_North_RestHouse_EventScript_Gentleman::
 	end
 
 SafariZone_East_Text_MyEeveeEvolvedIntoFlareon::
-    .string "El meu Eevee va evolucionar a\n"
+    .string "El meu Eevee va evolucionar en\n"
     .string "Flareon.\p"
     .string "Però l'Eevee d'un amic es va\n"
     .string "convertir en Vaporeon. Per què?$"
@@ -49,8 +49,8 @@ SafariZone_North_RestHouse_EventScript_BaldingMan::
 SafariZone_North_RestHouse_Text_KogaPatrolsSafariEverySoOften::
     .string "La Zona Safari és enorme, no\n"
     .string "trobes?\p"
-    .string "El Líder del Gimnàs de Fúcsia,\n"
-    .string "Koga, patrulla els terrenys\l"
-    .string "de tant en tant.\p"
+    .string "En Koga, el Líder del Gimnàs de\n"
+    .string "Ciutat Fúcsia, patrulla els\l"
+    .string "terrenys de tant en tant.\p"
     .string "Gràcies a ell, podem jugar aquí\n"
     .string "sabent que estem segurs.$"

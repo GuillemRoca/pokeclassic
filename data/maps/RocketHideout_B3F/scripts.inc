@@ -8,7 +8,8 @@ RocketHideout_B3F_EventScript_Grunt1::
 
 RocketHideout_B3F_Text_Grunt1Intro::
     .string "Deixa de ficar-te en els\n"
-    .string "assumptes de l'Equip Rocket!$"
+    .string "assumptes de l'Equip Rocket,\l"
+    .string "o te'n penediràs!$"
 
 RocketHideout_B3F_Text_Grunt1Defeat::
     .string "Ai!\n"
@@ -34,8 +35,8 @@ RocketHideout_B3F_Text_Grunt2Defeat::
 
 RocketHideout_B3F_Text_Grunt2PostBattle::
     .string "Endavant, ves-hi!\p"
-    .string "Però no pots fer servir\n"
-    .string "l'ascensor sense la Clau.$"
+    .string "Però no pots fer servir l'ascensor\n"
+    .string "sense la Clau de l'Ascensor.$"
 
 RocketHideout_B3F_EventScript_ItemRareCandy::
 	finditem ITEM_RARE_CANDY, 1

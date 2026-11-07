@@ -25,7 +25,7 @@ SaffronCity_Gym_Text_JohanDefeat::
 
 SaffronCity_Gym_Text_JohanPostBattle::
     .string "Els Pokémon Psíquics només temen\n"
-    .string "fantasmes i insectes!$"
+    .string "els fantasmes i els insectes!$"
 
 SaffronCity_Gym_EventScript_Tyron::
 	trainerbattle_single TRAINER_PSYCHIC_TRISH, SaffronCity_Gym_Text_TyronIntro, SaffronCity_Gym_Text_TyronDefeat
@@ -41,7 +41,7 @@ SaffronCity_Gym_Text_TyronDefeat::
     .string "No m'ho crec!$"
 
 SaffronCity_Gym_Text_TyronPostBattle::
-    .string "Sabrina acaba de derrotar el\n"
+    .string "La Sabrina acaba d'escombrar el\n"
     .string "Mestre de Karate del costat.$"
 
 SaffronCity_Gym_EventScript_Cameron::
@@ -50,8 +50,8 @@ SaffronCity_Gym_EventScript_Cameron::
 	end
 
 SaffronCity_Gym_Text_CameronIntro::
-    .string "Sabrina és jove, però és la\n"
-    .string "nostra Líder d'alt nivell.\p"
+    .string "La Sabrina és jove, però també és\n"
+    .string "la nostra Líder, i és molt hàbil.\p"
     .string "No hi arribaràs fàcilment!$"
 
 SaffronCity_Gym_Text_CameronDefeat::
@@ -59,10 +59,10 @@ SaffronCity_Gym_Text_CameronDefeat::
     .string "Fora de combat!$"
 
 SaffronCity_Gym_Text_CameronPostBattle::
-    .string "Hi havia dos Gimnasos Pokémon\n"
-    .string "a Safrà.\p"
-    .string "El Dojo de Lluita del costat va\n"
-    .string "perdre l'estatus de Gimnàs.\p"
+    .string "Abans hi havia dos Gimnasos\n"
+    .string "Pokémon a Ciutat Safrà.\p"
+    .string "Però el Dojo de Lluita del costat\n"
+    .string "va perdre l'estatus de Gimnàs.\p"
     .string "Els vam esclafar quan es va\n"
     .string "decidir tenir-ne un de sol.$"
 
@@ -72,10 +72,10 @@ SaffronCity_Gym_EventScript_Preston::
 	end
 
 SaffronCity_Gym_Text_PrestonIntro::
-    .string "El Gimnàs Pokémon de Safrà és\n"
-    .string "famós per entrenar psíquics.\p"
-    .string "Vols veure Sabrina, oi?\n"
-    .string "Ho puc notar!$"
+    .string "El Gimnàs Pokémon de Ciutat Safrà\n"
+    .string "és famós per entrenar psíquics.\p"
+    .string "Vols veure la Sabrina, oi?\n"
+    .string "Ho noto!$"
 
 SaffronCity_Gym_Text_PrestonDefeat::
     .string "Arrrgh!$"
@@ -90,17 +90,18 @@ SaffronCity_Gym_EventScript_Amanda::
 	end
 
 SaffronCity_Gym_Text_AmandaIntro::
-    .string "Sabrina és molt més jove que jo,\n"
+    .string "La Sabrina és molt més jove que jo,\n"
     .string "però s'ha guanyat el meu respecte.$"
 
 SaffronCity_Gym_Text_AmandaDefeat::
     .string "No n'hi ha prou!$"
 
 SaffronCity_Gym_Text_AmandaPostBattle::
-    .string "En un combat entre iguals, el que\n"
-    .string "té més voluntat guanya.\p"
-    .string "Si vols guanyar Sabrina, concentra't\n"
-    .string "i desitja la victòria.$"
+    .string "En un combat entre iguals, guanya\n"
+    .string "el que té més voluntat.\p"
+    .string "Si vols vèncer la Sabrina,\n"
+    .string "concentra't i posa tota la teva\l"
+    .string "voluntat a guanyar.$"
 
 SaffronCity_Gym_EventScript_Stacy::
 	trainerbattle_single TRAINER_CHANNELER_STACY, SaffronCity_Gym_Text_StacyIntro, SaffronCity_Gym_Text_StacyDefeat
@@ -109,8 +110,9 @@ SaffronCity_Gym_EventScript_Stacy::
 
 SaffronCity_Gym_Text_StacyIntro::
     .string "Els Pokémon s'assemblen als seus\n"
-    .string "entrenadors.\p"
-    .string "Els teus Pokémon han de ser durs!$"
+    .string "Entrenadors.\p"
+    .string "Doncs els teus Pokémon deuen\n"
+    .string "ser forts!$"
 
 SaffronCity_Gym_Text_StacyDefeat::
     .string "Ho sabia!$"
@@ -130,7 +132,7 @@ SaffronCity_Gym_Text_TashaIntro::
     .string "lluitaran!$"
 
 SaffronCity_Gym_Text_TashaDefeat::
-    .string "He perdut al final!$"
+    .string "Al final he perdut!$"
 
 SaffronCity_Gym_Text_TashaPostBattle::
     .string "Sabia que això passaria.$"
@@ -151,12 +153,13 @@ SaffronCity_Gym_EventScript_ChallengeLeader::
 	end
 
 SaffronCity_Gym_Text_LeaderSpeech::
-    .string "Havia tingut una visió de la\n"
+    .string "Vaig tenir una visió de la\n"
     .string "teva arribada.\p"
     .string "Tinc poders psíquics des que\n"
     .string "era petita.\p"
-    .string "Va començar quan una cullera\n"
-    .string "que vaig llançar es va doblegar.$"
+    .string "Va començar quan una cullera que\n"
+    .string "vaig llançar sense pensar es va\l"
+    .string "doblegar.$"
 
 SaffronCity_Gym_Text_LeaderIntro::
     .string "No m'agrada lluitar, però si\n"
@@ -200,18 +203,19 @@ SaffronCity_Gym_Text_GetBadge::
 
 SaffronCity_Gym_Text_ReceivedBadge::
 	.string "{PLAYER} ha rebut la Medalla\n"
-    .string "Ànima de Sabrina!$"
+	.string "Pantà de Sabrina!$"
 
 SaffronCity_Gym_Text_ExplainBadge::
     .string "La Medalla Pantà permet als teus\n"
-    .string "Pokémon usar Trenca Roques.\p"
+    .string "Pokémon usar Trencar Roca.\p"
     .string "També farà que els Pokémon fins\n"
-    .string "a Nv. 70 t'obeeixin.\p"
+    .string "al Nv. 70 t'obeeixin.\p"
     .string "Els Pokémon més forts es tornaran\n"
     .string "salvatges, ignorant les teves\l"
     .string "ordres en combat.\p"
-    .string "No puges massa els teus Pokémon\n"
-    .string "per evitar aquest problema.$"
+    .string "Per evitar-ho, simplement no\n"
+    .string "pugis massa de nivell els teus\l"
+    .string "Pokémon.$"
 
 SaffronCity_Gym_EventScript_GetTM::
 	msgbox SaffronCity_Gym_Text_TakeThisWithYou, MSGBOX_DEFAULT
@@ -227,16 +231,18 @@ SaffronCity_Gym_EventScript_GetTM::
 	end
 
 SaffronCity_Gym_Text_TakeThisWithYou::
-    .string "Espera, enduu-te aquesta MT.$"
+    .string "Espera, si us plau, emporta't\n"
+    .string "aquesta MT.$"
 
 SaffronCity_Gym_Text_ReceivedTM::
 	.string "{PLAYER} ha rebut la MT04\n"
-    .string "de Sabrina.$"
+	.string "de Sabrina.$"
 
 SaffronCity_Gym_Text_ExplainTM::
-    .string "La MT04 és Calma Mental.\p"
+    .string "La MT04 conté Ment Calmada.\p"
     .string "Fa que el Pokémon es concentri\n"
-    .string "per pujar At. Esp. i Def. Esp.$"
+    .string "per pujar l'Atac Esp. i la\l"
+    .string "Defensa Esp.$"
 
 SaffronCity_Gym_EventScript_NoRoomForTM::
 	msgbox SaffronCity_Gym_Text_NoRoomForTM, MSGBOX_DEFAULT
@@ -282,13 +288,13 @@ SaffronCity_Gym_EventScript_RematchLeader::
 SaffronCity_Gym_Text_RematchLeader::
 	.string "...És cert que el poder psíquic\n"
 	.string "és una habilitat potent.\p"
-	.string "No obstant, hi ha coses que no\n"
+	.string "No obstant això, hi ha coses que no\n"
 	.string "es poden superar només amb\l"
 	.string "aquest poder.\p"
 	.string "Finalment ho entenc, després de\n"
 	.string "perdre contra tu l'últim cop.\p"
-	.string "No dependré només del poder\n"
-	.string "psíquic aquesta vegada.\p"
+	.string "Aquesta vegada no dependré\n"
+	.string "només del poder psíquic.\p"
 	.string "La meva veritable força...el meu\n"
 	.string "veritable jo...\p"
 	.string "Permet-me posar-los a prova\n"
@@ -310,8 +316,8 @@ SaffronCity_Gym_EventScript_PostgameRematch::
 	end
 
 SaffronCity_Gym_Text_RematchMode::
-	.string "Ara que ets el campió, vols\n"
-	.string "anar amb tot?$"
+	.string "Ara que ets el Campió, vols\n"
+	.string "lluitar amb totes les forces?$"
 
 SaffronCity_Gym_EventScript_LeaderRematch_OriginalTeam::
 	trainerbattle_single LEADER_REMATCH_SABRINA_ORIGINAL, SaffronCity_Gym_Text_RematchOriginal, SaffronCity_Gym_Text_RematchDefeat, SaffronCity_Gym_EventScript_DefeatedLeaderRematch
@@ -326,11 +332,11 @@ SaffronCity_Gym_EventScript_LeaderRematch_PostGameTeam::
 	end
 
 SaffronCity_Gym_Text_RematchPostgame::
-	.string "Havia previst que vindries mirant\n"
-	.string "el futur.\p"
-	.string "Però intencionadament no vaig\n"
+	.string "Mirant el futur, vaig preveure\n"
+	.string "que vindries.\p"
+	.string "Però, expressament, no vaig\n"
 	.string "mirar qui guanyaria el combat.\p"
-	.string "Descobrim-ho junts!$"
+	.string "Descobrim-ho plegats!$"
 
 SaffronCity_Gym_EventScript_DefeatedLeaderRematch::
 	setflag FLAG_DAILY_SABRINA_REMATCH
@@ -339,7 +345,7 @@ SaffronCity_Gym_EventScript_DefeatedLeaderRematch::
 
 SaffronCity_Gym_Text_RematchDefeat::
 	.string "No trobaré un Entrenador com tu\n"
-	.string "en uns tres anys.$"
+	.string "fins d'aquí a uns tres anys.$"
 
 
 SaffronCity_Gym_EventScript_GymGuy::
@@ -352,14 +358,14 @@ SaffronCity_Gym_EventScript_GymGuy::
 
 SaffronCity_Gym_Text_GymGuyAdvice::
     .string "Ei!\n"
-    .string "Futur campió!\p"
-    .string "Els Pokémon de Sabrina fan servir\n"
+    .string "Futur Campió!\p"
+    .string "Els Pokémon de la Sabrina fan servir\n"
     .string "poder psíquic en lloc de força.\p"
     .string "Els Pokémon de Lluita són\n"
     .string "especialment febles contra els\l"
     .string "Pokémon Psíquics.\p"
-    .string "Seran destruïts abans de poder\n"
-    .string "llançar un cop!$"
+    .string "Quedaran fets miques abans de\n"
+    .string "poder llançar ni un cop de puny!$"
 
 SaffronCity_Gym_EventScript_GymGuyPostVictory::
 	msgbox SaffronCity_Gym_Text_GymGuyPostVictory
@@ -379,7 +385,7 @@ SaffronCity_Gym_EventScript_GymStatue::
 	end
 
 SaffronCity_Gym_Text_GymStatue::
-    .string "Gimnàs Pokémon de Safrà\n"
+    .string "Gimnàs Pokémon de Ciutat Safrà\n"
     .string "Líder: Sabrina\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}$"
@@ -390,7 +396,7 @@ SaffronCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 SaffronCity_Gym_Text_GymStatuePlayerWon::
-    .string "Gimnàs Pokémon de Safrà\n"
+    .string "Gimnàs Pokémon de Ciutat Safrà\n"
     .string "Líder: Sabrina\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}, {PLAYER}$"

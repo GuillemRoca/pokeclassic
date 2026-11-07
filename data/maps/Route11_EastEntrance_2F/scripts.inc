@@ -32,7 +32,7 @@ Route11_EastEntrance_2F_Text_RockTunnelGoodRouteToLavender::
     .string "prismàtics…\p"
     .string "Per arribar a Poble Lavanda des\n"
     .string "de Ciutat Cerúlia…\p"
-    .string "El Túnel Roca sembla una bona\n"
+    .string "El Túnel Rocós sembla una bona\n"
     .string "ruta.$"
 
 Route11_EastEntrance_2F_EventScript_Turner::
@@ -133,7 +133,7 @@ Route11_EastEntrance_2F_EventScript_AlreadyGotReward::
 Route11_EastEntrance_2F_Text_ExplainReward::
     .string "Hi ha objectes al terra que\n"
     .string "poden estar amagats.\p"
-    .string "Fes servir el Cercaobjectes\n"
+    .string "Fes servir el Buscaobjectes\n"
     .string "per detectar objectes amagats.\p"
     .string "La màquina és una mica limitada.\n"
     .string "No pot precisar on són.\p"

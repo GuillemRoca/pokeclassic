@@ -34,8 +34,8 @@ RocketHideout_B1F_EventScript_Grunt2::
 	end
 
 RocketHideout_B1F_Text_Grunt2Intro::
-    .string "Has entrat a l'operació de\n"
-    .string "l'EQUIP ROCKET? Quina barra!$"
+    .string "T'has colat a l'operació de\n"
+    .string "l'Equip Rocket? Quina barra!$"
 
 RocketHideout_B1F_Text_Grunt2Defeat::
     .string "Bum!$"
@@ -86,8 +86,8 @@ RocketHideout_B1F_Text_Grunt5Defeat::
     .string "Per què…?$"
 
 RocketHideout_B1F_Text_Grunt5PostBattle::
-    .string "Oh, no, el rebombori ha obert\n"
-    .string "la porta!$"
+    .string "Ui! Amb tant de rebombori, s'ha\n"
+    .string "obert la porta!$"
 
 RocketHideout_B1F_EventScript_DefeatedGrunt5::
 	call RocketHideout_B1F_EventScript_RemoveBarrier
@@ -129,7 +129,7 @@ RocketHideout_B1F_EventScript_ItemHyperPotion::
 
 RocketHideout_Burglars_Text_GetTM::
     .string "L'Equip Rocket va deixar molt\n"
-    .string "de botí quan van marxar.\p"
+    .string "de botí en marxar.\p"
     .string "Aquí tens, agafa.\n"
     .string "N'hi ha de sobres!$"
 
@@ -175,7 +175,7 @@ RocketHideout_Burglars_Text_BurglarDefeat2::
 
 RocketHideout_Burglars_Text_BurglarPostBattle2::
     .string "Mai saps què trobaràs quan\n"
-    .string "entres en un lloc.$"
+    .string "assaltes un lloc.$"
 
 
 RocketHideout_Burglars_TM24::
@@ -190,15 +190,15 @@ RocketHideout_Burglars_EventScript_GotTM24::
     end
 
 RocketHideout_Burglars_Text_BurglarIntro3::
-    .string "Uau, ei, estàs robant això?\n"
-    .string "Això no és gaire bonic!$"
+    .string "Uau, ei, que estàs robant això?\n"
+    .string "Això no està gens bé!$"
 
 RocketHideout_Burglars_Text_BurglarDefeat3::
     .string "Per què ho has fet?$"
 
 RocketHideout_Burglars_Text_BurglarPostBattle3::
-    .string "Oh, jo? Jo no robo això.\n"
-    .string "Només me'l deixo!$"
+    .string "Oh, jo? Jo no ho estic robant.\n"
+    .string "Només ho agafo prestat!$"
 
 
 RocketHideout_Burglars_TM30::
@@ -220,8 +220,8 @@ RocketHideout_Burglars_Text_BurglarDefeat4::
     .string "Res!$"
 
 RocketHideout_Burglars_Text_BurglarPostBattle4::
-    .string "Què? Trobar una feina honesta?\n"
-    .string "Amb aquesta economia?$"
+    .string "Què? Buscar una feina honrada?\n"
+    .string "Amb la crisi que hi ha?$"
 
 RocketHideout_Burglars_TM35::
     trainerbattle_single TRAINER_BURGLAR_KYLE, RocketHideout_Burglars_Text_BurglarIntro5, RocketHideout_Burglars_Text_BurglarDefeat5
@@ -263,5 +263,5 @@ RocketHideout_Burglars_Text_BurglarDefeat6::
     .string "Ah, bah, si és brossa!$"
 
 RocketHideout_Burglars_Text_BurglarPostBattle6::
-    .string "No semblo trobar mai res de bo.$"
+    .string "Sembla que mai trobo res de bo.$"
 

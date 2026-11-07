@@ -25,7 +25,7 @@ SafariZone_North_EventScript_TrainerTips1::
 	end
 
 SafariZone_North_Text_SecretHouseStillAhead::
-    .string "Consells d'Entrenador\p"
+    .string "Consells d'Entrenador:\p"
     .string "La Casa Secreta encara és\n"
     .string "més endavant.$"
 
@@ -52,6 +52,6 @@ SafariZone_North_EventScript_TrainerTips3::
 	end
 
 SafariZone_North_Text_WinFreeHMFindSecretHouse::
-    .string "Consells d'Entrenador\p"
+    .string "Consells d'Entrenador:\p"
     .string "Guanya una MO gratis si trobes\n"
     .string "la Casa Secreta.$"

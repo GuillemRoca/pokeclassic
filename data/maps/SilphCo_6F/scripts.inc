@@ -132,11 +132,11 @@ SilphCo_6F_Text_RocketsRanAwayBecauseOfYou::
     .string "gràcies a tu!$"
 
 SilphCo_6F_Text_TargetedSilphForOurMonProducts::
-    .string "Deuen haver apuntat a Silph pels\n"
-    .string "nostres productes Pokémon.$"
+    .string "Segur que van anar a per Silph S.A.\n"
+    .string "pels nostres productes Pokémon.$"
 
 SilphCo_6F_Text_ComeWorkForSilphWhenYoureOlder::
-    .string "Vine a treballar a Silph quan\n"
+    .string "Vine a treballar a Silph S.A. quan\n"
     .string "siguis més gran.$"
 
 SilphCo_6F_Text_Grunt1Intro::
@@ -151,9 +151,9 @@ SilphCo_6F_Text_Grunt1PostBattle::
     .string "Els meus germans em venjaran!$"
 
 SilphCo_6F_Text_TaylorIntro::
-    .string "Aquell President pudent!\p"
-    .string "Ben merescut que ho passa per\n"
-    .string "enviar-me a la sucursal\l"
+    .string "Aquell President miserable!\p"
+    .string "S'ho té ben merescut per\n"
+    .string "haver-me enviat a la sucursal\l"
     .string "d'Unova!\p"
     .string "Per això l'Equip Rocket ens ha\n"
     .string "atacat, segur!$"
@@ -177,4 +177,4 @@ SilphCo_6F_Text_Grunt2PostBattle::
 
 SilphCo_6F_Text_FloorSign::
     .string "Seu Central de Silph S.A.\n"
-    .string "6è pis$"
+    .string "P6$"

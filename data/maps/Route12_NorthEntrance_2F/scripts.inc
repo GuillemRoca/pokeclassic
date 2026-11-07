@@ -53,8 +53,7 @@ Route12_NorthEntrance_2F_EventScript_ExplainTM27::
     end
 
 Route12_NorthEntrance_2F_Text_ExplainTM27::
-    .string "La MT27 és un moviment anomenat\n"
-    .string "Retorn…\p"
+    .string "La MT27 conté Retorn…\p"
     .string "Si tractes bé els teus Pokémon,\n"
     .string "et retornaran l'amor lluitant\l"
     .string "amb totes les forces.$"

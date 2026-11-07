@@ -74,8 +74,8 @@ VictoryRoad_2F_EventScript_Daisuke::
 	end
 
 VictoryRoad_2F_Text_DaisukeIntro::
-    .string "Això és el Camí de la Victòria.\n"
-    .string "La prova final per als entrenadors!$"
+    .string "Això és el Camí Victòria.\n"
+    .string "La prova final per als Entrenadors!$"
 
 VictoryRoad_2F_Text_DaisukeDefeat::
     .string "Atxó!$"
@@ -105,16 +105,14 @@ VictoryRoad_2F_EventScript_Gregory::
 	end
 
 VictoryRoad_2F_Text_GregoryIntro::
-    .string "El Camí de la Victòria és massa\n"
-    .string "dur?$"
+    .string "El Camí Victòria és massa dur?$"
 
 VictoryRoad_2F_Text_GregoryDefeat::
     .string "Ben fet!$"
 
 VictoryRoad_2F_Text_GregoryPostBattle::
-    .string "Molts entrenadors abandonen el\n"
-    .string "seu desafiament aquí i tornen\l"
-    .string "a casa.$"
+    .string "Molts Entrenadors abandonen el\n"
+    .string "repte aquí i tornen a casa.$"
 
 VictoryRoad_2F_EventScript_Vincent::
 	trainerbattle_single TRAINER_TAMER_VINCENT, VictoryRoad_2F_Text_VincentIntro, VictoryRoad_2F_Text_VincentDefeat
@@ -126,11 +124,11 @@ VictoryRoad_2F_Text_VincentIntro::
     .string "Et donaré una pallissa!$"
 
 VictoryRoad_2F_Text_VincentDefeat::
-    .string "M'han derrotat!$"
+    .string "M'has donat una pallissa!$"
 
 VictoryRoad_2F_Text_VincentPostBattle::
     .string "T'has guanyat el dret de ser al\n"
-    .string "Camí de la Victòria…$"
+    .string "Camí Victòria…$"
 
 VictoryRoad_2F_EventScript_ItemTM37::
 	finditem ITEM_TM37, 1

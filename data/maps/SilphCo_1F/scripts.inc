@@ -12,11 +12,11 @@ SilphCo_1F_EventScript_FloorSign::
 SilphCo_1F_Text_WelcomePresidentInBoardroom::
     .string "Benvingut.\p"
     .string "El President és a la sala de\n"
-    .string "juntes al pis 11.$"
+    .string "juntes de la planta 11.$"
 
 SilphCo_1F_Text_FloorSign::
     .string "Seu Central de Silph S.A.\n"
-    .string "1r pis$"
+    .string "P1$"
 
 
 SilphCo_1F_EventScript_PostgameGrunt1::
@@ -25,7 +25,7 @@ SilphCo_1F_EventScript_PostgameGrunt1::
 	end
 
 SilphCo_1F_Text_PostgameGrunt1Intro::
-    .string "L'Equip Rocket ha tornat, nen!$"
+    .string "L'Equip Rocket ha tornat, nano!$"
 
 SilphCo_1F_Text_PostgameGrunt1Defeat::
     .string "Abatut en plena joventut!$"
@@ -42,7 +42,7 @@ SilphCo_1F_EventScript_PostgameGrunt2::
 SilphCo_1F_Text_PostgameGrunt2Intro::
     .string "A diferència d'alguns, nosaltres\n"
     .string "no vam fugir quan Giovanni va\l"
-    .string "ser derrotat a Viridiana.$"
+    .string "ser derrotat a Ciutat Viridiana.$"
 
 SilphCo_1F_Text_PostgameGrunt2Defeat::
     .string "Potser hauria de plegar...$"
@@ -63,7 +63,7 @@ SilphCo_1F_Text_PostgameGrunt3Defeat::
     .string "Estem pelats!$"
 
 SilphCo_1F_Text_PostgameGrunt3PostBattle::
-    .string "El nou cap no ho vol admetre,\n"
+    .string "El nou Cap no ho vol admetre,\n"
     .string "però l'Equip Rocket funciona\l"
     .string "amb les últimes reserves.\p"
     .string "Necessitem que aquest cop surti\n"

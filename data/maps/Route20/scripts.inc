@@ -70,8 +70,8 @@ Route20_Text_DeanDefeat::
     .string "Fluixet!$"
 
 Route20_Text_DeanPostBattle::
-    .string "Hauria d'haver musculat els\n"
-    .string "meus Pokémon, no a mi!$"
+    .string "Hauria d'haver entrenat els meus\n"
+    .string "Pokémon, i no els meus músculs!$"
 
 Route20_EventScript_Darrin::
 	trainerbattle_single TRAINER_SWIMMER_MALE_DARRIN, Route20_Text_DarrinIntro, Route20_Text_DarrinDefeat
@@ -133,8 +133,8 @@ Route20_EventScript_Melissa::
 	end
 
 Route20_Text_MelissaIntro::
-    .string "Cinabri, a l'oest, té un\n"
-    .string "laboratori de Pokémon.\p"
+    .string "A l'Illa Cinabri, a l'oest, hi ha\n"
+    .string "un laboratori Pokémon.\p"
     .string "El meu pare hi treballa.$"
 
 Route20_Text_MelissaDefeat::
@@ -142,9 +142,9 @@ Route20_Text_MelissaDefeat::
     .string "Se suposa que has d'esperar!$"
 
 Route20_Text_MelissaPostBattle::
-    .string "Cinabri és una illa volcànica.\p"
+    .string "L'Illa Cinabri és volcànica.\p"
     .string "He sentit que va sorgir del mar\n"
-    .string "quan un volcà va erupcionar.$"
+    .string "quan un volcà va entrar en erupció.$"
 
 Route20_EventScript_Shirley::
 	trainerbattle_single TRAINER_SWIMMER_FEMALE_SHIRLEY, Route20_Text_ShirleyIntro, Route20_Text_ShirleyDefeat
@@ -152,8 +152,8 @@ Route20_EventScript_Shirley::
 	end
 
 Route20_Text_ShirleyIntro::
-    .string "Escuma és un lloc tranquil.\n"
-    .string "Estic de vacances.$"
+    .string "Les Illes Escuma són un lloc\n"
+    .string "tranquil. Hi soc de vacances.$"
 
 Route20_Text_ShirleyDefeat::
     .string "Para ja!$"
@@ -169,14 +169,14 @@ Route20_EventScript_Missy::
 
 Route20_Text_MissyIntro::
     .string "He vingut nedant des de l'Illa\n"
-    .string "Cinabri. No ha estat fàcil.$"
+    .string "Cinabri. No ha estat gens fàcil!$"
 
 Route20_Text_MissyDefeat::
     .string "Quina decepció!$"
 
 Route20_Text_MissyPostBattle::
-    .string "Els Pokémon han pres una\n"
-    .string "mansió abandonada a Cinabri.\p"
+    .string "Els Pokémon s'han apoderat d'una\n"
+    .string "mansió abandonada de l'Illa Cinabri.\p"
     .string "Ara l'anomenen la Mansió\n"
     .string "Pokémon.$"
 
@@ -192,8 +192,8 @@ Route20_Text_IreneDefeat::
     .string "Sense pietat!$"
 
 Route20_Text_IrenePostBattle::
-    .string "Escuma era una sola illa en\n"
-    .string "el passat llunyà.$"
+    .string "En un passat llunyà, les Illes\n"
+    .string "Escuma eren una sola illa.$"
 
 Route20_EventScript_Roger::
 	trainerbattle_single REMATCHABLE_TRAINER_DRAGON_TAMER_ROGER_1, Route20_Text_RogerIntro, Route20_Text_RogerDefeat, Route20_EventScript_RegisterRogerAfterBattle
@@ -233,12 +233,12 @@ Route20_EventScript_RogerRematch::
 	end
 
 Route20_Text_RogerRematchIntro::
-	.string "T'esclafar amb els meus\n"
+	.string "T'esclafaré amb els meus\n"
 	.string "Pokémon Drac aquest cop!$"
 
 Route20_Text_RogerRematchPostBattle::
-	.string "Gyarados no és tipus Drac, però\n"
-	.string "pot aprendre moviments de Drac!$"
+	.string "Gyarados no és de tipus Drac, però\n"
+	.string "pot aprendre moviments Drac!$"
 
 Route20_EventScript_Camper::
 	lock
@@ -250,8 +250,8 @@ Route20_EventScript_Camper::
 Route20_Text_MistyTrainsHere::
     .string "Entrenadors forts i Pokémon\n"
     .string "d'Aigua són habituals aquí.\p"
-    .string "Diuen que Misty del Gimnàs\n"
-    .string "de Cerúlia entrena aquí.$"
+    .string "Diuen que la Misty, del Gimnàs de\n"
+    .string "Ciutat Cerúlia, entrena aquí.$"
 
 Route20_RocketFugitive::
     trainerbattle_single TRAINER_FUGITIVE_M, RocketFugitive_Text_Intro, RocketFugitive_Text_Defeat

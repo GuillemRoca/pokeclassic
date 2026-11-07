@@ -247,18 +247,19 @@ VermilionCity_Gym_Text_LeaderSpeech::
     .string "Ei, nano! Què et penses que fas\n"
     .string "aquí?\p"
     .string "No duraràs gaire en combat!\n"
-    .string "No amb el teu poder tan feble!\p"
-    .string "Et dic, nano, els Pokémon elèctrics\n"
-    .string "em van salvar durant la guerra!$"
+    .string "No pas amb aquesta força tan minsa!\p"
+    .string "T'ho dic jo, nano: els Pokémon\n"
+    .string "Elèctrics em van salvar durant\l"
+    .string "la guerra!$"
 
 VermilionCity_Gym_Text_LeaderIntro::
- 	.string "Van fulminar els meus enemics\n"
-    .string "fins a la paràlisi!\p"
-    .string "I et faré el mateix a tu!$"
+ 	.string "Deixaven els meus enemics\n"
+ 	.string "paralitzats a base de descàrregues!\p"
+ 	.string "I això mateix et faré a tu!$"
 
 VermilionCity_Gym_Text_LeaderDefeat::
     .string "Això sí que és un xoc!\p"
-    .string "Ets de debò, nano!$"
+    .string "Ets bo de veritat, nano!$"
 
 VermilionCity_Gym_EventScript_DefeatedLeaderGetBadge::
 	msgbox VermilionCity_Gym_Text_GetBadge, MSGBOX_DEFAULT
@@ -289,8 +290,8 @@ VermilionCity_Gym_Text_ReceivedBadge::
     .string "Tro del Lt. Surge!$"
 
 VermilionCity_Gym_Text_ExplainBadge::
-    .string "La Medalla Tro habilita els teus\n"
-    .string "Pokémon per usar Vol fora de\l"
+    .string "La Medalla Tro permet als teus\n"
+    .string "Pokémon usar Vol fora de\l"
     .string "combat.\p"
     .string "Si coneixen el moviment, podran\n"
     .string "moure's ràpid com un llamp!\p"
@@ -326,7 +327,7 @@ VermilionCity_Gym_EventScript_NoRoomForTM::
 	end
 
 VermilionCity_Gym_Text_NoRoomForTM::
-    .string "Nano, fes espai a la motxilla!$"
+    .string "Ei, nano, fes espai a la Motxilla!$"
 
 VermilionCity_Gym_EventScript_LeaderPostBattle::
 	lock
@@ -348,12 +349,12 @@ VermilionCity_Gym_EventScript_LeaderPostBattleGameClear::
 	end
 
 VermilionCity_Gym_Text_PostBattleGameClear::
-	.string "Sembla que encara hi ha un desnivell\n"
-	.string "entre les nostres habilitats que\l"
-	.string "he de tancar, nano!\p"
+	.string "Sembla que encara hi ha una\n"
+	.string "distància entre el teu nivell i el\l"
+	.string "meu que he de retallar, nano!\p"
 	.string "És el primer cop que em sento\n"
 	.string "així des que vaig començar com\l"
-	.string "a Líder de Gimnàs de Vermella.$"
+	.string "a Líder de Gimnàs de Ciutat Vermella.$"
 
 VermilionCity_Gym_EventScript_RematchLeader::
 	msgbox VermilionCity_Gym_Text_RematchLeader, MSGBOX_YESNO
@@ -386,8 +387,8 @@ VermilionCity_Gym_EventScript_PostgameRematch::
 	end
 
 VermilionCity_Gym_Text_RematchMode::
-	.string "Ara que ets el campió,\n"
-	.string "vols anar amb tot?$"
+	.string "Ara que ets el Campió, vols\n"
+	.string "lluitar amb totes les forces?$"
 
 VermilionCity_Gym_EventScript_LeaderRematch_OriginalTeam::
 	trainerbattle_single LEADER_REMATCH_SURGE_ORIGINAL, VermilionCity_Gym_Text_RematchOriginal, VermilionCity_Gym_Text_RematchDefeat, VermilionCity_Gym_EventScript_DefeatedLeaderRematch
@@ -432,7 +433,7 @@ VermilionCity_Gym_Text_DwayneDefeat::
 
 VermilionCity_Gym_Text_DwaynePostBattle::
     .string "El Lt. Surge va instal·lar les\n"
-    .string "trampes del gimnàs ell mateix.\p"
+    .string "trampes del Gimnàs ell mateix.\p"
     .string "Va posar dobles panys a tot arreu.\n"
     .string "Deixa que et doni una pista.\p"
     .string "Quan obris el primer pany, el\n"
@@ -444,10 +445,10 @@ VermilionCity_Gym_EventScript_Baily::
 	end
 
 VermilionCity_Gym_Text_BailyIntro::
-    .string "Soc prim, però em va bé amb\n"
-    .string "l'electricitat!\p"
+    .string "Soc un pes ploma, però se'm\n"
+    .string "dona bé l'electricitat!\p"
     .string "Per això em vaig unir a aquest\n"
-    .string "gimnàs.$"
+    .string "Gimnàs.$"
 
 VermilionCity_Gym_Text_BailyDefeat::
     .string "Fregit!$"
@@ -487,15 +488,15 @@ VermilionCity_Gym_EventScript_GymGuy::
 
 VermilionCity_Gym_Text_GymGuyAdvice::
     .string "Ei!\n"
-    .string "Futur campió!\p"
+    .string "Futur Campió!\p"
     .string "El Lt. Surge té un sobrenom.\p"
     .string "La gent l'anomena el\n"
-    .string "Lloctinent Llampec!\p"
-    .string "És expert en Pokémon elèctrics.\p"
-    .string "Els Pokémon d'Ocell i Aigua han\n"
-    .string "d'anar amb compte amb els atacs\l"
-    .string "Elèctrics!\p"
-    .string "Vigila amb la paràlisi, també.\p"
+    .string "Tinent Llampec!\p"
+    .string "És expert en Pokémon Elèctrics.\p"
+    .string "Els Pokémon de tipus Volador i\n"
+    .string "Aigua han d'anar amb compte amb\l"
+    .string "els atacs Elèctrics!\p"
+    .string "Compte també amb la paràlisi.\p"
     .string "El Lt. Surge és molt cautelós.\p"
     .string "S'ha tancat dins, així que no\n"
     .string "serà fàcil arribar-hi.$"
@@ -517,7 +518,7 @@ VermilionCity_Gym_EventScript_GymStatue::
 	end
 
 VermilionCity_Gym_Text_GymStatue::
-    .string "Gimnàs Pokémon de Vermella\n"
+    .string "Gimnàs Pokémon de Ciutat Vermella\n"
     .string "Líder: Lt. Surge\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}$"
@@ -528,7 +529,7 @@ VermilionCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 VermilionCity_Gym_Text_GymStatuePlayerWon::
-    .string "Gimnàs Pokémon de Vermella\n"
+    .string "Gimnàs Pokémon de Ciutat Vermella\n"
     .string "Líder: Lt. Surge\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}, {PLAYER}$"

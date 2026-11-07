@@ -76,15 +76,16 @@ SilphCo_4F_Text_Grunt1Defeat::
 
 SilphCo_4F_Text_Grunt1PostBattle::
     .string "Fwahahaha!\n"
-    .string "El meu Cap anava darrere d'aquí!$"
+    .string "Fa temps que el meu Cap anava\l"
+    .string "darrere d'aquest lloc!$"
 
 SilphCo_4F_Text_RodneyIntro::
     .string "El meu Pokémon és el meu servent\n"
     .string "lleial.$"
 
 SilphCo_4F_Text_RodneyDefeat::
-    .string "Llamp!\n"
-    .string "Pokémon feble!$"
+    .string "Llamps!\n"
+    .string "Quin Pokémon més feble!$"
 
 SilphCo_4F_Text_RodneyPostBattle::
     .string "Les portes estan tancades\n"
@@ -99,8 +100,9 @@ SilphCo_4F_Text_Grunt2Defeat::
     .string "Qui ets?$"
 
 SilphCo_4F_Text_Grunt2PostBattle::
-    .string "Millor que avisi el Cap al pis 11!$"
+    .string "Millor que avisi el Cap a la\n"
+    .string "planta 11!$"
 
 SilphCo_4F_Text_FloorSign::
     .string "Seu Central de Silph S.A.\n"
-    .string "4t pis$"
+    .string "P4$"

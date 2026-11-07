@@ -30,15 +30,15 @@ Route8_EventScript_Aidan::
 	end
 
 Route8_Text_AidanIntro::
-    .string "Sembles bo amb Pokémon, però com\n"
-    .string "vas de química?$"
+    .string "Sembles bo amb els Pokémon, però\n"
+    .string "com vas de química?$"
 
 Route8_Text_AidanDefeat::
     .string "Au!\n"
     .string "Fusió nuclear!$"
 
 Route8_Text_AidanPostBattle::
-    .string "Se'm dona millor l'escola!$"
+    .string "A l'escola em va millor que això!$"
 
 Route8_EventScript_RegisterAidanAfterBattle::
 	special PlayerFaceTrainerAfterBattle
@@ -50,7 +50,7 @@ Route8_EventScript_RegisterAidanAfterBattle::
 
 Route8_Text_AidanRegister:
 	.string "Jo et faig classes de química si\n"
-	.string "tu em fas classes de Pokémon.$"
+	.string "tu me'n fas de combats Pokémon.$"
 
 Route8_EventScript_AidanRematch::
 	trainerbattle_rematch REMATCHABLE_TRAINER_SUPER_NERD_AIDAN_1, Route8_Text_AidanRematchIntro, Route8_Text_AidanDefeat
@@ -71,17 +71,18 @@ Route8_EventScript_Julia::
 	end
 
 Route8_Text_JuliaIntro::
-    .string "Quin és un Pokémon rodó, bufó\n"
-    .string "i pelut?$"
+    .string "Quin Pokémon és bufó, rodó\n"
+    .string "i esponjós?$"
 
 Route8_Text_JuliaDefeat::
     .string "Para!\p"
-    .string "No siguis tan dolent amb Clefairy!$"
+    .string "No siguis tan dolent amb el meu\n"
+    .string "Clefairy!$"
 
 Route8_Text_JuliaPostBattle::
     .string "He llegit que Clefairy evoluciona\n"
     .string "quan s'exposa a una Pedra Lunar.\p"
-    .string "Ho vaig llegir a una revista\n"
+    .string "Ho vaig llegir en una revista\n"
     .string "Pokémon. Serà veritat?$"
 
 
@@ -91,8 +92,8 @@ Route8_EventScript_Paige::
 	end
 
 Route8_Text_PaigeIntro::
-    .string "M'agraden els Nidoran, els\n"
-    .string "col·lecciono!$"
+    .string "M'agraden els Nidoran, així que\n"
+    .string "els col·lecciono!$"
 
 Route8_Text_PaigeDefeat::
     .string "Per què?\n"
@@ -124,15 +125,15 @@ Route8_EventScript_Megan::
 	end
 
 Route8_Text_MeganIntro::
-    .string "Devem fer el bonic aquí plantades\n"
-    .string "així.$"
+    .string "Devem fer el ridícul, aquí\n"
+    .string "plantades així.$"
 
 Route8_Text_MeganDefeat::
     .string "Mira què has fet als meus pobres\n"
     .string "Pokémon bufons!$"
 
 Route8_Text_MeganPostBattle::
-    .string "La policia de Safrà no ens\n"
+    .string "La policia de Ciutat Safrà no ens\n"
     .string "deixa passar.\p"
     .string "Sé que fan la seva feina, però\n"
     .string "em sembla injust.$"
@@ -170,7 +171,7 @@ Route8_Text_LesliePostBattle::
     .string "Tenia previst sortir a prendre\n"
     .string "l'aire, però…\p"
     .string "Estem atrapats aquí per culpa\n"
-    .string "de les portes de Safrà.$"
+    .string "de les portes de Ciutat Safrà.$"
 
 Route8_EventScript_Stan::
 	trainerbattle_single TRAINER_GAMBLER_STAN, Route8_Text_StanIntro, Route8_Text_StanDefeat
@@ -200,8 +201,8 @@ Route8_Text_RichDefeat::
     .string "He perdut la gran oportunitat!$"
 
 Route8_Text_RichPostBattle::
-    .string "Jugar i els Pokémon són com menjar\n"
-    .string "cacauets! No puc parar!$"
+    .string "Els jocs i els Pokémon són com\n"
+    .string "les pipes! No puc parar!$"
 
 Route8_EventScript_Eli::
 	trainerbattle_double TRAINER_TWINS_ELI_ANNE, Route8_Text_EliIntro, Route8_Text_EliDefeat, Route8_Text_EliNotEnoughMons

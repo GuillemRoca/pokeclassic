@@ -296,7 +296,7 @@ TrainerHill_Entrance_Pokemart_Expanded:
 	end
 
 TrainerHill_Entrance_Text_StillGettingReady:
-	.string "Aquest és el Turó dels Entrenadors,\n"
+	.string "Aquest és el Turó Entrenador,\n"
 	.string "on pots gaudir de combats per\l"
 	.string "parelles amb molts Entrenadors.\p"
 	.string "Malauradament, encara estem\n"
@@ -305,7 +305,7 @@ TrainerHill_Entrance_Text_StillGettingReady:
 
 TrainerHill_Entrance_Text_WelcomeToTrainerHill:
 	.string "Benvingut!\p"
-	.string "Aquest és el Turó dels Entrenadors,\n"
+	.string "Aquest és el Turó Entrenador,\n"
 	.string "on pots gaudir de combats per\l"
 	.string "parelles amb molts Entrenadors!$"
 
@@ -317,7 +317,7 @@ TrainerHill_Entrance_Text_SaveGameBeforeEnter:
 TrainerHill_Entrance_Text_TrainersUpToFloorX:
 	.string "A veure…\n"
 	.string "Els Entrenadors d'aquí ara són…\p"
-	.string "Fins al pis núm. {STR_VAR_1}.$"
+	.string "Fins a la planta {STR_VAR_1}.$"
 
 TrainerHill_Entrance_Text_TrainersInEveryRoom:
 	.string "A veure…\n"
@@ -359,24 +359,25 @@ TrainerHill_Entrance_Text_ThankYouForPlaying:
 	.string "Gràcies per participar!$"
 
 TrainerHill_Entrance_Text_ExplainTrainerHill:
-	.string "Aquí, al Turó dels Entrenadors,\n"
+	.string "Aquí, al Turó Entrenador,\n"
 	.string "organitzem un esdeveniment anomenat\l"
 	.string "Atac Contrarellotge.\p"
 	.string "És una cursa que mesura quant\n"
 	.string "trigues a arribar al propietari\l"
 	.string "al terrat des d'aquest taulell.\p"
 	.string "Els millors temps es publiquen al\n"
-	.string "Tauler de Temps. Prova a competir\l"
+	.string "Tauler de Temps. Prova de competir\l"
 	.string "amb els teus amics.\p"
 	.string "En els combats pel camí, no es\n"
-	.string "donaran ni Punts d'Exp. ni diners.$"
+	.string "donaran ni punts d'Exp. ni diners.$"
 
 @ Unused
 TrainerHill_Entrance_Text_NeedAtLeastTwoPokemon:
 	.string "Oh, ho sento, però sembla que\n"
 	.string "només tens un Pokémon amb tu.\p"
 	.string "Necessitaràs almenys dos Pokémon\n"
-	.string "per participar en aquest event.$"
+	.string "per participar en aquest\l"
+	.string "esdeveniment.$"
 
 TrainerHill_Roof_Text_YouFinallyCameBravo:
 	.string "Hm! Hm!\p"
@@ -386,7 +387,7 @@ TrainerHill_Roof_Text_YouFinallyCameBravo:
 	.string "Sé per què has vingut fins aquí\l"
 	.string "tu sol!\p"
 	.string "Volies veure'm a mi, el propietari\n"
-	.string "del Turó dels Entrenadors,\l"
+	.string "del Turó Entrenador,\l"
 	.string "perquè…\p"
 	.string "Vols formar un equip amb mi!\n"
 	.string "Visca!\p"
@@ -426,8 +427,8 @@ TrainerHill_Roof_Text_ArriveZippierNextTime:
 
 @ Unused
 TrainerHill_Roof_Text_BuiltTrainerHillToFindPartner:
-	.string "Vaig fer construir el Turó dels\n"
-	.string "Entrenadors per una sola raó!\p"
+	.string "Vaig fer construir el Turó\n"
+	.string "Entrenador per una sola raó!\p"
 	.string "Per trobar el company més adequat\n"
 	.string "amb qui formar un equip!$"
 
@@ -441,9 +442,9 @@ TrainerHill_Entrance_Text_WhatSortOfTrainersAreAhead:
 	.string "qualsevol que se'm posi al davant!$"
 
 TrainerHill_Entrance_Text_CantWaitToTestTheWaters:
-	.string "He sentit que Entrenadors forts\n"
-	.string "venen a aquest Turó d'arreu.\p"
-	.string "No puc esperar per provar sort!\p"
+	.string "He sentit que a aquest Turó hi\n"
+	.string "venen Entrenadors forts d'arreu.\p"
+	.string "Tinc moltes ganes de provar-ho!\p"
 	.string "Atuiré qualsevol que se'm posi\n"
 	.string "al davant!$"
 

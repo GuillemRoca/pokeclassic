@@ -62,10 +62,10 @@ RocketHideout_B4F_Text_GiovanniIntro::
     .string "L'Equip Rocket captura Pokémon\n"
     .string "d'arreu del món.\p"
     .string "Són eines importants per mantenir\n"
-    .string "la nostra empresa criminal.\p"
+    .string "en marxa la nostra empresa criminal.\p"
     .string "Soc el líder, Giovanni!\p"
-    .string "Per la teva insolència, sentiràs\n"
-    .string "un món de dolor!$"
+    .string "Per la teva insolència, et faré\n"
+    .string "patir de valent!$"
 
 RocketHideout_B4F_Text_GiovanniDefeat::
     .string "Què!\n"
@@ -73,11 +73,11 @@ RocketHideout_B4F_Text_GiovanniDefeat::
 
 RocketHideout_B4F_Text_GiovanniPostBattle::
     .string "Giovanni: Veig que cries els teus\n"
-    .string "Pokémon amb molta cura.\p"
-    .string "Un nen com tu mai entendria el\n"
-    .string "que espero aconseguir.\p"
-    .string "Em faré enrere aquest cop, i\n"
-    .string "alliberaré aquest Cubone.$"
+    .string "Pokémon amb la màxima cura.\p"
+    .string "Algú tan jove com tu no entendria\n"
+    .string "mai el que vull aconseguir.\p"
+    .string "Aquest cop em faré a un costat\n"
+    .string "i et tornaré aquest Cubone.$"
 
 RocketHideout_B4F_Text_MeetAgain::
     .string "Espero que ens tornem a trobar…$"
@@ -125,10 +125,11 @@ RocketHideout_B4F_EventScript_Grunt2::
 
 RocketHideout_B4F_Text_Grunt2Intro::
     .string "Et conec!\n"
-    .string "Vas arruïnar els plans al Mont Lluna!$"
+    .string "Vas arruïnar els nostres plans\l"
+    .string "al Mont Lluna!$"
 
 RocketHideout_B4F_Text_Grunt2Defeat::
-    .string "Un altre cop cremat!$"
+    .string "Derrotat un altre cop!$"
 
 RocketHideout_B4F_Text_Grunt2PostBattle::
     .string "Tens alguna cosa contra l'Equip\n"
@@ -158,7 +159,7 @@ RocketHideout_B4F_Text_Grunt3Intro::
 
 RocketHideout_B4F_Text_Grunt3Defeat::
     .string "Cap!\n"
-    .string "Perdoni, t'he fallat!$"
+    .string "Em sap greu haver-te fallat!$"
 
 RocketHideout_B4F_Text_Grunt3PostBattle::
     .string "Potser m'has derrotat, però\n"
@@ -182,7 +183,7 @@ RocketHideout_B4F_EventScript_Jessie::
 
 RocketHideout_B4F_Text_JessieIntro::
 	.string "Jessie: Ets aquell marrec que no\n"
-	.string "para d'interrompre els plans!$"
+	.string "para d'espatllar-nos els plans!$"
 
 RocketHideout_B4F_Text_JessieDefeat::
 	.string "Jessie: No! No! No!$"
@@ -198,16 +199,16 @@ RocketHideout_B4F_EventScript_James::
 	end
 
 RocketHideout_B4F_Text_JamesIntro::
-	.string "James: Comences a treure la gràcia\n"
-	.string "a tot això.$"
+	.string "James: Comences a treure-li la\n"
+	.string "gràcia a tot això.$"
 
 RocketHideout_B4F_Text_JamesDefeat::
-	.string "James: Això realment comença\n"
-	.string "a afectar-me!$"
+	.string "James: Això ja em comença a\n"
+	.string "afectar de debò!$"
 
 RocketHideout_B4F_Text_JamesPostBattle::
-	.string "James: Per cert, sento molt\n"
-	.string "el que li va passar a la mare\l"
+	.string "James: Si et serveix de res, sento\n"
+	.string "molt el que li va passar a la mare\l"
 	.string "d'aquell Cubone...$"
 
 RocketHideout_B4F_EventScript_DrawMapForBarrierRemoval::

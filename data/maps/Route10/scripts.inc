@@ -19,15 +19,15 @@ Route10_EventScript_NorthRockTunnelSign::
 	end
 
 Route10_Text_RockTunnelDetourToLavender::
-    .string "Túnel Roca\n"
-    .string "Drecera a Poble Lavanda$"
+    .string "Túnel Rocós\n"
+    .string "Desviació cap a Poble Lavanda$"
 
 Route10_EventScript_SouthRockTunnelSign::
 	msgbox Route10_Text_RockTunnel, MSGBOX_SIGN
 	end
 
 Route10_Text_RockTunnel::
-    .string "Túnel Roca$"
+    .string "Túnel Rocós$"
 
 Route10_EventScript_PowerPlantSign::
 	msgbox Route10_Text_PowerPlant, MSGBOX_SIGN
@@ -46,7 +46,7 @@ Route10_EventScript_Mark::
 
 Route10_Text_MarkIntro::
     .string "Uau, has vingut fins aquí?\n"
-    .string "Potser també ets un PokéManíac?\l"
+    .string "Potser també ets un Pokémaniàtic?\l"
     .string "Vols veure la meva col·lecció?$"
 
 Route10_Text_MarkDefeat::
@@ -79,7 +79,7 @@ Route10_Text_MarkRematchIntro::
 	.string "Deixa que te'ls ensenyi!$"
 
 Route10_Text_MarkRematchPostBattle::
-	.string "Tu sí que ets un PokéManíac!$"
+	.string "Tu sí que ets un Pokémaniàtic!$"
 
 
 Route10_EventScript_Herman::
@@ -114,8 +114,8 @@ Route10_Text_HeidiDefeat::
     .string "Després de tot l'entrenament!$"
 
 Route10_Text_HeidiPostBattle::
-    .string "He vist uns PokéManíacs\n"
-    .string "per aquí.\p"
+    .string "He vist uns quants Pokémaniàtics\n"
+    .string "rondant per aquí.\p"
     .string "T'ho pots imaginar? Ells?\n"
     .string "Aquí dalt a la muntanya?$"
 
@@ -133,10 +133,10 @@ Route10_Text_CarolDefeat::
     .string "No estava en forma.$"
 
 Route10_Text_CarolPostBattle::
-    .string "Els Pokémon d'aquí la muntanya\n"
+    .string "Els Pokémon d'aquestes muntanyes\n"
     .string "són tan rodanxons…\p"
-    .string "M'agradaria que hi hagués\n"
-    .string "Pokémon roses amb flors!$"
+    .string "M'agradaria que hi hagués Pokémon\n"
+    .string "roses amb estampat de flors!$"
 
 Route10_EventScript_Clark::
 	trainerbattle_single TRAINER_HIKER_CLARK, Route10_Text_ClarkIntro, Route10_Text_ClarkDefeat
@@ -235,10 +235,10 @@ Route10_EventScript_GotDailyBerry::
 Route10_Text_BerryPrepared::
 	.string "Sempre m'asseguro de portar\n"
 	.string "Baies quan surto.\p"
-	.string "Podríem dir que estic molt\n"
-	.string "ben preparada.\p"
+	.string "Podríem dir que vaig ben\n"
+	.string "abaiastida.\p"
 	.string "...\p"
-	.string "Ho pilles?$"
+	.string "Ho captes?$"
 
 Route10_RocketFugitive::
 	trainerbattle_single TRAINER_FUGITIVE_F, RocketFugitive_Text_Intro, RocketFugitive_Text_Defeat

@@ -9,7 +9,7 @@ SafariZone_West_RestHouse_EventScript_Man::
 SafariZone_West_Text_BaitMakesMonStickAround::
 	.string "No tinc cap {POKEBLOCK}, però he capturat\n"
 	.string "uns quants Pokémon.\p"
-	.string "Pots millorar les teves opcions de\n"
+	.string "Pots millorar les possibilitats de\n"
 	.string "captura acostant-te als Pokémon\l"
 	.string "abans de llançar una Safari Ball.$"
 

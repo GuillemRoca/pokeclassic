@@ -25,8 +25,8 @@ Route25_EventScript_Man::
 
 Route25_Text_AreYouHereAlone::
     .string "Hola, ets aquí sol?\p"
-    .string "Si ets al cap de Cerúlia…\n"
-    .string "Hauria de ser en parella.$"
+    .string "Si vens al cap de Ciutat Cerúlia…\n"
+    .string "hauries de venir-hi en parella.$"
 
 Route25_EventScript_Beauty::
 	msgbox Route25_Text_MistyHighHopesAboutThisPlace, MSGBOX_NPC
@@ -57,7 +57,7 @@ Route25_Text_FranklinDefeat::
 
 Route25_Text_FranklinPostBattle::
     .string "Caram!\n"
-    .string "Un Zubat em va mossegar allà.$"
+    .string "Un Zubat em va mossegar a la cova.$"
 
 Route25_EventScript_RegisterFranklinAfterBattle::
 	special PlayerFaceTrainerAfterBattle
@@ -94,7 +94,7 @@ Route25_EventScript_Joey::
 	end
 
 Route25_Text_JoeyIntro::
-    .string "Els entrenadors locals venen\n"
+    .string "Els Entrenadors locals venen\n"
     .string "aquí a practicar.$"
 
 Route25_Text_JoeyDefeat::
@@ -117,7 +117,7 @@ Route25_Text_WayneIntro::
     .string "Primer, lluitem!$"
 
 Route25_Text_WayneDefeat::
-    .string "Ets alguna cosa.$"
+    .string "Ets bo de veritat.$"
 
 Route25_Text_WaynePostBattle::
     .string "El camí de baix és una drecera\n"
@@ -138,7 +138,7 @@ Route25_Text_DanDefeat::
 
 Route25_Text_DanPostBattle::
     .string "Al SS Anna vaig veure\n"
-    .string "entrenadors de tot el món.$"
+    .string "Entrenadors de tot el món.$"
 
 Route25_EventScript_Kelsey::
 	trainerbattle_single TRAINER_PICNICKER_KELSEY, Route25_Text_KelseyIntro, Route25_Text_KelseyDefeat
@@ -163,13 +163,13 @@ Route25_EventScript_Nob::
 
 Route25_Text_NobIntro::
     .string "Vaig a veure la col·lecció d'un\n"
-    .string "PokéManíac al cap.$"
+    .string "Pokémaniàtic al cap.$"
 
 Route25_Text_NobDefeat::
-    .string "M'has enxampat bé!$"
+    .string "M'has guanyat, i ben guanyat!$"
 
 Route25_Text_NobPostBattle::
-    .string "El PokéManíac fa honor al\n"
+    .string "El Pokémaniàtic fa honor al\n"
     .string "seu nom.\p"
     .string "La seva col·lecció inclou moltes\n"
     .string "espècies rares de Pokémon.$"
@@ -197,13 +197,13 @@ Route25_EventScript_Chad::
 
 Route25_Text_ChadIntro::
     .string "Tenia un pressentiment…\n"
-    .string "Sabia que havia de lluitar!$"
+    .string "Sabia que havia de lluitar amb tu!$"
 
 Route25_Text_ChadDefeat::
-    .string "Sabia que perdria!$"
+    .string "També sabia que perdria!$"
 
 Route25_Text_ChadPostBattle::
-    .string "Si el teu Pokémon es confon,\n"
+    .string "Si el teu Pokémon queda confós,\n"
     .string "canvia'l.\p"
     .string "És una bona tàctica.$"
 

@@ -29,7 +29,7 @@ Route21_South_Text_JohanDefeat::
     .string "Se m'han caigut les boles...$"
 
 Route21_South_Text_JohanPostBattle::
-    .string "Només els entrenadors més forts\n"
+    .string "Només els Entrenadors més forts\n"
     .string "arriben a l'Alt Comandament.$"
 
 Route21_South_EventScript_RegisterJohanAfterBattle::
@@ -41,9 +41,10 @@ Route21_South_EventScript_RegisterJohanAfterBattle::
 	end
 
 Route21_South_Text_JohanRegister:
-	.string "M'he teletransportat aquí..\p"
-	.string "però no em queden PP...\p"
-	.string "Et puc trucar per tornar?$"
+	.string "M'he teletransportat fins aquí...\p"
+	.string "però no em queden PU...\p"
+	.string "Et puc trucar més tard perquè\n"
+	.string "em tornis?$"
 
 Route21_South_EventScript_JohanRematch::
 	trainerbattle_rematch REMATCHABLE_TRAINER_JUGGLER_JOHAN_1, Route21_South_Text_JohanRematchIntro, Route21_South_Text_JohanDefeat
@@ -55,8 +56,8 @@ Route21_South_Text_JohanRematchIntro::
 
 Route21_South_Text_JohanRematchPostBattle::
 	.string "Si no hagués deixat els estudis,\n"
-	.string "podria treballar a Silph!\p"
-	.string "Però hauria estat feliç si no\n"
+	.string "podria treballar a Silph S.A.!\p"
+	.string "Però seria feliç si no\n"
 	.string "estigués aquí fent malabars?\p"
 	.string "Qui ho sap...$"
 
@@ -87,11 +88,12 @@ Route21_South_Text_NolanIntro::
 	.string "Fes-me companyia fins que piqui.$"
 
 Route21_South_Text_NolanDefeat::
-	.string "Això ha cremat una mica de temps.$"
+	.string "Almenys he matat una mica\n"
+	.string "el temps.$"
 
 Route21_South_Text_NolanPostBattle::
 	.string "Oh, espera!\n"
-	.string "Tinc picada! Sí!$"
+	.string "Ha picat! Sí!$"
 
 Route21_South_EventScript_Jack::
 	trainerbattle_single TRAINER_SWIMMER_MALE_JACK, Route21_South_Text_JackIntro, Route21_South_Text_JackDefeat
@@ -99,7 +101,8 @@ Route21_South_EventScript_Jack::
 	end
 
 Route21_South_Text_JackIntro::
-	.string "He atrapat els Pokémon al mar.$"
+	.string "Els meus Pokémon els he atrapat\n"
+	.string "al mar.$"
 
 Route21_South_Text_JackDefeat::
 	.string "Immersió!!\n"
@@ -114,7 +117,7 @@ Route21_South_EventScript_Jerome::
 	end
 
 Route21_South_Text_JeromeIntro::
-	.string "Ara estic en un triatló.$"
+	.string "Ara mateix faig un triatló.$"
 
 Route21_South_Text_JeromeDefeat::
 	.string "Buf…\n"
@@ -139,7 +142,7 @@ Route21_South_Text_RolandDefeat::
 	.string "He perdut!$"
 
 Route21_South_Text_RolandPostBattle::
-	.string "Estic cremat pel sol!$"
+	.string "Estic ben socarrimat pel sol!$"
 
 Route21S_RocketFugitive::
     trainerbattle_single TRAINER_FUGITIVE_F, RocketFugitive_Text_Intro, RocketFugitive_Text_Defeat

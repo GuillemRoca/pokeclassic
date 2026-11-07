@@ -20,11 +20,11 @@ Route15_EventScript_Olivia::
 	end
 
 Route15_Text_OliviaIntro::
-    .string "Crio Pokémon per protecció\n"
+    .string "Crio Pokémon per protegir-me,\n"
     .string "perquè visc sola.$"
 
 Route15_Text_OliviaDefeat::
-    .string "Per a mi, Pokémon no va de\n"
+    .string "Per a mi, els Pokémon no van de\n"
     .string "guanyar o perdre.$"
 
 Route15_Text_OliviaPostBattle::
@@ -52,7 +52,8 @@ Route15_EventScript_OliviaRematch::
 
 Route15_Text_OliviaRematchIntro::
 	.string "Encara visc sola, així que he\n"
-	.string "d'entrenar els meus Pokémon.$"
+	.string "d'entrenar els meus Pokémon\l"
+	.string "perquè em protegeixin.$"
 
 Route15_Text_OliviaRematchPostBattle::
 	.string "Potser hauria de buscar un altre\n"
@@ -82,13 +83,13 @@ Route15_EventScript_Ernest::
 
 Route15_Text_ErnestIntro::
     .string "Ei, nano! Vine!\n"
-    .string "Acabo de treure'ls a un pringat!$"
+    .string "Acabo de prendre'ls a un babau!$"
 
 Route15_Text_ErnestDefeat::
     .string "Per què no?$"
 
 Route15_Text_ErnestPostBattle::
-    .string "La vida és curta.\n"
+    .string "La vida és massa curta.\n"
     .string "Mola viure com un fora de la llei.\l"
     .string "Visca l'Equip Rocket!$"
 
@@ -105,8 +106,8 @@ Route15_Text_AlexDefeat::
     .string "No pot ser veritat!$"
 
 Route15_Text_AlexPostBattle::
-    .string "Estava broma amb els diners.\n"
-    .string "No m'agafis tan seriosament.$"
+    .string "Feia broma amb això dels diners.\n"
+    .string "No t'ho prenguis tan seriosament.$"
 
 Route15_EventScript_Edwin::
 	trainerbattle_single TRAINER_BIRD_KEEPER_EDWIN, Route15_Text_EdwinIntro, Route15_Text_EdwinDefeat
@@ -123,7 +124,7 @@ Route15_Text_EdwinDefeat::
 
 Route15_Text_EdwinPostBattle::
     .string "Potser no estic fet per combatre.\n"
-    .string "No soc del tipus adequat.$"
+    .string "Suposo que no soc del tipus adequat.$"
 
 Route15_EventScript_Chester::
 	trainerbattle_single TRAINER_BIRD_KEEPER_CHESTER, Route15_Text_ChesterIntro, Route15_Text_ChesterDefeat
@@ -141,7 +142,7 @@ Route15_Text_ChesterPostBattle::
     .string "Això és obvi, ho hauries de\n"
     .string "saber, però…\p"
     .string "Moviments com Terratrèmol i\n"
-    .string "Fissura no afecten Pokémon ocell.$"
+    .string "Esquerda no afecten Pokémon ocell.$"
 
 Route15_EventScript_Yazmin::
 	trainerbattle_single TRAINER_PICNICKER_YAZMIN, Route15_Text_YazminIntro, Route15_Text_YazminDefeat
@@ -171,10 +172,10 @@ Route15_Text_KindraDefeat::
     .string "No n'hi ha prou!$"
 
 Route15_Text_KindraPostBattle::
-    .string "No pots canviar el malnom d'un\n"
+    .string "No pots canviar el sobrenom d'un\n"
     .string "Pokémon d'intercanvi.\p"
     .string "Només l'Entrenador Original pot\n"
-    .string "canviar el malnom.$"
+    .string "canviar-li el sobrenom.$"
 
 Route15_EventScript_Becky::
 	trainerbattle_single TRAINER_PICNICKER_BECKY, Route15_Text_BeckyIntro, Route15_Text_BeckyDefeat
@@ -190,7 +191,7 @@ Route15_Text_BeckyDefeat::
     .string "No, error!$"
 
 Route15_Text_BeckyPostBattle::
-    .string "Em fan por els Motoristes. Tenen\n"
+    .string "Em fan por els Ciclistes. Tenen\n"
     .string "una pinta tan lletja i dolenta!$"
 
 Route15_EventScript_Celia::
@@ -223,8 +224,8 @@ Route15_Text_MyaDefeat::
     .string "Posa atenció al que fas!$"
 
 Route15_Text_MyaPostBattle::
-    .string "Mya: D'acord, augmentarem\n"
-    .string "l'entrenament!$"
+    .string "Mya: D'acord, apujarem el ritme.\n"
+    .string "Afegiré més exercicis!$"
 
 Route15_Text_MyaNotEnoughMons::
     .string "Mya: Vols desafiar-nos?\n"
@@ -250,7 +251,7 @@ Route15_Text_RonPostBattle::
 
 Route15_Text_RonNotEnoughMons::
     .string "Ron: Volies combatre amb la meva\n"
-    .string "germana i jo?\p"
+    .string "germana i amb mi?\p"
     .string "Necessites dos Pokémon.$"
 
 Route15_EventScript_RouteSign::
@@ -259,7 +260,7 @@ Route15_EventScript_RouteSign::
 
 Route15_Text_RouteSign::
     .string "Ruta 15\n"
-    .string "Oest cap a Ciutat Fúcsia$"
+    .string "Oest: Ciutat Fúcsia$"
 
 Route15_EventScript_ItemTM18::
 	finditem ITEM_TM18, 1

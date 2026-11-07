@@ -30,7 +30,7 @@ ViridianCity_Gym_EventScript_Giovanni::
 ViridianCity_Gym_Text_GiovanniSpeech::
     .string "Fwahahaha!\n"
     .string "Benvingut al meu amagatall!\p"
-    .string "Així serà fins que pugui restaurar\n"
+    .string "I ho serà fins que pugui retornar\n"
     .string "l'Equip Rocket a la seva antiga\l"
     .string "glòria.\p"
     .string "Però m'has trobat de nou.\n"
@@ -48,8 +48,8 @@ ViridianCity_Gym_Text_GiovanniPostBattle::
     .string "He traït la seva confiança.\p"
     .string "A partir d'avui, l'Equip Rocket\n"
     .string "s'ha acabat per sempre!\p"
-    .string "Quant a mi, em dedicaré\n"
-    .string "a entrenar de nou.\p"
+    .string "Pel que fa a mi, tornaré a\n"
+    .string "dedicar la vida a entrenar.\p"
     .string "Retrobem-nos algun dia!\n"
     .string "Adéu!$"
 
@@ -101,9 +101,9 @@ ViridianCity_Gym_EventScript_GiveTM26::
 	end
 
 ViridianCity_Gym_Text_ExplainEarthBadgeTakeThis::
-    .string "La Medalla Terra fa que Pokémon\n"
-    .string "de qualsevol nivell obeeixin\l"
-    .string "sense qüestionar.\p"
+    .string "La Medalla Terra fa que els Pokémon\n"
+    .string "de qualsevol nivell t'obeeixin\l"
+    .string "sense discutir.\p"
     .string "És la prova del teu domini com\n"
     .string "a Entrenador Pokémon.\p"
     .string "Amb ella, pots desafiar la\n"
@@ -125,8 +125,8 @@ ViridianCity_Gym_Text_ExplainTM26::
     .string "La MT26 conté Terratrèmol.\p"
     .string "És un atac poderós que causa\n"
     .string "un tremolor massiu.\p"
-    .string "El vaig crear quan dirigia el\n"
-    .string "Gimnàs d'aquí, fa molt de temps…$"
+    .string "La vaig crear quan dirigia aquest\n"
+    .string "Gimnàs, fa massa temps…$"
 
 ViridianCity_Gym_Text_YouDoNotHaveSpace::
     .string "No tens espai per a això!\p"
@@ -148,8 +148,8 @@ ViridianCity_Gym_Text_JasonDefeat::
     .string "Esteu en perfecta harmonia!$"
 
 ViridianCity_Gym_Text_JasonPostBattle::
-    .string "Saps la identitat del nostre\n"
-    .string "Líder de Gimnàs?$"
+    .string "Saps qui és el nostre Líder de\n"
+    .string "Gimnàs?$"
 
 ViridianCity_Gym_EventScript_Cole::
 	trainerbattle_single TRAINER_TAMER_COLE, ViridianCity_Gym_Text_ColeIntro, ViridianCity_Gym_Text_ColeDefeat
@@ -157,8 +157,8 @@ ViridianCity_Gym_EventScript_Cole::
 	end
 
 ViridianCity_Gym_Text_ColeIntro::
-    .string "Els teus Pokémon s'acovardiran\n"
-    .string "amb el sonar del meu fuet!$"
+    .string "Els teus Pokémon tremolaran de\n"
+    .string "por quan sentin el meu fuet!$"
 
 ViridianCity_Gym_Text_ColeDefeat::
     .string "Au!\n"
@@ -213,7 +213,7 @@ ViridianCity_Gym_Text_TakashiDefeat::
 
 ViridianCity_Gym_Text_TakashiPostBattle::
     .string "La Lliga Pokémon?\n"
-    .string "Tu? No et passis!$"
+    .string "Tu? No et facis el xulo!$"
 
 ViridianCity_Gym_EventScript_Samuel::
 	trainerbattle_single TRAINER_COOLTRAINER_SAMUEL, ViridianCity_Gym_Text_SamuelIntro, ViridianCity_Gym_Text_SamuelDefeat
@@ -221,8 +221,8 @@ ViridianCity_Gym_EventScript_Samuel::
 	end
 
 ViridianCity_Gym_Text_SamuelIntro::
-    .string "El Gimnàs de Viridiana va estar\n"
-    .string "tancat molt de temps.\p"
+    .string "El Gimnàs de Ciutat Viridiana va\n"
+    .string "estar tancat molt de temps.\p"
     .string "Però ara, el nostre Líder ha\n"
     .string "tornat!$"
 
@@ -248,8 +248,8 @@ ViridianCity_Gym_Text_YujiDefeat::
     .string "M'he quedat sense forces!$"
 
 ViridianCity_Gym_Text_YujiPostBattle::
-    .string "Necessitaràs poder per seguir\n"
-    .string "el ritme del nostre Líder.$"
+    .string "Necessitaràs força per seguir el\n"
+    .string "ritme del nostre Líder.$"
 
 ViridianCity_Gym_EventScript_Warren::
 	trainerbattle_single TRAINER_COOLTRAINER_WARREN, ViridianCity_Gym_Text_WarrenIntro, ViridianCity_Gym_Text_WarrenDefeat
@@ -278,9 +278,9 @@ ViridianCity_Gym_EventScript_GymGuy::
 
 ViridianCity_Gym_Text_GymGuyAdvice::
     .string "Ei!\n"
-    .string "Futur campió!\p"
-    .string "Ni jo conec la identitat del\n"
-    .string "Líder de Viridiana.\p"
+    .string "Futur Campió!\p"
+    .string "Ni tan sols jo sé qui és el Líder\n"
+    .string "de Ciutat Viridiana.\p"
     .string "Però una cosa és segura.\n"
     .string "Aquest serà el més dur de tots\l"
     .string "els Líders de Gimnàs.\p"
@@ -294,8 +294,9 @@ ViridianCity_Gym_EventScript_GymGuyPostVictory::
 	end
 
 ViridianCity_Gym_Text_GymGuyPostVictory::
-    .string "Estic al·lucinat! En Giovanni era\n"
-    .string "el Líder del Gimnàs de Viridiana?$"
+    .string "Estic al·lucinat! En Giovanni\n"
+    .string "era el Líder del Gimnàs de\l"
+    .string "Ciutat Viridiana?$"
 
 ViridianCity_Gym_EventScript_GymStatue::
 	lockall
@@ -305,7 +306,7 @@ ViridianCity_Gym_EventScript_GymStatue::
 	end
 
 ViridianCity_Gym_Text_GymStatue::
-    .string "Gimnàs Pokémon de Viridiana\n"
+    .string "Gimnàs Pokémon de Ciutat Viridiana\n"
     .string "Líder: ?\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}$"
@@ -316,7 +317,7 @@ ViridianCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 ViridianCity_Gym_Text_GymStatuePlayerWon::
-    .string "Gimnàs Pokémon de Viridiana\n"
+    .string "Gimnàs Pokémon de Ciutat Viridiana\n"
     .string "Líder: ?\p"
     .string "Entrenadors guanyadors:\n"
     .string "{RIVAL}, {PLAYER}$"
@@ -344,13 +345,13 @@ ViridianCity_Gym_Text_RivalSpeech::
 	.string "Quan vaig començar aquest viatge,\n"
 	.string "de veritat creia que era el millor\l"
 	.string "de tots...\p"
-	.string "Però tu sempre ets allà, just\n"
-	.string "darrere meu...i em vaig descuidar.\p"
+	.string "Però tu sempre eres allà, just\n"
+	.string "darrere meu...i em vaig confiar.\p"
 	.string "Necessito temps per reflexionar.\n"
 	.string "Qui sap...\p"
-	.string "Potser no soc el campió, però\n"
-	.string "algun dia, podria ser Líder de\l"
-	.string "Gimnàs...\p"
+	.string "Potser no soc el Campió, però\n"
+	.string "potser algun dia podria ser Líder\l"
+	.string "de Gimnàs...\p"
 	.string "...\p"
 	.string "Bah, tant se val! No és moment\n"
 	.string "de posar-se sentimental!$"
@@ -416,9 +417,10 @@ ViridianCity_Gym_Text_FoundThis::
 	.string "Oh, quasi m'oblido!\p"
 	.string "He trobat això quan estava\n"
 	.string "explorant aquest lloc.\p"
-	.string "Tant com odio recompensar-te,\n"
-	.string "ja tinc aquesta MT.\p"
-	.string "Hauries d'agafar-lo.$"
+	.string "Per molt que m'emprenyi\n"
+	.string "recompensar-te, ja tinc\l"
+	.string "aquesta MT.\p"
+	.string "Queda-te-la.$"
 
 ViridianCity_Gym_Text_ReceivedTM26FromRival::
     .string "{PLAYER} ha rebut la MT26\n"
@@ -436,4 +438,4 @@ ViridianCity_Gym_Text_RivalExplainTM26::
 
 ViridianCity_Gym_Text_YouDoNotHaveSpace2::
     .string "Oh, no tens espai per a això?\p"
-    .string "Llàstima! Me'l quedo. Ha!$"
+    .string "Llàstima! Me la quedo. Ha!$"

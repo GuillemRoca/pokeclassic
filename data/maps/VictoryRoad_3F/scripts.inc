@@ -90,7 +90,7 @@ VictoryRoad_3F_Text_AlexaDefeat::
     .string "Que fort!$"
 
 VictoryRoad_3F_Text_AlexaPostBattle::
-    .string "Lluitant combats durs, et fas\n"
+    .string "Lliurant combats durs, et fas\n"
     .string "més fort.$"
 
 VictoryRoad_3F_EventScript_Ray::
@@ -123,14 +123,14 @@ VictoryRoad_3F_EventScript_Tyra::
 
 VictoryRoad_3F_Text_TyraIntro::
     .string "Tyra: Estem intentant ser\n"
-    .string "campions junts.$"
+    .string "Campions junts.$"
 
 VictoryRoad_3F_Text_TyraDefeat::
     .string "Tyra: Oh, però…$"
 
 VictoryRoad_3F_Text_TyraPostBattle::
     .string "Tyra: M'has ensenyat que el poder\n"
-    .string "pot ser infinit en forma.$"
+    .string "pot prendre infinites formes.$"
 
 VictoryRoad_3F_Text_TyraNotEnoughMons::
     .string "Tyra: No pots combatre amb\n"

@@ -26,16 +26,16 @@ Route13_EventScript_TrainerTips2::
 
 Route13_Text_SelectToSwitchItems::
     .string "Consells d'Entrenador:\p"
-    .string "Fes servir Select per canviar\n"
-    .string "objectes a la finestra.$"
+    .string "Prem Select per moure objectes\n"
+    .string "a la finestra d'Objectes.$"
 
 Route13_EventScript_RouteSign::
 	msgbox Route13_Text_RouteSign, MSGBOX_SIGN
 	end
 
 Route13_Text_RouteSign::
-    .string "RUTA 13\n"
-    .string "Nord cap al Pont del Silenci$"
+    .string "Ruta 13\n"
+    .string "Nord: Pont del Silenci$"
 
 Route13_EventScript_Lola::
 	trainerbattle_single TRAINER_BEAUTY_LOLA, Route13_Text_LolaIntro, Route13_Text_LolaDefeat
@@ -47,11 +47,11 @@ Route13_Text_LolaIntro::
 
 Route13_Text_LolaDefeat::
     .string "Oh!\n"
-    .string "Petita bèstia!$"
+    .string "Ets una fera!$"
 
 Route13_Text_LolaPostBattle::
-    .string "Em pregunto què és més fort,\n"
-    .string "un Pokémon mascle o femella?$"
+    .string "Qui deuen ser més forts, els\n"
+    .string "Pokémon mascles o les femelles?$"
 
 Route13_EventScript_Sheila::
 	trainerbattle_single TRAINER_BEAUTY_SHEILA, Route13_Text_SheilaIntro, Route13_Text_SheilaDefeat
@@ -59,7 +59,7 @@ Route13_EventScript_Sheila::
 	end
 
 Route13_Text_SheilaIntro::
-    .string "Vols combatre amb Pokémon\n"
+    .string "Vols fer un combat Pokémon\n"
     .string "amb mi?$"
 
 Route13_Text_SheilaDefeat::
@@ -96,8 +96,8 @@ Route13_Text_SebastianIntro::
     .string "combatre amb tu!$"
 
 Route13_Text_SebastianDefeat::
-    .string "El meu combo Pidgey i Pidgeotto\n"
-    .string "ha perdut?$"
+    .string "La meva combinació de Pidgey i\n"
+    .string "Pidgeotto ha perdut?$"
 
 Route13_Text_SebastianPostBattle::
     .string "Els meus Pokémon semblen contents\n"
@@ -111,7 +111,7 @@ Route13_EventScript_Perry::
 
 Route13_Text_PerryIntro::
     .string "No perdré.\n"
-    .string "No quan el vent bufa a favor!$"
+    .string "No pas amb el vent a favor!$"
 
 Route13_Text_PerryDefeat::
     .string "El vent ha girat!$"
@@ -142,7 +142,7 @@ Route13_EventScript_Alma::
 	end
 
 Route13_Text_AlmaIntro::
-    .string "Vaig trobar un carbos en una\n"
+    .string "Vaig trobar un Carbos en una\n"
     .string "cova mentre feia espeleologia.$"
 
 Route13_Text_AlmaDefeat::
@@ -151,7 +151,7 @@ Route13_Text_AlmaDefeat::
 
 Route13_Text_AlmaPostBattle::
     .string "El Carbos va augmentar la\n"
-    .string "velocitat del meu Pokémon.$"
+    .string "Velocitat del meu Pokémon.$"
 
 Route13_EventScript_Susie::
 	trainerbattle_single TRAINER_PICNICKER_SUSIE, Route13_Text_SusieIntro, Route13_Text_SusieDefeat
@@ -167,7 +167,7 @@ Route13_Text_SusieDefeat::
     .string "He perdut!$"
 
 Route13_Text_SusiePostBattle::
-    .string "Vull ser una bona entrenadora.\n"
+    .string "Vull ser una bona Entrenadora.\n"
     .string "Entrenaré fort, ja ho veuràs.$"
 
 Route13_EventScript_Valerie::
@@ -177,7 +177,7 @@ Route13_EventScript_Valerie::
 
 Route13_Text_ValerieIntro::
     .string "Uau!\n"
-    .string "Les teves medalles són genials!$"
+    .string "Les teves Medalles són genials!$"
 
 Route13_Text_ValerieDefeat::
     .string "No n'hi ha prou!$"

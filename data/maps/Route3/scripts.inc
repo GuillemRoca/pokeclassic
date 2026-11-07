@@ -18,7 +18,7 @@ Route3_EventScript_Youngster::
 Route3_Text_TunnelFromCeruleanTiring::
     .string "Buf… Millor que descansi…\n"
     .string "Ai…\p"
-    .string "Aquell túnel des de Cerúlia\n"
+    .string "Aquell túnel des de Ciutat Cerúlia\n"
     .string "et deixa fet pols!$"
 
 Route3_EventScript_RouteSign::
@@ -27,7 +27,7 @@ Route3_EventScript_RouteSign::
 
 Route3_Text_RouteSign::
     .string "Ruta 3\n"
-    .string "Mont Lluna al davant$"
+    .string "Cap al Mont Lluna$"
 
 Route3_EventScript_Janice::
 	trainerbattle_single REMATCHABLE_TRAINER_LASS_JANICE_1, Route3_Text_JaniceIntro, Route3_Text_JaniceDefeat, Route3_EventScript_RegisterJaniceAfterBattle
@@ -70,8 +70,8 @@ Route3_Text_JaniceRematchIntro::
 	.string "No pares de mirar-me, oi?$"
 
 Route3_Text_JaniceRematchPostBattle::
-	.string "Odio els entrenadors dolents com tu!\n"
-	.string "Algun dia t'ensenyaré!$"
+	.string "Odio els Entrenadors dolents com tu!\n"
+	.string "Algun dia et donaré una lliçó!$"
 
 
 Route3_EventScript_Colton::
@@ -80,8 +80,8 @@ Route3_EventScript_Colton::
 	end
 
 Route3_Text_ColtonIntro::
-    .string "Ei! Has combatut el meu amic al\n"
-    .string "Bosc Viridià!$"
+    .string "Ei! Has lluitat contra el meu amic\n"
+    .string "al Bosc Viridià!$"
 
 Route3_Text_ColtonDefeat::
     .string "A mi també m'has guanyat!$"
@@ -122,7 +122,7 @@ Route3_EventScript_RegisterBenAfterBattle::
 	end
 
 Route3_Text_BenRegister:
-	.string "Sembles un entrenador que\n"
+	.string "Sembles un Entrenador que\n"
 	.string "m'entén. Siguem amics!$"
 
 Route3_EventScript_BenRematch::
@@ -144,7 +144,7 @@ Route3_EventScript_Greg::
 	end
 
 Route3_Text_GregIntro::
-    .string "Ets entrenador?\n"
+    .string "Ets Entrenador?\n"
     .string "Comencem de seguida!$"
 
 Route3_Text_GregDefeat::
@@ -180,14 +180,14 @@ Route3_EventScript_Sally::
 
 Route3_Text_SallyIntro::
     .string "Aquella mirada que m'has fet…\n"
-    .string "Què intrigant!$"
+    .string "Que intrigant!$"
 
 Route3_Text_SallyDefeat::
     .string "Sigues amable!$"
 
 Route3_Text_SallyPostBattle::
     .string "Pots evitar combats si no deixes\n"
-    .string "que els entrenadors et vegin.$"
+    .string "que els Entrenadors et vegin.$"
 
 Route3_EventScript_James::
 	trainerbattle_single TRAINER_BUG_CATCHER_JAMES, Route3_Text_JamesIntro, Route3_Text_JamesDefeat
@@ -218,5 +218,5 @@ Route3_Text_RobinDefeat::
     .string "Ja està?$"
 
 Route3_Text_RobinPostBattle::
-    .string "La Ruta 4 és al peu de\n"
+    .string "La Ruta 4 és al peu del\n"
     .string "Mont Lluna.$"

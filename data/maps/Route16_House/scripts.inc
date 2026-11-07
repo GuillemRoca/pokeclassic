@@ -52,7 +52,7 @@ Route16_House_Text_ReceivedHM02FromGirl::
     .string "de la noia.$"
 
 Route16_House_Text_ExplainHM02::
-    .string "La MO02 és Volar.\n"
+    .string "La MO02 conté Vol.\n"
     .string "És un moviment increïblement\l"
     .string "pràctic.\p"
     .string "Si us plau, fes-ne bon ús.$"

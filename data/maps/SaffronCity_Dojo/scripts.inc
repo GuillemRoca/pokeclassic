@@ -152,8 +152,8 @@ SaffronCity_Dojo_Text_TrainWithMyPupilsDefense::
 	.string "la Defensa.\p"
 	.string "Pots entrenar amb ells cada dia.\n"
 	.string "Però necessiten descansar.\p"
-	.string "Mantenir-se hidratat és important\n"
-	.string "per a l'entrenament també.$"
+	.string "També és important mantenir-se\n"
+	.string "hidratat per a l'entrenament.$"
 
 SaffronCityDojo_Text_ProvedYourselfDefensive::
 	.string "Així que has derrotat tots els\n"
@@ -253,7 +253,7 @@ SaffronCity_Dojo_EventScript_CouldUseADrink::
 	end
 
 SaffronCity_Dojo_Text_SureAmThirsty:
-	.string "L'entrenament Pokémon esgota!\p"
+	.string "L'entrenament Pokémon és esgotador!\p"
 	.string "M'he de refrescar abans de\n"
 	.string "poder fer una altra ronda...$"
 
@@ -262,14 +262,15 @@ SaffronCity_Dojo_Text_CanIHaveThat:
 	.string "Me'n podries donar una mica?$"
 
 SaffronCity_Dojo_Text_CouldUseADrink:
-	.string "Bé que em caldria una beguda...$"
+	.string "Ara em vindria de gust una\n"
+	.string "beguda...$"
 
 SaffronCity_Dojo_Text_HitsThatSpot:
 	.string "Uau, gràcies!\p"
 	.string "GLUP GLUP GLUP\p"
 	.string "Ahhhhhhh....\p"
 	.string "Això és el que necessitava!\p"
-	.string "Em sento preparat per un altre\n"
+	.string "Em sento preparat per a un altre\n"
 	.string "combat!$"
 
 SaffronCity_Dojo_EventScript_BattleLater::
@@ -495,8 +496,9 @@ SaffronCity_Dojo_ExpertBelt::
 	end
 
 SaffronCity_Dojo_Text_ExpertBelt::
-	.string "Aquest Cinturó demostra que ets\n"
-	.string "un mestre dels combats Pokémon.$"
+	.string "Aquest Cinturó Expert demostra\n"
+	.string "que ets un mestre dels combats\l"
+	.string "Pokémon.$"
 
 SaffronCity_Dojo_Unworthy::
 	msgbox SaffronCity_Dojo_Text_Unworthy, MSGBOX_DEFAULT

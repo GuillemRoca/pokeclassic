@@ -40,7 +40,7 @@ SilphCo_3F_EventScript_Grunt::
 	end
 
 SilphCo_3F_Text_WhatAmIToDo::
-    .string "Treballo per Silph S.A.\n"
+    .string "Treballo per a Silph S.A.\n"
     .string "Què he de fer?$"
 
 SilphCo_3F_Text_YouAndYourMonsSavedUs::
@@ -63,7 +63,7 @@ SilphCo_3F_Text_JoseIntro::
     .string "que a Silph S.A.!$"
 
 SilphCo_3F_Text_JoseDefeat::
-    .string "M'has pillat de debò!$"
+    .string "M'has ben enxampat!$"
 
 SilphCo_3F_Text_JosePostBattle::
     .string "Bah…\p"
@@ -73,7 +73,7 @@ SilphCo_3F_Text_JosePostBattle::
 
 SilphCo_3F_Text_FloorSign::
     .string "Seu Central de Silph S.A.\n"
-    .string "3r pis$"
+    .string "P3$"
 
 SilphCo_3F_EventScript_PostgameGrunt4::
 	trainerbattle_single TRAINER_POSTGAME_ROCKET_4, SilphCo_3F_Text_PostgameGrunt4Intro, SilphCo_3F_Text_PostgameGrunt4Defeat
@@ -89,6 +89,6 @@ SilphCo_3F_Text_PostgameGrunt4Defeat::
 SilphCo_3F_Text_PostgameGrunt4PostBattle::
     .string "Aquesta era la nostra última\n"
     .string "oportunitat.\p"
-    .string "El Cap ha tornat a prendre\n"
-    .string "ostatge el President de Silph.\p"
+    .string "El Cap ha tornat a prendre com a\n"
+    .string "ostatge el President de Silph S.A.\p"
     .string "No hi ha marxa enrere!$"

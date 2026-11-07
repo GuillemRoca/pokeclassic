@@ -45,12 +45,12 @@ Movement_PlayerApproachCounter:
 
 ViridianCity_Mart_Text_YouCameFromPallet::
     .string "Ei!\n"
-    .string "Vens de Poble Palette?$"
+    .string "Vens de Poble Paleta?$"
 
 ViridianCity_Mart_Text_TakeThisToProfOak::
     .string "Coneixes el Professor Oak, oi?\p"
     .string "La seva comanda ha arribat.\n"
-    .string "Li pots portar?$"
+    .string "Podries portar-la-hi?$"
 
 ViridianCity_Mart_Text_ReceivedOaksParcelFromClerk::
     .string "{PLAYER} ha rebut el Paquet d'Oak\n"
@@ -58,7 +58,7 @@ ViridianCity_Mart_Text_ReceivedOaksParcelFromClerk::
     .string "Pokémon.$"
 
 ViridianCity_Mart_Text_SayHiToOakForMe::
-    .string "D'acord, gràcies! Saluda al\n"
+    .string "D'acord, gràcies! Saluda el\n"
     .string "Professor Oak de part meva.$"
 
 ViridianCity_Mart_EventScript_Clerk::
@@ -106,6 +106,6 @@ ViridianCity_Mart_EventScript_Customer2::
 	end
 
 ViridianCity_Mart_Text_GotToBuySomePotions::
-    .string "He de comprar unes pocions.\p"
+    .string "He de comprar unes quantes pocions.\p"
     .string "Mai se sap quan els teus Pokémon\n"
     .string "necessitaran una curació ràpida.$"

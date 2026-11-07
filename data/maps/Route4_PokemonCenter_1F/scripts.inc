@@ -36,9 +36,9 @@ Route4_PokemonCenter_1F_EventScript_Gentleman::
 
 Route4_PokemonCenter_1F_Text_TeamRocketAttacksCerulean::
     .string "L'Equip Rocket ataca ciutadans\n"
-    .string "de Cerúlia…\p"
-    .string "No passa un dia sense que el\n"
-    .string "Equip Rocket surti a les notícies.$"
+    .string "de Ciutat Cerúlia…\p"
+    .string "No passa un dia sense que\n"
+    .string "l'Equip Rocket surti a les notícies.$"
 
 Route4_PokemonCenter_1F_EventScript_Youngster::
 	msgbox Route4_PokemonCenter_1F_Text_ShouldStoreMonsUsingPC, MSGBOX_NPC
@@ -57,13 +57,13 @@ Route4_PokemonCenter_1F_EventScript_Newspaper::
 	end
 
 Route4_PokemonCenter_1F_Text_Newspaper::
-    .string "És un diari.\n"
-    .string "EL TEAM ROCKET ATACA CIUTADANS\p"
-    .string "DE CERULEAN!\p"
-    .string "...diversos robatoris reportats\n"
+    .string "És un diari.\p"
+    .string "L'EQUIP ROCKET ATACA\n"
+    .string "CIUTADANS DE CIUTAT CERÚLIA!\p"
+    .string "...diversos robatoris denunciats\n"
     .string "...activitat de bandes en augment...\l"
-    .string "La Policia Internacional podria\l"
-    .string "intervenir-hi...$"
+    .string "Es diu que la Policia Internacional\l"
+    .string "hi podria intervenir...$"
 
 Route4_PokemonCenter_1F_EventScript_MagikarpSalesman::
 	lock
@@ -86,7 +86,7 @@ Route4_PokemonCenter_1F_Text_BuyMagikarpForJust500::
     .string "Tinc una oferta genial per a tu!\p"
     .string "Et deixaré un Pokémon secret\n"
     .string "- un Magikarp - per només ¥500!\p"
-    .string "Doncs, el compraràs, oi?$"
+    .string "Què, el compraràs, oi que sí?$"
 
 
 Route4_PokemonCenter_1F_EventScript_BuyMagikarpParty::
@@ -149,7 +149,7 @@ Route4_PokemonCenter_1F_EventScript_DeclineMagikarp::
 
 Route4_PokemonCenter_1F_Text_OnlyDoingThisAsFavorToYou::
     .string "No? Dius que no? Només ho faig\n"
-    .string "com un favor per a tu!$"
+    .string "per fer-te un favor!$"
 
 Route4_PokemonCenter_1F_EventScript_NotEnoughMoney::
 	msgbox Route4_PokemonCenter_1F_Text_YoullNeedMoreMoney, MSGBOX_DEFAULT
@@ -167,4 +167,4 @@ Route4_PokemonCenter_1F_EventScript_AlreadyBoughtMagikarp::
 
 Route4_PokemonCenter_1F_Text_IDontGiveRefunds::
     .string "Home: Bé, no faig devolucions.\n"
-    .string "Sabies què compràveu!$"
+    .string "Ja sabies què compraves!$"

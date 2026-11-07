@@ -28,12 +28,12 @@ SafariZone_West_EventScript_LostTeethNotice::
 	end
 
 SafariZone_West_Text_PleaseFindWardensLostTeeth::
-    .string "Avís de Cerca\p"
-    .string "Si us plau, trobeu les Dents\n"
+    .string "Avís\p"
+    .string "Es prega que trobeu les Dents\n"
     .string "d'Or perdudes del Guarda del\l"
     .string "Safari. Són per aquí a prop.\p"
-    .string "Es dona recompensa!\n"
-    .string "Contacte: Guarda$"
+    .string "Hi ha recompensa!\n"
+    .string "Contacte: el Guarda$"
 
 SafariZone_West_EventScript_TrainerTips::
 	msgbox SafariZone_West_Text_SearchForSecretHouse, MSGBOX_SIGN
@@ -41,8 +41,8 @@ SafariZone_West_EventScript_TrainerTips::
 
 SafariZone_West_Text_SearchForSecretHouse::
     .string "Consells d'Entrenador:\p"
-    .string "Campanya d'Exploració de Zona!\n"
-    .string "La Cerca de la Casa Secreta!$"
+    .string "Campanya d'exploració de la Zona!\n"
+    .string "A la recerca de la Casa Secreta!$"
 
 SafariZone_West_EventScript_AreaSign::
 	msgbox SafariZone_West_Text_AreaSign, MSGBOX_SIGN

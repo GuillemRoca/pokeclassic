@@ -12,7 +12,7 @@ Route6_NorthEntrance_EventScript_Guard::
 	end
 
 Route6_NorthEntrance_Text_HiHowsItGoing::
-    .string "Ei, com va?$"
+    .string "Hola, com va?$"
 
 Route6_NorthEntrance_EventScript_RoadsClosed::
 	msgbox Route6_NorthEntrance_Text_RoadsClosed, MSGBOX_NPC
@@ -42,21 +42,21 @@ Route6_NorthEntrance_EventScript_GuardThirsty::
 
 Route6_NorthEntrance_Text_ThirstyOnGuardDuty::
     .string "Estic de guàrdia.\n"
-    .string "Uf, tinc molta set, però!$"
+    .string "Uf, quina set que tinc!$"
 
 Route6_NorthEntrance_Text_ThatTeaLooksTasty::
-    .string "Oh, aquest te…\n"
-    .string "Sembla molt bo…$"
+    .string "Oh, aquell te…\n"
+    .string "Té una pinta boníssima…$"
 
 Route6_NorthEntrance_Text_ThanksIllShareTeaWithGuards::
-    .string "Eh? Me'l puc quedar?\n"
+    .string "Eh? Me la puc beure?\n"
     .string "Gràcies!\l"
     .string "… …\l"
     .string "Glup, glup…\l"
     .string "… …\l"
     .string "Gulp…\l"
     .string "… …\l"
-    .string "Això refresca de debò!…\p"
+    .string "Això sí que m'ha anat bé!…\p"
     .string "Compartiré aquest te amb els\n"
     .string "altres guàrdies!$"
 
@@ -67,7 +67,7 @@ Route6_NorthEntrance_EventScript_DenyGuard::
 
 Route6_NorthEntrance_Text_ThatsAShame::
 	.string "Oh, quina llàstima.\n"
-	.string "Bé m'aniria una beguda...$"
+	.string "Ara em vindria de gust una beguda...$"
 
 Route6_NorthEntrance_EventScript_GuardSmallTalk::
 	goto_if_unset FLAG_DELIVERED_ROCKET_PLANS, Route6_NorthEntrance_EventScript_RoadsClosed
@@ -82,9 +82,9 @@ Route6_NorthEntrance_EventScript_Jenny::
 	end
 
 Route6_NorthEntrance_Text_TipAboutTeamRocket::
-	.string "Hem rebut una pista que l'Equip\n"
-	.string "Rocket podria passar per aquí,\l"
-	.string "així que no podem deixar\l"
+	.string "Hem rebut un avís que diu que\n"
+	.string "l'Equip Rocket podria passar per\l"
+	.string "aquí, així que no podem deixar\l"
 	.string "passar ningú ara mateix.$"
 
 Route6_NorthEntrance_EventScript_DeliverRocketPlans::
@@ -106,8 +106,9 @@ Route6_NorthEntrance_EventScript_DeliverRocketPlans::
 Route6_NorthEntrance_Text_DeliverRocketPlans::
 	.string "Què? Has trobat plans de\n"
 	.string "l'Equip Rocket?\p"
-	.string "Més val que no sigui una broma.\p"
-	.string "Hauré de veure-ho…\n"
+	.string "Més val que no sigui una broma,\n"
+	.string "nano.\p"
+	.string "Els hauré de veure…\n"
 	.string "... ... ...\p"
 	.string "Semblen autèntics!\p"
 	.string "He de portar-los a l'Inspector\n"

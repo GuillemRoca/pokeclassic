@@ -31,11 +31,11 @@ SafariZone_SecretHouse_Text_CongratsYouveWon::
     .string "Has guanyat!$"
 
 SafariZone_SecretHouse_Text_ExplainSurf::
-    .string "La MO03 és Surf.\p"
-    .string "Els Pokémon podran transportar-te\n"
-    .string "per l'aigua amb ella.\p"
-    .string "Tens molta sort per guanyar\n"
-    .string "aquest premi fabulós!$"
+    .string "La MO03 conté Surf.\p"
+    .string "Amb aquest moviment, els Pokémon\n"
+    .string "podran portar-te per l'aigua.\p"
+    .string "Quina sort que has tingut de\n"
+    .string "guanyar aquest premi fabulós!$"
 
 SafariZone_SecretHouse_Text_ReceivedHM03FromAttendant::
     .string "{PLAYER} ha rebut la MO03\n"

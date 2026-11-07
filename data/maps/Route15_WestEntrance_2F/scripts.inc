@@ -65,9 +65,10 @@ Route15_WestEntrance_2F_EventScript_AlreadyGotReward::
     end
 
 Route15_WestEntrance_2F_Text_ExplainReward::
-    .string "Pots activar el Rep. Exp. a la\n"
-    .string "bossa d'Objectes Clau.\p"
-    .string "Reparteix punts d'EXP. als\n"
+    .string "Pots activar el Repartidor d'Exp.\n"
+    .string "des dels Objectes Clau de la\l"
+    .string "Motxilla.\p"
+    .string "Reparteix punts d'Exp. als\n"
     .string "Pokémon del teu equip, encara\l"
     .string "que no hagin participat en\l"
     .string "el combat.\p"

@@ -27,4 +27,4 @@ SSAnne_1F_Room6_EventScript_DeclineHeal::
 
 SSAnne_1F_Room6_Text_SorryYouLookLikeSomeone::
     .string "Oh, perdona per preocupar-me tant.\n"
-    .string "Em recordes al meu nét…$"
+    .string "Em recordes el meu nét…$"

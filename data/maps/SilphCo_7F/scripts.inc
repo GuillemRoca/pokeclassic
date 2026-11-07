@@ -89,7 +89,7 @@ SilphCo_7F_EventScript_NoRoomForLapras::
 
 SilphCo_7F_Text_NoRoomForMorePokemon::
 	.string "Oh! No tens espai per a més\n"
-	.string "Pokémon!"
+	.string "Pokémon!$"
 
 SilphCo_7F_EventScript_RivalTriggerTop::
 	lockall
@@ -255,18 +255,18 @@ SilphCo_7F_Text_HaveMonForSavingUs::
     .string "Has vingut a salvar-nos?\l"
     .string "Moltes gràcies!\p"
     .string "Vull donar-te aquest Pokémon\n"
-    .string "per salvar-nos.$"
+    .string "per haver-nos salvat.$"
 
 SilphCo_7F_Text_ObtainedLaprasFromEmployee::
-    .string "{PLAYER} ha obtingut un LAPRAS\n"
-    .string "de l'empleat de Silph!$"
+    .string "{PLAYER} ha obtingut un Lapras\n"
+    .string "de l'empleat de Silph S.A.!$"
 
 SilphCo_7F_Text_ExplainLapras::
     .string "És un Lapras.\n"
     .string "És un Pokémon molt intel·ligent.\p"
     .string "El teníem al nostre laboratori,\n"
     .string "però estarà molt millor amb tu.\p"
-    .string "Crec que seràs un bon entrenador\n"
+    .string "Crec que seràs un bon Entrenador\n"
     .string "per a Lapras!\p"
     .string "És un bon nedador. Et portarà\n"
     .string "per l'aigua!$"
@@ -279,17 +279,17 @@ SilphCo_7F_Text_RocketBossWentToBoardroom::
 
 SilphCo_7F_Text_RocketsAfterMasterBall::
     .string "L'Equip Rocket anava darrere la\n"
-    .string "Master Ball, que captura\l"
+    .string "Màster Ball, que captura\l"
     .string "qualsevol Pokémon.$"
 
 SilphCo_7F_Text_CanceledMasterBallProject::
     .string "Hem cancel·lat el projecte de la\n"
-    .string "MASTER Ball per culpa de l'Equip\l"
+    .string "Màster Ball per culpa de l'Equip\l"
     .string "Rocket.$"
 
 SilphCo_7F_Text_BadIfTeamRocketTookOver::
-    .string "Seria dolent si l'Equip Rocket\n"
-    .string "s'apoderés de Silph o dels\l"
+    .string "Seria terrible que l'Equip Rocket\n"
+    .string "s'apoderés de Silph S.A. o dels\l"
     .string "nostres Pokémon.$"
 
 SilphCo_7F_Text_WowYouChasedOffTeamRocket::
@@ -320,14 +320,14 @@ SilphCo_7F_Text_Grunt3PostBattle::
 SilphCo_7F_Text_JoshuaIntro::
     .string "Heheh!\p"
     .string "M'has confós amb un treballador\n"
-    .string "de Silph?$"
+    .string "de Silph S.A.?$"
 
 SilphCo_7F_Text_JoshuaDefeat::
     .string "Estic acabat!$"
 
 SilphCo_7F_Text_JoshuaPostBattle::
     .string "Malgrat la teva edat, ets un\n"
-    .string "entrenador hàbil!$"
+    .string "Entrenador hàbil!$"
 
 SilphCo_7F_Text_Grunt1Intro::
     .string "Soc un dels quatre Germans\n"
@@ -339,11 +339,11 @@ SilphCo_7F_Text_Grunt1Defeat::
 
 SilphCo_7F_Text_Grunt1PostBattle::
     .string "No importa.\n"
-    .string "Els meus germans em tornaran\l"
-    .string "el favor!$"
+    .string "Els meus germans t'ho faran\l"
+    .string "pagar!$"
 
 SilphCo_7F_Text_Grunt2Intro::
-    .string "Un intrús infantil?\n"
+    .string "Un nen intrús?\n"
     .string "Deus ser tu!$"
 
 SilphCo_7F_Text_Grunt2Defeat::
@@ -351,7 +351,7 @@ SilphCo_7F_Text_Grunt2Defeat::
     .string "He perdut!$"
 
 SilphCo_7F_Text_Grunt2PostBattle::
-    .string "Vés-te'n a casa abans que el meu\n"
+    .string "Ves-te'n a casa abans que el meu\n"
     .string "Cap s'enfadi!$"
 
 SilphCo_7F_Text_RivalWhatKeptYou::
@@ -363,14 +363,14 @@ SilphCo_7F_Text_RivalIntro::
     .string "apareixeries si esperava aquí!\p"
     .string "Suposo que l'Equip Rocket t'ha\n"
     .string "alentit! No és que m'importi!\p"
-    .string "Et vaig veure a SAFFRON, així que\n"
-    .string "vaig decidir veure si has\l"
+    .string "Et vaig veure a Ciutat Safrà, així\n"
+    .string "que he decidit comprovar si has\l"
     .string "millorat!$"
 
 SilphCo_7F_Text_RivalDefeat::
-    .string "Oh, no!\n"
-    .string "Bé, estàs preparat per al Cap\l"
-    .string "Rocket!$"
+    .string "Ostres!\n"
+    .string "Vaja, sí que estàs preparat per\l"
+    .string "al Cap Rocket!$"
 
 SilphCo_7F_Text_RivalPostBattle::
     .string "Bé, {PLAYER}!\n"
@@ -389,7 +389,7 @@ SilphCo_7F_Text_RivalPostBattle::
 
 SilphCo_7F_Text_FloorSign::
     .string "Seu Central de Silph S.A.\n"
-    .string "7è pis$"
+    .string "P7$"
 
 
 SilphCo_7F_EventScript_PostgameGrunt5::
@@ -406,7 +406,7 @@ SilphCo_7F_Text_PostgameGrunt5Defeat::
 
 SilphCo_7F_Text_PostgameGrunt5PostBattle::
     .string "El nostre Cap és el més fort de\n"
-    .string "tots els Soldats.$"
+    .string "tots els soldats.$"
 
 SilphCo_7F_EventScript_PostgameGrunt6::
 	trainerbattle_single TRAINER_POSTGAME_ROCKET_6, SilphCo_7F_Text_PostgameGrunt6Intro, SilphCo_7F_Text_PostgameGrunt6Defeat
@@ -414,7 +414,7 @@ SilphCo_7F_EventScript_PostgameGrunt6::
 	end
 
 SilphCo_7F_Text_PostgameGrunt6Intro::
-    .string "Només els Soldats més lleials\n"
+    .string "Només els soldats més lleials\n"
     .string "van ser escollits per a aquesta\l"
     .string "missió.$"
 

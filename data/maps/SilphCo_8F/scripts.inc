@@ -44,8 +44,7 @@ SilphCo_8F_EventScript_Grunt2::
 	end
 
 SilphCo_8F_Text_WonderIfSilphIsFinished::
-    .string "Em pregunto si Silph s'ha\n"
-    .string "acabat…$"
+    .string "Potser és la fi de Silph S.A.…$"
 
 SilphCo_8F_Text_ThanksForSavingUs::
     .string "Gràcies per salvar-nos!$"
@@ -69,7 +68,7 @@ SilphCo_8F_Text_ParkerDefeat::
 
 SilphCo_8F_Text_ParkerPostBattle::
     .string "Bé, què et sembla el laberint\n"
-    .string "de l'Edifici Silph?$"
+    .string "de l'edifici de Silph S.A.?$"
 
 SilphCo_8F_Text_Grunt2Intro::
     .string "Soc un dels quatre Germans\n"
@@ -85,7 +84,7 @@ SilphCo_8F_Text_Grunt2PostBattle::
 
 SilphCo_8F_Text_FloorSign::
     .string "Seu Central de Silph S.A.\n"
-    .string "8è pis$"
+    .string "P8$"
 
 SilphCo_8F_EventScript_Scientist::
 	lock

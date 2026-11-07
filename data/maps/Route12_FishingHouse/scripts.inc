@@ -14,9 +14,9 @@ Route12_FishingHouse_EventScript_FishingGuruBrother::
 Route12_FishingHouse_Text_DoYouLikeToFish::
     .string "Soc el germà petit del Guru\n"
     .string "de la Pesca.\p"
-    .string "M'encanta pescar!\n"
-    .string "No puc viure sense!\p"
-    .string "Digues, t'agrada pescar?$"
+    .string "M'encantaaa pescar!\n"
+    .string "No puc viure sense fer-ho.\p"
+    .string "Digues, a tu t'agrada pescar?$"
 
 Route12_FishingHouse_Text_OhThatsDisappointing::
     .string "Oh…\n"
@@ -47,23 +47,23 @@ Route12_FishingHouse_Text_NoRoomForGift::
     .string "no tens lloc.$"
 
 Route12_FishingHouse_Text_ReceivedSuperRod::
-    .string "{PLAYER} ha rebut una Súper Canya\n"
+    .string "{PLAYER} ha rebut una Supercanya\n"
     .string "del germà del Guru de la Pesca.$"
 
 Route12_FishingHouse_Text_TakeThisAndFish::
     .string "Genial! M'agrada el teu estil.\n"
     .string "Crec que podem ser amics.\p"
-    .string "Agafa això i pesca, jove amic!$"
+    .string "Pren això i ves a pescar, jove amic!$"
 
 Route12_FishingHouse_Text_IfYouCatchBigMagikarpShowMe::
     .string "Pescar és un estil de vida!\n"
     .string "És com la millor poesia.\p"
-    .string "Des de mars fins a rius, surt\n"
-    .string "i pesca el peix gros, amic.\p"
+    .string "Dels mars als rius, surt\n"
+    .string "i pesca el peix gros, amic meu.\p"
     .string "Ara, tinc un favor a demanar.\p"
     .string "Si mai pesques un Magikarp gran,\n"
     .string "vull veure'l.\p"
-    .string "Tant com m'agrada pescar, també\n"
+    .string "A part de pescar, també\n"
     .string "m'encanta veure Magikarp\l"
     .string "gegants.$"
 
@@ -87,7 +87,7 @@ Route12_FishingHouse_EventScript_CheckMagikarpRecord::
 
 Route12_FishingHouse_Text_OhMagikarpAllowMeToSee::
     .string "Oh? {PLAYER}?\n"
-    .string "Oi, si és un Magikarp!\p"
+    .string "Vaja, si és un Magikarp!\p"
     .string "Deixa'm veure'l, ràpid!$"
 
 Route12_FishingHouse_EventScript_NoMagikarpInParty::
@@ -98,8 +98,8 @@ Route12_FishingHouse_EventScript_NoMagikarpInParty::
 Route12_FishingHouse_Text_TryFishingBringMeMagikarp::
     .string "Hola, {PLAYER}!\n"
     .string "Has estat pescant?\p"
-    .string "Prova de pescar a qualsevol cos\n"
-    .string "d'aigua amb canyes diferents!\p"
+    .string "Prova de pescar a qualsevol lloc\n"
+    .string "amb aigua i amb canyes diferents!\p"
     .string "Trobaràs Pokémon diferents en\n"
     .string "llocs diferents, i a hores\l"
     .string "diferents del dia!\p"
@@ -139,9 +139,9 @@ Route12_FishingHouse_EventScript_NewRecordMagikarp::
 Route12_FishingHouse_Text_WhoaXInchesTakeThis::
     .string "… … …Uau!\n"
     .string "{STR_VAR_2} polzades!\p"
-    .string "Tens una apreciació rara pels\n"
-    .string "aspectes fins i poètics de\l"
-    .string "la pesca!\p"
+    .string "Saps apreciar com pocs\n"
+    .string "l'aspecte més fi i poètic\l"
+    .string "de la pesca!\p"
     .string "Has d'agafar això.\n"
     .string "Insisteixo!$"
 
@@ -189,6 +189,6 @@ Route12_FishingHouse_Text_MostGiganticMagikarpXInches::
     .string "{STR_VAR_3} polzades!$"
 
 Route12_FishingHouse_Text_BlankChartOfSomeSort::
-    .string "És un gràfic en blanc.\p"
-    .string "Té espais per escriure-hi\n"
+    .string "És una mena de taula en blanc.\p"
+    .string "Té espais per anotar-hi\n"
     .string "rècords d'algun tipus.$"

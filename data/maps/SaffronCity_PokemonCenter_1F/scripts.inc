@@ -26,9 +26,9 @@ SaffronCity_PokemonCenter_1F_EventScript_Woman::
 	end
 
 SaffronCity_PokemonCenter_1F_Text_RocketsUpstairs::
-	.string "L'Equip Rocket és tan sospitós!\p"
+	.string "L'Equip Rocket és tan tèrbol!\p"
 	.string "Ens van deixar tranquils aquí baix\n"
-	.string "mentre saquegen el segon pis!$"
+	.string "mentre saquejaven el segon pis!$"
 
 SaffronCity_PokemonCenter_1F_EventScript_Woman2::
 	msgbox SaffronCity_PokemonCenter_1F_Text_GrowthRatesDifferBySpecies, MSGBOX_NPC

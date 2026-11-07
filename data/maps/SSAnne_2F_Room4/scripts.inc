@@ -11,7 +11,7 @@ SSAnne_2F_Room4_Text_LamarIntro::
     .string "fort o un de rar?$"
 
 SSAnne_2F_Room4_Text_LamarDefeat::
-    .string "Et saludo!$"
+    .string "Em trec el barret!$"
 
 SSAnne_2F_Room4_Text_LamarPostBattle::
     .string "Personalment, prefereixo Pokémon\n"
@@ -23,8 +23,8 @@ SSAnne_2F_Room4_EventScript_Dawn::
 	end
 
 SSAnne_2F_Room4_Text_DawnIntro::
-    .string "No crec que t'hagi vist a la\n"
-    .string "festa?$"
+    .string "Diria que no t'he vist a la\n"
+    .string "festa, oi?$"
 
 SSAnne_2F_Room4_Text_DawnDefeat::
     .string "Ves amb calma!$"

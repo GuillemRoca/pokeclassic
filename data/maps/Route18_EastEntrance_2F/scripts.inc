@@ -21,8 +21,8 @@ Route18_EastEntrance_2F_EventScript_LittleGirl::
 Route18_EastEntrance_2F_Text_TakeThesePads::
 	.string "La gent va molt ràpid amb la bici\n"
 	.string "pel Carril Bici.\p"
-	.string "Hauries d'agafar aquestes per\n"
-	.string "si caus!$"
+	.string "Hauries d'agafar això per si\n"
+	.string "caus!$"
 
 Route18_EastEntrance_2F_EventScript_LittleGirl2::
 	msgbox Route18_EastEntrance_2F_Text_Safety, MSGBOX_NPC

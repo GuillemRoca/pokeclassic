@@ -53,7 +53,7 @@ VermilionCity_PokemonFanClub_Text_TruePokeFan::
 
 	.string "dels teus Pokémon!\p"
 
-	.string "Ets un autèntic PokéFan!\p"
+	.string "Ets un autèntic Pokéfan!\p"
 
 	.string "Si us plau, pren això i\n"
 
@@ -137,15 +137,15 @@ VermilionCity_PokemonFanClub_Text_MakeRoomForThis::
 
 
 VermilionCity_PokemonFanClub_Text_ReceivedBikeVoucherFromChairman::
-    .string "{PLAYER} ha rebut un Val de Bici\n"
+    .string "{PLAYER} ha rebut un Val Bici\n"
 
     .string "del President.$"
 
 
 VermilionCity_PokemonFanClub_Text_ExplainBikeVoucher::
-    .string "Porta el Val de Bici a la\n"
+    .string "Porta el Val Bici a la Botiga\n"
 
-    .string "Botiga de Bicis de Cerúlia.\p"
+    .string "de Bicis de Ciutat Cerúlia.\p"
 
     .string "Canvia'l per una Bicicleta\n"
 
@@ -300,7 +300,7 @@ VermilionCity_PokemonFanClub_EventScript_RulesSign1::
 VermilionCity_PokemonFanClub_Text_ListenPolitelyToOtherTrainers::
     .string "Escoltem educadament els altres\n"
 
-    .string "entrenadors!$"
+    .string "Entrenadors!$"
 
 
 VermilionCity_PokemonFanClub_EventScript_RulesSign2::

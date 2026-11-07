@@ -11,7 +11,7 @@ SSAnne_1F_Corridor_Text_LeStrongSilentType::
     .string "Estaré encantat de servir-te\n"
     .string "el que vulguis!\p"
     .string "… … …\n"
-    .string "Ah! Le fort i silenciós!$"
+    .string "Ah! Le tipus fort i callat!$"
 
 SSAnne_1F_Corridor_EventScript_Sailor::
 	msgbox SSAnne_1F_Corridor_Text_PassengersAreRestless, MSGBOX_NPC

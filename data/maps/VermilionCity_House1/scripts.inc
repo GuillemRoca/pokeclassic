@@ -12,8 +12,8 @@ VermilionCity_House1_EventScript_FishingGuru::
 	end
 
 VermilionCity_House1_Text_ImFishingGuruDoYouLikeToFish::
-    .string "Soc el Gurú de la Pesca!\p"
-    .string "M'encanta pescar!\n"
+    .string "Soc el Guru de la Pesca!\p"
+    .string "M'encantaaa pescar!\n"
     .string "No puc viure sense fer-ho.\p"
     .string "Digues, a tu t'agrada pescar?$"
 
@@ -47,13 +47,13 @@ VermilionCity_House1_EventScript_GiveOldRod::
 VermilionCity_House1_Text_TakeThisAndFish::
     .string "Genial! M'agrada el teu estil.\n"
     .string "Crec que podem ser amics.\p"
-    .string "Pren això i vés a pescar, amic!$"
+    .string "Pren això i ves a pescar, jove amic!$"
 
 VermilionCity_House1_Text_FishingIsAWayOfLife::
-    .string "La pesca és un estil de vida!\n"
+    .string "Pescar és un estil de vida!\n"
     .string "És com la millor poesia.\p"
-    .string "Dels mars als rius, surt a\n"
-    .string "pescar el gran, amic meu.$"
+    .string "Dels mars als rius, surt\n"
+    .string "i pesca el peix gros, amic meu.$"
 
 
 VermilionCity_House1_EventScript_NoRoomForOldRod::
@@ -68,7 +68,7 @@ VermilionCity_House1_Text_NoRoomForNiceGift::
 
 VermilionCity_House1_Text_ReceivedOldRodFromFishingGuru::
     .string "{PLAYER} ha rebut una Canya Vella\n"
-    .string "del Gurú de la Pesca.$"
+    .string "del Guru de la Pesca.$"
 
 
 

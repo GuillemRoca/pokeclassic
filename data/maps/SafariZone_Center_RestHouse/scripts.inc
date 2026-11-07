@@ -7,7 +7,7 @@ SafariZone_Center_RestHouse_EventScript_Sara::
 
 SafariZone_Center_Text_WhereDidErikGo::
     .string "Sara: On ha anat el meu xicot,\n"
-    .string "Erik?$"
+    .string "l'Erik?$"
 
 SafariZone_Center_RestHouse_EventScript_Scientist::
 	msgbox SafariZone_Center_Text_CatchingMonsAsGifts, MSGBOX_NPC

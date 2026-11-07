@@ -11,7 +11,7 @@ SSAnne_B1F_Room4_Text_LeonardIntro::
     .string "i els combats!$"
 
 SSAnne_B1F_Room4_Text_LeonardDefeat::
-    .string "Bé!\n"
+    .string "Molt bé!\n"
     .string "Bon combat, company!$"
 
 SSAnne_B1F_Room4_Text_LeonardPostBattle::

@@ -19,8 +19,8 @@ Route2_ViridianForest_NorthEntrance_EventScript_OldMan::
 Route2_ViridianForest_NorthEntrance_Text_CanCutSkinnyTrees::
     .string "T'has fixat en els arbres prims\n"
     .string "a la vora del camí?\p"
-    .string "Es poden tallar amb un moviment\n"
-    .string "especial de Pokémon, he sentit.$"
+    .string "He sentit que es poden tallar amb\n"
+    .string "un moviment Pokémon especial.$"
 
 Route2_ViridianForest_NorthEntrance_EventScript_CooltrainerF::
 	msgbox Route2_ViridianForest_NorthEntrance_Text_CanCancelEvolution, MSGBOX_NPC

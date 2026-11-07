@@ -82,7 +82,9 @@ Movement_OakApproaches2:
 
 Route1_Text_OakGrassUnsafe::
     .string "Oak: És perillós!\n"
-    .string "Hi ha Pokémon salvatges a l'herba!$"
+    .string "Hi ha Pokémon salvatges a l'herba alta!\p"
+    .string "Necessites un Pokémon propi\n"
+    .string "per protegir-te.$"
 
 Movement_PikachuApproaches1:
 	walk_down
@@ -146,8 +148,8 @@ Route1_EventScript_MartClerk::
 Route1_Text_WorkAtPokeMartTakeSample::
     .string "Hola!\n"
     .string "Treballo a una Botiga Pokémon.\p"
-    .string "Som una cadena que ven tota mena\n"
-    .string "d'objectes.\p"
+    .string "Som una cadena molt pràctica que\n"
+    .string "ven tota mena d'objectes.\p"
     .string "Vine a visitar-nos a Ciutat Viridiana.\p"
     .string "Mira, et donaré una mostra.\n"
     .string "Aquí tens!$"
@@ -166,7 +168,7 @@ Route1_EventScript_Boy::
 	end
 
 Route1_Text_CanJumpFromLedges::
-    .string "Veus aquells barrancs al camí?\p"
+    .string "Veus aquells desnivells del camí?\p"
     .string "Fa una mica de por, però pots\n"
     .string "saltar-los.\p"
     .string "Pots tornar a Poble Paleta\n"

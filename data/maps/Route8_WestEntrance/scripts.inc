@@ -22,7 +22,7 @@ Route8_WestEntrance_EventScript_RoadsClosed::
 Route8_WestEntrance_Text_RoadsClosed::
     .string "Ah, per cert, el camí és tancat.\p"
     .string "La Policia Internacional està\n"
-    .string "buscant l'Equip Rocket!$"
+    .string "a la caça de l'Equip Rocket!$"
 
 Route8_WestEntrance_EventScript_GuardThirsty::
 	msgbox Route8_WestEntrance_Text_ThirstyOnGuardDuty, MSGBOX_NPC
@@ -92,14 +92,14 @@ GateGuard_Text_SnorlaxCyclingRoad::
 
 Route8_WestEntrance_Text_ThirstyOnGuardDuty::
     .string "Estic de guàrdia.\n"
-    .string "Ui, quina set que tinc!$"
+    .string "Uf, quina set que tinc!$"
 
 Route8_WestEntrance_Text_ThatTeaLooksTasty::
     .string "Oh, aquell te…\n"
-    .string "Té una pinta tan bona…$"
+    .string "Té una pinta boníssima…$"
 
 Route8_WestEntrance_Text_ThanksIllShareTeaWithGuards::
-    .string "Eh? Me'l puc quedar?\n"
+    .string "Eh? Me la puc beure?\n"
     .string "Gràcies!\l"
     .string "… …\l"
     .string "Glup, glup…\l"
@@ -117,7 +117,7 @@ Route8_WestEntrance_EventScript_DenyGuard::
 
 Route8_WestEntrance_Text_ThatsAShame::
 	.string "Oh, quina llàstima.\n"
-	.string "Bé m'aniria una beguda...$"
+	.string "Ara em vindria de gust una beguda...$"
 
 Route8_WestEntrance_EventScript_GuardSmallTalk::
 	goto_if_unset FLAG_DELIVERED_ROCKET_PLANS, Route8_WestEntrance_EventScript_RoadsClosed
@@ -132,9 +132,10 @@ Route8_WestEntrance_EventScript_Jenny::
 	end
 
 Route8_WestEntrance_Text_TipAboutTeamRocket::
-	.string "Hem rebut una pista que el Team\n"
-	.string "Rocket podria passar per aquí, així\l"
-	.string "que no podem deixar passar ningú.$"
+	.string "Hem rebut un avís que diu que\n"
+	.string "l'Equip Rocket podria passar per\l"
+	.string "aquí, així que no podem deixar\l"
+	.string "passar ningú ara mateix.$"
 
 Route8_WestEntrance_EventScript_DeliverRocketPlans::
 	removeitem ITEM_ROCKET_PLANS
@@ -153,10 +154,11 @@ Route8_WestEntrance_EventScript_DeliverRocketPlans::
 	end
 
 Route8_WestEntrance_Text_DeliverRocketPlans::
-	.string "Què? Has trobat plans del\n"
-	.string "Equip Rocket?\p"
-	.string "Més val que no sigui una broma.\p"
-	.string "Els hauré de veure...\n"
+	.string "Què? Has trobat plans de\n"
+	.string "l'Equip Rocket?\p"
+	.string "Més val que no sigui una broma,\n"
+	.string "nano.\p"
+	.string "Els hauré de veure…\n"
 	.string "... ... ...\p"
 	.string "Semblen autèntics!\p"
 	.string "He de portar-los a l'Inspector\n"

@@ -36,7 +36,7 @@ Route5_EventScript_UndergroundPathSign::
 	end
 
 Route5_Text_UndergroundPathSign::
-    .string "Pas Subterrani\n"
+    .string "Camí Subterrani\n"
 
     .string "Ciutat Cerúlia - Ciutat Vermella$"
 
@@ -101,7 +101,7 @@ Route5_Text_DoYouWantEgg:
 
 	.string "El teu Pokémon tenia un Ou!\p"
 
-	.string "No sabem com ha arribat aquí,\n"
+	.string "No sabem d'on ha sortit,\n"
 
 	.string "però el teu Pokémon el tenia.\p"
 
@@ -183,7 +183,7 @@ Route5_EventScript_CheckOnTwoMons::
 Route5_Text_YourMonsAreDoingFine:
 	.string "Oh, ets tu! El teu {STR_VAR_1} i\n"
 
-	.string "{STR_VAR_2} van bé.$"
+	.string "el teu {STR_VAR_2} van bé.$"
 
 
 Route5_EventScript_BerryGuy::
@@ -194,9 +194,11 @@ Route5_EventScript_BerryGuy::
 	end
 
 Route5_Text_FriendshipBerries:
-	.string "He sentit que hi ha baies que\n"
+	.string "He sentit que hi ha Baies que\n"
 
-	.string "fan un Pokémon més amistós.$"
+	.string "fan que un Pokémon sigui més\l"
+
+	.string "amistós.$"
 
 
 Route5_RocketFugitive::

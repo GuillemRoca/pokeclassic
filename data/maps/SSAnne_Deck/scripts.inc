@@ -48,7 +48,7 @@ SSAnne_Deck_EventScript_Trevor::
 	end
 
 SSAnne_Deck_Text_TrevorIntro::
-    .string "Ep, aquí!\n"
+    .string "Ep, tu!\n"
     .string "Estàs marejat?$"
 
 SSAnne_Deck_Text_TrevorDefeat::

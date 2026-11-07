@@ -49,25 +49,25 @@ SilphCo_10F_EventScript_Grunt::
 	end
 
 SilphCo_10F_Text_GruntIntro::
-    .string "Benvingut al pis 10!\n"
-    .string "Quina gentilesa de venir!$"
+    .string "Benvingut a la planta 10!\n"
+    .string "Quin detall que hagis vingut!$"
 
 SilphCo_10F_Text_GruntDefeat::
     .string "Estic astorat!$"
 
 SilphCo_10F_Text_GruntPostBattle::
     .string "Bon intent, però la sala de\n"
-    .string "juntes és un pis més amunt.$"
+    .string "juntes és una planta més amunt.$"
 
 SilphCo_10F_Text_TravisIntro::
-    .string "N'hi ha prou dels teus jocs!$"
+    .string "Prou de jocs estúpids!$"
 
 SilphCo_10F_Text_TravisDefeat::
-    .string "No queden continues!$"
+    .string "No em queden més vides!$"
 
 SilphCo_10F_Text_TravisPostBattle::
-    .string "Estàs satisfet amb guanyar-me?\n"
-    .string "Doncs vés-te'n a casa!$"
+    .string "Estàs content d'haver-me guanyat?\n"
+    .string "Doncs ves-te'n a casa!$"
 
 SilphCo_10F_Text_WaaaImScared::
     .string "Buaaa!\n"
@@ -79,4 +79,4 @@ SilphCo_10F_Text_KeepMeCryingASecret::
 
 SilphCo_10F_Text_FloorSign::
     .string "Seu Central de Silph S.A.\n"
-    .string "10è pis$"
+    .string "P10$"

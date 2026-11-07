@@ -7,7 +7,7 @@ SSAnne_1F_Room5_EventScript_Arthur::
 	end
 
 SSAnne_1F_Room5_Text_ArthurIntro::
-    .string "Insolent cadell!\n"
+    .string "Cadell insolent!\n"
     .string "Com goses entrar així!$"
 
 SSAnne_1F_Room5_Text_ArthurDefeat::
@@ -15,5 +15,5 @@ SSAnne_1F_Room5_Text_ArthurDefeat::
     .string "No tens cap sentit de cortesia!$"
 
 SSAnne_1F_Room5_Text_ArthurPostBattle::
-    .string "Desitjo que em deixis sol!\n"
+    .string "Vull estar sol!\n"
     .string "Fora!$"

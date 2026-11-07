@@ -184,7 +184,7 @@ Route22_Text_LateRivalPostBattle::
 	.string "Això m'ha desentumit.\n"
 	.string "Estic llest per a la Lliga!\p"
 	.string "{PLAYER}, necessites més pràctica.\p"
-	.string "Però, ja ho saps!\n"
+	.string "Però això ja ho saps!\n"
 	.string "Me'n vaig. Ens veiem!$"
 
 Route22_EventScript_LeagueGateSign::

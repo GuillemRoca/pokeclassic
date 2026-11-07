@@ -25,7 +25,7 @@ SSAnne_1F_Room2_Text_AnnDefeat::
 
 SSAnne_1F_Room2_Text_AnnPostBattle::
     .string "Has fet mal als meus Pokémon!\p"
-    .string "Exigeixo que els curis a un\n"
+    .string "Exigeixo que els curis en un\n"
     .string "Centre Pokémon!$"
 
 

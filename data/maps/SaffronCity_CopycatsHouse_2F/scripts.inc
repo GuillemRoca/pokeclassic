@@ -13,8 +13,8 @@ SaffronCity_CopycatsHouse_2F_EventScript_Doduo::
 
 SaffronCity_CopycatsHouse_2F_Text_Doduo::
     .string "Doduo: Giiih!\p"
-    .string "Bonic mirall, mira'm,\n"
-    .string "mira que bonic que soc?$"
+    .string "Bonic mirall, mira'm a mi,\n"
+    .string "veus que bonic que soc així?$"
 
 SaffronCity_CopycatsHouse_2F_EventScript_Doll::
 	lock
@@ -72,15 +72,15 @@ SaffronCity_CopycatsHouse_2F_EventScript_Computer::
 
 SaffronCity_CopycatsHouse_2F_Text_MySecrets::
     .string "…\p"
-    .string "Els Meus Secrets!\p"
+    .string "Els meus secrets!\p"
     .string "Habilitat: Imitació!\n"
     .string "Afició: Col·leccionar nines!\l"
-    .string "Pokémon Favorit: Clefairy!$"
+    .string "Pokémon preferit: Clefairy!$"
 
 SaffronCity_CopycatsHouse_2F_EventScript_Game::
 	msgbox SaffronCity_CopycatsHouse_2F_Text_MarioWearingABucket, MSGBOX_SIGN
 	end
 
 SaffronCity_CopycatsHouse_2F_Text_MarioWearingABucket::
-    .string "Un joc amb Mario portant una\n"
+    .string "Un joc d'en Mario amb una\n"
     .string "galleda al cap!$"

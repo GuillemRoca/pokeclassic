@@ -93,8 +93,8 @@ SilphCo_5F_Text_Grunt1PostBattle::
     .string "amb l'Equip Rocket!$"
 
 SilphCo_5F_Text_BeauIntro::
-    .string "Estudiem tecnologia de Poké Ball\n"
-    .string "en aquest pis.$"
+    .string "En aquesta planta estudiem la\n"
+    .string "tecnologia de les Poké Balls.$"
 
 SilphCo_5F_Text_BeauDefeat::
     .string "Llamps!\n"
@@ -113,7 +113,7 @@ SilphCo_5F_Text_DaltonDefeat::
     .string "Oh, mare meva!$"
 
 SilphCo_5F_Text_DaltonPostBattle::
-    .string "Només ets al 5è pis.\n"
+    .string "Només ets a la planta 5.\n"
     .string "Queda molt fins al meu Cap!$"
 
 SilphCo_5F_Text_Grunt2Intro::
@@ -126,7 +126,7 @@ SilphCo_5F_Text_Grunt2Defeat::
 
 SilphCo_5F_Text_Grunt2PostBattle::
     .string "Ara que ho penso.\p"
-    .string "Koffing evoluciona a Weezing!$"
+    .string "Koffing evoluciona en Weezing!$"
 
 SilphCo_5F_Text_PorygonFirstVRMon::
     .string "És un Informe Pokémon!\p"
@@ -145,7 +145,7 @@ SilphCo_5F_Text_SomeMonsEvolveWhenTraded::
 
 SilphCo_5F_Text_FloorSign::
     .string "Seu Central de Silph S.A.\n"
-    .string "5è pis$"
+    .string "P5$"
 
 SilphCo_5F_EventScript_Scientist::
 	lock

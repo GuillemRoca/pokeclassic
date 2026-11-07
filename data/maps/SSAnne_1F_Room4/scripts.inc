@@ -9,5 +9,5 @@ SSAnne_1F_Room4_EventScript_Woman::
 	end
 
 SSAnne_1F_Room4_Text_CherryPiePlease::
-    .string "Disculpi, voldria una coca de\n"
+    .string "Disculpi, voldria un pastís de\n"
     .string "cireres, si us plau!$"

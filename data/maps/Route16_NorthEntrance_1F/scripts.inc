@@ -113,12 +113,12 @@ Route16_NorthEntrance_1F_EventScript_OldMan::
 	end
 
 Route16_NorthEntrance_1F_Text_NoPedestriansOnCyclingRoad::
-    .string "No es permet vianants al\n"
+    .string "No es permeten vianants al\n"
     .string "Carril Bici!$"
 
 Route16_NorthEntrance_1F_Text_CyclingRoadIsDownhillCourse::
     .string "El Carril Bici és una baixada\n"
-    .string "vora el mar. Quina passada.$"
+    .string "vora el mar. És una passada.$"
 
 Route16_NorthEntrance_1F_Text_ExcuseMeWaitUp::
     .string "Perdona!\n"

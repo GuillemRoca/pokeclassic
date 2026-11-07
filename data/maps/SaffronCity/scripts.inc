@@ -75,7 +75,8 @@ SaffronCity_EventScript_RocketGrunt4::
 	end
 
 SaffronCity_Text_SaffronBelongsToTeamRocket::
-    .string "Safrà pertany a l'Equip Rocket!$"
+    .string "Ciutat Safrà pertany a l'Equip\n"
+    .string "Rocket!$"
 
 SaffronCity_EventScript_RocketGrunt5::
 	msgbox SaffronCity_Text_CriminalLifeMakesMeFeelAlive, MSGBOX_NPC
@@ -98,9 +99,9 @@ SaffronCity_EventScript_RocketGrunt7::
 	end
 
 SaffronCity_Text_WeCanExploitMonsAroundWorld::
-    .string "Amb Silph sota control, podem\n"
+    .string "Amb Silph S.A. sota control, podrem\n"
     .string "explotar Pokémon d'arreu del món!\p"
-    .string "Ens farem rics, sííí!$"
+    .string "Ens farem riquíssims, sííí!$"
 
 
 SaffronCity_EventScript_BattleGirl::
@@ -111,19 +112,19 @@ SaffronCity_EventScript_BattleGirl::
 SaffronCity_Text_HowCanClubNotRecognizeLance::
     .string "Aquest Club de Fans…\n"
     .string "Ningú aquí no té ni idea!\p"
-    .string "Com poden no reconèixer\n"
-    .string "la brillantor que és Lance?\p"
+    .string "Com poden no adonar-se de com\n"
+    .string "n'és, de genial, en Lance?\p"
     .string "Defensa la justícia!\n"
     .string "És genial, i alhora apassionat!\l"
-    .string "És el millor, Lance!$"
+    .string "En Lance és el millor!$"
 
 SaffronCity_EventScript_WorkerM::
 	msgbox SaffronCity_Text_YouBeatTeamRocket, MSGBOX_NPC
 	end
 
 SaffronCity_Text_YouBeatTeamRocket::
-    .string "Has derrotat l'Equip Rocket sol?\n"
-    .string "Això és increïble!$"
+    .string "Has derrotat l'Equip Rocket tu\n"
+    .string "sol? Això és increïble!$"
 
 SaffronCity_EventScript_Youngster::
 	msgbox SaffronCity_Text_SafeToGoOutAgain, MSGBOX_NPC
@@ -140,7 +141,7 @@ SaffronCity_EventScript_Lass::
 SaffronCity_Text_PeopleComingBackToSaffron::
     .string "La gent va fugir en massa d'aquí\n"
     .string "quan van arribar els Rockets.\p"
-    .string "Haurien de tornar a Safrà\n"
+    .string "Haurien de tornar a Ciutat Safrà\n"
     .string "ben aviat.$"
 
 SaffronCity_EventScript_Boy::
@@ -149,8 +150,8 @@ SaffronCity_EventScript_Boy::
 
 SaffronCity_Text_FlewHereOnPidgeot::
     .string "He volat fins aquí amb el meu\n"
-    .string "Pidgeot quan vaig llegir sobre\l"
-    .string "Silph.\p"
+    .string "Pidgeot quan vaig llegir la\l"
+    .string "notícia de Silph S.A.\p"
     .string "Ja s'ha acabat?\n"
     .string "M'he perdut l'acció mediàtica…$"
 
@@ -173,7 +174,7 @@ SaffronCity_EventScript_Man::
 
 SaffronCity_Text_SawRocketBossEscaping::
     .string "He vist el Cap Rocket escapant\n"
-    .string "de l'edifici de Silph.$"
+    .string "de l'edifici de Silph S.A.$"
 
 SaffronCity_EventScript_GymSign::
 	lockall
@@ -182,7 +183,7 @@ SaffronCity_EventScript_GymSign::
 	end
 
 SaffronCity_Text_GymSign::
-    .string "Gimnàs Pokémon de Safrà\n"
+    .string "Gimnàs Pokémon de Ciutat Safrà\n"
     .string "Líder: Sabrina\l"
     .string "La Mestra dels Pokémon Psíquics!$"
 
@@ -192,7 +193,7 @@ SaffronCity_EventScript_CitySign::
 
 SaffronCity_Text_CitySign::
     .string "Ciutat Safrà\n"
-    .string "Terra Daurada del Comerç$"
+    .string "La resplendent terra del comerç$"
 
 SaffronCity_EventScript_DojoSign::
 	msgbox SaffronCity_Text_FightingDojo, MSGBOX_SIGN
@@ -208,7 +209,7 @@ SaffronCity_EventScript_TrainerFanClubSign::
 SaffronCity_Text_TrainerFanClubSign::
     .string "Club de Fans d'Entrenadors\n"
     .string "Pokémon\p"
-    .string "Molts entrenadors han gargotejat\n"
+    .string "Molts Entrenadors han gargotejat\n"
     .string "els seus noms en aquest cartell.$"
 
 SaffronCity_EventScript_TrainerTips1::
@@ -217,9 +218,10 @@ SaffronCity_EventScript_TrainerTips1::
 
 SaffronCity_Text_FullHealCuresStatus::
     .string "Consells d'Entrenador:\p"
-    .string "Cura Total cura totes les dolences\n"
-    .string "com cremades, paràlisi,\l"
-    .string "enverinament, congelació i son.\p"
+    .string "La Cura Total guareix tots els\n"
+    .string "problemes d'estat: cremades,\l"
+    .string "paràlisi, enverinament, congelació\l"
+    .string "i son.\p"
     .string "Costa una mica més, però és més\n"
     .string "pràctic que comprar altres\l"
     .string "objectes.$"
@@ -230,7 +232,7 @@ SaffronCity_EventScript_TrainerTips2::
 
 SaffronCity_Text_GreatBallImprovedCatchRate::
     .string "Consells d'Entrenador:\p"
-    .string "La nova Super Ball ofereix una\n"
+    .string "La nova Gran Ball ofereix una\n"
     .string "taxa de captura millorada.\p"
     .string "Prova-la amb aquells Pokémon\n"
     .string "difícils de capturar.$"
@@ -254,8 +256,8 @@ SaffronCity_EventScript_SilphProductSign::
 	end
 
 SaffronCity_Text_SilphsLatestProduct::
-    .string "L'últim producte de Silph!\n"
-    .string "Llançament per determinar…$"
+    .string "L'últim producte de Silph S.A.!\n"
+    .string "Data de llançament per determinar…$"
 
 SaffronCity_EventScript_SkippedLookerScene::
 	setvar VAR_SILPH_STATE, 4
@@ -343,29 +345,29 @@ Movement_LookerWalksLeft::
 SaffronCity_Text_ShouldntBeSurprised::
 	.string "Looker: Bé, comencem a establir\n"
 	.string "un perímetre...Oh! {PLAYER}!\p"
-	.string "Acabem de reunir els Soldats de\n"
+	.string "Acabem d'arrestar els soldats de\n"
 	.string "l'Equip Rocket que terroritzaven\l"
 	.string "els ciutadans. Estem a punt per\l"
 	.string "assaltar Silph S.A. i derrotar\l"
 	.string "el seu Cap!\p"
 	.string "Els Plans Rocket que vas lliurar\n"
 	.string "ens han estat molt útils, però\l"
-	.string "necessito que et facis enrere en\l"
-	.string "aquesta i deixis que els adults\l"
-	.string "s'encarreguin ara!\p"
+	.string "aquest cop t'has de fer a un costat\l"
+	.string "i deixar que se n'encarreguin\l"
+	.string "els adults!\p"
 	.string "...\p"
 	.string "Que has fet què?!\p"
-	.string "Ja has derrotat els Rockets dins\n"
-	.string "de Silph S.A. i has rescatat el\l"
-	.string "President?\p"
+	.string "Ja has derrotat els Rockets de\n"
+	.string "dins de Silph S.A. i has rescatat\l"
+	.string "el President?\p"
 	.string "És increïble, però molt imprudent!\p"
 	.string "Espera...\n"
 	.string "I el Cap Rocket?\p"
 	.string "Ha escapat? Un altre cop? Llamps!\p"
-	.string "Hem rebentat totes les bases Rocket\n"
-	.string "que hem pogut trobar, i l'hem\l"
+	.string "Hem desmantellat totes les bases\n"
+	.string "Rocket que hem trobat, i l'hem\l"
 	.string "perseguit per tot Kanto.\p"
 	.string "No li poden quedar gaires llocs\n"
 	.string "per amagar-se.\p"
-	.string "Però no tenim pistes!\n"
+	.string "Però no tenim cap pista!\n"
 	.string "Hauré de continuar investigant.$"

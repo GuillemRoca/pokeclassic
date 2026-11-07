@@ -11,7 +11,7 @@ Route11_EastEntrance_1F_Text_ManInLavenderRatesNames::
     .string "Sobretot si n'has atrapat\n"
     .string "un munt?\p"
     .string "A Poble Lavanda, hi ha un home\n"
-    .string "que valora els malnoms Pokémon.\p"
+    .string "que valora els sobrenoms Pokémon.\p"
     .string "Fins i tot pot ajudar-te a\n"
     .string "canviar el nom dels teus Pokémon.$"
 
@@ -21,6 +21,6 @@ Route11_EastEntrance_1F_EventScript_BottomGuard::
 
 Route11_EastEntrance_1F_Text_RockTunnelToReachLavender::
     .string "Si vols arribar a Poble Lavanda,\n"
-    .string "agafa el Túnel Roca.\p"
+    .string "passa pel Túnel Rocós.\p"
     .string "Pots arribar-hi des de\n"
     .string "Ciutat Cerúlia.$"

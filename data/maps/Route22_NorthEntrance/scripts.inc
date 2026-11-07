@@ -37,10 +37,10 @@ Route22_NorthEntrance_HeadToVictoryRoad::
 	end
 
 Route22_NorthEntrance_Text_HeadToVictoryRoad::
-	.string "Trobaràs el Camí de la Victòria\n"
+	.string "Trobaràs el Camí Victòria\n"
 	.string "al final de la Ruta 23.\p"
-	.string "Està ple d'entrenadors d'elit\n"
-	.string "i Pokémon forts.\n"
+	.string "Està ple d'Entrenadors d'elit\n"
+	.string "i Pokémon forts.\p"
 	.string "És la teva prova final abans\n"
-	.string "d'enfrontar l'Alt Comandament!$"
+	.string "d'enfrontar-te a l'Alt Comandament!$"
 

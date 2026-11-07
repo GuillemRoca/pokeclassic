@@ -103,9 +103,9 @@ Route18_EventScript_RegisterWiltonAfterBattle::
 	end
 
 Route18_Text_WiltonRegister:
-	.string "Estàs fent una PokéDex?\p"
-	.string "Truca'm si trobes bons llocs\l"
-	.string "per atrapar Pokémon!"
+	.string "Estàs completant la Pokédex?\p"
+	.string "Truca'm si trobes bons llocs\n"
+	.string "per atrapar Pokémon!$"
 
 Route18_EventScript_WiltonRematch::
 	trainerbattle_rematch REMATCHABLE_TRAINER_BIRD_KEEPER_WILTON_1, Route18_Text_WiltonRematchIntro, Route18_Text_WiltonDefeat

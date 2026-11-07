@@ -67,10 +67,10 @@ Route10_PokemonCenter_1F_Text_GiveReward::
     .string "Soc jo, Cedar, l'ajudant\n"
     .string "sempre present del Prof. Oak.\p"
     .string "Com va la teva Pokédex?\p"
-    .string "Truca al Prof. Oak algun dia\n"
-    .string "per revisar el teu progrés!\p"
+    .string "Truca algun dia al Prof. Oak\n"
+    .string "perquè avaluï el teu progrés!\p"
     .string "En fi, m'ha confiat aquesta\n"
-    .string "Pedra Eterna.\p"
+    .string "Rocaperenne.\p"
     .string "Doncs, {PLAYER}, aquí la tens!$"
 
 Route10_PokemonCenter_1F_EventScript_AlreadyGotReward::
@@ -83,10 +83,10 @@ Route10_PokemonCenter_1F_Text_ExplainReward::
     .string "ajudar a completar la Pokédex.\p"
     .string "Però a vegades no voldràs que\n"
     .string "un Pokémon evolucioni.\p"
-    .string "En aquest cas, dona la Pedra\n"
-    .string "Eterna a aquell Pokémon.\p"
-    .string "Evitarà l'evolució, segons\n"
-    .string "el Professor.$"
+    .string "En aquest cas, dona la\n"
+    .string "Rocaperenne a aquell Pokémon.\p"
+    .string "Segons el Professor, evitarà\n"
+    .string "que evolucioni.$"
 
 Route10_PokemonCenter_1F_EventScript_AideNextLocation::
     setflag FLAG_QUEUE_AIDE_CALL

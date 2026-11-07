@@ -6,8 +6,8 @@ Route16_NorthEntrance_2F_EventScript_LittleBoy::
 	end
 
 Route16_NorthEntrance_2F_Text_OnBikeRideWithGirlfriend::
-    .string "Faig un passeig relaxat amb la\n"
-    .string "meva bici nova amb la meva nòvia.$"
+    .string "Faig un passeig tranquil amb la\n"
+    .string "bici nova i la meva nòvia.$"
 
 Route16_NorthEntrance_2F_EventScript_LittleGirl::
 	msgbox Route16_NorthEntrance_2F_Text_RidingTogetherOnNewBikes, MSGBOX_NPC
@@ -34,8 +34,8 @@ Route16_NorthEntrance_2F_EventScript_RightBinoculars::
 Route16_NorthEntrance_2F_Text_LongPathOverWater::
     .string "A veure què mostren els\n"
     .string "prismàtics…\p"
-    .string "Hi ha un camí llarg sobre l'aigua\n"
-    .string "molt lluny.$"
+    .string "Lluny, hi ha un camí llarg\n"
+    .string "sobre l'aigua.$"
 
 
 @Aide Gift 4
@@ -63,10 +63,10 @@ Route16_NorthEntrance_2F_Text_GiveReward::
     .string "M'alegro que m'hagis pogut\n"
     .string "trobar!\p"
     .string "Entre el Snorlax adormit i\n"
-    .string "els Motoristes que fan por, no\l"
-    .string "sabia si ens trobaríem!\p"
+    .string "els Ciclistes que fan por, no\l"
+    .string "sabia si ens podríem trobar!\p"
     .string "La vida d'Entrenador deu ser\n"
-    .string "dura, espero que això t'ajudi\l"
+    .string "dura; espero que això t'ajudi\l"
     .string "una mica.$"
 
 Route16_NorthEntrance_2F_EventScript_AlreadyGotReward::
@@ -77,10 +77,11 @@ Route16_NorthEntrance_2F_EventScript_AlreadyGotReward::
 Route16_NorthEntrance_2F_Text_ExplainReward::
 	.string "Sabies que els Pokémon poden\n"
 	.string "portar objectes?\p"
-    .string "La Moneda Amuleto és un objecte\n"
-    .string "per portar un Pokémon.\p"
-    .string "Si el Pokémon surt en un combat\n"
-    .string "guanyat, guanyaràs més diners.$"
+	.string "La Moneda Amulet és un objecte\n"
+	.string "perquè el porti un Pokémon.\p"
+	.string "Si el Pokémon participa en un\n"
+	.string "combat que guanyes, obtindràs\l"
+	.string "més diners.$"
 
 Route16_NorthEntrance_2F_EventScript_AideNextLocation::
     setflag FLAG_QUEUE_AIDE_CALL

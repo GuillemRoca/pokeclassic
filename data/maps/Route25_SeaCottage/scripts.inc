@@ -137,12 +137,12 @@ Route25_SeaCottage_Text_ImBillHelpMeOutPal::
     .string "Hola! Soc un Pokémon…\n"
     .string "…No, no ho soc!\p"
     .string "Digues-me Bill!\n"
-    .string "Soc un autèntic PokéManíac!\p"
+    .string "Soc un autèntic Pokémaniàtic!\p"
     .string "Ei!\n"
     .string "Per què aquesta cara escèptica?\p"
     .string "No t'estic enganyant.\p"
     .string "He espifiat un experiment i m'he\n"
-    .string "combinat amb un Pokémon!\p"
+    .string "fusionat amb un Pokémon!\p"
     .string "Què em dius?\n"
     .string "M'ajudes?$"
 
@@ -156,8 +156,8 @@ Route25_SeaCottage_EventScript_DeclineHelpBill::
 Route25_SeaCottage_Text_NoPlease::
     .string "No!?\n"
     .string "No siguis tan fred!\p"
-    .string "Vinga, has d'ajudar a algú\n"
-    .string "en grans problemes!\p"
+    .string "Vinga, has d'ajudar un pobre\n"
+    .string "noi en un bon embolic!\p"
     .string "Què em dius?\n"
     .string "Si us plau?\l"
     .string "D'acord?\l"
@@ -206,8 +206,8 @@ Route25_SeaCottage_EventScript_Computer::
 	end
 
 Route25_SeaCottage_Text_TeleporterIsDisplayed::
-    .string "Teleporter.exe es mostra al\n"
-    .string "monitor del PC.$"
+    .string "Al monitor del PC hi apareix\n"
+    .string "Teleporter.exe.$"
 
 Route25_SeaCottage_EventScript_RunCellSeparator::
 	fadeoutbgm 0
@@ -328,8 +328,8 @@ Route25_SeaCottage_Text_ThanksTakeThis::
     .string "Potser això et servirà.$"
 
 Route25_SeaCottage_Text_ReceivedSSTicketFromBill::
-    .string "{PLAYER} ha rebut un bitllet\n"
-    .string "del SS Anna d'en Bill.$"
+    .string "{PLAYER} ha rebut un bitllet per al\n"
+    .string "SS Anna de part d'en Bill.$"
 
 Route25_SeaCottage_EventScript_NoRoomForSSTicket::
 	msgbox Route25_SeaCottage_Text_YouveGotTooMuchStuff
@@ -358,12 +358,12 @@ Route25_SeaCottage_EventScript_BillGoToSSAnne::
 Route25_SeaCottage_Text_SSAnnePartyYouGoInstead::
     .string "Bill: El creuer SS Anna\n"
     .string "és a Ciutat Vermella.\p"
-    .string "He sentit que hi ha molts\n"
-    .string "entrenadors a bord.\p"
+    .string "He sentit que també hi ha molts\n"
+    .string "Entrenadors a bord.\p"
     .string "Em van convidar a la seva festa,\n"
-    .string "però no suporto les festes.\p"
+    .string "però no suporto les festes elegants.\p"
     .string "Per què no hi vas tu en lloc meu?\n"
-    .string "Vés i passa-ho bé.$"
+    .string "Ves i passa-ho bé.$"
 
 Route25_SeaCottage_EventScript_RegisterBill::
 	msgbox Route25_SeaCottage_Text_ReallyOweYouOne, MSGBOX_DEFAULT
@@ -425,14 +425,14 @@ Route25_SeaCottage_EventScript_ExplainDexNav::
 	end
 
 Route25_SeaCottage_Text_ExplainDexNav::
-	.string "He après sobre la Pokédex per\n"
-	.string "correu amb el Prof. Oak!\p"
+	.string "Vaig saber de la Pokédex escrivint\n"
+	.string "correus amb el Prof. Oak!\p"
 	.string "El DexNav hauria de fer més\n"
 	.string "interessant trobar Pokémon rars!\p"
 	.string "Pots rastrejar tot tipus de\n"
 	.string "Pokémon, però funciona millor\l"
-	.string "quan té dades de la Pokédex\l"
-	.string "per aprendre! Atrapa molts!$"
+	.string "amb dades de la Pokédex.\l"
+	.string "Prova d'atrapar molts Pokémon!$"
 
 Route25_SeaCottage_EventScript_DontLeaveMe::
 	lock
@@ -551,11 +551,11 @@ Route25_SeaCottage_EventScript_GetDexNavUpgrade::
 Route25_SeaCottage_Text_HeyPlayerBeatGiovanni::
 	.string "Bill: Ei, {PLAYER}!\n"
 	.string "Gràcies per venir.\p"
-	.string "He vist molt de xivarri sobre\n"
-	.string "tu a internet!\p"
+	.string "S'està parlant molt de tu\n"
+	.string "a internet!\p"
 	.string "Són certs tots els rumors que\n"
 	.string "he llegit a la xarxa?\p"
-	.string "Has derrotat realment el Cap\n"
+	.string "De debò que has derrotat el Cap\n"
 	.string "de l'Equip Rocket?\p"
 	.string "Uau. Increïble.$"
 
@@ -564,14 +564,14 @@ Route25_SeaCottage_EventScript_GaveBillIdea::
 	return
 
 Route25_SeaCottage_Text_YourIdea::
-	.string "M'alegro que hagis trucat.\n"
-	.string "Em vas donar una gran idea!\p"
+	.string "M'alegro que m'hagis trucat abans.\n"
+	.string "M'has donat una gran idea!\p"
 	.string "Tota aquesta història del Giovanni\n"
-	.string "i la seva base secreta... em va fer\l"
+	.string "i la seva base secreta... m'ha fet\l"
 	.string "pensar en què més podria estar\l"
 	.string "amagat al nostre voltant.\p"
 	.string "Potser hi ha Pokémon rars just\n"
-	.string "davant els nostres nassos!\p"
+	.string "sota el nostre nas!\p"
 	.string "Crec que aquesta actualització\n"
 	.string "ens ajudarà a esbrinar-ho!$"
 
@@ -591,9 +591,9 @@ Route25_SeaCottage_Text_GetDetectorMode::
 
 Route25_SeaCottage_Text_DetectorMode::
 	.string "Bill: El Mode Detector t'ajuda a\n"
-	.string "trobar Pokémon ocults a Kanto!\p"
-	.string "Els Pokémon ocults poden saber\n"
-	.string "nous moviments o tenir habilitats\l"
+	.string "trobar Pokémon ocults arreu de Kanto!\p"
+	.string "Els Pokémon ocults poden conèixer\n"
+	.string "moviments nous o tenir habilitats\l"
 	.string "rares.\p"
 	.string "És realment increïble!\n"
-	.string "Vés a provar-ho!$"
+	.string "Ves a provar-ho!$"

@@ -6,5 +6,6 @@ UndergroundPath_WestEntrance_EventScript_BaldingMan::
 	end
 
 UndergroundPath_WestEntrance_Text_SleepyMonNearCeladon::
-    .string "He sentit que un Pokémon adormit\n"
-    .string "va aparèixer a prop de Celadó.$"
+    .string "He sentit que també ha aparegut\n"
+    .string "un Pokémon adormit a prop de\l"
+    .string "Ciutat Celadó.$"

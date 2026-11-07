@@ -9,9 +9,10 @@ SSAnne_2F_Corridor_EventScript_Sailor::
 
 SSAnne_2F_Corridor_Text_ThisShipIsLuxuryLiner::
     .string "Aquest vaixell és un transatlàntic\n"
-    .string "de luxe per a entrenadors!\p"
+    .string "de luxe per a Entrenadors de tot\l"
+    .string "el món!\p"
     .string "A cada port, fem festes amb\n"
-    .string "entrenadors convidats.$"
+    .string "Entrenadors convidats.$"
 
 SSAnne_2F_Corridor_EventScript_RivalTriggerLeft::
 	lockall
@@ -67,8 +68,9 @@ SSAnne_2F_Corridor_Text_RivalIntro::
     .string "No m'esperava trobar-te aquí!\n"
     .string "{PLAYER}, t'han convidat de veritat?\p"
     .string "Com va la teva Pokédex?\p"
-    .string "Jo ja n'he capturat 40 tipus, amic.\n"
-    .string "N'hi ha de diferents a tot arreu.\p"
+    .string "Jo ja n'he atrapat 40 espècies,\n"
+    .string "amic. N'hi ha de diferents a tot\l"
+    .string "arreu.\p"
     .string "Arrossega't per zones d'herba\n"
     .string "i busca'ls bé.$"
 
@@ -81,9 +83,9 @@ SSAnne_2F_Corridor_Text_RivalPostBattle::
     .string "{RIVAL}: He sentit que hi ha un\n"
     .string "mestre del tall a bord.\p"
     .string "Però només era un vell marejat!\p"
-    .string "Tall en si és molt útil.\n"
-    .string "Sí, serà molt pràctic.\p"
-    .string "Hauries d'anar a veure'l també.\n"
+    .string "El moviment Tall, però, és molt\n"
+    .string "útil. Sí, et farà servei.\p"
+    .string "Tu també hauries d'anar a veure'l.\n"
     .string "Ens veiem!$"
 
 SSAnne_2F_Corridor_EventScript_RivalApproachLeft::

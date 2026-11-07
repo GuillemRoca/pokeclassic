@@ -63,14 +63,14 @@ SilphCo_9F_Text_Grunt1Defeat::
 
 SilphCo_9F_Text_Grunt1PostBattle::
     .string "Si hagués començat com a\n"
-    .string "entrenador a la teva edat…$"
+    .string "Entrenador a la teva edat…$"
 
 SilphCo_9F_Text_EdIntro::
     .string "Els teus Pokémon tenen punts\n"
     .string "febles! Puc aprofitar-los!$"
 
 SilphCo_9F_Text_EdDefeat::
-    .string "M'has clavat!$"
+    .string "M'has fet miques!$"
 
 SilphCo_9F_Text_EdPostBattle::
     .string "Explotar punts febles funciona.\n"
@@ -89,4 +89,4 @@ SilphCo_9F_Text_Grunt2PostBattle::
 
 SilphCo_9F_Text_FloorSign::
     .string "Seu Central de Silph S.A.\n"
-    .string "9è pis$"
+    .string "P9$"

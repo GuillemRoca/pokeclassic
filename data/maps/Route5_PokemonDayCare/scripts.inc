@@ -241,7 +241,7 @@ Route5_PokemonDayCare_EventScript_CostPrompt::
 	end
 
 Route5_PokemonDayCare_Text_ItWillCostX:
-	.string "Hem cuidat bé {STR_VAR_1},\n"
+	.string "Hem cuidat bé el teu {STR_VAR_1},\n"
 	.string "així que costarà ¥{STR_VAR_2}.$"
 
 Route5_PokemonDayCare_EventScript_CheckEnoughMoney::
@@ -403,9 +403,9 @@ Route5_PokemonDayCare_EventScript_GetDailyBerry::
 	end
 
 Route5_PokemonDayCare_Text_PokemonLoveBerries::
-	.string "Als Pokémon els encanten les baies!\p"
+	.string "Als Pokémon els encanten les Baies!\p"
 	.string "He trobat això mentre explorava\n"
-	.string "amb el meu Pokémon.$"
+	.string "amb els meus Pokémon.$"
 
 Route5_PokemonDayCare_EventScript_GiveCheriBerry::
 	giveitem ITEM_CHERI_BERRY, 1

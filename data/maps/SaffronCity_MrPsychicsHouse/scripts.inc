@@ -32,9 +32,9 @@ SaffronCity_MrPsychicsHouse_EventScript_GetAlakazite::
 
 SaffronCity_MrPsychicsHouse_Text_ExplainAlakazite::
 	.string "Ja ho saps, oi?\n"
-    .string "Aquesta pedra és una Alakazita.\p"
-    .string "Desbloqueja el potencial psíquic\n"
-    .string "definitiu d'un Alakazam!$"
+	.string "Aquesta pedra és una Alakazamita.\p"
+	.string "Desbloqueja el potencial psíquic\n"
+	.string "definitiu d'un Alakazam!$"
 
 SaffronCity_MrPsychicsHouse_EventScript_NoRoomForTM29::
 	msgbox SaffronCity_MrPsychicsHouse_Text_YouveNoRoom
@@ -52,9 +52,10 @@ SaffronCity_MrPsychicsHouse_Text_YouWantedThis::
 
 SaffronCity_MrPsychicsHouse_Text_ExplainTM29::
     .string "Ja ho saps, oi?\n"
-    .string "La MT29 és Psíquic.\p"
+    .string "La MT29 conté Psíquic.\p"
     .string "És un atac que també pot baixar\n"
-    .string "les estadístiques especials.$"
+    .string "les estadístiques especials\l"
+    .string "del rival.$"
 
 SaffronCity_MrPsychicsHouse_Text_YouveNoRoom::
     .string "On penses posar-ho?\n"

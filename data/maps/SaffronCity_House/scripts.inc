@@ -34,11 +34,11 @@ SaffronCity_House_Text_Pidgey::
 
 SaffronCity_House_Text_GettingCopycatPokeDoll::
     .string "La Copiona és maca!\n"
-    .string "Li compraré una Poké Doll.$"
+    .string "Li compraré un Poké Ninot.$"
 
 SaffronCity_House_Text_ExplainPPUp::
-    .string "Em van donar un PP Plus de regal.\p"
-    .string "Serveix per augmentar els PP\n"
+    .string "Em van regalar un Puja PU.\p"
+    .string "Serveix per augmentar els PU\n"
     .string "d'un moviment d'un Pokémon.\p"
     .string "L'hauria de fer servir en un\n"
-    .string "moviment potent amb pocs PP.$"
+    .string "moviment potent amb pocs PU.$"

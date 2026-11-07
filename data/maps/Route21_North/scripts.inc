@@ -28,7 +28,7 @@ Route21_North_Text_AnriDefeat::
     .string "Ho he donat tot.$"
 
 Route21_North_Text_AnriPostBattle::
-    .string "Només els entrenadors més forts\n"
+    .string "Només els Entrenadors més forts\n"
     .string "arriben a l'Alt Comandament.$"
 
 Route21_North_EventScript_RegisterAnriAfterBattle::
@@ -94,7 +94,7 @@ Route21_North_EventScript_Spencer::
 	end
 
 Route21_North_Text_SpencerIntro::
-	.string "El mar neteja el meu cos i ànima!$"
+	.string "El mar em purifica el cos i l'ànima!$"
 
 Route21_North_Text_SpencerDefeat::
 	.string "Ayah!$"
@@ -132,7 +132,7 @@ Route21_North_EventScript_Ian::
 
 Route21_North_Text_IanIntro::
 	.string "Ian: La meva germana no fa prou\n"
-	.string "exercici, l'he fet venir.$"
+	.string "exercici, així que l'he fet venir.$"
 
 Route21_North_Text_IanDefeat::
 	.string "Ian: Aiii, germana!\n"

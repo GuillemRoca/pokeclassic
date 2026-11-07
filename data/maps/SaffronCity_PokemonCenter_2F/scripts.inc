@@ -55,5 +55,5 @@ SaffronCity_PokemonCenter_2F_Text_Unworthy::
 
 SaffronCity_PokemonCenter_2F_Text_Unworthy2::
 	.string "He de tornar al Dojo.\n"
-	.string "He de reentrenar el meu cos i\l"
-	.string "esperit.$"
+	.string "He de tornar a entrenar el cos\l"
+	.string "i l'esperit.$"

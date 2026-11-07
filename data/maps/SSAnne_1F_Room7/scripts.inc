@@ -11,7 +11,8 @@ SSAnne_1F_Room7_Text_ThomasIntro::
     .string "No soc més que un viatger\n"
     .string "solitari…\p"
     .string "Els meus únics companys i amics\n"
-    .string "són Pokémon dels meus viatges…$"
+    .string "són els Pokémon que he atrapat\l"
+    .string "en els meus viatges…$"
 
 SSAnne_1F_Room7_Text_ThomasDefeat::
     .string "Oh, els meus amics…$"

@@ -99,7 +99,7 @@ Route24_EventScript_GetCharmander::
 
 Route24_EventScript_Text_TakeCareOfCharmander::
 	.string "{PLAYER} ha promès cuidar bé\n"
-	.string "el Charmander de l'entrenador!$"
+	.string "el Charmander de l'Entrenador!$"
 
 Route24_EventScript_GotCharmander::
 	setflag FLAG_GOT_CHARMANDER
@@ -230,9 +230,9 @@ Route24_Text_ReceivedNuggetFromMysteryTrainer::
     .string "de l'Entrenador misteriós!$"
 
 Route24_Text_SecretPrize::
-	.string "Saps, noi, no he vist mai\n"
+	.string "Saps, nano, no he vist mai\n"
 	.string "ningú lluitar així...\p"
-	.string "Crec que qualifiques per al\n"
+	.string "Crec que et mereixes el\n"
 	.string "Premi Secret!\p"
 	.string "Què em dius...\n"
 	.string "Vols el Premi Secret?$"
@@ -251,9 +251,10 @@ Movement_LookSuspicious:
 
 Route24_Text_WasntReallyAQuestion::
 	.string "Potser no m'he explicat bé.\p"
-	.string "No era realment una pregunta.\p"
-	.string "Mira, el Pont Pepita està\n"
-	.string "finançat per l'Equip Rocket!$"
+	.string "En realitat, no era una pregunta.\p"
+	.string "Mira, el Pont Pepita està finançat\n"
+	.string "ni més ni menys que per l'Equip\l"
+	.string "Rocket!$"
 
 Movement_RocketReveal::
 	walk_in_place_fast_down
@@ -269,16 +270,17 @@ Route24_EventScript_DisguisedRocketBattle::
 
 Route24_Text_RocketGruntIntro:
 	.string "Som un grup de criminals\n"
-    .string "professionals de Pokémon!\p"
-    .string "Un entrenador fort com tu...\n"
-    .string "els meus caps s'enfadarien si\l"
-    .string "perdés l'oportunitat de\l"
-    .string "reclutar-te!\p"
-    .string "Aquest és el premi secret:\n"
-    .string "unir-te a l'Equip Rocket!\p"
-    .string "…Bé, necessites convèncer-te!\p"
-    .string "Et faré una oferta que no\n"
-    .string "podràs rebutjar!$"
+	.string "professionals especialitzats\l"
+	.string "en Pokémon!\p"
+	.string "Un Entrenador fort com tu...\n"
+	.string "els meus caps s'enfadarien si\l"
+	.string "perdés l'oportunitat de\l"
+	.string "reclutar-te!\p"
+	.string "Aquest és el Premi Secret: unir-te\n"
+	.string "a l'únic i inigualable Equip Rocket!\p"
+	.string "…D'acord, t'hauré de convèncer!\p"
+	.string "Et faré una oferta que no\n"
+	.string "podràs rebutjar!$"
 
 Route24_Text_RocketGruntDefeat::
     .string "Argh!\n"
@@ -355,18 +357,18 @@ Route24_Text_ThisIsTheKid::
 	.string "Jessie, James, aquest és el\n"
 	.string "nen del qual us parlava!\p"
 	.string "S'ha guanyat el Premi Secret.\p"
-    .string "Amb la seva habilitat, seria un\n"
-    .string "líder de l'Equip Rocket.\p"
-    .string "N'estic segur!\p"
-    .string "Què en dieu?\n"
-    .string "El deixem unir-se?$"
+	.string "Amb el seu talent, arribaria a ser\n"
+	.string "un dels caps de l'Equip Rocket.\p"
+	.string "N'estic segur!\p"
+	.string "Què en dieu?\n"
+	.string "El deixem entrar?$"
 
 Route24_Text_OhWowThatsGreat::
 	.string "Uau! De debò?\p"
 	.string "Normalment costa més\n"
 	.string "convèncer la gent...\p"
 	.string "Genial! Deixa'm anar a buscar\n"
-	.string "els meus caps, i preparem\l"
+	.string "els meus caps i preparem\l"
 	.string "el teu Premi Secret!$"
 
 Movement_GetJessieJames::
@@ -458,11 +460,10 @@ Route24_EventScript_BattleJessieJames::
 Route24_Text_RocketDuoIntro:
 	.string "Jessie: Per vèncer-nos al\n"
 	.string "Mont Lluna...\p"
-	.string "James: Et farem quedar\n"
-	.string "com un bufó!\p"
-	.string "Jessie: Prepara't per als\n"
-	.string "problemes!\n"
-	.string "James: I més que dobles!$"
+	.string "James: te les farem pagar\n"
+	.string "una per una!\p"
+	.string "Jessie: Prepara't per als problemes!\n"
+	.string "James: I per partida doble!$"
 
 Route24_Text_RocketDuoDefeat:
 	.string "Marrec! Com has pogut\n"
@@ -487,8 +488,8 @@ Route24_Text_WontBeTheLastTime::
 	.string "Aquesta no serà l'última vegada\n"
 	.string "que t'enfrontaràs a l'Equip\l"
 	.string "Rocket!\p"
-	.string "Alegra't que avui t'ho posem\n"
-	.string "fàcil!$"
+	.string "Alegra't que avui et deixem\n"
+	.string "anar tan fàcilment!$"
 
 Route24_EventScript_LookerConclusion::
 	closemessage
@@ -566,8 +567,8 @@ Route24_EventScript_NoRoomForNugget::
 
 Route24_Text_YouDontHaveAnyRoom::
     .string "No tens espai!\p"
-    .string "Al meu cap li molestaria que\n"
-    .string "no et donés el premi, així\l"
+    .string "Al meu cap no li agradaria gens\n"
+    .string "que no et donés el premi, així\l"
     .string "que torna quan tinguis espai!$"
 
 Route24_EventScript_ItemTM45::
@@ -642,11 +643,11 @@ Route24_EventScript_CalePostBattle::
 	end
 
 Route24_Text_CaleIntro::
-    .string "La gent anomena això el\n"
-    .string "Pont Pepita!\p"
-    .string "Venç els cinc Entrenadors i\n"
-    .string "guanya un premi fabulós!\p"
-    .string "Creus que pots?$"
+    .string "Això és el que la gent anomena\n"
+    .string "el Pont Pepita!\p"
+    .string "Derrota'ns a tots cinc i guanya\n"
+    .string "un premi fabulós!\p"
+    .string "Creus que tens el que cal?$"
 
 Route24_Text_CaleDefeat::
     .string "Uau!\n"
@@ -691,7 +692,7 @@ Route24_EventSript_TimmyPostBattle::
 	end
 
 Route24_Text_TimmyIntro::
-    .string "Aquí ve el Nº 3!\n"
+    .string "Aquí ve el número 3!\n"
     .string "No serà fàcil!$"
 
 Route24_Text_TimmyDefeat::
@@ -715,7 +716,7 @@ Route24_EventScript_ReliPostBattle::
 	end
 
 Route24_Text_ReliIntro::
-    .string "Soc la Nº 4!\n"
+    .string "Soc la número 4!\n"
     .string "Estàs cansat?$"
 
 Route24_Text_ReliDefeat::
@@ -738,7 +739,7 @@ Route24_EventScript_EthanPostBattle::
 	end
 
 Route24_Text_EthanIntro::
-    .string "D'acord! Soc el Nº 5!\n"
+    .string "D'acord! Soc el número 5!\n"
     .string "T'aixafaré!$"
 
 Route24_Text_EthanDefeat::

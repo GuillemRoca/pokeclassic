@@ -24,8 +24,8 @@ Route4_EventScript_Boy::
 
 Route4_Text_PeopleLikeAndRespectBrock::
     .string "Oh, uau, la Medalla Roca!\n"
-    .string "L'has aconseguit de Brock, oi?\p"
-    .string "Brock mola. No és només fort.\n"
+    .string "Te la va donar en Brock, oi?\p"
+    .string "En Brock mola. No és només fort.\n"
     .string "La gent l'aprecia i el respecta.\p"
     .string "Vull ser un Líder de Gimnàs\n"
     .string "com ell.$"
@@ -60,7 +60,7 @@ Route4_EventScript_Crissy::
     end
 
 Route4_Text_CrissyIntro::
-    .string "He vingut a MT. MOON a buscar\n"
+    .string "He vingut al Mont Lluna a buscar\n"
     .string "Pokémon bolet.$"
 
 Route4_Text_CrissyDefeat::
@@ -183,15 +183,15 @@ Movement_LookerExit:
 	step_end
 
 Route4_Text_StopRightThere::
-	.string "???: Quiets aquí!\p"
+	.string "???: Ni un pas més!\p"
 	.string "Pensàveu que podríeu escapar\n"
 	.string "de la Policia Internacional?\p"
 	.string "Sempre aniré un pas per davant\n"
 	.string "dels vostres plans, Equip Rocket!$"
 
 Route4_Text_TeamRocketFossils::
-	.string "Ha! Dius que no ets del\n"
-	.string "Equip Rocket?\p"
+	.string "Ha! Dius que no ets de\n"
+	.string "l'Equip Rocket?\p"
 	.string "I com expliques aquest fòssil\n"
 	.string "que portes?\p"
 	.string "Sabem que l'Equip Rocket busca\n"
@@ -201,13 +201,13 @@ Route4_Text_TeamRocketFossils::
 	.string "......\l"
 	.string "...........oh.\p"
 	.string "Dius que els has aturat?\n"
-	.string "I que ja han fugit de Mont Lluna?\p"
+	.string "I que ja han fugit del Mont Lluna?\p"
 	.string "Llamps! Com se'ns han escapat!\p"
 	.string "Perdona pel malentès.\p"
-	.string "Em dic Looker - ja que has aturat\n"
+	.string "Em dic Looker. Ja que has aturat\n"
 	.string "l'Equip Rocket un cop, potser podem\l"
 	.string "ajudar-nos mútuament.\p"
-	.string "Aquí tens el meu número de mòbil -\n"
+	.string "Aquí tens el meu número de mòbil:\n"
 	.string "truca'm si saps res de l'Equip Rocket!$"
 
 Route4_EventScript_PixieDust::

@@ -11,7 +11,7 @@ SSAnne_B1F_Room5_EventScript_Boy::
 	end
 
 SSAnne_B1F_Room5_Text_MachokeHasStrengthToMoveRocks::
-    .string "El meu amic Machoke és super fort!\p"
+    .string "El meu amic Machoke és súper fort!\p"
     .string "Té prou força per moure\n"
     .string "roques grans!$"
 

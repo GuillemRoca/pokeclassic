@@ -7,8 +7,8 @@ SSAnne_Kitchen_EventScript_Chef1::
 
 SSAnne_Kitchen_Text_BusyOutOfTheWay::
     .string "Tu, mon petit!\n"
-    .string "Estem molt ocupats aquí!\l"
-    .string "Fora del camí!$"
+    .string "Estem molt ocupats!\l"
+    .string "Aparta't!$"
 
 SSAnne_Kitchen_EventScript_Chef2::
 	msgbox SSAnne_Kitchen_Text_SawOddBerryInTrash, MSGBOX_NPC
@@ -48,8 +48,8 @@ SSAnne_Kitchen_EventScript_SalmonDuSalad::
 
 SSAnne_Kitchen_Text_SalmonDuSalad::
     .string "Saumon du Salade!\p"
-    .string "Les convidats potser es queixen\n"
-    .string "que és peix un altre cop!$"
+    .string "Les convidats es queixaran que\n"
+    .string "torna a ser peix, però!$"
 
 SSAnne_Kitchen_EventScript_EelsAuBarbecue::
 	msgbox SSAnne_Kitchen_Text_EelsAuBarbecue
@@ -65,8 +65,8 @@ SSAnne_Kitchen_EventScript_PrimeBeefsteak::
 	return
 
 SSAnne_Kitchen_Text_PrimeBeefsteak::
-    .string "Bistec de Primera!\p"
-    .string "Però, tinc prou filets du\n"
+    .string "Bistec de primera!\p"
+    .string "Però tinc prou filets du\n"
     .string "boeuf?$"
 
 SSAnne_Kitchen_EventScript_Chef5::

@@ -83,9 +83,9 @@ ViridianCity_EventScripts_TeamRocketRumor::
 	end
 
 ViridianCity_Text_InvestigatingTeamRocket:
-	.string "Agent: Estem investigant un rumor\n"
-	.string "que l'Equip Rocket ha estat vist\l"
-	.string "en aquesta zona.\p"
+	.string "Agent: Estem investigant el rumor\n"
+	.string "que han vist l'Equip Rocket per\l"
+	.string "aquesta zona.\p"
 	.string "No podem deixar passar ningú fins\n"
 	.string "que completem la nostra cerca.$"
 
@@ -121,14 +121,14 @@ ViridianCity_EventScript_CitySign::
 
 ViridianCity_Text_CitySign::
     .string "Ciutat Viridiana\n"
-    .string "El Paradís Eternament Verd$"
+    .string "El paradís eternament verd$"
 
 ViridianCity_EventScript_GymSign::
 	msgbox ViridianCity_Text_GymSign, MSGBOX_SIGN
 	end
 
 ViridianCity_Text_GymSign::
-    .string "Gimnàs Pokémon de Viridiana$"
+    .string "Gimnàs Pokémon de Ciutat Viridiana$"
 
 ViridianCity_EventScript_TrainerTips1::
 	msgbox ViridianCity_Text_CatchMonsForEasierBattles, MSGBOX_SIGN
@@ -149,9 +149,9 @@ ViridianCity_Text_MovesLimitedByPP::
     .string "Consells d'Entrenador:\p"
     .string "Els moviments de combat dels\n"
     .string "Pokémon estan limitats pels\l"
-    .string "Punts de Poder (PP).\p"
-    .string "Per recuperar PP, fes descansar\n"
-    .string "els teus Pokémon a un Centre\l"
+    .string "Punts d'Ús (PU).\p"
+    .string "Per recuperar PU, fes descansar\n"
+    .string "els teus Pokémon en un Centre\l"
     .string "Pokémon.$"
 
 ViridianCity_EventScript_GymDoorLocked::
@@ -168,8 +168,8 @@ ViridianCity_EventScript_GymDoorLocked::
 	end
 
 ViridianCity_Text_GymDoorsAreLocked::
-    .string "Les portes del Gimnàs de Viridiana\n"
-    .string "estan tancades…$"
+    .string "Les portes del Gimnàs de Ciutat\n"
+    .string "Viridiana estan tancades…$"
 
 ViridianCity_Movement_StepAside::
 	walk_right
@@ -188,7 +188,7 @@ ViridianCity_EventScript_OldMan::
 ViridianCity_Text_GymClosedWonderWhoLeaderIs::
     .string "Aquest Gimnàs Pokémon sempre\n"
     .string "està tancat.\p"
-    .string "Em pregunto qui és el líder?$"
+    .string "Qui deu ser el Líder?$"
 
 ViridianCity_EventScript_OldManGymLeaderReturned::
 	msgbox ViridianCity_Text_ViridiansGymLeaderReturned, MSGBOX_DEFAULT
@@ -196,8 +196,8 @@ ViridianCity_EventScript_OldManGymLeaderReturned::
 	end
 
 ViridianCity_Text_ViridiansGymLeaderReturned::
-    .string "El Líder del Gimnàs de Viridiana\n"
-    .string "ha tornat!$"
+    .string "El Líder del Gimnàs de Ciutat\n"
+    .string "Viridiana ha tornat!$"
 
 ViridianCity_EventScript_Boy::
 	lock
@@ -207,10 +207,10 @@ ViridianCity_EventScript_Boy::
 	end
 
 ViridianCity_Text_CanCarryMonsAnywhere::
-    .string "Aquestes Poké Balls a la cintura!\n"
+    .string "Quines Poké Balls a la cintura!\n"
     .string "Tens Pokémon, oi?\p"
     .string "És genial que puguis portar i\n"
-    .string "usar Pokémon en qualsevol moment.$"
+    .string "usar Pokémon a qualsevol lloc.$"
 
 ViridianCity_EventScript_Woman::
 	lock
@@ -222,7 +222,7 @@ ViridianCity_EventScript_Woman::
 ViridianCity_Text_GoShoppingInPewterOccasionally::
     .string "Vaig a comprar a Ciutat Pedrera\n"
     .string "de tant en tant.\p"
-    .string "Haig d'agafar el camí sinuós del\n"
+    .string "He d'agafar el camí sinuós del\n"
     .string "Bosc Viridià quan hi vaig.$"
 
 ViridianCity_EventScript_OldMan2::
@@ -252,7 +252,7 @@ ViridianCity_EventScript_Youngster::
 	end
 
 ViridianCity_Text_WantToKnowAboutCaterpillarMons::
-    .string "Vols saber sobre els dos tipus\n"
+    .string "Vols saber coses dels dos tipus\n"
     .string "de Pokémon eruga?$"
 
 ViridianCity_EventScript_YoungsterExplainCaterpillars::
@@ -265,9 +265,8 @@ ViridianCity_EventScript_YoungsterExplainCaterpillars::
 ViridianCity_Text_ExplainCaterpieWeedle::
     .string "Caterpie no té verí,\n"
     .string "però Weedle sí.\p"
-    .string "Vigila que els teus Pokémon no\n"
-    .string "siguin punxats pel Fibló Verinós\l"
-    .string "de Weedle.$"
+    .string "Vigila que el Fibló Verí de\n"
+    .string "Weedle no punxi els teus Pokémon.$"
 
 ViridianCity_EventScript_YoungsterDeclineExplanation::
 	msgbox ViridianCity_Text_OhOkayThen, MSGBOX_DEFAULT

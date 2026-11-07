@@ -17,7 +17,7 @@ Route17_EventScript_ItemsNotice::
 
 Route17_Text_WatchOutForDiscardedItems::
     .string "És un avís.\p"
-    .string "Vigileu amb objectes abandonats.$"
+    .string "Compte amb els objectes llençats.$"
 
 Route17_EventScript_TrainerTips1::
 	msgbox Route17_Text_SameSpeciesGrowDifferentRates, MSGBOX_SIGN
@@ -53,7 +53,7 @@ Route17_EventScript_BallsNotice::
 
 Route17_Text_DontThrowGameThrowBalls::
     .string "És un avís!\p"
-    .string "No llencis la partida, llança\n"
+    .string "No llencis la tovallola: llança\n"
     .string "Poké Balls!$"
 
 Route17_EventScript_CyclingRoadSign::
@@ -70,11 +70,11 @@ Route17_EventScript_Billy::
 	end
 
 Route17_Text_BillyIntro::
-    .string "Som Motoristes!\n"
+    .string "Som Ciclistes!\n"
     .string "Manem a les carreteres, tio!$"
 
 Route17_Text_BillyDefeat::
-    .string "Fumat!$"
+    .string "M'has fet pols!$"
 
 Route17_Text_BillyPostBattle::
     .string "Busques aventura?$"
@@ -100,14 +100,14 @@ Route17_EventScript_Jaxon::
 	end
 
 Route17_Text_JaxonIntro::
-    .string "Bona BICI!\n"
-    .string "Com funciona?$"
+    .string "Bona bici!\n"
+    .string "Que tal va?$"
 
 Route17_Text_JaxonDefeat::
     .string "Renoi!$"
 
 Route17_Text_JaxonPostBattle::
-    .string "El pendent fa difícil girar.$"
+    .string "Amb el pendent costa girar.$"
 
 Route17_EventScript_William::
 	trainerbattle_single TRAINER_BIKER_WILLIAM, Route17_Text_WilliamIntro, Route17_Text_WilliamDefeat
@@ -130,17 +130,17 @@ Route17_EventScript_Raul::
 	end
 
 Route17_Text_RaulIntro::
-    .string "No et fas ric ràpid combatent\n"
-    .string "nanos.$"
+    .string "Combatent contra nanos no et\n"
+    .string "faràs ric de pressa.$"
 
 Route17_Text_RaulDefeat::
-    .string "Cremat!$"
+    .string "Esgotat!$"
 
 Route17_Text_RaulPostBattle::
     .string "Pots trobar coses bones pel\n"
     .string "Carril Bici.\p"
-    .string "Hi ha bons diners en recollir-les\n"
-    .string "i vendre-les.$"
+    .string "Es poden treure bons diners\n"
+    .string "recollint-les i venent-les.$"
 
 Route17_EventScript_Isaiah::
 	trainerbattle_single TRAINER_CUE_BALL_ISAIAH, Route17_Text_IsaiahIntro, Route17_Text_IsaiahDefeat
@@ -152,7 +152,7 @@ Route17_Text_IsaiahIntro::
     .string "Vine, nano!$"
 
 Route17_Text_IsaiahDefeat::
-    .string "Uixi!$"
+    .string "Uf!$"
 
 Route17_Text_IsaiahPostBattle::
     .string "Et podria treure d'aquí a\n"
@@ -210,7 +210,7 @@ Route17_EventScript_Virgil::
 	end
 
 Route17_Text_VirgilIntro::
-    .string "Vas cap a FUCHSIA?$"
+    .string "Vas cap a Ciutat Fúcsia?$"
 
 Route17_Text_VirgilDefeat::
     .string "Patacada!$"

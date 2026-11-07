@@ -20,14 +20,14 @@ Route2_EventScript_RouteSign::
 
 Route2_Text_RouteSign::
     .string "Ruta 2\n"
-    .string "Ciutat Viridiana - Ciutat Plateada$"
+    .string "Ciutat Viridiana - Ciutat Pedrera$"
 
 Route2_EventScript_DiglettsCaveSign::
 	msgbox Route2_Text_DiglettsCave, MSGBOX_SIGN
 	end
 
 Route2_Text_DiglettsCave::
-    .string "Cova Diglett$"
+    .string "Cova de Diglett$"
 
 Route2_FindItem_Ether::
 	finditem ITEM_ETHER, 1

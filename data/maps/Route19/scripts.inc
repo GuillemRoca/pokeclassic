@@ -71,16 +71,16 @@ Route19_EventScript_Lizzie::
 	end
 
 Route19_Text_LizzieIntro::
-    .string "Espera! Vés a poc a poc!\n"
+    .string "Espera! Ves a poc a poc!\n"
     .string "Et donarà un infart!$"
 
 Route19_Text_LizzieDefeat::
     .string "Uuh!\n"
-    .string "Quina fredor!$"
+    .string "Quin fred!$"
 
 Route19_Text_LizziePostBattle::
-    .string "Vigila amb els Tentacool.\n"
-    .string "Piquen molt!$"
+    .string "Compte amb els Tentacool.\n"
+    .string "Les seves picades fan molt de mal!$"
 
 Route19_EventScript_Matthew::
 	trainerbattle_single TRAINER_SWIMMER_MALE_MATTHEW, Route19_Text_MatthewIntro, Route19_Text_MatthewDefeat
@@ -95,8 +95,8 @@ Route19_Text_MatthewDefeat::
     .string "Panxada!$"
 
 Route19_Text_MatthewPostBattle::
-    .string "Puc guanyar fins i tot Pokémon\n"
-    .string "marins nedant.$"
+    .string "Nedant, puc guanyar fins i tot\n"
+    .string "Pokémon marins.$"
 
 Route19_EventScript_Douglas::
 	trainerbattle_single TRAINER_SWIMMER_MALE_DOUGLAS, Route19_Text_DouglasIntro, Route19_Text_DouglasDefeat
@@ -161,7 +161,7 @@ Route19_Text_AxleDefeat::
 
 Route19_Text_AxlePostBattle::
     .string "L-les cames! Se m'han\n"
-    .string "enrampar! Glub, glub…$"
+    .string "enrampat! Glub, glub…$"
 
 Route19_EventScript_Anya::
 	trainerbattle_single TRAINER_SWIMMER_FEMALE_ANYA, Route19_Text_AnyaIntro, Route19_Text_AnyaDefeat
@@ -169,8 +169,8 @@ Route19_EventScript_Anya::
 	end
 
 Route19_Text_AnyaIntro::
-    .string "Oh, m'encanta el teu vehicle!\n"
-    .string "Me'l puc quedar si guanyo?$"
+    .string "Oh, m'encanta la teva muntura!\n"
+    .string "Me la puc quedar si guanyo?$"
 
 Route19_Text_AnyaDefeat::
     .string "Oh! He perdut!$"
@@ -178,7 +178,7 @@ Route19_Text_AnyaDefeat::
 Route19_Text_AnyaPostBattle::
     .string "Encara queda molt per arribar\n"
     .string "a les Illes Escuma…\p"
-    .string "Vull tornar a Fúcsia…$"
+    .string "Vull tornar a Ciutat Fúcsia…$"
 
 Route19_EventScript_Alice::
 	trainerbattle_single TRAINER_SWIMMER_FEMALE_ALICE, Route19_Text_AliceIntro, Route19_Text_AliceDefeat
@@ -220,8 +220,8 @@ Route19_EventScript_Lia::
 	end
 
 Route19_Text_LiaIntro::
-    .string "Lia: Vigilo el meu germà.\n"
-    .string "Acaba de ser Entrenador.$"
+    .string "Lia: Tinc cura del meu germà.\n"
+    .string "Acaba de fer-se Entrenador.$"
 
 Route19_Text_LiaDefeat::
     .string "Lia: Així no es tracta el meu\n"
@@ -233,8 +233,8 @@ Route19_Text_LiaPostBattle::
     .string "moltes coses.$"
 
 Route19_Text_LiaNotEnoughMons::
-    .string "Lia: Vull combatre junt amb\n"
-    .string "el meu germanet.\p"
+    .string "Lia: Vull combatre amb el meu\n"
+    .string "germanet.\p"
     .string "No tens dos Pokémon?$"
 
 Route19_EventScript_Luc::
@@ -249,7 +249,7 @@ Route19_Text_LucIntro::
 
 Route19_Text_LucDefeat::
     .string "Luc: Uau!\n"
-    .string "Algú més fort que la germana!$"
+    .string "Algú més fort que la meva germana!$"
 
 Route19_Text_LucPostBattle::
     .string "Luc: La meva germana és forta\n"
