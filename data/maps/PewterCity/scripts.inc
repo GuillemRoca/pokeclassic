@@ -60,12 +60,12 @@ PewterCity_EventScript_FatMan::
 	end
 
 PewterCity_Text_BrockOnlySeriousTrainerHere::
-    .string "No hi ha gaires Entrenadors\n"
-    .string "seriosos de Pokémon aquí.\p"
-    .string "Són tots com Caçainsectes,\n"
-    .string "saps, només aficionats.\p"
-    .string "Però Brock, del Gimnàs de Pedrera,\n"
-    .string "no és gens així.$"
+	.string "Aquí no hi ha gaires Entrenadors\n"
+	.string "Pokémon seriosos.\p"
+	.string "Són tots com Caçainsectes,\n"
+	.string "saps, només aficionats.\p"
+	.string "Però Brock, del Gimnàs de Pedrera,\n"
+	.string "no és gens així.$"
 
 
 PewterCity_EventScript_MuseumGuide::
@@ -431,9 +431,9 @@ PewterCity_Text_DoYouKnowWhatImDoing::
     .string "Saps què estic fent?$"
 
 PewterCity_Text_SprayingRepelToKeepWildMonsOut::
-    .string "Estic ruixant Repel per mantenir\n"
-    .string "els Pokémon salvatges fora del\l"
-    .string "meu jardí!$"
+	.string "Estic ruixant Repel·lent per mantenir\n"
+	.string "els Pokémon salvatges fora del\l"
+	.string "meu jardí!$"
 
 PewterCity_EventScript_KnowWhatTheyreDoing::
 	msgbox PewterCity_Text_ThatsRightItsHardWork, MSGBOX_DEFAULT
@@ -449,11 +449,11 @@ PewterCity_EventScript_Lass::
 	end
 
 PewterCity_Text_ClefairyCameFromMoon::
-    .string "Clefairy va venir de la lluna.\n"
-    .string "Això diuen els rumors.\p"
-    .string "Van aparèixer després que les\n"
-    .string "Pedres Lluna caiguessin al\l"
-    .string "Mont Lluna.$"
+	.string "Clefairy va venir de la Lluna.\n"
+	.string "Això diuen els rumors.\p"
+	.string "Van aparèixer després que les\n"
+	.string "Pedres Lluna caiguessin al\l"
+	.string "Mont Lluna.$"
 
 
 PewterCity_EventScript_GymGuide::
@@ -1165,11 +1165,11 @@ PewterCity_EventScript_PoliceNotice::
 	end
 
 PewterCity_Text_CallPoliceIfInfoOnThieves::
-    .string "AVÍS!\p"
-    .string "Lladres han estat robant fòssils\n"
-    .string "de Pokémon al Mont Lluna.\p"
-    .string "Si us plau, truqueu a la Policia\n"
-    .string "de Pedrera si teniu informació.$"
+	.string "AVÍS!\p"
+	.string "Uns lladres han estat robant fòssils\n"
+	.string "de Pokémon al Mont Lluna.\p"
+	.string "Si us plau, truqueu a la Policia\n"
+	.string "de Pedrera si teniu informació.$"
 
 PewterCity_EventScript_MuseumSign::
 	msgbox PewterCity_Text_MuseumOfScience, MSGBOX_SIGN
@@ -1185,9 +1185,9 @@ PewterCity_EventScript_GymSign::
 	end
 
 PewterCity_Text_GymSign::
-    .string "Gimnàs Pokémon de Pedrera\n"
-    .string "Líder: Brock\l"
-    .string "L'Entrenador Pokémon de Roca!$"
+	.string "Gimnàs Pokémon de Pedrera\n"
+	.string "Líder: Brock\l"
+	.string "L'Entrenador Pokémon Dur com la Roca!$"
 
 
 PewterCity_EventScript_SlowpokeLady::
@@ -1267,9 +1267,9 @@ PewterCity_EventScript_WatchedSlowpoke::
 
 PewterCity_Text_SlowpokeLovesPokeblocks::
 	.string "Al meu Slowpoke li encanten els\n"
-	.string "PokéBlocs que es fan amb\l"
+	.string "{POKEBLOCK}S que es fan amb\l"
 	.string "aquestes baies.\p"
-	.string "Si pogués fer-ne a casa!$"
+	.string "Tant de bo pogués fer-ne a casa!$"
 
 PewterCity_EventScript_GiveBelueBerry::
 	giveitem ITEM_BELUE_BERRY, 1

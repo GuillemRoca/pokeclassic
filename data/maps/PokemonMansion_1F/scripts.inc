@@ -26,8 +26,8 @@ PokemonMansion_1F_EventScript_Ted::
 	end
 
 PokemonMansion_1F_Text_TedIntro::
-    .string "Qui ets?\n"
-    .string "Aquí no hi hauria de ser ningú.$"
+	.string "Qui ets?\n"
+	.string "Aquí no hi hauria d'haver ningú.$"
 
 PokemonMansion_1F_Text_TedDefeat::
     .string "Au!$"
@@ -42,17 +42,17 @@ PokemonMansion_1F_EventScript_Johnson::
 	end
 
 PokemonMansion_1F_Text_JohnsonIntro::
-    .string "A-a-aah! M'has espantat!\n"
-    .string "Pensava que ets un fantasma.$"
+	.string "A-a-aah! M'has espantat!\n"
+	.string "Pensava que eres un fantasma.$"
 
 PokemonMansion_1F_Text_JohnsonDefeat::
     .string "Tsc!\n"
     .string "No guanyo cap combat.$"
 
 PokemonMansion_1F_Text_JohnsonPostBattle::
-    .string "Estava explorant aquí sol,\n"
-    .string "però tinc mala espina.\p"
-    .string "Hauria de marxar aviat.$"
+	.string "Estava explorant aquí sol,\n"
+	.string "però em fa una mica de por.\p"
+	.string "Hauria de marxar aviat.$"
 
 PokemonMansion_1F_EventScript_ItemEscapeRope::
 	finditem ITEM_ESCAPE_ROPE, 1

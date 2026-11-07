@@ -6,13 +6,10 @@ CeladonCity_DepartmentStore_3F_EventScript_GBAKid1::
 	end
 
 CeladonCity_DepartmentStore_3F_Text_OTStandsForOriginalTrainer::
-    .string "Els Pokémon capturats es registren\n"
-
-    .string "amb un Núm. ID i l'EO.\p"
-
-    .string "EO vol dir “Entrenador Original” -\n"
-
-    .string "l'entrenador que el va capturar.$"
+	.string "Els Pokémon capturats es registren\n"
+	.string "amb un Núm. ID i l'EO.\p"
+	.string "EO vol dir “Entrenador Original”:\n"
+	.string "l'Entrenador que el va capturar primer.$"
 
 
 CeladonCity_DepartmentStore_3F_EventScript_GBAKid2::
@@ -50,9 +47,8 @@ CeladonCity_DepartmentStore_3F_EventScript_LittleGirl::
 	end
 
 CeladonCity_DepartmentStore_3F_Text_CanIdentifyTradeMonsByID::
-    .string "Pots identificar els Pokémon\n"
-
-    .string "d'intercanvi pel Número d'ID.$"
+	.string "Pots identificar els Pokémon\n"
+	.string "d'intercanvi pel seu Núm. ID.$"
 
 
 CeladonCity_DepartmentStore_3F_EventScript_SuperNES::

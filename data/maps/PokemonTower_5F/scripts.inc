@@ -16,9 +16,9 @@ PokemonTower_5F_EventScript_Channeler::
 	end
 
 PokemonTower_5F_Text_RestHereInPurifiedSpace::
-    .string "Vine, nen!\n"
-    .string "He purificat aquest espai.\l"
-    .string "Pots descansar aquí.$"
+	.string "Vine, criatura!\n"
+	.string "He purificat aquest espai.\l"
+	.string "Pots descansar aquí.$"
 
 PokemonTower_5F_EventScript_PurifiedZone::
 	lockall
@@ -48,8 +48,8 @@ PokemonTower_5F_EventScript_Tammy::
 	end
 
 PokemonTower_5F_Text_TammyIntro::
-    .string "Dona…me…\n"
-    .string "el…teu…tot…$"
+	.string "Dona'm…\n"
+	.string "tota…la…teva…força…$"
 
 PokemonTower_5F_Text_TammyDefeat::
     .string "Esbufec!$"
@@ -84,7 +84,7 @@ PokemonTower_5F_Text_KarinaDefeat::
     .string "Ha?$"
 
 PokemonTower_5F_Text_KarinaPostBattle::
-    .string "He recuperat els sentits.$"
+	.string "He recuperat el seny.$"
 
 PokemonTower_5F_EventScript_Janae::
 	trainerbattle_single TRAINER_CHANNELER_JANAE, PokemonTower_5F_Text_JanaeIntro, PokemonTower_5F_Text_JanaeDefeat
@@ -99,6 +99,6 @@ PokemonTower_5F_Text_JanaeDefeat::
     .string "Uuu!$"
 
 PokemonTower_5F_Text_JanaePostBattle::
-    .string "He caigut als esperits malignes\n"
-    .string "malgrat el meu entrenament\l"
-    .string "a la muntanya…$"
+	.string "Els esperits malignes m'han\n"
+	.string "posseït malgrat el meu entrenament\l"
+	.string "a la muntanya…$"

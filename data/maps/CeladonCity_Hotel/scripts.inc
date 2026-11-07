@@ -6,9 +6,9 @@ CeladonCity_Hotel_EventScript_Receptionist::
 	end
 
 CeladonCity_Hotel_Text_ThisHotelIsForPeople::
-    .string "Pokémon?\n"
-    .string "No, això és un hotel per a gent.\p"
-    .string "Estem plens, malauradament.$"
+	.string "Pokémon?\n"
+	.string "No, això és un hotel per a persones.\p"
+	.string "Estem plens, malauradament.$"
 
 CeladonCity_Hotel_EventScript_Beauty::
 	msgbox CeladonCity_Hotel_Text_OnVacationWithBrotherAndBoyfriend, MSGBOX_NPC

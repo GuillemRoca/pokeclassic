@@ -85,19 +85,19 @@ PokemonLeague_AgathasRoom_EventScript_PostBattle2::
 	end
 
 PokemonLeague_AgathasRoom_Text_Intro::
-    .string "Soc l'Agatha de l'Alt Comandament.\p"
-    .string "He sentit que l'Oak s'ha interessat\n"
-    .string "molt per tu, nen.\p"
-    .string "Aquell vell tòtil va ser dur i\n"
-    .string "atractiu en el seu dia.\p"
-    .string "Però això va ser fa dècades.\n"
-    .string "Ara és l'ombra del que va ser.\p"
-    .string "Ara només vol trastejar amb\n"
-    .string "la seva Pokédex.\p"
-    .string "S'equivoca.\n"
-    .string "Els Pokémon són per combatre!\p"
-    .string "{PLAYER}! Et mostraré com\n"
-    .string "lluita un entrenador de debò!$"
+	.string "Soc Agatha, de l'Alt Comandament.\p"
+	.string "He sentit que l'Oak s'ha interessat\n"
+	.string "molt per tu, criatura.\p"
+	.string "Aquell vell tòtil va ser dur i\n"
+	.string "atractiu en el seu dia.\p"
+	.string "Però això va ser fa dècades.\n"
+	.string "Ara és l'ombra del que va ser.\p"
+	.string "Ara només vol trastejar amb\n"
+	.string "la seva Pokédex.\p"
+	.string "S'equivoca.\n"
+	.string "Els Pokémon són per combatre!\p"
+	.string "{PLAYER}! Et mostraré com\n"
+	.string "combat un Entrenador de debò!$"
 
 PokemonLeague_AgathasRoom_Text_Intro2::
     .string "Així que has vingut!\p"
@@ -106,23 +106,23 @@ PokemonLeague_AgathasRoom_Text_Intro2::
     .string "Dona-ho tot en aquest combat!$"
 
 PokemonLeague_AgathasRoom_Text_Defeat::
-    .string "Oh, vaja!\n"
-    .string "Ets algú especial, nen!$"
+	.string "Oh, vaja!\n"
+	.string "Ets algú especial, criatura!$"
 
 PokemonLeague_AgathasRoom_Text_Defeat2::
     .string "No està malament!$"
 
 PokemonLeague_AgathasRoom_Text_PostBattle::
-    .string "Has guanyat!\p"
-    .string "Ara veig què hi veu aquell\n"
-    .string "vell tòtil en tu.\p"
-    .string "No tinc res més a dir.\n"
-    .string "Corre, nen!$"
+	.string "Has guanyat!\p"
+	.string "Ara veig què hi veu aquell\n"
+	.string "vell tòtil en tu.\p"
+	.string "No tinc res més a dir.\n"
+	.string "Au, vés-te'n, criatura!$"
 
 PokemonLeague_AgathasRoom_Text_PostBattle2::
-    .string "No és estrany que aquell vell\n"
-    .string "s'hagi interessat tant per tu.\p"
-    .string "L'Oak i jo vam ser bons rivals\n"
-    .string "també, saps. Com tu i {RIVAL}.\p"
-    .string "Bé, a què esperes?\n"
-    .string "Vés a la següent sala!$"
+	.string "No és estrany que aquell vell\n"
+	.string "s'hagi interessat tant per tu.\p"
+	.string "Saps? L'Oak i jo també vam ser\n"
+	.string "bons rivals, com tu i {RIVAL}.\p"
+	.string "Bé, a què esperes?\n"
+	.string "Vés a la següent sala!$"

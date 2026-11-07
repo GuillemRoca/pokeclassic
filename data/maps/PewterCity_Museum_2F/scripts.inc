@@ -15,11 +15,11 @@ PewterCity_Museum_2F_EventScript_OldMan::
 	end
 
 PewterCity_Museum_1F_Text_BoughtColorTVForMoonLanding::
-    .string "20 de juliol de 1969!\p"
-    .string "La humanitat va trepitjar la\n"
-    .string "lluna per primera vegada.\p"
-    .string "Vaig comprar una tele en color\n"
-    .string "per veure aquella notícia.$"
+	.string "20 de juliol de 1969!\p"
+	.string "La humanitat va trepitjar la\n"
+	.string "Lluna per primera vegada.\p"
+	.string "Vaig comprar una tele en color\n"
+	.string "per veure aquella notícia.$"
 
 PewterCity_Museum_2F_EventScript_Scientist::
 	msgbox PewterCity_Museum_1F_Text_RunningSpaceExhibitThisMonth, MSGBOX_NPC

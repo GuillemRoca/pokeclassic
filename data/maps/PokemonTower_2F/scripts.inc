@@ -108,25 +108,25 @@ PokemonTower_2F_Movement_RivalExitDown::
 	step_end
 
 PokemonTower_2F_Text_RivalIntro::
-    .string "{RIVAL}: Ei, {PLAYER}!\n"
-    .string "Què fas aquí?\l"
-    .string "El teu Pokémon ha mort?\p"
-    .string "Ei! És viu!\p"
-    .string "Almenys puc fer-los caure!\n"
-    .string "Anem!$"
+	.string "{RIVAL}: Ei, {PLAYER}!\n"
+	.string "Què fas aquí?\l"
+	.string "El teu Pokémon ha mort?\p"
+	.string "Ei! És viu!\p"
+	.string "Doncs almenys el puc fer desmaiar!\n"
+	.string "Anem!$"
 
 PokemonTower_2F_Text_RivalDefeat::
-    .string "Què?\n"
-    .string "Ets un trapella!\p"
-    .string "Hi he anat suau, eh!$"
+	.string "Què?\n"
+	.string "Ets un trapella!\p"
+	.string "I això que hi he anat suau!$"
 
 PokemonTower_2F_Text_RivalPostBattle::
-    .string "Com va la teva Pokédex?\n"
-    .string "Jo acabo d'atrapar un Cubone!\p"
-    .string "No trobo el Marowak gran.\n"
-    .string "On deuen ser?\p"
-    .string "Aposto que ja no en queden!\p"
-    .string "Bé, me'n vaig.\n"
-    .string "Tinc molt a fer,\l"
-    .string "no com tu.\p"
-    .string "Ja ens veurem!$"
+	.string "Com va la teva Pokédex?\n"
+	.string "Jo acabo d'atrapar un Cubone!\p"
+	.string "No trobo cap Marowak, que és més\n"
+	.string "gran. On deuen ser?\p"
+	.string "Aposto que ja no en queden!\p"
+	.string "Bé, me'n vaig.\n"
+	.string "Tinc molt a fer,\l"
+	.string "no com tu.\p"
+	.string "Ja ens veurem!$"

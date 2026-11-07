@@ -175,8 +175,8 @@ PewterCity_Museum_1F_EventScript_AlreadyGotOldAmber::
 	end
 
 PewterCity_Museum_1F_Text_GetOldAmberChecked::
-    .string "Xst!\n"
-    .string "Fes examinar l'Ambre Antic!$"
+	.string "Xst!\n"
+	.string "Fes examinar l'Ambre Vell!$"
 
 PewterCity_Museum_1F_EventScript_WowThatsAerodactyl::
 	msgbox PewterCity_Museum_1F_Text_WowThatsAerodactyl, MSGBOX_DEFAULT
@@ -245,8 +245,8 @@ PewterCity_Museum_1F_Text_WantYouToGetAmberExamined::
     .string "un laboratori Pokémon.$"
 
 PewterCity_Museum_1F_Text_ReceivedOldAmber::
-    .string "{PLAYER} ha rebut l'Ambre Antic\n"
-    .string "del científic.$"
+	.string "{PLAYER} ha rebut l'Ambre Vell\n"
+	.string "del científic.$"
 
 PewterCity_Museum_1F_EventScript_NoRoomForOldAmber::
 	msgbox PewterCity_Museum_1F_Text_DontHaveSpaceForThis, MSGBOX_DEFAULT
@@ -281,10 +281,10 @@ PewterCity_Museum_1F_EventScript_PokemonJournalBrock::
 
 PokemonJournal_Text_SpecialFeatureBrock::
 	.string "Diari Pokémon\p"
-	.string "Especial: Brock, Líder del\n"
+	.string "Reportatge: Brock, Líder del\n"
 	.string "Gimnàs de Pedrera!\p"
-	.string "Brock rarament riu, però diuen\n"
-	.string "que si comença no pot parar.$"
+	.string "Brock gairebé mai no riu, però\n"
+	.string "diuen que si comença no pot parar.$"
 
 
 PewterCity_Museum_1F_EventScript_AerodactylFossil::

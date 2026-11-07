@@ -24,10 +24,10 @@ CeruleanCity_BikeShop_EventScript_Clerk::
 	end
 
 CeruleanCity_BikeShop_Text_WelcomeToBikeShop::
-    .string "Hola!\n"
-    .string "Benvingut a la nostra Botiga Bici.\p"
-    .string "Tenim la Bicicleta perfecta\n"
-    .string "per a tu!$"
+	.string "Hola!\n"
+	.string "Benvingut a la Botiga de Bicicletes.\p"
+	.string "Tenim la Bicicleta perfecta\n"
+	.string "per a tu!$"
 
 @ The Bicycle price / players money is never actually checked
 CeruleanCity_BikeShop_EventScript_TryPurchaseBicycle::
@@ -55,10 +55,10 @@ CeruleanCity_BikeShop_EventScript_AlreadyGotBicycle::
 	end
 
 CeruleanCity_BikeShop_Text_HowDoYouLikeNewBicycle::
-    .string "Què tal la teva nova Bicicleta?\n"
-    .string "T'agrada com va?\p"
-    .string "La pots portar per la Ruta\n"
-    .string "Ciclista i fins i tot a coves!$"
+	.string "Què tal la teva nova Bicicleta?\n"
+	.string "T'agrada com va?\p"
+	.string "La pots portar pel Camí\n"
+	.string "Ciclista i fins i tot a coves!$"
 
 CeruleanCity_BikeShop_EventScript_ExchangeBikeVoucher::
 	checkitem ITEM_BIKE_VOUCHER, 1
@@ -77,14 +77,14 @@ CeruleanCity_BikeShop_EventScript_ExchangeBikeVoucher::
 	end
 
 CeruleanCity_BikeShop_Text_OhBikeVoucherHereYouGo::
-    .string "Oh, això és…\p"
-    .string "Un Val de Bicicleta!\p"
-    .string "D'acord!\n"
-    .string "Aquí tens!$"
+	.string "Oh, això és…\p"
+	.string "Un Val de Bici!\p"
+	.string "D'acord!\n"
+	.string "Aquí tens!$"
 
 CeruleanCity_BikeShop_Text_ExchangedVoucherForBicycle::
-    .string "{PLAYER} ha canviat el Val de\n"
-    .string "Bicicleta per una Bicicleta.$"
+	.string "{PLAYER} ha canviat el Val de\n"
+	.string "Bici per una Bicicleta.$"
 
 CeruleanCity_BikeShop_EventScript_BringBikeVoucher::
 	msgbox CeruleanCity_BikeShop_Text_MakeRoomForBicycle, MSGBOX_DEFAULT
@@ -92,9 +92,9 @@ CeruleanCity_BikeShop_EventScript_BringBikeVoucher::
 	end
 
 CeruleanCity_BikeShop_Text_MakeRoomForBicycle::
-    .string "Què dius, nano?\p"
-    .string "No em pots dir que tens un Val\n"
-    .string "de Bicicleta, me l'has de portar!$"
+	.string "Què dius, nano?\p"
+	.string "No n'hi ha prou amb dir-me que tens\n"
+	.string "un Val de Bici, me l'has de portar!$"
 
 CeruleanCity_BikeShop_EventScript_Woman::
 	msgbox CeruleanCity_BikeShop_Text_CityBikeGoodEnoughForMe, MSGBOX_NPC

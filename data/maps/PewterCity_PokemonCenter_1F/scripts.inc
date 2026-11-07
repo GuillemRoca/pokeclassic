@@ -60,8 +60,8 @@ PewterCity_PokemonCenter_1F_EventScript_GBAKid1::
 	end
 
 PewterCity_PokemonCenter_1F_Text_TradingMyClefairyForPikachu::
-    .string "Vull molt un Pikachu, així que\n"
-    .string "canvio el meu Clefairy per un.$"
+	.string "Tinc moltes ganes de tenir un Pikachu,\n"
+	.string "així que canvio el meu Clefairy per un.$"
 
 PewterCity_PokemonCenter_1F_EventScript_GBAKid2::
 	msgbox PewterCity_PokemonCenter_1F_Text_TradingPikachuWithKid, MSGBOX_NPC

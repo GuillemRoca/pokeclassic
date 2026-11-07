@@ -128,8 +128,8 @@ RockTunnel_B1F_EventScript_Steve::
 	end
 
 RockTunnel_B1F_Text_SteveIntro::
-    .string "Mmm… Saps sobre el cosplay\n"
-    .string "Pokémon?$"
+	.string "Mmm… Coneixes el cosplay\n"
+	.string "Pokémon?$"
 
 RockTunnel_B1F_Text_SteveDefeat::
     .string "Bé, és el que hi ha.$"

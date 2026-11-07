@@ -39,10 +39,10 @@ LavenderTown_EventScript_WorkerM::
 	end
 
 LavenderTown_Text_TownKnownAsMonGraveSite::
-    .string "Aquesta ciutat és coneguda com\n"
-    .string "el cementiri dels Pokémon.\p"
-    .string "Es fan serveis commemoratius\n"
-    .string "a la Torre Pokémon.$"
+	.string "Aquest poble és conegut com\n"
+	.string "el cementiri dels Pokémon.\p"
+	.string "Es fan serveis commemoratius\n"
+	.string "a la Torre Pokémon.$"
 
 LavenderTown_EventScript_Boy::
 	msgbox LavenderTown_Text_GhostsAppearedInTower, MSGBOX_NPC
@@ -67,17 +67,17 @@ LavenderTown_EventScript_TrainerTips::
 	end
 
 LavenderTown_Text_TrainerTips::
-    .string "Consells d'Entrenador!\n"
-    .string "Mantén premut el Botó A per\n"
-    .string "caminar en silenci amb el DexNav!$"
+	.string "Consells d'Entrenador!\p"
+	.string "Mantén premut el Botó A per\n"
+	.string "caminar en silenci amb el DexNav!$"
 
 LavenderTown_EventScript_VolunteerHouseSign::
 	msgbox LavenderTown_Text_VolunteerPokemonHouse, MSGBOX_SIGN
 	end
 
 LavenderTown_Text_VolunteerPokemonHouse::
-    .string "Casa Voluntària\n"
-    .string "Pokémon de Lavanda$"
+	.string "Casa del Voluntariat\n"
+	.string "Pokémon de Lavanda$"
 
 LavenderTown_EventScript_PokemonTowerSign::
 	msgbox LavenderTown_Text_PokemonTowerSign, MSGBOX_SIGN

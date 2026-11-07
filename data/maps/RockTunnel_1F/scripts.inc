@@ -38,9 +38,9 @@ RockTunnel_1F_Text_OliverDefeat::
     .string "Per on se surt?$"
 
 RockTunnel_1F_Text_OliverPostBattle::
-    .string "Aquell Pokémon dormint a la Ruta\n"
-    .string "12 m'ha obligat a fer aquest\l"
-    .string "desviament.$"
+	.string "Aquell Pokémon que dorm a la\n"
+	.string "Ruta 12 m'ha obligat a fer\l"
+	.string "aquest desviament.$"
 
 RockTunnel_1F_EventScript_Lucas::
 	trainerbattle_single TRAINER_HIKER_LUCAS, RockTunnel_1F_Text_LucasIntro, RockTunnel_1F_Text_LucasDefeat
@@ -55,7 +55,8 @@ RockTunnel_1F_Text_LucasDefeat::
     .string "Em rendeixo!$"
 
 RockTunnel_1F_Text_LucasPostBattle::
-    .string "Tens prou talent per fer rutes!$"
+	.string "Tens prou talent per ser\n"
+	.string "excursionista!$"
 
 RockTunnel_1F_EventScript_Ashton::
 	trainerbattle_single TRAINER_POKEMANIAC_ASHTON, RockTunnel_1F_Text_AshtonIntro, RockTunnel_1F_Text_AshtonDefeat
@@ -121,8 +122,8 @@ RockTunnel_1F_Text_DanaPostBattle::
     .string "Quina equivocació!$"
 
 RockTunnel_1F_Text_RouteSign::
-    .string "Túnel Roca\n"
-    .string "Ciutat Celeste - Poble Lavanda$"
+	.string "Túnel Rocós\n"
+	.string "Ciutat Cerúlia - Poble Lavanda$"
 
 RockTunnel_1F_EventScript_ItemEscapeRope::
 	finditem ITEM_ESCAPE_ROPE, 1

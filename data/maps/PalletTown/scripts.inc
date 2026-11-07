@@ -110,24 +110,24 @@ PalletTown_Text_DidYouMeetOak:
 
 PalletTown_Text_WhatACutePokemon:
 	.string "Oh! Quin Pokémon més adorable!\n"
-	.string "Te l'ha donat el Prof. Oak? Genial!\p"
+	.string "Te l'ha donat el Prof. Oak? Que bé!\p"
 	.string "I ara vas cap a Ciutat Viridiana?\p"
 	.string "Bé, suposo que tothom somia\n"
-	.string "amb viatjar. Almenys ho deien a la TV.\p"
+	.string "de viatjar. Almenys ho deien a la TV.\p"
 	.string "En aquest cas, no voldràs marxar\n"
 	.string "sense el teu PokéGear, oi?$"
 
 PalletTown_Text_CallMeSometime:
 	.string "El teu PokéGear té una app de mapa,\n"
 	.string "així que no t'hauries de perdre mai.\p"
-	.string "Ja he registrat el meu número\n"
-	.string "al teu Mòbil, també.\p"
+	.string "També he registrat el meu\n"
+	.string "número al teu mòbil.\p"
 	.string "No t'oblidis de la teva mare durant\n"
 	.string "les aventures. Truca'm de tant en tant!$"
 
 PalletTown_Text_ReceivedPokeGear:
 	.string "{PLAYER} ha rebut el PokéGear\n"
-    .string "de la Mare!$"
+	.string "de la mare!$"
 
 PalletTown_EventScript_PokenavSceneExitDoor::
 	applymovement LOCALID_MOM, Movement_MomExitDoor
@@ -359,9 +359,9 @@ PalletTown_EventScript_FatMan::
 	end
 
 PalletTown_Text_CanStoreItemsAndMonsInPC::
-    .string "La tecnologia és increïble!\p"
-    .string "Ara pots emmagatzemar i recuperar\n"
-    .string "objectes i Pokémon via PC.$"
+	.string "La tecnologia és increïble!\p"
+	.string "Ara pots emmagatzemar i recuperar\n"
+	.string "objectes i Pokémon com a dades al PC.$"
 
 PalletTown_EventScript_PlayersHouseSign::
 	msgbox PalletTown_Text_PlayersHouse, MSGBOX_SIGN

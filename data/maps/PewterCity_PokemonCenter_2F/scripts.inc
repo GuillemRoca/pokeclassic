@@ -12,4 +12,4 @@ PewterCity_PokemonCenter_2F_Brock::
 	.string "Brock és molt dur!\p"
 	.string "He de trobar el seu punt feble\n"
 	.string "si vull derrotar-lo i guanyar\l"
-	.string "la medalla!$"
+	.string "la Medalla!$"

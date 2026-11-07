@@ -23,10 +23,10 @@ MtMoon_B2F_EventScript_Grunt1::
 	end
 
 MtMoon_B2F_Text_Grunt1Intro::
-    .string "Nosaltres, l'Equip Rocket, trobarem\n"
-    .string "els fòssils!\p"
-    .string "Reviure Pokémon d'ells ens farà\n"
-    .string "guanyar una fortuna!$"
+	.string "Nosaltres, l'Equip Rocket, trobarem\n"
+	.string "els fòssils!\p"
+	.string "Fer-ne reviure Pokémon ens farà\n"
+	.string "guanyar una fortuna!$"
 
 MtMoon_B2F_Text_Grunt1Defeat::
     .string "Argh!\n"
@@ -43,17 +43,18 @@ MtMoon_B2F_EventScript_Grunt2::
 	end
 
 MtMoon_B2F_Text_Grunt2Intro::
-    .string "Nosaltres, l'Equip Rocket, som\n"
-    .string "gàngsters Pokémon!\l"
-    .string "Imposem por amb la nostra força!$"
+	.string "Nosaltres, l'Equip Rocket, som\n"
+	.string "gàngsters Pokémon!\l"
+	.string "Sembrem el terror amb la nostra\l"
+	.string "força!$"
 
 MtMoon_B2F_Text_Grunt2Defeat::
     .string "L'he espifiada!$"
 
 MtMoon_B2F_Text_Grunt2PostBattle::
-    .string "Maleït siguis!\n"
-    .string "Els meus companys no permetran\l"
-    .string "això!$"
+	.string "Maleït sigui!\n"
+	.string "Els meus companys no ho\l"
+	.string "permetran!$"
 
 MtMoon_B2F_EventScript_Grunt3::
 	trainerbattle_single TRAINER_TEAM_ROCKET_GRUNT_3, MtMoon_B2F_Text_Grunt3Intro, MtMoon_B2F_Text_Grunt3Defeat
@@ -61,8 +62,8 @@ MtMoon_B2F_EventScript_Grunt3::
 	end
 
 MtMoon_B2F_Text_Grunt3Intro::
-    .string "Estem fent un gran cop aquí!\n"
-    .string "Fes el camp, nen!$"
+	.string "Aquí estem preparant un gran cop!\n"
+	.string "Fot el camp, nen!$"
 
 MtMoon_B2F_Text_Grunt3Defeat::
     .string "Vaja, ets bo…$"
@@ -122,8 +123,8 @@ MtMoon_B2F_Text_MiguelDefeat::
     .string "Compartiré!$"
 
 MtMoon_B2F_Text_WellEachTakeAFossil::
-    .string "Ens agafarem un fòssil cadascú!\n"
-    .string "Sense ser cobdiciós!$"
+	.string "Ens agafarem un fòssil cadascú!\n"
+	.string "Res de ser avariciós!$"
 
 MtMoon_B2F_EventScript_MiguelFossilPicked::
 	msgbox MtMoon_B2F_Text_LabOnCinnabarRegeneratesFossils, MSGBOX_DEFAULT
@@ -330,7 +331,7 @@ MtMoon_Movement_AndMakeItDouble:
 MtMoon_B2F_Text_RocketDuoIntro::
 	.string "???: Aquest fòssil pertany\n"
 	.string "a l'Equip Rocket!\p"
-	.string "Rendeix-te ara, o prepara't\n"
+	.string "Rendeix-te ara o prepara't\n"
 	.string "per lluitar!$"
 
 MtMoon_B2F_Text_RocketDuoDefeat::
@@ -338,5 +339,5 @@ MtMoon_B2F_Text_RocketDuoDefeat::
 
 MtMoon_B2F_Text_RocketDuoDefeated::
 	.string "Jessie: Això no s'acaba aquí, nen!\p"
-	.string "James: L'Equip Rocket surt\n"
-	.string "disparat a la velocitat de la llum!$"
+	.string "James: Equip Rocket, sortim volant\n"
+	.string "a la velocitat de la llum!$"

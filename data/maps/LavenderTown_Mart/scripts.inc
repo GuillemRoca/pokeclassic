@@ -39,21 +39,21 @@ LavenderTown_Mart_EventScript_Youngster::
 	end
 
 LavenderTown_Mart_Text_SearchingForStatRaiseItems::
-    .string "Busco objectes que pugin les\n"
-    .string "estadístiques dels Pokémon.\p"
-    .string "Són efectius durant un sol\n"
-    .string "combat.\p"
-    .string "X Atac, X Defensa, X Velocitat\n"
-    .string "i X Especial és el que busco.\p"
-    .string "Saps on puc trobar-los?$"
+	.string "Busco objectes que pugin les\n"
+	.string "estadístiques dels Pokémon.\p"
+	.string "Són efectius durant un sol\n"
+	.string "combat.\p"
+	.string "Atac X, Defensa X, Velocitat X\n"
+	.string "i Especial X és el que busco.\p"
+	.string "Saps on puc trobar-los?$"
 
 LavenderTown_Mart_Text_DidYouBuyRevives::
-    .string "Has comprat Revius?\n"
-    .string "Reviuen qualsevol Pokémon debilitat!$"
+	.string "Has comprat Revifades?\n"
+	.string "Reanimen qualsevol Pokémon desmaiat!$"
 
 LavenderTown_Mart_Text_TrainerDuosCanChallengeYou::
-    .string "De vegades, un duo d'entrenadors\n"
-    .string "et desafiarà amb dos Pokémon\l"
-    .string "alhora.\p"
-    .string "Si passa, hauràs d'enviar\n"
-    .string "dos Pokémon a combatre també.$"
+	.string "De vegades, una parella d'Entrenadors\n"
+	.string "et desafiarà amb dos Pokémon\l"
+	.string "alhora.\p"
+	.string "Si passa, hauràs d'enviar\n"
+	.string "dos Pokémon a combatre també.$"

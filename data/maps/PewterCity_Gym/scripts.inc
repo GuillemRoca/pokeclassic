@@ -47,8 +47,8 @@ PewterCity_Gym_Text_BrockIntro::
     .string "Demostra'm el que vals!$"
 
 PewterCity_Gym_Text_BrockDefeat::
-    .string "Et vaig subestimar, i per això\n"
-    .string "he perdut.$"
+	.string "T'he subestimat, i per això\n"
+	.string "he perdut.$"
 
 PewterCity_Gym_EventScript_DefeatedBrockGetBadge::
 	msgbox PewterCity_Gym_Text_GetBadgeFromBrock, MSGBOX_DEFAULT
@@ -76,11 +76,11 @@ PewterCity_Gym_Text_ReceivedBadge::
 
 PewterCity_Gym_Text_ExplainBadge::
 	.string "Només tenir la Medalla Roca fa\n"
-    .string "els teus Pokémon més poderosos.\p"
-    .string "També permet usar el moviment\n"
-    .string "Flash fora de combat.\p"
-    .string "Per descomptat, un Pokémon ha de\n"
-    .string "conèixer Flash per usar-lo.$"
+	.string "els teus Pokémon més poderosos.\p"
+	.string "També permet usar el moviment\n"
+	.string "Llampec fora de combat.\p"
+	.string "Per descomptat, un Pokémon ha de\n"
+	.string "conèixer Llampec per usar-lo.$"
 
 PewterCity_Gym_EventScript_GetTM::
 	msgbox PewterCity_Gym_Text_TakeThisWithYou, MSGBOX_DEFAULT
@@ -104,13 +104,13 @@ PewterCity_Gym_Text_ReceivedTMFromBrock::
     .string "de Brock.$"
 
 PewterCity_Gym_Text_ExplainTM::
-    .string "Una MT, Màquina Tècnica, conté\n"
-    .string "una tècnica per a Pokémon.\p"
-    .string "Usar una MT ensenya el moviment\n"
-    .string "que conté a un Pokémon.\p"
-    .string "La MT39 conté Tomba Roca.\p"
-    .string "Llança roques a l'enemic i\n"
-    .string "redueix la seva velocitat.$"
+	.string "Una MT, Màquina Tècnica, conté\n"
+	.string "una tècnica per a Pokémon.\p"
+	.string "Usar una MT ensenya el moviment\n"
+	.string "que conté a un Pokémon.\p"
+	.string "La MT39 conté Tomba Roca.\p"
+	.string "Llança roques a l'enemic i\n"
+	.string "li baixa la Velocitat.$"
 
 PewterCity_Gym_EventScript_NoRoomForTM::
 	msgbox PewterCity_Gym_Text_NoRoomForTM, MSGBOX_DEFAULT
@@ -200,7 +200,7 @@ PewterCity_Gym_EventScript_DefeatedLeaderRematch::
 	end
 
 PewterCity_Gym_Text_RematchDefeat::
-	.string "Sabia que ets fort, però això…$"
+	.string "Sabia que eres fort, però això…$"
 
 PewterCity_Gym_EventScript_Liam::
 	trainerbattle_single TRAINER_CAMPER_LIAM, PewterCity_Gym_Text_LiamIntro, PewterCity_Gym_Text_LiamDefeat
@@ -279,13 +279,13 @@ PewterCity_Gym_EventScript_Scott::
 	end
 
 PewterCity_Gym_Text_LetMeTakeYouToTheTop::
-    .string "Hola!\n"
-    .string "Vols somiar en gran?\p"
-    .string "Gosaries somiar en ser\n"
-    .string "el Campió Pokémon?\p"
-    .string "Jo no soc Entrenador, però et\n"
-    .string "puc aconsellar per guanyar.\p"
-    .string "Deixa que et porti al cim!$"
+	.string "Hola!\n"
+	.string "Vols somiar en gran?\p"
+	.string "Gosaries somiar que seràs\n"
+	.string "el Campió Pokémon?\p"
+	.string "Jo no soc Entrenador, però et\n"
+	.string "puc aconsellar com guanyar.\p"
+	.string "Deixa que et porti al cim!$"
 
 PewterCity_Gym_EventScript_GymGuyTakeMeToTop::
 	msgbox PewterCity_Gym_Text_LetsGetHappening, MSGBOX_DEFAULT

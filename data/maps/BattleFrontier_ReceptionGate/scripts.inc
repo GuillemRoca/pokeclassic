@@ -331,8 +331,8 @@ BattleFrontier_ReceptionGate_Text_IfItIsntPlayerYouCame:
 	.string "Has vingut fins aquí!$"
 
 BattleFrontier_ReceptionGate_Text_OhMrScottGoodDay:
-	.string "Guia: Oh! Sr. Scott, senyor!\n"
-	.string "Bon dia, senyor!$"
+	.string "Guia: Oh! Senyor Scott!\n"
+	.string "Molt bon dia, senyor!$"
 
 BattleFrontier_ReceptionGate_Text_ScottGreatToSeeYouHere:
 	.string "Scott: Quina alegria veure't aquí,\n"
@@ -356,9 +356,10 @@ BattleFrontier_ReceptionGate_Text_LearnAboutWhich2:
 BattleFrontier_ReceptionGate_Text_BattleTowerInfo:
 	.string "És la torre gegant considerada\n"
 	.string "el símbol de la Frontera.\p"
-	.string "Hi ha quatre Sales de Combat\n"
-	.string "per a Individual, Doble, Múltiple\l"
-	.string "i Múltiple per Enllaç.$"
+	.string "A la torre hi ha quatre tipus de Sales\n"
+	.string "de Combat: per a Combats Individuals,\l"
+	.string "Dobles, Múltiples i Múltiples per\l"
+	.string "Enllaç.$"
 
 BattleFrontier_ReceptionGate_Text_BattleDomeInfo:
 	.string "El Domo de Combat és l'edifici\n"
@@ -371,8 +372,8 @@ BattleFrontier_ReceptionGate_Text_BattleDomeInfo:
 BattleFrontier_ReceptionGate_Text_BattlePalaceInfo:
 	.string "El Palau de Combat és l'edifici\n"
 	.string "vermell a la dreta de la Frontera.\p"
-	.string "Hi ha dues Sales de Combat\n"
-	.string "per a Individual i Doble.$"
+	.string "Hi ha dues Sales de Combat: per a\n"
+	.string "Combats Individuals i Dobles.$"
 
 BattleFrontier_ReceptionGate_Text_BattleArenaInfo:
 	.string "L'Arena de Combat és l'edifici\n"
@@ -433,9 +434,9 @@ BattleFrontier_ReceptionGate_Text_LevelModeInfo:
 	.string "modalitats: Nivell 50 i Nivell Obert.$"
 
 BattleFrontier_ReceptionGate_Text_Level50Info:
-	.string "El mode Nivell 50 és per a Pokémon\n"
+	.string "La modalitat Nivell 50 és per a Pokémon\n"
 	.string "de nivell 50 o inferior.\p"
-	.string "Tingueu en compte, però, que\n"
+	.string "Tingues en compte, però, que\n"
 	.string "cap Entrenador rival tindrà\l"
 	.string "Pokémon per sota del nivell 50.\p"
 	.string "Aquesta modalitat és l'entrada\n"
@@ -444,7 +445,7 @@ BattleFrontier_ReceptionGate_Text_Level50Info:
 	.string "desafiïs aquesta modalitat.$"
 
 BattleFrontier_ReceptionGate_Text_OpenLevelInfo:
-	.string "El mode Nivell Obert no limita\n"
+	.string "La modalitat Nivell Obert no limita\n"
 	.string "el nivell dels Pokémon que\l"
 	.string "participen.\p"
 	.string "El nivell dels teus rivals\n"
@@ -485,7 +486,8 @@ BattleFrontier_ReceptionGate_Text_SymbolsInfo:
 	.string "símbols de cada instal·lació.\p"
 	.string "Per guanyar un símbol, potser\n"
 	.string "hauràs de derrotar Entrenadors\l"
-	.string "seguits i guanyar esdeveniments repetits.\p"
+	.string "seguits o guanyar esdeveniments\l"
+	.string "repetidament.\p"
 	.string "No és fàcil guanyar símbols.\n"
 	.string "Et desitjo molta sort!$"
 
@@ -498,8 +500,8 @@ BattleFrontier_ReceptionGate_Text_RecordedBattleInfo:
 	.string "de la Frontera excepte els de\l"
 	.string "la Llança de Combat o\l"
 	.string "la Piràmide de Combat.\p"
-	.string "Pots triar enregistrar el combat\n"
-	.string "al final d'un combat.$"
+	.string "En acabar un combat, pots triar\n"
+	.string "si el vols enregistrar.$"
 
 BattleFrontier_ReceptionGate_Text_BattlePointsInfo:
 	.string "Els Punts de Combat són premis\n"

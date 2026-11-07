@@ -6,22 +6,23 @@ CeruleanCity_Mart_EventScript_Youngster::
 	end
 
 CeruleanCity_Mart_Text_RepelWorksOnWeakMons::
-    .string "El Repel no només espanta insectes,\n"
-    .string "també funciona amb Pokémon febles.\p"
-    .string "Posa el teu Pokémon més fort al\n"
-    .string "principi de la LLISTA.\p"
-    .string "Si el primer Pokémon és fort,\n"
-    .string "l'efecte del REPEL es potencia.$"
+	.string "El Repel·lent no només espanta\n"
+	.string "insectes, també funciona amb\l"
+	.string "Pokémon febles.\p"
+	.string "Posa el teu Pokémon més fort a\n"
+	.string "l'esquerra de la Llista de Pokémon.\p"
+	.string "Si el primer Pokémon és fort,\n"
+	.string "l'efecte del Repel·lent es potencia.$"
 
 CeruleanCity_Mart_EventScript_Woman::
 	msgbox CeruleanCity_Mart_Text_DoYouKnowAboutRareCandy, MSGBOX_NPC
 	end
 
 CeruleanCity_Mart_Text_DoYouKnowAboutRareCandy::
-    .string "Coneixes les Rare Candy?\n"
-    .string "No les venen a les botigues.\p"
-    .string "Crec que fan créixer els Pokémon\n"
-    .string "molt ràpidament de cop.$"
+	.string "Coneixes els Caramels Rars?\n"
+	.string "No els venen a les botigues.\p"
+	.string "Crec que fan créixer els Pokémon\n"
+	.string "molt ràpidament de cop.$"
 
 CeruleanCity_Mart_EventScript_Clerk::
 	lock

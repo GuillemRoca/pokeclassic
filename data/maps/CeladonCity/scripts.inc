@@ -88,8 +88,8 @@ CeladonCity_EventScript_RocketGrunt2::
 	end
 
 CeladonCity_Text_GetLostOrIllPunchYou::
-    .string "Què mires?\n"
-    .string "Fes el camp o te'n penediràs!$"
+	.string "Què mires?\n"
+	.string "Fot el camp o et clavo un cop de puny!$"
 
 CeladonCity_EventScript_Breeder::
 	goto_if_set FLAG_RESCUED_CUBONE, CeladonCity_EventScript_BreederRescuedCubone
@@ -97,24 +97,24 @@ CeladonCity_EventScript_Breeder::
 	end
 
 CeladonCity_Text_KidnappedPokemon::
-    .string "Oh, què puc fer…\p"
-    .string "L'Equip Rocket ha estat segrestant\n"
-    .string "Pokémon.\p"
-    .string "He perseguit un Reclu Rocket amb\n"
-    .string "un Cubone des de Lavanda!\p"
-    .string "Van venir corrents cap aquí,\n"
-    .string "n'estic segur.\p"
-    .string "Però el vaig perdre de vista!\n"
-    .string "On s'amaguen?$"
+	.string "Oh, què puc fer…\p"
+	.string "L'Equip Rocket ha estat segrestant\n"
+	.string "Pokémon.\p"
+	.string "He perseguit un membre de l'Equip\n"
+	.string "Rocket amb un Cubone des de Lavanda!\p"
+	.string "Ha vingut corrents cap aquí,\n"
+	.string "n'estic segur.\p"
+	.string "Però l'he perdut de vista!\n"
+	.string "On s'amaguen?$"
 
 CeladonCity_EventScript_BreederRescuedCubone::
 	msgbox CeladonCity_Text_RescuedCubone, MSGBOX_NPC
 	end
 
 CeladonCity_Text_RescuedCubone::
-    .string "Oh! Has rescatat el Cubone del\n"
-    .string "l'Equip Rocket?\p"
-    .string "Això és meravellós!$"
+	.string "Oh! Has rescatat el Cubone de\n"
+	.string "l'Equip Rocket?\p"
+	.string "Això és meravellós!$"
 
 CeladonCity_EventScript_OldMan::
 	msgbox CeladonCity_Text_BlewItAllAtSlots, MSGBOX_NPC
@@ -147,10 +147,10 @@ CeladonCity_EventScript_Police::
     end
 
 CeladonCity_Text_GettingComplaints::
-    .string "Rebíem queixes constantment\n"
-    .string "d'entrenadores del Gimnàs\l"
-    .string "d'Erika sobre algú que les\l"
-    .string "molestava.$"
+	.string "Rebíem queixes constantment\n"
+	.string "d'Entrenadores del Gimnàs\l"
+	.string "d'Erika sobre algú que les\l"
+	.string "molestava.$"
 
 CeladonCity_EventScript_GymSign::
 	lockall
@@ -191,25 +191,25 @@ CeladonCity_EventScript_TrainerTips1::
 	end
 
 CeladonCity_Text_ExplainXAccuracyDireHit::
-    .string "Consells d'Entrenador:\p"
-    .string "X Accuracy augmenta la precisió\n"
-    .string "de les tècniques.\p"
-    .string "Dire Hit augmenta la probabilitat\n"
-    .string "de cops crítics.\p"
-    .string "Aconsegueix els teus objectes als\n"
-    .string "Grans Magatzems de Celadó!$"
+	.string "Consells d'Entrenador:\p"
+	.string "Precisió X augmenta la precisió\n"
+	.string "de les tècniques.\p"
+	.string "Cop Crític augmenta la probabilitat\n"
+	.string "de cops crítics.\p"
+	.string "Aconsegueix els teus objectes als\n"
+	.string "Grans Magatzems de Celadó!$"
 
 CeladonCity_EventScript_TrainerTips2::
 	msgbox CeladonCity_Text_GuardSpecProtectsFromStatus, MSGBOX_SIGN
 	end
 
 CeladonCity_Text_GuardSpecProtectsFromStatus::
-    .string "Consells d'Entrenador:\p"
-    .string "Guard Spec. protegeix els Pokémon\n"
-    .string "de moviments que redueixen\l"
-    .string "estadístiques en combat.\p"
-    .string "Aconsegueix els teus objectes als\n"
-    .string "Grans Magatzems de Celadó!$"
+	.string "Consells d'Entrenador:\p"
+	.string "Esp. Guàrdia protegeix els Pokémon\n"
+	.string "de moviments que redueixen\l"
+	.string "estadístiques en combat.\p"
+	.string "Aconsegueix els teus objectes als\n"
+	.string "Grans Magatzems de Celadó!$"
 
 CeladonCity_EventScript_PrizeExchangeSign::
 	msgbox CeladonCity_Text_PrizeExchangeSign, MSGBOX_SIGN

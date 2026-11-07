@@ -69,8 +69,8 @@ CeruleanCity_PokemonCenter_1F_EventScript_Youngster::
 	end
 
 CeruleanCity_PokemonCenter_1F_Text_BillCollectsRareMons::
-    .string "En Bill té molts Pokémon!\n"
-    .string "Col·lecciona els rars, també!$"
+	.string "En Bill té molts Pokémon!\n"
+	.string "També en col·lecciona de rars!$"
 
 CeruleanCity_PokemonCenter_1F_EventScript_Lass::
 	msgbox CeruleanCity_PokemonCenter_1F_Text_TryTradingUpstairs, MSGBOX_NPC

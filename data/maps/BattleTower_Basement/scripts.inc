@@ -293,9 +293,10 @@ BattleTower_Basement_Text_CongratsForDefeatingHead:
 	.string "combats seguits!$"
 
 BattleTower_Basement_Text_AwardBattlePoints:
-	.string "En reconeixement de la teva riquesa\n"
-	.string "de coneixement i gran intel·ligència,\l"
-	.string "t'atorguem aquests Punt(s) de Combat.$"
+	.string "En reconeixement dels teus amplis\n"
+	.string "coneixements i la teva gran\l"
+	.string "intel·ligència, t'atorguem aquests\l"
+	.string "Punt(s) de Combat.$"
 
 BattleTower_Basement_Text_ExchangeMonsAndSave:
 	.string "Deixa'm intercanviar els Pokémon\n"
@@ -374,7 +375,7 @@ BattleTower_Basement_EventScript_RulesSwapNotes::
 BattleTower_Basement_Text_ExplainSwapNotesRules:
 	.string "Hi ha dos punts clau a l'hora\n"
 	.string "d'intercanviar Pokémon.\p"
-	.string "Primer, no pots veure les stats\n"
+	.string "Primer, no pots veure les estadístiques\n"
 	.string "del Pokémon que rebràs.\p"
 	.string "Segon, els Pokémon del teu equip\n"
 	.string "estan en seqüència, segons l'ordre\l"

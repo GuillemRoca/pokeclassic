@@ -461,8 +461,8 @@ GameCorner_EventScript_WorkedOn::
 	end
 
 GameCorner_Text_Console::
-    .string "L'Enginyer té el terminal obert.\n"
-    .string "Millor no tocar-la!$"
+	.string "L'Enginyer té el terminal obert.\n"
+	.string "Millor no tocar-lo!$"
 
 GameCorner_EventScript_FaceSlotMachine::
 	closemessage
@@ -669,8 +669,8 @@ GameCorner_Text_SwitchBehindPosterPushIt::
     .string "Premem-lo!$"
 
 GameCorner_Text_LeaveItAlone::
-    .string "Pensant-ho bé, millor deixar-ho\p"
-    .string "estar...$"
+	.string "Pensant-ho bé, millor deixar-ho\n"
+	.string "estar...$"
 
 GameCorner_EventScript_OpenRocketHideout::
 	playse SE_UNLOCK
@@ -730,9 +730,9 @@ GameCorner_EventScript_DefeatedGrunt::
 	end
 
 GameCorner_Text_GruntPostBattle::
-    .string "Podrien descobrir l'Amagatall\n"
-    .string "de l'Equip Rocket!\p"
-    .string "Millor aviso el Cap!$"
+	.string "Podrien descobrir l'Amagatall\n"
+	.string "de l'Equip Rocket!\p"
+	.string "Més val que avisi el Cap!$"
 
 Movement_GCGruntExit::
 	walk_right
@@ -885,7 +885,7 @@ HiddenCoins_NoSpace::
 HiddenCoins_FoundCoinsNoSpace::
 	.string "{PLAYER} ha trobat monedes\n"
 	.string "escampades pel terra...\p"
-	.string "Llàstima que el Moneder és ple!$"
+	.string "Llàstima que el Moneder sigui ple!$"
 
 HiddenCoins_NoCase::
 	msgbox HiddenCoins_FoundCoinsNoCase, MSGBOX_AUTOCLOSE
@@ -895,7 +895,7 @@ HiddenCoins_NoCase::
 HiddenCoins_FoundCoinsNoCase::
 	.string "{PLAYER} ha trobat monedes\n"
 	.string "escampades pel terra...\p"
-	.string "Llàstima que no tens Moneder!$"
+	.string "Llàstima que no tinguis Moneder!$"
 
 HiddenCoins_Found10Coins::
 	.string "{PLAYER} ha trobat 10 monedes\n"
@@ -923,7 +923,7 @@ GameCorner_EventScript_Scott::
 GameCorner_Text_GymGuide::
 	.string "Ei! Tens coses millors a fer,\n"
 	.string "futur campió!\p"
-	.string "La Líder del Gimnàs Celadó és\n"
+	.string "La Líder del Gimnàs de Celadó és\n"
 	.string "l'Erika! Fa servir Pokémon\l"
 	.string "de tipus Planta!\p"
 	.string "Pot semblar dòcil, però no\n"

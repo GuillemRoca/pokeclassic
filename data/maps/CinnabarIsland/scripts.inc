@@ -23,10 +23,10 @@ CinnabarIsland_EventScript_Woman::
 	end
 
 CinnabarIsland_Text_BlaineLivedHereSinceBeforeLab::
-    .string "El Blaine del Gimnàs Cinabri és\n"
-    .string "força peculiar.\p"
-    .string "Viu a l'illa des de molt abans\n"
-    .string "que construïssin el LAB.$"
+	.string "En Blaine, del Gimnàs de Cinabri,\n"
+	.string "és un tipus força estrany.\p"
+	.string "Viu a l'illa des de molt abans\n"
+	.string "que construïssin el Laboratori.$"
 
 CinnabarIsland_EventScript_OldMan::
 	msgbox CinnabarIsland_Text_ScientistsExperimentInMansion, MSGBOX_NPC
@@ -43,7 +43,7 @@ CinnabarIsland_EventScript_Kid::
 	end
 
 CinnabarIsland_Text_GhostStory::
-	.string "Als nens del barri els agrada\n"
+	.string "Als nens de l'illa els agrada\n"
 	.string "inventar històries sobre la\l"
 	.string "Mansió Pokémon.\p"
 	.string "La meva preferida era la que deia\n"
@@ -80,9 +80,9 @@ CinnabarIsland_EventScript_GymSign::
 	end
 
 CinnabarIsland_Text_GymSign::
-    .string "Gimnàs Pokémon d'Illa Cinabri\n"
-    .string "Líder: Blaine\l"
-    .string "El Mestre dels Qüestionaris!$"
+	.string "Gimnàs Pokémon d'Illa Cinabri\n"
+	.string "Líder: Blaine\l"
+	.string "El Mestre Exaltat de les Preguntes!$"
 
 CinnabarIsland_EventScript_ShellBell::
 	finditem ITEM_SHELL_BELL, 1

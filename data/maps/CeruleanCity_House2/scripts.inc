@@ -26,17 +26,17 @@ CeruleanCity_House2_EventScript_HikerGotTM28::
 	end
 
 CeruleanCity_House2_Text_TeachDiglettDigWithoutTM::
-    .string "El que s'ha perdut, s'ha perdut.\p"
-    .string "He decidit ensenyar a Diglett\n"
-    .string "a Cavar sense MT.$"
+	.string "El que s'ha perdut, s'ha perdut.\p"
+	.string "He decidit ensenyar a Diglett\n"
+	.string "a Excavar sense MT.$"
 
 CeruleanCity_House2_EventScript_Lass::
 	msgbox CeruleanCity_House2_Text_TeamRocketTryingToDigIntoNoGood, MSGBOX_NPC
 	end
 
 CeruleanCity_House2_Text_TeamRocketTryingToDigIntoNoGood::
-    .string "L'Equip Rocket deu estar intentant\n"
-    .string "Cavar per fer de les seves!$"
+	.string "L'Equip Rocket deu estar intentant\n"
+	.string "Excavar per fer de les seves!$"
 
 CeruleanCity_House2_EventScript_WallHole::
 	msgbox CeruleanCity_House2_Text_TeamRocketLeftWayOut, MSGBOX_SIGN

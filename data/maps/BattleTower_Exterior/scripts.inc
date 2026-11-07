@@ -62,7 +62,7 @@ BattleTower_Exterior_Text_OnAStreak::
 	.string "Poliwrath i jo hem sortit a\n"
 	.string "prendre l'aire.\p"
 	.string "És important descansar.\n"
-	.string "No vols posar-te nerviós/a!$"
+	.string "No et pots deixar vèncer pels nervis!$"
 
 BattleTower_Exterior_Poliwrath::
 	playmoncry SPECIES_POLIWRATH, CRY_MODE_NORMAL
@@ -85,7 +85,8 @@ BattleTower_Exterior_Text_BattleTower::
 	.string "Aquesta Torre de Combat està\n"
 	.string "molt bé, oi?\p"
 	.string "He sentit que el propietari està\n"
-	.string "obsessionat amb trobar els més forts!$"
+	.string "obsessionat amb trobar els\l"
+	.string "Entrenadors més forts!$"
 
 BattleTower_Exterior_Punk::
 	lockall
@@ -100,8 +101,8 @@ BattleTower_Exterior_Punk::
 
 BattleTower_Exterior_Text_GotCarded::
 	.string "No m'ho puc creure!\p"
-	.string "Vaig cridar a l'àrbitre i em va\n"
-	.string "donar una d'aquestes!$"
+	.string "Vaig escridassar l'àrbitra i em\n"
+	.string "va donar una d'aquestes!$"
 
 BattleTower_Exterior_Punk2::
 	lockall
@@ -126,4 +127,4 @@ BattleTower_Exterior_BattleTowerHouse::
 	end
 
 BattleTower_Exterior_Text_BattleTowerHouse::
-    .string "Casa de l'Scott$"
+	.string "Casa de Scott$"

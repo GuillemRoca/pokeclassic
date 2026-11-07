@@ -35,16 +35,16 @@ CeladonCity_Restaurant_EventScript_CoinCaseMan::
 	end
 
 CeladonCity_Restaurant_Text_TakeThisImBusted::
-    .string "Endavant! Riu-te'n!\n"
-    .string "Estic completament arruïnat!\p"
-    .string "S'han acabat les escurabutxaques!\n"
-    .string "Ara seguiré el bon camí!\p"
-    .string "Té!\n"
-    .string "Ja no necessitaré més això!$"
+	.string "Endavant! Riu-te'n!\n"
+	.string "Estic completament arruïnat!\p"
+	.string "S'han acabat les escurabutxaques!\n"
+	.string "Ara seguiré el bon camí!\p"
+	.string "Té!\n"
+	.string "Això ja no em farà falta!$"
 
 CeladonCity_Restaurant_Text_ReceivedCoinCaseFromMan::
-    .string "{PLAYER} ha rebut un Estoig de\n"
-    .string "Monedes de l'home.$"
+	.string "{PLAYER} ha rebut un Moneder\n"
+	.string "de l'home.$"
 
 CeladonCity_Restaurant_EventScript_NoRoomForCoinCase::
 	msgbox CeladonCity_Restaurant_Text_MakeRoomForThis

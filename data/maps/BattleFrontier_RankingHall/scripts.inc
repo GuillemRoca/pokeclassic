@@ -104,7 +104,7 @@ BattleFrontier_RankingHall_Text_ExplainRankingHall:
 	.string "Aquesta és la Sala de Rànquing.\p"
 	.string "Aquí reconeixem els Entrenadors\n"
 	.string "immortals que van deixar grans\l"
-	.string "registres als esdeveniments.$"
+	.string "rècords a la Frontera de Combat.$"
 
 BattleFrontier_RankingHall_Text_DomePikeFactoryRecords:
 	.string "Registres del Domo de Combat,\n"

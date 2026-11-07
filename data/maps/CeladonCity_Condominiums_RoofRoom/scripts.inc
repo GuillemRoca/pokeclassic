@@ -13,7 +13,7 @@ CeladonCity_Condominiums_RoofRoom_Text_CreatedMyOwnPokemon::
 	.string "en dades i guardar en un PC,\l"
 	.string "hauríem de poder crear Pokémon\l"
 	.string "artificialment, no?\p"
-	.string "Aquesta era la meva hipòtesi - i\n"
+	.string "Aquesta era la meva hipòtesi, i\n"
 	.string "la vaig demostrar creant Porygon!\p"
 	.string "No em creus?\p"
 	.string "Agafa la Poké Ball d'allà,\n"
@@ -27,19 +27,19 @@ CeladonCity_Condominiums_RoofRoom_EventScript_AlreadyGotPorygon::
 CeladonCity_Condominiums_RoofRoom_Text_CanAPokemonBeHacked::
 	.string "Si podem convertir Pokémon en\n"
 	.string "dades, vol dir que un Pokémon\l"
-	.string "pot ser hackejat?$"
+	.string "pot ser piratejat?$"
 
 CeladonCity_Condominiums_RoofRoom_EventScript_TMsPamphlet::
 	msgbox CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs, MSGBOX_SIGN
 	end
 
 CeladonCity_Condominiums_RoofRoom_Text_PamphletOnTMs::
-    .string "És un correu sobre les MT.\p"
-    .string "… …\p"
-    .string "Hi ha cinquanta MT en total.\p"
-    .string "També hi ha vuit MO que es\n"
-    .string "poden usar al camp!\p"
-    .string "SILPH CO.$"
+	.string "És un correu sobre les MT.\p"
+	.string "… …\p"
+	.string "Hi ha cinquanta MT en total.\p"
+	.string "També hi ha vuit MO que es\n"
+	.string "poden usar al camp!\p"
+	.string "SILPH S.A.$"
 
 CeladonCity_Condominiums_RoofRoom_EventScript_PorygonBall::
     setvar VAR_TEMP_1, SPECIES_PORYGON

@@ -64,7 +64,7 @@ PokemonTower_7F_EventScript_JessieJamesBattle::
 	end
 
 PokemonTower_7F_Text_HoldItKid::
-	.string "Jessie: Para aquí mateix, marrec.$"
+	.string "Jessie: Para aquí mateix, mocós.$"
 
 Movement_RocketDuoEnters:
 	walk_up
@@ -82,7 +82,7 @@ PokemonTower_7F_RocketDuoIntro::
 	.string "Jessie: Hauries d'haver-los donat\n"
 	.string "a la Policia Internacional quan\l"
 	.string "en tenies l'oportunitat.\p"
-	.string "James: Ens els tornarem a quedar!$"
+	.string "James: I ara ens els tornaràs!$"
 
 PokemonTower_7F_RocketDuoDefeat::
     .string "Jessie: Marrec!\n"
@@ -102,18 +102,18 @@ PokemonTower_7F_EventScript_RocketDuoDefeated::
 	end
 
 PokemonTower_7F_Text_RocketDuoDefeated::
-    .string "Jessie: Ugh! De debò? Un altre cop?\p"
-    .string "James: Sembla que la nostra\n"
-    .string "oportunitat de recuperar els plans\l"
-    .string "ha fracassat...\p"
-    .string "Jessie: No creus que ja ho sé?\n"
-    .string "Tant se val, si aquest marrec\l"
-    .string "encara no ha donat els plans a la\l"
-    .string "Policia Internacional, vol dir que\l"
-    .string "encara tenim temps per anar a\l"
-    .string "ajudar amb la presa de Ciutat Safrà.\p"
-    .string "Jessie i James: L'Equip Rocket\n"
-    .string "surt disparat un altre cop!$"
+	.string "Jessie: Ugh! De debò? Un altre cop?\p"
+	.string "James: Sembla que la nostra\n"
+	.string "oportunitat de recuperar els plans\l"
+	.string "ha fracassat...\p"
+	.string "Jessie: Que et penses que no ho sé?\n"
+	.string "Tant se val, si aquest mocós\l"
+	.string "encara no ha donat els plans a la\l"
+	.string "Policia Internacional, vol dir que\l"
+	.string "encara tenim temps per anar a\l"
+	.string "ajudar amb la presa de Ciutat Safrà.\p"
+	.string "Jessie i James: Sembla que l'Equip\n"
+	.string "Rocket torna a sortir volant!$"
 
 PokemonTower_7F_Text_LetsGoToHouse::
 	.string "Sr. Fuji: Bé, això ha estat\n"
@@ -169,7 +169,7 @@ PokemonTower_7F_Text_Grunt1Defeat::
     .string "Em rendeixo!$"
 
 PokemonTower_7F_Text_Grunt1PostBattle::
-    .string "No oblidaré això!$"
+	.string "Això no ho oblidaré!$"
 
 PokemonTower_7F_EventScript_RemoveGrunt1::
 	removeobject LOCALID_GRUNT1
@@ -224,13 +224,13 @@ PokemonTower_7F_EventScript_Grunt2::
 	end
 
 PokemonTower_7F_Text_Grunt2Intro::
-    .string "Aquest vell va venir directament\n"
-    .string "al nostre Amagatall.\p"
-    .string "Llavors, es va posar a predicar\n"
-    .string "que l'Equip Rocket maltracta\l"
-    .string "els Pokémon.\p"
-    .string "Doncs, només n'estem parlant\n"
-    .string "com adults.$"
+	.string "Aquest vell va venir directament\n"
+	.string "al nostre Amagatall.\p"
+	.string "Llavors, es va posar a predicar\n"
+	.string "que l'Equip Rocket maltracta\l"
+	.string "els Pokémon.\p"
+	.string "Doncs, només n'estem parlant\n"
+	.string "com a adults.$"
 
 PokemonTower_7F_Text_Grunt2Defeat::
     .string "Si us plau!\n"
@@ -310,8 +310,7 @@ PokemonTower_7F_Text_Grunt3Intro::
     .string "No salvaràs ningú, nen!$"
 
 PokemonTower_7F_Text_Grunt3Defeat::
-    .string "No lluiteu contra nosaltres,\n"
-    .string "els Rockets!$"
+	.string "No t'enfrontis als Rockets!$"
 
 PokemonTower_7F_Text_Grunt3PostBattle::
     .string "No te'n sortiràs amb la teva!$"

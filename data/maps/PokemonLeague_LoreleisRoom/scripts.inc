@@ -61,16 +61,16 @@ PokemonLeague_LoreleisRoom_EventScript_Lorelei::
 	end
 
 PokemonLeague_LoreleisRoom_Text_Intro::
-    .string "Benvingut a la Lliga Pokémon.\p"
-    .string "Soc la Lorelei de l'Alt\n"
-    .string "Comandament.\p"
-    .string "Ningú no em supera quan es\n"
-    .string "tracta de Pokémon de gel.\p"
-    .string "Els moviments de gel són potents.\p"
-    .string "Els teus Pokémon estaran a la\n"
-    .string "meva mercè quan es congelin.\p"
-    .string "Hahaha!\n"
-    .string "Estàs preparat?$"
+	.string "Benvingut a la Lliga Pokémon.\p"
+	.string "Soc Lorelei, de l'Alt Comandament.\p"
+	.string "Ningú no em supera quan es\n"
+	.string "tracta de Pokémon de tipus Gel.\p"
+	.string "Els moviments congelants són\n"
+	.string "potents.\p"
+	.string "Els teus Pokémon estaran a la\n"
+	.string "meva mercè quan es congelin.\p"
+	.string "Hahaha!\n"
+	.string "Estàs preparat?$"
 
 PokemonLeague_LoreleisRoom_Text_Defeat::
     .string "…Les coses no haurien de ser així!$"
@@ -120,8 +120,8 @@ PokemonLeague_LoreleisRoom_EventScript_PostBattle2::
 	end
 
 PokemonLeague_LoreleisRoom_Text_PostBattle2::
-    .string "Potser he perdut, però mai\n"
-    .string "renunciaré als meus Pokémon\l"
-    .string "de tipus Gel!\p"
-    .string "Tu també hauries de lluitar\n"
-    .string "amb els Pokémon que més t'agradin!$"
+	.string "Potser he perdut, però no\n"
+	.string "renunciaré mai als meus Pokémon\l"
+	.string "de tipus Gel!\p"
+	.string "Tu també hauries d'intentar guanyar\n"
+	.string "amb els Pokémon que més t'agradin!$"

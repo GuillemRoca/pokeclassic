@@ -6,13 +6,10 @@ FuchsiaCity_SafariZone_Office_EventScript_Worker1::
 	end
 
 FuchsiaCity_SafariZone_Office_Text_NicknamedWardenSlowpoke::
-    .string "Hem posat de malnom al Guardià\n"
-
-    .string "“Slowpoke.”\p"
-
-    .string "Saps, té aquella mirada buida\n"
-
-    .string "com un Slowpoke.$"
+	.string "Hem posat de malnom al Guardià\n"
+	.string "“Slowpoke”.\p"
+	.string "Saps, té aquella mirada buida\n"
+	.string "com un Slowpoke.$"
 
 
 FuchsiaCity_SafariZone_Office_EventScript_Worker2::

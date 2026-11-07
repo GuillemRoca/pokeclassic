@@ -22,14 +22,15 @@ IndigoPlateau_PokemonCenter_1F_EventScript_GymGuy::
 	end
 
 IndigoPlateau_PokemonCenter_1F_Text_GymGuyAdvice::
-    .string "Ei!\n"
-    .string "Futur Campió!\p"
-    .string "A la Lliga Pokémon, t'enfrontaràs\n"
-    .string "a l'Alt Comandament seguit.\p"
-    .string "Si perds, hauràs de tornar\n"
-    .string "a començar des de zero!\p"
-    .string "Ara és el moment!\n"
-    .string "Endavant!$"
+	.string "Ei!\n"
+	.string "Futur campió!\p"
+	.string "A la Lliga Pokémon, t'enfrontaràs\n"
+	.string "als membres de l'Alt Comandament\l"
+	.string "un darrere l'altre.\p"
+	.string "Si perds, hauràs de tornar\n"
+	.string "a començar des de zero!\p"
+	.string "Ara és el moment!\n"
+	.string "Endavant!$"
 
 IndigoPlateau_PokemonCenter_1F_EventScript_DoorGuard::
     lock
@@ -168,14 +169,14 @@ Player_Movement_EnterEast:
 	step_end
 
 IndigoPlateau_PokemonCenter_1F_Text_FaceEliteFour::
-    .string "A partir d'aquí, t'enfrontaràs\n"
-    .string "a l'Alt Comandament un per un.\p"
-    .string "Si guanyes, s'obrirà una porta\n"
-    .string "cap al següent entrenador.\p"
-    .string "No podràs tornar fins que els\n"
-    .string "hagis derrotat a tots, o hagis\l"
-    .string "perdut.\p"
-    .string "Estàs preparat per al repte?$"
+	.string "A partir d'aquí, t'enfrontaràs\n"
+	.string "a l'Alt Comandament d'un en un.\p"
+	.string "Si guanyes, s'obrirà una porta\n"
+	.string "cap al següent Entrenador.\p"
+	.string "No podràs tornar fins que els\n"
+	.string "hagis derrotat a tots, o hagis\l"
+	.string "perdut.\p"
+	.string "Estàs preparat per al repte?$"
 
 IndigoPlateau_PokemonCenter_1F_Text_FaceEliteFourPostGame::
     .string "Com a Campió, pots desafiar\n"
@@ -229,11 +230,11 @@ IndigoPlateau_PokemonCenter_1F_EventScript_Dragontamer::
     end
 
 IndigoPlateau_PokemonCenter_1F_Text_LancesCousinGymLeaderFarAway::
-    .string "Potser ser membre de l'Alt\n"
-    .string "Comandament ho portes a la sang.\p"
-    .string "Pel que he sentit, en Lance té\n"
-    .string "un cosí que és Líder de Gimnàs\l"
-    .string "en algun lloc llunyà.$"
+	.string "Potser ser membre de l'Alt\n"
+	.string "Comandament es porta a la sang.\p"
+	.string "Pel que he sentit, en Lance té\n"
+	.string "un cosí que és Líder de Gimnàs\l"
+	.string "en algun lloc llunyà.$"
 
 IndigoPlateau_PokemonCenter_1F_EventScript_PokemonJournal::
 	lock
@@ -312,6 +313,7 @@ IndigoPlateau_PokemonCenter_1F_EventScript_Determination::
 	end
 
 IndigoPlateau_PokemonCenter_1F_Text_Determination::
-	.string "Cal tot el que tens per enfrontar-te\n"
+	.string "Cal donar-ho tot per enfrontar-se\n"
 	.string "a l'Alt Comandament!\p"
-	.string "Espero que estiguis ple de determinació!$"
+	.string "Espero que estiguis ple de\n"
+	.string "determinació!$"

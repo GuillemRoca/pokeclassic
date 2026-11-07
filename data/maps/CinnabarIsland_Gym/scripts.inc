@@ -141,8 +141,8 @@ CinnabarIsland_Gym_EventScript_Quinn::
 	end
 
 CinnabarIsland_Gym_Text_QuinnIntro::
-    .string "Era lladre, però m'he redreçat\n"
-    .string "com a entrenador.$"
+	.string "Era lladre, però ara vaig pel bon\n"
+	.string "camí com a Entrenador.$"
 
 CinnabarIsland_Gym_Text_QuinnDefeat::
     .string "Em rendeixo!$"
@@ -527,19 +527,19 @@ CinnabarIsland_Gym_EventScript_BattleDerek::
 	end
 
 CinnabarIsland_Gym_Text_DerekIntro::
-    .string "Sé per què en Blaine es va fer\n"
-    .string "entrenador.$"
+	.string "Sé per què en Blaine es va fer\n"
+	.string "Entrenador.$"
 
 CinnabarIsland_Gym_Text_DerekDefeat::
     .string "Au!$"
 
 CinnabarIsland_Gym_Text_DerekPostBattle::
-    .string "El nostre Líder, en Blaine, es va\n"
-    .string "perdre a les muntanyes.\p"
-    .string "Va caure la nit quan un Pokémon\n"
-    .string "ocell de foc va aparèixer.\p"
-    .string "La seva llum va permetre\n"
-    .string "a en Blaine tornar sa i estalvi.$"
+	.string "El nostre Líder, en Blaine, una\n"
+	.string "vegada es va perdre a les muntanyes.\p"
+	.string "Es va fer de nit i va aparèixer\n"
+	.string "un Pokémon ocell de foc.\p"
+	.string "La seva llum va permetre a en\n"
+	.string "Blaine baixar sa i estalvi.$"
 
 CinnabarIsland_Gym_EventScript_DerekApproachLeft::
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterRight
@@ -613,8 +613,9 @@ CinnabarIsland_Gym_EventScript_BattleDusty::
 	end
 
 CinnabarIsland_Gym_Text_DustyIntro::
-    .string "He estat a molts Gimnasos, però\n"
-    .string "aquest és el que més m'agrada.$"
+	.string "He estat a molts Gimnasos, però\n"
+	.string "aquest és el que s'adiu més al meu\l"
+	.string "estil.$"
 
 CinnabarIsland_Gym_Text_DustyDefeat::
     .string "Uaau!\n"
@@ -800,16 +801,17 @@ CinnabarIsland_Gym_EventScript_ChallengeLeader::
 	end
 
 CinnabarIsland_Gym_Text_LeaderSpeech::
-    .string "Ha!\p"
-    .string "Soc en Blaine, el Líder\n"
-    .string "ardent del Gimnàs Cinabri!\p"
-    .string "Els meus Pokémon de Foc són\n"
-    .string "durs i plens de calor intensa!\p"
-    .string "Incineren tots els desafiants!$"
+	.string "Ha!\p"
+	.string "Soc Blaine, el Líder ardent\n"
+	.string "del Gimnàs de Cinabri!\p"
+	.string "Els meus Pokémon de Foc estan\n"
+	.string "a punt i cremen amb una calor\l"
+	.string "intensa!\p"
+	.string "Incineren tots els desafiants!$"
 
 CinnabarIsland_Gym_Text_LeaderIntro::
-    .string "Ha!\n"
-    .string "Més val que portis Anticremada!$"
+	.string "Ha!\n"
+	.string "Més val que portis Cura Cremades!$"
 
 CinnabarIsland_Gym_Text_LeaderDefeat::
     .string "M'he cremat fins a les cendres!$"
@@ -838,7 +840,7 @@ CinnabarIsland_Gym_Text_GetBadge::
 
 CinnabarIsland_Gym_Text_ReceivedBadge::
 	.string "{PLAYER} ha rebut la Medalla\n"
-    .string "Volcà d'en Blaine!$"
+	.string "Volcà de Blaine!$"
 
 CinnabarIsland_Gym_EventScript_GetTM::
 	msgbox CinnabarIsland_Gym_Text_TakeThisWithYou, MSGBOX_DEFAULT
@@ -857,14 +859,14 @@ CinnabarIsland_Gym_Text_TakeThisWithYou::
     .string "Pren això també!$"
 
 CinnabarIsland_Gym_Text_ReceivedTM::
-    .string "{PLAYER} ha rebut la MT38\n"
-    .string "d'en Blaine.$"
+	.string "{PLAYER} ha rebut la MT38\n"
+	.string "de Blaine.$"
 
 CinnabarIsland_Gym_Text_ExplainTM::
-    .string "La MT38 conté Flamarada.\n"
-    .string "Ensenya-la a Pokémon de Foc.\p"
-    .string "Vulpix o Charmeleon serien\n"
-    .string "ideals per a aquest moviment.$"
+	.string "La MT38 conté Infern.\n"
+	.string "Ensenya-la a Pokémon de Foc.\p"
+	.string "Vulpix o Charmeleon serien\n"
+	.string "ideals per a aquest moviment.$"
 
 CinnabarIsland_Gym_EventScript_NoRoomForTM::
 	msgbox CinnabarIsland_Gym_Text_NoRoomForTM, MSGBOX_DEFAULT
@@ -872,7 +874,7 @@ CinnabarIsland_Gym_EventScript_NoRoomForTM::
 	end
 
 CinnabarIsland_Gym_Text_NoRoomForTM::
-    .string "Fes espai per a això, nen!$"
+	.string "Fes espai per a això, criatura!$"
 
 CinnabarIsland_Gym_EventScript_LeaderPostBattle::
 	lock
@@ -883,10 +885,10 @@ CinnabarIsland_Gym_EventScript_LeaderPostBattle::
 	end
 
 CinnabarIsland_Gym_Text_LeaderPostBattle::
-    .string "Flamarada és la tècnica\n"
-    .string "definitiva de foc.\p"
-    .string "No la malgastis amb Pokémon\n"
-    .string "d'Aigua.$"
+	.string "Infern és la tècnica\n"
+	.string "definitiva de foc.\p"
+	.string "No la malgastis amb Pokémon\n"
+	.string "d'Aigua.$"
 
 CinnabarIsland_Gym_EventScript_LeaderPostBattleGameClear::
 	msgbox CinnabarIsland_Gym_Text_PostBattleGameClear, MSGBOX_DEFAULT
@@ -904,14 +906,16 @@ CinnabarIsland_Gym_EventScript_RematchLeader::
 	end
 
 CinnabarIsland_Gym_Text_RematchLeader::
-	.string "Ha! Ben fet, tornar al meu Gimnàs!\p"
+	.string "Ha! Has fet bé de tornar al meu\n"
+	.string "Gimnàs!\p"
 	.string "Has explorat la Mansió Pokémon?\p"
 	.string "Has vist alguna cosa interessant\n"
 	.string "allà dins?\p"
-	.string "Aquell lloc encara guarda restes\n"
-	.string "de la investigació del meu amic!\p"
-	.string "Més important, ja que has vingut\n"
-	.string "fins aquí, hauríem de lluitar! Ha!$"
+	.string "Aquell lloc encara guarda restes de\n"
+	.string "la investigació del meu vell amic!\p"
+	.string "I el que és més important: ja que\n"
+	.string "has vingut fins aquí, hem de\l"
+	.string "lluitar! Ha!$"
 
 CinnabarIsland_Gym_EventScript_DeclineRematch::
 	msgbox CinnabarIsland_Gym_Text_DeclineRematch, MSGBOX_DEFAULT
@@ -919,7 +923,7 @@ CinnabarIsland_Gym_EventScript_DeclineRematch::
 	end
 
 CinnabarIsland_Gym_Text_DeclineRematch::
-	.string "Decebedor!$"
+	.string "Quina decepció!$"
 
 CinnabarIsland_Gym_EventScript_PostgameRematch::
 	msgbox CinnabarIsland_Gym_Text_RematchMode, MSGBOX_YESNO
@@ -928,7 +932,7 @@ CinnabarIsland_Gym_EventScript_PostgameRematch::
 	end
 
 CinnabarIsland_Gym_Text_RematchMode::
-	.string "Ara que ets el campió,\n"
+	.string "Ara que ets el Campió,\n"
 	.string "vols anar amb tot?$"
 
 CinnabarIsland_Gym_EventScript_LeaderRematch_OriginalTeam::
@@ -936,8 +940,8 @@ CinnabarIsland_Gym_EventScript_LeaderRematch_OriginalTeam::
 	end
 
 CinnabarIsland_Gym_Text_RematchOriginal::
-	.string "El nostre primer combat està\n"
-	.string "gravat a la memòria! Som-hi!$"
+	.string "El nostre primer combat el tinc\n"
+	.string "gravat a foc a la memòria! Som-hi!$"
 
 CinnabarIsland_Gym_EventScript_LeaderRematch_PostGameTeam::
 	trainerbattle_single LEADER_REMATCH_BLAINE_POSTGAME, CinnabarIsland_Gym_Text_RematchPostgame, CinnabarIsland_Gym_Text_RematchDefeat, CinnabarIsland_Gym_EventScript_DefeatedLeaderRematch
@@ -959,13 +963,13 @@ CinnabarIsland_Gym_Text_RematchDefeat::
 	.string "Ha! Estic encès!$"
 
 CinnabarIsland_Gym_Text_GymGuyAdvice::
-    .string "Ei!\n"
-    .string "Futur campió!\p"
-    .string "En Blaine, el de cap calent, és\n"
-    .string "un pro dels Pokémon de Foc.\p"
-    .string "Apaga els seus ànims amb aigua!\p"
-    .string "Millor que portis\n"
-    .string "Anticremades.$"
+	.string "Ei!\n"
+	.string "Futur campió!\p"
+	.string "En Blaine, el de cap calent, és\n"
+	.string "un pro dels Pokémon de Foc.\p"
+	.string "Apaga els seus ànims amb aigua!\p"
+	.string "També hauries de portar\n"
+	.string "Cura Cremades.$"
 
 CinnabarIsland_Gym_Text_GymGuyPostVictory::
     .string "{PLAYER}!\n"
@@ -984,15 +988,15 @@ CinnabarIsland_Gym_Text_GymStatuePlayerWon::
     .string "{RIVAL}, {PLAYER}$"
 
 CinnabarIsland_Gym_Text_PokemonQuizRules::
-    .string "Qüestionari Pokémon!\p"
-    .string "Encerta i la porta s'obrirà\n"
-    .string "a la següent sala.\p"
-    .string "Falla i t'enfrontaràs a un\n"
-    .string "entrenador!\p"
-    .string "Si vols estalviar els teus\n"
-    .string "Pokémon per al Líder…\p"
-    .string "Encerta!\n"
-    .string "Som-hi!$"
+	.string "Concurs de preguntes Pokémon!\p"
+	.string "Encerta i la porta s'obrirà\n"
+	.string "a la següent sala.\p"
+	.string "Falla i t'enfrontaràs a un\n"
+	.string "Entrenador!\p"
+	.string "Si vols estalviar els teus\n"
+	.string "Pokémon per al Líder…\p"
+	.string "Encerta!\n"
+	.string "Som-hi!$"
 
 CinnabarIsland_Gym_Text_QuizQuestion1::
     .string "Caterpie evoluciona a Metapod?$"
@@ -1014,7 +1018,7 @@ CinnabarIsland_Gym_Text_QuizQuestion5::
     .string "i nivell no són idèntics?$"
 
 CinnabarIsland_Gym_Text_QuizQuestion6::
-    .string "La MT28 conté Tombstony?$"
+	.string "La MT28 conté Làpida?$"
 
 CinnabarIsland_Gym_Text_CorrectGoOnThrough::
     .string "Absolutament correcte!\p"

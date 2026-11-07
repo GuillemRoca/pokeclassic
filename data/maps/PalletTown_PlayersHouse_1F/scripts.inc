@@ -33,12 +33,8 @@ PalletTown_PlayersHouse_1F_Text_BillVisiting::
 
 PlayersHouse_1F_EventScript_AnotherAdventure::
 	.string "Pedres estranyes? Potencial ocult?\p"
-
-
 	.string "Les aventures no s'acaben mai\n"
-
-
-	.string "per als entrenadors Pokémon!$"
+	.string "per als Entrenadors Pokémon!$"
 
 
 
@@ -49,12 +45,8 @@ PalletTown_PlayersHouse_1F_EventScript_BetterHurry::
 	end
 
 PalletTown_PlayersHouse_1F_Text_BetterHurry:
-	.string "Mare: No voldràs perdre't\n"
-
-
+	.string "Mare: Que no se t'escapi\n"
 	.string "el Professor Oak!\p"
-
-
 	.string "Més val que t'afanyis!$"
 
 
@@ -185,81 +177,37 @@ PlayersHouse_1F_EventScript_Bill::
 
 PlayersHouse_1F_Text_SomethingAmazing::
 	.string "Ei, {PLAYER}!\n"
-
-
 	.string "He descobert una cosa increïble!\p"
-
-
 	.string "Estava investigant per a la meva\n"
-
-
-	.string "col·lecció Pokémon, quan un dels\l"
-
-
-	.string "meus escàners va captar un senyal.\p"
-
-
+	.string "col·lecció Pokémon quan un dels meus\l"
+	.string "escàners va captar un senyal estrany.\p"
 	.string "Sembla que alguns Pokémon poden\n"
-
-
 	.string "tenir un potencial ocult que encara\l"
-
-
 	.string "no hem vist.\p"
-
-
 	.string "I aquest senyal sembla la clau!\p"
-
-
 	.string "Mira, vaig trobar l'origen del senyal\n"
-
-
-	.string "a prop de la Cabana del Mar.\p"
-
-
+	.string "a prop de la Caseta del Mar.\p"
 	.string "Era una pedra estranya que no havia\n"
-
-
 	.string "vist mai!\p"
-
-
 	.string "La vaig portar al laboratori i vaig\n"
-
-
 	.string "construir un aparell per treure'n\l"
-
-
 	.string "el poder!\p"
-
-
 	.string "Vull que el tinguis!$"
 
 
 
 PlayersHouse_1F_Text_GetMegaRing::
-	.string "Bill t'ha donat un Mega Anell!$"
+	.string "Bill t'ha donat un Anell Mega!$"
 
 
 
 PlayersHouse_1F_Text_FindMegaStones::
 	.string "Segons les meves lectures, hi ha\n"
-
-
 	.string "més d'aquestes pedres amagades\l"
-
-
 	.string "per Kanto.\p"
-
-
-	.string "Ara que tens el Mega Anell,\n"
-
-
+	.string "Ara que tens l'Anell Mega,\n"
 	.string "les hauries de poder veure!\p"
-
-
 	.string "Haurem de trobar una Mega Pedra\n"
-
-
 	.string "per provar la meva teoria!$"
 
 
@@ -345,40 +293,20 @@ PlayersHouse_1F_Text_Gameclear::
 
 PlayersHouse_1F_Text_FollowerOptions::
 	.string "L'opció de Seguidor a les Opcions\n"
-
-
-	.string "ara es pot posar en mode Tots!\p"
-
-
+	.string "ara es pot posar en mode Qualsevol!\p"
 	.string "Quan estigui seleccionat, el teu\n"
-
-
 	.string "primer Pokémon et seguirà!$"
 
 
 
 PlayersHouse_1F_Text_Gameclear2::
-	.string "Mare: Que siguis el nou campió\n"
-
-
+	.string "Mare: Que siguis el nou Campió\n"
 	.string "no vol dir que la teva història\l"
-
-
 	.string "s'hagi acabat!\p"
-
-
 	.string "Hi ha tot un món per explorar\n"
-
-
 	.string "per a tu i els teus Pokémon!\p"
-
-
 	.string "Estic molt orgullosa de tu,\n"
-
-
 	.string "{PLAYER}!\l"
-
-
 	.string "Ves a divertir-te amb els Pokémon!$"
 
 

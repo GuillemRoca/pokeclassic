@@ -10,11 +10,11 @@ BattleTower_House_Scott::
 
 BattleTower_House_Text_Scott::
 	.string "Scott: Ei, Campió/ona!\n"
-	.string "Gaudint de la Torre de Combat?\p"
+	.string "Com va per la Torre de Combat?\p"
 	.string "Crec que per fi faré un descans\n"
 	.string "de buscar Entrenadors.\p"
-	.string "Qui sap, potser provaré\n"
-	.string "uns combats jo mateix! Ha!$"
+	.string "Qui sap, potser faré\n"
+	.string "algun combat pel meu compte! Ha!$"
 
 BattleTower_House_Sign::
 	msgbox BattleTower_House_Text_Permit, MSGBOX_SIGN

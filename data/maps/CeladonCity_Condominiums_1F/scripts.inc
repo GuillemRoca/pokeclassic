@@ -57,17 +57,17 @@ CeladonCity_Condominiums_1F_EventScript_GetDailyTea::
 	return
 
 CeladonCity_Condominiums_1F_Text_TakeThisDear::
-	.string "Vols una mica de Te, bonica?"
+	.string "Vols una mica de Te, criatura?$"
 
 CeladonCity_Condominiums_1F_Text_DaisyComesToBuyTea::
-    .string "Oh, hola, bonica.\n"
-    .string "T'ha agradat el meu Te?\p"
-    .string "Per cert, bonica. Ets, per\n"
-    .string "casualitat, de Poble Paleta?\p"
-    .string "Una noia de Poble Paleta, Daisy,\n"
-    .string "gaudeix del meu Te cada dia.\p"
-    .string "Si mai vols una mica de te,\n"
-    .string "vine a visitar-me.$"
+	.string "Oh, hola, criatura.\n"
+	.string "T'ha agradat el meu Te?\p"
+	.string "Per cert, criatura. Ets, per\n"
+	.string "casualitat, de Poble Paleta?\p"
+	.string "Una noia de Poble Paleta, Daisy,\n"
+	.string "gaudeix del meu Te cada dia.\p"
+	.string "Si mai vols una mica de Te,\n"
+	.string "vine a visitar-me.$"
 
 CeladonCity_Condominiums_1F_EventScript_Meowth::
 	lock

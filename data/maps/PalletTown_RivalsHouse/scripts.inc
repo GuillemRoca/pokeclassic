@@ -125,14 +125,14 @@ PalletTown_RivalsHouse_EventScript_GroomMon:: @TODO
 	end
 
 PalletTown_RivalsHouse_Text_LikeMeToGroomMon::
-    .string "Daisy: Hola, {PLAYER}!\n"
-    .string "Quin bon moment.\p"
-    .string "Estic a punt de prendre un te.\n"
-    .string "Vols unir-t'hi?\p"
-    .string "Oh, mira.\n"
-    .string "Els teus Pokémon estan una mica\l"
-    .string "bruts.\p"
-    .string "Vols que en pentini un?$"
+	.string "Daisy: Hola, {PLAYER}!\n"
+	.string "Quin bon moment.\p"
+	.string "Estic a punt de prendre un te.\n"
+	.string "Em vols fer companyia?\p"
+	.string "Oh, mira.\n"
+	.string "Els teus Pokémon estan una mica\l"
+	.string "bruts.\p"
+	.string "Vols que en pentini un?$"
 
 PalletTown_RivalsHouse_EventScript_DeclineGrooming::
 	msgbox PalletTown_RivalsHouse_Text_DontNeedAnyGrooming
@@ -253,10 +253,10 @@ PalletTown_RivalsHouse_EventScript_MonFriendshipHighest::
 	end
 
 PalletTown_RivalsHouse_Text_CouldntLoveYouMore::
-    .string "No podria estimar-te més\n"
-    .string "del que ho fa ara.\p"
-    .string "El teu Pokémon és feliç\n"
-    .string "més enllà de les paraules.$"
+	.string "No podria estimar-te més\n"
+	.string "del que ho fa ara.\p"
+	.string "El teu Pokémon és tan feliç que\n"
+	.string "no hi ha paraules per descriure-ho.$"
 
 
 

@@ -38,9 +38,9 @@ FarawayIsland_Entrance_EventScript_Sailor::
 	end
 
 FarawayIsland_Entrance_Text_Return:
-    .string "Ha estat tot un viatge!\p"
+	.string "Ha estat tot un viatge!\p"
 	.string "Feia molt que no tenia l'ocasió\n"
-	.string "de navegar a un lloc nou.\n"
+	.string "de navegar a un lloc nou.\p"
 	.string "Ja has explorat l'illa?\p"
 	.string "Vols tornar a Cinabri?$"
 

@@ -15,12 +15,12 @@ CeladonCity_House1_EventScript_Rocket1::
 	end
 
 CeladonCity_House1_Text_ShippedMonsAsSlotPrizes::
-    .string "Cap!\p"
-    .string "Avui hem enviat dos mil\n"
-    .string "Ninots Pokémon més com a premis\l"
-    .string "de les escurabutxaques!\p"
-    .string "I també estem buscant compradors\n"
-    .string "pels Pokémon que hem segrestat.$"
+	.string "Cap!\p"
+	.string "Avui hem enviat dos mil\n"
+	.string "Ninots Pokémon més com a premis\l"
+	.string "de les escurabutxaques!\p"
+	.string "I també estem buscant compradors\n"
+	.string "per als Pokémon que hem segrestat.$"
 
 CeladonCity_House1_EventScript_Rocket2::
 	msgbox CeladonCity_House1_Text_DontTouchGameCornerPoster, MSGBOX_NPC

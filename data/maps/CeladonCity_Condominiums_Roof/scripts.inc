@@ -77,7 +77,7 @@ RooftopRocket_Intro::
 	.string "Estic fent una pausa per fumar.\n"
 	.string "No faig res sospitós.\p"
 	.string "Què? No em creus?\n"
-	.string "Bé, et faré creure per força!$"
+	.string "Molt bé, ja t'ho faré creure jo!$"
 
 RooftopRocket_Defeat::
 	.string "No he fet res dolent!\n"
@@ -118,8 +118,8 @@ CeladonCity_Condominiums_Roof_EventScript_RocketPlans::
 
 CeladonCity_Condominiums_Roof_Text_RocketPlans::
 	.string "És una bossa sospitosa...\p"
-	.string "Està plena de missatges del\n"
-	.string "Equip Rocket!$"
+	.string "Està plena de missatges de\n"
+	.string "l'Equip Rocket!$"
 
 CeladonCity_Condominiums_Roof_Text_ObtainRocketPlans::
 	.string "{PLAYER} ha trobat els Plans\n"
@@ -146,7 +146,7 @@ CeladonCity_Condominiums_Roof_EventScript_JessieJamesBattle::
 
 CeladonCity_Condominiums_Roof_Text_LookWhoItIs::
 	.string "James: Mira qui tenim aquí.\n"
-	.string "Jessie: És clar que és aquest nen.$"
+	.string "Jessie: És clar, és aquest mocós.$"
 
 Movement_BlockPlayerEscape:
 	walk_left
@@ -170,14 +170,15 @@ CeladonCity_Condominiums_Roof_Text_RocketDuoIntro::
 	.string "punt d'entrega secret?\p"
 	.string "James: Sí, el punt és que\n"
 	.string "és un secret!\p"
-	.string "Jessie: Bé, haurem d'assegurar\n"
-	.string "que segueixi sent un secret!$"
+	.string "Jessie: Doncs haurem d'assegurar-nos\n"
+	.string "que continuï sent un secret!$"
 
 
 CeladonCity_Condominiums_Roof_Text_RocketDuoDefeat::
-	.string "Jessie: Comences a posar-me\n"
-	.string "molt nerviosa, mocós!\p"
-	.string "James: Com pot ser que passi això!?$"
+	.string "Jessie: Em comences a treure de\n"
+	.string "polleguera, mocós!\p"
+	.string "James: Com pot ser que sempre ens\n"
+	.string "passi això!?$"
 
 CeladonCity_Condominiums_Roof_EventScript_RocketDuoDefeated::
 	msgbox CeladonCity_Condominiums_Roof_Text_RocketDuoDefeated, MSGBOX_AUTOCLOSE
@@ -194,5 +195,5 @@ CeladonCity_Condominiums_Roof_EventScript_RocketDuoDefeated::
 	end
 
 CeladonCity_Condominiums_Roof_Text_RocketDuoDefeated::
-	.string "Jessie: Sembla que enlairem el vol!\n"
-	.string "James: Sembla que enlairem el vol!$"
+	.string "Jessie: Sembla que sortim volant!\n"
+	.string "James: Sembla que sortim volant!$"

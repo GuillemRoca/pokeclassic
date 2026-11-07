@@ -51,7 +51,7 @@ FuchsiaCity_SafariZone_Entrance_EventScript_FirstTimeInfo::
 	end
 
 FuchsiaCity_SafariZone_Entrance_Text_FirstTimeInfo:
-	.string "Quan entris a la Zona Safari,\n"
+	.string "Quan entres a la Zona Safari,\n"
 	.string "comences amb 30 Safari Balls per\l"
 	.string "atrapar Pokémon.\p"
 	.string "El Joc Safari acaba quan et quedes\n"
@@ -101,7 +101,7 @@ FuchsiaCity_SafariZone_Entrance_Text_WouldYouLikeToPlay:
 
 FuchsiaCity_SafariZone_Entrance_Text_PlayAnotherTime:
 	.string "D'acord.\n"
-	.string "Juga un altre cop!$"
+	.string "Torna a jugar un altre dia!$"
 
 FuchsiaCity_SafariZone_Entrance_EventScript_TryEnterSafariZone::
 	call FuchsiaCity_SafariZone_Entrance_EventScript_CheckHasRoomForPokemon

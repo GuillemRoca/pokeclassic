@@ -58,9 +58,9 @@ PokemonMansion_1F_Text_NewMonDiscoveredInGuyanaJungle::
     .string "a les profunditats de la selva.$"
 
 PokemonMansion_1F_Text_ChristenedDiscoveredMonMew::
-    .string "Diari: 10 de juliol\n"
-    .string "Hem batejat el Pokémon recentment\l"
-    .string "descobert com a Mew.$"
+	.string "Diari: 10 de juliol\n"
+	.string "Hem batejat el Pokémon que hem\l"
+	.string "descobert amb el nom de Mew.$"
 
 PokemonMansion_2F_EventScript_ItemZinc::
 	finditem ITEM_ZINC, 1

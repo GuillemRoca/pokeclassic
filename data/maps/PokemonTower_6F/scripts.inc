@@ -25,8 +25,8 @@ PokemonTower_6F_EventScript_Angelica::
 	end
 
 PokemonTower_6F_Text_AngelicaIntro::
-    .string "Dona…me…\n"
-    .string "sang…$"
+	.string "Dona'm…\n"
+	.string "sang…$"
 
 PokemonTower_6F_Text_AngelicaDefeat::
     .string "Gemec!$"

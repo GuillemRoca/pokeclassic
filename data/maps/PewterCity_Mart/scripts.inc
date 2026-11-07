@@ -30,17 +30,17 @@ PewterCity_Mart_EventScript_Youngster::
 	end
 
 PewterCity_Mart_Text_BoughtWeirdFishFromShadyGuy::
-    .string "Un vell sospitós em va enredar\n"
-    .string "per comprar un Pokémon peix rar!\p"
-    .string "És totalment feble i va costar\n"
-    .string "¥500!$"
+	.string "Un vell sospitós em va enredar i\n"
+	.string "vaig comprar aquest Pokémon peix rar!\p"
+	.string "És totalment feble i va costar\n"
+	.string "¥500!$"
 
 PewterCity_Mart_EventScript_Boy::
 	msgbox PewterCity_Mart_Text_GoodThingsIfRaiseMonsDiligently, MSGBOX_NPC
 	end
 
 PewterCity_Mart_Text_GoodThingsIfRaiseMonsDiligently::
-    .string "Coses bones poden passar si\n"
-    .string "cries Pokémon amb dedicació.\p"
-    .string "Fins i tot els febles et poden\n"
-    .string "sorprendre si no et rendeixes.$"
+	.string "Poden passar coses bones si cries\n"
+	.string "Pokémon amb dedicació.\p"
+	.string "Fins i tot els febles et poden\n"
+	.string "sorprendre si no els abandones.$"

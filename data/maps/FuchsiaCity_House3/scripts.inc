@@ -116,9 +116,9 @@ FuchsiaCity_House3_EventScript_OldestGrandhchild::
     end
 
 FuchsiaCity_House3_Text_OldestGrandhchild:
-    .string "La meva néta gran ens visita\n"
-    .string "avui!\p"
-    .string "És entrenadora com tu!$"
+	.string "La meva néta gran ens visita\n"
+	.string "avui!\p"
+	.string "És Entrenadora, com tu!$"
 
 FuchsiaCity_House3_EventScript_NoVisitors::
     msgbox FuchsiaCity_House3_Text_NoVisitors, MSGBOX_NPC
@@ -147,9 +147,10 @@ FuchsiaCity_House3_EventScript_Picture::
     end
 
 FuchsiaCity_House3_Text_Picture::
-    .string "És una foto de la parella gran\n"
-    .string "quan eren joves...\p"
-    .string "Hi ha un gran bosc de Baies!$"
+	.string "És una foto de la parella gran\n"
+	.string "quan eren joves...\p"
+	.string "Hi ha un gran bosc d'Arbres\n"
+	.string "de Baies!$"
 
 FuchsiaCity_House3_EventScript_Lass::
     msgbox FuchsiaCity_House3_Text_Lass, MSGBOX_NPC
@@ -169,11 +170,12 @@ FuchsiaCity_House3_EventScript_Youngster::
     end
 
 FuchsiaCity_House3_Text_Youngster:
-    .string "Preferiria estar lluitant.\n"
-    .string "La meva germana diu que és bonic\l"
-    .string "visitar l'àvia i l'avi.\p"
-    .string "Almenys la Mescla de Baies és\n"
-    .string "una mica divertida.$"
+	.string "Jo preferiria ser fora combatent.\n"
+	.string "La meva germana diu que és bonic\l"
+	.string "visitar l'àvia i l'avi.\p"
+	.string "Almenys la Mescla de Baies és força\n"
+	.string "divertida, si t'agraden aquestes\l"
+	.string "coses.$"
 
 FuchsiaCity_House3_EventScript_Daisy::
     msgbox FuchsiaCity_House3_Text_Daisy, MSGBOX_NPC
@@ -182,15 +184,15 @@ FuchsiaCity_House3_EventScript_Daisy::
     end
 
 FuchsiaCity_House3_Text_Daisy:
-    .string "Oh! Hola, {PLAYER}!\p"
-    .string "No sabia que coneixies els\n"
-    .string "mestres de les Baies!\p"
-    .string "Els vaig conèixer quan viatjava\n"
-    .string "als Concursos.\p"
-    .string "Em van ensenyar tot el que sé\n"
-    .string "sobre la Mescla de Baies.\p"
-    .string "Encara intento visitar-los.\n"
-    .string "I no fa mal practicar!$"
+	.string "Oh! Hola, {PLAYER}!\p"
+	.string "No sabia que coneixies els\n"
+	.string "mestres de les Baies!\p"
+	.string "Els vaig conèixer quan viatjava\n"
+	.string "als Concursos.\p"
+	.string "Em van ensenyar tot el que sé\n"
+	.string "sobre la Mescla de Baies.\p"
+	.string "Encara els visito de tant en tant.\n"
+	.string "I mai no està de més practicar!$"
 
 FuchsiaCity_House3_EventScript_Expert::
     msgbox FuchsiaCity_House3_Text_Expert, MSGBOX_NPC
@@ -199,14 +201,15 @@ FuchsiaCity_House3_EventScript_Expert::
     end
 
 FuchsiaCity_House3_Text_Expert:
-    .string "El meu marit i jo ens vam mudar\n"
-    .string "a Kanto fa molt de temps, però\l"
-    .string "ningú sabia de la Mescla...\p"
-    .string "Era bastant popular a casa nostra,\n"
-    .string "així que intentem mantenir la\l"
-    .string "tradició.\p"
-    .string "Sempre que algú ens visita,\n"
-    .string "Mesclem Baies junts!$"
+	.string "El meu marit i jo ens vam mudar\n"
+	.string "a Kanto fa molt de temps, però\l"
+	.string "ningú d'aquí coneixia la Mescla\l"
+	.string "de Baies...\p"
+	.string "A la nostra terra era força popular,\n"
+	.string "així que intentem mantenir viva\l"
+	.string "la tradició.\p"
+	.string "Sempre que algú ens visita,\n"
+	.string "mesclem Baies plegats!$"
 
 
 BerryHouse_EventScript_BerryBlender::
@@ -329,13 +332,13 @@ BerryHouse_EventScript_BlenderNoBerries:
     end
 
 BerryHouse_Text_DontHaveAnyBerries:
-    .string "No tens cap Baia,\n"
-    .string "oi?\p"
-    .string "Si no tens Baies,\n"
-    .string "no pots fer {POKEBLOCK}S.\p"
-    .string "Sempre estarem fent {POKEBLOCK}S aquí,\n"
-    .string "així que fem-ne junts quan\l"
-    .string "tinguis una Baia o dues.$"
+	.string "No tens cap Baia,\n"
+	.string "oi?\p"
+	.string "Si no tens Baies,\n"
+	.string "no pots fer {POKEBLOCK}S.\p"
+	.string "Aquí sempre fem {POKEBLOCK}S,\n"
+	.string "així que en farem junts quan\l"
+	.string "tinguis una Baia o dues.$"
 
 BerryHouse_EventScript_HusbandGiveYouBerry::
     msgbox BerryHouse_Text_HusbandGiveYouBerry, MSGBOX_DEFAULT

@@ -34,8 +34,8 @@ CeruleanCity_Gym_Text_MistySpeech::
     .string "i entrenar Pokémon?$"
 
 CeruleanCity_Gym_Text_MistyIntro::
-    .string "La meva estratègia és l'atac\n"
-    .string "total amb Pokémon d'Aigua!$"
+	.string "La meva filosofia és l'atac total\n"
+	.string "amb Pokémon de tipus Aigua!$"
 
 CeruleanCity_Gym_Text_MistyDefeat::
 	.string "Uau!\n"
@@ -65,7 +65,7 @@ CeruleanCity_Gym_Text_GetBadge::
 
 CeruleanCity_Gym_Text_ReceivedBadge::
 	.string "{PLAYER} ha rebut la Medalla\n"
-    .string "Cascada de la Misty!$"
+	.string "Cascada de Misty!$"
 
 CeruleanCity_Gym_Text_ExplainBadge::
 	.string "La Medalla Cascada fa que tots\n"
@@ -96,13 +96,13 @@ CeruleanCity_Gym_Text_TakeThisWithYou::
 	 .string "MT preferida.$"
 
 CeruleanCity_Gym_Text_ReceivedTM::
-    .string "{PLAYER} ha rebut la MT03\n"
-    .string "de la Misty.$"
+	.string "{PLAYER} ha rebut la MT03\n"
+	.string "de Misty.$"
 
 CeruleanCity_Gym_Text_ExplainTM::
-    .string "La MT03 ensenya Pols d'Aigua.\p"
-    .string "Fes-la servir amb un Pokémon\n"
-    .string "aquàtic!$"
+	.string "La MT03 ensenya Pols Aquàtic.\p"
+	.string "Fes-la servir amb un Pokémon\n"
+	.string "aquàtic!$"
 
 CeruleanCity_Gym_EventScript_NoRoomForTM::
 	msgbox CeruleanCity_Gym_Text_NoRoomForTM, MSGBOX_DEFAULT
@@ -170,7 +170,7 @@ CeruleanCity_Gym_EventScript_PostgameRematch::
 	end
 
 CeruleanCity_Gym_Text_RematchMode::
-	.string "Ara que ets el campió,\n"
+	.string "Ara que ets el Campió,\n"
 	.string "vols anar amb tot?$"
 
 CeruleanCity_Gym_EventScript_LeaderRematch_OriginalTeam::
@@ -187,7 +187,7 @@ CeruleanCity_Gym_EventScript_LeaderRematch_PostGameTeam::
 
 CeruleanCity_Gym_Text_RematchPostgame::
 	.string "Els meus adorables Pokémon estan\n"
-	.string "preparats per enfrontar-te!\p"
+	.string "preparats per plantar-te cara!\p"
 	.string "L'ofensiva definitiva de\n"
 	.string "Pokémon de tipus Aigua!\p"
 	.string "Espero que estiguis preparat!$"
@@ -198,7 +198,7 @@ CeruleanCity_Gym_EventScript_DefeatedLeaderRematch::
 	end
 
 CeruleanCity_Gym_Text_RematchDefeat::
-	.string "Hmph! Que molest!$"
+	.string "Hmph! Quina ràbia!$"
 
 
 CeruleanCity_Gym_EventScript_PrepDexNavCall::

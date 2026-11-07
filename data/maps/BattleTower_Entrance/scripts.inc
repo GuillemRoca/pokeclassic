@@ -94,9 +94,9 @@ BTCutscene_ScottExit::
 
 
 BattleTower_Entrance_YouMadeIt::
-	.string "Scott: Aquí ets, Campió!\p"
+	.string "Scott: Ja ets aquí, Campió!\p"
 	.string "Per fi has arribat a les grans\n"
-	.string "Lligues.\p"
+	.string "lligues.\p"
 	.string "Què? No saps què és aquest lloc?\p"
 	.string "Això és el meu orgull!\p"
 	.string "No observava el teu progrés\n"
@@ -116,18 +116,18 @@ BattleTower_Entrance_LetMeExplain::
 	.string "desafiament per a tu.\p"
 	.string "Només els millors Entrenadors de\n"
 	.string "Kanto poden entrar a la Torre:\l"
-	.string "tothom que trobis és al seu millor!\p"
+	.string "tothom qui hi trobis és dels millors!\p"
 	.string "I a més, tenim regles i normes\n"
 	.string "diferents de la Lliga!\p"
 	.string "Hi ha moltes maneres de combatre\n"
-	.string "aquí!.\p"
+	.string "aquí!\p"
 	.string "És el somni de tot Entrenador!\p"
 	.string "Ara que ets aquí, necessitaràs\n"
 	.string "una d'aquestes!$"
 
 BattleTower_Entrance_GotFrontierPass::
-	.string "{PLAYER} ha rebut un Passi de la\n"
-	.string "Torre de l'Scott!$"
+	.string "{PLAYER} ha rebut de Scott\n"
+	.string "un Passi de la Torre!$"
 
 BattleTower_Entrance_GreatToSeeYouHere:
 	.string "Scott: Quina alegria veure't aquí,\n"
@@ -137,16 +137,16 @@ BattleTower_Entrance_GreatToSeeYouHere:
 	.string "del combat.$"
 
 BattleTower_Entrance_ThisIsIt::
-	.string "Scott: Això és tot, campió.\p"
-	.string "Tota la teva carrera: per a això\n"
-	.string "ha estat.\p"
+	.string "Scott: Ha arribat l'hora, campió.\p"
+	.string "Tota la teva carrera t'ha portat\n"
+	.string "fins aquí.\p"
 	.string "Els millors combats de la teva\n"
-	.string "vida són allà dalt.\p"
+	.string "vida t'esperen dalt de l'ascensor.\p"
 	.string "Ha estat genial veure't arribar\n"
 	.string "fins aquí!\p"
-	.string "Hauria de recórrer el món per\n"
-	.string "trobar un altre Entrenador\l"
-	.string "com tu...$"
+	.string "Probablement hauria de fer la volta\n"
+	.string "al món per trobar un altre\l"
+	.string "Entrenador com tu...$"
 
 BattleTower_Entrance_CoolTrainerM::
 	lock
@@ -159,7 +159,7 @@ BattleTower_Entrance_Text_CoolTrainerM::
 	.string "Pensava que m'anava bé, però\n"
 	.string "no vaig poder mantenir la ratxa!\p"
 	.string "Esperava guanyar més BP per\n"
-	.string "objectes d'entrenament!$"
+	.string "comprar objectes d'entrenament!$"
 
 BattleTower_Entrance_CoolTrainerF::
 	lock
@@ -304,7 +304,7 @@ BattleTower_Entrance_EventScript_LookForwardToChallenge::
 
 BattleTower_Entrance_Text_CongratsDefeatedMaiden:
 	.string "Felicitats!\n"
-	.string "Has derrotat la Dama del Saló\l"
+	.string "Has derrotat la Mestra del Saló\l"
 	.string "i has escombrat set Entrenadors!$"
 
 BattleTower_Entrance_EventScript_LostChallenge::
@@ -736,7 +736,8 @@ BattleTower_Entrance_Text_AwardYouTheseBattlePoints:
 	.string "Punt(s) de Combat.$"
 
 BattleFrontier_Text_ObtainedXBattlePoints:
-	.string "{PLAYER} ha obtingut {STR_VAR_1} Punt(s) de Combat.$"
+	.string "{PLAYER} ha obtingut\n"
+	.string "{STR_VAR_1} Punt(s) de Combat.$"
 
 BattleTower_Entrance_Text_ReceivedPrize:
 	.string "{PLAYER} ha rebut el premi\n"
@@ -780,6 +781,7 @@ BattleTower_Entrance_EventScript_Boy::
 BattleTower_Entrance_Text_CanLeaveUntilLossOrSevenWins:
 	.string "Un cop has entrat a la Torre de\n"
 	.string "Combat, no pots sortir fins que\l"
-	.string "perdis o guanyis set seguits.\p"
+	.string "perdis o derrotis set Entrenadors\l"
+	.string "seguits.\p"
 	.string "Més val que estiguis segur que\n"
 	.string "estàs a l'alçada.$"

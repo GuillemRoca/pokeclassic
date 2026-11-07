@@ -26,19 +26,20 @@ FuchsiaCity_Gym_EventScript_ChallengeLeader::
 	end
 
 FuchsiaCity_Gym_Text_LeaderSpeech::
-    .string "Koga: Fwahahaha!\p"
-    .string "Un simple nen com tu gosa\n"
-    .string "desafiar-me?\p"
-    .string "Només la idea em fa tremolar\n"
-    .string "de riure!\p"
-    .string "Molt bé, et mostraré el veritable\n"
-    .string "terror com a mestre ninja.\p"
-    .string "El verí porta la perdició lenta.\n"
-    .string "El son deixa l'enemic indefens.$"
+	.string "Koga: Fwahahaha!\p"
+	.string "Una simple criatura com tu gosa\n"
+	.string "desafiar-me?\p"
+	.string "Només la idea em fa tremolar\n"
+	.string "de riure!\p"
+	.string "Molt bé, et mostraré el veritable\n"
+	.string "terror d'un mestre ninja.\p"
+	.string "El verí porta una perdició lenta\n"
+	.string "i segura. El son deixa l'enemic\l"
+	.string "indefens.$"
 
 FuchsiaCity_Gym_Text_LeaderIntro::
-    .string "Desespera davant l'horror\n"
-    .string "dels Pokémon de tipus Verí!$"
+	.string "Desespera davant l'horror sigil·lós\n"
+	.string "dels Pokémon de tipus Verí!$"
 
 FuchsiaCity_Gym_Text_LeaderDefeat::
     .string "Hmph!\n"
@@ -77,8 +78,8 @@ FuchsiaCity_Gym_Text_ReceivedBadge::
     .string "Ànima de Koga!$"
 
 FuchsiaCity_Gym_Text_ExplainBadge::
-    .string "La Medalla Ànima et permetrà\n"
-   .string "fer SURF fora de combat.$"
+	.string "La Medalla Ànima et permetrà\n"
+	.string "usar Surf fora de combat.$"
 
 FuchsiaCity_Gym_EventScript_GetTM::
 	msgbox FuchsiaCity_Gym_Text_TakeThisWithYou, MSGBOX_DEFAULT
@@ -102,10 +103,10 @@ FuchsiaCity_Gym_Text_ReceivedTM::
     .string "de Koga.$"
 
 FuchsiaCity_Gym_Text_ExplainTM::
-    .string "Dins d'aquella MT06 hi ha\n"
-    .string "Tòxic!\p"
-    .string "És una tècnica secreta que\n"
-    .string "data de fa quatre-cents anys.$"
+	.string "Dins d'aquella MT06 hi ha\n"
+	.string "Tòxic!\p"
+	.string "És una tècnica secreta que es\n"
+	.string "remunta a fa uns quatre-cents anys.$"
 
 FuchsiaCity_Gym_EventScript_NoRoomForTM::
 	msgbox FuchsiaCity_Gym_Text_NoRoomForTM, MSGBOX_DEFAULT
@@ -113,7 +114,7 @@ FuchsiaCity_Gym_EventScript_NoRoomForTM::
 	end
 
 FuchsiaCity_Gym_Text_NoRoomForTM::
-    .string "Fes espai per a això, nen!$"
+	.string "Fes espai per a això, criatura!$"
 
 FuchsiaCity_Gym_EventScript_LeaderPostBattle::
 	lock
@@ -124,11 +125,12 @@ FuchsiaCity_Gym_EventScript_LeaderPostBattle::
 	end
 
 FuchsiaCity_Gym_Text_LeaderPostBattle::
-    .string "Quan un Pokémon pateix Tòxic,\n"
-    .string "sofreix cada cop més.\p"
-    .string "El dany empitjora a mesura que\n"
-    .string "avança el combat!\p"
-    .string "Sens dubte terroritzarà enemics!$"
+	.string "Quan un Pokémon pateix Tòxic,\n"
+	.string "sofreix cada cop més.\p"
+	.string "El dany empitjora a mesura que\n"
+	.string "avança el combat!\p"
+	.string "Sens dubte, aterrirà els teus\n"
+	.string "enemics!$"
 
 FuchsiaCity_Gym_EventScript_LeaderPostBattleGameClear::
 	msgbox FuchsiaCity_Gym_Text_PostBattleGameClear, MSGBOX_DEFAULT
@@ -140,8 +142,8 @@ FuchsiaCity_Gym_Text_PostBattleGameClear::
 	.string "la Lliga Pokémon ha de ser un lloc\l"
 	.string "de força formidable!\p"
 	.string "Realment, és motiu d'orgull!\p"
-	.string "Precisament, he estat pensant\n"
-	.string "a aspirar a l'Alt Comandament...$"
+	.string "Precisament, he estat pensant a\n"
+	.string "intentar entrar a l'Alt Comandament...$"
 
 FuchsiaCity_Gym_EventScript_RematchLeader::
 	msgbox FuchsiaCity_Gym_Text_RematchLeader, MSGBOX_YESNO
@@ -151,7 +153,7 @@ FuchsiaCity_Gym_EventScript_RematchLeader::
 	end
 
 FuchsiaCity_Gym_Text_RematchLeader::
-	.string "Fwahahaha! Si no és el nen.\p"
+	.string "Fwahahaha! Si és la criatura!\p"
 	.string "Sembla que el destí ens ha tornat\n"
 	.string "a reunir.\p"
 	.string "Has vingut en un moment molt\n"
@@ -178,7 +180,7 @@ FuchsiaCity_Gym_EventScript_PostgameRematch::
 	end
 
 FuchsiaCity_Gym_Text_RematchMode::
-	.string "Ara que ets el campió,\n"
+	.string "Ara que ets el Campió,\n"
 	.string "vols anar amb tot?$"
 
 FuchsiaCity_Gym_EventScript_LeaderRematch_OriginalTeam::
@@ -216,9 +218,9 @@ FuchsiaCity_Gym_EventScript_Phil::
 	end
 
 FuchsiaCity_Gym_Text_PhilIntro::
-    .string "Para aquí!\p"
-    .string "Les famoses parets invisibles\n"
-    .string "del Gimnàs Fúcsia et frustren?$"
+	.string "Para aquí!\p"
+	.string "Les famoses parets invisibles\n"
+	.string "del Gimnàs de Fúcsia et frustren?$"
 
 FuchsiaCity_Gym_Text_PhilDefeat::
     .string "Uau!\n"
@@ -236,10 +238,10 @@ FuchsiaCity_Gym_EventScript_Edgar::
 	end
 
 FuchsiaCity_Gym_Text_EdgarIntro::
-    .string "Jo també estudio el camí del\n"
-    .string "ninja amb el Mestre Koga!\p"
-    .string "Els ninja tenen una llarga\n"
-    .string "història d'usar animals!$"
+	.string "Jo també estudio el camí del\n"
+	.string "ninja amb el Mestre Koga!\p"
+	.string "La tradició ninja fa servir\n"
+	.string "animals des de fa segles!$"
 
 FuchsiaCity_Gym_Text_EdgarDefeat::
     .string "Auuu!$"
@@ -254,17 +256,17 @@ FuchsiaCity_Gym_EventScript_Kirk::
 	end
 
 FuchsiaCity_Gym_Text_KirkIntro::
-    .string "Abans era mag.\p"
-    .string "Però somiava ser ninja, així\n"
-    .string "que vaig unir-me a aquest gimnàs.$"
+	.string "Abans era mag.\p"
+	.string "Però somiava ser ninja, així\n"
+	.string "que em vaig apuntar a aquest Gimnàs.$"
 
 FuchsiaCity_Gym_Text_KirkDefeat::
     .string "Estic acabat!$"
 
 FuchsiaCity_Gym_Text_KirkPostBattle::
-    .string "Tot i perdre, seguiré entrenant\n"
-    .string "seguint els ensenyaments de\l"
-    .string "Koga, el meu mestre ninja.$"
+	.string "Tot i haver perdut, continuaré\n"
+	.string "entrenant segons els ensenyaments\l"
+	.string "de Koga, el meu mestre ninja.$"
 
 FuchsiaCity_Gym_EventScript_Shawn::
 	trainerbattle_single TRAINER_JUGGLER_SHAWN, FuchsiaCity_Gym_Text_ShawnIntro, FuchsiaCity_Gym_Text_ShawnDefeat
@@ -272,18 +274,18 @@ FuchsiaCity_Gym_EventScript_Shawn::
 	end
 
 FuchsiaCity_Gym_Text_ShawnIntro::
-    .string "El Mestre Koga prové d'una llarga\n"
-    .string "línia de ninjas.\p"
-    .string "Tu de què descendeixes?$"
+	.string "El Mestre Koga prové d'un llarg\n"
+	.string "llinatge ninja.\p"
+	.string "Tu de què descendeixes?$"
 
 FuchsiaCity_Gym_Text_ShawnDefeat::
     .string "Ets més hàbil del que\n"
     .string "pensava!$"
 
 FuchsiaCity_Gym_Text_ShawnPostBattle::
-    .string "On hi ha llum, hi ha ombra!\p"
-    .string "Llum i ombra!\n"
-    .string "Quin tries?$"
+	.string "On hi ha llum, hi ha ombra!\p"
+	.string "Llum i ombra!\n"
+	.string "Què tries?$"
 
 FuchsiaCity_Gym_EventScript_Kayden::
 	trainerbattle_single TRAINER_JUGGLER_KAYDEN, FuchsiaCity_Gym_Text_KaydenIntro, FuchsiaCity_Gym_Text_KaydenDefeat
@@ -302,10 +304,10 @@ FuchsiaCity_Gym_Text_KaydenDefeat::
     .string "Extraordinari!$"
 
 FuchsiaCity_Gym_Text_KaydenPostBattle::
-    .string "Combines força i intel·ligència?\n"
-    .string "Bona estratègia!\p"
-    .string "Remarcable per a un entrenador\n"
-    .string "tan jove.$"
+	.string "Combines força i intel·ligència?\n"
+	.string "Bona estratègia!\p"
+	.string "És notable en un Entrenador\n"
+	.string "tan jove.$"
 
 FuchsiaCity_Gym_EventScript_Nate::
 	trainerbattle_single TRAINER_JUGGLER_NATE, FuchsiaCity_Gym_Text_NateIntro, FuchsiaCity_Gym_Text_NateDefeat
@@ -333,15 +335,15 @@ FuchsiaCity_Gym_EventScript_GymGuy::
 	end
 
 FuchsiaCity_Gym_Text_GymGuyAdvice::
-    .string "Ei!\n"
-    .string "Futur campió!\p"
-    .string "El Gimnàs Fúcsia és un lloc\n"
-    .string "ple de trampes. Està ple\l"
-    .string "de parets invisibles!\p"
-    .string "Koga pot semblar a prop, però\n"
-    .string "està bloquejat.\p"
-    .string "Has de trobar forats a les\n"
-    .string "parets per arribar-hi.$"
+	.string "Ei!\n"
+	.string "Futur campió!\p"
+	.string "El Gimnàs de Fúcsia és un lloc\n"
+	.string "ple de trampes. Està farcit\l"
+	.string "de parets invisibles!\p"
+	.string "Koga pot semblar a prop, però\n"
+	.string "està bloquejat.\p"
+	.string "Has de trobar forats a les\n"
+	.string "parets per arribar-hi.$"
 
 FuchsiaCity_Gym_EventScript_GymGuyPostVictory::
 	msgbox FuchsiaCity_Gym_Text_GymGuyPostVictory
@@ -349,8 +351,8 @@ FuchsiaCity_Gym_EventScript_GymGuyPostVictory::
 	end
 
 FuchsiaCity_Gym_Text_GymGuyPostVictory::
-    .string "Impressiona com els ninjas\n"
-    .string "encara aterren, fins avui!$"
+	.string "És increïble la por que encara\n"
+	.string "fa un ninja, fins i tot avui!$"
 
 FuchsiaCity_Gym_EventScript_GymStatue::
 	lockall

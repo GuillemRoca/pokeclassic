@@ -106,7 +106,7 @@ MtMoon_1F_Text_KentIntro::
     .string "I tu, què?$"
 
 MtMoon_1F_Text_KentDefeat::
-    .string "M'has pillat!$"
+	.string "M'has enxampat!$"
 
 MtMoon_1F_Text_KentPostBattle::
     .string "Els he vist!\n"
@@ -118,8 +118,8 @@ MtMoon_1F_EventScript_Robby::
 	end
 
 MtMoon_1F_Text_RobbyIntro::
-    .string "Has de travessar aquesta cova\n"
-    .string "per arribar a Ciutat Celeste.$"
+	.string "Has de travessar aquesta cova\n"
+	.string "per arribar a Ciutat Cerúlia.$"
 
 MtMoon_1F_Text_RobbyDefeat::
     .string "He perdut.$"
@@ -135,10 +135,10 @@ MtMoon_1F_EventScript_BaldingMan::
     end
 
 MtMoon_1F_Text_BrockHelpsExcavateFossils::
-    .string "Hola, estic excavant fòssils\n"
-    .string "aquí al Mont Moon.\p"
-    .string "De vegades, en Brock del Gimnàs\n"
-    .string "de Pedrera m'ajuda.$"
+	.string "Hola, estic excavant fòssils\n"
+	.string "aquí, sota el Mont Lluna.\p"
+	.string "De vegades, en Brock del Gimnàs\n"
+	.string "de Pedrera m'ajuda.$"
 
 MtMoon_1F_EventScript_ItemParalyzeHeal::
 	finditem ITEM_PARALYZE_HEAL, 1

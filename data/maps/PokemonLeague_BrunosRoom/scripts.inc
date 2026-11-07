@@ -113,17 +113,17 @@ PokemonLeague_BrunosRoom_EventScript_BrunoLookAwayDown::
 	return
 
 PokemonLeague_BrunosRoom_Text_Intro::
-    .string "Soc en Bruno de l'Alt Comandament!\p"
-    .string "Amb un entrenament rigorós,\n"
-    .string "les persones i els Pokémon poden\l"
-    .string "fer-se més forts sense límit.\p"
-    .string "He viscut i entrenat amb els meus\n"
-    .string "Pokémon de lluita!\l"
-    .string "I això mai canviarà!\p"
-    .string "{PLAYER}!\p"
-    .string "T'aixafarem amb el nostre\n"
-    .string "poder superior!\p"
-    .string "Hu ha!$"
+	.string "Soc Bruno, de l'Alt Comandament!\p"
+	.string "Amb un entrenament rigorós,\n"
+	.string "les persones i els Pokémon poden\l"
+	.string "fer-se més forts sense límit.\p"
+	.string "He viscut i entrenat amb els meus\n"
+	.string "Pokémon de tipus Lluita!\l"
+	.string "I això no canviarà mai!\p"
+	.string "{PLAYER}!\p"
+	.string "T'aixafarem amb el nostre\n"
+	.string "poder superior!\p"
+	.string "Hu ha!$"
 
 PokemonLeague_BrunosRoom_Text_Intro2::
     .string "He pogut sentir la intensitat del\n"
@@ -140,15 +140,15 @@ PokemonLeague_BrunosRoom_Text_Defeat::
     .string "Com he pogut perdre?$"
 
 PokemonLeague_BrunosRoom_Text_Defeat2::
-    .string "Me'n penedeixo!$"
+	.string "Quina recança!$"
 
 PokemonLeague_BrunosRoom_Text_PostBattle::
     .string "La meva feina s'ha acabat.\n"
     .string "Vés a afrontar el proper repte.$"
 
 PokemonLeague_BrunosRoom_Text_PostBattle2::
-    .string "Ugh! No! Així que el meu\n"
-    .string "entrenament encara no és prou?\p"
-    .string "...Vés.\p"
-    .string "No et preocupis per mi.\n"
-    .string "Continua endavant!$"
+	.string "Ugh! No! Així que el meu\n"
+	.string "entrenament encara és insuficient?\p"
+	.string "...Vés.\p"
+	.string "No et preocupis per mi.\n"
+	.string "Continua endavant!$"

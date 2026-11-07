@@ -10,5 +10,5 @@ FuchsiaCity_PokemonCenter_2F_NinjaBoy::
 
 FuchsiaCity_PokemonCenter_2F_Ninja::
 	.string "Koga és el Líder de Gimnàs més\n"
-	.string "poderós, perquè és un Ninja.\p"
-	.string "Els ninjas són genials!$"
+	.string "poderós, perquè és un ninja.\p"
+	.string "Ser ninja és el més guai!$"

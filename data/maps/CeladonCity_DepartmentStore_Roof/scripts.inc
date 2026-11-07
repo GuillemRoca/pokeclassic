@@ -293,14 +293,14 @@ CeladonCity_DepartmentStore_Roof_Text_GiveWhichDrink::
     .string "Quina beguda li dones?$"
 
 CeladonCity_DepartmentStore_Roof_Text_YayFreshWaterHaveThis::
-    .string "Bé!\p"
-    .string "Aigua Fresca!\p"
-    .string "Gràcies!\n"
-    .string "Pots tenir això de part meva!$"
+	.string "Visca!\p"
+	.string "Aigua Fresca!\p"
+	.string "Gràcies!\n"
+	.string "Té, això és per a tu!$"
 
 Text_ReceivedItemFromLittleGirl::
-    .string "{PLAYER} ha rebut {STR_VAR_2}\n"
-    .string "de la nena.$"
+	.string "{PLAYER} ha rebut la {STR_VAR_2}\n"
+	.string "de la nena.$"
 
 CeladonCity_DepartmentStore_Roof_Text_ExplainTM16::
     .string "La MT16 conté Pantalla de Llum.\p"
@@ -309,22 +309,22 @@ CeladonCity_DepartmentStore_Roof_Text_ExplainTM16::
     .string "rival.$"
 
 CeladonCity_DepartmentStore_Roof_Text_YaySodaPopHaveThis::
-    .string "Bé!\p"
-    .string "Soda Pop!\p"
-    .string "Gràcies!\n"
-    .string "Pots tenir això de part meva!$"
+	.string "Visca!\p"
+	.string "Refresc!\p"
+	.string "Gràcies!\n"
+	.string "Té, això és per a tu!$"
 
 CeladonCity_DepartmentStore_Roof_Text_ExplainTM20::
-    .string "La MT20 conté Salvaguarda.\p"
-    .string "És un moviment que prevé\n"
-    .string "problemes d'estat als teus\l"
-    .string "POKéMON.$"
+	.string "La MT20 conté Salvaguarda.\p"
+	.string "És un moviment que evita els\n"
+	.string "problemes d'estat als teus\l"
+	.string "Pokémon.$"
 
 CeladonCity_DepartmentStore_Roof_Text_YayLemonadeHaveThis::
-    .string "Bé!\p"
-    .string "Llimonada!\p"
-    .string "Gràcies!\n"
-    .string "Pots tenir això de part meva!$"
+	.string "Visca!\p"
+	.string "Llimonada!\p"
+	.string "Gràcies!\n"
+	.string "Té, això és per a tu!$"
 
 CeladonCity_DepartmentStore_Roof_Text_ExplainTM33::
     .string "La MT33 conté Reflectir.\p"
@@ -340,10 +340,10 @@ CeladonCity_DepartmentStore_Roof_Text_ImNotThirstyAfterAll::
     .string "Al final no tinc set!$"
 
 CeladonCity_DepartmentStore_Roof_Text_MySisterIsImmature::
-    .string "La meva germana és entrenadora,\n"
-    .string "ho creus o no.\p"
-    .string "Però és tan immadura que em\n"
-    .string "treu de polleguera!$"
+	.string "La meva germana és Entrenadora,\n"
+	.string "encara que no t'ho creguis.\p"
+	.string "Però és tan immadura que em\n"
+	.string "treu de polleguera!$"
 
 CeladonCity_DepartmentStore_Roof_Text_ImThirstyIWantDrink::
     .string "Tinc set!\n"

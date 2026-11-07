@@ -24,8 +24,8 @@ CeladonCity_GameCorner_PrizeRoom_EventScript_OldMan::
 	end
 
 CeladonCity_GameCorner_PrizeRoom_Text_RakedItInToday::
-    .string "Gahaha! Avui ho he arrasat!\n"
-    .string "Si cada dia fos com avui…$"
+	.string "Gahaha! Avui m'he fet d'or!\n"
+	.string "Si cada dia fos com avui…$"
 
 
 CeladonCity_GameCorner_EventScript_PrizeCornerBigDolls::

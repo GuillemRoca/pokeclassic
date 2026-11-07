@@ -77,10 +77,10 @@ CeladonCity_Condominiums_3F_EventScript_Computer1::
 	end
 
 CeladonCity_Condominiums_3F_Text_ItsTheGameProgram::
-    .string "És un reportatge sobre el Team\n"
-    .string "Rocket!\p"
-    .string "Sembla que tenien algú infiltrat\n"
-    .string "a l'organització!$"
+	.string "És un reportatge sobre l'Equip\n"
+	.string "Rocket!\p"
+	.string "Sembla que tenien algú infiltrat\n"
+	.string "a l'organització!$"
 
 CeladonCity_Condominiums_3F_EventScript_Computer2::
 	msgbox CeladonCity_Condominiums_3F_Text_SomeonesPlayingGame, MSGBOX_SIGN

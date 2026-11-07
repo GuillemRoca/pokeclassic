@@ -64,18 +64,19 @@ LavenderTown_VolunteerPokemonHouse_EventScript_LittleGirl::
 	end
 
 LavenderTown_VolunteerPokemonHouse_Text_MrFujiLooksAfterOrphanedMons::
-    .string "Aquesta és la casa del Sr. Fuji.\p"
-    .string "És molt amable.\p"
-    .string "Cuida els Pokémon abandonats\n"
-    .string "i orfes.$"
+	.string "De fet, aquesta és la casa del\n"
+	.string "Sr. Fuji.\p"
+	.string "És molt amable.\p"
+	.string "Cuida els Pokémon abandonats\n"
+	.string "i orfes.$"
 
 LavenderTown_VolunteerPokemonHouse_EventScript_LittleBoy::
 	msgbox LavenderTown_VolunteerPokemonHouse_Text_MonsNiceToHug, MSGBOX_NPC
 	end
 
 LavenderTown_VolunteerPokemonHouse_Text_MonsNiceToHug::
-    .string "Són tan càlids!\n"
-    .string "Els Pokémon són genials d'abraçar.$"
+	.string "Que calentet que és!\n"
+	.string "Fa molt de gust abraçar els Pokémon.$"
 
 LavenderTown_VolunteerPokemonHouse_EventScript_Youngster::
 	goto_if_set FLAG_RESCUED_MR_FUJI, LavenderTown_VolunteerPokemonHouse_EventScript_YoungsterFujiBack

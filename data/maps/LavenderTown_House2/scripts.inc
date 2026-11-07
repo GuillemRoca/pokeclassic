@@ -115,6 +115,6 @@ LavenderTown_House2_Text_TrulyImpeccableName::
     .string "Cuida bé de {STR_VAR_1}!$"
 
 LavenderTown_House2_Text_ThatIsMerelyAnEgg::
-    .string "Vinga, vinga.\n"
-    .string "Això és només un ou!$"
+	.string "Vinga, vinga.\n"
+	.string "Això és només un Ou!$"
 
