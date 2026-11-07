@@ -4087,7 +4087,7 @@ gTVPokemonLotteryWinnerFlashReportText00::
 	.string "És espectacular!\p"
 
 
-	.string "És el Flash Informatiu del Guanyador\n"
+	.string "És el Flaix Informatiu del Guanyador\n"
 
 
 	.string "de la Loteria Pokémon!\p"

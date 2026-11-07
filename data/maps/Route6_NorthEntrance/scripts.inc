@@ -54,7 +54,7 @@ Route6_NorthEntrance_Text_ThanksIllShareTeaWithGuards::
     .string "… …\l"
     .string "Glup, glup…\l"
     .string "… …\l"
-    .string "Gulp…\l"
+    .string "Glup…\l"
     .string "… …\l"
     .string "Això sí que m'ha anat bé!…\p"
     .string "Compartiré aquest te amb els\n"

@@ -52,7 +52,7 @@ Route20_Text_BarryIntro::
     .string "Hi ha molta gent nedant.$"
 
 Route20_Text_BarryDefeat::
-    .string "Splash!$"
+    .string "Xap!$"
 
 Route20_Text_BarryPostBattle::
     .string "M'agradaria anar sobre un Pokémon.\n"

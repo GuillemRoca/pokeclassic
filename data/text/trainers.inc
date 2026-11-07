@@ -1225,7 +1225,7 @@ Route108_Text_CarolinaPostBattle:
 
 
 Route109_Text_DavidIntro:
-	.string "Hiya! Mira els meus abdominals!\n"
+	.string "Ei! Mira els meus abdominals!\n"
 
 	.string "Això és estar ben definit!$"
 
@@ -1237,7 +1237,7 @@ Route109_Text_DavidDefeated:
 
 
 Route109_Text_DavidPostBattle:
-	.string "Hiya!\p"
+	.string "Ei!\p"
 
 	.string "Els meus abdominals esculpits no\n"
 

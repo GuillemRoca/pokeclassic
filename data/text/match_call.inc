@@ -1170,7 +1170,7 @@ MatchCall_PersonalizedText10::
 	.string "Soc {STR_VAR_1}!\p"
 	.string "Has de sentir això!\n"
 	.string "El meu estimat Pokémon…\p"
-	.string "Snort! Wahaha!\n"
+	.string "Ji, ji! Wahaha!\n"
 	.string "No puc dir res més!\l"
 	.string "És un secret!\l"
 	.string "És tan bonic que\l"

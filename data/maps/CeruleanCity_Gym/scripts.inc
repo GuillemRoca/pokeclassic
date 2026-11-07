@@ -229,7 +229,7 @@ CeruleanCity_Gym_EventScript_Luis::
 	end
 
 CeruleanCity_Gym_Text_LuisIntro::
-    .string "Splash!\p"
+    .string "Xap!\p"
     .string "Soc el primer!\n"
     .string "Som-hi!$"
 

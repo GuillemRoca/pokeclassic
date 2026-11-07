@@ -112,7 +112,7 @@ CeladonCity_DepartmentStore_3F_EventScript_Poster::
 	end
 
 CeladonCity_DepartmentStore_3F_Text_RedGreenBothArePokemon::
-    .string "Red i Green!\n"
+    .string "Vermell i Verd!\n"
 
     .string "Tots dos són Pokémon!$"
 

@@ -8,9 +8,20 @@ untouched English text is never reported. Run them from the repo root.
 python3 translation/check_name_limits.py     # build-breaking: names vs array bounds
 python3 translation/audit_box_widths.py      # cosmetic: C strings vs their window
 python3 translation/audit_script_widths.py   # cosmetic: script dialogue vs message box
+python3 translation/check_english.py         # English left in the translated text
 ```
 
-All three exit non-zero when something is wrong, so they can be wired into CI.
+All four exit non-zero when something is wrong, so they can be wired into CI.
+
+## `check_english.py` — English left in the text
+
+Runs every word of every translated string through hunspell and reports the
+ones the English dictionary accepts and the Catalan one rejects. Species and
+trainer names, the name tables kept in English by design, the debug menus and
+the inactive `#else` name tables are skipped. What remains after review —
+proper names, abbreviations, interjections, brands and accepted loanwords —
+is listed with the reason in `english_allowlist.txt`; anything not on that
+list fails the check. Needs `hunspell`, `hunspell-ca` and `hunspell-en-us`.
 
 ### The English base
 
