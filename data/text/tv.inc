@@ -14,10 +14,10 @@ LilycoveCity_ContestLobby_Text_InterviewRequest:
 	.string "sobre Concursos Pokémon.\p"
 
 
-	.string "Si no et fa res, estaries disposat\n"
+	.string "Si no et fa res, voldries respondre\n"
 
 
-	.string "a respondre unes preguntes?$"
+	.string "unes quantes preguntes?$"
 
 
 
@@ -110,7 +110,7 @@ LilycoveCity_ContestLobby_Text_LookingForwardToNextContest:
 
 
 gTVBravoTrainerText00::
-	.string "Yeah!\n"
+	.string "Ja hi som!\n"
 
 
 	.string "És l'hora de Bravo Entrenador!\p"
@@ -122,10 +122,10 @@ gTVBravoTrainerText00::
 	.string "que pertany a {STR_VAR_1}.\p"
 
 
-	.string "Aquest Pokémon presumeix d'un Rang\n"
+	.string "Aquest Pokémon pot presumir del Rang\n"
 
 
-	.string "{STR_VAR_3} a la Categoria {STR_VAR_2}.$"
+	.string "{STR_VAR_3} a la categoria {STR_VAR_2}.$"
 
 
 
@@ -139,10 +139,10 @@ gTVBravoTrainerText01::
 	.string "El sobrenom {STR_VAR_2}…\p"
 
 
-	.string "Fins i tot el sobrenom emet un aire\n"
+	.string "Fins i tot el sobrenom desprèn\n"
 
 
-	.string "que proclama “{STR_VAR_3}”!$"
+	.string "un aire que proclama “{STR_VAR_3}”!$"
 
 
 
@@ -153,27 +153,30 @@ gTVBravoTrainerText02::
 	.string "el Pokémon en un Concurs,\l"
 
 
-	.string "vam aconseguir obtenir unes quantes\l"
+	.string "vam recollir unes declaracions\l"
 
 
-	.string "cites apassionades del company fidel.$"
+	.string "molt apassionades sobre aquest\l"
+
+
+	.string "fidel company.$"
 
 
 
 gTVBravoTrainerText03::
-	.string "Preguntat sobre el Concurs,\n"
+	.string "Quan li vam preguntar pel Concurs,\n"
 
 
-	.string "{STR_VAR_1} va respondre content amb un\l"
+	.string "{STR_VAR_1} va respondre amb un gran\l"
 
 
-	.string "gran somriure: “{STR_VAR_2}!”\p"
+	.string "somriure d'alegria: “{STR_VAR_2}!”\p"
 
 
-	.string "Bé, clar, el Pokémon de {STR_VAR_1}\n"
+	.string "És clar, el Pokémon de {STR_VAR_1}\n"
 
 
-	.string "va quedar número {STR_VAR_3} al Concurs.\p"
+	.string "va quedar en la posició {STR_VAR_3}.\p"
 
 
 	.string "Aquesta frase li escau perfectament\n"
@@ -184,7 +187,7 @@ gTVBravoTrainerText03::
 
 
 gTVBravoTrainerText04::
-	.string "Preguntat sobre el Concurs,\n"
+	.string "Quan li vam preguntar pel Concurs,\n"
 
 
 	.string "{STR_VAR_1} va respondre amb un toc\l"
@@ -193,10 +196,10 @@ gTVBravoTrainerText04::
 	.string "d'amargor: “{STR_VAR_2}.”\p"
 
 
-	.string "Bé, clar, el Pokémon de {STR_VAR_1}\n"
+	.string "És clar, el Pokémon de {STR_VAR_1}\n"
 
 
-	.string "va quedar número {STR_VAR_3} al Concurs.\p"
+	.string "va quedar en la posició {STR_VAR_3}.\p"
 
 
 	.string "La decepció de {STR_VAR_1} es nota\n"
@@ -207,39 +210,39 @@ gTVBravoTrainerText04::
 
 
 gTVBravoTrainerText05::
-	.string "No voldríeu saber també què\n"
+	.string "Oi que també voldríeu saber què\n"
 
 
-	.string "imagina {STR_VAR_1} que és {STR_VAR_2}?\p"
+	.string "és “{STR_VAR_2}” per a {STR_VAR_1}?\p"
 
 
-	.string "Segur que sí!\n"
+	.string "I tant que sí!\n"
 
 
 	.string "Així que ho vam preguntar, és clar!\p"
 
 
-	.string "La resposta és ben condensada:\n"
+	.string "La resposta ho resumeix tot:\n"
 
 
 	.string "“{STR_VAR_3}!”\p"
 
 
-	.string "Això és el que el concepte de\n"
+	.string "Això és el que representa\n"
 
 
-	.string "{STR_VAR_2} representa per a {STR_VAR_1}!$"
+	.string "“{STR_VAR_2}” per a {STR_VAR_1}!$"
 
 
 
 gTVBravoTrainerText06::
-	.string "L'últim moviment {STR_VAR_2} usat\n"
+	.string "{STR_VAR_2}, l'últim moviment\n"
 
 
-	.string "pel {STR_VAR_1} és totalment sobre\l"
+	.string "que va usar el {STR_VAR_1}, és\l"
 
 
-	.string "“{STR_VAR_3}”!$"
+	.string "pur “{STR_VAR_3}”!$"
 
 
 
@@ -259,12 +262,13 @@ gTVBravoTrainerText07::
 	.string "Això és tot per avui!\n"
 
 
-	.string "Fins la propera, adéu!$"
+	.string "Fins a la propera, adéu!$"
 
 
 
 gTVBravoTrainerText08::
-	.string "Us presentem el {STR_VAR_1}!$"
+	.string "Us presentem el {STR_VAR_1}\n"
+	.string "de l'Entrenador!$"
 
 
 
@@ -413,7 +417,7 @@ BattleFrontier_BattleTowerLobby_Text_LookingForwardToNextBattle::
 
 
 BravoTrainerBattleTower_Text_Intro::
-	.string "Yeah!\n"
+	.string "Ja hi som!\n"
 
 
 	.string "És l'hora de Bravo Entrenador!\p"
@@ -439,10 +443,10 @@ BravoTrainerBattleTower_Text_NewRecord::
 	.string "La parella va establir un nou rècord\n"
 
 
-	.string "de {STR_VAR_2} victòries seguides en\l"
+	.string "de {STR_VAR_2} victòries seguides a la\l"
 
 
-	.string "competició {STR_VAR_1}!\l"
+	.string "categoria {STR_VAR_1}!\l"
 
 
 	.string "Bravo, Entrenador!$"
@@ -450,10 +454,10 @@ BravoTrainerBattleTower_Text_NewRecord::
 
 
 BravoTrainerBattleTower_Text_Lost::
-	.string "El duo finalment va sucumbir davant\n"
+	.string "El duo va acabar caient davant\n"
 
 
-	.string "{STR_VAR_1} en el combat número {STR_VAR_2}.\l"
+	.string "{STR_VAR_1} al combat núm. {STR_VAR_2}.\l"
 
 
 	.string "Bon intent, Entrenador!\p"
@@ -465,10 +469,10 @@ BravoTrainerBattleTower_Text_Lost::
 	.string "{STR_VAR_1} tan aviat al repte.\p"
 
 
-	.string "Hem preguntat a l'Entrenador les\n"
+	.string "Hem preguntat a l'Entrenador què\n"
 
 
-	.string "impressions del combat amb\l"
+	.string "li va semblar el combat contra\l"
 
 
 	.string "{STR_VAR_1}.$"
@@ -476,10 +480,13 @@ BravoTrainerBattleTower_Text_Lost::
 
 
 BravoTrainerBattleTower_Text_Won::
-	.string "El duo ho va guanyar tot derrotant\n"
+	.string "El duo ho va guanyar tot amb una\n"
 
 
-	.string "el {STR_VAR_2} de {STR_VAR_1} totalment.\l"
+	.string "victòria aclaparadora sobre el\l"
+
+
+	.string "{STR_VAR_2} de {STR_VAR_1}.\l"
 
 
 	.string "Bravo, Entrenador!\p"
@@ -488,13 +495,13 @@ BravoTrainerBattleTower_Text_Won::
 	.string "Vèncer fins i tot {STR_VAR_1}…\n"
 
 
-	.string "Desafia tota creença! Increïble!\p"
+	.string "Costa de creure! És increïble!\p"
 
 
-	.string "Hem preguntat a l'Entrenador les\n"
+	.string "Hem preguntat a l'Entrenador què\n"
 
 
-	.string "impressions del moment de glòria.$"
+	.string "va sentir en el moment de glòria.$"
 
 
 
@@ -502,31 +509,34 @@ BravoTrainerBattleTower_Text_LostFinal::
 	.string "Després d'una ratxa de victòries,\n"
 
 
-	.string "la parella va sucumbir davant el\l"
+	.string "la parella va caure davant el\l"
 
 
-	.string "{STR_VAR_2} de {STR_VAR_1}, l'últim obstacle.\p"
+	.string "{STR_VAR_2} de {STR_VAR_1},\l"
+
+
+	.string "el darrer obstacle.\p"
 
 
 	.string "Bon intent, Entrenador!\p"
 
 
-	.string "Tot i així, cal donar-ne mèrit.\n"
+	.string "Tot i així, cal reconèixer-ho.\n"
 
 
-	.string "No es veuen moltes combinacions\l"
+	.string "No es veuen gaires combinacions\l"
 
 
-	.string "famoses com {STR_VAR_1} i {STR_VAR_2}.\p"
+	.string "tan famoses com {STR_VAR_1} i {STR_VAR_2}.\p"
 
 
-	.string "Hem preguntat a l'Entrenador les\n"
+	.string "Hem preguntat a l'Entrenador què\n"
 
 
-	.string "impressions de combatre la parella\l"
+	.string "li va semblar combatre contra\l"
 
 
-	.string "de celebritats.$"
+	.string "aquesta parella tan famosa.$"
 
 
 
@@ -549,10 +559,10 @@ BravoTrainerBattleTower_Text_Satisfied::
 	.string "amb plena satisfacció?\p"
 
 
-	.string "Vaig descobrir com de satisfet\n"
+	.string "I vaig saber fins a quin punt\n"
 
 
-	.string "quan vaig sentir l'Entrenador dir:$"
+	.string "ho estava quan li vaig sentir dir:$"
 
 
 
@@ -575,10 +585,13 @@ BravoTrainerBattleTower_Text_Unsatisfied::
 	.string "amb plena satisfacció, oi?\p"
 
 
-	.string "En fi, vaig descobrir com de\n"
+	.string "En fi, vaig saber fins a quin punt\n"
 
 
-	.string "descontent estava quan vaig sentir:$"
+	.string "estava descontent quan li vaig\l"
+
+
+	.string "sentir dir això:$"
 
 
 
@@ -620,7 +633,7 @@ BravoTrainerBattleTower_Text_ResponseSatisfied::
 	.string "{STR_VAR_2}, diria jo.\p"
 
 
-	.string "Aquell combat amb {STR_VAR_3} al\n"
+	.string "Aquell combat contra {STR_VAR_3} al\n"
 
 
 	.string "final… Realment va ser el que\l"
@@ -637,7 +650,7 @@ BravoTrainerBattleTower_Text_ResponseUnsatisfied::
 	.string "No és ben escaient?\p"
 
 
-	.string "Aquell combat amb {STR_VAR_3} al\n"
+	.string "Aquell combat contra {STR_VAR_3} al\n"
 
 
 	.string "final… No es pot descriure d'una\l"
@@ -669,7 +682,7 @@ BravoTrainerBattleTower_Text_Outro::
 	.string "Això és tot per avui!\n"
 
 
-	.string "Fins la propera, adéu!$"
+	.string "Fins a la propera, adéu!$"
 
 
 
@@ -677,10 +690,10 @@ SlateportCity_PokemonFanClub_Text_InterviewRequestHasName:
 	.string "Uau!\p"
 
 
-	.string "Es veu clarament que aboquis\n"
+	.string "Es veu clarament que aboques\n"
 
 
-	.string "el teu amor al teu {STR_VAR_1}.\p"
+	.string "tot el teu amor en el teu {STR_VAR_1}.\p"
 
 
 	.string "D'acord, es diu {STR_VAR_2}.\p"
@@ -695,7 +708,7 @@ SlateportCity_PokemonFanClub_Text_InterviewRequestHasName:
 	.string "una enquesta sobre Pokémon.\p"
 
 
-	.string "Estaries disposat a respondre unes\n"
+	.string "Voldries respondre unes quantes\n"
 
 
 	.string "preguntes senzilles?$"
@@ -748,10 +761,10 @@ SlateportCity_PokemonFanClub_Text_WhatAttractedYouAboutMon:
 	.string "el teu estimat {STR_VAR_1}.\p"
 
 
-	.string "Què va ser del {STR_VAR_1} que\n"
+	.string "Què et va atreure\n"
 
 
-	.string "et va atreure?$"
+	.string "del teu {STR_VAR_1}?$"
 
 
 
@@ -768,7 +781,7 @@ SlateportCity_PokemonFanClub_Text_WhatDoPokemonMeanToYou:
 	.string "Aquí va…\p"
 
 
-	.string "Què signifiquen els Pokémon per tu?$"
+	.string "Què signifiquen els Pokémon per a tu?$"
 
 
 
@@ -824,10 +837,10 @@ SlateportCity_PokemonFanClub_Text_EnjoyDoingInterviews:
 
 
 SlateportCity_PokemonFanClub_Text_InterviewRequest:
-	.string "Ei, sembla que ets molt proper\n"
+	.string "Ei, sembla que tu i el teu\n"
 
 
-	.string "al teu {STR_VAR_1}.\p"
+	.string "{STR_VAR_1} esteu molt units.\p"
 
 
 	.string "Saps què?\n"
@@ -842,10 +855,10 @@ SlateportCity_PokemonFanClub_Text_InterviewRequest:
 	.string "sobre Pokémon.\p"
 
 
-	.string "Em pregunto si voldries explicar-me\n"
+	.string "Voldries explicar-me alguna cosa\n"
 
 
-	.string "una mica sobre el teu {STR_VAR_1}.$"
+	.string "sobre el teu {STR_VAR_1}?$"
 
 
 
@@ -867,10 +880,10 @@ SlateportCity_PokemonFanClub_Text_ThatsAllForInterview2:
 	.string "Quina història tan interessant.\p"
 
 
-	.string "Realment tens molt de vincle amb\n"
+	.string "Tu i {STR_VAR_1} esteu molt units,\n"
 
 
-	.string "{STR_VAR_1}, oi?\p"
+	.string "oi?\p"
 
 
 	.string "Tinc la sensació que la teva\n"
@@ -905,7 +918,7 @@ gTVFanClubOpinionsText00::
 	.string "En aquest programa, recollim les\n"
 
 
-	.string "vostres opinions, i les crido\l"
+	.string "vostres opinions i jo les crido\l"
 
 
 	.string "en nom vostre!\l"
@@ -938,7 +951,7 @@ gTVFanClubOpinionsText00::
 	.string "Sentim què té a dir {STR_VAR_1}\n"
 
 
-	.string "sobre {STR_VAR_3} el {STR_VAR_2}.\p"
+	.string "sobre {STR_VAR_3}, el seu {STR_VAR_2}.\p"
 
 
 	.string "I cridaré aquestes paraules d'amor\n"
@@ -1013,10 +1026,10 @@ gTVFanClubOpinionsText03::
 	.string "I vegem…\n"
 
 
-	.string "Què va ser del {STR_VAR_2}\l"
+	.string "Què és el que tant va atreure\l"
 
 
-	.string "que tant va atreure {STR_VAR_1}?\p"
+	.string "{STR_VAR_1} del seu {STR_VAR_2}?\p"
 
 
 	.string "… … … … … … … …\p"
@@ -1048,7 +1061,7 @@ gTVFanClubOpinionsText04::
 	.string "Hem preguntat a {STR_VAR_1}: “Què\n"
 
 
-	.string "signifiquen els Pokémon per tu?”\p"
+	.string "signifiquen els Pokémon per a tu?”\p"
 
 
 	.string "… … … … … …\p"
@@ -1075,7 +1088,7 @@ gTVFanClubOpinionsText04::
 	.string "Ara que hem cridat bé, és hora de\n"
 
 
-	.string "dir adéu fins la propera!\p"
+	.string "dir adéu fins a la propera!\p"
 
 
 	.string "Doncs, tots plegats, un últim crit!\n"
@@ -1163,7 +1176,7 @@ gTVFanClubText03::
 
 
 gTVFanClubText04::
-	.string "La part de “{STR_VAR_3}”, realment\n"
+	.string "La part de “{STR_VAR_3}” realment\n"
 
 
 	.string "accentua l'impacte emocional!\p"
@@ -1188,13 +1201,13 @@ gTVFanClubText06::
 	.string "Per cert, i no és important, però\n"
 
 
-	.string "“{STR_VAR_3}” és un gran dit.\p"
+	.string "“{STR_VAR_3}” és una gran dita.\p"
 
 
-	.string "Últimament he estat usant\n"
+	.string "Últimament dic molt\n"
 
 
-	.string "“{STR_VAR_3}” molt en converses.$"
+	.string "“{STR_VAR_3}” quan parlo.$"
 
 
 
@@ -1214,7 +1227,7 @@ gTVFanClubText07::
 	.string "Ai, mira quina hora és!\n"
 
 
-	.string "Hora de dir adéu fins la propera!$"
+	.string "Hora de dir adéu fins a la propera!$"
 
 
 
@@ -1225,13 +1238,13 @@ SlateportCity_OceanicMuseum_1F_Text_InterviewRequest:
 	.string "Potser t'agraden els Pokémon?\p"
 
 
-	.string "Estic de servei per la cadena de TV.\p"
+	.string "Treballo per a la cadena de TV.\p"
 
 
-	.string "Estic recopilant històries sobre\n"
+	.string "Estic recopilant històries recents\n"
 
 
-	.string "Pokémon i Entrenadors recents.\p"
+	.string "sobre Pokémon i Entrenadors.\p"
 
 
 	.string "Si no et fa res, podries explicar-me\n"
@@ -1242,10 +1255,10 @@ SlateportCity_OceanicMuseum_1F_Text_InterviewRequest:
 
 
 SlateportCity_OceanicMuseum_1F_Text_InterviewRequestShort:
-	.string "Estic recopilant històries sobre\n"
+	.string "Estic recopilant històries recents\n"
 
 
-	.string "Pokémon i Entrenadors recents.\p"
+	.string "sobre Pokémon i Entrenadors.\p"
 
 
 	.string "Si no et fa res, podries explicar-me\n"
@@ -1304,7 +1317,7 @@ SlateportCity_OceanicMuseum_1F_Text_BetterWriteUpStory:
 	.string "Hmmm…\n"
 
 
-	.string "Tinc una bona història per la TV.\p"
+	.string "Tinc una bona història per a la TV.\p"
 
 
 	.string "Millor que l'escrigui de pressa!$"
@@ -1312,7 +1325,7 @@ SlateportCity_OceanicMuseum_1F_Text_BetterWriteUpStory:
 
 
 gTVRecentHappeningsText00::
-	.string "Hola, és l'hora de FETS RECENTS.\p"
+	.string "Hola, és l'hora de Fets Recents.\p"
 
 
 	.string "Per als Entrenadors Pokémon,\n"
@@ -1344,7 +1357,7 @@ gTVRecentHappeningsText00::
 
 
 gTVRecentHappeningsText01::
-	.string "No ha estat instructiu?\p"
+	.string "Oi que ha estat instructiu?\p"
 
 
 	.string "La història dona una idea clara del\n"
@@ -1369,10 +1382,10 @@ gTVRecentHappeningsText03::
 	.string "“{STR_VAR_3}.”\n"
 
 
-	.string "Això dona sensació de lloc.\l"
+	.string "Això situa la història en un lloc.\l"
 
 
-	.string "Ens deixa imaginar l'escenari.$"
+	.string "Ens permet imaginar-ne l'escenari.$"
 
 
 
@@ -1391,10 +1404,10 @@ gTVRecentHappeningsText05::
 	.string "meravellosa amb Pokémon.\p"
 
 
-	.string "I ara la història de {STR_VAR_1} queda\n"
+	.string "I ara la història de {STR_VAR_1} també\n"
 
 
-	.string "gravada a la vostra ànima.\p"
+	.string "queda gravada a la vostra ànima.\p"
 
 
 	.string "Això és tot per avui.\n"
@@ -1405,10 +1418,10 @@ gTVRecentHappeningsText05::
 
 
 gTVMassOutbreakText00::
-	.string "Salutacions!\n"
+	.string "Benvinguts!\n"
 
 
-	.string "És l'hora de Notícies Pokémon.\p"
+	.string "És l'hora de les Notícies Pokémon.\p"
 
 
 	.string "Acabem de rebre informació d'un\n"
@@ -1435,27 +1448,27 @@ gTVMassOutbreakText00::
 	.string "i difícil de trobar.\p"
 
 
-	.string "Sembla una oportunitat rara de\n"
+	.string "És una ocasió única per veure\n"
 
 
-	.string "veure la misteriosa aparició de\l"
+	.string "la misteriosa aparició de\l"
 
 
 	.string "{STR_VAR_2} en estat salvatge.\p"
 
 
-	.string "Això és tot a Notícies Pokémon.$"
+	.string "I fins aquí les Notícies Pokémon.$"
 
 
 
 gTV3CheersForPokeblocksText00::
-	.string "Presentador: Esperem que estigueu\n"
+	.string "Presentador: Bon dia i bon humor!\n"
 
 
-	.string "de bon humor, “3 Hurres pels\l"
+	.string "Ja són aquí els “3 Hurres pels\l"
 
 
-	.string "{POKEBLOCK}s” és aquí!\p"
+	.string "{POKEBLOCK}s”!\p"
 
 
 	.string "Avui, examinem el {POKEBLOCK}\n"
@@ -1464,10 +1477,10 @@ gTV3CheersForPokeblocksText00::
 	.string "barrejat per {STR_VAR_1} i companyia.\p"
 
 
-	.string "Sense demora, deixeu-me donar-lo\n"
+	.string "Sense perdre temps, el donaré al\n"
 
 
-	.string "al meu Pokémon gurmet, Gulpin.\p"
+	.string "meu Pokémon gurmet, Gulpin.\p"
 
 
 	.string "… … … … … …\n"
@@ -1481,13 +1494,13 @@ gTV3CheersForPokeblocksText01::
 	.string "Gulpin: Gubi! Gubii!\p"
 
 
-	.string "Presentador: I el veredicte és molt\n"
+	.string "Presentador: I el veredicte: és molt\n"
 
 
-	.string "{STR_VAR_1}! Gulpin diu que fa gust\l"
+	.string "{STR_VAR_1}! Gulpin li posa nota:\l"
 
 
-	.string "de “{STR_VAR_2}!”\p"
+	.string "“{STR_VAR_2}!”\p"
 
 
 	.string "Moltes gràcies, {STR_VAR_3}!$"
@@ -1495,7 +1508,7 @@ gTV3CheersForPokeblocksText01::
 
 
 gTV3CheersForPokeblocksText02::
-	.string "L'actuació de {STR_VAR_1} barrejant\n"
+	.string "La tècnica de barreja de {STR_VAR_1}\n"
 
 
 	.string "ha deixat molt a desitjar.\p"
@@ -1518,10 +1531,10 @@ gTV3CheersForPokeblocksText03::
 	.string "Presentador: Hmm… És massa\n"
 
 
-	.string "{STR_VAR_1}. Gulpin diu que fa gust\l"
+	.string "{STR_VAR_1}. Gulpin li posa nota:\l"
 
 
-	.string "de “{STR_VAR_2}!”\p"
+	.string "“{STR_VAR_2}!”\p"
 
 
 	.string "Sembla que els errors de {STR_VAR_3}\n"
@@ -1535,7 +1548,7 @@ gTV3CheersForPokeblocksText04::
 	.string "Llàstima que l'esforç de\n"
 
 
-	.string "{STR_VAR_1} ha estat en va.\p"
+	.string "{STR_VAR_1} hagi estat en va.\p"
 
 
 	.string "Esperem que {STR_VAR_2} ho faci\n"
@@ -1546,10 +1559,10 @@ gTV3CheersForPokeblocksText04::
 
 
 gTV3CheersForPokeblocksText05::
-	.string "Sintonitzeu-nos la propera!\n"
+	.string "Fins a la propera!\n"
 
 
-	.string "El lema és “3 Hurres pels {POKEBLOCK}s!”$"
+	.string "El nostre lema: “3 Hurres pels {POKEBLOCK}s!”$"
 
 
 
@@ -1560,10 +1573,7 @@ LilycoveCity_PokemonTrainerFanClub_Text_WhatsYourOpinionOfTrainer::
 	.string "Soc un gran fan de {STR_VAR_1}.\n"
 
 
-	.string "Quina és la teva opinió de\l"
-
-
-	.string "{STR_VAR_1}?$"
+	.string "Què opines de {STR_VAR_1}?$"
 
 
 
@@ -1587,18 +1597,15 @@ LilycoveCity_PokemonTrainerFanClub_Text_WhatsYourOpinionOfTrainer2::
 	.string "Soc un gran fan de {STR_VAR_1}.\n"
 
 
-	.string "Quina és la teva opinió de\l"
-
-
-	.string "{STR_VAR_1}?$"
+	.string "Què opines de {STR_VAR_1}?$"
 
 
 
 LilycoveCity_PokemonTrainerFanClub_Text_HowStrongRateTrainer::
-	.string "Com de fort puntuaries {STR_VAR_1}\n"
+	.string "Quina puntuació de força li\n"
 
 
-	.string "en una escala de cent?$"
+	.string "donaries a {STR_VAR_1}, de 0 a 100?$"
 
 
 
@@ -1659,7 +1666,7 @@ gTVTrainerFanClubSpecialText00::
 	.string "Aquesta és una presentació especial\n"
 
 
-	.string "per als fans de {STR_VAR_1} a Hoenn!\p"
+	.string "per als fans de {STR_VAR_1} de tot Hoenn!\p"
 
 
 	.string "Avui, fem la pregunta: “Què pensa\n"
@@ -1703,7 +1710,7 @@ gTVTrainerFanClubSpecialText00::
 
 
 gTVTrainerFanClubSpecialText01::
-	.string "La puntuació ha estat {STR_VAR_3} punts!\n"
+	.string "La puntuació: {STR_VAR_3} sobre 100!\n"
 
 
 	.string "Una puntuació molt alta!\p"
@@ -1717,7 +1724,7 @@ gTVTrainerFanClubSpecialText01::
 
 
 gTVTrainerFanClubSpecialText02::
-	.string "La puntuació ha estat {STR_VAR_3} punts!\n"
+	.string "La puntuació: {STR_VAR_3} sobre 100!\n"
 
 
 	.string "Una puntuació força bona.\p"
@@ -1731,7 +1738,7 @@ gTVTrainerFanClubSpecialText02::
 
 
 gTVTrainerFanClubSpecialText03::
-	.string "La puntuació ha estat {STR_VAR_3} punts!\n"
+	.string "La puntuació: {STR_VAR_3} sobre 100!\n"
 
 
 	.string "Una puntuació més aviat baixa.\p"
@@ -1740,12 +1747,12 @@ gTVTrainerFanClubSpecialText03::
 	.string "{STR_VAR_2} deu considerar\n"
 
 
-	.string "{STR_VAR_1} un simple company.$"
+	.string "{STR_VAR_1} un simple ajudant.$"
 
 
 
 gTVTrainerFanClubSpecialText04::
-	.string "La puntuació ha estat {STR_VAR_3} punt(s)!\n"
+	.string "La puntuació: {STR_VAR_3} sobre 100!\n"
 
 
 	.string "Una puntuació terrible.\p"
@@ -1782,7 +1789,7 @@ gTVNameRaterText00::
 	.string "I ara, és l'hora de…\n"
 
 
-	.string "El Programa del Jutge de Noms.\p"
+	.string "El Programa del Valorador de Noms.\p"
 
 
 	.string "Us dic la fortuna del vostre Pokémon\n"
@@ -1843,7 +1850,7 @@ gTVNameRaterText02::
 	.string "Suggereix que forjareu una bona\n"
 
 
-	.string "aliança amb un temps precís.$"
+	.string "aliança amb una sincronia perfecta.$"
 
 
 
@@ -1857,7 +1864,7 @@ gTVNameRaterText03::
 	.string "Si es cria bé, la singularitat\n"
 
 
-	.string "d'aquest Pokémon florirà!$"
+	.string "d'aquest Pokémon florirà amb escreix!$"
 
 
 
@@ -1876,16 +1883,16 @@ gTVNameRaterText04::
 
 
 gTVNameRaterText05::
-	.string "Un sobrenom molt fi que insinua\n"
+	.string "Un sobrenom molt bo que insinua\n"
 
 
-	.string "grandesa futura.\p"
+	.string "una grandesa futura.\p"
 
 
-	.string "Tinc curiositat pel que el futur\n"
+	.string "Tinc curiositat per saber què li\n"
 
 
-	.string "depara a aquest Pokémon.$"
+	.string "depara el futur a aquest Pokémon.$"
 
 
 
@@ -1932,19 +1939,19 @@ gTVNameRaterText08::
 
 
 gTVNameRaterText09::
-	.string "El sobrenom {STR_VAR_1} s'arreleja\n"
+	.string "El sobrenom {STR_VAR_1} té les arrels\n"
 
 
-	.string "en la lletra “{STR_VAR_3}.”\p"
+	.string "en la lletra “{STR_VAR_3}”.\p"
 
 
-	.string "Aquesta lletra és recolzada per la\n"
+	.string "Aquesta lletra té el suport de la\n"
 
 
-	.string "primera lletra “{STR_VAR_2}”, que li dona\l"
+	.string "primera lletra, “{STR_VAR_2}”, que li dona\l"
 
 
-	.string "una sòlida presència com a nom.$"
+	.string "una sòlida presència com a sobrenom.$"
 
 
 
@@ -1958,21 +1965,21 @@ gTVNameRaterText10::
 	.string "La presència de les lletres “{STR_VAR_2}”\n"
 
 
-	.string "i “{STR_VAR_3}”, és remarcablement bona!$"
+	.string "i “{STR_VAR_3}” és extraordinària!$"
 
 
 
 gTVNameRaterText11::
-	.string "El sobrenom {STR_VAR_1} té un\n"
+	.string "El sobrenom {STR_VAR_1} té un aire\n"
 
 
-	.string "tacte sublim i fluid.\p"
+	.string "sublim i fluid.\p"
 
 
-	.string "El flux de la lletra inicial “{STR_VAR_2}”\n"
+	.string "El pas de la inicial “{STR_VAR_2}” a la\n"
 
 
-	.string "a “{STR_VAR_3}” és meravellós.$"
+	.string "“{STR_VAR_3}” és especialment meravellós.$"
 
 
 
@@ -2010,15 +2017,15 @@ gTVNameRaterText15::
 	.string "{STR_VAR_2}, es podria usar com a base\l"
 
 
-	.string "per crear el sobrenom {STR_VAR_1}{STR_VAR_3}.$"
+	.string "per al sobrenom {STR_VAR_1}{STR_VAR_3}.$"
 
 
 
 gTVNameRaterText16::
-	.string "{STR_VAR_1}{STR_VAR_3} també seria un sobrenom\n"
+	.string "{STR_VAR_1}{STR_VAR_3} també seria\n"
 
 
-	.string "efectiu.$"
+	.string "un sobrenom eficaç.$"
 
 
 
@@ -2035,7 +2042,10 @@ gTVNameRaterText17::
 	.string "de {STR_VAR_2} per fer el sobrenom\l"
 
 
-	.string "{STR_VAR_1}{STR_VAR_3}. Això és inacceptable.$"
+	.string "{STR_VAR_1}{STR_VAR_3}.\l"
+
+
+	.string "Això és inacceptable.$"
 
 
 
@@ -2069,13 +2079,13 @@ gTVPokemonAnglerText00::
 	.string "consells per pescar {STR_VAR_2}.\p"
 
 
-	.string "Guru, quin consell pots donar\n"
+	.string "Gurú, quin consell pots donar\n"
 
 
-	.string "per atrapar {STR_VAR_2}?\p"
+	.string "per pescar {STR_VAR_2}?\p"
 
 
-	.string "Guru: Hm? Atrapar {STR_VAR_2}?\n"
+	.string "Gurú: Hm? Pescar {STR_VAR_2}?\n"
 
 
 	.string "Bé, t'ho dic clar: tingues paciència\l"
@@ -2084,7 +2094,7 @@ gTVPokemonAnglerText00::
 	.string "i espera. Això és fonamental.\p"
 
 
-	.string "Veus {STR_VAR_1} d'allà?\n"
+	.string "Veus {STR_VAR_1}, allà?\n"
 
 
 	.string "Aquell Entrenador n'és un bon\l"
@@ -2135,7 +2145,7 @@ gTVPokemonAnglerText00::
 	.string "per pescar {STR_VAR_2}?\p"
 
 
-	.string "Fins la propera emissió, adéu\n"
+	.string "Fins a la propera emissió, adéu\n"
 
 
 	.string "i bona pesca a tothom!$"
@@ -2152,13 +2162,13 @@ gTVPokemonAnglerText01::
 	.string "consells per pescar {STR_VAR_2}.\p"
 
 
-	.string "Guru, quin consell pots donar\n"
+	.string "Gurú, quin consell pots donar\n"
 
 
-	.string "per atrapar {STR_VAR_2}?\p"
+	.string "per pescar {STR_VAR_2}?\p"
 
 
-	.string "Guru: Hm? Atrapar {STR_VAR_2}?\n"
+	.string "Gurú: Hm? Pescar {STR_VAR_2}?\n"
 
 
 	.string "Bé, t'ho dic clar: usa la Canya\l"
@@ -2167,7 +2177,7 @@ gTVPokemonAnglerText01::
 	.string "amb vigor!\p"
 
 
-	.string "Veus {STR_VAR_1} d'allà?\n"
+	.string "Veus {STR_VAR_1}, allà?\n"
 
 
 	.string "Veus com maneja la Canya?\p"
@@ -2197,7 +2207,7 @@ gTVPokemonAnglerText01::
 	.string "per pescar {STR_VAR_2}?\p"
 
 
-	.string "Fins la propera emissió, adéu\n"
+	.string "Fins a la propera emissió, adéu\n"
 
 
 	.string "i bona pesca a tothom!$"
@@ -2272,7 +2282,7 @@ gTVPokemonTodayFailedText02::
 	.string "Poké Balls: {STR_VAR_2}!\p"
 
 
-	.string "Havíeu d'haver vist la cara de\n"
+	.string "Hauríeu d'haver vist la cara de\n"
 
 
 	.string "frustració de {STR_VAR_1} quan el\l"
@@ -2295,7 +2305,7 @@ gTVPokemonTodayFailedText03::
 	.string "Poké Balls: {STR_VAR_2}!\p"
 
 
-	.string "Havíeu d'haver vist la cara de\n"
+	.string "Hauríeu d'haver vist la cara de\n"
 
 
 	.string "consternació de {STR_VAR_1} quan el\l"
@@ -2327,7 +2337,7 @@ gTVPokemonTodayFailedText04::
 	.string "Germà Gran: Tens raó!\n"
 
 
-	.string "Perdó per riure.$"
+	.string "Perdona que hagi rigut.$"
 
 
 
@@ -2478,10 +2488,10 @@ gTVPokemonTodaySuccessfulText05::
 	.string "de {STR_VAR_1} és un Pokémon memorable\l"
 
 
-	.string "perquè va caldre una Master Ball!\p"
+	.string "perquè va caldre una Màster Ball!\p"
 
 
-	.string "Germà Gran: Uau! Mega-increïble!\p"
+	.string "Germà Gran: Uau! Megaincreïble!\p"
 
 
 	.string "Germana Gran: {STR_VAR_1} devia voler\n"
@@ -2523,19 +2533,19 @@ gTVPokemonTodaySuccessfulText07::
 
 
 gTVPokemonTodaySuccessfulText08::
-	.string "{STR_VAR_2} el {STR_VAR_1}?\n"
+	.string "{STR_VAR_2}, el {STR_VAR_1}?\n"
 
 
-	.string "No sona perfecte?\p"
+	.string "Oi que sona perfecte?\p"
 
 
-	.string "Les lletres i tot, sonen just bé\n"
+	.string "Les lletres i tot… li escauen\n"
 
 
-	.string "per al Pokémon {STR_VAR_1}!\p"
+	.string "perfectament al Pokémon {STR_VAR_1}!\p"
 
 
-	.string "Germà Gran: Sí, cert!$"
+	.string "Germà Gran: Sí, és veritat!$"
 
 
 
@@ -2586,10 +2596,13 @@ gTVPokemonTodaySuccessfulText11::
 	.string "Ens veiem la propera vegada!\p"
 
 
-	.string "Germà Gran: Recorda, el teu Pokémon\n"
+	.string "Germà Gran: Recordeu, el vostre\n"
 
 
-	.string "podria ser el protagonista d'avui!$"
+	.string "Pokémon podria ser el protagonista\l"
+
+
+	.string "la propera vegada!$"
 
 
 
@@ -2626,10 +2639,10 @@ SmartShopper_Text_ClerkNormal::
 	.string "Hola, com va el negoci?\p"
 
 
-	.string "Dependent: Oh, ens va excel·lent.\p"
+	.string "Dependent: Oh, ens va de meravella.\p"
 
 
-	.string "Recentment, {STR_VAR_2} s'ha venut\n"
+	.string "Últimament, {STR_VAR_2} s'ha venut\n"
 
 
 	.string "especialment bé.\p"
@@ -2649,25 +2662,25 @@ SmartShopper_Text_RandomComment1::
 	.string "Entrevistador: L'Entrenador va\n"
 
 
-	.string "comprar {STR_VAR_3} {STR_VAR_2}? Una bona\l"
+	.string "comprar {STR_VAR_2}, {STR_VAR_3} unitats?\l"
 
 
-	.string "compra!\p"
+	.string "Quin carregament!\p"
 
 
 	.string "Si puc dir-ho, {STR_VAR_1} devia estar\n"
 
 
-	.string "preparant-se per un llarg viatge\l"
+	.string "preparant-se per a un llarg viatge\l"
 
 
 	.string "a llocs llunyans.\p"
 
 
-	.string "Per viatjar, els {STR_VAR_2} són\n"
+	.string "Per viatjar, un objecte com\n"
 
 
-	.string "molt importants!$"
+	.string "{STR_VAR_2} és molt important!$"
 
 
 
@@ -2675,13 +2688,16 @@ SmartShopper_Text_RandomComment2::
 	.string "Entrevistador: Parlant de l'objecte\n"
 
 
-	.string "{STR_VAR_2}, jo acabo de comprar-ne\l"
+	.string "{STR_VAR_2}, jo també en vaig\l"
 
 
-	.string "{STR_VAR_3} recentment.\p"
+	.string "comprar {STR_VAR_3} fa poc.\p"
 
 
-	.string "Al cap i a la fi, {STR_VAR_2} és genial!$"
+	.string "Al cap i a la fi, {STR_VAR_2} és\n"
+
+
+	.string "un objecte genial!$"
 
 
 
@@ -2692,16 +2708,16 @@ SmartShopper_Text_RandomComment3::
 	.string "Però {STR_VAR_3} unitats?!\p"
 
 
-	.string "No pensava que ningú en compraria\n"
+	.string "No pensava que ningú en\n"
 
 
-	.string "tants.\p"
+	.string "comprés tantes unitats.\p"
 
 
-	.string "Mare meva, jo només puc permetre'm\n"
+	.string "Mare meva, jo només me'n puc\n"
 
 
-	.string "un o dos de cop…$"
+	.string "permetre una o dues alhora…$"
 
 
 
@@ -2709,19 +2725,22 @@ SmartShopper_Text_RandomComment4::
 	.string "Entrevistador: Una vegada, vaig\n"
 
 
-	.string "comprar molts {STR_VAR_2}.\p"
+	.string "comprar moltíssimes unitats de\l"
 
 
-	.string "Però van resultar ser massa.\n"
+	.string "l'objecte {STR_VAR_2}.\p"
 
 
-	.string "Vaig acabar penedint-me…\p"
+	.string "Però en vaig comprar massa.\n"
+
+
+	.string "Vaig acabar penedint-me'n…\p"
 
 
 	.string "Des de llavors, només compro el\n"
 
 
-	.string "que necessito estrictament…\p"
+	.string "que és estrictament necessari…\p"
 
 
 	.string "Ups!\p"
@@ -2738,10 +2757,10 @@ SmartShopper_Text_SecondItem::
 	.string "{STR_VAR_2} a l'engròs, {STR_VAR_3} unitats.\p"
 
 
-	.string "Entrevistador: Oh, intel·ligent.\n"
+	.string "Entrevistador: Oh, molt intel·ligent.\n"
 
 
-	.string "{STR_VAR_2} és molt bon objecte.$"
+	.string "{STR_VAR_2} també és molt bon objecte.$"
 
 
 
@@ -2749,15 +2768,18 @@ SmartShopper_Text_ThirdItem::
 	.string "Dependent: I l'Entrenador també\n"
 
 
-	.string "va comprar {STR_VAR_3} de {STR_VAR_2}.$"
+	.string "va comprar {STR_VAR_2}: {STR_VAR_3} unitats.$"
 
 
 
 SmartShopper_Text_DuringSale::
-	.string "Dependent: A més, era durant\n"
+	.string "Dependent: A més, ho va fer durant\n"
 
 
-	.string "unes rebaixes. Compra intel·ligent.$"
+	.string "unes grans rebaixes. Quina compra\l"
+
+
+	.string "més llesta!$"
 
 
 
@@ -2811,7 +2833,7 @@ SmartShopper_Text_ClerkMax::
 	.string "increïble. Gairebé aclaparant.\p"
 
 
-	.string "Recentment, un Entrenador anomenat\n"
+	.string "Fa poc, un Entrenador anomenat\n"
 
 
 	.string "{STR_VAR_1} va comprar {STR_VAR_2}\l"
@@ -2823,19 +2845,19 @@ SmartShopper_Text_ClerkMax::
 	.string "L'Entrenador gairebé ens va buidar\n"
 
 
-	.string "tot l'estoc de {STR_VAR_2}.\p"
+	.string "tot l'estoc d'aquest objecte.\p"
 
 
-	.string "Mai hauria imaginat que cap client\n"
+	.string "Mai no hauria imaginat que un client\n"
 
 
-	.string "necessités tants {STR_VAR_2}.\l"
+	.string "en necessités tantes unitats.\l"
 
 
 	.string "No s'havia vist mai!\p"
 
 
-	.string "Entrevistador: Seria com 100\n"
+	.string "Entrevistador: Parlem de 100\n"
 
 
 	.string "o 200 unitats?\p"
@@ -2876,16 +2898,16 @@ SmartShopper_Text_OutroMax::
 	.string "… …\p"
 
 
-	.string "El misteri s'aprofundeix, però no\n"
+	.string "El misteri creix, però no tenim\n"
 
 
-	.string "tenim més temps per avui.\l"
+	.string "més temps per avui.\l"
 
 
 	.string "Ens veiem a la propera emissió!\p"
 
 
-	.string "Tot i així, {STR_VAR_1} és un enigma…$"
+	.string "Tot i així, {STR_VAR_1} és tot un enigma…$"
 
 
 
@@ -2908,27 +2930,30 @@ gTVWorldOfMastersText00::
 	.string "en la captura de Pokémon.\p"
 
 
-	.string "La recerca de Pokémon de {STR_VAR_1}\n"
+	.string "{STR_VAR_1} busca Pokémon basant-se\n"
 
 
-	.string "depèn de cercar a peu acuradament.\p"
+	.string "només en una recerca acurada a peu.\p"
 
 
 	.string "Un dia memorable, l'Entrenador\n"
 
 
-	.string "va caminar {STR_VAR_2} passos.\p"
+	.string "va caminar uns {STR_VAR_2} passos.\p"
 
 
-	.string "El total de Pokémon atrapats aquell\n"
+	.string "Aquell dia, el total de Pokémon\n"
 
 
-	.string "dia va arribar a {STR_VAR_3}!$"
+	.string "atrapats va arribar a la impressionant\l"
+
+
+	.string "xifra de {STR_VAR_3}!$"
 
 
 
 gTVWorldOfMastersText01::
-	.string "Aquella fita remarcable devia ser\n"
+	.string "Aquella fita tan notable devia ser\n"
 
 
 	.string "possible gràcies a la confiança\l"
@@ -2939,10 +2964,13 @@ gTVWorldOfMastersText01::
 
 
 gTVWorldOfMastersText02::
-	.string "El mestre va atrapar l'últim\n"
+	.string "L'últim Pokémon del dia que va\n"
 
 
-	.string "{STR_VAR_3} del dia a prop de {STR_VAR_2}.\p"
+	.string "atrapar el mestre va ser un\l"
+
+
+	.string "{STR_VAR_3}, a prop de {STR_VAR_2}.\p"
 
 
 	.string "Aquell Pokémon gaudeix d'un estatus\n"
@@ -2954,7 +2982,7 @@ gTVWorldOfMastersText02::
 	.string "Animem els Entrenadors hàbils\n"
 
 
-	.string "a desafiar aquest bon rècord.\p"
+	.string "a intentar batre aquest rècord.\p"
 
 
 	.string "Això és tot per avui.\n"
@@ -2999,7 +3027,7 @@ gTVTodaysRivalTrainerText08::
 	.string "El rival d'avui és {STR_VAR_1},\n"
 
 
-	.string "que ara és a una Base Secreta.\p"
+	.string "que ara és en una Base Secreta.\p"
 
 
 	.string "{STR_VAR_1} ha registrat fins ara\n"
@@ -3042,7 +3070,7 @@ gTVTodaysRivalTrainerText01::
 	.string "I quantes Medalles té el nostre\n"
 
 
-	.string "rival? El nombre és {STR_VAR_1}!$"
+	.string "rival? En té {STR_VAR_1}!$"
 
 
 
@@ -3077,21 +3105,21 @@ gTVTodaysRivalTrainerText04::
 
 
 gTVTodaysRivalTrainerText05::
-	.string "El nostre rival ha acumulat\n"
+	.string "Punts de Combat que el nostre rival\n"
 
 
-	.string "{STR_VAR_1} Punt(s) de Combat a la\l"
+	.string "ha acumulat a la Frontera de\l"
 
 
-	.string "Frontera de Combat.$"
+	.string "Combat: {STR_VAR_1}!$"
 
 
 
 gTVTodaysRivalTrainerText06::
-	.string "I tu, com et mesures en comparació\n"
+	.string "I tu, com et compares amb\n"
 
 
-	.string "amb {STR_VAR_1}?\p"
+	.string "{STR_VAR_1}?\p"
 
 
 	.string "L'aventura continua!\p"
@@ -3111,13 +3139,13 @@ TrendWatcher_Text_Intro::
 	.string "Xarxa de Tendències de Dewford!\p"
 
 
-	.string "Presentador: Què tal?\n"
+	.string "Presentador: Què passa, gent?\n"
 
 
-	.string "Us portem l'últim sobre el que és\l"
+	.string "Us portem el més fresc del que\l"
 
 
-	.string "modern i passa a Dewford.\p"
+	.string "està de moda a Dewford.\p"
 
 
 	.string "El nostre convidat d'avui és un\n"
@@ -3135,10 +3163,10 @@ TrendWatcher_Text_Intro::
 	.string "Presentador: Anem al gra.\p"
 
 
-	.string "Què dius que mou la bona gent\n"
+	.string "Digues, què és el que fa vibrar\n"
 
 
-	.string "de Dewford?\p"
+	.string "la bona gent de Dewford?\p"
 
 
 	.string "Vell: {STR_VAR_1} {STR_VAR_2}.\p"
@@ -3153,10 +3181,10 @@ TrendWatcher_Text_Intro::
 	.string "Vell: No.\p"
 
 
-	.string "{STR_VAR_1} {STR_VAR_2} mai\n"
+	.string "{STR_VAR_1} {STR_VAR_2} no es va\n"
 
 
-	.string "es va fer popular.\p"
+	.string "fer mai popular.\p"
 
 
 	.string "Vols que te'n parli?\p"
@@ -3174,10 +3202,13 @@ TrendWatcher_Text_MaleTaughtMePhrase::
 	.string "Vell: {STR_VAR_1} {STR_VAR_2}\n"
 
 
-	.string "és el que {STR_VAR_3} de Litleroot\l"
+	.string "va ser el que em va ensenyar\l"
 
 
-	.string "em va ensenyar com a tendència…$"
+	.string "{STR_VAR_3}, de Poble Arreleta,\l"
+
+
+	.string "com a última moda…$"
 
 
 
@@ -3185,10 +3216,13 @@ TrendWatcher_Text_FemaleTaughtMePhrase::
 	.string "Vell: {STR_VAR_1} {STR_VAR_2}\n"
 
 
-	.string "és el que {STR_VAR_3} de Litleroot\l"
+	.string "va ser el que em va ensenyar\l"
 
 
-	.string "em va ensenyar com a tendència…$"
+	.string "{STR_VAR_3}, de Poble Arreleta,\l"
+
+
+	.string "com a última moda…$"
 
 
 
@@ -3257,7 +3291,10 @@ TrendWatcher_Text_Outro::
 	.string "No es va posar de moda a Dewford!\p"
 
 
-	.string "Se m'ha acabat el temps. Adéu!\p"
+	.string "Se m'ha acabat el temps. Fins aviat,\n"
+
+
+	.string "col·legues!\p"
 
 
 	.string "Vell: {STR_VAR_1} {STR_VAR_2}!$"
@@ -3271,19 +3308,19 @@ gTVHoennTreasureInvestigatorsText00::
 	.string "Hola a tothom!\n"
 
 
-	.string "Heu trobat objectes secrets?\p"
+	.string "Heu trobat objectes secrets fa poc?\p"
 
 
-	.string "Com sempre, examinarem informes\n"
+	.string "Com sempre, examinarem el que\n"
 
 
-	.string "de secrets d'arreu!\p"
+	.string "ens expliquen testimonis d'arreu!\p"
 
 
 	.string "Comencem amb una carta.\n"
 
 
-	.string "Diu: “{STR_VAR_1} descobert!”$"
+	.string "Diu: “Han descobert {STR_VAR_1}!”$"
 
 
 
@@ -3376,7 +3413,7 @@ gTVFindThatGamerText00::
 	.string "Ei, jugadors!\n"
 
 
-	.string "Com gira la vostra {STR_VAR_2}?\p"
+	.string "Com us va la sort a {STR_VAR_2}?\p"
 
 
 	.string "Com sempre, posarem el focus en un\n"
@@ -3385,7 +3422,7 @@ gTVFindThatGamerText00::
 	.string "Entrenador especial que ha visitat\l"
 
 
-	.string "el Saló Recreatiu!\p"
+	.string "la Sala de Jocs!\p"
 
 
 	.string "Avui, el jugador número 1 és…\n"
@@ -3399,34 +3436,40 @@ gTVFindThatGamerText01::
 	.string "{STR_VAR_1} va jugar a {STR_VAR_2}\n"
 
 
-	.string "i va guanyar {STR_VAR_3} Monedes.\p"
+	.string "i va guanyar la increïble xifra de\l"
 
 
-	.string "“Quan {STR_VAR_1} ve, hem d'assegurar\n"
+	.string "{STR_VAR_3} Monedes.\p"
 
 
-	.string "que tinguem prou Monedes.”\p"
+	.string "“Quan ve {STR_VAR_1}, ens hem d'assegurar\n"
 
 
-	.string "Això és el que diuen els dependents\n"
+	.string "que tenim prou Monedes.”\p"
 
 
-	.string "del Saló quan el jugador juga!\p"
+	.string "Això és el que murmuren els\n"
 
 
-	.string "Espectadors, vigileu les Monedes\n"
+	.string "empleats de la Sala de Jocs quan\l"
 
 
-	.string "com {STR_VAR_1} si visiteu el Saló\l"
+	.string "el nostre jugador hi juga!\p"
 
 
-	.string "i jugueu a {STR_VAR_2}.\p"
+	.string "Espectadors, si visiteu la Sala de\n"
 
 
-	.string "Som en directe des del Saló\n"
+	.string "Jocs i jugueu a {STR_VAR_2}, vigileu les\l"
 
 
-	.string "Recreatiu, on es viu l'emoció!\p"
+	.string "Monedes com fa {STR_VAR_1}.\p"
+
+
+	.string "Connectem en directe des de la Sala\n"
+
+
+	.string "de Jocs, on es respira emoció!\p"
 
 
 	.string "Això és tot per avui!$"
@@ -3440,33 +3483,36 @@ gTVFindThatGamerText02::
 	.string "i va perdre {STR_VAR_3} Monedes.\p"
 
 
-	.string "“Quan {STR_VAR_1} ve, les nostres\n"
+	.string "“Quan ve {STR_VAR_1}, sembla que les\n"
 
 
 	.string "vendes de Monedes augmenten.”\p"
 
 
-	.string "Això és el que diuen els dependents\n"
+	.string "Això és el que diuen els empleats\n"
 
 
-	.string "del Saló quan el jugador juga!$"
+	.string "de la Sala de Jocs quan el nostre\l"
+
+
+	.string "jugador hi juga!$"
 
 
 
 gTVFindThatGamerText03::
-	.string "Espectadors, vigileu les Monedes\n"
+	.string "Espectadors, si visiteu la Sala de\n"
 
 
-	.string "com {STR_VAR_1} si visiteu el Saló\l"
+	.string "Jocs i jugueu a {STR_VAR_2}, vigileu les\l"
 
 
-	.string "i jugueu a {STR_VAR_2}.\p"
+	.string "Monedes com fa {STR_VAR_1}.\p"
 
 
-	.string "Som en directe des del Saló\n"
+	.string "Connectem en directe des de la Sala\n"
 
 
-	.string "Recreatiu, on es viu l'emoció!\p"
+	.string "de Jocs, on es respira emoció!\p"
 
 
 	.string "Això és tot per avui!$"
@@ -3491,21 +3537,21 @@ gTVBreakingNewsText01::
 	.string "de {STR_VAR_3}!\p"
 
 
-	.string "{STR_VAR_1} ha capturat amb èxit\n"
+	.string "Fa una estona, {STR_VAR_1} ha capturat\n"
 
 
-	.string "un rar {STR_VAR_2} aquí!$"
+	.string "aquí mateix un {STR_VAR_2} rar!$"
 
 
 
 gTVBreakingNewsText02::
-	.string "Quan {STR_VAR_1} va trobar el rar\n"
+	.string "Quan {STR_VAR_1} es va trobar amb el\n"
 
 
-	.string "{STR_VAR_2}, l'Entrenador va enviar\l"
+	.string "{STR_VAR_2} rar, va treure el\l"
 
 
-	.string "el Pokémon {STR_VAR_3}.$"
+	.string "Pokémon {STR_VAR_3}.$"
 
 
 
@@ -3522,10 +3568,10 @@ gTVBreakingNewsText03::
 	.string "Finalment, el Pokémon rar va ser\n"
 
 
-	.string "atrapat amb la {STR_VAR_2} usada\l"
+	.string "atrapat amb l'última {STR_VAR_2}\l"
 
 
-	.string "al final.$"
+	.string "que va llançar.$"
 
 
 
@@ -3542,7 +3588,10 @@ gTVBreakingNewsText04::
 	.string "He de dir que tinc una mica\n"
 
 
-	.string "d'enveja de {STR_VAR_1}.\p"
+	.string "d'enveja de {STR_VAR_1}. A mi també\l"
+
+
+	.string "m'agradaria cridar.\p"
 
 
 	.string "…Aquí acaba la connexió en directe\n"
@@ -3556,7 +3605,7 @@ gTVBreakingNewsText05::
 	.string "{STR_VAR_1} no aconsegueix capturar\n"
 
 
-	.string "un rar {STR_VAR_2}!\p"
+	.string "un {STR_VAR_2} rar!\p"
 
 
 	.string "Som en directe des de les rodalies\n"
@@ -3568,29 +3617,29 @@ gTVBreakingNewsText05::
 	.string "Aquí és on {STR_VAR_1} no va poder\n"
 
 
-	.string "capturar un rar {STR_VAR_2}!$"
+	.string "capturar un {STR_VAR_2} rar!$"
 
 
 
 gTVBreakingNewsText06::
-	.string "Quan {STR_VAR_1} va trobar el rar\n"
+	.string "Quan {STR_VAR_1} es va trobar amb el\n"
 
 
-	.string "{STR_VAR_2}, l'Entrenador va enviar\l"
+	.string "{STR_VAR_2} rar, va treure el\l"
 
 
-	.string "el Pokémon {STR_VAR_3}.$"
+	.string "Pokémon {STR_VAR_3}.$"
 
 
 
 gTVBreakingNewsText07::
-	.string "L'Entrenador va fer que {STR_VAR_2}\n"
+	.string "L'Entrenador va ordenar al\n"
 
 
-	.string "usés el moviment {STR_VAR_1}.\p"
+	.string "{STR_VAR_2} que usés {STR_VAR_1}.\p"
 
 
-	.string "Sense voler, l'Entrenador va fer\n"
+	.string "Sense voler-ho, l'Entrenador va fer\n"
 
 
 	.string "que el Pokémon rar es desmaiés…$"
@@ -3598,19 +3647,19 @@ gTVBreakingNewsText07::
 
 
 gTVBreakingNewsText12::
-	.string "No obstant, {STR_VAR_1} va entrar\n"
+	.string "No obstant això, {STR_VAR_1} va entrar\n"
 
 
-	.string "en pànic en veure el rar {STR_VAR_2}.\p"
+	.string "en pànic en veure el {STR_VAR_2} rar.\p"
 
 
-	.string "Confós, l'Entrenador va ordenar\n"
+	.string "En plena confusió, l'Entrenador\n"
 
 
-	.string "a {STR_VAR_3} que ataqués.\p"
+	.string "va ordenar a {STR_VAR_3} que ataqués.\p"
 
 
-	.string "Sense voler, l'Entrenador va fer\n"
+	.string "Sense voler-ho, l'Entrenador va fer\n"
 
 
 	.string "que el Pokémon rar es desmaiés.$"
@@ -3629,7 +3678,7 @@ gTVBreakingNewsText08::
 
 
 gTVBreakingNewsText09::
-	.string "No obstant, {STR_VAR_1} sembla que\n"
+	.string "No obstant això, sembla que {STR_VAR_1}\n"
 
 
 	.string "es va quedar sense Poké Balls.\p"
@@ -3638,7 +3687,7 @@ gTVBreakingNewsText09::
 	.string "L'Entrenador va haver d'abandonar\n"
 
 
-	.string "el combat amb el rar {STR_VAR_2}.\p"
+	.string "el combat amb el {STR_VAR_2} rar.\p"
 
 
 	.string "En aquell instant, {STR_VAR_3}\n"
@@ -3652,10 +3701,10 @@ gTVBreakingNewsText09::
 
 
 gTVBreakingNewsText10::
-	.string "No obstant, el {STR_VAR_2} va fugir\n"
+	.string "No obstant això, el {STR_VAR_2} va\n"
 
 
-	.string "sense previ avís.\p"
+	.string "fugir sense avisar.\p"
 
 
 	.string "En aquell instant, {STR_VAR_3}\n"
@@ -3672,7 +3721,7 @@ gTVBreakingNewsText11::
 	.string "He de dir que compadeixo {STR_VAR_1}.\n"
 
 
-	.string "A mi també em fan ganes de cridar.\p"
+	.string "A mi també em fa venir ganes de cridar.\p"
 
 
 	.string "…Aquí acaba la connexió en directe\n"
@@ -3718,13 +3767,13 @@ gTVSecretBaseVisitText01::
 	.string "Que meravellós!\p"
 
 
-	.string "Aquest {STR_VAR_2}…\n"
+	.string "Mira, {STR_VAR_2}…\n"
 
 
-	.string "No és el que un esperaria trobar\l"
+	.string "No és gens el que t'esperaries\l"
 
 
-	.string "aquí!$"
+	.string "trobar aquí!$"
 
 
 
@@ -3732,7 +3781,7 @@ gTVSecretBaseVisitText02::
 	.string "Oh!\n"
 
 
-	.string "Que remarcable!\p"
+	.string "Que impressionant!\p"
 
 
 	.string "No hi ha ni un sol moble\n"
@@ -3741,22 +3790,22 @@ gTVSecretBaseVisitText02::
 	.string "ni objecte d'interior!\p"
 
 
-	.string "Simples mortals no podrien\n"
+	.string "Els simples mortals no podrien\n"
 
 
-	.string "imitar aquesta declaració audaç!\p"
+	.string "imitar una declaració tan audaç!\p"
 
 
-	.string "És simple, però rebenta, sí,\n"
+	.string "És senzill, però desborda, sí,\n"
 
 
-	.string "rebenta de naturalitat!\p"
+	.string "desborda salvatgeria!\p"
 
 
-	.string "El meu barret fora, {STR_VAR_1}.\n"
+	.string "Em trec el barret, {STR_VAR_1}.\n"
 
 
-	.string "Havies de ser tu!$"
+	.string "Només podies ser tu!$"
 
 
 
@@ -3767,10 +3816,10 @@ gTVSecretBaseVisitText03::
 	.string "Amb perfecta claredat!\p"
 
 
-	.string "Que aquest {STR_VAR_2} sigui aquí…\n"
+	.string "Haver posat aquí {STR_VAR_2}…\n"
 
 
-	.string "Envia un missatge efectiu!$"
+	.string "Transmet un missatge clar!$"
 
 
 
@@ -3787,7 +3836,7 @@ gTVSecretBaseVisitText04::
 	.string "lliure d'objectes d'interior!\p"
 
 
-	.string "Envia un missatge efectiu!$"
+	.string "Transmet un missatge clar!$"
 
 
 
@@ -3795,16 +3844,16 @@ gTVSecretBaseVisitText05::
 	.string "Uuuf!\p"
 
 
-	.string "La combinació del {STR_VAR_2}\n"
+	.string "Combinar {STR_VAR_2}\n"
 
 
-	.string "amb el {STR_VAR_3}!\p"
+	.string "amb {STR_VAR_3}!\p"
 
 
 	.string "És una combinació de somni\n"
 
 
-	.string "de les que mai s'han vist!$"
+	.string "com poques n'hi ha!$"
 
 
 
@@ -3812,7 +3861,7 @@ gTVSecretBaseVisitText06::
 	.string "Uuuf!\p"
 
 
-	.string "La col·locació d'aquest {STR_VAR_2}\n"
+	.string "Haver col·locat {STR_VAR_2}\n"
 
 
 	.string "just aquí…\p"
@@ -3860,7 +3909,10 @@ gTVSecretBaseVisitText09::
 	.string "Sospir…\n"
 
 
-	.string "He de reconèixer-ho a {STR_VAR_1}.\p"
+	.string "Cal reconèixer-li el mèrit\l"
+
+
+	.string "a {STR_VAR_1}.\p"
 
 
 	.string "Els Pokémon de l'Entrenador eren\n"
@@ -3872,7 +3924,10 @@ gTVSecretBaseVisitText09::
 	.string "Van demostrar àmpliament la\n"
 
 
-	.string "duresa de {STR_VAR_1} com a Entrenador.\p"
+	.string "fortalesa de {STR_VAR_1}\l"
+
+
+	.string "com a Entrenador.\p"
 
 
 	.string "Que el {STR_VAR_2} sabés el moviment\n"
@@ -3895,13 +3950,16 @@ gTVSecretBaseVisitText10::
 	.string "Ai!\n"
 
 
-	.string "He de reconèixer-ho a {STR_VAR_1}.\p"
+	.string "Cal reconèixer-li el mèrit\l"
+
+
+	.string "a {STR_VAR_1}.\p"
 
 
 	.string "Els Pokémon de l'Entrenador eren\n"
 
 
-	.string "monstruosament durs!\p"
+	.string "monstruosament forts!\p"
 
 
 	.string "Van demostrar àmpliament la\n"
@@ -3930,19 +3988,22 @@ gTVSecretBaseVisitText11::
 	.string "Uuuf!\n"
 
 
-	.string "He de reconèixer-ho a {STR_VAR_1}.\p"
+	.string "Cal reconèixer-li el mèrit\l"
 
 
-	.string "Els Pokémon de l'Entrenador estaven\n"
+	.string "a {STR_VAR_1}.\p"
 
 
-	.string "clarament criats de forma equilibrada.\p"
+	.string "Els Pokémon de l'Entrenador s'havien\n"
+
+
+	.string "criat clarament de manera equilibrada.\p"
 
 
 	.string "Van demostrar àmpliament la\n"
 
 
-	.string "reflexió de {STR_VAR_1} com a\l"
+	.string "sensatesa de {STR_VAR_1} com a\l"
 
 
 	.string "Entrenador.\p"
@@ -3968,19 +4029,22 @@ gTVSecretBaseVisitText12::
 	.string "Bé, bé!\n"
 
 
-	.string "He de reconèixer-ho a {STR_VAR_1}.\p"
+	.string "Cal reconèixer-li el mèrit\l"
+
+
+	.string "a {STR_VAR_1}.\p"
 
 
 	.string "Els Pokémon de l'Entrenador\n"
 
 
-	.string "mostraven gran promesa de futur.\p"
+	.string "prometien molt per al futur.\p"
 
 
 	.string "Representaven les esperances\n"
 
 
-	.string "i somnis de {STR_VAR_1}.\p"
+	.string "i els somnis de {STR_VAR_1}.\p"
 
 
 	.string "Que el {STR_VAR_2} sabés el moviment\n"
@@ -4000,10 +4064,10 @@ gTVSecretBaseVisitText12::
 
 
 gTVSecretBaseVisitText13::
-	.string "He de dir, quina Base Secreta\n"
+	.string "Quina Base Secreta tan\n"
 
 
-	.string "tan superba!\p"
+	.string "magnífica, he de dir!\p"
 
 
 	.string "Espectadors, si teniu l'oportunitat,\n"
@@ -4012,18 +4076,18 @@ gTVSecretBaseVisitText13::
 	.string "visiteu la Base de {STR_VAR_1}.\p"
 
 
-	.string "Fins la propera, adéu!$"
+	.string "Fins a la propera, adéu!$"
 
 
 
 gTVPokemonLotteryWinnerFlashReportText00::
-	.string "Emocionant!\n"
+	.string "És emocionant!\n"
 
 
-	.string "Dramàtic!\p"
+	.string "És espectacular!\p"
 
 
-	.string "El Flash Informatiu del Guanyador\n"
+	.string "És el Flash Informatiu del Guanyador\n"
 
 
 	.string "de la Loteria Pokémon!\p"
@@ -4053,10 +4117,10 @@ gTVPokemonLotteryWinnerFlashReportText00::
 	.string "{STR_VAR_1}!\p"
 
 
-	.string "{STR_VAR_1} ha guanyat el premi\n"
+	.string "{STR_VAR_1} ha guanyat el {STR_VAR_2}\n"
 
 
-	.string "{STR_VAR_2} i s'emporta el {STR_VAR_3}!\p"
+	.string "premi i s'emporta {STR_VAR_3}!\p"
 
 
 	.string "{STR_VAR_1}!\n"
@@ -4175,7 +4239,7 @@ gTVThePokemonBattleSeminarText06::
 	.string "El moviment {STR_VAR_1} hauria estat\n"
 
 
-	.string "absolutament millor que {STR_VAR_2}.\p"
+	.string "molt millor que {STR_VAR_2}.\p"
 
 
 	.string "Espectadors, us animo a aprendre\n"
@@ -4187,7 +4251,7 @@ gTVThePokemonBattleSeminarText06::
 	.string "intel·ligència!\p"
 
 
-	.string "Fins la propera, adéu!$"
+	.string "Fins a la propera, adéu!$"
 
 
 
@@ -4216,13 +4280,13 @@ gTVTrainerFanClubText00::
 	.string "Fans: {STR_VAR_1}!\p"
 
 
-	.string "Presentador: A tothom!\n"
+	.string "Presentador: Escolteu tots!\n"
 
 
 	.string "Què us sembla {STR_VAR_1}?!\p"
 
 
-	.string "Fans: Estimem {STR_VAR_1}!\p"
+	.string "Fans: Ens encanta {STR_VAR_1}!\p"
 
 
 	.string "Presentador: Què us agrada de\n"
@@ -4257,10 +4321,10 @@ gTVTrainerFanClubText03::
 
 
 gTVTrainerFanClubText04::
-	.string "Fans: El coneixement de Pokémon\n"
+	.string "Fans: Tot el que sap l'Entrenador\n"
 
 
-	.string "de l'Entrenador!$"
+	.string "sobre Pokémon!$"
 
 
 
@@ -4281,10 +4345,10 @@ gTVTrainerFanClubText06::
 
 
 gTVTrainerFanClubText07::
-	.string "Fans: L'impressionant estil de\n"
+	.string "Fans: L'estil impressionant de\n"
 
 
-	.string "comprar objectes de l'Entrenador!$"
+	.string "l'Entrenador comprant objectes!$"
 
 
 
@@ -4297,10 +4361,10 @@ gTVTrainerFanClubText08::
 
 
 gTVTrainerFanClubText09::
-	.string "Fans: L'estil elegant de decorar\n"
+	.string "Fans: L'estil enginyós de l'Entrenador\n"
 
 
-	.string "una Base Secreta de l'Entrenador!$"
+	.string "decorant Bases Secretes!$"
 
 
 
@@ -4308,7 +4372,7 @@ gTVTrainerFanClubText10::
 	.string "Fans: La forma audaç de\n"
 
 
-	.string "l'Entrenador d'usar MTs!$"
+	.string "l'Entrenador d'usar les MT!$"
 
 
 
@@ -4316,7 +4380,10 @@ gTVTrainerFanClubText11::
 	.string "Presentador: Com acabeu de veure,\n"
 
 
-	.string "{STR_VAR_1} és popular a morir!\p"
+	.string "{STR_VAR_1} està que crema!\l"
+
+
+	.string "No es pot ni tocar, uf!\p"
 
 
 	.string "Entre els fans de {STR_VAR_1}\n"
@@ -4355,7 +4422,7 @@ gTVTrainerFanClubText11::
 	.string "{STR_VAR_3}!”\p"
 
 
-	.string "Sona tan únic!\n"
+	.string "Té un so ben especial!\n"
 
 
 	.string "Entenc per què la gent es fa fan\l"
@@ -4391,7 +4458,7 @@ gTVTrainerFanClubText11::
 	.string "Presentador: Gràcies per ser-hi,\n"
 
 
-	.string "fans salvatges de {STR_VAR_1}!\l"
+	.string "fans incondicionals de {STR_VAR_1}!\l"
 
 
 	.string "Això és tot! Ens veiem!\p"
@@ -4438,7 +4505,7 @@ TVSpotTheCuties_Text_Intro::
 	.string "El Pokémon destacat d'avui\n"
 
 
-	.string "és el {STR_VAR_2} de {STR_VAR_1}.$"
+	.string "és {STR_VAR_2}, de {STR_VAR_1}.$"
 
 
 
@@ -4463,7 +4530,7 @@ TVSpotTheCuties_Text_RibbonsMid::
 	.string "{STR_VAR_3} Cintes!\p"
 
 
-	.string "Parla a favor del compromís de\n"
+	.string "Diu molt del compromís de\n"
 
 
 	.string "{STR_VAR_1} amb el Pokémon!$"
@@ -4519,7 +4586,7 @@ TVSpotTheCuties_Text_RibbonChampion::
 
 
 TVSpotTheCuties_Text_RibbonCool::
-	.string "La Cinta Cool és especialment\n"
+	.string "La Cinta de Frescor és especialment\n"
 
 
 	.string "encantadora.\p"
@@ -4528,16 +4595,16 @@ TVSpotTheCuties_Text_RibbonCool::
 	.string "{STR_VAR_2} la va rebre per guanyar\n"
 
 
-	.string "un Concurs Cool.\p"
+	.string "un Concurs de Frescor.\p"
 
 
-	.string "Realment destaca el factor cool\n"
+	.string "Realment destaca la frescor\n"
 
 
 	.string "de {STR_VAR_2}.\p"
 
 
-	.string "{STR_VAR_2} i la Cinta Cool!\n"
+	.string "{STR_VAR_2} i la Cinta de Frescor!\n"
 
 
 	.string "La combinació és superefectiva!$"
@@ -4571,7 +4638,7 @@ TVSpotTheCuties_Text_RibbonBeauty::
 
 
 TVSpotTheCuties_Text_RibbonCute::
-	.string "La Cinta Cute és especialment\n"
+	.string "La Cinta de Tendresa és especialment\n"
 
 
 	.string "encantadora.\p"
@@ -4580,7 +4647,7 @@ TVSpotTheCuties_Text_RibbonCute::
 	.string "{STR_VAR_2} la va rebre per guanyar\n"
 
 
-	.string "un Concurs Cute.\p"
+	.string "un Concurs de Tendresa.\p"
 
 
 	.string "Realment destaca la tendresa\n"
@@ -4589,7 +4656,7 @@ TVSpotTheCuties_Text_RibbonCute::
 	.string "de {STR_VAR_2}.\p"
 
 
-	.string "{STR_VAR_2} i la Cinta Cute!\n"
+	.string "{STR_VAR_2} i la Cinta de Tendresa!\n"
 
 
 	.string "La combinació és superefectiva!$"
@@ -4597,16 +4664,16 @@ TVSpotTheCuties_Text_RibbonCute::
 
 
 TVSpotTheCuties_Text_RibbonSmart::
-	.string "La Cinta Smart és especialment\n"
+	.string "La Cinta d'Intel·ligència és\n"
 
 
-	.string "encantadora.\p"
+	.string "especialment encantadora.\p"
 
 
 	.string "{STR_VAR_2} la va rebre per guanyar\n"
 
 
-	.string "un Concurs Smart.\p"
+	.string "un Concurs d'Intel·ligència.\p"
 
 
 	.string "Realment destaca la intel·ligència\n"
@@ -4615,7 +4682,7 @@ TVSpotTheCuties_Text_RibbonSmart::
 	.string "de {STR_VAR_2}.\p"
 
 
-	.string "{STR_VAR_2} i la Cinta Smart!\n"
+	.string "{STR_VAR_2} i la Cinta d'Intel·ligència!\n"
 
 
 	.string "La combinació és superefectiva!$"
@@ -4623,7 +4690,7 @@ TVSpotTheCuties_Text_RibbonSmart::
 
 
 TVSpotTheCuties_Text_RibbonTough::
-	.string "La Cinta Tough és especialment\n"
+	.string "La Cinta de Força és especialment\n"
 
 
 	.string "encantadora.\p"
@@ -4632,16 +4699,16 @@ TVSpotTheCuties_Text_RibbonTough::
 	.string "{STR_VAR_2} la va rebre per guanyar\n"
 
 
-	.string "un Concurs Tough.\p"
+	.string "un Concurs de Força.\p"
 
 
-	.string "Realment destaca la duresa\n"
+	.string "Realment destaca la força\n"
 
 
 	.string "de {STR_VAR_2}.\p"
 
 
-	.string "{STR_VAR_2} i la Cinta Tough!\n"
+	.string "{STR_VAR_2} i la Cinta de Força!\n"
 
 
 	.string "La combinació és superefectiva!$"
@@ -4716,7 +4783,7 @@ TVSpotTheCuties_Text_RibbonArtist::
 	.string "Realment destaca l'encant d'estrella\n"
 
 
-	.string "de {STR_VAR_2}.\p"
+	.string "del pop de {STR_VAR_2}.\p"
 
 
 	.string "{STR_VAR_2} i la Cinta d'Artista!\n"
@@ -4762,7 +4829,7 @@ TVSpotTheCuties_Text_Outro::
 	.string "Fan tan bona parella!\p"
 
 
-	.string "Abans que em desmai,\n"
+	.string "Abans que em desmaï,\n"
 
 
 	.string "adéu a tothom!$"
@@ -4770,10 +4837,10 @@ TVSpotTheCuties_Text_Outro::
 
 
 gTVPokemonNewsBattleFrontierText00::
-	.string "Salutacions!\n"
+	.string "Benvinguts!\n"
 
 
-	.string "És l'hora de Notícies Pokémon.\p"
+	.string "És l'hora de les Notícies Pokémon.\p"
 
 
 	.string "Tenim bones notícies de la\n"
@@ -4796,7 +4863,7 @@ gTVPokemonNewsBattleFrontierText01::
 	.string "Individual de la Torre de Combat.\p"
 
 
-	.string "Per {STR_VAR_1}!$"
+	.string "Brindem per {STR_VAR_1}!$"
 
 
 
@@ -4813,7 +4880,7 @@ gTVPokemonNewsBattleFrontierText02::
 	.string "Doble de la Torre de Combat.\p"
 
 
-	.string "Per {STR_VAR_1}!$"
+	.string "Brindem per {STR_VAR_1}!$"
 
 
 
@@ -4830,7 +4897,7 @@ gTVPokemonNewsBattleFrontierText03::
 	.string "de la Torre de Combat.\p"
 
 
-	.string "Per {STR_VAR_1}!$"
+	.string "Brindem per {STR_VAR_1}!$"
 
 
 
@@ -4847,7 +4914,7 @@ gTVPokemonNewsBattleFrontierText04::
 	.string "per Enllaç de la Torre de Combat.\p"
 
 
-	.string "Per {STR_VAR_1}!$"
+	.string "Brindem per {STR_VAR_1}!$"
 
 
 
@@ -4864,7 +4931,7 @@ gTVPokemonNewsBattleFrontierText05::
 	.string "Individual del Domo de Combat.\p"
 
 
-	.string "Per {STR_VAR_1}!$"
+	.string "Brindem per {STR_VAR_1}!$"
 
 
 
@@ -4881,7 +4948,7 @@ gTVPokemonNewsBattleFrontierText06::
 	.string "Doble del Domo de Combat.\p"
 
 
-	.string "Per {STR_VAR_1}!$"
+	.string "Brindem per {STR_VAR_1}!$"
 
 
 
@@ -4898,7 +4965,7 @@ gTVPokemonNewsBattleFrontierText07::
 	.string "Individual de la Fàbrica de Combat.\p"
 
 
-	.string "Per {STR_VAR_1}!$"
+	.string "Brindem per {STR_VAR_1}!$"
 
 
 
@@ -4915,7 +4982,7 @@ gTVPokemonNewsBattleFrontierText08::
 	.string "Doble de la Fàbrica de Combat.\p"
 
 
-	.string "Per {STR_VAR_1}!$"
+	.string "Brindem per {STR_VAR_1}!$"
 
 
 
@@ -4929,10 +4996,10 @@ gTVPokemonNewsBattleFrontierText09::
 	.string "superades al repte d'Elecció\l"
 
 
-	.string "de Combat de la Pica de Combat.\p"
+	.string "de Combat de la Llança de Combat.\p"
 
 
-	.string "Per {STR_VAR_1}!$"
+	.string "Brindem per {STR_VAR_1}!$"
 
 
 
@@ -4949,7 +5016,7 @@ gTVPokemonNewsBattleFrontierText10::
 	.string "l'Arena de Combat.\p"
 
 
-	.string "Per {STR_VAR_1}!$"
+	.string "Brindem per {STR_VAR_1}!$"
 
 
 
@@ -4969,7 +5036,7 @@ gTVPokemonNewsBattleFrontierText11::
 	.string "Combat.\p"
 
 
-	.string "Per {STR_VAR_1}!$"
+	.string "Brindem per {STR_VAR_1}!$"
 
 
 
@@ -4986,7 +5053,7 @@ gTVPokemonNewsBattleFrontierText12::
 	.string "Combat Doble del Palau de Combat.\p"
 
 
-	.string "Per {STR_VAR_1}!$"
+	.string "Brindem per {STR_VAR_1}!$"
 
 
 
@@ -5003,7 +5070,7 @@ gTVPokemonNewsBattleFrontierText13::
 	.string "la Piràmide de Combat.\p"
 
 
-	.string "Per {STR_VAR_1}!$"
+	.string "Brindem per {STR_VAR_1}!$"
 
 
 
@@ -5014,10 +5081,10 @@ gTVPokemonNewsBattleFrontierText14::
 	.string "{STR_VAR_2} i {STR_VAR_3}!\p"
 
 
-	.string "Felicitats per la vostra actuació\n"
+	.string "Felicitats per aquesta actuació\n"
 
 
-	.string "que ha batut el rècord!$"
+	.string "de rècord!$"
 
 
 
@@ -5028,10 +5095,10 @@ gTVPokemonNewsBattleFrontierText15::
 	.string "i {STR_VAR_2}!\p"
 
 
-	.string "Felicitats per la vostra actuació\n"
+	.string "Felicitats per aquesta actuació\n"
 
 
-	.string "que ha batut el rècord!$"
+	.string "de rècord!$"
 
 
 
@@ -5050,24 +5117,24 @@ gTVPokemonNewsBattleFrontierText17::
 	.string "I {STR_VAR_1}!\p"
 
 
-	.string "Felicitats per la vostra actuació\n"
+	.string "Felicitats per aquesta actuació\n"
 
 
-	.string "que ha batut el rècord!$"
+	.string "de rècord!$"
 
 
 
 gTVPokemonNewsBattleFrontierText18::
-	.string "Esperem més gestes que batin\n"
+	.string "Esperem que {STR_VAR_1} i els seus\n"
 
 
-	.string "rècords de {STR_VAR_1} i els seus\l"
+	.string "fidels Pokémon continuïn batent\l"
 
 
-	.string "Pokémon fidels!\p"
+	.string "rècords!\p"
 
 
-	.string "Això és tot a Notícies Pokémon!$"
+	.string "I fins aquí les Notícies Pokémon!$"
 
 
 
@@ -5093,7 +5160,7 @@ gTVWhatsNo1InHoennTodayText00::
 	.string "L'Entrenador número 1 d'avui és\n"
 
 
-	.string "{STR_VAR_1}!$"
+	.string "ni més ni menys que {STR_VAR_1}!$"
 
 
 
@@ -5101,16 +5168,16 @@ gTVWhatsNo1InHoennTodayText01::
 	.string "En un sol dia, {STR_VAR_1} va fer girar\n"
 
 
-	.string "les Slots al Saló Recreatiu\l"
+	.string "les escurabutxaques de la Sala\l"
 
 
-	.string "{STR_VAR_2} vegades.\p"
+	.string "de Jocs {STR_VAR_2} vegades.\p"
 
 
 	.string "Mentre jugava, {STR_VAR_1} murmurava:\n"
 
 
-	.string "“Per mi, els rodets ni es mouen…”\l"
+	.string "“Per a mi, els rodets ni es mouen…”\l"
 
 
 	.string "No és interessant?$"
@@ -5121,7 +5188,7 @@ gTVWhatsNo1InHoennTodayText02::
 	.string "En un sol dia, {STR_VAR_1} va jugar\n"
 
 
-	.string "a la Ruleta del Saló Recreatiu\l"
+	.string "a la Ruleta de la Sala de Jocs\l"
 
 
 	.string "{STR_VAR_2} vegades.\p"
@@ -5161,10 +5228,13 @@ gTVWhatsNo1InHoennTodayText03::
 
 
 gTVWhatsNo1InHoennTodayText04::
-	.string "En un sol dia, {STR_VAR_1} va fer girar\n"
+	.string "En un sol dia, {STR_VAR_1} va fer\n"
 
 
-	.string "la Barrejadora {STR_VAR_2} vegades!\p"
+	.string "girar la Batedora de Baies\l"
+
+
+	.string "{STR_VAR_2} vegades!\p"
 
 
 	.string "Cap al final, fins i tot {STR_VAR_1}\n"
@@ -5173,7 +5243,7 @@ gTVWhatsNo1InHoennTodayText04::
 	.string "semblava marejat.\p"
 
 
-	.string "L'Entrenador es balancejava\n"
+	.string "L'Entrenador trontollava\n"
 
 
 	.string "com un Spinda!$"
@@ -5187,16 +5257,16 @@ gTVWhatsNo1InHoennTodayText05::
 	.string "{STR_VAR_2} Baies!\p"
 
 
-	.string "Com a resultat, la roba de {STR_VAR_1}\n"
+	.string "Per això, la roba de {STR_VAR_1}\n"
 
 
-	.string "va quedar bruta de terra.\p"
+	.string "va quedar tota bruta de terra.\p"
 
 
-	.string "On va plantar, innombrables flors\n"
+	.string "Allà on va plantar, han florit\n"
 
 
-	.string "han florit.\p"
+	.string "innombrables flors.\p"
 
 
 	.string "Es diu que les flors calmen\n"
@@ -5216,10 +5286,10 @@ gTVWhatsNo1InHoennTodayText06::
 	.string "La Motxilla de {STR_VAR_1} va quedar\n"
 
 
-	.string "tan plena de Baies que l'Entrenador\l"
+	.string "tan plena de Baies que després a\l"
 
 
-	.string "tenia problemes per caminar!$"
+	.string "l'Entrenador li costava caminar!$"
 
 
 
@@ -5242,10 +5312,10 @@ gTVWhatsNo1InHoennTodayText07::
 	.string "decoració d'interior.\p"
 
 
-	.string "L'Entrenador somreia mentre\n"
+	.string "Diuen que l'Entrenador somreia\n"
 
 
-	.string "considerava les opcions.$"
+	.string "mentre considerava les opcions.$"
 
 
 
@@ -5262,10 +5332,10 @@ gTVWhatsNo1InHoennTodayText08::
 	.string "Espectadors, inspireu-vos en\n"
 
 
-	.string "{STR_VAR_1}! Tu també pots ser\l"
+	.string "{STR_VAR_1}! Vosaltres també podeu\l"
 
 
-	.string "el número 1 cada dia!$"
+	.string "ser el número 1 cada dia!$"
 
 
 
@@ -5334,15 +5404,15 @@ TVSecretBaseSecrets_Text_BaseFailedToInterestPlayer::
 
 
 TVSecretBaseSecrets_Text_PlayerEnjoyedBase::
-	.string "{STR_VAR_2} sembla haver gaudit\n"
+	.string "Sembla que {STR_VAR_2} ha gaudit\n"
 
 
-	.string "a fons de la Base de {STR_VAR_1}.$"
+	.string "de valent de la Base de {STR_VAR_1}.$"
 
 
 
 TVSecretBaseSecrets_Text_PlayerHugeFanOfBase::
-	.string "{STR_VAR_2} sembla haver-se convertit\n"
+	.string "Sembla que {STR_VAR_2} s'ha convertit\n"
 
 
 	.string "en un gran fan de la Base Secreta\l"
@@ -5359,10 +5429,13 @@ TVSecretBaseSecrets_Text_Outro::
 	.string "la Base Secreta de {STR_VAR_1}.\p"
 
 
-	.string "Sintonitzeu la propera vegada per\n"
+	.string "Sintonitzeu-nos la propera vegada:\n"
 
 
-	.string "visitar una altra Base! Gràcies!$"
+	.string "visitarem una altra Base Secreta!\l"
+
+
+	.string "Gràcies per acompanyar-nos!$"
 
 
 
@@ -5387,10 +5460,10 @@ TVSecretBaseSecrets_Text_StoppedMoving2::
 	.string "El visitant no es mou gens!\p"
 
 
-	.string "És fatiga?\n"
+	.string "És cansament?\n"
 
 
-	.string "S'ha cansat el visitant?$"
+	.string "S'ha esgotat el visitant?$"
 
 
 
@@ -5438,10 +5511,10 @@ TVSecretBaseSecrets_Text_UsedTent::
 	.string "El visitant corre d'un lloc a l'altre!\p"
 
 
-	.string "Oh, el visitant s'ho passa d'allò més\n"
+	.string "Oh, el visitant s'ho passa\n"
 
 
-	.string "bé!\p"
+	.string "d'allò més bé!\p"
 
 
 	.string "El visitant sembla sorprès per\n"
@@ -5542,16 +5615,16 @@ TVSecretBaseSecrets_Text_UsedBag::
 	.string "Motxilla!\p"
 
 
-	.string "El visitant n'ha tret\n"
+	.string "El visitant n'ha tret:\n"
 
 
-	.string "un {STR_VAR_2}!\p"
+	.string "{STR_VAR_2}!\p"
 
 
 	.string "Mireu com somriu el visitant\n"
 
 
-	.string "amb el {STR_VAR_2} a la mà!\p"
+	.string "amb l'objecte a la mà!\p"
 
 
 	.string "Sembla un anunci de TV!$"
@@ -5575,7 +5648,7 @@ TVSecretBaseSecrets_Text_HuggedCushion::
 	.string "…l'abraça fort!\p"
 
 
-	.string "Podria ser que el visitant estigui\n"
+	.string "Podria ser que el visitant estigués\n"
 
 
 	.string "content per alguna cosa?$"
@@ -5583,7 +5656,7 @@ TVSecretBaseSecrets_Text_HuggedCushion::
 
 
 TVSecretBaseSecrets_Text_BattledWon::
-	.string "El visitant xerrà amb\n"
+	.string "El visitant xerra amb\n"
 
 
 	.string "{STR_VAR_1}!\p"
@@ -5601,7 +5674,7 @@ TVSecretBaseSecrets_Text_BattledWon::
 	.string "És el visitant!\n"
 
 
-	.string "El visitant ha guanyat a fora!\p"
+	.string "El visitant ha guanyat fora de casa!\p"
 
 
 	.string "El visitant fa\n"
@@ -5612,7 +5685,7 @@ TVSecretBaseSecrets_Text_BattledWon::
 
 
 TVSecretBaseSecrets_Text_BattledLost::
-	.string "El visitant xerrà amb\n"
+	.string "El visitant xerra amb\n"
 
 
 	.string "{STR_VAR_1}!\p"
@@ -5638,7 +5711,7 @@ TVSecretBaseSecrets_Text_BattledLost::
 
 
 TVSecretBaseSecrets_Text_DeclinedBattle::
-	.string "El visitant xerrà amb\n"
+	.string "El visitant xerra amb\n"
 
 
 	.string "{STR_VAR_1}!\p"
@@ -5653,16 +5726,16 @@ TVSecretBaseSecrets_Text_DeclinedBattle::
 	.string "I…\p"
 
 
-	.string "No, el visitant ha rebutjat!\p"
+	.string "No, el visitant s'hi ha negat!\p"
 
 
 	.string "No hi haurà combat!\p"
 
 
-	.string "Ha trobat el visitant {STR_VAR_1}\n"
+	.string "Potser al visitant no li ha agradat\n"
 
 
-	.string "poc atractiu?$"
+	.string "{STR_VAR_1}?$"
 
 
 
@@ -5679,7 +5752,7 @@ TVSecretBaseSecrets_Text_UsedPoster::
 	.string "…Però… Hi ha alguna cosa\n"
 
 
-	.string "inquietant en les mirades.$"
+	.string "inquietant en la seva mirada.$"
 
 
 
@@ -5693,12 +5766,15 @@ TVSecretBaseSecrets_Text_UsedNoteMat::
 	.string "…Hmm…\n"
 
 
-	.string "El visitant ha compost una tonada!$"
+	.string "El visitant ha compost una tonada\l"
+
+
+	.string "divertida!$"
 
 
 
 TVSecretBaseSecrets_Text_BattledDraw::
-	.string "El visitant xerrà amb\n"
+	.string "El visitant xerra amb\n"
 
 
 	.string "{STR_VAR_1}!\p"
@@ -5776,10 +5852,10 @@ TVSecretBaseSecrets_Text_UsedDesk::
 	.string "Pel que sembla, el visitant no\n"
 
 
-	.string "aprova la pols!\p"
+	.string "suporta la pols!\p"
 
 
-	.string "El visitant és sorprenentment\n"
+	.string "El visitant està sorprenentment\n"
 
 
 	.string "preocupat per la netedat!$"
@@ -5804,13 +5880,13 @@ TVSecretBaseSecrets_Text_UsedSolidBoard::
 	.string "la Taula Sòlida.\p"
 
 
-	.string "El visitant mira avall tot el rato.\p"
+	.string "El visitant mira avall tota l'estona.\p"
 
 
-	.string "El visitant resulta ser tímid\n"
+	.string "El visitant resulta ser\n"
 
 
-	.string "i cautelós!$"
+	.string "sorprenentment tímid i prudent!$"
 
 
 
@@ -5838,10 +5914,10 @@ TVSecretBaseSecrets_Text_UsedGlitterMat::
 	.string "El visitant fa tot de poses!\p"
 
 
-	.string "El visitant sembla fantasiejar\n"
+	.string "Sembla que el visitant somia\n"
 
 
-	.string "amb ser un ídol!$"
+	.string "que és un ídol!$"
 
 
 
@@ -5852,10 +5928,10 @@ TVSecretBaseSecrets_Text_UsedTire::
 	.string "un Pneumàtic!\p"
 
 
-	.string "Podria ser que el visitant pensi\n"
+	.string "Potser el visitant pensa en\n"
 
 
-	.string "en quin cotxe l'usaria?$"
+	.string "el tipus de cotxe que el duria?$"
 
 
 
@@ -5872,10 +5948,10 @@ TVSecretBaseSecrets_Text_UsedStand::
 	.string "I…\p"
 
 
-	.string "Deixa anar un crit!\n"
+	.string "Deixa anar un rugit!\n"
 
 
-	.string "El visitant crida!$"
+	.string "El visitant rugeix!$"
 
 
 
@@ -5894,7 +5970,7 @@ TVSecretBaseSecrets_Text_UsedDoll::
 	.string "El visitant parla amb una Nina!\p"
 
 
-	.string "…Fa una mica de respecte…$"
+	.string "…Fa una mica de cosa…$"
 
 
 
@@ -5991,7 +6067,7 @@ gTVSafariFanClubText00::
 
 
 gTVSafariFanClubText01::
-	.string "Guia: Tothom sembla que s'hi\n"
+	.string "Guia: Sembla que tothom s'hi\n"
 
 
 	.string "esforça molt.\p"
@@ -6025,7 +6101,7 @@ gTVSafariFanClubText03::
 	.string "{POKEBLOCK}! Ni un!\p"
 
 
-	.string "Això és un expert!$"
+	.string "Això sí que és un expert!$"
 
 
 
@@ -6047,7 +6123,10 @@ gTVSafariFanClubText04::
 
 
 gTVSafariFanClubText05::
-	.string "Guia: Ningú sembla anar gaire bé.\p"
+	.string "Guia: Sembla que a ningú li va\n"
+
+
+	.string "gaire bé.\p"
 
 
 	.string "{STR_VAR_1} ho ha tingut especialment\n"
@@ -6064,7 +6143,10 @@ gTVSafariFanClubText05::
 
 
 gTVSafariFanClubText06::
-	.string "Guia: Ningú sembla anar gaire bé.\p"
+	.string "Guia: Sembla que a ningú li va\n"
+
+
+	.string "gaire bé.\p"
 
 
 	.string "{STR_VAR_1} ho ha tingut especialment\n"
@@ -6087,7 +6169,7 @@ gTVSafariFanClubText07::
 	.string "En va usar {STR_VAR_2}, crec.\p"
 
 
-	.string "Però, noi, m'agradaria que\n"
+	.string "Però, vaja, m'agradaria que\n"
 
 
 	.string "l'Entrenador millorés una mica.$"
@@ -6138,7 +6220,7 @@ gTVSafariFanClubText10::
 	.string "i accepteu el repte!\p"
 
 
-	.string "Fins la propera, adéu!$"
+	.string "Fins a la propera, adéu!$"
 
 
 
@@ -6152,7 +6234,7 @@ ContestLiveUpdates_Text_Intro::
 	.string "Som en directe des del lloc del\n"
 
 
-	.string "{STR_VAR_1} que acaba de finalitzar.\p"
+	.string "{STR_VAR_1}, que acaba de finalitzar.\p"
 
 
 	.string "La sala encara és plena d'un públic\n"
@@ -6199,7 +6281,7 @@ ContestLiveUpdates_Text_WonBothRounds::
 	.string "Espectador: El {STR_VAR_2} ha estat\n"
 
 
-	.string "el millor en ambdues avaluacions!\p"
+	.string "el millor en totes dues rondes!\p"
 
 
 	.string "Aquell {STR_VAR_2} seguirà guanyant!$"
@@ -6207,10 +6289,10 @@ ContestLiveUpdates_Text_WonBothRounds::
 
 
 ContestLiveUpdates_Text_BetterRound2::
-	.string "Espectador: El {STR_VAR_2} no va fer bé\n"
+	.string "Espectador: Al {STR_VAR_2} no li va anar\n"
 
 
-	.string "a la primera avaluació, però va\l"
+	.string "bé a la primera ronda, però va\l"
 
 
 	.string "arrasar a la segona!\p"
@@ -6219,7 +6301,7 @@ ContestLiveUpdates_Text_BetterRound2::
 	.string "Va ser una remuntada miraculosa\n"
 
 
-	.string "per al {STR_VAR_2}. Bé!$"
+	.string "per al {STR_VAR_2}. Visca!$"
 
 
 
@@ -6227,21 +6309,21 @@ ContestLiveUpdates_Text_EqualRounds::
 	.string "Espectador: El {STR_VAR_2} ha estat\n"
 
 
-	.string "consistent en ambdues avaluacions.\p"
+	.string "regular en totes dues rondes.\p"
 
 
-	.string "{STR_VAR_3} i el {STR_VAR_2},\n"
+	.string "{STR_VAR_3} i el {STR_VAR_2}\n"
 
 
-	.string "no són un combo qualsevol!$"
+	.string "no són una parella qualsevol!$"
 
 
 
 ContestLiveUpdates_Text_BetterRound1::
-	.string "Espectador: En termes de ser\n"
+	.string "Espectador: Pel que fa a\n"
 
 
-	.string "{STR_VAR_1}, aquell {STR_VAR_2} era\l"
+	.string "“{STR_VAR_1}”, aquell {STR_VAR_2} va ser\l"
 
 
 	.string "excepcional.\p"
@@ -6275,7 +6357,10 @@ ContestLiveUpdates_Text_StartledFoes::
 	.string "Espectador: L'actuació d'aquell\n"
 
 
-	.string "{STR_VAR_2} fins i tot m'ha sorprès!\p"
+	.string "{STR_VAR_2} m'ha sobresaltat fins i\l"
+
+
+	.string "tot a mi!\p"
 
 
 	.string "{STR_VAR_2}, has estat genial!$"
@@ -6283,10 +6368,13 @@ ContestLiveUpdates_Text_StartledFoes::
 
 
 ContestLiveUpdates_Text_UsedCombo::
-	.string "Espectador: L'actuació combo\n"
+	.string "Espectador: La combinació d'actuacions\n"
 
 
-	.string "d'aquell {STR_VAR_2} era impressionant!\p"
+	.string "d'aquell {STR_VAR_2} ha estat\l"
+
+
+	.string "impressionant!\p"
 
 
 	.string "M'ha sacsejat fins al moll de l'os!$"
@@ -6321,7 +6409,7 @@ ContestLiveUpdates_Text_WasCute::
 	.string "{STR_VAR_2}!\n"
 
 
-	.string "Has estat bonic!$"
+	.string "Has estat adorable!$"
 
 
 
@@ -6337,7 +6425,7 @@ ContestLiveUpdates_Text_WasTough::
 	.string "{STR_VAR_2}!\n"
 
 
-	.string "Has estat dur!$"
+	.string "Has estat molt fort!$"
 
 
 
@@ -6361,7 +6449,7 @@ ContestLiveUpdates_Text_VeryBeautiful::
 	.string "{STR_VAR_2}!\n"
 
 
-	.string "Ets el més bonic!$"
+	.string "Ets el més bell!$"
 
 
 
@@ -6369,7 +6457,7 @@ ContestLiveUpdates_Text_VeryCute::
 	.string "{STR_VAR_2}!\n"
 
 
-	.string "Ets simplement el més maco!$"
+	.string "Ets el més adorable de tots!$"
 
 
 
@@ -6385,7 +6473,7 @@ ContestLiveUpdates_Text_VeryTough::
 	.string "{STR_VAR_2}!\n"
 
 
-	.string "Ets el més dur dels durs!$"
+	.string "Ets el més fort dels forts!$"
 
 
 
@@ -6393,10 +6481,13 @@ ContestLiveUpdates_Text_TookBreak::
 	.string "Espectador: Fins i tot quan el\n"
 
 
-	.string "{STR_VAR_2} va deixar de fer actuacions,\l"
+	.string "{STR_VAR_2} va fer una pausa a les\l"
 
 
-	.string "no podia apartar-li els ulls.\p"
+	.string "actuacions, no en podia apartar\l"
+
+
+	.string "els ulls.\p"
 
 
 	.string "Estic captivat per aquell {STR_VAR_2}.$"
@@ -6413,7 +6504,7 @@ ContestLiveUpdates_Text_GotStartled::
 	.string "altre Pokémon, gairebé ploro.\p"
 
 
-	.string "{STR_VAR_2}, has estat resistent!\n"
+	.string "{STR_VAR_2}, has resistit!\n"
 
 
 	.string "Molt bé!$"
@@ -6424,13 +6515,13 @@ ContestLiveUpdates_Text_MoveWonderful::
 	.string "Espectador: Oh…\n"
 
 
-	.string "El {STR_VAR_3} d'aquell {STR_VAR_2}!\l"
+	.string "{STR_VAR_2} usant {STR_VAR_3}!\l"
 
 
-	.string "El {STR_VAR_3} de {STR_VAR_2}!\l"
+	.string "{STR_VAR_2} usant {STR_VAR_3}!\l"
 
 
-	.string "El {STR_VAR_3} de {STR_VAR_2}!\l"
+	.string "{STR_VAR_2} usant {STR_VAR_3}!\l"
 
 
 	.string "Com pot ser tan meravellós?$"
@@ -6447,7 +6538,7 @@ ContestLiveUpdates_Text_TalkAboutAnotherMon::
 	.string "{STR_VAR_1}!\p"
 
 
-	.string "També haig de mencionar que un\n"
+	.string "També he d'esmentar que un\n"
 
 
 	.string "altre Pokémon, el {STR_VAR_3} de\l"
@@ -6461,10 +6552,10 @@ ContestLiveUpdates_Text_TalkAboutAnotherMon::
 
 
 ContestLiveUpdates_Text_FailedToAppeal::
-	.string "No va fer ni una sola actuació durant\n"
+	.string "No va fer ni una sola actuació a\n"
 
 
-	.string "la segona avaluació pels nervis.\p"
+	.string "la segona ronda a causa dels nervis.\p"
 
 
 	.string "La propera vegada, voldria veure\n"
@@ -6478,13 +6569,13 @@ ContestLiveUpdates_Text_FailedToAppeal::
 
 
 ContestLiveUpdates_Text_LastInBothRounds::
-	.string "Ha quedat últim en ambdues\n"
+	.string "Ha quedat l'últim en totes dues\n"
 
 
-	.string "avaluacions.\p"
+	.string "rondes.\p"
 
 
-	.string "Espero que {STR_VAR_1} reentreni\n"
+	.string "Espero que {STR_VAR_1} torni a entrenar\n"
 
 
 	.string "aquest {STR_VAR_2} i esborri la\l"
@@ -6521,16 +6612,16 @@ ContestLiveUpdates_Text_LostAfterWinningRound1::
 	.string "Tot i acabar primer a la primera\n"
 
 
-	.string "avaluació, les actuacions de la\l"
+	.string "ronda, les seves actuacions a la\l"
 
 
 	.string "segona no van funcionar.\p"
 
 
-	.string "Va patir una humiliant derrota\n"
+	.string "Li van remuntar i va patir una\n"
 
 
-	.string "per remuntada.\p"
+	.string "derrota humiliant.\p"
 
 
 	.string "Segur que {STR_VAR_1} ara estudia com\n"
@@ -6541,13 +6632,13 @@ ContestLiveUpdates_Text_LostAfterWinningRound1::
 
 
 ContestLiveUpdates_Text_NeverExciting::
-	.string "El públic mai es va emocionar amb\n"
+	.string "El públic no es va emocionar mai amb\n"
 
 
-	.string "les actuacions de la segona\l"
+	.string "les seves actuacions a la segona\l"
 
 
-	.string "avaluació.\p"
+	.string "ronda.\p"
 
 
 	.string "Esperem que deixi de preocupar-se\n"
@@ -6564,7 +6655,7 @@ ContestLiveUpdates_Text_LostBySmallMargin::
 	.string "Ha perdut contra el {STR_VAR_2}\n"
 
 
-	.string "de {STR_VAR_1} per poc marge.\p"
+	.string "de {STR_VAR_1} per molt poc.\p"
 
 
 	.string "Deu ser dolorós estar tan a prop\n"
@@ -6590,13 +6681,16 @@ ContestLiveUpdates_Text_RepeatedAppeals::
 	.string "És un error imperdonable en\n"
 
 
-	.string "qualsevol Concurs, i ho ha pagat.\p"
+	.string "qualsevol Concurs, i el Pokémon\l"
 
 
-	.string "{STR_VAR_1} hauria de sentir-se\n"
+	.string "ho ha pagat.\p"
 
 
-	.string "culpable per aquesta pobre actuació.$"
+	.string "{STR_VAR_1} hauria de sentir-se culpable\n"
+
+
+	.string "per una actuació tan lamentable.$"
 
 
 
@@ -6607,13 +6701,13 @@ ContestLiveUpdates_Text_ValiantEffortButLost::
 	.string "però…\p"
 
 
-	.string "Tot va ser en va, acabant últim.\p"
+	.string "Tot va ser en va: va acabar últim.\p"
 
 
 	.string "{STR_VAR_1} hauria d'aprendre d'aquesta\n"
 
 
-	.string "derrota i aprofitar-ho bé.$"
+	.string "derrota i treure'n profit.$"
 
 
 
@@ -6624,7 +6718,7 @@ ContestLiveUpdates_Text_Outro::
 	.string "nostre habitual comiat als guanyadors.\p"
 
 
-	.string "Aquesta vegada, és {STR_VAR_1} i\n"
+	.string "Aquesta vegada, són {STR_VAR_1} i\n"
 
 
 	.string "el {STR_VAR_2}!\p"
@@ -6642,7 +6736,7 @@ ContestLiveUpdates_Text_Outro::
 	.string "Felicitats!\l"
 
 
-	.string "Ets el guanyador del Concurs!$"
+	.string "Sou els guanyadors del Concurs!$"
 
 
 
@@ -6700,7 +6794,7 @@ gTVPokemonBattleUpdateText04::
 	.string "{STR_VAR_1}!\p"
 
 
-	.string "I per al derrotat {STR_VAR_2},\n"
+	.string "I per a {STR_VAR_2}, que ha perdut,\n"
 
 
 	.string "esperem un millor resultat!\p"
@@ -6768,16 +6862,19 @@ gTVPokemonBattleUpdateText07::
 
 
 GabbyAndTy_Text_GabbyPreFirstBattle:
-	.string "Gabby: Oh! Acabem de veure un\n"
+	.string "Gabby: Oh! Acabem de trobar un\n"
 
 
-	.string "Entrenador de pinta forta aquí!\p"
+	.string "Entrenador que fa pinta de dur,\l"
+
+
+	.string "aquí mateix!\p"
 
 
 	.string "D'acord, càmera en marxa!\n"
 
 
-	.string "Aconseguim l'entrevista.$"
+	.string "Fem l'entrevista!$"
 
 
 
@@ -6810,10 +6907,10 @@ GabbyAndTy_Text_WhoAreYouInterview:
 	.string "Qui ets?!\p"
 
 
-	.string "Sabia que teníem alguna cosa\n"
+	.string "Ja sabia que havíem trobat alguna\n"
 
 
-	.string "quan et vam veure!\p"
+	.string "cosa grossa quan et vam veure!\p"
 
 
 	.string "Oh, deixa que m'expliqui. Viatgem\n"
@@ -6828,7 +6925,7 @@ GabbyAndTy_Text_WhoAreYouInterview:
 	.string "Ens podries dedicar una estona\n"
 
 
-	.string "per una entrevista?$"
+	.string "per a una entrevista?$"
 
 
 
@@ -6836,10 +6933,13 @@ GabbyAndTy_Text_QuoteFromLastInterview:
 	.string "Gabby: “{STR_VAR_1}!”\p"
 
 
-	.string "Recordes? Aquesta és la cita que\n"
+	.string "Recordes? Aquesta és la frase que\n"
 
 
-	.string "ens vas donar l'última vegada.\p"
+	.string "ens vas dir per rematar el combat\l"
+
+
+	.string "l'última vegada.\p"
 
 
 	.string "No oblido mai coses així!$"
@@ -6870,7 +6970,7 @@ GabbyAndTy_Text_YouThrewABallAtUsInterviewAgain:
 	.string "Ens vam quedar de pedra! Ho vam\n"
 
 
-	.string "explicar a tothom, absolutament!\p"
+	.string "explicar a tothom, però a tothom!\p"
 
 
 	.string "En fi, què en penses?\n"
@@ -6881,10 +6981,10 @@ GabbyAndTy_Text_YouThrewABallAtUsInterviewAgain:
 
 
 GabbyAndTy_Text_CleverItemSkillsInterviewAgain:
-	.string "L'última vegada, les teves habilitats\n"
+	.string "L'última vegada, la teva traça amb\n"
 
 
-	.string "amb objectes ens van vèncer.\p"
+	.string "els objectes ens va derrotar.\p"
 
 
 	.string "En fi, què en penses?\n"
@@ -7021,10 +7121,10 @@ GabbyAndTy_Text_GabbyDefeat:
 
 
 GabbyAndTy_Text_TyPreFirstBattle:
-	.string "Ty: Ei, mira! Un Entrenador de pinta\n"
+	.string "Ty: Ei, mira! Un Entrenador que fa\n"
 
 
-	.string "forta aquí, ni més ni menys!\l"
+	.string "pinta de dur, aquí mateix!\l"
 
 
 	.string "La càmera grava!$"
@@ -7046,7 +7146,7 @@ GabbyAndTy_Text_TyIntro:
 
 
 GabbyAndTy_Text_TyPostBattle:
-	.string "Ty: Ets un natural!\n"
+	.string "Ty: Tens un talent natural!\n"
 
 
 	.string "Tinc un material de primera!$"
@@ -7071,7 +7171,7 @@ GabbyAndTy_Text_TyDefeatFirstTime:
 	.string "Ty: Sí, hem trobat un gran Entrenador.\n"
 
 
-	.string "Això és una exclusiva per nosaltres!$"
+	.string "Això és una exclusiva per a nosaltres!$"
 
 
 
@@ -7079,7 +7179,7 @@ GabbyAndTy_Text_TyDefeat:
 	.string "Ty: Sí, ho tinc tot.\n"
 
 
-	.string "Tot el combat és a la càmera.$"
+	.string "Tinc tot el combat gravat.$"
 
 
 
@@ -7122,10 +7222,13 @@ gTVInSearchOfTrainersText01::
 	.string "ha millorat des de llavors.\p"
 
 
-	.string "Sabia que teníem algú especial\n"
+	.string "Ja sabia que havíem trobat algú\n"
 
 
-	.string "quan el vam veure!$"
+	.string "especial quan vam veure aquest\l"
+
+
+	.string "Entrenador!$"
 
 
 
@@ -7180,16 +7283,16 @@ gTVInSearchOfTrainersText03::
 	.string "donant-se suport mútuament\l"
 
 
-	.string "en el fragor de la batalla…\p"
+	.string "en ple combat…\p"
 
 
 	.string "Era un espectacle meravellós!\p"
 
 
-	.string "{STR_VAR_2} va ser el moviment que\n"
+	.string "{STR_VAR_2} va ser l'últim moviment\n"
 
 
-	.string "va usar últim al nostre combat.\p"
+	.string "que l'Entrenador va usar al combat.\p"
 
 
 	.string "El moviment {STR_VAR_2} és el signe\n"
@@ -7200,10 +7303,10 @@ gTVInSearchOfTrainersText03::
 
 
 gTVInSearchOfTrainersText04::
-	.string "…Vaig perdre confiança en mi\n"
+	.string "…Després d'aquella trobada, vaig\n"
 
 
-	.string "mateixa pel nostre encontre.\p"
+	.string "perdre la confiança en mi mateixa.\p"
 
 
 	.string "Ens van vèncer abans de poder\n"
@@ -7221,10 +7324,10 @@ gTVInSearchOfTrainersText04::
 	.string "valen la pena de veure.\p"
 
 
-	.string "Recomano als Entrenadors confiats\n"
+	.string "Recomano als Entrenadors segurs\n"
 
 
-	.string "que desafiïn {PLAYER}.$"
+	.string "de si mateixos que desafiïn {PLAYER}.$"
 
 
 
@@ -7244,7 +7347,7 @@ gTVInSearchOfTrainersText05::
 	.string "les regles bàsiques.\p"
 
 
-	.string "A la nostra audiència, una petició.\p"
+	.string "Tinc una petició per a l'audiència.\p"
 
 
 	.string "Si veieu {PLAYER}, si us plau,\n"
@@ -7261,10 +7364,10 @@ gTVInSearchOfTrainersText06::
 	.string "accions de l'oponent.\p"
 
 
-	.string "El moment d'usar els objectes era\n"
+	.string "Sabia triar molt bé el moment\n"
 
 
-	.string "remarcablement efectiu!$"
+	.string "d'usar els objectes!$"
 
 
 
@@ -7281,10 +7384,10 @@ gTVInSearchOfTrainersText07::
 	.string "un combat molt disputat.\p"
 
 
-	.string "Però si lluites contra mi, encara\n"
+	.string "Però si et costa guanyar-me a mi,\n"
 
 
-	.string "et queda camí, {PLAYER}!$"
+	.string "encara et queda molt camí, {PLAYER}!$"
 
 
 
@@ -7310,10 +7413,10 @@ gTVInSearchOfTrainersText08::
 	.string "I “{STR_VAR_1}”…\p"
 
 
-	.string "Mmm! Profund! Hi ha un significat\n"
+	.string "Mmm! Quina profunditat! Aquesta frase\n"
 
 
-	.string "profund darrere d'aquesta cita!\p"
+	.string "amaga un significat molt profund!\p"
 
 
 	.string "No és cap sorpresa: un bon Entrenador\n"
@@ -7330,7 +7433,7 @@ gTVInSearchOfTrainersText08::
 
 
 ContestLadyShow_Text_Intro::
-	.string "“Concurs Pokémon EN DIRECTE!”\p"
+	.string "“Concurs Pokémon en Directe!”\p"
 
 
 	.string "Presentador: Perdoneu la interrupció\n"
@@ -7345,7 +7448,7 @@ ContestLadyShow_Text_Intro::
 	.string "del lloc d'un {STR_VAR_1}\l"
 
 
-	.string "acabat de completar!\p"
+	.string "que acaba de finalitzar!\p"
 
 
 	.string "Espectadors: ?!!!!\p"
@@ -7360,7 +7463,7 @@ ContestLadyShow_Text_Intro::
 	.string "Intentaré aconseguir una entrevista\n"
 
 
-	.string "improvisada per vosaltres!\p"
+	.string "improvisada per a vosaltres!\p"
 
 
 	.string "Espectadors: ?!!!!\n"
@@ -7460,10 +7563,10 @@ ContestLadyShow_Text_Lost::
 	.string "Noia: {STR_VAR_3}, ho sento molt…\n"
 
 
-	.string "Ho faré millor, ho prometo…\l"
+	.string "La propera vegada ho faré millor,\l"
 
 
-	.string "…Snif… Buaaaa!\p"
+	.string "ho prometo… …Snif… Buaaaa!\p"
 
 
 	.string "Espectadors: Heu vist?\n"
@@ -7492,13 +7595,16 @@ ContestLadyShow_Text_LostBadly::
 	.string "Com ha anat la teva participació?\p"
 
 
-	.string "Noia: Res ha anat bé…\n"
+	.string "Noia: No ha anat res bé…\n"
 
 
 	.string "Per alguna raó, el meu {STR_VAR_2}\l"
 
 
-	.string "no atreia gens de popularitat.\p"
+	.string "no ha aconseguit gens de\l"
+
+
+	.string "popularitat.\p"
 
 
 	.string "Presentador: No ho vull dir, però la\n"

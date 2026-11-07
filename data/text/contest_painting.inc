@@ -1,28 +1,28 @@
 gContestHallPaintingCaption::
 	.string "{STR_VAR_1}\n"
-	.string "{STR_VAR_2}'s {STR_VAR_3}$"
+	.string "{STR_VAR_3} de {STR_VAR_2}$"
 
 @ Unused
 gContestPaintingContest::
 	.string "Concurs$"
 
 gContestRankNormal::
-	.string "Rang Normal$"
+	.string "de Rang Normal$"
 
 gContestRankSuper::
-	.string "Rang Súper$"
+	.string "de Rang Súper$"
 
 gContestRankHyper::
-	.string "Rang Hiper$"
+	.string "de Rang Hiper$"
 
 gContestRankMaster::
-	.string "Rang Màster$"
+	.string "de Rang Màster$"
 
 gContestLink::
-	.string "Enllaç$"
+	.string "per Connexió$"
 
 gContestCoolness::
-	.string "Gràcia$"
+	.string "Frescor$"
 
 gContestBeauty::
 	.string "Bellesa$"
@@ -31,13 +31,13 @@ gContestCuteness::
 	.string "Tendresa$"
 
 gContestSmartness::
-	.string "Saviesa$"
+	.string "Intel·ligència$"
 
 gContestToughness::
-	.string "Potència$"
+	.string "Força$"
 
 gContestPaintingCool1::
-	.string "Sense parar, supercool--\n"
+	.string "Genial sense aturador--\n"
 	.string "l'inestimable {STR_VAR_1}$"
 
 gContestPaintingCool2::
@@ -57,7 +57,7 @@ gContestPaintingBeauty2::
 	.string "i escintil·lant de {STR_VAR_1}$"
 
 gContestPaintingBeauty3::
-	.string "El super ídol del Centre Pokémon--\n"
+	.string "El superídol del Centre Pokémon--\n"
 	.string "l'incomparable {STR_VAR_1}$"
 
 gContestPaintingCute1::

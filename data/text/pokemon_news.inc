@@ -3,31 +3,34 @@ gPokeNewsTextSlateport_Upcoming::
 	.string "Benvinguts!\n"
 
 
-	.string "Hora de les Notícies Pokémon.\p"
+	.string "És l'hora de les Notícies Pokémon.\p"
 
 
-	.string "El Gurú de l'Energia de Slateport,\n"
+	.string "El personatge més popular de\n"
 
 
-	.string "el personatge més popular, torna!\p"
+	.string "Slateport, el Gurú de l'Energia,\l"
 
 
-	.string "Promet “anar-hi a tope en\n"
+	.string "torna a ser notícia!\p"
 
 
-	.string "exactament {STR_VAR_1} dies!”\p"
+	.string "Promet: “Ho donaré tot com mai!\n"
 
 
-	.string "Tot i que no ha volgut aclarir a\n"
+	.string "Falten pocs dies: {STR_VAR_1}!”\p"
 
 
-	.string "què anirà a tope, el Gurú de\l"
+	.string "Tot i que no ha volgut aclarir\n"
 
 
-	.string "l'Energia ha dit: “Estalvieu.\l"
+	.string "què vol dir “donar-ho tot”, el Gurú\l"
 
 
-	.string "Això serà bo…”\p"
+	.string "de l'Energia ha aconsellat:\l"
+
+
+	.string "“Estalvieu diners. Us anirà bé…”\p"
 
 
 	.string "Sembla que valdrà la pena visitar\n"
@@ -36,7 +39,7 @@ gPokeNewsTextSlateport_Upcoming::
 	.string "Slateport aquell dia.\p"
 
 
-	.string "Això és tot per a les Notícies Pokémon.$"
+	.string "I fins aquí les Notícies Pokémon.$"
 
 
 
@@ -44,7 +47,7 @@ gPokeNewsTextSlateport_Ongoing::
 	.string "Benvinguts!\n"
 
 
-	.string "Hora de les Notícies Pokémon.\p"
+	.string "És l'hora de les Notícies Pokémon.\p"
 
 
 	.string "Aquesta és la notícia que\n"
@@ -56,7 +59,7 @@ gPokeNewsTextSlateport_Ongoing::
 	.string "El Gurú de l'Energia de Slateport\n"
 
 
-	.string "va a tope al Mercat!\p"
+	.string "ho està donant tot al Mercat!\p"
 
 
 	.string "Promet preus de ganga imbatibles\n"
@@ -65,16 +68,16 @@ gPokeNewsTextSlateport_Ongoing::
 	.string "en Calci i Proteïna!\p"
 
 
-	.string "Visitar Slateport sembla que\n"
+	.string "Val la pena fer una visita a\n"
 
 
-	.string "val la pena. Per què no anireu\l"
+	.string "Ciutat Slateport. Per què no hi\l"
 
 
-	.string "a comprar fins on podeu?\p"
+	.string "aneu a comprar tant com vulgueu?\p"
 
 
-	.string "Això és tot per a les Notícies Pokémon.$"
+	.string "I fins aquí les Notícies Pokémon.$"
 
 
 
@@ -82,7 +85,7 @@ gPokeNewsTextSlateport_Ending::
 	.string "Benvinguts!\n"
 
 
-	.string "Hora de les Notícies Pokémon.\p"
+	.string "És l'hora de les Notícies Pokémon.\p"
 
 
 	.string "Aquesta és la notícia que\n"
@@ -94,7 +97,7 @@ gPokeNewsTextSlateport_Ending::
 	.string "El Gurú de l'Energia de Slateport\n"
 
 
-	.string "va a tope al Mercat!\p"
+	.string "ho està donant tot al Mercat!\p"
 
 
 	.string "Promet preus de ganga imbatibles\n"
@@ -109,13 +112,13 @@ gPokeNewsTextSlateport_Ending::
 	.string "li queda força mercaderia.\p"
 
 
-	.string "Per què no visiteu Slateport per\n"
+	.string "Per què no visiteu Ciutat Slateport\n"
 
 
-	.string "fer una agradable compra?\p"
+	.string "i feu unes compres ben agradables?\p"
 
 
-	.string "Això és tot per a les Notícies Pokémon.$"
+	.string "I fins aquí les Notícies Pokémon.$"
 
 
 
@@ -123,28 +126,31 @@ gPokeNewsTextGameCorner_Upcoming::
 	.string "Benvinguts!\n"
 
 
-	.string "Hora de les Notícies Pokémon.\p"
+	.string "És l'hora de les Notícies Pokémon.\p"
 
 
 	.string "S'acosta!\n"
 
 
-	.string "Finalment ve!\p"
+	.string "Ja falta poc!\p"
 
 
-	.string "El dia de servei del Saló de Jocs\n"
+	.string "El dia de promoció de la Sala\n"
 
 
-	.string "arribarà en {STR_VAR_1} dies!\p"
+	.string "de Jocs arribarà aviat.\l"
 
 
-	.string "Fins i tot els que solen tenir\n"
+	.string "Dies que falten: {STR_VAR_1}!\p"
 
 
-	.string "mala sort podrien tenir-ne aquell dia!\p"
+	.string "Fins i tot els qui no solen tenir\n"
 
 
-	.string "Això és tot per a les Notícies Pokémon.$"
+	.string "sort la podrien tenir aquell dia!\p"
+
+
+	.string "I fins aquí les Notícies Pokémon.$"
 
 
 
@@ -152,34 +158,34 @@ gPokeNewsTextGameCorner_Ongoing::
 	.string "Benvinguts!\n"
 
 
-	.string "Hora de les Notícies Pokémon.\p"
+	.string "És l'hora de les Notícies Pokémon.\p"
 
 
 	.string "Ja és aquí!\n"
 
 
-	.string "Finalment ha arribat!\p"
+	.string "Per fi ha arribat!\p"
 
 
-	.string "El dia de servei del Saló de Jocs\n"
+	.string "Ha arribat el dia de promoció\n"
 
 
-	.string "finalment ha arribat!\p"
+	.string "de la Sala de Jocs!\p"
 
 
-	.string "Podries tenir sort a les Màquines\n"
+	.string "Tindreu sort a les\n"
 
 
-	.string "i la Ruleta?\p"
+	.string "escurabutxaques i a la ruleta?\p"
 
 
-	.string "Al Saló de Jocs a Ciutat Mauville.\n"
+	.string "És a Ciutat Mauville.\n"
 
 
 	.string "Aquest és el lloc!\p"
 
 
-	.string "Això és tot per a les Notícies Pokémon.$"
+	.string "I fins aquí les Notícies Pokémon.$"
 
 
 
@@ -187,34 +193,34 @@ gPokeNewsTextGameCorner_Ending::
 	.string "Benvinguts!\n"
 
 
-	.string "Hora de les Notícies Pokémon.\p"
+	.string "És l'hora de les Notícies Pokémon.\p"
 
 
 	.string "Ja és aquí!\n"
 
 
-	.string "Finalment ha arribat!\p"
+	.string "Per fi ha arribat!\p"
 
 
-	.string "El dia de servei del Saló de Jocs\n"
+	.string "Ha arribat el dia de promoció\n"
 
 
-	.string "finalment ha arribat!\p"
+	.string "de la Sala de Jocs!\p"
 
 
-	.string "Podries tenir sort a les Màquines\n"
+	.string "Tindreu sort a les\n"
 
 
-	.string "i la Ruleta?\p"
+	.string "escurabutxaques i a la ruleta?\p"
 
 
-	.string "El temps és limitat i gairebé s'acaba.\n"
+	.string "Queda molt poc temps!\n"
 
 
-	.string "El lloc és Ciutat Mauville.\p"
+	.string "És a Ciutat Mauville.\p"
 
 
-	.string "Això és tot per a les Notícies Pokémon.$"
+	.string "I fins aquí les Notícies Pokémon.$"
 
 
 
@@ -222,7 +228,7 @@ gPokeNewsTextLilycove_Upcoming::
 	.string "Benvinguts!\n"
 
 
-	.string "Hora de les Notícies Pokémon.\p"
+	.string "És l'hora de les Notícies Pokémon.\p"
 
 
 	.string "Acabem de rebre notícies meravelloses\n"
@@ -231,19 +237,19 @@ gPokeNewsTextLilycove_Upcoming::
 	.string "dels Grans Magatzems de Lilycove.\p"
 
 
-	.string "La venda de liquidació dels Grans\n"
+	.string "Dies que falten per a la liquidació\n"
 
 
-	.string "Magatzems serà en {STR_VAR_1} dies!\p"
+	.string "dels Grans Magatzems: {STR_VAR_1}!\p"
 
 
-	.string "Aquella cosa que sempre has volgut\n"
+	.string "Aquell estri o aquell trasto que\n"
 
 
-	.string "podria ser teva!\p"
+	.string "sempre has volgut podria ser teu!\p"
 
 
-	.string "Això és tot per a les Notícies Pokémon.$"
+	.string "I fins aquí les Notícies Pokémon.$"
 
 
 
@@ -251,7 +257,7 @@ gPokeNewsTextLilycove_Ongoing::
 	.string "Benvinguts!\n"
 
 
-	.string "Hora de les Notícies Pokémon.\p"
+	.string "És l'hora de les Notícies Pokémon.\p"
 
 
 	.string "Aquesta és la notícia que\n"
@@ -260,25 +266,25 @@ gPokeNewsTextLilycove_Ongoing::
 	.string "tots esperàveu!\p"
 
 
-	.string "La venda de liquidació dels Grans\n"
+	.string "Per fi ha arribat la liquidació\n"
 
 
-	.string "Magatzems de Lilycove ha arribat!\p"
+	.string "dels Grans Magatzems de Lilycove!\p"
 
 
-	.string "Totes aquelles coses amb les quals\n"
+	.string "Tots aquells estris i trastos\n"
 
 
-	.string "sempre has somiat…\p"
+	.string "amb què sempre has somiat…\p"
 
 
-	.string "Podries tenir encontres fatídics\n"
+	.string "Potser el destí t'hi té reservada\n"
 
 
-	.string "amb totes elles!\p"
+	.string "una trobada amb tots ells!\p"
 
 
-	.string "Això és tot per a les Notícies Pokémon.$"
+	.string "I fins aquí les Notícies Pokémon.$"
 
 
 
@@ -286,7 +292,7 @@ gPokeNewsTextLilycove_Ending::
 	.string "Benvinguts!\n"
 
 
-	.string "Hora de les Notícies Pokémon.\p"
+	.string "És l'hora de les Notícies Pokémon.\p"
 
 
 	.string "Aquesta és la notícia que\n"
@@ -295,25 +301,25 @@ gPokeNewsTextLilycove_Ending::
 	.string "tots esperàveu!\p"
 
 
-	.string "La venda de liquidació dels Grans\n"
+	.string "Per fi ha arribat la liquidació\n"
 
 
-	.string "Magatzems de Lilycove ha arribat!\p"
+	.string "dels Grans Magatzems de Lilycove!\p"
 
 
-	.string "Totes aquelles coses amb les quals\n"
+	.string "Tots aquells estris i trastos\n"
 
 
-	.string "sempre has somiat…\p"
+	.string "amb què sempre has somiat…\p"
 
 
-	.string "Podries tenir encontres fatídics\n"
+	.string "Potser el destí t'hi té reservada\n"
 
 
-	.string "amb totes elles!\p"
+	.string "una trobada amb tots ells!\p"
 
 
-	.string "Això és tot per a les Notícies Pokémon.$"
+	.string "I fins aquí les Notícies Pokémon.$"
 
 
 
@@ -321,7 +327,7 @@ gPokeNewsTextBlendMaster_Upcoming::
 	.string "Benvinguts!\n"
 
 
-	.string "Hora de les Notícies Pokémon.\p"
+	.string "És l'hora de les Notícies Pokémon.\p"
 
 
 	.string "Tenim grans notícies per a tothom\n"
@@ -333,16 +339,16 @@ gPokeNewsTextBlendMaster_Upcoming::
 	.string "El llegendari Mestre Barrejador\n"
 
 
-	.string "apareixerà a Lilycove en\l"
+	.string "vindrà a Ciutat Lilycove!\l"
 
 
-	.string "tan sols {STR_VAR_1} dia(es) més!\p"
+	.string "Dies que falten: {STR_VAR_1}!\p"
 
 
 	.string "Es diu que el Mestre Barrejador\n"
 
 
-	.string "és el millor de tot Hoenn en\l"
+	.string "és el millor de tot Hoenn fent\l"
 
 
 	.string "girar la Batedora de Baies.\p"
@@ -357,7 +363,7 @@ gPokeNewsTextBlendMaster_Upcoming::
 	.string "en acció que guardin les seves Baies.\p"
 
 
-	.string "Això és tot per a les Notícies Pokémon.$"
+	.string "I fins aquí les Notícies Pokémon.$"
 
 
 
@@ -365,7 +371,7 @@ gPokeNewsTextBlendMaster_Ongoing::
 	.string "Benvinguts!\n"
 
 
-	.string "Hora de les Notícies Pokémon.\p"
+	.string "És l'hora de les Notícies Pokémon.\p"
 
 
 	.string "Tenim grans notícies per a tothom\n"
@@ -377,10 +383,10 @@ gPokeNewsTextBlendMaster_Ongoing::
 	.string "El llegendari Mestre Barrejador\n"
 
 
-	.string "finalment ha aparegut!\p"
+	.string "per fi ha arribat!\p"
 
 
-	.string "El Mestre Barrejador gira la\n"
+	.string "El Mestre Barrejador fa girar la\n"
 
 
 	.string "Batedora de Baies a la Sala de\l"
@@ -389,16 +395,16 @@ gPokeNewsTextBlendMaster_Ongoing::
 	.string "Concursos de Lilycove.\p"
 
 
-	.string "Aquells qui vulguin fer bons {POKEBLOCK}s\n"
+	.string "Els qui vulguin fer bons {POKEBLOCK}s\n"
 
 
-	.string "o veure el Mestre en acció\l"
+	.string "o veure el Mestre en acció,\l"
 
 
-	.string "haurien d'anar ràpid a Lilycove.\p"
+	.string "que s'afanyin a anar a Lilycove!\p"
 
 
-	.string "Això és tot per a les Notícies Pokémon.$"
+	.string "I fins aquí les Notícies Pokémon.$"
 
 
 
@@ -406,7 +412,7 @@ gPokeNewsTextBlendMaster_Ending::
 	.string "Benvinguts!\n"
 
 
-	.string "Hora de les Notícies Pokémon.\p"
+	.string "És l'hora de les Notícies Pokémon.\p"
 
 
 	.string "És increïble!\n"
@@ -442,6 +448,6 @@ gPokeNewsTextBlendMaster_Ending::
 	.string "Vés a Lilycove ara mateix!\p"
 
 
-	.string "Això és tot per a les Notícies Pokémon.$"
+	.string "I fins aquí les Notícies Pokémon.$"
 
 
