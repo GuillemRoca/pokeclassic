@@ -164,6 +164,12 @@ i els directoris dels grans magatzems han de coincidir.
 
 ### Classes d'entrenador
 
+Aquests són els noms complets, els dels diàlegs. La taula de classes
+(`trainer_class_names.h`) té un límit de 12 bytes i n'usa formes abreujades
+quan cal: Entr. {PKMN}, Entr. Cool, Cint. Negre, Guard.Ocells, Dom. Dragons,
+Noia Combat, Col·leccion., Germ. Germà, Maj. i Menor, Mestra Saló, Virt. Palau,
+Magnat Arena, Cap Fàbrica, Reina Llança, Rei Piràmide.
+
 | Anglès | Català |
 |--------|--------|
 | Pokémon Trainer | Entrenador Pokémon |
@@ -199,7 +205,7 @@ i els directoris dels grans magatzems han de coincidir.
 | Battle Girl | Noia de Combat |
 | Twins | Bessones |
 | Collector | Col·leccionista |
-| Interviewer | Entrevistador |
+| Interviewer | Periodista |
 | Guitarist | Guitarrista |
 | Rocker | Rocker |
 | Painter | Pintor/a |

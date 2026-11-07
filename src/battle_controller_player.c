@@ -1702,8 +1702,13 @@ static void MoveSelectionDisplayMoveNames(void)
     {
         MoveSelectionDestroyCursorAt(i);
         StringCopy(gDisplayedStringBattle, gMoveNames[moveInfo->moves[i]]);
+        // The move name windows show 64px (8 tiles, FONT_NARROW). Names that
+        // are wider (many 16-character Catalan names) are drawn condensed by
+        // 1px per glyph instead of being cut off.
+        BattleSetTextCondensed(GetStringWidth(FONT_NARROW, gDisplayedStringBattle, 0) > 64);
         // Prints on windows B_WIN_MOVE_NAME_1, B_WIN_MOVE_NAME_2, B_WIN_MOVE_NAME_3, B_WIN_MOVE_NAME_4
         BattlePutTextOnWindow(gDisplayedStringBattle, i + B_WIN_MOVE_NAME_1);
+        BattleSetTextCondensed(FALSE);
         if (moveInfo->moves[i] != MOVE_NONE)
             gNumberOfMovesToChoose++;
     }
@@ -2837,7 +2842,10 @@ static void PlayerHandleChooseAction(void)
 
     gBattlerControllerFuncs[gActiveBattler] = HandleChooseActionAfterDma3;
     BattleTv_ClearExplosionFaintCause();
+    // "Motxilla" at x=56 is 2px wider than the 96px window: draw the menu condensed.
+    BattleSetTextCondensed(TRUE);
     BattlePutTextOnWindow(gText_BattleMenu, B_WIN_ACTION_MENU);
+    BattleSetTextCondensed(FALSE);
 
     for (i = 0; i < 4; i++)
         ActionSelectionDestroyCursorAt(i);

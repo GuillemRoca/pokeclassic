@@ -1861,7 +1861,7 @@ const u8 gText_WhatWillPkmnDo2[] = _("Què farà\n{B_PLAYER_NAME}?");
 const u8 gText_WhatWillWallyDo[] = _("El Professor Oak\nestà pensant...");
 const u8 gText_LinkStandby[] = _("{PAUSE 16}Connexió en espera…");
 const u8 gText_BattleMenu[] = _("Lluitar{CLEAR_TO 56}Motxilla\nPokémon{CLEAR_TO 56}Fugir");
-const u8 gText_SafariZoneMenu[] = _("Ball{CLEAR_TO 56}{POKEBLOCK}\nAcostar-se{CLEAR_TO 56}Fugir");
+const u8 gText_SafariZoneMenu[] = _("Ball{CLEAR_TO 56}{POKEBLOCK}\nAcostar{CLEAR_TO 56}Fugir");
 const u8 gText_MoveInterfacePP[] = _("PU ");
 const u8 gText_MoveInterfaceType[] = _("Tipus/");
 const u8 gText_MoveInterfacePpType[] = _("{PALETTE 5}{COLOR_HIGHLIGHT_SHADOW DYNAMIC_COLOR4 DYNAMIC_COLOR5 DYNAMIC_COLOR6}PU\nTipus/");
@@ -3832,6 +3832,14 @@ static void ChooseTypeOfMoveUsedString(u8* dst)
     }
 }
 
+static bool8 sBattleTextCondensed;
+
+// While set, BattlePutTextOnWindow draws Latin text 1px per glyph narrower.
+void BattleSetTextCondensed(bool8 condensed)
+{
+    sBattleTextCondensed = condensed;
+}
+
 void BattlePutTextOnWindow(const u8 *text, u8 windowId)
 {
     const struct BattleWindowText *textInfo = sBattleTextOnWindowsInfo[gBattleScripting.windowsType];
@@ -3857,7 +3865,7 @@ void BattlePutTextOnWindow(const u8 *text, u8 windowId)
     printerTemplate.y = textInfo[windowId].y;
     printerTemplate.currentX = printerTemplate.x;
     printerTemplate.currentY = printerTemplate.y;
-    printerTemplate.letterSpacing = textInfo[windowId].letterSpacing;
+    printerTemplate.letterSpacing = sBattleTextCondensed ? TEXT_LETTER_SPACING_CONDENSED : textInfo[windowId].letterSpacing;
     printerTemplate.lineSpacing = textInfo[windowId].lineSpacing;
     printerTemplate.unk = 0;
     printerTemplate.fgColor = textInfo[windowId].fgColor;

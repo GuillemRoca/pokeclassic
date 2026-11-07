@@ -163,13 +163,13 @@ template that draws it:
 
 ### Known limitations
 
-- **Battle move names.** The battle move menu prints names in `FONT_NARROW` in
-  8-tile (64 px) windows (`B_WIN_MOVE_NAME_2..4`; slot 1 is 12 tiles). 154
-  Catalan names are wider than 64 px (49 English expansion names are too), so
-  their last letters are clipped in that menu only; everywhere else they are
-  shown in full. Widening the windows to 9 tiles would fit all but 33, but
-  their VRAM blocks (0x318–0x348 on BG0) share addresses with BG1's windows,
-  so it should be done and tested in an emulator, not blind.
+- **Battle move names** are printed in `FONT_NARROW` in 8-tile (64 px) windows
+  whose right edge is the menu frame, so the windows cannot be widened. 154
+  Catalan names are wider than 64 px; `MoveSelectionDisplayMoveNames` draws
+  those with `BattleSetTextCondensed()` (each glyph 1 px closer, spaces kept),
+  which fits every name (the widest, Psicopotenciador, becomes 62 px). The
+  action menu uses the same for "Motxilla", which is 2 px wider than its
+  column. Checked on screen in mGBA.
 - **Type names** are limited to 6 bytes (`TYPE_NAME_LENGTH`), hence the
   abbreviations Insec., Fant., Elèc., Psíq.
 - **Region-map popup** is 80 px in the narrow font; "Ciutat EverGrande"

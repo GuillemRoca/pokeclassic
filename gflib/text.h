@@ -158,6 +158,11 @@ bool16 TextPrinterWaitWithDownArrow(struct TextPrinter *textPrinter);
 bool16 TextPrinterWait(struct TextPrinter *textPrinter);
 void DrawDownArrow(u8 windowId, u16 x, u16 y, u8 bgColor, bool8 drawArrow, u8 *counter, u8 *yCoordIndex);
 s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing);
+
+// Printer letterSpacing value that draws Latin glyphs 1px closer together
+// (advance = glyph width - 1; spaces keep their width). Used to fit long
+// Catalan labels in the fixed-size battle menus.
+#define TEXT_LETTER_SPACING_CONDENSED 0xFF
 u8 RenderTextHandleBold(u8 *pixels, u8 fontId, u8 *str);
 u8 DrawKeypadIcon(u8 windowId, u8 keypadIconId, u16 x, u16 y);
 u8 GetKeypadIconTileOffset(u8 keypadIconId);

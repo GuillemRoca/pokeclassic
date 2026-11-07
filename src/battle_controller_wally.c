@@ -1198,7 +1198,10 @@ static void WallyHandleChooseAction(void)
     s32 i;
 
     gBattlerControllerFuncs[gActiveBattler] = HandleChooseActionAfterDma3;
+    // "Motxilla" at x=56 is 2px wider than the 96px window: draw the menu condensed.
+    BattleSetTextCondensed(TRUE);
     BattlePutTextOnWindow(gText_BattleMenu, B_WIN_ACTION_MENU);
+    BattleSetTextCondensed(FALSE);
 
     for (i = 0; i < 4; i++)
         ActionSelectionDestroyCursorAt(i);
