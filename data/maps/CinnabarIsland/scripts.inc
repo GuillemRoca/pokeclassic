@@ -130,7 +130,7 @@ CinnabarIsland_EventScript_Text_ReadyWhenYouAre:
 CinnabarIsland_EventScript_Text_LetsSail:
 	.string "Excel·lent! Salpem de seguida!\p"
 	.string "Trobem aquesta illa del\n"
-	.string "Vell Mapa Marí!$"
+	.string "Mapa Antic!$"
 
 Movement_CaptainEnterShip::
 	walk_up

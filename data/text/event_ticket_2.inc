@@ -51,7 +51,7 @@ EventTicket_Text_BrineyLetsSail:
 	.string "Anem a trobar aquesta illa al\n"
 
 
-	.string "Mapa Mar Vell!$"
+	.string "Mapa Antic!$"
 
 
 

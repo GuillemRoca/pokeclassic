@@ -424,8 +424,10 @@ static const u8 sText_PkmnGoodComeBack[] = _("{B_BUFF1}, molt bé!\nTorna!");
 static const u8 sText_Trainer1WithdrewPkmn[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\nha retirat {B_BUFF1}!");
 static const u8 sText_LinkTrainer1WithdrewPkmn[] = _("{B_LINK_OPPONENT1_NAME} ha retirat\n{B_BUFF1}!");
 static const u8 sText_LinkTrainer2WithdrewPkmn[] = _("{B_LINK_SCR_TRAINER_NAME} ha retirat\n{B_BUFF1}!");
-static const u8 sText_WildPkmnPrefix[] = _("Salvatge ");
-static const u8 sText_FoePkmnPrefix[] = _("Rival ");
+// Catalan puts the adjective after the name ("Pidgey salvatge", "Pidgey rival"),
+// so these are appended after the nickname rather than prepended to it.
+static const u8 sText_WildPkmnPrefix[] = _(" salvatge");
+static const u8 sText_FoePkmnPrefix[] = _(" rival");
 static const u8 sText_EmptyString8[] = _("");
 static const u8 sText_FoePkmnPrefix2[] = _("rival");
 static const u8 sText_AllyPkmnPrefix[] = _("teu");
@@ -2998,15 +3000,9 @@ static void GetBattlerNick(u32 battlerId, u8 *dst)
     if (GetBattlerSide(battlerId) != B_SIDE_PLAYER)                     \
     {                                                                   \
         if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)                     \
-            toCpy = sText_FoePkmnPrefix;                                \
+            suffix = sText_FoePkmnPrefix;                               \
         else                                                            \
-            toCpy = sText_WildPkmnPrefix;                               \
-        while (*toCpy != EOS)                                           \
-        {                                                               \
-            dst[dstID] = *toCpy;                                        \
-            dstID++;                                                    \
-            toCpy++;                                                    \
-        }                                                               \
+            suffix = sText_WildPkmnPrefix;                              \
     }                                                                   \
     GetBattlerNick(battlerId, text);                                    \
     toCpy = text;
@@ -3151,6 +3147,7 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
 {
     u32 dstID = 0; // if they used dstID, why not use srcID as well?
     const u8 *toCpy = NULL;
+    const u8 *suffix = NULL; // " salvatge"/" rival", copied after the name
     u8 text[30];
     u8 multiplayerId;
     s32 i;
@@ -3407,15 +3404,9 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
                 if (GetBattlerSide(gBattleScripting.battler) != B_SIDE_PLAYER)
                 {
                     if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
-                        toCpy = sText_FoePkmnPrefix;
+                        suffix = sText_FoePkmnPrefix;
                     else
-                        toCpy = sText_WildPkmnPrefix;
-                    while (*toCpy != EOS)
-                    {
-                        dst[dstID] = *toCpy;
-                        dstID++;
-                        toCpy++;
-                    }
+                        suffix = sText_WildPkmnPrefix;
                     GetMonData(&gEnemyParty[gBattleStruct->field_52], MON_DATA_NICKNAME, text);
                 }
                 else
@@ -3567,6 +3558,17 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
                 }
             }
 
+            if (suffix != NULL)
+            {
+                while (*suffix != EOS)
+                {
+                    dst[dstID] = *suffix;
+                    dstID++;
+                    suffix++;
+                }
+                suffix = NULL;
+            }
+
             if (*src == B_TXT_TRAINER1_LOSE_TEXT || *src == B_TXT_TRAINER2_LOSE_TEXT
                 || *src == B_TXT_TRAINER1_WIN_TEXT || *src == B_TXT_TRAINER2_WIN_TEXT)
             {
@@ -3669,15 +3671,17 @@ void ExpandBattleTextBuffPlaceholders(const u8 *src, u8 *dst)
             }
             else
             {
-                if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
-                    StringAppend(dst, sText_FoePkmnPrefix);
-                else
-                    StringAppend(dst, sText_WildPkmnPrefix);
-
                 GetMonData(&gEnemyParty[src[srcID + 2]], MON_DATA_NICKNAME, text);
             }
             StringGet_Nickname(text);
             StringAppend(dst, text);
+            if (GetBattlerSide(src[srcID + 1]) != B_SIDE_PLAYER)
+            {
+                if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
+                    StringAppend(dst, sText_FoePkmnPrefix);
+                else
+                    StringAppend(dst, sText_WildPkmnPrefix);
+            }
             srcID += 3;
             break;
         case B_BUFF_STAT: // stats

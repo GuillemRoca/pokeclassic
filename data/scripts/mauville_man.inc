@@ -874,7 +874,7 @@ MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderAction::
-	.string "Has usat un Buscaobjectes$"
+	.string "Has usat un Cercaobjectes$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderStory::
@@ -882,7 +882,7 @@ MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderStory::
 
 	.string "Entrenador anomenat {STR_VAR_3}.\p"
 
-	.string "Ha usat un Buscaobjectes\n"
+	.string "Ha usat un Cercaobjectes\n"
 
 	.string "{STR_VAR_1} vegades!\p"
 

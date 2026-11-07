@@ -795,7 +795,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_YoungsterReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerIntro::
 	.string "Uepa!\n"
-	.string "Soc l'Excursionista {STR_VAR_1}!$"
+	.string "Soc el Senderista {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_HikerMon1::
 	.string "Saps què porto?\n"
@@ -1603,7 +1603,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CamperReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerIntro::
 	.string "Hola!\n"
-	.string "Soc {STR_VAR_1}, una Excursionista!$"
+	.string "Soc {STR_VAR_1}, una Piqueniquera!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PicnickerMon1::
 	.string "Els Pokémon que he portat són\n"

@@ -38,7 +38,7 @@ sText_MysteryGiftOldSeaMapForYou:
 	.string "Gràcies per utilitzar el Sistema\n"
 	.string "de Regal Misteriós.\p"
 	.string "Deixa'm confirmar: ets {PLAYER}?\p"
-	.string "Hem rebut aquest Mapa Mar Vell\n"
+	.string "Hem rebut aquest Mapa Antic\n"
 	.string "adreçat a tu.$"
 
 sText_MysteryGiftOldSeaMapUseAtPort:

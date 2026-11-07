@@ -310,6 +310,9 @@ const struct OamData gOamData_BattleSpritePlayerSide =
 
 static const s8 sCenterToCornerVecXs[8] ={-32, -16, -16, -32, -32};
 
+// TYPE_NAME_LENGTH is 6 and the battle move-type window leaves ~34px for the
+// name, so long Catalan type names are abbreviated with a period (Insec.,
+// Fant., Elèc., Psíq.) rather than cut mid-word.
 const u8 gTypeNames[NUMBER_OF_MON_TYPES][TYPE_NAME_LENGTH + 1] =
 {
     [TYPE_NORMAL] = _("Normal"),
@@ -318,15 +321,15 @@ const u8 gTypeNames[NUMBER_OF_MON_TYPES][TYPE_NAME_LENGTH + 1] =
     [TYPE_POISON] = _("Verí"),
     [TYPE_GROUND] = _("Terra"),
     [TYPE_ROCK] = _("Roca"),
-    [TYPE_BUG] = _("Insect"),
-    [TYPE_GHOST] = _("Fantas"),
+    [TYPE_BUG] = _("Insec."),
+    [TYPE_GHOST] = _("Fant."),
     [TYPE_STEEL] = _("Acer"),
     [TYPE_MYSTERY] = _("???"),
     [TYPE_FIRE] = _("Foc"),
     [TYPE_WATER] = _("Aigua"),
     [TYPE_GRASS] = _("Planta"),
-    [TYPE_ELECTRIC] = _("Elèctr"),
-    [TYPE_PSYCHIC] = _("Psíqui"),
+    [TYPE_ELECTRIC] = _("Elèc."),
+    [TYPE_PSYCHIC] = _("Psíq."),
     [TYPE_ICE] = _("Gel"),
     [TYPE_DRAGON] = _("Drac"),
     [TYPE_DARK] = _("Fosc"),

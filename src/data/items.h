@@ -169,7 +169,7 @@ const struct Item gItems[] =
 
     [ITEM_PREMIER_BALL] =
     {
-        .name = _("Ball Premiat"),
+        .name = _("Premier Ball"),
         .itemId = ITEM_PREMIER_BALL,
         .price = 200,
         .description = sPremierBallDesc,
@@ -2765,7 +2765,7 @@ const struct Item gItems[] =
 
     [ITEM_ITEMFINDER] =
     {
-        .name = _("Buscaobjectes"),
+        .name = _("Cercaobjectes"),
         .itemId = ITEM_ITEMFINDER,
         .price = 0,
         .description = sItemfinderDesc,
@@ -4175,7 +4175,7 @@ const struct Item gItems[] =
 
     [ITEM_OLD_SEA_MAP] =
     {
-        .name = _("Mapa Mar Vell"),
+        .name = _("Mapa Antic"),
         .itemId = ITEM_OLD_SEA_MAP,
         .price = 0,
         .description = sOldSeaMapDesc,

@@ -92,7 +92,7 @@ Movement_CaptainExit2::
 CinnabarIsland_House_Text_WhatsThatYeGot::
 	.string "Apa!\p"
 	.string "Què tens aquí, nano?\p"
-	.string "...És un Vell Mapa Marí!\p"
+	.string "...És un Mapa Antic!\p"
 	.string "Escolta...he donat la volta al\n"
 	.string "món més cops dels que hi ha\l"
 	.string "Pokémon, i goso dir que mai no havia\l"

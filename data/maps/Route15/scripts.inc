@@ -191,7 +191,7 @@ Route15_Text_BeckyDefeat::
     .string "No, error!$"
 
 Route15_Text_BeckyPostBattle::
-    .string "Em fan por els Ciclistes. Tenen\n"
+    .string "Em fan por els Motoristes. Tenen\n"
     .string "una pinta tan lletja i dolenta!$"
 
 Route15_EventScript_Celia::

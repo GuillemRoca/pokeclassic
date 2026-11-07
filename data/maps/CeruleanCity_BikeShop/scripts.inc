@@ -57,8 +57,8 @@ CeruleanCity_BikeShop_EventScript_AlreadyGotBicycle::
 CeruleanCity_BikeShop_Text_HowDoYouLikeNewBicycle::
 	.string "Què tal la teva nova Bicicleta?\n"
 	.string "T'agrada com va?\p"
-	.string "La pots portar pel Camí\n"
-	.string "Ciclista i fins i tot a coves!$"
+	.string "La pots portar pel Carril Bici\n"
+	.string "i fins i tot a les coves!$"
 
 CeruleanCity_BikeShop_EventScript_ExchangeBikeVoucher::
 	checkitem ITEM_BIKE_VOUCHER, 1

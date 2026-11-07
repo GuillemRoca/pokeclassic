@@ -133,7 +133,7 @@ Route11_EastEntrance_2F_EventScript_AlreadyGotReward::
 Route11_EastEntrance_2F_Text_ExplainReward::
     .string "Hi ha objectes al terra que\n"
     .string "poden estar amagats.\p"
-    .string "Fes servir el Buscaobjectes\n"
+    .string "Fes servir el Cercaobjectes\n"
     .string "per detectar objectes amagats.\p"
     .string "La màquina és una mica limitada.\n"
     .string "No pot precisar on són.\p"
