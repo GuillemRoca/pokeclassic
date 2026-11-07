@@ -1746,10 +1746,17 @@ static void DrawNormalTextEntryBox(void)
 
 static void DrawMonTextEntryBox(void)
 {
-    u8 buffer[32];
+    u8 buffer[64];
+    u8 savedVar1[POKEMON_NAME_LENGTH + 1];
 
-    StringCopy(buffer, gSpeciesNames[sNamingScreen->monSpecies]);
-    StringAppendN(buffer, sNamingScreen->template->title, 15);
+    // The title is a template with the species in {STR_VAR_1} ("Sobrenom per a
+    // {STR_VAR_1}?"). It used to be appended to the species name with
+    // StringAppendN(..., 15), which copies exactly 15 bytes and leaves the
+    // string unterminated whenever the title is 15 bytes or longer.
+    memcpy(savedVar1, gStringVar1, sizeof(savedVar1));
+    StringCopy(gStringVar1, gSpeciesNames[sNamingScreen->monSpecies]);
+    StringExpandPlaceholders(buffer, sNamingScreen->template->title);
+    memcpy(gStringVar1, savedVar1, sizeof(savedVar1));
     FillWindowPixelBuffer(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX], PIXEL_FILL(1));
     AddTextPrinterParameterized(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX], FONT_NORMAL, buffer, 8, 1, 0, 0);
     PutWindowTilemap(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX]);
