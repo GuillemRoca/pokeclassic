@@ -138,7 +138,7 @@ Route12_FishingHouse_EventScript_NewRecordMagikarp::
 
 Route12_FishingHouse_Text_WhoaXInchesTakeThis::
     .string "… … …Uau!\n"
-    .string "{STR_VAR_2} polzades!\p"
+    .string "{STR_VAR_2} cm!\p"
     .string "Saps apreciar com pocs\n"
     .string "l'aspecte més fi i poètic\l"
     .string "de la pesca!\p"
@@ -169,15 +169,15 @@ Route12_FishingHouse_Text_LookForwardToGreaterRecords::
 
 Route12_FishingHouse_Text_HuhXInchesSameSizeAsLast::
     .string "Eh?\n"
-    .string "{STR_VAR_2} polzades?\p"
+    .string "{STR_VAR_2} cm?\p"
     .string "Fa la mateixa mida que l'últim\n"
     .string "que vaig veure.$"
 
 Route12_FishingHouse_Text_HmmXInchesDoesntMeasureUp::
     .string "Hmm…\n"
-    .string "Fa {STR_VAR_2} polzades.\p"
-    .string "No arriba al de {STR_VAR_3}\n"
-    .string "polzades que vas portar abans.$"
+    .string "Fa {STR_VAR_2} cm.\p"
+    .string "No arriba als {STR_VAR_3} cm\n"
+    .string "del que vas portar abans.$"
 
 Route12_FishingHouse_Text_DoesntLookLikeMagikarp::
     .string "Ehm… Això no s'assembla gaire\n"
@@ -186,7 +186,7 @@ Route12_FishingHouse_Text_DoesntLookLikeMagikarp::
 Route12_FishingHouse_Text_MostGiganticMagikarpXInches::
     .string "El Magikarp més gegant que\n"
     .string "he vist mai…\p"
-    .string "{STR_VAR_3} polzades!$"
+    .string "{STR_VAR_3} cm!$"
 
 Route12_FishingHouse_Text_BlankChartOfSomeSort::
     .string "És una mena de taula en blanc.\p"

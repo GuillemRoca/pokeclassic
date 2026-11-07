@@ -17,11 +17,9 @@
 
 #define ENGLISH
 
-#ifdef ENGLISH
-#define UNITS_IMPERIAL
-#else
+// The Catalan localisation uses metric units (Pokédex height/weight, size
+// records), as the European releases do, regardless of ENGLISH.
 #define UNITS_METRIC
-#endif
 
 // Uncomment to fix some identified minor bugs
 #define BUGFIX

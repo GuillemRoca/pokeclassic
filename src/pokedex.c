@@ -268,6 +268,7 @@ static void SpriteCB_SlideCaughtMonToCenter(struct Sprite *sprite);
 static void PrintMonInfo(u32 num, u32, u32 owned, u32 newEntry);
 static void PrintMonHeight(u16 height, u8 left, u8 top);
 static void PrintMonWeight(u16 weight, u8 left, u8 top);
+#define METRIC_SIZE_FIELD_WIDTH 44 // "950,0 kg" is 42px in FONT_NORMAL
 static void ResetOtherVideoRegisters(u16);
 static u8 PrintCryScreenSpeciesName(u8, u16, u8, u8);
 static void DrawFootprint(u8 windowId, u16 dexNum);
@@ -4136,8 +4137,13 @@ static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
     }
     else
     {
+#ifdef UNITS_METRIC
+        PrintInfoScreenText(gText_UnkHeight, 0x81 + GetStringRightAlignXOffset(FONT_NORMAL, gText_UnkHeight, METRIC_SIZE_FIELD_WIDTH), 0x39);
+        PrintInfoScreenText(gText_UnkWeight, 0x81 + GetStringRightAlignXOffset(FONT_NORMAL, gText_UnkWeight, METRIC_SIZE_FIELD_WIDTH), 0x49);
+#else
         PrintInfoScreenText(gText_UnkHeight, 0x81, 0x39);
         PrintInfoScreenText(gText_UnkWeight, 0x81, 0x49);
+#endif
     }
     if (owned)
         description = gPokedexEntries[num].description;
@@ -4146,6 +4152,35 @@ static void PrintMonInfo(u32 num, u32 value, u32 owned, u32 newEntry)
     PrintInfoScreenText(description, GetStringCenterAlignXOffset(FONT_NORMAL, description, 0xF0), 0x5F);
 }
 
+#ifdef UNITS_METRIC
+// Height is stored in decimetres and weight in hectograms. Print them in metres
+// and kilograms with a decimal comma ("1,7 m", "6,9 kg"), right-aligned in a
+// field wide enough for the largest value ("950,0 kg").
+static void PrintMetricSize(u16 value, u8 unit1, u8 unit2, u8 left, u8 top)
+{
+    u8 buffer[16];
+    u8 *ptr = ConvertIntToDecimalStringN(buffer, value / 10, STR_CONV_MODE_LEFT_ALIGN, 3);
+
+    *ptr++ = CHAR_COMMA;
+    *ptr++ = (value % 10) + CHAR_0;
+    *ptr++ = CHAR_SPACE;
+    *ptr++ = unit1;
+    if (unit2 != EOS)
+        *ptr++ = unit2;
+    *ptr = EOS;
+    PrintInfoScreenText(buffer, left + GetStringRightAlignXOffset(FONT_NORMAL, buffer, METRIC_SIZE_FIELD_WIDTH), top);
+}
+
+static void PrintMonHeight(u16 height, u8 left, u8 top)
+{
+    PrintMetricSize(height, CHAR_m, EOS, left, top);
+}
+
+static void PrintMonWeight(u16 weight, u8 left, u8 top)
+{
+    PrintMetricSize(weight, CHAR_k, CHAR_g, left, top);
+}
+#else
 static void PrintMonHeight(u16 height, u8 left, u8 top)
 {
     u8 buffer[16];
@@ -4236,6 +4271,7 @@ static void PrintMonWeight(u16 weight, u8 left, u8 top)
     buffer[i++] = EOS;
     PrintInfoScreenText(buffer, left, top);
 }
+#endif // UNITS_METRIC
 
 const u8 *GetPokedexCategoryName(u16 dexNum) // unused
 {
