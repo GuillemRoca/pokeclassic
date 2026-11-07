@@ -929,7 +929,7 @@ BattleFrontier_BattleDomeBattleRoom_Text_PlayerHasEnteredDome:
 	.string "{PLAYER} ha entrat al Domo de Combat!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTrainer:
-	.string "Combat de\n"
+	.string "Combat de la\n"
 	.string "{STR_VAR_1}!\p"
 	.string "{PLAYER} contra {STR_VAR_2}!\p"
 	.string "Que comenci el combat!$"
@@ -956,23 +956,23 @@ BattleFrontier_BattleDomeBattleRoom_Text_RefereeDecisionPleaseWait:
 	.string "Quin final increïble!\n"
 	.string "Tenim un doble KO!\p"
 	.string "En aquest cas, les regles del Torneig\n"
-	.string "demanen la decisió de l'Àrbitre.\p"
+	.string "demanen la decisió de l'àrbitre.\p"
 	.string "Espereu mentre es fa\n"
 	.string "la deliberació.$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTrainer:
-	.string "Els Àrbitres han pres\n"
+	.string "Els àrbitres han pres\n"
 	.string "una decisió!\p"
 	.string "El guanyador és…\n"
-	.string "Oh, déu meu!\l"
+	.string "Oh, Déu meu!\l"
 	.string "El guanyador és {STR_VAR_1}!\l"
 	.string "Felicitats!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerPlayer:
-	.string "Els Àrbitres han pres\n"
+	.string "Els àrbitres han pres\n"
 	.string "una decisió!\p"
 	.string "El guanyador és…\n"
-	.string "Oh, déu meu!\l"
+	.string "Oh, Déu meu!\l"
 	.string "El guanyador és {PLAYER}!\l"
 	.string "Felicitats!$"
 
@@ -1005,13 +1005,13 @@ BattleFrontier_BattleDomeBattleRoom_Text_OnFireForChampionship:
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WinHereAdvancesToFinal:
-	.string "Una victòria aquí significa que\n"
-	.string "avança a la final!\p"
+	.string "Si guanya aquí, aquest Entrenador\n"
+	.string "passarà a la final!\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_WillLongHeldDreamComeTrue:
-	.string "Es farà realitat el somni\n"
-	.string "d'un campionat?\p"
+	.string "Es complirà per fi el vell somni\n"
+	.string "de guanyar el campionat?\p"
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TheInvincibleChampion:
@@ -1052,15 +1052,15 @@ BattleFrontier_BattleDomeBattleRoom_Text_WillFormerChampRegainGlory:
 	.string "$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_FeelGlowOfTrueMaster:
-	.string "Sentiu la brillantor d'un mestre!$"
+	.string "Sentiu la llum d'un autèntic mestre!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_MakeWayForDomeAceTucker:
 	.string "I ara… L'Entrenador que s'interposa\n"
-	.string "en el camí rècord de {PLAYER}…\p"
+	.string "en el camí cap al rècord de {PLAYER}…\p"
 	.string "Sí! L'únic i inigualable!\n"
 	.string "El Comissari del Domo de Combat!\l"
 	.string "El nostre As del Domo!\l"
-	.string "Pas a Tucker!$"
+	.string "Feu pas a en Tucker!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_SpectatorTuckerChant:
 	.string "Espectadors: Tucker! Tucker!\n"
@@ -1111,8 +1111,8 @@ BattleFrontier_BattleDomeBattleRoom_Text_CanWinStreakBeStretched:
 BattleFrontier_BattleDomeBattleRoom_Text_LegendHasReturnedDomeAceTucker:
 	.string "Senyores i senyors!\n"
 	.string "Nois, noies i Pokémon!\p"
-	.string "Finalment!\n"
-	.string "Finalment, la llegenda ha tornat!\p"
+	.string "Per fi!\n"
+	.string "Per fi, la llegenda ha tornat!\p"
 	.string "Sí, el nom d'aquesta llegenda!\n"
 	.string "El nostre As del Domo!\l"
 	.string "No és altre que Tucker!$"
@@ -1120,11 +1120,11 @@ BattleFrontier_BattleDomeBattleRoom_Text_LegendHasReturnedDomeAceTucker:
 BattleFrontier_BattleDomeBattleRoom_Text_TuckerGoldIntro:
 	.string "Tucker: Ah…\n"
 	.string "El rugit del públic…\l"
-	.string "La seva calor d'emoció…\l"
+	.string "La seva emoció, ardent com un forn…\l"
 	.string "Aquest és un lloc meravellós…\p"
-	.string "Pel públic, soc l'As del Domo…\n"
+	.string "Per al públic, soc l'As del Domo…\n"
 	.string "Represento les seves esperances…\l"
-	.string "No puc desaparèixer mai de la seva vista…\p"
+	.string "No puc esvair-me mai de la seva vista…\p"
 	.string "He de cremar!\n"
 	.string "Més brillant i més resplendent!\l"
 	.string "He d'il·luminar tots els presents!$"
@@ -1134,10 +1134,10 @@ BattleFrontier_BattleDomeBattleRoom_Text_UnleashAllPowerIPossess:
 	.string "posseeixo! Aquí i ara!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_NeverLostWhenPowerUnleashed:
-	.string "Tucker: Ets genuïnament fantàstic!\p"
+	.string "Tucker: Ets realment fantàstic!\p"
 	.string "Mai! No he perdut cap dels cops que\n"
 	.string "he hagut de deslliurar el meu poder.\p"
-	.string "Sí, força fantàstic!\n"
+	.string "Sí, ben fantàstic!\n"
 	.string "El teu Passi de Frontera, si us plau?$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_TacticsSymbolTookGoldenShine:
@@ -1170,11 +1170,12 @@ BattleFrontier_BattleDomeBattleRoom_Text_PlayerVersusTucker:
 	.string "Que comenci el combat!$"
 
 BattleFrontier_BattleDomeBattleRoom_Text_RefereesDecidedWinnerTucker:
-	.string "Els Àrbitres han pres\n"
+	.string "Els àrbitres han pres\n"
 	.string "una decisió!\p"
 	.string "El guanyador és…\n"
-	.string "Oh, déu meu!\l"
+	.string "Oh, Déu meu!\l"
 	.string "El guanyador és el nostre As del Domo!\l"
 	.string "És Tucker!\p"
 	.string "Felicitats! I gràcies!\n"
-	.string "Un aplaudiment per l'As del Domo, Tucker!$"
+	.string "Un aplaudiment per a l'As del Domo,\l"
+	.string "en Tucker!$"

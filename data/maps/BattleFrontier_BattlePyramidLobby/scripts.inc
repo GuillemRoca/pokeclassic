@@ -537,13 +537,13 @@ BattleFrontier_BattlePyramidLobby_Text_WelcomeToBattlePyramid:
 
 
 BattleFrontier_BattlePyramidLobby_Text_EmbarkOnChallenge:
-	.string "Tens el coratge per embarcar-te\n"
+	.string "Tens el coratge d'embarcar-te en el\n"
 
-	.string "en el desafiament de la Cerca?$"
+	.string "repte de la Cerca de Combat?$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_AwaitFutureChallenge:
-	.string "Esperem el teu desafiament futur!$"
+	.string "Esperarem el teu repte en el futur!$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainBattlePyramid:
@@ -555,25 +555,25 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainBattlePyramid:
 
 	.string "A la Piràmide hi ha set pisos de\n"
 
-	.string "laberints, plens no només\l"
+	.string "laberints, plens no només d'Entrenadors\l"
 
-	.string "d'Entrenadors sinó de Pokémon salvatges.\p"
+	.string "hàbils sinó també de Pokémon salvatges.\p"
 
 	.string "Has d'entrar amb tres Pokémon,\n"
 
-	.string "cap d'ells portant cap objecte.\p"
+	.string "sense que cap porti cap objecte.\p"
 
-	.string "Durant l'ascens, se't donarà\n"
+	.string "Per a l'ascens, et donarem una\n"
 
-	.string "una Bossa de Combat per objectes.\p"
+	.string "Motxilla de Combat per als objectes.\p"
 
-	.string "Si fracasses, qualsevol objecte\n"
+	.string "Si fracasses, qualsevol objecte de la\n"
 
-	.string "de la Bossa de Combat desapareix.\p"
+	.string "Motxilla de Combat desapareix.\p"
 
-	.string "Si vols interrompre el desafiament,\n"
+	.string "Si vols interrompre el repte,\n"
 
-	.string "has de seleccionar “Descans”\l"
+	.string "has de seleccionar “Descansar”\l"
 
 	.string "i desar la partida.\p"
 
@@ -583,11 +583,11 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainBattlePyramid:
 
 
 BattleFrontier_BattlePyramidLobby_Text_WhichLevelMode:
-	.string "La Piràmide ofereix dos cursos,\n"
+	.string "La Piràmide ofereix dues modalitats,\n"
 
 	.string "Nivell 50 i Nivell Obert.\l"
 
-	.string "A quin entraràs?$"
+	.string "Quina tries?$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_SelectThreeMons:
@@ -601,13 +601,13 @@ BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLvOpen:
 
 	.string "Sembla que no tens els tres\n"
 
-	.string "Pokémon qualificats per al desafiament.\p"
+	.string "Pokémon qualificats per al repte.\p"
 
 	.string "Recorda també treure tots els\n"
 
 	.string "objectes dels teus Pokémon.\p"
 
-	.string "Els Ous{STR_VAR_1} no són elegibles.\p"
+	.string "Els Ous{STR_VAR_1} exclosos.\p"
 
 	.string "Quan estiguis a punt, parla\n"
 
@@ -619,17 +619,17 @@ BattleFrontier_BattlePyramidLobby_Text_NotEnoughValidMonsLv50:
 
 	.string "Sembla que no tens els tres\n"
 
-	.string "Pokémon qualificats per al desafiament.\p"
+	.string "Pokémon qualificats per al repte.\p"
 
 	.string "Els tres Pokémon han de ser\n"
 
-	.string "diferents i cap per sobre del Nv. 50.\p"
+	.string "diferents i de Nivell 50 o inferior.\p"
 
 	.string "Recorda també treure tots els\n"
 
 	.string "objectes dels teus Pokémon.\p"
 
-	.string "Els Ous{STR_VAR_1} no són elegibles.\p"
+	.string "Els Ous{STR_VAR_1} exclosos.\p"
 
 	.string "Quan estiguis a punt, parla\n"
 
@@ -649,13 +649,13 @@ BattleFrontier_BattlePyramidLobby_Text_ShowYouIntoPyramid:
 
 
 BattleFrontier_BattlePyramidLobby_Text_WeWillHoldBagForSafekeeping:
-	.string "Guardarem la teva Bossa per\n"
+	.string "Guardarem la teva Motxilla per\n"
 
 	.string "seguretat, {PLAYER}, mentre explores.$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_PleaseTakePreviousBattleBag:
-	.string "A canvi, pren aquesta Bossa de\n"
+	.string "A canvi, pren aquesta Motxilla de\n"
 
 	.string "Combat, la que vas usar abans.$"
 
@@ -663,13 +663,13 @@ BattleFrontier_BattlePyramidLobby_Text_PleaseTakePreviousBattleBag:
 BattleFrontier_BattlePyramidLobby_Text_PleaseTakeThisBattleBag:
 	.string "A canvi, pren aquesta\n"
 
-	.string "Bossa de Combat.$"
+	.string "Motxilla de Combat.$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_ExchangedBagForBattleBag:
-	.string "{PLAYER} ha canviat la Bossa per\n"
+	.string "{PLAYER} ha canviat la Motxilla per\n"
 
-	.string "la Bossa de Combat.$"
+	.string "la Motxilla de Combat.$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_StepOnFloorPanel:
@@ -689,17 +689,17 @@ BattleFrontier_BattlePyramidLobby_Text_DidntSaveBeforeQuittingTakeBag:
 
 	.string "No vas desar abans d'acabar\n"
 
-	.string "el desafiament l'última vegada.\p"
+	.string "el repte l'última vegada.\p"
 
-	.string "Per tant, el teu desafiament ha\n"
+	.string "Per tant, el teu repte ha\n"
 
 	.string "estat desqualificat, ho sento.\p"
 
-	.string "Aquí tens la Bossa que\n"
+	.string "Aquí tens la Motxilla que\n"
 
 	.string "guardàvem per a tu.\p"
 
-	.string "{PLAYER} ha recuperat la Bossa.$"
+	.string "{PLAYER} ha recuperat la Motxilla.$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_YouveConqueredPyramid:
@@ -723,19 +723,21 @@ BattleFrontier_BattlePyramidLobby_Text_MonHoldingItemCannotTake:
 
 
 BattleFrontier_BattlePyramidLobby_Text_HeldItemsMovedToBag:
-	.string "Tots els objectes dels teus Pokémon\n"
+	.string "{PLAYER}, tots els objectes que porten\n"
 
-	.string "es mouran a la Bossa de Combat, {PLAYER}.$"
+	.string "els teus Pokémon aniran a la\l"
+
+	.string "Motxilla de Combat.$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_BagCannotHoldPickItemsToKeep:
-	.string "La Bossa de Combat no pot guardar\n"
+	.string "La Motxilla de Combat no pot guardar\n"
 
 	.string "tots els objectes, ho sento.\p"
 
-	.string "Tria els objectes que vols guardar\n"
+	.string "Tria quins objectes et quedes a la\n"
 
-	.string "a la Bossa i amb els teus Pokémon.$"
+	.string "Motxilla de Combat i als teus Pokémon.$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_LeastOneMonHoldingItem:
@@ -745,9 +747,9 @@ BattleFrontier_BattlePyramidLobby_Text_LeastOneMonHoldingItem:
 
 
 BattleFrontier_BattlePyramidLobby_Text_PickItemsToKeep:
-	.string "Tria els objectes que vols guardar\n"
+	.string "Tria quins objectes et quedes a la\n"
 
-	.string "a la Bossa i amb els teus Pokémon.$"
+	.string "Motxilla de Combat i als teus Pokémon.$"
 
 
 @ Unused
@@ -758,13 +760,13 @@ BattleFrontier_BattlePyramidLobby_Text_ReturnedEverythingMonsHeld:
 
 
 BattleFrontier_BattlePyramidLobby_Text_UsedBattleBagWillBeKept:
-	.string "La Bossa de Combat que has usat\n"
+	.string "La Motxilla de Combat que has usat\n"
 
-	.string "es guardarà pel pròxim desafiament.\p"
+	.string "es guardarà per al pròxim repte.\p"
 
-	.string "{PLAYER} ha lliurat la Bossa de Combat\n"
+	.string "{PLAYER} ha lliurat la Motxilla de Combat\n"
 
-	.string "per recuperar la Bossa.$"
+	.string "per recuperar la Motxilla.$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_RecordResultsWait:
@@ -775,7 +777,7 @@ BattleFrontier_BattlePyramidLobby_Text_RecordResultsWait:
 
 @ Unused
 BattleFrontier_BattlePyramidLobby_Text_ForConqueringPyramidTakeThis:
-	.string "Com a record per conquerir\n"
+	.string "Com a record per haver conquerit\n"
 
 	.string "la Piràmide de Combat, pren això.$"
 
@@ -791,27 +793,27 @@ BattleFrontier_BattlePyramidLobby_Text_ReceivedPrizeItem:
 BattleFrontier_BattlePyramidLobby_Text_BagIsFull:
 	.string "…Ah…\n"
 
-	.string "La teva Bossa sembla plena.\p"
+	.string "Sembla que la teva Motxilla és plena.\p"
 
 	.string "Torna quan hagis organitzat\n"
 
-	.string "el contingut de la Bossa.$"
+	.string "el contingut de la Motxilla.$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_DisappointingHereIsBag:
 	.string "Quina llàstima…\p"
 
-	.string "Aquí tens la Bossa que\n"
+	.string "Aquí tens la Motxilla que\n"
 
 	.string "guardàvem per a tu.\p"
 
-	.string "{PLAYER} ha recuperat la Bossa.$"
+	.string "{PLAYER} ha recuperat la Motxilla.$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_LookForwardToNextChallenge:
 	.string "Esperem amb ganes el teu\n"
 
-	.string "pròxim desafiament!$"
+	.string "pròxim repte!$"
 
 
 @ Unused
@@ -820,7 +822,7 @@ BattleFrontier_BattlePyramidLobby_Text_HereIsPrize:
 
 	.string "arribada!\p"
 
-	.string "Aquí tens el premi per conquerir\n"
+	.string "Aquí tens el premi per haver conquerit\n"
 
 	.string "la Piràmide.$"
 
@@ -876,9 +878,9 @@ BattleFrontier_BattlePyramidLobby_Text_HintPPWaste:
 
 	.string "…I veig els teus Pokémon sense\n"
 
-	.string "Punts de Poder i havent d'usar\l"
+	.string "Punts d'Ús i havent d'usar\l"
 
-	.string "Forcejada…$"
+	.string "Esforç…$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_HintLevitate:
@@ -886,7 +888,9 @@ BattleFrontier_BattlePyramidLobby_Text_HintLevitate:
 
 	.string "…I veig els teus Pokémon frustrats\n"
 
-	.string "per moviments Terra inútils…$"
+	.string "perquè els seus moviments\l"
+
+	.string "de tipus Terra no serveixen de res…$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_HintTrapAbility:
@@ -908,9 +912,9 @@ BattleFrontier_BattlePyramidLobby_Text_HintIce:
 
 
 BattleFrontier_BattlePyramidLobby_Text_HintExplosion:
-	.string "Veig moviments que posen en perill\n"
+	.string "Veig una pluja de moviments que posen\n"
 
-	.string "l'usuari…\p"
+	.string "en perill qui els usa…\p"
 
 	.string "…I veig els teus Pokémon caient\n"
 
@@ -922,7 +926,7 @@ BattleFrontier_BattlePyramidLobby_Text_HintPsychic:
 
 	.string "…I veig els teus Pokémon turmentats\n"
 
-	.string "per moviments Psíquics…$"
+	.string "per moviments de tipus Psíquic…$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_HintRock:
@@ -930,7 +934,7 @@ BattleFrontier_BattlePyramidLobby_Text_HintRock:
 
 	.string "…I veig els teus Pokémon patint\n"
 
-	.string "per moviments de Roca…$"
+	.string "per moviments de tipus Roca…$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_HintFighting:
@@ -938,17 +942,17 @@ BattleFrontier_BattlePyramidLobby_Text_HintFighting:
 
 	.string "…I veig els teus Pokémon colpejats\n"
 
-	.string "per moviments de Lluita…$"
+	.string "per moviments de tipus Lluita…$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_HintWeather:
-	.string "Dansa Pluja… Dia Assolellat…\n"
+	.string "Pluja… Dia Assolellat…\n"
 
-	.string "Tempesta de Sorra… Calamarsa…\p"
+	.string "Tempesta Sorra… Calabruix…\p"
 
 	.string "Veig Pokémon que es tornen més\n"
 
-	.string "forts amb el temps…\p"
+	.string "forts segons el clima…\p"
 
 	.string "…I veig els teus Pokémon confusos\n"
 
@@ -1044,9 +1048,9 @@ BattleFrontier_BattlePyramidLobby_Text_TrainersNoticeRunning:
 
 	.string "Així que, si vols evitar Entrenadors,\n"
 
-	.string "no els miris als ulls, i passa\l"
+	.string "no cridis la seva atenció i passa'ls\l"
 
-	.string "amb cautela i en silenci.$"
+	.string "pel costat amb cautela i en silenci.$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_LostLotOfItems:
@@ -1060,7 +1064,7 @@ BattleFrontier_BattlePyramidLobby_Text_LostLotOfItems:
 
 
 BattleFrontier_BattlePyramidLobby_Text_YouveDefeatedPyramidKing:
-	.string "Benvingut!\n"
+	.string "Benvingut de nou!\n"
 
 	.string "Has fet l'impensable!\p"
 
@@ -1078,7 +1082,8 @@ BattleFrontier_BattlePyramidLobby_Text_GiveYouTheseBattlePoints:
 
 
 BattleFrontier_BattlePyramidLobby_Text_RulesAreListed:
-	.string "Les regles de la Cerca estan llistades.$"
+	.string "Aquí hi ha les regles de la\n"
+	.string "Cerca de Combat.$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_ReadWhichHeading:
@@ -1090,7 +1095,7 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainMonRules:
 
 	.string "els Pokémon salvatges que hi apareixen\l"
 
-	.string "són reemplaçats per uns de diferents.\p"
+	.string "passen a ser d'altres espècies.\p"
 
 	.string "Explora, observa i aprèn quins tipus\n"
 
@@ -1098,9 +1103,9 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainMonRules:
 
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainTrainerRules:
-	.string "Hi ha Entrenadors amagats dins\n"
+	.string "Hi ha Entrenadors a l'aguait\n"
 
-	.string "la Piràmide.\p"
+	.string "dins de la Piràmide.\p"
 
 	.string "A cada pis, hi ha fins a\n"
 
@@ -1122,15 +1127,17 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainMazeRules:
 
 	.string "La llum augmenta cada cop que\n"
 
-	.string "derrotes un Pokémon o Entrenador.$"
+	.string "derrotes un Pokémon salvatge o un\l"
+
+	.string "Entrenador.$"
 
 
 BattleFrontier_BattlePyramidLobby_Text_ExplainBagRules:
-	.string "La Bossa de Combat fa de Bossa\n"
+	.string "La Motxilla de Combat fa de\n"
 
-	.string "mentre ets a la Piràmide.\p"
+	.string "Motxilla mentre ets a la Piràmide.\p"
 
-	.string "Hi ha dues Bosses de Combat\n"
+	.string "Hi ha dues Motxilles de Combat\n"
 
 	.string "separades, una per al Nivell 50\l"
 
@@ -1140,7 +1147,7 @@ BattleFrontier_BattlePyramidLobby_Text_ExplainBagRules:
 
 	.string "unitats de deu tipus d'objectes.\p"
 
-	.string "El contingut de la Bossa de Combat\n"
+	.string "El contingut de la Motxilla de Combat\n"
 
 	.string "es perd si fracasses a la cerca.$"
 

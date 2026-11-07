@@ -268,30 +268,30 @@ BattleFrontier_BattlePike_EventScript_CloseCurtain::
 	return
 
 BattleFrontier_BattlePikeLobby_Text_WelcomeToBattlePike:
-	.string "On la sort dels Entrenadors\n"
-	.string "és posada a prova…\p"
+	.string "On es posa a prova la sort\n"
+	.string "dels Entrenadors…\p"
 	.string "Benvingut a la Llança de Combat…\p"
 	.string "Soc la teva guia de la Llança…$"
 
 BattleFrontier_BattlePikeLobby_Text_TakeChallenge:
-	.string "Vols acceptar el desafiament\n"
+	.string "Vols acceptar el repte\n"
 	.string "d'Elecció de Combat?$"
 
 BattleFrontier_BattlePikeLobby_Text_ExplainBattlePike:
-	.string "Aquí celebrem un esdeveniment que es diu\n"
-	.string "l'Elecció de Combat.\p"
+	.string "Aquí celebrem un esdeveniment\n"
+	.string "anomenat l'Elecció de Combat.\p"
 	.string "Les regles són molt simples…\p"
 	.string "Tria un dels tres camins i arriba\n"
 	.string "a la sala final de la Llança de\l"
 	.string "Combat. Així de senzill.\p"
-	.string "No obstant, el que passi al camí\n"
+	.string "Ara bé, el que passi al camí\n"
 	.string "triat depèn totalment de la sort\l"
 	.string "del participant…\p"
 	.string "Si arribes a la meta, rebràs\n"
 	.string "Punts de Combat.\p"
-	.string "Si vols interrompre el desafiament,\n"
-	.string "parla amb el personal a les sales\l"
-	.string "grans del camí.\p"
+	.string "Si vols interrompre el repte, parla\n"
+	.string "amb el personal de les sales grans\l"
+	.string "que trobaràs pel camí.\p"
 	.string "Si no deses abans d'interrompre,\n"
 	.string "seràs desqualificat.$"
 
@@ -302,7 +302,7 @@ BattleFrontier_BattlePikeLobby_Text_LookForwardToSeeingYou:
 BattleFrontier_BattlePikeLobby_Text_WhichChallengeMode:
 	.string "Tens dues modalitats per triar,\n"
 	.string "Nivell 50 i Nivell Obert.\l"
-	.string "Quina desafiaràs?$"
+	.string "Quina tries?$"
 
 BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLv50:
 	.string "Disculpa, però…\p"
@@ -311,10 +311,10 @@ BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLv50:
 	.string "Necessites tres Pokémon diferents\n"
 	.string "de Nivell 50 o inferior.\p"
 	.string "També han de portar objectes\n"
-	.string "de tipus diferent.\p"
-	.string "Els Ous{STR_VAR_1} no són vàlids.\p"
-	.string "Vine quan estiguis\n"
-	.string "preparat…$"
+	.string "diferents.\p"
+	.string "Els Ous{STR_VAR_1} exclosos.\p"
+	.string "Vine a veure'm quan estiguis\n"
+	.string "a punt…$"
 
 BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLvOpen:
 	.string "Disculpa, però…\p"
@@ -323,14 +323,14 @@ BattleFrontier_BattlePikeLobby_Text_NotEnoughValidMonsLvOpen:
 	.string "Necessites tres Pokémon\n"
 	.string "diferents per entrar.\p"
 	.string "També han de portar objectes\n"
-	.string "de tipus diferent.\p"
-	.string "Els Ous{STR_VAR_1} no són vàlids.\p"
-	.string "Vine quan estiguis\n"
-	.string "preparat…$"
+	.string "diferents.\p"
+	.string "Els Ous{STR_VAR_1} exclosos.\p"
+	.string "Vine a veure'm quan estiguis\n"
+	.string "a punt…$"
 
 BattleFrontier_BattlePikeLobby_Text_PleaseChooseThreeMons:
 	.string "Si us plau, tria els tres Pokémon\n"
-	.string "que vols inscriure al desafiament…$"
+	.string "que vols inscriure al repte…$"
 
 BattleFrontier_BattlePikeLobby_Text_SaveBeforeChallenge:
 	.string "Abans de començar l'Elecció de\n"
@@ -341,12 +341,12 @@ BattleFrontier_BattlePikeLobby_Text_StepThisWay:
 	.string "Si us plau, vine per aquí…$"
 
 BattleFrontier_BattlePikeLobby_Text_ChallengeEndedRecordResults:
-	.string "El teu desafiament ha acabat…\p"
+	.string "El teu repte ha acabat…\p"
 	.string "Registraré els teus resultats.\n"
 	.string "Espera, si us plau…$"
 
 BattleFrontier_BattlePikeLobby_Text_PossessLuckInAbundance:
-	.string "Has completat el desafiament…\p"
+	.string "Has completat el repte…\p"
 	.string "He de dir… Sembla que tens\n"
 	.string "sort en abundància…$"
 
@@ -356,9 +356,9 @@ BattleFrontier_BattlePikeLobby_Text_ShallRecordResults:
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints2:
-	.string "Per celebrar la teva completació\n"
-	.string "del desafiament d'Elecció de\l"
-	.string "Combat, t'atorguem Punt(s)…$"
+	.string "Per commemorar que has completat\n"
+	.string "el repte d'Elecció de Combat,\l"
+	.string "t'atorguem aquests Punts de Combat…$"
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_ReachedBattlePointLimit:
@@ -370,8 +370,8 @@ BattleFrontier_BattlePikeLobby_Text_ReachedBattlePointLimit:
 BattleFrontier_BattlePikeLobby_Text_FailedToSaveBeforeQuitting:
 	.string "Disculpa, però…\p"
 	.string "No vas desar abans de sortir\n"
-	.string "del desafiament l'última vegada.\p"
-	.string "Per això, el teu desafiament ha\n"
+	.string "del repte l'última vegada.\p"
+	.string "Per això, el teu repte ha\n"
 	.string "estat desqualificat. Ho sento…$"
 
 BattleFrontier_BattlePikeLobby_Text_SnatchedVictoryFromQueen:
@@ -383,17 +383,17 @@ BattleFrontier_BattlePikeLobby_Text_SnatchedVictoryFromQueen:
 BattleFrontier_BattlePikeLobby_Text_AwardYouTheseBattlePoints:
 	.string "En reconeixement de la teva sort\n"
 	.string "increïble, t'atorguem aquests\l"
-	.string "Punt(s) de Combat…$"
+	.string "Punts de Combat…$"
 
 BattleFrontier_BattlePikeLobby_Text_OneRoomAwayFromGoal:
 	.string "Argh! He perdut la meva oportunitat!\n"
 	.string "Estava a una sala de la meta!\p"
-	.string "En aquest lloc, vigila amb\n"
-	.string "el verí, el gel, i tot això.$"
+	.string "Aquí val més que vagis amb compte\n"
+	.string "amb el verí, la congelació i tot això.$"
 
 BattleFrontier_BattlePikeLobby_Text_NeverHadToBattleTrainer:
-	.string "He completat el desafiament 10\n"
-	.string "vegades, però no he hagut de\l"
+	.string "He completat el repte 10\n"
+	.string "vegades, però mai no he hagut de\l"
 	.string "combatre cap Entrenador.$"
 
 BattleFrontier_BattlePikeLobby_Text_ThinkAbilitiesUsefulHere:
@@ -404,16 +404,16 @@ BattleFrontier_BattlePikeLobby_Text_ThinkAbilitiesUsefulHere:
 
 @ Unused
 BattleFrontier_BattlePikeLobby_Text_TrainersWhicheverPathIChoose:
-	.string "Quin lloc més estrany?\n"
+	.string "Què és aquest lloc tan estrany?\n"
 	.string "No l'entenc gens!\p"
-	.string "He fet el desafiament un munt\n"
+	.string "He fet el repte un munt\n"
 	.string "de cops, però sempre em trobo\l"
 	.string "Entrenadors sigui quin sigui\l"
 	.string "el camí que trio.$"
 
 BattleFrontier_BattlePikeLobby_Text_RulesAreListed:
-	.string "Les regles de l'Elecció de Combat\n"
-	.string "estan exposades.$"
+	.string "Aquí hi ha les regles de\n"
+	.string "l'Elecció de Combat.$"
 
 BattleFrontier_BattlePikeLobby_Text_ReadWhichHeading:
 	.string "Quina secció vols llegir?$"

@@ -658,7 +658,7 @@ BattlePyramid_Text_TwoTrainersRemaining4::
 	.string "dos Entrenadors que queden aquí.$"
 
 BattlePyramid_Text_OneTrainersRemaining4::
-	.string "Potser podries completar la neteja\n"
+	.string "Potser podries acabar la feina\n"
 	.string "amb l'Entrenador que queda aquí.$"
 
 BattlePyramid_Text_ZeroTrainersRemaining4::
@@ -666,36 +666,35 @@ BattlePyramid_Text_ZeroTrainersRemaining4::
 	.string "et pugui derrotar ara…$"
 
 BattlePyramid_Text_SevenTrainersRemaining5::
-	.string "Potser tens el que cal per vèncer\n"
-	.string "els set Entrenadors experts que queden.$"
+	.string "Potser tens el que cal per vèncer els\n"
+	.string "set Entrenadors experts que queden.$"
 
 BattlePyramid_Text_SixTrainersRemaining5::
-	.string "Potser tens el que cal per vèncer\n"
-	.string "els sis Entrenadors experts que queden.$"
+	.string "Potser tens el que cal per vèncer els\n"
+	.string "sis Entrenadors experts que queden.$"
 
 BattlePyramid_Text_FiveTrainersRemaining5::
-	.string "Potser tens el que cal per vèncer\n"
-	.string "els cinc Entrenadors experts que queden.$"
+	.string "Potser tens el que cal per vèncer els\n"
+	.string "cinc Entrenadors experts que queden.$"
 
 BattlePyramid_Text_FourTrainersRemaining5::
-	.string "Potser tens el que cal per vèncer\n"
-	.string "els quatre Entrenadors experts restants.$"
+	.string "Potser tens el que cal per vèncer els\n"
+	.string "quatre Entrenadors experts restants.$"
 
 BattlePyramid_Text_ThreeTrainersRemaining5::
-	.string "Potser tens el que cal per vèncer\n"
-	.string "els tres Entrenadors experts que queden.$"
+	.string "Potser tens el que cal per vèncer els\n"
+	.string "tres Entrenadors experts que queden.$"
 
 BattlePyramid_Text_TwoTrainersRemaining5::
-	.string "Potser tens el que cal per vèncer\n"
-	.string "els dos Entrenadors experts que queden.$"
+	.string "Potser tens el que cal per vèncer els\n"
+	.string "dos Entrenadors experts que queden.$"
 
 BattlePyramid_Text_OneTrainersRemaining5::
 	.string "Potser tens el que cal per vèncer\n"
 	.string "l'Entrenador expert que queda.$"
 
 BattlePyramid_Text_ZeroTrainersRemaining5::
-	.string "Les teves habilitats són\n"
-	.string "irreprotxables.\p"
+	.string "La teva destresa és irreprotxable.\p"
 	.string "No queden més Entrenadors aquí\n"
 	.string "que tinguin cap opció de guanyar-te.$"
 

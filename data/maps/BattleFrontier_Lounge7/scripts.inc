@@ -296,14 +296,14 @@ BattleFrontier_Lounge7_Text_LeftTutorIntro:
 	.string "… … … … … …\p"
 	.string "Què passa?\n"
 	.string "No em creus.\p"
-	.string "No soc com la fatxenda aquella de\n"
-	.string "allà. Jo tinc talent de debò!\p"
+	.string "No soc com aquella fatxenda\n"
+	.string "d'allà. Jo tinc talent de debò!\p"
 	.string "Deixa que t'ho demostri.\n"
 	.string "Puc ensenyar als teus Pokémon\l"
 	.string "moviments especials i bonics.\p"
 	.string "Però les meves lliçons no són gratis.\n"
-	.string "Què et sembla pagar amb una mica\l"
-	.string "de Punts de Combat?$"
+	.string "Què et sembla pagar-los amb uns\l"
+	.string "quants Punts de Combat?$"
 
 BattleFrontier_Lounge7_Text_LeftTutorWelcomeBack:
 	.string "Buhahaha!\p"
@@ -316,11 +316,12 @@ BattleFrontier_Lounge7_Text_TeachWhichMove:
 
 BattleFrontier_Lounge7_Text_MoveWillBeXBattlePoints:
 	.string "El moviment {STR_VAR_1}, oi?\n"
-	.string "Seran {STR_VAR_2} Punts de Combat, d'acord?$"
+	.string "Costarà {STR_VAR_2} Punts de Combat,\l"
+	.string "d'acord?$"
 
 BattleFrontier_Lounge7_Text_TeachMoveToWhichMon:
 	.string "Molt bé, ara tria el Pokémon\n"
-	.string "a qui li he d'ensenyar el moviment.$"
+	.string "a qui he d'ensenyar el moviment.$"
 
 BattleFrontier_Lounge7_Text_HaventGotEnoughPoints:
 	.string "Què…\n"
@@ -345,14 +346,14 @@ BattleFrontier_Lounge7_Text_RightTutorIntro:
 	.string "… … … … … …\p"
 	.string "Què passa?\n"
 	.string "No em creus.\p"
-	.string "No soc com la pallassa aquella de\n"
-	.string "allà. Jo tinc experiència de debò!\p"
+	.string "No soc com aquella pallassa\n"
+	.string "d'allà. Jo tinc experiència de debò!\p"
 	.string "Puc demostrar-t'ho.\n"
 	.string "Puc ensenyar als teus Pokémon\l"
 	.string "moviments durs i bonics.\p"
 	.string "Però les meves lliçons no són gratis.\n"
-	.string "Què et sembla pagar amb una mica\l"
-	.string "de Punts de Combat?$"
+	.string "Què et sembla pagar-los amb uns\l"
+	.string "quants Punts de Combat?$"
 
 BattleFrontier_Lounge7_Text_RightTutorWelcomeBack:
 	.string "Ihihihi!\p"
@@ -371,7 +372,7 @@ BattleFrontier_Lounge7_Text_LadiesWereStrongAndBeautiful:
 	.string "aquelles senyores eren fortes i belles.\p"
 	.string "Eren ídols entre els Entrenadors.\p"
 	.string "Fins i tot ara, l'edat no ha apagat\n"
-	.string "les seves habilitats.\p"
+	.string "les seves capacitats.\p"
 	.string "De fet, els seus moviments Pokémon\n"
 	.string "s'han polit encara més.\p"
 	.string "Però… Per alguna raó, no puc evitar\n"
@@ -389,9 +390,9 @@ BattleFrontier_Lounge7_Text_SeismicTossDesc::
 	.string "de l'usuari.$"
 
 BattleFrontier_Lounge7_Text_DreamEaterDesc::
-	.string "Recupera la meitat\n"
-	.string "del dany infligit a\n"
-	.string "un enemic dormit.$"
+	.string "Es cura la meitat\n"
+	.string "del dany que fa a\n"
+	.string "un rival adormit.$"
 
 BattleFrontier_Lounge7_Text_MegaPunchDesc::
 	.string "Un cop de puny\n"
@@ -399,9 +400,9 @@ BattleFrontier_Lounge7_Text_MegaPunchDesc::
 	.string "increïble.$"
 
 BattleFrontier_Lounge7_Text_MegaKickDesc::
-	.string "Una puntada de peu\n"
-	.string "extremadament\n"
-	.string "poderosa.$"
+	.string "Una puntada molt\n"
+	.string "potent i amb una\n"
+	.string "força intensa.$"
 
 BattleFrontier_Lounge7_Text_BodySlamDesc::
 	.string "Un cop de cos\n"
@@ -409,9 +410,9 @@ BattleFrontier_Lounge7_Text_BodySlamDesc::
 	.string "paràlisi.$"
 
 BattleFrontier_Lounge7_Text_RockSlideDesc::
-	.string "Grans roques\n"
-	.string "són llançades. Pot\n"
-	.string "fer retrocedir.$"
+	.string "Llança grans\n"
+	.string "roques. Pot fer\n"
+	.string "retrocedir.$"
 
 BattleFrontier_Lounge7_Text_CounterDesc::
 	.string "Retorna qualsevol\n"
@@ -430,8 +431,8 @@ BattleFrontier_Lounge7_Text_SwordsDanceDesc::
 
 BattleFrontier_Lounge7_Text_DefenseCurlDesc::
 	.string "S'enrotlla per\n"
-	.string "amagar punts dèbils\n"
-	.string "i pujar Defensa.$"
+	.string "amagar els punts\n"
+	.string "dèbils i pujar Def.$"
 
 BattleFrontier_Lounge7_Text_SnoreDesc::
 	.string "Un atac sorollós\n"
@@ -440,8 +441,8 @@ BattleFrontier_Lounge7_Text_SnoreDesc::
 
 BattleFrontier_Lounge7_Text_MudSlapDesc::
 	.string "Llança fang a la\n"
-	.string "cara de l'enemic\n"
-	.string "per baixar precisió.$"
+	.string "cara del rival per\n"
+	.string "baixar la precisió.$"
 
 BattleFrontier_Lounge7_Text_SwiftDesc::
 	.string "Raigs en forma\n"
@@ -454,14 +455,14 @@ BattleFrontier_Lounge7_Text_IcyWindDesc::
 	.string "Velocitat enemiga.$"
 
 BattleFrontier_Lounge7_Text_EndureDesc::
-	.string "Resisteix un atac\n"
-	.string "1 torn, quedant\n"
-	.string "amb 1 PS.$"
+	.string "Aguanta qualsevol\n"
+	.string "atac 1 torn i\n"
+	.string "queda amb 1 PS.$"
 
 BattleFrontier_Lounge7_Text_PsychUpDesc::
 	.string "Copia els efectes\n"
-	.string "de l'enemic i\n"
-	.string "els dona a l'usuari.$"
+	.string "del rival i els\n"
+	.string "dona a l'usuari.$"
 
 BattleFrontier_Lounge7_Text_IcePunchDesc::
 	.string "Un cop gelat\n"
@@ -469,7 +470,7 @@ BattleFrontier_Lounge7_Text_IcePunchDesc::
 	.string "congelar l'enemic.$"
 
 BattleFrontier_Lounge7_Text_ThunderPunchDesc::
-	.string "Un cop electrificat\n"
+	.string "Un puny elèctric\n"
 	.string "que pot paralitzar\n"
 	.string "l'enemic.$"
 

@@ -14,8 +14,8 @@ BattleFrontier_Lounge4_EventScript_Man::
 	end
 
 BattleFrontier_Lounge4_Text_WonderIfInterviewsAiring:
-	.string "Em pregunto si emetran entrevistes\n"
-	.string "amb Entrenadors forts avui?$"
+	.string "Em pregunto si avui emetran\n"
+	.string "entrevistes amb Entrenadors forts.$"
 
 BattleFrontier_Lounge4_Text_IfIOpenedRestaurantHere:
 	.string "Si obrís un restaurant aquí,\n"

@@ -226,16 +226,16 @@ BattleFrontier_OutsideEast_EventScript_Camper::
 BattleFrontier_OutsideEast_Text_BattleTowerSign:
 	.string "Aquesta és la Torre de Combat!\n"
 	.string "Mantingues la ratxa de victòries\l"
-	.string "com l'Entrenador més dur!$"
+	.string "com l'Entrenador més fort!$"
 
 BattleFrontier_OutsideEast_Text_BattlePalaceSign:
 	.string "Aquest és el Palau de Combat!\n"
-	.string "Vigila bé els combats Pokémon!$"
+	.string "No perdis de vista els combats Pokémon!$"
 
 BattleFrontier_OutsideEast_Text_BattleArenaSign:
 	.string "Aquesta és l'Arena de Combat!\n"
 	.string "Que es reuneixin els equips\l"
-	.string "més durs!$"
+	.string "més forts!$"
 
 BattleFrontier_OutsideEast_Text_BattlePyramidSign:
 	.string "Aquesta és la Piràmide de Combat!\n"
@@ -247,8 +247,8 @@ BattleFrontier_OutsideEast_Text_RankingHallSign:
 	.string "Aspira a nous rècords!$"
 
 BattleFrontier_OutsideEast_Text_ExchangeCornerSign:
-	.string "Cantonada de Serveis d'Intercanvi\n"
-	.string "Intercanvia els Punts de Combat!$"
+	.string "Racó d'Intercanvi de Punts de Combat\n"
+	.string "Intercanvia els teus Punts de Combat!$"
 
 BattleFrontier_OutsideEast_Text_BattleTowerFeelsSpecial:
 	.string "Uau!\n"
@@ -278,9 +278,9 @@ BattleFrontier_OutsideEast_Text_ThriveInDarkness:
 	.string "i en total desesperació?$"
 
 BattleFrontier_OutsideEast_Text_PutTogetherUltimateTeam:
-	.string "No he dormit en una setmana, però\n"
+	.string "Fa una setmana que no dormo, però\n"
 	.string "he muntat l'equip definitiu!\p"
-	.string "No em veig perdent, de veritat.\n"
+	.string "No em veig perdent, de debò.\n"
 	.string "Assaltarem l'Arena de Combat!$"
 
 BattleFrontier_OutsideEast_Text_DidScottBringYouHere:
@@ -288,7 +288,7 @@ BattleFrontier_OutsideEast_Text_DidScottBringYouHere:
 	.string "Què li passa a aquest home?\p"
 	.string "Sembla que realment sap\n"
 	.string "detectar Entrenadors amb talent…\p"
-	.string "Però no l'he vist mai combatent\n"
+	.string "Però no l'he vist mai combatre\n"
 	.string "en persona.$"
 
 BattleFrontier_OutsideEast_Text_BelieveInYouBuddy:
@@ -306,8 +306,8 @@ BattleFrontier_OutsideEast_Text_PeopleCallMeBusybody:
 	.string "Tens la gorra torta!\n"
 	.string "Oh, no, brossa a terra!\l"
 	.string "Ui, gairebé és hora de sopar!\p"
-	.string "No sé si podré aguantar només\n"
-	.string "mirant al Palau de Combat…$"
+	.string "No sé si podré aguantar-me i\n"
+	.string "només mirar al Palau de Combat…$"
 
 BattleFrontier_OutsideEast_Text_OnceBeatGymLeader:
 	.string "Potser no ho semblo ara,\n"
@@ -316,18 +316,18 @@ BattleFrontier_OutsideEast_Text_OnceBeatGymLeader:
 	.string "a intentar-ho.$"
 
 BattleFrontier_OutsideEast_Text_FastOnBikeAndBattles:
-	.string "Soc ràpida amb la Bici, i també\n"
-	.string "combatent.\p"
+	.string "Soc ràpida amb la Bicicleta, i també\n"
+	.string "quan combato.\p"
 	.string "Guanyo combats en un obrir\n"
 	.string "i tancar d'ulls!$"
 
 BattleFrontier_OutsideEast_Text_BetterThanDaddyAtPokemon:
-	.string "Soc millor que el meu papa\n"
-	.string "als Pokémon.$"
+	.string "Jugo als Pokémon millor\n"
+	.string "que el meu papa.$"
 
 BattleFrontier_OutsideEast_Text_GoRackUpSomeWinsForDaddy:
 	.string "Au, boniqueta meva!\n"
-	.string "Vés a acumular victòries pel Papa!\p"
+	.string "Vés a acumular victòries per al papa!\p"
 	.string "Ets igual que la teva mare,\n"
 	.string "així que dominaràs!$"
 
@@ -341,8 +341,8 @@ BattleFrontier_OutsideEast_Text_HeardPrettyGirlAtBattleArena:
 	.string "i primitiva d'artistes marcials!$"
 
 BattleFrontier_OutsideEast_Text_SometimesImportantOldManInThere:
-	.string "De vegades veig un home gran\n"
-	.string "molt important entrant allà.\p"
+	.string "De vegades veig entrar-hi un home\n"
+	.string "gran amb pinta de ser molt important.\p"
 	.string "Té uns Pokémon increïbles.\n"
 	.string "Però sembla molt amable.$"
 
@@ -361,15 +361,15 @@ BattleFrontier_OutsideEast_Text_LegendOfBattlePyramid:
 BattleFrontier_OutsideEast_Text_GotWipedOut:
 	.string "Mare meva!\n"
 	.string "No havia perdut mai!\p"
-	.string "Però m'han escombrat sense\n"
-	.string "cap mena de gràcia!\p"
+	.string "Però m'han fet miques sense\n"
+	.string "que pogués salvar res!\p"
 	.string "I em diuen que no tinc talent?!\n"
 	.string "Mare meva!$"
 
 BattleFrontier_OutsideEast_Text_ToughTrainerInBattleTower:
 	.string "Aquest noi es va trobar un\n"
-	.string "Entrenador terrible mentre\l"
-	.string "estava a la Torre de Combat.\p"
+	.string "Entrenador terriblement fort mentre\l"
+	.string "feia el repte de la Torre de Combat.\p"
 	.string "Mira'l ara…\p"
 	.string "Has d'anar amb compte si decideixes\n"
 	.string "anar a la Torre de Combat.$"
@@ -397,37 +397,37 @@ BattleFrontier_OutsideEast_Text_PowerOfOurLoveWillOvercome:
 	.string "Anem a una Sala de Combat\n"
 	.string "Múltiple ara mateix!\p"
 	.string "Si ens unim al Saló de Combat,\n"
-	.string "el poder del nostre amor superarà\l"
-	.string "a tots els que trobem.\p"
+	.string "el poder del nostre amor vencerà\l"
+	.string "tots els que trobem.\p"
 	.string "Davant nostre, estimat, tot\n"
 	.string "caurà com fitxes de dominó!$"
 
 BattleFrontier_OutsideEast_Text_FrontierNotExclusivelyForToughTrainers:
 	.string "La Frontera de Combat no és només\n"
-	.string "per a Entrenadors durs.\p"
-	.string "Molta gent amb habilitats especials\n"
-	.string "ha estat convidada, pel que sembla.\p"
+	.string "per a Entrenadors forts.\p"
+	.string "Sembla que també han convidat molta\n"
+	.string "gent amb talents especials.\p"
 	.string "Aquell home, l'Scott…\p"
 	.string "Pot ser que hagi construït aquest\n"
-	.string "lloc per un objectiu més gran…$"
+	.string "lloc amb un objectiu més gran…$"
 
 BattleFrontier_OutsideEast_Text_OddTreeHereSeemsToWiggle:
 	.string "Perdona, jove.\n"
 	.string "Tens bona vista?\p"
-	.string "Hi ha un arbre estrany aquí,\n"
+	.string "Més enllà hi ha un arbre estrany,\n"
 	.string "i als meus ulls cansats sembla\l"
 	.string "que es mou.$"
 
 BattleFrontier_OutsideEast_Text_OnceAnOddTreePastHere:
 	.string "Perdona, jove.\n"
 	.string "Tens bona memòria?\p"
-	.string "Tinc la sensació que abans hi\n"
-	.string "havia un arbre estrany aquí.$"
+	.string "Tinc la sensació que abans, més\n"
+	.string "enllà, hi havia un arbre estrany.$"
 
 BattleFrontier_OutsideEast_Text_StickyMonWithLongTail:
 	.string "Jo…\n"
 	.string "L'he vist!\p"
-	.string "Hi havia un Pokémon enganxós\n"
-	.string "amb una cua llarga al davant!\p"
+	.string "Més endavant hi havia un Pokémon\n"
+	.string "enganxós amb una cua llarga!\p"
 	.string "S'amagava sota una roca\n"
 	.string "i no parava de mirar-me!$"

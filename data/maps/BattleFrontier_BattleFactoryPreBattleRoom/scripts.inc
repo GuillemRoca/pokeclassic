@@ -486,7 +486,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_LetUsRestoreMons:
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor2ndOpponent:
-	.string "El 2n combat és el següent!\n"
+	.string "Ara toca el 2n combat!\n"
 
 
 	.string "Estàs a punt?$"
@@ -494,7 +494,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor2ndOpponent:
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor3rdOpponent:
-	.string "El 3r combat és el següent!\n"
+	.string "Ara toca el 3r combat!\n"
 
 
 	.string "Estàs a punt?$"
@@ -502,7 +502,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor3rdOpponent:
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor4thOpponent:
-	.string "El 4t combat és el següent!\n"
+	.string "Ara toca el 4t combat!\n"
 
 
 	.string "Estàs a punt?$"
@@ -510,7 +510,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor4thOpponent:
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor5thOpponent:
-	.string "El 5è combat és el següent!\n"
+	.string "Ara toca el 5è combat!\n"
 
 
 	.string "Estàs a punt?$"
@@ -518,7 +518,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor5thOpponent:
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor6thOpponent:
-	.string "El 6è combat és el següent!\n"
+	.string "Ara toca el 6è combat!\n"
 
 
 	.string "Estàs a punt?$"
@@ -526,10 +526,10 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor6thOpponent:
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_ReadyFor7thOpponent:
-	.string "Finalment, el 7è combat és el\n"
+	.string "Per fi, arriba el 7è combat!\n"
 
 
-	.string "següent! Estàs a punt?$"
+	.string "Estàs a punt?$"
 
 
 
@@ -542,10 +542,10 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_SaveAndQuitGame:
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_RetireFromChallenge:
-	.string "Vols retirar-te del teu\n"
+	.string "Vols retirar-te del teu repte\n"
 
 
-	.string "desafiament d'Intercanvi?$"
+	.string "d'Intercanvi de Combat?$"
 
 
 
@@ -558,146 +558,146 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_InvestigatedUpcomingOpponent:
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInNormalType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que l'Entrenador és hàbil\n"
 
 
-	.string "hàbil amb el tipus Normal.$"
+	.string "amb el tipus Normal.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFireType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que l'Entrenador és hàbil\n"
 
 
-	.string "hàbil amb el tipus Foc.$"
+	.string "amb el tipus Foc.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInWaterType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que l'Entrenador és hàbil\n"
 
 
-	.string "hàbil amb el tipus Aigua.$"
+	.string "amb el tipus Aigua.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInElectricType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que l'Entrenador és hàbil\n"
 
 
-	.string "hàbil amb el tipus Elèctric.$"
+	.string "amb el tipus Elèctric.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGrassType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que l'Entrenador és hàbil\n"
 
 
-	.string "hàbil amb el tipus Planta.$"
+	.string "amb el tipus Planta.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInIceType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que l'Entrenador és hàbil\n"
 
 
-	.string "hàbil amb el tipus Gel.$"
+	.string "amb el tipus Gel.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFightingType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que l'Entrenador és hàbil\n"
 
 
-	.string "hàbil amb el tipus Lluita.$"
+	.string "amb el tipus Lluita.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPoisonType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que l'Entrenador és hàbil\n"
 
 
-	.string "hàbil amb el tipus Verí.$"
+	.string "amb el tipus Verí.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGroundType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que l'Entrenador és hàbil\n"
 
 
-	.string "hàbil amb el tipus Terra.$"
+	.string "amb el tipus Terra.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFlyingType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que l'Entrenador és hàbil\n"
 
 
-	.string "hàbil amb el tipus Volador.$"
+	.string "amb el tipus Volador.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInPsychicType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que l'Entrenador és hàbil\n"
 
 
-	.string "hàbil amb el tipus Psíquic.$"
+	.string "amb el tipus Psíquic.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInBugType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que l'Entrenador és hàbil\n"
 
 
-	.string "hàbil amb el tipus Insecte.$"
+	.string "amb el tipus Insecte.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInRockType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que l'Entrenador és hàbil\n"
 
 
-	.string "hàbil amb el tipus Roca.$"
+	.string "amb el tipus Roca.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInGhostType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que l'Entrenador és hàbil\n"
 
 
-	.string "hàbil amb el tipus Fantasma.$"
+	.string "amb el tipus Fantasma.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDragonType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que l'Entrenador és hàbil\n"
 
 
-	.string "hàbil amb el tipus Drac.$"
+	.string "amb el tipus Drac.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInDarkType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que l'Entrenador és hàbil\n"
 
 
-	.string "hàbil amb el tipus Fosc.$"
+	.string "amb el tipus Fosc.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInFairyType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que l'Entrenador és hàbil\n"
 
 
-	.string "hàbil amb el tipus Fada.$"
+	.string "amb el tipus Fada.$"
 
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_TrainerSkilledInSteelType:
-	.string "L'Entrenador és aparentment\n"
+	.string "Sembla que l'Entrenador és hàbil\n"
 
 
-	.string "hàbil amb el tipus Acer.$"
+	.string "amb el tipus Acer.$"
 
 
 
@@ -745,7 +745,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleTotalPreparation:
 	.string "L'estil de combat preferit sembla\n"
 
 
-	.string "ser basat en preparació total.$"
+	.string "basar-se en una preparació total.$"
 
 
 
@@ -753,7 +753,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleWeakenFoe:
 	.string "L'estil de combat preferit sembla\n"
 
 
-	.string "ser debilitar primer el rival.$"
+	.string "consistir a debilitar primer el rival.$"
 
 
 
@@ -761,7 +761,7 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_StyleFlexible:
 	.string "L'estil de combat preferit sembla\n"
 
 
-	.string "ser flexible i adaptable.$"
+	.string "ser flexible i adaptar-se a la situació.$"
 
 
 
@@ -841,10 +841,10 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_MessageFromHeadComeRightNow:
 	.string "Perdona per l'espera!\p"
 
 
-	.string "Tinc un missatge del cap\n"
+	.string "Tinc un missatge del cap d'aquesta\n"
 
 
-	.string "d'aquesta instal·lació.\p"
+	.string "instal·lació, el Cap de la Fàbrica.\p"
 
 
 	.string "Diu: “Ho farem!\n"
@@ -855,10 +855,10 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_MessageFromHeadComeRightNow:
 
 
 BattleFrontier_BattleFactoryPreBattleRoom_Text_PreparedToFaceHead:
-	.string "El Cap de Fàbrica et demana.\n"
+	.string "El Cap de la Fàbrica et reclama.\n"
 
 
-	.string "Estàs preparat per enfrontar-t'hi?$"
+	.string "Estàs a punt per enfrontar-t'hi?$"
 
 
 
@@ -866,6 +866,6 @@ BattleFrontier_BattleFactoryPreBattleRoom_Text_CantTellAnythingAboutHead:
 	.string "Ho sento molt, però no puc dir-te\n"
 
 
-	.string "res sobre el Cap de Fàbrica.$"
+	.string "res sobre el Cap de la Fàbrica.$"
 
 

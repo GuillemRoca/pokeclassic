@@ -222,7 +222,7 @@ BattleFrontier_BattlePyramidTop_Text_ReachedSummitUpYouGo:
 	.string "Quin plaer veure't aquí!\n"
 	.string "Has arribat al cim de la\l"
 	.string "Piràmide de Combat!\p"
-	.string "Aquí a dalt hi ha el mirador\n"
+	.string "Més amunt hi ha el mirador\n"
 	.string "de la Piràmide.\p"
 	.string "És un lloc obert només per als\n"
 	.string "qui han conquerit la Piràmide.\p"
@@ -276,11 +276,11 @@ BattleFrontier_BattlePyramidTop_Text_BringCourageToOurBattle:
 BattleFrontier_BattlePyramidTop_Text_BrandonFrontierPassPlease:
 	.string "Brandon: Hahahah! Ha estat grandiós!\n"
 	.string "Grandiós, sí!\p"
-	.string "Ben fet! T'has guanyat el mèrit!\n"
+	.string "Ben fet! Mereixes un reconeixement!\n"
 	.string "El teu Passi de Frontera, si us plau!$"
 
 BattleFrontier_BattlePyramidTop_Text_ReceivedBraveSymbol:
-	.string "El Símbol del Valor s'ha gravat\n"
+	.string "El Símbol de Valor s'ha gravat\n"
 	.string "al Passi de Frontera!$"
 
 BattleFrontier_BattlePyramidTop_Text_LookForwardToNextMeeting:
@@ -319,14 +319,14 @@ BattleFrontier_BattlePyramidTop_Text_BrandonRemarkableHaveThis:
 	.string "Té! Vull que tinguis això!$"
 
 BattleFrontier_BattlePyramidTop_Text_BraveSymbolTookGoldenShine:
-	.string "El Símbol del Valor ha adquirit\n"
+	.string "El Símbol de Valor ha adquirit\n"
 	.string "una brillantor daurada!$"
 
 BattleFrontier_BattlePyramidTop_Text_FarewellForNow:
 	.string "Ah, sí! Això demostra que encara\n"
 	.string "tinc molt per aprendre!\p"
 	.string "Que els nostres camins es tornin\n"
-	.string "a creuar! Adéu, jove explorador!$"
+	.string "a creuar! Fins aviat, jove explorador!$"
 
 BattleFrontier_BattlePyramidTop_Text_StepForwardWhenReady:
 	.string "Ara, quan estiguis a punt, fes un\n"

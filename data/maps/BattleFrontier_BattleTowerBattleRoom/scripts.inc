@@ -443,7 +443,7 @@ BattleFrontier_BattleTowerBattleRoom_Text_RestoreMonsToFullHealth:
 
 @ Unused
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyForOpponent:
-	.string "T'enfrontaràs a l'oponent núm. {STR_VAR_1}.\n"
+	.string "Ara et toca l'oponent núm. {STR_VAR_1}.\n"
 	.string "Estàs a punt?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyFor2ndOpponent:
@@ -475,7 +475,7 @@ BattleFrontier_BattleTowerBattleRoom_Text_RecordYourBattle:
 	.string "Passi de Frontera?$"
 
 BattleFrontier_BattleTowerLobby_Text_BattleRecordedOnPass:
-	.string "El combat de {PLAYER} s'ha gravat\n"
+	.string "El combat de {PLAYER} s'ha enregistrat\n"
 	.string "al Passi de Frontera.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_SaveAndQuitGame:
@@ -487,7 +487,7 @@ BattleFrontier_BattleTowerBattleRoom_Text_SavingPleaseWait:
 	.string "Si us plau, espera.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_CancelYourChallenge:
-	.string "Vols cancel·lar el teu desafiament\n"
+	.string "Vols cancel·lar el teu repte\n"
 	.string "a la Sala de Combat?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_RecordCouldntBeSaved::
@@ -496,30 +496,30 @@ BattleFrontier_BattleTowerBattleRoom_Text_RecordCouldntBeSaved::
 
 BattleFrontier_BattleTowerBattleRoom_Text_SalonMaidenOnHerWay:
 	.string "Disculpa, però…\p"
-	.string "La nostra líder, la Dama del Saló,\n"
-	.string "ve cap aquí amb ganes de lluitar.\p"
+	.string "La nostra líder, la Mestra del Saló,\n"
+	.string "ve cap aquí per enfrontar-se a tu.\p"
 	.string "Hauria d'arribar molt aviat.$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_ReadyForSalonMaiden:
-	.string "T'enfrontaràs a la Dama del Saló.\n"
+	.string "T'enfrontaràs a la Mestra del Saló.\n"
 	.string "Estàs preparat?$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_GreetingsImAnabel:
 	.string "Salutacions…\n"
 	.string "Em dic Anabel.\p"
-	.string "Soc la Dama del Saló i estic\n"
+	.string "Soc la Mestra del Saló i estic\n"
 	.string "a càrrec de la Torre de Combat…\p"
 	.string "He sentit diversos rumors\n"
 	.string "sobre tu…\p"
-	.string "Sent sincera, el que he sentit no\n"
-	.string "sembla atractiu de cap manera…\p"
+	.string "Sincerament, el que he sentit no\n"
+	.string "em sembla gens atractiu…\p"
 	.string "La raó per la qual he vingut\n"
 	.string "a veure't…\l"
 	.string "Bé, només hi ha una raó…$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_LetMeSeeYourTalent:
-	.string "Deixa'm veure el teu talent\n"
-	.string "en la seva totalitat…$"
+	.string "Deixa'm veure tot el teu\n"
+	.string "talent…$"
 
 BattleFrontier_BattleTowerBattleRoom_Text_AnabelTalentShallBeRecognized:
 	.string "Anabel: Fufufu, ben fet…\p"

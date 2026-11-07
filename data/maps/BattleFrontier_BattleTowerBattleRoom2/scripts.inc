@@ -451,57 +451,57 @@ BattleFrontier_BattleTowerBattleRoom2_Movement_249545: @ 8249545
 	step_end
 
 BattleFrontier_BattleTowerBattleRoom2_Text_249547: @ 8249547
-	.string "El 2n grup d'oponents és el\n"
-	.string "següent. Estàs a punt?$"
+	.string "Ara toca el 2n grup d'oponents.\n"
+	.string "Estàs a punt?$"
 
 BattleFrontier_BattleTowerBattleRoom2_Text_249578: @ 8249578
-	.string "El 3r grup d'oponents és el\n"
-	.string "següent. Estàs a punt?$"
+	.string "Ara toca el 3r grup d'oponents.\n"
+	.string "Estàs a punt?$"
 
 BattleFrontier_BattleTowerBattleRoom2_Text_2495A9: @ 82495A9
-	.string "El 4t grup d'oponents és el\n"
-	.string "següent. Estàs a punt?$"
+	.string "Ara toca el 4t grup d'oponents.\n"
+	.string "Estàs a punt?$"
 
 BattleFrontier_BattleTowerBattleRoom2_Text_2495DA: @ 82495DA
-	.string "El 5è grup d'oponents és el\n"
-	.string "següent. Estàs a punt?$"
+	.string "Ara toca el 5è grup d'oponents.\n"
+	.string "Estàs a punt?$"
 
 BattleFrontier_BattleTowerBattleRoom2_Text_24960B: @ 824960B
-	.string "El 6è grup d'oponents és el\n"
-	.string "següent. Estàs a punt?$"
+	.string "Ara toca el 6è grup d'oponents.\n"
+	.string "Estàs a punt?$"
 
 BattleFrontier_BattleTowerBattleRoom2_Text_24963C: @ 824963C
-	.string "El 7è grup d'oponents és el\n"
-	.string "següent. Estàs a punt?$"
+	.string "Ara toca el 7è grup d'oponents.\n"
+	.string "Estàs a punt?$"
 
 BattleFrontier_BattleTowerBattleRoom2_Text_24966D: @ 824966D
-	.string "El 2n grup d'oponents és el\n"
-	.string "següent. Fes-ho bé!$"
+	.string "Ara toca el 2n grup d'oponents.\n"
+	.string "Dona-ho tot!$"
 
 BattleFrontier_BattleTowerBattleRoom2_Text_24969D: @ 824969D
-	.string "El 3r grup d'oponents és el\n"
-	.string "següent. Fes-ho bé!$"
+	.string "Ara toca el 3r grup d'oponents.\n"
+	.string "Dona-ho tot!$"
 
 BattleFrontier_BattleTowerBattleRoom2_Text_2496CD: @ 82496CD
-	.string "El 4t grup d'oponents és el\n"
-	.string "següent. Fes-ho bé!$"
+	.string "Ara toca el 4t grup d'oponents.\n"
+	.string "Dona-ho tot!$"
 
 BattleFrontier_BattleTowerBattleRoom2_Text_2496FD: @ 82496FD
-	.string "El 5è grup d'oponents és el\n"
-	.string "següent. Fes-ho bé!$"
+	.string "Ara toca el 5è grup d'oponents.\n"
+	.string "Dona-ho tot!$"
 
 BattleFrontier_BattleTowerBattleRoom2_Text_24972D: @ 824972D
-	.string "El 6è grup d'oponents és el\n"
-	.string "següent. Fes-ho bé!$"
+	.string "Ara toca el 6è grup d'oponents.\n"
+	.string "Dona-ho tot!$"
 
 BattleFrontier_BattleTowerBattleRoom2_Text_24975D: @ 824975D
-	.string "El 7è grup d'oponents és el\n"
-	.string "següent. Fes-ho bé!$"
+	.string "Ara toca el 7è grup d'oponents.\n"
+	.string "Dona-ho tot!$"
 
 gText_LinkStandby3:: @ 824978D
 	.string "Esperant connexió…$"
 
 gText_YourPartnerHasRetired:: @ 824979B
 	.string "El teu company s'ha retirat.\p"
-	.string "El teu desafiament a la Sala\n"
+	.string "El teu repte a la Sala\n"
 	.string "de Combat es cancel·larà.$"

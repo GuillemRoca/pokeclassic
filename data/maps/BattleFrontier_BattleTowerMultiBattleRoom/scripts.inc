@@ -445,63 +445,63 @@ BattleFrontier_BattleTowerMultiBattleRoom_Movement_WalkInPlaceLeft:
 	step_end
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor2ndOpponentSet:
-	.string "El 2n grup d'oponents és el\n"
-	.string "següent. Estàs a punt?$"
+	.string "Ara toca el 2n grup d'oponents.\n"
+	.string "Estàs a punt?$"
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor3rdOpponentSet:
-	.string "El 3r grup d'oponents és el\n"
-	.string "següent. Estàs a punt?$"
+	.string "Ara toca el 3r grup d'oponents.\n"
+	.string "Estàs a punt?$"
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor4thOpponentSet:
-	.string "El 4t grup d'oponents és el\n"
-	.string "següent. Estàs a punt?$"
+	.string "Ara toca el 4t grup d'oponents.\n"
+	.string "Estàs a punt?$"
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor5thOpponentSet:
-	.string "El 5è grup d'oponents és el\n"
-	.string "següent. Estàs a punt?$"
+	.string "Ara toca el 5è grup d'oponents.\n"
+	.string "Estàs a punt?$"
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor6thOpponentSet:
-	.string "El 6è grup d'oponents és el\n"
-	.string "següent. Estàs a punt?$"
+	.string "Ara toca el 6è grup d'oponents.\n"
+	.string "Estàs a punt?$"
 
 BattleFrontier_BattleTowerMultiBattleRoom_Text_ReadyFor7thOpponentSet:
-	.string "El 7è grup d'oponents és el\n"
-	.string "següent. Estàs a punt?$"
+	.string "Ara toca el 7è grup d'oponents.\n"
+	.string "Estàs a punt?$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_2ndOpponentSetNext:
-	.string "El 2n grup d'oponents és el\n"
-	.string "següent. Fes-ho bé!$"
+	.string "Ara toca el 2n grup d'oponents.\n"
+	.string "Dona-ho tot!$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_3rdOpponentSetNext:
-	.string "El 3r grup d'oponents és el\n"
-	.string "següent. Fes-ho bé!$"
+	.string "Ara toca el 3r grup d'oponents.\n"
+	.string "Dona-ho tot!$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_4thOpponentSetNext:
-	.string "El 4t grup d'oponents és el\n"
-	.string "següent. Fes-ho bé!$"
+	.string "Ara toca el 4t grup d'oponents.\n"
+	.string "Dona-ho tot!$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_5thOpponentSetNext:
-	.string "El 5è grup d'oponents és el\n"
-	.string "següent. Fes-ho bé!$"
+	.string "Ara toca el 5è grup d'oponents.\n"
+	.string "Dona-ho tot!$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_6thOpponentSetNext:
-	.string "El 6è grup d'oponents és el\n"
-	.string "següent. Fes-ho bé!$"
+	.string "Ara toca el 6è grup d'oponents.\n"
+	.string "Dona-ho tot!$"
 
 @ Unused
 BattleFrontier_BattleTowerMultiBattleRoom_Text_7thOpponentSetNext:
-	.string "El 7è grup d'oponents és el\n"
-	.string "següent. Fes-ho bé!$"
+	.string "Ara toca el 7è grup d'oponents.\n"
+	.string "Dona-ho tot!$"
 
 gText_LinkStandby3::
 	.string "Esperant connexió…$"
 
 gText_YourPartnerHasRetired::
 	.string "El teu company s'ha retirat.\p"
-	.string "El teu desafiament a la Sala\n"
+	.string "El teu repte a la Sala\n"
 	.string "de Combat es cancel·larà.$"

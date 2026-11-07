@@ -15,15 +15,15 @@ BattleFrontier_Lounge8_EventScript_NinjaBoy::
 
 BattleFrontier_Lounge8_Text_WhatATrainerNeeds:
 	.string "El que necessita un Entrenador…\p"
-	.string "Coneixement…\n"
+	.string "Saviesa…\n"
 	.string "Estratègia…\l"
 	.string "Sort…\l"
-	.string "Valor…\l"
-	.string "Esperit…\l"
 	.string "Valentia…\l"
+	.string "Esperit…\l"
+	.string "Valor…\l"
 	.string "I habilitat…\p"
 	.string "Bé, jo ho tinc tot!\n"
-	.string "Seré imparable a tot arreu!\p"
+	.string "Seré imparable a tots els edificis!\p"
 	.string "Eh? Pokémon?\n"
 	.string "Què és això?$"
 
@@ -32,7 +32,7 @@ BattleFrontier_Lounge8_Text_KnowAboutFrontierBrains:
 	.string "de la Frontera?\p"
 	.string "Així és com l'Scott anomena els set\n"
 	.string "Entrenadors especials que dirigeixen\l"
-	.string "les instal·lacions de la Frontera.$"
+	.string "les set instal·lacions de la Frontera.$"
 
 BattleFrontier_Lounge8_Text_ToldMeIHaveTalentForBattling:
 	.string "A la Torre de Combat, una noia gran\n"

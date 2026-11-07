@@ -51,11 +51,11 @@ BattleFrontier_Mart_EventScript_Boy::
 BattleFrontier_Mart_Text_ChaperonGrandson:
 	.string "Hem vingut a acompanyar\n"
 	.string "el nostre nét.\p"
-	.string "Però ja que som aquí, hem pensat\n"
+	.string "Però ja que som aquí, hem decidit\n"
 	.string "comprar uns quants records.$"
 
 BattleFrontier_Mart_Text_ProteinMakeNiceGift:
-	.string "Estimat, què en penses d'això?\n"
+	.string "Estimat, què et sembla això?\n"
 	.string "No seria un bon regal?\p"
 	.string "És… Pro…te…ï…na?\n"
 	.string "Sona deliciós, no?$"

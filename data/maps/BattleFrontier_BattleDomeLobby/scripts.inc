@@ -521,9 +521,9 @@ BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLvOpen:
 
 	.string "A més, els Pokémon han de portar\n"
 
-	.string "objectes de tipus diferent.\p"
+	.string "objectes diferents.\p"
 
-	.string "Els Ous{STR_VAR_1} no són elegibles.\p"
+	.string "Els Ous{STR_VAR_1} exclosos.\p"
 
 	.string "Vine a veure'm quan estiguis a punt.$"
 
@@ -533,15 +533,15 @@ BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLv50:
 
 	.string "No tens tres Pokémon elegibles.\p"
 
-	.string "Has de tenir tres Pokémon\n"
+	.string "Per participar, has de tenir tres\n"
 
-	.string "diferents de Nv. 50 o menys.\p"
+	.string "Pokémon diferents de Nivell 50 o menys.\p"
 
 	.string "A més, han de portar objectes\n"
 
-	.string "de tipus diferent.\p"
+	.string "diferents.\p"
 
-	.string "Els Ous{STR_VAR_1} no són elegibles.\p"
+	.string "Els Ous{STR_VAR_1} exclosos.\p"
 
 	.string "Vine a veure'm quan estiguis a punt.$"
 
@@ -561,11 +561,11 @@ BattleFrontier_BattleDomeLobby_Text_DidntSaveBeforeQuitting:
 
 	.string "Per això, el teu repte fins ara\n"
 
-	.string "ha estat desqualificat. Disculpa!$"
+	.string "ha estat desqualificat. Ho sento!$"
 
 
 BattleFrontier_BattleDomeLobby_Text_CongratsForWinningTourney:
-	.string "Felicitats per guanyar\n"
+	.string "Felicitats per haver guanyat\n"
 
 	.string "el Torneig de Combat!$"
 
@@ -674,7 +674,7 @@ BattleFrontier_BattleDomeLobby_Text_ExplainDoublesChallenge:
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsSinglesLv50:
 	.string "Són els resultats de l'últim\n"
 
-	.string "Torneig Indiv. de Nivell 50.$"
+	.string "Torneig Individual de Nivell 50.$"
 
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsDoublesLv50:
@@ -686,7 +686,7 @@ BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsDoublesLv50:
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsSinglesLvOpen:
 	.string "Són els resultats de l'últim\n"
 
-	.string "Torneig Indiv. de Nivell Obert.$"
+	.string "Torneig Individual de Nivell Obert.$"
 
 
 BattleFrontier_BattleDomeLobby_Text_PrevTourneyResultsDoublesLvOpen:
@@ -702,11 +702,11 @@ BattleFrontier_BattleDomeLobby_Text_LastWinnerWasTough:
 
 	.string "El guanyador, {STR_VAR_1}, era\n"
 
-	.string "molt dur.\p"
+	.string "fortíssim.\p"
 
 	.string "Hauries de consultar els resultats\n"
 
-	.string "al monitor al costat del PC.$"
+	.string "al monitor que hi ha al costat del PC.$"
 
 
 BattleFrontier_OutsideWest_Text_LongDreamedAboutBattleFrontier:
@@ -736,9 +736,9 @@ BattleFrontier_BattleDomeLobby_Text_WinnersGainReputation:
 
 	.string "guanya reputació com a estrella.\p"
 
-	.string "Entrenadors forts són atrets\n"
+	.string "Aquesta fama atreu Entrenadors forts\n"
 
-	.string "per aquesta fama al Domo.\p"
+	.string "al Domo de Combat.\p"
 
 	.string "Una superestrella de veritat és\n"
 
@@ -774,11 +774,11 @@ BattleFrontier_BattleDomeLobby_Text_CongratsDefeatedTucker:
 
 
 BattleFrontier_BattleDomeLobby_Text_AwardTheseBattlePoints:
-	.string "En reconeixement a l'estratègia,\n"
+	.string "En reconeixement de la teva estratègia,\n"
 
 	.string "que ha estat tot un art,\l"
 
-	.string "t'atorguem Punts de Combat!$"
+	.string "t'atorguem aquests Punts de Combat!$"
 
 
 BattleFrontier_BattleDomeLobby_Text_RecordLastMatch:
@@ -790,13 +790,13 @@ BattleFrontier_BattleDomeLobby_Text_RecordLastMatch:
 
 
 BattleFrontier_BattleDomeLobby_Text_RulesAreListed:
-	.string "Les regles del Torneig de Combat\n"
+	.string "Aquí hi ha les regles del\n"
 
-	.string "estan llistades.$"
+	.string "Torneig de Combat.$"
 
 
 BattleFrontier_BattleDomeLobby_Text_ReadWhichHeading:
-	.string "Quin apartat vols llegir?$"
+	.string "Quina secció vols llegir?$"
 
 
 BattleFrontier_BattleDomeLobby_Text_ExplainMatchupRules:
@@ -814,9 +814,11 @@ BattleFrontier_BattleDomeLobby_Text_ExplainMatchupRules:
 BattleFrontier_BattleDomeLobby_Text_ExplainTourneyTree:
 	.string "El quadre del torneig, o com\n"
 
-	.string "l'anomenem, l'“Arbre,” es pot\l"
+	.string "l'anomenem, l'“Arbre”, es pot\l"
 
-	.string "veure a la Sala d'Espera.\p"
+	.string "consultar a la Sala d'Espera amb\l"
+
+	.string "qualsevol guia.\p"
 
 	.string "L'Arbre del Torneig proporciona\n"
 
@@ -826,17 +828,17 @@ BattleFrontier_BattleDomeLobby_Text_ExplainTourneyTree:
 
 	.string "de l'últim torneig, els Pokémon\l"
 
-	.string "dels Entrenadors i els estils de\l"
+	.string "dels Entrenadors i el seu estil\l"
 
-	.string "combat dels Entrenadors.$"
+	.string "de combat.$"
 
 
 BattleFrontier_BattleDomeLobby_Text_ExplainDoubleKORules:
-	.string "Si els Pokémon en combat cauen\n"
+	.string "Si els Pokémon en combat es desmaien\n"
 
 	.string "alhora (un doble KO) en un combat\l"
 
-	.string "de torneig, els Àrbitres revisaran\l"
+	.string "de torneig, els àrbitres revisaran\l"
 
 	.string "el combat i declararan el guanyador.$"
 
