@@ -32,10 +32,10 @@ static const u8 sText_RubySapphire[] = _("Ruby/Sapphire");
 static const u8 sText_Emerald[] = _("Emerald");
 static const u8 sText_BerryProgramWillBeUpdatedPressA[] = _("El programa de Baies del teu\n"
                                                             "Pokémon Ruby/Sapphire s'actualitzarà.\n"
-                                                            "{COLOR RED}{SHADOW LIGHT_RED}Prem el botó A.");
+                                                            "{COLOR RED}{SHADOW LIGHT_RED}Prem el Botó A.");
 static const u8 sText_EnsureGBAConnectionMatches[] = _("Assegura't que la connexió de la\n"
                                                        "teva Game Boy Advance coincideixi.\n"
-                                                       "{COLOR RED}{SHADOW LIGHT_RED}SÍ: Prem el botó A.\n"
+                                                       "{COLOR RED}{SHADOW LIGHT_RED}SÍ: Prem el Botó A.\n"
                                                        "NO: Apaga i torna-ho a provar.");
 static const u8 sText_TurnOffPowerHoldingStartSelect[] = _("Encén el Pokémon Ruby/Sapphire\n"
                                                            "mentre mantens premuts Start i\n"

@@ -269,14 +269,14 @@ static const u8* const sBlenderOpponentsNames[] =
     [BLENDER_DAISY] = sText_Daisy
 };
 
-static const u8 sText_PressAToStart[] = _("Prem el botó A per començar.");
+static const u8 sText_PressAToStart[] = _("Prem el Botó A per començar.");
 static const u8 sText_PleaseWaitAWhile[] = _("Si us plau, espera una mica.");
 static const u8 sText_CommunicationStandby[] = _("Comunicació en espera…");
 static const u8 sText_WouldLikeToBlendAnotherBerry[] = _("Vols barrejar una altra Baia?");
 static const u8 sText_RunOutOfBerriesForBlending[] = _("T'has quedat sense Baies per\nbarrejar al Barrejador de Baies.\p");
-static const u8 sText_YourPokeblockCaseIsFull[] = _("L'estoig de {POKEBLOCK} és ple.\p");
+static const u8 sText_YourPokeblockCaseIsFull[] = _("L'Estoig {POKEBLOCK} és ple.\p");
 static const u8 sText_HasNoBerriesToPut[] = _(" no té Baies per posar\nal Barrejador de Baies.");
-static const u8 sText_ApostropheSPokeblockCaseIsFull[] = _(": l'estoig de {POKEBLOCK} és ple.\p");
+static const u8 sText_ApostropheSPokeblockCaseIsFull[] = _(": l'Estoig {POKEBLOCK} és ple.\p");
 static const u8 sText_BlendingResults[] = _("Resultats de la barreja");
 static const u8 sText_BerryUsed[] = _("Baia usada");
 static const u8 sText_SpaceBerry[] = _(" Baia");

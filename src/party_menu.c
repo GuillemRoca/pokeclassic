@@ -6390,7 +6390,7 @@ void IsLastMonThatKnowsSurf(void)
 #define tOldFunc        4
 #define tNewNature      data[6]
 
-static const u8 sText_AskMint[] = _("Vols donar a {STR_VAR_1} la MENTA {STR_VAR_2}?");
+static const u8 sText_AskMint[] = _("Vols donar la menta de naturalesa\n{STR_VAR_2} a {STR_VAR_1}?");
 static const u8 sText_MintDone[] = _("{STR_VAR_1} ha començat a sentir-se\nmés {STR_VAR_2}!{PAUSE_UNTIL_PRESS}");
 static void Task_Mints(u8 taskId)
 {
@@ -6495,8 +6495,8 @@ void ItemUseCB_Mints(u8 taskId, TaskFunc task)
 
 void Task_AbilityCapsule(u8 taskId)
 {
-    static const u8 askText[] = _("Vols canviar l'habilitat de\n{STR_VAR_1} a {STR_VAR_2}?");
-    static const u8 doneText[] = _("L'habilitat de {STR_VAR_1} ha canviat\na {STR_VAR_2}!{PAUSE_UNTIL_PRESS}");
+    static const u8 askText[] = _("Vols canviar l'habilitat de\n{STR_VAR_1} per {STR_VAR_2}?");
+    static const u8 doneText[] = _("L'habilitat de {STR_VAR_1} ara és\n{STR_VAR_2}!{PAUSE_UNTIL_PRESS}");
     s16 *data = gTasks[taskId].data;
 
     switch (tState)
@@ -6583,8 +6583,8 @@ void ItemUseCB_AbilityCapsule(u8 taskId, TaskFunc task)
 
 void Task_AbilityPatch(u8 taskId)
 {
-    static const u8 askText[] = _("Vols canviar l'habilitat de\n{STR_VAR_1} a {STR_VAR_2}?");
-    static const u8 doneText[] = _("L'habilitat de {STR_VAR_1} ha canviat\na {STR_VAR_2}!{PAUSE_UNTIL_PRESS}");
+    static const u8 askText[] = _("Vols canviar l'habilitat de\n{STR_VAR_1} per {STR_VAR_2}?");
+    static const u8 doneText[] = _("L'habilitat de {STR_VAR_1} ara és\n{STR_VAR_2}!{PAUSE_UNTIL_PRESS}");
     s16 *data = gTasks[taskId].data;
 
     switch (tState)
