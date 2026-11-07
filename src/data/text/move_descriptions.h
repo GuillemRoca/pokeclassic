@@ -70,7 +70,7 @@ static const u8 sWingAttackDescription[] = _(
     "ales ben obertes.");
 
 static const u8 sWhirlwindDescription[] = _(
-    "Bufa el rival amb vent\n"
+    "Expulsa el rival amb vent\n"
     "i acaba el combat.");
 
 static const u8 sFlyDescription[] = _(
@@ -94,8 +94,8 @@ static const u8 sVineWhipDescription[] = _(
     "lianes primes com fuets.");
 
 static const u8 sStompDescription[] = _(
-    "Trepitja el rival amb un\n"
-    "peu gran. Pot fer encongir.");
+    "Trepitja el rival amb un peu\n"
+    "gran. Pot fer retrocedir.");
 
 static const u8 sDoubleKickDescription[] = _(
     "Un atac de doble puntada\n"
@@ -114,12 +114,12 @@ static const u8 sRollingKickDescription[] = _(
     "des d'un gir veloç.");
 
 static const u8 sSandAttackDescription[] = _(
-    "Redueix la precisió llançant\n"
+    "Baixa la precisió llançant\n"
     "sorra a la cara del rival.");
 
 static const u8 sHeadbuttDescription[] = _(
     "Un atac amb el cap que\n"
-    "pot fer encongir.");
+    "pot fer retrocedir.");
 
 static const u8 sHornAttackDescription[] = _(
     "Clava les banyes afilades\n"
@@ -183,23 +183,23 @@ static const u8 sLeerDescription[] = _(
 
 static const u8 sBiteDescription[] = _(
     "Mossega amb ullals feroços.\n"
-    "Pot fer encongir.");
+    "Pot fer retrocedir.");
 
 static const u8 sGrowlDescription[] = _(
     "Gruny tendrament per\n"
-    "reduir l'Atac del rival.");
+    "baixar l'Atac del rival.");
 
 static const u8 sRoarDescription[] = _(
     "Fa fugir el rival i acaba\n"
     "el combat.");
 
 static const u8 sSingDescription[] = _(
-    "Una cançó relaxant que\n"
-    "adorm el rival profundament.");
+    "Una cançó suau que adorm\n"
+    "profundament el rival.");
 
 static const u8 sSupersonicDescription[] = _(
-    "Emet ones sonores estranyes\n"
-    "que poden confondre el rival.");
+    "Emet ones sonores rares\n"
+    "que poden causar confusió.");
 
 static const u8 sSonicBoomDescription[] = _(
     "Llança ones de xoc que\n"
@@ -222,8 +222,8 @@ static const u8 sFlamethrowerDescription[] = _(
     "pot causar una cremada.");
 
 static const u8 sMistDescription[] = _(
-    "Crea una boira que atura\n"
-    "la reducció d'estadístiques.");
+    "Crea una boira que evita\n"
+    "que baixin les estad.");
 
 static const u8 sWaterGunDescription[] = _(
     "Esquitxa aigua per atacar\n"
@@ -331,7 +331,7 @@ static const u8 sPetalDanceDescription[] = _(
 
 static const u8 sStringShotDescription[] = _(
     "Lliga el rival amb fils\n"
-    "per reduir la Velocitat.");
+    "per baixar la Velocitat.");
 
 static const u8 sDragonRageDescription[] = _(
     "Llança ones de xoc que\n"
@@ -467,7 +467,7 @@ static const u8 sLightScreenDescription[] = _(
 
 static const u8 sHazeDescription[] = _(
     "Crea una boira negra que\n"
-    "elimina tots els canvis.");
+    "anul·la els canvis d'estad.");
 
 static const u8 sReflectDescription[] = _(
     "Crea un mur de llum que\n"
@@ -478,12 +478,12 @@ static const u8 sFocusEnergyDescription[] = _(
     "la taxa de cop crític.");
 
 static const u8 sBideDescription[] = _(
-    "Aguanta atacs durant 2\n"
-    "torns i contraataca el doble.");
+    "Aguanta atacs 2 torns i\n"
+    "torna el doble de dany.");
 
 static const u8 sMetronomeDescription[] = _(
-    "Mou un dit per usar\n"
-    "un moviment Pokémon a l'atzar.");
+    "Mou un dit i usa qualsevol\n"
+    "moviment a l'atzar.");
 
 static const u8 sMirrorMoveDescription[] = _(
     "Contraataca el rival amb\n"
@@ -498,8 +498,8 @@ static const u8 sEggBombDescription[] = _(
     "contra el rival.");
 
 static const u8 sLickDescription[] = _(
-    "Llepa amb una llengua llarga.\n"
-    "També pot paralitzar.");
+    "Una llepada amb la llengua\n"
+    "llarga. Pot paralitzar.");
 
 static const u8 sSmogDescription[] = _(
     "Un atac de gas tòxic que\n"
@@ -511,15 +511,15 @@ static const u8 sSludgeDescription[] = _(
 
 static const u8 sBoneClubDescription[] = _(
     "Colpeja el rival amb un os.\n"
-    "Pot fer encongir.");
+    "Pot fer retrocedir.");
 
 static const u8 sFireBlastDescription[] = _(
     "Incinera tot el que toca.\n"
     "Pot causar una cremada.");
 
 static const u8 sWaterfallDescription[] = _(
-    "Envesteix el rival amb\n"
-    "velocitat per pujar cascades.");
+    "Una envestida prou ràpida\n"
+    "per pujar cascades.");
 
 static const u8 sClampDescription[] = _(
     "Atrapa i estreny el\n"
@@ -542,7 +542,7 @@ static const u8 sSpikeCannonDescription[] = _(
     "que colpegen de 2 a 5 cops.");
 
 static const u8 sConstrictDescription[] = _(
-    "Constricta per causar dolor.\n"
+    "Estreny per causar dolor.\n"
     "Pot baixar la Velocitat.");
 
 static const u8 sAmnesiaDescription[] = _(
@@ -643,11 +643,11 @@ static const u8 sRestDescription[] = _(
 
 static const u8 sRockSlideDescription[] = _(
     "Llança grans roques.\n"
-    "Pot fer encongir.");
+    "Pot fer retrocedir.");
 
 static const u8 sHyperFangDescription[] = _(
     "Ataca amb ullals afilats.\n"
-    "Pot fer encongir.");
+    "Pot fer retrocedir.");
 
 static const u8 sSharpenDescription[] = _(
     "Redueix els polígons\n"
@@ -710,8 +710,8 @@ static const u8 sSnoreDescription[] = _(
     "es pot usar estant adormit.");
 
 static const u8 sCurseDescription[] = _(
-    "Un moviment que funciona\n"
-    "diferent per als Fantasma.");
+    "Actua diferent si l'usuari\n"
+    "és de tipus Fantasma.");
 
 static const u8 sFlailDescription[] = _(
     "Causa més dany quan els\n"
@@ -726,16 +726,16 @@ static const u8 sAeroblastDescription[] = _(
     "Alta taxa de cop crític.");
 
 static const u8 sCottonSporeDescription[] = _(
-    "Les espores s'enganxen al\n"
-    "rival i baixen molt Velocitat.");
+    "Unes espores s'enganxen al\n"
+    "rival i baixen molt la Vel.");
 
 static const u8 sReversalDescription[] = _(
     "Causa més dany quan els\n"
     "PS de l'usuari són baixos.");
 
 static const u8 sSpiteDescription[] = _(
-    "Retalla els PU de l'últim\n"
-    "moviment del rival amb rancor.");
+    "Amb rancor, retalla els PU\n"
+    "de l'últim mov. del rival.");
 
 static const u8 sPowderSnowDescription[] = _(
     "Bufa el rival amb vent\n"
@@ -746,12 +746,12 @@ static const u8 sProtectDescription[] = _(
     "fallar si s'usa seguit.");
 
 static const u8 sMachPunchDescription[] = _(
-    "Un cop de puny a velocitat\n"
-    "extrema per colpejar primer.");
+    "Un cop de puny molt ràpid\n"
+    "que colpeja primer.");
 
 static const u8 sScaryFaceDescription[] = _(
-    "Espanta amb una cara\n"
-    "horrible per baixar Velocitat.");
+    "Fa una cara horrible per\n"
+    "baixar molt la Velocitat.");
 
 static const u8 sFeintAttackDescription[] = _(
     "Atrau el rival i colpeja\n"
@@ -774,8 +774,8 @@ static const u8 sMudSlapDescription[] = _(
     "rival per baixar precisió.");
 
 static const u8 sOctazookaDescription[] = _(
-    "Dispara un raig de tinta\n"
-    "per fer dany i baixar precisió.");
+    "Dispara tinta per fer dany\n"
+    "i baixar la precisió.");
 
 static const u8 sSpikesDescription[] = _(
     "Posa punxes que fan mal\n"
@@ -794,8 +794,8 @@ static const u8 sDestinyBondDescription[] = _(
     "rival també es desmaia.");
 
 static const u8 sPerishSongDescription[] = _(
-    "Qualsevol Pokémon que\n"
-    "l'escolti desmaia en 3 torns.");
+    "Els Pokémon que l'escolten\n"
+    "es desmaien en 3 torns.");
 
 static const u8 sIcyWindDescription[] = _(
     "Un atac gelat que baixa\n"
@@ -810,8 +810,8 @@ static const u8 sBoneRushDescription[] = _(
     "a la mà de 2 a 5 cops.");
 
 static const u8 sLockOnDescription[] = _(
-    "Fixa l'objectiu al rival\n"
-    "per assegurar el proper cop.");
+    "Apunta al rival perquè el\n"
+    "proper atac encerti.");
 
 static const u8 sOutrageDescription[] = _(
     "Un atac furiós de 2 a 3\n"
@@ -902,8 +902,8 @@ static const u8 sSacredFireDescription[] = _(
     "pot causar una cremada.");
 
 static const u8 sMagnitudeDescription[] = _(
-    "Un atac que sacseja la\n"
-    "terra d'intensitat aleatòria.");
+    "Sacseja la terra amb una\n"
+    "intensitat aleatòria.");
 
 static const u8 sDynamicPunchDescription[] = _(
     "Potent i causa confusió\n"
@@ -934,7 +934,7 @@ static const u8 sRapidSpinDescription[] = _(
     "velocitat per colpejar.");
 
 static const u8 sSweetScentDescription[] = _(
-    "Atrau el rival per reduir\n"
+    "Atrau el rival per baixar\n"
     "l'esquiva.");
 
 static const u8 sIronTailDescription[] = _(
@@ -974,15 +974,15 @@ static const u8 sTwisterDescription[] = _(
     "per destrossar el rival.");
 
 static const u8 sRainDanceDescription[] = _(
-    "Puja el poder dels mov.\n"
+    "Potencia els moviments\n"
     "d'Aigua durant 5 torns.");
 
 static const u8 sSunnyDayDescription[] = _(
-    "Puja el poder dels mov.\n"
+    "Potencia els moviments\n"
     "de Foc durant 5 torns.");
 
 static const u8 sCrunchDescription[] = _(
-    "Cruix amb ullals afilats.\n"
+    "Tritura amb ullals afilats.\n"
     "Pot baixar la Defensa.");
 
 static const u8 sMirrorCoatDescription[] = _(
@@ -999,7 +999,7 @@ static const u8 sExtremeSpeedDescription[] = _(
 
 static const u8 sAncientPowerDescription[] = _(
     "Un atac que pot pujar\n"
-    "totes les estadístiques.");
+    "totes les estad.");
 
 static const u8 sShadowBallDescription[] = _(
     "Llança una bola negra que\n"
@@ -1027,7 +1027,7 @@ static const u8 sBeatUpDescription[] = _(
 
 static const u8 sFakeOutDescription[] = _(
     "Un mov. del 1r torn que\n"
-    "colpeja 1r i fa encongir.");
+    "colpeja 1r i fa retrocedir.");
 
 static const u8 sUproarDescription[] = _(
     "Causa un escàndol de 2 a 5\n"
@@ -1050,8 +1050,8 @@ static const u8 sHeatWaveDescription[] = _(
     "el rival. Pot cremar.");
 
 static const u8 sHailDescription[] = _(
-    "Invoca una tempesta de\n"
-    "calamarsa que danya cada torn.");
+    "Invoca una calamarsa que\n"
+    "fa mal cada torn.");
 
 static const u8 sTormentDescription[] = _(
     "Turmenta el rival i evita\n"
@@ -1067,15 +1067,15 @@ static const u8 sWillOWispDescription[] = _(
 
 static const u8 sMementoDescription[] = _(
     "L'usuari es desmaia i baixa\n"
-    "les estadístiques del rival.");
+    "les estad. del rival.");
 
 static const u8 sFacadeDescription[] = _(
     "Puja l'Atac si està cremat,\n"
     "paralitzat o enverinat.");
 
 static const u8 sFocusPunchDescription[] = _(
-    "Un atac de lleialtat potent.\n"
-    "L'usuari encongeix si el toquen.");
+    "Un cop de puny concentrat.\n"
+    "Si el toquen, retrocedeix.");
 
 static const u8 sSmellingSaltsDescription[] = _(
     "Potent contra rivals\n"
@@ -1090,7 +1090,7 @@ static const u8 sNaturePowerDescription[] = _(
     "segons la ubicació.");
 
 static const u8 sChargeDescription[] = _(
-    "Carrega energia per potenciar\n"
+    "Carrega energia i potencia\n"
     "el proper mov. elèctric.");
 
 static const u8 sTauntDescription[] = _(
@@ -1123,7 +1123,7 @@ static const u8 sIngrainDescription[] = _(
 
 static const u8 sSuperpowerDescription[] = _(
     "Puja molt la força, però\n"
-    "baixa estadístiques.");
+    "baixa estad.");
 
 static const u8 sMagicCoatDescription[] = _(
     "Reflecteix efectes\n"
@@ -1135,11 +1135,11 @@ static const u8 sRecycleDescription[] = _(
 
 static const u8 sRevengeDescription[] = _(
     "Un atac que guanya poder\n"
-    "si el rival ha fet mal.");
+    "si el rival li ha fet mal.");
 
 static const u8 sBrickBreakDescription[] = _(
     "Destrueix barreres com\n"
-    "REFLECTIR i causa dany.");
+    "Reflectir i causa dany.");
 
 static const u8 sYawnDescription[] = _(
     "Fa badallar el rival\n"
@@ -1154,7 +1154,7 @@ static const u8 sEndeavorDescription[] = _(
     "l'usuari són més baixos.");
 
 static const u8 sEruptionDescription[] = _(
-    "Com més PS tingui l'usuari\n"
+    "Com més PS tingui l'usuari,\n"
     "més dany causa.");
 
 static const u8 sSkillSwapDescription[] = _(
@@ -1170,19 +1170,19 @@ static const u8 sRefreshDescription[] = _(
     "paràlisi o cremada.");
 
 static const u8 sGrudgeDescription[] = _(
-    "Si l'usuari desmaia, esborra\n"
-    "tots els PU de l'últim mov.");
+    "Si es desmaia, esborra els\n"
+    "PU de l'últim mov. del rival.");
 
 static const u8 sSnatchDescription[] = _(
-    "Roba els efectes del\n"
-    "moviment que farà l'objectiu.");
+    "Roba els efectes del proper\n"
+    "moviment de l'objectiu.");
 
 static const u8 sSecretPowerDescription[] = _(
     "Un atac amb efectes que\n"
     "varien segons la ubicació.");
 
 static const u8 sDiveDescription[] = _(
-    "Es submergeix el primer\n"
+    "Se submergeix el primer\n"
     "torn i ataca al següent.");
 
 static const u8 sArmThrustDescription[] = _(
@@ -1202,12 +1202,12 @@ static const u8 sLusterPurgeDescription[] = _(
     "llum. Pot baixar Def. Esp.");
 
 static const u8 sMistBallDescription[] = _(
-    "Ataca amb una pluja de\n"
-    "plomissol. Pot baixar Atac Esp.");
+    "Ataca amb plomissol.\n"
+    "Pot baixar l'Atac Esp.");
 
 static const u8 sFeatherDanceDescription[] = _(
-    "Embolcalla el rival amb\n"
-    "plomissol per baixar l'Atac.");
+    "Cobreix el rival de plomes\n"
+    "i li baixa molt l'Atac.");
 
 static const u8 sTeeterDanceDescription[] = _(
     "Confon tots els Pokémon\n"
@@ -1227,7 +1227,7 @@ static const u8 sIceBallDescription[] = _(
 
 static const u8 sNeedleArmDescription[] = _(
     "Ataca amb braços espinosos.\n"
-    "Pot fer encongir.");
+    "Pot fer retrocedir.");
 
 static const u8 sSlackOffDescription[] = _(
     "Descansa i restaura la\n"
@@ -1258,8 +1258,8 @@ static const u8 sMeteorMashDescription[] = _(
     "Pot pujar l'Atac.");
 
 static const u8 sAstonishDescription[] = _(
-    "Un atac que pot espantar\n"
-    "el rival i fer-lo encongir.");
+    "Un atac que pot espantar el\n"
+    "rival i fer-lo retrocedir.");
 
 static const u8 sWeatherBallDescription[] = _(
     "El tipus i el poder canvien\n"
@@ -1267,7 +1267,7 @@ static const u8 sWeatherBallDescription[] = _(
 
 static const u8 sAromatherapyDescription[] = _(
     "Cura tots els problemes\n"
-    "d'estat amb una aroma suau.");
+    "d'estat amb un aroma suau.");
 
 static const u8 sFakeTearsDescription[] = _(
     "Fingeix plorar per baixar\n"
@@ -1291,7 +1291,7 @@ static const u8 sRockTombDescription[] = _(
 
 static const u8 sSilverWindDescription[] = _(
     "Un atac amb pols que pot\n"
-    "pujar estadístiques.");
+    "pujar totes les estad.");
 
 static const u8 sMetalSoundDescription[] = _(
     "Emet un xiscle horrible\n"
@@ -1323,7 +1323,7 @@ static const u8 sShadowPunchDescription[] = _(
 
 static const u8 sExtrasensoryDescription[] = _(
     "Ataca amb un poder peculiar.\n"
-    "Pot fer encongir.");
+    "Pot fer retrocedir.");
 
 static const u8 sSkyUppercutDescription[] = _(
     "Un ganxo llançat com si\n"
@@ -1359,7 +1359,7 @@ static const u8 sIcicleSpearDescription[] = _(
 
 static const u8 sIronDefenseDescription[] = _(
     "Endureix la superfície del\n"
-    "cos per pujar molt Defensa.");
+    "cos i puja molt la Defensa.");
 
 static const u8 sBlockDescription[] = _(
     "Bloqueja el camí del rival\n"
@@ -1382,12 +1382,12 @@ static const u8 sBulkUpDescription[] = _(
     "l'Atac i la Defensa.");
 
 static const u8 sBounceDescription[] = _(
-    "Salta amunt i baixa al\n"
-    "torn següent. Pot paralitzar.");
+    "Salta i cau al torn següent.\n"
+    "Pot paralitzar.");
 
 static const u8 sMudShotDescription[] = _(
     "Llança fang al rival i\n"
-    "redueix la Velocitat.");
+    "baixa la Velocitat.");
 
 static const u8 sPoisonTailDescription[] = _(
     "Alta taxa de cop crític.\n"
@@ -1398,11 +1398,11 @@ static const u8 sCovetDescription[] = _(
     "obtenir l'objecte del rival.");
 
 static const u8 sVoltTackleDescription[] = _(
-    "Una envestida arriscada que\n"
-    "fa una mica mal a l'usuari.");
+    "Una envestida arriscada. Fa\n"
+    "una mica de mal a l'usuari.");
 
 static const u8 sMagicalLeafDescription[] = _(
-    "Ataca amb una fulla estranya\n"
+    "Llança una fulla estranya\n"
     "que no es pot esquivar.");
 
 static const u8 sWaterSportDescription[] = _(
@@ -1430,7 +1430,7 @@ static const u8 sShockWaveDescription[] = _(
     "i inevitable.");
 
 static const u8 sWaterPulseDescription[] = _(
-    "Ataca amb ones ultrasòniques.\n"
+    "Ataca amb ultrasons.\n"
     "Pot confondre el rival.");
 
 static const u8 sDoomDesireDescription[] = _(
@@ -1442,8 +1442,8 @@ static const u8 sPsychoBoostDescription[] = _(
     "però baixa molt l'Atac Esp.");
 
 static const u8 sRoostDescription[] = _(
-    "Restaura els PS de l'usuari\n"
-    "la meitat dels PS màxims.");
+    "Restaura la meitat dels PS\n"
+    "màxims de l'usuari.");
 
 static const u8 sGravityDescription[] = _(
     "La gravetat s'intensifica\n"
@@ -1466,8 +1466,8 @@ static const u8 sGyroBallDescription[] = _(
     "fa més dany a rivals ràpids.");
 
 static const u8 sHealingWishDescription[] = _(
-    "L'usuari desmaia per curar\n"
-    "completament el receptor.");
+    "L'usuari es desmaia per\n"
+    "curar del tot el receptor.");
 
 static const u8 sBrineDescription[] = _(
     "Fa el doble de dany als\n"
@@ -1491,7 +1491,7 @@ static const u8 sTailwindDescription[] = _(
 
 static const u8 sAcupressureDescription[] = _(
     "L'usuari puja molt una de\n"
-    "les seves estadístiques.");
+    "les seves estad.");
 
 static const u8 sMetalBurstDescription[] = _(
     "Contraataca qualsevol cop\n"
@@ -1526,7 +1526,7 @@ static const u8 sPsychoShiftDescription[] = _(
     "d'estat al rival.");
 
 static const u8 sTrumpCardDescription[] = _(
-    "Com menys PU tingui el mov.\n"
+    "Com menys PU li queden,\n"
     "més dany causa.");
 
 static const u8 sHealBlockDescription[] = _(
@@ -1534,7 +1534,7 @@ static const u8 sHealBlockDescription[] = _(
     "recuperar cap PS.");
 
 static const u8 sWringOutDescription[] = _(
-    "Com més PS tingui el rival\n"
+    "Com més PS tingui el rival,\n"
     "més dany causa.");
 
 static const u8 sPowerTrickDescription[] = _(
@@ -1546,7 +1546,7 @@ static const u8 sGastroAcidDescription[] = _(
     "l'habilitat del rival.");
 
 static const u8 sLuckyChantDescription[] = _(
-    "Impedeix al rival aterrar\n"
+    "Impedeix que el rival faci\n"
     "cops crítics.");
 
 static const u8 sMeFirstDescription[] = _(
@@ -1562,12 +1562,12 @@ static const u8 sPowerSwapDescription[] = _(
     "i Atac Esp. amb el rival.");
 
 static const u8 sGuardSwapDescription[] = _(
-    "Intercanvia canvis de\n"
-    "Defensa i Def.Esp. amb rival.");
+    "Intercanvia canvis de Def.\n"
+    "i Def. Esp. amb el rival.");
 
 static const u8 sPunishmentDescription[] = _(
     "Fa més dany si el rival\n"
-    "ha pujat estadístiques.");
+    "ha pujat estad.");
 
 static const u8 sLastResortDescription[] = _(
     "Només es pot usar si tots\n"
@@ -1619,7 +1619,7 @@ static const u8 sPoisonJabDescription[] = _(
 
 static const u8 sDarkPulseDescription[] = _(
     "Ataca amb una aura horrible.\n"
-    "Pot fer encongir.");
+    "Pot fer retrocedir.");
 
 static const u8 sNightSlashDescription[] = _(
     "Colpeja tan aviat com pot.\n"
@@ -1635,7 +1635,7 @@ static const u8 sSeedBombDescription[] = _(
 
 static const u8 sAirSlashDescription[] = _(
     "Ataca amb una fulla d'aire.\n"
-    "Pot fer encongir.");
+    "Pot fer retrocedir.");
 
 static const u8 sXScissorDescription[] = _(
     "Talla el rival amb fulles\n"
@@ -1650,8 +1650,8 @@ static const u8 sDragonPulseDescription[] = _(
     "per danyar el rival.");
 
 static const u8 sDragonRushDescription[] = _(
-    "Envesteix el rival amb\n"
-    "amenaça. Pot fer encongir.");
+    "Una envestida amenaçadora.\n"
+    "Pot fer retrocedir.");
 
 static const u8 sPowerGemDescription[] = _(
     "Ataca amb raigs de llum\n"
@@ -1674,7 +1674,7 @@ static const u8 sBraveBirdDescription[] = _(
     "que fa mal a l'usuari.");
 
 static const u8 sEarthPowerDescription[] = _(
-    "Fa erupcionar el terra amb\n"
+    "Fa esclatar el terra amb\n"
     "poder. Pot baixar Def. Esp.");
 
 static const u8 sSwitcherooDescription[] = _(
@@ -1698,15 +1698,15 @@ static const u8 sShadowClawDescription[] = _(
     "Alta taxa de cop crític.");
 
 static const u8 sThunderFangDescription[] = _(
-    "Pot fer encongir o deixar\n"
+    "Pot fer retrocedir o deixar\n"
     "el rival paralitzat.");
 
 static const u8 sIceFangDescription[] = _(
-    "Pot fer encongir o deixar\n"
+    "Pot fer retrocedir o deixar\n"
     "el rival gelat.");
 
 static const u8 sFireFangDescription[] = _(
-    "Pot fer encongir o deixar\n"
+    "Pot fer retrocedir o deixar\n"
     "el rival cremat.");
 
 static const u8 sShadowSneakDescription[] = _(
@@ -1714,8 +1714,8 @@ static const u8 sShadowSneakDescription[] = _(
     "per colpejar primer.");
 
 static const u8 sMudBombDescription[] = _(
-    "Llança una bola de fang\n"
-    "per fer dany i baixar precisió.");
+    "Llança fang per fer dany\n"
+    "i baixar la precisió.");
 
 static const u8 sPsychoCutDescription[] = _(
     "Talla amb fulles psíquiques.\n"
@@ -1723,11 +1723,11 @@ static const u8 sPsychoCutDescription[] = _(
 
 static const u8 sZenHeadbuttDescription[] = _(
     "Colpeja amb un cop de cap\n"
-    "fort. Pot fer encongir.");
+    "fort. Pot fer retrocedir.");
 
 static const u8 sMirrorShotDescription[] = _(
-    "Emet un flaix d'energia\n"
-    "per danyar i baixar precisió.");
+    "Un flaix d'energia que fa\n"
+    "dany i baixa la precisió.");
 
 static const u8 sFlashCannonDescription[] = _(
     "Allibera una explosió de\n"
@@ -1767,7 +1767,7 @@ static const u8 sGunkShotDescription[] = _(
 
 static const u8 sIronHeadDescription[] = _(
     "Colpeja el rival amb un cap\n"
-    "dur. Pot fer encongir.");
+    "dur. Pot fer retrocedir.");
 
 static const u8 sMagnetBombDescription[] = _(
     "Llança un imant que\n"
@@ -1806,8 +1806,8 @@ static const u8 sWoodHammerDescription[] = _(
     "rival. L'usuari es fa mal.");
 
 static const u8 sAquaJetDescription[] = _(
-    "Colpeja primer corrent\n"
-    "cap al rival a gran velocitat.");
+    "Envesteix el rival a gran\n"
+    "velocitat i colpeja primer.");
 
 static const u8 sAttackOrderDescription[] = _(
     "Els subordinats colpegen.\n"
@@ -1818,8 +1818,8 @@ static const u8 sDefendOrderDescription[] = _(
     "amb un escut vivent.");
 
 static const u8 sHealOrderDescription[] = _(
-    "Els subordinats apareixen\n"
-    "per curar meitat PS màxims.");
+    "Els subordinats li curen la\n"
+    "meitat dels PS màxims.");
 
 static const u8 sHeadSmashDescription[] = _(
     "Un cop de cap arriscat que\n"
@@ -1914,8 +1914,8 @@ static const u8 sSmackDownDescription[] = _(
     "el rival a terra.");
 
 static const u8 sStormThrowDescription[] = _(
-    "Aquest atac sempre resulta\n"
-    "en un cop crític.");
+    "Aquest atac sempre fa\n"
+    "un cop crític.");
 
 static const u8 sFlameBurstDescription[] = _(
     "Una flama explosiva que\n"
@@ -1926,7 +1926,7 @@ static const u8 sSludgeWaveDescription[] = _(
     "tòxic. Pot enverinar.");
 
 static const u8 sQuiverDanceDescription[] = _(
-    "Dansa per pujar Atac Esp.\n"
+    "Dansa per pujar Atac Esp.,\n"
     "Def. Esp. i Velocitat.");
 
 static const u8 sHeavySlamDescription[] = _(
@@ -1934,8 +1934,8 @@ static const u8 sHeavySlamDescription[] = _(
     "pesa més que el rival.");
 
 static const u8 sSynchronoiseDescription[] = _(
-    "Una ona de xoc estranya que\n"
-    "danya rivals del mateix tipus.");
+    "Una ona estranya que només\n"
+    "fereix rivals del seu tipus.");
 
 static const u8 sElectroBallDescription[] = _(
     "Llança un orbe que fa més\n"
@@ -1962,16 +1962,16 @@ static const u8 sAcidSprayDescription[] = _(
     "Baixa molt la Def. Esp.");
 
 static const u8 sFoulPlayDescription[] = _(
-    "Com més alt l'Atac del rival\n"
+    "Com més alt l'Atac del rival,\n"
     "més dany causa.");
 
 static const u8 sSimpleBeamDescription[] = _(
     "Un raig que canvia\n"
-    "l'habilitat del rival a Simple.");
+    "l'habilitat rival per Simple.");
 
 static const u8 sEntrainmentDescription[] = _(
-    "Fa que el rival imiti\n"
-    "l'usuari i la seva habilitat.");
+    "El rival imita l'usuari i\n"
+    "n'adquireix l'habilitat.");
 
 static const u8 sAfterYouDescription[] = _(
     "Ajuda el rival, deixant-lo\n"
@@ -1991,7 +1991,7 @@ static const u8 sChipAwayDescription[] = _(
 
 static const u8 sClearSmogDescription[] = _(
     "Ataca amb boira blanca que\n"
-    "elimina tots els canvis.");
+    "anul·la els canvis d'estad.");
 
 static const u8 sStoredPowerDescription[] = _(
     "Com més altes les estad. de\n"
@@ -2014,12 +2014,12 @@ static const u8 sShellSmashDescription[] = _(
     "baixa les defensives.");
 
 static const u8 sHealPulseDescription[] = _(
-    "Recupera fins a la meitat\n"
-    "dels PS màxims de l'objectiu.");
+    "Cura fins a la meitat dels\n"
+    "PS màxims de l'objectiu.");
 
 static const u8 sHexDescription[] = _(
     "Fa el doble de dany si el\n"
-    "rival té un problema d'estat.");
+    "rival té problemes d'estat.");
 
 static const u8 sSkyDropDescription[] = _(
     "Porta el rival al cel i\n"
@@ -2051,10 +2051,10 @@ static const u8 sReflectTypeDescription[] = _(
 
 static const u8 sRetaliateDescription[] = _(
     "Un atac que fa més dany\n"
-    "si un aliat ha desmaiat.");
+    "si un aliat s'ha desmaiat.");
 
 static const u8 sFinalGambitDescription[] = _(
-    "L'usuari desmaia per fer\n"
+    "L'usuari es desmaia i fa\n"
     "dany igual als seus PS.");
 
 static const u8 sBestowDescription[] = _(
@@ -2066,8 +2066,8 @@ static const u8 sInfernoDescription[] = _(
     "segura, però imprecís.");
 
 static const u8 sWaterPledgeDescription[] = _(
-    "Ataca amb una columna\n"
-    "d'aigua. Pot fer un arc de St. M.");
+    "Ataca amb un doll d'aigua.\n"
+    "Pot fer l'arc de Sant Martí.");
 
 static const u8 sFirePledgeDescription[] = _(
     "Ataca amb una columna de\n"
@@ -2106,24 +2106,24 @@ static const u8 sDualChopDescription[] = _(
     "que colpegen dos cops.");
 
 static const u8 sHeartStampDescription[] = _(
-    "Un cop sobtat rere un acte\n"
-    "maco. Pot fer encongir.");
+    "Un cop sobtat rere un gest\n"
+    "tendre. Pot fer retrocedir.");
 
 static const u8 sRazorShellDescription[] = _(
-    "Esgarrapa el rival amb\n"
-    "petxines. Pot baixar Defensa.");
+    "Talla amb petxines afilades.\n"
+    "Pot baixar la Defensa.");
 
 static const u8 sLeafTornadoDescription[] = _(
-    "Envolta el rival amb fulles\n"
-    "per danyar i baixar precisió.");
+    "Envolta el rival de fulles.\n"
+    "Fa dany i baixa la precisió.");
 
 static const u8 sSteamrollerDescription[] = _(
     "Aixafa el rival amb el cos.\n"
-    "Pot fer encongir.");
+    "Pot fer retrocedir.");
 
 static const u8 sCottonGuardDescription[] = _(
     "Embolcalla el cos amb cotó.\n"
-    "Puja molt la Defensa.");
+    "Puja moltíssim la Defensa.");
 
 static const u8 sNightDazeDescription[] = _(
     "Emet una ona de xoc fosca.\n"
@@ -2131,11 +2131,11 @@ static const u8 sNightDazeDescription[] = _(
 
 static const u8 sHurricaneDescription[] = _(
     "Atrapa el rival en un vent\n"
-    "ferotge. Pot causar confusió.");
+    "ferotge. Pot confondre'l.");
 
 static const u8 sHeadChargeDescription[] = _(
-    "Una càrrega amb pèl protector.\n"
-    "Fa una mica mal a l'usuari.");
+    "Envesteix amb el pèl dur.\n"
+    "També es fa una mica de mal.");
 
 static const u8 sGearGrindDescription[] = _(
     "Llança dos engranatges\n"
@@ -2159,7 +2159,7 @@ static const u8 sGlaciateDescription[] = _(
 
 static const u8 sBoltStrikeDescription[] = _(
     "Colpeja amb una gran\n"
-    "quantitat de llamps. Paralitza.");
+    "descàrrega. Pot paralitzar.");
 
 static const u8 sBlueFlareDescription[] = _(
     "Embolcalla el rival en una\n"
@@ -2175,19 +2175,19 @@ static const u8 sFreezeShockDescription[] = _(
 
 static const u8 sIceBurnDescription[] = _(
     "Un moviment potent de 2\n"
-    "torns que pot causar cremada.");
+    "torns que pot cremar.");
 
 static const u8 sSnarlDescription[] = _(
     "Crida i rondineja al rival\n"
     "baixant-li l'Atac Esp.");
 
 static const u8 sIcicleCrashDescription[] = _(
-    "Deixa caure caramells de gel\n"
-    "al rival. Pot fer encongir.");
+    "Fa caure caramells de gel.\n"
+    "Pot fer retrocedir el rival.");
 
 static const u8 sVCreateDescription[] = _(
-    "Molt potent, però baixa\n"
-    "Defensa, Def.Esp. i Velocitat.");
+    "Molt potent, però baixa la\n"
+    "Def., Def. Esp. i Velocitat.");
 
 static const u8 sFusionFlareDescription[] = _(
     "Invoca una bola de foc.\n"
@@ -2210,12 +2210,12 @@ static const u8 sBelchDescription[] = _(
     "menjar una Baia per usar-lo.");
 
 static const u8 sRototillerDescription[] = _(
-    "Puja l'Atac i l'Atac Esp.\n"
-    "dels Pokémon de tipus Planta.");
+    "Puja Atac i Atac Esp. dels\n"
+    "Pokémon de tipus Planta.");
 
 static const u8 sStickyWebDescription[] = _(
-    "Teixeix una xarxa enganxosa\n"
-    "que alenteix rivals entrants.");
+    "Teixeix una xarxa que frena\n"
+    "els rivals que entren.");
 
 static const u8 sFellStingerDescription[] = _(
     "Si noqueja un rival,\n"
@@ -2263,7 +2263,7 @@ static const u8 sTopsyTurvyDescription[] = _(
 
 static const u8 sDrainingKissDescription[] = _(
     "Un atac que absorbeix més\n"
-    "de la meitat del dany causat.");
+    "de la meitat del dany.");
 
 static const u8 sCraftyShieldDescription[] = _(
     "Esquiva moviments d'estat\n"
@@ -2282,11 +2282,11 @@ static const u8 sMistyTerrainDescription[] = _(
     "5 torns. Bloqueja estat.");
 
 static const u8 sElectrifyDescription[] = _(
-    "Electrifica el rival fent\n"
-    "el seu mov. seg. Elèctric.");
+    "Electrifica el rival: el seu\n"
+    "proper mov. serà Elèctric.");
 
 static const u8 sPlayRoughDescription[] = _(
-    "Juga brut amb el rival.\n"
+    "Juga fort amb el rival.\n"
     "Pot baixar l'Atac.");
 
 static const u8 sFairyWindDescription[] = _(
@@ -2311,7 +2311,7 @@ static const u8 sKingsShieldDescription[] = _(
 
 static const u8 sPlayNiceDescription[] = _(
     "Es fa amic del rival i\n"
-    "li baixa l'Atac sense falta.");
+    "li baixa l'Atac sense fallar.");
 
 static const u8 sConfideDescription[] = _(
     "Comparteix un secret amb\n"
@@ -2319,15 +2319,15 @@ static const u8 sConfideDescription[] = _(
 
 static const u8 sDiamondStormDescription[] = _(
     "Crea una tempesta de\n"
-    "diamants. Pot pujar Defensa.");
+    "diamants. Pot pujar la Def.");
 
 static const u8 sSteamEruptionDescription[] = _(
     "Submergeix el rival en\n"
     "vapor calent. Pot cremar.");
 
 static const u8 sHyperspaceHoleDescription[] = _(
-    "Usa un forat dimensional\n"
-    "per atacar. No es pot esquivar.");
+    "Usa un forat dimensional.\n"
+    "No es pot esquivar.");
 
 static const u8 sWaterShurikenDescription[] = _(
     "Llança de 2 a 5 estrelles\n"
@@ -2350,8 +2350,8 @@ static const u8 sEerieImpulseDescription[] = _(
     "que baixa molt l'Atac Esp.");
 
 static const u8 sVenomDrenchDescription[] = _(
-    "Baixa l'Atac, Atac Esp.\n"
-    "i Velocitat del rival enverinat.");
+    "Baixa Atac, Atac Esp. i Vel.\n"
+    "d'un rival enverinat.");
 
 static const u8 sPowderDescription[] = _(
     "Danya el rival si usa\n"
@@ -2363,7 +2363,7 @@ static const u8 sGeomancyDescription[] = _(
 
 static const u8 sMagneticFluxDescription[] = _(
     "Puja les defenses dels\n"
-    "que tenen Plus o Minus.");
+    "que tenen Més o Menys.");
 
 static const u8 sHappyHourDescription[] = _(
     "Dobla la quantitat de\n"
@@ -2406,8 +2406,8 @@ static const u8 sPowerUpPunchDescription[] = _(
     "l'Atac de l'usuari.");
 
 static const u8 sThousandArrowsDescription[] = _(
-    "Pot colpejar rivals voladors\n"
-    "i tirar-los a terra.");
+    "Colpeja fins i tot voladors\n"
+    "i els fa caure a terra.");
 
 static const u8 sThousandWavesDescription[] = _(
     "Els colpejats per l'ona\n"
@@ -2423,7 +2423,7 @@ static const u8 sLightOfRuinDescription[] = _(
 
 static const u8 sOriginPulseDescription[] = _(
     "Raigs de llum blava\n"
-    "brillant colpegen els rivals.");
+    "brillant ataquen els rivals.");
 
 static const u8 sPrecipiceBladesDescription[] = _(
     "Fulles de pedra temibles\n"
@@ -2447,7 +2447,7 @@ static const u8 sFirstImpressionDescription[] = _(
 
 static const u8 sBanefulBunkerDescription[] = _(
     "Protegeix l'usuari i\n"
-    "enverina rivals en contacte.");
+    "enverina rivals al contacte.");
 
 static const u8 sSpiritShackleDescription[] = _(
     "Després de ser colpejats,\n"
@@ -2459,7 +2459,7 @@ static const u8 sDarkestLariatDescription[] = _(
 
 static const u8 sSparklingAriaDescription[] = _(
     "Canta amb bombolles. Cura\n"
-    "cremades en contacte.");
+    "cremades al contacte.");
 
 static const u8 sIceHammerDescription[] = _(
     "Dona un cop de puny. Baixa\n"
@@ -2499,7 +2499,7 @@ static const u8 sLaserFocusDescription[] = _(
 
 static const u8 sGearUpDescription[] = _(
     "Puja els atacs dels que\n"
-    "tenen Plus o Minus.");
+    "tenen Més o Menys.");
 
 static const u8 sThroatChopDescription[] = _(
     "Colpeja la gola per\n"
@@ -2551,7 +2551,7 @@ static const u8 sRevelationDanceDescription[] = _(
 
 static const u8 sCoreEnforcerDescription[] = _(
     "Colpeja amb un raig que\n"
-    "anul·la l'habilitat del rival.");
+    "anul·la l'habilitat rival.");
 
 static const u8 sTropKickDescription[] = _(
     "Una puntada tropical\n"
@@ -2563,7 +2563,7 @@ static const u8 sInstructDescription[] = _(
 
 static const u8 sBeakBlastDescription[] = _(
     "Escalfa el bec per atacar.\n"
-    "Crema el rival en contacte.");
+    "Crema el rival al contacte.");
 
 static const u8 sClangingScalesDescription[] = _(
     "Fa soroll amb les escames.\n"
@@ -2583,7 +2583,7 @@ static const u8 sAuroraVeilDescription[] = _(
 
 static const u8 sShellTrapDescription[] = _(
     "Posa una trampa de closca\n"
-    "que danya en contacte.");
+    "que danya al contacte.");
 
 static const u8 sFleurCannonDescription[] = _(
     "Un raig fort que baixa\n"
@@ -2591,14 +2591,14 @@ static const u8 sFleurCannonDescription[] = _(
 
 static const u8 sPsychicFangsDescription[] = _(
     "Mossega amb ullals psíquics.\n"
-    "Destrueix qualsevol barrera.");
+    "Trenca les barreres.");
 
 static const u8 sStompingTantrumDescription[] = _(
     "Trepitja enfadat. Més\n"
     "fort després d'un fracàs.");
 
 static const u8 sShadowBoneDescription[] = _(
-    "Colpeja amb un os encantant.\n"
+    "Colpeja amb un os encantat.\n"
     "Pot baixar la Defensa.");
 
 static const u8 sAccelerockDescription[] = _(
@@ -2626,12 +2626,12 @@ static const u8 sMoongeistBeamDescription[] = _(
     "lluna que ignora habilitats.");
 
 static const u8 sTearfulLookDescription[] = _(
-    "L'usuari plora, baixant\n"
-    "l'Atac i l'Atac Esp. del rival.");
+    "L'usuari plora i baixa l'Atac\n"
+    "i l'Atac Esp. del rival.");
 
 static const u8 sZingZapDescription[] = _(
     "Un impacte electrificat\n"
-    "que pot fer encongir.");
+    "que pot fer retrocedir.");
 
 static const u8 sNaturesMadnessDescription[] = _(
     "Redueix a la meitat els PS\n"
@@ -2646,8 +2646,8 @@ static const u8 sMindBlownDescription[] = _(
     "per danyar tot al voltant.");
 
 static const u8 sPlasmaFistsDescription[] = _(
-    "Colpeja amb punys elèctrics.\n"
-    "Mov. Normal es tornen Elèctric.");
+    "Punys elèctrics. Els mov.\n"
+    "Normal passen a Elèctric.");
 
 static const u8 sPhotonGeyserDescription[] = _(
     "L'estad. d'atac més alta\n"
@@ -2658,12 +2658,12 @@ static const u8 sZippyZapDescription[] = _(
     "i sempre fan cop crític.");
 
 static const u8 sSplishySplashDescription[] = _(
-    "Una gran onada electrificada\n"
+    "Una gran onada elèctrica\n"
     "que pot paralitzar el rival.");
 
 static const u8 sFloatyFallDescription[] = _(
-    "Flota a l'aire i es llança\n"
-    "en angle. Pot fer encongir.");
+    "Flota a l'aire i cau en\n"
+    "picat. Pot fer retrocedir.");
 
 static const u8 sPikaPapowDescription[] = _(
     "L'amor de Pikachu augmenta\n"
@@ -2699,7 +2699,7 @@ static const u8 sSappySeedDescription[] = _(
 
 static const u8 sFreezyFrostDescription[] = _(
     "Un cristall de boira gelada.\n"
-    "Elimina tots els canvis.");
+    "Anul·la els canvis d'estad.");
 
 static const u8 sSparklySwirlDescription[] = _(
     "Embolcalla el rival d'aroma.\n"
@@ -2710,8 +2710,8 @@ static const u8 sVeeveeVolleyDescription[] = _(
     "el poder. Mai falla.");
 
 static const u8 sDoubleIronBashDescription[] = _(
-    "L'usuari gira i colpeja amb\n"
-    "braços. Pot fer encongir.");
+    "Gira i colpeja amb els\n"
+    "braços. Pot fer retrocedir.");
     
 // GEN 8
 static const u8 sDynamaxCannonDescription[] = _(
@@ -2731,8 +2731,8 @@ static const u8 sStuffCheeksDescription[] = _(
     "molt la Defensa.");
     
 static const u8 sNoRetreatDescription[] = _(
-    "Puja totes les estad. de\n"
-    "l'usuari però impedeix fugir.");
+    "Puja totes les estad., però\n"
+    "l'usuari no pot fugir.");
     
 static const u8 sTarShotDescription[] = _(
     "Baixa la Velocitat del rival\n"
@@ -2751,8 +2751,8 @@ static const u8 sTeatimeDescription[] = _(
     "el te i mengen les Baies.");
     
 static const u8 sOctolockDescription[] = _(
-    "Atrapa el rival, baixant\n"
-    "Defensa i Def.Esp. cada torn.");
+    "Atrapa el rival. Baixa Def.\n"
+    "i Def. Esp. cada torn.");
     
 static const u8 sBoltBeakDescription[] = _(
     "Doble poder si l'usuari\n"
@@ -2784,7 +2784,7 @@ static const u8 sDrumBeatingDescription[] = _(
     
 static const u8 sSnapTrapDescription[] = _(
     "Atrapa l'objectiu en una\n"
-    "trampa durant 4 a 5 torns.");
+    "trampa durant 4 o 5 torns.");
     
 static const u8 sPyroBallDescription[] = _(
     "Llança una bola de foc a\n"
@@ -2816,7 +2816,7 @@ static const u8 sOverdriveDescription[] = _(
     
 static const u8 sAppleAcidDescription[] = _(
     "Ataca amb àcid de poma\n"
-    "per baixar Def. Esp. rival.");
+    "per baixar la Def. Esp.");
     
 static const u8 sGravAppleDescription[] = _(
     "Deixa caure una poma.\n"
@@ -2835,28 +2835,28 @@ static const u8 sLifeDewDescription[] = _(
     "PS propis i dels aliats.");
     
 static const u8 sObstructDescription[] = _(
-    "Es protegeix, baixant molt\n"
-    "Defensa en contacte.");
+    "Es protegeix i baixa molt\n"
+    "la Defensa al contacte.");
     
 static const u8 sFalseSurrenderDescription[] = _(
     "S'inclina per apunyalar\n"
-    "amb cabell. Mai falla.");
+    "amb el cabell. Mai falla.");
     
 static const u8 sMeteorAssaultDescription[] = _(
     "Ataca amb un porro gruixut.\n"
     "L'usuari ha de descansar.");
     
 static const u8 sEternabeamDescription[] = _(
-    "El mov. més fort d'Eternatus.\n"
-    "L'usuari descansa el torn seg.");
+    "L'atac més fort d'Eternatus.\n"
+    "Després ha de descansar.");
     
 static const u8 sSteelBeamDescription[] = _(
     "Dispara un raig d'acer des\n"
     "del cos. Fa mal a l'usuari.");
 
 static const u8 sExpandingForceDescription[] = _(
-    "El poder puja i danya tots\n"
-    "els rivals en Terreny Psíquic.");
+    "Més fort en Terreny Psíquic,\n"
+    "on danya tots els rivals.");
 
 static const u8 sSteelRollerDescription[] = _(
     "Destrueix terreny. Falla\n"
@@ -2871,12 +2871,12 @@ static const u8 sMeteorBeamDescription[] = _(
     "l'Atac Esp. abans d'atacar.");
 
 static const u8 sShellSideArmDescription[] = _(
-    "Fa el millor entre dany\n"
-    "físic i especial. Pot enverinar.");
+    "Fa dany físic o especial, el\n"
+    "millor. Pot enverinar.");
 
 static const u8 sMistyExplosionDescription[] = _(
-    "Colpeja tot i desmaia.\n"
-    "Puja en Terreny Boirós.");
+    "Colpeja tot i es desmaia.\n"
+    "Més fort en Terreny Boirós.");
 
 static const u8 sGrassyGlideDescription[] = _(
     "Llisca pel terra i colpeja.\n"
@@ -2891,12 +2891,12 @@ static const u8 sTerrainPulseDescription[] = _(
     "segons el terreny.");
 
 static const u8 sSkitterSmackDescription[] = _(
-    "L'usuari es mou darrere per\n"
-    "atacar. Baixa Atac Esp. rival.");
+    "Es mou rere el rival i ataca.\n"
+    "Baixa l'Atac Esp. del rival.");
 
 static const u8 sBurningJealousyDescription[] = _(
-    "Rivals que han pujat estad.\n"
-    "durant el torn es cremen.");
+    "Crema els rivals que han\n"
+    "pujat estad. aquest torn.");
 
 static const u8 sLashOutDescription[] = _(
     "Si les estad. han baixat\n"
@@ -2951,7 +2951,7 @@ static const u8 sThunderCageDescription[] = _(
 #endif
 
 static const u8 sDragonEnergyDescription[] = _(
-    "Com més PS tingui l'usuari\n"
+    "Com més PS tingui l'usuari,\n"
     "més dany causa.");
 
 static const u8 sFreezingGlareDescription[] = _(
@@ -2960,7 +2960,7 @@ static const u8 sFreezingGlareDescription[] = _(
 
 static const u8 sFieryWrathDescription[] = _(
     "Un atac alimentat per la\n"
-    "ira. Pot fer encongir.");
+    "ira. Pot fer retrocedir.");
 
 static const u8 sThunderousKickDescription[] = _(
     "Puntada com un llamp. Baixa\n"
@@ -2971,15 +2971,15 @@ static const u8 sGlacialLanceDescription[] = _(
     "gel coberta de ventisca.");
 
 static const u8 sAstralBarrageDescription[] = _(
-    "Colpeja enviant una quantitat\n"
-    "espantosa de fantasmes.");
+    "Envia una munió espantosa\n"
+    "de fantasmes als rivals.");
 
 static const u8 sEerieSpellDescription[] = _(
     "Ataca amb poder psíquic.\n"
     "Retalla 3 PU de l'últim mov.");
 
 static const u8 sNotDoneYetDescription[] = _(
-    "Encara no acabat.");
+    "Encara no està acabat.");
 
 // MOVE_NONE is ignored in this table. Make sure to always subtract 1 before getting the right pointer.
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
@@ -3743,7 +3743,7 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
 };
 
 static const u8 sMoveFourLineDescription_Pound[] = _("Un atac físic fet\namb una cua llarga\no una pota\ndavantera, etc.");
-static const u8 sMoveFourLineDescription_KarateChop[] = _("El rival rep un\ncop sec. Té una\nràtio alta de\ncop crític.");
+static const u8 sMoveFourLineDescription_KarateChop[] = _("El rival rep un\ncop tallant. Té una\nalta taxa de cop\ncrític.");
 static const u8 sMoveFourLineDescription_DoubleSlap[] = _("El rival rep\nbofetades repetides\nd'anada i tornada,\nde 2 a 5 cops.");
 static const u8 sMoveFourLineDescription_CometPunch[] = _("El rival rep una\npluja de cops de\npuny que colpegen\nde 2 a 5 cops.");
 static const u8 sMoveFourLineDescription_MegaPunch[] = _("El rival rep un\ncop de puny llançat\namb tota la força\nmuscular.");
@@ -3754,16 +3754,16 @@ static const u8 sMoveFourLineDescription_ThunderPunch[] = _("El rival rep un cop
 static const u8 sMoveFourLineDescription_Scratch[] = _("Urpes dures i\nafilades esgarrapen\nel rival.");
 static const u8 sMoveFourLineDescription_ViceGrip[] = _("Unes pinces enormes\natrapen i estrenyen\nel rival.");
 static const u8 sMoveFourLineDescription_Guillotine[] = _("Un atac brutal amb\npinces. El rival es\ndesmaiarà si\nencerta.");
-static const u8 sMoveFourLineDescription_RazorWind[] = _("Fulles de vent\ncolpegen el rival\nal 2n torn. Alta\nràtio de cop crític.");
+static const u8 sMoveFourLineDescription_RazorWind[] = _("Fulles de vent\ncolpegen el rival\nal 2n torn. Alta\ntaxa de cop crític.");
 
 #if CONFIG_DECAPITALIZE_MOVE_DESCRIPTION_STRINGS
 
-static const u8 sMoveFourLineDescription_SwordsDance[] = _("Una dansa frenètica\nde combat. Puja\nmolt l'estat\nd'Atac.");
+static const u8 sMoveFourLineDescription_SwordsDance[] = _("Una dansa frenètica\nde combat. Puja\nmolt l'Atac.");
 static const u8 sMoveFourLineDescription_Cut[] = _("Un atac bàsic.\nPot tallar arbres\nprims i herba.");
 static const u8 sMoveFourLineDescription_Gust[] = _("Colpeja el rival\namb una ràfega de\nvent creada per\nles ales.");
 static const u8 sMoveFourLineDescription_WingAttack[] = _("El rival rep un cop\namb ales grans i\nimponents ben\nobertes.");
-static const u8 sMoveFourLineDescription_Whirlwind[] = _("Força el rival a\ncanviar per un\naliat. En estat\nsalvatge, acaba.");
-static const u8 sMoveFourLineDescription_Fly[] = _("Mov. de 2 torns que\ncolpeja al 2n torn.\nPot volar a\nqualsevol ciutat.");
+static const u8 sMoveFourLineDescription_Whirlwind[] = _("Força el rival a\ncanviar per un\naliat. En combat\nsalvatge, s'acaba.");
+static const u8 sMoveFourLineDescription_Fly[] = _("Mov. de 2 torns que\ncolpeja al 2n torn.\nServeix per volar a\nqualsevol ciutat.");
 #if defined(BATTLE_ENGINE) && B_BINDING_TURNS >= GEN_5
 static const u8 sMoveFourLineDescription_Bind[] = _("Un cos llarg o\ntentacles lliguen\nel rival durant\nquatre o cinc torns.");
 #else
@@ -3771,13 +3771,13 @@ static const u8 sMoveFourLineDescription_Bind[] = _("Un cos llarg o\ntentacles l
 #endif
 static const u8 sMoveFourLineDescription_Slam[] = _("El rival rep un cop\namb una cua llarga,\nlianes, etc.");
 static const u8 sMoveFourLineDescription_VineWhip[] = _("El rival rep un cop\namb lianes primes\ncom un fuet.");
-static const u8 sMoveFourLineDescription_Stomp[] = _("El rival rep una\ntrepitjada forta.\nPot fer que el\nrival s'encongeixi.");
+static const u8 sMoveFourLineDescription_Stomp[] = _("El rival rep una\ntrepitjada forta.\nPot fer que el\nrival retrocedeixi.");
 static const u8 sMoveFourLineDescription_DoubleKick[] = _("Dues cames donen\ndues puntades de\npeu ràpides al\nrival en un torn.");
 static const u8 sMoveFourLineDescription_MegaKick[] = _("El rival rep una\npuntada de peu\nllançada amb gran\nforça muscular.");
 static const u8 sMoveFourLineDescription_JumpKick[] = _("L'usuari salta\namunt i dona un cop\nde peu. Si falla,\nes fa mal.");
-static const u8 sMoveFourLineDescription_RollingKick[] = _("Un cop de peu\nràpid amb un gir.\nPot fer que el\nrival s'encongeixi.");
-static const u8 sMoveFourLineDescription_SandAttack[] = _("Es llança sorra a\nla cara del rival,\nreduint la seva\nprecisió.");
-static const u8 sMoveFourLineDescription_Headbutt[] = _("L'usuari treu el\ncap i envesteix.\nPot fer que el\nrival s'encongeixi.");
+static const u8 sMoveFourLineDescription_RollingKick[] = _("Un cop de peu\nràpid amb un gir.\nPot fer que el\nrival retrocedeixi.");
+static const u8 sMoveFourLineDescription_SandAttack[] = _("Es llança sorra a\nla cara del rival i\nli baixa la\nprecisió.");
+static const u8 sMoveFourLineDescription_Headbutt[] = _("L'usuari treu el\ncap i envesteix.\nPot fer que el\nrival retrocedeixi.");
 static const u8 sMoveFourLineDescription_HornAttack[] = _("El rival rep un cop\namb una banya ben\nafilada per causar\ndany.");
 static const u8 sMoveFourLineDescription_FuryAttack[] = _("El rival rep cops\nrepetits amb banya\no bec de 2 a 5\ncops.");
 static const u8 sMoveFourLineDescription_HornDrill[] = _("La banya gira com\nun trepant. El\nrival es desmaiarà\nsi encerta.");
@@ -3796,9 +3796,9 @@ static const u8 sMoveFourLineDescription_PoisonSting[] = _("El rival rep un cop\
 static const u8 sMoveFourLineDescription_Twineedle[] = _("El rival rep dos\ncops amb fiblons.\nPot enverinar el\nrival.");
 static const u8 sMoveFourLineDescription_PinMissile[] = _("Agulles afilades\ncolpegen el rival\nde 2 a 5 cops\nalhora.");
 static const u8 sMoveFourLineDescription_Leer[] = _("El rival rep una\nmirada intimidant\nque li baixa\nla Defensa.");
-static const u8 sMoveFourLineDescription_Bite[] = _("L'usuari mossega\namb ullals feroços.\nPot fer que el\nrival s'encongeixi.");
+static const u8 sMoveFourLineDescription_Bite[] = _("L'usuari mossega\namb ullals feroços.\nPot fer que el\nrival retrocedeixi.");
 static const u8 sMoveFourLineDescription_Growl[] = _("L'usuari gruny de\nforma encantadora,\nfent que el rival\nbaixi l'Atac.");
-static const u8 sMoveFourLineDescription_Roar[] = _("Força el rival a\ncanviar per un\naliat. En estat\nsalvatge, acaba.");
+static const u8 sMoveFourLineDescription_Roar[] = _("Força el rival a\ncanviar per un\naliat. En combat\nsalvatge, s'acaba.");
 static const u8 sMoveFourLineDescription_Sing[] = _("Una cançó suau amb\nveu calmant fa que\nel rival caigui en\nun son profund.");
 static const u8 sMoveFourLineDescription_Supersonic[] = _("L'usuari genera\nones sonores\nestranyes. Pot\nconfondre el rival.");
 static const u8 sMoveFourLineDescription_SonicBoom[] = _("El rival rep una\nona de xoc que\nsempre causa 20\nPS de dany.");
@@ -3806,7 +3806,7 @@ static const u8 sMoveFourLineDescription_Disable[] = _("Durant uns torns,\nevita
 static const u8 sMoveFourLineDescription_Acid[] = _("El rival rep un\nàcid corrosiu que\npot baixar la\nDefensa.");
 static const u8 sMoveFourLineDescription_Ember[] = _("El rival rep un\natac de flames\npetites. Pot causar\nuna cremada.");
 static const u8 sMoveFourLineDescription_Flamethrower[] = _("El rival rep flames\nintenses. Pot causar\nuna cremada al\nrival.");
-static const u8 sMoveFourLineDescription_Mist[] = _("L'equip aliat és\nprotegit per una\nboira que evita\nreduccions d'estat.");
+static const u8 sMoveFourLineDescription_Mist[] = _("L'equip aliat és\nprotegit per una\nboira que evita que\nbaixin les estad.");
 static const u8 sMoveFourLineDescription_WaterGun[] = _("El rival rep un\nraig d'aigua\nexpulsat amb força\nper la boca.");
 static const u8 sMoveFourLineDescription_HydroPump[] = _("Un gran volum\nd'aigua és disparat\nal rival amb gran\npressió.");
 static const u8 sMoveFourLineDescription_Surf[] = _("Una gran onada cau\nsobre el rival.\nPot usar-se per\ncreuar l'aigua.");
@@ -3814,7 +3814,7 @@ static const u8 sMoveFourLineDescription_IceBeam[] = _("El rival rep un\nraig ge
 static const u8 sMoveFourLineDescription_Blizzard[] = _("El rival rep una\nbufada de neu. Pot\ngelar el rival\ncompletament.");
 static const u8 sMoveFourLineDescription_Psybeam[] = _("Un raig estrany es\ndispara al rival.\nPot deixar el\nrival confós.");
 static const u8 sMoveFourLineDescription_BubbleBeam[] = _("Un raig de bombolles\ncolpeja el rival.\nPot baixar la\nVelocitat del rival.");
-static const u8 sMoveFourLineDescription_AuroraBeam[] = _("Un raig d'atac de\ncolors d'arc de St.\nMartí. Pot baixar\nl'Atac.");
+static const u8 sMoveFourLineDescription_AuroraBeam[] = _("Un raig de colors\nd'arc de Sant Martí.\nPot baixar l'Atac\ndel rival.");
 static const u8 sMoveFourLineDescription_HyperBeam[] = _("Un atac devastador\nque fa que l'usuari\ndescansi el torn\nsegüent.");
 static const u8 sMoveFourLineDescription_Peck[] = _("El rival rep un cop\namb un bec o banya\nben afilat.");
 static const u8 sMoveFourLineDescription_DrillPeck[] = _("Un atac en espiral\namb el bec afilat\nactuant com un\ntrepant.");
@@ -3826,8 +3826,8 @@ static const u8 sMoveFourLineDescription_Strength[] = _("El rival rep un cop\nam
 static const u8 sMoveFourLineDescription_Absorb[] = _("Un atac que\nabsorbeix la meitat\ndel dany causat\nper restaurar PS.");
 static const u8 sMoveFourLineDescription_MegaDrain[] = _("Un atac fort que\nabsorbeix la meitat\ndel dany causat\nper restaurar PS.");
 static const u8 sMoveFourLineDescription_LeechSeed[] = _("Es planta una llavor\nal rival per robar\nPS per a l'usuari\na cada torn.");
-static const u8 sMoveFourLineDescription_Growth[] = _("El cos de l'usuari\ncreix per força,\npujant l'Atac\nEsp.");
-static const u8 sMoveFourLineDescription_RazorLeaf[] = _("El rival rep un cop\namb una fulla\ntallant. Alta ràtio\nde cop crític.");
+static const u8 sMoveFourLineDescription_Growth[] = _("El cos de l'usuari\ncreix per força i\npuja l'Atac Esp.");
+static const u8 sMoveFourLineDescription_RazorLeaf[] = _("El rival rep un cop\namb una fulla\ntallant. Alta taxa\nde cop crític.");
 static const u8 sMoveFourLineDescription_SolarBeam[] = _("Mov. de 2 torns que\ncolpeja el rival\namb energia solar\nal 2n torn.");
 static const u8 sMoveFourLineDescription_PoisonPowder[] = _("Es dispersa un\nnúvol de pols\ntòxica. Pot\nenverinar el rival.");
 static const u8 sMoveFourLineDescription_StunSpore[] = _("Es dispersa pols\nparalitzant. Pot\nparalitzar el\nrival.");
@@ -3836,13 +3836,13 @@ static const u8 sMoveFourLineDescription_PetalDance[] = _("L'usuari ataca amb\np
 static const u8 sMoveFourLineDescription_StringShot[] = _("El rival és lligat\namb fils disparats\nper la boca per\nbaixar Velocitat.");
 static const u8 sMoveFourLineDescription_DragonRage[] = _("El rival rep una\nona de xoc que\nsempre causa 40\nPS de dany.");
 #if defined(BATTLE_ENGINE) && B_BINDING_TURNS >= GEN_5
-static const u8 sMoveFourLineDescription_FireSpin[] = _("El rival és atrapat\nen un espiral intens\nde foc durant\nquatre o cinc torns.");
+static const u8 sMoveFourLineDescription_FireSpin[] = _("El rival és atrapat\nen una espiral de\nfoc intens durant\nquatre o cinc torns.");
 #else
-static const u8 sMoveFourLineDescription_FireSpin[] = _("El rival és atrapat\nen un espiral intens\nde foc durant\ndos a cinc torns.");
+static const u8 sMoveFourLineDescription_FireSpin[] = _("El rival és atrapat\nen una espiral de\nfoc intens durant\ndos a cinc torns.");
 #endif
-static const u8 sMoveFourLineDescription_ThunderShock[] = _("Un atac de descàrrega\nelèctrica que pot\ndeixar el rival\nparalitzat.");
+static const u8 sMoveFourLineDescription_ThunderShock[] = _("Una descàrrega\nelèctrica que pot\ndeixar el rival\nparalitzat.");
 static const u8 sMoveFourLineDescription_Thunderbolt[] = _("Un potent atac\nelèctric que pot\ndeixar el rival\nparalitzat.");
-static const u8 sMoveFourLineDescription_ThunderWave[] = _("Una descàrrega\ndèbil que segur que\ncausa paràlisi si\nencerta.");
+static const u8 sMoveFourLineDescription_ThunderWave[] = _("Una descàrrega\nfeble que sempre\nparalitza el rival\nsi encerta.");
 static const u8 sMoveFourLineDescription_Thunder[] = _("Un atac de llamp\nbrutal que pot\ndeixar el rival\nparalitzat.");
 static const u8 sMoveFourLineDescription_RockThrow[] = _("El rival rep una\npluja de roques\npetites i fàcils\nde llançar.");
 static const u8 sMoveFourLineDescription_Earthquake[] = _("Un terratrèmol que\ncolpeja tots els\nPokémon en combat\nexcepte l'usuari.");
@@ -3856,32 +3856,32 @@ static const u8 sMoveFourLineDescription_Meditate[] = _("L'usuari medita per\nde
 static const u8 sMoveFourLineDescription_Agility[] = _("L'usuari es relaxa\ni alleugereix el\ncos per pujar molt\nla Velocitat.");
 static const u8 sMoveFourLineDescription_QuickAttack[] = _("Un atac gairebé\ninvisible de tan\nràpid. Sempre\ncolpeja primer.");
 static const u8 sMoveFourLineDescription_Rage[] = _("Un atac que es fa\nmés fort cada cop\nque l'usuari rep\nun cop en combat.");
-static const u8 sMoveFourLineDescription_Teleport[] = _("Permet fugir de\nPokémon salvatges.\nTambé porta a\nl'últim C. Pokémon.");
+static const u8 sMoveFourLineDescription_Teleport[] = _("Permet fugir de\nPokémon salvatges.\nTambé porta a l'últim\nCentre Pokémon.");
 static const u8 sMoveFourLineDescription_NightShade[] = _("Un atac amb miratge\nque causa dany\nigual al nivell\nde l'usuari.");
-static const u8 sMoveFourLineDescription_Mimic[] = _("L'usuari copia el\nmoviment últim del\nrival per la resta\ndel combat.");
+static const u8 sMoveFourLineDescription_Mimic[] = _("L'usuari copia\nl'últim moviment\ndel rival per la\nresta del combat.");
 static const u8 sMoveFourLineDescription_Screech[] = _("Un crit estrident\nque baixa molt la\nDefensa del rival.");
 static const u8 sMoveFourLineDescription_DoubleTeam[] = _("L'usuari crea\ncòpies il·lusòries\nde si mateix per\npujar l'esquiva.");
 static const u8 sMoveFourLineDescription_Recover[] = _("Un mov. autocuratiu\nque restaura PS\nfins a la meitat\ndels PS màxims.");
 static const u8 sMoveFourLineDescription_Harden[] = _("L'usuari endureix\ntots els músculs\ndel cos per pujar\nla Defensa.");
 static const u8 sMoveFourLineDescription_Minimize[] = _("L'usuari comprimeix\ntotes les cèl·lules\ndel cos per pujar\nl'esquiva.");
-static const u8 sMoveFourLineDescription_Smokescreen[] = _("Un núvol de fum o\ntinta redueix la\nprecisió del rival.");
+static const u8 sMoveFourLineDescription_Smokescreen[] = _("Un núvol de fum o\ntinta baixa la\nprecisió del rival.");
 static const u8 sMoveFourLineDescription_ConfuseRay[] = _("El rival rep un\nraig sinistre que\nprovoca confusió.");
 static const u8 sMoveFourLineDescription_Withdraw[] = _("L'usuari es retira\ndins la closca dura\npujant la seva\nDefensa.");
 static const u8 sMoveFourLineDescription_DefenseCurl[] = _("L'usuari s'enrosca\nper amagar punts\nfebles i pujar la\nDefensa.");
 static const u8 sMoveFourLineDescription_Barrier[] = _("L'usuari crea un\nmur resistent que\npuja molt la seva\nDefensa.");
-static const u8 sMoveFourLineDescription_LightScreen[] = _("Un mur de llum\nredueix el dany\nd'atacs Esp. durant\ncinc torns.");
-static const u8 sMoveFourLineDescription_Haze[] = _("Elimina tots els\ncanvis d'estat de\ntots els Pokémon\nen combat.");
+static const u8 sMoveFourLineDescription_LightScreen[] = _("Un mur de llum\nredueix el dany\nd'atacs especials\ndurant cinc torns.");
+static const u8 sMoveFourLineDescription_Haze[] = _("Elimina tots els\ncanvis d'estad. de\ntots els Pokémon\nen combat.");
 static const u8 sMoveFourLineDescription_Reflect[] = _("Un mur de llum\nredueix el dany\nd'atacs físics\ndurant cinc torns.");
-static const u8 sMoveFourLineDescription_FocusEnergy[] = _("L'usuari respira\nfondo i es concentra\nper pujar la ràtio\nde cop crític.");
+static const u8 sMoveFourLineDescription_FocusEnergy[] = _("L'usuari respira\nfondo i es concentra\nper pujar la taxa\nde cop crític.");
 static const u8 sMoveFourLineDescription_Bide[] = _("L'usuari aguanta\natacs dos torns i\ndesprés contraataca\namb el doble.");
 static const u8 sMoveFourLineDescription_Metronome[] = _("Mou un dit per\nestimular el cervell\ni usar qualsevol\nmoviment a l'atzar.");
-static const u8 sMoveFourLineDescription_MirrorMove[] = _("L'usuari contra\nel moviment últim\ndel rival amb el\nmateix moviment.");
+static const u8 sMoveFourLineDescription_MirrorMove[] = _("L'usuari respon a\nl'últim moviment\ndel rival amb el\nmateix moviment.");
 static const u8 sMoveFourLineDescription_SelfDestruct[] = _("L'usuari explota\nper causar un dany\nsever, fins i tot\ndesmaient-se.");
 static const u8 sMoveFourLineDescription_EggBomb[] = _("Un ou gran és\nllançat amb força\nal rival per causar\ndany.");
-static const u8 sMoveFourLineDescription_Lick[] = _("El rival és llepat\namb una llengua\nllarga. Pot també\nparalitzar.");
-static const u8 sMoveFourLineDescription_Smog[] = _("El rival rep un\natac de gasos. Pot\ntambé enverinar\nel rival.");
+static const u8 sMoveFourLineDescription_Lick[] = _("El rival és llepat\namb una llengua\nllarga. També pot\nparalitzar.");
+static const u8 sMoveFourLineDescription_Smog[] = _("El rival rep un\natac de gasos. També\npot enverinar el\nrival.");
 static const u8 sMoveFourLineDescription_Sludge[] = _("Es llança fang\ntòxic al rival.\nPot enverinar\nel rival.");
-static const u8 sMoveFourLineDescription_BoneClub[] = _("El rival rep un cop\namb un os. Pot fer\nque el rival\ns'encongeixi.");
+static const u8 sMoveFourLineDescription_BoneClub[] = _("El rival rep un cop\namb un os. Pot fer\nque el rival\nretrocedeixi.");
 static const u8 sMoveFourLineDescription_FireBlast[] = _("El rival rep una\nflama intensa. Pot\ndeixar el rival\ncremat.");
 static const u8 sMoveFourLineDescription_Waterfall[] = _("Un atac de càrrega\npotent. Pot usar-se\nper pujar una\ncascada.");
 #if defined(BATTLE_ENGINE) && B_BINDING_TURNS >= GEN_5
@@ -3902,45 +3902,45 @@ static const u8 sMoveFourLineDescription_DreamEater[] = _("Absorbeix la meitat\n
 static const u8 sMoveFourLineDescription_PoisonGas[] = _("El rival rep un\nnúvol de gas tòxic\nque pot enverinar\nel rival.");
 static const u8 sMoveFourLineDescription_Barrage[] = _("Objectes rodons\ncolpegen el rival\nde 2 a 5 cops.");
 static const u8 sMoveFourLineDescription_LeechLife[] = _("Un atac que\nabsorbeix la meitat\ndel dany causat\nper restaurar PS.");
-static const u8 sMoveFourLineDescription_LovelyKiss[] = _("L'usuari força un\npetó al rival amb\nuna cara que\nindueix el son.");
-static const u8 sMoveFourLineDescription_SkyAttack[] = _("Un atac al 2n torn\namb alta ràtio de\ncop crític. Pot\nencongir el rival.");
+static const u8 sMoveFourLineDescription_LovelyKiss[] = _("L'usuari força un\npetó al rival amb\nuna cara terrible\nque indueix el son.");
+static const u8 sMoveFourLineDescription_SkyAttack[] = _("Un atac al 2n torn\namb alta taxa de\ncop crític. Pot fer\nretrocedir el rival.");
 static const u8 sMoveFourLineDescription_Transform[] = _("L'usuari es\ntransforma en còpia\ndel rival, amb els\nmateixos moviments.");
 static const u8 sMoveFourLineDescription_Bubble[] = _("Un raig de bombolles\ncolpeja el rival.\nPot baixar la\nVelocitat del rival.");
 static const u8 sMoveFourLineDescription_DizzyPunch[] = _("El rival rep un cop\nde puny rítmic que\npot deixar-lo\nconfós.");
 static const u8 sMoveFourLineDescription_Spore[] = _("L'usuari escampa\nespores fines que\nindueixen el son.");
 static const u8 sMoveFourLineDescription_Flash[] = _("Un destell de llum\nbaixa la precisió\ndel rival. Il·lumina\ntambé les coves.");
 static const u8 sMoveFourLineDescription_Psywave[] = _("El rival rep una\nona d'energia\nestranya que varia\nen intensitat.");
-static const u8 sMoveFourLineDescription_Splash[] = _("L'usuari salta i\nesquitza sense cap\nefecte.");
+static const u8 sMoveFourLineDescription_Splash[] = _("L'usuari salta i\nesquitxa sense cap\nefecte.");
 static const u8 sMoveFourLineDescription_AcidArmor[] = _("L'usuari altera les\nseves cèl·lules per\nliquar-se i pujar\nmolt la Defensa.");
-static const u8 sMoveFourLineDescription_Crabhammer[] = _("Una pinça gran\ncolpeja el rival.\nTé una alta ràtio\nde cop crític.");
+static const u8 sMoveFourLineDescription_Crabhammer[] = _("Una pinça gran\ncolpeja el rival.\nTé una alta taxa\nde cop crític.");
 static const u8 sMoveFourLineDescription_Explosion[] = _("L'usuari explota\nper causar un dany\nterrible fins i tot\ndesmaient-se.");
 static const u8 sMoveFourLineDescription_FurySwipes[] = _("El rival rep cops\nd'urpes afilades\nde 2 a 5 cops.");
 static const u8 sMoveFourLineDescription_Bonemerang[] = _("L'usuari llança un\nos que colpeja el\nrival un cop i un\naltre en tornar.");
 static const u8 sMoveFourLineDescription_Rest[] = _("L'usuari dorm dos\ntorns per restaurar\ntots els PS i curar\nqualsevol estat.");
-static const u8 sMoveFourLineDescription_RockSlide[] = _("Grans roques són\nllançades al rival.\nPot fer que el\nrival s'encongeixi.");
-static const u8 sMoveFourLineDescription_HyperFang[] = _("El rival rep un\natac d'ullals\nafilats. Pot fer\nencongir el rival.");
+static const u8 sMoveFourLineDescription_RockSlide[] = _("Grans roques són\nllançades al rival.\nPot fer que el\nrival retrocedeixi.");
+static const u8 sMoveFourLineDescription_HyperFang[] = _("El rival rep un\natac d'ullals\nafilats. Pot fer\nretrocedir el rival.");
 static const u8 sMoveFourLineDescription_Sharpen[] = _("L'usuari redueix\nels polígons per\nafilar les vores\ni pujar l'Atac.");
 static const u8 sMoveFourLineDescription_Conversion[] = _("L'usuari canvia de\ntipus per igualar\nel tipus d'un dels\nseus moviments.");
 static const u8 sMoveFourLineDescription_TriAttack[] = _("Un atac simultani\nde 3 raigs que pot\nparalitzar, cremar\no gelar el rival.");
 static const u8 sMoveFourLineDescription_SuperFang[] = _("L'usuari ataca amb\nullals afilats i\nredueix a la meitat\nels PS del rival.");
-static const u8 sMoveFourLineDescription_Slash[] = _("El rival rep un\ncop d'urpes. Té\nuna alta ràtio de\ncop crític.");
-static const u8 sMoveFourLineDescription_Substitute[] = _("L'usuari crea un\nsenyal usant un\nquart dels seus\nPS màxims.");
+static const u8 sMoveFourLineDescription_Slash[] = _("El rival rep un\ncop d'urpes. Té\nuna alta taxa de\ncop crític.");
+static const u8 sMoveFourLineDescription_Substitute[] = _("L'usuari crea un\nsubstitut usant un\nquart dels seus PS\nmàxims.");
 static const u8 sMoveFourLineDescription_Struggle[] = _("Un atac que només\nes fa si no queden\nPU. També fa mal\na l'usuari.");
-static const u8 sMoveFourLineDescription_Sketch[] = _("Copia el moviment\núltim usat pel\nrival i després\ndesapareix.");
+static const u8 sMoveFourLineDescription_Sketch[] = _("Copia l'últim\nmoviment usat pel\nrival i després\ndesapareix.");
 static const u8 sMoveFourLineDescription_TripleKick[] = _("Un atac de 3 cops\nde peu que es fa\nmés fort a cada\ncop successiu.");
 static const u8 sMoveFourLineDescription_Thief[] = _("Un atac que pot\nrobar l'objecte del\nrival si l'usuari\nno en porta cap.");
 static const u8 sMoveFourLineDescription_SpiderWeb[] = _("Atrapa el rival\namb fil enganxós\nperquè no fugi ni\ncanviï.");
-static const u8 sMoveFourLineDescription_MindReader[] = _("L'usuari prediu\nl'acció del rival\nper assegurar que\nel pròxim atac toca.");
+static const u8 sMoveFourLineDescription_MindReader[] = _("L'usuari prediu\nl'acció del rival\nperquè el pròxim\natac encerti.");
 static const u8 sMoveFourLineDescription_Nightmare[] = _("Un rival adormit\nveu un malson que\nli causa dany a\ncada torn.");
 static const u8 sMoveFourLineDescription_FlameWheel[] = _("L'usuari fa una\ncàrrega de foc.\nPot causar una\ncremada.");
-static const u8 sMoveFourLineDescription_Snore[] = _("Un atac que només\nes pot usar dormint.\nPot fer encongir\nel rival.");
+static const u8 sMoveFourLineDescription_Snore[] = _("Un atac que només\nes pot usar dormint.\nPot fer retrocedir\nel rival.");
 static const u8 sMoveFourLineDescription_Curse[] = _("Un moviment que\nfunciona diferent\nper al tipus\nFantasma i la resta.");
 static const u8 sMoveFourLineDescription_Flail[] = _("Un atac desesperat\nque es fa més fort\ncom menys PS té\nl'usuari.");
 static const u8 sMoveFourLineDescription_Conversion2[] = _("L'usuari canvia de\ntipus per fer-se\nresistent a l'últim\natac rebut.");
-static const u8 sMoveFourLineDescription_Aeroblast[] = _("Un vòrtex d'aire\ncolpeja el rival.\nTé una alta ràtio\nde cop crític.");
+static const u8 sMoveFourLineDescription_Aeroblast[] = _("Un vòrtex d'aire\ncolpeja el rival.\nTé una alta taxa\nde cop crític.");
 static const u8 sMoveFourLineDescription_CottonSpore[] = _("Espores de cotó\ns'enganxen al rival\nbaixant molt la\nseva Velocitat.");
 static const u8 sMoveFourLineDescription_Reversal[] = _("Un atac total que\nes fa més fort com\nmenys PS té\nl'usuari.");
-static const u8 sMoveFourLineDescription_Spite[] = _("Un mov. que treu\nde 2 a 5 PU del\nmoviment últim\nusat pel rival.");
+static const u8 sMoveFourLineDescription_Spite[] = _("Un mov. que treu\nde 2 a 5 PU de\nl'últim moviment\nusat pel rival.");
 static const u8 sMoveFourLineDescription_PowderSnow[] = _("Colpeja el rival\namb una ventada de\nneu. Pot gelar\nel rival.");
 static const u8 sMoveFourLineDescription_Protect[] = _("Permet a l'usuari\nesquivar tot atac.\nPot fallar si\ns'usa seguit.");
 static const u8 sMoveFourLineDescription_MachPunch[] = _("Un cop de puny a\nvelocitat cegadora.\nSempre colpeja\nprimer.");
@@ -3951,7 +3951,7 @@ static const u8 sMoveFourLineDescription_BellyDrum[] = _("L'usuari maximitza\nl'
 static const u8 sMoveFourLineDescription_SludgeBomb[] = _("Es llança fang\ntòxic al rival.\nPot enverinar\nel rival.");
 static const u8 sMoveFourLineDescription_MudSlap[] = _("Es llança fang a\nla cara del rival\nper causar dany i\nbaixar precisió.");
 static const u8 sMoveFourLineDescription_Octazooka[] = _("Es dispara tinta a\nla cara del rival\nper causar dany i\nbaixar precisió.");
-static const u8 sMoveFourLineDescription_Spikes[] = _("Un parany d'agulles\nes posa al voltant\ndel rival per fer\nmal en canviar.");
+static const u8 sMoveFourLineDescription_Spikes[] = _("Un parany de punxes\nal camp rival fa\nmal als rivals que\nhi entren.");
 static const u8 sMoveFourLineDescription_ZapCannon[] = _("Una descàrrega\nelèctrica és\ndisparada per fer\ndany i paralitzar.");
 static const u8 sMoveFourLineDescription_Foresight[] = _("Nega completament\nels esforços del\nrival per augmentar\nl'esquiva.");
 static const u8 sMoveFourLineDescription_DestinyBond[] = _("Si l'usuari es\ndesmaia, el rival\nque dona el cop\nfinal també cau.");
@@ -3959,9 +3959,9 @@ static const u8 sMoveFourLineDescription_PerishSong[] = _("Tot combatent que\nho
 static const u8 sMoveFourLineDescription_IcyWind[] = _("Un vent gelat\nataca el rival.\nTambé baixa la\nVelocitat.");
 static const u8 sMoveFourLineDescription_Detect[] = _("Permet a l'usuari\nesquivar tot atac.\nPot fallar si\ns'usa seguit.");
 static const u8 sMoveFourLineDescription_BoneRush[] = _("L'usuari colpeja\nel rival amb un os\nde 2 a 5 cops.");
-static const u8 sMoveFourLineDescription_LockOn[] = _("L'usuari fixa el\nrival per assegurar\nque el pròxim\nmoviment encerta.");
+static const u8 sMoveFourLineDescription_LockOn[] = _("L'usuari fixa el\nrival per assegurar\nque el pròxim\nmoviment encerti.");
 static const u8 sMoveFourLineDescription_Outrage[] = _("L'usuari s'enfurisma\ndurant dos o tres\ntorns i després\nes confon.");
-static const u8 sMoveFourLineDescription_Sandstorm[] = _("Una tempesta de 5\ntorns que fa mal a\ntots excepte Roca,\nTerra i Acer.");
+static const u8 sMoveFourLineDescription_Sandstorm[] = _("Tempesta de sorra\nde 5 torns: fa mal a\ntots menys Roca,\nTerra i Acer.");
 static const u8 sMoveFourLineDescription_GigaDrain[] = _("Un atac dur que\nabsorbeix la meitat\ndel dany causat\nper restaurar PS.");
 static const u8 sMoveFourLineDescription_Endure[] = _("L'usuari aguanta\nqualsevol cop amb\n1 PS. Pot fallar\nsi s'usa seguit.");
 static const u8 sMoveFourLineDescription_Charm[] = _("El rival queda\nencisat per la gràcia\nde l'usuari, baixant\nmolt l'Atac.");
@@ -3980,60 +3980,60 @@ static const u8 sMoveFourLineDescription_Return[] = _("Un atac que es fa\nmés f
 static const u8 sMoveFourLineDescription_Present[] = _("El rival rep un\nregal trampa. Pot\nrestaurar PS de\nvegades, però.");
 static const u8 sMoveFourLineDescription_Frustration[] = _("Un atac que es fa\nmés fort com menys\nl'usuari estima\nel seu Entrenador.");
 static const u8 sMoveFourLineDescription_Safeguard[] = _("Protegeix l'equip\nde l'usuari de\nproblemes d'estat\ndurant cinc torns.");
-static const u8 sMoveFourLineDescription_PainSplit[] = _("L'usuari suma els\nseus PS als del\nrival i reparteix\nel total a parts.");
+static const u8 sMoveFourLineDescription_PainSplit[] = _("L'usuari suma els\nseus PS als del\nrival i els reparteix\na parts iguals.");
 static const u8 sMoveFourLineDescription_SacredFire[] = _("Un atac de foc\nmístic i poderós\nque pot causar\nuna cremada.");
 static const u8 sMoveFourLineDescription_Magnitude[] = _("Un atac de terra\ncontra tots els\nPokémon al terra.\nEl poder varia.");
 static const u8 sMoveFourLineDescription_DynamicPunch[] = _("El rival rep un cop\namb tota la força.\nConfon el rival si\nencerta.");
 static const u8 sMoveFourLineDescription_Megahorn[] = _("Un atac brutal\nd'envestida amb\nuna banya dura i\nimpressionant.");
-static const u8 sMoveFourLineDescription_DragonBreath[] = _("El rival rep un\nalè increïble que\npot també\nparalitzar.");
-static const u8 sMoveFourLineDescription_BatonPass[] = _("L'usuari canvia,\npassant qualsevol\ncanvi d'estat al\nnou combatent.");
+static const u8 sMoveFourLineDescription_DragonBreath[] = _("El rival rep un\nalè increïble que\ntambé pot\nparalitzar.");
+static const u8 sMoveFourLineDescription_BatonPass[] = _("L'usuari canvia,\npassant qualsevol\ncanvi d'estad. al\nnou combatent.");
 static const u8 sMoveFourLineDescription_Encore[] = _("Fa que el rival\nrepeteixi l'últim\nmoviment durant\ndos a sis torns.");
 static const u8 sMoveFourLineDescription_Pursuit[] = _("Un atac que és\nespecialment eficaç\nquan el rival està\ncanviant.");
-static const u8 sMoveFourLineDescription_RapidSpin[] = _("Un atac que allibera\nl'usuari de Lligar,\nEmbolicar, Llavor\ni Agulles.");
+static const u8 sMoveFourLineDescription_RapidSpin[] = _("Un atac que allibera\nl'usuari de Lligam,\nEnroscada, Llavor\nParàsit i Punxes.");
 static const u8 sMoveFourLineDescription_SweetScent[] = _("Atrau el rival per\nbaixar l'esquiva.\nTambé atrau\nPokémon salvatges.");
 static const u8 sMoveFourLineDescription_IronTail[] = _("Un atac amb cua\nd'acer. Pot baixar\nla Defensa del\nrival.");
 static const u8 sMoveFourLineDescription_MetalClaw[] = _("El rival rep un\natac d'urpes d'acer.\nPot pujar l'Atac\nde l'usuari.");
 static const u8 sMoveFourLineDescription_VitalThrow[] = _("Fa que l'usuari\nataqui després del\nrival. A canvi, no\nfallarà.");
-static const u8 sMoveFourLineDescription_MorningSun[] = _("Restaura els PS de\nl'usuari. La suma\nrecuperada varia\namb el temps.");
-static const u8 sMoveFourLineDescription_Synthesis[] = _("Restaura els PS de\nl'usuari. La suma\nrecuperada varia\namb el temps.");
-static const u8 sMoveFourLineDescription_Moonlight[] = _("Restaura els PS de\nl'usuari. La suma\nrecuperada varia\namb el temps.");
+static const u8 sMoveFourLineDescription_MorningSun[] = _("Restaura els PS de\nl'usuari. La\nquantitat varia\nsegons el clima.");
+static const u8 sMoveFourLineDescription_Synthesis[] = _("Restaura els PS de\nl'usuari. La\nquantitat varia\nsegons el clima.");
+static const u8 sMoveFourLineDescription_Moonlight[] = _("Restaura els PS de\nl'usuari. La\nquantitat varia\nsegons el clima.");
 static const u8 sMoveFourLineDescription_HiddenPower[] = _("Un atac que varia\nen tipus i força\ndepenent de\nl'usuari.");
-static const u8 sMoveFourLineDescription_CrossChop[] = _("El rival rep un\ndoble cop de destral.\nTé una alta ràtio\nde cop crític.");
-static const u8 sMoveFourLineDescription_Twister[] = _("Un tornado viciós\nataca el rival.\nPot fer encongir\nel rival.");
-static const u8 sMoveFourLineDescription_RainDance[] = _("Una pluja forta cau\ndurant cinc torns,\npotenciant moviments\nde tipus Aigua.");
-static const u8 sMoveFourLineDescription_SunnyDay[] = _("El sol brilla durant\ncinc torns,\npotenciant moviments\nde tipus Foc.");
+static const u8 sMoveFourLineDescription_CrossChop[] = _("El rival rep un\ndoble cop de destral.\nTé una alta taxa\nde cop crític.");
+static const u8 sMoveFourLineDescription_Twister[] = _("Un tornado ferotge\nataca el rival.\nPot fer retrocedir\nel rival.");
+static const u8 sMoveFourLineDescription_RainDance[] = _("Una pluja forta de\ncinc torns potencia\nels moviments de\ntipus Aigua.");
+static const u8 sMoveFourLineDescription_SunnyDay[] = _("El sol brilla cinc\ntorns i potencia\nels moviments de\ntipus Foc.");
 static const u8 sMoveFourLineDescription_Crunch[] = _("El rival rep una\nmossegada forta.\nPot baixar la\nDef. Esp. del rival.");
 static const u8 sMoveFourLineDescription_MirrorCoat[] = _("Un mov. de revenja\nque retorna l'atac\nespecial del rival\namb el doble.");
-static const u8 sMoveFourLineDescription_PsychUp[] = _("L'usuari s'hipnotitza\nper copiar qualsevol\ncanvi d'estat\nfet pel rival.");
+static const u8 sMoveFourLineDescription_PsychUp[] = _("L'usuari s'hipnotitza\nper copiar qualsevol\ncanvi d'estad.\nfet pel rival.");
 static const u8 sMoveFourLineDescription_ExtremeSpeed[] = _("Una càrrega a\nvelocitat cegadora\nque sempre va abans\nque tot altre atac.");
-static const u8 sMoveFourLineDescription_AncientPower[] = _("Un poder antic\nataca el rival.\nPot pujar tots els\nestats de l'usuari.");
+static const u8 sMoveFourLineDescription_AncientPower[] = _("Un poder antic\nataca el rival.\nPot pujar totes les\nestad. de l'usuari.");
 static const u8 sMoveFourLineDescription_ShadowBall[] = _("Una bola d'ombra\ncolpeja el rival.\nPot baixar la\nDef. Esp. del rival.");
 static const u8 sMoveFourLineDescription_FutureSight[] = _("Dos torns després\nd'usar-lo, el rival\nrep un atac\npsíquic.");
 static const u8 sMoveFourLineDescription_RockSmash[] = _("Un atac que pot\nbaixar la Defensa.\nPot trencar roques\nesquerdades.");
 #if defined(BATTLE_ENGINE) && B_BINDING_TURNS >= GEN_5
-static const u8 sMoveFourLineDescription_Whirlpool[] = _("El rival és atrapat\nen un remolí ràpid\ni viciós durant\nquatre o cinc torns.");
+static const u8 sMoveFourLineDescription_Whirlpool[] = _("El rival és atrapat\nen un remolí ràpid\ni ferotge durant\nquatre o cinc torns.");
 #else
-static const u8 sMoveFourLineDescription_Whirlpool[] = _("El rival és atrapat\nen un remolí ràpid\ni viciós durant\ndos a cinc torns.");
+static const u8 sMoveFourLineDescription_Whirlpool[] = _("El rival és atrapat\nen un remolí ràpid\ni ferotge durant\ndos a cinc torns.");
 #endif
 static const u8 sMoveFourLineDescription_BeatUp[] = _("Tots els Pokémon de\nl'equip s'uneixen.\nCom més aliats,\nmés dany.");
-static const u8 sMoveFourLineDescription_FakeOut[] = _("Un atac que colpeja\nprimer i fa encongir.\nNomés es pot usar\nal 1r torn.");
+static const u8 sMoveFourLineDescription_FakeOut[] = _("Un atac que colpeja\nprimer i fa\nretrocedir. Només es\npot usar al 1r torn.");
 static const u8 sMoveFourLineDescription_Uproar[] = _("L'usuari ataca amb\nun enrenou que\nevita el son durant\ndos a cinc torns.");
 static const u8 sMoveFourLineDescription_Stockpile[] = _("L'usuari acumula\nenergia per usar\nmés tard. Es pot\nusar tres cops.");
-static const u8 sMoveFourLineDescription_SpitUp[] = _("L'energia acumulada\namb Reserva és\nalliberada per\natacar.");
-static const u8 sMoveFourLineDescription_Swallow[] = _("L'energia acumulada\namb Reserva és\nabsorbida per\nrestaurar PS.");
-static const u8 sMoveFourLineDescription_HeatWave[] = _("L'usuari exhala un\nalè calent. Pot\ntambé causar una\ncremada.");
+static const u8 sMoveFourLineDescription_SpitUp[] = _("L'energia acumulada\namb Acumular és\nalliberada per\natacar.");
+static const u8 sMoveFourLineDescription_Swallow[] = _("L'energia acumulada\namb Acumular és\nabsorbida per\nrestaurar PS.");
+static const u8 sMoveFourLineDescription_HeatWave[] = _("L'usuari exhala un\nalè calent. També\npot causar una\ncremada.");
 static const u8 sMoveFourLineDescription_Hail[] = _("Una tempesta de\ngranís de 5 torns\nque fa mal a tots\nexcepte tipus Gel.");
 static const u8 sMoveFourLineDescription_Flatter[] = _("L'adulació confon\nel rival, però\ntambé li puja\nl'Atac Esp.");
 static const u8 sMoveFourLineDescription_Torment[] = _("Enfureix el rival,\nfent-lo incapaç\nd'usar el mateix\nmov. seguit.");
-static const u8 sMoveFourLineDescription_WillOWisp[] = _("Una flama blavosa\nsinistre es dispara\nal rival per\ncausar cremada.");
+static const u8 sMoveFourLineDescription_WillOWisp[] = _("Una flama blavosa\nsinistra es dispara\nal rival per\ncausar cremada.");
 static const u8 sMoveFourLineDescription_Memento[] = _("L'usuari es desmaia,\nperò baixa molt\nl'Atac i l'Atac\nEsp. del rival.");
-static const u8 sMoveFourLineDescription_Facade[] = _("Un atac que es\npotencia si l'usuari\nestà cremat, enve-\nrinat o paralitzat.");
-static const u8 sMoveFourLineDescription_FocusPunch[] = _("Un atac que\ns'executa l'últim.\nL'usuari s'encongeix\nsi rep un cop abans.");
-static const u8 sMoveFourLineDescription_SmellingSalt[] = _("Doble d'eficaç en\nun rival paralitzat,\nperò també cura\nla seva paràlisi.");
+static const u8 sMoveFourLineDescription_Facade[] = _("Un atac potenciat\nsi l'usuari està\ncremat, enverinat\no paralitzat.");
+static const u8 sMoveFourLineDescription_FocusPunch[] = _("Un atac que\ns'executa l'últim.\nL'usuari retrocedeix\nsi rep un cop abans.");
+static const u8 sMoveFourLineDescription_SmellingSalt[] = _("Doblement eficaç\ncontra un rival\nparalitzat, però\nli cura la paràlisi.");
 static const u8 sMoveFourLineDescription_FollowMe[] = _("L'usuari atrau\nl'atenció, fent\nque els rivals només\nl'ataquin a ell.");
 static const u8 sMoveFourLineDescription_NaturePower[] = _("Un atac que canvia\nde tipus depenent\nde la ubicació de\nl'usuari.");
 static const u8 sMoveFourLineDescription_Charge[] = _("L'usuari carrega\nenergia per\npotenciar el seu\npròxim mov. Elèctric.");
-static const u8 sMoveFourLineDescription_Taunt[] = _("El rival és provocat\nper una ràbia que\nnomés li permet\nusar atacs.");
+static const u8 sMoveFourLineDescription_Taunt[] = _("El rival és provocat\ni, enrabiat, només\npot usar atacs.");
 static const u8 sMoveFourLineDescription_HelpingHand[] = _("Un moviment que\npotencia el poder\nde l'atac de\nl'aliat en combat.");
 static const u8 sMoveFourLineDescription_Trick[] = _("Un moviment que\nenganya el rival\nper intercanviar\nobjectes equipats.");
 static const u8 sMoveFourLineDescription_RolePlay[] = _("L'usuari imita el\nrival completament\ni copia l'habilitat\ndel rival.");
@@ -4041,32 +4041,32 @@ static const u8 sMoveFourLineDescription_Wish[] = _("Un mov. autocuratiu\nque re
 static const u8 sMoveFourLineDescription_Assist[] = _("L'usuari tria i usa\na l'atzar un mov.\nd'un Pokémon\naliat.");
 static const u8 sMoveFourLineDescription_Ingrain[] = _("L'usuari crea arrels\nque restauren PS\na cada torn. No pot\ncanviar.");
 static const u8 sMoveFourLineDescription_Superpower[] = _("Un atac poderós,\nperò també baixa\nl'Atac i la Defensa\nde l'usuari.");
-static const u8 sMoveFourLineDescription_MagicCoat[] = _("Reflecteix la Llavor\nXucladora del rival\ni qualsevol mov.\nque alteri l'estat.");
+static const u8 sMoveFourLineDescription_MagicCoat[] = _("Reflecteix la Llavor\nParàsit del rival\ni qualsevol mov.\nque alteri l'estat.");
 static const u8 sMoveFourLineDescription_Recycle[] = _("Un moviment que\nrecicla un objecte\nusat per usar-lo\nun altre cop.");
 static const u8 sMoveFourLineDescription_Revenge[] = _("Un atac que guanya\nforça si el rival\nha fet mal a\nl'usuari.");
-static const u8 sMoveFourLineDescription_BrickBreak[] = _("Un atac que trenca\nqualsevol barrera\ncom Pantalla de Llum\ni Reflectir.");
+static const u8 sMoveFourLineDescription_BrickBreak[] = _("Un atac que trenca\nqualsevol barrera\ncom Pantalla Llum\ni Reflectir.");
 static const u8 sMoveFourLineDescription_Yawn[] = _("Un gran badall fa\nque el rival caigui\nadormit al torn\nsegüent.");
 static const u8 sMoveFourLineDescription_KnockOff[] = _("Fa caure l'objecte\ndel rival per\nevitar el seu ús\ndurant el combat.");
 static const u8 sMoveFourLineDescription_Endeavor[] = _("Guanya poder com\nmenys PS té\nl'usuari comparat\namb el rival.");
 static const u8 sMoveFourLineDescription_Eruption[] = _("Com més PS té\nl'usuari, més\npoderós es torna\naquest atac.");
-static const u8 sMoveFourLineDescription_SkillSwap[] = _("L'usuari usa el\nseu poder psíquic\nper intercanviar\nhabilitats.");
+static const u8 sMoveFourLineDescription_SkillSwap[] = _("Amb poder psíquic,\nl'usuari intercanvia\nl'habilitat amb el\nrival.");
 static const u8 sMoveFourLineDescription_Imprison[] = _("Evita que els\nrivals usin cap\nmoviment que també\nconegui l'usuari.");
 static const u8 sMoveFourLineDescription_Refresh[] = _("Un mov. autocuratiu\nque cura l'usuari\nd'enverinament,\ncremada o paràlisi.");
 static const u8 sMoveFourLineDescription_Grudge[] = _("Si l'usuari es\ndesmaia, elimina\nels PU del mov.\nque l'ha acabat.");
 static const u8 sMoveFourLineDescription_Snatch[] = _("Roba els efectes\ndel moviment del\nrival de curació o\ncanvi d'estat.");
 static const u8 sMoveFourLineDescription_SecretPower[] = _("Un atac que pot\ntenir un efecte\naddicional que varia\nsegons el terreny.");
-static const u8 sMoveFourLineDescription_Dive[] = _("L'usuari es submergeix\nal 1r torn i ataca\nal torn següent.");
+static const u8 sMoveFourLineDescription_Dive[] = _("L'usuari se\nsubmergeix al 1r\ntorn i ataca al\ntorn següent.");
 static const u8 sMoveFourLineDescription_ArmThrust[] = _("Una ràfega de cops\nde puny directes\nque colpegen de 2\na 5 cops.");
 static const u8 sMoveFourLineDescription_Camouflage[] = _("Canvia el tipus de\nl'usuari depenent\ndel terreny del\nlloc.");
-static const u8 sMoveFourLineDescription_TailGlow[] = _("L'usuari emet un\nflash que puja molt\nl'Atac Esp.");
+static const u8 sMoveFourLineDescription_TailGlow[] = _("L'usuari emet un\nflaix que puja molt\nl'Atac Esp.");
 static const u8 sMoveFourLineDescription_LusterPurge[] = _("Un esclat de llum\ncolpeja el rival.\nPot baixar la\nDef. Esp. del rival.");
-static const u8 sMoveFourLineDescription_MistBall[] = _("Una pluja de plomissol\ncolpeja el rival.\nPot baixar l'Atac\nEsp. del rival.");
+static const u8 sMoveFourLineDescription_MistBall[] = _("Plomissol colpeja\nel rival. Pot baixar\nl'Atac Esp. del\nrival.");
 static const u8 sMoveFourLineDescription_FeatherDance[] = _("El rival queda\ncobert de plomes\nque li baixen molt\nl'Atac.");
 static const u8 sMoveFourLineDescription_TeeterDance[] = _("Una dansa vacil·lant\nque confon tots\nels Pokémon en\ncombat.");
-static const u8 sMoveFourLineDescription_BlazeKick[] = _("Un cop de peu de\nfoc amb alta ràtio\nde cop crític. Pot\ncremar el rival.");
+static const u8 sMoveFourLineDescription_BlazeKick[] = _("Un cop de peu de\nfoc amb alta taxa\nde cop crític. Pot\ncremar el rival.");
 static const u8 sMoveFourLineDescription_MudSport[] = _("Debilita els atacs\nde tipus Elèctric\nmentre l'usuari\nés en combat.");
 static const u8 sMoveFourLineDescription_IceBall[] = _("Un atac rodant de\n5 torns que es fa\nmés fort a cada\ncop.");
-static const u8 sMoveFourLineDescription_NeedleArm[] = _("Un atac amb braços\nespinosos. Pot fer\nencongir el rival.");
+static const u8 sMoveFourLineDescription_NeedleArm[] = _("Un atac amb braços\nespinosos. Pot fer\nretrocedir el rival.");
 static const u8 sMoveFourLineDescription_SlackOff[] = _("L'usuari ganduleja\ni restaura els PS\nfins a la meitat\ndels PS màxims.");
 static const u8 sMoveFourLineDescription_HyperVoice[] = _("L'usuari emet un\ncrit terriblement\nfort amb poder\nper causar dany.");
 static const u8 sMoveFourLineDescription_PoisonFang[] = _("El rival rep una\nmossegada tòxica.\nPot enverinar molt\nel rival.");
@@ -4074,423 +4074,423 @@ static const u8 sMoveFourLineDescription_CrushClaw[] = _("El rival rep un\natac 
 static const u8 sMoveFourLineDescription_BlastBurn[] = _("El rival rep una\nexplosió enorme.\nL'usuari no pot\nmoure's al seg. torn.");
 static const u8 sMoveFourLineDescription_HydroCannon[] = _("El rival rep un\ncanó d'aigua.\nL'usuari no pot\nmoure's al seg. torn.");
 static const u8 sMoveFourLineDescription_MeteorMash[] = _("El rival rep un cop\nde puny dur i ràpid.\nPot pujar l'Atac\nde l'usuari.");
-static const u8 sMoveFourLineDescription_Astonish[] = _("Un atac amb un crit\nsorprenent. Pot fer\nencongir el rival.");
+static const u8 sMoveFourLineDescription_Astonish[] = _("Un atac amb un crit\nsorprenent. Pot fer\nretrocedir el rival.");
 static const u8 sMoveFourLineDescription_WeatherBall[] = _("Un atac que varia\nen poder i tipus\ndepenent del\ntemps.");
 static const u8 sMoveFourLineDescription_Aromatherapy[] = _("Un aroma suau cura\ntots els problemes\nd'estat de l'equip\nde l'usuari.");
 static const u8 sMoveFourLineDescription_FakeTears[] = _("L'usuari fa veure\nque plora per baixar\nmolt la Def. Esp.\ndel rival.");
-static const u8 sMoveFourLineDescription_AirCutter[] = _("El rival rep un\nvent tallant. Té\nuna alta ràtio de\ncop crític.");
+static const u8 sMoveFourLineDescription_AirCutter[] = _("El rival rep un\nvent tallant. Té\nuna alta taxa de\ncop crític.");
 static const u8 sMoveFourLineDescription_Overheat[] = _("Un atac intens que\ntambé baixa molt\nl'Atac Esp. de\nl'usuari.");
 static const u8 sMoveFourLineDescription_OdorSleuth[] = _("Nega completament\nels esforços del\nrival per augmentar\nl'esquiva.");
 static const u8 sMoveFourLineDescription_RockTomb[] = _("Es llancen roques\nal rival. Baixa la\nVelocitat del rival\nsi encerta.");
-static const u8 sMoveFourLineDescription_SilverWind[] = _("El rival rep pols\nde plata. Pot pujar\ntots els estats\nde l'usuari.");
+static const u8 sMoveFourLineDescription_SilverWind[] = _("El rival rep pols\nde plata. Pot pujar\ntotes les estad.\nde l'usuari.");
 static const u8 sMoveFourLineDescription_MetalSound[] = _("Un soroll metàl·lic\nhorrible baixa molt\nla Def. Esp. del\nrival.");
-static const u8 sMoveFourLineDescription_GrassWhistle[] = _("Una melodia agrada-\nble fa caure el\nrival en un son\nprofund.");
+static const u8 sMoveFourLineDescription_GrassWhistle[] = _("Una melodia suau\nfa caure el rival\nen un son profund.");
 static const u8 sMoveFourLineDescription_Tickle[] = _("Es fa riure el\nrival, baixant\nl'Atac i la Defensa\ndel rival.");
 static const u8 sMoveFourLineDescription_CosmicPower[] = _("L'usuari absorbeix\nun poder místic per\npujar la Defensa\ni la Def. Esp.");
 static const u8 sMoveFourLineDescription_WaterSpout[] = _("Com més PS té\nl'usuari, més\npoderós es torna\naquest atac.");
 static const u8 sMoveFourLineDescription_SignalBeam[] = _("El rival rep un\nraig llampant que\npot causar\nconfusió.");
 static const u8 sMoveFourLineDescription_ShadowPunch[] = _("L'usuari llança un\ncop de puny des de\nles ombres. No pot\nser esquivat.");
-static const u8 sMoveFourLineDescription_Extrasensory[] = _("L'usuari ataca amb\nun poder estrany\nque pot fer\nencongir el rival.");
+static const u8 sMoveFourLineDescription_Extrasensory[] = _("L'usuari ataca amb\nun poder estrany\nque pot fer\nretrocedir el rival.");
 static const u8 sMoveFourLineDescription_SkyUppercut[] = _("L'usuari ataca amb\nun ganxo cap amunt\nllançat amb força\ncap al cel.");
 #if defined(BATTLE_ENGINE) && B_BINDING_TURNS >= GEN_5
 static const u8 sMoveFourLineDescription_SandTomb[] = _("El rival és atrapat\nen una tempesta de\nsorra dolorosa\nquatre o cinc torns.");
 #else
 static const u8 sMoveFourLineDescription_SandTomb[] = _("El rival és atrapat\nen una tempesta de\nsorra dolorosa\ndos a cinc torns.");
 #endif
-static const u8 sMoveFourLineDescription_SheerCold[] = _("El rival rep un\natac de fred extrem\nque el desmaia si\nencerta.");
-static const u8 sMoveFourLineDescription_MuddyWater[] = _("L'usuari ataca amb\naigua fangosa.\nPot reduir la\nprecisió del rival.");
+static const u8 sMoveFourLineDescription_SheerCold[] = _("El rival rep un\natac de fred extrem\nque el fa desmaiar\nsi encerta.");
+static const u8 sMoveFourLineDescription_MuddyWater[] = _("L'usuari ataca amb\naigua fangosa.\nPot baixar la\nprecisió del rival.");
 static const u8 sMoveFourLineDescription_BulletSeed[] = _("L'usuari dispara\nllavors al rival.\nEn llança de dues\na cinc alhora.");
 static const u8 sMoveFourLineDescription_AerialAce[] = _("Un atac molt ràpid\ncontra un objectiu.\nNo es pot\nesquivar.");
-static const u8 sMoveFourLineDescription_IcicleSpear[] = _("Es disparen\ncarambans al rival.\nColpeja de dues\na cinc vegades.");
-static const u8 sMoveFourLineDescription_IronDefense[] = _("L'usuari endureix\nel seu cos per\napujar molt la\nDefensa.");
+static const u8 sMoveFourLineDescription_IcicleSpear[] = _("Es disparen glaçons\nesmolats al rival.\nColpeja de dues\na cinc vegades.");
+static const u8 sMoveFourLineDescription_IronDefense[] = _("L'usuari endureix\nel seu cos per\npujar molt la\nDefensa.");
 static const u8 sMoveFourLineDescription_Block[] = _("L'usuari bloqueja\nel pas del rival\namb braços oberts\nper impedir fugir.");
-static const u8 sMoveFourLineDescription_Howl[] = _("L'usuari udola per\nanimar-se i apujar\nel seu Atac.");
+static const u8 sMoveFourLineDescription_Howl[] = _("L'usuari udola per\nanimar-se i pujar\nel seu Atac.");
 static const u8 sMoveFourLineDescription_DragonClaw[] = _("Urpes grans i\nafilades tallen el\nrival amb rapidesa\ni gran potència.");
 static const u8 sMoveFourLineDescription_FrenzyPlant[] = _("El rival rep el cop\nd'una branca enorme.\nL'usuari no es mou\nal torn següent.");
-static const u8 sMoveFourLineDescription_BulkUp[] = _("L'usuari enforteix\nel cos per apujar\nl'Atac i la\nDefensa.");
+static const u8 sMoveFourLineDescription_BulkUp[] = _("L'usuari enforteix\nel cos per pujar\nl'Atac i la\nDefensa.");
 static const u8 sMoveFourLineDescription_Bounce[] = _("L'usuari salta\nsobre el rival al\n2n torn. Pot\nparalitzar-lo.");
-static const u8 sMoveFourLineDescription_MudShot[] = _("L'usuari ataca\nllançant fang.\nTambé redueix la\nVelocitat del rival.");
+static const u8 sMoveFourLineDescription_MudShot[] = _("L'usuari ataca\nllançant fang.\nTambé baixa la\nVelocitat del rival.");
 static const u8 sMoveFourLineDescription_PoisonTail[] = _("Un atac amb alta\ntaxa de cop crític.\nTambé pot\nenverinar el rival.");
 static const u8 sMoveFourLineDescription_Covet[] = _("Un atac adorable\nque també roba\nl'objecte equipat\ndel rival.");
-static const u8 sMoveFourLineDescription_VoltTackle[] = _("L'usuari fa una\nembranzida elèctrica.\nTambé fa mal a\nl'usuari.");
+static const u8 sMoveFourLineDescription_VoltTackle[] = _("L'usuari fa una\nenvestida elèctrica.\nTambé fa una mica\nde mal a l'usuari.");
 static const u8 sMoveFourLineDescription_MagicalLeaf[] = _("El rival rep l'atac\nd'una fulla estranya\nque no pot ser\nesquivada.");
 static const u8 sMoveFourLineDescription_WaterSport[] = _("Afebleix els atacs\nde tipus Foc mentre\nl'usuari és en\ncombat.");
-static const u8 sMoveFourLineDescription_CalmMind[] = _("L'usuari concentra\nla ment per apujar\nl'Atac Esp. i la\nDef. Esp.");
-static const u8 sMoveFourLineDescription_LeafBlade[] = _("El rival és tallat\namb una fulla afila-\nda. Té alta taxa\nde cop crític.");
-static const u8 sMoveFourLineDescription_DragonDance[] = _("Una dansa mística\nque apuja l'Atac\ni la Velocitat de\nl'usuari.");
+static const u8 sMoveFourLineDescription_CalmMind[] = _("L'usuari concentra\nla ment per pujar\nl'Atac Esp. i la\nDef. Esp.");
+static const u8 sMoveFourLineDescription_LeafBlade[] = _("Una fulla afilada\ntalla el rival. Té\nuna alta taxa de\ncop crític.");
+static const u8 sMoveFourLineDescription_DragonDance[] = _("Una dansa mística\nque puja l'Atac\ni la Velocitat de\nl'usuari.");
 static const u8 sMoveFourLineDescription_RockBlast[] = _("L'usuari llança de\ndues a cinc roques\nal rival per\natacar.");
 static const u8 sMoveFourLineDescription_ShockWave[] = _("Un raig elèctric\nràpid colpeja el\nrival. No pot ser\nesquivat.");
 static const u8 sMoveFourLineDescription_WaterPulse[] = _("Un atac amb una\nona d'aigua. També\npot confondre\nel rival.");
 static const u8 sMoveFourLineDescription_DoomDesire[] = _("Un moviment que\nataca el rival amb\nun raig de llum dos\ntorns després.");
-static const u8 sMoveFourLineDescription_PsychoBoost[] = _("Un atac intens que\ntambé redueix molt\nl'Atac Esp. de\nl'usuari.");
+static const u8 sMoveFourLineDescription_PsychoBoost[] = _("Un atac intens que\ntambé baixa molt\nl'Atac Esp. de\nl'usuari.");
 
 #else //if CONFIG_DECAPITALIZE_MOVE_DESCRIPTION_STRINGS
 
-static const u8 sMoveFourLineDescription_SwordsDance[] = _("Una dansa frenètica\nde lluita. Apuja\nmolt l'ATAC.");
-static const u8 sMoveFourLineDescription_Cut[] = _("Un atac bàsic.\nEs pot usar per\ntallar arbres\nprims i herba.");
-static const u8 sMoveFourLineDescription_Gust[] = _("Colpeja el rival\namb una ràfega de\nvent alçada per\nles ales.");
-static const u8 sMoveFourLineDescription_WingAttack[] = _("El rival rep el cop\nd'unes ales grans\ni imponents ben\nobertes.");
-static const u8 sMoveFourLineDescription_Whirlwind[] = _("El rival és forçat\na canviar per un\naliat. En combat\nsalvatge, s'acaba.");
+static const u8 sMoveFourLineDescription_SwordsDance[] = _("Una dansa frenètica\nde combat. Puja\nmolt l'Atac.");
+static const u8 sMoveFourLineDescription_Cut[] = _("Un atac bàsic.\nPot tallar arbres\nprims i herba.");
+static const u8 sMoveFourLineDescription_Gust[] = _("Colpeja el rival\namb una ràfega de\nvent creada per\nles ales.");
+static const u8 sMoveFourLineDescription_WingAttack[] = _("El rival rep un cop\namb ales grans i\nimponents ben\nobertes.");
+static const u8 sMoveFourLineDescription_Whirlwind[] = _("Força el rival a\ncanviar per un\naliat. En combat\nsalvatge, s'acaba.");
 static const u8 sMoveFourLineDescription_Fly[] = _("Mov. de 2 torns que\ncolpeja al 2n torn.\nServeix per volar a\nqualsevol ciutat.");
 #if defined(BATTLE_ENGINE) && B_BINDING_TURNS >= GEN_5
 static const u8 sMoveFourLineDescription_Bind[] = _("Un cos llarg o\ntentacles lliguen\nel rival durant\nquatre o cinc torns.");
 #else
 static const u8 sMoveFourLineDescription_Bind[] = _("Un cos llarg o\ntentacles lliguen\nel rival durant\ndos a cinc torns.");
 #endif
-static const u8 sMoveFourLineDescription_Slam[] = _("El rival és colpejat\namb una cua llarga,\nlianes, etc.");
-static const u8 sMoveFourLineDescription_VineWhip[] = _("El rival és colpejat\namb lianes primes\ncom fuets.");
-static const u8 sMoveFourLineDescription_Stomp[] = _("El rival és trepitjat\namb un peu gran.\nPot fer encongir\nel rival.");
-static const u8 sMoveFourLineDescription_DoubleKick[] = _("Dues cames donen\nuna puntada doble\nal rival en un\nsol torn.");
-static const u8 sMoveFourLineDescription_MegaKick[] = _("El rival rep una\npuntada llançada\namb una força\nmuscular enorme.");
-static const u8 sMoveFourLineDescription_JumpKick[] = _("L'usuari salta\namunt i dona un cop.\nSi falla, l'usuari\nes fa mal.");
-static const u8 sMoveFourLineDescription_RollingKick[] = _("Una puntada ràpida\namb gir. Pot fer\nencongir el rival.");
-static const u8 sMoveFourLineDescription_SandAttack[] = _("Es llança molta\nsorra a la cara del\nrival, reduint la\nseva precisió.");
-static const u8 sMoveFourLineDescription_Headbutt[] = _("L'usuari envesteix\namb el cap. Pot fer\nencongir el rival.");
+static const u8 sMoveFourLineDescription_Slam[] = _("El rival rep un cop\namb una cua llarga,\nlianes, etc.");
+static const u8 sMoveFourLineDescription_VineWhip[] = _("El rival rep un cop\namb lianes primes\ncom un fuet.");
+static const u8 sMoveFourLineDescription_Stomp[] = _("El rival rep una\ntrepitjada forta.\nPot fer que el\nrival retrocedeixi.");
+static const u8 sMoveFourLineDescription_DoubleKick[] = _("Dues cames donen\ndues puntades de\npeu ràpides al\nrival en un torn.");
+static const u8 sMoveFourLineDescription_MegaKick[] = _("El rival rep una\npuntada de peu\nllançada amb gran\nforça muscular.");
+static const u8 sMoveFourLineDescription_JumpKick[] = _("L'usuari salta\namunt i dona un cop\nde peu. Si falla,\nes fa mal.");
+static const u8 sMoveFourLineDescription_RollingKick[] = _("Un cop de peu\nràpid amb un gir.\nPot fer que el\nrival retrocedeixi.");
+static const u8 sMoveFourLineDescription_SandAttack[] = _("Es llança sorra a\nla cara del rival i\nli baixa la\nprecisió.");
+static const u8 sMoveFourLineDescription_Headbutt[] = _("L'usuari treu el\ncap i envesteix.\nPot fer que el\nrival retrocedeixi.");
 static const u8 sMoveFourLineDescription_HornAttack[] = _("El rival rep un cop\namb una banya ben\nafilada per causar\ndany.");
-static const u8 sMoveFourLineDescription_FuryAttack[] = _("El rival és apunyalat\namb banya o bec\nde dues a cinc\nvegades.");
-static const u8 sMoveFourLineDescription_HornDrill[] = _("La banya gira com\nun trepant. El rival\nes desmaia si\nconnecta.");
-static const u8 sMoveFourLineDescription_Tackle[] = _("Un atac físic en\nquè l'usuari\ncarrega de ple\ncontra el rival.");
-static const u8 sMoveFourLineDescription_BodySlam[] = _("L'usuari es llança\nde ple sobre el\nrival. Pot deixar-lo\nparalitzat.");
+static const u8 sMoveFourLineDescription_FuryAttack[] = _("El rival rep cops\nrepetits amb banya\no bec de 2 a 5\ncops.");
+static const u8 sMoveFourLineDescription_HornDrill[] = _("La banya gira com\nun trepant. El\nrival es desmaiarà\nsi encerta.");
+static const u8 sMoveFourLineDescription_Tackle[] = _("Un atac físic en\nquè l'usuari\nenvesteix amb tot\nel cos el rival.");
+static const u8 sMoveFourLineDescription_BodySlam[] = _("L'usuari deixa\ncaure tot el cos\nsobre el rival. Pot\nparalitzar-lo.");
 #if defined(BATTLE_ENGINE) && B_BINDING_TURNS >= GEN_5
-static const u8 sMoveFourLineDescription_Wrap[] = _("Un cos llarg o\nlianes embolcallen\nel rival durant\nquatre o cinc torns.");
+static const u8 sMoveFourLineDescription_Wrap[] = _("Un cos llarg o\nlianes embolicen\nel rival durant\nquatre o cinc torns.");
 #else
-static const u8 sMoveFourLineDescription_Wrap[] = _("Un cos llarg o\nlianes embolcallen\nel rival durant\ndos a cinc torns.");
+static const u8 sMoveFourLineDescription_Wrap[] = _("Un cos llarg o\nlianes embolicen\nel rival durant\ndos a cinc torns.");
 #endif
-static const u8 sMoveFourLineDescription_TakeDown[] = _("Una càrrega cos a\ncos imprudent que\ntambé fa mal a\nl'usuari una mica.");
+static const u8 sMoveFourLineDescription_TakeDown[] = _("Una envestida\ntemerària que també\nfa una mica de mal\na l'usuari.");
 static const u8 sMoveFourLineDescription_Thrash[] = _("L'usuari s'enfurisma\ndurant dos o tres\ntorns i després\nes confon.");
-static const u8 sMoveFourLineDescription_DoubleEdge[] = _("Una embranzida im-\nprudent que també\nfa mal a l'usuari\nuna mica.");
-static const u8 sMoveFourLineDescription_TailWhip[] = _("L'usuari mou la cua\namb gràcia, fent\nque el rival baixi\nla DEFENSA.");
-static const u8 sMoveFourLineDescription_PoisonSting[] = _("El rival és punxat\namb un fibló tòxic.\nPot enverinar\nel rival.");
-static const u8 sMoveFourLineDescription_Twineedle[] = _("El rival rep dues\npunxades amb\nfiblons. Pot\nenverinar el rival.");
-static const u8 sMoveFourLineDescription_PinMissile[] = _("Agulles afilades es\ndisparen al rival i\ncolpegen de dues\na cinc vegades.");
-static const u8 sMoveFourLineDescription_Leer[] = _("El rival rep una\nmirada intimidant\nque li baixa la\nDEFENSA.");
-static const u8 sMoveFourLineDescription_Bite[] = _("L'usuari mossega\namb ullals feroços.\nPot fer encongir\nel rival.");
-static const u8 sMoveFourLineDescription_Growl[] = _("L'usuari gruny de\nforma maca, fent\nque el rival baixi\nl'ATAC.");
-static const u8 sMoveFourLineDescription_Roar[] = _("El rival és forçat\na canviar per un\naliat. En combat\nsalvatge, s'acaba.");
-static const u8 sMoveFourLineDescription_Sing[] = _("Una cançó suau amb\nveu relaxant que\nadorm el rival en\nun son profund.");
-static const u8 sMoveFourLineDescription_Supersonic[] = _("L'usuari genera\nones de so rares.\nPot confondre\nel rival.");
-static const u8 sMoveFourLineDescription_SonicBoom[] = _("El rival rep una\nona de xoc que\nsempre infligeix\n20 PS de dany.");
-static const u8 sMoveFourLineDescription_Disable[] = _("Durant uns torns,\nimpedeix que el\nrival usi el movi-\nment que va usar.");
-static const u8 sMoveFourLineDescription_Acid[] = _("El rival és ruixat\namb un àcid que\nfon la pell. Pot\nbaixar la DEFENSA.");
-static const u8 sMoveFourLineDescription_Ember[] = _("El rival és atacat\namb flames petites.\nEl rival pot patir\nuna cremada.");
-static const u8 sMoveFourLineDescription_Flamethrower[] = _("El rival és cremat\namb flames intenses.\nEl rival pot patir\nuna cremada.");
-static const u8 sMoveFourLineDescription_Mist[] = _("L'equip aliat és\nprotegit per una\nboira que impedeix\nbaixar estadíst.");
+static const u8 sMoveFourLineDescription_DoubleEdge[] = _("Una envestida\ntemerària que també\nfa una mica de mal\na l'usuari.");
+static const u8 sMoveFourLineDescription_TailWhip[] = _("L'usuari mou la cua\namb gràcia, fent\nque el rival baixi\nla Defensa.");
+static const u8 sMoveFourLineDescription_PoisonSting[] = _("El rival rep un cop\namb un fibló tòxic.\nPot enverinar el\nrival.");
+static const u8 sMoveFourLineDescription_Twineedle[] = _("El rival rep dos\ncops amb fiblons.\nPot enverinar el\nrival.");
+static const u8 sMoveFourLineDescription_PinMissile[] = _("Agulles afilades\ncolpegen el rival\nde 2 a 5 cops\nalhora.");
+static const u8 sMoveFourLineDescription_Leer[] = _("El rival rep una\nmirada intimidant\nque li baixa\nla Defensa.");
+static const u8 sMoveFourLineDescription_Bite[] = _("L'usuari mossega\namb ullals feroços.\nPot fer que el\nrival retrocedeixi.");
+static const u8 sMoveFourLineDescription_Growl[] = _("L'usuari gruny de\nforma encantadora,\nfent que el rival\nbaixi l'Atac.");
+static const u8 sMoveFourLineDescription_Roar[] = _("Força el rival a\ncanviar per un\naliat. En combat\nsalvatge, s'acaba.");
+static const u8 sMoveFourLineDescription_Sing[] = _("Una cançó suau amb\nveu calmant fa que\nel rival caigui en\nun son profund.");
+static const u8 sMoveFourLineDescription_Supersonic[] = _("L'usuari genera\nones sonores\nestranyes. Pot\nconfondre el rival.");
+static const u8 sMoveFourLineDescription_SonicBoom[] = _("El rival rep una\nona de xoc que\nsempre causa 20\nPS de dany.");
+static const u8 sMoveFourLineDescription_Disable[] = _("Durant uns torns,\nevita que el rival\nusi el moviment que\nva usar últim.");
+static const u8 sMoveFourLineDescription_Acid[] = _("El rival rep un\nàcid corrosiu que\npot baixar la\nDefensa.");
+static const u8 sMoveFourLineDescription_Ember[] = _("El rival rep un\natac de flames\npetites. Pot causar\nuna cremada.");
+static const u8 sMoveFourLineDescription_Flamethrower[] = _("El rival rep flames\nintenses. Pot causar\nuna cremada al\nrival.");
+static const u8 sMoveFourLineDescription_Mist[] = _("L'equip aliat és\nprotegit per una\nboira que evita que\nbaixin les estad.");
 static const u8 sMoveFourLineDescription_WaterGun[] = _("El rival rep un\nraig d'aigua\nexpulsat amb força\nper la boca.");
-static const u8 sMoveFourLineDescription_HydroPump[] = _("Un gran volum\nd'aigua és llançat\nal rival a gran\npressió.");
-static const u8 sMoveFourLineDescription_Surf[] = _("Una gran onada\ncau sobre el rival.\nTambé serveix per\ncreuar l'aigua.");
+static const u8 sMoveFourLineDescription_HydroPump[] = _("Un gran volum\nd'aigua és disparat\nal rival amb gran\npressió.");
+static const u8 sMoveFourLineDescription_Surf[] = _("Una gran onada cau\nsobre el rival.\nPot usar-se per\ncreuar l'aigua.");
 static const u8 sMoveFourLineDescription_IceBeam[] = _("El rival rep un\nraig gelat. Pot\ngelar el rival\ncompletament.");
 static const u8 sMoveFourLineDescription_Blizzard[] = _("El rival rep una\nbufada de neu. Pot\ngelar el rival\ncompletament.");
-static const u8 sMoveFourLineDescription_Psybeam[] = _("Un raig peculiar\nes dispara al rival.\nPot deixar confós\nel rival.");
-static const u8 sMoveFourLineDescription_BubbleBeam[] = _("Un raig de bombo-\nlles colpeja el\nrival. Pot baixar\nla VELOCITAT.");
-static const u8 sMoveFourLineDescription_AuroraBeam[] = _("Un raig de colors\nd'arc de Sant Martí.\nPot baixar l'ATAC\ndel rival.");
-static const u8 sMoveFourLineDescription_HyperBeam[] = _("Un atac molt fort\nque obliga l'usuari\na descansar al\ntorn següent.");
+static const u8 sMoveFourLineDescription_Psybeam[] = _("Un raig estrany es\ndispara al rival.\nPot deixar el\nrival confós.");
+static const u8 sMoveFourLineDescription_BubbleBeam[] = _("Un raig de bombolles\ncolpeja el rival.\nPot baixar la\nVelocitat del rival.");
+static const u8 sMoveFourLineDescription_AuroraBeam[] = _("Un raig de colors\nd'arc de Sant Martí.\nPot baixar l'Atac\ndel rival.");
+static const u8 sMoveFourLineDescription_HyperBeam[] = _("Un atac devastador\nque fa que l'usuari\ndescansi el torn\nsegüent.");
 static const u8 sMoveFourLineDescription_Peck[] = _("El rival rep un cop\namb un bec o banya\nben afilat.");
 static const u8 sMoveFourLineDescription_DrillPeck[] = _("Un atac en espiral\namb el bec afilat\nactuant com un\ntrepant.");
-static const u8 sMoveFourLineDescription_Submission[] = _("Una presa cos a cos\nimprudent que també\nfa mal a l'usuari\nuna mica.");
-static const u8 sMoveFourLineDescription_LowKick[] = _("Una puntada baixa\nque fa més dany\nals rivals més\npesants.");
-static const u8 sMoveFourLineDescription_Counter[] = _("Un contramoviment\nque retorna el cop\nfísic rebut amb el\ndoble de dany.");
-static const u8 sMoveFourLineDescription_SeismicToss[] = _("Una presa amb gra-\nvetat que causa\ndany igual al nivell\nde l'usuari.");
-static const u8 sMoveFourLineDescription_Strength[] = _("El rival és colpejat\namb força màxima.\nTambé serveix per\nmoure roques.");
-static const u8 sMoveFourLineDescription_Absorb[] = _("Un atac que absorb-\neix la meitat del\ndany infligit per\nrestaurar PS.");
-static const u8 sMoveFourLineDescription_MegaDrain[] = _("Un atac dur que\nabsorbeix la meitat\ndel dany infligit\nper restaurar PS.");
-static const u8 sMoveFourLineDescription_LeechSeed[] = _("Una llavor plantada\nal rival per robar\nPS per a l'usuari\na cada torn.");
-static const u8 sMoveFourLineDescription_Growth[] = _("El cos de l'usuari\nés forçat a créixer,\napujant l'ATAC\nESP.");
-static const u8 sMoveFourLineDescription_RazorLeaf[] = _("El rival rep un tall\nd'una fulla afilada.\nTé alta taxa de\ncop crític.");
-static const u8 sMoveFourLineDescription_SolarBeam[] = _("Mov. de 2 torns que\ncolpeja el rival amb\nenergia absorbida\nal 2n torn.");
-static const u8 sMoveFourLineDescription_PoisonPowder[] = _("Un núvol de pols\ntòxica es dispersa.\nPot enverinar\nel rival.");
-static const u8 sMoveFourLineDescription_StunSpore[] = _("Pols paralitzant es\ndispersa. Pot\nparalitzar\nel rival.");
-static const u8 sMoveFourLineDescription_SleepPowder[] = _("Una pols que indueix\nel son es dispersa\nen gran quantitat\nal voltant del rival.");
-static const u8 sMoveFourLineDescription_PetalDance[] = _("L'usuari ataca amb\npètals durant dos o\ntres torns i després\nes confon.");
-static const u8 sMoveFourLineDescription_StringShot[] = _("El rival és lligat\namb fils disparats\nper la boca per\nbaixar VELOCITAT.");
-static const u8 sMoveFourLineDescription_DragonRage[] = _("El rival rep una\nona de xoc que\nsempre infligeix\n40 PS de dany.");
+static const u8 sMoveFourLineDescription_Submission[] = _("Una llançada\ntemerària que també\nfa una mica de mal\na l'usuari.");
+static const u8 sMoveFourLineDescription_LowKick[] = _("Un cop de peu baix\nque causa més dany\nals rivals més\npesants.");
+static const u8 sMoveFourLineDescription_Counter[] = _("Un mov. de revenja\nque retorna tot cop\nfísic amb el doble\nde dany.");
+static const u8 sMoveFourLineDescription_SeismicToss[] = _("Una llançada per\ngravetat que causa\ndany igual al\nnivell de l'usuari.");
+static const u8 sMoveFourLineDescription_Strength[] = _("El rival rep un cop\namb força màxima.\nPot moure roques\ngrans.");
+static const u8 sMoveFourLineDescription_Absorb[] = _("Un atac que\nabsorbeix la meitat\ndel dany causat\nper restaurar PS.");
+static const u8 sMoveFourLineDescription_MegaDrain[] = _("Un atac fort que\nabsorbeix la meitat\ndel dany causat\nper restaurar PS.");
+static const u8 sMoveFourLineDescription_LeechSeed[] = _("Es planta una llavor\nal rival per robar\nPS per a l'usuari\na cada torn.");
+static const u8 sMoveFourLineDescription_Growth[] = _("El cos de l'usuari\ncreix per força i\npuja l'Atac Esp.");
+static const u8 sMoveFourLineDescription_RazorLeaf[] = _("El rival rep un cop\namb una fulla\ntallant. Alta taxa\nde cop crític.");
+static const u8 sMoveFourLineDescription_SolarBeam[] = _("Mov. de 2 torns que\ncolpeja el rival\namb energia solar\nal 2n torn.");
+static const u8 sMoveFourLineDescription_PoisonPowder[] = _("Es dispersa un\nnúvol de pols\ntòxica. Pot\nenverinar el rival.");
+static const u8 sMoveFourLineDescription_StunSpore[] = _("Es dispersa pols\nparalitzant. Pot\nparalitzar el\nrival.");
+static const u8 sMoveFourLineDescription_SleepPowder[] = _("Es dispersa una\npols que indueix\nel son al voltant\ndel rival.");
+static const u8 sMoveFourLineDescription_PetalDance[] = _("L'usuari ataca amb\npètals durant dos\no tres torns i\ndesprés es confon.");
+static const u8 sMoveFourLineDescription_StringShot[] = _("El rival és lligat\namb fils disparats\nper la boca per\nbaixar Velocitat.");
+static const u8 sMoveFourLineDescription_DragonRage[] = _("El rival rep una\nona de xoc que\nsempre causa 40\nPS de dany.");
 #if defined(BATTLE_ENGINE) && B_BINDING_TURNS >= GEN_5
-static const u8 sMoveFourLineDescription_FireSpin[] = _("El rival és atrapat\nen un espiral de\nfoc intens durant\nquatre o cinc torns.");
+static const u8 sMoveFourLineDescription_FireSpin[] = _("El rival és atrapat\nen una espiral de\nfoc intens durant\nquatre o cinc torns.");
 #else
-static const u8 sMoveFourLineDescription_FireSpin[] = _("El rival és atrapat\nen un espiral de\nfoc intens durant\ndos a cinc torns.");
+static const u8 sMoveFourLineDescription_FireSpin[] = _("El rival és atrapat\nen una espiral de\nfoc intens durant\ndos a cinc torns.");
 #endif
-static const u8 sMoveFourLineDescription_ThunderShock[] = _("Un atac de descàr-\nrega elèctrica que\npot paralitzar\nel rival.");
-static const u8 sMoveFourLineDescription_Thunderbolt[] = _("Un fort atac elèc-\ntric que també pot\nparalitzar el\nrival.");
-static const u8 sMoveFourLineDescription_ThunderWave[] = _("Una descàrrega\nelèctrica feble que\nparalitza el rival\nsi connecta.");
-static const u8 sMoveFourLineDescription_Thunder[] = _("Un atac brutal de\nllamp que també pot\nparalitzar el\nrival.");
-static const u8 sMoveFourLineDescription_RockThrow[] = _("El rival és atacat\namb una pluja de\nroques petites i\nfàcils de llançar.");
+static const u8 sMoveFourLineDescription_ThunderShock[] = _("Una descàrrega\nelèctrica que pot\ndeixar el rival\nparalitzat.");
+static const u8 sMoveFourLineDescription_Thunderbolt[] = _("Un potent atac\nelèctric que pot\ndeixar el rival\nparalitzat.");
+static const u8 sMoveFourLineDescription_ThunderWave[] = _("Una descàrrega\nfeble que sempre\nparalitza el rival\nsi encerta.");
+static const u8 sMoveFourLineDescription_Thunder[] = _("Un atac de llamp\nbrutal que pot\ndeixar el rival\nparalitzat.");
+static const u8 sMoveFourLineDescription_RockThrow[] = _("El rival rep una\npluja de roques\npetites i fàcils\nde llançar.");
 static const u8 sMoveFourLineDescription_Earthquake[] = _("Un terratrèmol que\ncolpeja tots els\nPokémon en combat\nexcepte l'usuari.");
-static const u8 sMoveFourLineDescription_Fissure[] = _("El rival cau en una\nesquerda. El rival\nes desmaia si\nconnecta.");
-static const u8 sMoveFourLineDescription_Dig[] = _("Un atac que colpeja\nal 2n torn. També\nserveix per sortir\nde coves.");
-static const u8 sMoveFourLineDescription_Toxic[] = _("Un moviment que en-\nverina greument el\nrival. El dany de\nverí empitjora.");
-static const u8 sMoveFourLineDescription_Confusion[] = _("Un atac telecinètic\nfeble que també pot\ndeixar confós\nel rival.");
-static const u8 sMoveFourLineDescription_Psychic[] = _("Un atac telecinètic\nfort. També pot\nbaixar la DEF.\nESP. del rival.");
-static const u8 sMoveFourLineDescription_Hypnosis[] = _("Es fa suggestió\nhipnòtica per fer\ncaure el rival en\nun son profund.");
-static const u8 sMoveFourLineDescription_Meditate[] = _("L'usuari medita per\ndespertar el seu\npoder i apujar\nl'ATAC.");
-static const u8 sMoveFourLineDescription_Agility[] = _("L'usuari es relaxa\ni alleugereix el cos\nper apujar molt\nla VELOCITAT.");
+static const u8 sMoveFourLineDescription_Fissure[] = _("El rival cau dins\nd'una esquerda. El\nrival es desmaia si\nencerta.");
+static const u8 sMoveFourLineDescription_Dig[] = _("Un atac que colpeja\nal 2n torn. Pot\nusar-se per sortir\nde coves.");
+static const u8 sMoveFourLineDescription_Toxic[] = _("Un moviment que\nenverina molt el\nrival. El dany de\nverí puja cada torn.");
+static const u8 sMoveFourLineDescription_Confusion[] = _("Un atac telecinètic\ndèbil que pot\ndeixar el rival\nconfós.");
+static const u8 sMoveFourLineDescription_Psychic[] = _("Un atac telecinètic\nfort. Pot baixar\nla Def. Esp. del\nrival.");
+static const u8 sMoveFourLineDescription_Hypnosis[] = _("Es fa servir la\nhipnosi per fer\ncaure el rival en\nun son profund.");
+static const u8 sMoveFourLineDescription_Meditate[] = _("L'usuari medita per\ndespertar el seu\npoder i pujar\nl'Atac.");
+static const u8 sMoveFourLineDescription_Agility[] = _("L'usuari es relaxa\ni alleugereix el\ncos per pujar molt\nla Velocitat.");
 static const u8 sMoveFourLineDescription_QuickAttack[] = _("Un atac gairebé\ninvisible de tan\nràpid. Sempre\ncolpeja primer.");
 static const u8 sMoveFourLineDescription_Rage[] = _("Un atac que es fa\nmés fort cada cop\nque l'usuari rep\nun cop en combat.");
-static const u8 sMoveFourLineDescription_Teleport[] = _("Serveix per fugir\nde Pokémon salvat-\nges. Teletransporta\nal Centre Pokémon.");
-static const u8 sMoveFourLineDescription_NightShade[] = _("Un atac amb un\nmiratge que causa\ndany igual al nivell\nde l'usuari.");
-static const u8 sMoveFourLineDescription_Mimic[] = _("L'usuari copia el\nmoviment usat pel\nrival per la resta\ndel combat.");
-static const u8 sMoveFourLineDescription_Screech[] = _("Un crit eixordador\nés emès per baixar\nmolt la DEFENSA\ndel rival.");
-static const u8 sMoveFourLineDescription_DoubleTeam[] = _("L'usuari crea còpies\nil·lusòries per\napujar la seva\nesquiva.");
+static const u8 sMoveFourLineDescription_Teleport[] = _("Permet fugir de\nPokémon salvatges.\nTambé porta a l'últim\nCentre Pokémon.");
+static const u8 sMoveFourLineDescription_NightShade[] = _("Un atac amb miratge\nque causa dany\nigual al nivell\nde l'usuari.");
+static const u8 sMoveFourLineDescription_Mimic[] = _("L'usuari copia\nl'últim moviment\ndel rival per la\nresta del combat.");
+static const u8 sMoveFourLineDescription_Screech[] = _("Un crit estrident\nque baixa molt la\nDefensa del rival.");
+static const u8 sMoveFourLineDescription_DoubleTeam[] = _("L'usuari crea\ncòpies il·lusòries\nde si mateix per\npujar l'esquiva.");
 static const u8 sMoveFourLineDescription_Recover[] = _("Un mov. autocuratiu\nque restaura PS\nfins a la meitat\ndels PS màxims.");
-static const u8 sMoveFourLineDescription_Harden[] = _("L'usuari endureix\ntots els músculs\ndel cos per apujar\nla DEFENSA.");
-static const u8 sMoveFourLineDescription_Minimize[] = _("L'usuari comprimeix\ntotes les cèl·lules\ndel cos per apujar\nl'esquiva.");
-static const u8 sMoveFourLineDescription_Smokescreen[] = _("Un núvol de fum o\ntinta redueix la\nprecisió del rival.");
-static const u8 sMoveFourLineDescription_ConfuseRay[] = _("El rival és exposat\na un raig sinistre\nque provoca\nconfusió.");
-static const u8 sMoveFourLineDescription_Withdraw[] = _("L'usuari es retira\ndins la seva closca\ndura, apujant la\nDEFENSA.");
-static const u8 sMoveFourLineDescription_DefenseCurl[] = _("L'usuari s'enrosca\nper ocultar punts\nfebles i apujar\nla DEFENSA.");
-static const u8 sMoveFourLineDescription_Barrier[] = _("L'usuari crea una\nparet sòlida que\napuja molt la\nDEFENSA.");
-static const u8 sMoveFourLineDescription_LightScreen[] = _("Una paret de llum\nredueix el dany\nd'atacs ATAC ESP.\ndurant cinc torns.");
-static const u8 sMoveFourLineDescription_Haze[] = _("Elimina tots els\ncanvis d'estadíst.\nde tots els Pokémon\nen combat.");
-static const u8 sMoveFourLineDescription_Reflect[] = _("Una paret de llum\nredueix el dany\nd'atacs físics\ndurant cinc torns.");
-static const u8 sMoveFourLineDescription_FocusEnergy[] = _("L'usuari respira\nfondo i es concentra\nper apujar la taxa\nde cop crític.");
-static const u8 sMoveFourLineDescription_Bide[] = _("L'usuari aguanta\natacs durant dos\ntorns i retorna el\ndoble de dany.");
-static const u8 sMoveFourLineDescription_Metronome[] = _("Mou un dit i\nestimula el cervell\nper usar qualsevol\nmoviment a l'atzar.");
-static const u8 sMoveFourLineDescription_MirrorMove[] = _("L'usuari replica el\nmoviment usat pel\nrival amb el\nmateix moviment.");
-static const u8 sMoveFourLineDescription_SelfDestruct[] = _("L'usuari explota\nper causar dany\nsever, fins i tot\ndesmaient-se.");
-static const u8 sMoveFourLineDescription_EggBomb[] = _("Un ou gran és\nllançat amb gran\nforça al rival per\ncausar dany.");
-static const u8 sMoveFourLineDescription_Lick[] = _("El rival és llepat\namb una llengua\nllarga. Pot també\nparalitzar.");
-static const u8 sMoveFourLineDescription_Smog[] = _("El rival és atacat\namb gasos tòxics.\nTambé pot enverinar\nel rival.");
-static const u8 sMoveFourLineDescription_Sludge[] = _("Fang tòxic és\nllançat al rival.\nPot enverinar\nl'objectiu.");
-static const u8 sMoveFourLineDescription_BoneClub[] = _("El rival rep un cop\namb un os a la mà.\nPot fer encongir\nel rival.");
-static const u8 sMoveFourLineDescription_FireBlast[] = _("El rival rep una\nflama intensa. Pot\ndeixar l'objectiu\namb una cremada.");
-static const u8 sMoveFourLineDescription_Waterfall[] = _("Un atac de càrrega\npotent. També es\npot usar per pujar\nuna cascada.");
+static const u8 sMoveFourLineDescription_Harden[] = _("L'usuari endureix\ntots els músculs\ndel cos per pujar\nla Defensa.");
+static const u8 sMoveFourLineDescription_Minimize[] = _("L'usuari comprimeix\ntotes les cèl·lules\ndel cos per pujar\nl'esquiva.");
+static const u8 sMoveFourLineDescription_Smokescreen[] = _("Un núvol de fum o\ntinta baixa la\nprecisió del rival.");
+static const u8 sMoveFourLineDescription_ConfuseRay[] = _("El rival rep un\nraig sinistre que\nprovoca confusió.");
+static const u8 sMoveFourLineDescription_Withdraw[] = _("L'usuari es retira\ndins la closca dura\npujant la seva\nDefensa.");
+static const u8 sMoveFourLineDescription_DefenseCurl[] = _("L'usuari s'enrosca\nper amagar punts\nfebles i pujar la\nDefensa.");
+static const u8 sMoveFourLineDescription_Barrier[] = _("L'usuari crea un\nmur resistent que\npuja molt la seva\nDefensa.");
+static const u8 sMoveFourLineDescription_LightScreen[] = _("Un mur de llum\nredueix el dany\nd'atacs especials\ndurant cinc torns.");
+static const u8 sMoveFourLineDescription_Haze[] = _("Elimina tots els\ncanvis d'estad. de\ntots els Pokémon\nen combat.");
+static const u8 sMoveFourLineDescription_Reflect[] = _("Un mur de llum\nredueix el dany\nd'atacs físics\ndurant cinc torns.");
+static const u8 sMoveFourLineDescription_FocusEnergy[] = _("L'usuari respira\nfondo i es concentra\nper pujar la taxa\nde cop crític.");
+static const u8 sMoveFourLineDescription_Bide[] = _("L'usuari aguanta\natacs dos torns i\ndesprés contraataca\namb el doble.");
+static const u8 sMoveFourLineDescription_Metronome[] = _("Mou un dit per\nestimular el cervell\ni usar qualsevol\nmoviment a l'atzar.");
+static const u8 sMoveFourLineDescription_MirrorMove[] = _("L'usuari respon a\nl'últim moviment\ndel rival amb el\nmateix moviment.");
+static const u8 sMoveFourLineDescription_SelfDestruct[] = _("L'usuari explota\nper causar un dany\nsever, fins i tot\ndesmaient-se.");
+static const u8 sMoveFourLineDescription_EggBomb[] = _("Un ou gran és\nllançat amb força\nal rival per causar\ndany.");
+static const u8 sMoveFourLineDescription_Lick[] = _("El rival és llepat\namb una llengua\nllarga. També pot\nparalitzar.");
+static const u8 sMoveFourLineDescription_Smog[] = _("El rival rep un\natac de gasos. També\npot enverinar el\nrival.");
+static const u8 sMoveFourLineDescription_Sludge[] = _("Es llança fang\ntòxic al rival.\nPot enverinar\nel rival.");
+static const u8 sMoveFourLineDescription_BoneClub[] = _("El rival rep un cop\namb un os. Pot fer\nque el rival\nretrocedeixi.");
+static const u8 sMoveFourLineDescription_FireBlast[] = _("El rival rep una\nflama intensa. Pot\ndeixar el rival\ncremat.");
+static const u8 sMoveFourLineDescription_Waterfall[] = _("Un atac de càrrega\npotent. Pot usar-se\nper pujar una\ncascada.");
 #if defined(BATTLE_ENGINE) && B_BINDING_TURNS >= GEN_5
-static const u8 sMoveFourLineDescription_Clamp[] = _("El rival és agafat\ni premut per la\nclosca de l'usuari\nquatre o cinc torns.");
+static const u8 sMoveFourLineDescription_Clamp[] = _("El rival queda\natrapat i estret\nper la closca durant\nquatre o cinc torns.");
 #else
-static const u8 sMoveFourLineDescription_Clamp[] = _("El rival és agafat\ni premut per la\nclosca de l'usuari\ndos a cinc torns.");
+static const u8 sMoveFourLineDescription_Clamp[] = _("El rival queda\natrapat i estret\nper la closca durant\ndos a cinc torns.");
 #endif
-static const u8 sMoveFourLineDescription_Swift[] = _("Raigs en forma\nd'estel que mai\nfallen colpegen\ntots els rivals.");
-static const u8 sMoveFourLineDescription_SkullBash[] = _("L'usuari apuja la\nDEFENSA al 1r torn\ni ataca al 2n\ntorn.");
-static const u8 sMoveFourLineDescription_SpikeCannon[] = _("Punxes afilades es\ndisparen al rival\nde dues a cinc\nvegades.");
-static const u8 sMoveFourLineDescription_Constrict[] = _("El rival és atacat\namb tentacles o\nlianes llargues. Pot\nbaixar VELOCITAT.");
-static const u8 sMoveFourLineDescription_Amnesia[] = _("S'oblida d'alguna\ncosa i apuja molt\nla DEF. ESP.");
-static const u8 sMoveFourLineDescription_Kinesis[] = _("L'usuari distreu el\nrival doblegant una\ncullera. Pot baixar\nla precisió.");
-static const u8 sMoveFourLineDescription_SoftBoiled[] = _("Cura l'usuari fins\na la meitat dels PS\nmàxims. Es pot usar\nper curar un aliat.");
-static const u8 sMoveFourLineDescription_HiJumpKick[] = _("Una puntada forta\namb salt. Si falla,\nl'usuari es fa\nmal.");
-static const u8 sMoveFourLineDescription_Glare[] = _("L'usuari intimida\nel rival amb el\ndibuix del ventre\nper paralitzar-lo.");
-static const u8 sMoveFourLineDescription_DreamEater[] = _("Absorbeix la meitat\ndel dany infligit\na un rival adormit\nper restaurar PS.");
-static const u8 sMoveFourLineDescription_PoisonGas[] = _("El rival és ruixat\namb un núvol de gas\ntòxic que pot\nenverinar-lo.");
-static const u8 sMoveFourLineDescription_Barrage[] = _("Objectes rodons\nsón llançats al\nrival de dues a\ncinc vegades.");
-static const u8 sMoveFourLineDescription_LeechLife[] = _("Un atac que absorb-\neix la meitat del\ndany infligit per\nrestaurar PS.");
-static const u8 sMoveFourLineDescription_LovelyKiss[] = _("L'usuari força un\npetó al rival amb\nuna cara que indueix\nel son.");
-static const u8 sMoveFourLineDescription_SkyAttack[] = _("Un atac al 2n torn\namb alta taxa de\ncop crític. Pot fer\nencongir el rival.");
-static const u8 sMoveFourLineDescription_Transform[] = _("L'usuari es trans-\nforma en una còpia\ndel rival amb els\nmateixos moviments.");
-static const u8 sMoveFourLineDescription_Bubble[] = _("Un raig de bombo-\nlles colpeja el\nrival. Pot baixar\nla VELOCITAT.");
-static const u8 sMoveFourLineDescription_DizzyPunch[] = _("El rival rep un\ncop rítmic que pot\ndeixar-lo confós.");
-static const u8 sMoveFourLineDescription_Spore[] = _("L'usuari dispersa\nràfegues d'espores\nfines que indueixen\nel son.");
-static const u8 sMoveFourLineDescription_Flash[] = _("Un esclat de llum\nque baixa la pre-\ncisió del rival.\nIl·lumina coves.");
-static const u8 sMoveFourLineDescription_Psywave[] = _("El rival és atacat\namb una ona d'ener-\ngia estranya que\nvaria en intensitat.");
-static const u8 sMoveFourLineDescription_Splash[] = _("L'usuari només\nsalta i esquitxa\nsense cap efecte.");
-static const u8 sMoveFourLineDescription_AcidArmor[] = _("L'usuari altera les\nseves cèl·lules per\nliquar-se i apujar\nmolt la DEFENSA.");
-static const u8 sMoveFourLineDescription_Crabhammer[] = _("Una gran pinça és\nusada per colpejar\nel rival. Té alta\ntaxa de cop crític.");
-static const u8 sMoveFourLineDescription_Explosion[] = _("L'usuari explota\nper causar un dany\nterrible tot i\ndesmaient-se.");
-static const u8 sMoveFourLineDescription_FurySwipes[] = _("El rival és esgar-\nrapat amb urpes de\ndues a cinc\nvegades.");
-static const u8 sMoveFourLineDescription_Bonemerang[] = _("L'usuari llança un\nos que colpeja el\nrival un cop i un\naltre cop en tornar.");
+static const u8 sMoveFourLineDescription_Swift[] = _("Raigs en forma\nd'estel que mai no\nfallen colpegen\ntots els rivals.");
+static const u8 sMoveFourLineDescription_SkullBash[] = _("L'usuari puja la\nDefensa al 1r torn\ni ataca al 2n torn.");
+static const u8 sMoveFourLineDescription_SpikeCannon[] = _("Agulles afilades\ncolpegen el rival\nde 2 a 5 cops.");
+static const u8 sMoveFourLineDescription_Constrict[] = _("El rival rep un\natac amb tentacles\no lianes. Pot\nbaixar Velocitat.");
+static const u8 sMoveFourLineDescription_Amnesia[] = _("S'oblida d'alguna\ncosa i puja molt\nla Def. Esp.");
+static const u8 sMoveFourLineDescription_Kinesis[] = _("L'usuari distreu\nel rival doblegant\nuna cullera. Pot\nbaixar precisió.");
+static const u8 sMoveFourLineDescription_SoftBoiled[] = _("Cura l'usuari fins\na la meitat dels PS\nmàxims. Pot curar\nun aliat.");
+static const u8 sMoveFourLineDescription_HiJumpKick[] = _("Un cop de genoll\nfort. Si falla,\nl'usuari es fa\nmal.");
+static const u8 sMoveFourLineDescription_Glare[] = _("L'usuari intimida\nel rival amb el\ndisseny del ventre\nper paralitzar-lo.");
+static const u8 sMoveFourLineDescription_DreamEater[] = _("Absorbeix la meitat\ndel dany causat a\nun rival adormit\nper restaurar PS.");
+static const u8 sMoveFourLineDescription_PoisonGas[] = _("El rival rep un\nnúvol de gas tòxic\nque pot enverinar\nel rival.");
+static const u8 sMoveFourLineDescription_Barrage[] = _("Objectes rodons\ncolpegen el rival\nde 2 a 5 cops.");
+static const u8 sMoveFourLineDescription_LeechLife[] = _("Un atac que\nabsorbeix la meitat\ndel dany causat\nper restaurar PS.");
+static const u8 sMoveFourLineDescription_LovelyKiss[] = _("L'usuari força un\npetó al rival amb\nuna cara terrible\nque indueix el son.");
+static const u8 sMoveFourLineDescription_SkyAttack[] = _("Un atac al 2n torn\namb alta taxa de\ncop crític. Pot fer\nretrocedir el rival.");
+static const u8 sMoveFourLineDescription_Transform[] = _("L'usuari es\ntransforma en còpia\ndel rival, amb els\nmateixos moviments.");
+static const u8 sMoveFourLineDescription_Bubble[] = _("Un raig de bombolles\ncolpeja el rival.\nPot baixar la\nVelocitat del rival.");
+static const u8 sMoveFourLineDescription_DizzyPunch[] = _("El rival rep un cop\nde puny rítmic que\npot deixar-lo\nconfós.");
+static const u8 sMoveFourLineDescription_Spore[] = _("L'usuari escampa\nespores fines que\nindueixen el son.");
+static const u8 sMoveFourLineDescription_Flash[] = _("Un destell de llum\nbaixa la precisió\ndel rival. Il·lumina\ntambé les coves.");
+static const u8 sMoveFourLineDescription_Psywave[] = _("El rival rep una\nona d'energia\nestranya que varia\nen intensitat.");
+static const u8 sMoveFourLineDescription_Splash[] = _("L'usuari salta i\nesquitxa sense cap\nefecte.");
+static const u8 sMoveFourLineDescription_AcidArmor[] = _("L'usuari altera les\nseves cèl·lules per\nliquar-se i pujar\nmolt la Defensa.");
+static const u8 sMoveFourLineDescription_Crabhammer[] = _("Una pinça gran\ncolpeja el rival.\nTé una alta taxa\nde cop crític.");
+static const u8 sMoveFourLineDescription_Explosion[] = _("L'usuari explota\nper causar un dany\nterrible fins i tot\ndesmaient-se.");
+static const u8 sMoveFourLineDescription_FurySwipes[] = _("El rival rep cops\nd'urpes afilades\nde 2 a 5 cops.");
+static const u8 sMoveFourLineDescription_Bonemerang[] = _("L'usuari llança un\nos que colpeja el\nrival un cop i un\naltre en tornar.");
 static const u8 sMoveFourLineDescription_Rest[] = _("L'usuari dorm dos\ntorns per restaurar\ntots els PS i curar\nqualsevol estat.");
-static const u8 sMoveFourLineDescription_RockSlide[] = _("Grans roques són\nllançades al rival.\nPot fer encongir\nel rival.");
-static const u8 sMoveFourLineDescription_HyperFang[] = _("El rival és atacat\namb ullals afilats.\nPot fer encongir\nel rival.");
-static const u8 sMoveFourLineDescription_Sharpen[] = _("L'usuari redueix\nels seus polígons\nper afilar vores\ni apujar l'ATAC.");
-static const u8 sMoveFourLineDescription_Conversion[] = _("L'usuari canvia\nel seu tipus per\nigualar el tipus\nd'un dels seus mov.");
+static const u8 sMoveFourLineDescription_RockSlide[] = _("Grans roques són\nllançades al rival.\nPot fer que el\nrival retrocedeixi.");
+static const u8 sMoveFourLineDescription_HyperFang[] = _("El rival rep un\natac d'ullals\nafilats. Pot fer\nretrocedir el rival.");
+static const u8 sMoveFourLineDescription_Sharpen[] = _("L'usuari redueix\nels polígons per\nafilar les vores\ni pujar l'Atac.");
+static const u8 sMoveFourLineDescription_Conversion[] = _("L'usuari canvia de\ntipus per igualar\nel tipus d'un dels\nseus moviments.");
 static const u8 sMoveFourLineDescription_TriAttack[] = _("Un atac simultani\nde 3 raigs que pot\nparalitzar, cremar\no gelar el rival.");
 static const u8 sMoveFourLineDescription_SuperFang[] = _("L'usuari ataca amb\nullals afilats i\nredueix a la meitat\nels PS del rival.");
-static const u8 sMoveFourLineDescription_Slash[] = _("El rival és tallat\namb urpes, etc.\nTé alta taxa de\ncop crític.");
+static const u8 sMoveFourLineDescription_Slash[] = _("El rival rep un\ncop d'urpes. Té\nuna alta taxa de\ncop crític.");
 static const u8 sMoveFourLineDescription_Substitute[] = _("L'usuari crea un\nsubstitut usant un\nquart dels seus PS\nmàxims.");
-static const u8 sMoveFourLineDescription_Struggle[] = _("Un atac que es fa\nnomés si no queden\nPU. També fa mal\na l'usuari.");
-static const u8 sMoveFourLineDescription_Sketch[] = _("Aquest mov. copia\nel mov. usat pel\nrival i després\ndesapareix.");
-static const u8 sMoveFourLineDescription_TripleKick[] = _("Un atac de 3 cops\nde peu que es fa\nmés fort amb cada\ncop successiu.");
-static const u8 sMoveFourLineDescription_Thief[] = _("Un atac que pot\nrobar l'objecte del\nrival si l'usuari no\nen porta cap.");
-static const u8 sMoveFourLineDescription_SpiderWeb[] = _("Atrapa el rival amb\nfils enganxosos\nperquè no pugui\nfugir ni canviar.");
-static const u8 sMoveFourLineDescription_MindReader[] = _("L'usuari prediu\nl'acció del rival\nper assegurar que\nel pròxim atac toca.");
+static const u8 sMoveFourLineDescription_Struggle[] = _("Un atac que només\nes fa si no queden\nPU. També fa mal\na l'usuari.");
+static const u8 sMoveFourLineDescription_Sketch[] = _("Copia l'últim\nmoviment usat pel\nrival i després\ndesapareix.");
+static const u8 sMoveFourLineDescription_TripleKick[] = _("Un atac de 3 cops\nde peu que es fa\nmés fort a cada\ncop successiu.");
+static const u8 sMoveFourLineDescription_Thief[] = _("Un atac que pot\nrobar l'objecte del\nrival si l'usuari\nno en porta cap.");
+static const u8 sMoveFourLineDescription_SpiderWeb[] = _("Atrapa el rival\namb fil enganxós\nperquè no fugi ni\ncanviï.");
+static const u8 sMoveFourLineDescription_MindReader[] = _("L'usuari prediu\nl'acció del rival\nperquè el pròxim\natac encerti.");
 static const u8 sMoveFourLineDescription_Nightmare[] = _("Un rival adormit\nveu un malson que\nli causa dany a\ncada torn.");
-static const u8 sMoveFourLineDescription_FlameWheel[] = _("L'usuari carrega\namb foc contra el\nrival. Pot causar\nuna cremada.");
-static const u8 sMoveFourLineDescription_Snore[] = _("Un atac que només\nes pot usar dormint.\nPot fer encongir\nel rival.");
-static const u8 sMoveFourLineDescription_Curse[] = _("Un moviment que\nfunciona diferent\nper al tipus FANTAS-\nMA i els altres.");
+static const u8 sMoveFourLineDescription_FlameWheel[] = _("L'usuari fa una\ncàrrega de foc.\nPot causar una\ncremada.");
+static const u8 sMoveFourLineDescription_Snore[] = _("Un atac que només\nes pot usar dormint.\nPot fer retrocedir\nel rival.");
+static const u8 sMoveFourLineDescription_Curse[] = _("Un moviment que\nfunciona diferent\nper al tipus\nFantasma i la resta.");
 static const u8 sMoveFourLineDescription_Flail[] = _("Un atac desesperat\nque es fa més fort\ncom menys PS té\nl'usuari.");
 static const u8 sMoveFourLineDescription_Conversion2[] = _("L'usuari canvia de\ntipus per fer-se\nresistent a l'últim\natac rebut.");
-static const u8 sMoveFourLineDescription_Aeroblast[] = _("Un vòrtex d'aire\nes dispara al rival.\nTé alta taxa de\ncop crític.");
-static const u8 sMoveFourLineDescription_CottonSpore[] = _("Espores de cotó\ns'enganxen al rival,\nreduint molt la\nVELOCITAT.");
-static const u8 sMoveFourLineDescription_Reversal[] = _("Un atac a fons que\nes fa més fort com\nmenys PS té\nl'usuari.");
-static const u8 sMoveFourLineDescription_Spite[] = _("Un moviment que\nredueix de 2 a 5 PU\ndel moviment usat\npel rival.");
-static const u8 sMoveFourLineDescription_PowderSnow[] = _("Colpeja el rival\namb una ratxa de\nneu. Pot gelar\nel rival.");
-static const u8 sMoveFourLineDescription_Protect[] = _("Permet a l'usuari\nesquivar tot atac.\nPot fallar si s'usa\nde forma seguida.");
+static const u8 sMoveFourLineDescription_Aeroblast[] = _("Un vòrtex d'aire\ncolpeja el rival.\nTé una alta taxa\nde cop crític.");
+static const u8 sMoveFourLineDescription_CottonSpore[] = _("Espores de cotó\ns'enganxen al rival\nbaixant molt la\nseva Velocitat.");
+static const u8 sMoveFourLineDescription_Reversal[] = _("Un atac total que\nes fa més fort com\nmenys PS té\nl'usuari.");
+static const u8 sMoveFourLineDescription_Spite[] = _("Un mov. que treu\nde 2 a 5 PU de\nl'últim moviment\nusat pel rival.");
+static const u8 sMoveFourLineDescription_PowderSnow[] = _("Colpeja el rival\namb una ventada de\nneu. Pot gelar\nel rival.");
+static const u8 sMoveFourLineDescription_Protect[] = _("Permet a l'usuari\nesquivar tot atac.\nPot fallar si\ns'usa seguit.");
 static const u8 sMoveFourLineDescription_MachPunch[] = _("Un cop de puny a\nvelocitat cegadora.\nSempre colpeja\nprimer.");
-static const u8 sMoveFourLineDescription_ScaryFace[] = _("Espanta el rival\namb una cara de por\nper reduir molt\nla VELOCITAT.");
-static const u8 sMoveFourLineDescription_FaintAttack[] = _("L'usuari s'acosta\nal rival de forma\ninofensiva i colpeja\nsense fallar.");
-static const u8 sMoveFourLineDescription_SweetKiss[] = _("L'usuari fa un petó\ndolç al rival amb\ntendresa que causa\nconfusió.");
-static const u8 sMoveFourLineDescription_BellyDrum[] = _("L'usuari maximitza\nl'ATAC a costa de\nla meitat dels seus\nPS màxims.");
-static const u8 sMoveFourLineDescription_SludgeBomb[] = _("Fang immund és\nllançat al rival.\nPot enverinar\nl'objectiu.");
-static const u8 sMoveFourLineDescription_MudSlap[] = _("Es llança fang a\nla cara del rival\nper causar dany i\nbaixar la precisió.");
-static const u8 sMoveFourLineDescription_Octazooka[] = _("Tinta és disparada\na la cara del rival\nper causar dany i\nbaixar la precisió.");
-static const u8 sMoveFourLineDescription_Spikes[] = _("Una trampa de pun-\nxes al voltant de\nl'equip rival que fa\nmal en canviar.");
-static const u8 sMoveFourLineDescription_ZapCannon[] = _("Una descàrrega\nelèctrica com un\ncanó que causa dany\ni paralitza.");
+static const u8 sMoveFourLineDescription_ScaryFace[] = _("Espanta el rival\namb una cara de por\nper baixar molt\nla Velocitat.");
+static const u8 sMoveFourLineDescription_FaintAttack[] = _("L'usuari s'apropa\nal rival amb engany\ni colpeja sense\nfallar.");
+static const u8 sMoveFourLineDescription_SweetKiss[] = _("L'usuari fa un petó\ndolç al rival que\ncausa confusió.");
+static const u8 sMoveFourLineDescription_BellyDrum[] = _("L'usuari maximitza\nl'Atac a costa de\nla meitat dels PS\nmàxims.");
+static const u8 sMoveFourLineDescription_SludgeBomb[] = _("Es llança fang\ntòxic al rival.\nPot enverinar\nel rival.");
+static const u8 sMoveFourLineDescription_MudSlap[] = _("Es llança fang a\nla cara del rival\nper causar dany i\nbaixar precisió.");
+static const u8 sMoveFourLineDescription_Octazooka[] = _("Es dispara tinta a\nla cara del rival\nper causar dany i\nbaixar precisió.");
+static const u8 sMoveFourLineDescription_Spikes[] = _("Un parany de punxes\nal camp rival fa\nmal als rivals que\nhi entren.");
+static const u8 sMoveFourLineDescription_ZapCannon[] = _("Una descàrrega\nelèctrica és\ndisparada per fer\ndany i paralitzar.");
 static const u8 sMoveFourLineDescription_Foresight[] = _("Nega completament\nels esforços del\nrival per augmentar\nl'esquiva.");
-static const u8 sMoveFourLineDescription_DestinyBond[] = _("Si l'usuari es\ndesmaia, el rival\nque va donar el cop\nfinal també cau.");
-static const u8 sMoveFourLineDescription_PerishSong[] = _("Tot combatent que\nescolti això es\ndesmaia en tres\ntorns si no canvia.");
-static const u8 sMoveFourLineDescription_IcyWind[] = _("Un vent gelat és\nusat per atacar.\nTambé baixa la\nVELOCITAT.");
-static const u8 sMoveFourLineDescription_Detect[] = _("Permet a l'usuari\nesquivar tot atac.\nPot fallar si s'usa\nde forma seguida.");
-static const u8 sMoveFourLineDescription_BoneRush[] = _("L'usuari colpeja\nel rival amb un os\na la mà de dues a\ncinc vegades.");
-static const u8 sMoveFourLineDescription_LockOn[] = _("L'usuari fixa el\nrival, assegurant\nque el pròxim movi-\nment connectarà.");
+static const u8 sMoveFourLineDescription_DestinyBond[] = _("Si l'usuari es\ndesmaia, el rival\nque dona el cop\nfinal també cau.");
+static const u8 sMoveFourLineDescription_PerishSong[] = _("Tot combatent que\nho escolti es\ndesmaia en 3 torns\nsi no canvia.");
+static const u8 sMoveFourLineDescription_IcyWind[] = _("Un vent gelat\nataca el rival.\nTambé baixa la\nVelocitat.");
+static const u8 sMoveFourLineDescription_Detect[] = _("Permet a l'usuari\nesquivar tot atac.\nPot fallar si\ns'usa seguit.");
+static const u8 sMoveFourLineDescription_BoneRush[] = _("L'usuari colpeja\nel rival amb un os\nde 2 a 5 cops.");
+static const u8 sMoveFourLineDescription_LockOn[] = _("L'usuari fixa el\nrival per assegurar\nque el pròxim\nmoviment encerti.");
 static const u8 sMoveFourLineDescription_Outrage[] = _("L'usuari s'enfurisma\ndurant dos o tres\ntorns i després\nes confon.");
-static const u8 sMoveFourLineDescription_Sandstorm[] = _("Tempesta de sorra\nde 5 torns que fa\nmal a tots excepte\nROCA, TERRA i ACER.");
-static const u8 sMoveFourLineDescription_GigaDrain[] = _("Un atac dur que\nabsorbeix la meitat\ndel dany infligit\nper restaurar PS.");
-static const u8 sMoveFourLineDescription_Endure[] = _("L'usuari aguanta\nqualsevol cop amb\n1 PS. Pot fallar si\ns'usa seguit.");
-static const u8 sMoveFourLineDescription_Charm[] = _("El rival és encantat\nper la gràcia de\nl'usuari, baixant\nmolt l'ATAC.");
-static const u8 sMoveFourLineDescription_Rollout[] = _("Un atac rodant de\n5 torns que es fa\nmés fort cada cop\nque connecta.");
-static const u8 sMoveFourLineDescription_FalseSwipe[] = _("Un atac contingut\nque sempre deixa\nel rival amb almenys\n1 PS.");
-static const u8 sMoveFourLineDescription_Swagger[] = _("Un moviment que\nconfon el rival,\nperò que també li\napuja molt l'ATAC.");
-static const u8 sMoveFourLineDescription_MilkDrink[] = _("Cura l'usuari fins\na la meitat dels PS\nmàxims. Es pot usar\nper curar un aliat.");
-static const u8 sMoveFourLineDescription_Spark[] = _("Una embranzida amb\ncàrrega elèctrica\nque pot paralitzar\nel rival.");
-static const u8 sMoveFourLineDescription_FuryCutter[] = _("Un atac que es fa\nmés fort amb cada\ncop successiu.");
-static const u8 sMoveFourLineDescription_SteelWing[] = _("El rival rep un cop\nd'ales d'acer. Pot\napujar la DEFENSA\nde l'usuari.");
-static const u8 sMoveFourLineDescription_MeanLook[] = _("El rival és fixat\namb una mirada\nmalvada que impedeix\nque escapi.");
-static const u8 sMoveFourLineDescription_Attract[] = _("Si és del gènere\ncontrari, el rival\ns'enamorarà i li\ncostarà atacar.");
-static const u8 sMoveFourLineDescription_SleepTalk[] = _("Mentre dorm,\nl'usuari usa a\nl'atzar un dels seus\nmoviments.");
+static const u8 sMoveFourLineDescription_Sandstorm[] = _("Tempesta de sorra\nde 5 torns: fa mal a\ntots menys Roca,\nTerra i Acer.");
+static const u8 sMoveFourLineDescription_GigaDrain[] = _("Un atac dur que\nabsorbeix la meitat\ndel dany causat\nper restaurar PS.");
+static const u8 sMoveFourLineDescription_Endure[] = _("L'usuari aguanta\nqualsevol cop amb\n1 PS. Pot fallar\nsi s'usa seguit.");
+static const u8 sMoveFourLineDescription_Charm[] = _("El rival queda\nencisat per la gràcia\nde l'usuari, baixant\nmolt l'Atac.");
+static const u8 sMoveFourLineDescription_Rollout[] = _("Un atac rodant de\n5 torns que es fa\nmés fort a cada\ncop.");
+static const u8 sMoveFourLineDescription_FalseSwipe[] = _("Un atac contingut\nque sempre deixa\nel rival amb un\nmínim d'1 PS.");
+static const u8 sMoveFourLineDescription_Swagger[] = _("Un moviment que\nconfon el rival,\nperò també li puja\nmolt l'Atac.");
+static const u8 sMoveFourLineDescription_MilkDrink[] = _("Cura l'usuari fins\na la meitat dels PS\nmàxims. Pot curar\nun aliat.");
+static const u8 sMoveFourLineDescription_Spark[] = _("Una envestida amb\ncàrrega elèctrica\nque pot paralitzar\nel rival.");
+static const u8 sMoveFourLineDescription_FuryCutter[] = _("Un atac que es fa\nmés fort a cada\ncop successiu.");
+static const u8 sMoveFourLineDescription_SteelWing[] = _("El rival rep cops\nd'ales d'acer. Pot\npujar la Defensa\nde l'usuari.");
+static const u8 sMoveFourLineDescription_MeanLook[] = _("El rival és fixat\namb una mirada que\nli impedeix fugir.");
+static const u8 sMoveFourLineDescription_Attract[] = _("Si és de l'altre\ngènere, el rival\nqueda enamorat i\nataca menys.");
+static const u8 sMoveFourLineDescription_SleepTalk[] = _("Mentre dorm,\nl'usuari usa un\nmoviment a l'atzar\ndels que coneix.");
 static const u8 sMoveFourLineDescription_HealBell[] = _("Una campana suau\nsona per curar els\nproblemes d'estat\nde tots els aliats.");
-static const u8 sMoveFourLineDescription_Return[] = _("Un atac que es fa\nmés fort com més\nl'usuari estima\nel seu ENTRENADOR.");
-static const u8 sMoveFourLineDescription_Present[] = _("El rival rep un\nregal trampa. De\nvegades, però,\nrestaura PS.");
-static const u8 sMoveFourLineDescription_Frustration[] = _("Un atac que es fa\nmés fort com menys\nl'usuari estima\nel seu ENTRENADOR.");
-static const u8 sMoveFourLineDescription_Safeguard[] = _("Protegeix l'equip\nde l'usuari de tots\nels problemes\nd'estat cinc torns.");
-static const u8 sMoveFourLineDescription_PainSplit[] = _("L'usuari suma els\nseus PS als del\nrival i els repar-\nteix a parts iguals.");
-static const u8 sMoveFourLineDescription_SacredFire[] = _("Un atac de foc\nmístic i poderós\nque pot infligir\nuna cremada.");
-static const u8 sMoveFourLineDescription_Magnitude[] = _("Un atac sísmic\ncontra tots els\nPokémon terrestres.\nLa potència varia.");
-static const u8 sMoveFourLineDescription_DynamicPunch[] = _("El rival rep un\ncop amb tota la\nforça. El confon\nsi connecta.");
-static const u8 sMoveFourLineDescription_Megahorn[] = _("Un atac brutal\nd'envestida amb una\nbanya dura i\nimpressionant.");
-static const u8 sMoveFourLineDescription_DragonBreath[] = _("El rival rep un\nbuf increïble que\npot també\nparalitzar.");
-static const u8 sMoveFourLineDescription_BatonPass[] = _("L'usuari canvia,\npassant qualsevol\ncanvi d'estadíst.\nal nou combatent.");
-static const u8 sMoveFourLineDescription_Encore[] = _("Obliga el rival a\nrepetir el seu\núltim moviment de\ndos a sis torns.");
-static const u8 sMoveFourLineDescription_Pursuit[] = _("Un atac que és\nespecialment eficaç\ncontra un rival que\nestà canviant.");
-static const u8 sMoveFourLineDescription_RapidSpin[] = _("Un atac que allibera\nl'usuari de LLIGAM,\nEMBOLCALL, LLAVOR\ni PUNXES.");
-static const u8 sMoveFourLineDescription_SweetScent[] = _("Atrau el rival per\nreduir l'esquiva.\nTambé atrau\nPokémon salvatges.");
-static const u8 sMoveFourLineDescription_IronTail[] = _("Un atac amb una\ncua dura com l'acer.\nPot baixar la\nDEFENSA del rival.");
-static const u8 sMoveFourLineDescription_MetalClaw[] = _("El rival és atacat\namb urpes d'acer.\nPot apujar l'ATAC\nde l'usuari.");
-static const u8 sMoveFourLineDescription_VitalThrow[] = _("L'usuari ataca\ndesprés del rival.\nA canvi, no\nfallarà mai.");
-static const u8 sMoveFourLineDescription_MorningSun[] = _("Restaura els PS de\nl'usuari. La quanti-\ntat de PS recuperats\nvaria amb el temps.");
-static const u8 sMoveFourLineDescription_Synthesis[] = _("Restaura els PS de\nl'usuari. La quanti-\ntat de PS recuperats\nvaria amb el temps.");
-static const u8 sMoveFourLineDescription_Moonlight[] = _("Restaura els PS de\nl'usuari. La quanti-\ntat de PS recuperats\nvaria amb el temps.");
-static const u8 sMoveFourLineDescription_HiddenPower[] = _("Un atac que varia\nen tipus i intensi-\ntat segons\nl'usuari.");
-static const u8 sMoveFourLineDescription_CrossChop[] = _("El rival rep un\ndoble cop de destral.\nTé alta taxa de\ncop crític.");
-static const u8 sMoveFourLineDescription_Twister[] = _("Un tornado viciós\nataca el rival.\nPot fer encongir\nel rival.");
-static const u8 sMoveFourLineDescription_RainDance[] = _("Plou fort durant\ncinc torns, poten-\nciant els moviments\nde tipus AIGUA.");
-static const u8 sMoveFourLineDescription_SunnyDay[] = _("El sol brilla fort\ndurant cinc torns,\npotenciant mov.\nde tipus FOC.");
-static const u8 sMoveFourLineDescription_Crunch[] = _("El rival és mossegat\namb ullals afilats.\nPot baixar la DEF.\nESP. del rival.");
-static const u8 sMoveFourLineDescription_MirrorCoat[] = _("Un contramoviment\nque retorna l'atac\nespecial del rival\nal doble.");
-static const u8 sMoveFourLineDescription_PsychUp[] = _("L'usuari s'hipnotit-\nza per copiar qual-\nsevol canvi d'esta-\ndíst. del rival.");
-static const u8 sMoveFourLineDescription_ExtremeSpeed[] = _("Una càrrega a velo-\ncitat cegadora que\nsempre va abans\nque qualsevol altre.");
-static const u8 sMoveFourLineDescription_AncientPower[] = _("Un poder antic és\nusat per atacar.\nPot apujar totes\nles estadíst.");
-static const u8 sMoveFourLineDescription_ShadowBall[] = _("Una bola d'ombra\nés llançada al\nrival. Pot baixar\nla DEF. ESP.");
+static const u8 sMoveFourLineDescription_Return[] = _("Un atac que es fa\nmés fort com més\nl'usuari estima\nel seu Entrenador.");
+static const u8 sMoveFourLineDescription_Present[] = _("El rival rep un\nregal trampa. Pot\nrestaurar PS de\nvegades, però.");
+static const u8 sMoveFourLineDescription_Frustration[] = _("Un atac que es fa\nmés fort com menys\nl'usuari estima\nel seu Entrenador.");
+static const u8 sMoveFourLineDescription_Safeguard[] = _("Protegeix l'equip\nde l'usuari de\nproblemes d'estat\ndurant cinc torns.");
+static const u8 sMoveFourLineDescription_PainSplit[] = _("L'usuari suma els\nseus PS als del\nrival i els reparteix\na parts iguals.");
+static const u8 sMoveFourLineDescription_SacredFire[] = _("Un atac de foc\nmístic i poderós\nque pot causar\nuna cremada.");
+static const u8 sMoveFourLineDescription_Magnitude[] = _("Un atac de terra\ncontra tots els\nPokémon al terra.\nEl poder varia.");
+static const u8 sMoveFourLineDescription_DynamicPunch[] = _("El rival rep un cop\namb tota la força.\nConfon el rival si\nencerta.");
+static const u8 sMoveFourLineDescription_Megahorn[] = _("Un atac brutal\nd'envestida amb\nuna banya dura i\nimpressionant.");
+static const u8 sMoveFourLineDescription_DragonBreath[] = _("El rival rep un\nalè increïble que\ntambé pot\nparalitzar.");
+static const u8 sMoveFourLineDescription_BatonPass[] = _("L'usuari canvia,\npassant qualsevol\ncanvi d'estad. al\nnou combatent.");
+static const u8 sMoveFourLineDescription_Encore[] = _("Fa que el rival\nrepeteixi l'últim\nmoviment durant\ndos a sis torns.");
+static const u8 sMoveFourLineDescription_Pursuit[] = _("Un atac que és\nespecialment eficaç\nquan el rival està\ncanviant.");
+static const u8 sMoveFourLineDescription_RapidSpin[] = _("Un atac que allibera\nl'usuari de Lligam,\nEnroscada, Llavor\nParàsit i Punxes.");
+static const u8 sMoveFourLineDescription_SweetScent[] = _("Atrau el rival per\nbaixar l'esquiva.\nTambé atrau\nPokémon salvatges.");
+static const u8 sMoveFourLineDescription_IronTail[] = _("Un atac amb cua\nd'acer. Pot baixar\nla Defensa del\nrival.");
+static const u8 sMoveFourLineDescription_MetalClaw[] = _("El rival rep un\natac d'urpes d'acer.\nPot pujar l'Atac\nde l'usuari.");
+static const u8 sMoveFourLineDescription_VitalThrow[] = _("Fa que l'usuari\nataqui després del\nrival. A canvi, no\nfallarà.");
+static const u8 sMoveFourLineDescription_MorningSun[] = _("Restaura els PS de\nl'usuari. La\nquantitat varia\nsegons el clima.");
+static const u8 sMoveFourLineDescription_Synthesis[] = _("Restaura els PS de\nl'usuari. La\nquantitat varia\nsegons el clima.");
+static const u8 sMoveFourLineDescription_Moonlight[] = _("Restaura els PS de\nl'usuari. La\nquantitat varia\nsegons el clima.");
+static const u8 sMoveFourLineDescription_HiddenPower[] = _("Un atac que varia\nen tipus i força\ndepenent de\nl'usuari.");
+static const u8 sMoveFourLineDescription_CrossChop[] = _("El rival rep un\ndoble cop de destral.\nTé una alta taxa\nde cop crític.");
+static const u8 sMoveFourLineDescription_Twister[] = _("Un tornado ferotge\nataca el rival.\nPot fer retrocedir\nel rival.");
+static const u8 sMoveFourLineDescription_RainDance[] = _("Una pluja forta de\ncinc torns potencia\nels moviments de\ntipus Aigua.");
+static const u8 sMoveFourLineDescription_SunnyDay[] = _("El sol brilla cinc\ntorns i potencia\nels moviments de\ntipus Foc.");
+static const u8 sMoveFourLineDescription_Crunch[] = _("El rival rep una\nmossegada forta.\nPot baixar la\nDef. Esp. del rival.");
+static const u8 sMoveFourLineDescription_MirrorCoat[] = _("Un mov. de revenja\nque retorna l'atac\nespecial del rival\namb el doble.");
+static const u8 sMoveFourLineDescription_PsychUp[] = _("L'usuari s'hipnotitza\nper copiar qualsevol\ncanvi d'estad.\nfet pel rival.");
+static const u8 sMoveFourLineDescription_ExtremeSpeed[] = _("Una càrrega a\nvelocitat cegadora\nque sempre va abans\nque tot altre atac.");
+static const u8 sMoveFourLineDescription_AncientPower[] = _("Un poder antic\nataca el rival.\nPot pujar totes les\nestad. de l'usuari.");
+static const u8 sMoveFourLineDescription_ShadowBall[] = _("Una bola d'ombra\ncolpeja el rival.\nPot baixar la\nDef. Esp. del rival.");
 static const u8 sMoveFourLineDescription_FutureSight[] = _("Dos torns després\nd'usar-lo, el rival\nrep un atac\npsíquic.");
-static const u8 sMoveFourLineDescription_RockSmash[] = _("Un atac que pot\nbaixar la DEFENSA.\nTambé pot trencar\nroques esquerdades.");
+static const u8 sMoveFourLineDescription_RockSmash[] = _("Un atac que pot\nbaixar la Defensa.\nPot trencar roques\nesquerdades.");
 #if defined(BATTLE_ENGINE) && B_BINDING_TURNS >= GEN_5
-static const u8 sMoveFourLineDescription_Whirlpool[] = _("El rival és atrapat\nen un remolí ràpid\ni viciós durant\nquatre o cinc torns.");
+static const u8 sMoveFourLineDescription_Whirlpool[] = _("El rival és atrapat\nen un remolí ràpid\ni ferotge durant\nquatre o cinc torns.");
 #else
-static const u8 sMoveFourLineDescription_Whirlpool[] = _("El rival és atrapat\nen un remolí ràpid\ni viciós durant\ndos a cinc torns.");
+static const u8 sMoveFourLineDescription_Whirlpool[] = _("El rival és atrapat\nen un remolí ràpid\ni ferotge durant\ndos a cinc torns.");
 #endif
-static const u8 sMoveFourLineDescription_BeatUp[] = _("Tot l'equip s'uneix\na l'atac. Com més\naliats, més dany.");
-static const u8 sMoveFourLineDescription_FakeOut[] = _("Un atac que colpeja\nprimer i fa encon-\ngir. Només es pot\nusar al 1r torn.");
-static const u8 sMoveFourLineDescription_Uproar[] = _("L'usuari ataca amb\nenrenou que impedeix\ndormir durant dos\na cinc torns.");
-static const u8 sMoveFourLineDescription_Stockpile[] = _("L'usuari acumula\nenergia per usar\ndesprés. Es pot\nusar tres vegades.");
-static const u8 sMoveFourLineDescription_SpitUp[] = _("L'energia acumulada\namb RESERVA és\nalliberada de cop\nper atacar.");
-static const u8 sMoveFourLineDescription_Swallow[] = _("L'energia acumulada\namb RESERVA és\nabsorbida per\nrestaurar PS.");
-static const u8 sMoveFourLineDescription_HeatWave[] = _("L'usuari exhala un\nbuf calent per\natacar. Pot causar\nuna cremada.");
-static const u8 sMoveFourLineDescription_Hail[] = _("Una tempesta de\ngranís de cinc torns\nfa mal a tots els\nPokémon no GEL.");
-static const u8 sMoveFourLineDescription_Flatter[] = _("L'adulació confon\nel rival, però li\napuja l'ATAC ESP.");
-static const u8 sMoveFourLineDescription_Torment[] = _("Enfurisma el rival,\nfent-lo incapaç\nd'usar el mateix\nmov. dos cops.");
-static const u8 sMoveFourLineDescription_WillOWisp[] = _("Una flama blava\nsinistra és dispa-\nrada al rival per\ncausar una cremada.");
-static const u8 sMoveFourLineDescription_Memento[] = _("L'usuari es desmaia,\nperò baixa molt\nl'ATAC i l'ATAC\nESP. del rival.");
+static const u8 sMoveFourLineDescription_BeatUp[] = _("Tots els Pokémon de\nl'equip s'uneixen.\nCom més aliats,\nmés dany.");
+static const u8 sMoveFourLineDescription_FakeOut[] = _("Un atac que colpeja\nprimer i fa\nretrocedir. Només es\npot usar al 1r torn.");
+static const u8 sMoveFourLineDescription_Uproar[] = _("L'usuari ataca amb\nun enrenou que\nevita el son durant\ndos a cinc torns.");
+static const u8 sMoveFourLineDescription_Stockpile[] = _("L'usuari acumula\nenergia per usar\nmés tard. Es pot\nusar tres cops.");
+static const u8 sMoveFourLineDescription_SpitUp[] = _("L'energia acumulada\namb Acumular és\nalliberada per\natacar.");
+static const u8 sMoveFourLineDescription_Swallow[] = _("L'energia acumulada\namb Acumular és\nabsorbida per\nrestaurar PS.");
+static const u8 sMoveFourLineDescription_HeatWave[] = _("L'usuari exhala un\nalè calent. També\npot causar una\ncremada.");
+static const u8 sMoveFourLineDescription_Hail[] = _("Una tempesta de\ngranís de 5 torns\nque fa mal a tots\nexcepte tipus Gel.");
+static const u8 sMoveFourLineDescription_Flatter[] = _("L'adulació confon\nel rival, però\ntambé li puja\nl'Atac Esp.");
+static const u8 sMoveFourLineDescription_Torment[] = _("Enfureix el rival,\nfent-lo incapaç\nd'usar el mateix\nmov. seguit.");
+static const u8 sMoveFourLineDescription_WillOWisp[] = _("Una flama blavosa\nsinistra es dispara\nal rival per\ncausar cremada.");
+static const u8 sMoveFourLineDescription_Memento[] = _("L'usuari es desmaia,\nperò baixa molt\nl'Atac i l'Atac\nEsp. del rival.");
 static const u8 sMoveFourLineDescription_Facade[] = _("Un atac potenciat\nsi l'usuari està\ncremat, enverinat\no paralitzat.");
-static const u8 sMoveFourLineDescription_FocusPunch[] = _("Un atac que s'exe-\ncuta l'últim.\nL'usuari encongeix\nsi rep un cop abans.");
-static const u8 sMoveFourLineDescription_SmellingSalt[] = _("Doblement efectiu\ncontra un rival\nparalitzat, però\ncura la paràlisi.");
-static const u8 sMoveFourLineDescription_FollowMe[] = _("L'usuari crida\nl'atenció, fent que\nels rivals ataquin\nnomés l'usuari.");
-static const u8 sMoveFourLineDescription_NaturePower[] = _("Un atac que canvia\nde tipus segons la\nubicació de\nl'usuari.");
-static const u8 sMoveFourLineDescription_Charge[] = _("L'usuari carrega\nenergia per poten-\nciar el mov. ELÈC-\nTRIC que usi després.");
-static const u8 sMoveFourLineDescription_Taunt[] = _("El rival és provocat\nfins enfurir-se,\npermitent-li usar\nnomés atacs.");
-static const u8 sMoveFourLineDescription_HelpingHand[] = _("Un moviment que\npotencia l'atac de\nl'aliat en un\ncombat.");
+static const u8 sMoveFourLineDescription_FocusPunch[] = _("Un atac que\ns'executa l'últim.\nL'usuari retrocedeix\nsi rep un cop abans.");
+static const u8 sMoveFourLineDescription_SmellingSalt[] = _("Doblement eficaç\ncontra un rival\nparalitzat, però\nli cura la paràlisi.");
+static const u8 sMoveFourLineDescription_FollowMe[] = _("L'usuari atrau\nl'atenció, fent\nque els rivals només\nl'ataquin a ell.");
+static const u8 sMoveFourLineDescription_NaturePower[] = _("Un atac que canvia\nde tipus depenent\nde la ubicació de\nl'usuari.");
+static const u8 sMoveFourLineDescription_Charge[] = _("L'usuari carrega\nenergia per\npotenciar el seu\npròxim mov. Elèctric.");
+static const u8 sMoveFourLineDescription_Taunt[] = _("El rival és provocat\ni, enrabiat, només\npot usar atacs.");
+static const u8 sMoveFourLineDescription_HelpingHand[] = _("Un moviment que\npotencia el poder\nde l'atac de\nl'aliat en combat.");
 static const u8 sMoveFourLineDescription_Trick[] = _("Un moviment que\nenganya el rival\nper intercanviar\nobjectes equipats.");
 static const u8 sMoveFourLineDescription_RolePlay[] = _("L'usuari imita el\nrival completament\ni copia l'habilitat\ndel rival.");
-static const u8 sMoveFourLineDescription_Wish[] = _("Un mov. autocuratiu\nque restaura la\nmeitat dels PS\nmàxims al torn seg.");
-static const u8 sMoveFourLineDescription_Assist[] = _("L'usuari tria a\nl'atzar i usa un\nmoviment d'un\nPokémon aliat.");
-static const u8 sMoveFourLineDescription_Ingrain[] = _("L'usuari arrelat\nrestaura PS a cada\ntorn. No pot\ncanviar.");
-static const u8 sMoveFourLineDescription_Superpower[] = _("Un atac poderós,\nperò que baixa\nl'ATAC i la DEFENSA\nde l'usuari.");
-static const u8 sMoveFourLineDescription_MagicCoat[] = _("Reflecteix la\nLLAVOR SANGONERA\ni qualsevol mov.\nque alteri l'estat.");
-static const u8 sMoveFourLineDescription_Recycle[] = _("Un moviment que\nrecicla un objecte\nusat per poder-lo\nusar un altre cop.");
-static const u8 sMoveFourLineDescription_Revenge[] = _("Un atac que es fa\nmés fort si el rival\nha fet mal a\nl'usuari.");
-static const u8 sMoveFourLineDescription_BrickBreak[] = _("Un atac que també\ntrenca barreres com\nPANTALLA DE LLUM\ni REFLECTIR.");
+static const u8 sMoveFourLineDescription_Wish[] = _("Un mov. autocuratiu\nque restaura la\nmeitat dels PS\nal torn següent.");
+static const u8 sMoveFourLineDescription_Assist[] = _("L'usuari tria i usa\na l'atzar un mov.\nd'un Pokémon\naliat.");
+static const u8 sMoveFourLineDescription_Ingrain[] = _("L'usuari crea arrels\nque restauren PS\na cada torn. No pot\ncanviar.");
+static const u8 sMoveFourLineDescription_Superpower[] = _("Un atac poderós,\nperò també baixa\nl'Atac i la Defensa\nde l'usuari.");
+static const u8 sMoveFourLineDescription_MagicCoat[] = _("Reflecteix la Llavor\nParàsit del rival\ni qualsevol mov.\nque alteri l'estat.");
+static const u8 sMoveFourLineDescription_Recycle[] = _("Un moviment que\nrecicla un objecte\nusat per usar-lo\nun altre cop.");
+static const u8 sMoveFourLineDescription_Revenge[] = _("Un atac que guanya\nforça si el rival\nha fet mal a\nl'usuari.");
+static const u8 sMoveFourLineDescription_BrickBreak[] = _("Un atac que trenca\nqualsevol barrera\ncom Pantalla Llum\ni Reflectir.");
 static const u8 sMoveFourLineDescription_Yawn[] = _("Un gran badall fa\nque el rival caigui\nadormit al torn\nsegüent.");
-static const u8 sMoveFourLineDescription_KnockOff[] = _("Fa caure l'objecte\ndel rival per impe-\ndir que l'usi\ndurant el combat.");
-static const u8 sMoveFourLineDescription_Endeavor[] = _("Guanya força com\nmenys PS té l'usu-\nari comparat amb\nel rival.");
-static const u8 sMoveFourLineDescription_Eruption[] = _("Com més PS tingui\nl'usuari, més fort\nés aquest atac.");
-static const u8 sMoveFourLineDescription_SkillSwap[] = _("L'usuari utilitza\npoder psíquic per\nintercanviar habili-\ntats amb el rival.");
-static const u8 sMoveFourLineDescription_Imprison[] = _("Impedeix als rivals\nusar qualsevol mov.\nque també conegui\nl'usuari.");
+static const u8 sMoveFourLineDescription_KnockOff[] = _("Fa caure l'objecte\ndel rival per\nevitar el seu ús\ndurant el combat.");
+static const u8 sMoveFourLineDescription_Endeavor[] = _("Guanya poder com\nmenys PS té\nl'usuari comparat\namb el rival.");
+static const u8 sMoveFourLineDescription_Eruption[] = _("Com més PS té\nl'usuari, més\npoderós es torna\naquest atac.");
+static const u8 sMoveFourLineDescription_SkillSwap[] = _("Amb poder psíquic,\nl'usuari intercanvia\nl'habilitat amb el\nrival.");
+static const u8 sMoveFourLineDescription_Imprison[] = _("Evita que els\nrivals usin cap\nmoviment que també\nconegui l'usuari.");
 static const u8 sMoveFourLineDescription_Refresh[] = _("Un mov. autocuratiu\nque cura l'usuari\nd'enverinament,\ncremada o paràlisi.");
-static const u8 sMoveFourLineDescription_Grudge[] = _("Si l'usuari es des-\nmaia, elimina els\nPU del moviment que\nel va acabar.");
-static const u8 sMoveFourLineDescription_Snatch[] = _("Roba els efectes\ndel moviment curatiu\no d'estat que faci\nel rival.");
-static const u8 sMoveFourLineDescription_SecretPower[] = _("Un atac que pot\ntenir un efecte\nadicional segons\nel terreny.");
-static const u8 sMoveFourLineDescription_Dive[] = _("L'usuari es submerg-\neix al primer torn\ni ataca al torn\nsegüent.");
-static const u8 sMoveFourLineDescription_ArmThrust[] = _("Una ràfega de cops\nde braç recte que\ncolpeja de dues a\ncinc vegades.");
-static const u8 sMoveFourLineDescription_Camouflage[] = _("Altera el tipus de\nl'usuari segons el\nterreny de la\nubicació.");
-static const u8 sMoveFourLineDescription_TailGlow[] = _("L'usuari emet una\nllum que apuja molt\nl'ATAC ESP.");
-static const u8 sMoveFourLineDescription_LusterPurge[] = _("Un esclat de llum\ncolpeja el rival.\nPot baixar la DEF.\nESP. del rival.");
-static const u8 sMoveFourLineDescription_MistBall[] = _("Una pluja de plomís-\nsol colpeja el\nrival. Pot baixar\nl'ATAC ESP.");
-static const u8 sMoveFourLineDescription_FeatherDance[] = _("El rival és cobert\namb plomes que li\nbaixen molt\nl'ATAC.");
-static const u8 sMoveFourLineDescription_TeeterDance[] = _("Una dansa vacil-\nlant que confon\ntots els Pokémon\nen combat.");
-static const u8 sMoveFourLineDescription_BlazeKick[] = _("Una puntada de foc\namb alta taxa de\ncop crític. Pot\ncremar el rival.");
-static const u8 sMoveFourLineDescription_MudSport[] = _("Afebleix els atacs\nde tipus ELÈCTRIC\nmentre l'usuari és\nen combat.");
-static const u8 sMoveFourLineDescription_IceBall[] = _("Un atac rodant de\n5 torns que es fa\nmés fort cada cop\nque connecta.");
-static const u8 sMoveFourLineDescription_NeedleArm[] = _("Un atac amb braços\nespinosos. Pot fer\nencongir el rival.");
-static const u8 sMoveFourLineDescription_SlackOff[] = _("L'usuari ganduleja\ni restaura els seus\nPS fins a la meitat\ndels PS màxims.");
-static const u8 sMoveFourLineDescription_HyperVoice[] = _("L'usuari emet un\ncrit horriblement\nfort amb prou\npotència per danyar.");
-static const u8 sMoveFourLineDescription_PoisonFang[] = _("El rival és mossegat\namb ullals tòxics.\nPot enverinar\ngreument el rival.");
-static const u8 sMoveFourLineDescription_CrushClaw[] = _("El rival és atacat\namb urpes afilades.\nPot baixar la\nDEFENSA del rival.");
-static const u8 sMoveFourLineDescription_BlastBurn[] = _("El rival rep una\nexplosió enorme.\nL'usuari no es mou\nal torn següent.");
-static const u8 sMoveFourLineDescription_HydroCannon[] = _("El rival rep un\ncanó d'aigua.\nL'usuari no es mou\nal torn següent.");
-static const u8 sMoveFourLineDescription_MeteorMash[] = _("El rival rep un cop\nràpid i dur. Pot\napujar l'ATAC de\nl'usuari.");
-static const u8 sMoveFourLineDescription_Astonish[] = _("Un atac amb un crit\nsobtat. Pot fer\nencongir el rival.");
-static const u8 sMoveFourLineDescription_WeatherBall[] = _("Un atac que varia\nen potència i tipus\nsegons el temps\natmosfèric.");
-static const u8 sMoveFourLineDescription_Aromatherapy[] = _("Un aroma relaxant\nés alliberat per\ncurar tots els\nestat de l'equip.");
-static const u8 sMoveFourLineDescription_FakeTears[] = _("L'usuari fingeix\nplorar per baixar\nmolt la DEF. ESP.\ndel rival.");
-static const u8 sMoveFourLineDescription_AirCutter[] = _("El rival rep un\nvent tallant. Té\nalta taxa de\ncop crític.");
-static const u8 sMoveFourLineDescription_Overheat[] = _("Un atac intens que\ntambé redueix molt\nl'ATAC ESP. de\nl'usuari.");
+static const u8 sMoveFourLineDescription_Grudge[] = _("Si l'usuari es\ndesmaia, elimina\nels PU del mov.\nque l'ha acabat.");
+static const u8 sMoveFourLineDescription_Snatch[] = _("Roba els efectes\ndel moviment del\nrival de curació o\ncanvi d'estat.");
+static const u8 sMoveFourLineDescription_SecretPower[] = _("Un atac que pot\ntenir un efecte\naddicional que varia\nsegons el terreny.");
+static const u8 sMoveFourLineDescription_Dive[] = _("L'usuari se\nsubmergeix al 1r\ntorn i ataca al\ntorn següent.");
+static const u8 sMoveFourLineDescription_ArmThrust[] = _("Una ràfega de cops\nde puny directes\nque colpegen de 2\na 5 cops.");
+static const u8 sMoveFourLineDescription_Camouflage[] = _("Canvia el tipus de\nl'usuari depenent\ndel terreny del\nlloc.");
+static const u8 sMoveFourLineDescription_TailGlow[] = _("L'usuari emet un\nflaix que puja molt\nl'Atac Esp.");
+static const u8 sMoveFourLineDescription_LusterPurge[] = _("Un esclat de llum\ncolpeja el rival.\nPot baixar la\nDef. Esp. del rival.");
+static const u8 sMoveFourLineDescription_MistBall[] = _("Plomissol colpeja\nel rival. Pot baixar\nl'Atac Esp. del\nrival.");
+static const u8 sMoveFourLineDescription_FeatherDance[] = _("El rival queda\ncobert de plomes\nque li baixen molt\nl'Atac.");
+static const u8 sMoveFourLineDescription_TeeterDance[] = _("Una dansa vacil·lant\nque confon tots\nels Pokémon en\ncombat.");
+static const u8 sMoveFourLineDescription_BlazeKick[] = _("Un cop de peu de\nfoc amb alta taxa\nde cop crític. Pot\ncremar el rival.");
+static const u8 sMoveFourLineDescription_MudSport[] = _("Debilita els atacs\nde tipus Elèctric\nmentre l'usuari\nés en combat.");
+static const u8 sMoveFourLineDescription_IceBall[] = _("Un atac rodant de\n5 torns que es fa\nmés fort a cada\ncop.");
+static const u8 sMoveFourLineDescription_NeedleArm[] = _("Un atac amb braços\nespinosos. Pot fer\nretrocedir el rival.");
+static const u8 sMoveFourLineDescription_SlackOff[] = _("L'usuari ganduleja\ni restaura els PS\nfins a la meitat\ndels PS màxims.");
+static const u8 sMoveFourLineDescription_HyperVoice[] = _("L'usuari emet un\ncrit terriblement\nfort amb poder\nper causar dany.");
+static const u8 sMoveFourLineDescription_PoisonFang[] = _("El rival rep una\nmossegada tòxica.\nPot enverinar molt\nel rival.");
+static const u8 sMoveFourLineDescription_CrushClaw[] = _("El rival rep un\natac d'urpes. Pot\nbaixar la Defensa\ndel rival.");
+static const u8 sMoveFourLineDescription_BlastBurn[] = _("El rival rep una\nexplosió enorme.\nL'usuari no pot\nmoure's al seg. torn.");
+static const u8 sMoveFourLineDescription_HydroCannon[] = _("El rival rep un\ncanó d'aigua.\nL'usuari no pot\nmoure's al seg. torn.");
+static const u8 sMoveFourLineDescription_MeteorMash[] = _("El rival rep un cop\nde puny dur i ràpid.\nPot pujar l'Atac\nde l'usuari.");
+static const u8 sMoveFourLineDescription_Astonish[] = _("Un atac amb un crit\nsorprenent. Pot fer\nretrocedir el rival.");
+static const u8 sMoveFourLineDescription_WeatherBall[] = _("Un atac que varia\nen poder i tipus\ndepenent del\ntemps.");
+static const u8 sMoveFourLineDescription_Aromatherapy[] = _("Un aroma suau cura\ntots els problemes\nd'estat de l'equip\nde l'usuari.");
+static const u8 sMoveFourLineDescription_FakeTears[] = _("L'usuari fa veure\nque plora per baixar\nmolt la Def. Esp.\ndel rival.");
+static const u8 sMoveFourLineDescription_AirCutter[] = _("El rival rep un\nvent tallant. Té\nuna alta taxa de\ncop crític.");
+static const u8 sMoveFourLineDescription_Overheat[] = _("Un atac intens que\ntambé baixa molt\nl'Atac Esp. de\nl'usuari.");
 static const u8 sMoveFourLineDescription_OdorSleuth[] = _("Nega completament\nels esforços del\nrival per augmentar\nl'esquiva.");
-static const u8 sMoveFourLineDescription_RockTomb[] = _("Roques són llança-\ndes al rival. Baixa\nla VELOCITAT del\nrival si connecta.");
-static const u8 sMoveFourLineDescription_SilverWind[] = _("El rival és atacat\namb pols platejada.\nPot apujar totes\nles estadíst.");
-static const u8 sMoveFourLineDescription_MetalSound[] = _("Un so metàl·lic\nhorrible que baixa\nmolt la DEF. ESP.\ndel rival.");
-static const u8 sMoveFourLineDescription_GrassWhistle[] = _("Una melodia agrada-\nble que fa caure el\nrival en un son\nprofund.");
-static const u8 sMoveFourLineDescription_Tickle[] = _("Es fan pessigolles\nal rival, baixant\nl'ATAC i la DEFENSA.");
-static const u8 sMoveFourLineDescription_CosmicPower[] = _("L'usuari absorbeix\nun poder místic per\napujar la DEFENSA\ni la DEF. ESP.");
-static const u8 sMoveFourLineDescription_WaterSpout[] = _("Com més PS tingui\nl'usuari, més fort\nés aquest atac.");
-static const u8 sMoveFourLineDescription_SignalBeam[] = _("El rival rep un\nraig llampegant que\npot també causar\nconfusió.");
-static const u8 sMoveFourLineDescription_ShadowPunch[] = _("L'usuari llança un\ncop des de les\nombres. No pot ser\nesquivat.");
-static const u8 sMoveFourLineDescription_Extrasensory[] = _("L'usuari ataca amb\nun poder estrany\nque pot encongir\nel rival.");
-static const u8 sMoveFourLineDescription_SkyUppercut[] = _("L'usuari ataca amb\nun ganxo cap al cel\nllançat amb força.");
+static const u8 sMoveFourLineDescription_RockTomb[] = _("Es llancen roques\nal rival. Baixa la\nVelocitat del rival\nsi encerta.");
+static const u8 sMoveFourLineDescription_SilverWind[] = _("El rival rep pols\nde plata. Pot pujar\ntotes les estad.\nde l'usuari.");
+static const u8 sMoveFourLineDescription_MetalSound[] = _("Un soroll metàl·lic\nhorrible baixa molt\nla Def. Esp. del\nrival.");
+static const u8 sMoveFourLineDescription_GrassWhistle[] = _("Una melodia suau\nfa caure el rival\nen un son profund.");
+static const u8 sMoveFourLineDescription_Tickle[] = _("Es fa riure el\nrival, baixant\nl'Atac i la Defensa\ndel rival.");
+static const u8 sMoveFourLineDescription_CosmicPower[] = _("L'usuari absorbeix\nun poder místic per\npujar la Defensa\ni la Def. Esp.");
+static const u8 sMoveFourLineDescription_WaterSpout[] = _("Com més PS té\nl'usuari, més\npoderós es torna\naquest atac.");
+static const u8 sMoveFourLineDescription_SignalBeam[] = _("El rival rep un\nraig llampant que\npot causar\nconfusió.");
+static const u8 sMoveFourLineDescription_ShadowPunch[] = _("L'usuari llança un\ncop de puny des de\nles ombres. No pot\nser esquivat.");
+static const u8 sMoveFourLineDescription_Extrasensory[] = _("L'usuari ataca amb\nun poder estrany\nque pot fer\nretrocedir el rival.");
+static const u8 sMoveFourLineDescription_SkyUppercut[] = _("L'usuari ataca amb\nun ganxo cap amunt\nllançat amb força\ncap al cel.");
 #if defined(BATTLE_ENGINE) && B_BINDING_TURNS >= GEN_5
-static const u8 sMoveFourLineDescription_SandTomb[] = _("El rival és atrapat\nen una dolorosa\ntempesta de sorra\nquatre o cinc torns.");
+static const u8 sMoveFourLineDescription_SandTomb[] = _("El rival és atrapat\nen una tempesta de\nsorra dolorosa\nquatre o cinc torns.");
 #else
-static const u8 sMoveFourLineDescription_SandTomb[] = _("El rival és atrapat\nen una dolorosa\ntempesta de sorra\ndos a cinc torns.");
+static const u8 sMoveFourLineDescription_SandTomb[] = _("El rival és atrapat\nen una tempesta de\nsorra dolorosa\ndos a cinc torns.");
 #endif
-static const u8 sMoveFourLineDescription_SheerCold[] = _("El rival rep un\nfred extrem que el\nfa desmaiar si\nconnecta.");
+static const u8 sMoveFourLineDescription_SheerCold[] = _("El rival rep un\natac de fred extrem\nque el fa desmaiar\nsi encerta.");
 static const u8 sMoveFourLineDescription_MuddyWater[] = _("L'usuari ataca amb\naigua fangosa.\nPot baixar la\nprecisió del rival.");
 static const u8 sMoveFourLineDescription_BulletSeed[] = _("L'usuari dispara\nllavors al rival.\nEn llança de dues\na cinc alhora.");
-static const u8 sMoveFourLineDescription_AerialAce[] = _("Un atac molt ràpid\ncontra un objectiu.\nNo pot ser\nesquivat.");
-static const u8 sMoveFourLineDescription_IcicleSpear[] = _("Es disparen\ncarambans al rival.\nColpeja de dues\na cinc vegades.");
-static const u8 sMoveFourLineDescription_IronDefense[] = _("L'usuari endureix\nel cos per apujar\nmolt la DEFENSA.");
+static const u8 sMoveFourLineDescription_AerialAce[] = _("Un atac molt ràpid\ncontra un objectiu.\nNo es pot\nesquivar.");
+static const u8 sMoveFourLineDescription_IcicleSpear[] = _("Es disparen glaçons\nesmolats al rival.\nColpeja de dues\na cinc vegades.");
+static const u8 sMoveFourLineDescription_IronDefense[] = _("L'usuari endureix\nel seu cos per\npujar molt la\nDefensa.");
 static const u8 sMoveFourLineDescription_Block[] = _("L'usuari bloqueja\nel pas del rival\namb braços oberts\nper impedir fugir.");
-static const u8 sMoveFourLineDescription_Howl[] = _("L'usuari udola per\nanimar-se i apujar\nel seu ATAC.");
+static const u8 sMoveFourLineDescription_Howl[] = _("L'usuari udola per\nanimar-se i pujar\nel seu Atac.");
 static const u8 sMoveFourLineDescription_DragonClaw[] = _("Urpes grans i\nafilades tallen el\nrival amb rapidesa\ni gran potència.");
 static const u8 sMoveFourLineDescription_FrenzyPlant[] = _("El rival rep el cop\nd'una branca enorme.\nL'usuari no es mou\nal torn següent.");
-static const u8 sMoveFourLineDescription_BulkUp[] = _("L'usuari enforteix\nel cos per apujar\nl'ATAC i la\nDEFENSA.");
+static const u8 sMoveFourLineDescription_BulkUp[] = _("L'usuari enforteix\nel cos per pujar\nl'Atac i la\nDefensa.");
 static const u8 sMoveFourLineDescription_Bounce[] = _("L'usuari salta\nsobre el rival al\n2n torn. Pot\nparalitzar-lo.");
-static const u8 sMoveFourLineDescription_MudShot[] = _("L'usuari ataca\nllançant fang.\nTambé redueix la\nVELOCITAT del rival.");
+static const u8 sMoveFourLineDescription_MudShot[] = _("L'usuari ataca\nllançant fang.\nTambé baixa la\nVelocitat del rival.");
 static const u8 sMoveFourLineDescription_PoisonTail[] = _("Un atac amb alta\ntaxa de cop crític.\nTambé pot\nenverinar el rival.");
 static const u8 sMoveFourLineDescription_Covet[] = _("Un atac adorable\nque també roba\nl'objecte equipat\ndel rival.");
-static const u8 sMoveFourLineDescription_VoltTackle[] = _("L'usuari fa una\nembranzida elèctrica.\nTambé fa mal a\nl'usuari.");
+static const u8 sMoveFourLineDescription_VoltTackle[] = _("L'usuari fa una\nenvestida elèctrica.\nTambé fa una mica\nde mal a l'usuari.");
 static const u8 sMoveFourLineDescription_MagicalLeaf[] = _("El rival rep l'atac\nd'una fulla estranya\nque no pot ser\nesquivada.");
-static const u8 sMoveFourLineDescription_WaterSport[] = _("Afebleix els atacs\nde tipus FOC mentre\nl'usuari és en\ncombat.");
-static const u8 sMoveFourLineDescription_CalmMind[] = _("L'usuari concentra\nla ment per apujar\nl'ATAC ESP. i la\nDEF. ESP.");
-static const u8 sMoveFourLineDescription_LeafBlade[] = _("El rival és tallat\namb una fulla afila-\nda. Té alta taxa\nde cop crític.");
-static const u8 sMoveFourLineDescription_DragonDance[] = _("Una dansa mística\nque apuja l'ATAC\ni la VELOCITAT de\nl'usuari.");
+static const u8 sMoveFourLineDescription_WaterSport[] = _("Afebleix els atacs\nde tipus Foc mentre\nl'usuari és en\ncombat.");
+static const u8 sMoveFourLineDescription_CalmMind[] = _("L'usuari concentra\nla ment per pujar\nl'Atac Esp. i la\nDef. Esp.");
+static const u8 sMoveFourLineDescription_LeafBlade[] = _("Una fulla afilada\ntalla el rival. Té\nuna alta taxa de\ncop crític.");
+static const u8 sMoveFourLineDescription_DragonDance[] = _("Una dansa mística\nque puja l'Atac\ni la Velocitat de\nl'usuari.");
 static const u8 sMoveFourLineDescription_RockBlast[] = _("L'usuari llança de\ndues a cinc roques\nal rival per\natacar.");
 static const u8 sMoveFourLineDescription_ShockWave[] = _("Un raig elèctric\nràpid colpeja el\nrival. No pot ser\nesquivat.");
 static const u8 sMoveFourLineDescription_WaterPulse[] = _("Un atac amb una\nona d'aigua. També\npot confondre\nel rival.");
 static const u8 sMoveFourLineDescription_DoomDesire[] = _("Un moviment que\nataca el rival amb\nun raig de llum dos\ntorns després.");
-static const u8 sMoveFourLineDescription_PsychoBoost[] = _("Un atac intens que\ntambé redueix molt\nl'ATAC ESP. de\nl'usuari.");
+static const u8 sMoveFourLineDescription_PsychoBoost[] = _("Un atac intens que\ntambé baixa molt\nl'Atac Esp. de\nl'usuari.");
 
 #endif
 
@@ -4499,16 +4499,16 @@ static const u8 sMoveFourLineDescription_Roost[] = _("L'usuari aterra i\nfa repo
 static const u8 sMoveFourLineDescription_Gravity[] = _("La gravetat puja\ncinc torns. Anul·la\nel vol i l'habilitat\nLevitació.");
 static const u8 sMoveFourLineDescription_MiracleEye[] = _("Anul·la l'esquiva\ndel rival i la seva\nimmunitat al tipus\nPsíquic.");
 static const u8 sMoveFourLineDescription_WakeUpSlap[] = _("Ataca els rivals\nadormits amb molt\nde dany. També els\ndespertarà.");
-static const u8 sMoveFourLineDescription_HammerArm[] = _("Un puny fort i\npesant colpeja el\nrival. Redueix la\nVelocitat usuari.");
+static const u8 sMoveFourLineDescription_HammerArm[] = _("Un puny fort i\npesant colpeja el\nrival. Baixa la Vel.\nde l'usuari.");
 static const u8 sMoveFourLineDescription_GyroBall[] = _("Un gir ràpid. Com\nmés lent l'usuari,\nmés gran és el\ndany causat.");
-static const u8 sMoveFourLineDescription_HealingWish[] = _("L'usuari es desma-\nia. El recanvi\nrecupera PS i es\ncura l'estat.");
+static const u8 sMoveFourLineDescription_HealingWish[] = _("L'usuari es\ndesmaia i el seu\nrelleu recupera els\nPS i cura l'estat.");
 static const u8 sMoveFourLineDescription_Brine[] = _("Si els PS del rival\nsón a la meitat,\ncolpeja amb el\ndoble de potència.");
 static const u8 sMoveFourLineDescription_NaturalGift[] = _("La Baia de\nl'usuari determina\nel tipus i potència\nd'aquest atac.");
-static const u8 sMoveFourLineDescription_Feint[] = _("Colpeja un rival\namb Protecció,\nanul·lant l'efecte\nd'aquests movim.");
+static const u8 sMoveFourLineDescription_Feint[] = _("Colpeja un rival\nque usi Protecció,\nanul·lant l'efecte\nd'aquests mov.");
 static const u8 sMoveFourLineDescription_Pluck[] = _("L'usuari picoteja\nel rival. Si té una\nBaia, l'usuari en\nguanya l'efecte.");
-static const u8 sMoveFourLineDescription_Tailwind[] = _("Un remolí turbulent\nque puja la Veloci-\ntat de l'equip\ndurant 4 torns.");
+static const u8 sMoveFourLineDescription_Tailwind[] = _("Un remolí que puja\nla Velocitat de\nl'equip durant\n4 torns.");
 static const u8 sMoveFourLineDescription_Acupressure[] = _("L'usuari pressiona\npunts d'estrès,\npujant molt una\nestad. a l'atzar.");
-static const u8 sMoveFourLineDescription_MetalBurst[] = _("L'usuari es venja\namb més potència\ncontra l'últim\nrival que el ferí.");
+static const u8 sMoveFourLineDescription_MetalBurst[] = _("L'usuari es venja\namb més potència\ncontra l'últim\nrival que l'ha ferit.");
 static const u8 sMoveFourLineDescription_UTurn[] = _("L'usuari colpeja\ni després canvia\namb un Pokémon\nde l'equip.");
 static const u8 sMoveFourLineDescription_CloseCombat[] = _("Lluita cos a cos\nsense defensa.\nBaixa Defensa i\nDef. Esp.");
 static const u8 sMoveFourLineDescription_Payback[] = _("Si l'usuari es mou\ndesprés del rival,\nel dany d'aquest\natac es duplica.");
@@ -4519,58 +4519,58 @@ static const u8 sMoveFourLineDescription_PsychoShift[] = _("L'usuari transfereix
 static const u8 sMoveFourLineDescription_TrumpCard[] = _("Com menys PU\ntingui el moviment,\nmés gran serà la\nseva potència.");
 static const u8 sMoveFourLineDescription_HealBlock[] = _("El rival no pot\nusar moviments,\nobjectes o habilit.\nque recuperin PS.");
 static const u8 sMoveFourLineDescription_WringOut[] = _("L'usuari esprem el\nrival. Com més PS\ntingui el rival,\nmés fort l'atac.");
-static const u8 sMoveFourLineDescription_PowerTrick[] = _("L'usuari usa poder\npsíquic per inter-\ncanviar el seu Atac\ni la seva Defensa.");
-static const u8 sMoveFourLineDescription_GastroAcid[] = _("Àcids estomacals\nes llancen al rival\nanul·lant l'efecte\nde la seva Habil.");
+static const u8 sMoveFourLineDescription_PowerTrick[] = _("Amb poder psíquic,\nl'usuari intercanvia\nel seu Atac i la\nseva Defensa.");
+static const u8 sMoveFourLineDescription_GastroAcid[] = _("Es llança àcid\ngàstric al rival que\nanul·la l'efecte de\nla seva habilitat.");
 static const u8 sMoveFourLineDescription_LuckyChant[] = _("Durant 5 torns,\nel rival no pot\nfer cops crítics.");
 static const u8 sMoveFourLineDescription_MeFirst[] = _("El moviment previst\ndel rival és robat\ni usat primer, amb\nmés potència.");
 static const u8 sMoveFourLineDescription_Copycat[] = _("L'usuari intenta\nimitar el moviment\nusat immediatament\nabans.");
 static const u8 sMoveFourLineDescription_PowerSwap[] = _("L'usuari i el rival\nintercanvien els\ncanvis d'Atac i\nd'Atac Esp.");
 static const u8 sMoveFourLineDescription_GuardSwap[] = _("L'usuari i el rival\nintercanvien els\ncanvis de Defensa\ni de Def. Esp.");
 static const u8 sMoveFourLineDescription_Punishment[] = _("Com més el rival\nhagi pujat les\nseves estad., més\nfort colpeja.");
-static const u8 sMoveFourLineDescription_LastResort[] = _("Falla si l'usuari\nno ha usat els\nseus altres movim.\nen el combat.");
+static const u8 sMoveFourLineDescription_LastResort[] = _("Falla si l'usuari\nno ha usat abans\nels altres moviments\nen el combat.");
 static const u8 sMoveFourLineDescription_WorrySeed[] = _("Una llavor que\ncausa preocupació\nes planta al rival,\ndonant-li Insomni.");
 static const u8 sMoveFourLineDescription_SuckerPunch[] = _("Permet a l'usuari\ncolpejar primer.\nFalla si el rival\nno està atacant.");
-static const u8 sMoveFourLineDescription_ToxicSpikes[] = _("Punxes verinoses\nes posen als peus\ndel rival. Enverine\nels que entrin.");
-static const u8 sMoveFourLineDescription_HeartSwap[] = _("L'usuari usa poder\npsíquic per inter-\ncanviar els canvis\nd'estad. amb rival.");
+static const u8 sMoveFourLineDescription_ToxicSpikes[] = _("Punxes verinoses\nes posen als peus\ndel rival. Enverinen\nels que entrin.");
+static const u8 sMoveFourLineDescription_HeartSwap[] = _("Amb poder psíquic,\nl'usuari intercanvia\nels canvis d'estad.\namb el rival.");
 static const u8 sMoveFourLineDescription_AquaRing[] = _("L'usuari s'envolta\namb un vel d'aigua.\nRecupera alguns PS\ncada torn.");
-static const u8 sMoveFourLineDescription_MagnetRise[] = _("L'usuari levita\namb magnetisme\ngenerat elèctric.\nDura cinc torns.");
+static const u8 sMoveFourLineDescription_MagnetRise[] = _("L'usuari levita\ngràcies a un camp\nelectromagnètic\ncinc torns.");
 static const u8 sMoveFourLineDescription_FlareBlitz[] = _("Una càrrega de foc\nque també danya\nl'usuari. Pot\ncremar el rival.");
 static const u8 sMoveFourLineDescription_ForcePalm[] = _("El rival rep un\natac d'ona de xoc\nque pot deixar-lo\nparalitzat.");
 static const u8 sMoveFourLineDescription_AuraSphere[] = _("Una explosió de\npoder d'aura des\nde dins. No pot\nfallar mai.");
 static const u8 sMoveFourLineDescription_RockPolish[] = _("L'usuari poleix el\nseu cos per reduir\nla fricció. Puja\nmolt la Velocitat.");
 static const u8 sMoveFourLineDescription_PoisonJab[] = _("Un atac punxant\namb braç o tentacle\nque pot enverinar\nel rival.");
-static const u8 sMoveFourLineDescription_DarkPulse[] = _("L'usuari allibera\nuna aura fosca. El\nrival també pot\nencongir-se.");
+static const u8 sMoveFourLineDescription_DarkPulse[] = _("L'usuari allibera\nuna aura fosca. Pot\nfer retrocedir el\nrival.");
 static const u8 sMoveFourLineDescription_NightSlash[] = _("L'usuari espera\nper tallar el rival\namb una alta taxa\nde cop crític.");
 static const u8 sMoveFourLineDescription_AquaTail[] = _("L'usuari ataca\nfent oscil·lar la\nseva cua com una\nona violenta.");
-static const u8 sMoveFourLineDescription_SeedBomb[] = _("Una pluja de lla-\nvors dures colpeja\nel rival des de\ndalt.");
-static const u8 sMoveFourLineDescription_AirSlash[] = _("Una fulla d'aire\ntalla el rival,\namb possibilitat\nd'encongir-lo.");
+static const u8 sMoveFourLineDescription_SeedBomb[] = _("Una pluja de\nllavors dures cau\nsobre el rival des\nde dalt.");
+static const u8 sMoveFourLineDescription_AirSlash[] = _("Una fulla d'aire\ntalla el rival. Pot\nfer-lo retrocedir.");
 static const u8 sMoveFourLineDescription_XScissor[] = _("L'usuari talla el\nrival amb tisores,\nurpes creuades,\netc.");
-static const u8 sMoveFourLineDescription_BugBuzz[] = _("Una ona sonora dura\nés generada per\nl'usuari. Pot baixar\nla Def. Esp. rival.");
+static const u8 sMoveFourLineDescription_BugBuzz[] = _("L'usuari genera una\nona sonora dura.\nPot baixar la Def.\nEsp. del rival.");
 static const u8 sMoveFourLineDescription_DragonPulse[] = _("La boca oberta de\nl'usuari genera\nuna ona de xoc\ncontra el rival.");
-static const u8 sMoveFourLineDescription_DragonRush[] = _("Una envestida amb\nmenace devastadora.\nPot fer encongir\nel rival.");
+static const u8 sMoveFourLineDescription_DragonRush[] = _("Una envestida\namenaçadora i\ndevastadora. Pot fer\nretrocedir el rival.");
 static const u8 sMoveFourLineDescription_PowerGem[] = _("Un raig de llum\nes dispara al rival\nbrillant com si\nfos de gemmes.");
 static const u8 sMoveFourLineDescription_DrainPunch[] = _("Un cop de puny que\nrecupera la meitat\ndels PS del dany\ninfligit.");
 static const u8 sMoveFourLineDescription_VacuumWave[] = _("Un buit pur es\ndispara al rival.\nAquest moviment\nsempre va primer.");
 static const u8 sMoveFourLineDescription_FocusBlast[] = _("Poder mental és\nalliberat. Pot\nbaixar la Def.\nEsp. del rival.");
 static const u8 sMoveFourLineDescription_EnergyBall[] = _("Energia extreta de\nla natura es llança\nal rival. Pot baixar\nla Def. Esp.");
 static const u8 sMoveFourLineDescription_BraveBird[] = _("Amb ales plegades,\nl'usuari carrega\ncontra el rival.\nTambé es danya.");
-static const u8 sMoveFourLineDescription_EarthPower[] = _("El terra erupciona\nsota el rival. Pot\nbaixar la Def.\nEsp. del rival.");
+static const u8 sMoveFourLineDescription_EarthPower[] = _("El terra esclata\nsota el rival. Pot\nbaixar la Def.\nEsp. del rival.");
 static const u8 sMoveFourLineDescription_Switcheroo[] = _("L'usuari canvia\nobjectes equipats\namb el rival més\nràpid que l'ull.");
 static const u8 sMoveFourLineDescription_NastyPlot[] = _("L'usuari estimula\nel cervell amb mals\npensaments. Puja\nmolt l'Atac Esp.");
 static const u8 sMoveFourLineDescription_BulletPunch[] = _("Cops de puny ràpids\ncom bales colpegen\nel rival. Sempre\nva primer.");
 static const u8 sMoveFourLineDescription_IceShard[] = _("Trossos de gel\ncongelats es llancen\nal rival. Sempre\nva primer.");
 static const u8 sMoveFourLineDescription_ShadowClaw[] = _("Urpes d'ombra\ncolpegen el rival.\nEls cops crítics\nsón més fàcils.");
-static const u8 sMoveFourLineDescription_ThunderFang[] = _("Ullals electrifi-\ncats mosseguen el\nrival. Pot paralit-\nzar o encongir.");
-static const u8 sMoveFourLineDescription_IceFang[] = _("Ullals gelats\nmosseguen el rival.\nPot gelar-lo o\nfer-lo encongir.");
-static const u8 sMoveFourLineDescription_FireFang[] = _("Ullals ardents\nmosseguen el rival.\nPot cremar-lo o\nfer-lo encongir.");
-static const u8 sMoveFourLineDescription_ShadowSneak[] = _("L'ombra de l'usua-\nri s'estén i colpe-\nja el rival. Sempre\nva primer.");
-static const u8 sMoveFourLineDescription_MudBomb[] = _("Una bola de fang\ncompacte es llança\nal rival. Pot baixar\nla seva Precisió.");
+static const u8 sMoveFourLineDescription_ThunderFang[] = _("Ullals elèctrics\nmosseguen el rival.\nPot paralitzar-lo o\nfer-lo retrocedir.");
+static const u8 sMoveFourLineDescription_IceFang[] = _("Ullals gelats\nmosseguen el rival.\nPot gelar-lo o\nfer-lo retrocedir.");
+static const u8 sMoveFourLineDescription_FireFang[] = _("Ullals ardents\nmosseguen el rival.\nPot cremar-lo o\nfer-lo retrocedir.");
+static const u8 sMoveFourLineDescription_ShadowSneak[] = _("L'ombra de l'usuari\ns'estén i colpeja\nel rival. Sempre\nva primer.");
+static const u8 sMoveFourLineDescription_MudBomb[] = _("Una bola de fang\ncompacte es llança\nal rival. Pot baixar\nla seva precisió.");
 static const u8 sMoveFourLineDescription_PsychoCut[] = _("Fulles psíquiques\ncolpegen el rival.\nEls cops crítics\nsón més fàcils.");
-static const u8 sMoveFourLineDescription_ZenHeadbutt[] = _("L'usuari es concen-\ntra i colpeja el\nrival. Pot fer-lo\nencongir.");
-static const u8 sMoveFourLineDescription_MirrorShot[] = _("Un flaix d'energia\nes llança al rival.\nPot baixar la seva\nPrecisió.");
+static const u8 sMoveFourLineDescription_ZenHeadbutt[] = _("L'usuari es\nconcentra i colpeja\nel rival. Pot fer-lo\nretrocedir.");
+static const u8 sMoveFourLineDescription_MirrorShot[] = _("Un flaix d'energia\nes llança al rival.\nPot baixar la seva\nprecisió.");
 static const u8 sMoveFourLineDescription_FlashCannon[] = _("Energia lumínica\nes dispara al rival.\nPot baixar la seva\nDef. Esp.");
 static const u8 sMoveFourLineDescription_RockClimb[] = _("Un atac de càrrega.\nPot confondre el\nrival. S'usa per\nescalar roques.");
-static const u8 sMoveFourLineDescription_Defog[] = _("El vent bufa pel\ncamp de batalla,\nnetejant barreres,\nobstacles, etc.");
+static const u8 sMoveFourLineDescription_Defog[] = _("El vent bufa pel\ncamp de combat,\nnetejant barreres,\nobstacles, etc.");
 static const u8 sMoveFourLineDescription_TrickRoom[] = _("Es crea una zona\nestranya 5 torns\non els Pokémon més\nlents van primer.");
 static const u8 sMoveFourLineDescription_DracoMeteor[] = _("Cometes cauen\nsobre el rival.\nBaixa molt l'Atac\nEsp. de l'usuari.");
 static const u8 sMoveFourLineDescription_Discharge[] = _("Electricitat és\nalliberada al camp.\nPot paralitzar\ntots els afectats.");
@@ -4579,36 +4579,36 @@ static const u8 sMoveFourLineDescription_LeafStorm[] = _("Una tempesta de\nfulle
 static const u8 sMoveFourLineDescription_PowerWhip[] = _("L'usuari fa girar\nviolentament lianes\no tentacles per\ncolpejar el rival.");
 static const u8 sMoveFourLineDescription_CrossPoison[] = _("Els cops crítics\nsón més fàcils amb\naquest tall. Pot\nenverinar el rival.");
 static const u8 sMoveFourLineDescription_GunkShot[] = _("Brossa immunda es\ndispara al rival.\nPot enverinar\nel rival.");
-static const u8 sMoveFourLineDescription_IronHead[] = _("L'usuari colpeja\nel rival amb el cap\nd'acer. El rival\npot encongir-se.");
+static const u8 sMoveFourLineDescription_IronHead[] = _("L'usuari colpeja\nel rival amb el cap\nd'acer. Pot fer-lo\nretrocedir.");
 static const u8 sMoveFourLineDescription_MagnetBomb[] = _("Una bomba d'acer\nes llança al rival.\nAquest atac no\npot fallar.");
 static const u8 sMoveFourLineDescription_StoneEdge[] = _("Pedres esmolades\napunyalen el rival\ndes de sota. Cops\ncrítics més fàcils.");
-static const u8 sMoveFourLineDescription_Captivate[] = _("Rivals d'un altre\ngènere són encisa-\nts, baixant molt\nel seu Atac Esp.");
+static const u8 sMoveFourLineDescription_Captivate[] = _("Els rivals de l'altre\ngènere queden\nencisats i baixa molt\nel seu Atac Esp.");
 static const u8 sMoveFourLineDescription_StealthRock[] = _("Pedres flotants\nenvolten el rival.\nDanyen els rivals\nque entrin.");
 static const u8 sMoveFourLineDescription_GrassKnot[] = _("Un parany d'herba\nque infligeix més\ndany als rivals\nmés pesants.");
 static const u8 sMoveFourLineDescription_Chatter[] = _("El rival queda\nconfós per ones\nsonores d'una\nxerrameca forta.");
 static const u8 sMoveFourLineDescription_Judgment[] = _("El tipus d'aquest\nmoviment varia\nsegons la Placa\nque porta l'usuari.");
 static const u8 sMoveFourLineDescription_BugBite[] = _("L'usuari mossega\nel rival. Si porta\nuna Baia, l'usuari\nse la menja.");
-static const u8 sMoveFourLineDescription_ChargeBeam[] = _("L'usuari ataca amb\nuna càrrega elèc-\ntrica. Pot pujar\nel seu Atac Esp.");
-static const u8 sMoveFourLineDescription_WoodHammer[] = _("L'usuari colpeja\namb el seu cos dur\nel rival. L'usuari\ntambé rep dany.");
+static const u8 sMoveFourLineDescription_ChargeBeam[] = _("Ataca amb una\ncàrrega elèctrica.\nPot pujar l'Atac\nEsp. de l'usuari.");
+static const u8 sMoveFourLineDescription_WoodHammer[] = _("L'usuari estavella\nel seu cos dur\ncontra el rival.\nTambé rep dany.");
 static const u8 sMoveFourLineDescription_AquaJet[] = _("L'usuari es llança\nal rival a gran\nvelocitat. Sempre\nva primer.");
 static const u8 sMoveFourLineDescription_AttackOrder[] = _("Els subordinats\ncolpegen el rival.\nEls cops crítics\nsón més fàcils.");
-static const u8 sMoveFourLineDescription_DefendOrder[] = _("Els subordinats\nformen un escut que\npuja la Def. Esp.\ni Defensa usuari.");
-static const u8 sMoveFourLineDescription_HealOrder[] = _("L'usuari crida els\nseus subordinats\nper curar-lo. Rest.\nla meitat dels PS.");
+static const u8 sMoveFourLineDescription_DefendOrder[] = _("Els subordinats\nformen un escut que\npuja la Def. i la\nDef. Esp. de l'usuari.");
+static const u8 sMoveFourLineDescription_HealOrder[] = _("L'usuari crida els\nsubordinats perquè\nli restaurin la\nmeitat dels PS.");
 static const u8 sMoveFourLineDescription_HeadSmash[] = _("Un cop de cap molt\nperillós colpeja\nel rival. També\ndanya l'usuari.");
 static const u8 sMoveFourLineDescription_DoubleHit[] = _("L'usuari colpeja\nel rival amb cua,\netc. El rival rep\ndos cops seguits.");
 static const u8 sMoveFourLineDescription_RoarOfTime[] = _("Una explosió que\ndistorsiona el\ntemps. L'usuari ha\nde descansar.");
-static const u8 sMoveFourLineDescription_SpacialRend[] = _("El rival i l'espai\nal seu voltant es\ntrenca. Cops crít.\nmés fàcils.");
+static const u8 sMoveFourLineDescription_SpacialRend[] = _("Esquinça el rival i\nl'espai del voltant.\nAlta taxa de cop\ncrític.");
 static const u8 sMoveFourLineDescription_CrushGrip[] = _("L'usuari aixafa el\nrival. Com més PS\ntingui el rival,\nmés fort l'atac.");
 #if B_BINDING_TURNS >= GEN_5
 static const u8 sMoveFourLineDescription_MagmaStorm[] = _("El rival queda\natrapat en un\nremolí de foc\ndurant 4 o 5 torns.");
 #else
 static const u8 sMoveFourLineDescription_MagmaStorm[] = _("El rival queda\natrapat en un\nremolí de foc\ndurant 2 a 5 torns.");
 #endif
-static const u8 sMoveFourLineDescription_DarkVoid[] = _("El rival és arros-\nsegat a un món de\nfoscor total que\nel fa adormir.");
+static const u8 sMoveFourLineDescription_DarkVoid[] = _("El rival cau en un\nmón de foscor total\nque l'adorm.");
 static const u8 sMoveFourLineDescription_SeedFlare[] = _("Una ona de xoc es\nllança al rival.\nPot baixar la Def.\nEsp. del rival.");
 static const u8 sMoveFourLineDescription_OminousWind[] = _("Una ràfega de vent\nrepulsiu colpeja\nel rival. Pot pujar\nestad. de l'usuari.");
 static const u8 sMoveFourLineDescription_ShadowForce[] = _("L'usuari desapareix.\nEl torn següent,\ncolpeja el rival\nignorant Protecció.");
-static const u8 sMoveFourLineDescription_HoneClaws[] = _("L'usuari esmola\nles urpes per pujar\nel seu Atac i la\nseva Precisió.");
+static const u8 sMoveFourLineDescription_HoneClaws[] = _("L'usuari esmola\nles urpes per pujar\nel seu Atac i la\nseva precisió.");
 static const u8 sMoveFourLineDescription_WideGuard[] = _("Durant 1 torn,\nl'usuari i aliats\nestan protegits de\nmoviments amplis.");
 static const u8 sMoveFourLineDescription_GuardSplit[] = _("La Defensa i Def.\nEsp. de l'usuari\nes fan la mitjana\namb les del rival.");
 static const u8 sMoveFourLineDescription_PowerSplit[] = _("L'Atac i Atac Esp.\nde l'usuari es fan\nla mitjana amb les\ndel rival.");
@@ -4616,141 +4616,141 @@ static const u8 sMoveFourLineDescription_WonderRoom[] = _("Durant 5 torns,\ntots
 static const u8 sMoveFourLineDescription_Psyshock[] = _("L'usuari llança\nuna ona psíquica\nestranya que fa\ndany físic.");
 static const u8 sMoveFourLineDescription_TailSlap[] = _("L'usuari colpeja\nel rival amb la cua\ndura, de dues a\ncinc vegades.");
 static const u8 sMoveFourLineDescription_Venoshock[] = _("Un líquid especial\nque fa el doble de\ndany als rivals\nenverinats.");
-static const u8 sMoveFourLineDescription_Autotomize[] = _("L'usuari es despren\nde part del cos per\nser més lleuger.\nPuja molt la Vel.");
+static const u8 sMoveFourLineDescription_Autotomize[] = _("L'usuari es desprèn\nde part del cos per\nser més lleuger.\nPuja molt la Vel.");
 static const u8 sMoveFourLineDescription_RagePowder[] = _("Els rivals apunten\nnomés a l'usuari,\nenfurits per una\npols irritant.");
-static const u8 sMoveFourLineDescription_Telekinesis[] = _("L'usuari fa flotar\nel rival psíquicam.\n3 torns, fent-lo\nmés fàcil de tocar.");
+static const u8 sMoveFourLineDescription_Telekinesis[] = _("Amb poder psíquic,\nfa flotar el rival\n3 torns i és més\nfàcil de tocar.");
 static const u8 sMoveFourLineDescription_MagicRoom[] = _("Durant 5 torns,\nels efectes dels\nobjectes equipats\nsón anul·lats.");
 static const u8 sMoveFourLineDescription_SmackDown[] = _("L'usuari llança una\npedra al rival.\nEls voladors cauen\na terra.");
-static const u8 sMoveFourLineDescription_StormThrow[] = _("Un cop violent al\nrival que sempre\nresulta en un cop\ncrític.");
+static const u8 sMoveFourLineDescription_StormThrow[] = _("Un cop violent al\nrival que sempre\nés un cop crític.");
 static const u8 sMoveFourLineDescription_FlameBurst[] = _("El rival rep una\nflama explosiva.\nLa flama també\ncolpeja el seu aliat.");
 static const u8 sMoveFourLineDescription_SludgeWave[] = _("Inunda la zona al\nvoltant de l'usuari\namb fang tòxic. Pot\nenverinar.");
 static const u8 sMoveFourLineDescription_QuiverDance[] = _("Una dansa mística\ni bella que puja\nl'Atac Esp., Def.\nEsp. i Velocitat.");
-static const u8 sMoveFourLineDescription_HeavySlam[] = _("L'usuari colpeja\nel rival amb el cos\npesant. Més pesant\nmés fort.");
+static const u8 sMoveFourLineDescription_HeavySlam[] = _("L'usuari colpeja\nel rival amb el cos\npesant. Com més\npesa, més fort.");
 static const u8 sMoveFourLineDescription_Synchronoise[] = _("Una ona de xoc que\nnomés danya Pokémon\ndel mateix tipus\nque l'usuari.");
-static const u8 sMoveFourLineDescription_ElectroBall[] = _("Una esfera elèctri-\nca es llança al ri-\nval. Més ràpid, més\ndany.");
+static const u8 sMoveFourLineDescription_ElectroBall[] = _("Llança una esfera\nelèctrica al rival.\nCom més ràpid és\nl'usuari, més dany.");
 static const u8 sMoveFourLineDescription_Soak[] = _("El rival rep un\ntorrent d'aigua que\ncanvia el seu tipus\na Aigua.");
 static const u8 sMoveFourLineDescription_FlameCharge[] = _("Cobert de flames,\nl'usuari colpeja.\nAixò puja la seva\nVelocitat.");
-static const u8 sMoveFourLineDescription_Coil[] = _("L'usuari s'enrosca,\npujant el seu Atac,\nDefensa i la seva\nPrecisió.");
+static const u8 sMoveFourLineDescription_Coil[] = _("L'usuari s'enrosca,\npujant el seu Atac,\nDefensa i la seva\nprecisió.");
 static const u8 sMoveFourLineDescription_LowSweep[] = _("L'usuari colpeja\nràpid les cames del\nrival, baixant la\nseva Velocitat.");
 static const u8 sMoveFourLineDescription_AcidSpray[] = _("Un fluid àcid es\nllança al rival.\nBaixa molt la Def.\nEsp. del rival.");
 static const u8 sMoveFourLineDescription_FoulPlay[] = _("Com més alt sigui\nl'Atac del rival,\nmés gran serà el\ndany causat.");
-static const u8 sMoveFourLineDescription_SimpleBeam[] = _("L'ona psíquica\nestranya de l'usua-\nri canvia l'Habil.\ndel rival a Simple.");
-static const u8 sMoveFourLineDescription_Entrainment[] = _("Una dansa estranya\nque obliga el rival\na imitar l'Habilit.\nde l'usuari.");
-static const u8 sMoveFourLineDescription_AfterYou[] = _("L'usuari ajuda el\nrival i el força\na moure's just\ndesprés de l'usua.");
+static const u8 sMoveFourLineDescription_SimpleBeam[] = _("Una ona psíquica\nestranya converteix\nl'habilitat del\nrival en Simple.");
+static const u8 sMoveFourLineDescription_Entrainment[] = _("Una dansa estranya\nobliga el rival a\nimitar l'habilitat\nde l'usuari.");
+static const u8 sMoveFourLineDescription_AfterYou[] = _("L'usuari ajuda\nl'objectiu i fa que\nactuï just després\nd'ell.");
 static const u8 sMoveFourLineDescription_Round[] = _("Un atac de cançó\nforta. Altres s'hi\npoden unir, pujant\nla seva potència.");
 static const u8 sMoveFourLineDescription_EchoedVoice[] = _("L'usuari ataca amb\nuna veu que fa eco\ni guanya potència\ncada torn.");
-static const u8 sMoveFourLineDescription_ChipAway[] = _("L'usuari colpeja\na la primera ober-\ntura, ignorant els\ncanvis d'est. rival.");
-static const u8 sMoveFourLineDescription_ClearSmog[] = _("Un grup de fang\nespecial es llança\nal rival, restablint\nels canvis d'estad.");
-static const u8 sMoveFourLineDescription_StoredPower[] = _("Com més pujades\nestíguin les estad.\nde l'usuari, més\npotència té.");
+static const u8 sMoveFourLineDescription_ChipAway[] = _("L'usuari colpeja a\nla primera ocasió,\nignorant els canvis\nd'estad. del rival.");
+static const u8 sMoveFourLineDescription_ClearSmog[] = _("Una bola de fang\nespecial es llança\nal rival i anul·la\nels canvis d'estad.");
+static const u8 sMoveFourLineDescription_StoredPower[] = _("Com més pujades\nd'estad. tingui\nl'usuari, més\npotència té.");
 static const u8 sMoveFourLineDescription_QuickGuard[] = _("L'usuari i aliats\nestan protegits\ndels moviments de\nprioritat.");
-static const u8 sMoveFourLineDescription_AllySwitch[] = _("L'usuari es tele-\ntransporta amb un\npoder estrany i\ncanvia amb l'aliat.");
+static const u8 sMoveFourLineDescription_AllySwitch[] = _("L'usuari es\nteletransporta amb\nun poder estrany i\ncanvia amb l'aliat.");
 static const u8 sMoveFourLineDescription_Scald[] = _("Aigua bullent es\ndispara al rival.\nPot deixar-lo amb\nuna cremada.");
-static const u8 sMoveFourLineDescription_ShellSmash[] = _("La closca trencada\npuja Atac, Atac Esp\ni Vel., però baixa\nDef. i Def. Esp.");
-static const u8 sMoveFourLineDescription_HealPulse[] = _("Un pols és llançat,\ncurant el rival\nfins a la meitat\ndels seus PS màx.");
-static const u8 sMoveFourLineDescription_Hex[] = _("Els rivals amb\nproblemes d'estat\nsón especialment\nfebles a aquest.");
-static const u8 sMoveFourLineDescription_SkyDrop[] = _("L'usuari llança i\ndeixa caure el ri-\nval en 2 torns, im-\npedint-li moure's.");
+static const u8 sMoveFourLineDescription_ShellSmash[] = _("La closca trencada\npuja Atac, Atac Esp.\ni Vel., però baixa\nDef. i Def. Esp.");
+static const u8 sMoveFourLineDescription_HealPulse[] = _("Un pols és llançat,\ncurant l'objectiu\nfins a la meitat\ndels seus PS màx.");
+static const u8 sMoveFourLineDescription_Hex[] = _("Els rivals amb\nproblemes d'estat\nsón molt febles a\naquest atac.");
+static const u8 sMoveFourLineDescription_SkyDrop[] = _("L'usuari aixeca el\nrival i el deixa\ncaure en 2 torns.\nEl rival no es mou.");
 static const u8 sMoveFourLineDescription_ShiftGear[] = _("L'usuari gira els\nengranatges, pujant\nl'Atac i molt la\nVelocitat.");
-static const u8 sMoveFourLineDescription_CircleThrow[] = _("El rival és llançat\ni un altre Pokémon\nentra al combat.\nEls salvat. fugen.");
+static const u8 sMoveFourLineDescription_CircleThrow[] = _("El rival és llançat\ni entra un altre\nPokémon. Els\nsalvatges fugen.");
 static const u8 sMoveFourLineDescription_Incinerate[] = _("Un atac de foc que\ncrema qualsevol\nBaia o Gemma que\nporti el rival.");
 static const u8 sMoveFourLineDescription_Quash[] = _("L'usuari suprimeix\nel rival i fa que\nel seu moviment\nvagi l'últim.");
 static const u8 sMoveFourLineDescription_Acrobatics[] = _("L'usuari colpeja\nàgilment el rival.\nSense objecte, és\nmés potent.");
-static const u8 sMoveFourLineDescription_ReflectType[] = _("L'usuari reflec-\nteix el tipus del\nrival, adoptant\nel mateix tipus.");
-static const u8 sMoveFourLineDescription_Retaliate[] = _("Un moviment venja-\ntiu que fa més dany\nsi un aliat es va\ndesmaiar al torn.");
-static const u8 sMoveFourLineDescription_FinalGambit[] = _("L'usuari es desma-\nia, però causa\ndany igual als\nseus PS.");
+static const u8 sMoveFourLineDescription_ReflectType[] = _("L'usuari reflecteix\nel tipus del rival i\nadopta el mateix\ntipus.");
+static const u8 sMoveFourLineDescription_Retaliate[] = _("Un mov. venjatiu:\nfa més dany si un\naliat s'ha desmaiat\nal torn anterior.");
+static const u8 sMoveFourLineDescription_FinalGambit[] = _("L'usuari es\ndesmaia, però causa\nun dany igual als\nseus PS.");
 static const u8 sMoveFourLineDescription_Bestow[] = _("L'usuari passa el\nseu objecte al\nrival quan el rival\nno en porta cap.");
-static const u8 sMoveFourLineDescription_Inferno[] = _("El rival és engolit\nper un foc intens\nque li deixa una\ncremada.");
-static const u8 sMoveFourLineDescription_WaterPledge[] = _("Una columna d'ai-\ngua que fa més dany\nsi s'usa amb Prome-\nsa de Foc.");
-static const u8 sMoveFourLineDescription_FirePledge[] = _("Una columna de foc\nque fa més dany si\ns'usa amb Promesa\nde Planta.");
-static const u8 sMoveFourLineDescription_GrassPledge[] = _("Una columna herba\nque fa més dany si\ns'usa amb Promesa\nd'Aigua.");
+static const u8 sMoveFourLineDescription_Inferno[] = _("El rival és engolit\nper un foc intens\nque el deixa\ncremat.");
+static const u8 sMoveFourLineDescription_WaterPledge[] = _("Una columna d'aigua\nque fa més dany si\ns'usa amb Promesa\nde Foc.");
+static const u8 sMoveFourLineDescription_FirePledge[] = _("Una columna de foc\nque fa més dany si\ns'usa amb Promesa\nHerba.");
+static const u8 sMoveFourLineDescription_GrassPledge[] = _("Una columna d'herba\nque fa més dany si\ns'usa amb Promesa\nAquàtic.");
 static const u8 sMoveFourLineDescription_StruggleBug[] = _("Mentre resisteix,\nl'usuari ataca.\nBaixa l'Atac Esp.\ndel rival.");
 static const u8 sMoveFourLineDescription_Bulldoze[] = _("Una trepitjada\nforta que colpeja\ntots els rivals i\nbaixa Velocitat.");
-static const u8 sMoveFourLineDescription_FrostBreath[] = _("Un alè fred que\nsempre resulta\nen un cop crític.");
-static const u8 sMoveFourLineDescription_DragonTail[] = _("El rival és expul-\nsat i un Pokémon\ndiferent és tret\nal combat.");
+static const u8 sMoveFourLineDescription_FrostBreath[] = _("Un alè fred que\nsempre fa un cop\ncrític.");
+static const u8 sMoveFourLineDescription_DragonTail[] = _("El rival surt\nexpulsat i un altre\nPokémon entra al\ncombat.");
 static const u8 sMoveFourLineDescription_WorkUp[] = _("L'usuari s'anima i\nel seu Atac i Atac\nEsp. augmenten.");
-static const u8 sMoveFourLineDescription_Electroweb[] = _("El rival és atrapat\nen una xarxa elèc-\ntrica. Baixa la\nseva Velocitat.");
+static const u8 sMoveFourLineDescription_Electroweb[] = _("El rival queda\natrapat en una xarxa\nelèctrica. Baixa la\nseva Velocitat.");
 static const u8 sMoveFourLineDescription_WildCharge[] = _("Un atac elèctric\ntemerari que també\ndanya l'usuari.");
-static const u8 sMoveFourLineDescription_DrillRun[] = _("Girant el cos com\nun trepant, l'usu-\nari xoca contra\nel rival.");
+static const u8 sMoveFourLineDescription_DrillRun[] = _("L'usuari gira el cos\ncom un trepant i\nxoca contra el\nrival.");
 static const u8 sMoveFourLineDescription_DualChop[] = _("El rival rep cops\nbrutals dues\nvegades seguides.");
-static const u8 sMoveFourLineDescription_HeartStamp[] = _("La guàrdia del ri-\nval baixa, i l'usu-\nari colpeja. Pot\nfer encongir.");
+static const u8 sMoveFourLineDescription_HeartStamp[] = _("El rival baixa la\nguàrdia i l'usuari\ncolpeja. Pot fer-lo\nretrocedir.");
 static const u8 sMoveFourLineDescription_HornLeech[] = _("Un atac de banya\nque absorbeix la\nmeitat del dany per\nrestaurar PS.");
 static const u8 sMoveFourLineDescription_SacredSword[] = _("L'usuari talla el\nrival amb una banya\nllarga, ignorant\nels canvis d'estad.");
-static const u8 sMoveFourLineDescription_RazorShell[] = _("El rival és tallat\namb closques afila-\ndes. Pot baixar la\nseva Defensa.");
-static const u8 sMoveFourLineDescription_HeatCrash[] = _("Cobert de flames,\nl'usuari colpeja.\nMés pesant l'usua-\nri, més dany.");
-static const u8 sMoveFourLineDescription_LeafTornado[] = _("Fulles afilades\nenvolten el rival.\nPot baixar la seva\nPrecisió.");
-static const u8 sMoveFourLineDescription_Steamroller[] = _("L'usuari passa per\nsobre els rivals.\nPot fer encongir\nel rival.");
-static const u8 sMoveFourLineDescription_CottonGuard[] = _("L'usuari es proteg.\namb cotó suau, pu-\njant dràsticament\nla Defensa.");
-static const u8 sMoveFourLineDescription_NightDaze[] = _("El rival rep una\nona de xoc negra\nque pot baixar la\nseva Precisió.");
+static const u8 sMoveFourLineDescription_RazorShell[] = _("Unes closques\nafilades tallen el\nrival. Pot baixar la\nseva Defensa.");
+static const u8 sMoveFourLineDescription_HeatCrash[] = _("Cobert de flames,\nl'usuari colpeja.\nCom més pesa, més\ndany fa.");
+static const u8 sMoveFourLineDescription_LeafTornado[] = _("Fulles afilades\nenvolten el rival.\nPot baixar la seva\nprecisió.");
+static const u8 sMoveFourLineDescription_Steamroller[] = _("L'usuari passa per\nsobre els rivals.\nPot fer retrocedir\nel rival.");
+static const u8 sMoveFourLineDescription_CottonGuard[] = _("Es protegeix amb\ncotó suau i puja\nmoltíssim la\nDefensa.");
+static const u8 sMoveFourLineDescription_NightDaze[] = _("El rival rep una\nona de xoc negra\nque pot baixar la\nseva precisió.");
 static const u8 sMoveFourLineDescription_Hurricane[] = _("Un vent ferotge\nvola al cel. Pot\nconfondre el rival\ncolpejat.");
 static const u8 sMoveFourLineDescription_HeadCharge[] = _("Un cop de cap amb\npèl protector que\ntambé danya\nl'usuari.");
-static const u8 sMoveFourLineDescription_GearGrind[] = _("L'usuari ataca\nllançant engranatges\nd'acer al rival\ndues vegades.");
+static const u8 sMoveFourLineDescription_GearGrind[] = _("L'usuari llança\nengranatges d'acer\ni colpeja el rival\ndues vegades.");
 static const u8 sMoveFourLineDescription_SearingShot[] = _("Flames escarlata\ncremen el camp i\npoden cremar els\nrivals.");
-static const u8 sMoveFourLineDescription_TechnoBlast[] = _("Un raig de llum\nque canvia de tipus\nsegons el Drive\nde l'usuari.");
-static const u8 sMoveFourLineDescription_RelicSong[] = _("Una cançó antiga\nque pot induir la\nson als seus\noients.");
+static const u8 sMoveFourLineDescription_TechnoBlast[] = _("Un raig de llum\nque canvia de tipus\nsegons la Unitat\nque porta l'usuari.");
+static const u8 sMoveFourLineDescription_RelicSong[] = _("Una cançó antiga\nque pot induir el\nson als seus\noients.");
 static const u8 sMoveFourLineDescription_SecretSword[] = _("L'usuari talla el\nrival amb la banya\nllarga, causant\ndany físic.");
 static const u8 sMoveFourLineDescription_Glaciate[] = _("L'usuari bufa aire\nglaçat als rivals\nque baixa la seva\nVelocitat.");
 static const u8 sMoveFourLineDescription_BoltStrike[] = _("L'usuari colpeja\nel rival envoltat\nd'electricitat.\nPot paralitzar.");
 static const u8 sMoveFourLineDescription_BlueFlare[] = _("El rival és engolit\nper una flama bella\ni intensa. Pot\nquedar cremat.");
 static const u8 sMoveFourLineDescription_FieryDance[] = _("L'usuari bat les\nales de foc contra\nel rival. Pot pujar\nel seu Atac Esp.");
-static const u8 sMoveFourLineDescription_FreezeShock[] = _("Gel electrificat\ncolpeja el rival al\n2n torn. Pot para-\nlitzar el rival.");
+static const u8 sMoveFourLineDescription_FreezeShock[] = _("Gel electrificat\ncolpeja el rival al\n2n torn. Pot\nparalitzar-lo.");
 static const u8 sMoveFourLineDescription_IceBurn[] = _("Vent ultrafred\nenvolta el rival al\n2n torn. Pot\ncremar-lo.");
 static const u8 sMoveFourLineDescription_Snarl[] = _("L'usuari crida com\nsi renegués,\nbaixant l'Atac Esp.\ndel rival.");
-static const u8 sMoveFourLineDescription_IcicleCrash[] = _("Caràmbans afilats\ncauen sobre el ri-\nval. Pot fer-lo\nencongir.");
+static const u8 sMoveFourLineDescription_IcicleCrash[] = _("Caramells de gel\ncauen sobre el\nrival. Pot fer-lo\nretrocedir.");
 static const u8 sMoveFourLineDescription_VCreate[] = _("Un cop potent que\nbaixa la Defensa,\nDef. Esp. i Vel.\nde l'usuari.");
 static const u8 sMoveFourLineDescription_FusionFlare[] = _("Una flama gegant\nque fa més dany\ncombinat amb un\ngran llamp.");
 static const u8 sMoveFourLineDescription_FusionBolt[] = _("Un llamp gegant\nque fa més dany\ncombinat amb una\ngran flama.");
 static const u8 sMoveFourLineDescription_FlyingPress[] = _("Un atac de lluita\nque és de tipus\nLluita i Volador\na la vegada.");
-static const u8 sMoveFourLineDescription_MatBlock[] = _("Una estora proteg.\nl'usuari i el seu\naliat de moviments\nque fan dany.");
+static const u8 sMoveFourLineDescription_MatBlock[] = _("Una estora alçada\nprotegeix l'usuari i\nl'aliat dels atacs\nque fan dany.");
 static const u8 sMoveFourLineDescription_Belch[] = _("L'usuari es menja\nla Baia i llança un\nrot danyós contra\nel rival.");
 static const u8 sMoveFourLineDescription_Rototiller[] = _("L'usuari llaura\nla terra, pujant\nl'Atac i Atac Esp.\ndels tipus Planta.");
-static const u8 sMoveFourLineDescription_StickyWeb[] = _("Una xarxa enganxo-\nsa que baixa la\nVelocitat dels ri-\nvals que entrin.");
+static const u8 sMoveFourLineDescription_StickyWeb[] = _("Una xarxa enganxosa\nque baixa la\nVelocitat dels\nrivals que entrin.");
 static const u8 sMoveFourLineDescription_FellStinger[] = _("Si aquest atac\nnoqueja un rival,\nl'Atac de l'usuari\npuja dràsticament.");
 static const u8 sMoveFourLineDescription_TrickOrTreat[] = _("L'usuari afegeix\nel tipus Fantasma\nal rival portant-lo\na fer truc o tracte.");
 static const u8 sMoveFourLineDescription_NobleRoar[] = _("Un rugit noble que\nintimida el rival i\nbaixa el seu Atac\ni Atac Esp.");
-static const u8 sMoveFourLineDescription_IonDeluge[] = _("L'usuari dispersa\npartícules carrega-\ndes que electrifi-\nquen mov. Normal.");
-static const u8 sMoveFourLineDescription_ParabolicCharge[] = _("L'usuari ataca tot\nal voltant i rest.\nPS per la meitat\ndel dany causat.");
+static const u8 sMoveFourLineDescription_IonDeluge[] = _("Dispersa partícules\ncarregades que fan\nElèctrics els mov.\nde tipus Normal.");
+static const u8 sMoveFourLineDescription_ParabolicCharge[] = _("L'usuari ataca tot\nal voltant i es cura\nla meitat del dany\ncausat.");
 static const u8 sMoveFourLineDescription_ForestsCurse[] = _("L'usuari llança una\nmaledicció forestal\nal rival. Ara també\nés de tipus Planta.");
 static const u8 sMoveFourLineDescription_PetalBlizzard[] = _("Una tempesta de\npètals violenta que\ncolpeja tot el que\nl'envolta.");
 static const u8 sMoveFourLineDescription_FreezeDry[] = _("Molt efectiu contra\nrivals d'Aigua, i\npot deixar-los\ngelats.");
 static const u8 sMoveFourLineDescription_DisarmingVoice[] = _("L'usuari crida amb\nuna veu desarmant\ni maca. No falla\nmai.");
 static const u8 sMoveFourLineDescription_PartingShot[] = _("L'Atac i Atac Esp.\ndel rival baixen\nper una amenaça\nde comiat.");
 static const u8 sMoveFourLineDescription_TopsyTurvy[] = _("Tots els canvis\nd'estad. del rival\nes giren del revés\ni s'inverteixen.");
-static const u8 sMoveFourLineDescription_DrainingKiss[] = _("Un petó que absor-\nbeix la meitat del\ndany infligit per\nrestaurar PS.");
+static const u8 sMoveFourLineDescription_DrainingKiss[] = _("Un petó que\nabsorbeix la meitat\ndel dany causat per\nrestaurar PS.");
 static const u8 sMoveFourLineDescription_CraftyShield[] = _("Un poder misteriós\nprotegeix l'usuari\ni aliats dels mov.\nd'estat.");
-static const u8 sMoveFourLineDescription_FlowerShield[] = _("Un poder misteriós\npuja la Defensa de\ntots els Pokémon\ntipus Planta.");
+static const u8 sMoveFourLineDescription_FlowerShield[] = _("Un poder misteriós\npuja la Defensa de\ntots els Pokémon\nde tipus Planta.");
 static const u8 sMoveFourLineDescription_GrassyTerrain[] = _("Durant 5 torns, el\nterreny és herbós.\nPuja mov. Planta\ni cura PS.");
 static const u8 sMoveFourLineDescription_MistyTerrain[] = _("Afebleix mov. Drac\ndurant 5 torns i\nevita condicions\nd'estat per a tots.");
 static const u8 sMoveFourLineDescription_Electrify[] = _("Electrifica el\nrival, fent que el\nseu proper moviment\nsigui Elèctric.");
-static const u8 sMoveFourLineDescription_PlayRough[] = _("L'usuari i el rival\njuguen dur, amb la\npossibilitat de\nbaixar l'Atac rival.");
+static const u8 sMoveFourLineDescription_PlayRough[] = _("L'usuari i el rival\njuguen fort. Pot\nbaixar l'Atac del\nrival.");
 static const u8 sMoveFourLineDescription_FairyWind[] = _("L'usuari alça un\nvent de fada i\ncolpeja el rival\namb ell.");
 static const u8 sMoveFourLineDescription_Moonblast[] = _("El poder de la\nlluna colpeja el\nrival. Pot baixar\nel seu Atac Esp.");
 static const u8 sMoveFourLineDescription_Boomburst[] = _("Un so explosivament\nfort que colpeja\ntot el que\nl'envolta.");
 static const u8 sMoveFourLineDescription_FairyLock[] = _("Durant 1 torn,\nl'usuari bloqueja\nel camp i impedeix\nfugir.");
-static const u8 sMoveFourLineDescription_KingsShield[] = _("S'adopta una posi-\nció defensiva. El\ncontacte del rival\nbaixa molt l'Atac.");
-static const u8 sMoveFourLineDescription_PlayNice[] = _("Es fa amic del ri-\nval, baixant el seu\nAtac sense fallar.");
+static const u8 sMoveFourLineDescription_KingsShield[] = _("Adopta una postura\ndefensiva. Si el\nrival el toca, li\nbaixa molt l'Atac.");
+static const u8 sMoveFourLineDescription_PlayNice[] = _("Es fa amic del\nrival i li baixa\nl'Atac sense fallar.");
 static const u8 sMoveFourLineDescription_Confide[] = _("L'Atac Esp. del\nrival baixa després\nque l'usuari li\ndigui un secret.");
 static const u8 sMoveFourLineDescription_DiamondStorm[] = _("Una tempesta de\ndiamants colpeja\nels rivals. Pot\npujar la Defensa.");
-static const u8 sMoveFourLineDescription_SteamEruption[] = _("El rival és sub-\nmergit en vapor\nsobreescalfat que\npot cremar-lo.");
+static const u8 sMoveFourLineDescription_SteamEruption[] = _("El rival queda\nsubmergit en vapor\nsobreescalfat que\npot cremar-lo.");
 static const u8 sMoveFourLineDescription_HyperspaceHole[] = _("Usant un forat\nde cuc, l'usuari\ncolpeja ignorant\nmov. com Protecció.");
-static const u8 sMoveFourLineDescription_WaterShuriken[] = _("L'usuari colpeja\namb 2 a 5 estrelles\nllancívoles que\nsempre van primer.");
-static const u8 sMoveFourLineDescription_MysticalFire[] = _("L'usuari alena un\nfoc especial i\ncalent. Pot baixar\nl'Atac Esp. rival.");
-static const u8 sMoveFourLineDescription_SpikyShield[] = _("Un escut punxegut\nprotegeix l'usuari\ni danya els rivals\nque hi contactin.");
-static const u8 sMoveFourLineDescription_AromaticMist[] = _("L'usuari puja la\nDef. Esp. del seu\ncompany amb una\naroma misteriosa.");
+static const u8 sMoveFourLineDescription_WaterShuriken[] = _("L'usuari colpeja el\nrival amb 2 a 5\nestrelles ninja que\nsempre van primer.");
+static const u8 sMoveFourLineDescription_MysticalFire[] = _("L'usuari alena un\nfoc calent especial.\nPot baixar l'Atac\nEsp. del rival.");
+static const u8 sMoveFourLineDescription_SpikyShield[] = _("Un escut punxegut\nprotegeix l'usuari\ni danya els rivals\nque el toquin.");
+static const u8 sMoveFourLineDescription_AromaticMist[] = _("L'usuari puja la\nDef. Esp. del seu\ncompany amb un\naroma misteriós.");
 static const u8 sMoveFourLineDescription_EerieImpulse[] = _("L'Atac Esp. del\nrival baixa molt\nper exposició a un\nimpuls sinistre.");
-static const u8 sMoveFourLineDescription_VenomDrench[] = _("Els rivals enveri-\nnats pateixen Atac,\nAtac Esp. i Vel.\nreduïts.");
+static const u8 sMoveFourLineDescription_VenomDrench[] = _("Els rivals\nenverinats pateixen\nbaixades d'Atac,\nAtac Esp. i Vel.");
 static const u8 sMoveFourLineDescription_Powder[] = _("Si el rival usa un\nmov. de Foc, serà\ndanyat per aquesta\npols.");
-static const u8 sMoveFourLineDescription_Geomancy[] = _("Al 2n torn, l'usu-\nari puja molt Atac\nEsp., Def. Esp. i\nVelocitat.");
-static const u8 sMoveFourLineDescription_MagneticFlux[] = _("L'usuari puja les\ndefenses dels ali-\nats amb l'Habilitat\nPlus o Minus.");
+static const u8 sMoveFourLineDescription_Geomancy[] = _("Al 2n torn,\nl'usuari puja molt\nl'Atac Esp., Def.\nEsp. i Velocitat.");
+static const u8 sMoveFourLineDescription_MagneticFlux[] = _("L'usuari puja les\ndefenses dels aliats\namb l'habilitat Més\no Menys.");
 static const u8 sMoveFourLineDescription_HappyHour[] = _("Aquest mov. duplica\nla quantitat de\ndiners de premi\ndesprés del combat.");
-static const u8 sMoveFourLineDescription_ElectricTerrain[] = _("Durant 5 torns, el\nterreny carregat\npuja mov. Elèctric\ni evita la son.");
+static const u8 sMoveFourLineDescription_ElectricTerrain[] = _("Durant 5 torns, el\nterreny carregat\npuja mov. Elèctric\ni evita el son.");
 static const u8 sMoveFourLineDescription_DazzlingGleam[] = _("L'usuari emet un\nflaix potent que\ncolpeja tots els\nrivals.");
 static const u8 sMoveFourLineDescription_Celebrate[] = _("El Pokémon et\nfelicita pel teu\ndia especial!");
 static const u8 sMoveFourLineDescription_HoldHands[] = _("L'usuari i l'aliat\nes donen les mans.\nAixò els fa molt\nfeliços.");
-static const u8 sMoveFourLineDescription_BabyDollEyes[] = _("Abans que es mogui,\nl'Atac del rival\nbaixa per una mira-\nda adorable.");
-static const u8 sMoveFourLineDescription_Nuzzle[] = _("Les galtes electri-\nficades de l'usuari\nfregen el rival,\nparalitzant-lo.");
+static const u8 sMoveFourLineDescription_BabyDollEyes[] = _("Abans que es mogui,\nl'Atac del rival\nbaixa per una\nmirada adorable.");
+static const u8 sMoveFourLineDescription_Nuzzle[] = _("L'usuari frega el\nrival amb les galtes\nelectrificades i el\nparalitza.");
 #if B_BINDING_TURNS >= GEN_5
-static const u8 sMoveFourLineDescription_Infestation[] = _("El rival és infes-\ntat 4 o 5 torns.\nNo pot fugir durant\naquest temps.");
+static const u8 sMoveFourLineDescription_Infestation[] = _("El rival queda\ninfestat 4 o 5\ntorns. No pot fugir\ndurant aquest temps.");
 #else
-static const u8 sMoveFourLineDescription_Infestation[] = _("El rival és infes-\ntat 2 a 5 torns.\nNo pot fugir durant\naquest temps.");
+static const u8 sMoveFourLineDescription_Infestation[] = _("El rival queda\ninfestat 2 a 5\ntorns. No pot fugir\ndurant aquest temps.");
 #endif
 static const u8 sMoveFourLineDescription_PowerUpPunch[] = _("L'usuari colpeja,\nenfortint els punys.\nAixò puja el seu\nAtac.");
 static const u8 sMoveFourLineDescription_OblivionWing[] = _("L'usuari absorbeix\nmés de la meitat\ndel dany causat al\nrival.");
@@ -4761,85 +4761,85 @@ static const u8 sMoveFourLineDescription_LightOfRuin[] = _("L'usuari dispara\nun
 static const u8 sMoveFourLineDescription_OriginPulse[] = _("Tots els rivals\nsón atacats amb\nraigs de llum d'un\nblau intens.");
 static const u8 sMoveFourLineDescription_PrecipiceBlades[] = _("Tots els rivals\nsón atacats amb\nfulles temibles de\npedra i roca.");
 static const u8 sMoveFourLineDescription_DragonAscent[] = _("L'usuari s'eleva\ni colpeja. Baixa\nla seva Defensa\ni Def. Esp.");
-static const u8 sMoveFourLineDescription_HyperspaceFury[] = _("L'usuari apallissa\nel rival, baixant\nla Defensa i igno-\nrant la protecció.");
-static const u8 sMoveFourLineDescription_ShoreUp[] = _("Cura l'usuari fins\na la meitat de PS.\nRestaura més durant\nuna tempesta sorra.");
+static const u8 sMoveFourLineDescription_HyperspaceFury[] = _("L'usuari apallissa\nel rival, li baixa\nla Defensa i ignora\nla protecció.");
+static const u8 sMoveFourLineDescription_ShoreUp[] = _("Cura l'usuari fins\na la meitat dels PS.\nEn una tempesta de\nsorra, cura més.");
 static const u8 sMoveFourLineDescription_FirstImpression[] = _("Un atac que colpeja\nprimer amb molta\npotència. Només al\nprimer torn.");
 static const u8 sMoveFourLineDescription_BanefulBunker[] = _("Protegeix l'usuari\ni enverina el rival\nque hi faci\ncontacte.");
 static const u8 sMoveFourLineDescription_SpiritShackle[] = _("L'ombra del rival\nés fixada en ser\ncolpejat, impedint\nque escapi.");
-static const u8 sMoveFourLineDescription_DarkestLariat[] = _("L'usuari fa girar\nels braços per col-\npejar, ignorant\ncanvis d'estad.");
+static const u8 sMoveFourLineDescription_DarkestLariat[] = _("L'usuari fa girar\nels braços i colpeja\nignorant els canvis\nd'estad.");
 static const u8 sMoveFourLineDescription_SparklingAria[] = _("Bombolles musicals\ncolpegen l'entorn\nde l'usuari, curant\ncremades.");
-static const u8 sMoveFourLineDescription_FloralHealing[] = _("Cura el rival fins\na la meitat de PS.\nCura més en terreny\nherbós.");
+static const u8 sMoveFourLineDescription_FloralHealing[] = _("Cura l'objectiu fins\na la meitat dels PS.\nCura més en terreny\nherbós.");
 static const u8 sMoveFourLineDescription_HighHorsepower[] = _("L'usuari ataca\nferotgement el\nrival usant tot\nel seu cos.");
-static const u8 sMoveFourLineDescription_StrengthSap[] = _("Restaura PS per\nl'Atac del rival,\ni li baixa\nl'Atac.");
-static const u8 sMoveFourLineDescription_SolarBlade[] = _("Un mov. de 2 torns\nque talla el rival\namb energia absorbi-\nda al 2n torn.");
+static const u8 sMoveFourLineDescription_StrengthSap[] = _("Restaura tants PS\ncom l'Atac del rival\ni li baixa l'Atac.");
+static const u8 sMoveFourLineDescription_SolarBlade[] = _("Mov. de 2 torns que\ntalla el rival amb\nenergia absorbida\nal 2n torn.");
 static const u8 sMoveFourLineDescription_Leafage[] = _("L'usuari ataca\nllançant fulles\nal rival.");
 static const u8 sMoveFourLineDescription_Spotlight[] = _("Durant 1 torn, un\nfocus il·lumina el\nrival perquè només\nell sigui atacat.");
 static const u8 sMoveFourLineDescription_ToxicThread[] = _("Fils enverinats es\ndisparen al rival,\nenverinant-lo i\nbaixant Velocitat.");
-static const u8 sMoveFourLineDescription_LaserFocus[] = _("L'usuari es concen-\ntra intensament,\nassegurant que el\nproper mov. és crít.");
-static const u8 sMoveFourLineDescription_GearUp[] = _("Els aliats amb\nl'Habilitat Plus o\nMinus tenen les\nestad. d'atac puja.");
-static const u8 sMoveFourLineDescription_ThroatChop[] = _("Durant 2 torns des-\nprés de ser colpe-\njat, el rival no\npot usar mov. de so.");
+static const u8 sMoveFourLineDescription_LaserFocus[] = _("L'usuari es\nconcentra perquè el\nproper moviment\nsigui un cop crític.");
+static const u8 sMoveFourLineDescription_GearUp[] = _("Puja les estad.\nd'atac dels aliats\namb l'habilitat Més\no Menys.");
+static const u8 sMoveFourLineDescription_ThroatChop[] = _("Durant 2 torns,\nel rival colpejat\nno pot usar\nmoviments de so.");
 static const u8 sMoveFourLineDescription_PollenPuff[] = _("Una bola de pol·len\nque explota per\ndanyar rivals, però\ncura aliats.");
 static const u8 sMoveFourLineDescription_AnchorShot[] = _("La cadena d'àncora\nde l'usuari colpeja\ni entortolliga el\nrival. No pot fugir.");
-static const u8 sMoveFourLineDescription_PsychicTerrain[] = _("Durant 5 torns, mov\nràpids fallen i els\nmov. Psíquic fan\nmés dany.");
+static const u8 sMoveFourLineDescription_PsychicTerrain[] = _("Durant 5 torns, els\nmov. prioritaris\nfallen i els Psíquic\nfan més dany.");
 static const u8 sMoveFourLineDescription_Lunge[] = _("L'usuari es llança\nal rival amb tota\nla força, baixant\nl'Atac del rival.");
 static const u8 sMoveFourLineDescription_FireLash[] = _("El rival rep un\nfuet ardent que\nbaixa la seva\nDefensa.");
-static const u8 sMoveFourLineDescription_PowerTrip[] = _("Com més pujades\nestíguin les estad.\nde l'usuari, més\npotència té l'atac.");
-static const u8 sMoveFourLineDescription_BurnUp[] = _("Per colpejar a fons\nl'usuari es crema\ni perd el tipus\nFoc.");
-static const u8 sMoveFourLineDescription_SpeedSwap[] = _("L'usuari intercan-\nvia la Velocitat\namb el rival.");
+static const u8 sMoveFourLineDescription_PowerTrip[] = _("Com més pujades\nd'estad. tingui\nl'usuari, més\npotència té l'atac.");
+static const u8 sMoveFourLineDescription_BurnUp[] = _("Per colpejar a fons,\nl'usuari es crema\ni perd el tipus\nFoc.");
+static const u8 sMoveFourLineDescription_SpeedSwap[] = _("L'usuari\nintercanvia la\nVelocitat amb el\nrival.");
 static const u8 sMoveFourLineDescription_SmartStrike[] = _("L'usuari apunyala\nel rival amb una\nbanya afilada. No\nfalla mai.");
 static const u8 sMoveFourLineDescription_Purify[] = _("L'usuari intenta\ncurar l'estat del\nrival per restaurar\nels seus propis PS.");
-static const u8 sMoveFourLineDescription_RevelationDance[] = _("L'usuari ataca\nballant. El tipus\nde l'usuari deter-\nmina el del mov.");
-static const u8 sMoveFourLineDescription_CoreEnforcer[] = _("Aquest atac també\nanul·la l'Habilitat\ndel rival si ja\ns'ha mogut.");
+static const u8 sMoveFourLineDescription_RevelationDance[] = _("L'usuari ataca\nballant. El tipus de\nl'usuari determina\nel del moviment.");
+static const u8 sMoveFourLineDescription_CoreEnforcer[] = _("Aquest atac també\nanul·la l'habilitat\ndel rival si ja\ns'ha mogut.");
 static const u8 sMoveFourLineDescription_TropKick[] = _("El rival rep una\npotada tropical\nintensa. Baixa el\nseu Atac.");
 static const u8 sMoveFourLineDescription_Instruct[] = _("L'usuari instrueix\nel rival a usar el\nseu últim moviment\naltra vegada.");
-static const u8 sMoveFourLineDescription_BeakBlast[] = _("L'usuari escalfa\nel bec, i llavors\ncolpeja. El contac-\nte crema el rival.");
-static const u8 sMoveFourLineDescription_ClangingScales[] = _("L'usuari ataca fre-\ngant les escates\ndel cos. Baixa la\nseva Defensa.");
-static const u8 sMoveFourLineDescription_DragonHammer[] = _("Usant el cos com\nun martell, l'usu-\nari ataca el rival.");
+static const u8 sMoveFourLineDescription_BeakBlast[] = _("L'usuari escalfa el\nbec i després\ncolpeja. El contacte\ncrema el rival.");
+static const u8 sMoveFourLineDescription_ClangingScales[] = _("L'usuari ataca\nfregant les escates\ndel cos. Baixa la\nseva Defensa.");
+static const u8 sMoveFourLineDescription_DragonHammer[] = _("Usant el cos com un\nmartell, l'usuari\nataca el rival.");
 static const u8 sMoveFourLineDescription_BrutalSwing[] = _("L'usuari fa girar\nel cos violentament\ndanyant tothom\na prop.");
-static const u8 sMoveFourLineDescription_AuroraVeil[] = _("Durant 5 torns, el\ndany d'atacs és\nreduït. Falla sense\nCalamarsa.");
+static const u8 sMoveFourLineDescription_AuroraVeil[] = _("Durant 5 torns, el\ndany d'atacs és\nreduït. Falla sense\ncalamarsa.");
 static const u8 sMoveFourLineDescription_ShellTrap[] = _("L'usuari posa un\nparany de closca\nque s'activa amb\natacs físics.");
 static const u8 sMoveFourLineDescription_FleurCannon[] = _("Un raig potent que\nbaixa molt l'Atac\nEsp. de l'usuari.");
-static const u8 sMoveFourLineDescription_PsychicFangs[] = _("Una mossegada que\ntambé trenca qualsevol\nbarrera com Pantalla\nde Llum i Reflex.");
+static const u8 sMoveFourLineDescription_PsychicFangs[] = _("Una mossegada que\ntrenca barreres com\nPantalla Llum i\nReflectir.");
 static const u8 sMoveFourLineDescription_StompingTantrum[] = _("Un cop frustrat que\nfa el doble de dany\nsi l'últim moviment\nva fallar.");
-static const u8 sMoveFourLineDescription_ShadowBone[] = _("El rival rep un os\nque porta un espe-\nrit i que pot baixar\nla seva Defensa.");
-static const u8 sMoveFourLineDescription_Accelerock[] = _("L'usuari xoca con-\ntra el rival a alta\nvelocitat. Sempre\nva primer.");
-static const u8 sMoveFourLineDescription_Liquidation[] = _("Una explosió d'ai-\ngua a fons que pot\nbaixar la Defensa\ndel rival.");
+static const u8 sMoveFourLineDescription_ShadowBone[] = _("El rival rep un os\nposseït per un\nesperit. Pot baixar\nla seva Defensa.");
+static const u8 sMoveFourLineDescription_Accelerock[] = _("L'usuari xoca\ncontra el rival a\ngran velocitat.\nSempre va primer.");
+static const u8 sMoveFourLineDescription_Liquidation[] = _("Un raig d'aigua a\ntota força que pot\nbaixar la Defensa\ndel rival.");
 static const u8 sMoveFourLineDescription_PrismaticLaser[] = _("Raigs làser molt\ndanyosos que fan\ndescansar l'usuari\nal torn següent.");
 static const u8 sMoveFourLineDescription_SpectralThief[] = _("Amagat a l'ombra\ndel rival, l'usuari\nroba els canvis\nd'estad. i ataca.");
-static const u8 sMoveFourLineDescription_SunsteelStrike[] = _("L'usuari xoca con-\ntra el rival com un\nmeteor. Ignora les\nHabilitats.");
-static const u8 sMoveFourLineDescription_MoongeistBeam[] = _("Un raig sinistre\nataca el rival.\nAquest mov. ignora\nles Habilitats.");
-static const u8 sMoveFourLineDescription_TearfulLook[] = _("Les estad. d'atac\ndel rival baixen\nper la mirada plo-\nrosa de l'usuari.");
-static const u8 sMoveFourLineDescription_ZingZap[] = _("Una forta descàr-\nrega elèctrica cau\nsobre el rival. Pot\nfer-lo encongir.");
-static const u8 sMoveFourLineDescription_NaturesMadness[] = _("L'usuari colpeja\nel rival amb la\nforça de la natura,\nreduint PS a meitat.");
-static const u8 sMoveFourLineDescription_MultiAttack[] = _("Un cop d'alta ener-\ngia. La memòria\nequipada determina\nel tipus del mov.");
+static const u8 sMoveFourLineDescription_SunsteelStrike[] = _("L'usuari xoca\ncontra el rival com\nun meteor. Ignora\nles habilitats.");
+static const u8 sMoveFourLineDescription_MoongeistBeam[] = _("Un raig sinistre\nataca el rival.\nAquest mov. ignora\nles habilitats.");
+static const u8 sMoveFourLineDescription_TearfulLook[] = _("La mirada plorosa\nde l'usuari baixa\nles estad. d'atac\ndel rival.");
+static const u8 sMoveFourLineDescription_ZingZap[] = _("Una gran descàrrega\nelèctrica cau sobre\nel rival. Pot fer-lo\nretrocedir.");
+static const u8 sMoveFourLineDescription_NaturesMadness[] = _("Amb la força de la\nnatura, l'usuari\nredueix a la meitat\nels PS del rival.");
+static const u8 sMoveFourLineDescription_MultiAttack[] = _("Un cop molt\nenèrgic. La Memòria\nequipada determina\nel tipus del mov.");
 static const u8 sMoveFourLineDescription_MindBlown[] = _("L'usuari ataca tot\nel que l'envolta,\nfent explotar el\nseu propi cap.");
 static const u8 sMoveFourLineDescription_PlasmaFists[] = _("Un cop brutal que\nelectrifica mov. de\ntipus Normal usats\nen el mateix torn.");
 static const u8 sMoveFourLineDescription_PhotonGeyser[] = _("Un pilar de llum\nque ataca usant\nla més alta estad.\nd'atac de l'usuari.");
-static const u8 sMoveFourLineDescription_ZippyZap[] = _("Ràfegues elèctri-\nques a alta velocit.\nSempre van primer\ni fan cop crític.");
-static const u8 sMoveFourLineDescription_SplishySplash[] = _("L'usuari crea una\ngran ona electrifi-\ncada que pot para-\nlitzar el rival.");
-static const u8 sMoveFourLineDescription_FloatyFall[] = _("Flota a l'aire i\nes llança en picat.\nPot fer encongir\nel rival.");
-static const u8 sMoveFourLineDescription_PikaPapow[] = _("L'amor de Pikachu\nper l'entrenador\npuja la potència.\nNo falla mai.");
+static const u8 sMoveFourLineDescription_ZippyZap[] = _("Descàrregues molt\nràpides que sempre\nvan primer i fan\ncop crític.");
+static const u8 sMoveFourLineDescription_SplishySplash[] = _("L'usuari crea una\ngran ona elèctrica\nque pot paralitzar\nel rival.");
+static const u8 sMoveFourLineDescription_FloatyFall[] = _("Flota a l'aire i\nes llança en picat.\nPot fer retrocedir\nel rival.");
+static const u8 sMoveFourLineDescription_PikaPapow[] = _("L'amor de Pikachu\nper l'Entrenador\npuja la potència.\nNo falla mai.");
 #if B_UPDATED_MOVE_DATA >= GEN_8
-static const u8 sMoveFourLineDescription_BouncyBubble[] = _("Un atac que absor-\nbeix tot el dany\ninfligit per\nrestaurar PS.");
+static const u8 sMoveFourLineDescription_BouncyBubble[] = _("Un atac que\nabsorbeix tot el\ndany infligit per\nrestaurar PS.");
 #else
-static const u8 sMoveFourLineDescription_BouncyBubble[] = _("Un atac que absor-\nbeix la meitat del\ndany infligit per\nrestaurar PS.");
+static const u8 sMoveFourLineDescription_BouncyBubble[] = _("Un atac que\nabsorbeix la meitat\ndel dany infligit\nper restaurar PS.");
 #endif
 static const u8 sMoveFourLineDescription_BuzzyBuzz[] = _("L'usuari dispara\nuna descàrrega que\nsempre paralitza\nel rival.");
 static const u8 sMoveFourLineDescription_SizzlySlide[] = _("L'usuari es cobreix\nde foc i carrega\ncontra el rival,\ndeixant cremada.");
-static const u8 sMoveFourLineDescription_GlitzyGlow[] = _("Una força telequi-\nnètica ataca, po-\nsant un mur que\npuja la Def. Esp.");
+static const u8 sMoveFourLineDescription_GlitzyGlow[] = _("Una força\ntelecinètica ataca i\ncrea un mur que puja\nla Def. Esp.");
 static const u8 sMoveFourLineDescription_BaddyBad[] = _("L'usuari es porta\nmalament i ataca,\nposant un mur que\npuja la Defensa.");
-static const u8 sMoveFourLineDescription_SappySeed[] = _("Creix una tija ge-\ngant, escampant lla-\nvors que drenen PS\ndel rival cada torn.");
+static const u8 sMoveFourLineDescription_SappySeed[] = _("Fa créixer una tija\ngegant que escampa\nllavors que drenen\nPS cada torn.");
 static const u8 sMoveFourLineDescription_FreezyFrost[] = _("Ataca amb cristall\nde boira gelada.\nElimina tots els\ncanvis d'estad.");
-static const u8 sMoveFourLineDescription_SparklySwirl[] = _("Envolta el rival\namb un remolí d'olor\nCura tots els estat\nde l'equip usuari.");
-static const u8 sMoveFourLineDescription_VeeveeVolley[] = _("L'amor d'Eevee per\nl'entrenador puja\nla potència. No\nfalla mai.");
-static const u8 sMoveFourLineDescription_DoubleIronBash[] = _("Girant ràpidament,\nl'usuari colpeja\ndues vegades. Pot\nfer encongir.");
+static const u8 sMoveFourLineDescription_SparklySwirl[] = _("Envolta el rival en\nun remolí d'aroma i\ncura l'estat de\nl'equip.");
+static const u8 sMoveFourLineDescription_VeeveeVolley[] = _("L'amor d'Eevee per\nl'Entrenador puja\nla potència. No\nfalla mai.");
+static const u8 sMoveFourLineDescription_DoubleIronBash[] = _("Girant ràpidament,\nl'usuari colpeja\ndues vegades. Pot\nfer retrocedir.");
 
 // GEN 8
 static const u8 sMoveFourLineDescription_DynamaxCannon[] = _("L'usuari allibera\nun raig potent que\nfa el doble de dany\na rivals Dynamax.");
-static const u8 sMoveFourLineDescription_SnipeShot[] = _("L'usuari ignora\nefectes que atrauen\nmov. Els cops crít.\nsón més fàcils.");
-static const u8 sMoveFourLineDescription_JawLock[] = _("Una mossegada bru-\ntal que impedeix\nl'usuari i el rival\nde canviar.");
+static const u8 sMoveFourLineDescription_SnipeShot[] = _("L'usuari ignora els\nefectes que atrauen\nmov. Alta taxa de\ncop crític.");
+static const u8 sMoveFourLineDescription_JawLock[] = _("Una mossegada\nbrutal que impedeix\nque l'usuari i el\nrival canviïn.");
 static const u8 sMoveFourLineDescription_StuffCheeks[] = _("L'usuari es menja\nla Baia equipada,\ni llavors puja molt\nla seva Defensa.");
-static const u8 sMoveFourLineDescription_NoRetreat[] = _("Puja totes les es-\ntad. de l'usuari.\nPerò no pot canviar\nni fugir.");
+static const u8 sMoveFourLineDescription_NoRetreat[] = _("Puja totes les\nestad. de l'usuari,\nperò no pot canviar\nni fugir.");
 static const u8 sMoveFourLineDescription_TarShot[] = _("Quitrà enganxós\nbaixa la Vel. del\nrival i el fa feble\na mov. de Foc.");
 static const u8 sMoveFourLineDescription_MagicPowder[] = _("Un núvol de pols\nmàgica que canvia\nel rival a tipus\nPsíquic.");
 static const u8 sMoveFourLineDescription_DragonDarts[] = _("L'usuari ataca dues\nvegades. Si hi ha\ndos rivals, n'ataca\nun cop cadascun.");
@@ -4848,10 +4848,10 @@ static const u8 sMoveFourLineDescription_Octolock[] = _("Impedeix escapar i\nbai
 static const u8 sMoveFourLineDescription_BoltBeak[] = _("Si l'usuari ataca\nabans del rival,\nla potència del\nmov. es duplica.");
 static const u8 sMoveFourLineDescription_CourtChange[] = _("Un poder misteriós\nque intercanvia els\nefectes de cada\ncostat del camp.");
 static const u8 sMoveFourLineDescription_ClangorousSoul[] = _("L'usuari puja totes\nles estad. usant\npart dels seus PS.");
-static const u8 sMoveFourLineDescription_BodyPress[] = _("Un cop de cos que\nfa més dany com\nmés alta sigui la\nDefensa de l'usua.");
-static const u8 sMoveFourLineDescription_Decorate[] = _("L'usuari puja molt\nl'Atac i Atac Esp.\ndel rival decorant.");
-static const u8 sMoveFourLineDescription_DrumBeating[] = _("L'usuari ataca el\nrival amb el seu\ntambor, baixant la\nVelocitat rival.");
-static const u8 sMoveFourLineDescription_SnapTrap[] = _("L'usuari atrapa el\nrival en un parany\nràpid durant quatre\na cinc torns.");
+static const u8 sMoveFourLineDescription_BodyPress[] = _("Un cop de cos que\nfa més dany com més\nalta és la Defensa\nde l'usuari.");
+static const u8 sMoveFourLineDescription_Decorate[] = _("L'usuari decora\nl'objectiu i li puja\nmolt l'Atac i l'Atac\nEsp.");
+static const u8 sMoveFourLineDescription_DrumBeating[] = _("L'usuari ataca el\nrival amb el tambor\ni li baixa la\nVelocitat.");
+static const u8 sMoveFourLineDescription_SnapTrap[] = _("L'usuari atrapa el\nrival en un parany\nràpid durant quatre\no cinc torns.");
 static const u8 sMoveFourLineDescription_PyroBall[] = _("L'usuari llança una\nbola de foc al\nrival. Pot deixar\nel rival cremat.");
 static const u8 sMoveFourLineDescription_BehemothBlade[] = _("L'usuari colpeja\ncom una espasa, fent\nel doble de dany a\nrivals Dynamax.");
 static const u8 sMoveFourLineDescription_BehemothBash[] = _("L'usuari colpeja\ncom un escut, fent\nel doble de dany a\nrivals Dynamax.");
@@ -4859,35 +4859,35 @@ static const u8 sMoveFourLineDescription_AuraWheel[] = _("L'usuari ataca per\npu
 static const u8 sMoveFourLineDescription_BreakingSwipe[] = _("L'usuari colpeja\nambdós rivals amb\nla cua, baixant\nel seu Atac.");
 static const u8 sMoveFourLineDescription_BranchPoke[] = _("L'usuari ataca el\nrival punxant-lo\namb una branca ben\nafilada.");
 static const u8 sMoveFourLineDescription_Overdrive[] = _("L'usuari toca la\nguitarra per atacar\nambdós rivals amb\nun gran eco.");
-static const u8 sMoveFourLineDescription_AppleAcid[] = _("Un atac de líquid\nàcid creat de pomes\nàcides. Baixa la\nDef. Esp. rival.");
-static const u8 sMoveFourLineDescription_GravApple[] = _("L'usuari deixa\ncaure una poma des\nde dalt, baixant\nla Defensa rival.");
+static const u8 sMoveFourLineDescription_AppleAcid[] = _("Un atac de líquid\nàcid fet de pomes\nàcides. Baixa la\nDef. Esp. del rival.");
+static const u8 sMoveFourLineDescription_GravApple[] = _("L'usuari deixa\ncaure una poma des\nde dalt i baixa la\nDefensa del rival.");
 static const u8 sMoveFourLineDescription_SpiritBreak[] = _("Un atac contundent\nque trenca l'ànim\ni baixa l'Atac Esp.\ndel rival.");
 static const u8 sMoveFourLineDescription_StrangeSteam[] = _("L'usuari ataca\nemetent vapor.\nPot confondre\nel rival.");
 static const u8 sMoveFourLineDescription_LifeDew[] = _("L'usuari restaura\nels PS propis i\ndels aliats amb\naigua misteriosa.");
-static const u8 sMoveFourLineDescription_Obstruct[] = _("Protegeix l'usuari\ni baixa molt la\nDefensa dels rivals\nque hi contactin.");
+static const u8 sMoveFourLineDescription_Obstruct[] = _("Protegeix l'usuari\ni baixa molt la\nDefensa dels rivals\nque el toquin.");
 static const u8 sMoveFourLineDescription_FalseSurrender[] = _("L'usuari fingeix\nuna reverència i\napunyala el rival.\nNo falla mai.");
 static const u8 sMoveFourLineDescription_MeteorAssault[] = _("Ataca salvatgement\namb un porro gruixut.\nAl torn següent ha\nde descansar.");
 static const u8 sMoveFourLineDescription_Eternabeam[] = _("El mov. més potent\nd'Eternatus. Al\ntorn següent ha de\ndescansar.");
 static const u8 sMoveFourLineDescription_SteelBeam[] = _("Dispara un raig\nd'acer del cos de\nl'usuari. També\ndanya l'usuari.");
 
-static const u8 sMoveFourLineDescription_ExpandingForce[] = _("La potència puja i\ndanya tots rivals\nen Terreny Psíquic.");
+static const u8 sMoveFourLineDescription_ExpandingForce[] = _("La potència puja i\ndanya tots els\nrivals en Terreny\nPsíquic.");
 static const u8 sMoveFourLineDescription_SteelRoller[] = _("Destrueix el terreny\nactual. Falla si no\nhi ha cap terreny.");
 static const u8 sMoveFourLineDescription_ScaleShot[] = _("Dispara escates de\n2 a 5 cops seguits.\nPuja Vel., però\nbaixa Defensa.");
-static const u8 sMoveFourLineDescription_MeteorBeam[] = _("Un mov. de 2 torns\nque recull energia\nespacial, pujant\nAtac Esp. i atacant.");
-static const u8 sMoveFourLineDescription_ShellSideArm[] = _("Dany físic o espe-\ncial, el que sigui\nmés efectiu. Pot\nenverinar el rival.");
-static const u8 sMoveFourLineDescription_MistyExplosion[] = _("Ataca tot i desmaia\nl'usuari. Més po-\ntència en Terreny\nBromós.");
+static const u8 sMoveFourLineDescription_MeteorBeam[] = _("Mov. de 2 torns que\nrecull energia\nespacial, puja l'Atac\nEsp. i després ataca.");
+static const u8 sMoveFourLineDescription_ShellSideArm[] = _("Fa dany físic o\nespecial, el que\nsigui més efectiu.\nPot enverinar.");
+static const u8 sMoveFourLineDescription_MistyExplosion[] = _("Ataca tot i l'usuari\nes desmaia. Més fort\nen Terreny Boirós.");
 static const u8 sMoveFourLineDescription_GrassyGlide[] = _("Llisca pel terra i\nataca. Sempre va\nprimer en Terreny\nHerbós.");
-static const u8 sMoveFourLineDescription_RisingVoltage[] = _("Un voltatge elèc-\ntric del terra. La\npotència es duplica\nen Terreny Elèctric.");
-static const u8 sMoveFourLineDescription_TerrainPulse[] = _("El tipus i potència\nd'aquest mov. can-\nvien segons el\nterreny actiu.");
-static const u8 sMoveFourLineDescription_SkitterSmack[] = _("L'usuari corre dar-\nrere el rival per\natacar. Baixa\nl'Atac Esp. rival.");
+static const u8 sMoveFourLineDescription_RisingVoltage[] = _("Un voltatge elèctric\nsurt del terra. La\npotència es duplica\nen Terreny Elèctric.");
+static const u8 sMoveFourLineDescription_TerrainPulse[] = _("El tipus i la\npotència d'aquest\nmov. canvien segons\nel terreny actiu.");
+static const u8 sMoveFourLineDescription_SkitterSmack[] = _("L'usuari s'esmuny\nrere el rival per\natacar. Baixa l'Atac\nEsp. del rival.");
 static const u8 sMoveFourLineDescription_BurningJealousy[] = _("Ataca amb gelosia.\nEls rivals que han\npujat estad. en el\ntorn es cremen.");
 static const u8 sMoveFourLineDescription_LashOut[] = _("Si les estad. de\nl'usuari han baixat\nen aquest torn, la\npotència es duplica.");
-static const u8 sMoveFourLineDescription_Poltergeist[] = _("Controla l'objecte\ndel rival per ata-\ncar. Falla si no\nté objecte.");
+static const u8 sMoveFourLineDescription_Poltergeist[] = _("Controla l'objecte\ndel rival per atacar.\nFalla si no\nté objecte.");
 static const u8 sMoveFourLineDescription_CorrosiveGas[] = _("Gas molt àcid que\nfon els objectes\nde tot {PKMN}\ndel voltant.");
 static const u8 sMoveFourLineDescription_Coaching[] = _("L'usuari entrena\nel {PKMN} aliat,\npujant-li l'Atac\ni la Defensa.");
 static const u8 sMoveFourLineDescription_DualWingbeat[] = _("L'usuari colpeja\nel rival amb ales.\nEl rival rep dos\ncops seguits.");
-static const u8 sMoveFourLineDescription_ScorchingSands[] = _("Llança sorra cre-\nmant al rival. Pot\ndeixar-lo amb una\ncremada.");
-static const u8 sMoveFourLineDescription_JungleHealing[] = _("Es fon amb la sel-\nva, curant PS i\nestat de si mateix\ni els aliats.");
+static const u8 sMoveFourLineDescription_ScorchingSands[] = _("Llança sorra ardent\nal rival. Pot\ndeixar-lo amb una\ncremada.");
+static const u8 sMoveFourLineDescription_JungleHealing[] = _("Es fon amb la\njungla i cura els\nPS i l'estat propis\ni dels aliats.");
 static const u8 sMoveFourLineDescription_WickedBlow[] = _("Havent dominat\nl'estil Fosc, fa\nun cop crític amb\nun cop ferotge.");
 static const u8 sMoveFourLineDescription_SurgingStrikes[] = _("Havent dominat\nl'estil Aigua, fa\n3 cops crítics amb\nun moviment fluid.");
 #if B_BINDING_TURNS >= GEN_5
@@ -4895,9 +4895,9 @@ static const u8 sMoveFourLineDescription_ThunderCage[] = _("L'usuari atrapa el\n
 #else
 static const u8 sMoveFourLineDescription_ThunderCage[] = _("L'usuari atrapa el\nrival en una gàbia\nd'electricitat per\ndos a cinc torns.");
 #endif
-static const u8 sMoveFourLineDescription_DragonEnergy[] = _("Com més PS tingui\nl'usuari, més po-\ntent es torna\naquest atac.");
+static const u8 sMoveFourLineDescription_DragonEnergy[] = _("Com més PS tingui\nl'usuari, més\npotent es torna\naquest atac.");
 static const u8 sMoveFourLineDescription_FreezingGlare[] = _("L'usuari dispara\npoder psíquic dels\nulls per atacar.\nPot gelar el rival.");
-static const u8 sMoveFourLineDescription_FieryWrath[] = _("Usa la seva ira per\nalimentar un atac\nd'aura de foc. Pot\nfer encongir.");
+static const u8 sMoveFourLineDescription_FieryWrath[] = _("Usa la seva ira per\nalimentar un atac\nd'aura de foc. Pot\nfer retrocedir.");
 static const u8 sMoveFourLineDescription_ThunderousKick[] = _("Es mou com un llamp\nabans de donar una\npotada. Baixa la\nDefensa del rival.");
 static const u8 sMoveFourLineDescription_GlacialLance[] = _("Colpeja llançant\nuna llança de gel\ncoberta de torb als\nrivals.");
 static const u8 sMoveFourLineDescription_AstralBarrage[] = _("Colpeja enviant\nuna quantitat\naterridora de petits\nfantasmes als rivals.");

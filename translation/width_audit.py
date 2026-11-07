@@ -19,6 +19,13 @@ def load_charmap():
         m = re.match(r"^'(.)'\s*=\s*([0-9A-Fa-f]{2})\s*$", line)
         if m:
             cm[m.group(1)] = int(m.group(2), 16); continue
+        # Escaped entries. Only \' is a printable glyph (\n \l \p are handled in
+        # encode()). Missing it made every apostrophe measure 0 px instead of 3.
+        m = re.match(r"^'\\(.)'\s*=\s*([0-9A-Fa-f]{2})\s*$", line)
+        if m:
+            if m.group(1) == "'":
+                cm["'"] = int(m.group(2), 16)
+            continue
         m = re.match(r'^(\S+)\s*=\s*((?:[0-9A-Fa-f]{2}\s*)+)$', line)
         if m and not m.group(1).startswith("'"):
             cm[m.group(1)] = [int(b, 16) for b in m.group(2).split()]
