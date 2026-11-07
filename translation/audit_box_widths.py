@@ -15,7 +15,7 @@ Usage:
     python3 translation/audit_box_widths.py -v         # list every overflowing string
     python3 translation/audit_box_widths.py dump FILE  # write JSON for scripted fixing
 """
-import sys, os, re, json
+import sys, os, re, json, bisect, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from width_audit import blocks, orig, line_widths, W_NORMAL, W_NARROW, ROOT
 
@@ -53,17 +53,41 @@ def named_blocks(text, name_re):
     return out
 
 
+# `name[...] =` or `[DESIGNATOR] =` before a string literal
+SYM_RE = re.compile(r'(?:\b([A-Za-z_]\w*)\s*(?:\[[^\]]*\]\s*)*|\[\s*([A-Za-z_]\w*)[^\]]*\]\s*)=(?!=)')
+LIT_RE = re.compile(r'_\(\s*((?:"(?:[^"\\]|\\.)*"\s*)+)\)')
+
+
+def keyed_blocks(text):
+    """Every `_("...")` string keyed by (nearest preceding symbol, n-th under it).
+
+    Pairing by position broke as soon as a string was added or removed: every
+    later string was compared with the wrong English one. Keying by symbol keeps
+    the pairs right; a string with no English counterpart is compared with ''.
+    """
+    syms = [(m.start(), m.group(1) or m.group(2)) for m in SYM_RE.finditer(text)]
+    starts = [p for p, _ in syms]
+    out, seen = {}, collections.Counter()
+    for m in LIT_RE.finditer(text):
+        i = bisect.bisect_right(starts, m.start()) - 1
+        sym = syms[i][1] if i >= 0 else None
+        out[(sym, seen[sym])] = ''.join(re.findall(r'"((?:[^"\\]|\\.)*)"', m.group(1)))
+        seen[sym] += 1
+    return out
+
+
 def audit(report=True):
     out = {}
     for path, limit, widths, asm, label, relative in CFG:
-        new = blocks(open(f'{ROOT}/{path}', encoding='utf-8', errors='replace').read(), asm)
-        old = blocks(orig(path), asm)
+        new = keyed_blocks(open(f'{ROOT}/{path}', encoding='utf-8', errors='replace').read())
+        old = keyed_blocks(orig(path))
         over = []
-        for a, b in zip(old, new):
+        for key, b in new.items():
+            a = old.get(key)
             if a == b:
                 continue
             w = max(line_widths(b, widths))
-            if w > limit and (not relative or w > max(line_widths(a, widths))):
+            if w > limit and (not relative or w > (max(line_widths(a, widths)) if a else 0)):
                 over.append((w, b))
         over.sort(reverse=True)
         out[f'{path} [{label}]'] = (limit, label, over)
