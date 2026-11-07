@@ -7,17 +7,17 @@ gText_LinkStandby4::
 	.string "En espera d'enllaç!$"
 
 gText_WinnerIsPlayersMonCongrats::
-	.string "El guanyador és {STR_VAR_2} de {STR_VAR_1}!\n"
+	.string "Ha guanyat {STR_VAR_2} de {STR_VAR_1}!\n"
 	.string "Enhorabona!$"
 
 gText_WinnerIsPlayersMon::
-	.string "El guanyador és {STR_VAR_2} de {STR_VAR_1}!{PAUSE_UNTIL_PRESS}$"
+	.string "Ha guanyat {STR_VAR_2} de {STR_VAR_1}!{PAUSE_UNTIL_PRESS}$"
 
 gText_PrimaryJudgingNumX::
-	.string "Judici primari: Núm. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
+	.string "Valoració primària: Núm. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gText_SecondaryJudgingNumX::
-	.string "Judici secundari: Núm. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
+	.string "Valoració secundària: Núm. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gText_SetEventNumX::
 	.string "Esdeveniment fix: Núm. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
@@ -34,5 +34,5 @@ gText_SetEventNumX2::
 	.string "Esdeveniment fix: Núm. {STR_VAR_1}{PAUSE_UNTIL_PRESS}$"
 
 gText_LinkTVProgramWillNotBeMadeTrainerLost::
-	.string "No es farà un programa de TV per\n"
-	.string "l'Entrenador que ha perdut.{PAUSE_UNTIL_PRESS}$"
+	.string "No es farà cap programa de TV\n"
+	.string "perquè l'Entrenador ha perdut.{PAUSE_UNTIL_PRESS}$"

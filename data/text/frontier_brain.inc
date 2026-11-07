@@ -14,14 +14,15 @@ gText_AnabelDefeatGold::
 @ Battle Dome
 gText_TuckerWonSilver::
 	.string "Ahahaha! No t'avergonyeixes?\n"
-	.string "Tothom ho mira!$"
+	.string "Tothom t'està mirant!$"
 
 gText_TuckerDefeatSilver::
 	.string "Grr…\n"
-	.string "Però, com…$"
+	.string "Però què…$"
 
 gText_TuckerWonGold::
-	.string "El meu títol d'As del Domo no és per a res!$"
+	.string "El meu títol d'As del Domo no és\n"
+	.string "de broma!$"
 
 gText_TuckerDefeatGold::
 	.string "Ahahaha!\n"
@@ -54,7 +55,7 @@ gText_LucyWonGold::
 	.string "Ha!$"
 
 gText_LucyDefeatGold::
-	.string "Maleïda!$"
+	.string "Maleït sigui!$"
 
 @ Battle Arena
 gText_GretaWonSilver::
@@ -67,11 +68,11 @@ gText_GretaDefeatSilver::
 
 gText_GretaWonGold::
 	.string "Heheh!\n"
-	.string "Que esperaves?$"
+	.string "Què esperaves?$"
 
 gText_GretaDefeatGold::
 	.string "Com?\n"
-	.string "Va en serio?!$"
+	.string "Va de debò?!$"
 
 @ Battle Palace
 gText_SpenserWonSilver::
@@ -92,7 +93,7 @@ gText_SpenserDefeatGold::
 
 @ Battle Pyramid
 gText_BrandonWonSilver::
-	.string "Ei! Però, que et passa!\n"
+	.string "Ei! Però què et passa?!\n"
 	.string "Fes un esforç! Aixeca't!$"
 
 gText_BrandonDefeatSilver::

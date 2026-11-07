@@ -25,13 +25,13 @@ Route102_Text_CalvinRegister:
 
 	.string "Vull tornar a combatre amb tu.\n"
 
-	.string "Em registres al teu Pokénav?$"
+	.string "Em registres al teu PokéGear?$"
 
 
 Route102_Text_CalvinRegisterShort:
 	.string "Vull tornar a combatre amb tu.\n"
 
-	.string "Em registres al teu Pokénav?$"
+	.string "Em registres al teu PokéGear?$"
 
 
 Route102_Text_CalvinRematchIntro:
@@ -97,7 +97,7 @@ Route102_Text_TianaIntro:
 
 
 Route102_Text_TianaDefeated:
-	.string "He acabat fent progressar a tu…$"
+	.string "Al final qui ha progressat ets tu…$"
 
 
 Route102_Text_TianaPostBattle:
@@ -113,7 +113,7 @@ Route103_Text_DaisyIntro:
 
 
 Route103_Text_DaisyDefeated:
-	.string "No t'has deixat enganyar pel nostre\n"
+	.string "No t'has deixat enganyar per la nostra\n"
 
 	.string "aroma…$"
 
@@ -173,7 +173,7 @@ Route103_Text_LivPostBattle:
 Route103_Text_AmyLivRegister:
 	.string "Liv: De veritat, som molt millors…\n"
 
-	.string "És cert! T'ho demostrarem!$"
+	.string "És cert! T'ho demostrarem el pròxim cop!$"
 
 
 Route103_Text_LivNotEnoughPokemon:
@@ -277,7 +277,7 @@ Route103_Text_MiguelDefeated:
 Route103_Text_MiguelPostBattle:
 	.string "El meu Pokémon és adorable fins i\n"
 
-	.string "tot quan està debilitat!$"
+	.string "tot quan està desmaiat!$"
 
 
 Route103_Text_MiguelRegister:
@@ -307,7 +307,7 @@ Route103_Text_MiguelRematchPostBattle:
 Route103_Text_PeteIntro:
 	.string "Aquesta distància…\n"
 
-	.string "Hauries de nedar-la!$"
+	.string "L'hauries de fer nedant!$"
 
 
 Route103_Text_PeteDefeated:
@@ -347,7 +347,7 @@ Route103_Text_RhettIntro:
 Route103_Text_RhettDefeated:
 	.string "Uau!\n"
 
-	.string "El nen és bo!$"
+	.string "Aquest nano és dur com una roca!$"
 
 
 Route103_Text_RhettPostBattle:
@@ -371,11 +371,11 @@ Route103_Text_MarcosPostBattle:
 
 	.string "gent, però s'han aplegat molts fans.\p"
 
-	.string "Potser hauria de fer-me'n professional.$"
+	.string "Potser m'hauria de fer professional.$"
 
 
 Route104_Text_GinaIntro:
-	.string "Gina: Va, combat amb els nostres\n"
+	.string "Gina: Va, combatem amb els nostres\n"
 
 	.string "Pokémon!$"
 
@@ -395,7 +395,7 @@ Route104_Text_GinaNotEnoughMons:
 
 	.string "Doncs no combatrem amb tu.\p"
 
-	.string "Si només té un Pokémon, se sentirà\n"
+	.string "Si només hi ha un Pokémon, se sentirà\n"
 
 	.string "sol. No estaria bé.$"
 
@@ -407,13 +407,13 @@ Route104_Text_MiaIntro:
 
 
 Route104_Text_MiaDefeat:
-	.string "Mia: Hem combat juntes, però\n"
+	.string "Mia: Hem combatut juntes, però\n"
 
 	.string "hem perdut totes dues…$"
 
 
 Route104_Text_MiaPostBattle:
-	.string "Mia: Entrenarem els Pokémon més\n"
+	.string "Mia: Entrenarem més els Pokémon\n"
 
 	.string "per ser fortes com tu.$"
 
@@ -447,7 +447,7 @@ Route104_Text_IvanDefeat:
 Route104_Text_IvanPostBattle:
 	.string "Em vaig enganxar massa a la pesca.\n"
 
-	.string "Vaig oblidar criar els meus Pokémon…$"
+	.string "Em vaig oblidar de criar els Pokémon…$"
 
 
 Route104_Text_BillyIntro:
@@ -459,7 +459,7 @@ Route104_Text_BillyIntro:
 Route104_Text_BillyDefeat:
 	.string "Uaah! M'ha entrat sorra a les\n"
 
-	.string "sabatilles! Tota rascosa!$"
+	.string "sabatilles! Com rasquen!$"
 
 
 Route104_Text_BillyPostBattle:
@@ -475,11 +475,11 @@ Route104_Text_HaleyIntro:
 
 	.string "O no hauria de…?\p"
 
-	.string "Va, sí, combat!$"
+	.string "Va, d'acord, combatré!$"
 
 
 Route104_Text_HaleyDefeat:
-	.string "No hauria d'haver combat…$"
+	.string "No hauria d'haver combatut…$"
 
 
 Route104_Text_HaleyPostBattle:
@@ -495,21 +495,21 @@ Route104_Text_HaleyPostBattle:
 Route104_Text_HaleyRegister1:
 	.string "Ets fort, però hauria de registrar-te\n"
 
-	.string "al meu Pokénav?\l"
+	.string "al meu PokéGear?\l"
 
 	.string "Potser no hauria…\p"
 
-	.string "Va, sí, et registraré!$"
+	.string "Va, d'acord, et registraré!$"
 
 
 Route104_Text_HaleyRegister2:
 	.string "Ets fort, però hauria de registrar-te\n"
 
-	.string "al meu Pokénav?\l"
+	.string "al meu PokéGear?\l"
 
 	.string "Potser no hauria…\p"
 
-	.string "Va, sí, et registraré!$"
+	.string "Va, d'acord, et registraré!$"
 
 
 Route104_Text_HaleyRematchIntro:
@@ -525,7 +525,7 @@ Route104_Text_HaleyRematchDefeat:
 Route104_Text_HaleyPostRematch:
 	.string "He decidit combatre, així que\n"
 
-	.string "puc acceptar la derrota amb gràcia.\p"
+	.string "puc acceptar la derrota amb dignitat.\p"
 
 	.string "Però estic disgustada igualment!$"
 
@@ -549,7 +549,7 @@ Route104_Text_WinstonPostBattle:
 Route104_Text_WinstonRegister1:
 	.string "Hm?\n"
 
-	.string "Ah, tens un Pokénav.\p"
+	.string "Ah, tens un PokéGear.\p"
 
 	.string "Et registraré amb gust.\n"
 
@@ -559,7 +559,7 @@ Route104_Text_WinstonRegister1:
 Route104_Text_WinstonRegister2:
 	.string "Hm?\n"
 
-	.string "Ah, tens un Pokénav.\p"
+	.string "Ah, tens un PokéGear.\p"
 
 	.string "Et registraré amb gust.\n"
 
@@ -597,7 +597,7 @@ Route104_Text_CindyDefeat:
 
 
 Route104_Text_CindyPostBattle:
-	.string "“Hola” és el principi de “adéu”.\n"
+	.string "Tot “hola” és l'inici d'un “adéu”.\n"
 
 	.string "Espero que ens tornem a veure.$"
 
@@ -607,7 +607,7 @@ Route104_Text_CindyRegister1:
 
 	.string "Sembla que ens atraiem.\n"
 
-	.string "Registrem-nos als nostres Pokénavs.$"
+	.string "Registrem-nos als nostres PokéGears.$"
 
 
 Route104_Text_CindyRegister2:
@@ -617,7 +617,7 @@ Route104_Text_CindyRegister2:
 
 	.string "Registrem-nos als nostres\n"
 
-	.string "Pokénavs.$"
+	.string "PokéGears.$"
 
 
 Route104_Text_CindyRematchIntro:
@@ -633,7 +633,7 @@ Route104_Text_CindyRematchDefeat:
 
 
 Route104_Text_CindyPostRematch:
-	.string "“Hola” és el principi de “adéu”.\n"
+	.string "Tot “hola” és l'inici d'un “adéu”.\n"
 
 	.string "Espero que ens tornem a veure.$"
 
@@ -711,9 +711,9 @@ Route105_Text_DominikDefeated:
 Route105_Text_DominikPostBattle:
 	.string "Per què el mar és blau?\p"
 
-	.string "Ho vaig aprendre al Museu\n"
+	.string "Ho vaig aprendre al Museu de\n"
 
-	.string "de Slateport, però ho he oblidat.$"
+	.string "Ciutat Slateport, però ho he oblidat.$"
 
 
 Route105_Text_BeverlyIntro:
@@ -763,7 +763,7 @@ Route105_Text_AndresIntro:
 Route105_Text_AndresDefeated:
 	.string "Sí…\n"
 
-	.string "No soc bo combatent…$"
+	.string "No se'm dona gens bé combatre…$"
 
 
 Route105_Text_AndresPostBattle:
@@ -777,7 +777,7 @@ Route105_Text_AndresPostBattle:
 Route105_Text_AndresRegister:
 	.string "Eh? Soc tan dèbil, però em vols\n"
 
-	.string "registrar al teu Pokénav?$"
+	.string "registrar al teu PokéGear?$"
 
 
 Route105_Text_AndresRematchIntro:
@@ -793,7 +793,7 @@ Route105_Text_AndresRematchDefeated:
 
 
 Route105_Text_AndresRematchPostBattle:
-	.string "Potser soc dèbil combatent, però\n"
+	.string "Potser no combato gaire bé, però\n"
 
 	.string "la meva passió per explorar és\l"
 
@@ -809,11 +809,11 @@ Route105_Text_JosueIntro:
 
 	.string "No hi estic acostumat.\p"
 
-	.string "Necessito un combat per canviar!$"
+	.string "Necessito un combat per variar!$"
 
 
 Route105_Text_JosueDefeated:
-	.string "He perdut perquè he combat al mar.$"
+	.string "He perdut perquè he combatut al mar.$"
 
 
 Route105_Text_JosuePostBattle:
@@ -871,7 +871,7 @@ Route106_Text_NedIntro:
 
 	.string "al lavabo?\p"
 
-	.string "I si pico un peix gros mentre soc\n"
+	.string "I si em pica un peix gros mentre soc\n"
 
 	.string "al lavabo? No puc anar-hi…$"
 
@@ -903,13 +903,13 @@ Route106_Text_DouglasPostBattle:
 
 
 Route106_Text_KylaIntro:
-	.string "El mar és el meu pati. No seré\n"
+	.string "El mar és el meu pati. No t'ho posaré\n"
 
-	.string "suau perquè siguis un nen!$"
+	.string "fàcil perquè siguis un nen!$"
 
 
 Route106_Text_KylaDefeated:
-	.string "Has anat suau amb mi, per\n"
+	.string "M'ho has posat fàcil, per\n"
 
 	.string "casualitat?$"
 
@@ -923,7 +923,7 @@ Route106_Text_KylaPostBattle:
 Route107_Text_DarrinIntro:
 	.string "Badall…\p"
 
-	.string "M'he degut adormir mentre\n"
+	.string "Em dec haver adormit mentre\n"
 
 	.string "flotava amb les ones.$"
 
@@ -999,7 +999,7 @@ Route107_Text_DeniseIntro:
 
 
 Route107_Text_DeniseDefeated:
-	.string "Odio això!$"
+	.string "Quina ràbia!$"
 
 
 Route107_Text_DenisePostBattle:
@@ -1037,7 +1037,7 @@ Route107_Text_LisaDefeated:
 
 
 Route107_Text_LisaPostBattle:
-	.string "Lisa: Tens amics que vaguessin a\n"
+	.string "Lisa: Tens amics que vulguin anar a\n"
 
 	.string "la platja amb tu?$"
 
@@ -1049,7 +1049,7 @@ Route107_Text_LisaNotEnoughPokemon:
 
 
 Route107_Text_RayIntro:
-	.string "Ray: Sempre combatem Pokémon,\n"
+	.string "Ray: Sempre fem combats Pokémon,\n"
 
 	.string "la meva germana i jo.\p"
 
@@ -1071,7 +1071,7 @@ Route107_Text_RayPostBattle:
 
 	.string "Jo el vaig criar, i ara és el meu\l"
 
-	.string "company important!$"
+	.string "company més preuat!$"
 
 
 Route107_Text_RayNotEnoughPokemon:
@@ -1103,7 +1103,7 @@ Route108_Text_JeromeIntro:
 
 
 Route108_Text_JeromeDefeated:
-	.string "Així no podré nedar els set mars…$"
+	.string "Així no podré nedar pels set mars…$"
 
 
 Route108_Text_JeromePostBattle:
@@ -1131,7 +1131,7 @@ Route108_Text_MatthewPostBattle:
 
 
 Route108_Text_TaraIntro:
-	.string "El meu mentider del xicot em va dir\n"
+	.string "El mentider del meu xicot em va dir\n"
 
 	.string "que estic molt bé en biquini…$"
 
@@ -1151,7 +1151,7 @@ Route108_Text_TaraPostBattle:
 Route108_Text_MissyIntro:
 	.string "M'encanta el mar!\n"
 
-	.string "Oblido tots els meus mals quan nedo!$"
+	.string "Quan nedo m'oblido dels maldecaps!$"
 
 
 Route108_Text_MissyDefeated:
@@ -1185,9 +1185,9 @@ Route108_Text_CoryPostBattle:
 
 
 Route108_Text_CoryRegister:
-	.string "M'encanten els Entrenadors forts!\n"
+	.string "També m'encanten els Entrenadors\n"
 
-	.string "Registra'm al teu Pokénav!$"
+	.string "forts! Registra'm al teu PokéGear!$"
 
 
 Route108_Text_CoryRematchIntro:
@@ -1203,7 +1203,7 @@ Route108_Text_CoryRematchDefeated:
 
 
 Route108_Text_CoryRematchPostBattle:
-	.string "Si tens un repte davant,\n"
+	.string "Si t'has d'enfrontar a un repte,\n"
 
 	.string "prova de cridar al mar!$"
 
@@ -1211,7 +1211,7 @@ Route108_Text_CoryRematchPostBattle:
 Route108_Text_CarolinaIntro:
 	.string "Estic molt orgullosa dels meus\n"
 
-	.string "Pokémon. Un combat ràpid!$"
+	.string "Pokémon. Et farem un combat ben ràpid!$"
 
 
 Route108_Text_CarolinaDefeated:
@@ -1219,15 +1219,15 @@ Route108_Text_CarolinaDefeated:
 
 
 Route108_Text_CarolinaPostBattle:
-	.string "Com que estic al mar, no em faria\n"
+	.string "Com que estic al mar, no em faria res\n"
 
-	.string "res posar-me un biquini rosa…$"
+	.string "posar-me un banyador rosa amb volants…$"
 
 
 Route109_Text_DavidIntro:
 	.string "Hiya! Mira els meus abdominals!\n"
 
-	.string "Això és estar en forma!$"
+	.string "Això és estar ben definit!$"
 
 
 Route109_Text_DavidDefeated:
@@ -1259,7 +1259,7 @@ Route109_Text_AlicePostBattle:
 Route109_Text_HueyIntro:
 	.string "He fondejat als ports de tot el món,\n"
 
-	.string "però Slateport és el millor.$"
+	.string "però el de Ciutat Slateport és el millor.$"
 
 
 Route109_Text_HueyDefeated:
@@ -1289,11 +1289,11 @@ Route109_Text_EdmondPostBattle:
 
 	.string "Estic marejat com un gos!\p"
 
-	.string "I soc Mariner, però…$"
+	.string "I això que soc mariner…$"
 
 
 Route109_Text_RickyIntro:
-	.string "Tinc set… M'aniria bé una Soda Pop\n"
+	.string "Tinc set… M'aniria bé un Refresc\n"
 
 	.string "a la Casa de la Platja…$"
 
@@ -1333,7 +1333,7 @@ Route109_Text_RickyRematchPostBattle:
 
 
 Route109_Text_LolaIntro:
-	.string "Trobes que un para-sol de platja\n"
+	.string "No trobes que un para-sol de platja\n"
 
 	.string "sembla una flor gegant?$"
 
@@ -1365,15 +1365,15 @@ Route109_Text_LolaRematchDefeated:
 
 
 Route109_Text_LolaRematchPostBattle:
-	.string "Si tinc un flotador, la meva\n"
+	.string "Amb el flotador, el meu Pokémon i jo\n"
 
-	.string "simpatia i la del meu Pokémon puja!$"
+	.string "som encara més monos!$"
 
 
 Route109_Text_AustinaIntro:
-	.string "No sé nedar sense flotador,\n"
+	.string "No sé nedar sense flotador, però\n"
 
-	.string "però no perdré a Pokémon!$"
+	.string "als combats Pokémon no perdré!$"
 
 
 Route109_Text_AustinaDefeated:
@@ -1383,7 +1383,7 @@ Route109_Text_AustinaDefeated:
 Route109_Text_AustinaPostBattle:
 	.string "El meu flotador és un accessori.\n"
 
-	.string "No em poden veure sense ell.$"
+	.string "No puc sortir sense ell.$"
 
 
 Route109_Text_GwenIntro:
@@ -1419,9 +1419,9 @@ Route109_Text_CarterPostBattle:
 Route109_Text_PaulIntro:
 	.string "Paul: Vaja, això ens trenca el rotllo.\p"
 
-	.string "M'agradaria que no molestessis\n"
+	.string "M'agradaria que no ens espatllessis\n"
 
-	.string "la nostra estona preciosa.$"
+	.string "aquesta estona tan preciosa.$"
 
 
 Route109_Text_PaulDefeated:
@@ -1445,9 +1445,7 @@ Route109_Text_PaulNotEnoughPokemon:
 
 
 Route109_Text_MelIntro:
-	.string "Mel: Estem, com, totalment\n"
-
-	.string "enamorats.\l"
+	.string "Mel: Estem enamoradíssims, saps?\n"
 
 	.string "El nostre amor escalfa tot Hoenn!$"
 
@@ -1455,7 +1453,7 @@ Route109_Text_MelIntro:
 Route109_Text_MelDefeated:
 	.string "Mel: Hem perdut, i és culpa meva!\n"
 
-	.string "Paul m'odiarà!$"
+	.string "En Paul m'odiarà!$"
 
 
 Route109_Text_MelPostBattle:
@@ -1465,9 +1463,7 @@ Route109_Text_MelPostBattle:
 
 
 Route109_Text_MelNotEnoughPokemon:
-	.string "Mel: Estem, com, profundament\n"
-
-	.string "enamorats.\l"
+	.string "Mel: Estem enamorats de veritat, saps?\n"
 
 	.string "Per això fem combatre els nostres\l"
 
@@ -1487,9 +1483,9 @@ Route109_Text_ChandlerDefeated:
 
 
 Route109_Text_ChandlerPostBattle:
-	.string "Fins i tot després de mostrar-te\n"
+	.string "I això que t'he ensenyat el meu\n"
 
-	.string "el meu flotador rodó…$"
+	.string "flotador rodó…$"
 
 
 Route109_Text_HaileyIntro:
@@ -1525,13 +1521,13 @@ Route109_Text_ElijahPostBattle:
 
 	.string "un port és l'escenari perfecte!\p"
 
-	.string "Aniré cap a Slateport.$"
+	.string "Aniré cap a Ciutat Slateport.$"
 
 
 Route110_Text_JacobIntro:
 	.string "Ep! Vigila!\n"
 
-	.string "Veig que no estàs avesat a la Bici.$"
+	.string "No estàs avesat a les curses de Bici.$"
 
 
 Route110_Text_JacobDefeated:
@@ -1555,7 +1551,7 @@ Route110_Text_AnthonyIntro:
 
 
 Route110_Text_AnthonyDefeated:
-	.string "Xoc i flames!$"
+	.string "Quina patacada!$"
 
 
 Route110_Text_AnthonyPostBattle:
@@ -1625,7 +1621,7 @@ Route110_Text_EdwardIntro:
 
 
 Route110_Text_EdwardDefeated:
-	.string "No vaig preveure la meva derrota!$"
+	.string "No he previst la meva pròpia derrota!$"
 
 
 Route110_Text_EdwardPostBattle:
@@ -1639,7 +1635,7 @@ Route110_Text_EdwardPostBattle:
 Route110_Text_JaclynIntro:
 	.string "Ahahahaha!\n"
 
-	.string "T'enlluerno amb les meves meravelles!$"
+	.string "T'enlluernaré amb les meves meravelles!$"
 
 
 Route110_Text_JaclynDefeated:
@@ -1675,7 +1671,7 @@ Route110_Text_EdwinPostBattle:
 Route110_Text_EdwinRegister:
 	.string "També m'agrada col·leccionar\n"
 
-	.string "registres de Match Call…$"
+	.string "registres al PokéGear…$"
 
 
 Route110_Text_EdwinRematchIntro:
@@ -1689,7 +1685,7 @@ Route110_Text_EdwinRematchIntro:
 Route110_Text_EdwinRematchDefeated:
 	.string "Els teus Pokémon…\n"
 
-	.string "T'enveig.$"
+	.string "T'envejo.$"
 
 
 Route110_Text_EdwinRematchPostBattle:
@@ -1713,13 +1709,13 @@ Route110_Text_DaleDefeated:
 Route110_Text_DalePostBattle:
 	.string "Pescar és tot concentració.\n"
 
-	.string "T'has de fixar en el flotador.$"
+	.string "T'has de fixar en el suro.$"
 
 
 Route110_Text_IsabelIntro:
-	.string "Ahahaha! Aniria a tot arreu per\n"
+	.string "Ahahaha! Aniria on fos per lluir\n"
 
-	.string "lluir els meus adorables Pokémon.$"
+	.string "els meus adorables Pokémon.$"
 
 
 Route110_Text_IsabelDefeated:
@@ -1727,9 +1723,9 @@ Route110_Text_IsabelDefeated:
 
 
 Route110_Text_IsabelPostBattle:
-	.string "Potser hauria de lluir els meus\n"
+	.string "En lloc de combatre, potser hauria de\n"
 
-	.string "Pokémon al Club de Fans.$"
+	.string "lluir els meus Pokémon al Club de Fans.$"
 
 
 Route110_Text_IsabelRegister:
@@ -1743,9 +1739,9 @@ Route110_Text_IsabelRegister:
 
 
 Route110_Text_IsabelRematchIntro:
-	.string "Ahahahaha! Estaré encantada de\n"
+	.string "Ahahahaha! Estaré encantada de lluir\n"
 
-	.string "lluir els meus Pokémon sempre!$"
+	.string "els Pokémon tan sovint com vulguis!$"
 
 
 Route110_Text_IsabelRematchDefeated:
@@ -1767,7 +1763,7 @@ Route110_Text_TimmyIntro:
 
 
 Route110_Text_TimmyDefeated:
-	.string "Ser guai no és prou per guanyar…$"
+	.string "Ser guai no basta per guanyar…$"
 
 
 Route110_Text_TimmyPostBattle:
@@ -1777,7 +1773,7 @@ Route110_Text_TimmyPostBattle:
 
 
 Route110_Text_AlyssaIntro:
-	.string "He caigut del Pont Ciclable…\p"
+	.string "He caigut del Carril Bici…\p"
 
 	.string "Superaré la vergonya combatent\n"
 
@@ -1829,7 +1825,7 @@ Route110_Text_KalebPostBattle:
 
 
 Route111_Text_DrewIntro:
-	.string "Ei! Les Go-Goggles et queden bé.\n"
+	.string "Ei! Les Ulleres Sorra et queden bé.\n"
 
 	.string "Però crec que a mi em queden millor.\p"
 
@@ -1841,11 +1837,11 @@ Route111_Text_DrewIntro:
 Route111_Text_DrewDefeat:
 	.string "No veia pels costats per culpa\n"
 
-	.string "de les Go-Goggles.$"
+	.string "de les Ulleres Sorra.$"
 
 
 Route111_Text_DrewPostBattle:
-	.string "Les Go-Goggles permeten travessar\n"
+	.string "Les Ulleres Sorra permeten travessar\n"
 
 	.string "les tempestes de sorra.\l"
 
@@ -1855,9 +1851,9 @@ Route111_Text_DrewPostBattle:
 Route111_Text_HeidiIntro:
 	.string "Faig un pícnic al desert.\p"
 
-	.string "Sempre trobes un Entrenador,\n"
+	.string "Sempre trobes algun Entrenador, així\n"
 
-	.string "així que gaudeixo d'un combat!$"
+	.string "que aquí també gaudeixo d'un combat!$"
 
 
 Route111_Text_HeidiDefeat:
@@ -1869,11 +1865,13 @@ Route111_Text_HeidiPostBattle:
 
 	.string "sorra, vigila els PS del Pokémon.\p"
 
-	.string "Pot caure si no hi pares atenció!$"
+	.string "Es pot desmaiar si no hi pares\n"
+
+	.string "atenció!$"
 
 
 Route111_Text_BeauIntro:
-	.string "Portar les Go-Goggles em fa sentir\n"
+	.string "Portar les Ulleres Sorra em fa sentir\n"
 
 	.string "com un superheroi.\l"
 
@@ -1881,15 +1879,15 @@ Route111_Text_BeauIntro:
 
 
 Route111_Text_BeauDefeat:
-	.string "No puc guanyar només amb esperit…$"
+	.string "No puc guanyar només amb entusiasme…$"
 
 
 Route111_Text_BeauPostBattle:
 	.string "Algun dia seré un heroi de veritat.\n"
 
-	.string "Treballaré més per fer-me\l"
+	.string "Treballaré més per fer-nos més\l"
 
-	.string "més fort amb els meus Pokémon.$"
+	.string "forts, a mi i als meus Pokémon.$"
 
 
 Route111_Text_BeckyIntro:
@@ -1899,7 +1897,7 @@ Route111_Text_BeckyIntro:
 
 
 Route111_Text_BeckyDefeat:
-	.string "M'he quedat curt…$"
+	.string "M'he quedat curta…$"
 
 
 Route111_Text_BeckyPostBattle:
@@ -1937,7 +1935,7 @@ Route111_Text_DustyRegister:
 
 	.string "Però, per alguna raó, m'agraden\n"
 
-	.string "molt els Pokénavs.$"
+	.string "molt els PokéGears.$"
 
 
 Route111_Text_DustyRematchIntro:
@@ -1961,13 +1959,13 @@ Route111_Text_DustyPostRematch:
 
 	.string "antigues!\p"
 
-	.string "No, espera, eren quaranta\n"
+	.string "No, espera, o en fa quaranta\n"
 
-	.string "anys que busco?\p"
+	.string "que busco?\p"
 
-	.string "Hmm… Podrien ser cinquanta…\n"
+	.string "Hmm… Potser fins i tot cinquanta…\n"
 
-	.string "Quant de temps fa que hi soc?$"
+	.string "Quant de temps fa que m'hi dedico?$"
 
 
 Route111_Text_TravisIntro:
@@ -1983,7 +1981,7 @@ Route111_Text_TravisDefeat:
 Route111_Text_TravisPostBattle:
 	.string "Quan veig un Entrenador ple\n"
 
-	.string "d'energia, no puc evitar mirar.$"
+	.string "d'energia, no puc evitar mirar-lo.$"
 
 
 Route111_Text_IreneIntro:
@@ -1993,15 +1991,15 @@ Route111_Text_IreneIntro:
 
 
 Route111_Text_IreneDefeat:
-	.string "Oh, ets indecentment bo!$"
+	.string "Oh, ets bo fins a fer fàstic!$"
 
 
 Route111_Text_IrenePostBattle:
-	.string "Penso si hauria d'anar al\n"
+	.string "Estic pensant si hauria d'anar al\n"
 
-	.string "Mont Chimney, però la vista\l"
+	.string "Mont Chimney, però la vista d'aquí\l"
 
-	.string "d'aquí és molt bonica.$"
+	.string "també és molt bonica.$"
 
 
 Route111_Text_DaisukeIntro:
@@ -2023,7 +2021,7 @@ Route111_Text_DaisukePostBattle:
 
 
 Route111_Text_WiltonIntro:
-	.string "Mostra'm com has endurit els teus\n"
+	.string "Mostra'm quant has endurit els teus\n"
 
 	.string "Pokémon.$"
 
@@ -2139,7 +2137,7 @@ Route111_Text_CeliaPostBattle:
 
 	.string "puc preparar el pícnic ni amb les\l"
 
-	.string "Go-Goggles posades…$"
+	.string "Ulleres Sorra posades…$"
 
 
 Route111_Text_BryanIntro:
@@ -2173,7 +2171,7 @@ Route111_Text_BrandenDefeat:
 
 
 Route111_Text_BrandenPostBattle:
-	.string "El meu Sandshrew adora menjar\n"
+	.string "Al meu Sandshrew li encanten\n"
 
 	.string "els meus entrepans.$"
 
@@ -2191,9 +2189,9 @@ Route111_Text_TyronDefeat:
 
 
 Route111_Text_TyronPostBattle:
-	.string "En un combat, gaudeixo molt\n"
+	.string "En un combat, m'encanta lluir\n"
 
-	.string "mostrant els meus Pokémon.\p"
+	.string "els meus Pokémon.\p"
 
 	.string "Segur que tothom se sent igual\n"
 
@@ -2221,7 +2219,7 @@ Route111_Text_CelinaPostBattle:
 Route111_Text_HaydenIntro:
 	.string "Quan tens tanta gana com jo,\n"
 
-	.string "no hi ha lloc per la pietat!$"
+	.string "no hi ha pietat que valgui!$"
 
 
 Route111_Text_HaydenDefeat:
@@ -2235,7 +2233,7 @@ Route111_Text_HaydenPostBattle:
 
 
 Route111_Text_BiancaIntro:
-	.string "Vens de Mauville?\n"
+	.string "Vens de Ciutat Mauville?\n"
 
 	.string "Aleshores has d'anar ple d'energia!$"
 
@@ -2249,7 +2247,7 @@ Route111_Text_BiancaDefeat:
 Route111_Text_BiancaPostBattle:
 	.string "Aquesta ruta…\n"
 
-	.string "Et queda un bon tros per viatjar.$"
+	.string "Encara et queda un bon tros de camí.$"
 
 
 Route112_Text_BriceIntro:
@@ -2275,7 +2273,7 @@ Route112_Text_BricePostBattle:
 
 
 Route112_Text_TrentIntro:
-	.string "Les meves cames són sòlides de tant\n"
+	.string "Tinc les cames ben fortes de tant\n"
 
 	.string "pujar i baixar muntanyes.\p"
 
@@ -2305,7 +2303,7 @@ Route112_Text_TrentRegister:
 
 	.string "Em treus unes benes de la motxilla?\p"
 
-	.string "No, això és el meu Pokénav!\n"
+	.string "No, això és el meu PokéGear!\n"
 
 	.string "Va, va, et registraré.$"
 
@@ -2345,9 +2343,9 @@ Route112_Text_LarryPostBattle:
 
 
 Route112_Text_CarolIntro:
-	.string "Quan fas un pícnic, simplement\n"
+	.string "Quan fas un pícnic, no pots\n"
 
-	.string "has de cantar!\l"
+	.string "deixar de cantar!\l"
 
 	.string "Vine, canta amb mi!$"
 
@@ -2365,7 +2363,7 @@ Route112_Text_CarolPostBattle:
 
 
 Route112_Text_BryantIntro:
-	.string "He atrapat Pokémon calents\n"
+	.string "He atrapat Pokémon de foc\n"
 
 	.string "al Camí Ardent! Mira!$"
 
@@ -2405,7 +2403,7 @@ Route112_Text_ShaylaPostBattle:
 
 
 Route113_Text_JaylenIntro:
-	.string "Saps per què fa tan de fred\n"
+	.string "Saps per què fa tanta fresca\n"
 
 	.string "per aquí?$"
 
@@ -2439,7 +2437,9 @@ Route113_Text_DillonPostBattle:
 
 	.string "M'ha entrat cendra als ulls!\p"
 
-	.string "Ho pilles? Cendra i cenra…?\p"
+	.string "Ara em diran la Ventafocs!\n"
+
+	.string "L'has entès? Cendra… Ventafocs?\p"
 
 	.string "Va, ha estat dolent, perdona…$"
 
@@ -2467,7 +2467,7 @@ Route113_Text_MadelinePostBattle:
 Route113_Text_MadelineRegister:
 	.string "Vine, posa't sota el meu para-sol.\n"
 
-	.string "Et registraré al meu Pokénav.$"
+	.string "Et registraré al meu PokéGear.$"
 
 
 Route113_Text_MadelineRematchIntro:
@@ -2505,7 +2505,7 @@ Route113_Text_LaoPostBattle:
 Route113_Text_LaoRegister:
 	.string "Yiiyaah! Observa l'antiga tècnica\n"
 
-	.string "ninja de registre de Pokénav!$"
+	.string "ninja de registre de PokéGear!$"
 
 
 Route113_Text_LaoRematchIntro:
@@ -2519,9 +2519,9 @@ Route113_Text_LaoRematchDefeat:
 
 
 Route113_Text_LaoPostRematch:
-	.string "El meu camuflatge perfecte ha estat\n"
+	.string "El meu camuflatge perfecte ha fallat\n"
 
-	.string "trair per les meves habilitats\l"
+	.string "per culpa de les meves habilitats\l"
 
 	.string "de combat immadures…\p"
 
@@ -2545,15 +2545,15 @@ Route113_Text_LungDefeat:
 
 
 Route113_Text_LungPostBattle:
-	.string "Saps què és dolent d'amagar-se?\n"
+	.string "Saps què té de dolent amagar-se?\n"
 
-	.string "Que fa soledat si no ve ningú.$"
+	.string "Que et sents sol si no ve ningú.$"
 
 
 Route113_Text_ToriIntro:
-	.string "Tori: Tots dos recollim cendra.\n"
+	.string "Tori: Totes dues recollim cendra.\n"
 
-	.string "I també combatem Pokémon.$"
+	.string "I també fem combats Pokémon.$"
 
 
 Route113_Text_ToriDefeat:
@@ -2565,7 +2565,9 @@ Route113_Text_ToriDefeat:
 Route113_Text_ToriPostBattle:
 	.string "Tori: Quanta cendra tenim?\n"
 
-	.string "Espero que prou per una Flauta Blanca.$"
+	.string "Espero que n'hi hagi prou per a una\l"
+
+	.string "Flauta Blanca.$"
 
 
 Route113_Text_ToriNotEnoughMons:
@@ -2575,9 +2577,9 @@ Route113_Text_ToriNotEnoughMons:
 
 
 Route113_Text_TiaIntro:
-	.string "Tia: Tots dos recollim cendra.\n"
+	.string "Tia: Totes dues recollim cendra.\n"
 
-	.string "I també combatem Pokémon.$"
+	.string "I també fem combats Pokémon.$"
 
 
 Route113_Text_TiaDefeat:
@@ -2589,7 +2591,7 @@ Route113_Text_TiaDefeat:
 Route113_Text_TiaPostBattle:
 	.string "Tia: Tenim molta cendra!\n"
 
-	.string "Crec que prou per una Flauta Blanca!$"
+	.string "Crec que prou per a una Flauta Blanca!$"
 
 
 Route113_Text_TiaNotEnoughMons:
@@ -2661,9 +2663,9 @@ Route113_Text_WyattIntro:
 
 
 Route113_Text_WyattDefeat:
-	.string "E-estàs content de guanyar?\n"
+	.string "E-estàs content d'haver guanyat?\n"
 
-	.string "Només soc jo, eh?$"
+	.string "Tot i que només soc jo?$"
 
 
 Route113_Text_WyattPostBattle:
@@ -2711,13 +2713,15 @@ Route114_Text_LucasDefeat:
 Route114_Text_LucasPostBattle:
 	.string "A l'hivern, les muntanyes es tornen\n"
 
-	.string "mortals amb nevades i allaus.$"
+	.string "mortals amb torbs i allaus.$"
 
 
 Route114_Text_ShaneIntro:
 	.string "Acampar és divertit! Pots pescar,\n"
 
-	.string "rostir i explicar històries de por!\p"
+	.string "torrar núvols de sucre i explicar\l"
+
+	.string "històries de por!\p"
 
 	.string "Però el millor de tot són els\n"
 
@@ -2753,7 +2757,7 @@ Route114_Text_NancyPostBattle:
 Route114_Text_SteveIntro:
 	.string "Ufufufufufu…\n"
 
-	.string "Vols combatre el meu Pokémon?$"
+	.string "Vols combatre contra el meu Pokémon?$"
 
 
 Route114_Text_SteveDefeat:
@@ -2761,7 +2765,7 @@ Route114_Text_SteveDefeat:
 
 
 Route114_Text_StevePostBattle:
-	.string "Un cos gros ple de bonys i dur,\n"
+	.string "Un cos gros, dur i ple de bonys,\n"
 
 	.string "banyes enormes i ullals feroços…\p"
 
@@ -2817,7 +2821,7 @@ Route114_Text_BerniePostBattle:
 
 
 Route114_Text_BernieRegister:
-	.string "Has encès el meu esperit.\n"
+	.string "M'has encès l'esperit.\n"
 
 	.string "Registrem-nos mútuament!$"
 
@@ -2857,13 +2861,13 @@ Route114_Text_ClaudeDefeat:
 
 
 Route114_Text_ClaudePostBattle:
-	.string "Provaré sort a Cascada Meteòrica\n"
+	.string "Provaré sort a la Cascada Meteor,\n"
 
-	.string "a veure si pico un peix gros.\p"
+	.string "a veure si en pesco un de gros.\p"
 
 	.string "Segur que hi ha alguna cosa.\n"
 
-	.string "Ho sé cert.$"
+	.string "N'estic segur.$"
 
 
 Route114_Text_NolanIntro:
@@ -2885,15 +2889,15 @@ Route114_Text_NolanDefeat:
 Route114_Text_NolanPostBattle:
 	.string "Ara sí que sí!\p"
 
-	.string "Sempre penso això, i per tant no\n"
+	.string "Sempre penso això, per això no puc\n"
 
-	.string "puc deixar ni pescar ni Pokémon.$"
+	.string "deixar ni la pesca ni els Pokémon.$"
 
 
 Route114_Text_TyraIntro:
-	.string "Tyra: Bé, sí.\n"
+	.string "Tyra: Bé, d'acord.\n"
 
-	.string "Estic d'humor.\l"
+	.string "Em ve de gust.\l"
 
 	.string "T'ensenyaré una mica sobre Pokémon.$"
 
@@ -2915,7 +2919,7 @@ Route114_Text_TyraNotEnoughMons:
 
 	.string "Si vols combatre amb nosaltres,\l"
 
-	.string "un sol Pokémon no és prou!$"
+	.string "no n'hi ha prou amb un sol Pokémon!$"
 
 
 Route114_Text_IvyIntro:
@@ -2931,7 +2935,7 @@ Route114_Text_IvyDefeat:
 Route114_Text_IvyPostBattle:
 	.string "Ivy: Vaig començar a entrenar\n"
 
-	.string "Pokémon perquè Tyra, la meva\l"
+	.string "Pokémon perquè la Tyra, la meva\l"
 
 	.string "mentora, m'ho va ensenyar!$"
 
@@ -2939,7 +2943,7 @@ Route114_Text_IvyPostBattle:
 Route114_Text_IvyNotEnoughMons:
 	.string "Ivy: Només tens un Pokémon?\n"
 
-	.string "Se deu sentir sol.$"
+	.string "Es deu sentir sol.$"
 
 
 Route114_Text_KaiIntro:
@@ -3173,7 +3177,7 @@ Route115_Text_HectorDefeat:
 Route115_Text_HectorPostBattle:
 	.string "Tinc aquest Pokémon rar.\n"
 
-	.string "N'hi ha prou per sentir-me satisfet.$"
+	.string "Amb això ja estic satisfet.$"
 
 
 Route115_Text_KyraIntro:
@@ -3191,7 +3195,7 @@ Route115_Text_KyraPostBattle:
 
 	.string "mentre corria!\p"
 
-	.string "Hauria de córrer per calmar-me…$"
+	.string "Aniré a córrer una mica per calmar-me…$"
 
 
 Route115_Text_JaidenIntro:
@@ -3247,13 +3251,13 @@ Route115_Text_AlixDefeat:
 Route115_Text_AlixPostBattle:
 	.string "Bé, bé.\n"
 
-	.string "Crec que em teletransportaré a casa.$"
+	.string "Em teletransportaré a casa.$"
 
 
 Route115_Text_MarleneIntro:
 	.string "Has pertorbat la meva meditació…\n"
 
-	.string "En seràs castigat.$"
+	.string "Rebràs un càstig per això.$"
 
 
 Route115_Text_MarleneDefeat:
@@ -3269,7 +3273,7 @@ Route115_Text_MarlenePostBattle:
 
 
 Route116_Text_ClarkIntro:
-	.string "Si el túnel no s'obre, passaré\n"
+	.string "Si el túnel no té sortida, passaré\n"
 
 	.string "per dalt.$"
 
@@ -3323,7 +3327,7 @@ Route116_Text_JosePostBattle:
 
 	.string "ràpid.\l"
 
-	.string "Així que es fan forts ràpid.$"
+	.string "Per això també es fan forts ràpid.$"
 
 
 Route116_Text_JaniceIntro:
@@ -3337,9 +3341,9 @@ Route116_Text_JaniceDefeat:
 
 
 Route116_Text_JanicePostBattle:
-	.string "Pokémon que tinguin simpatia i\n"
+	.string "Pokémon que siguin monos i forts\n"
 
-	.string "força, això és l'ideal, crec.$"
+	.string "alhora: això és l'ideal, crec.$"
 
 
 Route116_Text_JerryIntro:
@@ -3365,7 +3369,7 @@ Route116_Text_JerryPostBattle:
 
 
 Route116_Text_JerryRegister1:
-	.string "He après a l'Escola que un Pokénav\n"
+	.string "He après a l'Escola que un PokéGear\n"
 
 	.string "pot registrar Entrenadors.\p"
 
@@ -3375,7 +3379,7 @@ Route116_Text_JerryRegister1:
 
 
 Route116_Text_JerryRegister2:
-	.string "He après a l'Escola que un Pokénav\n"
+	.string "He après a l'Escola que un PokéGear\n"
 
 	.string "pot registrar Entrenadors.\p"
 
@@ -3423,13 +3427,13 @@ Route116_Text_KarenPostBattle:
 
 
 Route116_Text_KarenRegister1:
-	.string "Oh, uau! Això és un Pokénav?\n"
+	.string "Oh, uau! Això és un PokéGear?\n"
 
 	.string "Jo també en tinc un! Registra'm!$"
 
 
 Route116_Text_KarenRegister2:
-	.string "Oh, uau! Això és un Pokénav?\n"
+	.string "Oh, uau! Això és un PokéGear?\n"
 
 	.string "Jo també en tinc un! Registra'm!$"
 
@@ -3491,11 +3495,11 @@ Route116_Text_DawsonDefeat:
 Route116_Text_DawsonPostBattle:
 	.string "Oh, no, no, no!\n"
 
-	.string "Has desendreçat el pèl del Pokémon!\l"
+	.string "M'has despentinat el Pokémon!\l"
 
 	.string "I el meu pentinat també!\l"
 
-	.string "Hauré de trucar el meu perruquer!$"
+	.string "Hauré de trucar al meu perruquer!$"
 
 
 Route116_Text_DevanIntro:
@@ -3505,7 +3509,7 @@ Route116_Text_DevanIntro:
 Route116_Text_DevanDefeat:
 	.string "Aiyiyi!\n"
 
-	.string "Cap competència!$"
+	.string "No hi ha hagut color!$"
 
 
 Route116_Text_DevanPostBattle:
@@ -3541,7 +3545,7 @@ Route117_Text_IsaacDefeat:
 
 
 Route117_Text_IsaacPostBattle:
-	.string "Pokémon no va només de força.\p"
+	.string "Els Pokémon no van només de força.\p"
 
 	.string "Polir un aspecte únic del caràcter\n"
 
@@ -3565,7 +3569,7 @@ Route117_Text_IsaacRematchIntro:
 Route117_Text_IsaacRematchDefeat:
 	.string "Saps com criar-los bé.\n"
 
-	.string "Potser tens dot de Guarderia…$"
+	.string "Potser tens dots per a la Guarderia…$"
 
 
 Route117_Text_IsaacPostRematch:
@@ -3591,7 +3595,7 @@ Route117_Text_LydiaPostBattle:
 
 
 Route117_Text_LydiaRegister:
-	.string "Em fa molt content trobar un\n"
+	.string "M'alegro d'haver trobat un\n"
 
 	.string "Entrenador excel·lent com tu.\l"
 
@@ -3663,11 +3667,11 @@ Route117_Text_DylanPostRematch:
 Route117_Text_MariaIntro:
 	.string "Entreno per al triatló amb Pokémon,\n"
 
-	.string "així que estic segura de la velocitat.$"
+	.string "així que confio en la meva velocitat.$"
 
 
 Route117_Text_MariaDefeat:
-	.string "Necessito més pràctiques,\n"
+	.string "Necessito practicar més,\n"
 
 	.string "suposo.$"
 
@@ -3675,7 +3679,7 @@ Route117_Text_MariaDefeat:
 Route117_Text_MariaPostBattle:
 	.string "L'entrenament només té sentit\n"
 
-	.string "si ho mantens regularment.\p"
+	.string "si el mantens amb regularitat.\p"
 
 	.string "Au! Reprenc l'entrenament!\n"
 
@@ -3685,7 +3689,7 @@ Route117_Text_MariaPostBattle:
 Route117_Text_MariaRegister:
 	.string "Sembla que entrenes com cal…\n"
 
-	.string "Si vols, combat amb tu més tard!$"
+	.string "Si vols, combatrem més tard!$"
 
 
 Route117_Text_MariaRematchIntro:
@@ -3697,7 +3701,7 @@ Route117_Text_MariaRematchIntro:
 
 
 Route117_Text_MariaRematchDefeat:
-	.string "Necessito més pràctiques,\n"
+	.string "Necessito practicar més,\n"
 
 	.string "suposo.$"
 
@@ -3711,7 +3715,7 @@ Route117_Text_MariaPostRematch:
 Route117_Text_DerekIntro:
 	.string "Primer un Caçainsectes!\n"
 
-	.string "Ara un Fanàtic dels Insectes!\p"
+	.string "Ara un Insectòman!\p"
 
 	.string "Però el meu amor pels Pokémon\n"
 
@@ -3727,7 +3731,7 @@ Route117_Text_DerekDefeat:
 Route117_Text_DerekPostBattle:
 	.string "Només he seguit el cor, i ara em\n"
 
-	.string "diuen Fanàtic dels Insectes…\p"
+	.string "diuen Insectòman…\p"
 
 	.string "Però soc expert en Pokémon Insecte,\n"
 
@@ -3737,13 +3741,13 @@ Route117_Text_DerekPostBattle:
 Route117_Text_AnnaIntro:
 	.string "Anna: Soc amb la meva bonica\n"
 
-	.string "companya junior. He de fer-ho bé!$"
+	.string "companya júnior. He de fer-ho bé!$"
 
 
 Route117_Text_AnnaDefeat:
 	.string "Anna: Soc amb la meva bonica\n"
 
-	.string "companya junior! Deixa'm guanyar!$"
+	.string "companya júnior! Deixa'm guanyar!$"
 
 
 Route117_Text_AnnaPostBattle:
@@ -3781,9 +3785,9 @@ Route117_Text_MegDefeat:
 
 
 Route117_Text_MegPostBattle:
-	.string "Meg: He arrossegat l'Anna…\n"
+	.string "Meg: He fet perdre l'Anna…\n"
 
-	.string "Si no, hauria guanyat!$"
+	.string "Sense mi, ella hauria guanyat!$"
 
 
 Route117_Text_MegNotEnoughMons:
@@ -3831,7 +3835,7 @@ Route117_Text_MegRematchDefeat:
 
 
 Route117_Text_MegPostRematch:
-	.string "Meg: He combat amb la meva sènior,\n"
+	.string "Meg: He combatut amb la meva sènior,\n"
 
 	.string "però hem perdut…\p"
 
@@ -3881,7 +3885,7 @@ Route117_Text_BrandiPostBattle:
 Route117_Text_AishaIntro:
 	.string "Concentra't a guanyar.\n"
 
-	.string "Així és com combat!$"
+	.string "Així és com combato!$"
 
 
 Route117_Text_AishaDefeat:
@@ -3903,7 +3907,7 @@ Route118_Text_RoseIntro:
 
 
 Route118_Text_RoseDefeat:
-	.string "Vaja per mi.\n"
+	.string "Ai, mare meva.\n"
 
 	.string "Sembla que he perdut.$"
 
@@ -3919,15 +3923,15 @@ Route118_Text_RosePostBattle:
 
 
 Route118_Text_RoseRegister:
-	.string "Snif… Aquesta olor, és un Pokénav!\n"
+	.string "Snif… Aquesta olor… És un PokéGear!\n"
 
 	.string "Ens hem de registrar!$"
 
 
 Route118_Text_RoseRematchIntro:
-	.string "T'ha atret el dolç aroma\n"
+	.string "T'ha atret fins aquí la dolça\n"
 
-	.string "fins aquí?$"
+	.string "aroma?$"
 
 
 Route118_Text_RoseRematchDefeat:
@@ -3937,9 +3941,9 @@ Route118_Text_RoseRematchDefeat:
 
 
 Route118_Text_RosePostRematch:
-	.string "Si fas servir un dolç aroma bé,\n"
+	.string "Si fas servir bé una aroma dolça,\n"
 
-	.string "els Pokémon vindran atrets.$"
+	.string "els Pokémon s'hi sentiran atrets.$"
 
 
 Route118_Text_PerryIntro:
@@ -3957,7 +3961,7 @@ Route118_Text_PerryDefeat:
 Route118_Text_PerryPostBattle:
 	.string "Tens grans Pokémon.\n"
 
-	.string "Hauré d'entrenar els meus millor.$"
+	.string "Hauré d'entrenar millor els meus.$"
 
 
 Route118_Text_ChesterIntro:
@@ -3979,7 +3983,7 @@ Route118_Text_ChesterPostBattle:
 Route118_Text_BarnyIntro:
 	.string "Soc Pescador, però també Entrenador.\n"
 
-	.string "Estic criant els Pokémon que he pescat.$"
+	.string "Crio els Pokémon que he pescat.$"
 
 
 Route118_Text_BarnyDefeat:
@@ -3999,13 +4003,13 @@ Route118_Text_BarnyPostBattle:
 Route118_Text_WadeIntro:
 	.string "Per als Pescadors, l'equip és clau.\p"
 
-	.string "Però per als Entrenadors, el clau\n"
+	.string "Però per als Entrenadors, el que\n"
 
-	.string "són els Pokémon i el cor!$"
+	.string "compta són els Pokémon i el cor!$"
 
 
 Route118_Text_WadeDefeat:
-	.string "M'han guanyat de cor?$"
+	.string "Tens més cor que jo?$"
 
 
 Route118_Text_WadePostBattle:
@@ -4027,7 +4031,7 @@ Route118_Text_DaltonPostBattle:
 
 	.string "ha de ser sorollosa…\p"
 
-	.string "Es pot raspejar per treure'n\n"
+	.string "Si la toques suau, en pots treure\n"
 
 	.string "una melodia commovedora…$"
 
@@ -4039,7 +4043,7 @@ Route118_Text_DaltonRegister:
 
 
 Route118_Text_DaltonRematchIntro:
-	.string "Una melodia del meu Pokémon i jo…\n"
+	.string "Una melodia del meu Pokémon i de mi…\n"
 
 	.string "La farem arribar a la teva ànima.$"
 
@@ -4149,7 +4153,7 @@ Route119_Text_DougDefeat:
 Route119_Text_DougPostBattle:
 	.string "Som el Cercle Mim!\n"
 
-	.string "Espero que hagis gaudit del show.$"
+	.string "Espero que t'hagi agradat l'actuació.$"
 
 
 Route119_Text_GregIntro:
@@ -4157,7 +4161,7 @@ Route119_Text_GregIntro:
 
 	.string "Però jo tampoc et conec.\n"
 
-	.string "Així que, combat!$"
+	.string "Així que combatem!$"
 
 
 Route119_Text_GregDefeat:
@@ -4175,7 +4179,9 @@ Route119_Text_KentIntro:
 
 	.string "a qui els agrada imitar.\p"
 
-	.string "Un combat comença en trobar-nos!$"
+	.string "El combat comença així que ens\n"
+
+	.string "trobem!$"
 
 
 Route119_Text_KentDefeat:
@@ -4219,7 +4225,7 @@ Route119_Text_JacksonRegister:
 Route119_Text_JacksonRematchIntro:
 	.string "Recuperaré el meu esperit salvatge\n"
 
-	.string "estant amb Pokémon.$"
+	.string "convivint amb els Pokémon.$"
 
 
 Route119_Text_JacksonRematchDefeat:
@@ -4237,9 +4243,9 @@ Route119_Text_JacksonPostRematch:
 Route119_Text_CatherineIntro:
 	.string "Oh? Mira't.\p"
 
-	.string "Per a algú d'aventura,\n"
+	.string "Per anar d'aventura, vas molt\n"
 
-	.string "vas molt lleuger d'equipatge.$"
+	.string "lleuger d'equipatge.$"
 
 
 Route119_Text_CatherineDefeat:
@@ -4251,13 +4257,13 @@ Route119_Text_CatherineDefeat:
 Route119_Text_CatherinePostBattle:
 	.string "Vas lleuger però ho tens tot.\p"
 
-	.string "Estàs al dia mental i\n"
+	.string "I estàs en plena forma, tant de\n"
 
-	.string "físicament.$"
+	.string "cap com de cos.$"
 
 
 Route119_Text_CatherineRegister:
-	.string "Tens un Pokénav?\n"
+	.string "Tens un PokéGear?\n"
 
 	.string "És imprescindible per a un\l"
 
@@ -4287,7 +4293,7 @@ Route119_Text_CatherinePostRematch:
 
 
 Route119_Text_HughIntro:
-	.string "L'immens cel amaga promeses!\p"
+	.string "El cel immens és ple de promeses!\p"
 
 	.string "Res no es compara a l'emoció\n"
 
@@ -4307,7 +4313,7 @@ Route119_Text_HughPostBattle:
 Route119_Text_PhilIntro:
 	.string "Et mostraré el veritable potencial\n"
 
-	.string "de mi i els meus Pokémon Ocell!$"
+	.string "meu i dels meus Pokémon Ocell!$"
 
 
 Route119_Text_PhilDefeat:
@@ -4337,13 +4343,13 @@ Route119_Text_YasuPostBattle:
 
 	.string "silenciosament a les ombres.\l"
 
-	.string "Això, també, és el destí…$"
+	.string "Això també és el destí…$"
 
 
 Route119_Text_TakashiIntro:
 	.string "Si no vas amb compte,\n"
 
-	.string "et farà mal!$"
+	.string "sortiràs escaldat!$"
 
 
 Route119_Text_TakashiDefeat:
@@ -4401,31 +4407,31 @@ Route119_Text_ChrisPostBattle:
 
 	.string "llom…\p"
 
-	.string "És un moment indescriptiblement\n"
+	.string "És un moment de luxe\n"
 
-	.string "luxós!$"
+	.string "indescriptible!$"
 
 
 Route119_Text_FabianIntro:
-	.string "Dona'm un acord potent!\n"
+	.string "Toca'm un acord brutal!\n"
 
-	.string "La victòria és meva!\l"
+	.string "Guanyaré, serà triomfal!\l"
 
-	.string "És la nostra hora de brillar, uè!$"
+	.string "És l'hora de brillar com cal, uoh, sí!$"
 
 
 Route119_Text_FabianDefeat:
-	.string "M'has ensenyat qui mana!\n"
+	.string "M'has ensenyat qui mana aquí!\n"
 
-	.string "Hem de perdre, oh, no!$"
+	.string "Hem perdut, ai de mi, oh, no!$"
 
 
 Route119_Text_FabianPostBattle:
-	.string "Dona'm un altre acord potent!\n"
+	.string "Toca'm un altre acord brutal!\n"
 
-	.string "Deixa'm sol!\l"
+	.string "Deixa'm estar!\l"
 
-	.string "La teva victòria has d'expiar!$"
+	.string "Aquesta victòria la pagaràs car!$"
 
 
 Route119_Text_DaytonIntro:
@@ -4465,7 +4471,7 @@ Route119_Text_RachelDefeat:
 Route119_Text_RachelPostBattle:
 	.string "Em preguntes si el para-sol pesa?\n"
 
-	.string "La teva Bossa porta més trastos\l"
+	.string "La teva Motxilla porta més trastos\l"
 
 	.string "que no porto jo.$"
 
@@ -4507,9 +4513,9 @@ Route120_Text_RobertPostBattle:
 
 
 Route120_Text_RobertRegister:
-	.string "Es pot confiar que milloraràs.\n"
+	.string "Es nota que aniràs millorant.\n"
 
-	.string "M'agradaria registrar-te al Pokénav!$"
+	.string "M'agradaria registrar-te al PokéGear!$"
 
 
 Route120_Text_RobertRematchIntro:
@@ -4529,9 +4535,9 @@ Route120_Text_RobertPostRematch:
 
 
 Route120_Text_LorenzoIntro:
-	.string "Miraré els teus Pokémon per veure\n"
+	.string "Miraré els teus Pokémon per veure si\n"
 
-	.string "si estan preparats per la natura.$"
+	.string "estan preparats per a la natura.$"
 
 
 Route120_Text_LorenzoDefeat:
@@ -4561,7 +4567,7 @@ Route120_Text_JennaDefeat:
 
 
 Route120_Text_JennaPostBattle:
-	.string "L'exercici és la meva rutina.\n"
+	.string "L'exercici forma part de la meva rutina.\n"
 
 	.string "Sempre corro amb el meu Pokémon.$"
 
@@ -4583,7 +4589,7 @@ Route120_Text_JeffreyPostBattle:
 
 	.string "… … … … … …\l"
 
-	.string "Ho intentaré més…$"
+	.string "M'hi esforçaré més…$"
 
 
 Route120_Text_JeffreyRegister:
@@ -4591,7 +4597,7 @@ Route120_Text_JeffreyRegister:
 
 	.string "… … … … … …\l"
 
-	.string "Tens un Pokénav…?$"
+	.string "Tens un PokéGear…?$"
 
 
 Route120_Text_JeffreyRematchIntro:
@@ -4613,21 +4619,21 @@ Route120_Text_JeffreyPostRematch:
 
 	.string "… … … … … …\l"
 
-	.string "Ho intentaré més…\l"
+	.string "M'hi esforçaré més…\l"
 
 	.string "Pels meus estimats Pokémon Insecte…$"
 
 
 Route120_Text_JenniferIntro:
-	.string "Els Pokémon tenen habilitats\n"
+	.string "Els Pokémon tenen moltes habilitats\n"
 
-	.string "especials. Per ser de primera,\l"
+	.string "especials. Si vols ser un Entrenador\l"
 
-	.string "aprèn sobre elles.$"
+	.string "de primera, aprèn a conèixer-les.$"
 
 
 Route120_Text_JenniferDefeat:
-	.string "Clarament estàs pensant.$"
+	.string "Es nota que hi penses.$"
 
 
 Route120_Text_JenniferPostBattle:
@@ -4683,7 +4689,7 @@ Route120_Text_ClarissaPostBattle:
 
 
 Route120_Text_AngelicaIntro:
-	.string "Jo, Pokémon, i el meu para-sol…\p"
+	.string "Jo, el meu Pokémon i el meu para-sol…\p"
 
 	.string "Si en falta un, la imatge de\n"
 
@@ -4785,11 +4791,11 @@ Route121_Text_VanessaDefeat:
 
 
 Route121_Text_VanessaPostBattle:
-	.string "Vaig a un Concurs a Lilycove.\p"
+	.string "Vaig a un Concurs a Ciutat Lilycove.\p"
 
 	.string "El meu Pokémon hauria d'arrasar\n"
 
-	.string "a la Classe Mestra.$"
+	.string "al Rang Màster.$"
 
 
 Route121_Text_WalterIntro:
@@ -4797,7 +4803,7 @@ Route121_Text_WalterIntro:
 
 	.string "als quatre racons del món.\p"
 
-	.string "Podries dir que tinc una certa\n"
+	.string "Es podria dir que tinc certa\n"
 
 	.string "confiança en les meves habilitats.$"
 
@@ -4825,7 +4831,7 @@ Route121_Text_WalterRematchIntro:
 
 	.string "als quatre racons del món.\p"
 
-	.string "Podries dir que tinc una certa\n"
+	.string "Es podria dir que tinc certa\n"
 
 	.string "confiança en les meves habilitats.$"
 
@@ -4855,9 +4861,9 @@ Route121_Text_TammyDefeat:
 Route121_Text_TammyPostBattle:
 	.string "Mont Pyre…\n"
 
-	.string "Hi ha un poder misteriós\l"
+	.string "Allà hi actua un poder\l"
 
-	.string "en acció allà…$"
+	.string "misteriós…$"
 
 
 Route121_Text_KateIntro:
@@ -4869,13 +4875,13 @@ Route121_Text_KateIntro:
 Route121_Text_KateDefeat:
 	.string "Kate: He fallat davant la meva\n"
 
-	.string "companya junior…$"
+	.string "companya júnior…$"
 
 
 Route121_Text_KatePostBattle:
 	.string "Kate: Quan algú depèn de mi,\n"
 
-	.string "tinc la urgència de quedar bé\l"
+	.string "em venen ganes de quedar bé\l"
 
 	.string "davant seu…$"
 
@@ -4885,7 +4891,7 @@ Route121_Text_KateNotEnoughMons:
 
 	.string "no podem combatre amb tu.\p"
 
-	.string "Seria abusiu.$"
+	.string "Seria un abús.$"
 
 
 Route121_Text_JoyIntro:
@@ -4925,11 +4931,11 @@ Route121_Text_JessicaDefeat:
 Route121_Text_JessicaPostBattle:
 	.string "Potser aniré a atrapar més Pokémon\n"
 
-	.string "al Safari.$"
+	.string "a la Zona Safari.$"
 
 
 Route121_Text_JessicaRegister:
-	.string "M'hi he pres amb calma aquest cop!\n"
+	.string "Aquest cop m'he contingut!\n"
 
 	.string "El pròxim no serà així!$"
 
@@ -4943,13 +4949,13 @@ Route121_Text_JessicaRematchIntro:
 Route121_Text_JessicaRematchDefeat:
 	.string "Oh, com t'atreveixes!\n"
 
-	.string "Encara no t'ho prens amb calma!$"
+	.string "Encara no tens pietat!$"
 
 
 Route121_Text_JessicaPostRematch:
 	.string "Potser aniré a atrapar més Pokémon\n"
 
-	.string "al Safari.$"
+	.string "a la Zona Safari.$"
 
 
 Route121_Text_CristinIntro:
@@ -4977,7 +4983,7 @@ Route121_Text_CristinRegister:
 
 	.string "No t'oblidaré…\l"
 
-	.string "Dona'm el teu Pokénav!$"
+	.string "Dona'm el teu PokéGear!$"
 
 
 Route121_Text_CristinRematchIntro:
@@ -5007,7 +5013,7 @@ Route121_Text_CaleIntro:
 
 	.string "coses?\p"
 
-	.string "I tot i així insistixes que\n"
+	.string "I tot i així insisteixes que\n"
 
 	.string "combatem?$"
 
@@ -5019,13 +5025,13 @@ Route121_Text_CaleDefeat:
 
 
 Route121_Text_CalePostBattle:
-	.string "He comprat massa coses als\n"
+	.string "He comprat massa coses als Grans\n"
 
-	.string "Grans Magatzems de Lilycove.\p"
+	.string "Magatzems de Ciutat Lilycove.\p"
 
 	.string "Són carretera amunt.\n"
 
-	.string "M'agradaria tenir una Bossa com\l"
+	.string "M'agradaria tenir una Motxilla com\l"
 
 	.string "la teva.$"
 
@@ -5121,25 +5127,25 @@ Route123_Text_BraxtonPostBattle:
 Route123_Text_VioletIntro:
 	.string "Diuen que els bons moments estan\n"
 
-	.string "plens de bons aromes.$"
+	.string "plens de bones aromes.$"
 
 
 Route123_Text_VioletDefeat:
 	.string "Oh…\n"
 
-	.string "Sento l'olor amarg de la misèria…$"
+	.string "Sento l'olor amarga de la misèria…$"
 
 
 Route123_Text_VioletPostBattle:
 	.string "El jardí del Mestre de les Baies\n"
 
-	.string "està ple de fragàncies animadores.$"
+	.string "està ple de fragàncies estimulants.$"
 
 
 Route123_Text_CameronIntro:
 	.string "Ser psíquic és qüestió de voluntat.\p"
 
-	.string "M'he obligat a no perdre mai.\n"
+	.string "M'he proposat no perdre contra ningú.\n"
 
 	.string "Això em fa fort!$"
 
@@ -5161,7 +5167,7 @@ Route123_Text_CameronRegister:
 
 	.string "No sé si guanyaré, però…\p"
 
-	.string "Deixa'm veure el teu Pokénav.$"
+	.string "Deixa'm veure el teu PokéGear.$"
 
 
 Route123_Text_CameronRematchIntro:
@@ -5221,7 +5227,7 @@ Route123_Text_JackiRematchDefeat:
 Route123_Text_JackiPostRematch:
 	.string "El teu poder amb els Pokémon…\n"
 
-	.string "Potser és un poder psíquic, també.$"
+	.string "També podria ser un poder psíquic.$"
 
 
 Route123_Text_MiuIntro:
@@ -5275,7 +5281,7 @@ Route123_Text_YukiNotEnoughMons:
 Route123_Text_KindraIntro:
 	.string "Mont Pyre…\n"
 
-	.string "On els esperits Pokémon dormen…\l"
+	.string "On dormen els esperits dels Pokémon…\l"
 
 	.string "Dormiran els teus Pokémon?$"
 
@@ -5287,9 +5293,9 @@ Route123_Text_KindraDefeat:
 Route123_Text_KindraPostBattle:
 	.string "Mont Pyre…\n"
 
-	.string "On els esperits Pokémon dormen…\p"
+	.string "On dormen els esperits dels Pokémon…\p"
 
-	.string "Deu desbordar un poder que\n"
+	.string "Deu estar ple d'un poder que\n"
 
 	.string "apaivaga els esperits…$"
 
@@ -5341,7 +5347,7 @@ Route123_Text_FernandoPostRematch:
 Route123_Text_DavisIntro:
 	.string "Aquest és el meu Pokémon Insecte\n"
 
-	.string "genial! Me'l va donar el meu germà.$"
+	.string "genial! Me'l va donar el meu germà gran.$"
 
 
 Route123_Text_DavisDefeat:
@@ -5459,9 +5465,7 @@ Route123_Text_JonasPostBattle:
 Route123_Text_KayleyIntro:
 	.string "Acabo de comprar aquest para-sol.\n"
 
-	.string "La meva simpatia hauria de pujar\l"
-
-	.string "un terç!$"
+	.string "Ara dec ser un terç més mona!$"
 
 
 Route123_Text_KayleyDefeat:
@@ -5473,7 +5477,7 @@ Route123_Text_KayleyDefeat:
 Route123_Text_KayleyPostBattle:
 	.string "Fer servir bé els accessoris és\n"
 
-	.string "el secret de l'atractiu de moda.$"
+	.string "el secret de l'elegància.$"
 
 
 Route124_Text_SpencerIntro:
@@ -5493,7 +5497,7 @@ Route124_Text_SpencerPostBattle:
 
 	.string "Si ets d'aquests, consulta el\n"
 
-	.string "Mapa del Pokénav.$"
+	.string "Mapa del PokéGear.$"
 
 
 Route124_Text_RolandIntro:
@@ -5501,7 +5505,7 @@ Route124_Text_RolandIntro:
 
 	.string "lloc de nedar tu…\p"
 
-	.string "T'enveig!$"
+	.string "T'envejo!$"
 
 
 Route124_Text_RolandDefeat:
@@ -5521,7 +5525,7 @@ Route124_Text_RolandPostBattle:
 
 
 Route124_Text_JennyIntro:
-	.string "Si simplement flotes al mar així,\n"
+	.string "Si flotes així al mar,\n"
 
 	.string "els Pokémon venen a jugar.$"
 
@@ -5545,7 +5549,7 @@ Route124_Text_JennyPostBattle:
 Route124_Text_JennyRegister:
 	.string "Per caprici, potser faré que em\n"
 
-	.string "registris al teu Pokénav.$"
+	.string "registris al teu PokéGear.$"
 
 
 Route124_Text_JennyRematchIntro:
@@ -5573,17 +5577,17 @@ Route124_Text_GraceIntro:
 
 
 Route124_Text_GraceDefeat:
-	.string "No sabia que ets tan fort!$"
+	.string "No sabia que fossis tan fort!$"
 
 
 Route124_Text_GracePostBattle:
 	.string "Tot l'esforç que hi has posat\n"
 
-	.string "t'ha fet tan fort.$"
+	.string "deu ser el que t'ha fet tan fort.$"
 
 
 Route124_Text_ChadIntro:
-	.string "Fufufufu… Busseig a grans\n"
+	.string "Fufufufu… Bussejo a grans\n"
 
 	.string "profunditats per amagar-me.\l"
 
@@ -5599,9 +5603,9 @@ Route124_Text_ChadDefeat:
 
 
 Route124_Text_ChadPostBattle:
-	.string "M'han dit que hi ha un punt\n"
+	.string "M'han dit que per aquí hi ha un lloc\n"
 
-	.string "de Busseig per aquí.\p"
+	.string "on es pot fer Capbussar.\p"
 
 	.string "Em ve de gust tornar a\n"
 
@@ -5667,7 +5671,7 @@ Route124_Text_LilaRoyRegister:
 
 	.string "nosaltres?\l"
 
-	.string "Però aneu suau, eh?$"
+	.string "Però vés més fluix, eh?$"
 
 
 Route124_Text_RoyNotEnoughMons:
@@ -5699,9 +5703,9 @@ Route124_Text_LilaRematchDefeat:
 Route124_Text_LilaPostRematch:
 	.string "Lila: Ai…\p"
 
-	.string "Si tingués un xicot maco, faríem\n"
+	.string "Si tingués un xicot maco, guanyaríem\n"
 
-	.string "combinacions precioses…$"
+	.string "tothom amb combinacions precioses…$"
 
 
 Route124_Text_LilaRematchNotEnoughMons:
@@ -5713,7 +5717,7 @@ Route124_Text_LilaRematchNotEnoughMons:
 Route124_Text_RoyRematchIntro:
 	.string "Roy: Si perdem, la germana em\n"
 
-	.string "bronca. Hi aniré a tope!$"
+	.string "renyarà. Hi aniré a totes!$"
 
 
 Route124_Text_RoyRematchDefeat:
@@ -5739,7 +5743,7 @@ Route124_Text_RoyRematchNotEnoughMons:
 
 
 Route124_Text_DeclanIntro:
-	.string "Aquí soc nedant tot sol en aquest\n"
+	.string "Aquí em tens, nedant tot sol en aquest\n"
 
 	.string "mar immens i bonic.\p"
 
@@ -5817,7 +5821,7 @@ Route125_Text_TanyaIntro:
 
 
 Route125_Text_TanyaDefeat:
-	.string "Ets massa!$"
+	.string "És massa per a mi!$"
 
 
 Route125_Text_TanyaPostBattle:
@@ -5837,7 +5841,7 @@ Route125_Text_SharonDefeat:
 
 
 Route125_Text_SharonPostBattle:
-	.string "El teu poder… Ets de veritat.\n"
+	.string "El teu poder… Ets un crac.\n"
 
 	.string "Estic impressionada!$"
 
@@ -5845,7 +5849,7 @@ Route125_Text_SharonPostBattle:
 Route125_Text_ErnestIntro:
 	.string "Ei! Soc un Mariner dur i fort!\n"
 
-	.string "He bravejat els mars del món!$"
+	.string "He desafiat els mars del món!$"
 
 
 Route125_Text_ErnestDefeat:
@@ -5857,7 +5861,7 @@ Route125_Text_ErnestDefeat:
 Route125_Text_ErnestPostBattle:
 	.string "La marea puja i baixa dins la\n"
 
-	.string "Cova Bajura.\p"
+	.string "Cova Shoal.\p"
 
 	.string "Per cert, són unes sis hores de\n"
 
@@ -5865,7 +5869,7 @@ Route125_Text_ErnestPostBattle:
 
 
 Route125_Text_ErnestRegister:
-	.string "Registra'm al teu Pokénav\n"
+	.string "Registra'm al teu PokéGear\n"
 
 	.string "i et diré una cosa bona.$"
 
@@ -5873,7 +5877,7 @@ Route125_Text_ErnestRegister:
 Route125_Text_ErnestRematchIntro:
 	.string "Ja és hora que em prengui\n"
 
-	.string "la revenja! Va, combat!$"
+	.string "la revenja! Va, combatem!$"
 
 
 Route125_Text_ErnestRematchDefeat:
@@ -5883,11 +5887,13 @@ Route125_Text_ErnestRematchDefeat:
 
 
 Route125_Text_ErnestRematchPostBattle:
-	.string "La Cova Bajura…\p"
+	.string "La Cova Shoal…\p"
 
-	.string "Hi ha llocs on pots o no pots\n"
+	.string "Segons si la marea puja o baixa,\n"
 
-	.string "accedir segons la marea.\p"
+	.string "hi ha llocs on pots arribar\l"
+
+	.string "i llocs on no.\p"
 
 	.string "Per cert, són unes sis hores de\n"
 
@@ -5897,7 +5903,7 @@ Route125_Text_ErnestRematchPostBattle:
 Route125_Text_KimIntro:
 	.string "Kim: Un vell graciós viu a la Cova\n"
 
-	.string "Bajura. M'ho han dit.\l"
+	.string "Shoal. M'ho han dit.\l"
 
 	.string "Tu també el vas a veure?$"
 
@@ -5909,7 +5915,7 @@ Route125_Text_KimDefeat:
 Route125_Text_KimPostBattle:
 	.string "Kim: Un vell graciós viu a la Cova\n"
 
-	.string "Bajura, oi?\p"
+	.string "Shoal, oi?\p"
 
 	.string "Anem a veure'l, Iris!$"
 
@@ -5927,13 +5933,13 @@ Route125_Text_IrisIntro:
 
 
 Route125_Text_IrisDefeat:
-	.string "Iris: Oh, casi quasi.$"
+	.string "Iris: Oh, ha anat d'un pèl.$"
 
 
 Route125_Text_IrisPostBattle:
 	.string "Iris: Kim, de veritat entrarem a\n"
 
-	.string "la Cova Bajura?\l"
+	.string "la Cova Shoal?\l"
 
 	.string "Ens mullarem.$"
 
@@ -5945,7 +5951,7 @@ Route125_Text_IrisNotEnoughMons:
 
 
 Route125_Text_PresleyIntro:
-	.string "Per què un Criador d'Ocells com jo\n"
+	.string "Per què un Guardià d'Ocells com jo\n"
 
 	.string "sortiria al mar?$"
 
@@ -5973,7 +5979,7 @@ Route125_Text_AuronIntro:
 
 
 Route125_Text_AuronDefeat:
-	.string "Oh, no ets tu qui llençava\n"
+	.string "Oh, no eres tu qui llençava\n"
 
 	.string "escombraries al mar.$"
 
@@ -5989,7 +5995,7 @@ Route125_Text_AuronPostBattle:
 
 
 Route126_Text_BarryIntro:
-	.string "Nedar és un exercici de cos sencer!\n"
+	.string "Nedar és un exercici molt complet!\n"
 
 	.string "Et posaràs en forma!$"
 
@@ -6007,9 +6013,9 @@ Route126_Text_BarryPostBattle:
 
 
 Route126_Text_DeanIntro:
-	.string "Aquesta muntanya blanca de roca\n"
+	.string "Aquesta imponent muntanya de roca\n"
 
-	.string "imponent és Ciutat Sootopolis.$"
+	.string "blanca és Ciutat Sootopolis.$"
 
 
 Route126_Text_DeanDefeat:
@@ -6017,9 +6023,9 @@ Route126_Text_DeanDefeat:
 
 
 Route126_Text_DeanPostBattle:
-	.string "No trobo l'entrada a Sootopolis.\n"
+	.string "No trobo l'entrada a Ciutat\n"
 
-	.string "On deu ser?$"
+	.string "Sootopolis. On deu ser?$"
 
 
 Route126_Text_NikkiIntro:
@@ -6051,7 +6057,7 @@ Route126_Text_BrendaDefeat:
 
 
 Route126_Text_BrendaPostBattle:
-	.string "M'encanta rebolcar-me amb Pokémon\n"
+	.string "M'encanta xipollejar amb els Pokémon\n"
 
 	.string "al mar!$"
 
@@ -6139,7 +6145,7 @@ Route126_Text_IsobelDefeat:
 
 
 Route126_Text_IsobelPostBattle:
-	.string "Ooh, he empassat una mica d'aigua!\n"
+	.string "Ooh, m'he ennuegat amb l'aigua!\n"
 
 	.string "És amarga! És salada!!$"
 
@@ -6153,9 +6159,9 @@ Route126_Text_SiennaDefeat:
 
 
 Route126_Text_SiennaPostBattle:
-	.string "He de refrescar-me ara…\n"
+	.string "Ara m'he de refrescar…\n"
 
-	.string "Crec que bussejaré.$"
+	.string "Crec que em capbussaré.$"
 
 
 Route127_Text_CamdenIntro:
@@ -6169,9 +6175,9 @@ Route127_Text_CamdenDefeat:
 
 
 Route127_Text_CamdenPostBattle:
-	.string "Un bon combat em deixa sentint-me\n"
+	.string "Un combat ben jugat em deixa\n"
 
-	.string "fresc i serè.$"
+	.string "renovat i serè.$"
 
 
 Route127_Text_DonnyIntro:
@@ -6197,7 +6203,7 @@ Route127_Text_JonahIntro:
 
 	.string "calma serena…\p"
 
-	.string "Permeteu-me demostrar-ho…$"
+	.string "Permet-me demostrar-t'ho…$"
 
 
 Route127_Text_JonahDefeat:
@@ -6231,7 +6237,7 @@ Route127_Text_HenryPostBattle:
 Route127_Text_RogerIntro:
 	.string "Ei! Això és un duel entre un fan\n"
 
-	.string "Pokémon i un aficionat de la pesca!$"
+	.string "Pokémon i un aficionat a la pesca!$"
 
 
 Route127_Text_RogerDefeat:
@@ -6259,7 +6265,7 @@ Route127_Text_AidanDefeat:
 
 
 Route127_Text_AidanPostBattle:
-	.string "Hi ha molts punts de busseig\n"
+	.string "Hi ha molts llocs per capbussar-se\n"
 
 	.string "al mar d'aquí.\p"
 
@@ -6271,7 +6277,7 @@ Route127_Text_AidanPostBattle:
 Route127_Text_KojiIntro:
 	.string "Corre descalç.\n"
 
-	.string "Això t'endurarà les plantes!$"
+	.string "Això t'endurirà les plantes dels peus!$"
 
 
 Route127_Text_KojiDefeat:
@@ -6283,7 +6289,9 @@ Route127_Text_KojiDefeat:
 Route127_Text_KojiPostBattle:
 	.string "Anar descalç és genial.\n"
 
-	.string "Però les teves sabatilles també.$"
+	.string "Però les teves Sabatilles de Córrer\l"
+
+	.string "també molen.$"
 
 
 Route127_Text_KojiRegister:
@@ -6295,19 +6303,21 @@ Route127_Text_KojiRegister:
 Route127_Text_KojiRematchIntro:
 	.string "Segueixo corrent descalç cada dia.\n"
 
-	.string "Les meves plantes són dures!$"
+	.string "Tinc les plantes dels peus ben dures!$"
 
 
 Route127_Text_KojiRematchDefeat:
 	.string "Au!\n"
 
-	.string "Se m'han clavat còdols als arcs!$"
+	.string "Se m'han clavat còdols a l'arc del peu!$"
 
 
 Route127_Text_KojiPostRematch:
 	.string "Vols anar descalç una estona?\n"
 
-	.string "Així puc provar les teves sabatilles?$"
+	.string "Així puc provar les teves Sabatilles\l"
+
+	.string "de Córrer?$"
 
 
 Route127_Text_AthenaIntro:
@@ -6323,9 +6333,9 @@ Route127_Text_AthenaDefeat:
 
 
 Route127_Text_AthenaPostBattle:
-	.string "Quan estic envoltada del mar i cel\n"
+	.string "Quan m'envolta el blau del mar i del\n"
 
-	.string "blaus, sembla que el temps s'alenteixi.$"
+	.string "cel, sembla que el temps s'alenteixi.$"
 
 
 Route128_Text_IsaiahIntro:
@@ -6351,7 +6361,7 @@ Route128_Text_IsaiahRegister:
 
 	.string "que algun dia guanyaré.\p"
 
-	.string "Registra'm al teu Pokénav, sisplau.$"
+	.string "Registra'm al teu PokéGear, sisplau.$"
 
 
 Route128_Text_IsaiahRematchIntro:
@@ -6391,9 +6401,9 @@ Route128_Text_KatelynPostBattle:
 
 
 Route128_Text_KatelynRegister:
-	.string "Bé, treure'n el millor. M'agradaria\n"
+	.string "Bé, n'he de treure el millor.\n"
 
-	.string "una revenja algun dia.$"
+	.string "M'agradaria una revenja algun dia.$"
 
 
 Route128_Text_KatelynRematchIntro:
@@ -6453,9 +6463,9 @@ Route128_Text_RubenPostBattle:
 
 
 Route128_Text_WayneIntro:
-	.string "Vull visitar Ever Grande, així que\n"
+	.string "Vull visitar Ciutat EverGrande, així\n"
 
-	.string "he pescat un Pokémon que sap\l"
+	.string "que he pescat un Pokémon que sap\l"
 
 	.string "Cascada per pujar les cascades.$"
 
@@ -6469,13 +6479,13 @@ Route128_Text_WaynePostBattle:
 
 	.string "El meu Pokémon sap Cascada, però\n"
 
-	.string "no tinc la Medalla de Sootopolis!$"
+	.string "no tinc la Medalla de Ciutat Sootopolis!$"
 
 
 Route128_Text_HarrisonIntro:
 	.string "Fas una pinta de molt dur.\n"
 
-	.string "Em pregunto si puc guanyar?$"
+	.string "Podré guanyar-te?$"
 
 
 Route128_Text_HarrisonDefeat:
@@ -6487,7 +6497,7 @@ Route128_Text_HarrisonDefeat:
 Route128_Text_HarrisonPostBattle:
 	.string "Hi ha Entrenadors molt durs\n"
 
-	.string "als voltants d'Ever Grande.\p"
+	.string "als voltants de Ciutat EverGrande.\p"
 
 	.string "Creus que no estic a l'alçada?$"
 
@@ -6581,7 +6591,7 @@ Route129_Text_TishaDefeat:
 
 
 Route129_Text_TishaPostBattle:
-	.string "No t'agrada equivocar-te quan\n"
+	.string "No et fa ràbia equivocar-te quan\n"
 
 	.string "vas amb pressa?\p"
 
@@ -6641,21 +6651,21 @@ Route130_Text_KatieDefeat:
 
 
 Route130_Text_KatiePostBattle:
-	.string "Les criatures del món somien\n"
+	.string "Les criatures del món\n"
 
-	.string "amb arribar a ser\l"
+	.string "somien que algun dia\l"
 
-	.string "el Campió Pokémon.$"
+	.string "seran Campions Pokémon.$"
 
 
 Route130_Text_SantiagoIntro:
 	.string "Flotar al mar obert així…\n"
 
-	.string "És pacífic.$"
+	.string "Quina pau.$"
 
 
 Route130_Text_SantiagoDefeat:
-	.string "Havia de ser menys pacífic!$"
+	.string "Hauria d'haver estat menys pacífic!$"
 
 
 Route130_Text_SantiagoPostBattle:
@@ -6667,7 +6677,7 @@ Route130_Text_SantiagoPostBattle:
 Route131_Text_RichardIntro:
 	.string "El mar és ple de Pokémon.\n"
 
-	.string "No és fàcil nedar, et dic.$"
+	.string "No és fàcil nedar-hi, t'ho asseguro.$"
 
 
 Route131_Text_RichardDefeat:
@@ -6685,7 +6695,7 @@ Route131_Text_RichardPostBattle:
 
 	.string "que costa.\p"
 
-	.string "Em quedarà energia per la\n"
+	.string "Em quedarà energia per a la\n"
 
 	.string "tornada?$"
 
@@ -6703,7 +6713,7 @@ Route131_Text_HermanDefeat:
 
 
 Route131_Text_HermanPostBattle:
-	.string "Estic fart del mar, però nedo.\p"
+	.string "Estic fart del mar, però he de nedar.\p"
 
 	.string "Soc un nedador nat!\n"
 
@@ -6727,7 +6737,7 @@ Route131_Text_SusiePostBattle:
 
 	.string "que està fart del mar?\p"
 
-	.string "Només diu.\n"
+	.string "Només són paraules.\n"
 
 	.string "Està perdudament enamorat del mar!$"
 
@@ -6765,11 +6775,11 @@ Route131_Text_ReliDefeat:
 
 
 Route131_Text_ReliPostBattle:
-	.string "Reli: La gent de Pacifidlog viu\n"
+	.string "Reli: La gent de Poble Pacifidlog viu\n"
 
 	.string "amb el mar i els Pokémon des\l"
 
-	.string "que neixen.$"
+	.string "que neix.$"
 
 
 Route131_Text_ReliNotEnoughMons:
@@ -6827,7 +6837,7 @@ Route131_Text_TaliaPostBattle:
 
 
 Route131_Text_KevinIntro:
-	.string "La gent de Pacifidlog és\n"
+	.string "La gent de Poble Pacifidlog és\n"
 
 	.string "pacífica.\p"
 
@@ -6845,7 +6855,7 @@ Route131_Text_KevinPostBattle:
 
 	.string "No estic enfadat. De veritat!\p"
 
-	.string "Però, noi, ets fort!\n"
+	.string "Però, home, que fort que ets!\n"
 
 	.string "Hahaha!$"
 
@@ -6865,9 +6875,9 @@ Route132_Text_GilbertDefeat:
 Route132_Text_GilbertPostBattle:
 	.string "Els Entrenadors viatgen per camps\n"
 
-	.string "i muntanyes, així que deuen estar\l"
+	.string "i muntanyes, així que també han\l"
 
-	.string "en forma.$"
+	.string "d'estar en forma.$"
 
 
 Route132_Text_DanaIntro:
@@ -6899,7 +6909,7 @@ Route132_Text_RonaldDefeat:
 
 
 Route132_Text_RonaldPostBattle:
-	.string "Mai combat quan sé que guanyaré.\n"
+	.string "No combato mai quan sé que guanyaré.\n"
 
 	.string "M'agrada combatre al límit entre\l"
 
@@ -6949,7 +6959,7 @@ Route132_Text_MakaylaPostBattle:
 Route132_Text_JonathanIntro:
 	.string "Algú m'ha estat observant fixament.\n"
 
-	.string "Eres tu?$"
+	.string "Has estat tu?$"
 
 
 Route132_Text_JonathanDefeat:
@@ -6989,11 +6999,11 @@ Route132_Text_PaxtonPostBattle:
 Route132_Text_DarcyIntro:
 	.string "M'agradava entrenar aquí sola.\n"
 
-	.string "No m'agrada que vingui tanta gent!$"
+	.string "Quin horror, tota aquesta gent!$"
 
 
 Route132_Text_DarcyDefeat:
-	.string "D'acord! No em queixaré de que\n"
+	.string "D'acord! No em queixaré que\n"
 
 	.string "hi hagi altra gent.$"
 
@@ -7005,7 +7015,7 @@ Route132_Text_DarcyPostBattle:
 
 
 Route133_Text_FranklinIntro:
-	.string "El corrent t'ha portat aquí també?\n"
+	.string "També t'ha portat aquí el corrent?\n"
 
 	.string "Devia ser cosa del destí.\l"
 
@@ -7057,7 +7067,7 @@ Route133_Text_LindaDefeat:
 Route133_Text_LindaPostBattle:
 	.string "Un nen Entrenador fort…\n"
 
-	.string "Que molest!$"
+	.string "Quina ràbia!$"
 
 
 Route133_Text_WarrenIntro:
@@ -7077,7 +7087,7 @@ Route133_Text_WarrenPostBattle:
 
 	.string "com vull que no com tothom.\l"
 
-	.string "Vull dir, és obvi!$"
+	.string "Vaja, és evident!$"
 
 
 Route133_Text_BeckIntro:
@@ -7093,13 +7103,13 @@ Route133_Text_BeckDefeat:
 
 
 Route133_Text_BeckPostBattle:
-	.string "M'agradaria tornar a Fortree,\n"
+	.string "M'agradaria tornar a Ciutat Fortree,\n"
 
-	.string "però aquest lloc m'agrada també.$"
+	.string "però aquest lloc també m'agrada.$"
 
 
 Route133_Text_MollieIntro:
-	.string "Dec haver combat milers de\n"
+	.string "Dec haver combatut milers de\n"
 
 	.string "vegades. He perdut el compte.$"
 
@@ -7111,7 +7121,7 @@ Route133_Text_MollieDefeat:
 
 
 Route133_Text_MolliePostBattle:
-	.string "Segueix així, jove. Per arribar\n"
+	.string "Segueix així, jove, i arribaràs\n"
 
 	.string "a ser com el meu marit i jo.$"
 
@@ -7119,17 +7129,17 @@ Route133_Text_MolliePostBattle:
 Route133_Text_ConorIntro:
 	.string "Els joves es deixen portar massa.\n"
 
-	.string "No tenen direcció.$"
+	.string "Van sense rumb.$"
 
 
 Route133_Text_ConorDefeat:
-	.string "Tens un ferm sentit del propòsit.$"
+	.string "Tens les idees molt clares.$"
 
 
 Route133_Text_ConorPostBattle:
 	.string "No deixis que els altres et desviïn.\n"
 
-	.string "No perdis la direcció quan creixis.$"
+	.string "No perdis el rumb quan et facis gran.$"
 
 
 Route134_Text_JackIntro:
@@ -7161,7 +7171,7 @@ Route134_Text_LaurelDefeat:
 Route134_Text_LaurelPostBattle:
 	.string "Hi ha un col·leccionista que busca\n"
 
-	.string "les Escates de Luvdisc.$"
+	.string "les Escates Cor dels Luvdisc.$"
 
 
 Route134_Text_AlexIntro:
@@ -7183,7 +7193,7 @@ Route134_Text_AlexPostBattle:
 Route134_Text_HitoshiIntro:
 	.string "Ets un Entrenador Pokémon.\n"
 
-	.string "No calen paraules. Combat.$"
+	.string "No calen paraules. Combatem.$"
 
 
 Route134_Text_HitoshiDefeat:
@@ -7209,13 +7219,13 @@ Route134_Text_AaronDefeat:
 
 
 Route134_Text_AaronPostBattle:
-	.string "Tornarem a entrenar a Cascada\n"
+	.string "Tornarem a entrenar a la Cascada\n"
 
-	.string "Meteòrica.\p"
+	.string "Meteor.\p"
 
 	.string "Si vols, hauries d'anar-hi també.\n"
 
-	.string "Segur que t'endurarà!$"
+	.string "Segur que t'endurirà!$"
 
 
 Route134_Text_KelvinIntro:
@@ -7235,7 +7245,7 @@ Route134_Text_KelvinPostBattle:
 
 	.string "que tornarem a casa?\p"
 
-	.string "Sé que un Pokémon debilitat pot\n"
+	.string "Sé que un Pokémon desmaiat pot\n"
 
 	.string "fer Surf, però no em sembla bé.$"
 
@@ -7255,7 +7265,7 @@ Route134_Text_MarleyDefeat:
 Route134_Text_MarleyPostBattle:
 	.string "No he perdut la passió per la\n"
 
-	.string "velocitat. Ho intentaré més.$"
+	.string "velocitat. M'hi esforçaré més.$"
 
 
 Route134_Text_ReynaIntro:
@@ -7265,7 +7275,7 @@ Route134_Text_ReynaIntro:
 
 
 Route134_Text_ReynaDefeat:
-	.string "De broma!\n"
+	.string "Estàs de broma!\n"
 
 	.string "Explica'm com he perdut!$"
 
@@ -7287,7 +7297,7 @@ Route134_Text_HudsonIntro:
 
 
 Route134_Text_HudsonDefeat:
-	.string "Això sí que és una cosa!$"
+	.string "Caram, això sí que és bo!$"
 
 
 Route134_Text_HudsonPostBattle:

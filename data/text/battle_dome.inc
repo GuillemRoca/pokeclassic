@@ -2,10 +2,10 @@ BattleDome_Text_Potential1::
 	.string "El millor candidat a campió!$"
 
 BattleDome_Text_Potential2::
-	.string "Equip de finalistes segur.$"
+	.string "Un finalista segur.$"
 
 BattleDome_Text_Potential3::
-	.string "Possible finalista entre els tres millors.$"
+	.string "Probablement quedarà al podi.$"
 
 BattleDome_Text_Potential4::
 	.string "Un candidat a quedar primer.$"
@@ -29,10 +29,10 @@ BattleDome_Text_Potential10::
 	.string "Un equip per sota de la mitjana.$"
 
 BattleDome_Text_Potential11::
-	.string "Un equip que cerca la seva primera victòria.$"
+	.string "Un equip que busca la primera victòria.$"
 
 BattleDome_Text_Potential12::
-	.string "Una victòria omplirà d'orgull aquest equip.$"
+	.string "Una victòria ja l'omplirà d'orgull.$"
 
 BattleDome_Text_Potential13::
 	.string "En general, un equip feble.$"
@@ -41,97 +41,97 @@ BattleDome_Text_Potential14::
 	.string "Un equip amb potencial molt baix.$"
 
 BattleDome_Text_Potential15::
-	.string "Un equip poc probable de guanyar el torneig.$"
+	.string "Un equip amb poques opcions al torneig.$"
 
 BattleDome_Text_Potential16::
-	.string "L'equip amb menys possibilitats de guanyar.$"
+	.string "L'equip amb menys opcions de guanyar.$"
 
 BattleDome_Text_PotentialDomeAceTucker::
-	.string "La superstar perfecta i invencible!$"
+	.string "La superestrella perfecta i invencible!$"
 
 BattleDome_Text_StyleRiskDisaster::
-	.string "De vegades arrisca un desastre total.$"
+	.string "De vegades s'arrisca al desastre total.$"
 
 BattleDome_Text_StyleEndureLongBattles::
-	.string "Habilitat per aguantar llargues batalles.$"
+	.string "Aguanta bé els combats llargs.$"
 
 BattleDome_Text_StyleVariesTactics::
 	.string "Varia les tàctiques segons l'oponent.$"
 
 BattleDome_Text_StyleToughWinningPattern::
-	.string "Té un patró de victòria difícil de batre.$"
+	.string "Té una estratègia guanyadora sòlida.$"
 
 BattleDome_Text_StyleUsesVeryRareMove::
 	.string "De vegades usa un moviment molt rar.$"
 
 BattleDome_Text_StyleUsesStartlingMoves::
-	.string "Usa moviments sorprenents i disruptius.$"
+	.string "Usa moviments sorprenents i molestos.$"
 
 BattleDome_Text_StyleConstantlyWatchesHP::
-	.string "Vigila constantment els PS en batalla.$"
+	.string "Vigila constantment els PS en combat.$"
 
 BattleDome_Text_StyleStoresAndLoosesPower::
-	.string "Habilitat per acumular i alliberar poder.$"
+	.string "Sap acumular poder i alliberar-lo.$"
 
 BattleDome_Text_StyleEnfeeblesFoes::
-	.string "Habilitat per debilitar els rivals.$"
+	.string "Sap debilitar els rivals.$"
 
 BattleDome_Text_StylePrefersLuckTactics::
-	.string "Prefereix tàctiques que depenen de la sort.$"
+	.string "Prefereix les tàctiques d'atzar.$"
 
 BattleDome_Text_StyleRegalAtmosphere::
-	.string "Ataca amb una atmosfera règia.$"
+	.string "Ataca amb un aire majestuós.$"
 
 BattleDome_Text_StylePowerfulLowPPMoves::
-	.string "Ataca amb moviments potents i poc PP.$"
+	.string "Ataca amb moviments potents i pocs PU.$"
 
 BattleDome_Text_StyleEnfeebleThenAttack::
-	.string "Habilitat per debilitar i llavors atacar.$"
+	.string "Debilita els rivals i després ataca.$"
 
 BattleDome_Text_StyleBattlesWhileEnduring::
-	.string "Batalla aguantant tots els atacs.$"
+	.string "Combat resistint tots els atacs.$"
 
 BattleDome_Text_StyleUpsetsFoesEmotionally::
-	.string "Habilitat per desconcertar els rivals.$"
+	.string "Sap desconcertar els rivals.$"
 
 BattleDome_Text_StyleStrongAndStraightforward::
 	.string "Usa moviments forts i directes.$"
 
 BattleDome_Text_StyleAggressivelyStrongMoves::
-	.string "Usa moviments forts de forma agressiva.$"
+	.string "Usa moviments forts amb agressivitat.$"
 
 BattleDome_Text_StyleCleverlyDodgesAttacks::
-	.string "Batalla esquivant atacs hàbilment.$"
+	.string "Combat esquivant hàbilment els atacs.$"
 
 BattleDome_Text_StyleUsesUpsettingMoves::
-	.string "Habilitat per usar atacs desconcertants.$"
+	.string "Sap fer servir atacs desconcertants.$"
 
 BattleDome_Text_StyleUsesPopularMoves::
 	.string "Usa molts moviments populars.$"
 
 BattleDome_Text_StyleHasPowerfulComboMoves::
-	.string "Té moviments per fer combinacions potents.$"
+	.string "Té moviments que combinen amb força.$"
 
 BattleDome_Text_StyleUsesHighProbabilityMoves::
 	.string "Usa atacs d'alta probabilitat.$"
 
 BattleDome_Text_StyleAggressivelySpectacularMoves::
-	.string "Usa moviments espectaculars agressivament.$"
+	.string "Ataca amb moviments espectaculars.$"
 
 BattleDome_Text_StyleEmphasizesOffenseOverDefense::
-	.string "Prioritza l'ofensa per sobre la defensa.$"
+	.string "Prioritza l'atac sobre la defensa.$"
 
 BattleDome_Text_StyleEmphasizesDefenseOverOffense::
-	.string "Prioritza la defensa per sobre l'ofensa.$"
+	.string "Prioritza la defensa sobre l'atac.$"
 
 BattleDome_Text_StyleAttacksQuicklyStrongMoves::
 	.string "Ataca ràpidament amb moviments forts.$"
 
 BattleDome_Text_StyleUsesAddedEffectMoves::
-	.string "Sovint usa moviments amb efectes addicionals.$"
+	.string "Sol usar moviments amb efectes extra.$"
 
 BattleDome_Text_StyleUsesBalancedMixOfMoves::
-	.string "Usa una combinació equilibrada de moviments.$"
+	.string "Usa moviments variats i equilibrats.$"
 
 BattleDome_Text_StyleSampleMessage1::
 	.string "Missatge de mostra 1.$"
@@ -275,25 +275,25 @@ BattleDome_Text_RaisesMonsWellBalanced::
 	.string "Cria Pokémon de forma equilibrada.$"
 
 BattleDome_Text_LetTheBattleBegin::
-	.string "Que comenci la batalla!$"
+	.string "Que comenci el combat!$"
 
 BattleDome_Text_TrainerWonUsingMove::
-	.string "{STR_VAR_1} ha guanyat amb {STR_VAR_2}!$"
+	.string "{STR_VAR_1} guanya amb {STR_VAR_2}!$"
 
 BattleDome_Text_TrainerBecameChamp::
-	.string "{STR_VAR_1} s'ha convertit en el campió!$"
+	.string "{STR_VAR_1} es proclama campió!$"
 
 BattleDome_Text_TrainerWonByDefault::
-	.string "{STR_VAR_1} ha guanyat per defecte!$"
+	.string "{STR_VAR_1} guanya per abandonament!$"
 
 BattleDome_Text_TrainerWonOutrightByDefault::
-	.string "{STR_VAR_1} ha guanyat directament per defecte!$"
+	.string "{STR_VAR_1} és campió per abandonament!$"
 
 BattleDome_Text_TrainerWonNoMoves::
-	.string "{STR_VAR_1} ha guanyat sense usar cap moviment!$"
+	.string "{STR_VAR_1} guanya sense moviments!$"
 
 BattleDome_Text_TrainerWonOutrightNoMoves::
-	.string "{STR_VAR_1} ha guanyat directament sense moviments!$"
+	.string "{STR_VAR_1} és campió sense moviments!$"
 
 BattleDome_Text_Round1Match1::
 	.string "Ronda 1, Combat 1$"

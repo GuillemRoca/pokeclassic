@@ -53,7 +53,7 @@ gTrickHouse_Mechadoll_Carvanha::
 	.string "Carvanha$"
 
 gTrickHouse_Mechadoll_BurnHeal::
-	.string "Remei Cremada$"
+	.string "Cura Cremades$"
 
 gTrickHouse_Mechadoll_HarborMail::
 	.string "Carta Port$"
