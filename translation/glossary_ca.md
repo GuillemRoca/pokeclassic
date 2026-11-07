@@ -467,6 +467,11 @@ _(La llista completa de decisions per espècie es completarà durant la Fase 2, 
 | HM (icona) | MO | Motxilla |
 | TYPE / POWER / ACCURACY | TIPUS / POTÈNCIA / PRECISIÓ | Informació de les MT |
 | SPICY, DRY, SWEET, BITTER, SOUR | PICANT, SEC, DOLÇ, AMARG, ÀCID | Etiqueta de les baies |
+| KANTO MAP, CELL PHONE, CONDITION, RIBBONS, SWITCH OFF | MAPA DE KANTO, TELÈFON, CONDICIÓ, CINTES, GUARDAR | PokéGear ("Guarda el PokéGear") |
+| MAIN MENU / FULL VIEW / ZOOM VIEW | MENÚ PRINCIPAL / MAPA COMPLET / MAPA AMPLIAT | Capçaleres del PokéGear |
+| COOL, BEAUTY, CUTE, SMART, TOUGH | FRESCOR, BELLESA, TENDRESA, INTEL·LIGÈNCIA (INTEL. on no hi cap), FORÇA | Condició i concursos |
+| POKéMON CENTER, POKé MART, POKéMON GYM, BATTLE TENT, POKéMON CONTEST | CENTRE POKéMON, BOTIGA POKéMON, GIMNÀS POKéMON, CARPA DE COMBAT, CONCURS POKéMON | Llegenda del mapa ampliat |
+| FEEL / UP / DOWN | SUAV. / PUJA / BAIXA | Estoig {POKEBLOCK} i pantalla d'alimentar |
 
 ### Medalles i Líders
 

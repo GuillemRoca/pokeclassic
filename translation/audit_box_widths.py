@@ -38,12 +38,17 @@ CFG = [
 #   4-line move description: summary screen PSS_LABEL_PANE_LEFT_MOVE, w=14 (112px),
 #                            printed at x=2, FONT_NORMAL -> 110
 #   2-line move description: Move Relearner window 0, w=16 (128px), FONT_NARROW -> 128
+#   PokéGear option descriptions: sOptionDescWindowTemplate, centred in 192 px, FONT_NORMAL
+POKEGEAR_DESC = ('gText_(?:CheckMapOfHoenn|CallRegisteredTrainer|DexNavDescription|CheckPokemonInDetail|'
+                 'CheckObtainedRibbons|PutAwayPokenav|CheckPartyPokemonInDetail|CheckAllPokemonInDetail|'
+                 'ReturnToPokenavMenu|Find\\w+Pokemon|ReturnToConditionMenu|NoRibbonWinners)')
 NAMED_CFG = [
     ('src/data/text/move_descriptions.h', r'sMoveFourLineDescription_\w+', 110, W_NORMAL, '4-line move desc'),
     ('src/data/text/move_descriptions.h', r'(?!sMoveFourLine)s\w+Description', 128, W_NARROW, '2-line move desc'),
+    ('src/strings.c', POKEGEAR_DESC, 192, W_NORMAL, 'PokéGear option desc'),
 ]
 
-NAMED_RE = r'static const u8 ({})\[\]\s*=\s*_\(\s*((?:"(?:[^"\\]|\\.)*"\s*)+)\);'
+NAMED_RE = r'(?:static )?const u8 ({})\[\]\s*=\s*_\(\s*((?:"(?:[^"\\]|\\.)*"\s*)+)\);'
 
 
 def named_blocks(text, name_re):

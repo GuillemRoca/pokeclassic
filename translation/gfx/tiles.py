@@ -500,3 +500,80 @@ def restyle(px, box, text, font, ink, edge, rule, align='center', top=None, x=No
     for q, v in img.items():
         px[q] = v
     return w
+
+
+class TileMapView:
+    """Screen pixels of a tilemap region, read from and written to the sheet's tiles
+    (flips honoured). Only use it where every tile is shown once (see usage)."""
+    def __init__(self, sheet, ents, cx0, cy0, wc, hc, base=0, width=32):
+        self.s, self.e, self.cx0, self.cy0, self.base, self.mw = sheet, ents, cx0, cy0, base, width
+        self.w, self.h = wc * 8, hc * 8
+
+    def _map(self, q):
+        x, y = q
+        if not (0 <= x < self.w and 0 <= y < self.h):
+            raise IndexError(q)
+        e = self.e[(self.cy0 + y // 8) * self.mw + self.cx0 + x // 8]
+        t = (e & 0x3FF) - self.base
+        tx, ty = x % 8, y % 8
+        if e & 0x400: tx = 7 - tx
+        if e & 0x800: ty = 7 - ty
+        return (t % self.s.tw) * 8 + tx, (t // self.s.tw) * 8 + ty
+
+    def __getitem__(self, q):
+        return self.s.px[self._map(q)]
+
+    def __setitem__(self, q, v):
+        self.s.px[self._map(q)] = v
+
+
+INK, SHADOW = 1, 2
+
+
+def bar_label(view, body, text, font=None, align='center', x_left=None, border=None, cap_top=None):
+    """Rewrite a FONT_NORMAL-style label (ink 1, shadow 2) on a bar, in place.
+
+    The new text keeps the old centre (or left edge), moves a row down or up when
+    an accent or a cedilla would leave the bar, and must fit in `body`.
+    border: (rows, colour) outside the bar the English ink spills into."""
+    font = font or Font('normal')
+    x0, y0, x1, y1 = body
+    if border:
+        rows, colour = border
+        for x in range(x0, x1 + 1):
+            for y in rows:
+                if view[x, y] in (INK, SHADOW):
+                    view[x, y] = colour
+    pts = [(x, y) for x in range(x0, x1 + 1) for y in range(y0, y1 + 1) if view[x, y] == INK]
+    if not pts:
+        raise ValueError(f'no label in {body}')
+    old_l, old_r = min(x for x, _ in pts), max(x for x, _ in pts)
+    cap_top = min(y for _, y in pts) if cap_top is None else cap_top
+    vs = [view[x, y] for x in range(x0, x1 + 1) for y in range(cap_top, cap_top + 9) if view[x, y] not in (INK, SHADOW)]
+    bg = max(set(vs), key=vs.count)
+    for x in range(x0, x1 + 1):
+        for y in range(y0, y1 + 1):
+            if view[x, y] in (INK, SHADOW):
+                view[x, y] = bg
+    glyphs = [font.glyph(c) for c in text]
+    rows = [j for g, _ in glyphs for j, r in enumerate(g) if 1 in r]
+    w = sum(gw for _, gw in glyphs)
+    y = cap_top - 3                      # FONT_NORMAL/NARROW capitals start at glyph row 3
+    y = max(y, y0 - min(rows))           # accents inside the bar
+    y = min(y, y1 - max(rows))           # cedillas inside the bar
+    if align == 'left':
+        x = old_l if x_left is None else x_left
+    else:
+        x = round((old_l + old_r + 1) / 2 - w / 2)
+    if x < x0 or x + w - 1 > x1 + 1:
+        raise ValueError(f'{text!r} ({w}px) does not fit in {body}')
+    for g, gw in glyphs:
+        for j in range(16):
+            for i in range(gw):
+                v = g[j][i]
+                q = (x + i, y + j)
+                if v in (1, 2) and x0 <= q[0] <= x1 and y0 <= q[1] <= y1:
+                    view[q] = INK if v == 1 else SHADOW
+        x += gw
+    return w
+

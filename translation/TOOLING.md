@@ -103,6 +103,9 @@ python3 translation/audit_box_widths.py -v              # every overflowing stri
 python3 translation/audit_box_widths.py dump over.json  # JSON, for scripted re-wrapping
 ```
 
+It also checks the PokéGear option descriptions (`sOptionDescWindowTemplate`,
+centred in 192 px), which once lost their first letter.
+
 ### How widths are measured
 
 - Glyph widths come from `src/fonts.c`, bytes from `charmap.txt`. The escaped
@@ -231,6 +234,9 @@ out the original files from `origin/main` and run the scripts in this order
 | `make_trainer_card.py ROOT` | `trainer_card/card.png` | TARGETA D'ENTRENADOR (in tiles 128-138: tile 139 is both end caps), MEDALLES |
 | `make_bag_shop.py ROOT` | `bag/hm.png`, `shop/money.png`, `bag/check_berry.png` | MO, DINERS, flavours PICANT · SEC · DOLÇ · AMARG · ÀCID |
 | `make_menu_info.py ROOT` | `interface/menu_info.png` | move-info type icons (same labels as the badges); TIPUS, POTÈNCIA, PRECISIÓ, PP, EFECTE |
+| `make_pokegear.py ROOT` | `pokenav/options/*.png`, `pokenav/left_headers/*.png`, `city_zoom_text.png`, `condition/cancel.png` | PokéGear: MAPA DE KANTO, TELÈFON, CONDICIÓ, CINTES, GUARDAR, EQUIP POKéMON, CERCA, TORNAR, FRESCOR, BELLESA, TENDRESA, INTEL·LIGÈNCIA, FORÇA; headers MENÚ PRINCIPAL, CONDICIÓ, TELÈFON, CINTES, MAPA + COMPLET / AMPLIAT, EQUIP, CERCA, INTEL.; map legend CENTRE / BOTIGA / GIMNÀS / CONCURS POKéMON, CARPA DE COMBAT; tag TORNA |
+| `make_condition_graph.py ROOT` | `pokenav/condition/graph.png`, `pokeblock/use_screen/graph.png` | condition pentagon FRESCOR, BELLESA, TENDRESA, INTEL., FORÇA (old labels filled in from the picture around them) |
+| `make_pokeblock.py ROOT` | `pokeblock/menu.png`, `use_screen/condition.png`, `use_screen/updown.png` | SUAV., CONDICIÓ, PUJA / BAIXA |
 
 `tiles.py` holds what the scripts share: tilemap usage (a label may only be
 redrawn in tiles nothing else shows), views that put sprite or tilemap tiles
