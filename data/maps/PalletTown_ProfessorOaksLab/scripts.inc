@@ -636,7 +636,7 @@ PalletTown_ProfessorOaksLab_Text_OakHaveSomethingForMe::
 	.string "Tens alguna cosa per a mi?$"
 
 PalletTown_ProfessorOaksLab_Text_DeliveredOaksParcel::
-	.string "{PLAYER} ha lliurat el Paquet Oak.$"
+	.string "{PLAYER} ha lliurat el Paquet d'Oak.$"
 
 PalletTown_ProfessorOaksLab_Text_OakCustomBallIOrdered::
     .string "Ah! \n"

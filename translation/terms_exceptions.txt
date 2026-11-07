@@ -1,0 +1,33 @@
+# Messages that mention an English name without using the Catalan table name,
+# each reviewed by hand. Format: file|label|english name   # reason
+
+# The English word is used in its ordinary sense, not as the move/ability/item
+data/maps/BattleFrontier_OutsideWest/scripts.inc|BattleFrontier_OutsideWest_Text_MetOlderGirlAtPike|Crunch   # "Crunch, crunch..." eating sound
+data/maps/CeruleanCity_Gym/scripts.inc|CeruleanCity_Gym_Text_LuisIntro|Splash   # swimmer diving in: "Xap!"
+data/maps/Route20/scripts.inc|Route20_Text_BarryDefeat|Splash   # swimmer: "Xap!"
+data/text/contest_strings.inc|gText_AnticipationSwelledForMonsAppealNext2|Anticipation   # "expectació" of the audience
+data/text/contest_strings.inc|gText_AnticipationSwelledForMonsAppealNext|Anticipation   # idem
+data/text/contest_strings.inc|gText_AnticipationRoseForUpcomingAppeals|Anticipation   # idem
+data/text/trainers.inc|Route119_Text_BrentIntro|Mimic   # the "Mimic Circle" troupe: "Cercle Mim"
+data/text/trainers.inc|Route119_Text_DougPostBattle|Mimic   # idem
+data/text/trainers.inc|Route119_Text_KentPostBattle|Mimic   # idem
+src/data/text/move_descriptions.h|sSludgeDescription|Sludge   # the substance: "fang tòxic"
+src/data/text/move_descriptions.h|sSludgeBombDescription|Sludge   # idem
+src/data/text/move_descriptions.h|sMoveFourLineDescription_Barrage|Round   # "round objects": "objectes rodons"
+data/maps/BattleFrontier_Lounge2/scripts.inc|BattleFrontier_Lounge2_Text_ArenaTycoonSilverMons|Moonlight   # Umbreon's Pokédex category "Llum Lluna", not the move
+data/maps/BattleFrontier_Lounge2/scripts.inc|BattleFrontier_Lounge2_Text_ArenaTycoonGoldMons|Moonlight   # idem
+
+# Real game cartridges: product names stay in English in the link/contest texts,
+# because "Mode E" (Emerald Mode) is named after one of them
+data/scripts/contest_hall.inc|LilycoveCity_ContestLobby_Text_ExplainLinkContest|Sapphire
+data/scripts/contest_hall.inc|LilycoveCity_ContestLobby_Text_ExplainEMode|Sapphire
+data/scripts/contest_hall.inc|LilycoveCity_ContestLobby_Text_ExplainGMode|Sapphire
+data/text/cable_club.inc|CableClub_Text_CantMixWithJapaneseGame|Sapphire
+src/berry_fix_program.c|sText_BerryProgramWillBeUpdatedPressA|Sapphire
+src/berry_fix_program.c|sText_TurnOffPowerHoldingStartSelect|Sapphire
+src/berry_fix_program.c|sText_PleaseFollowInstructionsOnScreen|Sapphire
+
+# Shortened because the context already names it, or the window is small
+data/maps/BattleFrontier_ExchangeServiceCorner/scripts.inc|BattleFrontier_ExchangeServiceCorner_Text_ConfirmSPATKCandy|Sp.Atk Candy   # "Caramel At.Esp." spelled out vs table "Caram.AtcEsp"
+data/maps/BattleFrontier_ReceptionGate/scripts.inc|BattleFrontier_ReceptionGate_Text_HoldItemsInfo|Battle Frontier   # said at the Frontier gate: "En entrar a un desafiament"
+src/strings.c|gText_SelectPokedexListingMode|Pokédex   # Pokédex menu help line

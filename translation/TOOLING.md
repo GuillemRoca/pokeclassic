@@ -9,9 +9,22 @@ python3 translation/check_name_limits.py     # build-breaking: names vs array bo
 python3 translation/audit_box_widths.py      # cosmetic: C strings vs their window
 python3 translation/audit_script_widths.py   # cosmetic: script dialogue vs message box
 python3 translation/check_english.py         # English left in the translated text
+python3 translation/check_terms.py           # same thing, same Catalan name, in every file
 ```
 
-All four exit non-zero when something is wrong, so they can be wired into CI.
+All five exit non-zero when something is wrong, so they can be wired into CI.
+
+## `check_terms.py` — one name per thing, in every file
+
+Builds English→Catalan pairs from the game's own tables (item, move and
+ability names, region-map names) plus fixed glossary terms (Centre Pokémon,
+Equip Rocket, Medalla, PokéGear…). For every translated message whose English
+mentions one of those names, the Catalan must use the agreed name. It knows
+that table names are abbreviated to fit ("Camp. Closca" matches "Campana
+Closca"), ignores accents and elision, and accepts the short forms listed in
+`ALIASES` ("la Torre", "Gimnàs de Viridiana"). Reviewed exceptions — the
+English word used in another sense ("Crunch, crunch…"), real cartridge names
+in the link texts — are in `terms_exceptions.txt` with the reason.
 
 ## `check_english.py` — English left in the text
 

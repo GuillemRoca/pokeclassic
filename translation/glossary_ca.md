@@ -166,7 +166,7 @@ i els directoris dels grans magatzems han de coincidir.
 
 Aquests són els noms complets, els dels diàlegs. La taula de classes
 (`trainer_class_names.h`) té un límit de 12 bytes i n'usa formes abreujades
-quan cal: Entr. {PKMN}, Entr. Cool, Cint. Negre, Guard.Ocells, Dom. Dragons,
+quan cal: Entr. {PKMN}, Entr. Guai, Cint. Negre, Guard.Ocells, Dom. Dragons,
 Noia Combat, Col·leccion., Germ. Germà, Maj. i Menor, Mestra Saló, Virt. Palau,
 Magnat Arena, Cap Fàbrica, Reina Llança, Rei Piràmide.
 
@@ -181,7 +181,7 @@ Magnat Arena, Cap Fàbrica, Reina Llança, Rei Piràmide.
 | Sailor | Mariner |
 | Biker | Motorista |
 | Burglar | Lladre |
-| Cooltrainer | Entrenador Cool |
+| Cooltrainer | Entrenador Guai |
 | Expert | Expert |
 | Gentleman | Senyor |
 | Black Belt | Cinturó Negre |
@@ -198,6 +198,9 @@ Magnat Arena, Cap Fàbrica, Reina Llança, Rei Piràmide.
 | Beauty | Bellesa |
 | Lady | Senyoreta |
 | Rich Boy | Nen Ric |
+| Parasol Lady | Senyoreta Para-sol (Sny.Para-sol) |
+| Pokémon Ranger | Guarda Pokémon |
+| Cool Couple | Parella Guai |
 | Pokéfan | Pokéfan |
 | Pokémaniac | Pokémaniàtic |
 | Triathlete | Triatleta |
@@ -408,6 +411,8 @@ _(La llista completa de decisions per espècie es completarà durant la Fase 2, 
 | slots (slot machines) | escurabutxaques | |
 | Elite (adjectiu) | d'elit | "Elite Four" continua sent Alt Comandament. |
 | Speaker tags | Oak:, Bill:, Mare: | Capitalització normal, no "OAK:". |
+| Game cartridges | Ruby, Sapphire, Emerald | Noms de producte: es mantenen als textos de connexió i concursos (el "Mode E" ve d'Emerald). Les disfresses i les paraules d'easy chat sí que es tradueixen (Robí, Safir, Maragda). |
+| Oak's Parcel / S.S. Ticket | Paquet d'Oak / Bitllet SS | |
 | flinch | retrocedir | "Pot fer retrocedir", "ha retrocedit!" (no "encongir"). |
 | Wild / Foe (prefix) | … salvatge / … rival | Darrere del nom: "Pidgey salvatge". El codi l'afegeix com a sufix. |
 | type names (6 bytes) | Insec., Fant., Elèc., Psíq., Volant | Abreviatures amb punt; al text, el nom complet (tipus Fantasma). |

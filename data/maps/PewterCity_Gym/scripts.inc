@@ -108,7 +108,7 @@ PewterCity_Gym_Text_ExplainTM::
 	.string "una tècnica per a Pokémon.\p"
 	.string "Usar una MT ensenya el moviment\n"
 	.string "que conté a un Pokémon.\p"
-	.string "La MT39 conté Tomba Roca.\p"
+	.string "La MT39 conté Tomba de Roca.\p"
 	.string "Llança roques a l'enemic i\n"
 	.string "li baixa la Velocitat.$"
 

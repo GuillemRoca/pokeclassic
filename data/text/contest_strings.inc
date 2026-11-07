@@ -364,7 +364,7 @@ gText_Conversion::
 	.string "Conversió$"
 
 gText_SunnyDay::
-	.string "Dia Clar$"
+	.string "Dia Assolellat$"
 
 gText_Rest2::
 	.string "Descans$"
@@ -373,10 +373,10 @@ gText_Vicegrip::
 	.string "Presa Forta$"
 
 gText_DefenseCurl::
-	.string "Enduriment$"
+	.string "Arrupit$"
 
 gText_LockOn::
-	.string "Punt de Mira$"
+	.string "Apuntar$"
 
 @ Contest type names
 

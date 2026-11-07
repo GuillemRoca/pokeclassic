@@ -347,7 +347,7 @@ VermilionCity_Text_DoYouHaveATicket::
     .string "Disculpa, tens un bitllet?$"
 
 VermilionCity_Text_FlashedSSTicket::
-    .string "{PLAYER} ha ensenyat el Bitllet S.S.!$"
+    .string "{PLAYER} ha ensenyat el Bitllet SS!$"
 
 VermilionCity_Text_SailorGreat::
     .string "Mariner: Genial!\n"
@@ -389,7 +389,7 @@ VermilionCity_EventScript_NoTicket::
 
 VermilionCity_Text_DontHaveNeededSSTicket::
     .string "Ho sento!\p"
-    .string "Necessites el Bitllet S.S. per\n"
+    .string "Necessites el Bitllet SS per\n"
     .string "pujar a bord.$"
 
 VermilionCity_EventScript_MoveSailor1::

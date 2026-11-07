@@ -621,7 +621,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice11Reject::
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_Apprentice12Intro::
 	.string "Ei, estic a tope de ritme!\n"
 	.string "Pokémon, sota el meu control!\p"
-	.string "Soc {STR_VAR_3}, el Mariner rapper.\n"
+	.string "Soc {STR_VAR_3}, el Mariner raper.\n"
 	.string "No em confonguis amb un ploramiques!\p"
 	.string "Soc l'aprenent núm. {STR_VAR_2}\n"
 	.string "de {STR_VAR_1}. No em subestimis!$"
@@ -1325,7 +1325,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyIntro::
 	.string "Hola!\n"
-	.string "Soc la Senyoreta Parasol {STR_VAR_1}!$"
+	.string "Soc la Senyoreta Para-sol {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyMon1::
 	.string "M'escorten el meu {STR_VAR_2}\n"
@@ -1414,7 +1414,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CollectorReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMIntro::
 	.string "Hola, soc {STR_VAR_1}.\n"
-	.string "Soc un Ranger Pokémon.$"
+	.string "Soc un Guarda Pokémon.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMMon1::
 	.string "M'acompanyen un\n"
@@ -1435,7 +1435,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerMReject::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFIntro::
 	.string "Em dic {STR_VAR_1}.\n"
-	.string "Soc una Ranger Pokémon!$"
+	.string "Soc una Guarda Pokémon!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PkmnRangerFMon1::
 	.string "Deixa'm parlar del meu equip. Tinc\n"
@@ -1498,7 +1498,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_RuinManiacReject::
 	.string "Crec que els meus Pokémon són forts…$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMIntro::
-	.string "Soc l'Entrenador Cool {STR_VAR_1}!$"
+	.string "Soc l'Entrenador Guai {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMMon1::
 	.string "Els Pokémon que tinc ara són un\n"
@@ -1519,7 +1519,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerMReject::
 	.string "el millor equip de la història.$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFIntro::
-	.string "Soc l'Entrenadora Cool {STR_VAR_1}!$"
+	.string "Soc l'Entrenadora Guai {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_CoolTrainerFMon1::
 	.string "L'equip que he estat criant té un\n"

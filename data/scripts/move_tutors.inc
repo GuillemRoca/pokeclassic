@@ -291,7 +291,7 @@ MoveTutor_Text_SeismicTossTeach::
     .string "a estudiar més, no a llançar la\l"
     .string "tovallola.\p"
     .string "L'única cosa que hauries de llançar…\p"
-    .string "Què tal Llançament Sísmic?\n"
+    .string "Què tal Tir Sísmic?\n"
     .string "L'he d'ensenyar a un Pokémon?$"
 
 MoveTutor_EventScript_SeismicTossDeclined::
@@ -305,7 +305,7 @@ MoveTutor_Text_SeismicTossDeclined::
 
 MoveTutor_Text_SeismicTossWhichMon::
     .string "Quin Pokémon vol aprendre\n"
-    .string "Llançament Sísmic?$"
+    .string "Tir Sísmic?$"
 
 MoveTutor_EventScript_SeismicTossTaught::
 	msgbox MoveTutor_Text_SeismicTossTaught, MSGBOX_DEFAULT

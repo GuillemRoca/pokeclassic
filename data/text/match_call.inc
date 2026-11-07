@@ -316,7 +316,7 @@ MatchCall_Text_Rival6::
 MatchCall_Text_Rival7::
 	.string "{RIVAL}: No puc parlar, {PLAYER}.\p"
 	.string "M'estic enfrontant a uns\n"
-	.string "Entrenadors Cool.\p"
+	.string "Entrenadors Guais.\p"
 	.string "Sí, són dos contra un.\p"
 	.string "Aquests sempre els guanyo.$"
 
@@ -662,7 +662,7 @@ MatchCall_Text_Bill1::
 MatchCall_Text_Bill2::
 	.string "Bill: Oh, ei, {PLAYER}!\p"
 	.string "Has acabat fent servir\n"
-	.string "el Bitllet S.S.?\p"
+	.string "el Bitllet SS?\p"
 	.string "Ah sí? Com va anar?\p"
 	.string "Ha! Mentre tu t'acostumaves al mar,\n"
 	.string "a mi se m'han acudit\l"
@@ -1286,13 +1286,13 @@ MatchCall_PersonalizedText20::
 	.string "Hola, soc {STR_VAR_1}…\p"
 	.string "Estic una mica farta\n"
 	.string "d'això de l'Entrenadora\l"
-	.string "Cool…\p"
+	.string "Guai…\p"
 	.string "Tothom pensa que soc\n"
 	.string "una Entrenadora perfecta,\l"
 	.string "i això m'obliga a estar\l"
 	.string "a l'alçada.\p"
 	.string "Però suposo que és el que\n"
-	.string "té ser una Entrenadora Cool.\p"
+	.string "té ser una Entrenadora Guai.\p"
 	.string "Hauré de posar-me les piles…\n"
 	.string "i posar bona cara.\p"
 	.string "Ets l'única persona a qui\n"

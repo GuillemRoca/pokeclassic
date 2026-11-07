@@ -73,7 +73,7 @@ SaffronCity_CopycatsHouse_2F_EventScript_Computer::
 SaffronCity_CopycatsHouse_2F_Text_MySecrets::
     .string "…\p"
     .string "Els meus secrets!\p"
-    .string "Habilitat: Imitació!\n"
+    .string "Habilitat: Mimetisme!\n"
     .string "Afició: Col·leccionar nines!\l"
     .string "Pokémon preferit: Clefairy!$"
 

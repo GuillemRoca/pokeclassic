@@ -1470,8 +1470,8 @@ static const u8 sDomeFossilDesc[] = _(
     "marí antic.");
 
 static const u8 sSilphScopeDesc[] = _(
-    "El visor de Silph\n"
-    "fa visibles els\n"
+    "Visor de Silph S.A.\n"
+    "que fa visibles els\n"
     "Pokémon invisibles.");
 
 static const u8 sBicycleDesc[] = _(
@@ -1532,7 +1532,7 @@ static const u8 sMysticTicketDesc[] = _(
 static const u8 sAuroraTicketDesc[] = _(
     "Bitllet per\n"
     "embarcar al vaixell\n"
-    "cap a l'Illa Birth.");
+    "a l'Illa Naixement.");
 
 static const u8 sPowderJarDesc[] = _(
     "Guarda la Pols de\n"

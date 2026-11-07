@@ -4197,7 +4197,7 @@ Route119_Text_JacksonIntro:
 
 	.string "per sobreviure?\p"
 
-	.string "Els Rangers Pokémon, vet aquí!$"
+	.string "Els Guardes Pokémon, vet aquí!$"
 
 
 Route119_Text_JacksonDefeat:

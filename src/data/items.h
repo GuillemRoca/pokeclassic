@@ -2820,7 +2820,7 @@ const struct Item gItems[] =
 
     [ITEM_SS_TICKET] =
     {
-        .name = _("Bitllet S.S."),
+        .name = _("Bitllet SS"),
         .itemId = ITEM_SS_TICKET,
         .price = 0,
         .description = sSSTicketDesc,
@@ -3833,7 +3833,7 @@ const struct Item gItems[] =
 
     [ITEM_OAKS_PARCEL] =
     {
-        .name = _("Paquet Oak"),
+        .name = _("Paquet d'Oak"),
         .itemId = ITEM_OAKS_PARCEL,
         .price = 0,
         .description = sOaksParcelDesc,
