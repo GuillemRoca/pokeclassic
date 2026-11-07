@@ -1,66 +1,66 @@
 gText_ApprenticeChallenge0::
-	.string "Soc l'aprenent núm. {STR_VAR_2}\n"
-	.string "d'{STR_VAR_1}. Snif… Estic molt nerviós…$"
+	.string "Em… Soc l'aprenent núm. {STR_VAR_2}\n"
+	.string "de {STR_VAR_1}. Snif… Quins nervis…$"
 
 gText_ApprenticeChallenge1::
 	.string "Soc l'aprenent núm. {STR_VAR_2}\n"
-	.string "d'{STR_VAR_1}! Som-hi!$"
+	.string "de {STR_VAR_1}! Som-hi!$"
 
 gText_ApprenticeChallenge2::
 	.string "Soc l'aprenent núm. {STR_VAR_2}\n"
-	.string "d'{STR_VAR_1}! Accepta el meu repte!$"
+	.string "de {STR_VAR_1}! Accepta el meu repte!$"
 
 gText_ApprenticeChallenge3::
-	.string "Em… Soc l'aprenent núm. {STR_VAR_2}\n"
-	.string "d'{STR_VAR_1}… Creus que puc guanyar?$"
+	.string "Em… Soc l'aprenenta núm. {STR_VAR_2}\n"
+	.string "de {STR_VAR_1}… Algú com jo pot guanyar?$"
 
 gText_ApprenticeChallenge4::
-	.string "Soc l'aprenent núm. {STR_VAR_2}\n"
-	.string "d'{STR_VAR_1}! Deixa que et repti!$"
+	.string "Soc l'aprenenta núm. {STR_VAR_2}\n"
+	.string "de {STR_VAR_1}! Et deixo que em reptis!$"
 
 gText_ApprenticeChallenge5::
-	.string "Estic molt ocupat, però també\n"
-	.string "soc l'aprenent núm. {STR_VAR_2} d'{STR_VAR_1}.$"
+	.string "Vaig de bòlit, però resulta que soc\n"
+	.string "l'aprenent núm. {STR_VAR_2} de {STR_VAR_1}.$"
 
 gText_ApprenticeChallenge6::
-	.string "Soc l'aprenent núm. {STR_VAR_2}\n"
-	.string "d'{STR_VAR_1}. Encantat de conèixer-te!$"
+	.string "Soc l'aprenenta núm. {STR_VAR_2}\n"
+	.string "de {STR_VAR_1}. Encantada!$"
 
 gText_ApprenticeChallenge7::
-	.string "Serveixo com a aprenent núm. {STR_VAR_2}\n"
-	.string "d'{STR_VAR_1}. Puc començar?$"
+	.string "Tinc l'honor de ser l'aprenenta núm.\n"
+	.string "{STR_VAR_2} de {STR_VAR_1}. Puc començar?$"
 
 gText_ApprenticeChallenge8::
-	.string "Ei! Soc l'aprenent núm. {STR_VAR_2}\n"
-	.string "d'{STR_VAR_1}! Ho donaré tot!$"
+	.string "Iii! Soc l'aprenenta núm. {STR_VAR_2}\n"
+	.string "de {STR_VAR_1}! Ho donaré tot!$"
 
 gText_ApprenticeChallenge9::
 	.string "Iuhu! Soc l'aprenent núm. {STR_VAR_2}\n"
-	.string "d'{STR_VAR_1}! Prepara't!$"
+	.string "de {STR_VAR_1}! Prepara't!$"
 
 gText_ApprenticeChallenge10::
-	.string "Soc l'aprenent núm. 1.000 d'{STR_VAR_1}!\n"
+	.string "Soc l'aprenent núm. 1.000 de {STR_VAR_1}!\n"
 	.string "De fet, soc el núm. {STR_VAR_2}! Som-hi!$"
 
 gText_ApprenticeChallenge11::
 	.string "Sí, soc l'aprenent núm. {STR_VAR_2}\n"
-	.string "d'{STR_VAR_1}! Que comenci la marxa!$"
+	.string "de {STR_VAR_1}! Que comenci la marxa!$"
 
 gText_ApprenticeChallenge12::
-	.string "Visca! Soc el que en diuen\n"
-	.string "l'aprenent núm. {STR_VAR_2} d'{STR_VAR_1}!$"
+	.string "Iupi-iuhu! Soc el que en diuen\n"
+	.string "l'aprenent núm. {STR_VAR_2} de {STR_VAR_1}!$"
 
 gText_ApprenticeChallenge13::
 	.string "Cof! Soc l'aprenent núm. {STR_VAR_2}\n"
-	.string "d'{STR_VAR_1}. Encantat! Cof!$"
+	.string "de {STR_VAR_1}. Encantat! Cof!$"
 
 gText_ApprenticeChallenge14::
-	.string "Quins nervis…\n"
-	.string "Soc l'aprenent núm. {STR_VAR_2} d'{STR_VAR_1}.$"
+	.string "Quins nervis… Soc l'aprenent\n"
+	.string "núm. {STR_VAR_2} de {STR_VAR_1}.$"
 
 gText_ApprenticeChallenge15::
 	.string "Soc l'aprenent núm. {STR_VAR_2}\n"
-	.string "d'{STR_VAR_1}, i no és cap mentida.$"
+	.string "de {STR_VAR_1}, i no és cap mentida.$"
 
 gText_ApprenticePleaseTeach0::
 	.string "Ets… {PLAYER}?\n"
@@ -71,10 +71,10 @@ gText_ApprenticePleaseTeach0::
 	.string "Soc {STR_VAR_1}, i t'admiro\n"
 	.string "molt, {PLAYER}.\p"
 	.string "Jo… Tenia el somni de conèixer-te\n"
-	.string "algun dia i preguntar-te\l"
-	.string "sobre Pokémon.\p"
+	.string "algun dia i preguntar-te coses\l"
+	.string "sobre els Pokémon.\p"
 	.string "Si us plau, {PLAYER}!\n"
-	.string "Ensenya'm sobre Pokémon!$"
+	.string "Ensenya'm coses sobre els Pokémon!$"
 
 gText_ApprenticeRejectTeaching0::
 	.string "Oh… P-però…\n"
@@ -104,17 +104,17 @@ gText_ApprenticeLevelModeThanks0::
 
 gText_ApprenticePleaseTeach1::
 	.string "Uau! Tu ets {PLAYER}, oi?\n"
-	.string "Ets increïblement fort, oi?\p"
+	.string "Tens una força increïble, oi?\p"
 	.string "Soc {STR_VAR_1}!\n"
-	.string "Acabo de ser Entrenador!\p"
+	.string "Acabo de fer-me Entrenador!\p"
 	.string "Si us plau, {PLAYER}!\n"
-	.string "Pots ser el meu mestre i\l"
-	.string "ensenyar-me molt?$"
+	.string "Pots ser el meu profe i explicar-me\l"
+	.string "moltes coses sobre ser Entrenador?$"
 
 gText_ApprenticeRejectTeaching1::
 	.string "Oh, per què?\n"
 	.string "Si us plau? Si us plauuu?\l"
-	.string "Sigues el meu mestre, si us plau!$"
+	.string "Sigues el meu profe, si us plau!$"
 
 gText_ApprenticeWhichLevelMode1::
 	.string "Bé! Genial!\p"
@@ -127,7 +127,7 @@ gText_ApprenticeLevelModeThanks1::
 	.string "{STR_VAR_1}, oi? És veritat!\n"
 	.string "Ho donaré tot allà!\p"
 	.string "Si ens tornem a veure, ensenya'm\n"
-	.string "alguna cosa més, mestre!$"
+	.string "alguna cosa més, profe!$"
 
 gText_ApprenticePleaseTeach2::
 	.string "Em… Ets {PLAYER}?\n"
@@ -135,8 +135,8 @@ gText_ApprenticePleaseTeach2::
 	.string "Vull ser Entrenador Pokémon,\n"
 	.string "però no sé què fer…\p"
 	.string "Així que he pensat que potser podria\n"
-	.string "demanar-te consell perquè\l"
-	.string "ets tan famós.\p"
+	.string "demanar-te consell, ja que\l"
+	.string "tens tanta fama.\p"
 	.string "{PLAYER}, em pots aconsellar?$"
 
 gText_ApprenticeRejectTeaching2::
@@ -166,19 +166,19 @@ gText_ApprenticePleaseTeach3::
 	.string "No hi ha manera que algú com jo\n"
 	.string "pugui conèixer {PLAYER}.\p"
 	.string "…De veritat ets {PLAYER}?\n"
-	.string "No em puc creure que et parlo!\p"
+	.string "No em puc creure que parli amb tu!\p"
 	.string "Quan passa una cosa tan bona,\n"
-	.string "segur que em passaran coses\l"
+	.string "ara segur que em passaran coses\l"
 	.string "terribles, ho sé…\p"
 	.string "…Perdona…\n"
 	.string "Soc… {STR_VAR_1}…\p"
 	.string "No hi ha res especial en mi\n"
-	.string "de què pugui estar orgullós…\p"
-	.string "Ni hauria de dir res de mi\n"
-	.string "perquè ho oblidaràs…\p"
+	.string "de què pugui estar orgullosa…\p"
+	.string "Ni hauria de dir res de mi,\n"
+	.string "perquè te n'oblidaràs…\p"
 	.string "Tenia el somni que si et coneixia,\n"
 	.string "{PLAYER}, potser podria demanar-te\l"
-	.string "consell com a Entrenador.\p"
+	.string "consell com a Entrenadora.\p"
 	.string "Però no crec que hi estiguis\n"
 	.string "d'acord.\p"
 	.string "…O seràs tan amable de\n"
@@ -186,8 +186,8 @@ gText_ApprenticePleaseTeach3::
 
 gText_ApprenticeRejectTeaching3::
 	.string "Ho sabia…\p"
-	.string "Havia de passar perquè soc un\n"
-	.string "ningú tan avorrit…\p"
+	.string "Havia de passar, perquè soc\n"
+	.string "tan avorrida i tan poca cosa…\p"
 	.string "Però pensava que potser…\n"
 	.string "No ho reconsideraràs?\p"
 	.string "Però no puc rendir-me així.\n"
@@ -198,13 +198,13 @@ gText_ApprenticeRejectTeaching3::
 gText_ApprenticeWhichLevelMode3::
 	.string "De veritat? No m'ho crec!\n"
 	.string "No em crec que m'aconsellis!\l"
-	.string "Jo… Estic tan content…\p"
+	.string "Jo… Estic tan contenta…\p"
 	.string "El que vull preguntar-te és molt\n"
 	.string "trivial, però no em puc decidir…\p"
 	.string "A la Torre de Combat, et deixen\n"
 	.string "triar Nivell 50 o Nivell Obert.\p"
-	.string "Quin creus que fins i tot jo\n"
-	.string "podria tenir una oportunitat?$"
+	.string "En quin creus que fins i tot jo\n"
+	.string "podria tenir alguna oportunitat?$"
 
 gText_ApprenticeLevelModeThanks3::
 	.string "{STR_VAR_1}? D'acord!\n"
@@ -217,15 +217,15 @@ gText_ApprenticeLevelModeThanks3::
 
 gText_ApprenticePleaseTeach4::
 	.string "Oh! Tu ets {PLAYER}{KUN}, oi?\p"
-	.string "He sentit que ets molt bo\n"
+	.string "He sentit que tens molta traça\n"
 	.string "amb els Pokémon!\p"
 	.string "Soc {STR_VAR_1}!\n"
-	.string "Seré el teu amic!\p"
+	.string "Seré la teva amiga!\p"
 	.string "Ho sabies?\p"
 	.string "No pots guanyar a la Frontera\n"
 	.string "de Combat si només saps el que\l"
 	.string "ensenyen a l'Escola d'Entrenadors.\p"
-	.string "Estic disposat a escoltar el teu\n"
+	.string "Estic disposada a escoltar el teu\n"
 	.string "consell. Hi estaràs d'acord, oi?$"
 
 gText_ApprenticeRejectTeaching4::
@@ -252,14 +252,14 @@ gText_ApprenticeLevelModeThanks4::
 
 gText_ApprenticePleaseTeach5::
 	.string "Ei, hola! {PLAYER}{KUN}!\n"
-	.string "Et conec perquè ets famós!\l"
+	.string "Et conec! Ets tota una celebritat!\l"
 	.string "Digues-me {STR_VAR_1}! Encantat!\p"
-	.string "Soc un Triatleta, així que em\n"
+	.string "Soc Triatleta, així que em\n"
 	.string "mantinc en forma mentre crio Pokémon.\p"
-	.string "També estic involucrat en altres\n"
-	.string "coses com treballar, migdiades,\l"
-	.string "balls de saló…\p"
-	.string "Estant tan ocupat, no és fàcil\n"
+	.string "També faig altres coses, com\n"
+	.string "treballar, fer la migdiada,\l"
+	.string "ballar balls de saló…\p"
+	.string "Amb tanta feina, no és fàcil\n"
 	.string "ser un bon Entrenador.\p"
 	.string "Doncs, tinc una proposta!\p"
 	.string "Deu haver-hi una raó per la qual ens\n"
@@ -275,10 +275,10 @@ gText_ApprenticeRejectTeaching5::
 gText_ApprenticeWhichLevelMode5::
 	.string "Gràcies! Així m'agrada!\n"
 	.string "Comencem amb una de fàcil!\p"
-	.string "Saps dels dos cursos de la\n"
-	.string "Torre de Combat, oi?\l"
+	.string "Coneixes les dues modalitats de\n"
+	.string "la Torre de Combat, oi?\l"
 	.string "Nivell 50 i Nivell Obert.\p"
-	.string "Estant jo tan ocupat, per a quin\n"
+	.string "Anant jo tan enfeinat, per a quina\n"
 	.string "m'hauria de preparar?$"
 
 gText_ApprenticeLevelModeThanks5::
@@ -288,21 +288,21 @@ gText_ApprenticeLevelModeThanks5::
 	.string "Gràcies! Ens veiem!$"
 
 gText_ApprenticePleaseTeach6::
-	.string "No pot ser! De debò!\n"
-	.string "Ets potser el veritable {PLAYER}?\p"
+	.string "No pot ser! Ostres!\n"
+	.string "Ets de debò {PLAYER}?\p"
 	.string "A-ha! Genial! Soc {STR_VAR_1},\n"
-	.string "molt content de conèixer-te!\p"
-	.string "{PLAYER}, ets molt fort,\n"
+	.string "molt contenta de conèixer-te!\p"
+	.string "{PLAYER}, ets un crac,\n"
 	.string "oi?\p"
 	.string "Tothom parla de tu!\p"
 	.string "Oh! Tinc una idea genial!\n"
-	.string "Demanaré consell a tu, {PLAYER}!\l"
-	.string "Segur que em faré més fort!\p"
+	.string "Et demanaré consell, {PLAYER}!\l"
+	.string "Segur que em faré més forta!\p"
 	.string "No és una gran idea?\n"
 	.string "Si us plau, vull el teu consell!$"
 
 gText_ApprenticeRejectTeaching6::
-	.string "Ahahaha, pots fer-te el dur,\n"
+	.string "Ahahaha, pots fer veure que no vols,\n"
 	.string "però no m'enganyes!\l"
 	.string "En realitat vols dir que sí, oi?$"
 
@@ -310,7 +310,7 @@ gText_ApprenticeWhichLevelMode6::
 	.string "Bé! Sabia que tindries bon cor,\n"
 	.string "{PLAYER}!\p"
 	.string "Què t'hauria de preguntar primer?\n"
-	.string "…Oh, ja tinc alguna cosa!\p"
+	.string "…Oh, ja ho tinc!\p"
 	.string "Redoble de tambor, si us plau!\n"
 	.string "La pregunta que tinc és…\p"
 	.string "Si faig un repte a la Torre de\n"
@@ -336,7 +336,7 @@ gText_ApprenticePleaseTeach7::
 	.string "… … … … … …\p"
 	.string "Em… Espero que no et sigui\n"
 	.string "massa molèstia, però…\p"
-	.string "Puc ser el teu aprenent,\n"
+	.string "Puc ser la teva aprenenta,\n"
 	.string "{PLAYER}?$"
 
 gText_ApprenticeRejectTeaching7::
@@ -346,10 +346,10 @@ gText_ApprenticeRejectTeaching7::
 	.string "…Dec haver-me desmaiat del xoc.\n"
 	.string "Perdona, dec haver sentit malament.\p"
 	.string "Si us plau! Si us plau, digues\n"
-	.string "que m'acceptes com a aprenent!$"
+	.string "que m'acceptes com a aprenenta!$"
 
 gText_ApprenticeWhichLevelMode7::
-	.string "Oh… Estic encantat!\p"
+	.string "Oh… Estic encantada!\p"
 	.string "No vull fer-te perdre el temps,\n"
 	.string "així que aconsella'm sobre això.\p"
 	.string "Tinc previst fer un repte a la\n"
@@ -362,29 +362,29 @@ gText_ApprenticeLevelModeThanks7::
 	.string "{STR_VAR_1} és la teva elecció!\n"
 	.string "Entenc. Ho donaré tot!\p"
 	.string "Gràcies, {PLAYER}.\n"
-	.string "Espero poder comptar amb tu.\l"
+	.string "Espero poder comptar amb tu de nou.\l"
 	.string "Cuida't!$"
 
 gText_ApprenticePleaseTeach8::
-	.string "Ei! Ei! {PLAYER}!\n"
+	.string "Iii! Iii! {PLAYER}!\n"
 	.string "M'has parlat!\l"
-	.string "Estic… Estic tan content!\p"
+	.string "Estic… Estic tan contenta!\p"
 	.string "Jo! Em dic {STR_VAR_1}!\n"
-	.string "Acabo de ser Entrenador!\p"
-	.string "Estic encantat de conèixer-te,\n"
-	.string "{PLAYER}, el gran nom del Pokémon!\p"
+	.string "Acabo de fer-me Entrenadora!\p"
+	.string "Estic encantada de conèixer-te,\n"
+	.string "{PLAYER}, el gran nom del món Pokémon!\p"
 	.string "Oh-oh-oh, ja ho sé!\n"
-	.string "Puc demanar-te un favor, {PLAYER}?\p"
-	.string "Si us plau, accepta'm com a aprenent!\n"
+	.string "Puc demanar-te un gran favor, {PLAYER}?\p"
+	.string "Si us plau, accepta'm com a aprenenta!\n"
 	.string "Vull aprendre de tu!$"
 
 gText_ApprenticeRejectTeaching8::
 	.string "Buaaaaa!\n"
 	.string "{PLAYER} m'ha rebutjat…\l"
 	.string "És… És una experiència valuosa!\p"
-	.string "{PLAYER}, si us plau! Vull sentir\n"
-	.string "una resposta afirmativa!\p"
-	.string "Et suplico la teva guia!$"
+	.string "{PLAYER}, si us plau! Aquest cop vull\n"
+	.string "sentir una resposta afirmativa!\p"
+	.string "Et suplico que em guiïs!$"
 
 gText_ApprenticeWhichLevelMode8::
 	.string "Iiii! {PLAYER} ha dit que sí!\n"
@@ -398,7 +398,7 @@ gText_ApprenticeWhichLevelMode8::
 gText_ApprenticeLevelModeThanks8::
 	.string "{STR_VAR_1}! Perfectament entès!\n"
 	.string "Ho entenc perfectament!\l"
-	.string "Estic delirant de content!\p"
+	.string "Estic boja d'alegria!\p"
 	.string "Espero que vulguis ensenyar-me\n"
 	.string "més coses un altre dia.$"
 
@@ -410,14 +410,14 @@ gText_ApprenticePleaseTeach9::
 	.string "Hola, em dic {STR_VAR_1}!\p"
 	.string "He estat buscant un mestre\n"
 	.string "de Pokémon.\p"
-	.string "I amb un temps impecable,\n"
+	.string "I, just en el moment oportú,\n"
 	.string "has aparegut tu, {PLAYER}{KUN}!\p"
 	.string "Doncs ja ho tens, {PLAYER}{KUN}!\n"
 	.string "Deixa'm ser el teu aprenent!$"
 
 gText_ApprenticeRejectTeaching9::
 	.string "Gwaaaah!\n"
-	.string "Ets bastant dur…\p"
+	.string "Quin caràcter que tens…\p"
 	.string "No siguis així, si us plau.\n"
 	.string "T'ho estic demanant!$"
 
@@ -430,11 +430,11 @@ gText_ApprenticeWhichLevelMode9::
 	.string "Nivell 50 o Nivell Obert?$"
 
 gText_ApprenticeLevelModeThanks9::
-	.string "Ajà, {STR_VAR_1} doncs!\n"
+	.string "Ajà, {STR_VAR_1}, doncs!\n"
 	.string "OK, perfecte!\l"
-	.string "Aniré a demostrar el que valc!\p"
+	.string "Aniré a demostrar el que valc, i patam!\p"
 	.string "D'acord, comptaré amb tu com a\n"
-	.string "mentor! Adéu!$"
+	.string "mentor! Adéu-siau!$"
 
 gText_ApprenticePleaseTeach10::
 	.string "Ei, {PLAYER}{KUN}, oi?\n"
@@ -450,22 +450,22 @@ gText_ApprenticePleaseTeach10::
 	.string "en el meu mestre Pokémon?$"
 
 gText_ApprenticeRejectTeaching10::
-	.string "Si et poses fred així,\n"
-	.string "et mostraré què faré!\p"
+	.string "Si et poses així de fred,\n"
+	.string "ja veuràs el que faré!\p"
 	.string "Buaaa! Buaaa! Buaaa!\n"
-	.string "Xip!\p"
-	.string "Hahaha, eren LLÀGRIMES FALSES!\p"
+	.string "Hic!\p"
+	.string "Hahaha, eren LLÀGRIMES DE COCODRIL!\p"
 	.string "Vinga, si us plau, vols ser\n"
 	.string "el meu mestre Pokémon?$"
 
 gText_ApprenticeWhichLevelMode10::
 	.string "Visca!\n"
 	.string "Et compraré un vaixell!\p"
-	.string "És clar que és mentida!\n"
+	.string "És clar que torno a mentir!\n"
 	.string "Però… Gràcies, mestre!\p"
 	.string "Saps que hi ha Nivell 50 i\n"
 	.string "Nivell Obert a la Torre de Combat?\p"
-	.string "No em puc decidir quin nivell\n"
+	.string "No sé quin nivell\n"
 	.string "hauria de provar…\p"
 	.string "Pots decidir per mi, mestre?$"
 
@@ -473,56 +473,56 @@ gText_ApprenticeLevelModeThanks10::
 	.string "D'acord, doncs {STR_VAR_1} és millor!\n"
 	.string "Aniré a l'altre nivell, doncs!\p"
 	.string "És broma!\n"
-	.string "Obeiré el teu ensenyament, mestre!\p"
+	.string "Faré el que em dius, mestre!\p"
 	.string "Gràcies, mestre!\n"
 	.string "Espero que continuïs ensenyant-me!$"
 
 gText_ApprenticePleaseTeach11::
-	.string "H-O-L-A!\n"
-	.string "I això diu hola, i vol dir ei!\p"
-	.string "Soc {STR_VAR_1}, el Mariner\n"
-	.string "raper!\p"
-	.string "Ara et toca a tu, explica'm una\n"
-	.string "mica sobre tu, prova-ho!\p"
+	.string "A-H-O-I!\n"
+	.string "Això fa ahoi, i vol dir hola!\p"
+	.string "Soc {STR_VAR_1}, el Mariner raper,\n"
+	.string "i ningú no rima com jo ho sé fer!\p"
+	.string "Ara et toca a tu, va, sense por,\n"
+	.string "explica'm qui ets, fes-me un favor!\p"
 	.string "Ajà, ajà!\n"
 	.string "{PLAYER}{KUN} és el teu nom,\l"
-	.string "i Pokémon és el teu joc!\p"
-	.string "I estàs en una edat delicada\n"
-	.string "on tot el món és un escenari!\p"
-	.string "De totes maneres, vull dir\n"
+	.string "i els Pokémon són el teu món!\p"
+	.string "I a la teva edat, tan especial,\n"
+	.string "tot el món és un escenari total!\p"
+	.string "En fi, et vull dir, sense embuts,\n"
 	.string "que ets el desè Entrenador\l"
-	.string "amb qui parlo avui.\p"
-	.string "Celebrem-ho!\n"
-	.string "Sigues el meu mentor!$"
+	.string "que avui he conegut!\p"
+	.string "Fem-ne una celebració:\n"
+	.string "sigues el meu mentor, per commemoració!$"
 
 gText_ApprenticeRejectTeaching11::
 	.string "Però!\n"
 	.string "Has de col·laborar amb mi!\p"
-	.string "No siguis tan esquiu!\n"
-	.string "Sigues el meu mentor, si us plau!$"
+	.string "Vinga, no em deixis penjat!\n"
+	.string "Sigues el meu mentor, per caritat!$"
 
 gText_ApprenticeWhichLevelMode11::
 	.string "Això és!\n"
 	.string "{PLAYER}, tens esperit!\p"
-	.string "Aquí va la meva primera pregunta\n"
-	.string "que reclama el teu suggeriment!\p"
+	.string "Aquí va la primera qüestió\n"
+	.string "que demana la teva opinió!\p"
 	.string "És sobre la Torre de Combat,\n"
-	.string "i depèn del meu poder!\p"
+	.string "i del poder que hi he portat!\p"
 	.string "Nivell 50 i Nivell Obert hi ha,\n"
-	.string "quin és el bo per a mi?$"
+	.string "quin és el bo per a mi? Digues, va!$"
 
 gText_ApprenticeLevelModeThanks11::
-	.string "D'acord, {STR_VAR_1} dius!\n"
-	.string "Aniré a provar-ho de seguida!\p"
-	.string "Si mai necessito consell,\n"
-	.string "{PLAYER}, seguiré les teves paraules!$"
+	.string "D'acord, {STR_VAR_1}, ho tinc clar!\n"
+	.string "Ara mateix ho aniré a provar!\p"
+	.string "Si mai em cal algun consell,\n"
+	.string "{PLAYER}, seràs el meu estel!$"
 
 gText_ApprenticePleaseTeach12::
 	.string "Ei, no ets {PLAYER}?\n"
 	.string "Què hauria de fer? Parlar-te?\l"
 	.string "Per què no? Ja t'estic parlant!\p"
-	.string "{PLAYER}, et sorprèn que soc?\n"
-	.string "Millor que et digui qui soc!\p"
+	.string "{PLAYER}, et sorprens de mi?\n"
+	.string "Millor que et digui qui soc, així!\p"
 	.string "{STR_VAR_1} és com em pots dir.\n"
 	.string "L'estrella més brillant de la\l"
 	.string "guitarra, soc jo!\p"
@@ -550,12 +550,12 @@ gText_ApprenticeWhichLevelMode12::
 gText_ApprenticeLevelModeThanks12::
 	.string "Si {STR_VAR_1} és el que suggereixes,\n"
 	.string "deu ser el millor!\p"
-	.string "Bé, {PLAYER}, he d'anar per lliure,\n"
-	.string "però no m'oblidis.\p"
-	.string "Ens veiem, amic llest!$"
+	.string "Bé, {PLAYER}, he de volar lliure,\n"
+	.string "però no m'oblidis, ni que sigui per riure.\p"
+	.string "Ens veiem, crac!$"
 
 gText_ApprenticePleaseTeach13::
-	.string "Oh, ei! Tu d'aquí!\n"
+	.string "Oh, hola! Ei, tu!\n"
 	.string "Em pots fer un massatge a l'espatlla?\p"
 	.string "…Sí, aquí! Això és!\n"
 	.string "Au, au! Oooh, quina meravella!\p"
@@ -583,10 +583,11 @@ gText_ApprenticeWhichLevelMode13::
 	.string "per a mi? Nivell 50 o Nivell Obert?$"
 
 gText_ApprenticeLevelModeThanks13::
-	.string "Hm, d'acord. Això és {STR_VAR_1}.\n"
+	.string "Hm, d'acord. Doncs, {STR_VAR_1}.\n"
 	.string "Hi aniré de seguida.\p"
 	.string "Espero poder continuar comptant\n"
-	.string "amb tu, ets el meu mentor!$"
+	.string "amb tu. Al cap i a la fi, ets el\l"
+	.string "meu mentor!$"
 
 gText_ApprenticePleaseTeach14::
 	.string "Er… Em…\n"
@@ -614,7 +615,7 @@ gText_ApprenticeRejectTeaching14::
 
 gText_ApprenticeWhichLevelMode14::
 	.string "G-gràcies…\p"
-	.string "Però si us plau no em miris així.\n"
+	.string "Però, si us plau, no em miris així.\n"
 	.string "Em posa molt nerviós.\p"
 	.string "Si us plau, respon-me sense\n"
 	.string "mirar-me als ulls.\p"
@@ -641,7 +642,7 @@ gText_ApprenticePleaseTeach15::
 	.string "…De veritat ets {PLAYER}{KUN}, oi?\p"
 	.string "No, no, si ets real, cap problema.\n"
 	.string "Simplement vull que em reconeguis\l"
-	.string "com el teu aprenent.$"
+	.string "com a aprenent teu.$"
 
 gText_ApprenticeRejectTeaching15::
 	.string "Oh?\n"
@@ -662,7 +663,7 @@ gText_ApprenticeWhichLevelMode15::
 
 gText_ApprenticeLevelModeThanks15::
 	.string "{STR_VAR_1}?\n"
-	.string "N'estàs segur?\p"
+	.string "Ho tens clar?\p"
 	.string "Entenc. Si és el cas, perfecte.\n"
 	.string "Et dono les gràcies pel teu temps.\p"
 	.string "Sé que puc molestar, però m'alegra\n"
@@ -690,13 +691,13 @@ gText_ApprenticeThanksNoHeldItem0::
 
 gText_ApprenticeThanksHeldItem0::
 	.string "Oh, estic tan content…\n"
-	.string "Crec que tinc aquest {STR_VAR_1}.\p"
+	.string "Crec que també tinc {STR_VAR_1}.\p"
 	.string "M'alegra que estigui resolt!\n"
 	.string "Genial! Increïble! Uuuuh!\p"
 	.string "Moltes gràcies!$"
 
 gText_ApprenticeItemAlreadyRecommended0::
-	.string "Buaaa! Si us plau, no siguis dolent!\p"
+	.string "Buaaa! Si us plau, no em facis això!\p"
 	.string "L'objecte {STR_VAR_1} ja me l'havien\n"
 	.string "recomanat abans, bua…\p"
 	.string "O vols dir que no hauria de fer\n"
@@ -720,14 +721,14 @@ gText_ApprenticeThanksNoHeldItem1::
 	.string "Gràcies per ensenyar-me!$"
 
 gText_ApprenticeThanksHeldItem1::
-	.string "Oh, uau! Un {STR_VAR_1}, oi?\n"
+	.string "Oh, uau! {STR_VAR_1}, eh?\n"
 	.string "D'acord, ho faré!\p"
 	.string "Gràcies per ensenyar-me!$"
 
 gText_ApprenticeItemAlreadyRecommended1::
 	.string "Oh, no, no és el que volia dir.\n"
-	.string "Vull saber sobre un objecte diferent\l"
-	.string "dels que ja conec.\p"
+	.string "Vull que em parlis d'un objecte\l"
+	.string "diferent dels que ja conec.\p"
 	.string "O vols dir que el meu Pokémon no\n"
 	.string "ha de portar res aquest cop?$"
 
@@ -752,7 +753,7 @@ gText_ApprenticeThanksHeldItem2::
 	.string "Ens veiem!$"
 
 gText_ApprenticeItemAlreadyRecommended2::
-	.string "Algú ja m'ha ensenyat sobre\n"
+	.string "Algú ja m'ha parlat de\n"
 	.string "l'objecte {STR_VAR_1}.\p"
 	.string "Vull que el meu Pokémon porti un\n"
 	.string "tipus d'objecte diferent.\p"
@@ -763,9 +764,10 @@ gText_ApprenticeWhatHeldItem3::
 	.string "Hola, {PLAYER}…\n"
 	.string "Perdona la molèstia, però tinc una\l"
 	.string "altra cosa que preguntar-te.\p"
-	.string "No crec que sigui prou bo per guanyar\n"
-	.string "combats sol, així que penso fer\l"
-	.string "portar un objecte al meu {STR_VAR_1}.\p"
+	.string "No crec que sigui prou bona per\n"
+	.string "guanyar combats tota sola, així que\l"
+	.string "penso fer portar un objecte\l"
+	.string "al meu {STR_VAR_1}.\p"
 	.string "Però no sé quin seria bo.\p"
 	.string "{PLAYER}, si us plau, pots\n"
 	.string "decidir per mi?$"
@@ -776,8 +778,8 @@ gText_ApprenticeHoldNothing3::
 
 gText_ApprenticeThanksNoHeldItem3::
 	.string "Entenc…\n"
-	.string "Dius que no hauria de dependre dels\l"
-	.string "objectes. Ho donaré tot!\p"
+	.string "Dius que no hauria de dependre\l"
+	.string "dels objectes. Ho intentaré!\p"
 	.string "Moltes gràcies!$"
 
 gText_ApprenticeThanksHeldItem3::
@@ -789,8 +791,8 @@ gText_ApprenticeThanksHeldItem3::
 gText_ApprenticeItemAlreadyRecommended3::
 	.string "Oh, però…\n"
 	.string "Crec que ja m'han dit això abans…\p"
-	.string "Potser és perquè no he gestionat\n"
-	.string "bé l'objecte {STR_VAR_1}?\p"
+	.string "Potser és perquè no he sabut fer\n"
+	.string "servir bé l'objecte {STR_VAR_1}?\p"
 	.string "O vols dir que no hauria de fer\n"
 	.string "portar res al meu {STR_VAR_2}?$"
 
@@ -841,13 +843,13 @@ gText_ApprenticeWhatHeldItem5::
 	.string "Avui he de caminar, netejar\n"
 	.string "i raspallar.\p"
 	.string "Ni he tingut temps de comprar\n"
-	.string "res per al meu {STR_VAR_1}.\p"
+	.string "res per al meu estimat {STR_VAR_1}.\p"
 	.string "No tinc temps, així que per què no\n"
 	.string "em dius què hauria de fer portar\l"
 	.string "al meu {STR_VAR_1}?$"
 
 gText_ApprenticeHoldNothing5::
-	.string "Oh, doncs estant jo tan ocupat,\n"
+	.string "Oh, doncs, anant jo tan enfeinat,\n"
 	.string "el meu {STR_VAR_1} no necessita res?$"
 
 gText_ApprenticeThanksNoHeldItem5::
@@ -858,16 +860,16 @@ gText_ApprenticeThanksNoHeldItem5::
 
 gText_ApprenticeThanksHeldItem5::
 	.string "D'acord, entès.\n"
-	.string "Trobaré temps per buscar\l"
-	.string "l'objecte {STR_VAR_1} que recomanaves.\p"
+	.string "Trobaré temps per buscar l'objecte\l"
+	.string "{STR_VAR_1} que m'has recomanat.\p"
 	.string "M'alegro d'haver trobat un bon\n"
 	.string "mentor. Gràcies! Ens veiem!$"
 
 gText_ApprenticeItemAlreadyRecommended5::
-	.string "Eh? Ja sé sobre\n"
+	.string "Eh? Ja conec\n"
 	.string "l'objecte {STR_VAR_1}.\p"
 	.string "Ah, ja ho entenc.\n"
-	.string "Doncs estant jo tan ocupat,\l"
+	.string "Doncs, anant jo tan enfeinat,\l"
 	.string "el meu {STR_VAR_2} no necessita res?$"
 
 gText_ApprenticeWhatHeldItem6::
@@ -891,7 +893,7 @@ gText_ApprenticeThanksNoHeldItem6::
 	.string "Gràcies!$"
 
 gText_ApprenticeThanksHeldItem6::
-	.string "Ajà! Un {STR_VAR_1}.\n"
+	.string "Ajà! {STR_VAR_1}.\n"
 	.string "Quina elecció tan bona!\l"
 	.string "Ho provaré segur!\p"
 	.string "Crec que això és tot el que volia\n"
@@ -901,7 +903,7 @@ gText_ApprenticeThanksHeldItem6::
 
 gText_ApprenticeItemAlreadyRecommended6::
 	.string "Ahahah! Que graciós!\n"
-	.string "Ja m'havies dit sobre\l"
+	.string "Ja m'havies parlat de\l"
 	.string "l'objecte {STR_VAR_1} abans!\p"
 	.string "Estàs bé, {PLAYER}?\p"
 	.string "Oh, espera! El meu {STR_VAR_2} no\n"
@@ -914,7 +916,7 @@ gText_ApprenticeWhatHeldItem7::
 	.string "En un combat recent, el meu rival\n"
 	.string "semblava haver donat un objecte\l"
 	.string "al seu Pokémon.\p"
-	.string "Com a resultat, vaig perdre…\p"
+	.string "Per això vaig perdre…\p"
 	.string "No vull quedar-me enrere.\n"
 	.string "Voldria fer portar un objecte\l"
 	.string "al meu {STR_VAR_1} també.\p"
@@ -929,14 +931,14 @@ gText_ApprenticeThanksNoHeldItem7::
 	.string "Ara ho entenc clarament!\n"
 	.string "Continuaré així.\p"
 	.string "Gràcies, {PLAYER}.\n"
-	.string "Espero poder comptar amb tu.\l"
+	.string "Espero poder comptar amb tu de nou.\l"
 	.string "Cuida't!$"
 
 gText_ApprenticeThanksHeldItem7::
-	.string "Un {STR_VAR_1}, doncs!\n"
+	.string "{STR_VAR_1}, doncs!\n"
 	.string "L'encarregaré de seguida.\p"
 	.string "Gràcies, {PLAYER}.\n"
-	.string "Espero poder comptar amb tu.\l"
+	.string "Espero poder comptar amb tu de nou.\l"
 	.string "Cuida't!$"
 
 gText_ApprenticeItemAlreadyRecommended7::
@@ -946,8 +948,8 @@ gText_ApprenticeItemAlreadyRecommended7::
 	.string "no necessita portar cap objecte?$"
 
 gText_ApprenticeWhatHeldItem8::
-	.string "Ei! {PLAYER}!\n"
-	.string "Estic… Estic tan content de veure't!\p"
+	.string "Iii! {PLAYER}!\n"
+	.string "Estic… Estic tan contenta de veure't!\p"
 	.string "Oh-oh-oh! Hi ha una cosa que\n"
 	.string "t'havia de preguntar, {PLAYER}!\p"
 	.string "Si us plau, decideix què hauria\n"
@@ -955,7 +957,7 @@ gText_ApprenticeWhatHeldItem8::
 
 gText_ApprenticeHoldNothing8::
 	.string "Oh, uau! No m'esperava la resposta!\n"
-	.string "Doncs, no cal un objecte?$"
+	.string "Així doncs, no cal cap objecte?$"
 
 gText_ApprenticeThanksNoHeldItem8::
 	.string "Perfectament entès!\n"
@@ -983,34 +985,34 @@ gText_ApprenticeWhatHeldItem9::
 	.string "Hola!\n"
 	.string "El meu mestre, {PLAYER}{KUN}!\p"
 	.string "Vull demanar-te consell sobre\n"
-	.string "eines Pokémon.\p"
+	.string "objectes per als Pokémon.\p"
 	.string "Què creus que seria bo que portés\n"
 	.string "el meu {STR_VAR_1}?\p"
-	.string "No siguis tímid.\n"
+	.string "No et facis pregar.\n"
 	.string "Digues-m'ho!$"
 
 gText_ApprenticeHoldNothing9::
-	.string "Oh? Doncs, dius que el meu {STR_VAR_1}\n"
+	.string "Oh? O sigui que el meu {STR_VAR_1}\n"
 	.string "pot guanyar sense portar res?$"
 
 gText_ApprenticeThanksNoHeldItem9::
-	.string "Sí, molt bé!\n"
-	.string "Ho donaré tot!\p"
+	.string "Sí, senyor!\n"
+	.string "Ho donaré tot, i pum!\p"
 	.string "D'acord, gràcies, com sempre!\n"
-	.string "Adéu!$"
+	.string "Adéu-siau!$"
 
 gText_ApprenticeThanksHeldItem9::
-	.string "Ajà, és un {STR_VAR_1}?\n"
-	.string "Sí, molt bé!\l"
-	.string "En buscaré un de seguida!\p"
+	.string "Ajà, {STR_VAR_1}, doncs?\n"
+	.string "Sí, senyor!\l"
+	.string "En buscaré un, i bum!\p"
 	.string "D'acord, gràcies, com sempre!\n"
-	.string "Adéu!$"
+	.string "Adéu-siau!$"
 
 gText_ApprenticeItemAlreadyRecommended9::
 	.string "No, no! Ja m'havies parlat de\n"
 	.string "l'objecte {STR_VAR_1} abans.\p"
 	.string "Oh, espera un moment…\n"
-	.string "Doncs, dius que el meu {STR_VAR_2}\l"
+	.string "O sigui que dius que el meu {STR_VAR_2}\l"
 	.string "pot guanyar sense portar res?$"
 
 gText_ApprenticeWhatHeldItem10::
@@ -1035,15 +1037,15 @@ gText_ApprenticeThanksNoHeldItem10::
 	.string "D'acord, no ha de portar res.\n"
 	.string "Doncs hauria de buscar-li alguna cosa!\p"
 	.string "És broma!\n"
-	.string "Obeiré el teu ensenyament, mestre!\p"
+	.string "Faré el que em dius, mestre!\p"
 	.string "Gràcies, mestre!\n"
 	.string "Espero que continuïs ensenyant-me!$"
 
 gText_ApprenticeThanksHeldItem10::
-	.string "D'acord, és un {STR_VAR_1}!\n"
+	.string "D'acord, doncs {STR_VAR_1}!\n"
 	.string "Li faré portar qualsevol altra cosa!\p"
 	.string "És broma!\n"
-	.string "Obeiré el teu ensenyament, mestre!\p"
+	.string "Faré el que em dius, mestre!\p"
 	.string "Gràcies, mestre!\n"
 	.string "Espero que continuïs ensenyant-me!$"
 
@@ -1055,48 +1057,48 @@ gText_ApprenticeItemAlreadyRecommended10::
 	.string "res al meu {STR_VAR_2}?$"
 
 gText_ApprenticeWhatHeldItem11::
-	.string "H-O-L-A!\n"
-	.string "I això diu hola!\p"
+	.string "A-H-O-I!\n"
+	.string "Això fa ahoi!\p"
 	.string "El Mariner raper soc jo!\n"
-	.string "Et presento una pregunta\l"
-	.string "que és molt maca!\p"
-	.string "És una pregunta d'objecte\n"
-	.string "que reclama el teu suggeriment!\p"
-	.string "El meu {STR_VAR_1} necessita un objecte,\n"
-	.string "quin hauria de ser, si puc dir-ho?$"
+	.string "I et porto una pregunta\l"
+	.string "de debò!\p"
+	.string "És una qüestió d'equipació\n"
+	.string "que demana la teva opinió!\p"
+	.string "El meu {STR_VAR_1} vol un objecte,\n"
+	.string "quin li dono? Digues, que és perfecte!$"
 
 gText_ApprenticeHoldNothing11::
 	.string "De veritat?\n"
-	.string "El meu {STR_VAR_1} no necessita\l"
-	.string "portar res de res?$"
+	.string "El meu {STR_VAR_1} pot anar\l"
+	.string "sense res, desarmat?$"
 
 gText_ApprenticeThanksNoHeldItem11::
-	.string "D'acord, t'entenc, segur que sí!\n"
-	.string "El meu Pokémon anirà sense res!\p"
-	.string "Si mai necessito consell,\n"
-	.string "{PLAYER}, seguiré les teves paraules!$"
+	.string "D'acord, t'entenc, i tant que sí!\n"
+	.string "Sense objecte anirà, doncs, així!\p"
+	.string "Si mai em cal algun consell,\n"
+	.string "{PLAYER}, seràs el meu estel!$"
 
 gText_ApprenticeThanksHeldItem11::
-	.string "D'acord, un {STR_VAR_1},\n"
-	.string "és el que usaré.\l"
-	.string "He fet bé de fer-te triar!\p"
-	.string "Si mai necessito consell,\n"
-	.string "{PLAYER}, seguiré les teves paraules!$"
+	.string "D'acord, {STR_VAR_1}, doncs,\n"
+	.string "és el que faré servir.\l"
+	.string "He fet bé deixant-te elegir!\p"
+	.string "Si mai em cal algun consell,\n"
+	.string "{PLAYER}, seràs el meu estel!$"
 
 gText_ApprenticeItemAlreadyRecommended11::
-	.string "D'acord, un {STR_VAR_1}, dius?\n"
-	.string "Ja m'ho vas dir l'altre dia.\l"
-	.string "Necessito una idea nova.\p"
+	.string "{STR_VAR_1}, dius? Ja ho sé.\n"
+	.string "M'ho vas dir l'altre dia, també.\l"
+	.string "Necessito una idea nova, eh?\p"
 	.string "O, què, de veritat?\n"
-	.string "El meu Pokémon no necessita\l"
-	.string "portar res de res?$"
+	.string "El meu Pokémon pot anar\l"
+	.string "sense res, desarmat?$"
 
 gText_ApprenticeWhatHeldItem12::
 	.string "Ei, {PLAYER}!\n"
-	.string "T'he trobat avui!\p"
+	.string "Avui t'he tornat a trobar!\p"
 	.string "Què hauria de fer? Demanar consell?\n"
 	.string "Per què no? Ja t'estic parlant!\p"
-	.string "{PLAYER}, ja n'estàs tip de mi?\n"
+	.string "{PLAYER}, que ja et canso?\n"
 	.string "No, impossible.\p"
 	.string "M'escoltes?\n"
 	.string "Busco consell, d'això es tracta.\p"
@@ -1111,23 +1113,24 @@ gText_ApprenticeHoldNothing12::
 gText_ApprenticeThanksNoHeldItem12::
 	.string "Si no portar res és el millor,\n"
 	.string "faré el que dius!\p"
-	.string "Bé, {PLAYER}, he d'anar per lliure,\n"
-	.string "però no m'oblidis.\p"
-	.string "Ens veiem, amic llest!$"
+	.string "Bé, {PLAYER}, he de volar lliure,\n"
+	.string "però no m'oblidis, ni que sigui per riure.\p"
+	.string "Ens veiem, crac!$"
 
 gText_ApprenticeThanksHeldItem12::
 	.string "Si portar l'objecte {STR_VAR_1} és\n"
 	.string "el millor, faré el que dius!\p"
-	.string "Bé, {PLAYER}, he d'anar per lliure,\n"
-	.string "però no m'oblidis.\p"
-	.string "Ens veiem, amic llest!$"
+	.string "Bé, {PLAYER}, he de volar lliure,\n"
+	.string "però no m'oblidis, ni que sigui per riure.\p"
+	.string "Ens veiem, crac!$"
 
 gText_ApprenticeItemAlreadyRecommended12::
-	.string "No he sentit parlar d'aquest\n"
-	.string "{STR_VAR_1} abans?\l"
+	.string "No m'havien parlat ja\n"
+	.string "de {STR_VAR_1}?\l"
 	.string "Segur que sí!\p"
 	.string "Necessito alguna cosa nova!\n"
-	.string "O, el meu {STR_VAR_2} no necessita res?\l"
+	.string "O és que el meu {STR_VAR_2}\l"
+	.string "no necessita res?\l"
 	.string "No ha de portar res?$"
 
 gText_ApprenticeWhatHeldItem13::
@@ -1136,14 +1139,14 @@ gText_ApprenticeWhatHeldItem13::
 	.string "Me'l dec haver trencat provant\n"
 	.string "objectes amb el meu grup\l"
 	.string "de Pokémon.\p"
-	.string "Doncs, les coses essent com són,\n"
+	.string "Així que, tal com estan les coses,\n"
 	.string "necessito que decideixis per mi.\p"
 	.string "{PLAYER}{KUN}, què creus que seria bo\n"
 	.string "que portés el meu {STR_VAR_1}?$"
 
 gText_ApprenticeHoldNothing13::
 	.string "Au…\p"
-	.string "Doncs suggeresques que el meu\n"
+	.string "Doncs suggereixes que el meu\n"
 	.string "{STR_VAR_1} no ha de portar res?$"
 
 gText_ApprenticeThanksNoHeldItem13::
@@ -1153,19 +1156,20 @@ gText_ApprenticeThanksNoHeldItem13::
 	.string "amb tu.$"
 
 gText_ApprenticeThanksHeldItem13::
-	.string "Hm, d'acord. Un {STR_VAR_1}.\n"
+	.string "Hm, d'acord: {STR_VAR_1}.\n"
 	.string "El braç del meu Pokémon està bé,\l"
-	.string "li faré portar l'objecte de seguida.\p"
+	.string "així que li faré portar l'objecte\l"
+	.string "de seguida.\p"
 	.string "Espero poder continuar comptant\n"
 	.string "amb tu.$"
 
 gText_ApprenticeItemAlreadyRecommended13::
-	.string "No, no, ja m'havies dit sobre\n"
+	.string "No, no, ja m'havies parlat de\n"
 	.string "l'objecte {STR_VAR_1}, recordes?\p"
 	.string "Què tal si em dius alguna cosa\n"
 	.string "encara millor?\p"
 	.string "Oh, espera un moment.\n"
-	.string "Doncs suggeresques que el meu\l"
+	.string "Doncs suggereixes que el meu\l"
 	.string "{STR_VAR_2} no ha de portar res?$"
 
 gText_ApprenticeWhatHeldItem14::
@@ -1217,15 +1221,15 @@ gText_ApprenticeWhatHeldItem15::
 	.string "Oh, no, no, no, no et preocupis!\n"
 	.string "Si de veritat ets {PLAYER}, si us plau\l"
 	.string "oblida la meva falta d'educació.\p"
-	.string "El que voldria és més del teu\n"
-	.string "bon consell.\p"
+	.string "El que voldria és algun altre\n"
+	.string "dels teus bons consells.\p"
 	.string "Tinc aquí el meu {STR_VAR_1} i voldria\n"
 	.string "fer-li portar un objecte útil.\p"
-	.string "Quin seria digne?$"
+	.string "Quin seria digne d'ell?$"
 
 gText_ApprenticeHoldNothing15::
 	.string "Seria millor si no portés res?\n"
-	.string "N'estàs segur?$"
+	.string "Ho tens clar?$"
 
 gText_ApprenticeThanksNoHeldItem15::
 	.string "Entenc. Si és el cas, perfecte.\n"
@@ -1233,8 +1237,8 @@ gText_ApprenticeThanksNoHeldItem15::
 	.string "Tornem-nos a veure!$"
 
 gText_ApprenticeThanksHeldItem15::
-	.string "Un {STR_VAR_1}?\n"
-	.string "N'estàs segur?\p"
+	.string "{STR_VAR_1}?\n"
+	.string "Ho tens clar?\p"
 	.string "Entenc. Si és el cas, perfecte.\n"
 	.string "Et dono les gràcies pel teu temps.\p"
 	.string "Espero que el meu Pokémon en pugui\n"
@@ -1244,11 +1248,11 @@ gText_ApprenticeThanksHeldItem15::
 gText_ApprenticeItemAlreadyRecommended15::
 	.string "No, no, espera un moment.\n"
 	.string "Crec que ja m'ho havies ensenyat.\p"
-	.string "Voldria que em recomanessis\n"
+	.string "Voldria que aquest cop em recomanessis\n"
 	.string "alguna cosa diferent.\p"
 	.string "Potser suggereixes que el meu\n"
 	.string "{STR_VAR_2} no hauria de portar res?\l"
-	.string "N'estàs segur?$"
+	.string "Ho tens clar?$"
 
 gText_ApprenticeWhichMonFirst0::
 	.string "Buaaa, {PLAYER}!\n"
@@ -1308,8 +1312,9 @@ gText_ApprenticeMonFirstThanks3::
 	.string "El meu {STR_VAR_1}?\n"
 	.string "Entès!\p"
 	.string "No em puc creure que et molestis\n"
-	.string "a respondre les meves preguntes!\p"
-	.string "Estic tan agraït que fins i tot\n"
+	.string "a respondre tan sovint les meves\l"
+	.string "preguntes!\p"
+	.string "Estic tan agraïda que fins i tot\n"
 	.string "em parlis… Gràcies!$"
 
 gText_ApprenticeWhichMonFirst4::
@@ -1350,13 +1355,13 @@ gText_ApprenticeMonFirstThanks5::
 
 gText_ApprenticeWhichMonFirst6::
 	.string "Iuhu! Ei, {PLAYER}!\n"
-	.string "Sempre vas amb pinta de dur!\p"
+	.string "Sempre vas amb aquesta pinta de crac!\p"
 	.string "Escolta, necessito una altra cosa!\n"
 	.string "El de sempre!\p"
 	.string "Redoble de tambor, si us plau!\n"
 	.string "La pregunta és sobre el meu equip.\p"
 	.string "Quin Pokémon meu hauria de ser el\n"
-	.string "primer en sortir a combatre?$"
+	.string "primer a sortir a combatre?$"
 
 gText_ApprenticeMonFirstThanks6::
 	.string "Hmhm!\n"
@@ -1381,12 +1386,12 @@ gText_ApprenticeMonFirstThanks7::
 	.string "El meu {STR_VAR_1}!\n"
 	.string "El posaré primer de seguida!\p"
 	.string "Gràcies, {PLAYER}.\n"
-	.string "Espero poder comptar amb tu.\l"
+	.string "Espero poder comptar amb tu de nou.\l"
 	.string "Cuida't!$"
 
 gText_ApprenticeWhichMonFirst8::
-	.string "Ei! {PLAYER}!\n"
-	.string "Estic… Estic tan content de veure't!\p"
+	.string "Iii! {PLAYER}!\n"
+	.string "Estic… Estic tan contenta de veure't!\p"
 	.string "Els meus Pokémon s'han tornat\n"
 	.string "molt més forts!\p"
 	.string "Però no sempre guanyo. Sembla que\n"
@@ -1396,7 +1401,7 @@ gText_ApprenticeWhichMonFirst8::
 	.string "ha de sortir primer!$"
 
 gText_ApprenticeMonFirstThanks8::
-	.string "Ai… Estic aclaparat de felicitat…\p"
+	.string "Ai… Estic aclaparada de felicitat…\p"
 	.string "És com un somni que tu decideixis\n"
 	.string "per mi, {PLAYER}.\p"
 	.string "Però perfectament entès!\n"
@@ -1414,15 +1419,15 @@ gText_ApprenticeWhichMonFirst9::
 	.string "encara no està decidit.\p"
 	.string "Aquí és on entres tu, {PLAYER}{KUN}!\n"
 	.string "Decideix quin Pokémon va primer!\p"
-	.string "No siguis tímid.\n"
+	.string "No et facis pregar.\n"
 	.string "Digues-m'ho!$"
 
 gText_ApprenticeMonFirstThanks9::
 	.string "Ajà, el meu {STR_VAR_1} va primer!\n"
 	.string "OK, perfecte!\l"
-	.string "Canviaré l'ordre de seguida!\p"
+	.string "Canviaré l'ordre, i paf!\p"
 	.string "D'acord, gràcies, com sempre!\n"
-	.string "Adéu!$"
+	.string "Adéu-siau!$"
 
 gText_ApprenticeWhichMonFirst10::
 	.string "{PLAYER}{KUN}, escolta!\n"
@@ -1441,26 +1446,26 @@ gText_ApprenticeMonFirstThanks10::
 	.string "D'acord, has triat el meu {STR_VAR_1}?\n"
 	.string "Faré sortir qualsevol altre primer!\p"
 	.string "És broma!\n"
-	.string "Obeiré el teu ensenyament, mestre!\p"
+	.string "Faré el que em dius, mestre!\p"
 	.string "Gràcies, mestre!\n"
 	.string "Espero que continuïs ensenyant-me!$"
 
 gText_ApprenticeWhichMonFirst11::
-	.string "H-O-L-A!\n"
-	.string "I això diu hola!\p"
+	.string "A-H-O-I!\n"
+	.string "Això fa ahoi!\p"
 	.string "El Mariner raper soc jo!\n"
-	.string "Et presento una pregunta\l"
-	.string "que és molt maca!\p"
-	.string "És una pregunta d'ordre d'equip\n"
-	.string "que reclama el teu suggeriment!\p"
-	.string "D'aquest grup, qui hauria de sortir\n"
-	.string "primer al lloc indicat?$"
+	.string "I et porto una pregunta\l"
+	.string "de debò!\p"
+	.string "És una qüestió d'alineació\n"
+	.string "que demana la teva opinió!\p"
+	.string "D'aquest grup, digues tu,\n"
+	.string "qui ha de sortir el número u?$"
 
 gText_ApprenticeMonFirstThanks11::
-	.string "D'acord, t'entenc, segur que sí!\n"
-	.string "Els canviaré d'ordre, sí senyor!\p"
-	.string "Si mai necessito consell,\n"
-	.string "{PLAYER}, seguiré les teves paraules!$"
+	.string "D'acord, t'entenc, i tant que sí!\n"
+	.string "Canviaré l'ordre, ho faré així!\p"
+	.string "Si mai em cal algun consell,\n"
+	.string "{PLAYER}, seràs el meu estel!$"
 
 gText_ApprenticeWhichMonFirst12::
 	.string "Ei, {PLAYER}!\n"
@@ -1469,25 +1474,25 @@ gText_ApprenticeWhichMonFirst12::
 	.string "Sí! Tinc alguna cosa a preguntar!\l"
 	.string "Em sents?\l"
 	.string "Em sents!\p"
-	.string "Has de decidir, quin dels meus\n"
-	.string "Pokémon és el primer en sortir!\l"
+	.string "Has de decidir quin dels meus\n"
+	.string "Pokémon és el primer a sortir!\l"
 	.string "A combatre, vull dir.$"
 
 gText_ApprenticeMonFirstThanks12::
 	.string "El meu {STR_VAR_1}? Sí!\n"
 	.string "Va bé, cap problema!\p"
-	.string "Bé, {PLAYER}, he d'anar per lliure,\n"
-	.string "però no m'oblidis.\p"
-	.string "Ens veiem, amic llest!$"
+	.string "Bé, {PLAYER}, he de volar lliure,\n"
+	.string "però no m'oblidis, ni que sigui per riure.\p"
+	.string "Ens veiem, crac!$"
 
 gText_ApprenticeWhichMonFirst13::
 	.string "…Uf…ai… {PLAYER}{KUN}…\n"
 	.string "M'ha començat a fer mal la panxa…\p"
 	.string "…Ja va millorant…\p"
-	.string "M'he degut posar malalt de tant\n"
+	.string "Dec haver-me posat malalt de tant\n"
 	.string "pensar com ordenar el meu\l"
 	.string "grup de Pokémon.\p"
-	.string "Doncs, les coses essent com són,\n"
+	.string "Així que, tal com estan les coses,\n"
 	.string "necessito que decideixis per mi.\p"
 	.string "{PLAYER}{KUN}, quin dels meus Pokémon\n"
 	.string "ha de sortir primer? Per guanyar.$"
@@ -1525,7 +1530,7 @@ gText_ApprenticeMonFirstThanks14::
 gText_ApprenticeWhichMonFirst15::
 	.string "Hm? Sembles ser {PLAYER}{KUN}…\n"
 	.string "Però ets de veritat?\l"
-	.string "Potser ets un doble intel·ligent?\p"
+	.string "Potser ets un doble molt ben fet?\p"
 	.string "Oh, no, no, no, no et preocupis!\n"
 	.string "Si de veritat ets {PLAYER}, si us plau\l"
 	.string "oblida la meva falta d'educació.\p"
@@ -1552,8 +1557,8 @@ gText_ApprenticeWhichMon0::
 	.string "hauria d'usar.\p"
 	.string "No puc decidir entre els Pokémon\n"
 	.string "{STR_VAR_1} i {STR_VAR_2}…\p"
-	.string "{PLAYER}, quin creus que em donaria\n"
-	.string "una oportunitat de guanyar?$"
+	.string "{PLAYER}, amb quin creus que fins i tot\n"
+	.string "jo tindria opcions de guanyar?$"
 
 gText_ApprenticeMonThanks0::
 	.string "Snif… Entenc!\n"
@@ -1566,9 +1571,9 @@ gText_ApprenticeMonThanks0::
 gText_ApprenticeWhichMon1::
 	.string "Bé! És {PLAYER}!\n"
 	.string "Bé, has vingut en bon moment!\l"
-	.string "Necessito el teu consell!\p"
+	.string "Torno a necessitar el teu consell!\p"
 	.string "Em, estic confós: hauria d'usar\n"
-	.string "el meu {STR_VAR_1} o {STR_VAR_2}…\p"
+	.string "el meu {STR_VAR_1} o el {STR_VAR_2}…\p"
 	.string "Quin creus que hauria de criar,\n"
 	.string "{PLAYER}?$"
 
@@ -1581,7 +1586,7 @@ gText_ApprenticeWhichMon2::
 	.string "{PLAYER}, hola!\n"
 	.string "Tinc una pregunta.\p"
 	.string "Tinc un dilema sobre si hauria de\n"
-	.string "criar un {STR_VAR_1} o {STR_VAR_2}.\p"
+	.string "criar un {STR_VAR_1} o un {STR_VAR_2}.\p"
 	.string "Quin Pokémon creus que serà\n"
 	.string "més fort?$"
 
@@ -1634,9 +1639,9 @@ gText_ApprenticeMonThanks4::
 	.string "Adéu!$"
 
 gText_ApprenticeWhichMon5::
-	.string "Si no és {PLAYER}{KUN}! Com va?\n"
+	.string "Mira qui hi ha, {PLAYER}{KUN}! Com va?\n"
 	.string "Avui estic ocupat com sempre!\p"
-	.string "Vull fer-ho bé amb Pokémon, però\n"
+	.string "Vull fer-ho bé amb els Pokémon, però\n"
 	.string "no he pogut decidir quin Pokémon\l"
 	.string "hauria d'usar.\p"
 	.string "Saps que {STR_VAR_1} semblen forts?\n"
@@ -1675,10 +1680,10 @@ gText_ApprenticeMonThanks6::
 
 gText_ApprenticeWhichMon7::
 	.string "Oh, ets tu, {PLAYER}?\n"
-	.string "Estic encantat de veure't!\p"
-	.string "Des que soc el teu aprenent,\n"
+	.string "Estic encantada de veure't!\p"
+	.string "Des que soc la teva aprenenta,\n"
 	.string "la meva confiança ha crescut.\p"
-	.string "Crec que estic preparat per criar\n"
+	.string "Crec que estic preparada per criar\n"
 	.string "un Pokémon pel meu compte!\p"
 	.string "{PLAYER}, puc demanar-te que triïs\n"
 	.string "quin Pokémon hauria de criar?\p"
@@ -1690,12 +1695,12 @@ gText_ApprenticeMonThanks7::
 	.string "Un {STR_VAR_1}, doncs!\n"
 	.string "En buscaré un de seguida!\p"
 	.string "Gràcies, {PLAYER}.\n"
-	.string "Espero poder comptar amb tu.\l"
+	.string "Espero poder comptar amb tu de nou.\l"
 	.string "Cuida't!$"
 
 gText_ApprenticeWhichMon8::
-	.string "Ei! {PLAYER}! T'he tornat a trobar!\n"
-	.string "Estic… Estic tan content!\p"
+	.string "Iii! {PLAYER}! T'he tornat a trobar!\n"
+	.string "Estic… Estic tan contenta!\p"
 	.string "Oh-oh-oh, ja ho sé!\n"
 	.string "No hauria de desaprofitar l'ocasió!\p"
 	.string "Puc demanar-te un gran favor,\n"
@@ -1713,19 +1718,19 @@ gText_ApprenticeMonThanks8::
 gText_ApprenticeWhichMon9::
 	.string "Ei, ei!\n"
 	.string "El meu mentor, {PLAYER}{KUN}!\p"
-	.string "Hola, t'he estat buscant per\n"
-	.string "més del teu savi consell!\p"
+	.string "Hola, t'estava buscant per demanar-te\n"
+	.string "algun altre savi consell!\p"
 	.string "Quin Pokémon seria bo per a mi,\n"
-	.string "un {STR_VAR_1} o {STR_VAR_2}?\p"
-	.string "No siguis tímid.\n"
+	.string "un {STR_VAR_1} o un {STR_VAR_2}?\p"
+	.string "No et facis pregar.\n"
 	.string "Digues-m'ho!$"
 
 gText_ApprenticeMonThanks9::
 	.string "Ajà, un {STR_VAR_1}, doncs!\n"
 	.string "OK, perfecte!\l"
-	.string "En caçaré un amb una Ball!\p"
+	.string "En caçaré un amb una Ball, i zas!\p"
 	.string "D'acord, gràcies, com sempre!\n"
-	.string "Adéu!$"
+	.string "Adéu-siau!$"
 
 gText_ApprenticeWhichMon10::
 	.string "{PLAYER}{KUN}, escolta! Gran notícia!\n"
@@ -1745,29 +1750,29 @@ gText_ApprenticeMonThanks10::
 	.string "D'acord, has triat {STR_VAR_1}?\n"
 	.string "Doncs agafaré l'altre!\p"
 	.string "És broma!\n"
-	.string "Obeiré el teu ensenyament, mestre!\p"
+	.string "Faré el que em dius, mestre!\p"
 	.string "Gràcies, mestre!\n"
 	.string "Espero que continuïs ensenyant-me!$"
 
 gText_ApprenticeWhichMon11::
-	.string "H-O-L-A!\n"
-	.string "I això diu hola!\p"
+	.string "A-H-O-I!\n"
+	.string "Això fa ahoi!\p"
 	.string "El Mariner raper soc jo!\n"
-	.string "Segur que recordes qui soc!\p"
-	.string "Avui tinc una pregunta de Pokémon\n"
-	.string "que reclama el teu suggeriment!\p"
+	.string "Que no em recordes? Segur que no!\p"
+	.string "Avui porto una qüestió de Pokémon\n"
+	.string "que demana la teva opinió!\p"
 	.string "Puc triar entre {STR_VAR_1}\n"
 	.string "i {STR_VAR_2}, ja ho veus.\l"
-	.string "Quin he d'atrapar?$"
+	.string "Quin atrapo? Què em dius?$"
 
 gText_ApprenticeMonThanks11::
 	.string "{STR_VAR_1}, dius, ei, ei!\n"
 	.string "N'aniré a buscar un de seguida!\p"
-	.string "Si mai necessito consell,\n"
-	.string "{PLAYER}, seguiré les teves paraules!$"
+	.string "Si mai em cal algun consell,\n"
+	.string "{PLAYER}, seràs el meu estel!$"
 
 gText_ApprenticeWhichMon12::
-	.string "Oh, uau, si és {PLAYER}!\p"
+	.string "Oh, uau, mira qui és: {PLAYER}!\p"
 	.string "Què hauria de fer? Demanar consell?\n"
 	.string "Per què no? Ja t'estic parlant!\p"
 	.string "Fa temps. Trenquem el gel.\n"
@@ -1781,16 +1786,16 @@ gText_ApprenticeWhichMon12::
 gText_ApprenticeMonThanks12::
 	.string "Si {STR_VAR_1} és el millor,\n"
 	.string "faré el que dius!\p"
-	.string "Bé, {PLAYER}, he d'anar per lliure,\n"
-	.string "però no m'oblidis.\p"
-	.string "Ens veiem, amic llest!$"
+	.string "Bé, {PLAYER}, he de volar lliure,\n"
+	.string "però no m'oblidis, ni que sigui per riure.\p"
+	.string "Ens veiem, crac!$"
 
 gText_ApprenticeWhichMon13::
 	.string "Oh, hola, {PLAYER}{KUN}…\n"
 	.string "Tinc un mal de cap horrible…\p"
-	.string "M'he degut preocupar massa pel\n"
+	.string "Dec haver-me preocupat massa pel\n"
 	.string "tipus de Pokémon que hauria de criar.\p"
-	.string "Doncs, les coses essent com són,\n"
+	.string "Així que, tal com estan les coses,\n"
 	.string "necessito que decideixis per mi.\p"
 	.string "{PLAYER}{KUN}, si hagués de triar entre\n"
 	.string "els Pokémon {STR_VAR_1} i\l"
@@ -1835,19 +1840,20 @@ gText_ApprenticeWhichMon15::
 
 gText_ApprenticeMonThanks15::
 	.string "{STR_VAR_1}?\n"
-	.string "N'estàs segur?\p"
+	.string "Ho tens clar?\p"
 	.string "Entenc. Si és el cas, perfecte.\n"
 	.string "Et dono les gràcies pel teu temps.\p"
-	.string "Espero que sigui alguna cosa que\n"
-	.string "fins i tot jo pugui gestionar.\p"
+	.string "Espero que sigui un Pokémon que\n"
+	.string "fins i tot jo pugui dominar\l"
+	.string "amb aplom.\p"
 	.string "Tornem-nos a veure!$"
 
 gText_ApprenticeWhichMove0::
 	.string "Buaaa! Oh, {PLAYER}!\n"
-	.string "Snif… Xip…\p"
+	.string "Snif… Hic…\p"
 	.string "Tinc un dilema!\n"
-	.string "No puc decidir un moviment per\l"
-	.string "al meu {STR_VAR_1}…\p"
+	.string "No sé quin moviment triar\l"
+	.string "per al meu {STR_VAR_1}…\p"
 	.string "Si us plau, {PLAYER}.\n"
 	.string "Pots decidir per mi?\p"
 	.string "Per al meu {STR_VAR_1}, quin moviment\n"
@@ -1865,22 +1871,22 @@ gText_ApprenticeMoveThanks0::
 
 gText_ApprenticeWhichMove1::
 	.string "Bé! Hola, {PLAYER}!\n"
-	.string "Necessito el teu consell!\p"
+	.string "Torno a necessitar el teu consell!\p"
 	.string "Vull ensenyar al meu {STR_VAR_1}\n"
 	.string "un moviment xulo.\p"
-	.string "M'agraden els moviments\n"
-	.string "{STR_VAR_2} o {STR_VAR_3}.\l"
+	.string "M'agraden tant {STR_VAR_2}\n"
+	.string "com {STR_VAR_3}.\l"
 	.string "Quin em recomanes?$"
 
 gText_ApprenticeMoveThanks1::
 	.string "{STR_VAR_1} és millor? Suposo que sí!\n"
 	.string "D'acord, faré això!\p"
 	.string "Si ens tornem a veure, ensenya'm\n"
-	.string "alguna cosa més, mestre!$"
+	.string "alguna cosa més, profe!$"
 
 gText_ApprenticeWhichMove2::
 	.string "{PLAYER}, hola!\n"
-	.string "És sobre el meu {STR_VAR_1}, estic\l"
+	.string "És sobre el meu {STR_VAR_1}: estic\l"
 	.string "preocupat pels seus moviments.\p"
 	.string "Es tracta dels moviments {STR_VAR_2}\n"
 	.string "i {STR_VAR_3}.\p"
@@ -1935,13 +1941,13 @@ gText_ApprenticeMoveThanks4::
 	.string "Adéu!$"
 
 gText_ApprenticeWhichMove5::
-	.string "Com puc estar tan ocupat?\n"
-	.string "Ei, si és {PLAYER}{KUN}!\l"
+	.string "Com puc anar tan enfeinat?\n"
+	.string "Ei, mira qui hi ha: {PLAYER}{KUN}!\l"
 	.string "Com va?\p"
 	.string "Des que m'he llevat he fet fúting,\n"
 	.string "natació i cuina!\p"
-	.string "No et creuràs com d'ocupat estic!\p"
-	.string "Ni puc decidir quin moviment\n"
+	.string "No t'imagines la feina que tinc!\p"
+	.string "Ni tan sols puc decidir quin moviment\n"
 	.string "ha d'aprendre el meu {STR_VAR_1}!\p"
 	.string "{STR_VAR_2} sembla bo, oi?\n"
 	.string "Però {STR_VAR_3} també és decent.\p"
@@ -1978,7 +1984,8 @@ gText_ApprenticeWhichMove7::
 	.string "Oh, hola, {PLAYER}.\n"
 	.string "Espero que hagis estat bé.\p"
 	.string "He de demanar-te consell una altra\n"
-	.string "vegada. És sobre el meu {STR_VAR_1}.\p"
+	.string "vegada. És sobre el meu estimat\l"
+	.string "{STR_VAR_1}.\p"
 	.string "Quin seria el moviment ideal per\n"
 	.string "al meu adorable {STR_VAR_1}?\l"
 	.string "{STR_VAR_2} o {STR_VAR_3}?$"
@@ -1987,13 +1994,13 @@ gText_ApprenticeMoveThanks7::
 	.string "{STR_VAR_1}, doncs!\n"
 	.string "L'ensenyaré de seguida!\p"
 	.string "Gràcies, {PLAYER}.\n"
-	.string "Espero poder comptar amb tu.\l"
+	.string "Espero poder comptar amb tu de nou.\l"
 	.string "Cuida't!$"
 
 gText_ApprenticeWhichMove8::
-	.string "Ei! {PLAYER}! T'he tornat a trobar!\n"
-	.string "Estic… Estic tan content!\p"
-	.string "Sempre que em fa falta, tu ets aquí\n"
+	.string "Iii! {PLAYER}! T'he tornat a trobar!\n"
+	.string "Estic… Estic tan contenta!\p"
+	.string "Sempre que et necessito, ets aquí\n"
 	.string "per a mi, {PLAYER}!\p"
 	.string "Avui vull que em recomanis\n"
 	.string "un moviment!\p"
@@ -2010,9 +2017,9 @@ gText_ApprenticeMoveThanks8::
 	.string "més coses un altre dia.$"
 
 gText_ApprenticeWhichMove9::
-	.string "Hola, {PLAYER}{KUN}, molt bé!\n"
-	.string "Espero rebre més del teu\l"
-	.string "savi consell avui!\p"
+	.string "Hola, {PLAYER}{KUN}, què tal!\n"
+	.string "Avui també espero algun\l"
+	.string "savi consell teu!\p"
 	.string "Quin seria el millor moviment per\n"
 	.string "al meu {STR_VAR_1}?\p"
 	.string "Hauria de ser alguna cosa que\n"
@@ -2022,10 +2029,10 @@ gText_ApprenticeWhichMove9::
 
 gText_ApprenticeMoveThanks9::
 	.string "Ajà, {STR_VAR_1}, doncs!\n"
-	.string "Sí, molt bé!\l"
-	.string "L'ensenyaré tot seguit!\p"
+	.string "Sí, senyor!\l"
+	.string "L'hi ensenyaré, i catacrac!\p"
 	.string "D'acord, gràcies, com sempre!\n"
-	.string "Adéu!$"
+	.string "Adéu-siau!$"
 
 gText_ApprenticeWhichMove10::
 	.string "{PLAYER}{KUN}, és una bogeria!\p"
@@ -2045,29 +2052,29 @@ gText_ApprenticeMoveThanks10::
 	.string "D'acord, has triat {STR_VAR_1}?\n"
 	.string "Doncs triaré un altre moviment!\p"
 	.string "És broma!\n"
-	.string "Obeiré el teu ensenyament, mestre!\p"
+	.string "Faré el que em dius, mestre!\p"
 	.string "Gràcies, mestre!\n"
 	.string "Espero que continuïs ensenyant-me!$"
 
 gText_ApprenticeWhichMove11::
-	.string "H-O-L-A!\n"
-	.string "I això diu hola!\p"
+	.string "A-H-O-I!\n"
+	.string "Això fa ahoi!\p"
 	.string "El Mariner raper soc jo!\n"
-	.string "Sempre estic al dia, no preguntis.\p"
-	.string "Avui tinc una pregunta de moviment\n"
-	.string "que reclama el teu suggeriment!\p"
+	.string "Sempre a l'última, i sense cap però!\p"
+	.string "Avui porto una qüestió de moviments\n"
+	.string "que demana la teva opinió!\p"
 	.string "{STR_VAR_2} i {STR_VAR_3} són els\n"
-	.string "moviments. Quin seria el millor\l"
-	.string "per al meu {STR_VAR_1}?$"
+	.string "moviments. Quin li va millor\l"
+	.string "al meu {STR_VAR_1}, que balli amb ardor?$"
 
 gText_ApprenticeMoveThanks11::
 	.string "{STR_VAR_1}, dius, ei, ei!\n"
 	.string "L'ensenyaré de seguida!\p"
-	.string "Si mai necessito consell,\n"
-	.string "{PLAYER}, seguiré les teves paraules!$"
+	.string "Si mai em cal algun consell,\n"
+	.string "{PLAYER}, seràs el meu estel!$"
 
 gText_ApprenticeWhichMove12::
-	.string "Oh, sí, si és {PLAYER}!\p"
+	.string "Oh, ieah, mira qui és: {PLAYER}!\p"
 	.string "Què hauria de fer? Demanar consell?\n"
 	.string "Per què no? Ja t'estic parlant!\p"
 	.string "{PLAYER}, et sorprenc?\n"
@@ -2081,16 +2088,16 @@ gText_ApprenticeWhichMove12::
 gText_ApprenticeMoveThanks12::
 	.string "Si {STR_VAR_1} és el millor,\n"
 	.string "faré el que dius!\p"
-	.string "Bé, {PLAYER}, he d'anar per lliure,\n"
-	.string "però no m'oblidis.\p"
-	.string "Ens veiem, amic llest!$"
+	.string "Bé, {PLAYER}, he de volar lliure,\n"
+	.string "però no m'oblidis, ni que sigui per riure.\p"
+	.string "Ens veiem, crac!$"
 
 gText_ApprenticeWhichMove13::
 	.string "Gahack! Gaah! Oh, {PLAYER}{KUN}…\n"
 	.string "Tinc un refredat horrible…\p"
-	.string "Vull triar un moviment pel Pokémon,\n"
-	.string "però no estic en condicions…\p"
-	.string "Doncs, les coses essent com són,\n"
+	.string "Vull triar un moviment per al meu\n"
+	.string "Pokémon, però no estic en condicions…\p"
+	.string "Així que, tal com estan les coses,\n"
 	.string "necessito que decideixis per mi.\p"
 	.string "{PLAYER}{KUN}, si hagués de triar entre\n"
 	.string "{STR_VAR_2} i {STR_VAR_3} per\l"
@@ -2127,8 +2134,8 @@ gText_ApprenticeMoveThanks14::
 gText_ApprenticeWhichMove15::
 	.string "Hm? Sembles ser {PLAYER}{KUN}…\n"
 	.string "Però ets de veritat?\p"
-	.string "Potser ets un d'aquells imitadors\n"
-	.string "populars?\p"
+	.string "Potser ets una d'aquelles\n"
+	.string "imitacions tan populars?\p"
 	.string "No, no, si ets real, cap problema.\n"
 	.string "No t'enfadis, t'ho asseguro!\p"
 	.string "Per cert, voldria demanar-te\n"
@@ -2156,8 +2163,8 @@ gText_ApprenticePickWinSpeech0::
 	.string "M'agradaria poder dir alguna cosa\n"
 	.string "xula quan guanyo…\p"
 	.string "Si us plau, {PLAYER}!\n"
-	.string "Podries ensenyar-me alguna cosa\l"
-	.string "xula per dir quan guanyi?$"
+	.string "M'ensenyes alguna cosa xula per\l"
+	.string "dir quan guanyi, sense plorar?$"
 
 gText_ApprenticeWinSpeechThanks0::
 	.string "{STR_VAR_1}\p"
@@ -2184,16 +2191,16 @@ gText_ApprenticeWinSpeechThanks1::
 	.string "{STR_VAR_1}\p"
 	.string "Oh, uau! Això és molt xulo!\n"
 	.string "D'acord, diré això!\p"
-	.string "Gràcies per ensenyar-me tot!\n"
+	.string "Gràcies per ensenyar-me tantes coses!\n"
 	.string "Ho donaré tot allà on vagi\l"
 	.string "d'ara endavant!\p"
 	.string "Quan ens tornem a veure, serà per\n"
-	.string "un combat!$"
+	.string "fer un combat!$"
 
 gText_ApprenticePickWinSpeech2::
 	.string "{PLAYER}, hola!\p"
-	.string "Els meus Pokémon i jo estem\n"
-	.string "preparats, excepte per una cosa.\p"
+	.string "Els meus Pokémon i jo estem preparats\n"
+	.string "per a tot, excepte una cosa.\p"
 	.string "Crec que seria bo tenir alguna cosa\n"
 	.string "per cridar quan guanyi.\p"
 	.string "Podries pensar alguna cosa bona\n"
@@ -2230,20 +2237,20 @@ gText_ApprenticeWinSpeechThanks3::
 	.string "{PLAYER}, moltes gràcies per\n"
 	.string "aguantar-me tant de temps…\p"
 	.string "Prometo que ho donaré tot.\p"
-	.string "Segur que oblidaràs algú com jo,\n"
-	.string "però tornem-nos a trobar en algun\l"
-	.string "lloc!$"
+	.string "Segur que aviat t'oblidaràs d'algú\n"
+	.string "com jo, però tornem-nos a trobar\l"
+	.string "en algun lloc!$"
 
 gText_ApprenticePickWinSpeech4::
 	.string "Oh, {PLAYER}{KUN}.\n"
 	.string "Vull que escoltis una cosa.\p"
 	.string "Sé que no sempre sembro\n"
-	.string "amable o educat…\p"
+	.string "amable o educada…\p"
 	.string "Quan guanyo un combat, crec que\n"
 	.string "sembro arrogant.\p"
 	.string "No vull que la gent em rebutgi,\n"
 	.string "així que vull dir alguna cosa\l"
-	.string "amable al qui derroto.\p"
+	.string "amable a qui derroto.\p"
 	.string "Però no se m'acut res de bo!\n"
 	.string "Pots pensar alguna cosa per a mi?$"
 
@@ -2251,10 +2258,11 @@ gText_ApprenticeWinSpeechThanks4::
 	.string "{STR_VAR_1}\p"
 	.string "No està malament!\n"
 	.string "Sí, això faré!\p"
-	.string "Me n'aniré i aplicaré tot el que\n"
-	.string "m'has ensenyat.\p"
+	.string "Me n'aniré a fer tot el que pugui\n"
+	.string "amb el que m'has ensenyat,\l"
+	.string "al cap i al cor.\p"
 	.string "Perdona per haver estat tan\n"
-	.string "pesat!\p"
+	.string "pesada!\p"
 	.string "El pròxim cop, combatrem, d'acord?\n"
 	.string "Ens veiem!$"
 
@@ -2263,13 +2271,13 @@ gText_ApprenticePickWinSpeech5::
 	.string "Oh, ei, et buscava, {PLAYER}{KUN}.\p"
 	.string "Estàs bé com sempre?\n"
 	.string "Jo estic igual.\p"
-	.string "He de córrer, lluitar i mapejar.\n"
+	.string "He de córrer, lluitar i fer mapes.\n"
 	.string "Per què estic tan ocupat?\p"
 	.string "Però encara que estigui ocupat, seria\n"
 	.string "maleducat marxar d'una victòria\l"
 	.string "sense dir res.\p"
-	.string "Doncs, quina frase xula podria\n"
-	.string "dir al final? {PLAYER}{KUN}, ajuda'm!$"
+	.string "Doncs, quina frase xula podria dir\n"
+	.string "per marxar amb estil? {PLAYER}{KUN}, ajuda'm!$"
 
 gText_ApprenticeWinSpeechThanks5::
 	.string "{STR_VAR_1}\p"
@@ -2298,18 +2306,19 @@ gText_ApprenticeWinSpeechThanks6::
 	.string "bé, no?\p"
 	.string "Així que penso reptar altres\n"
 	.string "Entrenadors d'ara endavant.\p"
-	.string "{PLAYER}, el teu consell m'ha ajudat.\p"
-	.string "Potser algun dia ens combatrem!\p"
+	.string "{PLAYER}, el teu consell m'ha ajudat\n"
+	.string "molt.\p"
+	.string "Potser algun dia farem un combat!\p"
 	.string "Gràcies per tot!$"
 
 gText_ApprenticePickWinSpeech7::
 	.string "Oh, {PLAYER}.\n"
 	.string "M'alegro d'haver-te trobat!\p"
 	.string "Ja no tinc preocupacions\n"
-	.string "respecte als meus Pokémon.\p"
-	.string "Soc jo el que em preocupa…\p"
-	.string "Saps com un Entrenador diu\n"
-	.string "algunes coses en guanyar?\p"
+	.string "pel que fa als meus Pokémon.\p"
+	.string "El que em preocupa soc jo…\p"
+	.string "Saps que els Entrenadors diuen\n"
+	.string "unes paraules quan guanyen?\p"
 	.string "Sens dubte, m'agradaria poder\n"
 	.string "fer-ho també!\p"
 	.string "Si us plau, què hauria de dir quan\n"
@@ -2318,19 +2327,19 @@ gText_ApprenticePickWinSpeech7::
 gText_ApprenticeWinSpeechThanks7::
 	.string "{STR_VAR_1}\p"
 	.string "Ah! Aquesta frase! Em renova\n"
-	.string "i em fa sentir renascut!\p"
+	.string "i em fa sentir renascuda!\p"
 	.string "L'he d'usar de seguida!\p"
 	.string "I ara, m'he d'acomiadar,\n"
 	.string "{PLAYER}…\p"
-	.string "Aniré a combatre contra molts,\n"
+	.string "Aniré a combatre contra molta gent,\n"
 	.string "però mai oblidaré els teus\l"
 	.string "ensenyaments.\p"
 	.string "Potser algun dia…\n"
 	.string "Adéu!$"
 
 gText_ApprenticePickWinSpeech8::
-	.string "Ei! He vist {PLAYER}!\n"
-	.string "Estic… Estic tan content de veure't!\p"
+	.string "Iii! He vist {PLAYER}!\n"
+	.string "Estic… Estic tan contenta de veure't!\p"
 	.string "Oh-oh-oh! Hi ha una cosa que\n"
 	.string "t'havia de preguntar!\p"
 	.string "Fa poc vaig guanyar un combat.\n"
@@ -2345,7 +2354,7 @@ gText_ApprenticeWinSpeechThanks8::
 	.string "{STR_VAR_1}\p"
 	.string "Buaaaaa!\n"
 	.string "Diré això?!\l"
-	.string "Estic… Estic delirant de content!\p"
+	.string "Estic… Estic boja d'alegria!\p"
 	.string "M-m-moltes gràcies!\n"
 	.string "Ja no tinc res de què penedir-me!\p"
 	.string "Ara viatjaré i combatré contra\n"
@@ -2356,9 +2365,9 @@ gText_ApprenticeWinSpeechThanks8::
 	.string "en un combat algun dia!$"
 
 gText_ApprenticePickWinSpeech9::
-	.string "Hola, molt bé!\n"
+	.string "Hola, què tal!\n"
 	.string "{PLAYER}{KUN}!\p"
-	.string "Saps, em ve de gust sortir\n"
+	.string "Saps què? Em ve de gust sortir\n"
 	.string "a combatre per aquí i per allà.\p"
 	.string "Però abans, vull el teu consell\n"
 	.string "una altra vegada!\p"
@@ -2369,12 +2378,12 @@ gText_ApprenticePickWinSpeech9::
 gText_ApprenticeWinSpeechThanks9::
 	.string "{STR_VAR_1}\p"
 	.string "Ajà, això és genial!\n"
-	.string "Sí, molt bé!\l"
-	.string "Provaré de dir-ho!\p"
+	.string "Sí, senyor!\l"
+	.string "Provaré de dir-ho, i plaf!\p"
 	.string "I ara, és hora de dir adéu!\n"
 	.string "Gràcies per tot!\p"
-	.string "Fes-me un combat algun dia, d'acord?\n"
-	.string "Adéu!$"
+	.string "Un dia farem un combat, d'acord?\n"
+	.string "Adéu-siau!$"
 
 gText_ApprenticePickWinSpeech10::
 	.string "{PLAYER}{KUN}, tenim un problema!\p"
@@ -2391,9 +2400,9 @@ gText_ApprenticePickWinSpeech10::
 gText_ApprenticeWinSpeechThanks10::
 	.string "{STR_VAR_1}\p"
 	.string "Això hauria de dir, oi?\n"
-	.string "Doncs, m'allunyaré d'això!\p"
+	.string "Doncs no ho diré mai!\p"
 	.string "És broma!\n"
-	.string "Obeiré el teu ensenyament, mestre!\p"
+	.string "Faré el que em dius, mestre!\p"
 	.string "Gràcies per ensenyar-me tot aquest\n"
 	.string "temps, mestre!\p"
 	.string "Per fi entenc què és ser\n"
@@ -2405,31 +2414,31 @@ gText_ApprenticeWinSpeechThanks10::
 	.string "Adéu, mestre meu!$"
 
 gText_ApprenticePickWinSpeech11::
-	.string "H-O-L-A!\n"
-	.string "I això diu hola!\p"
+	.string "A-H-O-I!\n"
+	.string "Això fa ahoi!\p"
 	.string "El Mariner raper soc jo!\n"
-	.string "Aquesta serà la darrera pregunta,\l"
-	.string "no ploris!\p"
-	.string "És una pregunta de frase\n"
-	.string "que reclama el teu suggeriment!\p"
+	.string "És l'última pregunta,\l"
+	.string "no ploris, no!\p"
+	.string "És una qüestió d'expressió\n"
+	.string "que demana la teva opinió!\p"
 	.string "Si guanyo un combat, què puc dir\n"
-	.string "d'una forma ben maca?$"
+	.string "que soni xulo i em faci lluir?$"
 
 gText_ApprenticeWinSpeechThanks11::
 	.string "{STR_VAR_1}\p"
-	.string "Perfecte! Això usaré.\n"
-	.string "He fet bé de fer-te triar!\p"
-	.string "I ara, crec que seria millor\n"
-	.string "que alcés el vol!\p"
-	.string "Gràcies per tot el que m'has\n"
-	.string "ensenyat. Sortiré a combatre!\p"
+	.string "Perfecte! Això faré servir.\n"
+	.string "He fet bé deixant-te elegir!\p"
+	.string "I ara, crec que ha arribat l'hora\n"
+	.string "de volar del niu i anar-me'n fora!\p"
+	.string "Gràcies per tot el que m'has ensenyat;\n"
+	.string "ara a combatre, a tota velocitat!\p"
 	.string "B-O-N-V-I-A-T-G-E!\n"
 	.string "I això diu bon viatge,\l"
 	.string "aquest és el meu homenatge!$"
 
 gText_ApprenticePickWinSpeech12::
 	.string "Oh, sí, {PLAYER}!\n"
-	.string "T'he trobat avui!\p"
+	.string "Avui t'he tornat a trobar!\p"
 	.string "Què hauria de fer? Demanar-t'ho?\n"
 	.string "Per què no? Ja t'ho estic demanant!\p"
 	.string "De totes maneres, {PLAYER}…\n"
@@ -2450,8 +2459,8 @@ gText_ApprenticeWinSpeechThanks12::
 	.string "Però potser algun dia ens trobarem,\n"
 	.string "i un de nosaltres serà derrotat.\p"
 	.string "Però de veritat és hora de dir adéu.\p"
-	.string "Bé, {PLAYER}, he d'anar per lliure,\n"
-	.string "però no m'oblidis!\p"
+	.string "Bé, {PLAYER}, he de volar lliure,\n"
+	.string "però no m'oblidis, ni que sigui per riure!\p"
 	.string "Cuida't, {PLAYER}!\n"
 	.string "T'estimo!$"
 
@@ -2462,7 +2471,7 @@ gText_ApprenticePickWinSpeech13::
 	.string "xula per dir quan guanyi.\p"
 	.string "M'ha inspirat tant que m'ha fet\n"
 	.string "plorar i ara no paro de mocar-me…\p"
-	.string "Doncs, les coses essent com són,\n"
+	.string "Així que, tal com estan les coses,\n"
 	.string "necessito que decideixis, {PLAYER}{KUN}.\p"
 	.string "Quan guanyi un combat,\n"
 	.string "què hauria de dir?$"
@@ -2497,7 +2506,7 @@ gText_ApprenticeWinSpeechThanks14::
 	.string "Potser estaré massa nerviós…\p"
 	.string "Gràcies, {PLAYER}{KUN}.\n"
 	.string "He de dir adéu ara.\p"
-	.string "Obeiré tot el que m'has ensenyat,\n"
+	.string "Seguiré tot el que m'has ensenyat,\n"
 	.string "{PLAYER}{KUN}, i ho donaré tot.$"
 
 gText_ApprenticePickWinSpeech15::
@@ -2507,8 +2516,8 @@ gText_ApprenticePickWinSpeech15::
 	.string "Oh, no, no, no, no et preocupis!\n"
 	.string "Si de veritat ets real, si us plau\l"
 	.string "oblida la meva falta d'educació.\p"
-	.string "No t'enfadis. Tot el que vull és\n"
-	.string "més del teu bon consell.\p"
+	.string "No t'enfadis. Només vull un altre\n"
+	.string "dels teus bons consells.\p"
 	.string "Es tracta d'una frase.\p"
 	.string "Més concretament, què hauria de dir\n"
 	.string "si guanyo un combat?$"

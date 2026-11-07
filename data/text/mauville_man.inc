@@ -32,10 +32,10 @@ GiddyText_DontYouAgree::
 
 GiddyText_ISoWantToGoOnAVacation::
 	.string "Tinc moltes ganes d'anar de vacances.\n"
-	.string "Per cas coneixes un lloc bonic?$"
+	.string "Per casualitat, coneixes un lloc bonic?$"
 
 GiddyText_IBoughtCrayonsWith120Colors::
-	.string "He comprat llapis de colors de 120!\n"
+	.string "He comprat llapis de 120 colors!\n"
 	.string "No et sembla meravellós?$"
 
 GiddyText_WouldntItBeNiceIfWeCouldFloat::
@@ -48,7 +48,7 @@ GiddyText_WhenYouWriteOnASandyBeach::
 
 GiddyText_WhatsTheBottomOfTheSeaLike::
 	.string "Com serà el fons del mar?\n"
-	.string "Una vegada m'hi encantaria anar!$"
+	.string "Només un cop, m'encantaria anar-hi!$"
 
 GiddyText_WhenYouSeeTheSettingSunDoesIt::
 	.string "Quan veus el sol ponent, et fa\n"
@@ -56,7 +56,7 @@ GiddyText_WhenYouSeeTheSettingSunDoesIt::
 
 GiddyText_LyingBackInTheGreenGrass::
 	.string "Estirar-se a l'herba verda…\n"
-	.string "Oh, és tan, tan bonic!$"
+	.string "Oh, és tan, tan agradable!$"
 
 GiddyText_SecretBasesAreSoWonderful::
 	.string "Les Bases Secretes són meravelloses!\n"

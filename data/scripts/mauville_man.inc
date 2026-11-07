@@ -312,11 +312,9 @@ MauvilleCity_PokemonCenter_1F_Text_YouDidStatXTimes:
 
 
 MauvilleCity_PokemonCenter_1F_Text_CouldThereBeOtherLegends:
-	.string "Em fa pensar, podrien haver-hi\n"
-
+	.string "Em fa pensar: hi podria haver\n"
 	.string "altres Entrenadors amb llegendes\l"
-
-	.string "encara més impressionants?$"
+	.string "més impressionants per descobrir?$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_HaveYouAnyLegendaryTales:
@@ -363,7 +361,7 @@ MauvilleCity_PokemonCenter_1F_Text_SavedGameTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_SavedGameAction::
-	.string "Ha desat la partida$"
+	.string "Has desat la partida$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_SavedGameStory::
@@ -381,11 +379,11 @@ MauvilleCity_PokemonCenter_1F_Text_SavedGameStory::
 
 
 MauvilleCity_PokemonCenter_1F_Text_TrendsStartedTitle::
-	.string "L'Entrenador Tendència$"
+	.string "L'Entrenador Innovador$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_TrendsStartedAction::
-	.string "Ha iniciat tendències$"
+	.string "Has creat tendències$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_TrendsStartedStory::
@@ -407,7 +405,7 @@ MauvilleCity_PokemonCenter_1F_Text_BerriesPlantedTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_BerriesPlantedAction::
-	.string "Ha plantat Baies$"
+	.string "Has plantat Baies$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_BerriesPlantedStory::
@@ -429,7 +427,7 @@ MauvilleCity_PokemonCenter_1F_Text_BikeTradesTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_BikeTradesAction::
-	.string "Ha canviat de Bici$"
+	.string "Has canviat de Bici$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_BikeTradesStory::
@@ -451,7 +449,7 @@ MauvilleCity_PokemonCenter_1F_Text_InterviewsTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_InterviewsAction::
-	.string "Ha estat entrevistat$"
+	.string "T'han entrevistat$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_InterviewsStory::
@@ -473,7 +471,7 @@ MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesAction::
-	.string "Ha combatut$"
+	.string "Has combatut$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_TrainerBattlesStory::
@@ -493,7 +491,7 @@ MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtAction::
-	.string "Ha capturat Pokémon$"
+	.string "Has capturat Pokémon$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonCaughtStory::
@@ -515,7 +513,7 @@ MauvilleCity_PokemonCenter_1F_Text_FishingPokemonCaughtTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_FishingPokemonCaughtAction::
-	.string "Ha pescat Pokémon amb Canya$"
+	.string "Has pescat Pokémon amb una canya$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_FishingPokemonCaughtStory::
@@ -537,7 +535,7 @@ MauvilleCity_PokemonCenter_1F_Text_EggsHatchedTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_EggsHatchedAction::
-	.string "Ha fet descloure Ous$"
+	.string "Has fet descloure Ous$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_EggsHatchedStory::
@@ -559,7 +557,7 @@ MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedAction::
-	.string "Ha evolucionat Pokémon$"
+	.string "Has fet evolucionar Pokémon$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_PokemonEvolvedStory::
@@ -581,7 +579,7 @@ MauvilleCity_PokemonCenter_1F_Text_UsedPokemonCenterTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_UsedPokemonCenterAction::
-	.string "Ha usat Centres Pokémon$"
+	.string "Has usat els Centres Pokémon$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_UsedPokemonCenterStory::
@@ -603,7 +601,7 @@ MauvilleCity_PokemonCenter_1F_Text_RestedAtHomeTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_RestedAtHomeAction::
-	.string "Ha reposat Pokémon a casa$"
+	.string "Has fet descansar Pokémon a casa$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_RestedAtHomeStory::
@@ -625,7 +623,7 @@ MauvilleCity_PokemonCenter_1F_Text_SafariGamesTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_SafariGamesAction::
-	.string "Ha entrat a la Zona Safari$"
+	.string "Has entrat a la Zona Safari$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_SafariGamesStory::
@@ -647,21 +645,16 @@ MauvilleCity_PokemonCenter_1F_Text_UsedCutTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_UsedCutAction::
-	.string "Ha usat Tallar$"
+	.string "Has usat Tall$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_UsedCutStory::
 	.string "Aquesta és la història d'un\n"
-
 	.string "Entrenador anomenat {STR_VAR_3}.\p"
-
-	.string "Ha usat Tallar\n"
-
+	.string "Ha usat Tall\n"
 	.string "{STR_VAR_1} vegades!\p"
-
 	.string "{STR_VAR_3} deu ser un Entrenador\n"
-
-	.string "que adora Tallar!$"
+	.string "que adora fer servir Tall!$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_UsedRockSmashTitle::
@@ -669,20 +662,15 @@ MauvilleCity_PokemonCenter_1F_Text_UsedRockSmashTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_UsedRockSmashAction::
-	.string "Ha trencat roques$"
+	.string "Has trencat roques$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_UsedRockSmashStory::
 	.string "Aquesta és la història d'un\n"
-
 	.string "Entrenador anomenat {STR_VAR_3}.\p"
-
-	.string "Ha usat Trenca Roques\n"
-
+	.string "Ha usat Trencar Roca\n"
 	.string "{STR_VAR_1} vegades!\p"
-
 	.string "{STR_VAR_3} deu ser un Entrenador que\n"
-
 	.string "no deixa cap pedra sencera!$"
 
 
@@ -691,21 +679,16 @@ MauvilleCity_PokemonCenter_1F_Text_MovedBasesTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_MovedBasesAction::
-	.string "Ha mogut la Base Secreta$"
+	.string "Has mogut la Base Secreta$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_MovedBasesStory::
 	.string "Aquesta és la història d'un\n"
-
 	.string "Entrenador anomenat {STR_VAR_3}.\p"
-
 	.string "Ha mogut la Base Secreta\n"
-
 	.string "{STR_VAR_1} vegades!\p"
-
 	.string "{STR_VAR_3} és un Entrenador que\n"
-
-	.string "li agrada mudar-se sovint!$"
+	.string "adora canviar de casa sovint!$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_UsedSplashTitle::
@@ -713,20 +696,15 @@ MauvilleCity_PokemonCenter_1F_Text_UsedSplashTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_UsedSplashAction::
-	.string "Ha usat Esquitxada$"
+	.string "Has usat Esplai$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_UsedSplashStory::
 	.string "Aquesta és la història d'un\n"
-
 	.string "Entrenador anomenat {STR_VAR_3}.\p"
-
-	.string "Ha usat Esquitxada\n"
-
+	.string "Ha usat Esplai\n"
 	.string "{STR_VAR_1} vegades!\p"
-
 	.string "{STR_VAR_3} deu ser un Entrenador\n"
-
 	.string "que adora esquitxar!$"
 
 
@@ -735,43 +713,33 @@ MauvilleCity_PokemonCenter_1F_Text_UsedStruggleTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_UsedStruggleAction::
-	.string "Ha hagut de recórrer a Lluita$"
+	.string "Has hagut de recórrer a Esforç$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_UsedStruggleStory::
 	.string "Aquesta és la història d'un\n"
-
 	.string "Entrenador anomenat {STR_VAR_3}.\p"
-
-	.string "Ha hagut de recórrer a Lluita\n"
-
+	.string "Ha hagut de recórrer a Esforç\n"
 	.string "{STR_VAR_1} vegades!\p"
-
 	.string "{STR_VAR_3} és un Entrenador tenaç\n"
-
 	.string "que mai es rendeix!$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_SlotJackpotsTitle::
-	.string "El Campió de les Tragaperres$"
+	.string "El Campió de les Escurabutxaques$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_SlotJackpotsAction::
-	.string "Ha guanyat el premi gros$"
+	.string "Has guanyat el premi gros$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_SlotJackpotsStory::
 	.string "Aquesta és la història d'un\n"
-
 	.string "Entrenador anomenat {STR_VAR_3}.\p"
-
 	.string "Ha guanyat el premi gros de les\n"
-
-	.string "Tragaperres {STR_VAR_1} vegades.\p"
-
+	.string "escurabutxaques {STR_VAR_1} vegades.\p"
 	.string "{STR_VAR_3} és un Entrenador amb sort\n"
-
-	.string "a les Tragaperres!$"
+	.string "a les escurabutxaques!$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_RouletteWinsTitle::
@@ -779,7 +747,7 @@ MauvilleCity_PokemonCenter_1F_Text_RouletteWinsTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_RouletteWinsAction::
-	.string "Ha tingut victòries seguides de$"
+	.string "Has guanyat a la Ruleta seguit$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_RouletteWinsStory::
@@ -797,25 +765,20 @@ MauvilleCity_PokemonCenter_1F_Text_RouletteWinsStory::
 
 
 MauvilleCity_PokemonCenter_1F_Text_BattleTowerChallengesTitle::
-	.string "El Retador de la Torre Combat$"
+	.string "El Retador de la Torre de Combat$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_BattleTowerChallengesAction::
-	.string "Ha acceptat el repte de la Torre$"
+	.string "Has afrontat la Torre de Combat$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_BattleTowerChallengesStory::
 	.string "Aquesta és la història d'un\n"
-
 	.string "Entrenador anomenat {STR_VAR_3}.\p"
-
-	.string "Ha acceptat el repte de la\n"
-
-	.string "Torre Combat {STR_VAR_1} vegades!\p"
-
+	.string "Ha acceptat el repte de la Torre\n"
+	.string "de Combat {STR_VAR_1} vegades!\p"
 	.string "{STR_VAR_3} aspira a l'excel·lència\n"
-
-	.string "a la Torre Combat!$"
+	.string "a la Torre de Combat!$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_MadePokeblocksTitle::
@@ -823,7 +786,7 @@ MauvilleCity_PokemonCenter_1F_Text_MadePokeblocksTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_MadePokeblocksAction::
-	.string "Ha fet {POKEBLOCK}s$"
+	.string "Has fet {POKEBLOCK}s$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_MadePokeblocksStory::
@@ -845,7 +808,7 @@ MauvilleCity_PokemonCenter_1F_Text_EnteredContestsTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_EnteredContestsAction::
-	.string "Ha participat en Concursos$"
+	.string "Has participat en Concursos$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_EnteredContestsStory::
@@ -867,7 +830,7 @@ MauvilleCity_PokemonCenter_1F_Text_WonContestsTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_WonContestsAction::
-	.string "Ha guanyat Concursos$"
+	.string "Has guanyat Concursos$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_WonContestsStory::
@@ -889,7 +852,7 @@ MauvilleCity_PokemonCenter_1F_Text_TimesShoppedTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_TimesShoppedAction::
-	.string "Ha anat de compres$"
+	.string "Has anat de compres$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_TimesShoppedStory::
@@ -911,7 +874,7 @@ MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderAction::
-	.string "Ha usat un Buscaobjectes$"
+	.string "Has usat un Buscaobjectes$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_UsedItemFinderStory::
@@ -933,7 +896,7 @@ MauvilleCity_PokemonCenter_1F_Text_TimesRainedTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_TimesRainedAction::
-	.string "Li ha plogut a sobre$"
+	.string "T'ha plogut a sobre$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_TimesRainedStory::
@@ -955,7 +918,7 @@ MauvilleCity_PokemonCenter_1F_Text_CheckedPokedexTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_CheckedPokedexAction::
-	.string "Ha consultat la Pokédex$"
+	.string "Has consultat la Pokédex$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_CheckedPokedexStory::
@@ -977,7 +940,7 @@ MauvilleCity_PokemonCenter_1F_Text_ReceivedRibbonsTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_ReceivedRibbonsAction::
-	.string "Ha rebut Cintes$"
+	.string "Has rebut Cintes$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_ReceivedRibbonsStory::
@@ -999,7 +962,7 @@ MauvilleCity_PokemonCenter_1F_Text_LedgesJumpedTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_LedgesJumpedAction::
-	.string "Ha saltat per sortints$"
+	.string "Has saltat per sortints$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_LedgesJumpedStory::
@@ -1021,7 +984,7 @@ MauvilleCity_PokemonCenter_1F_Text_TVWatchedTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_TVWatchedAction::
-	.string "Ha mirat la TV$"
+	.string "Has mirat la TV$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_TVWatchedStory::
@@ -1041,7 +1004,7 @@ MauvilleCity_PokemonCenter_1F_Text_CheckedClockTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_CheckedClockAction::
-	.string "Ha mirat l'hora$"
+	.string "Has mirat l'hora$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_CheckedClockStory::
@@ -1063,7 +1026,7 @@ MauvilleCity_PokemonCenter_1F_Text_WonLotteryTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_WonLotteryAction::
-	.string "Ha guanyat Loteries Pokémon$"
+	.string "Has guanyat Loteries Pokémon$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_WonLotteryStory::
@@ -1085,7 +1048,7 @@ MauvilleCity_PokemonCenter_1F_Text_UsedDaycareTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareAction::
-	.string "Ha deixat Pokémon a la Guarderia$"
+	.string "Has deixat Pokémon a la Guarderia$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_UsedDaycareStory::
@@ -1107,7 +1070,7 @@ MauvilleCity_PokemonCenter_1F_Text_RodeCableCarTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_RodeCableCarAction::
-	.string "Ha pujat al Telefèric$"
+	.string "Has pujat al Telefèric$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_RodeCableCarStory::
@@ -1129,7 +1092,7 @@ MauvilleCity_PokemonCenter_1F_Text_HotSpringsTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_HotSpringsAction::
-	.string "S'ha banyat a les termes$"
+	.string "T'has banyat a les termes$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_HotSpringsStory::
@@ -1299,8 +1262,7 @@ MauvilleCity_PokemonCenter_1F_Text_BardFeelingTheBlues1:
 
 MauvilleCity_PokemonCenter_1F_Text_WishICouldPlaySongForOthers:
 	.string "Oh, quina cançó tan emotiva…\n"
-
-	.string "M'agradaria tocar-la per altri…$"
+	.string "M'agradaria tocar-la per a altra gent…$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_WouldYouLikeToWriteSomeLyrics:
@@ -1369,10 +1331,7 @@ MauvilleCity_PokemonCenter_1F_Text_IveGotNothingNewToTeach:
 
 MauvilleCity_PokemonCenter_1F_Text_HaveYouHeardOfPhrase:
 	.string "Ei, has sentit a parlar de\n"
-
 	.string "“{STR_VAR_1}”?\p"
-
 	.string "Què vol dir? Bé…\n"
-
-	.string "Pregunta al teu pare o mare!$"
+	.string "Pregunta-ho al pare o a la mare!$"
 
