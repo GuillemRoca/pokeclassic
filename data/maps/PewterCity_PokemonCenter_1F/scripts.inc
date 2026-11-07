@@ -49,7 +49,7 @@ PewterCity_PokemonCenter_1F_EventScript_Youngster::
 PewterCity_PokemonCenter_1F_Text_WhenJiggylypuffSingsMonsGetDrowsy::
     .string "Badall!\p"
     .string "Quan Jigglypuff canta, els\n"
-    .string "Pokémon s'adormeixen…\p"
+    .string "Pokémon s'adormen…\p"
     .string "…Jo també…\n"
     .string "Zzz…$"
 

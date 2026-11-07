@@ -2074,7 +2074,7 @@ gText_ApprenticeMoveThanks11::
 	.string "{PLAYER}, seràs el meu estel!$"
 
 gText_ApprenticeWhichMove12::
-	.string "Oh, ieah, mira qui és: {PLAYER}!\p"
+	.string "Ei, ei, mira qui és: {PLAYER}!\p"
 	.string "Què hauria de fer? Demanar consell?\n"
 	.string "Per què no? Ja t'estic parlant!\p"
 	.string "{PLAYER}, et sorprenc?\n"

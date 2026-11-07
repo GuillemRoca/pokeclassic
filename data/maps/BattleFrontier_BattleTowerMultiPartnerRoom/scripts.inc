@@ -1558,7 +1558,7 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacAccept::
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_PokemaniacReject::
 	.string "Els meus Pokémon són brutals!\n"
-	.string "No és culpa meva si te'n peneds!$"
+	.string "No és culpa meva si te'n penedeixes!$"
 
 BattleFrontier_BattleTowerMultiPartnerRoom_Text_KindlerIntro::
 	.string "Ep!\n"

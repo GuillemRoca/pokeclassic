@@ -46,7 +46,7 @@ EventTicket_Text_ShowEonTicket:
 	.string "hi arribem, company.\l"
 
 
-	.string "Això m'estremet!\p"
+	.string "Això m'estremeix!\p"
 
 
 	.string "Tots a bord!$"

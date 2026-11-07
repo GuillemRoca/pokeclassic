@@ -180,7 +180,7 @@ const u8 gNidoranFPokedexText[] = _(
 
 const u8 gNidorinaPokedexText[] = _(
     "Quan és amb amics o família, les\n"
-    "espines es replegen per evitar\n"
+    "espines es repleguen per evitar\n"
     "ferides. Sembla posar-se nerviosa\n"
     "si se separa dels altres.");
 
@@ -457,7 +457,7 @@ const u8 gGravelerPokedexText[] = _(
 const u8 gGolemPokedexText[] = _(
     "Es diu que viu en cràters volcànics\n"
     "als cims. Un cop l'any muda la pell\n"
-    "i creix. La pell mudada es desfa\n"
+    "i creix. La pell mudada es desfà\n"
     "i torna a la terra.");
 
 const u8 gPonytaPokedexText[] = _(
@@ -1182,7 +1182,7 @@ const u8 gEspeonPokedexText[] = _(
 
 const u8 gUmbreonPokedexText[] = _(
     "Umbreon va evolucionar exposat als\n"
-    "pulsos d'energia de la lluna.\n"
+    "polsos d'energia de la lluna.\n"
     "Aguaita en la foscor. Els anells\n"
     "brillen quan salta per atacar.");
 

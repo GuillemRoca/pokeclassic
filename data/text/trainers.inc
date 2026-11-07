@@ -5161,7 +5161,7 @@ Route123_Text_CameronPostBattle:
 
 
 Route123_Text_CameronRegister:
-	.string "Ho pressenteixo!\n"
+	.string "Ho pressento!\n"
 
 	.string "Tu i jo tornarem a combatre!\l"
 
@@ -5767,7 +5767,7 @@ Route124_Text_DeclanPostBattle:
 Route124_Text_IsabellaIntro:
 	.string "No perdré contra un Entrenador\n"
 
-	.string "surfer.$"
+	.string "surfista.$"
 
 
 Route124_Text_IsabellaDefeat:

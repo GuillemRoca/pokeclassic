@@ -18,5 +18,5 @@ SSAnne_2F_Room3_Text_SomeTreesCanBeCutDown::
     .string "amb el moviment Tall.\p"
     .string "Però recorda-ho!\n"
     .string "Tall és un moviment de MO.\p"
-    .string "Un cop apres, no és tan fàcil\n"
+    .string "Un cop après, no és tan fàcil\n"
     .string "d'oblidar.$"

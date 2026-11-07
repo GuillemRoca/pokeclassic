@@ -2968,7 +2968,7 @@ static const u8 sThunderousKickDescription[] = _(
 
 static const u8 sGlacialLanceDescription[] = _(
     "Colpeja amb una llança de\n"
-    "gel coberta de ventisca.");
+    "gel envoltada de torb.");
 
 static const u8 sAstralBarrageDescription[] = _(
     "Envia una munió espantosa\n"
@@ -3784,9 +3784,9 @@ static const u8 sMoveFourLineDescription_HornDrill[] = _("La banya gira com\nun 
 static const u8 sMoveFourLineDescription_Tackle[] = _("Un atac físic en\nquè l'usuari\nenvesteix amb tot\nel cos el rival.");
 static const u8 sMoveFourLineDescription_BodySlam[] = _("L'usuari deixa\ncaure tot el cos\nsobre el rival. Pot\nparalitzar-lo.");
 #if defined(BATTLE_ENGINE) && B_BINDING_TURNS >= GEN_5
-static const u8 sMoveFourLineDescription_Wrap[] = _("Un cos llarg o\nlianes embolicen\nel rival durant\nquatre o cinc torns.");
+static const u8 sMoveFourLineDescription_Wrap[] = _("Un cos llarg o\nlianes emboliquen\nel rival durant\nquatre o cinc torns.");
 #else
-static const u8 sMoveFourLineDescription_Wrap[] = _("Un cos llarg o\nlianes embolicen\nel rival durant\ndos a cinc torns.");
+static const u8 sMoveFourLineDescription_Wrap[] = _("Un cos llarg o\nlianes emboliquen\nel rival durant\ndos a cinc torns.");
 #endif
 static const u8 sMoveFourLineDescription_TakeDown[] = _("Una envestida\ntemerària que també\nfa una mica de mal\na l'usuari.");
 static const u8 sMoveFourLineDescription_Thrash[] = _("L'usuari s'enfurisma\ndurant dos o tres\ntorns i després\nes confon.");
@@ -4152,9 +4152,9 @@ static const u8 sMoveFourLineDescription_HornDrill[] = _("La banya gira com\nun 
 static const u8 sMoveFourLineDescription_Tackle[] = _("Un atac físic en\nquè l'usuari\nenvesteix amb tot\nel cos el rival.");
 static const u8 sMoveFourLineDescription_BodySlam[] = _("L'usuari deixa\ncaure tot el cos\nsobre el rival. Pot\nparalitzar-lo.");
 #if defined(BATTLE_ENGINE) && B_BINDING_TURNS >= GEN_5
-static const u8 sMoveFourLineDescription_Wrap[] = _("Un cos llarg o\nlianes embolicen\nel rival durant\nquatre o cinc torns.");
+static const u8 sMoveFourLineDescription_Wrap[] = _("Un cos llarg o\nlianes emboliquen\nel rival durant\nquatre o cinc torns.");
 #else
-static const u8 sMoveFourLineDescription_Wrap[] = _("Un cos llarg o\nlianes embolicen\nel rival durant\ndos a cinc torns.");
+static const u8 sMoveFourLineDescription_Wrap[] = _("Un cos llarg o\nlianes emboliquen\nel rival durant\ndos a cinc torns.");
 #endif
 static const u8 sMoveFourLineDescription_TakeDown[] = _("Una envestida\ntemerària que també\nfa una mica de mal\na l'usuari.");
 static const u8 sMoveFourLineDescription_Thrash[] = _("L'usuari s'enfurisma\ndurant dos o tres\ntorns i després\nes confon.");
