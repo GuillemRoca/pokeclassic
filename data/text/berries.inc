@@ -1,5 +1,5 @@
 PetalburgCity_Gym_Text_GiveEnigmaBerry:
-	.string "Papà: Hola, {PLAYER}!\p"
+	.string "Pare: Hola, {PLAYER}!\p"
 	.string "Acabo de rebre una Baia molt rara.\n"
 	.string "M'agradaria que te la quedessis.$"
 
@@ -8,7 +8,7 @@ Route104_Text_PlantBerriesInSoilTakeThis:
 	.string "tova, pots agafar-les.\p"
 	.string "Però assegura't de plantar-hi una\n"
 	.string "Baia. És qüestió de cortesia.\p"
-	.string "Toma, en comparteixo una amb tu.$"
+	.string "Té, en comparteixo una amb tu.$"
 
 Route104_Text_TrainersOftenMakeMonHoldBerries:
 	.string "Amb la pinta que fas, deus ser\n"
@@ -31,18 +31,18 @@ Route111_Text_GoingToTryToMakeDifferentColorBerries:
 	.string "Espero que tu també t'esforcis!$"
 
 Route111_Text_WhatColorBerriesToLookForToday:
-	.string "Quines Baies de quin color\n"
-	.string "buscaré avui?$"
+	.string "De quin color seran les Baies\n"
+	.string "que buscaré avui?$"
 
 Route114_Text_LoveUsingBerryCrushShareBerry:
 	.string "M'encanta usar la màquina\n"
-	.string "Triturador de Baies, per això\l"
+	.string "Tritura-Baies, per això\l"
 	.string "les col·lecciono.\p"
 	.string "En comparteixo una amb tu, si vols.$"
 
 Route114_Text_TryBerryCrushWithFriends:
 	.string "Hauries de provar la màquina\n"
-	.string "Triturador de Baies amb amics.$"
+	.string "Tritura-Baies amb els teus amics.$"
 
 Route114_Text_FunToThinkAboutBerries:
 	.string "Quina Baia plantar?\n"
@@ -50,7 +50,7 @@ Route114_Text_FunToThinkAboutBerries:
 	.string "És divertit pensar-hi.$"
 
 Route120_Text_BerriesExpressionOfLoveIsntIt:
-	.string "Les Baies creixen absorbint la llum solar.\p"
+	.string "Les Baies creixen amb la llum del sol.\p"
 	.string "Les ajudem a créixer regant-les\n"
 	.string "regularment.\p"
 	.string "És una expressió d'amor, oi?$"
@@ -67,7 +67,7 @@ Route120_Text_MakeYourOwnImpressions:
 
 Route120_Text_BerryIsRareRaiseItWithCare:
 	.string "Crec que aquesta Baia és rara.\n"
-	.string "Espero que la cuides amb amor.$"
+	.string "Espero que la cuidis amb amor.$"
 
 Route120_Text_IllGetMoreBerriesFromBerryMaster:
 	.string "Aconseguiré més Baies del\n"
@@ -92,7 +92,7 @@ LilycoveCity_Text_PokeblocksSuitPokemon:
 
 Route123_BerryMastersHouse_Text_YoureDeservingOfBerry:
 	.string "Em pots dir el Mestre de les Baies.\p"
-	.string "Somio amb omplir el món de\n"
+	.string "El meu somni és omplir el món de\n"
 	.string "flors boniques, per això cultivo\l"
 	.string "Baies i les reparteixo a tothom.\p"
 	.string "Te la mereixes!$"
@@ -102,8 +102,8 @@ Route123_BerryMastersHouse_Text_WhyBeStingyTakeAnother:
 	.string "Pren-ne una altra!$"
 
 Route123_BerryMastersHouse_Text_VisitPrettyPetalFlowerShop:
-	.string "Assegura't de visitar la\n"
-	.string "botiga de flors Pètal Bonic.\p"
+	.string "Visita sense falta la floristeria\n"
+	.string "Pètal Bonic, prop de Ciutat Rustboro.\p"
 	.string "Que les flors omplin el món!$"
 
 Route123_BerryMastersHouse_Text_DoneForToday:
@@ -121,12 +121,12 @@ Route123_BerryMastersHouse_Text_HeardAGoodSayingLately:
 Route123_BerryMastersHouse_Text_InspirationalTakeThis:
 	.string "Ah! Quin refrany tan notable!\n"
 	.string "Inspirador, de debò!\p"
-	.string "Vull que te la quedes.$"
+	.string "Vull que te la quedis.$"
 
 Route123_BerryMastersHouse_Text_GoodSayingTakeThis:
 	.string "Oh! Un bon refrany.\n"
 	.string "Ets força notable.\p"
-	.string "Vull que te la quedes.$"
+	.string "Vull que te la quedis.$"
 
 Route123_BerryMastersHouse_Text_JoyNeverGoesOutOfMyLife:
 	.string "Els nostres quatre néts haurien de\n"
@@ -138,8 +138,8 @@ Route123_BerryMastersHouse_Text_Ah:
 
 Route104_PrettyPetalFlowerShop_Text_ThisIsPrettyPetalFlowerShop:
 	.string "Hola!\p"
-	.string "Aquesta és la botiga de flors\n"
-	.string "Pètal Bonic. Omplint el món de flors!$"
+	.string "Aquesta és la floristeria Pètal Bonic.\n"
+	.string "Escampem flors per tot el món!$"
 
 Route104_PrettyPetalFlowerShop_Text_LearnAboutBerries:
 	.string "{PLAYER}{KUN}, vols aprendre\n"
@@ -162,7 +162,7 @@ Route104_PrettyPetalFlowerShop_Text_BerriesExplanation:
 	.string "i tornarà a donar Baies.\p"
 	.string "Vull veure el món sencer\n"
 	.string "ple de flors boniques.\l"
-	.string "Aquell és el meu somni.\p"
+	.string "Aquest és el meu somni.\p"
 	.string "Ajuda'm, {PLAYER}{KUN}. Planta Baies\n"
 	.string "i porta més flors al món.$"
 
@@ -179,7 +179,7 @@ Route104_PrettyPetalFlowerShop_Text_YouCanHaveThis:
 
 Route104_PrettyPetalFlowerShop_Text_WailmerPailExplanation:
 	.string "Mentre les plantes de Baies creixen,\n"
-	.string "rega-les amb el Regador Wailmer.\p"
+	.string "rega-les amb la Regadora.\p"
 	.string "Una altra cosa.\p"
 	.string "Si no collides Baies durant un temps,\n"
 	.string "cauran al terra.\l"
@@ -209,7 +209,7 @@ SootopolisCity_Text_NameIsKiriHaveOneOfThese:
 	.string "La meva mama i el meu papa em van\n"
 	.string "posar aquest nom perquè creixés\l"
 	.string "sana i de bon cor.\l"
-	.string "Aquell va ser el seu desig.\p"
+	.string "Aquest era el seu desig.\p"
 	.string "Pots quedar-te una d'aquestes.$"
 
 SootopolisCity_Text_GiveYouThisBerryToo:
@@ -227,7 +227,7 @@ SootopolisCity_Text_LikeSeasonBornIn:
 	.string "nascut a l'estiu, t'agrada l'estiu?$"
 
 SootopolisCity_Text_ThenILoveAutumn:
-	.string "Llavors la Kiri ha nascut a la tardor,\n"
+	.string "Doncs la Kiri va néixer a la tardor,\n"
 	.string "per això m'encanta la tardor!\p"
 	.string "Quina estació t'agrada a tu?$"
 

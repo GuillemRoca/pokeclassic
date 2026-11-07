@@ -3,4 +3,4 @@ gText_WantToUseSurf::
 	.string "Vols fer Surf?$"
 
 gText_PlayerUsedSurf::
-	.string "{STR_VAR_1} ha fet Surf!$"
+	.string "{STR_VAR_1} ha usat Surf!$"

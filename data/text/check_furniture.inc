@@ -1,5 +1,5 @@
 Text_PictureBookShelf:
-	.string "Hi ha una col·lecció de llibres de Pokémon.$"
+	.string "Hi ha llibres il·lustrats de Pokémon.$"
 
 Text_BookShelf:
 	.string "Està ple de tot tipus de llibres.$"
@@ -23,7 +23,7 @@ Text_ShopShelf:
 	.string "tota mena de productes Pokémon.$"
 
 Text_Blueprint:
-	.string "Un tipus de plànol?\n"
+	.string "Una mena de plànol?\n"
 	.string "És massa complicat!$"
 
 Text_Painting:

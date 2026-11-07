@@ -24,7 +24,7 @@ MysteryGiftScript_BattleCardInfo:
 	end
 
 sText_MysteryGiftBattleCountCard:
-	.string "Gràcies per utilitzar el sistema\n"
+	.string "Gràcies per utilitzar el Sistema\n"
 	.string "de Regal Misteriós.\p"
 	.string "La teva Targeta de Combats registra\n"
 	.string "el teu historial de combats contra\l"
@@ -36,7 +36,7 @@ sText_MysteryGiftBattleCountCard:
 	.string "Prova-ho!$"
 
 sText_MysteryGiftBattleCountCard_WonPrize:
-	.string "Gràcies per utilitzar el sistema\n"
+	.string "Gràcies per utilitzar el Sistema\n"
 	.string "de Regal Misteriós.\p"
 	.string "Felicitats!\p"
 	.string "Has guanyat un premi per guanyar\n"

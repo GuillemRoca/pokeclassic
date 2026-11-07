@@ -15,7 +15,7 @@ MysteryGiftScript_StampCard::
 	end
 
 sText_MysteryGiftStampCard:
-	.string "Gràcies per utilitzar el sistema\n"
+	.string "Gràcies per utilitzar el Sistema\n"
 	.string "de Targeta de Segells.\p"
 	.string "Et falten {STR_VAR_1} més per omplir\n"
 	.string "la teva Targeta de Segells.$"

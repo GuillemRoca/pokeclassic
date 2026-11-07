@@ -10,7 +10,7 @@ BerryBlender_Text_SeeMyMasteryInAction:
 
 BerryBlender_Text_TooBusyNowIsee:
 	.string "Hmm!\p"
-	.string "Sembla que ara ets massa ocupat!\p"
+	.string "Ja veig que ara estàs massa ocupat!\p"
 	.string "Però no temis!\n"
 	.string "Aquí estaré tot el dia!\l"
 	.string "Torna ràpid del teu encàrrec!$"
@@ -35,13 +35,13 @@ BerryBlender_Text_BlendMasterExplainBerryBlending:
 	.string "al teu marcador, prem el Botó A.\p"
 	.string "Això és tot el que has de fer.\p"
 	.string "Quan vegis amb quina precisió\n"
-	.string "premo el Botó A, entendràs.$"
+	.string "premo el Botó A, ho entendràs.$"
 
 BerryBlender_Text_BlendMasterLetsBerryBlender:
 	.string "Molt bé!\p"
 	.string "Comencem, doncs!\p"
 	.string "Tots junts amb el Mestre Barrejador,\n"
-	.string "anem a la Batedora de Baies!$"
+	.string "a batre Baies!$"
 
 BerryBlender_Text_BlendMasterNoPokeblockCase:
 	.string "Hmm!\p"
@@ -75,12 +75,12 @@ BerryBlender_Text_QualitiesOfBlendMaster:
 	.string "amb intensitat maquinal…\p"
 	.string "Una mà que prem el Botó A\n"
 	.string "amb precisió de rellotge…\p"
-	.string "Tenir aquestes qualitats fa\n"
-	.string "el Mestre Barrejador realment gran.$"
+	.string "Aquestes qualitats fan que el Mestre\n"
+	.string "Barrejador sigui realment gran.$"
 
 BerryBlender_Text_MasterWorksOnSkillsInMountains:
 	.string "Se suposa que el Mestre Barrejador\n"
-	.string "treballa les seves habilitats a les\l"
-	.string "muntanyes.\p"
-	.string "De vegades, ve a Lilycove\n"
+	.string "perfecciona la seva tècnica al cor de\l"
+	.string "les muntanyes.\p"
+	.string "De vegades, ve a Ciutat Lilycove\n"
 	.string "a barrejar Baies tot el dia.$"

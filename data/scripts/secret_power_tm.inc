@@ -1,7 +1,7 @@
 Route111_Text_MakingRoomUseTMToMakeYourOwn:
 	.string "Què és això?\n"
 	.string "Què estic fent?\p"
-	.string "Estic pensant en fer-me una habitació\n"
+	.string "Estic pensant de fer-me una habitació\n"
 	.string "aquí amb un moviment Pokémon.\p"
 	.string "Ja ho sé! Et donaré aquesta MT.\n"
 	.string "La faràs servir per fer la teva?$"
@@ -25,12 +25,12 @@ Route111_Text_ExplainSecretPower:
 	.string "D'acord, adéu!$"
 
 Route111_Text_DontWantThis:
-	.string "Oh, no ho vols?\n"
+	.string "Oh, no la vols?\n"
 	.string "Si canvies d'opinió, digues-m'ho!$"
 
 Route111_Text_DontHaveAnyRoom:
 	.string "Oh, no tens espai per a això.\p"
-	.string "Ho guardaré, així que torna a buscar-ho\n"
+	.string "La guardaré, així que torna a buscar-la\n"
 	.string "un altre dia, d'acord?$"
 
 Route111_EventScript_SecretPowerMan::

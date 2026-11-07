@@ -1,7 +1,7 @@
 LilycoveCity_DepartmentStore_1F_Text_LotteryCornerDrawTicket:
-	.string "Benvingut al Racó de la Loteria Pokémon.\p"
-	.string "Tots els compradors dels nostres grans\n"
-	.string "magatzems podeu treure un Tiquet Loto.\p"
+	.string "Això és el Racó de la Loteria Pokémon.\p"
+	.string "Tots els clients dels nostres grans\n"
+	.string "magatzems poden treure un Tiquet Loto.\p"
 	.string "Si el número del Tiquet Loto coincideix\n"
 	.string "amb el número d'ID d'algun dels teus\l"
 	.string "Pokémon, rebràs un regal fabulós.\p"
@@ -26,14 +26,14 @@ LilycoveCity_DepartmentStore_1F_Text_TicketNumberIsXPleaseWait:
 
 LilycoveCity_DepartmentStore_1F_Text_TicketMatchesPartyMon:
 	.string "Enhorabona!\p"
-	.string "El número d'ID del teu {STR_VAR_1}\n"
-	.string "de l'equip coincideix amb el\l"
+	.string "El número d'ID del {STR_VAR_1}\n"
+	.string "del teu equip coincideix amb el\l"
 	.string "número del teu Tiquet Loto!$"
 
 LilycoveCity_DepartmentStore_1F_Text_TicketMatchesPCMon:
 	.string "Enhorabona!\p"
-	.string "El número d'ID del teu {STR_VAR_1}\n"
-	.string "de l'ordinador coincideix amb el\l"
+	.string "El número d'ID del {STR_VAR_1}\n"
+	.string "que tens al PC coincideix amb el\l"
 	.string "número del teu Tiquet Loto!$"
 
 LilycoveCity_DepartmentStore_1F_Text_NoNumbersMatched:

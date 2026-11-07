@@ -13,7 +13,7 @@ MysteryGiftScript_AlteringCave_:
 	end
 
 sText_MysteryGiftAlteringCave:
-	.string "Gràcies per utilitzar el sistema\n"
+	.string "Gràcies per utilitzar el Sistema\n"
 	.string "de Regal Misteriós.\p"
 	.string "Sembla que hi ha un rumor sobre\n"
 	.string "aparicions de Pokémon rars.\p"

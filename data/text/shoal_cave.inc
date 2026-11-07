@@ -1,21 +1,21 @@
 ShoalCave_LowTideEntranceRoom_Text_AreYouPlanningOnGoingInThere:
 	.string "Tens pensat endinsar-te\n"
 	.string "aquí a dins?\p"
-	.string "I si em portes Sal Shoal i\n"
-	.string "Closques Shoal quan tornis?\p"
+	.string "I si em portes Sal Marina i\n"
+	.string "Closques Marines quan tornis?\p"
 	.string "Puc fer-te alguna cosa bona si\n"
 	.string "em portes els ingredients.$"
 
 ShoalCave_LowTideEntranceRoom_Text_BringMe4ShoalSaltAndShells:
-	.string "Si em portes quatre de cada,\n"
-	.string "Sal Shoal i Closques Shoal,\l"
+	.string "Si em portes quatre unitats de Sal\n"
+	.string "Marina i quatre Closques Marines,\l"
 	.string "puc fer-te un Campanet Closca…\p"
 	.string "Pots obtenir aquests ingredients\n"
 	.string "cada dia.$"
 
 ShoalCave_LowTideEntranceRoom_Text_WouldYouLikeShellBell:
-	.string "Oh, ei! Sal Shoal i Closques Shoal!\n"
-	.string "I prou, a més!\p"
+	.string "Oh, ei! Sal Marina i Closques Marines!\n"
+	.string "I n'hi ha prou i tot!\p"
 	.string "Vols que et faci\n"
 	.string "un Campanet Closca?$"
 
@@ -45,9 +45,9 @@ ShoalCave_LowTideEntranceRoom_Text_NoSpaceInYourBag:
 	.string "per un Campanet Closca.$"
 
 ShoalCave_Text_WasShoalSaltNowNothing:
-	.string "Aquí hi havia Sal Shoal.\n"
+	.string "Aquí hi havia Sal Marina.\n"
 	.string "Però ara no hi ha res.$"
 
 ShoalCave_Text_WasShoallShellNowNothing:
-	.string "Aquí hi havia una Closca Shoal.\n"
+	.string "Aquí hi havia una Closca Marina.\n"
 	.string "Però ara no hi ha res.$"

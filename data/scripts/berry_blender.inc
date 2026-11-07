@@ -24,7 +24,7 @@ BerryBlender_Text_KnowHowToMakePokeblocks:
 
 BerryBlender_Text_LetsBerryBlender:
 	.string "Doncs comencem!\p"
-	.string "Anem a la Batedora de Baies!$"
+	.string "A batre Baies!$"
 
 BerryBlender_Text_ExplainBerryBlending:
 	.string "D'acord, una petita explicació.\p"
@@ -32,7 +32,7 @@ BerryBlender_Text_ExplainBerryBlending:
 	.string "Quan la fletxa de la Batedora arribi\n"
 	.string "a la teva marca, prem el Botó A.\p"
 	.string "Això és tot el que has de fer.\n"
-	.string "Veuràs com de fàcil és quan ho provis.$"
+	.string "Quan ho provis, veuràs que és ben fàcil.$"
 
 BerryBlender_Text_DontHaveAnyBerries:
 	.string "Oh?\n"
@@ -42,8 +42,8 @@ BerryBlender_Text_DontHaveAnyBerries:
 
 BerryBlender_Text_CanHaveOneOfMyBerries:
 	.string "Bé, això no pot ser, oi?\p"
-	.string "Si no et fa res les sobres, pots\n"
-	.string "quedar-te una de les meves Baies.\p"
+	.string "Si no et fa res que siguin sobres,\n"
+	.string "pots quedar-te una de les meves Baies.\p"
 	.string "Així podríem fer uns {POKEBLOCK}S\n"
 	.string "junts amb la Batedora de Baies.$"
 
@@ -59,7 +59,7 @@ BerryBlender_Text_PokeblockCaseIsFull:
 	.string "de tornar a veure'm.$"
 
 BerryBlender_Text_DontHavePokeblockCase:
-	.string "Però no tens un Estoig {POKEBLOCK}.\p"
+	.string "Però no tens cap Estoig {POKEBLOCK}.\p"
 	.string "Hauries d'aconseguir un Estoig\n"
 	.string "{POKEBLOCK} i després tornar.$"
 
@@ -88,7 +88,7 @@ BerryBlender_Text_KnowHowToMakePokeblocks2:
 
 BerryBlender_Text_LetsBerryBlender2:
 	.string "Doncs comencem!\p"
-	.string "Anem a la Batedora de Baies!$"
+	.string "A batre Baies!$"
 
 BerryBlender_Text_ExplainBerryBlending2:
 	.string "D'acord!\n"
@@ -115,7 +115,7 @@ BerryBlender_Text_PokeblockCaseIsFull2:
 
 BerryBlender_Text_DontHavePokeblockCase2:
 	.string "Oh, espera un moment…\n"
-	.string "No tens un Estoig {POKEBLOCK}.\p"
+	.string "No tens cap Estoig {POKEBLOCK}.\p"
 	.string "Hauries d'aconseguir un Estoig\n"
 	.string "{POKEBLOCK} i després tornar.$"
 
@@ -129,7 +129,7 @@ BerryBlender_Text_OhDear:
 
 BerryBlender_Text_LeftUsInShock:
 	.string "Oh, déu meu…\p"
-	.string "Ens has deixat en xoc!$"
+	.string "Ens has deixat de pedra!$"
 
 BerryBlender_Text_KnowHowToMakePokeblocks3:
 	.string "Naturalment, saps com fer\n"
@@ -138,10 +138,10 @@ BerryBlender_Text_KnowHowToMakePokeblocks3:
 BerryBlender_Text_LetsBerryBlender3:
 	.string "D'acord, bonic!\n"
 	.string "Comencem!\p"
-	.string "Anem a la Batedora de Baies!$"
+	.string "A batre Baies!$"
 
 BerryBlender_Text_ExplainBerryBlending3:
-	.string "Oh, bonic!\p"
+	.string "Oh, vaja!\p"
 	.string "Doncs t'ho explicaré bé.\p"
 	.string "Quan la fletxa de la Batedora arribi\n"
 	.string "a la teva marca, prem el Botó A.\p"
@@ -164,7 +164,7 @@ BerryBlender_Text_PokeblockCaseIsFull3:
 	.string "i després tornar.$"
 
 BerryBlender_Text_DontHavePokeblockCase3:
-	.string "Encara no tens un Estoig {POKEBLOCK},\n"
+	.string "Encara no tens cap Estoig {POKEBLOCK},\n"
 	.string "pel que sembla.\p"
 	.string "Has d'aconseguir un Estoig {POKEBLOCK}\n"
 	.string "abans de tornar.$"
@@ -179,14 +179,14 @@ BerryBlender_Text_LookGoodAtBlendingJoinUs:
 	.string "Vols unir-te a nosaltres?$"
 
 BerryBlender_Text_MakeDeliciousPokeblocks:
-	.string "Faré {POKEBLOCK}S deliciosos\n"
-	.string "i faré els meus Pokémon més bonics.$"
+	.string "Faré {POKEBLOCK}S deliciosos perquè\n"
+	.string "els meus Pokémon siguin més bonics.$"
 
 BerryBlender_Text_SaveGameBeforeBerryBlenderLink:
 	.string "Es faran {POKEBLOCK}S amb els teus amics\n"
 	.string "a partir de Baies a la Batedora.\p"
-	.string "Està bé desar la partida abans\n"
-	.string "de connectar amb els teus amics?$"
+	.string "Vols desar la partida abans de\n"
+	.string "connectar amb els teus amics?$"
 
 BerryBlender_Text_SearchingForFriends:
 	.string "Buscant els teus amics…\n"
@@ -211,7 +211,7 @@ BerryBlender_Text_PokeblockCaseIsFullLink:
 	.string "La Batedora de Baies no es pot usar.$"
 
 BerryBlender_Text_DontHavePokeblockCaseLink:
-	.string "No tens un Estoig {POKEBLOCK}.\n"
+	.string "No tens cap Estoig {POKEBLOCK}.\n"
 	.string "La Batedora de Baies no es pot usar.$"
 
 BerryBlender_Text_LoveMakingPokeblocks:
@@ -227,8 +227,8 @@ BerryBlender_Text_DontHaveAnyBerriesHaveOne:
 	.string "Oh?\n"
 	.string "No tens cap Baia?\p"
 	.string "Bé, això no pot ser, oi?\p"
-	.string "Si no et fa res les sobres, pots\n"
-	.string "quedar-te una de les meves Baies.$"
+	.string "Si no et fa res que siguin sobres,\n"
+	.string "pots quedar-te una de les meves Baies.$"
 
 BerryBlender_Text_UseItToMakePokeblocksTogether:
 	.string "La farem servir per fer {POKEBLOCK}S\n"

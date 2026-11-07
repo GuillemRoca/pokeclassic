@@ -800,7 +800,7 @@ gText_PokemonCenterSign::
 	.string "Centre Pokémon$"
 
 gText_MomOrDadMightLikeThisProgram::
-	.string "A {STR_VAR_1} li agradaria\n"
+	.string "Potser a {STR_VAR_1} li agradaria\n"
 	.string "aquest programa.\p"
 	.string "… … … … … … … … … … … … … … … …\p"
 	.string "Millor que me'n vagi!$"
@@ -813,29 +813,29 @@ gText_SandstormIsVicious::
 	.string "És impossible continuar.$"
 
 gText_SelectWithoutRegisteredItem::
-	.string "Un objecte de la Motxilla es\n"
-	.string "pot assignar a Select.$"
+	.string "Pots assignar un objecte de la\n"
+	.string "Motxilla a Select per usar-lo fàcilment.$"
 
 gText_LWithoutRegisteredItem::
-	.string "Un objecte de la Motxilla es\n"
-	.string "pot assignar a L.$"
+	.string "Pots assignar un objecte de la\n"
+	.string "Motxilla a L per usar-lo fàcilment.$"
 
 gText_RWithoutRegisteredItem::
-	.string "Un objecte de la Motxilla es\n"
-	.string "pot assignar a R.$"
+	.string "Pots assignar un objecte de la\n"
+	.string "Motxilla a R per usar-lo fàcilment.$"
 
 gText_PokemonTrainerSchoolEmail::
-	.string "Hi ha un e-mail de l'Escola\n"
+	.string "Hi ha un correu de l'Escola\n"
 	.string "d'Entrenadors Pokémon.\p"
 	.string "… … … … … …\p"
 	.string "Un Pokémon pot aprendre fins a\n"
 	.string "quatre moviments.\p"
-	.string "L'habilitat d'un Entrenador es\n"
-	.string "demostra pels moviments triats.\p"
+	.string "La destresa d'un Entrenador es posa\n"
+	.string "a prova amb els moviments triats.\p"
 	.string "… … … … … …$"
 
 gText_PlayerHouseBootPC::
-	.string "{PLAYER} va encendre el PC.$"
+	.string "{PLAYER} ha encès el PC.$"
 
 gText_PokeblockLinkCanceled::
 	.string "La connexió s'ha cancel·lat.$"
@@ -846,7 +846,7 @@ gText_UnusedNicknameReceivedPokemon::
 
 gText_PlayerWhitedOut::
 	.string "{PLAYER} no té cap Pokémon\n"
-	.string "disponible!\p{PLAYER} ha perdut el combat!$"
+	.string "disponible!\p{PLAYER} ha quedat fora de combat!$"
 
 gText_RegisteredTrainerinPokeNav::
 	.string "{STR_VAR_1} {STR_VAR_2} t'ha donat\n"
@@ -856,8 +856,9 @@ gText_ComeBackWithSecretPower::
 	.string "Coneixes la MT Poder Secret?\p"
 	.string "Al nostre grup, ens encanta la\n"
 	.string "MT Poder Secret.\p"
-	.string "Un dels nostres membres te la donarà.\n"
-	.string "Torna i ensenya-me-la si l'aconsegueixes.\p"
+	.string "Un dels nostres membres te la\n"
+	.string "donarà. Si l'aconsegueixes,\l"
+	.string "torna i ensenya-me-la.\p"
 	.string "T'acceptarem com a membre i et\n"
 	.string "vendrem coses bones en secret.$"
 
@@ -1018,7 +1019,7 @@ Common_EventScript_LegendaryFlewAway::
 	end
 
 Text_VoiceRangOutDontRunAway::
-	.string "Una veu va ressonar,\n"
+	.string "Una veu va ressonar:\n"
 	.string "“No fugis!”$"
 
 	.include "data/scripts/pc_transfer.inc"

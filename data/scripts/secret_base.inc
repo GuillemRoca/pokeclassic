@@ -5,7 +5,7 @@ SecretBase_Text_TreeCanBeClimbed:
 SecretBase_Text_TreeUseSecretPower:
 	.string "Si cauen unes lianes, es pot pujar\n"
 	.string "a aquest arbre.\p"
-	.string "Usar el Poder Secret?$"
+	.string "Vols fer servir Poder Secret?$"
 
 SecretBase_Text_VineDroppedDown:
 	.string "Ha caigut una liana gruixuda!$"
@@ -17,7 +17,7 @@ SecretBase_Text_ClumpOfGrass:
 SecretBase_Text_ClumpUseSecretPower:
 	.string "Si es pogués moure aquest matollar,\n"
 	.string "potser es podria entrar a dins.\p"
-	.string "Usar el Poder Secret?$"
+	.string "Vols fer servir Poder Secret?$"
 
 SecretBase_Text_DiscoveredSmallEntrance:
 	.string "Has descobert una petita entrada!$"
@@ -696,15 +696,15 @@ SecretBase_Text_DataUnregistered:
 	.string "Les dades s'han eliminat.$"
 
 SecretBase_Text_BootUpPC:
-	.string "{PLAYER} ha engegat el PC.$"
+	.string "{PLAYER} ha encès el PC.$"
 
 SecretBase_Text_WhatWouldYouLikeToDo:
 	.string "Què vols fer?$"
 
 SecretBase_Text_RegistryInfo:
-	.string "Un cop registrada, una Base Secreta no\n"
-	.string "desapareixerà tret que l'Entrenador\l"
-	.string "la mogui a un altre lloc.\p"
+	.string "Un cop registrada, una Base Secreta\n"
+	.string "no desapareix tret que l'altre\l"
+	.string "Entrenador la mogui a un altre lloc.\p"
 	.string "Si una Base Secreta s'elimina de la\n"
 	.string "llista, una altra pot ocupar\l"
 	.string "el seu lloc.\p"
@@ -712,8 +712,8 @@ SecretBase_Text_RegistryInfo:
 	.string "ubicacions de Base Secreta.$"
 
 SecretBase_Text_BattleTowerShield:
-	.string "Un escut de {STR_VAR_2} que marca haver\n"
-	.string "guanyat {STR_VAR_1} cops seguits a la Torre.$"
+	.string "Un escut de {STR_VAR_2} que commemora\n"
+	.string "{STR_VAR_1} victòries seguides a la Torre.$"
 
 SecretBase_Text_ToyTV:
 	.string "Una TV de joguina realista. Es podria\n"
@@ -734,4 +734,4 @@ SecretBase_Text_WouldYouLikeToMoveBases:
 
 SecretBase_Text_MovingCompletedUseSecretPower:
 	.string "Mudança completada.\p"
-	.string "Vols usar el Poder Secret?$"
+	.string "Vols fer servir Poder Secret?$"

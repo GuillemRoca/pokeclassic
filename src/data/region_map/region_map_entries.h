@@ -1,7 +1,7 @@
 #ifndef GUARD_DATA_REGION_MAP_REGION_MAP_ENTRIES_H
 #define GUARD_DATA_REGION_MAP_REGION_MAP_ENTRIES_H
 
-static const u8 sMapName_LittlerootTown[] = _("Poble Arreleta");
+static const u8 sMapName_LittlerootTown[] = _("Poble Littleroot");
 static const u8 sMapName_OldaleTown[] = _("Poble Oldale");
 static const u8 sMapName_DewfordTown[] = _("Poble Dewford");
 static const u8 sMapName_LavaridgeTown[] = _("Poble Lavaridge");

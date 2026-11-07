@@ -56,11 +56,11 @@ Roulette_Text_KeepPlaying::
 	.string "Vols seguir jugant?$"
 
 Roulette_Text_BoardWillBeCleared::
-	.string "El tauler de Ruleta es netejarà.$"
+	.string "El tauler de la Ruleta es netejarà.$"
 
 @ Unused
 Roulette_Text_YouDontHaveACoinCase::
-	.string "No tens un Moneder.$"
+	.string "No tens cap Moneder.$"
 
 Roulette_Text_CoinCaseIsFull::
 	.string "El teu Moneder és ple!\n"

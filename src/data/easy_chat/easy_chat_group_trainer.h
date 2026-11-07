@@ -1,5 +1,5 @@
-const u8 gEasyChatWord_IChooseYou[] = _("Et Trio a Tu");
-const u8 gEasyChatWord_Gotcha[] = _("T'he Pillat");
+const u8 gEasyChatWord_IChooseYou[] = _("Et trio a tu");
+const u8 gEasyChatWord_Gotcha[] = _("T'he enxampat");
 const u8 gEasyChatWord_Trade[] = _("Intercanvi");
 const u8 gEasyChatWord_Sapphire[] = _("Safir");
 const u8 gEasyChatWord_Evolve[] = _("Evolucionar");

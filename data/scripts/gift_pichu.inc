@@ -59,7 +59,7 @@ SurfPichu_Slot5:
 	return
 
 sText_MysteryGiftEgg:
-	.string "Gràcies per utilitzar el sistema\n"
+	.string "Gràcies per utilitzar el Sistema\n"
 	.string "de Regal Misteriós.\p"
 	.string "Del Centre Pokémon tenim\n"
 	.string "un regal: un Ou Pokémon!\p"

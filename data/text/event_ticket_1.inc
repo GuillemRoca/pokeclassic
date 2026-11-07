@@ -1,11 +1,12 @@
 EventTicket_Text_ShowOldSeaMap:
-	.string "El vaixell cap a Slateport és…\p"
+	.string "El vaixell cap a Ciutat Slateport és…\p"
 
 
-	.string "Perdona'm?\n"
+	.string "Com dius?\n"
 
 
-	.string "Podem navegar fins a aquest lloc del mapa?\p"
+	.string "Vols navegar fins a aquest lloc\l"
+	.string "del mapa?\p"
 
 
 	.string "Conec algú que et pot ajudar millor.\n"
@@ -16,7 +17,7 @@ EventTicket_Text_ShowOldSeaMap:
 
 
 EventTicket_Text_ThatPass:
-	.string "El vaixell cap a Slateport és…\p"
+	.string "El vaixell cap a Ciutat Slateport és…\p"
 
 
 	.string "Oh?\n"
@@ -59,7 +60,7 @@ EventTicket_Text_SouthernIslandSailBack:
 	.string "veure ni fer en aquesta illeta.\p"
 
 
-	.string "Tornem a Lilycove, què et sembla?$"
+	.string "Tornem a Ciutat Lilycove, vols?$"
 
 
 
@@ -85,9 +86,9 @@ SouthernIsland_Interior_Text_Sign:
 
 
 SouthernIsland_Exterior_Text_Sign:
-	.string "“Aquells els records dels quals s'esvaeixen\n"
+	.string "“Els qui veuen esvair-se els seus\n"
 
 
-	.string "busquen gravar-los al cor…”$"
+	.string "records miren de gravar-los al cor…”$"
 
 

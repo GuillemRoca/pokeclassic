@@ -11,8 +11,8 @@ EventScript_PkmnCenterNurse_NormalHeal::
 	end
 
 gText_WouldYouLikeToRestYourPkmn::
-    .string "Hola, i benvingut al\n"
-    .string "Centre Pokémon.\p"
+    .string "Hola! Et donem la benvinguda\n"
+    .string "al Centre Pokémon.\p"
     .string "Restaurem els teus Pokémon\n"
     .string "cansats a plena salut.\p"
     .string "Vols que descansin els teus Pokémon?$"
@@ -80,9 +80,10 @@ gText_PokerusExplanation::
 	.string "infectats amb Pokérus.\p"
 	.string "Se sap poc del Pokérus\n"
 	.string "excepte que són formes de vida\l"
-	.string "microscòpiques que s'enganxen.\p"
+	.string "microscòpiques que s'enganxen als\l"
+	.string "Pokémon.\p"
 	.string "Mentre estan infectats, es diu que\n"
-	.string "els Pokémon creixen molt bé.$"
+	.string "els Pokémon creixen d'allò més bé.$"
 
 gText_WeHopeToSeeYouAgain::
     .string "Esperem tornar-te a veure!$"

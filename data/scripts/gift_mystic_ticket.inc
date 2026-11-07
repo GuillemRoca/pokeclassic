@@ -31,23 +31,23 @@ MysticTicket_Obtained:
 	end
 
 sText_MysticTicketForYou:
-	.string "Gràcies per utilitzar el sistema\n"
+	.string "Gràcies per utilitzar el Sistema\n"
 	.string "de Regal Misteriós.\p"
 	.string "Tu deus ser {PLAYER}.\n"
 	.string "Hi ha un tiquet aquí per a tu.$"
 
 sText_MysticTicketUseAtPort:
 	.string "Sembla que és per fer servir al\n"
-	.string "port de Ciutat Lliricove.\p"
+	.string "port de Ciutat Lilycove.\p"
 	.string "Per què no ho proves i veus\n"
 	.string "de què es tracta?$"
 
 sText_MysticTicketThankYou:
-	.string "Gràcies per utilitzar el sistema\n"
+	.string "Gràcies per utilitzar el Sistema\n"
 	.string "de Regal Misteriós.$"
 
 sText_MysticTicketBagFull:
 	.string "Oh, ho sento, {PLAYER}.\n"
-	.string "La Butxaca d'Obj. Clau és plena.\p"
+	.string "La butxaca d'Obj. Clau és plena.\p"
 	.string "Desa alguna cosa al teu PC\n"
 	.string "i torna a buscar-ho.$"

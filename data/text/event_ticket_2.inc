@@ -14,10 +14,10 @@ EventTicket_Text_OldSeaMapTooFar:
 	.string "… … … … … …\p"
 
 
-	.string "Noi, això és molt lluny.\n"
+	.string "Uf, això queda molt lluny.\n"
 
 
-	.string "Em temo que no te'n puc ajudar…$"
+	.string "Em temo que no et puc ajudar…$"
 
 
 
@@ -25,7 +25,7 @@ EventTicket_Text_BrineyHoldOnASecond:
     .string "Briney: Espera un moment!\p"
 
 
-	.string "Quin motiu hi ha per negar-se a\n"
+	.string "Per què li dius que no a\n"
 
 
 	.string "algú a qui dec tant?$"
@@ -51,7 +51,7 @@ EventTicket_Text_BrineyLetsSail:
 	.string "Anem a trobar aquesta illa al\n"
 
 
-	.string "Vell Mapa Marí!$"
+	.string "Mapa Mar Vell!$"
 
 
 
@@ -62,10 +62,10 @@ EventTicket_Text_OddTicketGetOnBoard:
 	.string "tiquet estrany?\p"
 
 
-	.string "On vols anar és una illa\n"
+	.string "Allà on vols anar és una illa\n"
 
 
-	.string "que és molt, molt lluny.\p"
+	.string "molt, molt llunyana.\p"
 
 
 	.string "Ningú sap el que hi espera…\p"
@@ -94,7 +94,7 @@ FarawayIsland_Entrance_Text_SailorReturn:
 	.string "Ja has explorat l'illa?\p"
 
 
-	.string "Vols tornar a Cinabri?$"
+	.string "Vols tornar a l'Illa Cinabri?$"
 
 
 
@@ -102,7 +102,7 @@ BirthIsland_Harbor_Text_SailorReturn:
     .string "Quina illa amb una forma estranya!\n"
 
 
-	.string "Vols tornar a Lilycove?$"
+	.string "Vols tornar a Ciutat Lilycove?$"
 
 
 
@@ -116,10 +116,10 @@ EventTicket_Text_OddTicketsWhereTo:
 	.string "… … …Hmm.\p"
 
 
-	.string "Aquests tiquets t'han de portar a illes\n"
+	.string "Aquests tiquets et portaran a illes\n"
 
 
-	.string "que són molt, molt lluny.\p"
+	.string "molt, molt llunyanes.\p"
 
 
 	.string "Ningú sap el que hi espera,\n"
@@ -142,13 +142,13 @@ EventTicket_Text_OddTicketsWhereTo:
 
 
 NavelRock_Harbor_Text_SailorReturn:
-    .string "Vas… Vas sentir-ho?\n"
+    .string "Ho has… Ho has sentit?\n"
 
 
-	.string "Aquell udol profund des de dins.\p"
+	.string "Aquell grunyit greu d'allà dins.\p"
 
 
-	.string "Segur que és segur?\n"
+	.string "Segur que no hi ha perill?\n"
 
 
 	.string "Creus que hauríem de marxar?$"
@@ -162,7 +162,7 @@ FarawayIsland_Entrance_Text_Sign:
 	.string "hagués estat escrita fa molt…\p"
 
 
-	.string "“…de, dia 6\n"
+	.string "“…bre, dia 6\n"
 
 
 	.string "Si algun humà…trepitja aquí…\l"

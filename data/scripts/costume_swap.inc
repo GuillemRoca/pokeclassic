@@ -212,7 +212,7 @@ EventScript_Dresser_Finish::
 	end
 
 Text_ChangeClothes_Confirm:
-	.string "Portar aquest vestit?$"
+	.string "Vols portar aquest vestit?$"
 
 Text_ChangeClothes_Finished:
-	.string "Queda genial!$"
+	.string "Et queda genial!$"
