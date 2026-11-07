@@ -577,3 +577,81 @@ def bar_label(view, body, text, font=None, align='center', x_left=None, border=N
         x += gw
     return w
 
+
+
+class ScreenEdit:
+    """Edit a tilemap region as screen pixels, then write it back: a changed cell
+    whose tile is shown only there is written in place; a changed cell whose tile
+    is shared gets one of `free` tiles and its map entry is repointed (flips
+    cleared, palette kept). Call save() to write the sheet and the .bin."""
+    def __init__(self, sheet, bin_path, free, base=0, width=32):
+        self.s, self.bin, self.free, self.base, self.mw = sheet, bin_path, list(free), base, width
+        self.e = load_map(bin_path)
+        self.use = usage(sheet, {'m': self.e}, base, width)
+        self.px = {}
+
+    def _src(self, cx, cy, tx, ty):
+        e = self.e[cy * self.mw + cx]
+        t = (e & 0x3FF) - self.base
+        if e & 0x400: tx = 7 - tx
+        if e & 0x800: ty = 7 - ty
+        return (t % self.s.tw) * 8 + tx, (t // self.s.tw) * 8 + ty
+
+    def load(self, cx0, cy0, wc, hc):
+        for cy in range(cy0, cy0 + hc):
+            for cx in range(cx0, cx0 + wc):
+                for ty in range(8):
+                    for tx in range(8):
+                        self.px[(cx * 8 + tx, cy * 8 + ty)] = self.s.px[self._src(cx, cy, tx, ty)]
+        return self
+
+    def __getitem__(self, q):
+        return self.px[q]
+
+    def __setitem__(self, q, v):
+        if q not in self.px:
+            raise IndexError(q)
+        self.px[q] = v
+
+    def commit(self):
+        """A shared tile whose uses all change keeps one of them; identical new
+        cells share a tile; everything else takes a free tile."""
+        cells = sorted({(x // 8, y // 8) for (x, y) in self.px})
+        changed = {}
+        for (cx, cy) in cells:
+            new = tuple(tuple(self.px[(cx * 8 + tx, cy * 8 + ty)] for tx in range(8)) for ty in range(8))
+            old = tuple(tuple(self.s.px[self._src(cx, cy, tx, ty)] for tx in range(8)) for ty in range(8))
+            if new != old:
+                changed[(cx, cy)] = new
+        by_tile = {}
+        for (cx, cy) in changed:
+            by_tile.setdefault((self.e[cy * self.mw + cx] & 0x3FF) - self.base, []).append((cx, cy))
+        made = {}                                   # new content -> tile
+        for t, here in sorted(by_tile.items()):
+            uses = {(c[1], c[2]) for c in self.use.get(t, [])}
+            keep = uses <= set(here)                # every use changes: one may keep the tile
+            for (cx, cy) in here:
+                content = changed[(cx, cy)]
+                i = cy * self.mw + cx
+                if content in made:
+                    nt = made[content]
+                elif keep:
+                    nt, keep = t, False
+                elif len(uses) == 1:
+                    nt = t
+                else:
+                    if not self.free:
+                        raise ValueError(f'no free tile left for cell {(cx, cy)}')
+                    nt = self.free.pop(0)
+                made[content] = nt
+                self.e[i] = (self.e[i] & 0xF000) | (nt + self.base)
+                for ty in range(8):
+                    for tx in range(8):
+                        self.s.px[(nt % self.s.tw) * 8 + tx, (nt // self.s.tw) * 8 + ty] = content[ty][tx]
+
+    def save(self):
+        self.commit()
+        self.s.save()
+        with open(self.bin, 'wb') as f:
+            f.write(struct.pack('<%dH' % len(self.e), *self.e))
+        return self.free

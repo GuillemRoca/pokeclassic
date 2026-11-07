@@ -237,6 +237,7 @@ out the original files from `origin/main` and run the scripts in this order
 | `make_pokegear.py ROOT` | `pokenav/options/*.png`, `pokenav/left_headers/*.png`, `city_zoom_text.png`, `condition/cancel.png` | PokéGear: MAPA DE KANTO, TELÈFON, CONDICIÓ, CINTES, GUARDAR, EQUIP POKéMON, CERCA, TORNAR, FRESCOR, BELLESA, TENDRESA, INTEL·LIGÈNCIA, FORÇA; headers MENÚ PRINCIPAL, CONDICIÓ, TELÈFON, CINTES, MAPA + COMPLET / AMPLIAT, EQUIP, CERCA, INTEL.; map legend CENTRE / BOTIGA / GIMNÀS / CONCURS POKéMON, CARPA DE COMBAT; tag TORNA |
 | `make_condition_graph.py ROOT` | `pokenav/condition/graph.png`, `pokeblock/use_screen/graph.png` | condition pentagon FRESCOR, BELLESA, TENDRESA, INTEL., FORÇA (old labels filled in from the picture around them) |
 | `make_pokeblock.py ROOT` | `pokeblock/menu.png`, `use_screen/condition.png`, `use_screen/updown.png` | SUAV., CONDICIÓ, PUJA / BAIXA |
+| `make_dexnav.py ROOT` | `dexnav/gui_tiles.png`, `gui_tilemap.bin` | AIGUA, TERRA, OCULTS, CERCA, ESPÈCIE, TIPUS, NIVELL DE CERCA, HAB. OCULTA, CADENA ACTUAL. Longer words that reach a repeated bar tile get one of the unused tiles 167-175 and the map entry is repointed (`tiles.ScreenEdit`) |
 
 `tiles.py` holds what the scripts share: tilemap usage (a label may only be
 redrawn in tiles nothing else shows), views that put sprite or tilemap tiles

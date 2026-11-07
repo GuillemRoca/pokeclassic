@@ -472,6 +472,7 @@ _(La llista completa de decisions per espècie es completarà durant la Fase 2, 
 | COOL, BEAUTY, CUTE, SMART, TOUGH | FRESCOR, BELLESA, TENDRESA, INTEL·LIGÈNCIA (INTEL. on no hi cap), FORÇA | Condició i concursos |
 | POKéMON CENTER, POKé MART, POKéMON GYM, BATTLE TENT, POKéMON CONTEST | CENTRE POKéMON, BOTIGA POKéMON, GIMNÀS POKéMON, CARPA DE COMBAT, CONCURS POKéMON | Llegenda del mapa ampliat |
 | FEEL / UP / DOWN | SUAV. / PUJA / BAIXA | Estoig {POKEBLOCK} i pantalla d'alimentar |
+| WATER, LAND, HIDDEN, SPECIES, SEARCH LEVEL, HIDDEN ABILITY, CURRENT CHAIN | AIGUA, TERRA, OCULTS, ESPÈCIE, NIVELL DE CERCA, HAB. OCULTA, CADENA ACTUAL | DexNav |
 
 ### Medalles i Líders
 
