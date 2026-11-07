@@ -1792,8 +1792,8 @@ static const u8 sDestinyKnotDesc[] = _(
 
 static const u8 sDampRockDesc[] = _(
     "Allarga la durada\n"
-    "de Pluja si l'usa\n"
-    "el portador.");
+    "de Dansa Pluja si\n"
+    "l'usa el portador.");
 
 static const u8 sHeatRockDesc[] = _(
     "Allarga la durada\n"

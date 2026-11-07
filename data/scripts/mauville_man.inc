@@ -668,7 +668,7 @@ MauvilleCity_PokemonCenter_1F_Text_UsedRockSmashAction::
 MauvilleCity_PokemonCenter_1F_Text_UsedRockSmashStory::
 	.string "Aquesta és la història d'un\n"
 	.string "Entrenador anomenat {STR_VAR_3}.\p"
-	.string "Ha usat Trencar Roca\n"
+	.string "Ha usat Trencaroques\n"
 	.string "{STR_VAR_1} vegades!\p"
 	.string "{STR_VAR_3} deu ser un Entrenador que\n"
 	.string "no deixa cap pedra sencera!$"
@@ -696,13 +696,13 @@ MauvilleCity_PokemonCenter_1F_Text_UsedSplashTitle::
 
 
 MauvilleCity_PokemonCenter_1F_Text_UsedSplashAction::
-	.string "Has usat Esplai$"
+	.string "Has usat Esquitx$"
 
 
 MauvilleCity_PokemonCenter_1F_Text_UsedSplashStory::
 	.string "Aquesta és la història d'un\n"
 	.string "Entrenador anomenat {STR_VAR_3}.\p"
-	.string "Ha usat Esplai\n"
+	.string "Ha usat Esquitx\n"
 	.string "{STR_VAR_1} vegades!\p"
 	.string "{STR_VAR_3} deu ser un Entrenador\n"
 	.string "que adora esquitxar!$"

@@ -17,7 +17,7 @@ MoveTutor_Text_DoubleEdgeTeach::
     .string "mateix per haver travessat el Camí\l"
     .string "de la Victòria amb tanta valentia.\p"
     .string "En reconeixement de la teva gesta,\n"
-    .string "t'ensenyaré Doble Tall.\p"
+    .string "t'ensenyaré Doble Fil.\p"
     .string "Vols que t'ensenyi aquesta\n"
     .string "tècnica?$"
 
@@ -32,7 +32,7 @@ MoveTutor_Text_DoubleEdgeDeclined::
 
 MoveTutor_Text_DoubleEdgeWhichMon::
     .string "A quin Pokémon he d'ensenyar\n"
-    .string "Doble Tall?$"
+    .string "Doble Fil?$"
 
 MoveTutor_EventScript_DoubleEdgeTaught::
 	msgbox MoveTutor_Text_DoubleEdgeTaught, MSGBOX_DEFAULT

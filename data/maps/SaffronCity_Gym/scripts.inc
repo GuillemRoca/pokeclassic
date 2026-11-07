@@ -207,7 +207,7 @@ SaffronCity_Gym_Text_ReceivedBadge::
 
 SaffronCity_Gym_Text_ExplainBadge::
     .string "La Medalla Pantà permet als teus\n"
-    .string "Pokémon usar Trencar Roca.\p"
+    .string "Pokémon usar Trencaroques.\p"
     .string "També farà que els Pokémon fins\n"
     .string "al Nv. 70 t'obeeixin.\p"
     .string "Els Pokémon més forts es tornaran\n"

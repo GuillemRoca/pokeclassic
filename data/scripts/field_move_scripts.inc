@@ -205,7 +205,7 @@ EventScript_CancelSmash::
 
 Text_WantToSmash:
 	.string "Aquesta roca sembla trencadissa.\n"
-	.string "Vols fer servir Trencar Roca?$"
+	.string "Vols fer servir Trencaroques?$"
 
 Text_CantSmash:
 	.string "És una roca dura, però un Pokémon\n"

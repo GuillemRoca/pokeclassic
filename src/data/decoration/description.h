@@ -283,8 +283,8 @@ const u8 DecorDesc_THUNDER_MAT[] = _(
         "Posa-hi objectes.");
 
 const u8 DecorDesc_FIRE_BLAST_MAT[] = _(
-    "Una catifa amb\n"
-        "disseny d'Infern.\n"
+    "Catifa amb disseny\n"
+        "de Flamarada.\n"
         "Posa-hi objectes.");
 
 const u8 DecorDesc_POWDER_SNOW_MAT[] = _(

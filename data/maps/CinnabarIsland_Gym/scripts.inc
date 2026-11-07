@@ -863,7 +863,7 @@ CinnabarIsland_Gym_Text_ReceivedTM::
 	.string "de Blaine.$"
 
 CinnabarIsland_Gym_Text_ExplainTM::
-	.string "La MT38 conté Infern.\n"
+	.string "La MT38 conté Flamarada.\n"
 	.string "Ensenya-la a Pokémon de Foc.\p"
 	.string "Vulpix o Charmeleon serien\n"
 	.string "ideals per a aquest moviment.$"
@@ -885,7 +885,7 @@ CinnabarIsland_Gym_EventScript_LeaderPostBattle::
 	end
 
 CinnabarIsland_Gym_Text_LeaderPostBattle::
-	.string "Infern és la tècnica\n"
+	.string "Flamarada és la tècnica\n"
 	.string "definitiva de foc.\p"
 	.string "No la malgastis amb Pokémon\n"
 	.string "d'Aigua.$"

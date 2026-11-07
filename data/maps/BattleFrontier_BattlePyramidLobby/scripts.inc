@@ -946,7 +946,7 @@ BattleFrontier_BattlePyramidLobby_Text_HintFighting:
 
 
 BattleFrontier_BattlePyramidLobby_Text_HintWeather:
-	.string "Pluja… Dia Assolellat…\n"
+	.string "Dansa Pluja… Dia Assolellat…\n"
 
 	.string "Tempesta Sorra… Calabruix…\p"
 

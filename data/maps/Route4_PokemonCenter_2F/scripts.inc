@@ -26,7 +26,7 @@ Route4_PokemonCenter_2F_HikerRockSmash::
 
 Route4_PokemonCenter_2F_Text_MyGeodude::
 	.string "Ves amb compte quan facis servir\n"
-	.string "Trencar Roca. A vegades, pot\l"
+	.string "Trencaroques. A vegades, pot\l"
 	.string "sortir-ne un Pokémon!\p"
 	.string "Així és com vaig conèixer\n"
 	.string "el meu Geodude!$"
