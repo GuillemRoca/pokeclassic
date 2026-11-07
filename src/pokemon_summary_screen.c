@@ -3333,7 +3333,9 @@ static void PrintSkillsPage(void)
     x = GetStringCenterAlignXOffset(1, gStringVar1, 72) + 76;
     PrintTextOnWindow(PSS_LABEL_PANE_RIGHT, gStringVar1, x, 88, 0, PSS_COLOR_BLACK_GRAY_SHADOW);
 
-    PrintTextOnWindow(PSS_LABEL_PANE_RIGHT, sText_Ability, 8, 112, 0, PSS_COLOR_WHITE_BLACK_SHADOW);
+    // 'Habilitat' is 48px in FONT_NORMAL and runs into the ability name box at x=51;
+    // FONT_NARROW (42px) keeps it aligned with the description below.
+    AddTextPrinterParameterized4(PSS_LABEL_PANE_RIGHT, FONT_NARROW, 8, 112, 0, 0, sTextColors[PSS_COLOR_WHITE_BLACK_SHADOW], 0, sText_Ability);
     StringCopy(gStringVar1, gAbilityNames[GetAbilityBySpecies(sMonSummaryScreen->summary.species, summary->abilityNum)]);
     x = GetStringCenterAlignXOffset(1, gStringVar1, 88) + 58;
     PrintTextOnWindow(PSS_LABEL_PANE_RIGHT, gStringVar1, x, 112, 0, PSS_COLOR_BLACK_GRAY_SHADOW);
@@ -3406,6 +3408,15 @@ static void PrintBattleMoves(void)
     PutWindowTilemap(PSS_LABEL_PANE_RIGHT);
 }
 
+// A move name starts at x=64, leaving 88px before the window edge. A few names
+// are wider than that in FONT_NORMAL; FONT_NARROW fits every one of them.
+#define SUMMARY_MOVE_NAME_WIDTH 88
+static void PrintSummaryMoveName(u8 windowId, const u8 *name, u8 y, u8 colorId)
+{
+    u8 font = GetStringWidth(FONT_NORMAL, name, 0) > SUMMARY_MOVE_NAME_WIDTH ? FONT_NARROW : FONT_NORMAL;
+    AddTextPrinterParameterized4(windowId, font, 64, y, 0, 0, sTextColors[colorId], 0, name);
+}
+
 static void PrintMoveNameAndPP(u8 moveIndex)
 {
     u32 pp, color, x;
@@ -3415,7 +3426,7 @@ static void PrintMoveNameAndPP(u8 moveIndex)
     if (summary->moves[moveIndex] != MOVE_NONE)
     {
         pp = CalculatePPWithBonus(summary->moves[moveIndex], summary->ppBonuses, moveIndex);
-        PrintTextOnWindow(PSS_LABEL_PANE_RIGHT, gMoveNames[summary->moves[moveIndex]], 64, moveIndex * 29, 0, PSS_COLOR_WHITE_BLACK_SHADOW);
+        PrintSummaryMoveName(PSS_LABEL_PANE_RIGHT, gMoveNames[summary->moves[moveIndex]], moveIndex * 29, PSS_COLOR_WHITE_BLACK_SHADOW);
         ConvertIntToDecimalStringN(gStringVar1, summary->pp[moveIndex], STR_CONV_MODE_LEFT_ALIGN, 2);
         ConvertIntToDecimalStringN(gStringVar2, pp, STR_CONV_MODE_LEFT_ALIGN, 2);
         StringAppend(gStringVar1, gText_Slash);
@@ -3638,7 +3649,7 @@ static void PrintNewMoveDetailsOrCancelText(void)
     if (sMonSummaryScreen->newMove != MOVE_NONE)
     {
         pp = gBattleMoves[sMonSummaryScreen->newMove].pp;
-        PrintTextOnWindow(PSS_LABEL_PANE_RIGHT_BOTTOM, gMoveNames[sMonSummaryScreen->newMove], 64, 12, 0, 1);
+        PrintSummaryMoveName(PSS_LABEL_PANE_RIGHT_BOTTOM, gMoveNames[sMonSummaryScreen->newMove], 12, 1);
         ConvertIntToDecimalStringN(gStringVar1, pp, STR_CONV_MODE_LEFT_ALIGN, 2);
         ConvertIntToDecimalStringN(gStringVar2, pp, STR_CONV_MODE_LEFT_ALIGN, 2);
         StringAppend(gStringVar1, gText_Slash);

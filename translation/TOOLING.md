@@ -1,6 +1,6 @@
 # Catalan translation — verification tooling
 
-Three checks that catch the failure modes a translation of this size runs into.
+Five checks that catch the failure modes a translation of this size runs into.
 The width audits compare only against strings this branch actually changed, so
 untouched English text is never reported. Run them from the repo root.
 
@@ -62,6 +62,14 @@ accented glyphs count as the single bytes the ROM stores.
 
 The item-name limit is the easy one to get wrong: the field is 14 bytes but one
 is the terminator, so 13 characters is the real maximum.
+
+Move names are also checked in **pixels** against the two fixed slots that draw
+them, with the same font choice the code makes:
+
+| Slot | Limit | Font |
+| --- | --- | --- |
+| summary move list (`PrintSummaryMoveName`, x=64 in a 152 px window) | 88 px | `FONT_NORMAL`; `FONT_NARROW` for the 9 names wider than 88 px |
+| battle move menu (`B_WIN_MOVE_NAME_*`) | 64 px | `FONT_NARROW`, condensed 1 px per glyph above 64 px |
 
 ## `audit_box_widths.py` — text-box overflow
 
@@ -200,6 +208,31 @@ template that draws it:
   (Hoenn, unused here) is 82 px.
 - **Easy-chat word order** (`easy_chat_words_by_letter.h`) is still sorted by
   the English words.
+
+## Text inside graphics — `translation/gfx/`
+
+Some English is pixel art, not text. Each image was redrawn by a small script
+that reuses the image's own letters where it has them, so the style matches.
+They are one-shot transforms of the **English originals**: to redo one, check
+out the original files from `origin/main` and run the scripts in this order
+(`ROOT` is the repo root, or a copy of it).
+
+| Script | Images | Change |
+| --- | --- | --- |
+| `make_badges.py` | `graphics/types/*.png` | type and contest badges: NORMAL, LLUITA, VOLANT, VERÍ, TERRA, ROCA, INSEC., FANT., ACER, FOC, AIGUA, PLANTA, ELÈC., PSÍQ., GEL, DRAC, FOSC, FADA; FRESC., BELL., TEND., INTEL., FORÇA |
+| `make_lv.py ROOT` | `graphics/fonts/latin_*.png` | `{LV}` (0x34) and `{LV_2}` (0x105) glyphs: Lv → Nv. Widths in `src/fonts.c` grow by 0–2 px (normal 0x34 9→11, small 8→9, narrow 8→10) |
+| `make_no.py ROOT` | `graphics/fonts/latin_*.png` | `{NO}` (0x108): No → № (numero sign, same cell width) |
+| `make_ps.py ROOT A` | party menu `bg.png`, battle `hpbar.png`, summary `hp_bar.png` | HP bar label: HP → PS |
+| `make_press_start.py ROOT` | `graphics/title_screen/press_start.png` | PRESS START → PREM START (the M is the one from GAMEFREAK). The copyright line stays |
+| `make_naming.py ROOT c` | naming screen `roptions.png`, `rwindow.png` | page tabs MAJ. / min. / altres; buttons SUPR, FET; BOTÓ B. SELECT and START are button names |
+
+Running all of them on the `origin/main` files reproduces the committed images
+byte for byte. EXP (healthbox) is kept: it reads the same in Catalan.
+
+Two layout fixes came out of checking these screens in mGBA: the summary
+skills page prints "Habilitat" in `FONT_NARROW` (48 px in the normal font ran
+into the ability box at x=51), and `PrintSummaryMoveName` switches long move
+names to `FONT_NARROW` (Psicopotenciador was cut at the window edge).
 
 ### Known limitation of the audit
 

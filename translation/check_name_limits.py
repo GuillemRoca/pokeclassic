@@ -12,12 +12,19 @@ Limits below reflect this branch's config:
   item name is `u8 name[ITEM_NAME_LENGTH]` = name[14] *including* the 0xFF
   terminator, so the usable limit is 13, not 14.
 
+Move names are also checked in pixels against the two places that draw them
+in a fixed slot, using the same font choice the code makes:
+  summary move list   x=64 in a 152px window -> 88px; FONT_NORMAL, or
+                      FONT_NARROW when wider (PrintSummaryMoveName)
+  battle move menu    64px; FONT_NARROW, condensed by 1px per glyph when wider
+                      (BattleSetTextCondensed in battle_controller_player.c)
+
 Usage:
     python3 translation/check_name_limits.py     # exits 1 if anything is over
 """
 import os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from width_audit import encode, ROOT
+from width_audit import encode, line_widths, W_NORMAL, W_NARROW, ROOT
 
 
 def entries(text):
@@ -68,4 +75,29 @@ for s, ln in sorted(bad, key=lambda x: -x[1]):
     print(f'      {ln:3d}  {s!r}')
 
 print(f'\nTOTAL OVER ARRAY LIMIT: {total}')
+
+
+def condensed_width(name):
+    """Narrow-font extent with the condensed rule of gflib/text.c RenderText:
+    every glyph wider than 1px except spaces advances 1px less."""
+    codes = encode(name, for_width=True)
+    ws = [W_NARROW[c] if c < len(W_NARROW) else 0 for c in codes]
+    shrink = sum(1 for c, w in zip(codes, ws) if c != 0x00 and w > 1)
+    return sum(ws) - max(0, shrink - 1)
+
+
+moves = entries(active_move_names(open(f'{ROOT}/src/data/text/move_names.h', encoding='utf-8').read()))
+px_bad = []
+for n, name in moves:
+    normal, narrow = line_widths(name, W_NORMAL)[0], line_widths(name, W_NARROW)[0]
+    summary = normal if normal <= 88 else narrow
+    battle = narrow if narrow <= 64 else condensed_width(name)
+    if summary > 88:
+        px_bad.append((n, name, f'summary {summary}px > 88'))
+    if battle > 64:
+        px_bad.append((n, name, f'battle {battle}px > 64'))
+print(f'move name pixels: {len(moves)} names, {len(px_bad)} over their slot')
+for n, name, why in px_bad:
+    print(f'      {n:28s} {name!r}  {why}')
+total += len(px_bad)
 sys.exit(1 if total else 0)

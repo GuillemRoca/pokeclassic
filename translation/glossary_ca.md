@@ -398,7 +398,7 @@ _(La llista completa de decisions per espècie es completarà durant la Fase 2, 
 |--------|--------|------|
 | OT (Original Trainer) | EO | Pantalla de resum; `EO/` als menús. |
 | ID No. | Núm. ID | |
-| Pokédex No. / No. | Núm. Pokédex / Núm. | "núm." és l'abreviatura de l'IEC (no "n.º"). |
+| Pokédex No. / No. | Núm. Pokédex / Núm. | "núm." és l'abreviatura de l'IEC (no "n.º"). El glif `{NO}` ocupa una sola cel·la (10 px) a les llistes de la Pokédex, la Motxilla i el DexNav, on "Núm." no hi cap: es dibuixa com el signe de número "№". |
 | HP / PP (etiquetes) | PS / PU | Iguals a combat. |
 | BP (Battle Points) | BP | Es manté: "PC" es confondria amb l'ordinador. En text complet: "Punts de Combat". |
 | critical-hit ratio | taxa de cop crític | Femení ("alta taxa"), no "ratio". |
@@ -439,6 +439,21 @@ _(La llista completa de decisions per espècie es completarà durant la Fase 2, 
 | Judge / appeal | Jutge / actuació | |
 | Drive (items) | Unitat | |
 | nickname | sobrenom | No "malnom". |
+
+### Text dins dels gràfics
+
+| Anglès | Català | On |
+|--------|--------|----|
+| Lv (glif `{LV}` / `{LV_2}`) | Nv | Equip, resum, combat, guarderia. Al text, "Nv." |
+| HP (etiqueta de la barra) | PS | Equip, combat, resum |
+| PRESS START | PREM START | Pantalla de títol. START és el nom del botó |
+| UPPER / lower / others | MAJ. / min. / altres | Pestanyes del teclat de noms ("Maj" com la tecla del teclat català) |
+| BACK | SUPR | Botó d'esborrar del teclat de noms ("Esborra" no hi cap) |
+| OK | FET | Botó de confirmar el nom ("D'acord" no hi cap) |
+| B BUTTON | BOTÓ B | |
+| SELECT / START | SELECT / START | Noms dels botons de la consola: no es tradueixen |
+| EXP | EXP | Igual en català |
+| Insígnies de tipus | INSEC., FANT., ELÈC., PSÍQ.… | Com `gTypeNames`. Concursos: FRESC., BELL., TEND., INTEL., FORÇA |
 
 ### Medalles i Líders
 
