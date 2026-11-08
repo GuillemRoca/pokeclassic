@@ -238,14 +238,19 @@ out the original files from `origin/main` and run the scripts in this order
 | `make_condition_graph.py ROOT` | `pokenav/condition/graph.png`, `pokeblock/use_screen/graph.png` | condition pentagon FRESCOR, BELLESA, TENDRESA, INTEL., FORÇA (old labels filled in from the picture around them) |
 | `make_pokeblock.py ROOT` | `pokeblock/menu.png`, `use_screen/condition.png`, `use_screen/updown.png` | SUAV., CONDICIÓ, PUJA / BAIXA |
 | `make_dexnav.py ROOT` | `dexnav/gui_tiles.png`, `gui_tilemap.bin` | AIGUA, TERRA, OCULTS, CERCA, ESPÈCIE, TIPUS, NIVELL DE CERCA, HAB. OCULTA, CADENA ACTUAL. Longer words that reach a repeated bar tile get one of the unused tiles 167-175 and the map entry is repointed (`tiles.ScreenEdit`) |
+| `make_slots.py ROOT` | `slot_machine/menu.png`, `menu.bin`, `info_box.bin`, `reel_symbols/7.png` | CRÈDIT, PREMI; SURT (SORTIR does not fit), TORNAR; pay table GRAN PREMI, PETIT PREMI, TIRADA, PODER; REPLAY reel symbol TIRADA. No spare tile is taken from those the code or the Reel Time window use |
 
 `tiles.py` holds what the scripts share: tilemap usage (a label may only be
 redrawn in tiles nothing else shows), views that put sprite or tilemap tiles
 back in screen order, the game fonts, and `LearnedLabel`/`relabel`, which only
 draw once the English label has been re-rendered pixel for pixel. Labels that
-are still English on purpose: the copyright line, button names (SELECT, START,
+are still English on purpose: the slot machine's dot-matrix display (REEL
+TIME, INSERT, STOP, WIN, LOSE, BIG/REG BONUS: an animation built letter by
+letter from a fixed set of sprites, e.g. three for BIG; the help text gives
+its meaning), the copyright line, button names (SELECT, START,
 A, B, L, R), EXP, PP, ID, and `trainer_card/card_fr.png` (only drawn for a
-linked FireRed/LeafGreen player).
+linked FireRed/LeafGreen player). Emerald screens no map of this game leads to
+(contests, Battle Frontier, link minigames) are not redrawn.
 
 Running all of them on the `origin/main` files reproduces the committed images
 byte for byte. EXP (healthbox) is kept: it reads the same in Catalan.

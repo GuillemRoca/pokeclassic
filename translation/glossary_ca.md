@@ -473,6 +473,8 @@ _(La llista completa de decisions per espècie es completarà durant la Fase 2, 
 | POKéMON CENTER, POKé MART, POKéMON GYM, BATTLE TENT, POKéMON CONTEST | CENTRE POKéMON, BOTIGA POKéMON, GIMNÀS POKéMON, CARPA DE COMBAT, CONCURS POKéMON | Llegenda del mapa ampliat |
 | FEEL / UP / DOWN | SUAV. / PUJA / BAIXA | Estoig {POKEBLOCK} i pantalla d'alimentar |
 | WATER, LAND, HIDDEN, SPECIES, SEARCH LEVEL, HIDDEN ABILITY, CURRENT CHAIN | AIGUA, TERRA, OCULTS, ESPÈCIE, NIVELL DE CERCA, HAB. OCULTA, CADENA ACTUAL | DexNav |
+| CREDIT / PAYOUT / QUIT | CRÈDIT / PREMI / SURT | Escurabutxaques (SORTIR no hi cap) |
+| BIG BONUS / REG BONUS / REPLAY / POWER | GRAN PREMI / PETIT PREMI / TIRADA / PODER | Taula de premis i símbol del rodet |
 
 ### Medalles i Líders
 

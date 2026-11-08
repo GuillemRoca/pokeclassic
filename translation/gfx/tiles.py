@@ -584,10 +584,14 @@ class ScreenEdit:
     whose tile is shown only there is written in place; a changed cell whose tile
     is shared gets one of `free` tiles and its map entry is repointed (flips
     cleared, palette kept). Call save() to write the sheet and the .bin."""
-    def __init__(self, sheet, bin_path, free, base=0, width=32):
+    def __init__(self, sheet, bin_path, free, base=0, width=32, others=None):
+        """others: {name: entries} of other maps showing the same sheet. A tile they
+        show at the same screen cell counts as the same label; anywhere else, as a
+        use that must not change."""
         self.s, self.bin, self.free, self.base, self.mw = sheet, bin_path, list(free), base, width
         self.e = load_map(bin_path)
         self.use = usage(sheet, {'m': self.e}, base, width)
+        self.ext = usage(sheet, others or {}, base, width)
         self.px = {}
 
     def _src(self, cx, cy, tx, ty):
@@ -629,6 +633,10 @@ class ScreenEdit:
         made = {}                                   # new content -> tile
         for t, here in sorted(by_tile.items()):
             uses = {(c[1], c[2]) for c in self.use.get(t, [])}
+            foreign = {(c[1], c[2]) for c in self.ext.get(t, [])} - set(here)
+            if foreign:
+                # shown elsewhere by another map: only a free tile can take the change
+                uses |= {('x',) + f for f in foreign}
             keep = uses <= set(here)                # every use changes: one may keep the tile
             for (cx, cy) in here:
                 content = changed[(cx, cy)]
