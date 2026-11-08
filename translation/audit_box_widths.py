@@ -46,6 +46,9 @@ NAMED_CFG = [
     ('src/data/text/move_descriptions.h', r'sMoveFourLineDescription_\w+', 110, W_NORMAL, '4-line move desc'),
     ('src/data/text/move_descriptions.h', r'(?!sMoveFourLine)s\w+Description', 128, W_NARROW, '2-line move desc'),
     ('src/strings.c', POKEGEAR_DESC, 192, W_NORMAL, 'PokéGear option desc'),
+    # bag action grid (item_menu.c PrintContextMenuItemGrid): 2 columns at x 8 and 64 of a
+    # 112 px window, so any label that can land in the right column has 48 px
+    ('src/strings.c', r'gMenuText_\w+|gText_Cancel2', 48, W_NARROW, 'bag action grid', True),
 ]
 
 NAMED_RE = r'(?:static )?const u8 ({})\[\]\s*=\s*_\(\s*((?:"(?:[^"\\]|\\.)*"\s*)+)\);'
@@ -98,7 +101,7 @@ def audit(report=True):
         out[f'{path} [{label}]'] = (limit, label, over)
         if report:
             print(f'{path:38s} limit {limit:3d}px  {label:20s} overflowing: {len(over)}')
-    for path, name_re, limit, widths, label in NAMED_CFG:
+    for path, name_re, limit, widths, label, *strict in NAMED_CFG:
         new = named_blocks(open(f'{ROOT}/{path}', encoding='utf-8', errors='replace').read(), name_re)
         old = named_blocks(orig(path), name_re)
         over = []
@@ -108,7 +111,7 @@ def audit(report=True):
                 continue
             w = max(line_widths(b, widths))
             en = max(line_widths(a, widths)) if a else 0
-            if w > limit and w > en:
+            if w > limit and (strict or w > en):
                 over.append((w, f'{name}: {b}'))
         over.sort(reverse=True)
         out[f'{path} [{label}]'] = (limit, label, over)

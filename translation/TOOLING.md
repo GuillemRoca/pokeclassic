@@ -239,6 +239,7 @@ out the original files from `origin/main` and run the scripts in this order
 | `make_pokeblock.py ROOT` | `pokeblock/menu.png`, `use_screen/condition.png`, `use_screen/updown.png` | SUAV., CONDICIÓ, PUJA / BAIXA |
 | `make_dexnav.py ROOT` | `dexnav/gui_tiles.png`, `gui_tilemap.bin` | AIGUA, TERRA, OCULTS, CERCA, ESPÈCIE, TIPUS, NIVELL DE CERCA, HAB. OCULTA, CADENA ACTUAL. Longer words that reach a repeated bar tile get one of the unused tiles 167-175 and the map entry is repointed (`tiles.ScreenEdit`) |
 | `make_slots.py ROOT` | `slot_machine/menu.png`, `menu.bin`, `info_box.bin`, `reel_symbols/7.png` | CRÈDIT, PREMI; SURT (SORTIR does not fit), TORNAR; pay table GRAN PREMI, PETIT PREMI, TIRADA, PODER; REPLAY reel symbol TIRADA. No spare tile is taken from those the code or the Reel Time window use |
+| `make_easy_chat.py ROOT` | `easy_chat/button_window.png`, `easy_chat/mode.png`, `berry_blender/start.png` | Easy chat (mail): ESBORRA, BOTÓ (B), TORNAR, mode GRUP (SELECT, MODE and A-Z already read right). Berry Blender: START after the countdown → JA! ("Preparats, llestos... ja!"; the art is exactly fill + dark ring + light ring, so J and ! are drawn as fills) |
 
 `tiles.py` holds what the scripts share: tilemap usage (a label may only be
 redrawn in tiles nothing else shows), views that put sprite or tilemap tiles
@@ -261,7 +262,13 @@ into the ability box at x=51); `PrintSummaryMoveName` switches long move names
 to `FONT_NARROW` (Psicopotenciador was cut at the window edge); the berry tag
 prints its size and firmness values after the longer label (they overlapped
 "Fermesa /"), shows the size in centimetres under `UNITS_METRIC`, and its 64 px
-title says "Etiqueta".
+title says "Etiqueta". The bag's action grid has 48 px in its right column:
+"Veure etiq." lost its full stop there in the Berry Blender bag and "Registrar
+L" / "Desseleccionar" ran past the window in the Key Items pocket, so they are
+"Etiqueta", "Assignar L/R" and "Desmarcar" (checked by a strict 48 px entry in
+`audit_box_widths.py`). The easy chat screen shows a few pixels of the footer's
+last button between the keyboard and the mode sprite; the original does too
+(the "k" of "Ok"), so it is left as it is.
 
 ### Known limitation of the audit
 

@@ -69,6 +69,9 @@ per coherència i perquè el text hi càpiga. Vegeu [TOOLING.md](TOOLING.md).
 | Back | Tornar |
 | Exit | Sortir |
 | Next | Següent |
+| Register L / R (Motxilla) | Assignar L / R | Assignar l'objecte clau al botó L o R |
+| Deselect (Motxilla) | Desmarcar | |
+| Check tag (Motxilla) | Etiqueta | Com el títol de la pantalla de l'etiqueta |
 
 ### Termes Pokémon bàsics
 
@@ -475,6 +478,8 @@ _(La llista completa de decisions per espècie es completarà durant la Fase 2, 
 | WATER, LAND, HIDDEN, SPECIES, SEARCH LEVEL, HIDDEN ABILITY, CURRENT CHAIN | AIGUA, TERRA, OCULTS, ESPÈCIE, NIVELL DE CERCA, HAB. OCULTA, CADENA ACTUAL | DexNav |
 | CREDIT / PAYOUT / QUIT | CRÈDIT / PREMI / SURT | Escurabutxaques (SORTIR no hi cap) |
 | BIG BONUS / REG BONUS / REPLAY / POWER | GRAN PREMI / PETIT PREMI / TIRADA / PODER | Taula de premis i símbol del rodet |
+| DELETE / B BUTTON CANCEL / GROUP MODE | ESBORRA / BOTÓ (B) TORNAR / GRUP MODE | Text fàcil (cartes). SELECT, MODE i A-Z es queden igual |
+| START (Barrejador de Baies) | JA! | Després del compte enrere 3, 2, 1 ("Preparats, llestos... ja!") |
 
 ### Medalles i Líders
 
